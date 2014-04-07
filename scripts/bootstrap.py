@@ -1,5 +1,5 @@
 # SJS. Bootstrap an alignment with fasttree
-# USAGE: python bootstrap.py <alignment_file> <datatype>
+# USAGE: python bootstrap.py <alignment_file> <datatype> <bootnum> 
 ### datatype is either protein or dna. gap_exclude is max percentage of gaps allowed in a column to be used. numBoot is number of bootstraps.
 
 from random import randint
@@ -19,6 +19,7 @@ class Bootstrap():
 		self.percent = kwargs.get(percent, 0.90)
 		self.datatype = kwargs.get(datatype, '')
 		assert(self.datatype=='protein' or self.datatype=='dna'), "\n\nAccepted data types are protein or dna."
+		self.cluster = kwargs.get(cluster) # True if on cluster. False if on my computer.
 		
 		self.seqs = AlignIO.read(infile, 'fasta')
 		self.numseq = len(self.seqs)
@@ -64,12 +65,19 @@ class Bootstrap():
 			arg = '-wag'
 		elif self.datatype == 'dna':
 			arg = 'gtr'
-		BuildTree='FastTree '+arg+' -fastest -nosupport -quiet -n '+str(self.bootnum)+' '+self.alnfile+' > '+self.treefile
+		if self.cluster:
+			BuildTree='/share/apps/fasttree-2.1.3/FastTree '+arg+' -fastest -nosupport -quiet -n '+str(self.bootnum)+' '+self.alnfile+' > '+self.treefile
+		else:
+			BuildTree='FastTree '+arg+' -fastest -nosupport -quiet -n '+str(self.bootnum)+' '+self.alnfile+' > '+self.treefile
 		runtree=subprocess.call(str(BuildTree), shell='True')	
+		assert (runtree == 0), "FastTree fail"
 
-
+######## INPUT ARGUMENTS ###########
 infile = sys.argv[1]
-datatype = sys.argv[2]
+dtype = sys.argv[2]
+n = int(sys.argv[3])
+cluster_run = int(sys.argv[4]) ## 0 or 1
 
-boot = Bootstrap(seqfile = infile, datatype = protein, bootnum = 1)
+######## RUN THE BOOTSTRAP #########
+boot = Bootstrap(seqfile = infile, datatype = dtype, bootnum = n, cluster = cluster_run )
 boot.buildBootTrees()
