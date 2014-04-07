@@ -11,7 +11,7 @@
 
 # Set up directories
 SRCDIR=/home/sjs3495/AmineData/BootMe
-ALNFILE=$SRCDIR/...
+ALNFILE=$SRCDIR/output_alignment_masked_orignames.fasta
 RDIR=$SRCDIR/OutBoot
 WDIR=/state/partition1/sjs3495/$JOB_NAME-$JOB_ID-$SGE_TASK_ID
 
@@ -26,7 +26,7 @@ fi
 cd $WDIR
 
 # Copy data and python files
-cp -r $SRCDIR/* .
+cp $ALNFILE .
 cp /home/sjs3495/AmineReceptors/scripts/bootstrap.py .
 
 
