@@ -1,27 +1,35 @@
-# SJS 3/12/14. Bootstrap an alignment with fasttree
-# USAGE: python bootstrap.py <alignment_file> <datatype> <gap_exclude> <numBoot> <bootaln_file> <boottree_file>
+# SJS. Bootstrap an alignment with fasttree
+# USAGE: python bootstrap.py <alignment_file> <datatype>
 ### datatype is either protein or dna. gap_exclude is max percentage of gaps allowed in a column to be used. numBoot is number of bootstraps.
 
 from random import randint
 import math
 import sys
 import subprocess
+import os
 from Bio import AlignIO
 
 
 class Bootstrap():
-	def __init__(self, bootnum, percent, infile, alnfile, treefile, datatype):
+	def __init__(self, **kwargs)
+			
+		self.seqfile = kwargs.get(seqfile, '')		
+		assert (os.path.exists(infile)), "Provided input file does not exist."
+		self.bootnum = kwargs.get(bootnum, 100)
+		self.percent = kwargs.get(percent, 0.90)
+		self.datatype = kwargs.get(datatype, '')
+		assert(self.datatype=='protein' or self.datatype=='dna'), "\n\nAccepted data types are protein or dna."
+		
 		self.seqs = AlignIO.read(infile, 'fasta')
 		self.numseq = len(self.seqs)
 		self.alnlen = len(self.seqs[0].seq)
 		self.limit = math.ceil(percent*self.numseq)
 		self.badcol = []
-		self.bootnum = bootnum
-		self.alnfile = alnfile
-		self.treefile = treefile
-		self.datatype = datatype
-		assert(self.datatype=='protein' or self.datatype=='dna'), "\n\nAccepted data types are protein or dna."
-	
+		
+		# Bootstrap alignment(s) go to alnfile, bootstrap tree(s) go to treefile
+		self.alnfile = 'bootaln.txt'
+		self.treefile = 'boottree.txt'
+
 	def cullGap(self):
 		for i in range(self.alnlen):
 			findgaps = str(self.seqs[:,i])
@@ -59,26 +67,9 @@ class Bootstrap():
 		BuildTree='FastTree '+arg+' -fastest -nosupport -quiet -n '+str(self.bootnum)+' '+self.alnfile+' > '+self.treefile
 		runtree=subprocess.call(str(BuildTree), shell='True')	
 
-def parse_args():
-    parser = argparse.ArgumentParser(prefix_chars='+-', usage='--protein_file <User File>')
-    parser.add_argument("-infile", help="A file containing unaligned sequences in FASTA format", required=False, dest="infile", type=str)
-    parser.add_argument("-n",dest="threads", type=int, help="Number of processes to use")
-    parser.add_argument("-form",dest="form", type=str, help="The infile format (usually FASTA)", default="FASTA")
-    parser.add_argument("-bootstraps", help="The number of bootstraps to perform", required=False,
-            dest="bootstraps")
-    parser.add_argument("-alphabet", help="Whether AAs or NTs are used (protein or nucleotide)", type=str,
-            default="protein", required=False, dest="alphabet") ##AA or NT, default is AA
-    ## Gap penalization is now hard-coded by default in accordance with the original runs
-
-    return parser.parse_args()
-
 
 infile = sys.argv[1]
 datatype = sys.argv[2]
-gap_limit = float(sys.argv[3])
-bootaln = sys.argv[4]
-boottree = sys.argv[5]
 
-
-boot = Bootstrap(100, 0.90, infile, bootaln, boottree)
+boot = Bootstrap(seqfile = infile, datatype = protein, bootnum = 1)
 boot.buildBootTrees()
