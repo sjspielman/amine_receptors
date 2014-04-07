@@ -58,7 +58,7 @@ class Bootstrap():
 		outhandle.close()
 
 	def buildBootTrees(self):
-		#self.cullGap()
+		self.cullGap()
 		self.makeBootAlignments()
 		if self.datatype == 'protein':
 			arg = '-wag'
