@@ -1,0 +1,42 @@
+#### SJS. Submit bootstrap to cluster. ####
+
+#!/bin/bash
+#$ -N bootstrap
+#$ -e e_$JOB_NAME
+#$ -o o_$JOB_NAME
+#$ -S /bin/bash
+#$ -q wilke
+#$ -m beas
+#$ -t 1-100:1
+
+# Set up directories
+SRCDIR=/home/sjs3495/AmineData/BootMe
+ALNFILE=$SRCDIR/...
+RDIR=$SRCDIR/OutBoot
+WDIR=/state/partition1/sjs3495/$JOB_NAME-$JOB_ID-$SGE_TASK_ID
+
+mkdir -p $RDIR
+mkdir -p $WDIR
+if [ ! -d $WDIR ]
+then
+  echo $WDIR not created
+  exit
+fi
+
+cd $WDIR
+
+# Copy data and python files
+cp -r $SRCDIR/* .
+cp /home/sjs3495/AmineReceptors/scripts/bootstrap.py .
+
+
+# Run bootstrap
+module load python
+python bootstrap.py $ALNFILE protein 1 1   # alnfile, datatype, number bootstraps to run, 1 if on cluster and 0 if on computer (for fasttree exec)
+
+# Save the output files
+mv bootaln.txt $RDIR/bootaln$SGE_TASK_ID.txt 
+mv boottree.txt $RDIR/boottree$SGE_TASK_ID.txt 
+
+# Cleanup
+rm -rf $WDIR
