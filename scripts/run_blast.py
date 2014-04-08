@@ -23,22 +23,26 @@ def grabOutput(file, length_error, percent_identity):
 					id_set.add(acc)	
 	return id_set
 
-def makeFasta(id_set, finalfile):
+def makeFasta(id_set, finalfile, taxa):
 	Entrez.email = 'stephanie.spielman@gmail.com'
 	
 	f = open(finalfile, "w")
 	for acc in id_set:
 		fetch = Entrez.efetch(db="protein", rettype="gb", retmode="text", id=acc)
 		record = SeqIO.read(fetch, "gb")
-		gene = "unknown"
-		feat = record.features
-		for entry in feat:
-			if entry.type=="Protein":
-				gene = entry.qualifiers["product"][0]
-				gene=re.sub(" ","_",gene)
-				break
-		fastatext = "> "+record.id+"_"+gene+"\n"+str(record.seq)+"\n"
-		f.write(fastatext)
+		taxonomy =  ("").join(record.annotations["taxonomy"])
+		if taxa in taxonomy:
+			gene = "unknown"
+			feat = record.features
+			for entry in feat:
+				if entry.type=="Protein":
+					gene = entry.qualifiers["product"][0]
+					gene=re.sub(" ","_",gene)
+					break
+			fastatext = "> "+record.id+"_"+gene+"\n"+str(record.seq)+"\n"
+			f.write(fastatext)
+		else:
+			continue
 	f.close()		
 
 
@@ -51,6 +55,7 @@ psiblast = "/home/sjs3495/bin/ncbi-blast-2.2.28+/bin/psiblast"
 e_value = 1e-20
 num_iterations = 3
 outfmt = '"6 sseqid pident qlen slen"'
+taxa = 'Chordata'
 max_target_seqs = 10000
 length_error = 0.50
 percent_identity = 25.0
@@ -81,7 +86,7 @@ subprocess.call(str(callBlast), shell=True)
 id_set = grabOutput(file, length_error, percent_identity)
 
 # Output a fasta file with sequences
-makeFasta(id_set, finalfile)
+makeFasta(id_set, finalfile, taxa) # restrict to taxa
 
 
 
