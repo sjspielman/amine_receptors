@@ -1,6 +1,5 @@
 ##### SJS, with some inspiration from KK, to run psiblast and generate fasta file with all protein sequences retrieved #####
 ##### Edit internal options as needed. #####
-# Usage: python run_blast.py 
 
 
 
