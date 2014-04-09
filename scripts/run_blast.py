@@ -67,8 +67,8 @@ percent_identity = 25.0
 
 ## Prepare blastin file. Contains the seed id.
 sge = int(sys.argv[1]) # which index we are running. be sure to minus 1 from the sge_task_id in the qsub submission script
-name = seedpairs[index][0]
-seed = seedpairs[index][1]
+name = seedpairs[sge][0]
+seed = seedpairs[sge][1]
 blastin = "seed"+sge+".in"
 out = open(blastin, 'w')
 out.write(seed)
