@@ -85,7 +85,7 @@ print callBlast
 subprocess.call(str(callBlast), shell=True)
 
 # Process the blast search
-id_set = grabOutput(file, length_error, percent_identity)
+id_set = grabOutput(blastout, length_error, percent_identity)
 
 # Output a fasta file with sequences
 makeFasta(id_set, finalfile, taxa) # restrict to taxa
