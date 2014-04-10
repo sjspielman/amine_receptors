@@ -7,6 +7,7 @@
 # IF RESULTS NEED TO BE PROCESSED ONLY, MUST COPY THE OUTBLAST FILE TO WDIR!!
 
 import sys
+import re
 import subprocess
 from Bio import Entrez, SeqIO
 
