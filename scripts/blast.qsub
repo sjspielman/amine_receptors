@@ -32,7 +32,7 @@ cp /home/sjs3495/AmineReceptors/scripts/run_blast.py .
 module load python
 BLASTDB=$BLASTDB:/share/WilkeLab/work/sjs3495/nr
 export BLASTDB
-python run_blast.py $SGE_TASK_ID
+python run_blast.py $SGE_TASK_ID 1 ## 1 means run blast, 0 is start from a blastout and just process it
 
 RDIR=/home/sjs3495/AmineData/$MYJOB
 mkdir -p $RDIR
