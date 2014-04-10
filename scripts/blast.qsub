@@ -28,12 +28,11 @@ pwd
 
 # Copy Data and Config Files
 cp /home/sjs3495/AmineReceptors/scripts/run_blast.py .
-NUM=`expr $SGE_TASK_ID - 1` # Rep number. Since I index from 0 but array jobs from 1, must -1 from task id
 
 module load python
 BLASTDB=$BLASTDB:/share/WilkeLab/work/sjs3495/nr
 export BLASTDB
-python run_blast.py $NUM
+python run_blast.py $SGE_TASK_ID
 
 RDIR=/home/sjs3495/AmineData/$MYJOB
 mkdir -p $RDIR

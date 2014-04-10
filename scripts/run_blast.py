@@ -1,14 +1,17 @@
 ##### SJS, with some inspiration from KK, to run psiblast and generate fasta file with all protein sequences retrieved #####
 ##### Edit internal options as needed. #####
 
-
+## Usage: python run_blast.py <run_index> <1 or 0> 
+# run_index is a value indexed at 1 for which refseq seed id to psiblast
+# the 1 or 0 is to run blast or not. If 1, run blast and then process results. if 0, just process results.
+# IF RESULTS NEED TO BE PROCESSED ONLY, MUST COPY THE OUTBLAST FILE TO WDIR!!
 
 import sys
 import subprocess
 from Bio import Entrez, SeqIO
 
 def grabOutput(file, length_error, percent_identity):
-	id_set=()
+	id_set=set()
 	f = open(file, 'rU')
 	for line in f:
 		line = line.strip()
@@ -67,7 +70,8 @@ percent_identity = 25.0
 
 ## Prepare blastin file. Contains the seed id.
 sge = sys.argv[1] # which index we are running. be sure to minus 1 from the sge_task_id in the qsub submission script
-index = int(sge)
+runBlast = int(sys.argv[2])
+index = int(sge) - 1 # index at 0
 name = seedpairs[index][0]
 seed = seedpairs[index][1]
 blastin = "seed"+sge+".in"
@@ -79,10 +83,14 @@ out.close()
 blastout = "seed"+sge+".out"
 finalfile = "final"+sge+".fasta"
 
-# Run the blast search
-callBlast = psiblast+" -db nr -out "+str(blastout)+" -query "+str(blastin)+" -num_iterations "+str(num_iterations)+" -evalue "+str(e_value)+" -outfmt "+str(outfmt)
-print callBlast
-subprocess.call(str(callBlast), shell=True)
+
+## No matter what, results should be processed. 
+
+if runBlast:
+	# Run the blast search
+	callBlast = psiblast+" -db nr -out "+str(blastout)+" -query "+str(blastin)+" -num_iterations "+str(num_iterations)+" -evalue "+str(e_value)+" -outfmt "+str(outfmt)
+	print callBlast
+	subprocess.call(str(callBlast), shell=True)
 
 # Process the blast search
 id_set = grabOutput(blastout, length_error, percent_identity)
