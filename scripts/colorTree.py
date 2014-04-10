@@ -1,22 +1,31 @@
 ##### Python script used to color certain taxa with figtree. The figtree_colors dictionary was manually created because android color codes are impossible to google, oddly.
+# USAGE: python colorTree.py infile outfile
+### infile is the newick tree
+### outfile is a NEXUS tree file (easier for coloring)
+
 import re
+import sys
 import dendropy
+
+
 
 figtree_colors = {"lightgreen":"[&!color=#-15483621]", "lightblue":"[&!color=#-14569729]", "darkblue":"[&!color=#-15390531]", "red":"[&!color=#-3400922]", "yellow":"[&!color=#-256]", "orange":"[&!color=#-32768]", "darkgreen":"[&!color=#-13399478]", "cyan":"[&!color=#-15532057]", "rose":"[&!color=#-29506]", "neongreen":"[&!color=#-15008000]", "brown":"[&!color=#-6724045]", "magenta":"[&!color=#-65289]", "purple":"[&!color=#-9363267]"}
 receptor_colors = {"histamine": "lightgreen", "trace": "cyan", "hydroxy": "lightblue", "dopamine": "darkblue", "adrenergic": "red", "muscar": "orange"}
 
-### OLD: converted from newick to nexus format for easier coloring ###
-infile = "/Users/sjspielman/Desktop/amine_processed_decent2.tre"
-outfile = "/Users/sjspielman/Desktop/amine_processed_decent2.nex"
-tree = dendropy.Tree.get_from_path(infile, "newick")
-tree.write_to_path(outfile, "nexus")
+infile = sys.argv[1]
+outfile = sys.argv[2]
+tempfile = 'temp.tre' # for non-color nexus tree
 
-infile = "/Users/sjspielman/Desktop/amine_processed_decent2.nex"
-treeh = open(infile, 'rU')
+# Convert to nexus for easier color parsing
+tree = dendropy.Tree.get_from_path(infile, "newick")
+tree.write_to_path(tempfile, "nexus")
+
+# Read in nexus tree file
+treeh = open(tempfile, 'rU')
 tree = treeh.readlines()
 treeh.close()
 
-outfile = "/Users/sjspielman/Desktop/amine_processed_decent2_color.nex"
+# Write colored tree
 outh = open(outfile, 'w')
 
 ###### Read until we reach the word "END" for the first time, signifying the end of the taxa block.
