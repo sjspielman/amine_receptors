@@ -23,8 +23,8 @@ class Bootstrap:
 		
 		self.seqs = AlignIO.read(self.seqfile, 'fasta')
 		self.numseq = len(self.seqs)
-		self.alnlen = len(self.seqs[0].seq)
-		self.limit = math.ceil(percent*self.numseq)
+		self.alnlen = len(self.seqs[0])
+		self.limit = math.ceil(self.percent*self.numseq)
 		self.badcol = []
 		
 		# Bootstrap alignment(s) go to alnfile, bootstrap tree(s) go to treefile
