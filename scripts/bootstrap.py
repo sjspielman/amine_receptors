@@ -11,9 +11,9 @@ from Bio import AlignIO
 
 
 class Bootstrap:
-	def __init__(self, **kwargs)
+	def __init__(self, **kwargs):
 			
-		self.seqfile = kwargs.get(seqfile, ''):		
+		self.seqfile = kwargs.get(seqfile, '')		
 		assert (os.path.exists(infile)), "Provided input file does not exist."
 		self.bootnum = kwargs.get(bootnum, 100)
 		self.percent = kwargs.get(percent, 0.90)
