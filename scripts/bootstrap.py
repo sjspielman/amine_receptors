@@ -10,7 +10,7 @@ import os
 from Bio import AlignIO
 
 
-class Bootstrap():
+class Bootstrap:
 	def __init__(self, **kwargs)
 			
 		self.seqfile = kwargs.get(seqfile, '')		
