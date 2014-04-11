@@ -13,15 +13,15 @@ from Bio import AlignIO
 class Bootstrap:
 	def __init__(self, **kwargs):
 			
-		self.seqfile = kwargs.get(seqfile, '')		
-		assert (os.path.exists(infile)), "Provided input file does not exist."
-		self.bootnum = kwargs.get(bootnum, 100)
-		self.percent = kwargs.get(percent, 0.90)
-		self.datatype = kwargs.get(datatype, '')
+		self.seqfile = kwargs.get("seqfile", '')		
+		assert (os.path.exists(self.seqfile)), "Provided input file does not exist."
+		self.bootnum = kwargs.get("bootnum", 100)
+		self.percent = kwargs.get("percent", 0.90)
+		self.datatype = kwargs.get("datatype", '')
 		assert(self.datatype=='protein' or self.datatype=='dna'), "\n\nAccepted data types are protein or dna."
-		self.cluster = kwargs.get(cluster) # True if on cluster. False if on my computer.
+		self.cluster = kwargs.get("cluster") # True if on cluster. False if on my computer.
 		
-		self.seqs = AlignIO.read(infile, 'fasta')
+		self.seqs = AlignIO.read(self.seqfile, 'fasta')
 		self.numseq = len(self.seqs)
 		self.alnlen = len(self.seqs[0].seq)
 		self.limit = math.ceil(percent*self.numseq)
