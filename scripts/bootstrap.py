@@ -62,13 +62,14 @@ class Bootstrap:
 		self.cullGap()
 		self.makeBootAlignments()
 		if self.datatype == 'protein':
-			arg = '-wag'
+			arg = ''
 		elif self.datatype == 'dna':
-			arg = 'gtr'
+			arg = '-gtr'
 		if self.cluster:
 			BuildTree='/share/apps/fasttree-2.1.3/FastTree '+arg+' -fastest -nosupport -quiet -n '+str(self.bootnum)+' '+self.alnfile+' > '+self.treefile
 		else:
 			BuildTree='FastTree '+arg+' -fastest -nosupport -quiet -n '+str(self.bootnum)+' '+self.alnfile+' > '+self.treefile
+		print BuildTree
 		runtree=subprocess.call(str(BuildTree), shell='True')	
 		assert (runtree == 0), "FastTree fail"
 
