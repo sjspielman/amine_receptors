@@ -11,20 +11,20 @@ from Bio import AlignIO
 
 
 class Bootstrap:
-	def __init__(self, **kwargs)
+	def __init__(self, **kwargs):
 			
-		self.seqfile = kwargs.get(seqfile, '')		
-		assert (os.path.exists(infile)), "Provided input file does not exist."
-		self.bootnum = kwargs.get(bootnum, 100)
-		self.percent = kwargs.get(percent, 0.90)
-		self.datatype = kwargs.get(datatype, '')
+		self.seqfile = kwargs.get("seqfile", '')		
+		assert (os.path.exists(self.seqfile)), "Provided input file does not exist."
+		self.bootnum = kwargs.get("bootnum", 100)
+		self.percent = kwargs.get("percent", 0.90)
+		self.datatype = kwargs.get("datatype", '')
 		assert(self.datatype=='protein' or self.datatype=='dna'), "\n\nAccepted data types are protein or dna."
-		self.cluster = kwargs.get(cluster) # True if on cluster. False if on my computer.
+		self.cluster = kwargs.get("cluster") # True if on cluster. False if on my computer.
 		
-		self.seqs = AlignIO.read(infile, 'fasta')
+		self.seqs = AlignIO.read(self.seqfile, 'fasta')
 		self.numseq = len(self.seqs)
-		self.alnlen = len(self.seqs[0].seq)
-		self.limit = math.ceil(percent*self.numseq)
+		self.alnlen = len(self.seqs[0])
+		self.limit = math.ceil(self.percent*self.numseq)
 		self.badcol = []
 		
 		# Bootstrap alignment(s) go to alnfile, bootstrap tree(s) go to treefile
@@ -62,13 +62,14 @@ class Bootstrap:
 		self.cullGap()
 		self.makeBootAlignments()
 		if self.datatype == 'protein':
-			arg = '-wag'
+			arg = ''
 		elif self.datatype == 'dna':
-			arg = 'gtr'
+			arg = '-gtr'
 		if self.cluster:
 			BuildTree='/share/apps/fasttree-2.1.3/FastTree '+arg+' -fastest -nosupport -quiet -n '+str(self.bootnum)+' '+self.alnfile+' > '+self.treefile
 		else:
 			BuildTree='FastTree '+arg+' -fastest -nosupport -quiet -n '+str(self.bootnum)+' '+self.alnfile+' > '+self.treefile
+		print BuildTree
 		runtree=subprocess.call(str(BuildTree), shell='True')	
 		assert (runtree == 0), "FastTree fail"
 

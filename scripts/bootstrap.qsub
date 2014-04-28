@@ -9,6 +9,8 @@
 #$ -m beas
 #$ -t 1-100:1
 
+source ~/.bashrc
+
 # Set up directories
 SRCDIR=/home/sjs3495/AmineData/BootMe
 ALNFILE=$SRCDIR/output_alignment_masked_orignames.fasta
