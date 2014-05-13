@@ -34,7 +34,7 @@ class Bootstrap:
 	def cullGap(self):
 		for i in range(self.alnlen):
 			findgaps = str(self.seqs[:,i])
-			if findgaps.count('-') > self.limit:
+			if findgaps.count('-') > self.limit:15
 				#print findgaps.count('-'), self.limit
 				self.badcol.append(i)
 		#print len(self.badcol), self.alnlen

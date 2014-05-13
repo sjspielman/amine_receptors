@@ -2,7 +2,7 @@
 # I = inner
 # O = outer
 # M = membrane
-# A = ambiguous (<0.7)
+# A = ambiguous
 
 import re
 import os
@@ -86,68 +86,8 @@ def amino2domain(infile, outfile, hmm_dir, cutoff):
 ##########################################################################################	
 
 
-infile = "/Users/sjspielman/Dropbox/Amine/HRH_Ahmad/HRH34/Round3/SubAligns/HRH4_mammals.aln"
-outfile = "/Users/sjspielman/Dropbox/Amine/HRH_Ahmad/HRH34/Round3/SubAligns/HRH4_mammals_hmm.aln"
-hmm_dir = "/Users/sjspielman/Dropbox/Amine/HRH_Ahmad/HRH34/Round3/gpcrhmm_round3/"
+infile = "/Users/sjspielman/Dropbox/Amine/HRH_Ahmad/HRH34/ROUND1/HRH34.aln"
+outfile = "/Users/sjspielman/Dropbox/Amine/HRH_Ahmad/HRH34/ROUND1/HRH34_hmm.aln"
+hmm_dir = "/Users/sjspielman/Dropbox/Amine/HRH_Ahmad/HRH34/ROUND1/gpcrhmm_HRH34/"
 cutoff = 0.8
 amino2domain(infile, outfile, hmm_dir, cutoff)
-
-### WONKY H3 MAMMALS ###
-## >H3_Talpidae.Condylura1 is totally fucked up.
-## >H3_Tenrecinae.Echinops1
-##>H3_Caprinae.Capra1
-## >H3_Bovinae.Bos2
-## >H3_Marmotini.Ictidomys1
-## >H3_Camelidae.Vicugna1, >H3_Camelidae.Camelus1
-## >H3_Cricetinae.Cricetulus1
-## >H3_Equidae.Equus1
-
-
-## The HRH4 mammals are simply gorgeous. Except for the gibbon?? >H4_Hylobatidae.Nomascus1 which is apparently a low-quality protein, so we should probably discard it anyways!!!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-gpcrhmm_dir = ''

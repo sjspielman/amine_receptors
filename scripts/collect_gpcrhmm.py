@@ -3,27 +3,37 @@
 # Places all returned files into an output directory named like the sequence file, ish. 
 
 
-import urllib2
+import urllib, urllib2
 import re
+import os
 import sys
 from Bio import SeqIO
 
 infile = sys.argv[1]
+path = "/".join( infile.split('/')[:-1] )
+name_raw = infile.split('/')[-1]
 
-name = infile.split('.')[0]
-outdir = 'gpcrhmm_'+name+'/'
+name = name_raw.split('.')[0]
+
+if path == '':
+	outdir = 'gpcrhmm_'+name+'/'
+else:	
+	outdir = path+'/gpcrhmm_'+name+'/'
+if not os.path.exists(outdir):
+	os.mkdir(outdir)
 
 records = list(SeqIO.parse(infile, 'fasta'))
 for entry in records:
 	
 	id = str(entry.id)
-	seq = str(entry.seq) 
+	seq = str(entry.seq)
+	seq = seq.replace('-', '') # remove gaps. relevant if file is alignment.
 	print id
 	
 	url1 = 'http://gpcrhmm.sbc.su.se/cgi-bin/predict'
 	values = {'protseq':seq, 'format':'plp'}
 	
-	data = urllib2.urlencode(values)
+	data = urllib.urlencode(values)
 	req = urllib2.Request(url1, data)
 	response1 = urllib2.urlopen(req)
 	page1=str(response1.read())
