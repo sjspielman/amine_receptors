@@ -27,13 +27,10 @@ def parseGPCRHMM(seqid, outfile):
 	outf = open(outfile, 'rU')
 	line = outf.readlines()[1]
 	outf.close()
-	print line
 	getScores = re.search('^'+seqid+'\s+(\d*\.*\d*)\s+(\d*\.*\d*)\s+\w+', line)
 	assert(getScores), "Couldn't parse the gpcrhmm output file."
 	globalScore = float(getScores.group(1))
 	localScore = float(getScores.group(2))
-	print globalScore
-	print localScore
 	return (globalScore, localScore)
 ###################################################################################
 
