@@ -57,7 +57,7 @@ for record in records:
 	if globalScore >= globalThresh and localScore >= localThresh:
 		outf.write(">"+id+"\n"+seq+"\n")
 	else:
-		outculled.write(id+'\t'+globalScore+'\t'+localScore+'\n')
+		outculled.write(id+'\t'+str(globalScore)+'\t'+str(localScore)+'\n')
 outf.close()
 
 
