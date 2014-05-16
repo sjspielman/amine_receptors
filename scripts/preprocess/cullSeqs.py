@@ -5,7 +5,7 @@ import re
 
 Entrez.email = "stephanie.spielman@gmail.com"
 
-exclude_desc = ['PREDICTED', 'MODEL', 'WGS', 'INFERRED', 'LOW_QUALITY', 'PUTATIVE', 'RELATED', 'PRECURSOR', 'PSEUDOGENE', 'LIKE', 'UNCHARACTERIZED']
+exclude_desc = ['PREDICTED', 'MODEL', 'WGS', 'INFERRED', 'LOW_QUALITY', 'PUTATIVE', 'RELATED', 'PRECURSOR', 'PSEUDOGENE', 'LIKE', 'UNCHARACTERIZED', 'PARTIAL']
 
 
 
