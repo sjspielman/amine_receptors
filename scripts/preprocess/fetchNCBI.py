@@ -11,28 +11,34 @@ Entrez.email = "stephanie.spielman@gmail.com"
 ###########################################################################################################
 def cullFromDesc(string):
 	''' Find if has something bad.... excellent documentation, steph. really good.'''
-	bad = ['LOW_QUALITY_PROTEIN', 'PSEUDOGENE']
+	bad = ['LOW_QUALITY_PROTEIN', 'PSEUDOGENE', 'PARTIAL']
 	string = string.upper()
+	print string
 	for entry in bad:
 		if entry in string:
 			return False
 	return True
 	
-def getRecord(prot_id, ncbi_dir, restrictClade = False):
+def getRecordAndCull(prot_id, raw_id, ncbi_dir, restrictClade = False):
 	''' Retrieve NCBI record. 
 		We also have the option to save only members of a clade (restrictClade).
-		Also also wik, we have the option not to save anything crappy (LOW_QUALITY_PROTEIN)
-		 '''
+		Also also wik, don't save anything crappy. 
+	'''
 
 	fetch = Entrez.efetch(db="protein",  id=prot_id, rettype="gb", retmode="text")
 	ncbi_record = SeqIO.read(fetch, 'gb')
-	print ncbi_record.description
-	if restrictClade:
-		fullTax = ncbi_record.annotations["taxonomy"]
-		if restrictClade not in fullTax:
-			return False
-	outfile = ncbi_dir + prot_id + '.gb'
-	SeqIO.write(ncbi_record, outfile, 'gb')	
+	keep = cullFromDesc(str(ncbi_record.description))
+	if keep:
+		if restrictClade:
+			fullTax = ncbi_record.annotations["taxonomy"]
+			if restrictClade not in fullTax:
+				print "DISCARDING ", raw_id," - NOT A VERTEBRATE."
+				return False
+		outfile = ncbi_dir + prot_id + '.gb'
+		SeqIO.write(ncbi_record, outfile, 'gb')	
+	else:
+		print "DISCARDING ", raw_id," - CRAPPY PROTEIN."
+		return False
 	return True	
 ###########################################################################################################
 
@@ -45,7 +51,7 @@ try:
 	restrictClade = sys.argv[3]
 except:
 	restrictClade = False
-ncbi_dir = str(os.getcwd()) + "/" + "ncbi_records/"
+ncbi_dir = str(os.getcwd()) + "/" + "ncbi_records_vert_good/"
 print ncbi_dir
 if not os.path.exists(ncbi_dir):
 	os.mkdir(ncbi_dir)	
@@ -58,16 +64,18 @@ for record in records:
 	find = re.search("(\wP_\d+\.\d)_(.+)$", raw_id)
 	assert(find), "Bad map search."
 	prot_id = find.group(1)
-	desc = find.group(2)
 	
-	keep1 = cullFromDesc(raw_id)
-	if keep1:
-		keep2 = getRecord(prot_id, ncbi_dir, restrictClade)
-		if keep2:
+	# CHECK IF HAVE THE RECORD ALREADY!!! If the record exists locally, no need to query NCBI unnecessarily.
+	if (os.path.exists(ncbi_dir + prot_id + '.gb')):
+		print "have", prot_id
+		outhandle.write('>'+raw_id+'\n'+seq+'\n')
+	else:	
+		print "dont have"
+		keep = getRecordAndCull(prot_id, raw_id, ncbi_dir, restrictClade)
+		if keep:
 			outhandle.write('>'+raw_id+'\n'+seq+'\n')
+			print "kept though!"
 		else:
-			print "DISCARDING ", raw_id," - NOT A VERTEBRATE."
-	else:
-		print "DISCARDING ", raw_id," - CRAPPY PROTEIN."
+			print "didn't keep"
 	print
 outhandle.close()	
