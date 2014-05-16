@@ -42,7 +42,8 @@ gpcrhmmOut = wdir+'tempout.txt'
 
 records = list(SeqIO.parse(infile, 'fasta'))
 outf = open(outfile, 'w')
-
+outculled = open('removed.txt', 'w')
+outculled.write('id\tglobalScore\tlocalScore\n')
 for record in records:
 	seq = str(record.seq)
 	id = str(record.id)
@@ -56,7 +57,7 @@ for record in records:
 	if globalScore >= globalThresh and localScore >= localThresh:
 		outf.write(">"+id+"\n"+seq+"\n")
 	else:
-		print id, globalScore, localScore
+		outculled.write(id+'\t'+globalScore+'\t'+localScore+'\n')
 outf.close()
 
 
