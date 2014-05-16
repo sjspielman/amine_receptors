@@ -51,7 +51,7 @@ try:
 	restrictClade = sys.argv[3]
 except:
 	restrictClade = False
-ncbi_dir = str(os.getcwd()) + "/" + "ncbi_records_vert_good/"
+ncbi_dir = str(os.getcwd()) + "/" + "ncbi_records/"
 print ncbi_dir
 if not os.path.exists(ncbi_dir):
 	os.mkdir(ncbi_dir)	
