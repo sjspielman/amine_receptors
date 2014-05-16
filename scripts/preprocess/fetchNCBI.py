@@ -18,7 +18,6 @@ def cullFromDesc(string):
 			return False
 	return True
 	
-	
 def getRecord(prot_id, ncbi_dir, restrictClade = False):
 	''' Retrieve NCBI record. 
 		We also have the option to save only members of a clade (restrictClade).
@@ -61,15 +60,14 @@ for record in records:
 	prot_id = find.group(1)
 	desc = find.group(2)
 	
-	keep1 = cullFromDesc(prot_id)
+	keep1 = cullFromDesc(raw_id)
 	if keep1:
 		keep2 = getRecord(prot_id, ncbi_dir, restrictClade)
 		if keep2:
-			print "keeping", raw_id
 			outhandle.write('>'+raw_id+'\n'+seq+'\n')
 		else:
-			print "not a vertebrate:", raw_id
+			print "DISCARDING ", raw_id," - NOT A VERTEBRATE."
 	else:
-		print "crappy protein:", raw_id
+		print "DISCARDING ", raw_id," - CRAPPY PROTEIN."
 	print
 outhandle.close()	
