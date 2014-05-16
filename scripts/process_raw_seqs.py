@@ -55,7 +55,10 @@ def cullAmbig(records, ambig_percent):
 ################################################################################################
 ################################################################################################
 	
-
+if len(sys.argv) != 4:
+	print "Usage: python process_raw_seqs.py <infile> <outfile> <ambigpercent>. (last arg should be decimal float)"
+	sys.exit()
+	
 infile = sys.argv[1]
 outfile = sys.argv[2]
 ambig_percent = float(sys.argv[3])
@@ -70,58 +73,3 @@ out = open(outfile, 'w')
 for record in records:
 	out.write(">"+str(record.id)+'\n'+str(record.seq)+'\n')
 out.close()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	

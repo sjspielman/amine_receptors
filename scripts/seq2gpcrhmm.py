@@ -85,9 +85,9 @@ def amino2domain(infile, outfile, hmm_dir, cutoff):
 	outaln.close()
 ##########################################################################################	
 
-
-infile = "/Users/sjspielman/Dropbox/Amine/HRH_Ahmad/HRH34/ROUND1/HRH34.aln"
-outfile = "/Users/sjspielman/Dropbox/Amine/HRH_Ahmad/HRH34/ROUND1/HRH34_hmm.aln"
-hmm_dir = "/Users/sjspielman/Dropbox/Amine/HRH_Ahmad/HRH34/ROUND1/gpcrhmm_HRH34/"
+path = "/Users/sjspielman/Dropbox/Amine/HRH_Ahmad/"
+infile = path+'HRHall_inline.aln'
+outfile = path+"HRHall_inline_hmm.aln"
+hmm_dir = path+"gpcrhmm_all/"
 cutoff = 0.8
 amino2domain(infile, outfile, hmm_dir, cutoff)

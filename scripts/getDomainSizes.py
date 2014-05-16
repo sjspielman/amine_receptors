@@ -7,7 +7,7 @@
 import re
 import os
 import sys
-from Bio import AlignIO
+from Bio import SeqIO
 
 def whichDomain(inner, outer, membr, cutoff):
 	''' Given probabilities for each domain, which are we likely in? Lenient ambiguity, please! '''
@@ -31,13 +31,12 @@ def parseGPCRHMM(file, cutoff):
 	hmm_file.close()
 	
 	sizeList = []
-	domainList = []
 	previousDomain = 'O' # Start with O since all begin as outer/extracelluar Nterm.
 	size = 0
 	for line in hmm_lines:
 		parseLine=re.search('^(\d+)\s\w\t(.+)\t(.+)\t(.+)\t(.+)$', line)
 		if parseLine:
-			#print "LINE:", parseLine.group(1)
+			total = parseLine.group(1)
 			inner = float(parseLine.group(2))
 			outer =  float(parseLine.group(3)) + float(parseLine.group(5))
 			membr = float(parseLine.group(4))
@@ -45,47 +44,35 @@ def parseGPCRHMM(file, cutoff):
 			if currentDomain == previousDomain:
 				size += 1
 			else:
-				#print "switch", previousDomain 
-				domainList.append(previousDomain)
 				sizeList.append(str(size))
 				previousDomain = currentDomain
 				size = 1
-	domainList.append(previousDomain)
 	sizeList.append(str(size))
-	print '\t'.join(domainList)
-	print '\t'.join(sizeList)
-	#assert 1==0
-	#return sizeList
+	return (total, sizeList)
 		
 		
 		
-def main(infile, outfile, hmm_dir, cutoff):
-	''' Replace a GPCR alignment amino acids with domain.
-		infile  = alignment infile
-		outfile = outfile with new domain letters in lieu of amino acids
+def main(infile, hmm_dir, cutoff):
+	''' Get size of each domain using gpcrhmm output.
+		infile  = sequence infile
 		hmm_dir = directory to the gpcrhmm files
 		cutoff  = posterior probability threshold for calling domain.
 	'''
-	aln = AlignIO.read(infile, 'fasta')
-	#outaln = open(outfile, 'w')
+	aln = list(SeqIO.parse(infile, 'fasta'))
+	print 'name	full	Nterm	M1	ICL1	M2	ECL1	M3	ICL2	M4	ECL2	M5	ICL3	M6	ECL3	M7	Cterm'
 	for record in aln:
 		id = str(record.id)
 		seq = str(record.seq)
 		hmmFile = hmm_dir + id + '.txt'
-		print id
-		parseGPCRHMM(hmmFile, cutoff)
-		print
-		#finalSeq = replaceSeq(seq, newLetters)
-		#outaln.write(">"+id+"\n"+finalSeq+"\n")
-	#outaln.close()
+		total, sizeList = parseGPCRHMM(hmmFile, cutoff)
+		print id + '\t' + total + '\t' + '\t'.join(sizeList)
 ##########################################################################################	
 
 
-infile = "/Users/sjspielman/Dropbox/Amine/HRH_Ahmad/HRH34/ROUND1/HRH34.aln"
-outfile = "/Users/sjspielman/Dropbox/Amine/HRH_Ahmad/HRH34/ROUND1/HRH34_hmm.aln"
-hmm_dir = "/Users/sjspielman/Dropbox/Amine/HRH_Ahmad/HRH34/ROUND1/gpcrhmm_HRH34/"
+infile = "/Users/sjspielman/Dropbox/Amine/HRH_Ahmad/HRH2/HRH2_map.fasta"
+hmm_dir = "/Users/sjspielman/Dropbox/Amine/HRH_Ahmad/HRH2/gpcrhmm_HRH2_map/"
 cutoff = 0.5
-main(infile, outfile, hmm_dir, cutoff)
+main(infile, hmm_dir, cutoff)
 
 
 
