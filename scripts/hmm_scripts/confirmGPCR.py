@@ -9,7 +9,7 @@ import re
 from Bio import SeqIO
 
 
-assert( len(sys.argv) = 2), "Usage: python confirmGPCR.py <infile> <outfile>. File should be in working directory. No paths needed."
+assert( len(sys.argv) = 3), "Usage: python confirmGPCR.py <infile> <outfile>. File should be in working directory. No paths needed."
 
 gpcrhmm_path = '/home/sjs3495/bin/gpcrhmm/'
 wdir = os.getcwd() + '/'
