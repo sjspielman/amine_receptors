@@ -9,7 +9,7 @@ import re
 from Bio import SeqIO
 
 
-assert( len(sys.argv) = 3), "Usage: python confirmGPCR.py <infile> <outfile>. File should be in working directory. No paths needed."
+assert( len(sys.argv) == 3), "Usage: python confirmGPCR.py <infile> <outfile>. File should be in working directory. No paths needed."
 
 gpcrhmm_path = '/home/sjs3495/bin/gpcrhmm/'
 wdir = os.getcwd() + '/'
@@ -18,7 +18,7 @@ outfile = wdir + sys.argv[2]
 
 ###################################################################################
 def runGPCRHMM(gpcrhmm_path, infile, outfile):
-	command = gpcrhmm_path+'/gpcrhmm.pl '+infile+' > '+outfile
+	command = 'perl '+gpcrhmm_path+'/gpcrhmm.pl '+infile+' > '+outfile
 	run = subprocess.call(command, shell=True)
 	assert(run == 0), "gpcrhmm did not properly run."
 
@@ -27,10 +27,13 @@ def parseGPCRHMM(seqid, outfile):
 	outf = open(outfile, 'rU')
 	line = outf.readlines()[1]
 	outf.close()
-	getScores = re.search('^'+seqid+'\s+(\d\.\d+)\s+(\d+\.\d+)\s+\w+$', line)
+	print line
+	getScores = re.search('^'+seqid+'\s+(\d*\.*\d*)\s+(\d*\.*\d*)\s+\w+', line)
 	assert(getScores), "Couldn't parse the gpcrhmm output file."
-	globalScore = float(getScore.group(1))
-	localScore = float(getScore.group(2))
+	globalScore = float(getScores.group(1))
+	localScore = float(getScores.group(2))
+	print globalScore
+	print localScore
 	return (globalScore, localScore)
 ###################################################################################
 
@@ -46,13 +49,14 @@ outf = open(outfile, 'w')
 for record in records:
 	seq = str(record.seq)
 	id = str(record.id)
+	print id
 	temp = open(gpcrhmmIn, 'w')
 	temp.write(">"+id+"\n"+seq+"\n")
 	temp.close()
 	runGPCRHMM(gpcrhmm_path, gpcrhmmIn, gpcrhmmOut)
 	globalScore, localScore = parseGPCRHMM(id, gpcrhmmOut)
 	
-	if globalScore >= globalThresh and localScore >= localThresh
+	if globalScore >= globalThresh and localScore >= localThresh:
 		outf.write(">"+id+"\n"+seq+"\n")
 	else:
 		print id, globalScore, localScore
