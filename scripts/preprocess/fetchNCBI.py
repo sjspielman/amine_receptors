@@ -11,7 +11,7 @@ Entrez.email = "stephanie.spielman@gmail.com"
 ###########################################################################################################
 def cullFromDesc(string):
 	''' Find if has something bad.... excellent documentation, steph. really good.'''
-	bad = ['LOW_QUALITY_PROTEIN', 'PSEUDOGENE', 'PARTIAL']
+	bad = ['LOW_QUALITY_PROTEIN', 'PSEUDOGENE', 'PARTIAL', 'LOW QUALITY PROTEIN']
 	string = string.upper()
 	print string
 	for entry in bad:
@@ -67,8 +67,17 @@ for record in records:
 	
 	# CHECK IF HAVE THE RECORD ALREADY!!! If the record exists locally, no need to query NCBI unnecessarily.
 	if (os.path.exists(ncbi_dir + prot_id + '.gb')):
-		print "have", prot_id
-		outhandle.write('>'+raw_id+'\n'+seq+'\n')
+		rec = SeqIO.read(ncbi_dir + prot_id + '.gb', 'gb')
+		desc = rec.description
+		keep = cullFromDesc(desc)
+		if keep:
+			print "have", prot_id
+			outhandle.write('>'+raw_id+'\n'+seq+'\n')
+		else:
+			print "HAD BUT DON'T WANT!!!!"
+			print prot_id
+			print desc
+			print
 	else:	
 		print "dont have"
 		keep = getRecordAndCull(prot_id, raw_id, ncbi_dir, restrictClade)
