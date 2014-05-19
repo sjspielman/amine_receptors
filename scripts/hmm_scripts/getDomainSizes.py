@@ -52,27 +52,40 @@ def parseGPCRHMM(file, cutoff):
 		
 		
 		
-def main(infile, hmm_dir, cutoff):
+def main(infile, outfile, hmm_dir, cutoff):
 	''' Get size of each domain using gpcrhmm output.
 		infile  = sequence infile
+		outfile = duh?
 		hmm_dir = directory to the gpcrhmm files
 		cutoff  = posterior probability threshold for calling domain.
 	'''
 	aln = list(SeqIO.parse(infile, 'fasta'))
-	print 'name	full	Nterm	M1	ICL1	M2	ECL1	M3	ICL2	M4	ECL2	M5	ICL3	M6	ECL3	M7	Cterm'
+	outf = open(outfile, 'w')
+	outf.write('name	type	full	Nterm	M1	ICL1	M2	ECL1	M3	ICL2	M4	ECL2	M5	ICL3	M6	ECL3	M7	Cterm\n')
 	for record in aln:
 		id = str(record.id)
+		type = id.split('_')[0]
 		seq = str(record.seq)
+		print id
 		hmmFile = hmm_dir + id + '.txt'
 		total, sizeList = parseGPCRHMM(hmmFile, cutoff)
-		print id + '\t' + total + '\t' + '\t'.join(sizeList)
+		outf.write(id + '\t' + type + '\t' + total + '\t' + '\t'.join(sizeList)+'\n')
+	outf.close()
 ##########################################################################################	
 
+path = os.getcwd() +'/'
 
-infile = "/Users/sjspielman/Dropbox/Amine/HRH_Ahmad/HRH2/HRH2_map.fasta"
-hmm_dir = "/Users/sjspielman/Dropbox/Amine/HRH_Ahmad/HRH2/gpcrhmm_HRH2_map/"
-cutoff = 0.5
-main(infile, hmm_dir, cutoff)
+if len(sys.argv) != 5:
+	print "Usage: python getDomainSizes.py <infile> <outfile> <hmm_dir> <cutoff> Paths not needed, but assumes infile and hmm_dir are in same directory."
+	sys.exit()
+
+infile = path + sys.argv[1]
+outfile = path + sys.argv[2]
+hmm_dir = path + sys.argv[3]
+if hmm_dir[-1] != '/':
+	hmm_dir += '/'
+cutoff = float(sys.argv[4])
+main(infile, outfile, hmm_dir, cutoff)
 
 
 

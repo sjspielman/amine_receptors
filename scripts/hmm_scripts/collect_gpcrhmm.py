@@ -2,12 +2,13 @@
 # Simple script to query gpcrhmm for sequences in a given alignment/sequence file.
 # Places all returned files into an output directory named like the sequence file, ish. 
 
-
 import urllib, urllib2
 import re
 import os
 import sys
 from Bio import SeqIO
+
+assert(len(sys.argv)==2), "Usage: python collect_gpcrhmm.py <infile> . infile should be a fasta file of amino acid sequences."
 
 infile = sys.argv[1]
 path = "/".join( infile.split('/')[:-1] )
