@@ -11,7 +11,7 @@ dir = '/Users/sjspielman/Research/AmineReceptors/hrh_processing/'
 ncbi_dir = 'ncbi_records/'
 hmm_dir = 'gpcrhmm_structures/'
 
-for x in ['34']:
+for x in ['1', '2', '34']:
     infile = "confirmedGPCRs/HRH"+x+"_GPCR.fasta"
 
     final_prot = "final/HRH"+x+"_aa.fasta"
