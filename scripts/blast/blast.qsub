@@ -1,12 +1,12 @@
-### SJS 2/13/14. Find HRH's. ###
+### SJS 2/13/14. ###
 
-#$ -N blast
+#$ -N amineblast
 #$ -e e_$JOB_NAME
 #$ -o o_$JOB_NAME
 #$ -S /bin/bash
 #$ -q wilke
 #$ -m beas
-#$ -t 1-4:1
+#$ -t 1-42:1  #4 for h4h, 42 for amine
 
 
 source ~/.bashrc
@@ -35,7 +35,7 @@ export BLASTDB
 
 # cp the seed.out files to simply process blast results, no need to run blast right now
 cp ~/AmineData/blast-266823-$SGE_TASK_ID/seed$SGE_TASK_ID.out .
-python run_blast.py $SGE_TASK_ID 0 ## 1 means run blast, 0 is start from a blastout and just process it
+python run_blast.py $SGE_TASK_ID 1 ## 1 means run blast, 0 is start from a blastout and just process it
 
 RDIR=/home/sjs3495/AmineData/$MYJOB
 mkdir -p $RDIR
