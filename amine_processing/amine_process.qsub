@@ -1,7 +1,7 @@
 ### SJS 6/23/14. Initial submission script for amine receptor processing.
 
 
-#$ -N amine_processing
+#$ -N aminepasta
 #$ -e e_$JOB_NAME
 #$ -o o_$JOB_NAME
 #$ -S /bin/bash
@@ -10,6 +10,7 @@
 #$ -pe serial 16
 
 source ~/.bashrc
+source ~/.bash_profile
 
 # Create Working Directory and remove anything that might have been there woops!
 MYJOB=$JOB_NAME-$JOB_ID
@@ -30,9 +31,11 @@ cp /home/sjs3495/AmineReceptors/amine_processing/ensure_good_aln.py .
 cp /home/sjs3495/AmineReceptors/amine_processing/gpcrhmm_fxns.py .
 cp /home/sjs3495/amine_GPCRs.fasta .
 cp -r /home/sjs3495/amine_gpcrhmm .
-cp /home/sjs3495/run_pasta.py .
-cp /home/sjs3495/generic_pasta_config.txt .
+cp /home/sjs3495/bin/pasta/run_pasta.py .
+cp /home/sjs3495/pasta_materials/generic_pasta_config.txt .
+cp /home/sjs3495/bin/FastTreeMP .
 
+export OMP_NUM_THREADS=16
 module load python
 SATE_DEBUG=true
 SATE_LOGGING_LEVEL=DEBUG
@@ -41,3 +44,4 @@ python ensure_good_aln.py amine_GPCRs.fasta $FINALFILE amine_gpcrhmm
 # Save and Cleanup
 mkdir -p $RDIR
 cp $FINALFILE $RDIR
+rm -rf $WDIR
