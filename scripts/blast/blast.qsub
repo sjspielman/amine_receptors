@@ -14,6 +14,7 @@ source ~/.bashrc
 # Create Working Directory and remove anything that might have been there woops!
 MYJOB=$JOB_NAME-$JOB_ID-$SGE_TASK_ID
 WDIR=/state/partition1/sjs3495/$MYJOB
+RDIR=/home/sjs3495/Blast/$MYJOB
 
 mkdir -p $WDIR
 
@@ -24,23 +25,16 @@ then
 fi
 cd $WDIR
 
-pwd
-
-# Copy Data and Config Files
-cp /home/sjs3495/AmineReceptors/scripts/run_blast.py .
-
+# Copy and run
+cp /home/sjs3495/AmineReceptors/scripts/blast/run_blast.py .
 module load python
 BLASTDB=$BLASTDB:/share/WilkeLab/work/sjs3495/nr
 export BLASTDB
+python run_blast.py $SGE_TASK_ID 1
 
-# cp the seed.out files to simply process blast results, no need to run blast right now
-cp ~/AmineData/blast-266823-$SGE_TASK_ID/seed$SGE_TASK_ID.out .
-python run_blast.py $SGE_TASK_ID 1 ## 1 means run blast, 0 is start from a blastout and just process it
 
-RDIR=/home/sjs3495/AmineData/$MYJOB
+# Save and Cleanup
 mkdir -p $RDIR
-
-# Cleanup
 cp seed* $RDIR
 cp final* $RDIR
 rm -rf $WDIR

@@ -135,17 +135,3 @@ id_set = grabOutput(blastout, length_error, percent_identity)
 
 # Output a fasta file with sequences. Only write to file if taxa restriction holds and badlist not in description
 saveRecords(id_set, finalfile, taxa, badlist)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
