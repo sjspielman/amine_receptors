@@ -129,13 +129,14 @@ def main(infile, map, outfile, ncbi_path, hmm_dir, cutoff):
 	outf.write('name	type	full	Nterm	M1	ICL1	M2	ECL1	M3	ICL2	M4	ECL2	M5	ICL3	M6	ECL3	M7	Cterm\n')
 	for record in aln:
 		id = str(record.id)
+		id_generic = id.split("_")[0]
 		print id
 		ncbi = map[id]
 		type = findSubType(ncbi, ncbi_path, amine_subtypes, amine_wonky)
 		seq = str(record.seq)
 		hmmFile = hmm_dir + id + '.txt'
 		total, sizeList = parseGPCRHMM(hmmFile, cutoff)
-		outf.write(id + '\t' + type + '\t' + total + '\t' + '\t'.join(sizeList)+'\n')
+		outf.write(id + '\t' + id_generic + '\t' + type + '\t' + total + '\t' + '\t'.join(sizeList)+'\n')
 	outf.close()
 ##########################################################################################	
 
