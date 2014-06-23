@@ -76,21 +76,28 @@ def collectRecordInfo(record):
     ''' Returns lay taxononmy and gene product'''
 
     try:
-        species = rec.annotations['source'].split('(')[1].strip(')').replace(' ', '')
+        speciesraw = record.annotations['source'].replace('-', ' ').replace("'", "").split('(')[1].strip(')').split(' ')
+        species = ''
+        for entry in speciesraw:
+            species += entry[0].upper()
+            species += entry[1:].lower()
     except:
         species = 'unknown'
+    
     feat = record.features
     for entry in feat:
         if entry.type == 'CDS':
             try:
-                gene = entry.qualifiers['gene']
+                gene = entry.qualifiers['gene'][0].upper()
+                if "LOC" in gene:
+                    gene = 'unknown'
             except:
                 gene = 'unknown'
     return species, gene
 
-def saveRecords(id_set, outfile, ncbi_dir, taxa, badlist):
+def saveRecords(id_set, outfile, taxa, badlist):
 
-    outf = open('outfile', 'w')
+    outf = open(outfile, 'w')
     for acc in id_set:
         fetch = Entrez.efetch(db="protein", rettype="gb", retmode="text", id=acc)
         record = SeqIO.read(fetch, "gb")
