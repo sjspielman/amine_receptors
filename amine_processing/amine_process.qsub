@@ -1,0 +1,43 @@
+### SJS 6/23/14. Initial submission script for amine receptor processing.
+
+
+#$ -N amine_processing
+#$ -e e_$JOB_NAME
+#$ -o o_$JOB_NAME
+#$ -S /bin/bash
+#$ -q wilke
+#$ -m beas
+#$ -pe serial 16
+
+source ~/.bashrc
+
+# Create Working Directory and remove anything that might have been there woops!
+MYJOB=$JOB_NAME-$JOB_ID
+WDIR=/state/partition1/sjs3495/$MYJOB
+RDIR=/home/sjs3495/$MYJOB
+FINALFILE=amine_GPCRs_aa.aln
+mkdir -p $WDIR
+
+if [ ! -d $WDIR ]
+then
+  echo $WDIR not created
+  exit
+fi
+cd $WDIR
+
+# Copy and run
+cp /home/sjs3495/AmineReceptors/amine_processing/ensure_good_aln.py .
+cp /home/sjs3495/AmineReceptors/amine_processing/gpcrhmm_fxns.py .
+cp /home/sjs3495/amine_GPCRs.fasta .
+cp -r /home/sjs3495/amine_gpcrhmm .
+cp /home/sjs3495/run_pasta.py .
+cp /home/sjs3495/generic_pasta_config.txt .
+
+module load python
+SATE_DEBUG=true
+SATE_LOGGING_LEVEL=DEBUG
+python ensure_good_aln.py amine_GPCRs.fasta $FINALFILE amine_gpcrhmm
+
+# Save and Cleanup
+mkdir -p $RDIR
+cp $FINALFILE $RDIR
