@@ -46,7 +46,8 @@ while num_discard > 0:
 
     # consensus
     print "consensus-ing"
-    gpcrhmm_fxns.consStruc(struc_file, raw_file, raw_file_next, 0.05) # if >=5% of a row is wrong, remove it
+    num_discard = gpcrhmm_fxns.consStruc(struc_file, raw_file, raw_file_next, 0.05) # if >=5% of a row is wrong, remove it
+    print "rep",rep,": ",num_discard,"sequences discarded."
 
     rep +=1
 

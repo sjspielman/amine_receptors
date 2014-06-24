@@ -79,7 +79,7 @@ def saveGoodSeqs(seqfile, discard_dict, outfile, discardif):
         except:
             outf.write(">"+str(raw[i].id)+"\n"+str(raw[i].seq)+"\n")
     outf.close()
-    print "discarded",numdisc,"sequences"
+    return numdisc
 
     
 def consStruc(strucfile, seqfile, outfile, discardif):
@@ -94,7 +94,7 @@ def consStruc(strucfile, seqfile, outfile, discardif):
     discard_dict = buildDiscardDict(seqs)
     
     # Save the good ones
-    saveGoodSeqs(seqfile, discard_dict, outfile, discardif)
+    return saveGoodSeqs(seqfile, discard_dict, outfile, discardif)
 
 ##########################################################################################
 
