@@ -9,6 +9,7 @@ import subprocess
 gpcr_struc = 'OMIMOMIMOMIMOMIX' # need the X as as hack
 
 ########################## CONSENSUS STRUCTURE FUNCTIONS #################################
+
 def maxColDict(column):
     ''' make dictionary to retrieve max entry in column.'''    
     dict = {}
@@ -96,6 +97,22 @@ def consStruc(strucfile, seqfile, outfile, discardif):
     # Save the good ones
     return saveGoodSeqs(seqfile, discard_dict, outfile, discardif)
 
+def getPartitions(strucfile):
+    # Grab seq2gpcrhmm "alignment"
+    aln = list(SeqIO.parse(strucfile, 'fasta'))
+    seqs = []
+    for entry in aln:
+        seqs.append(str(entry.seq))
+        
+    index = 0
+    full = ''
+    for c in range(len(seqs[0])):
+        col = ''
+        for row in seqs:
+            col += row[c]
+        index = findGPCRindex(col, index, c)
+        print gpcr_struc[index]
+       
 ##########################################################################################
 
 
