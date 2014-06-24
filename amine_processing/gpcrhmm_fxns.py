@@ -104,9 +104,9 @@ def getPartitions(strucfile):
     for entry in aln:
         seqs.append(str(entry.seq))
     last_domain = 'O' 
+    prev_stop = 0
     index = 0
     full = ''
-    print 0
     for c in range(len(seqs[0])):
         col = ''
         for row in seqs:
@@ -115,9 +115,10 @@ def getPartitions(strucfile):
         if gpcr_struc[index] == last_domain:
             continue
         else:
-            print c, gpcr_struc[index]
+            print last_domain, prev_stop,'-',c 
+            prev_stop = c+1
             last_domain = gpcr_struc[index]
-    print c
+    print last_domain, prev_stop, '-', c
        
 ##########################################################################################
 
