@@ -6,7 +6,7 @@ import subprocess
 
 
 
-gpcr_struc = 'OMIMOMIMOMIMOMIX' # need the X as as hack for line 25.
+gpcr_struc = 'OMIMOMIMOMIMOMIX' # need the X as as hack
 
 ########################## CONSENSUS STRUCTURE FUNCTIONS #################################
 def maxColDict(column):
@@ -24,14 +24,15 @@ def maxColDict(column):
 def findGPCRindex(column, index, c):
     ''' Where are we in the GPCR? '''
     dict, mymax = maxColDict(column)
+    
     for entry in dict:
         if dict[entry] == mymax:
              maxstruc = entry
              break
     if maxstruc == gpcr_struc[index+1]:
-        return index+1, c
+        return index+1
     else:
-        return index,None
+        return index
 
 def keepCol(col, domain, colindex):
     discard = []
@@ -54,7 +55,7 @@ def buildDiscardDict(seqs):
         col = ''
         for row in seqs:
             col += row[c]
-        index, where = findGPCRindex(col, index, c)
+        index = findGPCRindex(col, index, c)
         discard = keepCol(col, gpcr_struc[index], c)
         for entry in discard:
             if entry in discard_dict:
@@ -64,17 +65,21 @@ def buildDiscardDict(seqs):
     return discard_dict
     
 def saveGoodSeqs(seqfile, discard_dict, outfile, discardif):   
+    numdisc = 0
     outf = open(outfile, 'w')
     raw = list(SeqIO.parse(seqfile, 'fasta'))
-    discardif = discardif * len(raw)
     for i in range(len(raw)):
         try:
-            numbad = discard_dict[i]
-            if numbad < discardif:
+            thresh = len(str(raw[i].seq).replace('-','')) * discardif
+            if discard_dict[i] <= thresh:
                 outf.write(">"+str(raw[i].id)+"\n"+str(raw[i].seq)+"\n")
+            else:
+                numdisc += 1
+                
         except:
             outf.write(">"+str(raw[i].id)+"\n"+str(raw[i].seq)+"\n")
     outf.close()
+    print "discarded",numdisc,"sequences"
 
     
 def consStruc(strucfile, seqfile, outfile, discardif):
@@ -166,36 +171,11 @@ def amino2domain(infile, outfile, hmm_dir, cutoff):
         id = str(record.id)
         seq = str(record.seq)
         hmmFile = hmm_dir + id + '.txt'
-        print id
+        #print id
         newLetters = parseGPCRHMM(hmmFile, cutoff)
         finalSeq = replaceSeq(seq, newLetters)
         outaln.write(">"+id+"\n"+finalSeq+"\n")
     outaln.close()
-
-def getNumDiscarded(raw_file, raw_file_next):
-    print "reviewing the situation"
-    f = open('temp.txt', 'w')
-    findrep = "grep -c '>' " + raw_file
-    hi = subprocess.call(findrep, shell=True, stdout = f)
-    assert(hi == 0), "findrep fail"
-    findrepnext = "grep -c '>' " + raw_file_next
-    hi2 = subprocess.call(findrepnext, shell=True, stdout = f)
-    assert(hi2 == 0), "findrepnext fail"
-    f.close()
-    f = open('temp.txt', 'r')
-    lines = f.readlines()
-    f.close()
-    numrep = int(lines[0].strip())
-    numrepnext = int(lines[1].strip())
-    num_discard = numrep - numrepnext
-    return num_discard
-
-
-
-
-
-
-
 
 
 

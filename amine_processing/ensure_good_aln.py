@@ -13,6 +13,8 @@ import gpcrhmm_fxns
 infile = sys.argv[1] # initial inputfile, will be renamed
 final_name = sys.argv[2]
 hmm_dir = sys.argv[3]
+if hmm_dir[-1] != '/':
+    hmm_dir += '/'
 
 
 shutil.copy(infile, 's2g_0.fasta')
@@ -30,32 +32,27 @@ while num_discard > 0:
     raw_file_next = "s2g_"+str(nextrep)+".fasta"
     
     # Align
-    print "Aligning"
-    shutil.copy(raw_file, "seq.fasta")
-    pasta = "run_pasta.py generic_pasta_config.txt"
-    runpasta = subprocess.call(pasta, shell=True)
-    out_pasta = "pastajob.marker001.seq.fasta"
-    shutil.copy(out_pasta, alnfile)
-    
-    # Remove vomit pasta files
-    rm = subprocess.call("rm pastajob*", shell=True)
-    
+    if not os.path.exists(aln_file):
+        print "Aligning"
+        mafft = "mafft "+raw_file+" > "+aln_file
+        runmafft = subprocess.call(mafft, shell=True)
+        assert(runmafft == 0), "mafft fail"
+
    
     # seq2gpcrhmm
-    print "seq2gpcrhmm-ing"
-    gpcrhmm_fxns.amino2domain(aln_file, struc_file, hmm_dir, 0.8)
+    if not os.path.exists(struc_file):
+        print "seq2gpcrhmm-ing"
+        gpcrhmm_fxns.amino2domain(aln_file, struc_file, hmm_dir, 0.8)
 
     # consensus
     print "consensus-ing"
-    gpcrhmm_fxns.consStruc(struc_file, raw_file, raw_file_next, 0.005) # if 0.5% of a column is wrong, chuck it
-    
-    # check how many discarded
-    print "reviewing the situation"
-    num_discard = gpcrhmm_fxns.getNumDiscarded(raw_file, raw_file_next)
+    gpcrhmm_fxns.consStruc(struc_file, raw_file, raw_file_next, 0.05) # if >=5% of a row is wrong, remove it
 
-    print rep,"discarded",num_discard,"sequences"
     rep +=1
 
 print "Total reps needed:", rep-1
 shutil.copy(raw_file_next, final_name)
-    
+
+# at 5%:
+#0 discarded 145 sequences
+#1 discarded 3 sequences
