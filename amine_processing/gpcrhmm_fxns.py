@@ -118,7 +118,7 @@ def getPartitions(strucfile):
             print last_domain, prev_stop,'-',c 
             prev_stop = c+1
             last_domain = gpcr_struc[index]
-    print last_domain, prev_stop, '-', c
+    print last_domain, prev_stop, '-', c+1
        
 ##########################################################################################
 
