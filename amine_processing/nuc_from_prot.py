@@ -60,7 +60,7 @@ def getCDS(prot_ncbi, cds_match):
 ######################################################################
 	
 ######################################################################
-def main(infile, aa_outfile, nuc_outfile, map_outfile, protid_regexp, ncbi_dir):
+def main(infile, aa_outfile, nuc_outfile, map_outfile, protid_regexp):
 	''' Given a fasta protein sequence file, get corresponding nucleotide data.
 		Additionally save all information to a map file for future reference.
 	'''
@@ -102,7 +102,7 @@ def main(infile, aa_outfile, nuc_outfile, map_outfile, protid_regexp, ncbi_dir):
 		print final_id
 		out_aa.write('>'+final_id+'\n'+protseq+'\n')
 		out_nuc.write('>'+final_id+'\n'+nucseq+'\n')
-		out_map.write(final_id+'\t'+str(record.description)+'\n')
+		out_map.write(final_id + '\t' + full_id + '\t' + str(record.description) + '\n')
 	
 	out_aa.close()
 	out_nuc.close()
@@ -116,10 +116,9 @@ aa_infile = sys.argv[1]
 aa_outfile = sys.argv[2]
 nuc_outfile = sys.argv[3]
 map_outfile = sys.argv[4]
-ncbi_dir = sys.argv[5]
 
 protid_regexp = "^([XN]P_\d+\.\d)_.+$"
-main(aa_infile, aa_outfile, nuc_outfile, map_outfile, protid_regexp, ncbi_dir)
+main(aa_infile, aa_outfile, nuc_outfile, map_outfile, protid_regexp)
 
 
 
