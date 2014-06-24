@@ -19,6 +19,7 @@ if hmm_dir[-1] != '/':
 
 shutil.copy(infile, 's2g_0.fasta')
 num_discard = 1 # starting value before while
+percent = 0.05
 rep = 0
 
 while num_discard > 0:
@@ -46,7 +47,7 @@ while num_discard > 0:
 
     # consensus
     print "consensus-ing"
-    num_discard = gpcrhmm_fxns.consStruc(struc_file, raw_file, raw_file_next, 0.05) # if >=5% of a row is wrong, remove it
+    num_discard = gpcrhmm_fxns.consStruc(struc_file, raw_file, raw_file_next, percent) # if > percent of a row is wrong, remove it
     print "rep",rep,": ",num_discard,"sequences discarded."
 
     rep +=1
@@ -54,6 +55,10 @@ while num_discard > 0:
 print "Total reps needed:", rep-1
 shutil.copy(raw_file_next, final_name)
 
+print "Here are the domains:"
+gpcrhmm_fxns.getPartitions(struc_file)
 # at 5%:
-#0 discarded 145 sequences
-#1 discarded 3 sequences
+#rep 0 :  145 sequences discarded.
+#rep 1    3 sequences discarded.
+#rep 2 :  0 sequences discarded.
+## NOTE: tried 1%, and nearly all sequences were removed.
