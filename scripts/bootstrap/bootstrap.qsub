@@ -8,13 +8,12 @@
 #$ -q wilke
 #$ -m beas
 #$ -t 1-100:1
+#$ -pe serial 16
 
 source ~/.bashrc
 
 # Set up directories
-SRCDIR=/home/sjs3495/AmineData/BootMe
-ALNFILE=$SRCDIR/output_alignment_masked_orignames.fasta
-RDIR=$SRCDIR/OutBoot
+RDIR=/home/sjs3495/$JOB_NAME
 WDIR=/state/partition1/sjs3495/$JOB_NAME-$JOB_ID-$SGE_TASK_ID
 
 mkdir -p $RDIR
@@ -28,17 +27,16 @@ fi
 cd $WDIR
 
 # Copy data and python files
-cp $ALNFILE .
+cp /home/sjs3595/amine_aa_final.aln .
 cp /home/sjs3495/AmineReceptors/scripts/bootstrap.py .
-
+cp /home/sjs3495/bin/FastTreeMP .
 
 # Run bootstrap
 module load python
-python bootstrap.py $ALNFILE protein 1 1   # alnfile, datatype, number bootstraps to run, 1 if on cluster and 0 if on computer (for fasttree exec)
-
+python bootstrap.py amine_aa_final.aln protein 1  # alnfile, datatype, number bootstraps to run
 # Save the output files
-mv bootaln.txt $RDIR/bootaln$SGE_TASK_ID.txt 
-mv boottree.txt $RDIR/boottree$SGE_TASK_ID.txt 
+cp bootaln.txt $RDIR/bootaln$SGE_TASK_ID.txt 
+cp boottree.txt $RDIR/boottree$SGE_TASK_ID.txt 
 
 # Cleanup
 rm -rf $WDIR
