@@ -17,9 +17,7 @@ class Bootstrap:
 		assert (os.path.exists(self.seqfile)), "Provided input file does not exist."
 		self.bootnum = kwargs.get("bootnum", 100)
 		self.percent = kwargs.get("percent", 0.90)
-		self.datatype = kwargs.get("datatype", '')
-		assert(self.datatype=='protein' or self.datatype=='dna'), "\n\nAccepted data types are protein or dna."
-		self.cluster = kwargs.get("cluster") # True if on cluster. False if on my computer.
+		self.datatype = kwargs.get("datatype", 'protein')
 		
 		self.seqs = AlignIO.read(self.seqfile, 'fasta')
 		self.numseq = len(self.seqs)
@@ -34,7 +32,7 @@ class Bootstrap:
 	def cullGap(self):
 		for i in range(self.alnlen):
 			findgaps = str(self.seqs[:,i])
-			if findgaps.count('-') > self.limit:15
+			if findgaps.count('-') > self.limit:
 				#print findgaps.count('-'), self.limit
 				self.badcol.append(i)
 		#print len(self.badcol), self.alnlen
@@ -65,11 +63,7 @@ class Bootstrap:
 			arg = ''
 		elif self.datatype == 'dna':
 			arg = '-gtr'
-		if self.cluster:
-			BuildTree='/share/apps/fasttree-2.1.3/FastTree '+arg+' -fastest -nosupport -quiet -n '+str(self.bootnum)+' '+self.alnfile+' > '+self.treefile
-		else:
-			BuildTree='FastTree '+arg+' -fastest -nosupport -quiet -n '+str(self.bootnum)+' '+self.alnfile+' > '+self.treefile
-		print BuildTree
+		BuildTree='FastTreeMP '+arg+' -fastest -nosupport -quiet -n '+str(self.bootnum)+' '+self.alnfile+' > '+self.treefile
 		runtree=subprocess.call(str(BuildTree), shell='True')	
 		assert (runtree == 0), "FastTree fail"
 
@@ -77,8 +71,8 @@ class Bootstrap:
 infile = sys.argv[1]
 dtype = sys.argv[2]
 n = int(sys.argv[3])
-cluster_run = int(sys.argv[4]) ## 0 or 1
+assert(len(sys.argv) == 4), "\n\nUsage: python bootstrap.py <infile> <dtype> <number_bootstraps>"
 
 ######## RUN THE BOOTSTRAP #########
-boot = Bootstrap(seqfile = infile, datatype = dtype, bootnum = n, cluster = cluster_run )
+boot = Bootstrap(seqfile = infile, datatype = dtype, bootnum = n)
 boot.buildBootTrees()
