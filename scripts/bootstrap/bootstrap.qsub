@@ -1,7 +1,7 @@
 #### SJS. Submit bootstrap to cluster. ####
 
 #!/bin/bash
-#$ -N bootstrap
+#$ -N bootamine
 #$ -e e_$JOB_NAME
 #$ -o o_$JOB_NAME
 #$ -S /bin/bash
@@ -13,7 +13,7 @@
 source ~/.bashrc
 
 # Set up directories
-RDIR=/home/sjs3495/$JOB_NAME
+RDIR=/home/sjs3495/$JOB_NAME-$JOB_ID
 WDIR=/state/partition1/sjs3495/$JOB_NAME-$JOB_ID-$SGE_TASK_ID
 
 mkdir -p $RDIR
@@ -27,13 +27,13 @@ fi
 cd $WDIR
 
 # Copy data and python files
-cp /home/sjs3595/amine_aa_final.aln .
-cp /home/sjs3495/AmineReceptors/scripts/bootstrap.py .
+cp /home/sjs3495/amine_aa_final.aln aln.fasta
+cp /home/sjs3495/AmineReceptors/scripts/bootstrap/bootstrap_echadechad.py .
 cp /home/sjs3495/bin/FastTreeMP .
 
 # Run bootstrap
 module load python
-python bootstrap.py amine_aa_final.aln protein 1  # alnfile, datatype, number bootstraps to run
+python bootstrap_echadechad.py aln.fasta protein  # alnfile, datatype. this script runs 1 at a time 
 # Save the output files
 cp bootaln.txt $RDIR/bootaln$SGE_TASK_ID.txt 
 cp boottree.txt $RDIR/boottree$SGE_TASK_ID.txt 

@@ -1,3 +1,5 @@
+## Bootstrap, but hard-coded one at a time. Useful for cluster, because when alignment >5000 characters, needed interleaved, and that's annoying to write.
+
 # SJS. Bootstrap an alignment with fasttree
 # USAGE: python bootstrap.py <alignment_file> <datatype> <bootnum> 
 ### datatype is either protein or dna. gap_exclude is max percentage of gaps allowed in a column to be used. numBoot is number of bootstraps.
@@ -15,7 +17,7 @@ class Bootstrap:
 			
 		self.seqfile = kwargs.get("seqfile", '')		
 		assert (os.path.exists(self.seqfile)), "Provided input file does not exist."
-		self.bootnum = kwargs.get("bootnum", 100)
+		self.bootnum = 1 # hard-coded in this script
 		self.percent = kwargs.get("percent", 0.90)
 		self.datatype = kwargs.get("datatype", 'protein')
 		
@@ -41,7 +43,6 @@ class Bootstrap:
 		outhandle=open(self.alnfile, 'w')
 		for i in range(self.bootnum):
 			print "bootaln",i
-			outhandle.write(' '+str(self.numseq)+' '+str(self.alnlen)+'\n')
 			indices = []
 			for a in range(self.alnlen):
 				colnum = randint(0,self.alnlen-1)
@@ -53,7 +54,7 @@ class Bootstrap:
 				id=self.seqs[s].id
 				for a in indices:
 					newseq=newseq+self.seqs[s][a]
-				outhandle.write(str(id)+'        '+newseq+'\n')
+				outhandle.write('>'+str(id)+'\n'+newseq+'\n')
 		outhandle.close()
 
 	def buildBootTrees(self):
@@ -71,9 +72,8 @@ class Bootstrap:
 ######## INPUT ARGUMENTS ###########
 infile = sys.argv[1]
 dtype = sys.argv[2]
-n = int(sys.argv[3])
-assert(len(sys.argv) == 4), "\n\nUsage: python bootstrap.py <infile> <dtype> <number_bootstraps>"
+assert(len(sys.argv) == 3), "\n\nUsage: python bootstrap.py <infile> <dtype>"
 
 ######## RUN THE BOOTSTRAP #########
-boot = Bootstrap(seqfile = infile, datatype = dtype, bootnum = n)
+boot = Bootstrap(seqfile = infile, datatype = dtype)
 boot.buildBootTrees()
