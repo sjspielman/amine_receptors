@@ -55,18 +55,20 @@ def main(seqfile, cutoff):
     
     # create cullList to figure out which seqs to remove based on similarity
     for n in range(len(allSeqs)):
+        print n
+        print cullList
         entry1 = allSeqs[n]
         id1 = str(entry1.id)
         seq1 = str(entry1.seq)
 
         for m in range(n+1, len(allSeqs)):
+            if id1 in cullList:
+                break
             entry2 = allSeqs[m]
             if entry1.id != entry2.id and entry2.id not in cullList:
                 id2 = str(entry2.id)
                 seq2 = str(entry2.seq)
                 cullList = calcPairSim(seq1, seq2, id1, id2, cutoff, cullList)
-                if id1 in cullList:
-                    break
                     
     # save sequences we want to keep
     outf = open(outfile, 'w')
