@@ -64,7 +64,7 @@ class Bootstrap:
 			arg = '-wag'
 		elif self.datatype == 'dna':
 			arg = '-gtr'
-		BuildTree='./FastTreeMP '+arg+' -fastest -nosupport -quiet -n '+str(self.bootnum)+' '+self.alnfile+' > '+self.treefile
+		BuildTree='./FastTreeMP '+arg+' -nosupport -quiet -n '+str(self.bootnum)+' '+self.alnfile+' > '+self.treefile
 		print BuildTree
 		runtree=subprocess.call(str(BuildTree), shell='True')	
 		assert (runtree == 0), "FastTree fail"
