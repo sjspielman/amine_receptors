@@ -30,22 +30,28 @@ def calcPairSim(seq1, seq2, id1, id2, cutoff, cullList):
     sim = same/shared_length  
     
     if sim >= cutoff:
+        print
+        print id1, id2, same, shared_length
         if id1 not in cullList and id2 not in cullList:
             if "NP" in id1 and "NP" not in id2:
                 cullList.append(id2)
             elif "NP" in id2 and "NP" not in id1:
                 cullList.append(id1)
-            elif "unknown" in id1 and "unknown" not in id2:
-                cullList.append(id1)
-            elif "unknown" in id2 and "unknown" not in id1:
-                cullList.append(id2)
             else:
-                len_seq1 = len(seq1) - seq1.count('-')
-                len_seq2 = len(seq2) - seq2.count('-')
-                if len_seq1 >= len_seq2:
+                un1 = id1.count('unknown')
+                un2 = id2.count('unknown')
+                if un1 > un2:
+                    cullList.append(id1)
+                elif un2 > un1:
                     cullList.append(id2)
                 else:
-                    cullList.append(id1)
+                    len_seq1 = len(seq1) - seq1.count('-')
+                    len_seq2 = len(seq2) - seq2.count('-')
+                    if len_seq1 >= len_seq2:
+                        cullList.append(id2)
+                    else:
+                        cullList.append(id1)
+        print cullList[-1]
     return cullList
     
     
@@ -60,7 +66,7 @@ def main(seqfile, cutoff):
     # create cullList to figure out which seqs to remove based on similarity
     for n in range(len(allSeqs)):
         print n
-        print cullList
+        #print cullList
         entry1 = allSeqs[n]
         id1 = str(entry1.id)
         seq1 = str(entry1.seq)
