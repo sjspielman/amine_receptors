@@ -1,0 +1,35 @@
+### SJS 2/13/14. ###
+
+#$ -N processblast
+#$ -e e_$JOB_NAME
+#$ -o o_$JOB_NAME
+#$ -S /bin/bash
+#$ -q wilke
+#$ -m beas
+
+source ~/.bashrc
+
+# Create Working Directory and remove anything that might have been there woops!
+MYJOB=$JOB_NAME-$JOB_ID-$SGE_TASK_ID
+WDIR=/state/partition1/sjs3495/$MYJOB
+RDIR=/home/sjs3495/$MYJOB
+
+mkdir -p $WDIR
+if [ ! -d $WDIR ]
+then
+  echo $WDIR not created
+  exit
+fi
+cd $WDIR
+
+# Copy and run
+cp /home/sjs3495/AmineReceptors/amine_9.6.14/run_process_blast.py .
+cp -r /home/sjs3495/bin/gpcrhmm .
+module load python
+python run_blast.py $SGE_TASK_ID
+
+
+# Save and Cleanup
+mkdir -p $RDIR
+cp -r * $RDIR
+rm -rf $WDIR
