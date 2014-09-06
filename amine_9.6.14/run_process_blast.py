@@ -9,21 +9,17 @@ import subprocess
 import urllib
 import urllib2
 
-
+Entrez.email = "stephanie.spielman@gmail.com"
 BAD_TAGS = ['LOW_QUALITY', 'PSEUDOGENE', 'PARTIAL', 'LOW QUALITY']
 RESTRICT_TAXA = 'Vertebrata'
 AMBIG_AMINO = ["B", "X", "Z"]
+AMBIG_THRESHOLD = 0.01
 GPCR_GLOBAL = 10
 GPCR_LOCAL = 10
 CDS_MATCH = re.compile("\w\w_\d+\.*\d*")
 
-protein_outfile   = "protein_records.fasta"
-nuc_outfile       = "nucleotide_records.fasta"
-NCBI_directory    = "ncbi_records/"
-GPCRHMM_directory = "gpcrhmm_records/"
 
-
-	
+    
 def read_ids(infile):
     ''' Read in the file containing NCBI ids returned from Blast search. Save ids to a set so that we have no duplicates.'''
     id_set = set()
@@ -50,12 +46,12 @@ def keep_taxonomy_description(record):
 
 
 
-def keep_ambiguity(sequence, ambig_threshold):
+def keep_ambiguity(sequence):
     ''' Return True if ambiguities make up <=ambig_threshold (this should be a decimal) of the sequence.'''
     total_ambig = 0
     for ambig in AMBIG_AMINO:
         total_ambig += sequence.count(ambig)
-	if float(total_ambig)/seqlen > ambig_percent :
+    if float(total_ambig)/len(sequence) > AMBIG_THRESHOLD:
         return False
     else:
         return True
@@ -69,24 +65,27 @@ def ensure_gpcr(sequence):
     temp = open("in.fasta", "w")
     temp.write(">id\n"+sequence+"\n")
     temp.close()
-	run = subprocess.call("perl gpcrhmm/gpcrhmm.pl in.fasta > out.fasta", shell=True)
-	assert(run == 0), "gpcrhmm did not properly run and returned with exit code 0."
-	
-	# Parse the output file
-	outf = open("out.fasta", "rU")
-	line = outf.readlines()[1]
-	outf.close()
-	get_scores = re.search('^'+seqid+'\s+(-*\d*\.*\d*)\s+(-*\d*\.*\d*)\s+(\w+)\s*', line)
-	assert(get_scores), "Couldn't parse the gpcrhmm output file."
+    run = subprocess.call("perl gpcrhmm/gpcrhmm.pl in.fasta > out.fasta", shell=True)
+    assert(run == 0), "gpcrhmm did not properly run and returned with exit code 0."
+    
+    # Parse the output file
+    outf = open("out.fasta", "rU")
+    line = outf.readlines()[1]
+    outf.close()
+#    os.remove("in.fasta")
+#    os.remove("out.fasta")
+    get_scores = re.search('^id\s+(-*\d*\.*\d*)\s+(-*\d*\.*\d*)\s+(\w+)\s*', line)
+    assert(get_scores), "Couldn't parse the gpcrhmm output file."
     global_score = get_scores.group(1)
-	local_score = get_scores.group(2)
-	pred = get_scores.group(3)
-	if pred == 'GPCR' and float(global_score) >= GPCR_GLOBAL and float(local_score) >= GPCR_LOCAL:
-	    return True
-	else:
-	    return False
+    local_score = get_scores.group(2)
+    pred = get_scores.group(3)
+    if pred == 'GPCR' and float(global_score) >= GPCR_GLOBAL and float(local_score) >= GPCR_LOCAL:
+        return True
+    else:
+        return False
+    
 
-	
+    
 def get_CDS_info(prot_record):
     '''Retrieve CDS info (id and location) from a given protein record ''' 
     
@@ -113,28 +112,35 @@ def retrieve_nuc_record(prot_record, protseq):
 
     # Obtain CDS info and double check it
     cds_id, cds_start, cds_end = get_CDS_info(prot_record)
-    if (cds_end - cds_start)%3 == 0 and len(protseq) == cds_length/3):
+    cds_length = cds_end - cds_start
+    if cds_length%3 == 0 and len(protseq) == cds_length/3:
         
         # Query NCBI for the nucleotide record
-        fetch = Entrez.efetch(db="nucleotide", id=cds_id, rettype="gb", retmode="text")
+        no_response = True
+        while no_response:
+            try:
+                fetch = Entrez.efetch(db="nucleotide", id=cds_id, rettype="gb", retmode="text")
+                no_response = False
+            except:
+                pass
         nuc_record = SeqIO.read(fetch, 'gb')
         
         # Check that nucleotide translation is the same as the protein sequence
         nucseq = str(nuc_record.seq)[cds_start:cds_end]    
         protseq_from_nuc = str( Seq.Seq(nucseq, generic_dna).translate() )
-        if protseq_from_nuc == proseq:
-            return nuc_record, nucseq
+        if protseq_from_nuc == protseq:
+            return nuc_record, cds_id, nucseq
         else:
-            return None, None
+            return None, None, None
     else:
-        return None, None
+        return None, None, None
        
 
 def collect_gpcrhmm_structure(protseq, outfile):
     ''' Query the gpcrhmm server for the structure/domains. '''
 
     url1 = 'http://gpcrhmm.sbc.su.se/cgi-bin/predict'
-    values = {'protseq':proseq, 'format':'plp'}
+    values = {'protseq':protseq, 'format':'plp'}
     
     data = urllib.urlencode(values)
     req = urllib2.Request(url1, data)
@@ -152,11 +158,11 @@ def collect_gpcrhmm_structure(protseq, outfile):
         url2='http://gpcrhmm.sbc.su.se/tmp/'+link+'.plp'
         no_response2 = True
         while no_response2:
-        try:    
-            response2 = urllib2.urlopen(url2)
-            no_response2 = False
-        except:
-            pass     
+            try:    
+                response2 = urllib2.urlopen(url2)
+                no_response2 = False
+            except:
+                pass     
         page2=str(response2.read())
      
         outf=open(outfile,'w')
@@ -167,46 +173,75 @@ def collect_gpcrhmm_structure(protseq, outfile):
 
 def main():
   
-    # Input argument
-    assert(len(sys.argv) == 2), "Usage: python run_process_blast.py <input_file>. Input file should contain list of ncbi protein ids to process."
+    # Input arguments
+    assert(len(sys.argv) == 3), "Usage: python run_process_blast.py <input_file> <rdir>. Input file should contain list of ncbi protein ids to process. rdir is return directory for output gpcrhmm, ncbi files."
     infile = sys.argv[1]  
+    rdir = sys.argv[2]
+    protein_outfile   = "protein_records.fasta"
+    nuc_outfile       = "nucleotide_records.fasta"
+    ncbi_directory    = rdir + "/ncbi_records/"
+    gpcrhmm_directory = rdir + "/gpcrhmm_records/"
+    os.mkdir(ncbi_directory)
+    os.mkdir(gpcrhmm_directory)
         
     # Read in ids, while removing duplicates
+    print "Reading in ids and removing duplicates"
     raw_ids = read_ids(infile)
     
     # Loop over ids and decide whether to keep each one or not.
     for prot_id in raw_ids:
         
         # Retreive the NCBI record
-        fetch = Entrez.efetch(db="protein", rettype="gb", retmode="text", id=prot_id)
+        print
+        print "Fetching protein record for ", prot_id
+        no_response = True
+        while no_response:
+            try:
+                fetch = Entrez.efetch(db="protein", rettype="gb", retmode="text", id=prot_id)
+                no_response = False
+            except:
+                pass
         prot_record = SeqIO.read(fetch, "gb")
-        protseq = str(record.seq)
+        protseq = str(prot_record.seq)
         
         # Determine if we should keep based on taxonomy, description, and ambiguities
-        if keep_taxonomy_description(prot_record) and keep_ambiguity(protseq, ambig_threshold):
+        print "Assessing taxonomy, description, ambiguities"
+        if keep_taxonomy_description(prot_record) and keep_ambiguity(protseq):
             
             # Ensure that the sequence is really a GPCR. Note that we don't include this in the previous line in order to avoid excessive calls to gpcrhmm
+            print "Checking if GPCR"
             if ensure_gpcr(protseq):
                 
                 # Fetch the sequence's corresponding nucleotide record from NCBI, and double-check that it plays nicely with the protein record.
-                nuc_record, nucseq = retrieve_nuc_record(prot_id, protseq)
+                print "Fetching nucleotide record and comparing to protein record"
+                nuc_record, nuc_id, nucseq = retrieve_nuc_record(prot_record, protseq)
                 
                 # If fetching the nucleotide record went ok, we can proceed to save both the protein and the nucleotide NCBI records.
                 if nuc_record is not None:
                     
+                    print "We are keeping", prot_id
                     # Retrieve the gpcrhmm record from their server
-                    collect_gpcrhmm_structure(protseq, GPCRHMM_directory+prot_id+".txt")
+                    collect_gpcrhmm_structure(protseq, gpcrhmm_directory+prot_id+".txt")
+                    assert(os.path.exists(gpcrhmm_directory+prot_id+".txt")), "Didn't get gpcrhmm"
                      
                     # Save the NCBI records
-                    SeqIO.write(prot_record, prot_id+".txt", "gb")
-                    SeqIO.write(nuc_record, nuc_id+".txt", "gb")
+                    SeqIO.write(prot_record, ncbi_directory + prot_id+".txt", "gb")
+                    SeqIO.write(nuc_record, ncbi_directory + nuc_id+".txt", "gb")
                     
                     # Save the sequences
                     prot_handle = open(protein_outfile, 'a')
                     prot_handle.write(">"+prot_id+"\n"+protseq+"\n")
                     prot_handle.close()
-                    nuc_handle = open(nucleotide_outfile, 'a')
+                    nuc_handle = open(nuc_outfile, 'a')
                     nuc_handle.write(">"+nuc_id+"\n"+nucseq+"\n")
-                    nuc_handle.close()
-    
+                    nuc_handle.close()    
+                
+                else:
+                   print "We are not saving", prot_id, "due to poor nucleotide record."
+            else:
+                print "We are not saving", prot_id, "because it may not be a GPCR."
+        else:
+            print "We are not saving", prot_id, "due to taxonomy/sequence quality/ambiguities."
+            
+        
 main()

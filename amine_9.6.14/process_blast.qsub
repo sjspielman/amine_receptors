@@ -10,10 +10,10 @@
 source ~/.bashrc
 
 # Create Working Directory and remove anything that might have been there woops!
-MYJOB=$JOB_NAME-$JOB_ID-$SGE_TASK_ID
-WDIR=/state/partition1/sjs3495/$MYJOB
+MYJOB=$JOB_NAME-$JOB_ID
+WDIR=/share/WilkeLab/work/sjs3495/$MYJOB
 RDIR=/home/sjs3495/$MYJOB
-
+mkdir -p $RDIR
 mkdir -p $WDIR
 if [ ! -d $WDIR ]
 then
@@ -24,12 +24,12 @@ cd $WDIR
 
 # Copy and run
 cp /home/sjs3495/AmineReceptors/amine_9.6.14/run_process_blast.py .
+cp /home/sjs3495/blast_ids_all.txt ids.txt
 cp -r /home/sjs3495/bin/gpcrhmm .
 module load python
-python run_blast.py $SGE_TASK_ID
+python run_process_blast.py ids.txt $RDIR
 
 
 # Save and Cleanup
-mkdir -p $RDIR
-cp -r * $RDIR
+cp *.fasta $RDIR
 rm -rf $WDIR
