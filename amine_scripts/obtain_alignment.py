@@ -178,7 +178,7 @@ def main():
         
         # Align with mafft
         print "Aligning"
-        call_mafft(mafft_in, mafft_out, options='--quiet')
+        call_mafft(mafft_in, mafft_out, options='--quiet --thread 3')
 
         # Convert protein alignment to gpcrhmm alignment. Returns protein alignment object, struc_aln numpy array of alignment
         print "Converting protein alignment to corresponding GPCR domains"
