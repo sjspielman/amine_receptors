@@ -1,12 +1,15 @@
 ''' 
 SJS 9/6/14 - 9/8/14. 
-Provide two corresponding FASTA sequence files (protein, nucleotide) of GPCRs as well as their gpcrhmm records. Note that the sequence files must use the same IDs for corresponding sequences.
+Provide two corresponding FASTA sequence files (protein, nucleotide) of GPCRs as well as their gpcrhmm records. 
+IMPORTANT: sequence files must use the same IDs for corresponding sequences. NO checking is done for this!!
 Yields the following files:
 1-2. <protein/nucleotide>_aln_naive.fasta  : Alignments simply created with mafft,       
 3-4. <protein/nucleotide>_aln.fasta        : Alignments where domains properly align,    
 5-6. <protein/nucleotide>_aln_masked.fasta : Alignments where domains properly align, but structurally ambiguous columns and residues which do not match the consensus column structure are masked, 
 7.  domain_alignment.fasta                 : "Alignment" where residues are replaced with domain tags O/I/M/A (outer, inner, membrane, ambiguous)
 8.  domain_consensus.txt                   : Simple string of the consensus domains 
+
+Dependencies: biopython and numpy.
 '''
 
 
@@ -27,7 +30,7 @@ GPCR_DOMAIN_DICT   = {'O':0, 'I':1, 'M':2, 'A':3, '-':4}
 TRANSLATOR         =  maketrans("".join(map(str,GPCR_DOMAIN_DICT.values())), "".join(GPCR_DOMAIN_DICT.keys())) # to translate integers to domains
 GPCR_STRUCTURE     = [0, 2, 1, 2, 0, 2, 1, 2, 0, 2, 1, 2, 0, 2, 1, 3] # we use the 3 as a "hack" to terminate the protein.
 PERCENT_MISALIGNED = 0.05  # We discard *sequences* where >=threshold of NONGAP positions do not match consensus structure
-GPCRHMM_THRESHOLD  = 0.8   # We assign domains if posterior probability is >= threshold. Otherwise, we call it ambiguous.
+GPCRHMM_THRESHOLD  = 0.5   # We assign domains if posterior probability is >= threshold. Otherwise, we call it ambiguous.
 ################################################
 
 
