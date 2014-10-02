@@ -89,7 +89,8 @@ def main():
     out_tree_file = tree_directory + sys.argv[2]
     assert(os.path.exists(in_tree_file)), "Your input tree file does not exist in ~/Dropbox/Amine/GPCRs/phylogenies/. Quitting."      
     rename_tree(in_tree_file, out_tree_file)
-            
+
+main()
             
             
             
