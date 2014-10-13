@@ -1,0 +1,61 @@
+LOCUS       XP_004371390             366 aa                     MAM 27-MAR-2013
+DEFINITION  PREDICTED: 5-hydroxytryptamine receptor 1F [Trichechus manatus
+            latirostris].
+ACCESSION   XP_004371390
+VERSION     XP_004371390.1  GI:471361654
+DBLINK      BioProject: PRJNA189960
+KEYWORDS    RefSeq.
+SOURCE      Trichechus manatus latirostris (Florida manatee)
+  ORGANISM  Trichechus manatus latirostris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Afrotheria; Sirenia; Trichechidae; Trichechus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004443948.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Trichechus manatus latirostris Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..366
+                     /sub_species="latirostris"
+                     /isolate="Lorelei"
+                     /sex="female"
+                     /db_xref="taxon:127582"
+                     /organism="Trichechus manatus latirostris"
+                     /chromosome="Unknown"
+     Protein         1..366
+                     /product="5-hydroxytryptamine receptor 1F"
+                     /calculated_mol_wt="41524"
+     Region          33..>155
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          46..347
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..366
+                     /coded_by="XM_004371333.1:1..1101"
+                     /gene="HTR1F"
+                     /db_xref="GeneID:101351302"
+ORIGIN
+        1 mdflnssdqn ltseellnim pskilvslal sglalmttti nslviaaiiv trklhhpany
+       61 licslavtdf lvavlvmpfs ivyivreswi mgqvvcdiwl svditcctcs ilhlsaiald
+      121 ryraitdave yarkrtpkha gimimvvwii sifismpplf wrhqgtspdd eciikhdhiv
+      181 stiystfgaf yiplalilil yykiyraakt lyhkrqasri akeevngqvl lesgekstrl
+      241 lstpymleks lsepstdvdk ihstvkspks efkhekswrr qkisgtrerk aattlglilg
+      301 afvicwlpff vkelvvnvce kckiseemsn fltwlgylns linpliytif nedfkkafqk
+      361 lvrcrc
+//

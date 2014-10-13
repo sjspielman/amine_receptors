@@ -1,0 +1,99 @@
+LOCUS       XM_004915891            1787 bp    DNA              VRT 18-JUN-2013
+DEFINITION  PREDICTED: Xenopus (Silurana) tropicalis D(1C) dopamine receptor
+            (drd1c), mRNA.
+ACCESSION   XM_004915891
+VERSION     XM_004915891.1  GI:512852163
+DBLINK      BioProject: PRJNA205740
+KEYWORDS    RefSeq.
+SOURCE      Xenopus (Silurana) tropicalis (western clawed frog)
+  ORGANISM  Xenopus (Silurana) tropicalis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Amphibia; Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae; Xenopus;
+            Silurana.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004668240.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Xenopus (Silurana) tropicalis
+            Annotation Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1787
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8364"
+                     /sex="female"
+                     /note="partially inbred F6; sterile"
+                     /strain="Nigerian"
+                     /organism="Xenopus (Silurana) tropicalis"
+                     /chromosome="Unknown"
+     gene            1..1787
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 2 ESTs, 22 Proteins, and
+                     63% coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:100124855"
+                     /db_xref="Xenbase:XB-GENE-5919679"
+                     /gene="drd1c"
+     misc_feature    339..341
+                     /note="upstream in-frame stop codon"
+                     /gene="drd1c"
+     CDS             387..1784
+                     /product="D(1C) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:512852164"
+                     /db_xref="GeneID:100124855"
+                     /db_xref="Xenbase:XB-GENE-5919679"
+                     /translation="MENLSIYNVTVNVLHADLDVGSSDLSLRALTGLLLSLLILSTLLG
+                     NTLVCLAVIKFRHLRSKVTNFFVISLAVSDLFVALLVMPWKAVTEVAGYWLFGDFCDTW
+                     VAFDIMCSTASILNLCIISLDRYWAIASPFRYERKMTQRVAFIMIGVAWTLSILISFIP
+                     VQLSWHKSQEVDEELNAINHTENCDSSLNRTYAISSSLISFYIPVVIMIGTYTRIYRIA
+                     QTQIRRISSLERAVEHAQSGHPDCSNENSLKTSFRKETKVLKTLSIIMGVFVFCWLPFF
+                     VLNCMIPFCHMSLPGQNEPEPPCVSETTFNIFVWFGWANSSLNPVIYAFNADFRKAFTT
+                     ILGCNRFCSSNNVEAVNFSNELVSYHHDTTFQKDIPVTFNNSHLPNVVDQDQEVLEGTC
+                     FDKVSVLSTSHGTRSHKNLHLPASVQFECEAEITLETITPFTSTGPLECLPQLVADEDR
+                     HYTTKLY"
+                     /gene="drd1c"
+                     /protein_id="XP_004915948.1"
+ORIGIN
+        1 ttgtgccaga aagtggaaaa tgtgataaaa tgtgcatgca tcataatgaa ttgagggaat
+       61 gtttgactgt aatttgaaat catgcagggg cagagcaaat caaagactgc aaatgagttt
+      121 tcttcttcac tgatatgagt attttttttt ctcatataca aataataatg ttgagcacta
+      181 gaggcttgat ttgaatttac tccattctcc aatggaattt gttgctgctt agagccggtt
+      241 gaagataaac gcactgctcc tgtgagattt attttgttgc tgagcttgta aggatggcat
+      301 gacattcagc agacttctga atttacttat tttccttttg agaaaaaagg agctgtgaaa
+      361 aagaaaccta ttccccatta cccctcatgg aaaatctctc tatatacaat gtaacagtca
+      421 atgtgttgca tgcagatcta gatgtgggaa gctcagattt aagccttcgt gcgctgactg
+      481 gattgcttct atcactgctc atcctgtcta ccctcctggg caacacgctt gtgtgcctag
+      541 cagtcatcaa gtttagacac cttcgatcaa aggtaaccaa cttctttgtg atttctttgg
+      601 ccgtttcaga cctctttgtg gctttgttgg tgatgccctg gaaagcagtg accgaggttg
+      661 ctgggtattg gctctttggt gacttttgtg acacttgggt tgccttcgac attatgtgct
+      721 ctactgcatc catcctcaat ctctgtatta tcagtctcga cagatactgg gccattgcaa
+      781 gtccattcag gtatgaaaga aaaatgacac aaagggtggc ttttattatg ataggcgtag
+      841 cctggacttt atctatccta atatcattta tacctgttca gcttagctgg cataaatccc
+      901 aggaggttga tgaggaactt aatgccataa atcacacaga gaactgtgat tcgagcctga
+      961 atcggacata cgcaatatcc tcttcactta taagcttcta catacctgtt gttatcatga
+     1021 ttggtacata caccaggatt tacagaattg ctcagacaca aataaggaga atttcttcct
+     1081 tagaaagagc cgtggagcat gcacagagtg gccatccaga ctgttctaat gaaaattcat
+     1141 tgaaaacttc tttcaggaag gagactaagg tactaaagac cttatccata atcatggggg
+     1201 tctttgtttt ttgctggctt ccattttttg ttctcaactg tatgatccct ttttgccata
+     1261 tgagtcttcc aggtcaaaat gaaccagagc ccccatgtgt tagtgagact acatttaata
+     1321 tatttgtgtg gtttggatgg gccaactcat cactgaaccc tgttatttat gctttcaatg
+     1381 ctgacttcag aaaagccttt actactatcc taggatgcaa tagattctgc tcaagcaaca
+     1441 acgtagaggc tgtaaatttc agcaatgaac tggtgtccta ccaccacgac acaacatttc
+     1501 agaaggatat ccctgtcact ttcaataact ctcacctccc caatgtagtg gaccaagacc
+     1561 aggaagtctt agaaggaacg tgttttgaca aagtttcagt tctatccacc tcacatggga
+     1621 ccagaagcca caagaattta catttgcctg ccagcgttca gtttgaatgt gaggcagaaa
+     1681 taactttgga gactattaca ccatttacat ctacgggacc ccttgaatgt ctcccacagt
+     1741 tagttgcaga tgaggataga cactatacca caaaactcta ctagacc
+//

@@ -1,0 +1,63 @@
+LOCUS       XP_004270787             422 aa                     MAM 18-MAR-2013
+DEFINITION  PREDICTED: 5-hydroxytryptamine receptor 1A [Orcinus orca].
+ACCESSION   XP_004270787
+VERSION     XP_004270787.1  GI:466013711
+DBLINK      BioProject: PRJNA189949
+KEYWORDS    RefSeq.
+SOURCE      Orcinus orca (killer whale)
+  ORGANISM  Orcinus orca
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Cetacea;
+            Odontoceti; Delphinidae; Orcinus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004438453.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Orcinus orca Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..422
+                     /collection_date="06-Sep-2011"
+                     /isolate="Morgan"
+                     /sex="male"
+                     /note="Norwegian herring-eating population"
+                     /db_xref="taxon:9733"
+                     /tissue_type="blood"
+                     /organism="Orcinus orca"
+                     /chromosome="Unknown"
+     Protein         1..422
+                     /product="5-hydroxytryptamine receptor 1A"
+                     /calculated_mol_wt="46312"
+     Region          48..>169
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          59..400
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..422
+                     /coded_by="XM_004270739.1:418..1686"
+                     /gene="HTR1A"
+                     /db_xref="GeneID:101279054"
+ORIGIN
+        1 mdvlsplqgn nttssqgpfg tranatgisd vtfsyqvits lllgtlifca vlgnacvvaa
+       61 ialerslqnv anyligslav tdlmvsvlvl pmaalyqvln kwtlgqvtcd lfialdvlcc
+      121 tssilhlcai aldrywaitd pidyvnkrtp rraaalislt wligflisip pmlgwrtped
+      181 rsdpdactis kdhgytiyst fgafyiplll mlvlygrifr aarfrirktv kkeekkvann
+      241 rlgaspapqp rksvngepgs kdwrqgmenk atgapcanga vrqgdegaal evievhrvgn
+      301 skehlplpse agavpcvpas fekknernae akrkmalare rktvktlgii mgtfilcwlp
+      361 ffivalvlpf cesschmptl lgaiinwlgy snsllnpviy ayfnkdfqna fkkiikckfc
+      421 rr
+//

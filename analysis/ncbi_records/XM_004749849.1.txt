@@ -1,0 +1,130 @@
+LOCUS       XM_004749849            2752 bp    DNA              MAM 13-JUN-2013
+DEFINITION  PREDICTED: Mustela putorius furo dopamine receptor D2 (DRD2),
+            transcript variant X1, mRNA.
+ACCESSION   XM_004749849
+VERSION     XM_004749849.1  GI:511851151
+DBLINK      BioProject: PRJNA158527
+KEYWORDS    RefSeq.
+SOURCE      Mustela putorius furo (domestic ferret)
+  ORGANISM  Mustela putorius furo
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+            Mustelidae; Mustelinae; Mustela.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004569168.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Mustela putorius furo Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2752
+                     /sub_species="furo"
+                     /mol_type="mRNA"
+                     /breed="Sable"
+                     /isolate="ID#1420"
+                     /sex="female"
+                     /db_xref="taxon:9669"
+                     /organism="Mustela putorius furo"
+                     /chromosome="Unknown"
+     gene            1..2752
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 13 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 1 sample with support for all
+                     annotated introns"
+                     /db_xref="GeneID:101676483"
+                     /gene="DRD2"
+     misc_feature    302..304
+                     /note="upstream in-frame stop codon"
+                     /gene="DRD2"
+     CDS             341..1672
+                     /product="D(2) dopamine receptor isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:511851152"
+                     /db_xref="GeneID:101676483"
+                     /translation="MDPLNLSWYDDDPESRNWSRPFNGSEGKVGKPHYNYYAMLLTLLI
+                     FVIVFGNVLVCMAVSREKALQTTTNYLIVSLAVADLLVATLVMPWVVYLEVVGEWKFSR
+                     IHCDIFVTLDVMMCTASILNLCAISIDRYTAVAMPMLYNTRYSSKRRVTVMIAIVWVLS
+                     FTISCPLLFGLNNTDQNECIIANPAFVVYSSVVSFYVPFIVTLLVYIKIYIVLRRRRKR
+                     VNTKRSSRAFRANLKAPLKGNYTHPEDMKLCTVIMKSNGSFPVNRRRVEAARRAQELEM
+                     EMLSSTSPPERTRYSPIPPSHHQLTLPDPSHHGLHSTANSPVKPEKNGHAKDHPKIAKI
+                     FEIQSMPNGKTRTSLKTMSRRKLSQQKEKKATQMLAIVLGVFIICWLPFFITHILNIHC
+                     DCNIPPVLYSAFTWLGYVNSAVNPIIYTTFNVEFRKAFMKILHC"
+                     /gene="DRD2"
+                     /protein_id="XP_004749906.1"
+     STS             635..842
+                     /db_xref="UniSTS:266487"
+                     /standard_name="DRD2"
+                     /gene="DRD2"
+     STS             671..762
+                     /db_xref="UniSTS:262987"
+                     /standard_name="DRD2"
+                     /gene="DRD2"
+     STS             930..1102
+                     /db_xref="UniSTS:267588"
+                     /standard_name="MARC_13871-13872:1007494510:1"
+                     /gene="DRD2"
+     STS             1172..1352
+                     /db_xref="UniSTS:272844"
+                     /standard_name="PMC311033P6"
+                     /gene="DRD2"
+ORIGIN
+        1 tcacgggtaa ggtgggtaac ctgcggcctg gggctgacag ggaataaact acccgccaga
+       61 gagcagctcg gagcagatgc cgtggagtcc gggcgagacc gagaaggggg cggagagagc
+      121 ggaggctgac gcgatagtgg aaccaaggag ctcgtatgtg cacccgtgtg ggcactgctg
+      181 cttgagagca tgatggccaa cagcagtagc aacttcaaca actagtcctc gctgtcaggg
+      241 gcttactgtg cggacggcac tgtactaggg attcacacgc attaagatag ctgatgattc
+      301 ctgacgtctt ggaagtaaag cccggccacc cgctgccctg atggatcccc tgaacctgtc
+      361 ctggtacgat gatgatccgg aaagccgcaa ctggagccgg cccttcaacg ggtcggaagg
+      421 caaggtgggc aagccccact ataactacta cgccatgctg ctcaccctgc tcatcttcgt
+      481 catcgtcttc ggcaacgtgt tggtgtgcat ggccgtgtcc cgcgagaagg cgctacagac
+      541 caccaccaac tacctgatcg tcagccttgc ggtggccgac ctcctggtgg ccacactcgt
+      601 catgccctgg gtcgtctacc tggaggtggt gggcgagtgg aaattcagca ggattcactg
+      661 tgacatcttt gtcactctgg acgtcatgat gtgcacggca agcatcctga acctgtgtgc
+      721 tatcagcatc gacaggtaca cggccgtggc catgcccatg ctctacaaca ctcgctacag
+      781 ctccaaacgc cgcgtcaccg tcatgattgc catcgtctgg gtcctgtcct ttaccatctc
+      841 ctgcccgctg ctctttggac tcaacaacac agaccagaac gagtgcataa tcgccaaccc
+      901 cgcgttcgtg gtgtactcct ctgtcgtgtc cttctatgtg cccttcatcg tcacgctgct
+      961 ggtctacatc aagatctaca tcgtcctccg caggcgtcgc aagcgggtca acacgaagcg
+     1021 gagcagccgg gctttcaggg ccaacctgaa ggccccgctc aagggcaact acacccaccc
+     1081 cgaggacatg aaactctgca ccgttatcat gaagtccaat ggcagtttcc cagtgaacag
+     1141 gcggagagtg gaggctgccc gccgagccca ggagctggag atggagatgc tgtccagcac
+     1201 cagcccccct gagaggaccc ggtacagtcc cataccgccc agccaccacc agctgaccct
+     1261 ccccgacccg tcccaccacg gcctccacag cactgccaac agtcccgtca aaccagagaa
+     1321 gaatgggcat gccaaagacc accccaagat tgccaagatc tttgagatcc agtccatgcc
+     1381 caatggcaaa acccggacct ctctcaagac tatgagccgc aggaagctgt cccagcagaa
+     1441 ggagaagaaa gccacccaga tgctcgccat tgttcttggc gtgttcatca tctgctggct
+     1501 gcccttcttc atcacccaca tcctgaacat ccactgtgac tgcaacatcc cgcctgtcct
+     1561 ctacagcgcc ttcacatggc tgggctatgt caacagcgcc gtgaacccca tcatctacac
+     1621 caccttcaac gtcgagttcc gcaaggcctt catgaagatc ctgcactgct gacctgcggc
+     1681 cacctgcacg gcagcctgct tcccgcctct ctgcctgacc ggccggctcg cacttccggg
+     1741 gagctgcggg cagggtgggc ggggccgggc ggactgggcc ttctctttgc ttggctccac
+     1801 gcccctctgt gcccgcacgc ccacactctg ctggggtagt gcttgggagc caggcactgt
+     1861 gccggcctgc gggctggacc cctggctcgg gggcagctca cagagccccc ctcccacctc
+     1921 gaggccccct ctccttggca ccaaagacgc agccgccttc tctgaccttt ctctggggtc
+     1981 ctgggttgcc agggccagag gcacggctca gagaccatgc tttctgttgg gtctggctcg
+     2041 gtcttcacag gccgatgctg gggtgggccg tggggaggga tgatcccact ccacaggcca
+     2101 tgcccgggaa gccagagctc ctgccaaggc cccaggcaac tgtagtcctg ggagccccat
+     2161 gtaaatacca gaccacaggg tgaaccccag aggagcccaa gccaaaaatc tttgctcgct
+     2221 ccctgtcctg ccccacagga gcgtccgttt ccccagcgtg gggcccgccc tgccccagcc
+     2281 cgctccagca cccacatggt ttctgtacct gctaagggca ggaacccggg tcatggaggg
+     2341 cccccaggaa cgtgtgtggg gagggggacc tcccccaagc ccactttgcc acctcctgac
+     2401 agactcggtt tgtcccttct tgtagcaact ttggggctgg cctgcaagca ggcagggaag
+     2461 gtgggcttgg gaccacatct gggctggggt gctggagtcc ccagggggct gcctcctgcc
+     2521 acactctgcc acaaaccacc tctcctttcc ctcttttctc tcccgttgcc tttcccttcc
+     2581 gctatctcta ccttagagaa gcccgtggca aggggactgc ggagtgccac ttggcctggg
+     2641 ctggccctgc cctgagggag gaggggaggc tgcagcttgg ggagcccctg ggcccagact
+     2701 ctgtaacatc actacacatg ctccaaacga ataaaactct gacaagagtc ac
+//

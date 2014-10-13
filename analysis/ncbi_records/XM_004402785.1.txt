@@ -1,0 +1,92 @@
+LOCUS       XM_004402785            1363 bp    DNA              MAM 31-MAR-2013
+DEFINITION  PREDICTED: Odobenus rosmarus divergens 5-hydroxytryptamine
+            (serotonin) receptor 4, G protein-coupled, transcript variant 2
+            (HTR4), mRNA.
+ACCESSION   XM_004402785
+VERSION     XM_004402785.1  GI:472366609
+DBLINK      BioProject: PRJNA189954
+KEYWORDS    RefSeq.
+SOURCE      Odobenus rosmarus divergens (Pacific walrus)
+  ORGANISM  Odobenus rosmarus divergens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+            Odobenidae; Odobenus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004450439.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Odobenus rosmarus divergens Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1363
+                     /sub_species="divergens"
+                     /mol_type="mRNA"
+                     /collection_date="06-Sep-2011"
+                     /country="USA:AK, Round Island"
+                     /isolate="Ivan"
+                     /sex="male"
+                     /isolation_source="blood"
+                     /db_xref="taxon:9708"
+                     /organism="Odobenus rosmarus divergens"
+                     /chromosome="Unknown"
+     gene            1..1363
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 22 mRNAs, 18 Proteins"
+                     /db_xref="GeneID:101368249"
+                     /gene="HTR4"
+     misc_feature    15..17
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR4"
+     CDS             48..1211
+                     /product="5-hydroxytryptamine receptor 4 isoform 2"
+                     /codon_start="1"
+                     /db_xref="GI:472366610"
+                     /db_xref="GeneID:101368249"
+                     /translation="MDELDANVSSKEGFGSVEKVVLLTFLSAVILMAILGNLLVMVAVC
+                     RDRQLRKIKTNYFIVSLAFVDLLVSVLVMPFGAIELVQDIWIYGEMFCLVRTSLDVLLT
+                     TASIFHLCCISLDRYYAICCQPLVYRNKMTPLRIALMLGGCWVIPMFISFLPIMQGWNN
+                     IGIIDLIEKRKFNQNSNSTYCIFMVNKPYAITCSVVAFYIPFLLMVLAYYRIYVTAKEH
+                     AHQIQMLQRAGASSEGRPQPADQHSTHRMRTETKAAKTLCIIMGCFCLCWAPFFVTNIV
+                     DPFIDYTVPGQVWTAFLWLGYINSGLNPFLYAFLNKSFRRAFLIILCCDDERYRRPSIL
+                     GQTVPCSTTTINGSTHVLRYTVLHSGHHQELETLPIHNDPESLESCF"
+                     /gene="HTR4"
+                     /protein_id="XP_004402842.1"
+     STS             708..846
+                     /db_xref="UniSTS:504885"
+                     /standard_name="HTR4"
+                     /gene="HTR4"
+ORIGIN
+        1 gaccctgtgg gcactgaaac ccaactcacc catgcctatt tcctgtaatg gatgaacttg
+       61 atgctaatgt gagttccaag gagggttttg ggtcagtgga gaaggtcgtg ctgctcacgt
+      121 ttctctcggc ggttatcctg atggccatct tggggaacct gctggtgatg gtggctgtgt
+      181 gcagggacag gcagctcagg aagataaaaa ccaattactt cattgtatct ctcgcctttg
+      241 tggatcttct ggtttcggtg ctggtgatgc cctttggtgc catcgagctg gttcaagaca
+      301 tctggattta tggggagatg ttttgccttg tccggacatc tctagacgtc ctgctcacga
+      361 cggcatcgat ttttcacctg tgctgcattt ctctggatag gtattatgcc atctgctgtc
+      421 agcctctggt ctataggaac aagatgaccc ctctgcgcat cgcattaatg ctgggaggct
+      481 gctgggtcat ccccatgttt atctcttttc tccctataat gcaaggctgg aataatattg
+      541 gcataattga tttgatagaa aaaaggaagt tcaaccagaa ctctaactct acgtactgta
+      601 tcttcatggt caacaagccc tatgccatca cctgctctgt ggtggccttc tacatcccgt
+      661 ttctcctcat ggtgctggcc tattaccgca tctacgtcac agcgaaggag catgcccacc
+      721 agatccagat gttacaacgg gcaggagcct cctcagaagg caggccccag ccagccgacc
+      781 agcacagcac tcatcgcatg aggacagaga ccaaagcagc taagaccttg tgcatcatca
+      841 tgggttgctt ctgcctctgc tgggctccat tctttgtcac caatatcgtg gatccattca
+      901 tagactacac cgttcctgga caggtgtgga ccgctttcct ctggcttggt tacatcaact
+      961 ctgggttgaa cccctttctc tacgccttct tgaataagtc ttttagacgt gccttcctca
+     1021 tcatcctctg ctgtgatgat gagcgctacc gaagaccctc cattctgggc cagactgtcc
+     1081 cctgttcaac cacaaccatt aatggatcca cacatgtgct aaggtacaca gttctgcaca
+     1141 gtggacatca ccaggaactt gagacactgc ccatacacaa tgacccagaa tccttggaat
+     1201 catgcttctg attgagaaca tggctcgtga ttaagccatt cattcccatt catgtctgca
+     1261 tgaacaggac tccctggcat ctctcttgac cctcatcacc accagtgagg catggggcag
+     1321 tgaggccgag ggcccaggga agctacatgg aacacagtgt tgg
+//

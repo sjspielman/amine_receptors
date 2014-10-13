@@ -1,0 +1,81 @@
+LOCUS       XM_003503640            1125 bp    DNA              ROD 30-APR-2014
+DEFINITION  PREDICTED: Cricetulus griseus 5-hydroxytryptamine (serotonin)
+            receptor 1D, G protein-coupled (Htr1d), transcript variant X1, mRNA.
+ACCESSION   XM_003503640
+VERSION     XM_003503640.1  GI:354483009
+DBLINK      BioProject: PRJNA72741
+KEYWORDS    RefSeq.
+SOURCE      Cricetulus griseus (Chinese hamster)
+  ORGANISM  Cricetulus griseus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Cricetinae; Cricetulus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003613985.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Cricetulus griseus Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1125
+                     /cell_line="CHO-K1"
+                     /db_xref="taxon:10029"
+                     /mol_type="mRNA"
+                     /organism="Cricetulus griseus"
+                     /chromosome="Unknown"
+     gene            1..1125
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 16 Proteins, and 26% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:100767570"
+                     /gene="Htr1d"
+     CDS             1..1125
+                     /product="5-hydroxytryptamine receptor 1D isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:354483010"
+                     /db_xref="GeneID:100767570"
+                     /translation="MSLPNQSIEGLSQEASNRSLNTTGTWDPQVLQALKISLVVVLSVI
+                     TLATVLSNGFVLTTILLTKKLHTPANYLIGSLATTDLLVSILVMPISIAYTTTRTWNFG
+                     QILCDIWVSSDITCCTASILHLCVIALDRYWAITDALEYSKRRTAGHAAAMIAAVWAIS
+                     ICISIPPLFWRQATAHEEMSDCLVNTSQISYTIYSTCGAFYIPSILLIILYGRIYVAAR
+                     SRILNPPSVYGKRFTTAQLITGSAGSSLCSLNPSLHESHSHTVGSPLFFNQVKMKLADS
+                     ILERKRISAARERKATKTLGIILGAFIICWLPFFVVSLVLPICRDSCWIDPALFDFFTW
+                     LGYLNSLINPIIYTVFNKDFRQAFQKVVHFWKAS"
+                     /gene="Htr1d"
+                     /protein_id="XP_003503688.1"
+     STS             842..945
+                     /db_xref="UniSTS:143417"
+                     /standard_name="Htr1d"
+                     /gene="Htr1d"
+ORIGIN
+        1 atgtctttgc caaaccagtc catagaaggc ctttcccagg aggcctccaa cagatccctg
+       61 aatactacag ggacttggga cccacaggtc ctgcaggcac tcaaaatctc ccttgtagtt
+      121 gtcctttccg tcatcacact ggccactgta ctctccaatg gctttgtact taccaccatc
+      181 ctactcacca agaagctcca cacccctgcc aattatctca ttggctcctt ggccaccacc
+      241 gacctcttag tttctatctt ggtcatgccc atcagcatag cctataccac tacccgcacc
+      301 tggaactttg gccaaatcct gtgtgacatc tgggtgtctt ctgacatcac atgctgtacg
+      361 gcctccatcc tgcatctctg tgtcattgct ctggacaggt actgggccat cactgatgcc
+      421 ctggaataca gcaaacgcag gacagcgggg cacgcagcgg ccatgatagc ggcagtctgg
+      481 gccatctcca tctgtatctc catcccaccg ctcttctggc ggcaagccac agctcatgag
+      541 gagatgtctg actgcctggt gaacacatct cagatctctt acaccatcta ctccacttgt
+      601 ggggccttct acatcccatc catcttgctc attatcctgt atggccgcat atatgtggct
+      661 gcccggagtc gcatcctgaa cccaccatcc gtctatggga agcgcttcac cacggcacag
+      721 cttatcacag gctctgcggg ctcttcactc tgctcgctca accccagcct ccacgagagc
+      781 cactcacaca cagtgggctc ccctctcttt ttcaaccagg tgaaaatgaa gcttgcagat
+      841 agcatcctag aacgcaagag gatctctgca gcccgggaaa ggaaagccac taagaccttg
+      901 ggcatcattc tgggggcctt tatcatctgc tggctgcctt tctttgtggt ttccctggtt
+      961 ctccccatct gcagggactc ctgttggatc gacccagccc tctttgactt cttcacttgg
+     1021 ctaggttatt taaactccct catcaatccc attatctaca ctgtgttcaa caaagacttt
+     1081 cgacaagcat ttcaaaaagt tgtccatttc tggaaggcct cctag
+//

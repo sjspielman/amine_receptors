@@ -1,0 +1,123 @@
+LOCUS       XM_005870440            3349 bp    DNA              MAM 29-OCT-2013
+DEFINITION  PREDICTED: Myotis brandtii 5-hydroxytryptamine (serotonin) receptor
+            4, G protein-coupled (HTR4), transcript variant X1, mRNA.
+ACCESSION   XM_005870440
+VERSION     XM_005870440.1  GI:554552024
+DBLINK      BioProject: PRJNA218631
+KEYWORDS    RefSeq.
+SOURCE      Myotis brandtii (Brandt's bat)
+  ORGANISM  Myotis brandtii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Microchiroptera;
+            Vespertilionidae; Myotis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005362269.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Myotis brandtii Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3349
+                     /mol_type="mRNA"
+                     /collection_date="Dec-2011"
+                     /country="Russia: Perm poKrai"
+                     /sex="male"
+                     /note="collected at hibernation roost"
+                     /db_xref="taxon:109478"
+                     /lat_lon="58.8348 N 57.6119 E"
+                     /organism="Myotis brandtii"
+                     /chromosome="Unknown"
+     gene            1..3349
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /db_xref="GeneID:102248943"
+                     /gene="HTR4"
+     CDS             106..1269
+                     /product="5-hydroxytryptamine receptor 4 isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:554552025"
+                     /db_xref="GeneID:102248943"
+                     /translation="MDELDANVSSKEGFRSVEKAVLLTFLSTVILMAILGNLLVMVAVC
+                     RDRQLRKIKTNYFIVSLAFADLLVSVLVMPFGAIELVQDIWIYGEMFCLVRTSLDVLLT
+                     TASIFHLCCISLDRYYAICCQPLVYRNKMTPLRIALMLGGCWVIPMFISFLPIMQGWNN
+                     IGIIDLIEKRKFPQNSNSTYCIFMVNKPYAITCSVVAFYIPFLLMVLAYYRIYVTAKEH
+                     AHQIQMLQRAGAPSEGRPQPTDQHSTHRMRTETKAAKTLCIIMGCFCLCWAPFFVTNIV
+                     DPFVDYTVPGQVWTAFLWLGYINSGLNPFLYAFLNKSFRRAFLIILCCDDERYRRPSIL
+                     GQTVPCSTTTINGSTHVLRYTVLHSGHHQELEKLPIHTDPESLESCF"
+                     /gene="HTR4"
+                     /protein_id="XP_005870502.1"
+     STS             766..904
+                     /db_xref="UniSTS:504885"
+                     /standard_name="HTR4"
+                     /gene="HTR4"
+ORIGIN
+        1 acgcgtctcc agcgtgggac cgccggaggg tcggggccag tgcccagcac ttgtgttcga
+       61 ccctgtgggt actgaaatcc aactcaccca tgcctatttc ctgtaatgga cgaacttgat
+      121 gctaatgtga gttccaagga gggtttccgg tcagtggaga aggccgtgct gctcacgttt
+      181 ctctccacgg ttatcctgat ggccatcttg gggaaccttc tggtgatggt ggccgtgtgc
+      241 agggaccggc agctcaggaa aataaaaacc aactatttca ttgtctctct tgcctttgcg
+      301 gatctgctgg tctccgtgct ggtgatgccc ttcggtgcca ttgagctggt tcaggacatc
+      361 tggatttacg gggagatgtt ttgcctcgtc cggacttctc tagacgtcct gctcaccacg
+      421 gcatcaattt ttcacctgtg ctgcatttct ctggacaggt attatgccat ctgctgccag
+      481 cctttggtct ataggaacaa gatgacccct ctgcgcatcg cgttaatgct gggaggctgc
+      541 tgggtcatcc ccatgtttat ctcttttctt cctataatgc aaggctggaa caacattggc
+      601 ataattgatt tgatagaaaa aaggaagttc cctcagaact ctaactccac gtactgtatc
+      661 ttcatggtca acaagcccta cgccatcact tgttccgtgg tagccttcta catcccgttt
+      721 ctcctcatgg tgctggccta ttaccgcatc tatgtcacag ccaaggagca cgcccaccag
+      781 atccagatgt tacaacgggc aggagccccc tcggagggca ggccccagcc gacagaccag
+      841 catagcactc atcgcatgag gacagagacc aaagcagcca agaccctgtg catcatcatg
+      901 ggttgcttct gcctctgctg ggccccattc tttgtcacca atattgtgga tccgttcgta
+      961 gactacacgg tccctgggca ggtgtggaca gctttcctct ggctcggcta tatcaattct
+     1021 ggattgaacc ccttcctcta cgctttcttg aataagtctt ttcgacgtgc ctttctcatc
+     1081 atcctctgct gtgatgatga gcgttaccga agaccttcca ttctgggcca gactgtcccc
+     1141 tgttcaacca caaccattaa tgggtccaca cacgtgctaa ggtacacagt tctgcacagc
+     1201 gggcatcacc aggaactcga gaaactgccc atacacactg acccagaatc cctggaatca
+     1261 tgcttctgat tgaggacctg gctcacagct aagccattca ttcccatttg tgtctgcatg
+     1321 aacaggacac cctggcacct ctcctgaccc tcatcaccac cagtgaggta tgaaaaaggg
+     1381 ggcccagggc ccagggaagg tcatggagga ccgtccgtgt cggacaggcc ctgagaccag
+     1441 aacgtggagg atcacagagt tgagaaggga cttcaagcgt cgtcagatcc agcctcccac
+     1501 ccaacgcagg agtagcatcc ttcacagcat ccctggaagt tggtcaatct ctgcttgcac
+     1561 acctccaggg acaggagctc actacctcct aatgcagtcc cttttgctgt agggaagctc
+     1621 taattaaagg aagttctttt agagagctct cgactctatc actgttccca tggggccatg
+     1681 cagttggcca cctcttcctc ttaagaaccc ttagctgtta ggaggcagtg atctgccacc
+     1741 cactcaccct tttaattctt cctacactcg acagctccag ttttctctcc atgctggcca
+     1801 tctgcttctg gacatgcttt ggtggatgaa ttcatcaagg cccttttaac aaaattaggt
+     1861 tgatggcaat gccaagaggt tcgtccagaa gcaccgaagt gctgacaaga gaagcatcaa
+     1921 tatgttttgg tttatagaca tgagcatttt ttttctcgtc atattttgag gggtatagac
+     1981 tctgggaact ctgcttagaa tttggtttca gatctattac cagctctatg tgcgcatctg
+     2041 tttaaaggtg gcattctctc cttggcatac tggctttgag gtcatttgga atgaatcctg
+     2101 attcacttcc cttccatgac aatgcaaaaa gggcctgcgc ctttacccag aacttcagtt
+     2161 gagaatggtc ctaccactcc gatttgggga acaacactca gttgctgtaa tcagttgagt
+     2221 ggctttcggg gccctgtgct gagtcagtgc ctggtctctg tcagaacaat tggctctttt
+     2281 ggcaaagaca gagccccaga ccaacttgct ttctaggaac ctcattggcc cctgcctgtg
+     2341 aagctcctgt gctaccgctt ttctacatct ttcaccagca tctacctttc tccatgctcc
+     2401 tacgtagaag cttccctgat gtcaaagtta ccaccaaatt accttatctt ggggtgaatt
+     2461 atgcccccag gttgaggctc agttgccttt cttgtgattg ctgataaaaa ccctatcgaa
+     2521 aggattgctt gttggtcctt ataggagccc attgaacagc cattgtgggt gatggtgggg
+     2581 tacatatatg ataacacccc acaaggcaaa gatgcgacag acctttctaa cctcgccagc
+     2641 tccccttggc cttccacctg gtctgtttat cctgcttcct ttcctgagtg atctcagaag
+     2701 ccacattgcc tccttatccc ctatttcacc cgtgagggca caatccatta cctccccctt
+     2761 ttctctctgt cccagaaatg gtaagaagga tggtcagact ccacatagga ctagggtgac
+     2821 cagccactct ggttttagca ctgaaggtcc cacatcccaa gaaactcatt agtaaccggc
+     2881 aaactgggcc agttggtcac ccaccaaggg gaccctcccc atgctgagga ttaataagcc
+     2941 tcctcagagt tgctttcctt tcttcacttt ttttaatggt aaaaggcaga gatgcgtgaa
+     3001 attgggggtc catagttctc cacgtgctct ctgaatgtgg tttctgctct ccttgattca
+     3061 caaagaactt cttagggaac gactaagaca gcgctcacaa gaaccagctc acagtgagga
+     3121 ggaataggtt tagtgcttcg aggcaactgg taaactttgt ttatcaccct gaagtcggta
+     3181 ggatctacta ttaaatgcct gtgggcacac acagatacat aaatacaatt ggatttcttc
+     3241 cctgcgaaat gcttctttcc ccaggagctt agcaagcatg tttatgtatg taacactaga
+     3301 ggcccctgag cacgaattcg tgcacaggtg ggtccctcag catggcctg
+//

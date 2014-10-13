@@ -1,0 +1,101 @@
+LOCUS       XM_003230354            2382 bp    DNA              VRT 22-MAY-2014
+DEFINITION  PREDICTED: Anolis carolinensis cholinergic receptor, muscarinic 1
+            (chrm1), mRNA.
+ACCESSION   XM_003230354
+VERSION     XM_003230354.2  GI:637376660
+DBLINK      BioProject: PRJNA60547
+KEYWORDS    RefSeq.
+SOURCE      Anolis carolinensis (green anole)
+  ORGANISM  Anolis carolinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata;
+            Toxicofera; Iguania; Iguanidae; Polychrotinae; Anolis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003340646.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On May 22, 2014 this sequence version replaced gi:327291385.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Anolis carolinensis Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2382
+                     /db_xref="taxon:28377"
+                     /mol_type="mRNA"
+                     /organism="Anolis carolinensis"
+                     /chromosome="Unknown"
+                     /country="USA"
+     gene            1..2382
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 41 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:100565611"
+                     /gene="chrm1"
+     CDS             132..1622
+                     /product="muscarinic acetylcholine receptor M1"
+                     /codon_start="1"
+                     /db_xref="GI:327291386"
+                     /db_xref="GeneID:100565611"
+                     /translation="MPHGEKMNLSVFPPSPNLTQEPTTSSSGGGYSSWEVALIVFITGV
+                     LSLVTVVGNLLVMISFKVNRELKTVNNYFLLSLAAADLIIGTISMNLYTTYIVMGQWMM
+                     GSLACDLWLALDYVASNASVMSLLLISFDRYFSITRPLTYRAKRTPRRAAVMISMAWLI
+                     SFVLWAPAILFWQKVVGERTVADHECYIQFFSEPIITFGTAIAAFYLPVTIMVVLYWRI
+                     YQETQKRAKELCGLQGSEFSKSLAVASRTTRSGGSGSSSSSEPPQPLAPPPTSGERPLQ
+                     RCCFAGPKTEEVFLDQSSNGSWNTTEDEDAGEASADSLTSSEGEQQPFELHNVCSAVIR
+                     LPMIGTIVQTSKETQHKEPKTATGTVLVVIPKPPLGLDKRLKNVVLMEKNQGRKRRRRR
+                     KRRSLSKRRTLSLMKEKKAARTLSAILLAFLITWTPYNIMVLVSTFCEGCVPQSLWELG
+                     YWLCYVNSTVNPMCYALCNRSFRTTFRRLLLCRGVQRP"
+                     /gene="chrm1"
+                     /protein_id="XP_003230402.1"
+ORIGIN
+        1 tacatactag atatgctgat gtgatctaga tatgttcttc tctcacagct cacggccatt
+       61 tccgttcttc tccttttagt tgaagctttt ggtggtcttc aaagctccgt cttggatggt
+      121 ggcaccagaa gatgcctcat ggtgagaaga tgaacctctc cgtcttccca ccgtctccca
+      181 atctcaccca ggaaccgacc acgtcttcct cgggcggtgg ctactcctcg tgggaggtgg
+      241 cactgatcgt gttcatcacc ggggtcctct ccttggtcac cgtggtgggg aaccttctgg
+      301 tgatgatctc cttcaaggtc aaccgggagc tgaagaccgt caacaactac ttcttgctca
+      361 gcttggccgc cgccgacctc atcatcggca ccatctccat gaacctgtac acgacctaca
+      421 tcgtcatggg ccagtggatg atgggctcct tggcctgcga cctgtggttg gccctggact
+      481 acgtggccag caacgcctcc gtcatgagcc tcttgctcat cagctttgac cgctacttct
+      541 ccatcacgcg gcccctcacc tacagggcca agcggacccc caggcgggcg gcggtgatga
+      601 tcagcatggc ttggttgatc tccttcgtcc tgtgggcccc ggccatcttg ttctggcaga
+      661 aggtcgtcgg ggagcggacg gtggccgacc acgagtgcta catccagttc ttctcagagc
+      721 ccatcatcac gttcgggacg gccattgccg ccttctacct tccggtcacc atcatggtgg
+      781 tgctctactg gaggatctac caagagacac agaagcgggc caaggagctg tgtggactcc
+      841 aaggctcaga gttcagtaag agcttagcgg tggcctccag aaccaccagg agtggaggaa
+      901 gcggaagtag cagcagctcg gagcctcctc aacctctcgc tcctcctcca acatctggag
+      961 aacgtcctct gcaacggtgc tgctttgcgg ggccaaaaac ggaggaggtc ttcttggacc
+     1021 agagtagcaa cgggagctgg aacaccaccg aggacgaaga cgccggagag gcctccgccg
+     1081 actccttgac gtcgtccgaa ggcgagcagc agcccttcga gctccacaac gtctgctccg
+     1141 ccgtcattcg tcttcccatg atcggcacca tcgtgcagac ctccaaggag acgcagcaca
+     1201 aggagcccaa gacggcaact ggaacggtct tggtcgtgat cccgaaacca ccgctgggcc
+     1261 tggacaagag actcaagaac gtggttttaa tggagaagaa ccaagggagg aagaggagga
+     1321 ggaggaggaa gaggaggagc ctctccaagc ggagaaccct ctcgctgatg aaggagaaga
+     1381 aagcggcccg gaccctcagc gccatcctct tggccttctt gatcacgtgg acaccctaca
+     1441 acatcatggt gctggtctcc accttctgcg agggctgtgt ccctcagagc ctctgggagc
+     1501 tgggctactg gctctgctac gtcaacagca ccgtcaaccc catgtgctat gcgctgtgca
+     1561 acaggtcctt ccgcaccacg ttccggaggc tacttctgtg tcgtggggtc cagcgcccat
+     1621 aaaagaagag gttggagaat ccatgggaaa aggaaccgtt ctcctgggca attcagtaga
+     1681 acgttgggtt gcgggacatg aaagcctggt tggagaacct agaaccacgt tcaactgtca
+     1741 gctcaccgga tgtttggttg cggggcaaac ctacaaccac gttggtaaac ctagaaccgc
+     1801 attcaactgt cagctcaccg gatgtttggt tgcagaacaa acctagaacc gcattcaact
+     1861 gtcagctcac cggatatttg gttgcagaac aaacctagaa ccgcattcaa ctgtcagctc
+     1921 accggatatt tggttgcaga acaaacctag aaccgcattc aactgtcagc tcaccggata
+     1981 tttggttgca gaacaaacct agaaccgcat tcaactgtca gctcaccgga tatttggttg
+     2041 cagaacaaac ctagaaccgc attcaactgt cagctcaccg gatatttggt tgcagaacaa
+     2101 acctagaacc gcattcaact gtcagctcac cggatatttg gttgcagaac aaacctagaa
+     2161 ccacgttcaa ctgtcagctc accggatgtt tggttgcggg gcaaacctac aaccacgttg
+     2221 gtaaacctca aaggccatct agatggtttc ataagaccat cagtaagcca agagacttcc
+     2281 aaagaccatc tacatggtct tatcggacca tcggtaagga aagggaccct caaaggccat
+     2341 ctagtcggtc tcaggaccat cggtaagaaa agagacctcc aa
+//

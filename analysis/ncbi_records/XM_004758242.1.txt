@@ -1,0 +1,115 @@
+LOCUS       XM_004758242            2205 bp    DNA              MAM 13-JUN-2013
+DEFINITION  PREDICTED: Mustela putorius furo beta-3 adrenergic receptor-like
+            (LOC101671853), transcript variant X4, mRNA.
+ACCESSION   XM_004758242
+VERSION     XM_004758242.1  GI:511876631
+DBLINK      BioProject: PRJNA158527
+KEYWORDS    RefSeq.
+SOURCE      Mustela putorius furo (domestic ferret)
+  ORGANISM  Mustela putorius furo
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+            Mustelidae; Mustelinae; Mustela.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004569206.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Mustela putorius furo Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2205
+                     /sub_species="furo"
+                     /mol_type="mRNA"
+                     /breed="Sable"
+                     /isolate="ID#1420"
+                     /sex="female"
+                     /db_xref="taxon:9669"
+                     /organism="Mustela putorius furo"
+                     /chromosome="Unknown"
+     gene            1..2205
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 29 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 4 samples with support for all annotated introns"
+                     /db_xref="GeneID:101671853"
+                     /gene="LOC101671853"
+     misc_feature    65..67
+                     /note="upstream in-frame stop codon"
+                     /gene="LOC101671853"
+     CDS             140..1447
+                     /product="beta-3 adrenergic receptor-like isoform X4"
+                     /codon_start="1"
+                     /db_xref="GI:511876632"
+                     /db_xref="GeneID:101671853"
+                     /translation="MSPWSHQNSSLASWPAAPTPTPNTANASGLPGVPWAVALAGALLA
+                     LEVLVTVGGNLLVIVAIARTPRLQTMTNVFVTSLATADLVVGLLVVPPGATLALTGHWP
+                     LGATGCELWTSVDVLCVTASIETLCALAVDRYLAVTNPLRYGALVTKRRARAAVVLVWV
+                     VSASVSFAPIMSKWWRVGADAEAQRCHSNPHCCAFASNIPYALLSSSVSFYLPLLVMLF
+                     VYARVFLVATRQLRLLRRELGRFPPEESPPTASRFVSPAPAGPYASPAGVPSYGRRPAR
+                     LLPPREHRALRTLGLIMGTFTLCWLPFFVANVMRALGGPSLVPSPAFLALNWLGYANSA
+                     FNPLIYCRSPDFRSAFRRLLCRCRREEHQAAASLPGDPSGAPAALASPAESRQCPPLNG
+                     TGHTSLDLEPILIQDNIISRPLIVSAKNINPNKTTF"
+                     /gene="LOC101671853"
+                     /protein_id="XP_004758299.1"
+     STS             295..372
+                     /db_xref="UniSTS:271495"
+                     /standard_name="PMC164531P1"
+                     /gene="LOC101671853"
+     STS             300..663
+                     /db_xref="UniSTS:506234"
+                     /standard_name="ADRB3"
+                     /gene="LOC101671853"
+     STS             485..1057
+                     /db_xref="UniSTS:528345"
+                     /standard_name="MARC_68773-68774:1209743884:2"
+                     /gene="LOC101671853"
+ORIGIN
+        1 tcaactaggg aagatggccc aggccgagga aatcgctccc acgccctgct gctgtcccct
+       61 cccctgagct gggggaaggg acccatctag aagggagacc ccctctctct ttccttcccg
+      121 gcccacgcac gccctgggaa tgtctccgtg gtctcaccag aacagctctc tggcctcgtg
+      181 gcctgctgcc cccaccccga cgcccaatac tgccaacgcg agtgggctgc caggggtgcc
+      241 gtgggcggtg gccttggcgg gggcgctgtt ggcgctggag gtgctagtca ccgtgggagg
+      301 caacttgctg gtaatcgtgg ccatcgcccg gacgccgaga ctccagacca tgaccaacgt
+      361 gttcgtgact tcgctggcca cagcagacct ggtggtggga ctgctagtag tgccgccggg
+      421 ggccaccttg gccctgaccg gccactggcc cctgggagcc actggttgcg agctgtggac
+      481 ctcagtggac gtgctgtgtg tgacagccag catcgaaacc ctgtgcgccc tagccgtgga
+      541 ccgttacctg gcagtgacca acccgctgcg ctacggtgct ctggtcacca aacggcgcgc
+      601 ccgggcagca gtggtgctgg tgtgggtcgt gtccgcctcg gtgtcgtttg cccccatcat
+      661 gagcaaatgg tggcgcgtgg gagccgacgc cgaggcacag cgttgccact ccaatcccca
+      721 ctgctgcgct ttcgcctcca acatacccta cgcgctgctc tcctcctccg tctccttcta
+      781 cctcccgctt ctggtgatgc tcttcgtcta cgcgcgcgtt ttcctcgtgg ctacgcgcca
+      841 actgcgcctg ctgcgccggg agctgggccg cttcccgccc gaggagtctc cgccgactgc
+      901 gtcgcgcttt gtgtcccccg ccccagctgg gccgtacgct tcgcccgcag gggtgccctc
+      961 ttacggtcgg cggcccgcgc gccttctgcc tccccgggaa caccgggccc tgcgcacctt
+     1021 gggtctcatc atgggtacct tcactctctg ctggttgccc ttctttgtgg ccaacgtgat
+     1081 gcgcgctctc gggggcccct ctctggttcc cagcccggct ttcctggccc ttaactggct
+     1141 aggctatgcc aactccgcct tcaacccgct catctactgc cgcagccccg actttcgcag
+     1201 cgccttccgc cgtctcctgt gccgctgtcg gcgtgaggag caccaggccg ccgcctccct
+     1261 gcctggcgac ccctcgggcg cccctgctgc actggccagc cccgcggagt ccaggcagtg
+     1321 cccaccgctc aacgggacgg gacacacgtc attggatttg gagcctatcc taatccagga
+     1381 taacatcatc tcaagaccct taattgtatc tgcaaagaac attaatccaa ataagaccac
+     1441 attctgagat tccaggttaa catatatttg gggactacca tttgacccaa tatagtgaga
+     1501 gacacttgta aatcctttaa ctgagagttc tggtcttgaa gattaacatc cactctagtc
+     1561 acccctcaga aagggctgtt ctctccagaa tctcttagac tttgtgggag gcagaattct
+     1621 gagaactccc aaggacccct gtccttgtct aattccctct gcttaaatgt gggtgggacc
+     1681 tataatttgc ttctaagaaa taataatatg gcaaaggtga tgggatatca ctcctgtgat
+     1741 taggttgtat tacatggaag aggtgaaagg actttaaaga tgtaattaag gtctttaatc
+     1801 aattgattta ggttaattaa aaagcagatt atcctgggtg ggcctgacct aatcaggtaa
+     1861 gccctttaaa agaaggtcag aggtcagaga tggaagacat cagaaagata ctctggctgt
+     1921 cctcgaggaa gctagccatc tgatttccac aagtgcaagg aagtggatcc tgccaacaat
+     1981 cacgtgaatt ggaagaggac actgagcatc agaggagact gtggccctgg ctgacatctt
+     2041 cactatagcc tggtgagacc ctgaacagaa gatctagctc ccccatacac agactcttga
+     2101 gacatggaaa ctgtgaggta ataaatatat gttgtgctaa gctgttaagt ttgtagcaat
+     2161 ttattacaca acaatagaaa acaaatgcag attcactgca caatt
+//

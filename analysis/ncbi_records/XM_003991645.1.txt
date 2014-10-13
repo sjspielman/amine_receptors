@@ -1,0 +1,95 @@
+LOCUS       XM_003991645            1644 bp    DNA              MAM 06-NOV-2012
+DEFINITION  PREDICTED: Felis catus dopamine receptor D3 (DRD3), mRNA.
+ACCESSION   XM_003991645
+VERSION     XM_003991645.1  GI:410970449
+KEYWORDS    RefSeq.
+SOURCE      Felis catus (domestic cat)
+  ORGANISM  Felis catus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae;
+            Felinae; Felis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004064978) annotated using gene prediction method: GNOMON,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Felis catus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1644
+                     /mol_type="mRNA"
+                     /breed="Abyssinian"
+                     /isolate="Cinnamon"
+                     /sex="female"
+                     /db_xref="taxon:9685"
+                     /organism="Felis catus"
+                     /chromosome="C2"
+     gene            1..1644
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 5 mRNAs, 9 Proteins"
+                     /db_xref="GeneID:101092878"
+                     /gene="DRD3"
+     misc_feature    362..364
+                     /note="upstream in-frame stop codon"
+                     /gene="DRD3"
+     CDS             437..1639
+                     /product="D(3) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:410970450"
+                     /db_xref="GeneID:101092878"
+                     /translation="MAPLSQLSGHINSTCGAENSTGASRARPHAYYALSYCVLILAIVF
+                     GNGLVCVAVLRERALQTTTNYLVVSLAVADLLVATLVMPWVVYLEVTGGVWTFSRICCD
+                     VFVTLDVMMCTASILNLCAISIDRYTAVVMPVHYQHGTGQSSCRRVALMITAVWVLAFA
+                     VSCPLLFGFNTTGDPTVCSISNPDFVIYSSVVSFYLPFGVTVLVYARIYVVLRQRRRKR
+                     ILTRQNSQCISVRPSFPQQPLSPGRAHLELKRYYSICQDTALGQPGFQEAGGELKREGR
+                     TQNSLSPTMAPKLSLEVRKLSNGRLSTSLKLGPLQSRGVPLREKKATQMLAIVLGTFIV
+                     CWLPFFLTHVLNTHCQVCHVSPELYSATTWLGYVNSALNPVIYTTFNVEFRKAFLKILS
+                     C"
+                     /gene="DRD3"
+                     /protein_id="XP_003991694.1"
+     STS             1012..1091
+                     /db_xref="UniSTS:266442"
+                     /standard_name="DRD3"
+                     /gene="DRD3"
+     STS             1461..1638
+                     /db_xref="UniSTS:53374"
+                     /standard_name="RH71216"
+                     /gene="DRD3"
+ORIGIN
+        1 gatagaggct cagagggaaa agaggagagc gagatagaaa acgaatcctg ctttcagcct
+       61 gctacatctc gctttcagca ccaaggacag agcctctgaa gggctgaccc aagcactgat
+      121 cagtttaggg tccctcccaa gtcctccaga gaaaacgcat gaatttgaaa gcagctatga
+      181 agcatgcagt aaggtctaat aggaaagctt taagagcagc ccacaagtga tttcacctta
+      241 gaagcaaaaa tgggtgattt tccttctgtt catttccaca gtttctgtgt cctaggaaag
+      301 gcaaagtttg ctttgcttgg gcatgtctgc tgtcagtaaa tgactgcagg agctgaggtg
+      361 ctaaactcca caatctccag aaatcagaag aaattttcag ggaaacccat tggggtcact
+      421 cttctcccat tgggctatgg cgcctctgag ccagctgagt ggccacatca actccacctg
+      481 tggggcagag aactccacgg gggccagccg agcccgccca catgcctact atgccctctc
+      541 ctactgcgtg ctcatcctgg ccatcgtttt cggcaatggt ctggtatgtg tggcagtgct
+      601 gagggaacgg gctttgcaaa ccaccaccaa ctacctggtg gtgagcctgg ccgtggcgga
+      661 cctgctggtg gccaccttgg tgatgccctg ggtggtgtac ctggaggtaa caggtggagt
+      721 ctggactttc agccgaattt gctgtgatgt tttcgtcacc ctggatgtca tgatgtgtac
+      781 agccagcatc ctgaacctct gcgccatcag catcgacagg tacactgcag tggtcatgcc
+      841 agtccactac caacatggca caggacagag ctcctgtcgg cgtgtggccc tcatgattac
+      901 agccgtgtgg gtactagcct ttgccgtgtc ttgccctctc ctctttggct tcaacaccac
+      961 aggagacccc accgtctgct ccatctccaa ccctgatttt gtcatctact cttcagtggt
+     1021 gtccttctac ctgccctttg gagtgacggt ccttgtctat gccaggatct atgtggtgtt
+     1081 gagacagagg agacggaaac ggatcctcac tcgacagaac agtcagtgca tcagtgtcag
+     1141 acctagcttc ccacaacaac cactatcccc tggccgggca cacctggagc tgaagcgcta
+     1201 ctacagcatc tgccaagata ctgccttggg gcaaccaggc ttccaagaag caggaggaga
+     1261 gttgaaaagg gaggggagga ctcagaactc cctcagcccc accatggcac ccaagctcag
+     1321 cttagaggtt cgaaaactca gtaacggcag gttgtcgaca tctctaaagt tggggccctt
+     1381 gcaatcccgt ggagtgccac ttcgggagaa aaaggccacc cagatgttgg ccattgtgct
+     1441 tgggaccttc attgtctgct ggctgccctt ctttttgacc cacgttctca atacccactg
+     1501 ccaagtctgc catgtgtccc cagagcttta cagcgccacc acgtggctgg gctacgtgaa
+     1561 cagtgccctc aaccctgtga tctataccac cttcaatgtt gagttccgta aagctttcct
+     1621 caagatcctg tcttgctgaa ggag
+//

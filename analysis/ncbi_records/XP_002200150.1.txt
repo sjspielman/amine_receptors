@@ -1,0 +1,67 @@
+LOCUS       XP_002200150             488 aa                     VRT 12-FEB-2013
+DEFINITION  PREDICTED: muscarinic acetylcholine receptor M4 [Taeniopygia
+            guttata].
+ACCESSION   XP_002200150
+VERSION     XP_002200150.1  GI:224051098
+DBLINK      BioProject: PRJNA32405
+KEYWORDS    RefSeq.
+SOURCE      Taeniopygia guttata (zebra finch)
+  ORGANISM  Taeniopygia guttata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Estrildidae; Estrildinae; Taeniopygia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_002198757.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Taeniopygia guttata Annotation Release 101
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..488
+                     /isolate="Black17"
+                     /sex="male"
+                     /organism="Taeniopygia guttata"
+                     /chromosome="5"
+                     /db_xref="taxon:59729"
+     Protein         1..488
+                     /product="muscarinic acetylcholine receptor M4"
+                     /calculated_mol_wt="54536"
+     Region          52..>256
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          65..462
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          229..>333
+                     /note="Learning-associated protein; pfam10169"
+                     /db_xref="CDD:255802"
+                     /region_name="Laps"
+     CDS             1..488
+                     /coded_by="XM_002200114.2:49..1515"
+                     /gene="CHRM4"
+                     /db_xref="GeneID:100220023"
+ORIGIN
+        1 mhnlsaqpwq akmanltydn ftlgnhseva vqpptnyktv elvfiatvtg slslvtvvgn
+       61 ilvmlsikvn rqlqtvnnyf lfslacadli igvfsmnlyt vyiikgywpl gavvcdlwla
+      121 ldyvvsnasv mnlliisfdr yfcvtkplty parrttkmag lmiaaawils filwapailf
+      181 wqfivgkrtv perecyiqfl snpavtfgta iaafylpvvi mtvlyihisl asrsrvrrhk
+      241 pesrkerkak slrflkgpvv kqnnnnspkr avevkeevrn gkvddqpsaq teatghqeek
+      301 etsnesstvs mtqttkdkpt aevlpagqgq spakprvnpt skwskikivt kqtgtecvta
+      361 ieivpaksga snslansrpv nvarkfasia rsqvrkkrqm aarekkvtrt ifaillafil
+      421 twtpynvmvl intfcetcvp etvwsigywl cyvnstinpa cyalcnatfk ktfkhllmcq
+      481 yrnigtar
+//

@@ -1,0 +1,115 @@
+LOCUS       XM_002756607            2756 bp    DNA              PRI 02-SEP-2014
+DEFINITION  PREDICTED: Callithrix jacchus adrenoceptor beta 1 (ADRB1), mRNA.
+ACCESSION   XM_002756607
+VERSION     XM_002756607.2  GI:675711679
+DBLINK      BioProject: PRJNA46205
+KEYWORDS    RefSeq.
+SOURCE      Callithrix jacchus (white-tufted-ear marmoset)
+  ORGANISM  Callithrix jacchus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003184243.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 2, 2014 this sequence version replaced gi:296221250.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Callithrix jacchus Annotation
+            Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2756
+                     /db_xref="taxon:9483"
+                     /mol_type="mRNA"
+                     /organism="Callithrix jacchus"
+                     /chromosome="12"
+     gene            1..2756
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 34 ESTs, 7 Proteins, and
+                     98% coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:100387664"
+                     /gene="ADRB1"
+     CDS             36..1463
+                     /product="beta-1 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:296221251"
+                     /db_xref="GeneID:100387664"
+                     /translation="MGAGALVLGASDPANLSSAAPLPDGAATAARLLVPASPPASLLPP
+                     ASEGLEPLSQQWTAGMGLLMALIVLLIVAGNVLVIVAIAKTPRLQTLTNLFIMSLASAD
+                     LVMGLLVVPFGATIVVWGGWEYGSFFCELWTSVDVLCVTASIETLCVIALDRYLAITSP
+                     FRYQSLLTRARARGLVCTVWAISALVSFLPILMHWWRAESDEARRCYNDPKCCDFVTNR
+                     AYAIASSVVSFYVPLCIMAFVYLRVFREAQKQVKKIDSCERRFLGGPERPPSPAPAPAP
+                     PSAPGPPRPNAAAAAAPLANGRAGKRRPSRLVALREQKALKTLGIIMGVFTLCWLPFFL
+                     ANVVKAFHRELVPDRLFVFFNWLGYANSAFNPIIYCRSPDFRKAFQRLLRCARRAASRR
+                     HAAHGDRPRASGCLARPGPPPSPGAASDDDDDDVVGATPPARLLEPWAGCNGGAAADSD
+                     SSLDEPCRPGFASESKV"
+                     /gene="ADRB1"
+                     /protein_id="XP_002756653.1"
+     STS             309..830
+                     /db_xref="UniSTS:256461"
+                     /standard_name="Adrb1"
+                     /gene="ADRB1"
+     STS             1528..1652
+                     /db_xref="UniSTS:13016"
+                     /standard_name="RH68963"
+                     /gene="ADRB1"
+ORIGIN
+        1 gccacaccca ccgcccccgg cctccgcagc tcggcatggg cgcgggggcg ctcgtcctgg
+       61 gcgcctccga tcccgccaac ctgtcgtcgg ctgcgccgct ccccgacggc gcggccactg
+      121 cggcgcggtt gctggtgccc gcgtcgccgc ccgcctcgct gctgcctccc gccagcgaag
+      181 gcctcgagcc gctgtcgcag cagtggacgg cgggtatggg cctgctgatg gcgcttatcg
+      241 tgctgctcat cgtggcgggc aacgtgctgg tgattgtggc catcgccaag acgccgcggc
+      301 tgcagacgct caccaacctc ttcatcatgt ccttggccag cgccgacctg gtcatggggc
+      361 tgctggtggt gccgttcggg gccaccatcg tggtgtgggg cggctgggag tacggctcct
+      421 tcttctgcga gctgtggacc tcggtagacg tgctgtgcgt gacggccagc atcgagaccc
+      481 tgtgtgtcat cgccctggac cgctacctcg ccatcacgtc gcccttccgc taccagagcc
+      541 tgctgacgcg cgcgcgggca aggggcctcg tgtgcaccgt gtgggccatc tcggcgctgg
+      601 tgtccttctt gcccatcctc atgcactggt ggcgggcgga gagcgacgag gcgcgccgct
+      661 gctacaacga ccccaagtgc tgcgacttcg tcaccaaccg ggcctacgcc atcgcctcgt
+      721 ccgtggtctc cttctacgtg cccctatgca tcatggcctt cgtgtacctg cgggtgttcc
+      781 gcgaggccca gaagcaggtg aagaagatcg acagctgcga gcgccggttc ctcggcggcc
+      841 cggagcggcc gccctcaccc gcccccgcgc ccgcgccgcc gtcagcgcca ggacccccgc
+      901 gccccaacgc cgccgccgcc gccgcccccc tggccaacgg gcgcgcgggc aagcggcggc
+      961 cctcgcgcct cgtggccctg cgcgagcaga aggcgctcaa gacgctgggc atcatcatgg
+     1021 gagtgttcac gctctgctgg ctgcccttct tcctggccaa cgtggtgaag gccttccacc
+     1081 gcgagctggt gcctgatcgc ctcttcgtct tcttcaactg gctgggctac gccaactcgg
+     1141 ccttcaaccc catcatatac tgccgcagcc cggacttccg caaggccttc cagcgcctgc
+     1201 tccgctgcgc gcgcagggcc gccagccggc gccacgcggc ccacggggac cggccgcgcg
+     1261 cctcgggctg cctggcccgg cccggtcctc cgccgtcgcc cggggccgcg tcggacgacg
+     1321 acgacgacga tgtcgtcggg gccacgccgc ccgcgcgcct gctggagccc tgggccggct
+     1381 gcaacggcgg ggcggcggcg gacagcgact cgagcctgga cgagccgtgc cgccccggct
+     1441 tcgcctcgga atccaaggtg taggggcccg gcgccccgga acggcttccc gggggatctc
+     1501 ggagatctgt gtttactcaa gaccgaaagc aggtgaactc gaagcccaca aacctcgtct
+     1561 gaatcatcca aggcaaacag aaaagccacg gaccgttgca caaaaaggaa agtttgggga
+     1621 ggggtgggag agtggcttgc tgatgttcct tgggttgttt tccttcttct tctgtttgtg
+     1681 gtccggcctt cttttgtgtg tgcctgtgat gcatctttag atttttcccc ccaggtggtt
+     1741 tttgactcca cgaggatggg agtggaagct gggtgggcag gggaagggag aagaagcatt
+     1801 aggaggggat taaaatccga tcaacctggc tcccgaccct gtcccaggaa caggggcagt
+     1861 ctaccagcca gagagaggag aatgacagtt tatcaaggca tatttatttc cttttgcttt
+     1921 ccagagaaat ttcattttaa ttcctaagta atggtttccg ctgttatgaa agcgaaaagg
+     1981 atggatgcaa aaaaaaaaaa aaaatcacgt ttcaagaaat gttaagctct tcttggaaca
+     2041 agccccaatt tgctttcctt gtgtagggca aaccctctga tcccccgagc gcctggatgg
+     2101 tcaggctacg ggatttctac ctcacactgt gcatttgcac agcagataga aagacttgtt
+     2161 tatattaaac agcttattta tgtatcaata ctagttggaa ggaccaggcg cagagcctct
+     2221 ctctgtgaca tgtgactctt gtcaatttaa gacaggacat gaaaagagag agagagacag
+     2281 ttttgattac tgcacatgtg gataaaaaca aaaacaaaaa aaggagtggt tcaaaatgcc
+     2341 atttttgcac agtgttagga attacaaatt ccacagaaaa cattacttgc acaaaaagaa
+     2401 gttaaatatt ttttaactgg ggaagtggtg ggcagatctt aaaaactaaa ataaaattca
+     2461 agctctactt ctgttgtcta gtatgttata gagctaatga tttattggga aaataccttt
+     2521 ttatactcct ttatcatggt actgtaactg tatccatatt ataaatataa ttatcttaag
+     2581 gattttttat tttttttatg tccaagtgcc cacgtgaatt tgctggtgaa agttagcact
+     2641 tgtgtgtaaa ttctatttcc tcttgtgtgt tttaccaagt atttatactc tggtgcaact
+     2701 aactactgtg tgaggaattg gtccatgtgc aataaatacc aatgaagcac aattga
+//

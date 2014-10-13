@@ -1,0 +1,93 @@
+LOCUS       XM_004449008            1815 bp    DNA              MAM 06-MAY-2013
+DEFINITION  PREDICTED: Dasypus novemcinctus histamine receptor H2 (HRH2), mRNA.
+ACCESSION   XM_004449008
+VERSION     XM_004449008.1  GI:488514077
+DBLINK      BioProject: PRJNA196486
+KEYWORDS    RefSeq.
+SOURCE      Dasypus novemcinctus (nine-banded armadillo)
+  ORGANISM  Dasypus novemcinctus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Xenarthra; Cingulata; Dasypodidae; Dasypus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004462762.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Dasypus novemcinctus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1815
+                     /mol_type="mRNA"
+                     /country="USA: National Hansen's Disease Programs at
+                     Louisiana State University, School of Veterinary Medicine"
+                     /isolate="3-136"
+                     /sex="female"
+                     /db_xref="taxon:9361"
+                     /organism="Dasypus novemcinctus"
+                     /chromosome="Unknown"
+     gene            1..1815
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 32 Proteins, and 92% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /db_xref="GeneID:101432303"
+                     /gene="HRH2"
+     misc_feature    349..351
+                     /note="upstream in-frame stop codon"
+                     /gene="HRH2"
+     CDS             397..1815
+                     /product="histamine H2 receptor"
+                     /codon_start="1"
+                     /db_xref="GI:488514078"
+                     /db_xref="GeneID:101432303"
+                     /translation="MPPPPRRLLYLFPESQHWASRRRLPRSGRFLLGSAGNLEPRFCII
+                     GPWRSREEAPRGPEMAPNSTASSPCLDSAVMIPVSVTLTVLISITIAGNVVVCLAVGLN
+                     RRLRSLTNCFIMSLAITDLLLGLLVLPFSAIYQLNCTWSFGRVFCNIYTSLDVMLCTAS
+                     ILTLFMISLDRYCAVTDPLHYPVLVTPGRVAVSLVLIWVISITLSFLSIHLGWNSRNET
+                     RQDHLKCKVQVNEVYGLVDGLVTFYLPLLIMCITYYRIFKIARDQAKRISHASCWKATT
+                     LREHKATVALAAVMGAFIVCWFPYFTVFVYRGLRGDDAVNEVFEAVVLWLGYANSALNP
+                     ILYAALNRDFRTAYQQLFRCRAHGRGSPRTSPRYARSQLSRGPSQAARQLEKKPLRLKV
+                     WSESEVTAPQCTADRKPALPCSACASDLLSCCKSLWGPRFLQRRAGAPLGEQTEAALRP
+                     PPLEALRTLPSEGP"
+                     /gene="HRH2"
+                     /protein_id="XP_004449065.1"
+ORIGIN
+        1 cgcgcagcga agcgggcgcg ggcgccgagg agaacccggc gcgcagccac acccggcggc
+       61 agcggcccca gggctcagcg ttcgactgtt gcactcccag ctctccggtg gccccagagg
+      121 ggaggcgccc atccttggtc cctgctcaca aacgggagca ggcgccagct agggagaagg
+      181 atgcagccac gtcaccacat gacccctcca gcgtaaaacc gaagcctcct cggtttgtgc
+      241 gtccccacct ctctgtatct acgcaaacca tggagcctgg agacccatcc caggccccgg
+      301 aggaagccgg cttttcactg gcaagtctga ggactggagt ttgaaccatg aacttggctt
+      361 caaagccttg ccttcacctc ttcttcattt gtgttcatgc cgccacctcc taggagactg
+      421 ctttatttat tcccagaaag ccagcattgg gccagccgtc gaagactccc caggtcggga
+      481 cgctttcttt taggctcggc tgggaacctg gagcctcgtt tctgcattat cggcccttgg
+      541 cggtcaaggg aagaagcacc gcggggcccc gagatggcgc ccaacagcac agcctcttcc
+      601 ccctgcttgg actccgcggt catgatcccc gtcagcgtga ccctcaccgt cctcatctcc
+      661 atcaccatcg ccggcaacgt ggtcgtctgc ctggccgtgg gcttgaaccg ccggctccgc
+      721 agcctcacca actgcttcat catgtccctg gccatcaccg acctgctcct gggcctcctg
+      781 gtgctgccct tctctgccat ctaccagctc aactgcacgt ggagcttcgg cagggtcttc
+      841 tgcaacatct acaccagcct ggacgtgatg ctctgcaccg cgtccatcct caccctcttc
+      901 atgatcagcc tggaccggta ctgcgccgtg accgacccgc tgcactaccc cgtgctggtc
+      961 acccccgggc gggtggccgt ctccctggtg ctgatctggg tcatctccat caccctgtcc
+     1021 ttcttgtcca tccacctggg gtggaacagc aggaacgaga cccgccagga ccacctcaag
+     1081 tgcaaggtcc aggtcaacga agtgtacggc ctggtggacg ggctggtcac cttctacctg
+     1141 cccctgctca tcatgtgcat cacctattac cgcatcttca agatcgcccg cgaccaggcc
+     1201 aagcgcatca gccacgccag ctgctggaag gccaccaccc tcagggagca caaggccacg
+     1261 gtggcgctgg ccgcggtgat gggcgccttc atcgtctgct ggttccccta cttcaccgtg
+     1321 ttcgtgtacc gcggcctgag aggggacgac gccgtcaacg aggtcttcga ggccgtcgtc
+     1381 ctctggctgg gctacgccaa ctcggccctg aaccccatcc tgtacgccgc gctcaacagg
+     1441 gacttccgga ccgcgtacca gcagctcttc cgctgcagag cgcacggccg aggctccccc
+     1501 aggacttctc cgagatacgc ccgctctcag ctgtccaggg gcccaagcca agcagccagg
+     1561 cagctggaaa agaagccgct gaggctgaag gtgtggagcg agtcggaagt gacggccccg
+     1621 cagtgcacgg cggacaggaa gccggcgctg ccctgctccg cctgcgccag cgacctcctg
+     1681 agctgctgca agagcctgtg ggggccccgc ttccttcaga ggcgcgcggg cgcgcccttg
+     1741 ggcgagcaga cggaggctgc cctgaggccg ccgcccctgg aagcgctgag gacgctgccc
+     1801 tccgaggggc cctag
+//

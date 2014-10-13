@@ -1,0 +1,114 @@
+LOCUS       XM_005063879            2960 bp    DNA              ROD 17-JUL-2013
+DEFINITION  PREDICTED: Mesocricetus auratus cholinergic receptor, muscarinic 1
+            (Chrm1), transcript variant X1, mRNA.
+ACCESSION   XM_005063879
+VERSION     XM_005063879.1  GI:524919305
+DBLINK      BioProject: PRJNA210213
+KEYWORDS    RefSeq.
+SOURCE      Mesocricetus auratus (golden hamster)
+  ORGANISM  Mesocricetus auratus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Cricetinae; Mesocricetus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004801604.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Mesocricetus auratus Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2960
+                     /mol_type="mRNA"
+                     /isolate="Golden Hamster female 1"
+                     /sex="female"
+                     /db_xref="taxon:10036"
+                     /organism="Mesocricetus auratus"
+                     /chromosome="Unknown"
+     gene            1..2960
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 mRNAs, 23 Proteins"
+                     /db_xref="GeneID:101828505"
+                     /gene="Chrm1"
+     misc_feature    487..489
+                     /note="upstream in-frame stop codon"
+                     /gene="Chrm1"
+     CDS             529..1911
+                     /product="muscarinic acetylcholine receptor M1 isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:524919306"
+                     /db_xref="GeneID:101828505"
+                     /translation="MNTSTPPAVSPNITVLAPGKGPWQVAFIGITTGLLSLATVTGNLL
+                     VLISFKVNTELKTVNNYFLLSLACADLIIGTFSMNLYTTYLLMGHWALGTLACDLWLAL
+                     DYVASNASVMNLLLISFDRYFSVTRPLSYRAKRTPRRAALMIGLAWLVSFVLWAPAILF
+                     WQYLVGERTVQAGQCYIQFLSQPIITFGTAMAAFYLPVTVMCTLYWRIYRETENRAREL
+                     AALQGSETPGKGGGSSSSSERSQPGAEGSPESPPGRCCRCCRTPRLLQAYSWKEEEEED
+                     EGSMESLTSSEGEEPGSEVVIKMPMVDPEAQAPTKQPPKSSPNTVKRPTKKGRDRGGKS
+                     QKPRGKEQLAKRKTFSLVKEKKAARTLSAILLAFILTWTPYNIMVLVSTFCKNCVPETL
+                     WELGYWLCYVNSTINPMCYALCNKAFRDTFRLLLLCRWDKRRWRKIPKRPGSVHRTPSR
+                     QC"
+                     /gene="Chrm1"
+                     /protein_id="XP_005063936.1"
+ORIGIN
+        1 gtgtgtgtgt gcacgtgccg ccagtctgtg tgcagtgggt gtgggtgttt gtctctctgt
+       61 atccgccttc tctctcctcc tggactttta gccttcctgg gctctccttc ctcatgtcct
+      121 gcctcctccc tcttaaagct caaagtggat gtccttgtgg acaagggggg cacactccag
+      181 gacttagtcc aaccccagat gctgcctgag gcttccctcc tgctccccct ccctttcttt
+      241 cctcccttgc ctccctccct ctctttccct tcctccctcc cccccaaggc tggcgtgcca
+      301 gggggtggga catgccaatc actggctgtg cctctcccgc tgccagcaca gggcgcagct
+      361 ccccccggga gccaggtgtt tgggtcccag gagacgctgc aggccccccg gagaggcagt
+      421 gaagcagagg accccacaga cccctctcaa atcccatggt gatgcccttt ctctgaggaa
+      481 aacctgtgac tggaggaagg ggctgctcct tcatctcacc tggctgaaat gaacacctca
+      541 acgccccctg ctgtcagccc caatatcacc gtcttggcac caggaaaggg tccctggcaa
+      601 gtggccttca ttgggatcac cacaggtctc ctgtctctgg ctacagtgac aggcaacctg
+      661 ctggtactca tctccttcaa ggtcaacaca gagctcaaga cagtcaacaa ctacttcctg
+      721 ctgagcttgg cctgtgctga tctcatcatt ggcactttct ccatgaacct ctataccaca
+      781 tacctgctca tgggccactg ggccctgggc acactggcct gtgacctctg gctggccctg
+      841 gactatgtgg ccagcaatgc ctctgtcatg aatcttctgc tcatcagctt tgaccggtac
+      901 ttctcggtga cccgacccct gagctaccga gccaagcgca ctccccgcag ggcagctctg
+      961 atgattggcc tggcgtggtt ggtttccttc gtcctctggg ccccagccat ccttttctgg
+     1021 caataccttg ttggggagcg gacggtgcag gctgggcagt gctatatcca gttcctctcc
+     1081 cagcccatca tcacttttgg cacagccatg gccgccttct acctccctgt caccgtcatg
+     1141 tgtacgctgt actggcgcat ctaccgggag acagaaaacc gagcccggga gctggcagcc
+     1201 ctacagggct ctgagacacc aggcaaaggt ggtggcagca gcagcagctc agagaggtca
+     1261 cagccagggg ctgagggctc acccgagtca cctcccggcc gctgctgtcg ctgctgccgg
+     1321 acacccaggc ttctgcaggc ctacagctgg aaagaggaag aggaagagga cgaaggctcc
+     1381 atggagtccc tcacatcctc cgagggcgag gaacccggct cagaagtggt gatcaagatg
+     1441 cccatggtag accctgaggc acaggcaccc accaagcagc cccccaagag ctccccaaat
+     1501 acagtcaaga ggcccaccaa gaaaggccga gaccgaggtg gcaagagcca aaaaccccga
+     1561 ggaaaggaac aactggccaa gcgaaagacc ttctcactgg tcaaggagaa gaaggcggct
+     1621 cggaccctga gtgccatcct gctggccttc atcctcacct ggacgccata taacattatg
+     1681 gtgctggtgt ctaccttctg caagaactgt gttcccgaga ccctatggga gctgggctac
+     1741 tggctgtgct acgtcaacag caccatcaac cccatgtgct atgcactctg caacaaagcc
+     1801 ttccgggaca ccttccgcct gctgttgctc tgccgctggg acaaacggcg ctggcgcaag
+     1861 atccccaagc gccctggttc tgtgcaccgc accccctccc gccagtgcta acagcctccc
+     1921 tctcctgcat ccttcctccc cagccccagg gagaggccgg tgttcacgag ctgtatcttc
+     1981 agcctcaggg ccctgcttag acctcccctg gcttcccagg cccctgggtc accttcctgg
+     2041 acagagcaga gagactgcta gctttccaaa ctttgctatt cccagacagg gagtgaaacc
+     2101 cggggaactg gtttttctgt tccctgctgt gtgggaatag gctattcacc aggaagaagg
+     2161 cccaggagga ggaggatccg ggctttggac tctgtttgcg tttaggcagg aaattaggag
+     2221 ccagcagggc ctgccagtaa ttttaacggt gcagtcttcc ttgaccctgc agggggccca
+     2281 aattgcaatg ggagataacg accccctggg tctaaggtgg gagctgacac caggtttggg
+     2341 acagagagct ggtaacccct ggctggagat ccccctccct gcacaggcat agcccatcca
+     2401 ggtaggccct aggcacactc tctgggattc tccaacttcc ctacaaatgt ccccaggcca
+     2461 cccaccccta tgtgagtcac atccaaggca aatgtccagg tgtgagcagg acagtgatac
+     2521 cagaggagat cagcttgact gaacacacca agtcctgaag ctggagcagg accagatgtc
+     2581 aggtgtccta aatgacccat tatgccactt tctgggttgg gggagggggg acaaggtgcc
+     2641 tgatatccag tcccaaaccc atcctctctc cttgccccaa agtaacctcg gtccctccct
+     2701 cccggctcac agccatcacc tgggtggatc tgctctgggc ggatctagcc aggcctcccg
+     2761 catgctgcct gcctccagcc ttgccctaca caggcctggc ccagccagca ggttctcttc
+     2821 tgtaaactcc ctagtccaac ccatgcatgg cctccctgcc accctaatct ccaggccctg
+     2881 cctggcccca gatgtcctct ccttccatcc tcagcatatg ctgagtctgt gaataaaagc
+     2941 cacgaaacca gagggcacta
+//

@@ -1,0 +1,59 @@
+LOCUS       XP_003973484             546 aa                     VRT 06-NOV-2012
+DEFINITION  PREDICTED: histamine H1 receptor-like [Takifugu rubripes].
+ACCESSION   XP_003973484
+VERSION     XP_003973484.1  GI:410920025
+KEYWORDS    RefSeq.
+SOURCE      Takifugu rubripes (Fugu rubripes)
+  ORGANISM  Takifugu rubripes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Percomorpharia; Tetraodontiformes; Tetradontoidea;
+            Tetraodontidae; Takifugu.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004071134) annotated using gene prediction method: GNOMON.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Takifugu rubripes Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..546
+                     /note="scaffold_77"
+                     /db_xref="taxon:31033"
+                     /organism="Takifugu rubripes"
+                     /chromosome="19"
+     Protein         1..546
+                     /product="histamine H1 receptor-like"
+                     /calculated_mol_wt="62705"
+     Region          77..>250
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <431..529
+                     /note="Mammalian taste receptor protein (TAS2R); pfam05296"
+                     /db_xref="CDD:253139"
+                     /region_name="TAS2R"
+     CDS             1..546
+                     /coded_by="XM_003973435.1:1..1641"
+                     /gene="LOC101068033"
+                     /db_xref="GeneID:101068033"
+ORIGIN
+        1 mikgtrsvme sgpspsagpl rlstrgsean wsivvhtasl ksnhtptfps hlhtgllavs
+       61 lgllslvtvi mnmlvlyavk kekslhtvgn lyivslsvad livgttvmpl nllylleeew
+      121 klgrticqfw limdyvasta sifslfilcl dryrsvrqpl kylkyrtwgr asamiagawl
+      181 lsmlwiipil gwrlfthvdl kpeeenkcdt dfrfvtwfkv vtavfnfymp svlmlwfyrh
+      241 iyltvrqhlk drgriihptn sfeenenehn ahtpvsehks skkdcnvtre lskeqhptdp
+      301 qtnpssdgdk tkkvssrshr kigvkgqqts llaikerqhr lvrkvkgcsl tpeekqqtvm
+      361 rsagnhqsit drpqaplddy hvsgpklasg icdltrvsdm qkktcalski htvpwteeee
+      421 adpfkpayak slrqtwqkfi gqsrhrvqsl kihkehkaak qlgfiisaff lcwipyfitf
+      481 mvmafcrecv hhelhmftiw lgyinstlnp fiyplcngnf krvfkkflri pcckvekrre
+      541 psrmtv
+//

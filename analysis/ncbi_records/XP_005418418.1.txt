@@ -1,0 +1,56 @@
+LOCUS       XP_005418418             363 aa                     VRT 13-SEP-2013
+DEFINITION  PREDICTED: histamine H3 receptor-like [Geospiza fortis].
+ACCESSION   XP_005418418
+VERSION     XP_005418418.1  GI:543252520
+DBLINK      BioProject: PRJNA217051
+KEYWORDS    RefSeq.
+SOURCE      Geospiza fortis (medium ground-finch)
+  ORGANISM  Geospiza fortis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Fringillidae; Emberizinae; Thraupini; Geospiza.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005054305.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Geospiza fortis Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..363
+                     /db_xref="taxon:48883"
+                     /organism="Geospiza fortis"
+                     /chromosome="Unknown"
+                     /sex="female"
+     Protein         1..363
+                     /product="histamine H3 receptor-like"
+                     /calculated_mol_wt="41043"
+     Region          17..332
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..363
+                     /coded_by="XM_005418361.1:52..1143"
+                     /gene="LOC102039398"
+                     /db_xref="GeneID:102039398"
+ORIGIN
+        1 mvllclvtil gnmlvilafi mdrnlrhrsn yfflnlavsd favgvfcmpl yipyaltgtw
+       61 hlgrslcklw lvmdylvcaa svfnivlisy drflsvtkav syraqqgims ssaikmvaiw
+      121 vlalllycpa ilfwehvagh svvpvdqcya effhnwyfll castleffvp lllvtyfnah
+      181 ifhniqrrqr rgsvqdcepp rssslswrfc glprpgassp sseaeesvss ltrswrpavv
+      241 angpsrtets smalkrnfsa sfssrsgskl qrdkkiaksl aiivcvfaic wapysllmii
+      301 rgvcqrkcip kslyeatfwl lwinsslnpf lyplchmrfr maflkilcpk nfaalrsgnt
+      361 psi
+//

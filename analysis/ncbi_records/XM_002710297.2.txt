@@ -1,0 +1,103 @@
+LOCUS       XM_002710297            2027 bp    DNA              MAM 13-JUN-2014
+DEFINITION  PREDICTED: Oryctolagus cuniculus adrenoceptor beta 2, surface
+            (ADRB2), mRNA.
+ACCESSION   XM_002710297
+VERSION     XM_002710297.2  GI:655650840
+DBLINK      BioProject: PRJNA42933
+KEYWORDS    RefSeq.
+SOURCE      Oryctolagus cuniculus (rabbit)
+  ORGANISM  Oryctolagus cuniculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha; Leporidae;
+            Oryctolagus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003159237.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Jun 13, 2014 this sequence version replaced gi:291387594.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Oryctolagus cuniculus Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2027
+                     /mol_type="mRNA"
+                     /breed="Thorbecke inbred"
+                     /sex="female"
+                     /db_xref="taxon:9986"
+                     /organism="Oryctolagus cuniculus"
+                     /chromosome="3"
+     gene            1..2027
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 52 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:100340821"
+                     /gene="ADRB2"
+     CDS             210..1472
+                     /product="beta-2 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:291387595"
+                     /db_xref="GeneID:100340821"
+                     /translation="MGQPGNGSDFLLAPNGSHAPDHDISQETDEAWVVGLAIVMSLIVL
+                     AIVFGNVLVITAIAKFERLQTVTNYFITSLACADLVMGLAVVPFGASHILMKMWTFGNF
+                     WCEFWTSIDVLCVTASIETLCVIAVDRYFAITSPFKYQSLLTKNKARVVILMVWIVSGL
+                     TSFLPIQMHWYRATHQEAINCYAKETCCDFFTNQAYAIASSIVSFYLPLVVMVFVYSRV
+                     FQVAKKQLQKIDKSEGRFHAQNLSQVEQDGRSGHGHGLRRSSKFCLKEHKALKTLGIIM
+                     GTFTLCWLPFFIVNIVHVIQDNLIPKEVYILLNWVGYVNSAFNPLIYCRSPDFRIAFQE
+                     LLCLRRSSLKAYGNGYSSNSTGKTEYTGEQSSYHLEQEKESELLCEDPPGMEDFVNCQG
+                     TVPNDSIDPPGRNCRTNDSLL"
+                     /gene="ADRB2"
+                     /protein_id="XP_002710343.1"
+     STS             626..1086
+                     /db_xref="UniSTS:258478"
+                     /standard_name="ADRB2sts1"
+                     /gene="ADRB2"
+     STS             860..1264
+                     /db_xref="UniSTS:270173"
+                     /standard_name="PMC109640P1"
+                     /gene="ADRB2"
+ORIGIN
+        1 agctggcggg cacggagggc tcagagcaac ccacaagctg agtgcgccgg acgcgaccca
+       61 cgcgaccctc cgcatccaac tacggccgct gaatgaagct tccaggagtc cgctcgcggt
+      121 ccgcagcgcc cctccggagg tgcgcacgct gaggcggggc cactgtgccg ccagccgccc
+      181 ccgggcgctc acctgcccgc ctgcgagcca tggggcaacc cgggaacggc agcgatttct
+      241 tgctagcgcc caatggaagt cacgcgccgg accacgacat ctcgcaggaa acagacgagg
+      301 cgtgggtggt gggtctggcc atcgtcatgt ctctgattgt tctggccatc gtgtttggca
+      361 acgttctggt tatcacagcc attgccaagt ttgaacgtct acagacggtc acaaattact
+      421 tcatcacctc actggcgtgt gctgacctgg ttatgggttt agcggtggta ccctttgggg
+      481 cgagccacat tctcatgaaa atgtggactt ttggtaactt ctggtgcgag ttttggactt
+      541 ccattgatgt gctgtgcgtc actgccagca ttgagaccct gtgcgtgatc gcagtggatc
+      601 gctatttcgc catcacctca cccttcaagt accaaagcct gctgaccaag aataaggcgc
+      661 gcgtggtcat tctgatggtg tggatcgtgt cgggccttac ctcctttctg cccatccaga
+      721 tgcactggta cagggccacc catcaggaag ccatcaactg ctacgccaag gagacctgct
+      781 gtgacttctt cacgaaccaa gcctatgcca ttgcctcctc catcgtgtcg ttctacttgc
+      841 ccctggtggt catggtcttc gtctactcca gggtcttcca ggtggccaaa aagcagctcc
+      901 agaagattga caaatcagag ggccggttcc atgcccaaaa cctcagccag gtggagcagg
+      961 atgggcgaag cgggcatgga catggacttc gcaggtcctc caagttctgc ttgaaggaac
+     1021 acaaagccct caagacgtta ggcatcatca tgggcacatt caccctctgc tggctgccct
+     1081 tcttcatcgt caacatcgtg cacgtgatcc aggacaacct catcccgaag gaagtttaca
+     1141 tcctcctcaa ctgggtgggc tatgtcaact ctgctttcaa cccgctcatc tactgccgga
+     1201 gcccagactt caggattgcc ttccaggagc ttctgtgctt gcgcaggtct tctttgaagg
+     1261 cctacgggaa tggctactcc agcaacagca ctggcaaaac tgagtacaca ggggagcaga
+     1321 gtagctatca cctggagcaa gagaaagaaa gcgagctgct gtgtgaggac cccccgggca
+     1381 tggaagactt tgtgaactgt caaggtaccg tgcctaacga tagcattgat ccccccggca
+     1441 ggaactgtag gacaaatgac tcactgctgt aatgcagttt ttctactttt taaggacccc
+     1501 tcccccaaca gaacactaaa cagactattt aacttgagtg taacacattt agaataaaac
+     1561 tgtatagaga aacgcagaag gaaggcagcc ttctgccttt tttttttaat cttttttaac
+     1621 ctgtaaaaaa aaaagagaga agatgtattt gagtgattat ttgtttcttg tacagttcag
+     1681 ttcctctttt gcatggaacg cctaagttta tgtccgaagg gcttgagtcc tagaggacct
+     1741 gggtctgcta cgttttgatg acttctccgt gtatctacct cagtggtcaa gtattagggg
+     1801 taatatattg ctgctggtaa tttgtacctg aaggagattt ttccttcctg cacccttgga
+     1861 cttgaggatc ttgagtatcc cggacctctc agctgtgaac gtggactctt cccagctcct
+     1921 cctgtttgct cggaccgggt gttgtaggca gggattcgag ggggcagctt cacttgtttt
+     1981 cctgagcaaa gtctaaagtt tacagtaaat aaattgtttg accatga
+//

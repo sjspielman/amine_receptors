@@ -1,0 +1,62 @@
+LOCUS       XP_004368389             483 aa                     MAM 27-MAR-2013
+DEFINITION  PREDICTED: histamine H1 receptor [Trichechus manatus latirostris].
+ACCESSION   XP_004368389
+VERSION     XP_004368389.1  GI:471355572
+DBLINK      BioProject: PRJNA189960
+KEYWORDS    RefSeq.
+SOURCE      Trichechus manatus latirostris (Florida manatee)
+  ORGANISM  Trichechus manatus latirostris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Afrotheria; Sirenia; Trichechidae; Trichechus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004443937.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Trichechus manatus latirostris Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..483
+                     /sub_species="latirostris"
+                     /isolate="Lorelei"
+                     /sex="female"
+                     /db_xref="taxon:127582"
+                     /organism="Trichechus manatus latirostris"
+                     /chromosome="Unknown"
+     Protein         1..483
+                     /product="histamine H1 receptor"
+                     /calculated_mol_wt="54550"
+     Region          35..>199
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          50..464
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..483
+                     /coded_by="XM_004368332.1:1..1452"
+                     /gene="HRH1"
+                     /db_xref="GeneID:101354621"
+ORIGIN
+        1 mtlpnsscii edkmcegnrt tiaspqlmpl vvvlttislv tvglnllvly avrserklht
+       61 vgnlyivsls vadlivgavv mpmnilylfm tkwslgrplc lfwlsmdyva stasifsifi
+      121 lcidryrsvq qplrylqyrt ktrasatimg awflsflwii pilgwhrfis ggskcpgdkc
+      181 etdfydvtwf kimtaiinfy lptllmlwfy akiykavqqh cqhraltngh lpsfseislk
+      241 penpkvgakk pgkesswdvl krkrkdasgg pvskplsqdp eemkspvvfs qedevaklys
+      301 fplttvsaqt mvegrsreyg ainqsqletd ehglntrgag kvsedqtlgd sqsfaqadan
+      361 tstepasgkg klksgsstgl dyikltwkrl hshsrqyvsg lhmnrerkaa kqlgfimaaf
+      421 ilcwipyfif fmviafcksc cneqvhmfti wlgyinsmln pfiyplcnen fkktfkkilh
+      481 irs
+//

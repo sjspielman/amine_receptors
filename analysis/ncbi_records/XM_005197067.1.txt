@@ -1,0 +1,96 @@
+LOCUS       XM_005197067            1609 bp    DNA              MAM 05-AUG-2013
+DEFINITION  PREDICTED: Bos taurus 5-hydroxytryptamine (serotonin) receptor 7,
+            adenylate cyclase-coupled (HTR7), transcript variant X4, mRNA.
+ACCESSION   XM_005197067
+VERSION     XM_005197067.1  GI:528926321
+DBLINK      BioProject: PRJNA13366
+KEYWORDS    RefSeq.
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001494355.3) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Bos taurus Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1609
+                     /breed="Hereford"
+                     /db_xref="taxon:9913"
+                     /mol_type="mRNA"
+                     /organism="Bos taurus"
+                     /chromosome="26"
+     gene            1..1609
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 3 samples with support for all annotated introns"
+                     /db_xref="BGD:BT11796"
+                     /db_xref="GeneID:538510"
+                     /gene="HTR7"
+     STS             62..599
+                     /db_xref="UniSTS:511811"
+                     /standard_name="HTR7"
+                     /gene="HTR7"
+     CDS             64..1371
+                     /product="5-hydroxytryptamine receptor 7 isoform X4"
+                     /codon_start="1"
+                     /db_xref="GI:528926322"
+                     /db_xref="BGD:BT11796"
+                     /db_xref="GeneID:538510"
+                     /translation="MMDVNSSGRPDLYGHLRSFFLPEVGRGLPDLSPDGAGPVAGSWAP
+                     HLLHGVVEVTASPGPTRDTPRDNTSGCWEQINYGRAEKVVIGSILTLITLLTIAGNCLV
+                     VISVCFVKKLRQPSNYLIVSLALADLSVAVAVMPFVSVTDLIGGKWIFGHFFCNVFIAM
+                     DVMCCTASIMTLCVISIDRYLGITRPLTYPVRQNGKCMAKMILSVWLLSASITLPPLFG
+                     WAQNVNDGKVCLISQDFGYTIYSTAVAFYIPMSVMLFMYYQIYKAARKSAAKHKFPGFP
+                     RPEEPDSVISLNGMVKLQKEVEECANLSRLLKHERKNISIFKREQKAATTLGIIVGAFT
+                     MCWLPFFLLSTARPFICGIACSCIPLWVERTCLWLGYANSLINPFIYAFFNRDLRTTYR
+                     SLLQCQYRNINRKLSAAGMHEALKLAERPERPELVL"
+                     /gene="HTR7"
+                     /protein_id="XP_005197124.1"
+     STS             1159..1298
+                     /db_xref="UniSTS:39426"
+                     /standard_name="RH66814"
+                     /gene="HTR7"
+ORIGIN
+        1 ggccggcagc cgcagcgcgt ggcgggggcg ccggctccat gggcagcggc gcacagaggc
+       61 acgatgatgg acgttaatag cagcggccgc ccggacctct acgggcacct ccgctctttc
+      121 ttcctgccgg aggtggggcg cgggctgccc gacctgagcc ccgacggcgc cggcccggtc
+      181 gcgggctcct gggcgcctca cctgctgcac ggggtcgtgg aggtgacggc tagccccggg
+      241 cccacccggg acacgccgcg ggacaatacc tccggctgct gggagcagat caactacggc
+      301 agagccgaga aagttgtgat cggctccatc ctgacgctca tcacgctgct gacgatcgcc
+      361 ggcaactgcc tggtggtgat ttcggtgtgc ttcgtcaaaa agctccggca gccctccaac
+      421 tacctgatcg tgtccctggc gctggccgac ctttcggtgg ccgtggcggt catgcccttc
+      481 gtcagcgtca ccgacctcat tgggggcaag tggatctttg gccatttctt ctgtaacgtc
+      541 tttatcgcca tggacgtcat gtgctgcacg gcctcgatca tgaccctgtg cgtgatcagc
+      601 atcgacaggt accttggtat cacgaggccg ctgacgtacc ctgtgaggca gaacgggaag
+      661 tgcatggcca agatgatcct ctccgtctgg cttctgtccg cctccatcac tctaccgccg
+      721 ctctttggct gggctcagaa cgtcaacgat ggcaaggtgt gcttgatcag ccaggacttc
+      781 ggctacacga tttactccac tgcagtggcg ttttatatcc ccatgtccgt catgcttttc
+      841 atgtactacc agatttacaa agccgccagg aagagcgccg ccaagcacaa gttccctggc
+      901 ttcccccggc cggaggagcc cgacagcgtc atctccctca acggcatggt gaagctccag
+      961 aaggaggtag aggagtgtgc aaacctttcg agacttctca aacacgaaag gaaaaacatc
+     1021 tccatcttta agagggagca gaaagcagcc accacgctgg gcatcatcgt cggggccttc
+     1081 accatgtgct ggctgccgtt tttcctcctc tcgaccgcca ggcccttcat ctgcggcatc
+     1141 gcctgcagct gcatcccgct gtgggtggag aggacatgtc tgtggctggg ctatgcaaac
+     1201 tctctcatta acccctttat atatgccttc ttcaaccggg acctgaggac cacctaccgc
+     1261 agcctgctcc aatgccagta ccggaatatc aaccggaaac tctcggccgc aggcatgcat
+     1321 gaggccctga agctcgccga gaggcccgag agacctgagc ttgtgctgta aggatgaagg
+     1381 aggcagaaac atctccctaa tatggataag ggaaaccaga gatcatcatt tcctgtccta
+     1441 ggaactcaaa gttgtaagac tacagatatg ctaattcttg agctgtgaaa tagcttcaca
+     1501 ggtatttatt tttacttcta ttctataccc tgttttgtat ataagaactt gttcataata
+     1561 aaaagttaga ttttcttttt tgaaagaata caaggacttc cctgatggt
+//

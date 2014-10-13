@@ -1,0 +1,67 @@
+LOCUS       XP_001341592             426 aa                     VRT 01-AUG-2013
+DEFINITION  PREDICTED: D(5)-like dopamine receptor-like [Danio rerio].
+ACCESSION   XP_001341592
+VERSION     XP_001341592.2  GI:189525932
+DBLINK      BioProject: PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003040036.2) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Jun 9, 2008 this sequence version replaced gi:125830488.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..426
+                     /strain="Tuebingen"
+                     /organism="Danio rerio"
+                     /chromosome="12"
+                     /db_xref="taxon:7955"
+     Protein         1..426
+                     /product="D(5)-like dopamine receptor-like"
+                     /calculated_mol_wt="47060"
+     Region          27..>151
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          31..315
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          39..305
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..426
+                     /coded_by="XM_001341556.2:1..1281"
+                     /gene="drd6b"
+                     /db_xref="GeneID:100001636"
+                     /db_xref="ZFIN:ZDB-GENE-121214-145"
+ORIGIN
+        1 mesdgaerns sgvgvraltg calcalilst llgntlvcaa vikfrhlrsk vtnffvisla
+       61 vsdlfvavlv mpwkavseva gcwlfggfcd twiafdimcs tasilnlcii sldrywaiss
+      121 pfryerkmtq rmafimigma wtlsvlisfi pvklnwhrav dhnltvpsed ctaslnrtya
+      181 iasslisfyi pviimigtyt riyriaqtqi rrisileraa ghaqsqqdca seqslkstfk
+      241 ketkvlktls iimgvfvfcw lpffvlnciv pfcdtlgdsp cvssttfnif vwfgwanssl
+      301 npviyafnad frkafstilg cnrlcasstv etvnftnelv syhhdttlmh kdaqgvsspr
+      361 ldlvpghcdq tdvpfdkvsv vsnssrvqrs allpqdaeme icldmmpfts aglsdccaip
+      421 gqieec
+//

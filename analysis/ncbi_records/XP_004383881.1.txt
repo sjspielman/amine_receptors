@@ -1,0 +1,62 @@
+LOCUS       XP_004383881             460 aa                     MAM 27-MAR-2013
+DEFINITION  PREDICTED: muscarinic acetylcholine receptor M1 [Trichechus manatus
+            latirostris].
+ACCESSION   XP_004383881
+VERSION     XP_004383881.1  GI:471403050
+DBLINK      BioProject: PRJNA189960
+KEYWORDS    RefSeq.
+SOURCE      Trichechus manatus latirostris (Florida manatee)
+  ORGANISM  Trichechus manatus latirostris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Afrotheria; Sirenia; Trichechidae; Trichechus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004444049.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Trichechus manatus latirostris Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..460
+                     /sub_species="latirostris"
+                     /isolate="Lorelei"
+                     /sex="female"
+                     /db_xref="taxon:127582"
+                     /organism="Trichechus manatus latirostris"
+                     /chromosome="Unknown"
+     Protein         1..460
+                     /product="muscarinic acetylcholine receptor M1"
+                     /calculated_mol_wt="51304"
+     Region          25..>166
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          50..418
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..460
+                     /coded_by="XM_004383824.1:411..1793"
+                     /gene="CHRM1"
+                     /db_xref="GeneID:101360696"
+ORIGIN
+        1 mntsappavs pnitvlapgk gpwqvafigi ttsllslatv tgnllvlisf kvnaelktvn
+       61 nyfllslaca dliigtfsmn lyttyllmgh walgtlacdl wlaldyvasn asvmnlllis
+      121 fdryfsvtrp lsyrakrtpr raalmiglaw lvsfvlwapa ilfwqylvge rtvragqcyi
+      181 qflsqpiitf gtamaafylp vtvmctlywr iyretenrar elaalqgset pgkgggssss
+      241 sersqpgaeg spetppgrcc rccrtprllq ayswkeeeee degsmeslts segeetgsev
+      301 vikmpmvdpe aqapakqppr sspntvkrpt rkgreragkg pkprgkeqla krktfslvke
+      361 kkaartlsai llafiltwap ynimvlvstf ckdcvpetlw elgywlcyvn stvnpmcyal
+      421 cnkafrdtfr llllcrwdkr rwrkipkrpg svhrtpsrqc
+//

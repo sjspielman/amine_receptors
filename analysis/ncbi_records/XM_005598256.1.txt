@@ -1,0 +1,89 @@
+LOCUS       XM_005598256            1383 bp    DNA              MAM 22-SEP-2013
+DEFINITION  PREDICTED: Equus caballus cholinergic receptor, muscarinic 1
+            (CHRM1), mRNA.
+ACCESSION   XM_005598256
+VERSION     XM_005598256.1  GI:545181507
+DBLINK      BioProject: PRJNA19129
+KEYWORDS    RefSeq.
+SOURCE      Equus caballus (horse)
+  ORGANISM  Equus caballus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Perissodactyla; Equidae; Equus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001867370.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Equus caballus Annotation Release
+            101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1383
+                     /mol_type="mRNA"
+                     /breed="thoroughbred"
+                     /isolate="Twilight"
+                     /sex="female"
+                     /db_xref="taxon:9796"
+                     /organism="Equus caballus"
+                     /chromosome="12"
+     gene            1..1383
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 21 Proteins, and 70% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:100064117"
+                     /gene="CHRM1"
+     CDS             1..1383
+                     /product="muscarinic acetylcholine receptor M1"
+                     /codon_start="1"
+                     /db_xref="GI:545181508"
+                     /db_xref="GeneID:100064117"
+                     /translation="MNTSAPPAVSPNITVLAPGKGPWQVAFIGITTGLLSLATVTGNLL
+                     VLISFKVNTELKTVNNYFLLSLACADLIIGTFSMNLYTTYLLMGHWALGTLACDLWLAL
+                     DYVASNASVMNLLLISFDRYFSVTRPLSYRAKRTPRRAALMIGLAWLVSFVLWAPAILF
+                     WQYLVGERTVLAGQCYIQFLSQPIITFGTAMAAFYLPVTVMCTLYWRIYRETENRAREL
+                     AALQGSETPGKGGGSSSSSERSQPGAEGSPETPPGRCCRCCRAPRLLQAYSWKEEEEDD
+                     EGSMESLTSSEGEEPGSEVVIKMPMVDPEAQAPAKQPPRSSPNTVKRPTRKGRERAGKS
+                     QKPRGKEQLAKRKTFSLVKEKKAARTLSAILLAFILTWTPYNIMVLVSTFCKDCVPETL
+                     WELGYWLCYVNSTINPMCYALCNKAFRDTFRLLLLCRWDKRRWRKIPKRPGSVHRTPSR
+                     QC"
+                     /gene="CHRM1"
+                     /protein_id="XP_005598313.1"
+     STS             80..382
+                     /db_xref="UniSTS:253963"
+                     /standard_name="CHRM1"
+                     /gene="CHRM1"
+ORIGIN
+        1 atgaatacct cggccccacc cgccgtcagc cccaacatca ctgtcctggc tcccggaaag
+       61 ggtccgtggc aagtggcctt cattgggatc accacgggcc tcctgtcgct ggccacagtg
+      121 acaggcaacc tgctggtact catctccttc aaggtcaaca cagagctcaa gacagtcaac
+      181 aactacttcc tgctgagcct ggcctgtgct gacctcatca ttggcacctt ctccatgaac
+      241 ctctacacca catacctgct catgggccac tgggctctgg gcacgctagc ctgtgacctc
+      301 tggctggccc tggactacgt ggccagcaac gcctccgtta tgaacctgct gcttatcagc
+      361 tttgaccgtt acttctccgt gacccggccc ctgagctacc gtgccaagcg cacaccacgc
+      421 cgggcagccc tgatgatcgg cttggcgtgg ctggtttcct tcgtcctgtg ggccccagcc
+      481 atcctcttct ggcagtatct ggtaggggag cggacagtgc tggccgggca gtgctacatc
+      541 cagttcctct cccaacccat catcaccttt ggcacagcca tggcagcctt ctacctccct
+      601 gtcacggtca tgtgcacgct ctactggcgc atctaccgag agacagagaa ccgggcccgg
+      661 gagctagcgg ccctgcaggg ctccgagaca ccagggaagg ggggcggcag cagcagcagc
+      721 tcagagcggt cccagccggg ggcggagggc tcaccagaga cccctccagg gcgctgctgt
+      781 cgctgctgcc gggcccccag gctgctgcag gcctacagct ggaaggagga ggaggaggac
+      841 gacgaaggct ccatggagtc cctcacatcc tcggagggtg aggagcctgg ctccgaggtg
+      901 gtgatcaaga tgcccatggt ggaccctgag gcacaggccc ctgccaaaca gccaccccgg
+      961 agctccccga atacagtcaa gaggcccacc cggaaagggc gtgagagagc aggcaagagc
+     1021 cagaagcccc gtgggaagga gcagctggcc aagcggaaga ccttctcgtt ggtcaaggag
+     1081 aagaaggcgg ctcggaccct gagcgccatc ctgctggcct tcatcctcac ctggacaccg
+     1141 tacaacatca tggtgctggt gtccactttc tgcaaggact gtgttcccga gaccctgtgg
+     1201 gagctgggct actggctgtg ctatgtcaac agcaccatca accccatgtg ctacgcactc
+     1261 tgcaacaaag ccttccggga caccttccgc ctgctgctcc tctgccgctg ggacaagcgt
+     1321 cgctggcgca agatccccaa gcgccctggc tctgtgcacc gcactccctc tcgccaatgc
+     1381 tga
+//

@@ -1,0 +1,105 @@
+LOCUS       XM_004662194            2035 bp    DNA              ROD 28-MAY-2013
+DEFINITION  PREDICTED: Jaculus jaculus muscarinic acetylcholine receptor M3-like
+            (LOC101606390), mRNA.
+ACCESSION   XM_004662194
+VERSION     XM_004662194.1  GI:507557006
+DBLINK      BioProject: PRJNA193488
+KEYWORDS    RefSeq.
+SOURCE      Jaculus jaculus (lesser Egyptian jerboa)
+  ORGANISM  Jaculus jaculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Dipodidae; Dipodinae; Jaculus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004504361.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Jaculus jaculus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2035
+                     /mol_type="mRNA"
+                     /collection_date="May-2011"
+                     /country="USA"
+                     /isolate="JJ0015"
+                     /sex="female"
+                     /note="the animal was collected near Giza City, Egypt in
+                     2009 and now lives in a colony in the USA"
+                     /db_xref="taxon:51337"
+                     /organism="Jaculus jaculus"
+                     /chromosome="Unknown"
+     gene            1..2035
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 9 mRNAs, 22 Proteins"
+                     /db_xref="GeneID:101606390"
+                     /gene="LOC101606390"
+     misc_feature    25..27
+                     /note="upstream in-frame stop codon"
+                     /gene="LOC101606390"
+     CDS             73..1842
+                     /product="muscarinic acetylcholine receptor M3-like"
+                     /codon_start="1"
+                     /db_xref="GI:507557007"
+                     /db_xref="GeneID:101606390"
+                     /translation="MTLHNSSTTSPLFPNISSSWIYSSSEAGLPPGTVTHLGSYNISGS
+                     VGNFSSNDTSSDPLGGHTIWQVVFIAFLTGFLALVTIIGNILVIVAFKVNKQLKTVNNY
+                     FLLSLACADLIIGVISMNLFTTYIIMNRWALGNLACDLWLSIDYVASNASVMNLLVISF
+                     DRYFSITRPLTYRAKRTTKRAGVMIGLAWIISFILWAPAILFWQYFVGKRTVPPGECFI
+                     QFLSEPTITFGTAIAAFYMPVTIMTILYWRIYKETEKRTKELAGLQASGTEAEAENFVH
+                     PTGSSRSCSSYELQQQSMKRSPRKKYGGCHFWFTTKSWKPSAEQMDQEHSSSDSWNNND
+                     AAASLENSASSDEEDMGSETRAIYSIVLKLPGHSTILNSTKLPSSDNLHIPDEELGTMD
+                     VERNANKLQSQKSIDDGDNCQTSFSKLPIQLESAVDATNTSDTNSSMDKTTATLPLSFK
+                     EATLAKRFALKTRSQITKRKRMSLIKEKKAAQTLSAILLAFIITWTPYNIMVLVNTFCD
+                     SCIPKTYWNLGYWLCYINSTVNPVCYALCNKTFRTTFKMLLLCQCDKRKRRKQQYQQRQ
+                     SVIFHKRVPEQAL"
+                     /gene="LOC101606390"
+                     /protein_id="XP_004662251.1"
+     STS             422..701
+                     /db_xref="UniSTS:253965"
+                     /standard_name="CHRM3"
+                     /gene="LOC101606390"
+ORIGIN
+        1 aatccccaag gacagcgatt ttgctaactc tgccttttct cttttttccc tagactatgt
+       61 cagagagtca caatgacatt gcacaatagc agtacaacct cacctttgtt tccaaacatc
+      121 agctcttcct ggatatacag ctcctcagag gcagggctgc caccagggac agtcactcat
+      181 cttggcagct acaacatttc aggatccgtt gggaatttct cctcaaatga cacctccagt
+      241 gaccctctgg gaggtcatac catctggcaa gtggtcttca tcgcattctt gacgggcttc
+      301 cttgccctag tgaccatcat tggcaacatc cttgtcattg tggcttttaa ggttaacaag
+      361 caactgaaga cagtcaacaa ctacttcctc ttaagcctgg cctgtgctga tctgattatt
+      421 ggggtcattt caatgaatct gttcaccacc tacatcatca tgaatcgatg ggcactggga
+      481 aatctagcct gtgacctctg gctttccatt gactatgtgg cgagcaatgc ctccgtcatg
+      541 aacctactgg tcatcagctt tgacaggtac ttttccatca caaggccact cacttaccga
+      601 gccaaacgaa caacaaaaag agctggtgtg atgattggcc tggcttggat catttcattc
+      661 atcctgtggg ctcctgccat cttgttctgg cagtactttg tagggaaaag aactgtaccc
+      721 ccaggagagt gtttcattca gttcctcagt gagcccacca tcaccttcgg cacagcaatt
+      781 gctgcctttt atatgcccgt caccatcatg actattttat actggaggat ctataaggaa
+      841 actgaaaaac gtaccaaaga gctggctggg ctgcaggcct ctgggacaga agctgaggca
+      901 gaaaactttg tccaccccac aggcagttct cgaagctgca gcagctatga acttcaacag
+      961 caaagcatga aacgttcacc caggaagaag tatggtggct gtcatttctg gttcaccacc
+     1021 aagagctgga agcccagcgc tgagcaaatg gaccaagagc acagcagcag cgacagctgg
+     1081 aacaacaacg atgctgctgc ctctttggaa aactctgcct cctctgacga ggaagacatg
+     1141 ggctcagaga caagagccat ctactctatt gtactcaagc ttccaggtca cagcaccatc
+     1201 ctgaattcca ccaagctacc ctcatctgac aacctgcata taccagatga ggagctgggg
+     1261 actatggatg tggagaggaa tgccaataag ctgcagtccc agaaaagcat tgacgatggt
+     1321 gacaattgtc agacgagctt ctccaagctt cccatccagt tagagtctgc tgtggatgca
+     1381 accaacacct ctgacaccaa ctcatcaatg gacaagacca cagccactct acctctgtct
+     1441 ttcaaagaag ccacactggc caagaggttt gctctgaaga ccagaagtca gatcaccaag
+     1501 cggaagagga tgtccctcat caaggagaaa aaggcagcac agaccctcag cgctatcctg
+     1561 cttgccttca tcatcacgtg gaccccatac aacatcatgg tcctggtgaa taccttctgt
+     1621 gacagctgca tacccaaaac ctattggaat ctgggctact ggctctgcta catcaacagc
+     1681 accgtgaacc ccgtgtgcta tgccctgtgc aacaaaacat tcagaaccac cttcaagatg
+     1741 cttctgctat gccagtgtga caagaggaag aggcgcaagc agcaatacca gcagagacag
+     1801 tcggtcattt tccacaagag agtgcctgaa caggccttgt aaaagacggt ttatcaacaa
+     1861 cagcgacaac acgcctgtca gccaacacat cctagcaaga gtcaggcaag ggtgggggtg
+     1921 gccattcctg gtgatgatga aagggtttta tcacacagat aggagagaag ctgcctgttt
+     1981 actgatgcat tgagtaaaca agttttaatt taaaaagtca atgccaattc agcaa
+//

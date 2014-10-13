@@ -1,0 +1,60 @@
+LOCUS       XP_004011382             342 aa                     MAM 02-DEC-2012
+DEFINITION  PREDICTED: trace amine-associated receptor 7a-like [Ovis aries].
+ACCESSION   XP_004011382
+VERSION     XP_004011382.1  GI:426234805
+KEYWORDS    RefSeq.
+SOURCE      Ovis aries (sheep)
+  ORGANISM  Ovis aries
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Caprinae; Ovis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004080171) annotated using gene prediction method: GNOMON.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ovis aries Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..342
+                     /db_xref="taxon:9940"
+                     /breed="Texel"
+                     /organism="Ovis aries"
+                     /chromosome="8"
+     Protein         1..342
+                     /product="trace amine-associated receptor 7a-like"
+                     /calculated_mol_wt="38125"
+     Region          42..322
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          46..>164
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          56..310
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..342
+                     /coded_by="XM_004011333.1:1..1029"
+                     /gene="LOC101103730"
+                     /db_xref="GeneID:101103730"
+ORIGIN
+        1 mssaspaaav qlcyehlngs cvktpyspap rlilytvfsf gavlavfgnl lvmisilhfk
+       61 qlhsstnfli aslacadflv gvtvmpfstv rsvescwyfg esycqlhscf ngsfcyasiy
+      121 hlcfisldry iavtdplvyp trftvsvsam civfswlfpi iytfsllgtg anaagledlv
+      181 saltcvggcq iavnqswvlv nfllffiptl vmivlysnvf liakqqarki enlssktgrc
+      241 sdsyqdrvar rerkaartlg vavlaflisw lpyfldsiid aflgfitpty vyeilvwiay
+      301 ynsamnpliy affypwfrka ikliitgkvl rensstinlf se
+//

@@ -1,0 +1,98 @@
+LOCUS       XM_005038586            2143 bp    DNA              VRT 17-JUL-2013
+DEFINITION  PREDICTED: Ficedula albicollis dopamine receptor D3 (DRD3), mRNA.
+ACCESSION   XM_005038586
+VERSION     XM_005038586.1  GI:524981225
+DBLINK      BioProject: PRJNA208061
+KEYWORDS    RefSeq.
+SOURCE      Ficedula albicollis (collared flycatcher)
+  ORGANISM  Ficedula albicollis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Muscicapidae; Ficedula.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004775469.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Ficedula albicollis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2143
+                     /mol_type="mRNA"
+                     /collection_date="2009"
+                     /country="Sweden: Oland"
+                     /isolate="OC2"
+                     /sex="male"
+                     /db_xref="taxon:59894"
+                     /organism="Ficedula albicollis"
+                     /chromosome="1"
+     gene            1..2143
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 Proteins, and 32% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101806210"
+                     /gene="DRD3"
+     CDS             6..1283
+                     /product="D(3) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:524981226"
+                     /db_xref="GeneID:101806210"
+                     /translation="MALFTRGSSHPNATDPIPCGANSTTEPELPHSHTYYALCYCILIL
+                     AIIFGNVLVCLAVLRERTLQTTTNYLVVSLAVADLLVAILVMPWMVYLEVTGGVWTFSR
+                     VCCDIFVTMDVMMCTASILNLCAISIDRYTAVVKPVQYQYGTGQSSCRRVSLMIVIVWM
+                     LAFAVSCPLLFGFNTTGDPSVCSISNPSFVIYSSLVSFYLPFMVTLLLYVRIYLVLRQR
+                     QKKRTLTRQGSQSASTKPCCAHQEHMERRALPNRCQGAFSSCLSLKCTGREMSAKRRLL
+                     TVFSLQRYRSFCHEGSLTKAPGTTQNSRWEERRRSTKPAVEVQRLSNGRTISSLRLAQQ
+                     QPRLIQLRERKATQMLAIVLGAFIVCWLPFFLIHILNAHCPSCHVPPGLYSASTWLGYV
+                     NSALNPIIYTTFNTDFRKAFLKILCC"
+                     /gene="DRD3"
+                     /protein_id="XP_005038643.1"
+ORIGIN
+        1 gccccatggc cctcttcacc agaggcagca gccatcctaa tgcaacagac cccattccct
+       61 gtggggcaaa cagcaccaca gagcctgagc tgccccattc gcacacctac tacgccctct
+      121 gctactgcat cttgatcctg gccatcatct ttgggaacgt gctggtctgc ttggctgtgc
+      181 tgagggaacg caccttgcaa accacaacca actacctggt ggtgagcctg gcggtggcag
+      241 atttgctggt ggctattttg gtgatgccat ggatggtgta cctggaggtg accggagggg
+      301 tctggacgtt cagccgtgtc tgttgtgata tcttcgtcac catggatgta atgatgtgca
+      361 cagccagcat tctgaatctc tgtgccatca gcattgacag atacaccgca gtggtgaaac
+      421 cagttcagta ccagtacggc actgggcaga gctcctgcag gagggtctct ctcatgattg
+      481 tgatagtctg gatgctggcg ttcgcagtgt catgccctct cctctttggc ttcaatacaa
+      541 caggggatcc cagtgtctgt tccatatcca accctagttt cgtcatctac tcctctttgg
+      601 tgtccttcta cctccccttc atggtgaccc tgctgctcta tgtccggatt tacctggtgc
+      661 tcagacagag gcaaaagaag cgaaccctga cccggcaggg cagccagagc gccagcacca
+      721 aaccgtgttg tgcacaccaa gaacacatgg agaggagagc tttgccaaac agatgccaag
+      781 gcgcgttttc ctcctgtctc tcgctcaaat gcacgggccg ggagatgtct gcaaaaagga
+      841 ggttgctgac tgtcttcagc ctgcagcggt accgaagctt ctgccacgag ggatccctca
+      901 ccaaggcacc agggactacc caaaacagca ggtgggaaga gaggagaagg agcaccaagc
+      961 cagcggtgga ggtgcagagg ctcagcaatg gtagaaccat cagcagcttg aggctggcac
+     1021 agcagcagcc ccggctgatc cagctgcggg agaggaaggc tacacagatg ctggcaattg
+     1081 tcctgggggc attcatagtt tgctggctgc ccttcttctt gattcacatc ctcaacgccc
+     1141 actgcccatc ctgccacgtg cctccagggc tttacagtgc cagcacctgg ctcggatacg
+     1201 tcaacagcgc cctcaacccc atcatctaca caactttcaa cactgacttc cgcaaagcct
+     1261 tcctcaagat cctctgctgc tgactgtggg gccaggctgg gctgcacagg tctgcagcag
+     1321 ccccctggga ggagaaaaag acagggacaa gccagtgagt ccctcagtgc tgggcacagc
+     1381 cctggtgtgc agcagtacag ccaccacaga gcatcgcttc tgggagcttg cggggtacac
+     1441 atgacccaaa cacagatggc atctctcatc tctgctgcct acatgctgga aatgcatttg
+     1501 ccctcccaca gctggaacct cagcctgcag aaggcaccca gctcatgcac agtaagagga
+     1561 cagaacttga ccccttcgat aaggatcctg atctcttcaa tcgggagcca agagtgaaaa
+     1621 ttggacaagg aaacagaaaa ggagcactga tggagaaata acaactttcc tgttgttttc
+     1681 atcaaaaggt ttgcctgtaa aactaggtca gtctaagtgc ttgagaaaat caccctagtt
+     1741 gcaaatgaaa ccttcccttg tgctgccagc ttgtatttta ctgctccttg caaggtagag
+     1801 aggtggctgc cctccctctg gtaggtcagc tcacatgaga aatatgaaat gagaaatgca
+     1861 acactacccc aggctcccct ctcctgctga cccaaggacc agtgatagat tggccactac
+     1921 ttaactacca cacacctcag tgattgactg ggggcactga gaacaaggct cttgatacct
+     1981 gccatagact caaacctgtt tttccagctg gttgcatgca ccctaactca aaacttgttc
+     2041 acagtatctt tggaaccaat cttcacctgc acctctccta gaggtgatgc tagatttagg
+     2101 gtttgtacca tctggttgct gcaatagctc cggttacagc cca
+//

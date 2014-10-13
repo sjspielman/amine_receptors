@@ -1,0 +1,103 @@
+LOCUS       NP_990730                639 aa                     VRT 26-JAN-2014
+DEFINITION  muscarinic acetylcholine receptor M3 [Gallus gallus].
+ACCESSION   NP_990730
+VERSION     NP_990730.1  GI:45382331
+KEYWORDS    RefSeq.
+SOURCE      Gallus gallus (chicken)
+  ORGANISM  Gallus gallus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Galliformes;
+            Phasianidae; Phasianinae; Gallus.
+REFERENCE   1  (residues 1 to 639)
+  AUTHORS   Gadbut AP and Galper JB.
+  TITLE     A novel M3 muscarinic acetylcholine receptor is expressed in chick
+            atrium and ventricle
+  JOURNAL   J. Biol. Chem. 269 (41), 25823-25829 (1994)
+   PUBMED   7929287
+REFERENCE   2  (residues 1 to 639)
+  AUTHORS   Henske EP, Ozelius L, Gusella JF, Haines JL and Kwiatkowski DJ.
+  TITLE     A high-resolution linkage map of human 9q34.1
+  JOURNAL   Genomics 17 (3), 587-591 (1993)
+   PUBMED   8244374
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from L10617.1.
+            ##Evidence-Data-START##
+            Transcript exon combination :: L10617.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+            SRS352359, SRS352360 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..639
+                     /db_xref="taxon:9031"
+                     /organism="Gallus gallus"
+                     /chromosome="3"
+                     /map="3"
+     Protein         1..639
+                     /note="M3 muscarinic acetylcholine receptor"
+                     /product="muscarinic acetylcholine receptor M3"
+                     /calculated_mol_wt="71846"
+     Site            116..139
+                     /note="propagated from UniProtKB/Swiss-Prot (P49578.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          125..>276
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          139..>329
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Site            153..173
+                     /note="propagated from UniProtKB/Swiss-Prot (P49578.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            191..212
+                     /note="propagated from UniProtKB/Swiss-Prot (P49578.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            233..255
+                     /note="propagated from UniProtKB/Swiss-Prot (P49578.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            278..300
+                     /note="propagated from UniProtKB/Swiss-Prot (P49578.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            543..563
+                     /note="propagated from UniProtKB/Swiss-Prot (P49578.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            577..596
+                     /note="propagated from UniProtKB/Swiss-Prot (P49578.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     CDS             1..639
+                     /coded_by="NM_205399.1:342..2261"
+                     /gene="CHRM3"
+                     /gene_synonym="MACHR"
+                     /db_xref="CGNC:49770"
+                     /db_xref="GeneID:396364"
+ORIGIN
+        1 mlthyqlcfq krssqnytvp dptscfdvpp wtilcqratm imhnnssalp lfsnvssfwk
+       61 rdshgpglld egasligsyd spettesfpf stvettnssl natikdplgg havwqvvlia
+      121 fltgiialvt iignilvivs fkvnkqlktv nnyfllslac adliigvism nlfttyiimg
+      181 hwalgnlacd lwlsidyvas nasvmnllvi sfdryfsitr pltyrakrtt kragvmigla
+      241 wiisfvlwap ailfwqyfvg krtvpldecf iqflsepiit fgtaiaafyl pvtimsilyw
+      301 riyketekrt kelaglqasg seaetarfvh qtgssrslss yelqrqstkr ssrrkyrrch
+      361 fwltmkswep ntdqgdqehs ssdswnnnda aaslensass deeditaetr aiysivlklp
+      421 ghsailnstk lpssedlnes adelqksdtd sqekkpkklq ppksiqdggs fqksfsklpi
+      481 qpgsaetata sdgissvtkt saalplsfke atlakkfalk trsqitkrkr mslikekkaa
+      541 qtlsailfaf iitwtpynim vlvntfcdcv pktvwnlgyw lcyinstvnp vcyalcnkmf
+      601 rntfkmlllc qcdkrkrrkq qyqqrqsvif hkripreas
+//

@@ -1,0 +1,132 @@
+LOCUS       NP_776923                466 aa                     MAM 26-JAN-2014
+DEFINITION  alpha-1A adrenergic receptor [Bos taurus].
+ACCESSION   NP_776923
+VERSION     NP_776923.1  GI:27806213
+KEYWORDS    RefSeq.
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (residues 1 to 466)
+  AUTHORS   Zimin AV, Delcher AL, Florea L, Kelley DR, Schatz MC, Puiu D,
+            Hanrahan F, Pertea G, Van Tassell CP, Sonstegard TS, Marcais G,
+            Roberts M, Subramanian P, Yorke JA and Salzberg SL.
+  TITLE     A whole-genome assembly of the domestic cow, Bos taurus
+  JOURNAL   Genome Biol. 10 (4), R42 (2009)
+   PUBMED   19393038
+REFERENCE   2  (residues 1 to 466)
+  AUTHORS   Pedretti A, Elena Silva M, Villa L and Vistoli G.
+  TITLE     Binding site analysis of full-length alpha1a adrenergic receptor
+            using homology modeling and molecular docking
+  JOURNAL   Biochem. Biophys. Res. Commun. 319 (2), 493-500 (2004)
+   PUBMED   15178433
+  REMARK    GeneRIF: modeling of full-length alpha(1a) adrenergic receptor due
+            to its biological role and significant implications in
+            pharmacological treatment of benign prostate hyperplasia
+REFERENCE   3  (residues 1 to 466)
+  AUTHORS   Saeed AE, Parmentier JH and Malik KU.
+  TITLE     Activation of alpha1A-adrenergic receptor promotes differentiation
+            of rat-1 fibroblasts to a smooth muscle-like phenotype
+  JOURNAL   BMC Cell Biol. 5 (1), 47 (2004)
+   PUBMED   15603588
+  REMARK    GeneRIF: Stimulation of transfected bovine alpha1A-AR promotes cell
+            cycle arrest, hypertrophy and differentiation of fibroblasts into
+            smooth muscle-like cells and expression of negative cell cycle
+            regulators by a mechanism independent of cAMP/PKA signaling
+            Publication Status: Online-Only
+REFERENCE   4  (residues 1 to 466)
+  AUTHORS   Schwinn DA, Lomasney JW, Lorenz W, Szklut PJ, Fremeau RT Jr,
+            Yang-Feng TL, Caron MG, Lefkowitz RJ and Cotecchia S.
+  TITLE     Molecular cloning and expression of the cDNA for a novel alpha
+            1-adrenergic receptor subtype
+  JOURNAL   J. Biol. Chem. 265 (14), 8183-8189 (1990)
+   PUBMED   1970822
+REFERENCE   5  (residues 1 to 466)
+  AUTHORS   Schwinn DA, Cotecchia S, Lorenz W, Caron MG and Lefkowitz RJ.
+  TITLE     The alpha 1C-adrenergic receptor: a new member in the alpha
+            1-adrenergic receptor family
+  JOURNAL   Trans. Assoc. Am. Physicians 103, 112-118 (1990)
+   PUBMED   1966743
+  REMARK    Review article
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from J05426.1.
+            On Feb 7, 2012 this sequence version replaced gi:358413594.
+            ##Evidence-Data-START##
+            Transcript exon combination :: J05426.1 [ECO:0000332]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..466
+                     /db_xref="taxon:9913"
+                     /organism="Bos taurus"
+                     /chromosome="8"
+                     /map="8"
+     Protein         1..466
+                     /note="alpha-1A adrenoceptor; alpha-1A adrenoreceptor"
+                     /product="alpha-1A adrenergic receptor"
+                     /calculated_mol_wt="51336"
+     Site            28..51
+                     /note="propagated from UniProtKB/Swiss-Prot (P18130.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          37..341
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          49..326
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Site            65..88
+                     /note="propagated from UniProtKB/Swiss-Prot (P18130.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            100..122
+                     /note="propagated from UniProtKB/Swiss-Prot (P18130.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            144..167
+                     /note="propagated from UniProtKB/Swiss-Prot (P18130.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            182..205
+                     /note="propagated from UniProtKB/Swiss-Prot (P18130.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            274..297
+                     /note="propagated from UniProtKB/Swiss-Prot (P18130.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            306..329
+                     /note="propagated from UniProtKB/Swiss-Prot (P18130.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          334..349
+                     /note="propagated from UniProtKB/Swiss-Prot (P18130.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Nuclear localization signal (By similarity)"
+     CDS             1..466
+                     /coded_by="NM_174498.2:97..1497"
+                     /gene="ADRA1A"
+                     /db_xref="BGD:BT22464"
+                     /db_xref="GeneID:282134"
+ORIGIN
+        1 mvflsgnasd ssncthpppp vniskaillg vilgglilfg vlgnilvils vachrhlhsv
+       61 thyyivnlav adllltstvl pfsaifeilg ywafgrvfcn vwaavdvlcc tasimglcii
+      121 sidryigvsy plryptivtq krglmallcv walslvisig plfgwrqpap edeticqine
+      181 epgyvlfsal gsfyvpltii lvmycrvyvv akresrglks glktdksdse qvtlrihrkn
+      241 aqvggsgvts aknkthfsvr llkfsrekka aktlgivvgc fvlcwlpffl vmpigsffpd
+      301 frpsetvfki afwlgylnsc inpiiypcss qefkkafqnv lriqclrrkq sskhtlgytl
+      361 hapshvlegq hkdlvripvg saetfykisk tdgvcewkif sslprgsarm avardpsact
+      421 tarvrsksfl qvccclgpst pshgenhqip tikihtisls engeev
+//

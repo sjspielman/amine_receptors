@@ -1,0 +1,114 @@
+LOCUS       XM_005160728            2869 bp    DNA              VRT 01-AUG-2013
+DEFINITION  PREDICTED: Danio rerio cholinergic receptor, muscarinic 5b (chrm5b),
+            transcript variant X1, mRNA.
+ACCESSION   XM_005160728
+VERSION     XM_005160728.1  GI:528511792
+DBLINK      BioProject: PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001878142.3) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2869
+                     /strain="Tuebingen"
+                     /mol_type="mRNA"
+                     /organism="Danio rerio"
+                     /chromosome="20"
+                     /db_xref="taxon:7955"
+     gene            1..2869
+                     /note="cholinergic receptor, muscarinic 5b; Derived by
+                     automated computational analysis using gene prediction
+                     method: Gnomon. Supporting evidence includes similarity to:
+                     2 mRNAs, 14 Proteins, and 100% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 1 sample
+                     with support for all annotated introns"
+                     /db_xref="GeneID:561491"
+                     /db_xref="ZFIN:ZDB-GENE-041001-169"
+                     /gene="chrm5b"
+                     /gene_synonym="chrm5; si:ch211-150c22.1; wu:fd11g11"
+     CDS             1107..2624
+                     /product="cholinergic receptor, muscarinic 5b isoform X1"
+                     /codon_start="1"
+                     /gene_synonym="chrm5; si:ch211-150c22.1; wu:fd11g11"
+                     /db_xref="GI:528511793"
+                     /db_xref="GeneID:561491"
+                     /db_xref="ZFIN:ZDB-GENE-041001-169"
+                     /translation="MDMDIKNITVRGNVSAIPPDPYSLLEVITIATVSAIVSLITIVGN
+                     VLVMLSFKVNSQLKTVNNYYLLSLAFADLIIGVFSMNLYTCYILMGYWSLGNTACDLWL
+                     ALDYVASNASVMNLLVISFDRYFSITRPLTYRAKRTPKRAGIMIGMAWLISFILWAPPI
+                     LCWQYFVGERKVPLDQCQIQFFSEPIITFGTAIAAFYVPVSIMTILYCKIYKETEKRTK
+                     NLAELQGYPSLDSQDGPKVRKPILRCFSFKNKRDGTQASWSSSNQSYVTRTTLQSDDLW
+                     TKSEQVTTLNSYTSSEDDDRSVSESTPRESFKNQEPPVSKNGQLVCYEDSKYLSDLAKC
+                     SQTNNKKCLSYKFKPIISDITVLQGNSESERANPDQSSDQQAPSSTSSSTKPEDPNLKI
+                     QMTKRKRMVLIKEKKAAQTLSAILLAFLLTWTPYNIMVLISTFCSNCIPTSLWQLGYWL
+                     CYVNSTVNPMCYALCNKTFQKTFWMLILCKWKKNRGEEKLYWGGQNH"
+                     /gene="chrm5b"
+                     /protein_id="XP_005160785.1"
+ORIGIN
+        1 ttgaaatcca tagaaggaac aaaaacaatc tggtcaagag taaaattttc tttgtattcc
+       61 ataaaagaaa taaactcgga caggtttgga atgagtggtt tatgagtata tgatgacaaa
+      121 ataaagtttt ttgtaatcta tccctttgac tgtacattaa attttcatat ggtaatgacc
+      181 acagattttt tatttcaaca ccagtaaaat cagctgtatt tccttggaaa tctattgaaa
+      241 caacatttat aaatgactaa aatcaatcag atatcacccc aatagcttgt aatattttaa
+      301 actaccattt cattgagcta ctgtacagca gctcttacaa atataacaaa aagtcactaa
+      361 acgaccctct tctgtatttg aagataaccg atgctctcca cccacatatt tgctcacata
+      421 aacactatct gtgtcaaaag agagtaaatt aatgcctcca ttatgtagca gtgagaacca
+      481 gaccatccct tccacactcc cccactgtct acaatgtgag tgtgagcggt ccactcttca
+      541 tcccctcatt tctactcagc ttcagccctc tcctcttcct cctcccattc tcaccgtctg
+      601 cctgttgttc actgccccaa atcatgacga tcatcccagc ccagtgggaa tgacctcctc
+      661 ccagccattc acatctgtgt ctgtcagcgc atccacaggc agcagcacat attcatcctg
+      721 agaaacggca acagcagcac ttccccatca tcatcatcct ccacctccga gattacagga
+      781 gatgctacac taacactggc ttggactttg gtgttgaggt cataactcga gagaaagctt
+      841 tttttctttg actttcttga gaactggaaa aaaacatcca agaagggaga agacattcct
+      901 acaatttaag gattataata aaaattttgg acaccagaga gttgaccgaa gaagaaaagg
+      961 tttgggatgg gtaaaaaatc ggacaaggaa gatctgtcga tggagttcaa tgctgagaga
+     1021 tgaaaacact tgtccattgc caagtgacca tgaagaaaac tgtgaaactg tgttccagac
+     1081 tttactaacc agtcagcagt ctcaggatgg acatggatat aaaaaacatt actgtgaggg
+     1141 gaaatgtatc tgccatcccg cctgacccat acagtctgct ggaggtcata accattgcca
+     1201 cagtatcagc cattgtgagt ctcatcacaa tagtggggaa cgttttagtg atgctctcct
+     1261 tcaaagtcaa cagccaactg aagaccgtca acaattacta cttactcagt ttagctttcg
+     1321 cagacctgat tatcggtgtg ttctctatga acctctacac gtgctacatt ctcatgggat
+     1381 actggtcttt agggaataca gcatgtgatc tgtggttggc acttgattac gttgcaagca
+     1441 atgcatcagt gatgaacttg ctggtcatca gctttgatag atacttctcc attacaaggc
+     1501 cgcttaccta cagggctaaa cgaaccccga agcgggcagg gatcatgatt ggcatggcct
+     1561 ggttgatatc gtttatattg tgggctccac ccattctgtg ctggcagtac tttgttggag
+     1621 agaggaaagt tcctcttgac cagtgccaaa tccagttttt ctcagaaccc ataattacat
+     1681 ttgggacagc catagcggcc ttttatgtcc cagtatccat catgaccata ctatattgca
+     1741 aaatctacaa agaaacagaa aaacgcacta agaatttagc agaacttcag ggatatccat
+     1801 cgctggacag ccaggacggc cctaaagtac gaaaaccaat ccttcgatgc tttagcttta
+     1861 aaaacaagag agacgggact caagcatcat ggtcttcgtc caaccagagt tacgtaactc
+     1921 ggacaacatt gcagtctgat gacttgtgga caaaatctga gcaggtcacc accctgaaca
+     1981 gttacacctc atccgaggac gatgaccggt cagtctcaga gtcaacgccg agagaatcct
+     2041 tcaagaacca ggaaccacca gtaagtaaga acggacagct ggtctgctat gaagatagca
+     2101 aatatctaag tgatcttgca aaatgctcac aaacgaacaa taaaaagtgc ttgtcataca
+     2161 aattcaagcc aatcattagc gacatcactg ttttgcaagg taatagtgag agtgagagag
+     2221 caaacccgga tcagtcctca gaccaacagg ctccttcctc cacatcctct tctaccaaac
+     2281 cagaagaccc aaaccttaag atccagatga ccaaacgtaa aagaatggtt ctcatcaagg
+     2341 agaagaaagc agctcagact cttagtgcca tccttctagc ctttcttctt acttggacac
+     2401 catacaacat catggtgctc atctccacct tctgttccaa ctgcatccca acatccctct
+     2461 ggcagctggg ctactggctc tgctacgtca acagcaccgt caaccccatg tgctacgcct
+     2521 tatgcaacaa gaccttccag aagacctttt ggatgttaat cctctgcaag tggaagaaga
+     2581 ataggggaga ggagaagctg tactggggtg gtcaaaacca ttaagttatg aacacacaaa
+     2641 tatatgggta caattctata tgttttagtg tatgttgtgc atacggtgtc acaaaccata
+     2701 tcgctatatt gtttcttatc aaatatgtga ccatatttct tgtgtttatt cattggctgt
+     2761 atctgaatca ggcagctgat ttgtatcctt cgcaggcagt gtttgaacaa agtattttag
+     2821 acacacttct tagggagcat aagagttttc gacacaggtg tcaaatcca
+//

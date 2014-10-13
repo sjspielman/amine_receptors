@@ -1,0 +1,92 @@
+LOCUS       XM_005395402            1688 bp    DNA              ROD 27-AUG-2013
+DEFINITION  PREDICTED: Chinchilla lanigera 5-hydroxytryptamine (serotonin)
+            receptor 2B, G protein-coupled (Htr2b), transcript variant X3, mRNA.
+ACCESSION   XM_005395402
+VERSION     XM_005395402.1  GI:533163343
+DBLINK      BioProject: PRJNA210822
+KEYWORDS    RefSeq.
+SOURCE      Chinchilla lanigera (long-tailed chinchilla)
+  ORGANISM  Chinchilla lanigera
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Chinchillidae; Chinchilla.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004955453.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Chinchilla lanigera Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1688
+                     /mol_type="mRNA"
+                     /isolate="Chin_1"
+                     /sex="female"
+                     /db_xref="taxon:34839"
+                     /organism="Chinchilla lanigera"
+                     /chromosome="Unknown"
+     gene            1..1688
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 mRNAs, 4 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 1 sample with support for all
+                     annotated introns"
+                     /db_xref="GeneID:102023428"
+                     /gene="Htr2b"
+     CDS             103..1422
+                     /product="5-hydroxytryptamine receptor 2B isoform X3"
+                     /codon_start="1"
+                     /db_xref="GI:533163344"
+                     /db_xref="GeneID:102023428"
+                     /translation="MKQTVEEQGNKPHWAALLILMVIIPTIGGNILVILAVSLEKKLQY
+                     ATNYFLMSLAVADLLVGLFVMPIALLTIMFEAMWPLPLVLCPAWLFLDVLFSTASILHL
+                     CAISVDRYIAIKKPIQANQYNSRATALIKITVVWLISIGIAIPVPIKGIDTDVPNPNNI
+                     TCALTKERFGNFMLFGSLAAFFTPLAIMIVTYFLTIHALQKKAYLVKNKAPQRLPWLNV
+                     STVFQRDETPCSSPEKAAMLGGSHKNKTLPNSSDETLTRRMSTTGKKSAQTISNEQRAS
+                     KVLGIVFFLFLLMWCPFFITNITLALCDSCNQTTLKMLLEIFVWIGYISSGVNPLVYTL
+                     FNKTFRDAFGRYITCNYQATKSAKTVRKCSGKVYFRNPMKENSKFFTKRGMRNGVNPTM
+                     YQSPKRLRNSTIQSSSVIPLDTLLLTENEGDKTEEQVSYV"
+                     /gene="Htr2b"
+                     /protein_id="XP_005395459.1"
+ORIGIN
+        1 ttcagccaca gccgcaagca agcgagtaca ctgaacagat acgacaacga catgctctgc
+       61 caggtcacaa gcaaatgaga gaaaggatca ataccagagg aaatgaaaca gactgttgag
+      121 gaacagggaa ataagccgca ctgggcagct cttctgatac tcatggtgat aataccaacc
+      181 attggtggaa acatccttgt tattctggct gtttcactgg agaaaaagct gcagtacgct
+      241 accaattact ttcttatgtc cttggcggtg gctgatttgc tggttggatt gtttgtgatg
+      301 ccaattgcac tcttgacaat aatgtttgag gctatgtggc ccctcccact tgttctgtgt
+      361 cctgcctggt tgtttcttga tgttctcttt tcaactgcat ccatcttaca cctctgtgcc
+      421 atttcagtgg accgctacat agccatcaaa aagccaatcc aggccaatca atataactcc
+      481 cgagctactg cactcatcaa gattacagtg gtgtggttaa tttcaatagg cattgccatt
+      541 ccagtcccta ttaaagggat agatactgat gtgcctaacc ctaacaatat cacctgtgca
+      601 ctgacaaagg agcgttttgg caatttcatg ctttttggct cccttgctgc cttcttcaca
+      661 cctcttgcaa tcatgattgt cacctacttt ctcaccatcc atgctctaca gaagaaagct
+      721 tacttggtca aaaacaaggc acctcagcgt ctcccatggc tgaatgtgtc cacagtattt
+      781 caaagagatg aaactccctg ctcatcaccc gagaaggcgg caatgctggg tggttctcac
+      841 aagaacaaaa ctctgcccaa ctcaagtgat gaaaccctca cgcgacggat gtccacaact
+      901 ggaaaaaagt ctgcccaaac tatttctaat gagcagagag cctcaaaggt ccttggaatt
+      961 gtatttttcc tctttttgct tatgtggtgc ccttttttta ttacaaatat tactttagct
+     1021 ttgtgtgact cctgcaacca gactactctt aaaatgctcc tggagatttt tgtgtggata
+     1081 ggctacattt cctctggggt gaatcctttg gtctatactc tcttcaacaa gacatttcgg
+     1141 gatgcatttg gtcgatatat cacctgcaat taccaggcta caaagtcagc aaaaactgtt
+     1201 agaaaatgct ccggtaaggt ctacttccgg aatccgatga aagagaactc caaatttttc
+     1261 acaaaacgtg gaatgcgaaa tggggttaat cctaccatgt accagagccc aaagaggctc
+     1321 cgaaactcaa ccattcagtc ttcatcagtc attccactag acactcttct cctcactgaa
+     1381 aatgaaggtg acaaaactga agagcaagtc agttatgtct agcacaactg gtacagtttt
+     1441 catctaacat gatgataaac aagctgatga acaagactgc aagaacatgt aaagaagaat
+     1501 tttaggtcac atgtcaaatc atctcttcaa actaagagtt aaatattacg gttatccaat
+     1561 tttctttctt ggacaaaatt actccatgaa aaaataattt tgtacagctg caaacaaaag
+     1621 caatccaggc taaacattat ggttttcaaa tgaaataagt taataaattc caggcttaca
+     1681 aaactcaa
+//

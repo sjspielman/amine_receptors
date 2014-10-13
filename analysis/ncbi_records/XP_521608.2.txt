@@ -1,0 +1,64 @@
+LOCUS       XP_521608                476 aa                     PRI 25-OCT-2012
+DEFINITION  PREDICTED: beta-1 adrenergic receptor [Pan troglodytes].
+ACCESSION   XP_521608
+VERSION     XP_521608.2  GI:114632914
+KEYWORDS    RefSeq.
+SOURCE      Pan troglodytes (chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003457621) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 15, 2006 this sequence version replaced gi:55634677.
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Pan troglodytes Annotation Release 102
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..476
+                     /isolate="Yerkes chimp pedigree #C0471 (Clint)"
+                     /sex="male"
+                     /organism="Pan troglodytes"
+                     /chromosome="10"
+                     /db_xref="taxon:9598"
+     Protein         1..476
+                     /product="beta-1 adrenergic receptor"
+                     /calculated_mol_wt="51125"
+     Region          <11..>52
+                     /note="DEC-1 protein, N-terminal region; pfam04625"
+                     /db_xref="CDD:113398"
+                     /region_name="DEC-1_N"
+     Region          73..>172
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          81..376
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..476
+                     /coded_by="XM_521608.4:87..1517"
+                     /gene="ADRB1"
+                     /db_xref="GeneID:466206"
+ORIGIN
+        1 mgagalvlga sepgnlssaa plpdgaataa rllvpasppa sllppasegp eplsqqwtag
+       61 mgllmalivl livagnvlvi vaiaktprlq tltnlfimsl asadlvmgll vvpfgativv
+      121 wgrweygsff celwtsvdvl cvtasietlc vmpldrylai tspfryqsll trararglvc
+      181 tvwaisalvs flpilmhwwr aesdearrcy ndpkccdfvt nrayaiassv vsfyvplcim
+      241 afvylrvfre aqkqvkkids cerrflggpa rppspspspv papapppgps rpaaaatapl
+      301 angragkrrp srlvalreqk alktlgiimg vftlcwlpff lanvvkafhr elvpdrlfvf
+      361 fnwlgyansa fnpiiycrsp dfrkafqrll ccvrraarrr hathgdrpra sgclarpgpp
+      421 pspgaasddd dddvvgatpp arllepwagc nggaaadsds sldepcrpgf aseskv
+//

@@ -1,0 +1,99 @@
+LOCUS       XM_004010191            2255 bp    DNA              MAM 02-DEC-2012
+DEFINITION  PREDICTED: Ovis aries dopamine receptor D1 (DRD1), mRNA.
+ACCESSION   XM_004010191
+VERSION     XM_004010191.1  GI:426232459
+KEYWORDS    RefSeq.
+SOURCE      Ovis aries (sheep)
+  ORGANISM  Ovis aries
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Caprinae; Ovis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004080170) annotated using gene prediction method: GNOMON,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ovis aries Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2255
+                     /breed="Texel"
+                     /db_xref="taxon:9940"
+                     /mol_type="mRNA"
+                     /organism="Ovis aries"
+                     /chromosome="7"
+     gene            1..2255
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 10 mRNAs, 10 Proteins"
+                     /db_xref="GeneID:100568292"
+                     /gene="DRD1"
+     misc_feature    310..312
+                     /note="upstream in-frame stop codon"
+                     /gene="DRD1"
+     CDS             454..1794
+                     /product="D(1A) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:426232460"
+                     /db_xref="GeneID:100568292"
+                     /translation="MRTLNTSAMEGTGLVAERDFSFRILTACFLSLLILSTLLGNTLVC
+                     AAVIRFRHLRSKVTNFFVISLAVSDLLVAVLVMPWKAVAEIAGFWPFGSFCNIWVAFDI
+                     MCSTASILNLCVISVDRYWAISSPFRYERKMTPKAAFILISVAWTLSVLISFIPVQLSW
+                     HKAKPTGPSEGNATSLGKTINNCDSSLSRTYAISSSLISFYIPVAIMIVTYTRIYRIAQ
+                     KQIRRIAALERAAVHAKSCQAATGNGNPMECSQPESSFKMSFKRETKVLKTLSVIMGVF
+                     VCCWLPFFVLNCMVPFCGSGETKPFCIDSITFDVFVWFGWANSSLNPIIYAFNADFRKA
+                     FSTLLGCYRLCPTTNNAIETVSINNNGAVVFSSHHEPRGSISKDCNVVYLIPHAVGSSE
+                     GLKKEEAGGIAKPLEKLSPALSVILDYDTDVSLEKIQPITQNGQHPT"
+                     /gene="DRD1"
+                     /protein_id="XP_004010240.1"
+     STS             1365..2113
+                     /db_xref="UniSTS:158016"
+                     /standard_name="GDB:595147"
+                     /gene="DRD1"
+ORIGIN
+        1 ttttaagctg cgcttcagag gggagacttt gctggcacca ccagagaggc cacagacccg
+       61 gaatgtgacg acaattgact agctcggtag aggcctgaga gtctctggct tgacagctta
+      121 gaatatgcta aaaaaacagg gctttccagg aggcactgaa gggtcaactt gtcccggcga
+      181 cagtgacctg gagcaaggaa gacagaagac agttgtagag agcaagagag accttccaag
+      241 gggctgactc ggactgccaa gggcaggctc ctgccattcg gctgttgcag ccgtctggtg
+      301 gaatgctggt gaggtcctcc accccggaga gcaagtgggg ctgggcaagg gactgtgtgg
+      361 cccctgagga ctcctgcagg tctgaccgat ccccaatcgc tgcttaggaa cttgggggtg
+      421 tccgagcccc tctctgtgct cgtcttcagg aagatgagga ctctcaacac gtctgccatg
+      481 gaaggcaccg ggctggtggc ggagagagac ttctccttcc gcattctcac agcctgtttc
+      541 ctgtctctgc tcatcctgtc caccctcctg gggaacacgc tggtctgtgc cgccgtgatc
+      601 aggttccgcc acctgcgatc caaggtgact aacttcttcg tcatctcctt ggctgtatcg
+      661 gatctcttgg tggccgtctt ggtcatgccc tggaaagcgg tggccgagat cgctggcttc
+      721 tggcccttcg ggtccttctg taacatctgg gtggcctttg acatcatgtg ctccaccgca
+      781 tccatcctca atctctgtgt gatcagtgtg gacaggtatt gggccatctc tagccccttc
+      841 cggtatgaga ggaagatgac ccccaaggca gccttcattc tgatcagtgt ggcatggact
+      901 ttgtcggttc ttatctcctt catccccgta cagctcagct ggcacaaggc aaaacccaca
+      961 ggtccctccg aggggaatgc cacttccctg ggcaagacca tcaacaactg tgactccagc
+     1021 ctgagcagga catatgccat ttcatcctct ctaataagct tttacatccc tgtggccatc
+     1081 atgattgtca cctacaccag gatctacagg atcgcccaga aacaaatacg gcgcattgca
+     1141 gccttggaga gggcagcggt tcacgccaag agctgccagg ccgctacagg taacggaaac
+     1201 cccatggagt gttctcaacc agagagctcc tttaagatgt ccttcaaaag agagactaaa
+     1261 gttctgaaga ctctgtcggt gatcatgggg gtgtttgtgt gttgctggct ccctttcttc
+     1321 gtcttgaact gcatggtgcc cttctgtggg tctggagaga cgaagccctt ctgcatcgat
+     1381 tccatcacct ttgacgtgtt tgtgtggttt gggtgggcta attcctcctt gaaccccatc
+     1441 atttatgcct ttaatgctga ttttcggaag gcattttcca ccctcttagg atgctacagg
+     1501 ctttgcccga cgacgaataa tgccatagag acggttagca tcaataacaa tggagctgtg
+     1561 gtgttttcca gccatcacga gcctcggggt tccatctcca aggactgcaa tgtggtgtac
+     1621 ctgatcccgc atgctgtggg ctcctctgag ggcctgaaga aggaagaggc aggtggaata
+     1681 gccaagccct tggagaagct gtccccagcc ctgtctgtca ttttggacta tgacactgat
+     1741 gtctctcttg agaagatcca gcccatcacg cagaatgggc agcacccgac ctgagctctg
+     1801 agacgaatcc tagcagtcat gctcgtccca aaagctacag gagttttctc tgaggcttgc
+     1861 agtgaggaaa ctaaggtgtg ctgagactcc tgagatgtcg ggcgagctct cctctgctgc
+     1921 ttcccctcaa cacacaacta tctacatttt aatctacgtt gcagtgtgtt ttctgtgttg
+     1981 ttcatagtga atcaagaggg acacaggtga agcgaatgtt cataagggac ctgtctttgg
+     2041 ctccaaagtt atttttagaa actgattctt atcttaggac ttaaaaatag ggcaaagaat
+     2101 caacaatgaa cagcttcgct ttaaaattaa agctttccag gaaggaaatg agaagggttg
+     2161 agtttgctgt gtacaaacag gtgctaacac tggtccaagc aaagttttca gattgtaaag
+     2221 gtaggtgcat gcctttataa attattccta aaaaa
+//

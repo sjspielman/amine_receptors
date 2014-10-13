@@ -1,0 +1,60 @@
+LOCUS       XP_002191608             367 aa                     VRT 12-FEB-2013
+DEFINITION  PREDICTED: 5-hydroxytryptamine receptor 1F [Taeniopygia guttata].
+ACCESSION   XP_002191608
+VERSION     XP_002191608.1  GI:224044257
+DBLINK      BioProject: PRJNA32405
+KEYWORDS    RefSeq.
+SOURCE      Taeniopygia guttata (zebra finch)
+  ORGANISM  Taeniopygia guttata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Estrildidae; Estrildinae; Taeniopygia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_002197738.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Taeniopygia guttata Annotation Release 101
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..367
+                     /isolate="Black17"
+                     /sex="male"
+                     /organism="Taeniopygia guttata"
+                     /chromosome="1"
+                     /db_xref="taxon:59729"
+     Protein         1..367
+                     /product="5-hydroxytryptamine receptor 1F"
+                     /calculated_mol_wt="41547"
+     Region          32..>155
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          47..346
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..367
+                     /coded_by="XM_002191572.2:40..1143"
+                     /gene="HTR1F"
+                     /db_xref="GeneID:100222300"
+ORIGIN
+        1 mdlinsteqn stseepfkwa tskilisitl svlalmttai nslvmtaiiv trklhhpany
+       61 licslavtdf lvavlvmpfs ivyivketwi mgqvvcdiwl svditcctcs ilhlsaiald
+      121 ryraitdave yarkrtpkha gimiavvwii sifismpplf wrhqttsred eciikhdhiv
+      181 ftiystfgaf yiplalilil yykiykaakt fhrrsvsriv reegvngqvl ldagerstks
+      241 asmpsttekt sdplvssdki nitlrsprse skhekswkkq risstrerka attlglilga
+      301 fvicwlpffv kevvvntcet chisedmsnf lawlgyinsl inpliytifn edfkkafqkl
+      361 vrcgqyl
+//

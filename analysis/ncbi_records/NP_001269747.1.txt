@@ -1,0 +1,63 @@
+LOCUS       NP_001269747             639 aa                     VRT 09-JAN-2014
+DEFINITION  cholinergic receptor, muscarinic 3 [Columba livia].
+ACCESSION   NP_001269747
+VERSION     NP_001269747.1  GI:544346247
+KEYWORDS    RefSeq.
+SOURCE      Columba livia (rock pigeon)
+  ORGANISM  Columba livia
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Columbiformes;
+            Columbidae; Columba.
+REFERENCE   1  (residues 1 to 639)
+  AUTHORS   Li,G.Q., Kevetter,G.A., Leonard,R.B., Prusak,D.J., Wood,T.G. and
+            Correia,M.J.
+  TITLE     Muscarinic acetylcholine receptor subtype expression in avian
+            vestibular hair cells, nerve terminals and ganglion cells
+  JOURNAL   Neuroscience 146 (1), 384-402 (2007)
+   PUBMED   17391855
+COMMENT     INFERRED REFSEQ: This record is predicted by genome sequence
+            analysis and is not yet supported by experimental evidence. The
+            reference sequence was derived from AY838768.1.
+            On Sep 20, 2013 this sequence version replaced gi:543735502.
+            ##Evidence-Data-START##
+            Transcript exon combination :: AY838768.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+            SRS350163, SRS350164 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..639
+                     /db_xref="taxon:8932"
+                     /organism="Columba livia"
+     Protein         1..639
+                     /note="brain acetylcholine muscarinic receptor sub-type 3"
+                     /product="cholinergic receptor, muscarinic 3"
+                     /calculated_mol_wt="72158"
+     Region          127..>308
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          139..>329
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..639
+                     /coded_by="NM_001282818.1:1..1920"
+                     /gene="CHRM3"
+                     /gene_synonym="Chrm-3"
+                     /db_xref="GeneID:102096444"
+ORIGIN
+        1 mlthyqlcfq krssqnytvp dpasrfdvph wtilcqrvtm imqnnssasp lfsnvssfwk
+       61 sdshglrlld eaasligsyd fpqttesfkf stvepanmsl natskdplgg htvwqvvlia
+      121 fltgilalvt iignilviva fkvnkqlktv nnyfllslac adliigvism nlyttyiimd
+      181 hwalgnlacd lwlsidyvas nasvmnllvi sfdryfsitr pltyrakrtt kragvmigla
+      241 wiisfvlwap ailfwqyfvg ertvppdecy iqflsepiit fgtaiaafyl pvtimsilyw
+      301 riyketekrt kelaglqasg seaeaahfvh qtgssrscss yelqrqsmkr strrkyrrch
+      361 fwltmkswep ntdqgdqehs ssdswnnnda aaslensass deediaaetr aiysivlklp
+      421 ghsailnstk lpssedlqes gdelqksdte lkekkpkklh ppksvpdggn fqksfsklpi
+      481 qpgsaettta sdgissvtkt saalplsfke atlakkfavk trsqitkrkr mslikekkaa
+      541 qtlsailfaf iitwtpynim vlvntfcnci pktfwnlgyw lcyinstvnp vcyalcnktf
+      601 rntfkmlllc qcdkrkrrkq qyqqrqsvif hkripreas
+//

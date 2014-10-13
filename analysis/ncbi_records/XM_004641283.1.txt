@@ -1,0 +1,99 @@
+LOCUS       XM_004641283            2115 bp    DNA              ROD 29-MAY-2013
+DEFINITION  PREDICTED: Octodon degus cholinergic receptor, muscarinic 3, cardiac
+            (Chrm3), mRNA.
+ACCESSION   XM_004641283
+VERSION     XM_004641283.1  GI:507688679
+DBLINK      BioProject: PRJNA193441
+KEYWORDS    RefSeq.
+SOURCE      Octodon degus (degu)
+  ORGANISM  Octodon degus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Octodontidae; Octodon.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004524709.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Octodon degus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2115
+                     /mol_type="mRNA"
+                     /isolate="3935"
+                     /sex="female"
+                     /db_xref="taxon:10160"
+                     /organism="Octodon degus"
+                     /chromosome="Unknown"
+     gene            1..2115
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 23 Proteins"
+                     /db_xref="GeneID:101568618"
+                     /gene="Chrm3"
+     misc_feature    69..71
+                     /note="upstream in-frame stop codon"
+                     /gene="Chrm3"
+     CDS             153..1925
+                     /product="muscarinic acetylcholine receptor M3"
+                     /codon_start="1"
+                     /db_xref="GI:507688680"
+                     /db_xref="GeneID:101568618"
+                     /translation="MTLHNSSTTLPLFPNISTSWIYSPSEAGLPPGTVTHFGSYNISHA
+                     AGNFSSPNGTTSDPLGGHTVWQVVFIAFLTGFLALVTIIGNILVIVAFKVNKQLKTVNN
+                     YFLLSLACADLIIGVISMNLFTTYIIMNRWALGNLACDLWLSIDYVASNASVMNLLVIS
+                     FDRYFSITRPLTYRAKRTTKRAGVMIGLAWIISFVLWAPAILFWQYFVGKRTVPPGECF
+                     IQFLSEPTITFGTAIAAFYMPVTIMTILYWRIYKETEKRTKELAGLQASGTEAETENFV
+                     HPTGSSRSCSSYELQQQSLKHSSRRKYGRCHFWFTSKSWKPSTEQMDQDHSSSDSWNNN
+                     DAAASLENSASSDEEDIGSETRAIYSIVLKLPGHSTILNSTKLPSSDSLQVPEEELGPM
+                     DMERNANELQTQKSMDDSGNFQKSFSKLPIQLESTMDTAKTSDANSSVGKTMATLPLSF
+                     KEATLAKRFALKTRSQITKRKRMSLIKEKKAAQTLSAILLAFIITWTPYNIMVLVNTFC
+                     DSCIPKTYWNLGYWLCYINSTVNPVCYALCNKTFRNTFKMLLLCQCDKRKRRKQQYQQR
+                     QSVIFHKRVPEQAL"
+                     /gene="Chrm3"
+                     /protein_id="XP_004641340.1"
+ORIGIN
+        1 cttgataatg tttggcttct tcaagcttca gcatcctata gcaggccttc tgtatctttt
+       61 aaggtatgtg atacaaaaaa tgtgacaaag cagaaagttt gctaactcca tctttctctc
+      121 tctttttctc cagactatgt cagagagtca caatgacctt gcacaatagc agtacaacct
+      181 tgcctttgtt tccaaacatc agcacctcct ggatatacag cccatcagaa gcggggctac
+      241 ccccagggac agtcactcat tttggcagct acaacatttc acatgcagct gggaatttct
+      301 cctcccccaa tggtaccact agtgaccctc taggaggtca taccgtctgg caagtggtct
+      361 ttatcgcatt cttaacaggc ttcctggccc tggtgaccat catcggcaac atcctcgtca
+      421 tagtggcctt taaggtcaac aaacagctga agacagtcaa caactacttc ctcctaagcc
+      481 tggcctgtgc ggatctgatc atcggggtca tttccatgaa tctgtttact acctacatca
+      541 tcatgaacag atgggctttg gggaacttgg cctgtgacct ctggctttcc attgactacg
+      601 tggccagcaa cgcttctgtc atgaaccttc tggtcattag ctttgacagg tacttttcca
+      661 tcacaaggcc actcacatac cgagccaaaa gaacaacaaa gagggccggt gtgatgattg
+      721 gtctggcgtg gatcatctcc ttcgtccttt gggctcctgc catcttgttc tggcagtatt
+      781 ttgtggggaa gcggactgtg cctccagggg agtgcttcat tcagttcctc agtgagccca
+      841 ctatcacctt cggcacggcc attgccgcct tttatatgcc tgtcaccatt atgactattt
+      901 tgtactggag aatctataag gaaactgaaa agcgtaccaa agagcttgct ggcctgcagg
+      961 cctctgggac agaagcagag acagaaaact ttgtccaccc cacgggcagt tctcgaagct
+     1021 gcagcagcta tgagctgcag cagcagagcc tgaagcactc gtccaggaga aagtacggcc
+     1081 gctgccactt ctggttcaca agcaagagct ggaagcctag caccgaacag atggaccaag
+     1141 accacagcag cagtgacagc tggaacaaca atgatgctgc tgcttccctg gaaaactcag
+     1201 cgtcctccga tgaggaggac attggctcag agacaagagc catctactct attgtgctca
+     1261 aacttccagg acacagcacc atcctcaact ccaccaaact gccctcctct gacagcctgc
+     1321 aggtacctga ggaggagcta ggccccatgg acatggagag aaatgccaat gagcttcaga
+     1381 cccagaaaag catggatgac agtggcaatt ttcaaaaaag cttctccaaa ctccccatcc
+     1441 agttggagtc caccatggac acagccaaga cttctgatgc caactcctca gtgggtaaga
+     1501 ccatggccac tctacctctg tccttcaagg aagccacact ggccaagagg tttgctctga
+     1561 agaccagaag tcagatcaca aagcggaaga ggatgtctct catcaaggag aagaaggcgg
+     1621 cgcagaccct cagcgccatc ttactcgcct tcatcatcac gtggacgccc tacaacatca
+     1681 tggttctggt gaatactttt tgtgacagct gcatccccaa aacctattgg aatctgggct
+     1741 actggctgtg ctacatcaac agcaccgtga accccgtatg ctatgccctg tgcaacaaaa
+     1801 ccttcagaaa caccttcaag atgctactgc tgtgccagtg tgacaagagg aaaaggcgca
+     1861 agcagcagta ccagcagaga cagtcggtca ttttccacaa gcgcgtgccc gagcaggcct
+     1921 tgtagaagga cgtttgatca ctagcagtga aaagacgcac acatcaaccc acagacctta
+     1981 ggaggagaaa ggtgagggtg gggtgattcc tggtggtgat aaaaatggtt tttttaatca
+     2041 cccacatatg aaagaagctg cctgtttact cacccattga ataaactgat tttaacagta
+     2101 aaagtcaaac accaa
+//

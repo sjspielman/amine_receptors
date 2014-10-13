@@ -1,0 +1,95 @@
+LOCUS       XM_003225464            2012 bp    DNA              VRT 22-MAY-2014
+DEFINITION  PREDICTED: Anolis carolinensis 5-hydroxytryptamine receptor 7-like
+            (LOC100560142), transcript variant X2, mRNA.
+ACCESSION   XM_003225464
+VERSION     XM_003225464.2  GI:637338635
+DBLINK      BioProject: PRJNA60547
+KEYWORDS    RefSeq.
+SOURCE      Anolis carolinensis (green anole)
+  ORGANISM  Anolis carolinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata;
+            Toxicofera; Iguania; Iguanidae; Polychrotinae; Anolis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003338848.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On May 22, 2014 this sequence version replaced gi:327281553.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Anolis carolinensis Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2012
+                     /db_xref="taxon:28377"
+                     /mol_type="mRNA"
+                     /organism="Anolis carolinensis"
+                     /chromosome="Unknown"
+                     /country="USA"
+     gene            1..2012
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 9 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 2 samples with support for all annotated introns"
+                     /db_xref="GeneID:100560142"
+                     /gene="LOC100560142"
+     CDS             658..1938
+                     /product="5-hydroxytryptamine receptor 7-like"
+                     /codon_start="1"
+                     /db_xref="GI:327281554"
+                     /db_xref="GeneID:100560142"
+                     /translation="MLIRIGPGCFLEQQLPIVEETEEESPRKRSTPSPFMTEGPSQAIK
+                     PDLLPTNATNVTDCGEDILLYGDTEKVVIGTVLSVITLLTIAGNSLVIISVCIVKKLRQ
+                     PSNYLVVSLAAADLSVAFAVMPFVIITDLVGGEWLFGEVFCNVFIAMDVMCCTASIMTL
+                     CVISVDRYLGITRPLTYPVRQDGKLMAKMVFIVWLLSASITLPPLFGWAKNVTVERVCL
+                     ISQDFGYTVYSTGVAFYIPMIVMLVMYHRIYKAAKASAQKHRFMDLPRSHGLEGVSCAE
+                     TSARCQPSNKRNKAAEECATLSKLLRQDRKNISIFKREQKAARTLGIIVGAFTFCWLPF
+                     FLMSAARPFICGSHCSCIPLRLERTLLWLGYANSLVNPLIYAFCNRDLRTTFWNLLRCS
+                     YRNINRRLSAASMHEALKVTEKHEGIL"
+                     /gene="LOC100560142"
+                     /protein_id="XP_003225512.1"
+ORIGIN
+        1 aaaataagca aaggggtggt ctgagatttg gagagccaga aaacatttta aagtcagcag
+       61 ctttctatat ttaagaagag ataatgtgca tttctttctt tctttccccc tgagctccac
+      121 ggagcatctg tccagacttt tgacagcaac ctttcagctc tccctggtgt tgcttcttta
+      181 tttccttctg ccagaatcag cagcaaaagg ggaagacttg gaaaggatgc tctccaagtg
+      241 aaagcaagca tggggagggg agtgacttga caggggagga agaaaggaag gaaggaaacc
+      301 tgcctcctct tctctctttc cactttttat ttttggtgca tctggtcctc ttgccatcgg
+      361 agcaggtcgc acagcaaaag ggcacgtctt cagagccgta tttctagtgc tgtctctctt
+      421 tggggaaaat aaacatcctt gaagttgctg aattctttct ttgcaaatcc aagcatctct
+      481 taggaaactg gagaatctct gaaaaaagaa agagtcctga gcctggagag aagaagatgc
+      541 tcagcccagg aggagagcca ggcaaaggca tctcctcccg ccttgcagtg gacgaggttg
+      601 acctcaagcc atccctttgg tctgcacctg ctgtccacac agcagtgaat ccaaaggatg
+      661 ttgataagga tcggtcctgg ttgttttttg gagcagcaac ttcccatcgt ggaggaaacg
+      721 gaggaagagt ctcccaggaa gaggtccacc ccatctccat tcatgactga gggaccttcc
+      781 caagcgatca aaccagacct gcttcccacc aatgccacca acgtgacaga ctgtggggag
+      841 gatatcttgc tctatgggga cacggagaag gtcgtcatag ggacggtcct ttccgtcatc
+      901 accttgttga ccatcgcagg caacagtttg gtcatcatct ctgtgtgcat cgtcaaaaag
+      961 ctccggcagc cgtccaacta cctggtggtc tccttggcag ctgccgactt gtctgtggcc
+     1021 tttgccgtca tgcccttcgt catcatcaca gacctggtgg gaggagagtg gctctttggg
+     1081 gaggtcttct gcaatgtctt cattgccatg gatgtcatgt gctgcacagc atccatcatg
+     1141 actctctgtg tcatcagtgt tgacaggtac ctgggcatca cacggccgtt gacgtacccg
+     1201 gtgagacaag atgggaagct gatggccaag atggtgttca tcgtctggct cctctctgcc
+     1261 tccatcaccc tccctccgct gttcggctgg gccaagaacg tcactgtgga gcgggtgtgc
+     1321 ctcatcagcc aggactttgg ctacaccgtc tactccaccg gcgtggcctt ctacatccca
+     1381 atgatagtca tgctggtgat gtaccaccgc atctacaagg cggccaaggc cagcgcccag
+     1441 aagcatcgct tcatggacct cccaagatcc cacggactgg agggagtctc ttgtgcagaa
+     1501 accagcgctc ggtgccaacc cagcaacaag cgcaacaagg cggcggagga gtgcgccacg
+     1561 ctgtccaagc tcctgcgtca agaccgcaag aacatctcca tcttcaagag ggagcagaag
+     1621 gccgcccgca ccctgggcat catcgtgggg gccttcacct tctgctggct gcctttcttc
+     1681 ttgatgtccg ccgccaggcc tttcatctgc gggagccact gcagctgcat cccactgcgg
+     1741 ctggagagga ccctgctgtg gctgggctac gccaactccc tcgtcaaccc cttgatctac
+     1801 gccttctgca accgggacct gaggactacc ttctggaacc tgctgagatg cagctatcgc
+     1861 aacatcaacc ggaggctttc ggcagccagc atgcacgagg ccctgaaagt gacagagaag
+     1921 catgagggca tcctgtagag gactgggaac tctctaggcc aagcatgtgc aaatttggat
+     1981 ccgccaggtg ttttggactt caactcccac ca
+//

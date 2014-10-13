@@ -1,0 +1,93 @@
+LOCUS       XM_005009771            1665 bp    DNA              VRT 26-JUN-2013
+DEFINITION  PREDICTED: Anas platyrhynchos cholinergic receptor, muscarinic 5
+            (CHRM5), mRNA.
+ACCESSION   XM_005009771
+VERSION     XM_005009771.1  GI:514705434
+DBLINK      BioProject: PRJNA208071
+KEYWORDS    RefSeq.
+SOURCE      Anas platyrhynchos (mallard)
+  ORGANISM  Anas platyrhynchos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Anseriformes; Anatidae;
+            Anas.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004676358.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Anas platyrhynchos Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1665
+                     /mol_type="mRNA"
+                     /country="China: Beijing"
+                     /breed="Pekin duck"
+                     /sex="female"
+                     /isolation_source="Gold Star Duck Production"
+                     /db_xref="taxon:8839"
+                     /organism="Anas platyrhynchos"
+                     /chromosome="Unknown"
+     gene            1..1665
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 12 Proteins, and 83% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101805433"
+                     /gene="CHRM5"
+     CDS             1..1587
+                     /product="muscarinic acetylcholine receptor M5"
+                     /codon_start="1"
+                     /db_xref="GI:514705435"
+                     /db_xref="GeneID:101805433"
+                     /translation="MEVNLFSNSTVINSSSINHKQLEGHSLWEVITIATVTAIVSLITI
+                     VGNILVMISFKVNSQLKTVNNYYLLSLACADLIIGIFSMNLYTSYILIGHWSLGSLACD
+                     LWLALDYVASNASVMNLLVISFDRYFSITRPLTYRAKRTPKRAGIMIGLAWLISFILWA
+                     PVILCWQYFVGERTVPPEECQIQFLYEPIITFGTAIAAFYIPVSVMTILYCRIYKETEK
+                     RTKDLAELQGSESVAEFEMIKPQKALLKSCFSCKQQNLVKRERCQASWSSSSRSTSATV
+                     KASQAASTCNDWSKADQLTTCSSYASSEEEDKLATDSVFQVAYKSPSKDNEEEFNERES
+                     KDVDVKDQPEENDFEAQKYFLSPAKGQKNKKCVAYKFRLVVKADGTQEANNGCRKVKIT
+                     PCSAAMSKDPSIKSMDPNINNQITKRKRMVLIKERKAAQTLSAILLAFIITWTPYNIMV
+                     LISTFCSDCIPLTLWHLGYWLCYVNSTVNPICYALCNKTFRKTFKMLLFCQWKKKKVEE
+                     KLYWQGNTRLP"
+                     /gene="CHRM5"
+                     /protein_id="XP_005009828.1"
+ORIGIN
+        1 atggaagtaa atttattcag caattctact gttataaaca gttcatccat caaccataaa
+       61 cagttagaag ggcatagcct gtgggaagtt attactattg ccactgtaac tgcaattgta
+      121 agcttaataa ccatagtggg aaatattctt gtgatgatat ccttcaaggt taacagtcag
+      181 ctcaaaaccg ttaacaatta ttacttgctc agccttgcct gtgcagacct catcattgga
+      241 atattttcta tgaacctcta tacatcttat atactcatag gccattggtc tcttggaagt
+      301 ctggcatgtg atctgtggct agcgctggat tatgtagcta gcaatgcctc agtaatgaac
+      361 cttctagtca tcagctttga cagatatttt tccatcacaa ggcctttaac atacagggct
+      421 aaacgcacac ccaaaagagc tggcatcatg attggtctag cttggctaat ttccttcatt
+      481 ttgtgggcac ctgttatctt gtgctggcag tattttgttg gtgaacgaac agtaccacct
+      541 gaggaatgcc agatacagtt cttatatgag cccattatca cctttggtac tgcaattgct
+      601 gctttttata ttccagtgtc tgtgatgacc attttgtatt gccgcatcta taaagagacg
+      661 gagaaacgta ccaaggacct tgctgaactt cagggttctg agtctgtggc agagtttgag
+      721 atgataaagc ctcagaaagc tcttctgaag tcttgtttca gttgcaagca acaaaattta
+      781 gtcaaaagag agagatgtca ggcttcctgg tcttcatcta gtcgaagtac atcagctaca
+      841 gtgaaagcat ctcaggcagc gagtacttgc aatgactggt ctaaggctga ccagttaacc
+      901 acctgcagca gctatgcatc ttcagaagaa gaggataaac ttgccactga ttcagttttc
+      961 caagtagctt acaaaagtcc atctaaagat aacgaagaag agtttaatga aagggagagt
+     1021 aaggatgttg atgtcaaaga ccaacctgaa gaaaatgatt ttgaggccca gaaatatttt
+     1081 ttatcacctg ccaaaggcca aaaaaataaa aaatgtgtgg cctataaatt ccgcttggtg
+     1141 gttaaggctg atggcactca ggaagccaac aatggctgcc gtaaagtaaa aataactcct
+     1201 tgttctgctg ctatgtcaaa agatccttcc atcaaaagca tggatccaaa tataaataac
+     1261 caaatcacca aaaggaaaag gatggttctt ataaaggaac gcaaagcagc acagacttta
+     1321 agtgccattc ttttggcatt tatcatcacg tggactccct acaatataat ggttttgatc
+     1381 tccacattct gctctgactg cattcccctg acactgtggc accttggata ttggctatgc
+     1441 tatgtgaaca gcactgttaa ccccatttgt tatgctctct gtaacaaaac tttcaggaaa
+     1501 acttttaaga tgctgctttt ctgccagtgg aaaaagaaaa aagtggaaga gaaactatac
+     1561 tggcagggta ataccagact gccgtaactg ctcttatata agcgataaag ggaaaaatag
+     1621 atattgacat catagcccaa caaatgggct gtaattctgt cttgt
+//

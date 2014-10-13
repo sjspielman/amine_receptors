@@ -1,0 +1,63 @@
+LOCUS       XP_004433614             465 aa                     MAM 11-APR-2013
+DEFINITION  PREDICTED: alpha-1A adrenergic receptor [Ceratotherium simum simum].
+ACCESSION   XP_004433614
+VERSION     XP_004433614.1  GI:478518774
+DBLINK      BioProject: PRJNA191537
+KEYWORDS    RefSeq.
+SOURCE      Ceratotherium simum simum (southern white rhinoceros)
+  ORGANISM  Ceratotherium simum simum
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Perissodactyla; Rhinocerotidae;
+            Ceratotherium.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004454200.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ceratotherium simum simum Annotation Release
+            100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..465
+                     /sub_species="simum"
+                     /country="USA: San Diego Zoo, California"
+                     /isolate="SDZICR_KB13650"
+                     /sex="female"
+                     /db_xref="taxon:73337"
+                     /organism="Ceratotherium simum simum"
+                     /chromosome="Unknown"
+     Protein         1..465
+                     /product="alpha-1A adrenergic receptor"
+                     /calculated_mol_wt="51121"
+     Region          37..340
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          49..325
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..465
+                     /coded_by="XM_004433557.1:49..1446"
+                     /gene="ADRA1A"
+                     /db_xref="GeneID:101404470"
+ORIGIN
+        1 mvflsgnasd ssncthppap vniskaillg vilggliifg vlgnilvils vachrhlhsv
+       61 thyyivnlav adllltstvl pfsaifeilg ywafgrvfcn iwaavdvlcc tasimglcii
+      121 sidryigvsy plryptivtq krglmallcv walslvisig plfgwrqpap edeticqite
+      181 epgyvlfsal gsfyvplaii lvmycrvyvv akresrglqs glktdksdse qvtlrihrkn
+      241 apvggsgvsa knkthfsvrl lkfsrekkaa ktlgivvgcf vlcwlpfflv mpigsffpdf
+      301 kpsetvfkia fwlgylnsci npiiypcssq efkkafqnvl riqclrrkqs skhalgyalh
+      361 ppshalegqh kdlvripvgs getfykiskt dgvcewkffs slprgsarit vhkdqsactt
+      421 arvrsksflq vccclgpstp slgenhqvpt ikihtislse ngeev
+//

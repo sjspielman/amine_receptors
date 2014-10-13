@@ -1,0 +1,60 @@
+LOCUS       XP_005201392             400 aa                     MAM 05-AUG-2013
+DEFINITION  PREDICTED: D(3) dopamine receptor isoform X1 [Bos taurus].
+ACCESSION   XP_005201392
+VERSION     XP_005201392.1  GI:528936375
+DBLINK      BioProject: PRJNA33843
+KEYWORDS    RefSeq.
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003103810.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Bos taurus Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..400
+                     /db_xref="taxon:9913"
+                     /breed="Hereford"
+                     /organism="Bos taurus"
+                     /chromosome="1"
+     Protein         1..400
+                     /product="D(3) dopamine receptor isoform X1"
+                     /calculated_mol_wt="44170"
+     Region          44..>216
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          52..383
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..400
+                     /coded_by="XM_005201335.1:1..1203"
+                     /gene="DRD3"
+                     /db_xref="BGD:BT10625"
+                     /db_xref="GeneID:537043"
+ORIGIN
+        1 maplnqlggh inatcaaens tgagrarpha yyalsycali laivfgnvlv cvavlkeral
+       61 qtttnylvvs lavadllvat lvmpwvvyle vtggvwnfsr vccdvfvtld vmmctasiln
+      121 lcaisidryt avvmpvhyqq gtgqsscrrv almitavwll sfavscpllf gfnttgdpsi
+      181 csisnpdfvl yssvvsfylp fgvtvlvyar iyvvlrqrrr kriltrqnsq clsvrpsfpq
+      241 qplspgqthm elkryysicq dtalgtpgfq egegdlkreg rtrnslsptm apklslevrk
+      301 lsngrlstsl rlgplqprav plrekkatqm lvivlgtfiv cwlpfflthv lnthcrachv
+      361 spqlysattw lgyvnsalnp viyttfnief rkaflkilsc
+//

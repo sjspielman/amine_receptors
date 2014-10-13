@@ -1,0 +1,115 @@
+LOCUS       NP_776508                491 aa                     MAM 01-FEB-2014
+DEFINITION  histamine H1 receptor [Bos taurus].
+ACCESSION   NP_776508
+VERSION     NP_776508.2  GI:148237697
+KEYWORDS    RefSeq.
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (residues 1 to 491)
+  AUTHORS   Sommer B, Montano LM, Carbajal V, Flores-Soto E, Ortega A,
+            Ramirez-Oseguera R, Irles C, El-Yazbi AF, Cho WJ and Daniel EE.
+  TITLE     Extraction of membrane cholesterol disrupts caveolae and impairs
+            serotonergic (5-HT2A) and histaminergic (H1) responses in bovine
+            airway smooth muscle: role of Rho-kinase
+  JOURNAL   Can. J. Physiol. Pharmacol. 87 (3), 180-195 (2009)
+   PUBMED   19295659
+  REMARK    GeneRIF: caveolar and cholesterol integrity are indispensable for
+            the proper functionality of the H(1) and 5-HT(2A) receptors through
+            their Rho/ROCK signaling.
+REFERENCE   2  (residues 1 to 491)
+  AUTHORS   Zimin AV, Delcher AL, Florea L, Kelley DR, Schatz MC, Puiu D,
+            Hanrahan F, Pertea G, Van Tassell CP, Sonstegard TS, Marcais G,
+            Roberts M, Subramanian P, Yorke JA and Salzberg SL.
+  TITLE     A whole-genome assembly of the domestic cow, Bos taurus
+  JOURNAL   Genome Biol. 10 (4), R42 (2009)
+   PUBMED   19393038
+REFERENCE   3  (residues 1 to 491)
+  AUTHORS   Yamashita M, Fukui H, Sugama K, Horio Y, Ito S, Mizuguchi H and Wada
+            H.
+  TITLE     Expression cloning of a cDNA encoding the bovine histamine H1
+            receptor
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 88 (24), 11515-11519 (1991)
+   PUBMED   1722337
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from BC140475.1.
+            On May 23, 2007 this sequence version replaced gi:27806585.
+            ##Evidence-Data-START##
+            Transcript exon combination :: BC140475.1, DV818408.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+            SRS369781, SRS369782 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..491
+                     /db_xref="taxon:9913"
+                     /breed="L1 Hereford"
+                     /organism="Bos taurus"
+                     /chromosome="22"
+                     /map="22"
+     Protein         1..491
+                     /note="H1R; HH1R"
+                     /product="histamine H1 receptor"
+                     /calculated_mol_wt="55858"
+     Site            31..50
+                     /note="propagated from UniProtKB/Swiss-Prot (P30546.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          37..>200
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          51..472
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Site            65..84
+                     /note="propagated from UniProtKB/Swiss-Prot (P30546.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            103..124
+                     /note="propagated from UniProtKB/Swiss-Prot (P30546.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            147..166
+                     /note="propagated from UniProtKB/Swiss-Prot (P30546.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            191..211
+                     /note="propagated from UniProtKB/Swiss-Prot (P30546.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            423..442
+                     /note="propagated from UniProtKB/Swiss-Prot (P30546.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            455..474
+                     /note="propagated from UniProtKB/Swiss-Prot (P30546.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     CDS             1..491
+                     /coded_by="NM_174083.3:191..1666"
+                     /gene="HRH1"
+                     /db_xref="BGD:BT17475"
+                     /db_xref="GeneID:281231"
+ORIGIN
+        1 mtcpnsscvf edkmcegnkt apannaqltp lvvvlstisl vtvglnllvl yavrserklh
+       61 tvgnlyivsl svadlivgvv vmpmnilyll msrwslgrpl clfwlsmdyv astasifsvf
+      121 ilcidryrsv qqplkylryr tktrasitil aawflsflwi ipilgwrhfq pktpepredk
+      181 cetdfynvtw fkvmtaiinf ylptllmlwf yakiykavrq hcqhreling sfpsfsdmkm
+      241 kpenlqvgtk kpgkespwev lkrkpkdtgg gpvlkppsqe pkevtspgvf sqekeekdge
+      301 lgkyycfpld tvqaqpeaeg sgrgyaainq sqnqlemgeq glsmpgakea ledqilgdsq
+      361 sfsrtdsdtp aepalakgks rsesstgley ikftwkrlrs hsrqyvsglh mnrerkaakq
+      421 lgfimaafii cwipyfiffm viafcesccn qhvhmftiwl gyinstlnpl iyplcnenfk
+      481 ktfkkilhir s
+//

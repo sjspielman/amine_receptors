@@ -1,0 +1,85 @@
+LOCUS       XM_005523794            1488 bp    DNA              VRT 13-SEP-2013
+DEFINITION  PREDICTED: Pseudopodoces humilis adrenoceptor alpha 1B (ADRA1B),
+            mRNA.
+ACCESSION   XM_005523794
+VERSION     XM_005523794.1  GI:543360446
+DBLINK      BioProject: PRJNA217046
+KEYWORDS    RefSeq.
+SOURCE      Pseudopodoces humilis (Tibetan ground-tit)
+  ORGANISM  Pseudopodoces humilis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes; Paridae;
+            Pseudopodoces.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005087571.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pseudopodoces humilis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1488
+                     /db_xref="taxon:181119"
+                     /mol_type="mRNA"
+                     /organism="Pseudopodoces humilis"
+                     /chromosome="Unknown"
+     gene            1..1488
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 25 Proteins"
+                     /db_xref="GeneID:102105127"
+                     /gene="ADRA1B"
+     CDS             10..1488
+                     /product="alpha-1B adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:543360447"
+                     /db_xref="GeneID:102105127"
+                     /translation="MIFKMNTYLGDKPNTSIPGYFKGSALNYGNFSANNSNETGSNLDS
+                     PALATSRAIIVGLILGAFILFAIIGNILVILSVACNRHLRIPTNYFIINLAIADLLLSF
+                     TVLPFSATLEVLGYWVLGRIFCDIWAAVDVLCCTASILSLCAISIDRYIGVRYSLQYPT
+                     LVTRRRAILALLAVWVLSMVISIGPLLGWKEPAPQDDRECRITEEPFYALFSSLGSFYI
+                     PLIVILVMYCRVYIVAKRTTRNLEAGVMKEMSNSKELTLRIHYKHEDSLNNTKSKGHNP
+                     RNSLAFKLLKFSREKKAAKTLGIVVGMFILCWLPFFIVLPLGSLFSALKPPETIFKVIF
+                     WLGYFNSCLNPIIYPCSSKEFKRAFIQILRCQCHRRKQLGWWPYSYRNWNRCSYEHARR
+                     DSLEDSGSFLSGSQRTLSSASPSPGYVSRISQPQLELCSLQECGNCSSLLSPARQGGGQ
+                     RQQCQFFTFQLLPERNGHGLAVGQGSGQGPMGTP"
+                     /gene="ADRA1B"
+                     /protein_id="XP_005523851.1"
+ORIGIN
+        1 ctatggagga tgatttttaa gatgaatacc taccttggtg ataaacccaa tacatcgata
+       61 ccgggatatt tcaaaggctc tgcgctaaat tacggcaatt tttctgcaaa caactccaac
+      121 gagacgggaa gcaacctgga ttcacctgcc ttggccacca gcagggcgat catcgtgggg
+      181 ctcatcctcg gtgcctttat tctctttgct atcatcggta atatcctggt gattctctca
+      241 gtggcttgca acagacattt aagaatccct acgaactatt tcatcattaa cctggccata
+      301 gcggacctgc tgctgagttt caccgtcctg ccgttctctg ccacgctgga agtgcttggc
+      361 tactgggttt tggggaggat attctgtgac atttgggcag cagtggatgt gctgtgttgc
+      421 acagcctcta ttttgagcct gtgtgcgatt tccatcgaca gatacatcgg ggtccgctac
+      481 tccctgcagt accccacgct ggtcaccagg agaagggcga ttttagctct cctggctgtc
+      541 tgggtcctgt ccatggtgat ttccatcggg cctctgctgg gctggaagga gccggccccg
+      601 caggacgaca gggagtgccg gatcaccgag gagcccttct atgctctctt ctcctccctg
+      661 ggctcctttt acatcccttt aatcgtcatc ctcgtcatgt actgccgggt ctacatcgtg
+      721 gccaaaagga ctaccaggaa cctggaagcc ggggtgatga aggaaatgtc caactccaag
+      781 gagctgacct tacggattca ttacaagcac gaggactcct taaacaacac caaatccaag
+      841 ggtcacaatc ccaggaactc cttagctttc aaacttctaa aattctccag agaaaagaag
+      901 gcagccaaga cgttgggaat tgtggttggc atgtttatcc tgtgctggct ccccttcttc
+      961 attgtcctgc ccctgggatc cctgttttcg gctctgaagc cccccgaaac gatcttcaag
+     1021 gtgatttttt ggcttggcta cttcaacagc tgcttgaatc ccatcatcta cccctgctcc
+     1081 agcaaggagt tcaagagggc ttttatccag atcctgagat gccagtgcca ccggcgcaag
+     1141 cagctgggct ggtggcccta cagctacaga aactggaacc gctgctccta cgaacacgcc
+     1201 aggagagatt ccctggaaga cagcgggagc ttcctgagcg gcagccagag gactttatcc
+     1261 tcggcatcgc ccagcccagg ctacgtgagc aggatcagcc agccgcagct ggagctgtgc
+     1321 tcgctgcagg agtgcggcaa ctgcagctcc ctgctcagcc cggctcgcca gggtggcggc
+     1381 cagaggcagc agtgccagtt cttcaccttc cagctcctgc ccgagcgcaa cgggcacggc
+     1441 ctggccgtgg gccagggctc tgggcagggg cccatgggca caccctga
+//

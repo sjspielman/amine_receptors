@@ -1,0 +1,112 @@
+LOCUS       XM_005378146            2322 bp    DNA              ROD 27-AUG-2013
+DEFINITION  PREDICTED: Chinchilla lanigera dopamine receptor D2 (Drd2), mRNA.
+ACCESSION   XM_005378146
+VERSION     XM_005378146.1  GI:533126010
+DBLINK      BioProject: PRJNA210822
+KEYWORDS    RefSeq.
+SOURCE      Chinchilla lanigera (long-tailed chinchilla)
+  ORGANISM  Chinchilla lanigera
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Chinchillidae; Chinchilla.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004955412.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Chinchilla lanigera Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2322
+                     /mol_type="mRNA"
+                     /isolate="Chin_1"
+                     /sex="female"
+                     /db_xref="taxon:34839"
+                     /organism="Chinchilla lanigera"
+                     /chromosome="Unknown"
+     gene            1..2322
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 13 mRNAs, 13 Proteins, and 94%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:102009029"
+                     /gene="Drd2"
+     CDS             138..1469
+                     /product="D(2) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:533126011"
+                     /db_xref="GeneID:102009029"
+                     /translation="MDPLNLSWYDDDLERQNWSRSFNGSEGKVDRPHYNYYAMLLTLLI
+                     FVIVFGNVLVCMAVSREKALQTTTNYLIVSLAVADLLVATLVMPWVVYLEVVGEWKFSR
+                     IHCDIFVTLDVMMCTASILNLCAISIDRYTAVAMPMLYNTRYSSKRRVTVMIAIVWVLS
+                     FTISCPLLFGLNNTDQNECIIANPAFVVYSSIVSFYVPFIVTLLVYIKIYIVLRKRRKR
+                     VNTKRSSRAFRANLRAPLKGNCTHPEDMKLCTVIMKSNGSFPVNRRRMEAARRAQELEM
+                     EIVSSTSPPERTRYSPIPPSHHQLTLPAQSHHGLHSTPDSPAKPEKNGHAKDHPKIAKI
+                     FEIQSMPNGKTRTSLKTMSRRKLSQQKEKKATQMLAIVLGVFIICWLPFFITHILNIHC
+                     DCNIPPVLYSAFTWLGYVNSAVNPIIYTTFNIEFRKAFLKILHC"
+                     /gene="Drd2"
+                     /protein_id="XP_005378203.1"
+     STS             432..639
+                     /db_xref="UniSTS:266487"
+                     /standard_name="DRD2"
+                     /gene="Drd2"
+     STS             468..558
+                     /db_xref="UniSTS:262987"
+                     /standard_name="DRD2"
+                     /gene="Drd2"
+     STS             727..899
+                     /db_xref="UniSTS:267588"
+                     /standard_name="MARC_13871-13872:1007494510:1"
+                     /gene="Drd2"
+ORIGIN
+        1 ggcccgggac ggctgccgga ggggcggccg cgcgtggatg cggcgggagc ccgaagcctc
+       61 gagcagccgg cgccgactct gcccccgggc gccctatggc ttgaagagcc ttgccgccca
+      121 gtggctccgc tgccccaatg gatccactga atctgtcctg gtatgatgac gatctggaac
+      181 ggcagaactg gagccgatcc ttcaatgggt cggaaggaaa ggtggaccgg ccccactaca
+      241 actactatgc catgctgctc acccttctca tcttcgtcat tgtcttcggc aacgtgctgg
+      301 tatgcatggc tgtgtcccgc gagaaggcac tgcagacgac caccaactac ctgatcgtca
+      361 gcctcgcggt ggccgacctg cttgttgcca cgctggtcat gccctgggtt gtctacctgg
+      421 aggtggtggg cgagtggaaa ttcagcagga tccattgtga catcttcgtc actctggatg
+      481 tcatgatgtg cacggcaagc atcctgaacc tgtgtgccat cagcatcgac aggtacacag
+      541 ctgtagccat gcccatgctg tacaacacgc gctacagctc caagcgccgg gtcaccgtca
+      601 tgattgccat tgtctgggtc ctgtcgttca ccatctcctg tccactgctc tttggactca
+      661 ataatacaga ccagaatgag tgcatcatcg ccaaccctgc ctttgtggtc tattcctcca
+      721 ttgtgtcctt ctacgtgccc ttcatcgtca ccctgctggt ctacatcaag atctacattg
+      781 tgctccgcaa acgccgcaag cgggtcaaca ccaagcgcag cagccgagct ttccgggcca
+      841 acctgagggc cccactcaag ggcaactgta ctcaccctga ggacatgaaa ctctgcaccg
+      901 ttatcatgaa gtctaatggg agtttcccag tgaacaggcg gagaatggag gctgcccgcc
+      961 gagcccagga gctggagatg gagattgtct ccagcaccag ccctcccgag aggacccggt
+     1021 acagccctat cccgcccagc caccaccagc tgactctccc tgcccagtcc caccatggcc
+     1081 tccacagcac tcccgacagc cccgccaagc cagagaagaa tgggcatgcc aaagaccacc
+     1141 ccaagattgc caagatcttt gagatccagt ccatgcccaa tggcaaaacc cggacctcgc
+     1201 tcaagaccat gagccgtagg aagctctccc agcagaagga gaagaaagcc actcagatgc
+     1261 tcgccattgt tctcggcgta ttcatcatct gctggctgcc cttcttcatc acgcacatcc
+     1321 tcaacataca ctgtgactgc aacatcccgc cagtcctgta cagcgccttc acgtggctgg
+     1381 gctacgtcaa cagcgccgtg aaccccatca tctacacgac cttcaatatc gagttccgca
+     1441 aggccttcct gaagattcta cactgctgac tctgccgcct gcctgcgcag cagccgcctc
+     1501 ccacctccgg gcccaggctc tctgggcctc gtccttgcga gctatacgca gaaaggccct
+     1561 gagggacggg gccttctctt caccctgcag gcctggctgt gtttacctgg ctctgtgccc
+     1621 ctctgcccac acaccccctt tctgccaggg caaggcagag ccgggtatgg taccagccct
+     1681 gggacaggac ctacggctca gagcagctca cagagtctcc ctcccacctc caggccctct
+     1741 ctccttggca ccaaagatgt agccgccctc cttgaccttt ctctggggca gcggggtctc
+     1801 tggagttact aggaccagag tcaaggctaa atgggcaagc acactttatt gggtttcccc
+     1861 tggcttttgt gggcctgtgc tggagtagga gggatggttc tcaccctaca aagctcacag
+     1921 ggggcaggcc tggaaaactt cagccctggg agagccatgg aaataccaga tagcacatgg
+     1981 accccagagg aggccaagcc aaaagtctga gctccctccc aactggaagt gagccctacc
+     2041 ttcctccgct ctggctctga ctcaccccac tctgttatag cgcccataca gttctacacc
+     2101 ttcagaggga ggaaccctga tctccaaggg ccctgagggg gtctgtggag agagaaactc
+     2161 cagcgcccac ccccctcggc cacttctctt ctgttcccta tgctggccag cctggaaagt
+     2221 caagtattgg acccacatct gggcctgact tgggggactt tggaggttct ttgagagtcc
+     2281 acctcctgcc acatctgaca taaagtctct ccctttgttt tt
+//

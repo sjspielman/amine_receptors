@@ -1,0 +1,89 @@
+LOCUS       XM_005725538            1602 bp    DNA              VRT 30-SEP-2013
+DEFINITION  PREDICTED: Pundamilia nyererei 5-hydroxytryptamine receptor
+            1A-beta-like (LOC102210591), mRNA.
+ACCESSION   XM_005725538
+VERSION     XM_005725538.1  GI:548346379
+DBLINK      BioProject: PRJNA220167
+KEYWORDS    RefSeq.
+SOURCE      Pundamilia nyererei
+  ORGANISM  Pundamilia nyererei
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Haplochromini;
+            Pundamilia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005187417.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pundamilia nyererei Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1602
+                     /mol_type="mRNA"
+                     /isolate="P.nyererei 1_Seehausen"
+                     /sex="female"
+                     /db_xref="taxon:303518"
+                     /organism="Pundamilia nyererei"
+                     /chromosome="Unknown"
+     gene            1..1602
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 20 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:102210591"
+                     /gene="LOC102210591"
+     CDS             116..1366
+                     /product="5-hydroxytryptamine receptor 1A-beta-like"
+                     /codon_start="1"
+                     /db_xref="GI:548346380"
+                     /db_xref="GeneID:102210591"
+                     /translation="MEGTNNTTAWLQLDNSSNKAPKPEDEEVKLSYQVVTSFLLGALIL
+                     CAIFGNACVVAAIALERSLQNVANYLIGSLAVTDLMVSVLVLPMAALYQVLNRWTLGQI
+                     PCDIFISLDVLCCTSSILHLCAIALDRYWAITEPIDYMKKRTPRRAAVLISVTWLVGFS
+                     ISVPPMLIMRSQPSSMAEDRANPKQCKIRQDPWYTIYSTFGAFYIPLTLMLVLYGRIFK
+                     AARFRIRRTVRKTEKKKVSDSCLALSPALFHKKIQGDAQGKSWKRSVEPRPVPSVNGAV
+                     RHAEDGESLEIIEVHSNSKGNLPLPNTPSSVPLFESRHEKATEAKRKIALARERKTVKT
+                     LGIIMGTFILCWLPFFIVALVMPFCQESCYMPRWLEDVINWLGYSNSLLNPIIYAYFNK
+                     DFQSAFKKIIKCHFCRP"
+                     /gene="LOC102210591"
+                     /protein_id="XP_005725595.1"
+ORIGIN
+        1 ttacagcctc tctgcacttc tcggcagacc agctgaccgc tatgcgctct tggtgttccc
+       61 gtgccatgcg ctctgcagag tagaacctct ccagtcgcat cgaagtggcc caacgatgga
+      121 gggcacaaac aacacgaccg cctggcttca actcgacaac tcttcaaaca aagccccaaa
+      181 accagaagac gaggaggtga aactcagcta ccaagtggtc acatccttcc tgctcggcgc
+      241 gctcatcctg tgcgcaatat ttgggaacgc gtgcgtggtt gcagcaatcg cgctggagcg
+      301 ctctctccag aatgtcgcca actatctgat cggctctctt gccgtcacgg acctgatggt
+      361 gtcggtgctg gtgctgccca tggcggcgct ctaccaggtt ttgaatcggt ggactctcgg
+      421 gcagattccg tgcgacatct tcatctctct ggatgtgcta tgctgcacgt cgtccatcct
+      481 gcacctgtgc gccatcgctc tggacagata ctgggccata accgagccca tagactatat
+      541 gaagaagagg actccgagga gagccgcggt cctcatcagc gtcacttggc tagtggggtt
+      601 ctccatctcc gtgccgccta tgctgatcat gcgctcccag cccagcagca tggcagagga
+      661 cagggcgaac cccaagcagt gtaagataag gcaagacccc tggtacacaa tatactccac
+      721 tttcggggct ttttacatcc cgctaactct gatgctggtt ttatacgggc ggatattcaa
+      781 agctgcccgt ttccgcatca ggaggacggt gcgtaaaacg gagaaaaaga aagtgtccga
+      841 ctcctgcctg gcgctctctc ccgcgctctt ccataaaaag atccaaggag atgcacaggg
+      901 caagagctgg aaaaggagcg tggagccccg gccggtgccg agtgtcaacg gcgcggtgag
+      961 acacgccgaa gatggcgagt ctctggagat catcgaagtt cacagcaact ccaaaggcaa
+     1021 cctgccgctg cccaacaccc cgagctccgt gccgctcttc gagagcaggc acgagaaagc
+     1081 gacggaggcg aagaggaaga tcgcactggc acgggagcgc aaaacggtga agactttggg
+     1141 catcatcatg ggcaccttca tcctgtgctg gctgcctttc ttcatcgtcg ccctggtcat
+     1201 gcctttctgc caggagtcgt gctacatgcc ccgctggcta gaggatgtca ttaactggct
+     1261 gggctactcc aactctttac tgaaccccat catttacgcg tacttcaaca aagattttca
+     1321 gagcgctttc aagaaaatca tcaagtgtca cttttgcaga ccgtgatggt tcaagactca
+     1381 ccggatcact gagggctgat ctggagacat ccaggtgaaa aagagaccaa cagcctgcga
+     1441 acagattgtt ctcaaacaac aactgagggc tcacaatgat tattgccgct catcaccatc
+     1501 gttaaatatc tccagagatg tctatagcct atgcatagat aaagctgtga tcgtttgatt
+     1561 caagctccgt gttgctcatc ctgttctttg atgtccaata aa
+//

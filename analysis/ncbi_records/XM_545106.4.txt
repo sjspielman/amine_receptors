@@ -1,0 +1,108 @@
+LOCUS       XM_545106               2331 bp    DNA              MAM 24-SEP-2013
+DEFINITION  PREDICTED: Canis lupus familiaris dopamine receptor D3 (DRD3), mRNA.
+ACCESSION   XM_545106
+VERSION     XM_545106.4  GI:545552898
+DBLINK      BioProject: PRJNA12384
+KEYWORDS    RefSeq.
+SOURCE      Canis lupus familiaris (dog)
+  ORGANISM  Canis lupus familiaris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae;
+            Canis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003726118.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 24, 2013 this sequence version replaced gi:345796031.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Canis lupus familiaris Annotation
+            Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2331
+                     /sub_species="familiaris"
+                     /mol_type="mRNA"
+                     /breed="boxer"
+                     /sex="female"
+                     /db_xref="taxon:9615"
+                     /organism="Canis lupus familiaris"
+                     /chromosome="33"
+     gene            1..2331
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 9 Proteins, and 98% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:487984"
+                     /gene="DRD3"
+     CDS             404..1606
+                     /product="D(3) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:345796032"
+                     /db_xref="GeneID:487984"
+                     /translation="MTPLSQLSGNINSTCGAENSTGASRARPHAYYALSYCALILAIIF
+                     GNGLVCVAVLKERALQTTTNYLVVSLAVADLLVATLVMPWVVYLEVTGGVWNFSRICCD
+                     VFVTLDVMMCTASILNLCAISIDRYTAVVMPVHYQHGTGQSSCRRVALMITAVWVLAFA
+                     VSCPLLFGFNTTGDPTVCSISNPDFVIYSSVVSFYVPFGVTVLVYARIYVVLRQRRRKR
+                     ILTRQNSQCISVRPSFPQQPLSPSQAHMELKRYYSICQDTALGQPGFQEAGGELKREGR
+                     TRNSLSPTMAPKLSLEVRKLSNGRLSTSLKLGPLQPRGVPLREKKATQMLAIVLGAFIV
+                     CWLPFFLTHVLNTHCGACHVSPELYSATTWLGYVNSALNPVIYTTFNVEFRKAFLKILS
+                     C"
+                     /gene="DRD3"
+                     /protein_id="XP_545106.3"
+     STS             1298..1497
+                     /db_xref="UniSTS:34219"
+                     /standard_name="DRD3-556F"
+                     /gene="DRD3"
+     STS             1428..1605
+                     /db_xref="UniSTS:53374"
+                     /standard_name="RH71216"
+                     /gene="DRD3"
+ORIGIN
+        1 tagaaaacgg atcctgcttg tgcctgcggt acctcgcttt cagcaccaag gacagtgcct
+       61 ctgaagggct gacccaagca ccgaccagtt ttagggtccc tcccaaatcc tctagagaaa
+      121 acgcatgaat ttgaaagcag ctatgaagca tgcagtaagg tctaatagga aagctgtaag
+      181 agcagcccac aagtgatttc accttagagg caaaaatggg tgattttttt ttctgttcat
+      241 ttccacagtt tctgtgtcct tggaaagaca aagtttgctt tgcttgggca tgtctgctgt
+      301 cagtaagtga ctgcaggagc tgaggtgcta aactccacag tctccagaaa tcagaagaaa
+      361 ttttcaggga aatccaccag ggtcactctt ctccctctgg gccatgacgc ctctgagcca
+      421 gctgagtgga aacatcaact ccacctgtgg ggcagagaac tccacaggtg ccagccgggc
+      481 ccgtccacat gcctactatg ccctctccta ctgcgcgctc atcctggcca tcatcttcgg
+      541 caatggtctg gtgtgtgtgg ccgtgctgaa ggaacgggct ttgcagacca ccaccaacta
+      601 tctggtggtg agcctggccg tggcagacct gctggtggcc accttggtga tgccctgggt
+      661 ggtatacctg gaggtgacag gtggagtctg gaacttcagc cgtatctgct gcgatgtttt
+      721 cgtcaccctg gatgtcatga tgtgtacagc cagcatcctg aacctctgtg ccatcagcat
+      781 cgacaggtac accgcggtgg tcatgccagt ccactaccaa cacggcacag gacagagctc
+      841 ctgccggcgc gtggccctca tgattacggc cgtctgggta ctggcctttg ctgtgtcttg
+      901 ccctctcctc tttggcttca acaccacagg agaccccact gtgtgctcca tctccaaccc
+      961 tgactttgtc atctactctt cagtggtgtc cttctatgtg ccctttggag tgaccgtcct
+     1021 cgtctatgcc aggatctacg tggtgttgag acagaggaga cggaaacgga tcctcactcg
+     1081 acagaacagt cagtgtatca gtgtcagacc cagcttccct caacaaccac tctcccctag
+     1141 ccaggcccac atggagctga agcgctacta cagcatctgc caagatactg ccctggggca
+     1201 gccaggcttc caagaagcag gaggggagtt gaaaagggag gggaggactc gaaactccct
+     1261 cagccccacc atggcaccta agctcagctt agaggttcga aaactcagta atggcaggtt
+     1321 gtcgacatct ctgaagctgg ggcccttgca acctcgtgga gtgccactcc gggagaagaa
+     1381 ggcaacgcag atgctggcca ttgtgcttgg ggccttcatt gtctgctggc tgcccttctt
+     1441 tttgacccac gttctcaata cgcactgcgg agcctgccac gtgtccccag agctttacag
+     1501 cgccactacg tggctgggct acgtgaacag tgccctcaac cctgtgatct ataccacctt
+     1561 caatgtggag ttccgcaaag cctttctcaa gatcctgtct tgctgaagga gaggagagca
+     1621 tactccctgt gcccaccctt agctgccagg ccattgggcc actggccagg acctgcgcag
+     1681 aaagactgtg ctatgttctc tggcatggtg taggaaggag actcctggag ccaggacacc
+     1741 tctgagtggc aggtgtaacc aactgcttct tcccggtcag aatgtttaca tcccagcaaa
+     1801 aatctgactt catcctggca atcttcaagt ggttgggagg tccctgagtt ataagtaata
+     1861 attcagaaag aagctgataa aacatgaccc tccacacaca caaaattgtc attagaggca
+     1921 tgattcatca cagtgaagga gaaatgaaca gatctcataa ttgtcaactt gccaggggtc
+     1981 cttgaaatcc cagccagtaa accatcttgc agaaatagac agtctctctt ccttcaagcc
+     2041 tataattaaa ctatcaggct gaccttgtac ttttgcaggc ccacaccctt ttggtcattc
+     2101 cttttgttca ttgtttgctg aattataagg gcacagccag tgcttctacc tctccgtaga
+     2161 atctggctgc aactggggag agaaattctg agggagacat tgtcccacat tgggacctgg
+     2221 gcttcctttc aaaccttgct actcctgtat tatagctctt gctataaagg ccctttgact
+     2281 ccaaccccct gttcttagag attcaattcc agagtaattc ggaatgagta t
+//

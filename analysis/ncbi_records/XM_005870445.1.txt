@@ -1,0 +1,125 @@
+LOCUS       XM_005870445            2891 bp    DNA              MAM 29-OCT-2013
+DEFINITION  PREDICTED: Myotis brandtii adrenoceptor beta 2, surface (ADRB2),
+            transcript variant X3, mRNA.
+ACCESSION   XM_005870445
+VERSION     XM_005870445.1  GI:554552026
+DBLINK      BioProject: PRJNA218631
+KEYWORDS    RefSeq.
+SOURCE      Myotis brandtii (Brandt's bat)
+  ORGANISM  Myotis brandtii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Microchiroptera;
+            Vespertilionidae; Myotis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005362269.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Myotis brandtii Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2891
+                     /mol_type="mRNA"
+                     /collection_date="Dec-2011"
+                     /country="Russia: Perm poKrai"
+                     /sex="male"
+                     /note="collected at hibernation roost"
+                     /db_xref="taxon:109478"
+                     /lat_lon="58.8348 N 57.6119 E"
+                     /organism="Myotis brandtii"
+                     /chromosome="Unknown"
+     gene            1..2891
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 28 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 6 samples with support for all annotated introns"
+                     /db_xref="GeneID:102249639"
+                     /gene="ADRB2"
+     CDS             35..1285
+                     /product="beta-2 adrenergic receptor isoform X3"
+                     /codon_start="1"
+                     /db_xref="GI:554552027"
+                     /db_xref="GeneID:102249639"
+                     /translation="MGQPGNRTVFLLAPNGSHAPGQDVAQERDETWVVGMAILMSLIVL
+                     AIVFGNVLVITAIAKFERLQTVTNYFITSLACADLVMGLAVVPFGASHILMKMWTFGNF
+                     WCEFWTSIDVLCVTASIETLCVIAVDRYFAITSPFKYQSLLTKNKARVVILLVWIVSGL
+                     TSFLPIKMHWYRATHEDAIKCYARETCCDFFTNQAYAIASSIVSFYLPLVVMVFVYSRV
+                     FQVAKRQLQRIDKFEGRFHAQNLSQVEDGRSGHGHRRSSKFCLKEHKALKTLGIIMGTF
+                     TLCWLPFFIVNIVHVIQDNLIPKNVYIFLNWVGYVNSAFNPLIYCRSPDFRSAFQELLC
+                     LRRSSLKAYGNGYSNSNDKSDYTGVPSGYHLGQEKDSKLLCEDARGREDFVNRQGTVPN
+                     DSIDAHGRNCSTNDSLL"
+                     /gene="ADRB2"
+                     /protein_id="XP_005870507.1"
+     STS             161..1045
+                     /db_xref="UniSTS:265908"
+                     /standard_name="ADRB2"
+                     /gene="ADRB2"
+     STS             451..902
+                     /db_xref="UniSTS:258478"
+                     /standard_name="ADRB2sts1"
+                     /gene="ADRB2"
+     STS             685..1080
+                     /db_xref="UniSTS:270173"
+                     /standard_name="PMC109640P1"
+                     /gene="ADRB2"
+ORIGIN
+        1 gcagcccgtg cgctcacctg ccagcctgcg cgccatgggg caaccgggga accgcaccgt
+       61 cttcttgctg gcgcccaacg gaagccatgc accgggccaa gacgtcgcgc aggaacggga
+      121 cgagacgtgg gtggtgggca tggccatcct catgtcgctc atcgtcctgg ccatcgtgtt
+      181 tggaaacgtg ctggtcatca cagccattgc caagttcgag cgtctgcaga cggtcaccaa
+      241 ctacttcatc acctccttgg cctgtgctga cctggtcatg ggcctggcgg tggtgccctt
+      301 tggggccagc cacatcctta tgaaaatgtg gacttttggc aatttctggt gcgagttttg
+      361 gacttccatt gacgtgctgt gtgtcacggc cagcattgag accctgtgcg tgatcgcggt
+      421 ggatcgctac tttgccatca cgtcaccctt caagtaccag agcctgctga ccaagaataa
+      481 ggcccgggtg gtcattctgc tggtgtggat cgtgtcaggc ctcacctcct tcttgcccat
+      541 caagatgcac tggtaccggg ccacccacga agacgccatc aagtgctacg ccagagagac
+      601 ctgctgtgac ttcttcacga accaggctta cgccattgcc tcctccatcg tttcctttta
+      661 cctgcccctg gtggtcatgg tcttcgtcta ctccagggtc ttccaggtgg ccaaaaggca
+      721 actccaaagg atcgacaaat tcgagggccg cttccatgcc caaaacctca gccaagtgga
+      781 ggatgggagg agcgggcacg gacatcgcag gtcctccaag ttctgcttga aggaacacaa
+      841 agccctcaag actttgggca tcatcatggg cacgttcacc ctgtgctggc tgcccttttt
+      901 catcgtcaac attgtgcacg tgatccagga taacctcatc cccaagaacg tttacatctt
+      961 cctaaactgg gtgggctacg tcaactctgc tttcaacccc ctcatctact gccggagccc
+     1021 cgatttcagg agtgccttcc aggagcttct gtgcctgcgc aggtcttctc tgaaggccta
+     1081 tgggaatggc tactccaaca gcaatgacaa gtctgactac acaggggtgc ccagtggata
+     1141 tcacctggga caggagaaag acagcaaact gctgtgcgag gatgcccggg gcagggaaga
+     1201 ctttgtgaac cgtcaaggta ctgtgcctaa tgatagcatt gatgcacacg ggaggaattg
+     1261 tagtacaaat gactcactgc tctaatgcag cttttctact ttttcagacc cccttccctg
+     1321 acaagacact aagcagacta tttaacttaa gtgtaataaa tttagaatgg aattgtatag
+     1381 agatgtgcag gaggaagaac atcctcctgc cttttttttt atttttgtaa gctgtaaaaa
+     1441 aagagaacac ttattggagt gattgtttct tgtacagttc agttcctctt tgcatggaac
+     1501 ttgtccgtgt gtgtctgaag ggcttcggtc ccagaggacc tggggctgct atgttttgat
+     1561 gacttttctg cgtatctacc tcatcagtca agtattaggg gtaatctatt gctgctggta
+     1621 atgtgtatct gaaggagacc ttctttcccg ccccctcgga tggaggatcc ggagtagcct
+     1681 ggacctgaca gctgtgaaca cgttcctctt atttgctgaa acagggtgtt gtgggcaggc
+     1741 atttcagggg tagcttcagt tgttttcctg agcaaagtct aaagtttaca gtaaataaat
+     1801 tgtttgacca tgacttcatt gcacctgttt ctccaaaacc cctcgactgg agtgtgcttg
+     1861 cctcccccgc tggaaaccac agacctcctg cagcacgccc gcccgcgtgc acttgctaac
+     1921 acacagaagt cagctttgcc gaagagcctt ccgtggctcc ccattgcctt tgggacaacg
+     1981 gtctcagcag gtgagttcgc aggaagcgca gaggaaaccg actgcaagaa tgacactccc
+     2041 cactccccac agacccctgc aggcactgtg tatgccccat gggccttcca ggtgcgaggc
+     2101 cctgtgctgg ggataagcag agacaggctt gggccctgtg tttagaagct tatacatttt
+     2161 tcacaagaca ggtcaacagg tacccaacaa taatgtgtat tttaatgttt aagtactgga
+     2221 agtgctctta gaaatcatgg accttgccca actgcctctc attttacagt agtggaaact
+     2281 gatgtcccag aattggcgaa ttataaagaa aaacttgtct cctaagaggt ctccctgctt
+     2341 ctactctgcc ttcaccacca ggagcccctc tgcaccctgc agccagagcc atctgtctga
+     2401 gcagcgtgtc acctggtcac tcccacgaga aagcttcctg tggcccccac tggcctacaa
+     2461 tagaagccaa acatcctccc agacccgtgg tgcccagggt gtcaggccca cgcatcccgg
+     2521 tcgttccctg tgatgagaat gtccttccgt ttcaggacta ttggcccctc ctcagggctg
+     2581 ccctccctga ccatccatgc aaggcaggtg caccgccccg ctcattccct tcccatcacc
+     2641 ctgactggat gtgttcagag cacataatac cgtccacatc ctcttgtttg tttactgatt
+     2701 tttcttcttt cgtatctggg tcaacttact agaggctaag ctgcagaggg ctgagatttg
+     2761 ccgctttcac tagcacctac aacatacttg gctcatagtt gacacaagaa atctttgctg
+     2821 aatgactaaa ccaagaaatg aatacatatc actggaaatt tgaaaacgta aaatagcata
+     2881 aagaagcaaa t
+//

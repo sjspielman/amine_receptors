@@ -1,0 +1,95 @@
+LOCUS       XM_003995081            2053 bp    DNA              MAM 24-FEB-2014
+DEFINITION  PREDICTED: Felis catus histamine receptor H4 (HRH4), mRNA.
+ACCESSION   XM_003995081
+VERSION     XM_003995081.2  GI:587007276
+DBLINK      BioProject: PRJNA175699
+KEYWORDS    RefSeq.
+SOURCE      Felis catus (domestic cat)
+  ORGANISM  Felis catus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae;
+            Felinae; Felis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004065118.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Feb 24, 2014 this sequence version replaced gi:410977473.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Felis catus Annotation Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2053
+                     /mol_type="mRNA"
+                     /breed="Abyssinian"
+                     /isolate="Cinnamon"
+                     /sex="female"
+                     /db_xref="taxon:9685"
+                     /organism="Felis catus"
+                     /chromosome="D3"
+     gene            1..2053
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 Proteins, and 95% coverage of the
+                     annotated genomic feature by RNAseq alignments, including 4
+                     samples with support for all annotated introns"
+                     /db_xref="GeneID:101100602"
+                     /gene="HRH4"
+     CDS             1..1194
+                     /product="histamine H4 receptor"
+                     /codon_start="1"
+                     /db_xref="GI:410977474"
+                     /db_xref="GeneID:101100602"
+                     /translation="MSASTNSTIALLPSTHIFLVFLMCLVAFAIMLGNAVVILAFVVDQ
+                     KLRHRSNYFFLNLAIADFFVGMISIPLYIPHTLYGWSSESKLCVFWLTVDYLLCTTSVY
+                     NIVLISYDRYQSVSNAISYRTQHIGILKIVALMVAVWVLAFLVHGPIILVSESWNNSSV
+                     RVSEKKDCEPGFISKWYILAITSFLEFVVPVLSVAYFNIYIYWRLWKRGNLSRWQSQPG
+                     LTSPTPPNNCGPLLRGGLFSRTSLPELKETATSVPSKRHGRKRSLLFSLRAQTNTNIIA
+                     SKMASLSHCDSLCLHQREHIELLRARKLAKSLAILLGVFAFCWAPYSLFTIIRSFLSPE
+                     QRPQTIWYEITFWLQWFNSLVNPFLYPLCHKHFQKAFLRIFHVKKQPIPTQNRSMSS"
+                     /gene="HRH4"
+                     /protein_id="XP_003995130.1"
+ORIGIN
+        1 atgtcagctt ctactaatag cacaattgct ttactaccaa gcactcacat ttttttagta
+       61 tttttaatgt gcttagtagc gtttgctata atgctaggaa atgctgtggt tattctagct
+      121 tttgtggtgg accaaaagct tagacatcga agtaattact ttttccttaa cttggccatt
+      181 gctgacttct ttgttggtat gatctccatt cctttataca tccctcacac gctgtatggt
+      241 tggagctctg aaagtaaact ctgcgtgttt tggctcactg ttgactatct tttgtgtaca
+      301 acatctgtgt ataacattgt actcatcagc tacgatcgat accagtcagt ctcaaatgct
+      361 atatcttaca gaactcaaca cattgggatc ttgaagatcg tagctctgat ggtggctgtc
+      421 tgggttctgg ccttcttagt gcacgggcca ataattctag tttcagagtc ttggaataat
+      481 tccagtgtca gagtctcgga gaaaaaggac tgtgaacctg ggttcatttc caaatggtac
+      541 atcctcgcca tcacttcatt cttggaattt gtggttccag tcttgtcagt ggcctatttc
+      601 aacatataca tttactggag gctgtggaag cgtggtaatc tcagtcggtg gcaaagccag
+      661 cctggactca cttctcctac ccctcccaat aactgtggac ccttactcag gggtggactg
+      721 ttttcaagaa catctcttcc tgaactgaag gaaacagcaa catctgttcc ttcgaagaga
+      781 cacggtagaa agaggagtct cttgttttct ctaagagccc agacgaatac caatataatt
+      841 gcttccaaaa tggcttccct ctcccattgt gattccctat gtcttcacca aagggaacac
+      901 attgaactgc tcagagccag gaaattagcc aagtcactgg ccattctctt aggtgttttt
+      961 gccttttgct gggctccata ttctctgttc acgatcattc gttcatttct ttcaccagaa
+     1021 cagcgtcctc aaacaatttg gtatgaaatc accttttggc ttcaatggtt caattccctt
+     1081 gtcaatcctt ttctgtatcc attatgtcac aaacatttcc agaaggcttt cttgagaata
+     1141 tttcatgtga aaaagcaacc cataccaaca caaaatcggt caatgtcctc ttaaagatga
+     1201 ttttatcatt tacaaaaatt ttagtcttaa gctcacctac atgaatttga tctgacattc
+     1261 atttttccct ttccactagg cagggcaaaa tgagaaaagt ccataatatt gtaacacttg
+     1321 caaacttaaa agaaaaatca gaaactggaa gtcaagggaa aataaccaga aatagacaac
+     1381 aatctttttt gtaaactcac agccacaaat gcactgtgct tttcttactc attgcctctt
+     1441 ccttgtcttt tagatcttta tataacattg attgcgaaag tcaagagttc ttgttttcta
+     1501 tgttcagtgt ttgctatagt gttaagtgaa tttccctttt attttatagt gatgagaaat
+     1561 tgccaagttg taaagtcatt ttttcctaaa gtatacaata gaagaaggag atatattgtc
+     1621 ctcttcgctg gaagtgggaa ggcatgttgg ggtttgagtt gtcaggagca gggagccagg
+     1681 gtgtgcccag atggaaaggt agaaggcacg tgtacttcca ggctctatgc tactgattcc
+     1741 agaaaagcag aaagtgtggg gagggaagag caggtaactg cggttctcag agttcctcag
+     1801 agggcctggc aatcatagga taagagagta agtgagagac aagatcacca actggttgaa
+     1861 agatggcttt ccttttgtcc ttcctgccct cttcttccaa cttccacatc agctaaaaca
+     1921 tctgtgagaa aatatgtaag agaaaggcta cgagatggca aaaggactct atgattaaac
+     1981 ttgatgtagc tgtttaacat tctcagaact aatagatgtc aataattatt aataaaatat
+     2041 acttctgtat tta
+//

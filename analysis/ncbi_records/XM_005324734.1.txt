@@ -1,0 +1,86 @@
+LOCUS       XM_005324734            1593 bp    DNA              ROD 21-AUG-2013
+DEFINITION  PREDICTED: Spermophilus tridecemlineatus 5-hydroxytryptamine
+            (serotonin) receptor 1E, G protein-coupled (Htr1e), mRNA.
+ACCESSION   XM_005324734
+VERSION     XM_005324734.1  GI:532078023
+DBLINK      BioProject: PRJNA210856
+KEYWORDS    RefSeq.
+SOURCE      Ictidomys tridecemlineatus (thirteen-lined ground squirrel)
+  ORGANISM  Ictidomys tridecemlineatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Sciuridae; Xerinae; Marmotini; Ictidomys.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004936510.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Ictidomys tridecemlineatus
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1593
+                     /mol_type="mRNA"
+                     /isolate="#75"
+                     /sex="female"
+                     /db_xref="taxon:43179"
+                     /organism="Ictidomys tridecemlineatus"
+                     /chromosome="Unknown"
+     gene            1..1593
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 15 Proteins"
+                     /db_xref="GeneID:101968622"
+                     /gene="Htr1e"
+     CDS             272..1369
+                     /product="5-hydroxytryptamine receptor 1E"
+                     /codon_start="1"
+                     /db_xref="GI:532078024"
+                     /db_xref="GeneID:101968622"
+                     /translation="MNLTNCTTEASTTVRPKTITEKMFICLTLVIITTLTMLLNSAVIV
+                     AICTTKKLHQPANYLICSLAVTDLLVAVLVMPLSIMYIVMDSWKLGYFVCEVWLSVDMT
+                     CCTCSILHLCVIALDRYWAITNAIEYARKRTAKRAGLMILTVWTISIFISMPPLFWRSH
+                     RQLSPPPSQCTIQHDHVIYTIYSTLGAFYIPLTLILILYYRIYHAAKSLYQKRGSSRHL
+                     SNRSTDSQNSFASCKLTQTFCVSDFSTSDPTTEFEKIHTSIRIPPFDNDLDHPGERQQI
+                     SSTRERKAARILGLILGAFILSWLPFFIKELIVGLSIYTVSSEVADFLTWLGYVNSLIN
+                     PLLYTSFNEDFKLAFKKLIRCREHT"
+                     /gene="Htr1e"
+                     /protein_id="XP_005324791.1"
+ORIGIN
+        1 agcggattcc gagtgagact tctggagcca gcggaacacc ccagttctct cccagtgcga
+       61 cgcagctgca cacatcgtcc acaaggaact ttccattcag aagaaatgct gtggcccttc
+      121 tcttgaccca cagcaaacgg tgcacaataa actgcgtagc tgaagaaatt acagactcct
+      181 cacaaatgag agacattcaa ggctgcatag tctccagctg aaggaaaata accaacagct
+      241 tctccgcagt gtagattgga agaaggggaa gatgaacctc acaaactgta ccacagaagc
+      301 cagcaccact gtaagaccca agaccatcac agagaagatg tttatttgcc tgactctggt
+      361 gattatcacc accctgacca tgttgctgaa ctcggctgtg attgtggcca tctgcaccac
+      421 caagaaactc catcagcctg caaactatct aatctgctct ctggcggtga cagacctcct
+      481 ggtggcagtg ctggtcatgc ccctgagcat catgtacatt gtcatggaca gctggaagct
+      541 tgggtacttc gtctgtgagg tgtggctgag tgtggacatg acctgctgca cctgttccat
+      601 cctccatctc tgtgtgattg ccctggacag gtactgggcc atcaccaatg ctattgaata
+      661 tgccaggaag aggacagcca agcgggctgg actgatgatc ctcaccgtct ggaccatctc
+      721 tatcttcatc tccatgcccc ctctgttttg gaggagccac cgccaactca gcccaccccc
+      781 cagtcagtgc accatccagc atgaccatgt catctacacc atttactcca cacttggggc
+      841 attttatatc cccttgactt tgatcctgat tctctattac cgcatttacc atgcggccaa
+      901 gagtctttac cagaaaaggg gatcgagccg gcacttaagc aacagaagca cagacagtca
+      961 gaattctttt gcaagttgca aacttacaca gactttctgc gtgtctgact tctccacctc
+     1021 agaccctacc acagagtttg aaaagatcca cacctccatc aggatccctc ccttcgacaa
+     1081 tgatctagat cacccagggg aacgccagca aatctctagc accagagaac gcaaggcagc
+     1141 tcgcatcctg ggactgattt tgggtgcatt cattttgtct tggctgccat tcttcatcaa
+     1201 agagttgatt gtaggtctga gcatctacac tgtgtcctct gaagtggctg attttttgac
+     1261 atggcttggc tatgttaatt ctctgatcaa ccctctgttg tacacgagtt ttaatgaaga
+     1321 ctttaagctg gcttttaaaa agctcattag gtgccgagag catacttaga ttgtaaaaaa
+     1381 cccaaaagtg tgacttttac catagctcat gagtgaacgg gggtacgggg tacagcttac
+     1441 taattcttga acatacttgg ttcaggagag tttgtaagta tatgtggtct tgtttggttg
+     1501 gtttcttttt ctttttttct tttgttattt ggtgtgctgt tttctacctc tggtcttatt
+     1561 tgtggtacct catttcaaat aaacattatc ata
+//

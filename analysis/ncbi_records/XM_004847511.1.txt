@@ -1,0 +1,85 @@
+LOCUS       XM_004847511            1466 bp    DNA              ROD 18-JUN-2013
+DEFINITION  PREDICTED: Heterocephalus glaber dopamine receptor D5 (Drd5), mRNA.
+ACCESSION   XM_004847511
+VERSION     XM_004847511.1  GI:512970859
+DBLINK      BioProject: PRJNA197330
+KEYWORDS    RefSeq.
+SOURCE      Heterocephalus glaber (naked mole-rat)
+  ORGANISM  Heterocephalus glaber
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Bathyergidae; Heterocephalus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004624755.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Heterocephalus glaber Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1466
+                     /mol_type="mRNA"
+                     /isolate="NMR 29"
+                     /sex="female"
+                     /db_xref="taxon:10181"
+                     /organism="Heterocephalus glaber"
+                     /chromosome="Unknown"
+     gene            1..1466
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 21 Proteins, and 23% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101716828"
+                     /gene="Drd5"
+     CDS             1..1398
+                     /product="D(1B) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:512970860"
+                     /db_xref="GeneID:101716828"
+                     /translation="MLPPGRNGTARPPWSGLRAQEGAVGDAGPAQVLTAGLLTLLIVWT
+                     LLGNVLVCTAIVRSRHLRAKTTNVFIVSLALSDLFVALLVMPWKAVAEVAGYWPFGAFC
+                     DIWVAFDIMCSTASILNLCVISVDRYWAISRPFGYEREMTQRLALVMVGLAWTLSVLIS
+                     FIPVQLNWHRDAAGPEGGVGLPSDPANRTAWEGPREPAARAANCDSSLNRAYAISSSLI
+                     SFYIPVAIMIVTYTRIYRIAQVQIRRISSLERAAQHAQGCRSRVGSEPDASLRASMRKE
+                     TKVLKTLSVIMGVFVCCWLPFFVLNCMVPFCHGAPEDPKPGFPCVSETTFDVFVWFGWT
+                     NSSLNPIIYAFNADFRKVFAQLLGCSHLCWRTRVETVNISNELISYHQDTVFHKEVAAA
+                     YVHVIPNAVAPGDRELEDEEDPFHRMSQLCQASPDGDPAADSVWELDCDGEVSLDKITP
+                     LTPNGVH"
+                     /gene="Drd5"
+                     /protein_id="XP_004847568.1"
+ORIGIN
+        1 atgctgccgc ctgggcgcaa cggcaccgcg cgccccccgt ggtccgggct gcgggcgcag
+       61 gagggcgccg tgggggatgc ggggccggcg caggtgctca ccgctggcct cctgacgctg
+      121 ctcatcgtgt ggaccctgct gggcaacgtg ctggtgtgca cggccatcgt gcgcagccgc
+      181 cacctgcgcg ccaagacgac caacgtcttc atcgtgtccc tggccttgtc cgacctcttc
+      241 gtggcgctgc tcgtcatgcc ctggaaggcg gtggccgagg tggccggcta ctggcccttc
+      301 ggggcgttct gcgacatctg ggtggccttt gacatcatgt gttctaccgc ctccattctg
+      361 aacctgtgcg tcatcagcgt ggaccgctac tgggccatct ccaggccctt cggctacgag
+      421 cgcgagatga cccagcgctt ggccttggtc atggtgggcc tggcctggac cctgtccgtc
+      481 ctcatctcct tcattcccgt ccagctgaac tggcaccggg acgcggcggg ccccgagggt
+      541 ggggtgggcc ttccctccga cccggccaac cggacggcct gggagggccc cagggagccc
+      601 gcggcgaggg cagcgaactg tgactccagc ctgaaccggg cgtacgccat ctcctcctcg
+      661 ctcatcagct tctacatccc cgtggccatc atgatcgtga cctacacgcg catctaccgc
+      721 atcgcgcagg tgcagatccg caggatctct tccctggaga gggccgccca gcacgcgcag
+      781 ggctgccgga gccgcgtggg cagcgagccc gacgccagcc tgcgcgcgtc catgaggaag
+      841 gagaccaaag tcctcaagac gctgtcggtg atcatgggcg tcttcgtgtg ctgctggctg
+      901 cctttcttcg tccttaattg catggttcca ttctgccacg gagcccccga ggacccgaag
+      961 cccggcttcc cctgcgtcag cgagaccact tttgacgtct ttgtctggtt cggctggacc
+     1021 aattcctcgc tcaaccccat catctacgcc ttcaacgctg acttccggaa ggtgtttgcc
+     1081 cagctgctgg ggtgcagcca cctctgctgg cgcacccgtg tggagaccgt gaacatcagc
+     1141 aacgagctca tctcctacca ccaggacacc gtcttccaca aggaggtcgc ggccgcctat
+     1201 gtccacgtga tccccaatgc ggtggccccc ggggacaggg agctggagga cgaggaggac
+     1261 ccttttcatc gaatgtccca gctctgccag gcgtccccag acggcgaccc tgcggctgac
+     1321 tctgtgtggg agctggactg cgacggggag gtttccttag acaaaataac gccgctaacc
+     1381 ccaaacggag ttcattaaat ctcataagcc cttgtggatc tgcgtaagct cgtagacatg
+     1441 tacaaccaca cacaccctca cagacg
+//

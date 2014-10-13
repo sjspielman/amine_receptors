@@ -1,0 +1,89 @@
+LOCUS       XM_005229855            1648 bp    DNA              VRT 08-AUG-2013
+DEFINITION  PREDICTED: Falco peregrinus adrenoceptor alpha 2C (ADRA2C), mRNA.
+ACCESSION   XM_005229855
+VERSION     XM_005229855.1  GI:529420099
+DBLINK      BioProject: PRJNA198010
+KEYWORDS    RefSeq.
+SOURCE      Falco peregrinus (peregrine falcon)
+  ORGANISM  Falco peregrinus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Falconiformes;
+            Falconidae; Falco.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004929600.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Falco peregrinus Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1648
+                     /mol_type="mRNA"
+                     /collection_date="Oct-2010"
+                     /country="United Arab Emirates: Abu Dhabi Falcon Hospital"
+                     /sex="male"
+                     /db_xref="taxon:8954"
+                     /organism="Falco peregrinus"
+                     /chromosome="Unknown"
+     gene            1..1648
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 3 ESTs, 14 Proteins"
+                     /db_xref="GeneID:101919690"
+                     /gene="ADRA2C"
+     CDS             1..1374
+                     /product="alpha-2C adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:529420100"
+                     /db_xref="GeneID:101919690"
+                     /translation="MSMELPTIWQERQASLNVSLSGIEEQSIRCDGSTSSSDDDDNDGP
+                     PSPYPPAAVASLAAVVGFLIVFTIVGNVLVVIAVLTSRALRAPQNLFLVSLASADILVA
+                     TLVMPFSLANELMNYWYFGKAWCNIYLALDVLFCTSSIVHLCAISLDRYWSVTQAVEYN
+                     LKRTPRRIKAIILTVWLISAVISFPPLISMYRDPEGDVFPQCKLNDETWYILSSCIGSF
+                     FAPCLIMVLVYIRIYRVAKLRTRTLSEKRTMPEGSSQTENGLSRAAGGCTSLRMQLGEN
+                     GHYSVHHWRKASELEDIELEESSTSESRRRRSREEHPRKSSKSQSFSYSYSSKHSSSRL
+                     SRSSSRSMQFFSYRRRRKRSSICRKKVTQAREKRFTFVLAVVMGVFVVCWFPFFFSYSL
+                     YGICREACEVPETLFKFFFWIGYCNSSLNPVIYTIFNQDFRRSFKHILFKKKKKNFRH"
+                     /gene="ADRA2C"
+                     /protein_id="XP_005229912.1"
+ORIGIN
+        1 atgtctatgg aattgcctac aatatggcag gaaagacaag cttctctaaa tgtttctctt
+       61 tcaggcattg aagagcagtc aatacgctgt gatggcagta catcttctag tgatgatgat
+      121 gacaatgatg gcccaccctc cccctacccc ccggcggccg tggccagcct ggcggcggtg
+      181 gtgggcttcc tcatcgtctt caccatcgtg ggcaacgtgc tggtggtgat agctgtgctc
+      241 accagccggg cgctgagagc cccccagaac ctcttcctgg tgtccctggc cagcgcggac
+      301 atcctggtgg ccaccctggt catgcctttc tccttggcca acgagcttat gaattactgg
+      361 tacttcggca aggcttggtg taacatttac ctggcgctgg atgtgctctt ctgcacctcc
+      421 tccatcgtcc acctgtgtgc catcagcctc gacaggtact ggtcggtcac acaggcagtg
+      481 gagtacaacc tcaagcggac cccccggcgg atcaaggcca tcatcctcac cgtctggctc
+      541 atttcagctg tcatctcctt cccaccgttg atctccatgt accgggaccc cgagggagat
+      601 gtctttcccc agtgcaagct caatgacgag acgtggtaca tcctgtcttc ttgcattggc
+      661 tctttctttg ccccttgcct catcatggtg ttggtctata tccgcatcta ccgcgtggcc
+      721 aagctaagga ccaggaccct ctctgagaag cggacaatgc cagaggggtc ctcccagact
+      781 gagaatggct tgagccgcgc tgccggcggc tgcacgtccc tgaggatgca gctgggagag
+      841 aacggacatt attcagtgca ccactggcgc aaagcctctg agctggagga cattgagctg
+      901 gaggagagca gcacctcaga gagcaggcgg aggcggagcc gggaggagca tcctcgaaaa
+      961 agcagcaaga gccagtcctt ctcctactca tattcctcca agcactccag tagccgtctg
+     1021 tcccgctcca gcagtcgctc catgcagttc ttctcatatc gccgtcgccg gaagcgtagc
+     1081 agcatctgcc gtaagaaagt cacccaggcc cgggagaaac gcttcacttt tgtgctggcc
+     1141 gtggtcatgg gggtctttgt agtttgctgg ttccctttct tcttcagcta cagcctctat
+     1201 ggtatttgcc gggaggcatg tgaggtcccc gagacgctct tcaagttctt cttctggatt
+     1261 gggtattgca atagctccct caatccagtc atctatacca tcttcaacca agacttccgc
+     1321 aggtccttta aacacattct ttttaagaag aagaagaaga acttccggca ctgagctgga
+     1381 ggcatggatt tgccttgagc aggagtagag ttaaaagaga aggagaaggc tccatgctga
+     1441 aaaagaaagg agggaagaga acatggggtt tgggcttaga gaaaaggaag agagctcgcc
+     1501 cccttggtgg agcagaatga tgctatgggg tacagggata gtgccaggga ggctgagggc
+     1561 attcaccgcg gtgtggaatg gtgacacggt gctggaggag cggtgctgga gcgtggatgg
+     1621 gtaaatgggg aagggaatga ttgtcttt
+//

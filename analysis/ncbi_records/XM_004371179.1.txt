@@ -1,0 +1,90 @@
+LOCUS       XM_004371179            1683 bp    DNA              MAM 27-MAR-2013
+DEFINITION  PREDICTED: Trichechus manatus latirostris dopamine receptor D1
+            (DRD1), mRNA.
+ACCESSION   XM_004371179
+VERSION     XM_004371179.1  GI:471361340
+DBLINK      BioProject: PRJNA189960
+KEYWORDS    RefSeq.
+SOURCE      Trichechus manatus latirostris (Florida manatee)
+  ORGANISM  Trichechus manatus latirostris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Afrotheria; Sirenia; Trichechidae; Trichechus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004443947.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Trichechus manatus latirostris Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1683
+                     /sub_species="latirostris"
+                     /mol_type="mRNA"
+                     /isolate="Lorelei"
+                     /sex="female"
+                     /db_xref="taxon:127582"
+                     /organism="Trichechus manatus latirostris"
+                     /chromosome="Unknown"
+     gene            1..1683
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 mRNAs, 13 Proteins"
+                     /db_xref="GeneID:101349260"
+                     /gene="DRD1"
+     misc_feature    241..243
+                     /note="upstream in-frame stop codon"
+                     /gene="DRD1"
+     CDS             301..1641
+                     /product="D(1A) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:471361341"
+                     /db_xref="GeneID:101349260"
+                     /translation="MRTLNTSNMDGSGLVVERDFSFRILTACFLSLLILSTLLGNTLVC
+                     AAVIRFRHLRSKVTNFFVISLAVSDLLVAVLVMPWKAVAEIAGFWPFGSFCNIWVAFDI
+                     MCSTASILNLCVISVDRYWAISSPFRYERKMTPKAAFILIGVAWTLSVLISFIPVQLSW
+                     HKAKPSSPSDGNATSLDETTENCDSSLSRTYAISSSLISFYIPVAIMIVTYTRIYRIAQ
+                     KQIRRISALERAAVHAKNCQTTTGNGNPAECSQQESSFKTSFKRETKVLKTLSVIMGVF
+                     VCCWLPFFILNCMVPFCGSGETKPFCIDSITFDVFVWFGWANSSLNPIIYAFNADFRKA
+                     FSTLLGCYRLCPTTGNAIETVSINNNGAVVFSSHHEPRGSISKECNLVYLIPHAVGSSE
+                     DLKKVEAGGIARPLEKLSPALSVILDYDTDVSLEKIQPITQNGQHPT"
+                     /gene="DRD1"
+                     /protein_id="XP_004371236.1"
+ORIGIN
+        1 aagtgagggg ccaactggtc cctgtgacag gcccagagca cgacaatcag aagacagttg
+       61 tagaaagcaa aagggacctc tcacggggct gacttggctt gccaaggggc agaccctgcc
+      121 accctgttgt tgcagccctc tgatggaatg ctggtgaggt cctccaccca ggggagcacc
+      181 tggggctgat gtgcaagagg ctgcctggta agtgaggact cccggaggct gactgacctg
+      241 tgatccctgc ttcggaactt tagaagcgtc agagcctcta atgtgctttc cctcagcaag
+      301 atgaggactc tgaacacctc caacatggac gggtctgggc tggtggtgga gagggacttc
+      361 tccttccgca tcctcacagc ctgcttcctg tccttgctca tcttgtccac tctcctgggg
+      421 aacacgctgg tctgtgctgc cgtcatcagg ttccgacacc tgcggtccaa ggtgaccaac
+      481 ttcttcgtca tctccttggc tgtgtcagat ctcttggtgg ctgtcttggt catgccctgg
+      541 aaggcggtgg ctgagattgc tggcttctgg ccttttgggt ccttctgcaa catctgggtg
+      601 gcctttgaca tcatgtgctc cactgcgtca atcctcaatc tctgcgtgat cagcgtggac
+      661 aggtactggg ctatctccag tcccttccgg tatgagagga agatgacccc caaggcagca
+      721 ttcattctga tcggcgtggc atggaccttg tctgtgctca tttctttcat ccctgtgcag
+      781 ctcagctggc acaaggcgaa accctcaagc ccctcagatg ggaatgccac ttccctggat
+      841 gagaccacag aaaactgtga ttctagcttg agcagaacat atgccatctc gtcctcccta
+      901 ataagctttt acatccctgt ggccatcatg attgtcacgt acaccaggat ctacaggatc
+      961 gcccagaaac aaatacggcg catctcggcc ttggagaggg cggcagtcca tgccaagaat
+     1021 tgccagacaa ctacggggaa tggaaacccc gctgagtgct cccaacaaga aagttccttt
+     1081 aagacgtcct tcaaaagaga gactaaagtt ctgaagaccc tgtccgtgat catgggggtg
+     1141 tttgtgtgct gctggctgcc tttcttcatc ttgaactgca tggtgccctt ctgtgggtcc
+     1201 ggggagacca agcccttctg cattgattct atcacgtttg acgtgtttgt gtggtttgga
+     1261 tgggctaatt cctccttgaa tcccatcatc tatgccttta atgctgattt ccggaaggca
+     1321 ttttcaactc tcttaggatg ctaccgactt tgcccaacaa ctggcaatgc catcgagacg
+     1381 gttagcatca ataacaacgg agccgtggta ttttccagcc atcatgagcc gagaggctcc
+     1441 atttccaagg agtgcaatct ggtctaccta atcccacatg ctgtgggctc ctctgaggac
+     1501 ctgaagaagg tggaggcagg tggaatagcc agacctttgg agaagctgtc cccagcccta
+     1561 tctgtcatat tggactatga cactgatgtc tctcttgaga agatccagcc catcacacaa
+     1621 aatggacagc acccaacctg aaccctgaga cgaatcctgc cagacatgct catcccaaaa
+     1681 tct
+//

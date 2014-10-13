@@ -1,0 +1,83 @@
+LOCUS       XM_004644170            1539 bp    DNA              ROD 29-MAY-2013
+DEFINITION  PREDICTED: Octodon degus histamine receptor H3 (Hrh3), transcript
+            variant X1, mRNA.
+ACCESSION   XM_004644170
+VERSION     XM_004644170.1  GI:507699786
+DBLINK      BioProject: PRJNA193441
+KEYWORDS    RefSeq.
+SOURCE      Octodon degus (degu)
+  ORGANISM  Octodon degus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Octodontidae; Octodon.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004524770.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Octodon degus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1539
+                     /mol_type="mRNA"
+                     /isolate="3935"
+                     /sex="female"
+                     /db_xref="taxon:10160"
+                     /organism="Octodon degus"
+                     /chromosome="Unknown"
+     gene            1..1539
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 4 Proteins"
+                     /db_xref="GeneID:101590037"
+                     /gene="Hrh3"
+     CDS             22..1386
+                     /product="histamine H3 receptor isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:507699787"
+                     /db_xref="GeneID:101590037"
+                     /translation="MERAPPDGLLNASGALAGEAAAAAGGARGFSAAWTAVLAALMALL
+                     IVATVLGNALVMLAFVADSSLRTQNNFFLLNLAISDFLVGAFCIPLYVPYVLTGRWTFG
+                     RGLCKLWLVVDYLLCTSSVFNIVLISYDRFLSVTRAVSYRAQQGDTRRAVQKMALVWVL
+                     AFLLYGPAILSWEYLSGGSSIPEGHCYAEFFYNWYFLITASTLEFFTPFLSVTFFNLSI
+                     YLNIQRRTRLRLDGGREAGPDPPPEAQPSPPPPPPGCWGCWPKGQGESMPLHRYGPGET
+                     GPGAEATEVAPGGGSGGGAAASPTSSSGSSSRGTERPRSLKRGSKPSASSASLEKRMKM
+                     VSQSITQRFRLSRDKKVAKSLAIIVSIFGLCWAPYTLLMIIRAACHGHCVPDYWYETSF
+                     WLLWANSAVNPVLYPLCHYSFRRAFTKLLCPQKLKVQPHGSLEQCWKKMKKKTRL"
+                     /gene="Hrh3"
+                     /protein_id="XP_004644227.1"
+ORIGIN
+        1 cgtcctgtga gctgcggagc catggagcgc gcgccgcccg acgggctgct gaacgcgtcg
+       61 ggggcgctgg cgggagaggc ggcggcggct gcgggagggg cgcgcggctt ctccgccgcc
+      121 tggaccgcgg tgctggcagc gcttatggcg ctgctcatcg tggccacggt gctgggcaac
+      181 gcgctggtca tgcttgcctt cgtggccgac tcgagcctcc gcacccagaa caacttcttt
+      241 ctgctcaacc tcgccatctc cgacttcctc gtgggtgcct tctgcatccc gctgtatgtg
+      301 ccctacgtgc tgacgggccg ctggaccttc ggccggggcc tctgcaagct gtggctggtg
+      361 gtggactacc tgctgtgcac ttcttctgtc ttcaacatcg tgctcatcag ctatgaccgc
+      421 tttctgtctg tcaccagagc ggtgtcctac cgggcccagc agggtgacac acggcgggca
+      481 gtgcagaaga tggcattggt gtgggtgctc gccttcctgc tgtacgggcc agccatcctg
+      541 agctgggagt atctgtcagg aggcagctcc atccctgagg gccactgcta cgctgagttc
+      601 ttctacaact ggtacttcct catcacagcc tccaccctgg agttcttcac gcctttcctc
+      661 agtgtcactt tcttcaacct cagcatctac ctgaacatcc agcggcgcac ccgccttcgc
+      721 ctggacgggg gccgagaggc tggccctgac cccccgcctg aggcccagcc ctccccgcct
+      781 ccaccgcccc cgggctgctg gggctgctgg cccaaagggc agggggagtc catgccactg
+      841 cacaggtatg ggccgggtga gactggcccc ggcgctgagg ctacagaggt ggcccccggg
+      901 ggtggcagtg gcgggggtgc cgcagcctcg cccacctcca gctctggcag ctcctccagg
+      961 ggcacagaaa ggccacgctc cctcaagagg ggctccaagc cctctgcatc ctcagcatct
+     1021 ctggagaagc gcatgaagat ggtttctcag agcatcaccc agcgcttccg cttgtcacgg
+     1081 gacaagaagg tggccaagtc cctggccatc attgtgagca tcttcgggct ctgctgggcc
+     1141 ccgtacacac tgctaatgat catccgagct gcctgccatg gccactgcgt ccctgactac
+     1201 tggtacgaga cctccttctg gctgctgtgg gccaactcgg ccgtcaaccc tgtcctctac
+     1261 cccctgtgcc actacagctt ccgccgagcc ttcactaagc tcctctgtcc tcagaagctc
+     1321 aaggtccagc cccacggctc cctggagcag tgctggaaga agatgaagaa gaaaacacgt
+     1381 ctgtgaactt gatgttcctt ggatgtttaa tcaagagaga caaaattgcc gaggagctcg
+     1441 gggctggatt ggcaggtgtg ggctcccacg ccctcctccc tctgctgcgg cttccggctg
+     1501 agcagtgcca gctgcttctg cccgccccag ccctgggct
+//

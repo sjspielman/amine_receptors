@@ -1,0 +1,96 @@
+LOCUS       XM_005452138            1991 bp    DNA              VRT 12-SEP-2013
+DEFINITION  PREDICTED: Oreochromis niloticus 5-hydroxytryptamine receptor
+            1A-alpha-like (LOC100705226), mRNA.
+ACCESSION   XM_005452138
+VERSION     XM_005452138.1  GI:542226042
+DBLINK      BioProject: PRJNA72943
+KEYWORDS    RefSeq.
+SOURCE      Oreochromis niloticus (Nile tilapia)
+  ORGANISM  Oreochromis niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NT_167420.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Oreochromis niloticus Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1991
+                     /mol_type="mRNA"
+                     /linkage_group="LG12"
+                     /isolate="000638D3DF"
+                     /sex="female"
+                     /db_xref="taxon:8128"
+                     /organism="Oreochromis niloticus"
+     gene            1..1991
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 19 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:100705226"
+                     /gene="LOC100705226"
+     CDS             326..1609
+                     /product="5-hydroxytryptamine receptor 1A-alpha-like"
+                     /codon_start="1"
+                     /db_xref="GI:542226043"
+                     /db_xref="GeneID:100705226"
+                     /translation="MDFITTSYNDSNATSVYPSGGDVVADWNGGENGTGSGSLPDLVLS
+                     YQIITSMLLGALILCSIFGNACVVAAIALERSLQNVANYLIGSLAVTDLMVSVLVLPMA
+                     ALYQVLNKWTLGQEICDLFISLDVLCCTSSILHLCAIALDRYWAITDPIDYVNKRTPRR
+                     AAFLISVTWLIGFSISIPPMLGWRSAEDRADPDACMISQDPGYTIYSTFGAFYIPLILM
+                     LVLYGRIFRAARFRIRKTVKKAEKAKVSEKCLSVSPAIFHKKTNGEAGGKGWKRGDESK
+                     SSSPCVNGAVKHGDEGESLEIIEVISNSKTHLPLPNTPQSSSHGYENMNEKNSGAKRKI
+                     ALARERKTVKTLGIIMGTFIFCWLPFFIVALVLPFCAESCYMPEWLGAVINWLGYSNSL
+                     LNPIIYAYFNKDFQNAFKKIIKCKFHRP"
+                     /gene="LOC100705226"
+                     /protein_id="XP_005452195.1"
+ORIGIN
+        1 gacgacctcc tcccggtctg acgtacctaa agctgttggt ataaatgaat tcacggcgtc
+       61 accaagctca gatgattcgc agtaccagtg tgcgcacccg gctgtcaaca ctcatgggct
+      121 acaacacaca cagccccctc acacgcactc acaaacacgt ctgcgtcatg cgtcctgaga
+      181 gcgacagcac gagctcggta actccgatgg acccggtaaa acgcacagcg gcagcagcag
+      241 tctgaggggg ctgactgact cctgcttatt cttccactac tccccactac tttgggaaaa
+      301 gtttcgctct gtgtgtggtt gcattatgga ttttataacc acaagctaca acgacagcaa
+      361 cgcgaccagt gtttacccca gtggggggga cgtggttgcc gactggaacg ggggtgagaa
+      421 tggcacgggg tccgggtctc ttccagatct ggtgctgagt taccagatta ttacctcaat
+      481 gctcctgggg gccctcatcc tctgctccat atttggcaat gcgtgcgtcg tggcagccat
+      541 cgccctggag agatctctcc agaatgtggc caactatctg atcggatccc tggccgtgac
+      601 agacctcatg gtttctgtgc tggtcctgcc aatggcggcc ctgtatcagg ttttaaacaa
+      661 gtggactcta gggcaggaga tctgtgattt attcatctct ctggatgtac tgtgttgtac
+      721 atcatccatc ctgcatctgt gcgcaattgc tttggacagg tactgggcca taacggaccc
+      781 tattgactat gtaaataaac ggacaccaag gagagctgcg ttcttgatta gcgtcacatg
+      841 gctaattggt ttctcaattt ctattccgcc tatgttaggc tggagaagcg ccgaagacag
+      901 ggcagacccc gacgcctgca tgatcagcca ggacccgggc tacaccatct actccacgtt
+      961 tggagctttt tacattcctc ttatcctcat gttggttctg tacggacgaa tattcagagc
+     1021 tgctcggttt cggattcgaa agacagtgaa gaaagcagag aaagcaaaag tgtcagaaaa
+     1081 gtgcttgagt gtgtctccgg ccatctttca caagaaaacc aacggagagg ccggcggcaa
+     1141 aggctggaag cgcggggatg agtctaaatc cagctctccg tgcgtaaatg gcgcggtgaa
+     1201 gcatggagac gagggcgaat cattggagat catagaagtt atcagcaact caaagacgca
+     1261 cttgcctctg cccaacactc ctcagtcctc ctcgcatggc tatgaaaaca tgaatgaaaa
+     1321 gaactcgggg gcgaagagaa agatcgcgct ggccagggaa cgtaaaacgg tgaaaacact
+     1381 cggcatcatt atgggaactt tcatcttctg ctggctgccc tttttcatcg ttgcactagt
+     1441 actacctttc tgtgcagaga gctgctacat gcccgagtgg ctgggcgcag tcataaactg
+     1501 gctgggctat tcaaactctc tcctcaaccc catcatatat gcctacttca acaaagactt
+     1561 ccaaaacgct tttaagaaga ttataaaatg caaattccac agaccataac cagagtaaaa
+     1621 aaaggaaaaa acatttgcgt ttacttaaat gcggatacgt taatcagaga gcgggaatgt
+     1681 tcaatgactg tataaaaaca gcaaaaagac aaaaaaacaa caacaataca cagactttca
+     1741 ttcagggaca gtccctttta gtcgtgtgta aggatggtgt aaaaataatc caccggtgaa
+     1801 acaagtcaat atagaaactt tcgctcgtaa tgtacaagct catgtttatt cagtgttgta
+     1861 gctacagtat atagcttata tgcgacggca gccatcgttg tattgccatg caagacgtgt
+     1921 cctgtgctgt ttccatgcat tttatcatga ggcacgcggg gtttccgtcc catgtcatga
+     1981 gctgtgtagc a
+//

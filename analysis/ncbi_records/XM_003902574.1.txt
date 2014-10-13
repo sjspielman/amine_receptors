@@ -1,0 +1,97 @@
+LOCUS       XM_003902574            2113 bp    DNA              PRI 04-SEP-2012
+DEFINITION  PREDICTED: Papio anubis adrenoceptor alpha 1A, transcript variant 2
+            (ADRA1A), mRNA.
+ACCESSION   XM_003902574
+VERSION     XM_003902574.1  GI:402877845
+KEYWORDS    RefSeq.
+SOURCE      Papio anubis (olive baboon)
+  ORGANISM  Papio anubis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Papio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003875275) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Papio anubis Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2113
+                     /mol_type="mRNA"
+                     /country="USA: Southwest National Primate Research Center,
+                     San Antonio"
+                     /isolate="1X1155"
+                     /sex="female"
+                     /db_xref="taxon:9555"
+                     /organism="Papio anubis"
+                     /chromosome="8"
+     gene            1..2113
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 10 mRNAs, 8 ESTs, 21 Proteins"
+                     /db_xref="GeneID:101022117"
+                     /gene="ADRA1A"
+     misc_feature    352..354
+                     /note="upstream in-frame stop codon"
+                     /gene="ADRA1A"
+     CDS             439..1728
+                     /product="alpha-1A adrenergic receptor isoform 2"
+                     /codon_start="1"
+                     /db_xref="GI:402877846"
+                     /db_xref="GeneID:101022117"
+                     /translation="MVFLSGNASDSSNCTQPPAPVNISKAILLGVILGGLILFGVLGNI
+                     LVILSVACHRHLHSVTHYYIVNLAVADLLLTSTVLPFSAIFEVLGYWAFGRVFCNIWAA
+                     VDVLCCTASIMGLCIISIDRYIGVSYPLRYPTIVTQRRGLMALLCVWALSLVISIGPLF
+                     GWRQPAPEDETICQINEEPGYVLFSALGSFYLPLAIILVMYCRVYVVAKRESRGLKSGL
+                     KTDKSDSEQVTLRIHRKNAPAGGSGVASTKTKTHFSVRLLKFSREKKAAKTLGIVVGCF
+                     VLCWLPFFLVMPIGSFFPDIKPSETVFKIVFWLGYLNSCINPIIYPCSSQEFKKAFQNV
+                     LRIQCLRRKQSSKHALGYTLHPPSQALEGQHKDTVRIPVGSGETFYRISKTDGVCEWKF
+                     FSSMPRGSARITVSKDQSSCTTARGHTPIT"
+                     /gene="ADRA1A"
+                     /protein_id="XP_003902623.1"
+ORIGIN
+        1 gaattccgaa tcatgtgcag aatgctgaat cttccccgag ccaggacgaa tcacacaacg
+       61 cggaaaagca gactctcgta attttggaat tgcatgttgc aaggagtctc ctggatcttc
+      121 acgcccaccc tcgggtagag agggagttgg ggtccgggct aggccagccc agcaggtgga
+      181 gagggtcccg ggcagccccg cgcggccctg gccatgtcgc ctttaatgcc ctgccccttc
+      241 gtgtggcctt ctgagggttc ccagggctgg ccagggttgt ttcccacccg cgcgcgcgct
+      301 ctcactccca gccaaaccca gctggcaggg ctccctccag ccgagacctt ttgattcccg
+      361 gctcccgcgc tcccgcctcc gcgccagccc gcggggtggc cctggagagc cggacctcgc
+      421 ccggccccgg ctgggaccat ggtgtttctc tccggaaatg cttccgacag ctccaactgc
+      481 acccaaccgc cggcaccggt gaacatttcc aaggccattc tgctcggggt gatcttgggg
+      541 ggcctcattc ttttcggggt gctggggaac atcctagtga tcctctccgt agcctgtcac
+      601 cgacacctgc actcagtcac acactactac atcgtcaatc tggcggtggc cgacctcctg
+      661 ctcacctcca ctgtgctgcc cttctccgcc atcttcgagg tcttaggcta ctgggccttt
+      721 ggcagggtct tctgcaacat ctgggcggca gtggatgttc tgtgctgcac cgcgtccatt
+      781 atgggcctct gcatcatctc catcgaccgc tacatcggcg tgagctaccc gctgcgctac
+      841 ccaaccatcg tcacccagag gaggggtctc atggctctgc tctgcgtctg ggcactctcc
+      901 ctggtcatct ccatcggacc cctgttcggc tggaggcagc cggcccccga ggacgagacc
+      961 atctgccaga tcaacgagga gccgggctac gtgctcttct cagcgctggg ctccttctac
+     1021 ctgccgctgg ccatcatctt ggtcatgtac tgccgcgtct acgtggtggc caagagggag
+     1081 agccggggcc tcaagtctgg cctcaagacc gacaagtcgg actcggagca agtgacgctc
+     1141 cgcatccatc ggaaaaacgc cccggcagga ggcagcgggg tggccagcac caagaccaag
+     1201 acgcacttct cggtgaggct cctcaagttc tcccgggaga agaaagcggc caaaacgctg
+     1261 ggcatcgtgg tgggctgctt cgtcctctgc tggctacctt ttttcttagt gatgcccatt
+     1321 gggtctttct tccctgatat caagccctct gaaacagttt ttaaaatagt attttggctc
+     1381 ggatatctaa acagctgcat caaccccatc atatacccat gttccagcca agagttcaaa
+     1441 aaggcctttc agaatgtctt gagaatccag tgtctccgca gaaagcagtc ttccaaacat
+     1501 gccctgggct acaccctgca cccgcccagt caggccctgg aagggcagca caaggacacg
+     1561 gtgcgcatcc ccgtgggatc aggagagacc ttctacagga tctccaagac ggatggtgtt
+     1621 tgtgaatgga aatttttctc ttccatgccc cgtggatctg ccaggattac agtgtccaaa
+     1681 gaccaatcct cctgcaccac agcccgggga cacacaccca taacatgaag ccagcttcct
+     1741 gtccacgact gttgtcctta ctgcccaagg aaggggagca tttgaagcaa atgcacgagt
+     1801 gaagcaaacc caccactcat cctgtgaacc actgtctttg gaatccaccc caggagccca
+     1861 ggagccttgc gtgtcacatg gattgaattc tttatcaaga atccttctga ctaaggtaca
+     1921 aatccaatat attactgttg ctgatgcaag aaaaacgtaa cttaaggaat gatcatgaat
+     1981 gcaaagggca agaggaaaag agccttcgga gacaaatagc tcgatttttt gtaaatcagt
+     2041 ttcatacaac ctccctcccc catttcattc ctaaaagttc actgagaatg atcagccatg
+     2101 tgtagggtgt gag
+//

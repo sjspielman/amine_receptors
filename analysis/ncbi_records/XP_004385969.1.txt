@@ -1,0 +1,61 @@
+LOCUS       XP_004385969             476 aa                     MAM 27-MAR-2013
+DEFINITION  PREDICTED: D(1B) dopamine receptor [Trichechus manatus latirostris].
+ACCESSION   XP_004385969
+VERSION     XP_004385969.1  GI:471408776
+DBLINK      BioProject: PRJNA189960
+KEYWORDS    RefSeq.
+SOURCE      Trichechus manatus latirostris (Florida manatee)
+  ORGANISM  Trichechus manatus latirostris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Afrotheria; Sirenia; Trichechidae; Trichechus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004444086.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Trichechus manatus latirostris Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..476
+                     /sub_species="latirostris"
+                     /isolate="Lorelei"
+                     /sex="female"
+                     /db_xref="taxon:127582"
+                     /organism="Trichechus manatus latirostris"
+                     /chromosome="Unknown"
+     Protein         1..476
+                     /product="D(1B) dopamine receptor"
+                     /calculated_mol_wt="52217"
+     Region          63..358
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          77..>175
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     CDS             1..476
+                     /coded_by="XM_004385912.1:173..1603"
+                     /gene="DRD5"
+                     /db_xref="GeneID:101357326"
+ORIGIN
+        1 mlppgrngsv dserfrrqpr lvqegalggs agaaplgpaq vvtaglltll ilwtllgnvl
+       61 vcaaivrssh lrakmtnvfi vslalsdlcv allvmpwkav aevagywpfg afcnvwvafd
+      121 itcstasiln lcvisvdryw aisrpfryeh kmtqrvalvm vglawalsil iafipvqlnw
+      181 hrdkagtwgg vdppsnlanv tawdeagepe artencdssl nrtyaisssl isfyipvaim
+      241 iatytriyri aqvqirriss leraaehaqs crsrvacppd aslrvsikke tkvlktlsvi
+      301 mgvfvccwlp ffilncmvpf cighpespra gfpcvsettf dvfvwfgwan sslnpiiyaf
+      361 nadfrkvfaq llgcrhlcsr tpvetvnisn elisynqdtv lhkeiaatyi hmipnavtpg
+      421 agegdkkeeg gpfdrmsqis qtspdrdpaa esaweldceg eislgkitpf tpngfh
+//

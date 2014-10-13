@@ -1,0 +1,87 @@
+LOCUS       XM_006265525            1524 bp    DNA              VRT 09-DEC-2013
+DEFINITION  PREDICTED: Alligator mississippiensis adrenoceptor alpha 1D
+            (ADRA1D), mRNA.
+ACCESSION   XM_006265525
+VERSION     XM_006265525.1  GI:564253159
+DBLINK      BioProject: PRJNA221578
+KEYWORDS    RefSeq.
+SOURCE      Alligator mississippiensis (American alligator)
+  ORGANISM  Alligator mississippiensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Crocodylia;
+            Alligatoridae; Alligatorinae; Alligator.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006228102.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Alligator mississippiensis
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1524
+                     /mol_type="mRNA"
+                     /country="USA: Florida"
+                     /note="assembly comes from two alligators"
+                     /db_xref="taxon:8496"
+                     /organism="Alligator mississippiensis"
+                     /chromosome="Unknown"
+     gene            1..1524
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 10 Proteins, and 9% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:102563347"
+                     /gene="ADRA1D"
+     CDS             1..1524
+                     /product="alpha-1D adrenergic receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:564253160"
+                     /db_xref="GeneID:102563347"
+                     /translation="MTFPAPLNASAPEGNQTAPSPXNRSWAPGDEGAADGNGTSLSPGL
+                     DLQAVGLGVFLALFILSAIVGNILVILSVACNRHLQTVTNYFIVNLAIADLLLSTTVLP
+                     FSATLEVLGFWVFGRIFCNIWAAVDVLCCSASIMSLCIISVDRYIGVKYSLKYPAIMTE
+                     RKAVVILVVVWLSSMVISIGPLLGWKEPPPPDESICSITEEPGYALFSSLFSFYLPLAV
+                     ILVMYFRIYVVARRTTKSLEAGVKKERSKSMEVVLRIHCRSVLEDSLSSARNKGHNLRS
+                     SLSVRLLKFSREKKAAKTLAIVVGVFILCWFPFFFVLPFGSFFPSLKPSDMVFKVIFWL
+                     GYFNSCVNPLIYPCSSKEFKRAFIRLLKCQCRRRRRPLWRVYDHHWRGASMSSSGRDSD
+                     PDMKPRIATLNSSFIFHSSPQERTSQRRTLSFRGWKMHFQKPSSTQLKEKMNSLSHKIR
+                     GGSGKGSVTAAYKTEVESVSIAIPNDFTETIDYQTYDLTDCCGLRETDI"
+                     /gene="ADRA1D"
+                     /protein_id="XP_006265587.1"
+ORIGIN
+        1 atgactttcc ccgccccgct taatgccagc gcgcccgagg gcaaccagac ggcgcccagc
+       61 ccggncaacc gcagctgggc gccgggggac gagggtgccg cggatggcaa tggcacgtcg
+      121 ctgagcccgg ggctggacct gcaggcggtg gggctggggg tcttcctggc gctcttcatc
+      181 ctctcggcca tcgtgggcaa tatcctggtc atcctgtcgg tggcttgcaa ccggcacctg
+      241 cagacggtga ccaactattt catcgtcaac ttggccatcg ccgacctgct gctcagcacc
+      301 acggtgctgc ccttctcggc caccctggag gtgctgggct tctgggtctt tggtcgcatc
+      361 ttctgcaaca tctgggcagc ggtggacgtg ctgtgctgct cggcctccat catgagcctc
+      421 tgcatcatct cggtggaccg ctatatcggc gtcaagtact cgctcaagta cccggccatc
+      481 atgaccgaga ggaaagcggt ggtcatcctg gtggtggtgt ggctctcctc catggtcatc
+      541 tccatcgggc cgctgctggg ttggaaggag cccccgccgc cggacgagag catctgtagc
+      601 atcacagagg agccggggta tgccctcttc tcctctctct tctccttcta cctgcccctg
+      661 gccgtcatcc tggtgatgta cttcaggatc tacgtggtgg cccggcggac caccaagagc
+      721 ctggaggcgg gggtcaagaa ggagcggagc aagtccatgg aggtggtgct gaggatccat
+      781 tgccggagcg tgctggagga ttccctctcc agcgccagga acaaggggca caacctcagg
+      841 agctcgctct ccgtgcgcct gctcaagttc tcccgcgaga agaaggcggc caagaccctg
+      901 gctattgtgg tgggagtttt catcctctgc tggttccctt tctttttcgt cctgcccttc
+      961 ggttccttct ttccatccct gaagccgtca gacatggtct tcaaagtcat cttctggctg
+     1021 gggtacttca acagctgtgt gaaccctctc atctacccct gctcgagcaa ggagttcaag
+     1081 agagctttca tccggctgct caagtgccag tgccgccgga ggcggcgacc gctttggagg
+     1141 gtgtatgacc accactggcg gggagcctcc atgagcagct ctgggcggga ttcagaccca
+     1201 gacatgaagc ccagaattgc caccctgaac agctctttca tatttcactc ctcgccccag
+     1261 gaaagaacca gtcagaggag aacgctaagc ttcagagggt ggaaaatgca tttccagaag
+     1321 ccatcctcca cccagctgaa ggagaagatg aacagcctct cccacaaaat caggggtggc
+     1381 tcaggcaaag gnagtgtgac cgcagcttac aagacagagg ttgagtccgt ttctatagcg
+     1441 atccctaatg acttcacgga aactattgac tatcaaacgt atgacttaac ggactgctgt
+     1501 gggctgagag aaacagatat ttaa
+//

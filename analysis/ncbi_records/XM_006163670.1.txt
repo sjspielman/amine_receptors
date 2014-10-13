@@ -1,0 +1,94 @@
+LOCUS       XM_006163670            2056 bp    DNA              MAM 03-DEC-2013
+DEFINITION  PREDICTED: Tupaia chinensis histamine receptor H4 (HRH4), transcript
+            variant X1, mRNA.
+ACCESSION   XM_006163670
+VERSION     XM_006163670.1  GI:562871541
+DBLINK      BioProject: PRJNA221634
+KEYWORDS    RefSeq.
+SOURCE      Tupaia chinensis (Chinese tree shrew)
+  ORGANISM  Tupaia chinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Scandentia; Tupaiidae; Tupaia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006202563.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Tupaia chinensis Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2056
+                     /mol_type="mRNA"
+                     /country="China"
+                     /sex="male"
+                     /db_xref="taxon:246437"
+                     /organism="Tupaia chinensis"
+                     /chromosome="Unknown"
+     gene            1..2056
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 Proteins, and 99% coverage of the
+                     annotated genomic feature by RNAseq alignments, including 2
+                     samples with support for all annotated introns"
+                     /db_xref="GeneID:102488501"
+                     /gene="HRH4"
+     CDS             37..1209
+                     /product="histamine H4 receptor isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:562871542"
+                     /db_xref="GeneID:102488501"
+                     /translation="MMSGANSTSDLSPSTRNALAFLMSLLAFAIMLGNAVVILAFIVDK
+                     NLRHRSNYFFLNLAIADFFVGVISIPLYIPQVLFDWKLKNEICAFWLITDYLLCTASVY
+                     NIVLISYDRYQSVLNAVSYRAQHTGILKIATPMLAVWVLAFLVNGPMILVSQSWPKGVN
+                     KCQPGFLLIWYIPLITSFFEFLIPVILVAYFNMHIYWSIWKRSKLNRCQSSPGLASVSS
+                     SDCGHSCRCGLFPRTSLPAPKERATSLHSERQGRKNSLLLSLRMQLNNNVIASKMGSLT
+                     HSDSIALHQREHLELFRARKLAKSLAILLSVFAICWAPHSLFTIVLSTYEPENRPESHW
+                     YEVAFWLQWFNSFVNPFLYPLCHKSFQKAISKIFCIKKQPIPSHHRSISS"
+                     /gene="HRH4"
+                     /protein_id="XP_006163732.1"
+ORIGIN
+        1 caaagcttgc tatattaacc ttcttcatca cttggcatga tgtcaggtgc taatagcaca
+       61 agtgacttat caccaagcac tagaaatgct ttagcatttt taatgtcctt actagctttt
+      121 gctataatgt tgggaaatgc tgtggtcatt ttagctttca tcgtggacaa aaaccttaga
+      181 catcgaagta attatttttt tcttaacttg gccattgctg acttctttgt gggtgtgatc
+      241 tccattcctt tgtacatccc tcaggtactg tttgactgga agttgaaaaa tgaaatctgt
+      301 gcattttggc tcattaccga ctatcttttg tgtacagcgt ctgtgtataa cattgtcctc
+      361 atcagctatg atcgatacca gtcagtcttg aatgctgtgt cttatagagc tcaacacacc
+      421 gggatcttga agattgccac tccgatgttg gccgtttggg ttcttgcctt tttagtgaat
+      481 gggccaatga ttctagtttc acagtcttgg cctaaagggg ttaacaaatg ccagcctgga
+      541 tttttattaa tatggtacat accgctcatc acttcgttct ttgaattttt gatcccagtc
+      601 atcttggtcg cttatttcaa catgcatatt tactggagca tatggaagcg aagtaagctc
+      661 aatagatgcc aaagctctcc tggacttgct tctgtctctt ccagcgactg tggacactca
+      721 tgccgatgtg gactatttcc aaggacatct cttcctgcac caaaggaaag agctacatcc
+      781 cttcattcag aaagacaggg aaggaagaac agtctcttgc tttccttaag aatgcagcta
+      841 aataacaatg taattgcttc caaaatgggt tccctgaccc attcagattc catagctctt
+      901 caccaaagag aacatctgga actgttcaga gccaggaaat tagccaagtc actagctatt
+      961 cttttaagtg tttttgccat ttgctgggcc ccacattctc tgttcacaat tgttctttca
+     1021 acttacgaac cagagaaccg tcctgaatca cactggtatg aagttgcatt ttggcttcag
+     1081 tggttcaact cctttgtcaa tcctttttta tatccattgt gtcacaagag ttttcagaag
+     1141 gctatctcga aaatattttg tataaaaaag caacccatac catcacacca tcggtcaata
+     1201 tcctcttaga gataatttcc ttagttccgt aaatttttgt cctaatctca tctagataaa
+     1261 tttgatctgg ttttcatctt gccctttcca ctgtacagga aaagtccatg gaaacctaaa
+     1321 aacatttgag catggaaaag tcagtggaaa attaggccaa taataaataa aacaatatag
+     1381 taataacagt ataataatta atggacaata atgttcctgt aaactcatag ccacaaaagt
+     1441 actacatatt tccttagtca tcgcctcttt ctcattttta gatcttgata cagcattgat
+     1501 tatgaaagaa cagagttttt gtttggtttc tgtgttcagt gcttgctcca gttttaagtg
+     1561 aatttttttt ttttaattta aaaattttac ccagtttgaa aatagctccc taaagaatgc
+     1621 aagaggaaaa aaaaaagagc tgtttttaca tggtttgggt gattctgtta tgatcagtgg
+     1681 gcaggtgagt tggaaaaatg ggagcatgct caggccagct cgtgtgtatt tatatccctg
+     1741 gactcaggaa ggaaggcagt aaggcgtggc agtgggaaga gctggagatg gcagctctcc
+     1801 atggtcttca ctggtgatct gggaggcctg ggagatcaca gggttagagg acgagggaca
+     1861 ggcaatggtc accagtggtt gaaaggactg ccggtcctac tccttcctgc cctcttccaa
+     1921 gttctttatc aactaaaatt cccgttttgt gagaaactat gggaaagaga ggagctgaga
+     1981 gatggtgaga agataatgtg attaacctag atatgcctgg taaaacattc acagaactag
+     2041 tggatgttga tacttg
+//

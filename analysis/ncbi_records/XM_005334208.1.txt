@@ -1,0 +1,122 @@
+LOCUS       XM_005334208            2589 bp    DNA              ROD 21-AUG-2013
+DEFINITION  PREDICTED: Spermophilus tridecemlineatus dopamine receptor D2
+            (Drd2), transcript variant X1, mRNA.
+ACCESSION   XM_005334208
+VERSION     XM_005334208.1  GI:532097218
+DBLINK      BioProject: PRJNA210856
+KEYWORDS    RefSeq.
+SOURCE      Ictidomys tridecemlineatus (thirteen-lined ground squirrel)
+  ORGANISM  Ictidomys tridecemlineatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Sciuridae; Xerinae; Marmotini; Ictidomys.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004936612.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Ictidomys tridecemlineatus
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2589
+                     /mol_type="mRNA"
+                     /isolate="#75"
+                     /sex="female"
+                     /db_xref="taxon:43179"
+                     /organism="Ictidomys tridecemlineatus"
+                     /chromosome="Unknown"
+     gene            1..2589
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 10 mRNAs, 15 Proteins, and 15%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:101958798"
+                     /gene="Drd2"
+     CDS             129..1460
+                     /product="D(2) dopamine receptor isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:532097219"
+                     /db_xref="GeneID:101958798"
+                     /translation="MDPLNLSWYDDDLERQNWSRPFNGSEGKADRPHYNYYAMLLTLLI
+                     FVIVFGNVLVCMAVSREKALQTTTNYLIVSLAVADLLVATLVMPWVVYLEVVGEWKFSR
+                     IHCDIFVTLDVMMCTASILNLCAISIDRYTAVAMPMLYNTRYSSKRRVTVMIAIVWVLS
+                     FTISCPLLFGLNNTDQNECIIANPAFVVYSSIVSFYVPFIVTLLVYIKIYIVLRKRRKR
+                     VNTKRSSRAFRANLKAPLKGNCTHPEDMKLCTVIMKSNGSFPVNRRRLEAARRAQELEM
+                     EMLSSTSPPERTRYSPIPPSHHQLTLPDPSHHGLHSTPDSPAKPEKNGHAKDHPKIAKI
+                     FEIQSMPNGKTRTSLKTMSRRKLSQQKEKKATQMLAIVLGVFIICWLPFFITHILNIHC
+                     DCNIPPVLYSAFTWLGYVNSAVNPIIYTTFNIEFRKAFMKILHC"
+                     /gene="Drd2"
+                     /protein_id="XP_005334265.1"
+     STS             423..630
+                     /db_xref="UniSTS:266487"
+                     /standard_name="DRD2"
+                     /gene="Drd2"
+     STS             459..549
+                     /db_xref="UniSTS:262987"
+                     /standard_name="DRD2"
+                     /gene="Drd2"
+     STS             718..890
+                     /db_xref="UniSTS:267588"
+                     /standard_name="MARC_13871-13872:1007494510:1"
+                     /gene="Drd2"
+     STS             960..1140
+                     /db_xref="UniSTS:272844"
+                     /standard_name="PMC311033P6"
+                     /gene="Drd2"
+ORIGIN
+        1 ctgctgcgga aggggcggcc gcgcgtggat gcagcgggag ctggaagcct cgagcagccg
+       61 gtgcggtctc tgcccccggg cgccctatgg cttgaagagc cttgccaccc agtggctccg
+      121 ctgcccccat ggatccactg aatctgtcct ggtacgatga tgacctggag aggcagaact
+      181 ggagccggcc cttcaacggg tctgaaggaa aggcggacag gccccactac aactactatg
+      241 ccatgctgct caccctgctc atcttcgtca tcgtcttcgg gaatgtgctg gtgtgcatgg
+      301 ccgtgtcccg ggagaaggca ctgcagacca ccacgaacta cctgatcgtc agcctcgctg
+      361 tggccgacct cctcgtcgcc acgctggtca tgccctgggt tgtctacctg gaggttgtgg
+      421 gtgagtggaa attcagcagg attcattgtg acatcttcgt cactctggac gtcatgatgt
+      481 gcacagcaag catcctgaac ctgtgtgcca tcagcatcga cagatacaca gctgtggcca
+      541 tgcctatgct gtacaacaca cgctatagct ccaaacgccg agtgacagtc atgattgcca
+      601 ttgtctgggt cctgtccttc accatctcct gcccgctgct ctttggactc aacaacacag
+      661 accagaacga gtgcatcatt gccaaccctg ccttcgtggt ctactcctcc atcgtctcct
+      721 tctacgtgcc cttcatcgtc accctgctgg tctacatcaa gatctacatc gtcctccgca
+      781 agcgccgcaa gcgggtcaac actaagcgca gcagccgagc tttcagggcc aacctgaagg
+      841 ccccactcaa gggcaactgt actcaccccg aggacatgaa actctgcacc gttatcatga
+      901 agtctaatgg gagtttccca gtgaacaggc ggagattgga ggctgcccgg cgagcccagg
+      961 agctggagat ggagatgctg tccagcacca gcccgccaga gaggacccgg tacagcccca
+     1021 tcccgcccag ccaccaccag ctgactctcc ccgacccatc ccatcacggc ctccacagca
+     1081 cccccgacag ccccgccaaa ccagagaaga atgggcatgc caaagaccac cccaagattg
+     1141 ccaagatctt tgagatacag tccatgccca atggcaaaac ccggacctcg ctcaagacca
+     1201 tgagccgtag gaagctctcc cagcagaagg agaagaaagc cacgcagatg ctcgctattg
+     1261 ttcttggcgt gttcatcatc tgctggctgc ccttcttcat cacacacatc ctgaacatac
+     1321 actgtgactg caacatcccg cccgtcctgt acagcgcctt cacgtggctg ggctacgtca
+     1381 acagcgcggt gaaccccatc atctacacca ccttcaacat cgagttccgc aaggccttca
+     1441 tgaagatcct acactgctga ctctgcctcc tgcctgcaca gcagcctgct tcccgcccct
+     1501 gtccaggccg gccgggcctc ctccctgcga gctgtgggca gaaaggcctg gtgggctggg
+     1561 ccttctcttc accccgcagg ccctgccatg ttagcttggc tctgcaaccc cctctgccca
+     1621 cgcaccctca gtctgccagg gtagggcaag ggagccgggc gtggtatcag tcctggggct
+     1681 ggacccatgg ctcaggggca gctcacagag gccctgccca cctctaggcc cctctccttg
+     1741 gcaccaaaga tacagccgcc ttccttgacc tttctctggg gcaccgggtc tctggggtta
+     1801 ggggggcgag tcaaggctaa gaggctgagt gcaccctgtt tgttgggcat ggcctggttg
+     1861 tcactggcct gtgctaggac aggcagtggg aggagttcat actcctcaag gcccacaagg
+     1921 ggaaagctgg ggctctggcc aaagccccag gcagcttcag ctctgggaga tatgtaaata
+     1981 ccagacggaa caacagaccc cggagaagcc caagacaaaa ctcttagctc cctcccaggc
+     2041 cctgatgtga gcctcccctc cccacagcag tggacgtgaa gtgtccctcc agttacagct
+     2101 ctccaagagc cttccacagc cttggggaga ggaggcctaa tctccaaggg tcccgagagg
+     2161 gcctgtgggg acagaaacac ccaccagccc cctctgccac tcctgacagc cctcagacgt
+     2221 atacctccca ttgcaaatgc tggccagcct ggggagttag gatttggaca caaactctgg
+     2281 gcccgagttt ggggtcatct gaggttcttt aaggggctgc ctcctgccat actctgacac
+     2341 aaagcctctt cccttttcta ttccttctgg cctctaccct ctctcctttt cccttccagt
+     2401 gcctctgcct tagaggagcc catgtccgag aggctgctga ataccatttg acctggcctg
+     2461 gccctggcct gagggaagag gggagctgca gcttgtgggg aacccctggg tcccagactc
+     2521 tgtaacatca ctatacatgc accaaactaa taaaactttg acaagagtca ctttcagggg
+     2581 ccctttggt
+//

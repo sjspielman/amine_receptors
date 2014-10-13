@@ -1,0 +1,114 @@
+LOCUS       XM_005226092            2049 bp    DNA              MAM 05-AUG-2013
+DEFINITION  PREDICTED: Bos taurus adrenergic, beta-3-, receptor (ADRB3),
+            transcript variant X1, mRNA.
+ACCESSION   XM_005226092
+VERSION     XM_005226092.1  GI:529010048
+DBLINK      BioProject: PRJNA33843
+KEYWORDS    RefSeq.
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003104610.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Bos taurus Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2049
+                     /breed="Hereford"
+                     /db_xref="taxon:9913"
+                     /mol_type="mRNA"
+                     /organism="Bos taurus"
+                     /chromosome="27"
+     gene            1..2049
+                     /note="adrenergic, beta-3-, receptor; Derived by automated
+                     computational analysis using gene prediction method:
+                     Gnomon. Supporting evidence includes similarity to: 4 ESTs,
+                     20 Proteins, and 100% coverage of the annotated genomic
+                     feature by RNAseq alignments, including 5 samples with
+                     support for all annotated introns"
+                     /db_xref="BGD:BT10229"
+                     /db_xref="GeneID:281606"
+                     /gene="ADRB3"
+     CDS             59..1375
+                     /product="beta-3 adrenergic receptor isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:529010049"
+                     /db_xref="BGD:BT10229"
+                     /db_xref="GeneID:281606"
+                     /translation="MPPPLSRVSWETLSLIPSRPTRDAGMAPWPPGNSSLTPWPDIPTL
+                     APNTANASGLPGVPWAVALAGALLALAVLATVGGNLLVIVAIARTPRLQTMTNVFVTSL
+                     ATADLVVGLLVVPPGATLALTGHWPLGVTGCELWTSVDVLCVTASIETLCALAVDRYLA
+                     VTNPLRYGALVTKRRALAAVVLVWVVSAAVSFAPIMSKWWRIGADAEAQRCHSNPRCCT
+                     FASNMPYALLSSSVSFYLPLLVMLFVYARVFVVATRQLRLLRRELGRFPPEESPPAPSR
+                     SGSPGLAGPCASPAGVPSYGRRPARLLPLREHRALRTLGLIMGTFTLCWLPFFVVNVVR
+                     ALGGPSLVSGPTFLALNWLGYANSAFNPLIYCRSPDFRSAFRRLLCRCRPEEHLAAASP
+                     PRAPSGAPTALTSPAGPMQPPELDGLIALKVRIRFRNEG"
+                     /gene="ADRB3"
+                     /protein_id="XP_005226149.1"
+     STS             289..366
+                     /db_xref="UniSTS:271495"
+                     /standard_name="PMC164531P1"
+                     /gene="ADRB3"
+     STS             294..657
+                     /db_xref="UniSTS:506234"
+                     /standard_name="ADRB3"
+                     /gene="ADRB3"
+     STS             479..1051
+                     /db_xref="UniSTS:528345"
+                     /standard_name="MARC_68773-68774:1209743884:2"
+                     /gene="ADRB3"
+     STS             1441..1796
+                     /db_xref="UniSTS:279266"
+                     /standard_name="X85961"
+                     /gene="ADRB3"
+ORIGIN
+        1 ctcggccggt caaactgggg aagatggccc aggccaggga aatcgctccc acgccccgat
+       61 gcccccgccg ctgagcaggg tgagctggga gaccctttcc ctcattcctt cccgccccac
+      121 gcgcgacgcg gggatggctc cgtggcctcc tgggaacagc tctctgaccc cgtggccaga
+      181 tatccccacc ctggcaccca atactgccaa cgcgagtggg ctgccagggg tgccctgggc
+      241 ggtggcgctg gcgggggcgc tgttggcgct agcggtgctg gccaccgtgg gaggcaacct
+      301 gctggtaatc gtggccatcg cccggacgcc gagactccag accatgacca acgtgttcgt
+      361 gacttcgctg gccacagccg acctggtggt ggggctcctg gtcgtgcccc cgggggccac
+      421 gttggcgctg accggccact ggcccctggg cgtcaccggt tgcgagctgt ggacctcagt
+      481 ggacgtgctg tgtgtgaccg ccagcatcga aaccctgtgc gccctggcgg tggaccgcta
+      541 cctggccgtg accaacccgc tgcgctacgg cgcgctggtc accaaacgcc gcgccctagc
+      601 agccgtggtc ctggtgtggg tggtgtccgc cgcggtgtcg tttgcgccca tcatgagcaa
+      661 atggtggcgc atcggggccg atgccgaggc gcagcgttgc cactccaacc cgcgctgctg
+      721 caccttcgcc tccaacatgc cctacgcgct gctctcctcc tcggtctcgt tctatcttcc
+      781 gctcctggtg atgctcttcg tctacgcacg agttttcgtg gtggccacgc gccagctgcg
+      841 cttgctgcgc cgggagctgg gtcgcttccc gccagaggag tctccgccgg ctccttctcg
+      901 ctccggatcc cctggcctgg cggggccgtg cgcctcgccc gcgggggtgc cctcctacgg
+      961 ccggcggccg gcgcgccttc tgcctctgcg ggaacaccgc gccctgcgca ccttggggct
+     1021 catcatggga accttcactc tctgctggtt gcctttcttt gtggtcaacg tggtgcgcgc
+     1081 cctcgggggc ccctctctgg tgtccggccc cactttcctc gcccttaact ggctgggcta
+     1141 tgccaactct gccttcaacc cgctcatcta ctgccgcagc ccggactttc ggagcgcctt
+     1201 ccgccgcctg ctgtgtcgct gccggccgga ggagcacctc gccgctgcct ccccgccccg
+     1261 agccccctcc ggcgccccca cggccctgac cagccccgct ggccccatgc agcccccaga
+     1321 gctcgacggt ctgatagccc tgaaggtgag gattcgcttc cggaatgaag gctaggcggg
+     1381 ctgaggaagc tggcttcctg cggactttct taggccttga agaaacaact ccattgatcc
+     1441 ggaacctttg gaaagcctct ggccggcctc ggttcagaat gagccccgtg gagtttccca
+     1501 gctggaaaac tctgccctcc ccagcctgac gactgggtcc tgggaggagg cgcgggggct
+     1561 gactggggag gggaaatcct taccaagtgg gttttcgctc tctttctgag agaagttttc
+     1621 tacaccccag ccctgaactt caccgctgcc tcagcagctc ccgcgtctgg tttcccatgc
+     1681 ccaggtgccc gggcaggagc tgggctgcgt ttagccccgg gacccgcacc tgtcccactc
+     1741 gggtgctgtg tgcgcagggg caaggcgggc accttcattc tgttccttct gccgcccaga
+     1801 ccctgaggaa cccaccgggg tgctggaggc ccaggctgag aagaggaagg tggggaaggt
+     1861 cacggtttgg gcttctgtcc ctggcttcct cactgtagac acacctacct cacagcattt
+     1921 tcaggacttt actttagcct ttggggtggg ggtggggggg cgctcctggt ttcctgggaa
+     1981 ggtgaaccat tagaatgggt cccttttcct tttgaaatca aattaataaa tgttactgaa
+     2041 tgcagttta
+//

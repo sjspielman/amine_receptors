@@ -1,0 +1,61 @@
+LOCUS       XP_002197113             464 aa                     VRT 12-FEB-2013
+DEFINITION  PREDICTED: alpha-1A adrenergic receptor [Taeniopygia guttata].
+ACCESSION   XP_002197113
+VERSION     XP_002197113.1  GI:224080806
+DBLINK      BioProject: PRJNA32405
+KEYWORDS    RefSeq.
+SOURCE      Taeniopygia guttata (zebra finch)
+  ORGANISM  Taeniopygia guttata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Estrildidae; Estrildinae; Taeniopygia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_002197932.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Taeniopygia guttata Annotation Release 101
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..464
+                     /isolate="Black17"
+                     /sex="male"
+                     /organism="Taeniopygia guttata"
+                     /chromosome="22"
+                     /db_xref="taxon:59729"
+     Protein         1..464
+                     /product="alpha-1A adrenergic receptor"
+                     /calculated_mol_wt="50600"
+     Region          39..341
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          49..326
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..464
+                     /coded_by="XM_002197077.1:1..1395"
+                     /gene="ADRA1A"
+                     /db_xref="GeneID:100227070"
+ORIGIN
+        1 mallpgnsse csncthsvep vniskaillg vilggligfg vlgnilvils vachrhlqsv
+       61 thyyiinlav adllltstvl pfsatmeilg ywvfgrifcn iwaavdvlcc tasimslcvi
+      121 sidryigvsy plrypsivte rrgllallcv walslvisig plfgwkepap edeticqite
+      181 epgyvlfsal gsfylpliii lvmycrvyvv akrenkgltc glkteksrse evtlrihrkn
+      241 argasgstpn pkskhhfsvr llkfsrekka aktlgivvgc fvlcwlpffv vmplgsffpa
+      301 ikppdtlfki tfwlgylnsc inpiiypcss qefkkafhnv lraqcllrkq pavkqtpsfn
+      361 lnhpageste sgkgvvripv gsgetfykis ksdgvcewki fstvqgapak navskdctaa
+      421 kakskgflqe cccagtsgsl irenckvptt kihsislses gedv
+//

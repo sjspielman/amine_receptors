@@ -1,0 +1,91 @@
+LOCUS       XM_005493052            1513 bp    DNA              VRT 12-SEP-2013
+DEFINITION  PREDICTED: Zonotrichia albicollis 5-hydroxytryptamine (serotonin)
+            receptor 4, G protein-coupled (HTR4), mRNA.
+ACCESSION   XM_005493052
+VERSION     XM_005493052.1  GI:542169105
+DBLINK      BioProject: PRJNA217032
+KEYWORDS    RefSeq.
+SOURCE      Zonotrichia albicollis (white-throated sparrow)
+  ORGANISM  Zonotrichia albicollis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Fringillidae; Emberizinae; Emberizini; Zonotrichia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005081710.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Zonotrichia albicollis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1513
+                     /mol_type="mRNA"
+                     /isolate="Tan morph"
+                     /sex="male"
+                     /db_xref="taxon:44394"
+                     /tissue_type="hematocrit"
+                     /organism="Zonotrichia albicollis"
+                     /chromosome="Unknown"
+     gene            1..1513
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 1 EST, 2 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 1 sample with support for all
+                     annotated introns"
+                     /db_xref="GeneID:102063853"
+                     /gene="HTR4"
+     CDS             55..1368
+                     /product="5-hydroxytryptamine receptor 4"
+                     /codon_start="1"
+                     /db_xref="GI:542169106"
+                     /db_xref="GeneID:102063853"
+                     /translation="MEELDVNVSSSEGFGIAEKILLLSFVSAVILMAILGNLLVMVAVC
+                     RDRQLRKIKTNYFIVSLAFADLLVSVLVMPFGAMELVQDNWIYGEMFCLVRTSLDVLLT
+                     TASILHLCCISLDRYYAICCQPLVYRNKMTPLRIALMLGGCWVIPTFISFLPIMQGWNS
+                     IGIIDLIQQRQFNKASNSTYCIFMVNKPYAITCSVVAFYIPFLLMVLAYHRIYVTARAH
+                     ARQIRLLQRAGNPAEPRQGPQEPRQSLQETQQHLQETHQGLQEPRQGQHPQEPHQGPQE
+                     PRLDPQEPWRGLHEPQQHPQEPHQGLQEPRQHPPDQHSSHRMKTETKAAKTLCIIMGCF
+                     CLCWAPFFVTNIVDPFINYTVPGKLWTAFLWLGYINSGLNPFLYAFLNKAFRRAFLIIL
+                     CCGDERYRRPSILGQTVPCSTTTINGSTHVLRVNSWKC"
+                     /gene="HTR4"
+                     /protein_id="XP_005493109.1"
+ORIGIN
+        1 tgaggtctct cctatggaca ttgaactccc agctgcctga gcctgctgcc tgtgatggaa
+       61 gagctggatg tgaatgtgag ttccagtgag ggcttcggca tcgcggagaa gatcctgctg
+      121 ctctccttcg tctctgccgt catcctcatg gccatcctgg gcaacctgct ggtcatggtg
+      181 gccgtgtgcc gggacaggca gctccggaaa atcaagacca actatttcat cgtgtccctg
+      241 gcctttgctg acctgctggt gtcggtgctg gtgatgccct ttggagccat ggagctggtc
+      301 caggacaact ggatctatgg ggagatgttc tgcctggtga ggacctcgct ggacgtgctg
+      361 ctgaccacag cgtccatcct gcacctctgc tgcatctccc tggacaggta ctatgccatc
+      421 tgctgccagc ccctggtgta caggaacaag atgaccccgc tgcgcatcgc gctgatgctg
+      481 gggggctgct gggtgatccc caccttcatc tccttcctcc ccatcatgca gggctggaac
+      541 agcataggca tcattgatct gatccagcaa aggcagttca acaaggcctc caactccacc
+      601 tactgcatct tcatggtgaa caagccgtac gccatcacct gctccgtggt ggccttctac
+      661 atccccttcc tgctgatggt gctggcctac caccgcatct acgtgacggc gcgggcgcac
+      721 gcgcggcaga tccgcctgct gcagcgcgcg gggaacccgg ccgagccccg ccagggcccc
+      781 caggagccac ggcagagcct tcaggagaca cagcaacacc tccaggagac acatcagggc
+      841 cttcaggaac cacggcaggg ccaacacccc caggagccac atcagggccc tcaggagcca
+      901 cggctggacc ctcaggaacc atggcggggc cttcacgagc cacagcaaca cccccaggag
+      961 ccacatcagg gcctgcagga gccacggcag cacccccctg accagcacag cagccaccgc
+     1021 atgaaaacag agaccaaagc tgccaagacc ctgtgcatca tcatgggctg cttctgcctc
+     1081 tgctgggccc ccttctttgt caccaatatc gtggatccct tcattaacta cacggtgcct
+     1141 ggcaagctgt ggacggcctt cctgtggctg ggctacatca actcgggctt gaaccctttc
+     1201 ctctacgcct tcctcaacaa ggctttcaga cgtgccttcc tcatcatcct ctgctgcggc
+     1261 gacgagcgct accgaaggcc ttccatcctg ggccagactg tgccctgctc caccaccacc
+     1321 atcaacggct ccacgcacgt gctgagggta aacagctgga agtgttgaac tcactgccag
+     1381 aggcttcagg cagacacttt gtgccacacg acatcctggg acacctcaat gactcctctt
+     1441 tagcttaatg aacctctaac aatcagcacc acctgctctt gctgctcttg ctccactctg
+     1501 ggacggccgc aga
+//

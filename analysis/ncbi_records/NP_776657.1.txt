@@ -1,0 +1,169 @@
+LOCUS       NP_776657                405 aa                     MAM 26-JAN-2014
+DEFINITION  beta-3 adrenergic receptor [Bos taurus].
+ACCESSION   NP_776657
+VERSION     NP_776657.1  GI:27806327
+KEYWORDS    RefSeq.
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (residues 1 to 405)
+  AUTHORS   Hu J, Zhou H, Smyth A, Luo Y and Hickford JG.
+  TITLE     Polymorphism of the bovine ADRB3 gene
+  JOURNAL   Mol. Biol. Rep. 37 (7), 3389-3392 (2010)
+   PUBMED   20091127
+  REMARK    GeneRIF: Variation in the promoter region of bovine ADRB3 was
+            investigated.
+REFERENCE   2  (residues 1 to 405)
+  AUTHORS   Zimin AV, Delcher AL, Florea L, Kelley DR, Schatz MC, Puiu D,
+            Hanrahan F, Pertea G, Van Tassell CP, Sonstegard TS, Marcais G,
+            Roberts M, Subramanian P, Yorke JA and Salzberg SL.
+  TITLE     A whole-genome assembly of the domestic cow, Bos taurus
+  JOURNAL   Genome Biol. 10 (4), R42 (2009)
+   PUBMED   19393038
+REFERENCE   3  (residues 1 to 405)
+  AUTHORS   Kou R and Michel T.
+  TITLE     Epinephrine regulation of the endothelial nitric-oxide synthase:
+            roles of RAC1 and beta3-adrenergic receptors in endothelial NO
+            signaling
+  JOURNAL   J. Biol. Chem. 282 (45), 32719-32729 (2007)
+   PUBMED   17855349
+  REMARK    GeneRIF: small G protein Rac1 is a key regulator of beta(3)AR
+            signaling in cultured aortic endothelial cells with potentially
+            important implications for the pathways involved in adrenergic
+            modulation of eNOS pathways in the vascular wall
+REFERENCE   4  (residues 1 to 405)
+  AUTHORS   Carron J, Morel C, Hammon HM and Blum JW.
+  TITLE     Ontogenetic development of mRNA levels and binding sites of hepatic
+            beta-adrenergic receptors in cattle
+  JOURNAL   Domest. Anim. Endocrinol. 28 (3), 320-330 (2005)
+   PUBMED   15760672
+  REMARK    GeneRIF: beta 1,2 and 3-adrenergic receptors in cattle were
+            positively associated with hepatic activities of gluconeogenetic
+            enzymes and with plasma glucose levels, suggesting functional
+            importance
+REFERENCE   5  (residues 1 to 405)
+  AUTHORS   Inderwies T, Pfaffl MW, Meyer HH, Blum JW and Bruckmaier RM.
+  TITLE     Detection and quantification of mRNA expression of alpha- and
+            beta-adrenergic receptor subtypes in the mammary gland of dairy cows
+  JOURNAL   Domest. Anim. Endocrinol. 24 (2), 123-135 (2003)
+   PUBMED   12586313
+  REMARK    GeneRIF: of the beta-adrenergic receptors, adrenergic
+            beta(2)-receptor type was most highly expressed in the mammary gland
+            of dairy cows followed by beta(1) and beta(3)
+REFERENCE   6  (residues 1 to 405)
+  AUTHORS   Forrest RH and Hickford JG.
+  TITLE     Rapid communication: nucleotide sequences of the bovine, caprine,
+            and ovine beta3-adrenergic receptor genes
+  JOURNAL   J. Anim. Sci. 78 (5), 1397-1398 (2000)
+   PUBMED   10834601
+REFERENCE   7  (residues 1 to 405)
+  AUTHORS   Pietri-Rouxel F, Lenzen G, Kapoor A, Drumare MF, Archimbault P,
+            Strosberg AD and Manning BS.
+  TITLE     Molecular cloning and pharmacological characterization of the bovine
+            beta 3-adrenergic receptor
+  JOURNAL   Eur. J. Biochem. 230 (1), 350-358 (1995)
+   PUBMED   7601122
+REFERENCE   8  (residues 1 to 405)
+  AUTHORS   Casteilla L, Muzzin P, Revelli JP, Ricquier D and Giacobino JP.
+  TITLE     Expression of beta 1- and beta 3-adrenergic-receptor messages and
+            adenylate cyclase beta-adrenergic response in bovine perirenal
+            adipose tissue during its transformation from brown into white fat
+  JOURNAL   Biochem. J. 297 (PT 1), 93-97 (1994)
+   PUBMED   7904157
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from X85961.1.
+            ##Evidence-Data-START##
+            Transcript exon combination :: X85961.1, BC116092.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+            SRS369781, SRS369782 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..405
+                     /db_xref="taxon:9913"
+                     /organism="Bos taurus"
+                     /chromosome="27"
+                     /map="27"
+     Protein         1..405
+                     /note="adrenergic, beta 3, receptor; beta-3 adrenoceptor;
+                     beta-3 adrenoreceptor"
+                     /product="beta-3 adrenergic receptor"
+                     /calculated_mol_wt="42772"
+     Site            37..63
+                     /note="propagated from UniProtKB/Swiss-Prot (P46626.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          54..>145
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          60..346
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Site            73..91
+                     /note="propagated from UniProtKB/Swiss-Prot (P46626.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            112..133
+                     /note="propagated from UniProtKB/Swiss-Prot (P46626.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            156..178
+                     /note="propagated from UniProtKB/Swiss-Prot (P46626.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          198..212
+                     /note="propagated from UniProtKB/Swiss-Prot (P46626.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Agonist and antagonist binding (By
+                     similarity)"
+     Site            204..225
+                     /note="propagated from UniProtKB/Swiss-Prot (P46626.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            293..314
+                     /note="propagated from UniProtKB/Swiss-Prot (P46626.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          305..312
+                     /note="propagated from UniProtKB/Swiss-Prot (P46626.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Agonist and antagonist binding (By
+                     similarity)"
+     Site            327..347
+                     /note="propagated from UniProtKB/Swiss-Prot (P46626.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          332..336
+                     /note="propagated from UniProtKB/Swiss-Prot (P46626.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Agonist and antagonist binding (By
+                     similarity)"
+     CDS             1..405
+                     /coded_by="NM_174232.2:107..1324"
+                     /gene="ADRB3"
+                     /db_xref="BGD:BT10229"
+                     /db_xref="GeneID:281606"
+ORIGIN
+        1 mapwppgnss ltpwpdiptl apntanasgl pgvpwavala gallalavla tvggnllviv
+       61 aiartprlqt mtnvfvtsla tadlvvgllv vppgatlalt ghwplgvtgc elwtsvdvlc
+      121 vtasietlca lavdrylavt nplrygalvt krralaavvl vwvvsaavsf apimskwwri
+      181 gadaeaqrch snprcctfas nmpyallsss vsfylpllvm lfvyarvfvv atrqlrllrr
+      241 elgrfppees ppapsrsgsp glagpcaspa gvpsygrrpa rllplrehra lrtlglimgt
+      301 ftlcwlpffv vnvvralggp slvsgptfla lnwlgyansa fnpliycrsp dfrsafrrll
+      361 crcrpeehla aaspprapsg aptaltspag pmqppeldga scgls
+//

@@ -1,0 +1,59 @@
+LOCUS       XP_002690302             343 aa                     MAM 05-AUG-2013
+DEFINITION  PREDICTED: trace amine-associated receptor 6 [Bos taurus].
+ACCESSION   XP_002690302
+VERSION     XP_002690302.1  GI:297478672
+DBLINK      BioProject: PRJNA33843
+KEYWORDS    RefSeq.
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003104220.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Bos taurus Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..343
+                     /db_xref="taxon:9913"
+                     /breed="Hereford"
+                     /organism="Bos taurus"
+                     /chromosome="9"
+     Protein         1..343
+                     /product="trace amine-associated receptor 6"
+                     /calculated_mol_wt="38168"
+     Region          44..>271
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          56..311
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..343
+                     /coded_by="XM_002690256.1:1..1032"
+                     /gene="LOC785080"
+                     /db_xref="BGD:BT17930"
+                     /db_xref="GeneID:785080"
+ORIGIN
+        1 mssnssptaa vqlcyehlng scvktpyspa srvilymvyg fggvlavfgn llvmtailhf
+       61 kqlhsptnfl iaslactdfv lgvtvmpfsm vrsvencwyf gqsfcalhtc cdvafcyssl
+      121 fhlcfisidr yiavtdplvy ptkftvsvsc icisiswilp itysgavfyt ganengleel
+      181 ssalncvggc qivinqnwvl vhflsffipt fvmlilycni flvarqqakk ienisskres
+      241 ssdsyksrva krerkaaktl gitviafmis wlpysidsli dafmgfitla yiyeiccwct
+      301 yynsamnpli yalfypwfrk aikvivsggv fkngsasmnl fse
+//

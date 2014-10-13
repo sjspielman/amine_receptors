@@ -1,0 +1,58 @@
+LOCUS       XP_004317551             367 aa                     MAM 25-MAR-2013
+DEFINITION  PREDICTED: D(3) dopamine receptor isoform 2 [Tursiops truncatus].
+ACCESSION   XP_004317551
+VERSION     XP_004317551.1  GI:470617558
+DBLINK      BioProject: PRJNA189944
+KEYWORDS    RefSeq.
+SOURCE      Tursiops truncatus (bottlenosed dolphin)
+  ORGANISM  Tursiops truncatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Cetacea;
+            Odontoceti; Delphinidae; Tursiops.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004199850.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Tursiops truncatus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..367
+                     /db_xref="taxon:9739"
+                     /organism="Tursiops truncatus"
+                     /chromosome="Unknown"
+                     /sex="female"
+     Protein         1..367
+                     /product="D(3) dopamine receptor isoform 2"
+                     /calculated_mol_wt="40759"
+     Region          44..>234
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          52..350
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..367
+                     /coded_by="XM_004317503.1:1..1104"
+                     /gene="DRD3"
+                     /db_xref="GeneID:101333378"
+ORIGIN
+        1 maplsqlggh inttcaaens tgasrarpha yyalsycvli laiifgnglv cvavlkeral
+       61 qtttnylvvs lavadllvat lvmpwvvyle vtggvwnfsr vccdvfvtld vmmctasiln
+      121 lcaisidryt avvmpvhyqh gtgqsscrrv tlmitavwvl afavscpllf gfnttgdpsi
+      181 csisnpdfvl yssvvsfylp fgvtvlvyar iyvvlrqrrr kriltrqnsq cisvrpgfpq
+      241 qplspgqthm elkryysicq dtvlgrpgfq egegelkreg rtrnslmplr ekkatqmlvm
+      301 vlgtfivcwl pfflthilnt hcqachvspe lysattwlgy vnsalnpviy ttfniefrka
+      361 flkilsc
+//

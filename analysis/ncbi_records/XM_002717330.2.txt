@@ -1,0 +1,136 @@
+LOCUS       XM_002717330            3610 bp    DNA              MAM 13-JUN-2014
+DEFINITION  PREDICTED: Oryctolagus cuniculus cholinergic receptor, muscarinic 3
+            (CHRM3), mRNA.
+ACCESSION   XM_002717330
+VERSION     XM_002717330.2  GI:655859377
+DBLINK      BioProject: PRJNA42933
+KEYWORDS    RefSeq; corrected model.
+SOURCE      Oryctolagus cuniculus (rabbit)
+  ORGANISM  Oryctolagus cuniculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha; Leporidae;
+            Oryctolagus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003159299.1) and transcript sequence (GBCJ01212253.1) annotated
+            using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Jun 13, 2014 this sequence version replaced gi:291402117.
+            ##RefSeq-Attributes-START##
+            assembly gap :: added 523 transcript bases to patch genome assembly
+            gap
+            ##RefSeq-Attributes-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Oryctolagus cuniculus Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3610
+                     /db_xref="taxon:9986"
+                     /mol_type="mRNA"
+                     /organism="Oryctolagus cuniculus"
+                     /chromosome="16"
+     gene            1..3610
+                     /note="The sequence of the model RefSeq transcript was
+                     modified relative to its source genomic sequence to
+                     represent the inferred CDS: added 523 bases not found in
+                     genome assembly; Derived by automated computational
+                     analysis using gene prediction method: Gnomon. Supporting
+                     evidence includes similarity to: 37 Proteins, and 99%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:100355313"
+                     /gene="CHRM3"
+     CDS             1223..2995
+                     /product="muscarinic acetylcholine receptor M3"
+                     /codon_start="1"
+                     /db_xref="GI:291402118"
+                     /db_xref="GeneID:100355313"
+                     /translation="MTLHNNSTTSPLFPNISSSWIHGPSDAGLPPGTVTHFGSYNVSRA
+                     AGNFSSPNGTTSDPLGGHTLWQVVFIAFLTGFLALVTIIGNILVIVSFKVNKQLKTVNN
+                     YFLLSLACADLIIGVISMNLFTTYIIMNRWALGNLACDLWLSIDYVASNASVMNLLVIS
+                     FDRYFSITRPLTYRAKRTTKRAGVMIGLAWVISFVLWAPAILFWQYFVGKRTVPPGECF
+                     IQFLSEPTITFGTAIAAFYMPVTIMTILYWRIYKETEKRTKELAGLQASGTEAEVENFV
+                     HPTGSSRSCSSYELQQQSMRHSSRRKYGRCHFWFTTKSWKPSAEQMDQDHSSSDSWNNN
+                     DAAASLENSASSDEEDIGSETRAIYSIVLKLPGHSTILNSTKLPSTDNLQVSEEELGTG
+                     DVERKTNKLQSQKSVDDGGSFQKSFSKIPIQLESAVDTDKTSDVNSSVGKTTATLPLSF
+                     KEATLAKRFALKTRSQITKRKRMSLIKEKKAAQTLSAILLAFIITWTPYNIMVLVNTFC
+                     DSCIPKTYWNLGYWLCYINSTVNPVCYALCNKTFRTTFKMLLLCQCDKRKRRKQQYQQR
+                     QSVIFHKRVPEQAL"
+                     /gene="CHRM3"
+                     /protein_id="XP_002717376.1"
+     STS             1575..1854
+                     /db_xref="UniSTS:253965"
+                     /standard_name="CHRM3"
+                     /gene="CHRM3"
+ORIGIN
+        1 caaaatctgc ccttgaaaaa ccggagcacg tgggaacacg tgaggccagg atgggtgcaa
+       61 gaggcgctcc ggcttccatc ttcgattaac accttgtagg agcccacccg gggagacccg
+      121 tggatcctcc ctcgccacac gccgggccga gaacgcggag ccaagccggc acgcgagagt
+      181 ccaacgaggc gccggccagg caactgggca tgctcaaaag ccaggacggt ctgaggctcc
+      241 accaggcagc cagtgcatta ccagcgcccg cggcgcgagg aggaggagga agaggagcgg
+      301 ccaacagtag cggcgaccgc caccaccagg cagaggaaga gttccgaggg aggcagagac
+      361 cctcctcccc cttggtgcgc cttctgtccg cttttggaaa aaaagaaaaa aggaaatata
+      421 tgataaagaa ggagaaagga agggaaagaa gaaaaaagtg aggggaaggc ataggcacag
+      481 aaaagaaaaa gaaaggcgtg aagagaaagg gccagagcgc gccggggaac gggggcggca
+      541 ctgccgagcc ccgagcgctg ccgctggggc aggtgccgcg gccgctgccc ggaggcggca
+      601 tgtgacgcgc ggccgcagct gccctcgggc gggcggagcg cgctcggacc cgggagcgca
+      661 cacaccgcgg ggcaagtcgt tgccgccgcg ggtcgccgcg ctcctcgtcg gtcctcctgg
+      721 gcggcagcag cgcttctgag aagccgggcg atgaaccgaa gggcggctcc gggctggggc
+      781 gcgcgagcct aaggacagcc gcttccctga acgccgaggg ggacgagacc agggcccgcg
+      841 gagcgggcgg cgtccgcgcg tcgaccgaga aggcgctgtg gagaccggcg tgggaccgcc
+      901 acctggagcg cagctgccag ccagatatgc acagtaatgg cacatacatc agttgcgagt
+      961 tgctcagagg actgtgagtt gggtgaaccg tgtccatctc catcaagatg tacagcacca
+     1021 gggctcttga tgtatagcac ctgtgttctg attagtggcc agatgaataa cattcagaac
+     1081 ttccactaag gtacagtaag atactttggt gtcatggaac ctggtttctt tccacaagga
+     1141 aagtttggca aacagcgcag tctttaatac attgtattgg tttgatgatc ctacctgata
+     1201 tagactatgt cagagagtca caatgacctt gcacaataac agtacaacct cgcctttgtt
+     1261 tccaaacatc agctcttcct ggatccacgg cccctcagat gcagggctgc ccccagggac
+     1321 agtcactcat tttggcagct acaatgtttc tcgagcagct gggaatttct cctctccaaa
+     1381 tggtaccacc agtgaccctc tgggaggcca taccctctgg caagtggtct tcatcgcatt
+     1441 cttaacaggc ttcctggcct tggtgaccat cattggcaat atcctggtca tcgtgtcatt
+     1501 taaggtcaac aagcagctga agacggtcaa caactacttc ctcttaagcc tggcctgtgc
+     1561 tgatctgatt attggggtca tttcaatgaa tctgtttact acctacatca tcatgaaccg
+     1621 atgggcttta ggtaacttgg cctgtgacct ctggctttcc attgattacg tggccagcaa
+     1681 tgcctctgtc atgaatcttc tggtcattag ctttgacagg tacttttcca tcacaaggcc
+     1741 actcacgtac cgagccaaac gaacaacaaa aagagctggt gtgatgattg gtctagcttg
+     1801 ggtcatctcc tttgtccttt gggctcctgc catcttgttc tggcagtact ttgtggggaa
+     1861 gagaactgtg cccccagggg aatgtttcat tcagttcctc agtgagccta ccatcacctt
+     1921 cggcacggct atcgctgcct tttatatgcc tgtcactatt atgactattt tatactggag
+     1981 gatctataag gaaactgaaa aacgtaccaa agagcttgct gggctgcaag cctcggggac
+     2041 agaggcagag gtggagaact ttgtacatcc tacaggcagt tcccgaagct gcagcagcta
+     2101 tgagctacag cagcaaagca tgagacactc ttccaggaga aagtatggcc gctgccactt
+     2161 ctggttcaca accaagagct ggaagcccag tgctgagcaa atggaccaag accacagcag
+     2221 cagtgacagc tggaacaaca acgatgctgc tgcctccctg gaaaactctg cctcctccga
+     2281 cgaggaggac attggctctg agacgagagc catctactca attgtgctca agctgcccgg
+     2341 tcacagcacc attctcaact ctaccaagtt accctcaaca gacaacctgc aggtgtccga
+     2401 ggaggagctg gggacagggg atgtggagag gaaaaccaac aagcttcagt ctcagaagag
+     2461 cgtagatgat ggaggcagtt ttcaaaaaag cttctcaaag attcccattc agttagagtc
+     2521 agccgtggac acagacaaga cttcagatgt caactcctca gtgggtaaga ccacggccac
+     2581 tctacctctg tccttcaagg aagccactct ggccaagaga tttgctctga agactagaag
+     2641 tcagatcacg aaacggaaac ggatgtctct catcaaggag aagaaggcag cccagaccct
+     2701 cagcgcgatc ttgcttgcct tcatcatcac ctggaccccc tacaatatca tggttctggt
+     2761 gaacaccttt tgtgacagct gcatacccaa aacttattgg aatctgggct actggctgtg
+     2821 ctacatcaac agcaccgtga accccgtgtg ctatgccctg tgcaacaaaa cattcagaac
+     2881 cacgttcaag atgctgctgc tgtgccagtg tgacaagagg aagcggcgca agcagcagta
+     2941 ccagcaaaga cagtcggtca tttttcacaa gcgcgtgcct gagcaggcct tatagaatga
+     3001 ggttttattg atagcagtga caaaatgcac acatcaaccc acagacctta ggataagtga
+     3061 ggtgcgggtg ggggttatct ctggtgatga cataaaacat ttttatcacc cagatgtgaa
+     3121 agaagctgtc tgtttactga tccattgaat agacccactt taatatgaaa atcaaatatc
+     3181 gatccagcaa aaaaaaaaaa gcgtactact gaatataaag aaaattattc tgaaatagac
+     3241 tttatgtgtt tttcttaaag aggaaaaaat atattgcttc acagcaatta tacacccgaa
+     3301 ttgaattgcc tgggtctttt cattcccatt agctctggaa tctcagatga gcatagcagg
+     3361 cccagttgcc acgttcttcc caaggatctc aagagagtcg atccagatcc cacgtggaac
+     3421 acagcaggct agtgaatctg tggttctgaa atgatttcat gtgttgcaga gctgaacctt
+     3481 ctggtccctg tagagcttcc tgtctttcct ttggtgtgat gttaaactct atttgtggac
+     3541 tgattcttgc aaagtactgt tttgtgcagt tcaagtttcg tacaaataaa actacataag
+     3601 tatatataca
+//

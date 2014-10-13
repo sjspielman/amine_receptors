@@ -1,0 +1,97 @@
+LOCUS       NM_001205448            1476 bp    DNA              MAM 11-SEP-2013
+DEFINITION  Bos taurus 5-hydroxytryptamine (serotonin) receptor 2B (HTR2B),
+            mRNA.
+ACCESSION   NM_001205448
+VERSION     NM_001205448.1  GI:329664315
+KEYWORDS    RefSeq.
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (bases 1 to 1476)
+  AUTHORS   Zimin,A.V., Delcher,A.L., Florea,L., Kelley,D.R., Schatz,M.C.,
+            Puiu,D., Hanrahan,F., Pertea,G., Van Tassell,C.P., Sonstegard,T.S.,
+            Marcais,G., Roberts,M., Subramanian,P., Yorke,J.A. and Salzberg,S.L.
+  TITLE     A whole-genome assembly of the domestic cow, Bos taurus
+  JOURNAL   Genome Biol. 10 (4), R42 (2009)
+   PUBMED   19393038
+REFERENCE   2  (bases 1 to 1476)
+  AUTHORS   Inoue-Matsuhisa,E., Moroi,S.E., Takenaka,H., Sogo,S. and Mano,T.
+  TITLE     5-HT(2) receptor-mediated phosphoinositide hydrolysis in bovine
+            ciliary epithelium
+  JOURNAL   J Ocul Pharmacol Ther 19 (1), 55-62 (2003)
+   PUBMED   12648304
+  REMARK    GeneRIF: 5-HT(2) receptors are coupled to phospholipase C in bovine
+            ciliary epithelium.
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from
+            AAFC03045910.1.
+            On Apr 20, 2011 this sequence version replaced gi:119888572.
+            Sequence Note: The RefSeq transcript and protein were derived from
+            genomic sequence to make the sequence consistent with the reference
+            genome assembly. The genomic coordinates used for the transcript
+            record were based on alignments.
+            ##Evidence-Data-START##
+            RNAseq introns :: single sample supports all introns SRS369781,
+            SRS369782 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1476
+                     /map="2"
+                     /mol_type="mRNA"
+                     /breed="Hereford"
+                     /db_xref="taxon:9913"
+                     /organism="Bos taurus"
+                     /chromosome="2"
+     gene            1..1476
+                     /note="5-hydroxytryptamine (serotonin) receptor 2B"
+                     /db_xref="BGD:BT11519"
+                     /db_xref="GeneID:407135"
+                     /gene="HTR2B"
+                     /gene_synonym="5-HT2B; 5HT2B; 5htr2b"
+     CDS             1..1443
+                     /product="5-hydroxytryptamine receptor 2B"
+                     /codon_start="1"
+                     /gene_synonym="5-HT2B; 5HT2B; 5htr2b"
+                     /db_xref="GI:329664316"
+                     /db_xref="BGD:BT11519"
+                     /db_xref="GeneID:407135"
+                     /translation="MAFSFRIFEQRTSPGHVLLSSFDHLISSNWSGLQTESITEKMKQT
+                     GEEQGNKPRWAALLILMVIIPTIGGNILVILAVSLEKKLQYATNYFLMSLAVADLLVGL
+                     FVMPIALLTIMFEAMWPLPLVLCPAWLFLDVLFSTASILHLCAISVDRYIAIKKPIQAN
+                     QYNSRATAFIKIIVVWLISIGIALPVPIKGIETDVANPNNITCGLTKDRFGSFMLFGSL
+                     ASFFTPLAIMIVTYFLTIHALQKKAYLVKNKPPQRLTWLTVSTVFQRDETPCSSPEKVA
+                     MLDGFHKDKTLPNASADILMRRMSTVGKKSVQTISNEQRASKVLGIVFFLFLLMWCPFF
+                     ITNVTLVLCDSCNQTTLNMLLEIFVWIGYVSSGVNPLVYTLFNKTFRDAFGRYLTCNYR
+                     APTSVKALGKCSSNIYFQNPMAENSIFFMKHGMRNGINPAMYQSPMRLRGSTVQSSSII
+                     LLDTLLLTENEGDKTEEQISYV"
+                     /gene="HTR2B"
+                     /protein_id="NP_001192377.1"
+ORIGIN
+        1 atggctttct cttttagaat attcgagcaa cgcacaagtc ctgggcatgt tttgctgagc
+       61 tcatttgacc acttaatctc ttctaactgg tctggattac agacagaatc aataacagag
+      121 aaaatgaaac agactggtga ggaacaggga aataaaccgc gatgggcagc tcttctgata
+      181 ctcatggtga taatacccac aattggtggc aacatccttg ttattctggc tgtttcactg
+      241 gagaaaaagt tgcagtatgc taccaattat ttcctaatgt ccctggcagt ggccgacttg
+      301 ctggttggat tgtttgtgat gccgattgcc ctcttaacaa taatgtttga ggctatgtgg
+      361 cccctcccac ttgttctatg ccctgcctgg ttatttcttg atgttctttt ttctactgca
+      421 tccattctgc atctctgcgc catttcagtg gatcgttaca tagccatcaa aaagccaatc
+      481 caggccaatc aatataactc acgagctaca gcattcatca agattatcgt ggtgtggtta
+      541 atttcaatag gcattgccct tccagttcct attaaaggga tagaaactga tgtggctaac
+      601 ccaaacaaca tcacctgcgg gctgacaaag gatcgttttg gcagtttcat gctctttggc
+      661 tcactggctt ccttcttcac acctctggcc atcatgattg tcacctactt tctcactatc
+      721 catgctttac agaagaaagc ttacttggtc aaaaacaagc cacctcaacg cctaacatgg
+      781 ttgactgtgt ccacagtttt ccaaagggat gaaacacctt gctcatcacc agaaaaagtg
+      841 gcaatgctgg atggctttca caaggacaaa actctgccca atgcaagtgc tgacatactt
+      901 atgcgaagaa tgtccacagt agggaaaaag tcagtgcaga ccatttccaa tgaacagaga
+      961 gcctcaaagg ttctcgggat tgtatttttc ctctttttac ttatgtggtg cccctttttt
+     1021 attacaaatg taactttagt tttatgtgac tcatgcaacc agacgactct caacatgctc
+     1081 ctggagatat ttgtgtggat aggctatgtt tcctcaggag tgaatcctct ggtctacact
+     1141 ctcttcaaca agacatttcg ggatgcattt ggccggtacc tcacctgcaa ttaccgagcc
+     1201 cccacatcag taaaagccct tggaaaatgc tccagtaata tctacttcca gaatccaatg
+     1261 gcagagaatt ctatattttt tatgaaacat ggaatgcgaa atggcattaa tcctgccatg
+     1321 taccagagtc caatgaggct ccgaggttca accgttcagt cttcatccat cattttacta
+     1381 gatacacttc tcctcaccga aaatgaaggt gacaaaactg aagagcaaat cagttacgta
+     1441 tagtagaaat ggcacaattt taatataatg atgagt
+//

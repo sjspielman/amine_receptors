@@ -1,0 +1,55 @@
+LOCUS       NP_001166911             433 aa                     VRT 27-AUG-2013
+DEFINITION  5-hydroxytryptamine receptor 6 [Gallus gallus].
+ACCESSION   NP_001166911
+VERSION     NP_001166911.1  GI:291045262
+KEYWORDS    RefSeq.
+SOURCE      Gallus gallus (chicken)
+  ORGANISM  Gallus gallus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Galliformes;
+            Phasianidae; Phasianinae; Gallus.
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from GU256248.1.
+            On Mar 14, 2010 this sequence version replaced gi:118101127.
+            ##Evidence-Data-START##
+            Transcript exon combination :: GU256248.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+            SRS213961, SRS213962 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..433
+                     /db_xref="taxon:9031"
+                     /organism="Gallus gallus"
+                     /chromosome="21"
+                     /map="21"
+     Protein         1..433
+                     /note="5-hydroxytryptamine receptor 6 precursor-like
+                     protein"
+                     /product="5-hydroxytryptamine receptor 6"
+                     /calculated_mol_wt="47456"
+     Region          40..>223
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          45..325
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..433
+                     /coded_by="NM_001173440.1:2..1303"
+                     /gene="HTR6"
+                     /db_xref="CGNC:53840"
+                     /db_xref="GeneID:430019"
+ORIGIN
+        1 megnlgspna svlgersllv gsswvaaflc fiillttagn fllillivtq rslrntsnyf
+       61 lvslfmsdlm vglvvmppam lnqlyghwvl rgdfcslwya fdvmccsasi lnlcvisldr
+      121 ylliisplky klrmtscral wlilatwtla alasflpikl gwhklefevw spnvtsrgde
+      181 eqcrlvvslp yalvascltf flpsaaisft ycrillaark qavqvaslas nvatattdes
+      241 meqvphapsq paagsesrrf ankhskkalk asltlgillg mffvawlpff vtnvtqavcd
+      301 cvpagffdvl twlgycnstm npiiyplfmr dfkramgkyl pccrrtgepr psaislsmkn
+      361 snsgpraats lknvltlqae tdsvvsevva nehrllpaae galpapsahl vglfemetse
+      421 lelqrrqlgt pva
+//

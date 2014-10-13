@@ -1,0 +1,99 @@
+LOCUS       NM_001192842            2249 bp    DNA              MAM 11-SEP-2013
+DEFINITION  Bos taurus 5-hydroxytryptamine (serotonin) receptor 5A (HTR5A),
+            mRNA.
+ACCESSION   NM_001192842
+VERSION     NM_001192842.1  GI:300797065
+KEYWORDS    RefSeq.
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (bases 1 to 2249)
+  AUTHORS   Zimin,A.V., Delcher,A.L., Florea,L., Kelley,D.R., Schatz,M.C.,
+            Puiu,D., Hanrahan,F., Pertea,G., Van Tassell,C.P., Sonstegard,T.S.,
+            Marcais,G., Roberts,M., Subramanian,P., Yorke,J.A. and Salzberg,S.L.
+  TITLE     A whole-genome assembly of the domestic cow, Bos taurus
+  JOURNAL   Genome Biol. 10 (4), R42 (2009)
+   PUBMED   19393038
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from
+            DAAA02012111.1.
+            On Jul 17, 2010 this sequence version replaced gi:119891742.
+            Sequence Note: The RefSeq transcript and protein were derived from
+            genomic sequence to make the sequence consistent with the reference
+            genome assembly. The genomic coordinates used for the transcript
+            record were based on alignments.
+            ##Evidence-Data-START##
+            Transcript exon combination :: DV890789.1, BI538349.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+            SRS369781 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2249
+                     /map="4"
+                     /mol_type="mRNA"
+                     /breed="Hereford"
+                     /db_xref="taxon:9913"
+                     /organism="Bos taurus"
+                     /chromosome="4"
+     gene            1..2249
+                     /note="5-hydroxytryptamine (serotonin) receptor 5A"
+                     /db_xref="BGD:BT11170"
+                     /db_xref="GeneID:541200"
+                     /gene="HTR5A"
+     CDS             1..1077
+                     /product="5-hydroxytryptamine receptor 5A"
+                     /codon_start="1"
+                     /db_xref="GI:300797066"
+                     /db_xref="BGD:BT11170"
+                     /db_xref="GeneID:541200"
+                     /translation="MDPPANLSYFTLSTPAPGEANRSSFDAADPRPRLPLLSVFGVLVL
+                     TLLGFLVAATFAWNLLVLATILRVRTFHRVPHNLMASMAISDVLVAALVMPLSLVHELS
+                     GRRWQLGRRLCQLWIACDVLCCTASIWNVTAIALDRYWSITRHLEYTLRARRRVSNVMI
+                     ALTWALSAVISLAPLLFGWGETYSEGSEECQVSREPSYTVFSTVGAFYLPLGVVLFVYW
+                     KIYKAAKLRVGPRKTNSVSPISETVQGKGAAQRPEMVLAARRAKVTFQADGDAWREQKE
+                     QRAALMVGILIGVFVLCWIPFFTAELLRPLCACDVPATWKSVFLWLGYSNSFFNPLIYT
+                     AFNKNYNSAFKNFFSRHR"
+                     /gene="HTR5A"
+                     /protein_id="NP_001179771.1"
+ORIGIN
+        1 atggacccgc ctgcgaacct cagctacttc accctctcca cccccgcccc tggggaggcc
+       61 aaccgcagca gcttcgacgc agcagacccg cgccccagac tgcccctgct ctccgtcttc
+      121 ggggtgcttg tcctgacctt gctgggcttc ctggtggcgg ccacattcgc ctggaacctg
+      181 ctggtgctgg cgaccattct ccgcgtgcgc acgttccacc gcgttccgca caacctgatg
+      241 gcgtccatgg ccatctcgga cgtgctggta gccgctctgg tcatgccgct gagcctggtg
+      301 cacgagctgt ccgggcgccg ctggcagctg ggccggcggc tgtgccagct gtggatcgcg
+      361 tgcgatgtgc tctgctgcac ggccagcatc tggaacgtga cggccatcgc gctggaccgc
+      421 tactggtcca tcacgcgtca cctggaatac acactccgcg cccgcaggcg cgtctccaac
+      481 gtcatgatcg cgctcacctg ggcgctctcc gccgtcatct ccttggcccc actgctcttc
+      541 ggctgggggg agacctactc agagggcagc gaggagtgcc aggtgagccg cgagccctcc
+      601 tacaccgtgt tctccaccgt gggcgccttc tacctgccgc tgggcgtggt gctctttgtg
+      661 tactggaaga tctacaaggc cgccaaactc cgcgtgggcc cccggaagac caacagcgtc
+      721 tcacccatat ccgaaaccgt gcaggggaag ggcgcggctc agcggcctga gatggtcctc
+      781 gcggcgcgcc gcgccaaggt caccttccag gccgacgggg acgcgtggcg cgagcagaag
+      841 gagcagcgcg ccgccctcat ggtgggcatc ctcatcgggg tgttcgtgct ctgctggatc
+      901 ccgttcttca ccgccgagct cctcaggccc ctgtgcgcct gcgacgtccc cgccacctgg
+      961 aagagcgtct tcctgtggct cggctactcc aactcctttt tcaaccccct catctacacg
+     1021 gccttcaaca agaactacaa cagcgccttc aagaacttct tctctaggca ccgctgagcg
+     1081 cgaggctggc acggcagggg gtactcgccc atctccccat ccccacccag caaccacctg
+     1141 ccagagacag gccttcgagg tccccagggt ggcccccaga gccaactggc tcactgcccc
+     1201 gctcccggca ggaaggcgag tctccacggg cagttcccag gacctcattt tatcccattt
+     1261 atctgcttgt cttcactccg cactgaacag ccacggactt ggcccaccaa gtgccctttc
+     1321 ctctccagag tccaccgcag catggtttag cgtcatccca gaaaagtcaa accagccaga
+     1381 ggggagggag gaaacagatc agtccaggca ggatgaggac aggaagtgat gaacaaggag
+     1441 tcacaacggg gacatctagg gggaaggaaa ccacaactgc gaatttcccg gaacagtccc
+     1501 cacttccagg gctccattcc gtggttccag aaagttcacc ctagtactta ccatgtccca
+     1561 atatttgccc acgaaacatt ctctctgaac atatcaaagt acgcaggcac atctgcaaga
+     1621 ccagtcaata cggccccaca cacatgcaca ccgaacctag ggaagaggca agtgttccca
+     1681 ctggccactt tattctaaaa tgcaacccaa gagcttggaa ctggaactga aagtcaaatc
+     1741 aaataccacc ttccgttttg aagcaactgt ccacagcacg gagataccta ctagctctgt
+     1801 agaatctgtc aaatttgctt attattatgg gttccatttt tatacagttt attcaaatgt
+     1861 tgccaaacaa agatttgtag cctcggatca tgagattaga ataacaaaac tgtcacaacg
+     1921 ttgttgactt cttaaacata gtttcatcac taagggctat gaaggcttct tcaccaaaag
+     1981 gggcacttta gggtgatggg tgattgatct gttagctgca gctgcgcact ggcatgtaca
+     2041 tacccactgt gagaccggta ctggcaacga tgagagcaga aaagtgggaa cactttagtg
+     2101 gacacatcaa tgtaactggt gaggcaagac aattaggtga tgatgcagtg tttatgtgat
+     2161 cagacaaaac tttaaaaagg tcttggacaa taaaactgcc tgtggtttgc tgtgtcctga
+     2221 ttctctgaat gcatgcgttt aaaaattac
+//

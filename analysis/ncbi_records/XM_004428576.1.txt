@@ -1,0 +1,106 @@
+LOCUS       XM_004428576            1910 bp    DNA              MAM 11-APR-2013
+DEFINITION  PREDICTED: Ceratotherium simum simum adrenoceptor alpha 1B (ADRA1B),
+            mRNA.
+ACCESSION   XM_004428576
+VERSION     XM_004428576.1  GI:478508700
+DBLINK      BioProject: PRJNA191537
+KEYWORDS    RefSeq.
+SOURCE      Ceratotherium simum simum (southern white rhinoceros)
+  ORGANISM  Ceratotherium simum simum
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Perissodactyla; Rhinocerotidae;
+            Ceratotherium.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004454181.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ceratotherium simum simum Annotation Release
+            100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1910
+                     /sub_species="simum"
+                     /mol_type="mRNA"
+                     /country="USA: San Diego Zoo, California"
+                     /isolate="SDZICR_KB13650"
+                     /sex="female"
+                     /db_xref="taxon:73337"
+                     /organism="Ceratotherium simum simum"
+                     /chromosome="Unknown"
+     gene            1..1910
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 9 mRNAs, 23 Proteins"
+                     /db_xref="GeneID:101405673"
+                     /gene="ADRA1B"
+     STS             30..1697
+                     /db_xref="UniSTS:494505"
+                     /gene="ADRA1B"
+     STS             55..1714
+                     /db_xref="UniSTS:481056"
+                     /gene="ADRA1B"
+     STS             103..1708
+                     /db_xref="UniSTS:482384"
+                     /gene="ADRA1B"
+     CDS             124..1665
+                     /product="alpha-1B adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:478508701"
+                     /db_xref="GeneID:101405673"
+                     /translation="MNPDLDTGHNTSAPAHWGELKNANFTGPNQTSSNSTLPQLDITRA
+                     ISVGLVLGAFILFAIVGNILVILSVACNRHLRTPTNYFIVNLAIADLLLSFTVLPFSAA
+                     LEVLGYWVLGRIFCDIWAAVDVLCCTASILSLCAISIDRYIGVRYSLQYPALVTRRKAI
+                     LALLSVWVLSTVISIGPLLGWKEPAPNDDKECGVTEEPFYALFSSLGSFYIPLAVILVM
+                     YCRVYIVAKRTTKNLEAGVMKEMSNSKELTLRIHSKNFHEDALSSTKAKGHNPRSSIAV
+                     KLFKFSREKKAAKTLGIVVGMFILCWLPFFIALPLGSLFSTLKPPDAVFKVVFWLGYFN
+                     SCLNPIIYPCSSKEFKRAFVRILGCQCRGRRRRRRRRRLGGRAYTYRPWTRGGSLERSQ
+                     SRKDSLDDSGSCLSGSQRTLPSASPSPGYLGRGAPPPVELCAFPEWKAPGAFLSLPAPE
+                     PPGHRGRHDSGPLFTFKLLAEPESPGTDGGCEAAADVANGQPGFKTNMPLAPGHF"
+                     /gene="ADRA1B"
+                     /protein_id="XP_004428633.1"
+     STS             416..571
+                     /db_xref="UniSTS:266947"
+                     /standard_name="ADRA1B"
+                     /gene="ADRA1B"
+ORIGIN
+        1 gccgggaggg cgcctctggg aagaagacca cgggggaagc aaagtttcag ggcagctgag
+       61 gagccttcgc cgcagccctt ccaagccctc tcacctccct ggctatggag ggcggactct
+      121 aagatgaatc ccgatctgga caccggccac aacacatcag cacctgccca ctggggagag
+      181 ttgaaaaatg ccaacttcac tggccccaac cagacctcga gcaattccac actgccccag
+      241 ctggacatca ccagggccat ctccgtgggc ctggtgctgg gcgccttcat cctctttgcc
+      301 atcgtgggca acatcctcgt catcttgtct gtggcctgca accgtcacct gcggacgccc
+      361 accaactact tcatcgtcaa cctggccatt gccgacctgc tgctgagctt cactgtgctg
+      421 cccttctcgg ctgccctgga ggtgctcggc tactgggtgc tggggcggat cttctgcgac
+      481 atctgggccg ccgtggacgt cctgtgctgc acagcttcca ttctgagcct gtgcgccatc
+      541 tccatcgatc gctacatcgg ggtgcgctac tctctgcagt accccgcgct ggtcacccgg
+      601 aggaaggcca tcttggcgct cctcagtgtc tgggtcttgt ccactgttat ctccatcggg
+      661 cctctccttg ggtggaagga gccagcaccc aacgatgaca aggaatgcgg ggtcaccgaa
+      721 gaacccttct acgccctctt ctcctccctg ggctccttct acatccctct ggcggtcatt
+      781 ctggtcatgt actgccgcgt ctacatcgtt gccaagagga ccaccaagaa cctggaggca
+      841 ggagtcatga aggagatgtc caactccaag gagctgaccc tgaggatcca ctccaagaac
+      901 tttcacgagg acgccctaag cagtaccaag gccaagggcc acaaccccag gagttccata
+      961 gctgtcaaac tttttaagtt ctccagggaa aagaaagcag ccaagacctt gggcatagtg
+     1021 gtcggtatgt tcatcttgtg ttggctaccc ttcttcatcg ctctaccact tggctccctg
+     1081 ttctcaaccc tgaagccccc cgacgccgtg ttcaaggtgg tgttctggct gggctacttc
+     1141 aacagctgcc tcaaccccat catctacccg tgctccagca aggagttcaa gcgcgccttc
+     1201 gtgcgcatcc tcgggtgcca gtgccgcggc cggcgccgcc gccgccgccg tcgccgcctg
+     1261 ggcggccgcg cctacaccta ccggccgtgg acgcgcggcg gctcgctgga gcgctcgcag
+     1321 tcgcgcaagg actcgctgga cgacagcggc agctgtctga gcggcagcca gcggaccctg
+     1381 ccctcggcct cgccgagccc cggctacctg ggccgcggcg ccccgccgcc cgtcgagctg
+     1441 tgcgcattcc cggagtggaa ggcgcccggc gccttcctga gcctgcccgc gcccgagccc
+     1501 ccgggccacc gcggccgcca cgactcgggc ccgctcttca ccttcaagct cctggccgag
+     1561 cccgagagcc ccgggacgga cgggggctgc gaggccgcgg ccgacgtggc caacgggcag
+     1621 ccgggcttca aaaccaacat gcccctggcg cccgggcact tttagggccc cgcgcaccgc
+     1681 ttcctttccc tggggaggaa atcatcgtgg ggggcgggca ggggagggga ggaagggagt
+     1741 gtcggcaccc ggtggacacg ggccccaagg ggaacagggg gcggggggcg gggagagggg
+     1801 cagctgcttt tctggcaggg gcatgggtgc caggtacagc ggagagctgg gccgagcatg
+     1861 ctgagagcct gggggacccg acgccggccg ggatttacct ctctctctct
+//

@@ -1,0 +1,62 @@
+LOCUS       XP_005226149             438 aa                     MAM 05-AUG-2013
+DEFINITION  PREDICTED: beta-3 adrenergic receptor isoform X1 [Bos taurus].
+ACCESSION   XP_005226149
+VERSION     XP_005226149.1  GI:529010049
+DBLINK      BioProject: PRJNA33843
+KEYWORDS    RefSeq.
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003104610.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Bos taurus Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..438
+                     /db_xref="taxon:9913"
+                     /breed="Hereford"
+                     /organism="Bos taurus"
+                     /chromosome="27"
+     Protein         1..438
+                     /product="beta-3 adrenergic receptor isoform X1"
+                     /calculated_mol_wt="46667"
+     Region          79..>170
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          85..371
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..438
+                     /coded_by="XM_005226092.1:59..1375"
+                     /gene="ADRB3"
+                     /db_xref="BGD:BT10229"
+                     /db_xref="GeneID:281606"
+ORIGIN
+        1 mppplsrvsw etlslipsrp trdagmapwp pgnssltpwp diptlapnta nasglpgvpw
+       61 avalagalla lavlatvggn llvivaiart prlqtmtnvf vtslatadlv vgllvvppga
+      121 tlaltghwpl gvtgcelwts vdvlcvtasi etlcalavdr ylavtnplry galvtkrral
+      181 aavvlvwvvs aavsfapims kwwrigadae aqrchsnprc ctfasnmpya llsssvsfyl
+      241 pllvmlfvya rvfvvatrql rllrrelgrf ppeesppaps rsgspglagp caspagvpsy
+      301 grrparllpl rehralrtlg limgtftlcw lpffvvnvvr alggpslvsg ptflalnwlg
+      361 yansafnpli ycrspdfrsa frrllcrcrp eehlaaaspp rapsgaptal tspagpmqpp
+      421 eldglialkv rirfrneg
+//

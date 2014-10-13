@@ -1,0 +1,64 @@
+LOCUS       XP_002720853             398 aa                     MAM 13-JUN-2014
+DEFINITION  PREDICTED: beta-3 adrenergic receptor [Oryctolagus cuniculus].
+ACCESSION   XP_002720853
+VERSION     XP_002720853.1  GI:291409104
+DBLINK      BioProject: PRJNA42933
+KEYWORDS    RefSeq; includes ab initio.
+SOURCE      Oryctolagus cuniculus (rabbit)
+  ORGANISM  Oryctolagus cuniculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha; Leporidae;
+            Oryctolagus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003159332.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##RefSeq-Attributes-START##
+            ab initio :: 11% of CDS bases
+            ##RefSeq-Attributes-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Oryctolagus cuniculus Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..398
+                     /db_xref="taxon:9986"
+                     /breed="Thorbecke inbred"
+                     /organism="Oryctolagus cuniculus"
+                     /chromosome="Unknown"
+                     /sex="female"
+     Protein         1..398
+                     /product="beta-3 adrenergic receptor"
+                     /calculated_mol_wt="42188"
+     Region          51..>142
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          57..339
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..398
+                     /coded_by="XM_002720807.1:1..1197"
+                     /gene="ADRB3"
+                     /db_xref="GeneID:100339100"
+ORIGIN
+        1 mapwphgnss aapwpdtptl apntantsgl pgvpwaaala gallalatvg gnllvivaia
+       61 ctprlqtmtn vfvtslaaad lvvgllvvpp gatlaltghw plgatgcelw tsvdvlcvta
+      121 sietlcalav dryvavtnpl rygalvtkrr araavllvwl vsaavsfapi msqwwrvgad
+      181 aeaqrchsnp rccafasnlp yallsssvsf ylpllvmlfv yarvfvvatr qlrllrgelg
+      241 rfpleepspa lsraqalaaa gpcaapacsr rparllplre hralltlgli mgtftlcwlp
+      301 fflanvlral ggpslvpspa llalnwlgya nsafnpliyc rspdfrrafr rllcgcrgte
+      361 praaasrape psraraagts paesrprppl hrrvlssl
+//

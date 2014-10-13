@@ -1,0 +1,89 @@
+LOCUS       XM_004317502            1204 bp    DNA              MAM 25-MAR-2013
+DEFINITION  PREDICTED: Tursiops truncatus dopamine receptor D3, transcript
+            variant 1 (DRD3), mRNA.
+ACCESSION   XM_004317502
+VERSION     XM_004317502.1  GI:470617554
+DBLINK      BioProject: PRJNA189944
+KEYWORDS    RefSeq.
+SOURCE      Tursiops truncatus (bottlenosed dolphin)
+  ORGANISM  Tursiops truncatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Cetacea;
+            Odontoceti; Delphinidae; Tursiops.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004199850.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Tursiops truncatus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1204
+                     /db_xref="taxon:9739"
+                     /mol_type="mRNA"
+                     /organism="Tursiops truncatus"
+                     /chromosome="Unknown"
+                     /sex="female"
+     gene            1..1204
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 24 Proteins"
+                     /db_xref="GeneID:101333378"
+                     /gene="DRD3"
+     CDS             2..1204
+                     /product="D(3) dopamine receptor isoform 1"
+                     /codon_start="1"
+                     /db_xref="GI:470617555"
+                     /db_xref="GeneID:101333378"
+                     /translation="MAPLSQLGGHINTTCAAENSTGASRARPHAYYALSYCVLILAIIF
+                     GNGLVCVAVLKERALQTTTNYLVVSLAVADLLVATLVMPWVVYLEVTGGVWNFSRVCCD
+                     VFVTLDVMMCTASILNLCAISIDRYTAVVMPVHYQHGTGQSSCRRVTLMITAVWVLAFA
+                     VSCPLLFGFNTTGDPSICSISNPDFVLYSSVVSFYLPFGVTVLVYARIYVVLRQRRRKR
+                     ILTRQNSQCISVRPGFPQQPLSPGQTHMELKRYYSICQDTVLGRPGFQEGEGELKREGR
+                     TRNSLSPTMAPKLSLEVRKLSNGRLSTSLKLGPLQPRGVPLREKKATQMLVMVLGTFIV
+                     CWLPFFLTHILNTHCQACHVSPELYSATTWLGYVNSALNPVIYTTFNIEFRKAFLKILS
+                     C"
+                     /gene="DRD3"
+                     /protein_id="XP_004317550.1"
+     STS             577..656
+                     /db_xref="UniSTS:266442"
+                     /standard_name="DRD3"
+                     /gene="DRD3"
+     STS             896..1095
+                     /db_xref="UniSTS:34219"
+                     /standard_name="DRD3-556F"
+                     /gene="DRD3"
+     STS             1026..1203
+                     /db_xref="UniSTS:53374"
+                     /standard_name="RH71216"
+                     /gene="DRD3"
+ORIGIN
+        1 tatggcgcct ctcagccagc tggggggcca catcaacacc acgtgtgcgg cagagaactc
+       61 caccggggcc agccgggccc gccctcatgc ctactacgcc ctctcctact gcgtgctcat
+      121 cctggccatc atctttggaa atggtctggt gtgtgtggcc gtgctgaagg aacgggccct
+      181 gcagaccacc accaactatc tggtggtgag cctggccgtg gcagacctgc tggtggccac
+      241 cttggtgatg ccctgggtgg tgtacctgga ggtgacaggc ggagtctgga atttcagccg
+      301 agtttgctgt gatgttttcg tcactctgga tgtcatgatg tgtacagcca gcatcctgaa
+      361 cctctgtgcc atcagcatcg acaggtacac cgcagtggtc atgccagttc actaccaaca
+      421 tggcacagga cagagctcct gtcggcgcgt gaccctcatg atcacggctg tctgggtgct
+      481 ggcctttgct gtgtcttgcc ctctcctctt tggcttcaac accacaggag accccagcat
+      541 ctgctccatc tccaaccctg actttgtcct ctactcttca gtggtgtcct tctacctgcc
+      601 ctttggagtg actgtcctcg tctatgccag gatctacgtg gtgttgagac agaggagacg
+      661 gaaacgaatc ctcactcgac agaacagtca atgcatcagc gtcaggcccg gcttccccca
+      721 acagcccctc tcccctggtc agacacacat ggagctgaag cgctactaca gcatctgcca
+      781 agatactgtc ttgggaagac caggcttcca agaaggggaa ggagagttga aaagggaggg
+      841 gaggactcgg aactccctca gccccaccat ggcacctaag ctcagcttag aggttcgaaa
+      901 actcagtaat ggcaggctgt cgacatccct gaagctgggc cccctgcaac ctcggggagt
+      961 gccgctgcgg gagaagaagg caacccagat gctggtcatg gtgcttggga ccttcattgt
+     1021 ctgctggctg cccttcttct tgacccacat tctcaatacc cactgccaag catgccacgt
+     1081 gtccccagag ctctacagtg ccaccacgtg gctgggctac gtgaacagcg ccctgaaccc
+     1141 tgtgatctat accaccttca acatcgagtt ccgaaaagcc ttcctcaaga tcctgtcttg
+     1201 ctga
+//

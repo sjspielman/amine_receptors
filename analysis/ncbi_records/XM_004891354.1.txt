@@ -1,0 +1,97 @@
+LOCUS       XM_004891354            2117 bp    DNA              ROD 18-JUN-2013
+DEFINITION  PREDICTED: Heterocephalus glaber trace amine-associated receptor
+            1-like (LOC101709715), mRNA.
+ACCESSION   XM_004891354
+VERSION     XM_004891354.1  GI:512867321
+DBLINK      BioProject: PRJNA167983
+KEYWORDS    RefSeq.
+SOURCE      Heterocephalus glaber (naked mole-rat)
+  ORGANISM  Heterocephalus glaber
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Bathyergidae; Heterocephalus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004633103.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Heterocephalus glaber Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2117
+                     /db_xref="taxon:10181"
+                     /mol_type="mRNA"
+                     /organism="Heterocephalus glaber"
+                     /chromosome="Unknown"
+                     /sex="male"
+     gene            1..2117
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 9 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 7 samples with support for all annotated introns"
+                     /db_xref="GeneID:101709715"
+                     /gene="LOC101709715"
+     misc_feature    553..555
+                     /note="upstream in-frame stop codon"
+                     /gene="LOC101709715"
+     CDS             565..1584
+                     /product="trace amine-associated receptor 1-like"
+                     /codon_start="1"
+                     /db_xref="GI:512867322"
+                     /db_xref="GeneID:101709715"
+                     /translation="MMLVCHSVMNISCVESSRSHDVRVSLYSLMVIIILTTLVGNLIVI
+                     ISISHFKQLHTPTNWLIHSMALVDFLLGYLVMPYSMVRSVEHCWYFGEIFCKIHTSTDI
+                     MLSSASIFHLSFISIDRYYAVCDPLRYKARMNIWVTFVMIFISWSVPALLAFGMIFMEL
+                     NLKGAEEMYCKHIYCKGGCAVFFSKITGVLAFMISFYIPGSIMLCVYCRIYFIAKGQAR
+                     SIKGTSQKLQTGLEKRNGISQSKERKAATTLGIVLGVFLICWCPFFVCTIMDPFLNYTI
+                     PLALNEALIWFGYLNSTFNPMVYAFFYPWFRRALKIILFGKIFQKDSSRCKVFLDSNP"
+                     /gene="LOC101709715"
+                     /protein_id="XP_004891411.1"
+ORIGIN
+        1 gcattttctt taaaatcaat caatgataac atcaggttta atggacatgt gttttcattt
+       61 atacaccagt aacactcatg gctgtaatga tgggtgaacc acccttggat ttattttgac
+      121 aataacggta atatttacct tctctattta gcttgctcat agctaatttc cagatgatgg
+      181 tttagaataa aagcaccttc tggttatatt ttttgataac gtactgttag attgcttcag
+      241 aaacatttat tatcaggtta tcttgttcag attttaatgt ttgtgttact ctgtttacgt
+      301 taaccatggc ccgtcggagc tgcggtgggc cctcgccagg agcaggtgtg caggagacag
+      361 atgcagacgg cctgggccac aggcggtgtc tcggatgtgg ctctcccgcc ctggctgtgc
+      421 ctgctgtctc tccgggaagg tttctgggat aggtatatgc aaacaaaaaa taaaaggaga
+      481 aggaactcaa agctgatgat gtacttggca gagagattac tcaacacaca agggggaaaa
+      541 taagctggtg gatagttctc aggaatgatg cttgtgtgcc acagtgtaat gaacatttcc
+      601 tgtgtggaaa gcagccggtc acatgatgtc cgtgtatccc tgtacagttt aatggtgatc
+      661 ataatcctga ccactctggt gggcaatctg atagttatca tttccatatc acacttcaag
+      721 caactgcaca cccccactaa ctggctcatt cattccatgg ctcttgtgga cttcctcctg
+      781 gggtacctgg tcatgcctta cagcatggtg agatctgtgg agcactgttg gtattttgga
+      841 gaaatcttct gcaaaattca caccagcact gatattatgc tgagctcagc atccattttc
+      901 cacttgtcct tcatttccat tgaccgttac tatgctgtgt gtgacccact gagatacaaa
+      961 gccaggatga acatctgggt tacttttgtg atgatcttca ttagttggag tgtccctgct
+     1021 cttcttgcat ttggaatgat ttttatggag ctaaacctca aaggagctga ggagatgtat
+     1081 tgcaaacaca tttactgcaa agggggctgc gctgtgttct ttagcaaaat aacaggtgta
+     1141 ctggccttta tgatttcttt ctatatacct ggatctatta tgttgtgtgt ctattgcaga
+     1201 atatatttca tagctaaagg ccaggcaaga tcaatcaaag gaacaagtca gaaacttcaa
+     1261 actggattgg aaaagagaaa tggaatttcg caaagcaaag aaaggaaagc tgcaacaacg
+     1321 ttagggattg tgctgggggt tttcctaata tgctggtgcc ctttctttgt ctgcaccatc
+     1381 atggaccctt tcctgaacta cactattcca ctggctttga atgaagcact gatttggttt
+     1441 ggctacttga actctacttt taatccaatg gtttatgcat ttttctatcc ctggttcaga
+     1501 agagcactga agatcatttt atttggtaaa attttccaaa aagattcatc cagatgtaaa
+     1561 gtatttttag actcaaatcc atgaaattat tgtattttat tggcgtgcaa aacatttgat
+     1621 gatcctattt atgaacacag tataaccaac cacatgcacc aaacacatca gtcttacatc
+     1681 agctacggag tcaaagtacc tagggggaac taaattgtga tgctggtttc tcatctcctg
+     1741 ttgggacaag gtagatgtga tcttcgccat tcttcatgtc cacactgcag ctttgcaaat
+     1801 tcatcattta aggtcctaca tgttaaagaa cattttctat ttctggatgg agtgctatga
+     1861 actgactcgt gttcaatgag gctctatttg gggatggaaa ttagaatgaa tttgttacat
+     1921 atgtatttat gattatcaca tctgtatagc tgtccctcta tatgtatacg ttctgcttct
+     1981 gtgaattcaa cagtctcaga taaaaaattg taaattaaaa tttgcatctg tatggaactt
+     2041 gtacagtaaa ggcctttttc ccatgtcacc attctctaaa caattcaata taataactac
+     2101 ttacacatga tattggg
+//

@@ -1,0 +1,95 @@
+LOCUS       XM_004712675            1768 bp    DNA              MAM 29-MAY-2013
+DEFINITION  PREDICTED: Echinops telfairi cholinergic receptor, muscarinic 5
+            (CHRM5), mRNA.
+ACCESSION   XM_004712675
+VERSION     XM_004712675.1  GI:507689732
+DBLINK      BioProject: PRJNA193504
+KEYWORDS    RefSeq.
+SOURCE      Echinops telfairi (small Madagascar hedgehog)
+  ORGANISM  Echinops telfairi
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Afrotheria; Tenrecidae; Tenrecinae; Echinops.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004558768.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Echinops telfairi Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1768
+                     /mol_type="mRNA"
+                     /country="Germany: Ludwig Maximilians University, Munich"
+                     /isolate="266"
+                     /sex="female"
+                     /db_xref="taxon:9371"
+                     /organism="Echinops telfairi"
+                     /chromosome="Unknown"
+     gene            1..1768
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 mRNAs, 26 Proteins"
+                     /db_xref="GeneID:101649961"
+                     /gene="CHRM5"
+     misc_feature    2..4
+                     /note="upstream in-frame stop codon"
+                     /gene="CHRM5"
+     CDS             62..1660
+                     /product="muscarinic acetylcholine receptor M5"
+                     /codon_start="1"
+                     /db_xref="GI:507689733"
+                     /db_xref="GeneID:101649961"
+                     /translation="MEGESYHNATTVNGTPVDHQPLARHGLWGVITIAAVTAVVSLITI
+                     VGNVLVMISFQVNSQLKTVNNYYLLSLACADLIIGIFSMNLYTTYILMGRWALGSLACD
+                     LWLALDYVASNASVMNLLVISFDRYFSITRPLTYRAKRTPKRAGMMIGLAWLISFILWA
+                     PAILCWQYLVGERTVPPDECQIQFLSEPTITFGTAIAAFYIPVSVMTILYCRIYRETEK
+                     RTKDLADLQGSDSVAGTKKRTPPHGALLRSCFSCPRPASAQREQDQASWSSSRRSTSTI
+                     GKSCQPTGPSTDWAKAEQLTTCSSYPSSEDEDKPTTDPVFQVVYKNQAKESPKEEFSAE
+                     ETRETFVKAHKEKNDYDAPKYFLSPAAAHTPKSQKCMAYKFRLVVKADGTQETNNGCRK
+                     VKIMPCSFPVSKDSSPKSLDHNLSHQMTKRKRMVLVKERKAAQTLSAILLAFIITWTPY
+                     NIMVLVSTFCDKCVPVSLWHLGYWLCYVNSTVNPICYALCNRTFRKTFKMLLLCRWKKK
+                     KVEEKLYWQGNSKLP"
+                     /gene="CHRM5"
+                     /protein_id="XP_004712732.1"
+ORIGIN
+        1 ctgagaagag gtgacgtata agaacctaag gctgactcct catgtaaatt ctgacaccag
+       61 catggaaggg gaatcctacc acaatgccac tactgtcaat ggcaccccag tcgatcacca
+      121 gcccttggca cgccacggac tgtggggagt catcaccatc gcagctgtaa ctgctgtggt
+      181 cagcctgatc accatcgtgg gcaacgtctt agtcatgatc tccttccaag tcaacagtca
+      241 gctcaagacg gtgaacaact attacttgct cagcttagcc tgcgcggatc tcatcattgg
+      301 gatcttctcc atgaacctct atacgaccta catcctgatg ggacgctggg ccctggggag
+      361 tttggcttgt gacctatggc ttgcactgga ctacgtggcc agcaacgctt ctgttatgaa
+      421 ccttcttgtg atcagttttg accgctactt ttccatcaca agacccttga cgtaccgggc
+      481 caagcgtacc ccaaagaggg ctggcatgat gattggcttg gcctggctga tttccttcat
+      541 cctctgggcc ccggcgatcc tctgctggca atacttggtg ggggagcgga cggtgccacc
+      601 agatgagtgt cagatccaat tcctctctga gcccaccatc acttttggta ctgccattgc
+      661 tgccttctac atccctgttt cggtcatgac catcctctac tgccgcatct accgggaaac
+      721 ggagaagcga actaaagacc tggctgacct ccagggctcg gactccgtgg caggaaccaa
+      781 gaagagaacg ccccctcacg gggccttgct aaggtcctgc tttagctgcc ctcggcccgc
+      841 atcggcccag agggaacagg accaggcctc ctggtcctct tcacgcagaa gcacctccac
+      901 cattgggaag tcatgccaac ccacaggccc aagcactgac tgggccaagg ctgagcagct
+      961 gacaacctgt agcagctacc cctcctcaga agatgaggat aagcccacca ctgaccctgt
+     1021 cttccaagtg gtctacaaga atcaagccaa ggaaagccca aaggaagaat tcagtgctga
+     1081 ggagaccagg gaaacttttg tgaaagccca caaggaaaaa aatgactatg acgccccaaa
+     1141 atacttcttg tccccagctg ctgctcatac acccaagagt cagaaatgca tggcctataa
+     1201 gttcagattg gtggtaaaag ccgatgggac tcaggagacc aacaatggct gtcgcaaggt
+     1261 gaaaatcatg ccctgctcct tcccagtgtc caaggactct tcaccaaaaa gccttgacca
+     1321 caacctcagc catcaaatga ccaagcgaaa gaggatggtc cttgtcaaag agaggaaggc
+     1381 cgcgcagacc ttgagtgcca tcctgctagc cttcatcatc acctggaccc cctataatat
+     1441 catggtcttg gtctccacct tctgtgacaa gtgtgttcca gtgagcttgt ggcatttggg
+     1501 ttactggtta tgctatgtca atagcactgt caaccccatc tgctatgccc tctgcaacag
+     1561 aaccttcagg aagaccttta agatgctgct tctctgtcga tggaaaaaga agaaagtgga
+     1621 agagaaattg tactggcagg ggaatagcaa gctgccatga aaggtcaact ccccaaaagg
+     1681 atgaccgctg tcaacttcct ctgaagatgg gtgagctgat cctggtgtgt ttcttttcaa
+     1741 aaggactcct gtcattgcga gtccctga
+//

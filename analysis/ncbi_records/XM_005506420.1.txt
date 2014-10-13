@@ -1,0 +1,107 @@
+LOCUS       XM_005506420            2323 bp    DNA              VRT 15-SEP-2013
+DEFINITION  PREDICTED: Columba livia adrenoceptor alpha 1D (ADRA1D), mRNA.
+ACCESSION   XM_005506420
+VERSION     XM_005506420.1  GI:543730852
+DBLINK      BioProject: PRJNA217047
+KEYWORDS    RefSeq.
+SOURCE      Columba livia (rock pigeon)
+  ORGANISM  Columba livia
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Columbiformes;
+            Columbidae; Columba.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004973397.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Columba livia Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2323
+                     /mol_type="mRNA"
+                     /collection_date="13-Jun-2010"
+                     /country="Denmark: Vordingborg"
+                     /breed="Danish Tumbler"
+                     /sex="male"
+                     /note="bred by Anders Christiansen, Hans Ove Christiansen,
+                     and certified by Danmarks Racedueforeninger"
+                     /db_xref="taxon:8932"
+                     /tissue_type="blood"
+                     /organism="Columba livia"
+                     /chromosome="Unknown"
+     gene            1..2323
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 1 EST, 18 Proteins, and 96%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 2 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:102085628"
+                     /gene="ADRA1D"
+     CDS             338..1873
+                     /product="alpha-1D adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:543730853"
+                     /db_xref="GeneID:102085628"
+                     /translation="MTFPELSNGSLSGNRTGQGSQSGANRSWGLQGEETPEGNGTTLTF
+                     ALDVQAVGVGVFLAIFILSAIVGNILVILSVACNRHLQTVTNYFIVNLAIADLLLSTTV
+                     LPFSATLEVLGFWVFGRIFCNIWAAVDVLCCSASIMSLCIISVDRYIGVKYSIKYPTIM
+                     TERKAGVILVVVWLSSMVISIGPLLGWKEPPPPDESICSITEEPGYALFSSLFSFYLPL
+                     MVILVMYFRIYVVARRTTQSLEAGVKKERNKSMEVVLRIHCRSVLEDPLSSTRSKGHNF
+                     RSSLSVRLLKFSREKKAAKTLAIVVGVFILCWFPFFFVLPFGSFFPSLKPSEMVFKVIF
+                     WLGYFNSCVNPIIYPCSSKEFKRAFIRLLKCQCHRRRRPIWRVYDHHWRGASVNSSMQD
+                     SETDLRPRINTLNSSFIFNSSLQERASKRRTLSFKGWKMLTPFQKPASTQLKEKMNSLS
+                     NKIRGGSSKGGATATYKTEVESVSIGIPHDFVETIDYQTHDLTDCCGLRETDI"
+                     /gene="ADRA1D"
+                     /protein_id="XP_005506477.1"
+ORIGIN
+        1 agcgctgccg gcgctgccca gcgcagcccc ccggagcatg cgagggcagc gggggggcac
+       61 cgacctcgct gcccccccgg ggctgagcgg cggcgagagc cggtggtggg gaggggggca
+      121 gaacgaccgg acagtgtgaa gagggctggg aggggggacg aggagcagcg catcctccat
+      181 cccggctggg gggactgagc cgttccccag ggccgtggtg ctggggaaaa cgaggtgctg
+      241 agcgagtttt ggagggggct gcggggatca tgccgagggg gctgtgcctc ggcatcgctt
+      301 tctcctcgcc ctccatggag cccggacctt ttctacaatg actttccctg agctgagcaa
+      361 tggcagcttg agtgggaacc ggacgggaca gggaagccag agcggtgcca atcggtcctg
+      421 ggggctgcaa ggtgaggaga cccccgaggg caatggcacc acgctgactt tcgccttgga
+      481 tgtgcaggcg gtgggcgtcg gggtcttcct ggccatcttc atcctctcag ccatcgtggg
+      541 gaacatcctc gtcatcctct cggtggcttg caaccggcac ctgcagacag tcaccaacta
+      601 cttcatcgtc aacctggcca ttgctgacct gctgctcagc accactgtgc tgcccttctc
+      661 agccactttg gaggtgctgg gcttctgggt gtttgggcgc atcttctgca acatctgggc
+      721 agctgtggat gtgctgtgct gctctgcctc cattatgagc ctctgtatca tctctgtgga
+      781 caggtatatc ggtgtcaagt actccatcaa gtaccccaca atcatgactg agaggaaggc
+      841 gggggtcatc ctcgtggtgg tctggctctc gtccatggtc atctccattg ggccactgct
+      901 gggatggaag gaaccaccac cgccagatga gagcatctgt agcatcacag aggagccagg
+      961 ctatgccctg ttctcctccc tcttctcctt ctacttgccc ctcatggtca tcctggtgat
+     1021 gtacttcagg atctacgtgg tggccagacg gaccacccag agcttggagg caggggtcaa
+     1081 gaaggagagg aataaatcca tggaagtggt actacgtatc cactgccgca gtgtgctgga
+     1141 ggacccactc tccagcaccc ggagcaaggg acacaacttc agaagctccc tctccgtgag
+     1201 gctcctcaag ttctcccgtg agaaaaaagc agccaagact ctcgccatcg ttgtgggtgt
+     1261 tttcatcctc tgctggttcc ccttcttctt cgtcctacct tttggttctt ttttcccatc
+     1321 tctgaagccc tctgaaatgg tcttcaaggt catcttctgg ctgggatact tcaacagctg
+     1381 cgtgaacccc atcatctacc catgctccag caaagagttc aagcgagctt tcatcaggct
+     1441 gctcaagtgc caatgccacc ggagaagacg gcccatctgg cgtgtctatg accaccactg
+     1501 gcgaggggcc tccgtgaaca gctcaatgca agactctgag acagacctga ggcccaggat
+     1561 taacaccctg aacagctcat tcatatttaa ctcctcattg caggagaggg ccagtaagag
+     1621 gcgaacactc agcttcaagg gctggaaaat gctcactcct ttccagaaac cagcatccac
+     1681 tcagctgaag gagaagatga acagcctttc taataaaatc cggggtggtt ccagtaaagg
+     1741 gggggctaca gccacctaca aaacagaggt ggagtctgtt tctatcggga tccctcatga
+     1801 cttcgtggaa accattgact atcaaaccca tgacttaaca gactgctgcg ggctgcgaga
+     1861 aacagatatt tgaagccatt gggacagctg tcggtggttt ctttagaggt atcatctagc
+     1921 agaaacatga agggatacca tctgtgggtc tgtcaggcag actggaagca gcaatcaggt
+     1981 ataaaatgca gttgcccaaa ggttatacaa gcatcctcca tgcagaggtc agccccttct
+     2041 ccgggattat gggttcctca aaaaagagcc aatggtgtat cccatttcaa tgagctgcag
+     2101 caagagggga aggtgtgggg tggatatgtg gatgtggccc agtgaaaaga gttgtttcct
+     2161 ccagtggatg gttatctttg actttggaag aatccgtgca gttaagggaa accagcatgt
+     2221 ctcctttgcc ttaaaaacac cactgcaaaa tctaatggaa agatcaaacc ctgaaagatg
+     2281 ccaaccctgc cttagtccat gtgatcatgt ttccatccag agg
+//

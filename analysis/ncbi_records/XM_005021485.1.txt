@@ -1,0 +1,101 @@
+LOCUS       XM_005021485            1925 bp    DNA              VRT 26-JUN-2013
+DEFINITION  PREDICTED: Anas platyrhynchos cholinergic receptor, muscarinic 2
+            (CHRM2), transcript variant X1, mRNA.
+ACCESSION   XM_005021485
+VERSION     XM_005021485.1  GI:514754181
+DBLINK      BioProject: PRJNA208071
+KEYWORDS    RefSeq.
+SOURCE      Anas platyrhynchos (mallard)
+  ORGANISM  Anas platyrhynchos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Anseriformes; Anatidae;
+            Anas.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004677175.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Anas platyrhynchos Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1925
+                     /mol_type="mRNA"
+                     /country="China: Beijing"
+                     /breed="Pekin duck"
+                     /sex="female"
+                     /isolation_source="Gold Star Duck Production"
+                     /db_xref="taxon:8839"
+                     /organism="Anas platyrhynchos"
+                     /chromosome="Unknown"
+     gene            1..1925
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 2 samples with support for all annotated introns"
+                     /db_xref="GeneID:101792126"
+                     /gene="CHRM2"
+     misc_feature    115..117
+                     /note="upstream in-frame stop codon"
+                     /gene="CHRM2"
+     CDS             151..1551
+                     /product="muscarinic acetylcholine receptor M2 isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:514754182"
+                     /db_xref="GeneID:101792126"
+                     /translation="MNNSTYINSSTENVMALESPYKTVEVVFIVLVAGSLSLVTIIGNI
+                     LVMVSIKVNRHLQTVNNYFLFSLACADLIIGIFSMNLYTLYTVIGYWPLGPVVCDLWLA
+                     LDYVVSNASVMNLLIISFDRYFCVTKPLTYPVKRTTKMAGMMIAAAWVLSFILWAPAIL
+                     FWQFIVGGRTVPDKDCYIQFFSNPAVTFGTAIAAFYLPVIIMTVLYWQISRASKSRIKK
+                     GKKEAAQNQDPVSPSLVQGKIVKPNNNNIPTSGDGLEHNKIQNGKTTGETAMENCVQGE
+                     EKDSSNDSTSVSVVASNMKEDESAKDASQTFASQDHLKVENSKLTCIRIVTKSQKGDSC
+                     APTNTTVEIVGTNGEEKQNSVARKIVKMTKQPAKKKPPPSREKKVTRTILAILLAFIIT
+                     WTPYNVMVLINSFCTSCIPGTVWTIGYWLCYINSTINPACYALCNATFKKTFKHLLMCH
+                     YKNIGATR"
+                     /gene="CHRM2"
+                     /protein_id="XP_005021542.1"
+ORIGIN
+        1 attgcatcag tttctcactg tctggagcac tgagccattg atgtagagca tcaaaccacc
+       61 ttcacctgtg aagactataa ggcagcaagg agagattttc ccaggaaaaa tgattaagtc
+      121 ataattgagt atcttgttag cagcacagaa atgaataact caacatacat aaactcttcc
+      181 actgaaaatg tgatggctct ggagagcccc tataaaactg ttgaggtggt cttcattgtc
+      241 ctggtagcag gatctctcag tttagtcacc ataattggga acatcctggt catggtgtca
+      301 atcaaagtca acaggcacct gcagactgtc aacaactatt tcctgttcag cttggcctgc
+      361 gcagacttga tcattggcat cttttccatg aacctgtata cactctacac tgtgataggc
+      421 tactggccct tagggcctgt ggtgtgtgac ctctggctgg ctcttgacta tgtggtcagc
+      481 aatgcctctg taatgaacct ccttattatc agttttgaca gatacttttg tgtcaccaag
+      541 cctctgacat atcctgtaaa gcggaccact aagatggcag gcatgatgat tgcagctgcg
+      601 tgggtgctgt ccttcatcct gtgggcccct gcaattctct tctggcagtt catagtagga
+      661 ggaaggactg tccctgacaa ggattgctat atccagtttt tttccaaccc tgctgtcact
+      721 tttggcactg ccattgcagc tttctattta cctgttatca tcatgactgt tctttactgg
+      781 caaatctctc gagccagcaa gagtcggata aagaaaggga aaaaagaagc tgcccaaaac
+      841 caggatccag tttcccccag ccttgttcaa ggtaaaatag tgaaaccaaa caataacaac
+      901 atcccaacca gtggggatgg attggagcac aacaaaattc agaacggaaa aaccactgga
+      961 gaaactgcga tggagaactg tgttcaaggg gaggagaagg acagctccaa tgactccacc
+     1021 tcagtcagtg tggttgcatc caacatgaaa gaggatgaat ctgccaaaga tgccagccag
+     1081 acttttgctt cccaagacca tctcaaagtg gagaactcca agctgacatg catcaggata
+     1141 gtcacgaagt ctcaaaaggg tgacagttgt gctcccacaa acaccaccgt ggagatagta
+     1201 ggcaccaatg gagaggaaaa acagaatagt gtagcccgga aaattgtcaa gatgacaaag
+     1261 cagcctgcca aaaagaaacc acctccttct agagagaaaa aagtaacaag gaccattctg
+     1321 gctatcctgc tggccttcat catcacctgg accccataca acgtgatggt gctcatcaac
+     1381 agtttctgca catcctgcat ccctggtact gtatggacca taggttactg gctctgttat
+     1441 atcaacagca ccatcaaccc tgcttgttat gcgctctgca atgctacttt caagaagacg
+     1501 tttaagcacc ttcttatgtg ccattacaag aatataggag ctacaaggta aaaataataa
+     1561 aataataaaa agaataaaaa gaataacaga aaaggtgaag aattttgaaa ttaaataata
+     1621 aagcaaacaa ataacaatgc catagcactt tatgctctac tatggaatgt gcaatccagg
+     1681 atgttagtgg aaatattgag atggggcatc atctgctcca ctcctgagaa ctacacttaa
+     1741 aactgttttg tgtgggttgt tttttttttt tttttttttt ttaattattg acaataaatc
+     1801 ttgaggacat ggggatgttt tgaggagtta ttcaagtata tggtctggag gcacagttac
+     1861 tttctgagag tattttgcag aagggcttta gaatctatgt gttttttgtt ttgttttgtt
+     1921 ttttg
+//

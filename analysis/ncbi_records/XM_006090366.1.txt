@@ -1,0 +1,97 @@
+LOCUS       XM_006090366            1888 bp    DNA              MAM 15-NOV-2013
+DEFINITION  PREDICTED: Myotis lucifugus 5-hydroxytryptamine (serotonin) receptor
+            1B, G protein-coupled (HTR1B), mRNA.
+ACCESSION   XM_006090366
+VERSION     XM_006090366.1  GI:558132249
+DBLINK      BioProject: PRJNA208947
+KEYWORDS    RefSeq.
+SOURCE      Myotis lucifugus (little brown bat)
+  ORGANISM  Myotis lucifugus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Microchiroptera;
+            Vespertilionidae; Myotis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005871119.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Myotis lucifugus Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1888
+                     /mol_type="mRNA"
+                     /country="USA: Framingham, MA"
+                     /sex="female"
+                     /db_xref="taxon:59463"
+                     /organism="Myotis lucifugus"
+                     /chromosome="Unknown"
+     gene            1..1888
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 20 Proteins, and 96%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:102426814"
+                     /gene="HTR1B"
+     STS             51..303
+                     /db_xref="UniSTS:504472"
+                     /standard_name="HTR1B"
+                     /gene="HTR1B"
+     CDS             225..1376
+                     /product="5-hydroxytryptamine receptor 1B"
+                     /codon_start="1"
+                     /db_xref="GI:558132250"
+                     /db_xref="GeneID:102426814"
+                     /translation="MEENGAQCAPPFAGSQTGVSQANLSAAPSHNCSSVYQDSVALPWK
+                     VLLVLLLALITLATTFSNAFVIATVYRTRKLHTPANYLIASLAVTDLLVSILVMPISTL
+                     YTVAGRWTLGQVVCDFWLSSDITCCTASILHLCVIALDRYWAITDAVEYSAKRTPKRAA
+                     VMIVLVWVFSISISLPPFFWRQAKAQSECVVNTDHILYTVYSTVGAFYFPTLLLIALYG
+                     RIYVEARSRILKQTPNKTGKRLTRAQLITDSPGSTSSVTSINSRAPDLPSESGSPVYVN
+                     QVKVRVSDALLEKKKLMAARERKATKTLGIILGAFIVCWLPFFIISLVLPICRNACWFH
+                     QAIFDFFTWLGYLNSLINPIIYTMSNEDFKQAFHKLVRFKCTS"
+                     /gene="HTR1B"
+                     /protein_id="XP_006090428.1"
+ORIGIN
+        1 gccggacgca ctgcaagtca ggggaacgcg ctcgcctagc tcggctgccg cgcccttgac
+       61 ctctagtttc aagctggaaa cctgggtgga agaatagctg aggagcctac gaaaactaac
+      121 tagcaaccag gggcaggact gcggtctctt ccgcggtcct tcctcctctc ccacatccgt
+      181 tccatgcttc agagctgcgc tccggagcca gggcgaggag aggcatggag gagaacggcg
+      241 ctcagtgcgc cccgccgttc gcgggctccc aaacaggggt ttctcaagcc aacctctccg
+      301 ccgctccctc gcacaactgc agctccgtgt accaggactc cgtcgccctg ccctggaaag
+      361 tcctcctggt cctgctgctg gcgctcatca ccttggccac cactttctcc aacgcgttcg
+      421 tgatcgccac tgtgtaccgg acgcggaagc tacatacccc ggccaactat ctgatcgcct
+      481 cgctggcggt gacggacctg ctcgtctcca tcctggtgat gcccatcagc accctgtata
+      541 cggtcgccgg ccgctggacc ctgggccagg tggtctgcga cttctggctc tcgtcggaca
+      601 tcacctgttg cactgcttcc atcctgcacc tctgtgtcat cgccctggac cgctactggg
+      661 ccatcacgga cgccgtggag tactcggcta aaaggactcc caagagggcg gcggtcatga
+      721 tcgtgctggt gtgggttttc tccatctcca tctcgctgcc acccttcttc tggcgccagg
+      781 ccaaggccca gtcggagtgc gtggtgaaca ccgaccacat cctctacacg gtgtactcca
+      841 cggtgggcgc tttctacttc cccaccttgc tcctcatcgc cctctacggc cgcatctacg
+      901 tggaagcccg ctcccggatt ttgaaacaga ctcccaacaa gaccggcaaa cgtttgaccc
+      961 gagcccagct gatcaccgac tcccctgggt ccacgtcttc tgtcacctcc attaactcgc
+     1021 gtgcccccga cctgcccagc gaatcggggt ctcccgtgta cgtgaaccaa gtcaaagtgc
+     1081 gagtctccga cgccctgctg gagaagaaga aactcatggc cgctagggag cgcaaagcca
+     1141 ccaagaccct gggcatcatc ttgggagcgt tcattgtgtg ctggctgccc ttcttcatca
+     1201 tctccctagt gctgcctatc tgcagaaacg catgctggtt ccaccaggcc atcttcgact
+     1261 tcttcacgtg gctgggctat ctcaactccc tcattaaccc cattatctat accatgtcca
+     1321 atgaggactt caaacaagcg ttccataaac tggtccgctt taaatgcaca agttgacttg
+     1381 tccattgcac tgggggtcac ccaagtggcc tttggggacc atgttgtgtc tggttccaca
+     1441 ggtaggtcga ctcttctttc actgttaccg ggtcggagcg aggcgctgtc ttccgggcaa
+     1501 gggcaatgga tcccgagaag ccagaacagc cccgggagag agagcacgga aaggagaact
+     1561 gtgcaaacta aagatagagc ttccctgctg aggaggaagc tcactttctt ccctcaaacc
+     1621 ccaggttcag cactggccct gcggcagcca gtcacaaggc ggggtttgcg acttttaaaa
+     1681 atctatgatg gagaggtgac ccctgccctg ctcgggcgta atggacgatg ccctctagga
+     1741 gcagtgatac atgttagttg ttgtctggat cctgtctgag acagatgcat acagcctggc
+     1801 agtacttgaa ctagacactt aataccttgt gttttgggga gaactttgtg ttacagcctc
+     1861 atttaagaac agttacgttg gcatcctt
+//

@@ -1,0 +1,101 @@
+LOCUS       XM_005164190            2134 bp    DNA              VRT 01-AUG-2013
+DEFINITION  PREDICTED: Danio rerio adrenergic receptor, beta 3b (adrb3b),
+            transcript variant X1, mRNA.
+ACCESSION   XM_005164190
+VERSION     XM_005164190.1  GI:528492990
+DBLINK      BioProject: PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001878805.3) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2134
+                     /strain="Tuebingen"
+                     /mol_type="mRNA"
+                     /organism="Danio rerio"
+                     /chromosome="10"
+                     /db_xref="taxon:7955"
+     gene            1..2134
+                     /note="adrenergic receptor, beta 3b; Derived by automated
+                     computational analysis using gene prediction method:
+                     Gnomon. Supporting evidence includes similarity to: 1 mRNA,
+                     1 EST, 22 Proteins, and 100% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 2 samples
+                     with support for all annotated introns"
+                     /db_xref="GeneID:792519"
+                     /db_xref="ZFIN:ZDB-GENE-081022-154"
+                     /gene="adrb3b"
+                     /gene_synonym="zgc:194843; zgc:194852"
+     CDS             708..1961
+                     /product="adrenergic receptor, beta 3b isoform X1"
+                     /codon_start="1"
+                     /gene_synonym="zgc:194843; zgc:194852"
+                     /db_xref="GI:528492991"
+                     /db_xref="GeneID:792519"
+                     /db_xref="ZFIN:ZDB-GENE-081022-154"
+                     /translation="MSANTTTLIPEDVKPLLVLPLALVIFLTVIGNLLVILAIARTPLL
+                     HTTTNVFIISMAFADLIMGCVVQPLGLSMVVAGKWVLGNPMCDLWTSLDVFCVTASIET
+                     LCAIAVERYIAITRPLEHQVLLGKRRAAYIVCTVWIVSSLVSFVPIMNHNSRANYLAAN
+                     DCYNNSECCDFHTNQHYAIFSSVVSFYVPLLVMVFLYGKVFAIANKQLKLIGKDRLRFL
+                     SSCNEDSCEIPEGSARSYSRRTTKHVVKEHKALKTLGIIMGIFSLCWLPFFIFNIIKSF
+                     NPEVPTQLVFLLLNWLGYANSGLNPIIYCHSPEYRNAFFNLLGCKKPKHFNQTTVNKHL
+                     QSFTSCIQSNSSVRMDCMGHKDPIARGGNTCSDMSSVLKGEEVEIQPHNDSTMTMINLA
+                     EMLKVRGNKSQLLNSKTV"
+                     /gene="adrb3b"
+                     /protein_id="XP_005164247.1"
+ORIGIN
+        1 tcactctgac agcatgttca gagataaatg aaacatgcca caagatgctg cgaaacattg
+       61 tcaagctccg cttaaaagtg ccagagggca gcagccaatg aatgatggca aatctgtctg
+      121 acaaacacaa ctgcaccgtt gcatgaccgt ccgtacgcct tgaactcagt gtaaacaaaa
+      181 ccaaaacaaa gatgcggcat aacaggaagc atgcgacgtt caagaacaaa gactaaattg
+      241 ggtaacgtca atgtacttgg ctgatatata gagttaagaa acataagact gaataaaagt
+      301 ggccttatta tttagggaac atactgaaac gcatttgcat gctaaggtca catttttgat
+      361 gtgcgatcac aagcgattca tctgtaaaga ccatacgtgc taccacagga agttgacaat
+      421 aaggtgcccg ccgcagacca cacgtcctgc atccttctga acatggtgtt cacatcgaga
+      481 ttgaggcgtg ggaaggtaca cagaacaaga gcgcacgata atggatgata agagtttgga
+      541 agaacttctc aacaagcctg aattattgag gaggaggatt tgagggagga agatccaatc
+      601 tgggacatta tccaagcatg caaaggacta cagaagtctt tagcagaatt ttgggactga
+      661 ctaatccagt gtctatttct cttgatcact gaaagcttcc tctcaggatg agcgccaaca
+      721 ccaccaccct gattcctgaa gatgtcaagc ccctgctggt tcttcctctg gcgttggtca
+      781 tcttcttgac ggtgattgga aacctgctgg tcatcctggc gatcgcccgc acccctctcc
+      841 tccacaccac caccaatgtc ttcatcatct ctatggcatt cgctgatctc attatgggct
+      901 gtgtggtcca gcctttagga ctcagtatgg tggtggctgg gaaatgggtt ttggggaacc
+      961 ctatgtgtga cctgtggacg tctttagacg tgttctgcgt caccgctagc attgagacat
+     1021 tgtgcgctat cgctgttgag cgatacattg cgattaccag acctctggag catcaggtac
+     1081 tgttgggaaa acgcagagcc gcctacatcg tatgcacagt gtggatcgtg tcatccttag
+     1141 tttccttcgt gccaataatg aaccataatt ctcgtgcaaa ttatttagca gcaaacgact
+     1201 gctacaacaa ctcggagtgc tgcgatttcc atactaacca gcactacgcc atcttctcct
+     1261 ctgtggtttc cttctatgtg cctcttcttg ttatggtgtt tctgtacggg aaggtgtttg
+     1321 ccattgcaaa caagcagttg aaactcatcg gtaaggacag acttcgtttt ctgagctctt
+     1381 gcaatgaaga ctcttgtgaa attcctgaag gttcggctcg aagttacagt cggagaacaa
+     1441 caaagcatgt cgtgaaagaa cacaaggcgc tcaagactct agggattatc atgggcatct
+     1501 tcagtctctg ttggctgccc ttcttcatct tcaatatcat caaaagtttt aatcctgaag
+     1561 tgccaacaca gcttgtgttt ctcttgttga actggctggg ctacgccaac tcaggcctga
+     1621 acccaatcat ctactgccac agtcctgagt accgcaacgc tttctttaat ctcttagggt
+     1681 gcaaaaaacc caagcatttt aaccaaacca ccgtgaacaa acatctacaa agcttcacct
+     1741 cgtgcatcca gagcaacagt tcggtaagaa tggattgcat gggtcacaaa gatccaattg
+     1801 cacggggcgg gaacacttgc tctgacatga gctcagtttt aaaaggagaa gaggtagaaa
+     1861 tacagcctca caatgactcg acaatgacga tgatcaatct agcagagatg ttgaaggtaa
+     1921 gagggaacaa atcacaactg ttaaatagta aaactgttta agatagtaag gtatgatggg
+     1981 gtgattgctc acctaagtgt ttggagtgtc gtctttgtgg gtggaaaaca gattaacatt
+     2041 gaaacaaacg agaagcagca ttcagaaatc tttgaaaacc acatatctgg ccagcttatg
+     2101 ggttttgaag cagctctcaa atggtctttt aaca
+//

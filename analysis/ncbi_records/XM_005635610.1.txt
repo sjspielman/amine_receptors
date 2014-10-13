@@ -1,0 +1,92 @@
+LOCUS       XM_005635610            1534 bp    DNA              MAM 24-SEP-2013
+DEFINITION  PREDICTED: Canis lupus familiaris adrenoceptor alpha 1A (ADRA1A),
+            transcript variant X4, mRNA.
+ACCESSION   XM_005635610
+VERSION     XM_005635610.1  GI:545542181
+DBLINK      BioProject: PRJNA12384
+KEYWORDS    RefSeq.
+SOURCE      Canis lupus familiaris (dog)
+  ORGANISM  Canis lupus familiaris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae;
+            Canis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003726103.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Canis lupus familiaris Annotation
+            Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1534
+                     /sub_species="familiaris"
+                     /mol_type="mRNA"
+                     /breed="boxer"
+                     /sex="female"
+                     /db_xref="taxon:9615"
+                     /organism="Canis lupus familiaris"
+                     /chromosome="25"
+     gene            1..1534
+                     /note="adrenoceptor alpha 1A; Derived by automated
+                     computational analysis using gene prediction method:
+                     Gnomon. Supporting evidence includes similarity to: 1 mRNA,
+                     9 Proteins, and 100% coverage of the annotated genomic
+                     feature by RNAseq alignments, including 4 samples with
+                     support for all annotated introns"
+                     /db_xref="GeneID:403866"
+                     /gene="ADRA1A"
+                     /gene_synonym="ADRA1C; ALPHA-1A"
+     CDS             182..1459
+                     /product="alpha-1A adrenergic receptor isoform X4"
+                     /codon_start="1"
+                     /gene_synonym="ADRA1C; ALPHA-1A"
+                     /db_xref="GI:545542182"
+                     /db_xref="GeneID:403866"
+                     /translation="MVFLSGNASDSSNCTHPPAPVNISKAILLGVILGGLIIFGVLGNI
+                     LVILSVACHRHLHSVTHYYIVNLAVADLLLTSTVLPFSAIFEILGYWAFGRVFCNIWAA
+                     VDVLCCTASIMGLCIISIDRYIGVSYPLRYPTIVTQKRGLMALLCVWALSLVISIGPLF
+                     GWRQPAPEDETICQITEEPGYVLFSALGSFYVPLTIILVMYCRVYVVAKRESRGLKSGL
+                     KTDKSDSEQVTLRIHRKNAPVGGTGVSSAKNKTHFSVRLLKFSREKKAAKTLGIVVGCF
+                     VLCWLPFFLVMPIGSFFPDFKPSETVFKIAFWLGYLNSCINPIIYPCSSQEFKKAFQNV
+                     LRIQCLRRKQSSKHTLGYTLHQPSHTLEGQPKELVRIPVGSGETFYKISKTDGVCEWKV
+                     FSSMPRESARITVSKDQSACTTARDF"
+                     /gene="ADRA1A"
+                     /protein_id="XP_005635667.1"
+ORIGIN
+        1 gttgagttcc agagtgcgtg cgggatgccc ggtctcctaa gctggacgga tccgacgcta
+       61 gccccagccg gccaggctcc ccagagccga gaccttctga ctccgctccc tcgcttccgc
+      121 ctccgccctc gctcgggggg tggctctcga gagccggacc tcgccggccc cggctgggac
+      181 catggtgttt ctctctggaa atgcctccga cagttccaac tgcacccacc cgccggcacc
+      241 ggtgaacata tccaaggcca ttctgctcgg ggtgatcttg gggggcctca tcatttttgg
+      301 tgtgctgggc aacatcctgg tgatcctctc cgtggcctgc caccggcatc tgcactcggt
+      361 cactcactac tacatcgtca acctggcggt ggccgacctc ctgctcacct ccaccgtgct
+      421 gcccttctcg gctatcttcg agatcctggg ctactgggcc tttggcaggg tcttctgcaa
+      481 tatctgggcg gcggtggacg tcctgtgctg caccgcgtcc atcatgggac tctgcatcat
+      541 ctccatcgac cgctacatag gtgtgagcta cccgctgcgc taccccacca tcgtcaccca
+      601 gaagaggggt ctcatggctc tgctctgtgt ctgggcgctg tccctcgtca tctccatcgg
+      661 gcctctcttt ggctggaggc agccggcccc cgaggacgag accatctgtc agatcaccga
+      721 ggagccgggc tacgtgctct tctcggcgct gggctccttc tacgtgccac tgaccatcat
+      781 cctggtcatg tactgccggg tctacgtggt ggccaagagg gagagcaggg gcctcaagtc
+      841 tggcctcaag actgacaagt cggactcgga gcaggtgacg ctccgcatcc atcggaagaa
+      901 cgccccagta ggaggcaccg gggtgtccag cgccaagaac aagacgcact tctcggtgag
+      961 gctcctcaag ttctcccggg agaagaaagc ggccaaaacg ctgggcatcg tggtcggctg
+     1021 cttcgtcctc tgctggctgc cttttttctt agtgatgccc attgggtctt tcttccctga
+     1081 tttcaagccc tcagaaacag tttttaaaat agcgttttgg ctcggatacc taaacagctg
+     1141 catcaacccc attatatatc cgtgctccag tcaagagttt aaaaaggcct ttcagaatgt
+     1201 cttgagaatc cagtgtctcc gcagaaagca gtcttctaaa cacaccctgg gctatacctt
+     1261 gcaccagccc agccacaccc tggaggggca gcccaaggag ctggtgcgca ttccagtggg
+     1321 atcaggagag accttttata agatctccaa gacggatggg gtctgtgaat ggaaagtttt
+     1381 ctcttcaatg ccccgtgaat ctgccaggat tacagtgtcc aaagaccagt cagcctgcac
+     1441 cacagcccgg gacttttaat cctgaaacca cctgcacaca gctccggtcc agcctggttg
+     1501 gaacactgtt ggcacctgct ccttgtctac atac
+//

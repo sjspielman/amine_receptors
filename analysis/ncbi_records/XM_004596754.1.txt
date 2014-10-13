@@ -1,0 +1,97 @@
+LOCUS       XM_004596754            2071 bp    DNA              MAM 18-MAY-2013
+DEFINITION  PREDICTED: Ochotona princeps cholinergic receptor, muscarinic 1
+            (CHRM1), mRNA.
+ACCESSION   XM_004596754
+VERSION     XM_004596754.1  GI:504174499
+DBLINK      BioProject: PRJNA193497
+KEYWORDS    RefSeq.
+SOURCE      Ochotona princeps (American pika)
+  ORGANISM  Ochotona princeps
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha;
+            Ochotonidae; Ochotona.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004535521.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ochotona princeps Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2071
+                     /mol_type="mRNA"
+                     /country="USA: Washington"
+                     /isolate="Ochotona princeps_07Jul2011"
+                     /sex="female"
+                     /db_xref="taxon:9978"
+                     /organism="Ochotona princeps"
+                     /chromosome="Unknown"
+     gene            1..2071
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 mRNAs, 23 Proteins"
+                     /db_xref="GeneID:101526608"
+                     /gene="CHRM1"
+     misc_feature    377..379
+                     /note="upstream in-frame stop codon"
+                     /gene="CHRM1"
+     CDS             419..1798
+                     /product="muscarinic acetylcholine receptor M1"
+                     /codon_start="1"
+                     /db_xref="GI:504174500"
+                     /db_xref="GeneID:101526608"
+                     /translation="MNTSAPPAVSPNITVLAPGKGPWQMAFIGITTGLLSLATVTGNLL
+                     VLISFKVNTELKTVNNYFLLSLACADLIIGTFSMNLYTTYLLMGHWALGTLACDLWLAL
+                     DYVASNASVMNLLLISFDRYFSVTRPLSYRAKRTPRRAALMIGLAWLVSFVLWAPAILF
+                     WQYLVGERTVLAGQCYIQFLSQPIITFGTAMAAFYLPVTVMCTLYWRIYRETENRAREL
+                     AALQGSETPGKGGGSSSSSERSQPGAEGSSETPQGRCCRCCRAPRLLQAYSWKEEEEDD
+                     EGSMESLTSSEGEEPGSEVVIKIPMVDPETQAPTKQPPRSSPNTVKRPTRKGRDRASKS
+                     QKPRGKELAKRKTFSLVKEKKAARTLSAILLAFILTWTPYNIMVLVSTFCKDCVPETLW
+                     ELGYWLCYVNSTINPMCYALCNKAFRDTFRLLLLCRWDKRRWRKIPKRPGSVHRTPSRQ
+                     C"
+                     /gene="CHRM1"
+                     /protein_id="XP_004596811.1"
+ORIGIN
+        1 tggggtgcaa agtgagtccc ctggtggaga gaggcggcgt gctccaggat aatccagccc
+       61 cagatgccgc ctgtggcttc cctcagctcc ctctctcttc tttctctccc tctctccctt
+      121 cctccctccc tccctccctc cctcccttcc tctccccccc cccccggctg gcgtgccagg
+      181 gggtgggaca tgccaatcac tggctgtgcc tctctcgctg ccagcacagg gtgcagctcc
+      241 cccccgggag ccaggtgttt gggtcccagg agacgctgcc ggcccccgga aaagcagtgt
+      301 ggctgaggat cctacagacc cctctcccgg gccccatggt gatgcccctc ctctgaggaa
+      361 gccctgtccc acgacttgag gaaggggccg cgccccccaa cacccccggc cggccaccat
+      421 gaacacctca gcgccccctg ctgtcagccc caacatcaca gtcctggccc cgggaaaggg
+      481 tccctggcaa atggccttca ttgggatcac cacgggcctc ctgtccctgg ccacagtgac
+      541 gggcaacctg ctggtgctca tctccttcaa ggtcaacacg gagctcaaga cggtcaacaa
+      601 ctacttcctg ctgagcctgg cctgcgccga cctcatcatc ggcaccttct ccatgaacct
+      661 ctacaccacc tacctgctca tgggccactg ggcccttggc acattagcct gcgacctgtg
+      721 gctggccctg gactatgtgg ccagcaacgc atccgtcatg aacctgctgc tcatcagttt
+      781 cgaccgctac ttctcagtga cccggcccct gagctaccgc gccaagcgca ccccccgccg
+      841 ggcagccctc atgatcggcc tggcctggct ggtctccttt gtcctctggg ctcctgccat
+      901 cctcttctgg caatacctag tgggggagcg gacggtgctg gctgggcagt gctacatcca
+      961 atttctctcc cagcccatca tcaccttcgg cacagccatg gctgccttct acctcccggt
+     1021 cacagtcatg tgcacactct actggcgcat ctaccgggag accgaaaacc gagcacggga
+     1081 gctggcggcc ctgcagggct ctgagacacc gggcaaaggg ggcggcagca gcagcagctc
+     1141 tgagaggtcg cagcccggag ccgagggctc gtcagagaca ccccagggcc gctgctgtcg
+     1201 ctgctgccgg gctccccggc tgctgcaagc ctacagctgg aaggaggagg aagaggacga
+     1261 cgaaggctcc atggagtccc tcacgtcctc ggaaggtgag gagccaggct ccgaagtggt
+     1321 gatcaagata cccatggtgg accccgagac gcaggccccc accaagcagc ctccccggag
+     1381 ctcaccaaac acggtcaaga ggccgacccg gaaggggcga gaccgggcca gcaagagcca
+     1441 gaagccccgt ggcaaggagc tggccaagcg caagaccttc tcgctggtca aggagaagaa
+     1501 ggcggctcgg accctgagcg ccatcctgct ggccttcatc ctcacctgga caccatacaa
+     1561 catcatggtg ctggtgtcca ctttctgcaa ggactgtgtc cctgagacgc tgtgggagct
+     1621 cggctactgg ctgtgctacg tcaacagcac catcaacccc atgtgctacg cgctctgcaa
+     1681 caaggccttc agggacacct tccgcctgct gctgctctgc cgctgggaca agcgccgctg
+     1741 gcgcaagatc cccaaacgcc cgggatctgt gcaccgcacc ccctcccgcc agtgctgacg
+     1801 gcccctcgcc ctcatccctc caccccagca ctccggggag aatggccagt gggaatggac
+     1861 cccaaggccc acaggccaca ccaggagttc aggcccctgg gatcaccttc ctggacagac
+     1921 ttaccctgcc aactttccaa actttctgtt cccaggtggt aggggagggg gagtgttgaa
+     1981 acctggggaa ctggtttttc tgttcccggc tgggtggaat ggtttcttca ctaggaagaa
+     2041 ggcccgggca ggagggtgcg ggctttaggc t
+//

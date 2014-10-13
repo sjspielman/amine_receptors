@@ -1,0 +1,98 @@
+LOCUS       XM_002745992            2183 bp    DNA              PRI 02-SEP-2014
+DEFINITION  PREDICTED: Callithrix jacchus dopamine receptor D5 (DRD5), mRNA.
+ACCESSION   XM_002745992
+VERSION     XM_002745992.2  GI:675650194
+DBLINK      BioProject: PRJNA46205
+KEYWORDS    RefSeq.
+SOURCE      Callithrix jacchus (white-tufted-ear marmoset)
+  ORGANISM  Callithrix jacchus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003183293.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 2, 2014 this sequence version replaced gi:296196892.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Callithrix jacchus Annotation
+            Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2183
+                     /db_xref="taxon:9483"
+                     /mol_type="mRNA"
+                     /organism="Callithrix jacchus"
+                     /chromosome="3"
+     gene            1..2183
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 9 mRNAs, 31 ESTs, 23 Proteins, and
+                     92% coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:100408128"
+                     /gene="DRD5"
+     CDS             494..1924
+                     /product="D(1B) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:296196893"
+                     /db_xref="GeneID:100408128"
+                     /translation="MLPPGSNGTAYPGQFALNQQLAQGNTVGGSAGAPPLGPAQVVTAG
+                     LLTLLIIWTLLGNVLVCAAIVRSRHLRAKMTNVFIVSLAVSDLFVALLVMPWKAVAEVA
+                     GYWPFGAFCDVWVAFDIMCSTASILNLCVISVDRYWAISRPFRYERKMTQRMALVMVGL
+                     AWTLSILISFIPVQLNWHRDQAGSWGGLDLPNNLANGTPWEDVWEPDVRAENCDSSLNR
+                     TYAISSSLVSFYIPVAIMIVTYTRIYRIAQVQIRRISSLERAAEHAQSCRSSAACAPET
+                     SLRASIKKETKVLKTLSVIMGVFVCCWLPFFVLNCMVPFCSGHPEGPPAGFPCVSETTF
+                     DVFVWFGWANSSLNPIIYAFNADFRKVFAQLLGCSHLCSRTPVEMVNISNELVSYNQDT
+                     VFQKEITAAYIHMMPNAVTPGDPQVDDDEEEGSFDRMSQIYQMSPDGDPVAESVWELDC
+                     EGEISLGKITPFTPNGFH"
+                     /gene="DRD5"
+                     /protein_id="XP_002746038.1"
+ORIGIN
+        1 ggcgctaagg cacaggtggg gcgggagcgc gagagagccg agcgcggagg cgcggggggc
+       61 gggaagcggg gcccgggagc agcctgggac cgcggcagcg ccgcagctcc tagcgccagc
+      121 ggctgtctgc cccagcccct cagtggcggc tcgctctctt cttctctggt tccgaacccg
+      181 acacagccgc tgccgcccgg cgcgctgcga actcccgaca acagccctgg ccgtcagcgg
+      241 gcaccagccg cttcctgtcc ccagcgccga gactggaggg gcgcaccgcg gccaccgagc
+      301 cagaggcgct tcaggctgcg agagaagtcc ccgcgcgccc aggggcccgg cgcagctcac
+      361 ggtgagcgcc ccccggggct cgagggtccc ttgactgagg gggcgcatcc tcggggtgcc
+      421 cgatggggct gcccgggggt cgcagggctg aagctgggat cgcgcacaga ccgcccctgc
+      481 agcccagcca gaaatgctgc cgccggggag caatggcacc gcgtacccgg ggcagttcgc
+      541 cctgaaccag cagctggcgc agggaaacac cgtggggggc tcggctgggg caccgccact
+      601 ggggccggcg caggtggtca ccgccggcct gctgacccta ctcattatct ggaccctgct
+      661 gggcaacgtg ctggtgtgcg ctgccatcgt gcggagccgc cacctgcgcg ccaagatgac
+      721 caatgtcttc atcgtgtctc tggccgtgtc agacctcttc gtggcgctgc tggtcatgcc
+      781 ctggaaggcg gtcgcagaag tggccggtta ctggcccttt ggagcgttct gcgacgtctg
+      841 ggtggccttc gacatcatgt gctccaccgc ctcgatcctg aacctgtgcg tcatcagcgt
+      901 ggaccgctac tgggccatct ccaggccctt ccgctacgag cgcaagatga cccagcgcat
+      961 ggccctggtc atggtcggcc tggcctggac cttgtccatc ctcatctcct tcattccggt
+     1021 ccagctcaac tggcaccggg accaggcagg ctcttggggc ggactggacc tgcccaacaa
+     1081 cctggctaac gggacgccct gggaggacgt ttgggaaccc gacgtgaggg cagagaactg
+     1141 tgactccagc ctgaaccgaa cctacgccat ctcttcctct ctcgtcagct tctacatccc
+     1201 ggtggccatc atgatcgtga cctacacgcg catctaccgc atcgcccagg tgcagatccg
+     1261 caggatttcc tccttggaga gggccgcgga gcacgcgcag agctgccgga gcagcgccgc
+     1321 ctgcgcgcca gagaccagcc tgcgcgcttc cattaagaag gagactaagg tgctcaagac
+     1381 cctgtcggtg atcatggggg tcttcgtgtg ctgctggctg cccttcttcg tccttaactg
+     1441 catggttcct ttctgcagtg gacaccccga aggcccccca gccggcttcc cctgcgtcag
+     1501 cgagaccacc tttgatgtct tcgtctggtt tggctgggcc aactcttcac tcaaccccat
+     1561 catctacgcc ttcaacgccg acttccggaa ggtgtttgcc cagctgctgg ggtgcagcca
+     1621 cctctgctcc cgtacgccgg tggagatggt gaacatcagt aatgagctcg tctcctacaa
+     1681 ccaggacacc gtcttccaga aggaaatcac agctgcctat atccacatga tgcccaacgc
+     1741 ggtgacccca ggcgacccgc aagtggacga tgacgaggag gagggctctt ttgatcgcat
+     1801 gtcccagatc tatcagatgt ccccagatgg tgaccctgtg gcagagtctg tctgggagct
+     1861 ggactgcgag ggggagattt ctttaggcaa aataacacct tttaccccaa atggattcca
+     1921 ttaaacggca ttaagaagct cgctcctgga tctgcatcac tgcagtgaca tttacaagca
+     1981 tgcacacacg cgcaaataca cgcctttcca gcgctgccct gtttataatg tgtttctgag
+     2041 tagtagctca tgtgcgtaga aacctcaccc cattgattgg tagttcaaag aattggcaga
+     2101 agcagttgca ataaactcag tcaaatatac ccagcctgcc agaggtgacc ctattaaaga
+     2161 agagagtatg gtgctgggtc ctt
+//

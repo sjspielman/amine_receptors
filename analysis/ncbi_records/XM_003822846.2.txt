@@ -1,0 +1,127 @@
+LOCUS       XM_003822846            2047 bp    DNA              PRI 02-SEP-2014
+DEFINITION  PREDICTED: Pan paniscus 5-hydroxytryptamine (serotonin) receptor 1E,
+            G protein-coupled (HTR1E), mRNA.
+ACCESSION   XM_003822846
+VERSION     XM_003822846.2  GI:675771472
+DBLINK      BioProject: PRJNA169343
+KEYWORDS    RefSeq.
+SOURCE      Pan paniscus (pygmy chimpanzee)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003870538.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 2, 2014 this sequence version replaced gi:397504644.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pan paniscus Annotation Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2047
+                     /mol_type="mRNA"
+                     /country="Germany"
+                     /isolate="Ulindi"
+                     /sex="female"
+                     /db_xref="taxon:9597"
+                     /organism="Pan paniscus"
+                     /chromosome="Unknown"
+     gene            1..2047
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 14 ESTs, 9 Proteins, and
+                     80% coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:100987378"
+                     /gene="HTR1E"
+     STS             542..1983
+                     /db_xref="UniSTS:489680"
+                     /gene="HTR1E"
+     STS             665..1854
+                     /db_xref="UniSTS:481920"
+                     /gene="HTR1E"
+     CDS             707..1804
+                     /product="5-hydroxytryptamine receptor 1E"
+                     /codon_start="1"
+                     /db_xref="GI:397504645"
+                     /db_xref="GeneID:100987378"
+                     /translation="MNITNCTTEASMAIRPKTITEKMLICMTLVVITTLTTLLNLAVIM
+                     AIGTTKKLHQPANYLICSLAVTDLLVAVLVMPLSIIYIVMDRWKLGYFLCEVWLSVDMT
+                     CCTCSILHLCVIALDRYWAITNAIEYARKRTVKRAALMILTVWTISIFISMPPLFWRSH
+                     RRLSPPPSQCTIQHDHVIYTIYSTLGAFYIPLTLILILYYRIYHAAKSLYQKRGSSRHL
+                     SNRSTDSQNSFASCKLTQTFCVSDFSTSDPTTEFEKFHASIRIPPFDNDLDHPGERQQI
+                     SSTRERKAARILGLILGAFILSWLPFFIKELIVGLSIYTVSSEVADFLTWLGYVNSLIN
+                     PLLYTSFNEDFKLAFKKLIRCREHT"
+                     /gene="HTR1E"
+                     /protein_id="XP_003822894.1"
+     STS             780..1363
+                     /db_xref="UniSTS:157232"
+                     /standard_name="GDB:435478"
+                     /gene="HTR1E"
+     STS             1331..1720
+                     /db_xref="UniSTS:157233"
+                     /standard_name="GDB:435482"
+                     /gene="HTR1E"
+     STS             1804..1999
+                     /db_xref="UniSTS:43677"
+                     /standard_name="WI-18995"
+                     /gene="HTR1E"
+     STS             1805..1902
+                     /db_xref="UniSTS:10601"
+                     /standard_name="D6S2061"
+                     /gene="HTR1E"
+     STS             1829..1981
+                     /db_xref="UniSTS:41126"
+                     /standard_name="G15845"
+                     /gene="HTR1E"
+     STS             1840..1983
+                     /db_xref="UniSTS:48974"
+                     /standard_name="RH46696"
+                     /gene="HTR1E"
+ORIGIN
+        1 aagacctgga gtacctcgga gctgcgacct ccagttcaca ataccacctg cctcacaccc
+       61 gggctcatct tttcatccca cacccaccac ccccctctcc gttcacggtg tcccgggagg
+      121 ctgcgacctg cgtagatgat ttagcagact gcccctaccc atgctcctgc tcctgctcct
+      181 cctcctcctc ctcttccccg ctctctccct ctcgcctcct cttccagtcc aggcgcccag
+      241 actcggcgaa gcgcagcgcc tgccaccagc ggtgcctcgg gctgcccggc gcgccgcgct
+      301 cccaggttct gtctcgccgc accccggcgg gcactggcgc gggcaaggac gctggcgggg
+      361 agaacgccct gggctcaacg tactccagaa tcgaatgttg agagaagcag tgctctgatc
+      421 cagctcagga gaaaaaggag ctggttccga gtgagacttc tagagccagc tggacgtgcc
+      481 ggtttgccca gtgcggcgcg gctgcacgca ccgtccgcaa ggaaccttca ctcagaagaa
+      541 atgctgtggc ccttcccttt accaacagaa aatggaacac aagagaccac atagctgaac
+      601 aaattatagc ctccttacaa gtaagacacc ttcgaggcta catagttttc agccaaagga
+      661 aaataaccaa cagcttctcc acagtgtaga ctgaaacaag ggaaacatga acatcacaaa
+      721 ctgtaccaca gaggccagca tggctataag acccaagacc atcactgaga agatgctcat
+      781 ttgcatgact ttggtggtca tcaccaccct caccacgttg ctgaacttgg ctgtgatcat
+      841 ggctattggc accaccaaga agctccacca gcctgccaac tacctaatct gttctctggc
+      901 cgtgacggac ctcctggtgg cagtgctcgt catgcccctg agcatcatct acattgtcat
+      961 ggatcgctgg aagcttgggt acttcctctg tgaggtgtgg ctgagtgtgg acatgacctg
+     1021 ctgcacctgc tccatcctcc acctctgtgt cattgccctg gacaggtact gggccatcac
+     1081 caatgctatt gaatacgcca ggaagaggac ggtcaagagg gccgcgctga tgatcctcac
+     1141 cgtctggacc atctccattt tcatctccat gccccctctg ttctggagaa gccaccgccg
+     1201 cctaagccct ccccctagtc agtgcaccat ccagcacgac catgttatct acaccattta
+     1261 ctccacgctg ggtgcgtttt atatcccctt gactttgata ctgattctct attaccggat
+     1321 ttaccacgca gccaagagcc tttaccagaa aaggggatca agtcggcact taagcaacag
+     1381 aagcacagat agccagaatt cttttgcaag ttgtaaactt acacagactt tctgtgtgtc
+     1441 tgacttctcc acctcagacc ctaccacaga gtttgaaaag ttccatgcct ccatcaggat
+     1501 cccccccttc gacaatgatc tagatcaccc aggagaacgt cagcagatct ctagcaccag
+     1561 ggaacggaag gcagcacgca tcctggggct gattctcggt gcgttcattt tatcctggct
+     1621 gccatttttc atcaaagagt tgattgtggg tctgagcatc tacaccgtgt cctcggaagt
+     1681 ggccgacttt ctgacgtggc tcggttatgt gaattctctg atcaaccctc tgctctatac
+     1741 gagttttaat gaagacttta agctggcttt taaaaagctc attagatgcc gagagcatac
+     1801 ttagactgta aaaagctaaa aggcacgact ttttccagag cctcatgagt ggatgggggt
+     1861 aaggggtgca acttattaat tcttgaacat acttggttca ggagagtttg taagtatgtg
+     1921 tggtcttgtt tccttgtttg tttgttttgt tctgttttgt ttgaggattg ttatttggcg
+     1981 tgctgttttc tacctctggt cttatctgtg atacataatt tcaaataaac attatcatac
+     2041 aaaaaca
+//

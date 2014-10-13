@@ -1,0 +1,100 @@
+LOCUS       XM_006117616            2123 bp    DNA              VRT 15-NOV-2013
+DEFINITION  PREDICTED: Pelodiscus sinensis histamine receptor H1 (HRH1),
+            transcript variant X1, mRNA.
+ACCESSION   XM_006117616
+VERSION     XM_006117616.1  GI:558136994
+DBLINK      BioProject: PRJNA221645
+KEYWORDS    RefSeq.
+SOURCE      Pelodiscus sinensis (Chinese soft-shelled turtle)
+  ORGANISM  Pelodiscus sinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Testudines; Cryptodira;
+            Trionychoidea; Trionychidae; Pelodiscus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005853649.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pelodiscus sinensis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2123
+                     /mol_type="mRNA"
+                     /country="Japan: Saga"
+                     /isolate="Daiwa-1"
+                     /sex="female"
+                     /db_xref="taxon:13735"
+                     /organism="Pelodiscus sinensis"
+                     /chromosome="Unknown"
+     gene            1..2123
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 16 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 16 samples with support for all annotated
+                     introns"
+                     /db_xref="GeneID:102462894"
+                     /gene="HRH1"
+     CDS             192..1604
+                     /product="histamine H1 receptor isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:558136995"
+                     /db_xref="GeneID:102462894"
+                     /translation="MCELNKNTTNNSTVTHPIPLGLVLGSISLITVIMNILVLYAVKTE
+                     RKLQTVGNLYIVSLSVADLIVGAAVMPLNMMYLLKGKWVLGSLACLFWLSMDYVASTAS
+                     IFSLFILCIDRYRSVQQPLNYLKYRTKTRALVMISGAWLISLLWIIPIQGWHAFANIRN
+                     RTVGEVTCETEFSQVTWFKVLTAIVNFYVPSLLMLWFYAKIYKAVRKHCQHRELINGSF
+                     RSFSENKSVHHKGQEKQKICHKKSNKDIPSSLLKGSSADPCCNVNLHFPQSKRMEAKLQ
+                     LGSFDNCPNTLITEDDSKVVNRSCFPLAIAQTQSGPDKVGIKYVSVKKGPELSDTSDEH
+                     TFIEGVLCKNDSYSTLEPTSSAEDKTNKGLGYLKSTWLRLRTQSMQGVHLNREKKAAKQ
+                     LGFIMAAFMLCWIPYFVLFMVIAYCQSCCNQGFYMFTIWLGYVNSTLNPFIYPLCNENF
+                     KTTFKKILHIHS"
+                     /gene="HRH1"
+                     /protein_id="XP_006117678.1"
+ORIGIN
+        1 ttttacgaga taaaccgaca cttactgttg gattgatcca agatgaagga aagtggcagg
+       61 tcaccattac agagtcacaa aaagaaccag aaagcaacaa attataaact caaacaggct
+      121 tgtaaacaaa agcgaattgc caagatcctg acatttgccc tgatttctgc tctgtgactt
+      181 tgggcaaaaa aatgtgtgag ctcaacaaaa acacaacaaa taactcaaca gtcactcacc
+      241 caatcccact aggtctggtc ctgggtagca tctcactgat cacagtcatc atgaatattt
+      301 tggtcctata tgcagtgaaa acagaaagaa agctgcaaac agttggtaac ctgtacattg
+      361 tcagcctatc cgttgcagac cttatagttg gagcagctgt tatgccgctg aacatgatgt
+      421 acctactgaa aggcaagtgg gtactgggca gtctagcctg tttgttctgg ctctcaatgg
+      481 attatgtagc ctccacagcc tccatcttca gcctttttat attgtgcata gatcgttacc
+      541 gttcagtaca acagccactc aattatctca agtaccggac caaaactaga gcattggtaa
+      601 tgatttctgg agcttggctg atttctcttc tgtggatcat cccgattcaa ggctggcatg
+      661 cttttgccaa tattaggaat cggacagtgg gtgaagttac ctgtgaaaca gaattctccc
+      721 aagtcacctg gtttaaagtg ttgacagcaa ttgtcaactt ctatgtccca tctttactga
+      781 tgttatggtt ctatgcaaaa atatacaaag ctgtcaggaa acactgtcag caccgagagc
+      841 tcatcaatgg atcttttcga tctttctcag aaaacaaaag tgtacatcat aaagggcagg
+      901 aaaagcaaaa gatttgccac aaaaagtcaa ataaagatat accctcaagt cttttgaaag
+      961 gaagctctgc agatccttgc tgcaatgtaa atctccactt tcctcagtct aaacgtatgg
+     1021 aggcaaaact tcaacttggc agctttgaca actgcccaaa cactctcatt acagaagatg
+     1081 acagcaaagt agtaaaccgg agctgctttc ctcttgctat tgcccagact cagtcaggac
+     1141 cagataaagt aggaattaag tatgtgtcgg tcaagaaggg gccagagtta agtgacacat
+     1201 cagatgagca cactttcata gaaggggtct tgtgtaaaaa tgactcctat tccaccctgg
+     1261 agccaacttc tagtgctgag gacaagacta acaaaggcct tggttatctg aagagcacct
+     1321 ggctgagact gcgcacccag tccatgcaag gggtgcatct gaacagggag aagaaagcag
+     1381 ccaagcagtt gggttttata atggcagcct ttatgctgtg ctggattcct tattttgtgc
+     1441 tgtttatggt aatagcctat tgtcaaagct gttgcaacca gggtttctac atgttcacta
+     1501 tttggcttgg ttacgtaaac tccactttaa atccattcat ctatcccctc tgtaacgaga
+     1561 acttcaagac gactttcaaa aagatccttc atattcactc ataatgtatc ttcaggctgt
+     1621 ttttatttgg attaaaaaag caagtccagg ttttcaaaga aagaaagctt tccagtttca
+     1681 aaggaaatta tgactgagat agaaggctta aatgtaaaca gtagacctat catgtgaaaa
+     1741 cagaaaacac atatttacat gacaaagagc tttcaagttc aacatgttta aaagggaact
+     1801 gattttgacc aggattccta aaaactcagg gctcagactc aggactgcta tgctaataat
+     1861 gtatatattt tacaactttt aagatttcct ctttacattg tgtagaacaa aactggaaag
+     1921 atggacagaa atctttagtt atgagctaat tagatgcgga aagagaagaa atacttcagt
+     1981 ttatatcctc tgtaacttct aaaaagttaa cttggaaaca tgctgcttgt tgaaggcacc
+     2041 aatctctcac aatatatgct ttttcatgta gttaaaagga tggcacttga actgtttgaa
+     2101 aatataacct atttattaat aaa
+//

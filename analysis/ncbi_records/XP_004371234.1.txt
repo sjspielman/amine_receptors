@@ -1,0 +1,59 @@
+LOCUS       XP_004371234             354 aa                     MAM 27-MAR-2013
+DEFINITION  PREDICTED: histamine H2 receptor [Trichechus manatus latirostris].
+ACCESSION   XP_004371234
+VERSION     XP_004371234.1  GI:471361337
+DBLINK      BioProject: PRJNA189960
+KEYWORDS    RefSeq.
+SOURCE      Trichechus manatus latirostris (Florida manatee)
+  ORGANISM  Trichechus manatus latirostris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Afrotheria; Sirenia; Trichechidae; Trichechus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004443947.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Trichechus manatus latirostris Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..354
+                     /sub_species="latirostris"
+                     /isolate="Lorelei"
+                     /sex="female"
+                     /db_xref="taxon:127582"
+                     /organism="Trichechus manatus latirostris"
+                     /chromosome="Unknown"
+     Protein         1..354
+                     /product="histamine H2 receptor"
+                     /calculated_mol_wt="39567"
+     Region          24..298
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          36..283
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..354
+                     /coded_by="XM_004371177.1:1..1065"
+                     /gene="HRH2"
+                     /db_xref="GeneID:101348741"
+ORIGIN
+        1 massdtpsst askitisvil tvlilitiag nvvvclavgl nrrlrsltnc fivslaitdl
+       61 llgllvlpfs aiyqlsysws fgqifcniyt sldvmlctas ilnlfmisld rycavmdplr
+      121 ypvlvtpvrv tislvfiwvi sitlsflsih lgwnsrnktv gsnhtiskck vqvnevyglv
+      181 dglvtfylpl limcityyri fkiarnqakr inhisswnaa tikehkatvt laavmgafii
+      241 cwfpyftvfv yrglrgdeai nevteaivlw lgyansalnp ilyaalnrdf rtayqqlfcc
+      301 rstghnshgt slrftnsqms rsqsrkhkgq eenplklqvw srteftapqg atdr
+//

@@ -1,0 +1,89 @@
+LOCUS       XM_004264846            1611 bp    DNA              MAM 18-MAR-2013
+DEFINITION  PREDICTED: Orcinus orca 5-hydroxytryptamine receptor 1E-like
+            (LOC101271652), mRNA.
+ACCESSION   XM_004264846
+VERSION     XM_004264846.1  GI:465980196
+DBLINK      BioProject: PRJNA189949
+KEYWORDS    RefSeq.
+SOURCE      Orcinus orca (killer whale)
+  ORGANISM  Orcinus orca
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Cetacea;
+            Odontoceti; Delphinidae; Orcinus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004438423.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Orcinus orca Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1611
+                     /mol_type="mRNA"
+                     /collection_date="06-Sep-2011"
+                     /isolate="Morgan"
+                     /sex="male"
+                     /note="Norwegian herring-eating population"
+                     /db_xref="taxon:9733"
+                     /tissue_type="blood"
+                     /organism="Orcinus orca"
+                     /chromosome="Unknown"
+     gene            1..1611
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 mRNAs, 11 Proteins"
+                     /db_xref="GeneID:101271652"
+                     /gene="LOC101271652"
+     misc_feature    236..238
+                     /note="upstream in-frame stop codon"
+                     /gene="LOC101271652"
+     CDS             278..1375
+                     /product="5-hydroxytryptamine receptor 1E-like"
+                     /codon_start="1"
+                     /db_xref="GI:465980197"
+                     /db_xref="GeneID:101271652"
+                     /translation="MNITNCTPEASVAVRPKTITEKMLISMTLVIITALTMLLNSAVIM
+                     AICTTKKLHQPANYLICSLAVTDLLVAVLVMPLSITYIVTDSWKLGYFICEVWLSVDMT
+                     CCTCSILHLCVIALDRYWAITNAIEYARKRTAKRAGLMILTVWTISVFISMPPLFWRSH
+                     RQLSLPPGQCTIQHDHIIYTIYSTLGAFYIPLTLILILYYRIYHAAKSLYQKRGSSRHL
+                     SNRSTDSQNSFASCKLTQTFCVSDFSTSDPPTEFEKIHTSIRIPPFAHDLDNPGERQHI
+                     SSTRERKAARILGLILGAFIMSWLPFFIKELIVGLSIYTVSSEVADFLTWLGYVNSLIN
+                     PLLYTSFNEDFKLAFKKLIRCREHT"
+                     /gene="LOC101271652"
+                     /protein_id="XP_004264894.1"
+ORIGIN
+        1 gaggaaaagg agcggttcgg agtgagactt ctggaaccac cggacgcccg ggtttgccca
+       61 gtgcgcggcg gctgcgcgca ccgtccacca ggaaccctcc attcagaaga aatgctgtgg
+      121 tgcttccctt tacccacacg aaatggaacc caagagactg cagctgaaga aaaaattacc
+      181 gcctccttac aaatgagaga gtttcaagtc tacatagttt ccaactgcag gaaaataacc
+      241 atcagcttct ccacagtgta gattagaaca ggggaaaatg aacatcacta actgtacccc
+      301 agaagccagt gtggctgtga gacccaagac catcactgag aagatgctca tttccatgac
+      361 tctggtgatc atcaccgccc tgaccatgct gctaaactcg gccgtgatca tggccatctg
+      421 caccaccaag aagctccacc agcctgccaa ctacctgatc tgttctctgg ctgtgacgga
+      481 cctcctggtg gccgtgctcg tcatgccctt gagcatcacg tacatcgtca cggacagctg
+      541 gaagctgggg tacttcatct gcgaggtgtg gctgagtgtg gacatgacct gctgcacctg
+      601 ctccatcctt catctctgtg tgattgccct ggacaggtac tgggccatca ccaacgctat
+      661 tgagtacgcc aggaagagga cggccaagag ggccgggctg atgatcctca cggtctggac
+      721 catctccgtc ttcatctcca tgccccctct gttctggagg agccaccgcc aactcagcct
+      781 gccccctggt cagtgcacca tccagcacga ccacatcatc tacaccattt actccacact
+      841 tggggcattt tacatcccct tgactttgat actgattctc tattaccgga tttaccatgc
+      901 agccaagagc ctttaccaga aaagaggatc aagccggcac ttaagcaaca gaagcacgga
+      961 tagccaaaat tcgttcgcca gttgtaaact gacacagact ttctgtgtgt ctgacttctc
+     1021 cacctcagac cctcccacag agtttgaaaa gatccacacc tccatcagga tccctccctt
+     1081 tgcccatgac ctagataacc cgggagaacg ccagcacatc tccagtacca gggagcgcaa
+     1141 ggcagcacgc atcctcggac tgattttggg tgcattcatc atgtcctggc tgccattctt
+     1201 catcaaagag ctgattgtgg gtctgagcat ctacaccgtg tcctctgaag tggccgattt
+     1261 tttgacatgg cttggttatg ttaattctct gatcaaccct ctgctctaca caagttttaa
+     1321 tgaagacttt aagctggctt ttaaaaagct tattcggtgc cgagaacata cttagattgt
+     1381 aaaaagctgg aaggcatgac ttttaccagc ctcgtgagtg cacaggggta aggggtgcaa
+     1441 cttattaatt cttgaacata gttggttcag gaggtttgta agtatgtgtg gtcttggttt
+     1501 ttgtttgttt gttttctgtt ttgtttgagg cttgttattg ggtgtgctgt tttctacctc
+     1561 tggtcttatt tgtggtacct aattgcaaat aaacactatc atacaaaaac a
+//

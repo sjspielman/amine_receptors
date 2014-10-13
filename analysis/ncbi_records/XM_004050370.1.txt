@@ -1,0 +1,113 @@
+LOCUS       XM_004050370            2032 bp    DNA              PRI 03-DEC-2012
+DEFINITION  PREDICTED: Gorilla gorilla gorilla dopamine receptor D4 (DRD4),
+            mRNA.
+ACCESSION   XM_004050370
+VERSION     XM_004050370.1  GI:426366766
+KEYWORDS    RefSeq.
+SOURCE      Gorilla gorilla gorilla (western lowland gorilla)
+  ORGANISM  Gorilla gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004004906) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Gorilla gorilla Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2032
+                     /db_xref="taxon:9595"
+                     /sub_species="gorilla"
+                     /mol_type="mRNA"
+                     /organism="Gorilla gorilla gorilla"
+                     /chromosome="11"
+     gene            1..2032
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 1 mRNA, 5 ESTs, 4 Proteins"
+                     /db_xref="GeneID:101140688"
+                     /gene="DRD4"
+     CDS             1..1929
+                     /product="D(4) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:426366767"
+                     /db_xref="GeneID:101140688"
+                     /translation="MAVKPFDVLLWLRVMHWPVLSFSLPPRELNLVSGRGTPCPGSEGR
+                     LPNSGSWAGGNGGGDGVDCSAVPPVSEAATRGSTVQRVGPRLTVVVAGAEDQRLLGGEG
+                     ASAVESGAESGAGGAGVEGAHEVEASPRRRRAEPELRSFCVWRNGRGREVFPDTRWTRW
+                     SARGPGRTHGPGRMALASMPARFRAWSGRPSILVGFSGCGPRAAPGDAGLPVAXXXXAA
+                     AGLAGQGAAALLGGVLLIGAVLAGNSLVCVSVATERALQTPTNSFIVSLAAADLLLALL
+                     VLPLFVYSEVQGGAWLLSPRLCDVLMAMDVMLCTASIFNLCAISVDRFVAVAMPLRYNR
+                     QGGSRRQLLLIGATWLLSAAVAAPVLCGLNDVRGRDPAVCRLEDRDYVVYSSVCSFFLP
+                     CPLMLLLYWATFRGLQRWEVARRAKLHRRAPRRPSGPGPPSPTPLAPRLPQDPRVPDCA
+                     PPAPGLPQGPYGPDCAPAAPGLPRGSCGPDCMPAAPGLPRGPCSPDCASPAPGLPQGRY
+                     GPDCAPAAPGLPRGPCGPDCTPPDAVRAAALPPQTRRRRRAKITGRERKAMRVLPVVVG
+                     AFLLCWTPFFVVHITQALCPACSVPPRLVSAVTWLGYVNSALNPVIYTVFNAEFRNVFR
+                     KALRACC"
+                     /gene="DRD4"
+                     /protein_id="XP_004050418.1"
+     STS             275..547
+                     /db_xref="UniSTS:270609"
+                     /standard_name="PMC130047P2"
+                     /gene="DRD4"
+     STS             468..872
+                     /db_xref="UniSTS:156424"
+                     /standard_name="GDB:311107"
+                     /gene="DRD4"
+     STS             1092..1786
+                     /db_xref="UniSTS:270336"
+                     /standard_name="PMC117557P1"
+                     /gene="DRD4"
+     STS             1154..1712
+                     /db_xref="UniSTS:270608"
+                     /standard_name="PMC130047P1"
+                     /gene="DRD4"
+     STS             1872..2011
+                     /db_xref="UniSTS:75104"
+                     /standard_name="RH71428"
+                     /gene="DRD4"
+ORIGIN
+        1 atggccgtca agccctttga tgttctgctg tggttgcgag tcatgcactg gcctgtcctg
+       61 tctttctcct tgcctcctcg cgagctgaac ctagtgtctg gtcgcgggac cccctgccca
+      121 gggtcagagg ggcgcctacc taactcaggg tcttgggccg gagggaatgg aggaggggac
+      181 ggggtcgact gctcagctgt ccccccagtt tcggaggcgg ccacgcgagg atcaactgtg
+      241 caacgggtgg ggccgcggct gaccgtggtg gtcgcggggg ctgaggacca gaggctgctg
+      301 gggggggagg gggcgtcggc ggttgagtcg ggcgcggagt cgggggcagg aggagcgggc
+      361 gtggagggtg cgcacgaggt cgaggcgagt ccgcggagga ggcgggcaga gcctgagctc
+      421 aggtctttct gcgtctggcg gaacgggcgt gggagggagg ttttcccaga taccaggtgg
+      481 actaggtgga gcgcccgagg gccgggacgc acgcacgggc cgggcaggat ggcgctggcg
+      541 tcgatgcccg cgcgcttcag ggcctggtct ggccgcccct ccatccttgt cggtttctcg
+      601 ggttgcggac cccgcgcggc gccgggcgat gctggcctgc ccgtggccnn nnnnnnnngg
+      661 gcagcggcgg gactggctgg gcagggcgcg gcggcgctgc tggggggcgt gctgctcatc
+      721 ggcgcggtgc tcgcggggaa ctcgctcgtg tgcgtgagcg tggccaccga gcgcgccctg
+      781 cagacgccca ccaactcctt catcgtgagc ctggcggccg ccgacctcct cctcgctctc
+      841 ctggtgctgc cgctcttcgt ctactccgag gtccagggtg gcgcgtggct gctgagcccc
+      901 cgcctgtgcg acgtcctcat ggccatggac gtcatgctgt gcaccgcctc catcttcaac
+      961 ctgtgcgcca tcagcgtgga caggttcgtg gccgtggcca tgccgctgcg ctacaaccgg
+     1021 cagggtggga gccgccggca gctgctgctc atcggcgcca cgtggctgct gtccgcggcg
+     1081 gtggcggcgc ccgtactgtg cggcctcaac gacgtgcgcg gccgcgaccc cgccgtgtgc
+     1141 cgcctggagg accgcgacta cgtggtctac tcgtccgtgt gctccttctt cctaccctgc
+     1201 ccgctcatgc tgctgctcta ctgggccacg ttccgcggcc tgcagcgctg ggaggtggca
+     1261 cgtcgcgcca agctgcaccg ccgcgccccc cgccgaccca gcggccctgg cccgccttcc
+     1321 cccacgcccc tcgctccccg cctcccccag gacccccgcg tccctgactg tgcgcccccc
+     1381 gcgcccggcc ttccccaggg tccctacggc cccgactgtg cgcccgccgc gcccggcctt
+     1441 ccccggggtt cctgtggccc cgactgtatg cccgccgcgc ccggccttcc ccggggtccc
+     1501 tgtagccccg actgcgcgtc cccggcgccc ggccttcccc agggtcgcta cggccccgac
+     1561 tgtgcgcccg ccgcgcccgg ccttccccgg ggtccctgtg gccccgactg cacgcccccc
+     1621 gacgccgtca gagccgccgc gctcccaccc cagacccgca ggaggcggcg tgccaagatc
+     1681 accggccggg agcgcaaggc catgagggtc ctgccggtgg tggtcggggc cttcctgctg
+     1741 tgctggacgc ccttcttcgt ggtgcacatc acgcaggcgc tgtgtcctgc ctgctccgtg
+     1801 cccccgcggc tggtcagcgc cgtcacctgg ctgggctacg tcaacagcgc cctcaacccc
+     1861 gtcatctaca ctgtcttcaa cgccgagttc cgcaacgtct tccgcaaggc cctgcgtgcc
+     1921 tgctgctgag ccgggcaccc ccggacgccc cccggcctga tggccagacc tcagggacca
+     1981 aggagatggg gagggcgctt ttgtacgtga attaaacaaa ttctttccca aa
+//

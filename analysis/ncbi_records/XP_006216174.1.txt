@@ -1,0 +1,61 @@
+LOCUS       XP_006216174             390 aa                     MAM 29-NOV-2013
+DEFINITION  PREDICTED: 5-hydroxytryptamine receptor 1B [Vicugna pacos].
+ACCESSION   XP_006216174
+VERSION     XP_006216174.1  GI:560988002
+DBLINK      BioProject: PRJNA221631
+KEYWORDS    RefSeq.
+SOURCE      Vicugna pacos (alpaca)
+  ORGANISM  Vicugna pacos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Tylopoda;
+            Camelidae; Vicugna.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005882939.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Vicugna pacos Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..390
+                     /isolate="Carlotta (AHFN-0088)"
+                     /sex="female"
+                     /organism="Vicugna pacos"
+                     /chromosome="Unknown"
+                     /db_xref="taxon:30538"
+     Protein         1..390
+                     /product="5-hydroxytryptamine receptor 1B"
+                     /calculated_mol_wt="43174"
+     Region          58..>186
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          72..369
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..390
+                     /coded_by="XM_006216112.1:367..1539"
+                     /gene="HTR1B"
+                     /db_xref="GeneID:102537106"
+ORIGIN
+        1 mvetgapcap plsassqagl pqanlsaaps hncsaegyiy qdsialpwkv vlvmllalit
+       61 lattlsnafv iatvyrtrkl htpanylias lavtdllvsi lvmpistmyt vmgrwtlgqv
+      121 vcdfwqssdi tcctasilhl cvialdrywa itdaveysak rtpkraavmi alvwvfsisi
+      181 slppffwrqa kaeeevsdcv vntdhilytv ystvgafyfp tlllialygr iyvearsril
+      241 kqtpnstgkr ltraqlitds pgstssvtst nsrapdvpse sgspvyvnqv kvrvsdalle
+      301 kkklmaarer katktlgiil gafivcwlpf fiislvmpic kdacwfhlai fdfftwlgyl
+      361 nslinpiiyt mynedfkqaf hklirfkcts
+//

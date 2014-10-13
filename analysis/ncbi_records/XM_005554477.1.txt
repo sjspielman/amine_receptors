@@ -1,0 +1,110 @@
+LOCUS       XM_005554477            2175 bp    DNA              PRI 19-SEP-2013
+DEFINITION  PREDICTED: Macaca fascicularis dopamine receptor D5 (DRD5),
+            transcript variant X1, mRNA.
+ACCESSION   XM_005554477
+VERSION     XM_005554477.1  GI:544431314
+DBLINK      BioProject: PRJNA215851
+KEYWORDS    RefSeq.
+SOURCE      Macaca fascicularis (crab-eating macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005092968.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Macaca fascicularis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2175
+                     /mol_type="mRNA"
+                     /country="Indonesia: Tinjil, Java South Coast"
+                     /dev_stage="5.8 year-old"
+                     /sex="female"
+                     /db_xref="taxon:9541"
+                     /organism="Macaca fascicularis"
+                     /chromosome="5"
+     gene            1..2175
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 37 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 2 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:102133551"
+                     /gene="DRD5"
+     CDS             472..1908
+                     /product="D(1B) dopamine receptor isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:544431315"
+                     /db_xref="GeneID:102133551"
+                     /translation="MLPPGSNGTAYPGQFALQQQLAQGNTVGGSAGAPPLGPAQVVTAC
+                     LLTLLIIWTLLGNVLVCAAIVRSRHLRAKMTNVFIVSLAVSDLFVALLVMPWKAVAEVA
+                     GYWPFGAFCDVWVAFDIMCSTASILNLCVISVDRYWAISRPFRYERKMTQRMALVIVGL
+                     AWTLSILISFIPVQLNWHRDQAGSWGGLDLTNNLANWTPWEEDVWEPDVRAENCDSSLN
+                     RTYAISSSLVSFYIPVAIMIVTYTRIYRIAQVQIRRISSLERAAEHAQSCRSSAACAPD
+                     TSLRASIKKETKVFKTLSVIMGVFVCCWLPFFILNCMVPFCSGHPEGPPAGFPCVSETT
+                     FDVFVWFGWANSSLNPIIYAFNADFRKVFAQLLGCSHVCSRTPVKTVNISNELISYNQD
+                     TVFHKEIAAAYIHMMPNAVTPGDPEVDNDEEEEGPFDRMSQIYQTSPDGDPVAESVWEL
+                     DCEGEISLGKITPFTPNGFH"
+                     /gene="DRD5"
+                     /protein_id="XP_005554534.1"
+     STS             1674..1943
+                     /db_xref="UniSTS:88022"
+                     /standard_name="RH69165"
+                     /gene="DRD5"
+     STS             1740..1842
+                     /db_xref="UniSTS:479852"
+                     /standard_name="DRD5"
+                     /gene="DRD5"
+ORIGIN
+        1 cttggcctcc caaagtcctg ggattacagg catgagtcac cacacctggc cggtctcatc
+       61 acactttcta aacgactatt attacctaat ttcccagatg agaaaactga agctcagaga
+      121 gatcaagcga cctgccggat atcccaaagc taacacagcc gctgccgctg ccgtccggcg
+      181 cgctgcagac tcccgagaac agccctggct gtcagcgggc accagccgct tcctgtcccc
+      241 agcgctaaga ctggaggggc gcaccatcgc caccgagcca gaggcgcttc aggaggcaag
+      301 agaagtcccc gcgcgctccg gggcccggcg cagctcatgg tgagcgccct ctggggctcg
+      361 agggtccctt ggctgagggg gcgcatcctt agggtgcccc atggggctgc cttggggtct
+      421 cagggctgaa attgggaccg cccacagacc gcccctgcag cccagcccga aatgctgccg
+      481 ccagggagca acggcactgc gtacccgggg cagttcgcgc tgcaacagca gctggcgcag
+      541 gggaacactg tggggggctc ggcgggggca ccgccactgg ggcccgcaca ggtggtcacc
+      601 gcctgcttgc tgaccctact catcatctgg accctgctgg gcaacgtgtt ggtgtgtgca
+      661 gccatcgtgc ggagccgcca cctgcgcgcc aagatgacca acgtcttcat cgtgtctctg
+      721 gccgtgtcag acctcttcgt ggcgctgctg gtcatgccct ggaaggcagt cgccgaggtg
+      781 gccggttact ggccctttgg agcgttctgc gacgtctggg tggccttcga catcatgtgc
+      841 tccacagcct ccatcctgaa cctgtgcgtc atcagcgtgg accgctactg ggccatctcc
+      901 aggcccttcc gctacgagcg caagatgacc cagcgcatgg ccttggtcat cgtcggcctg
+      961 gcctggacct tgtccatcct catctccttc attccggtcc agctcaactg gcacagggac
+     1021 caggcgggct cttggggcgg gctggatctg actaacaacc tggccaactg gacgccctgg
+     1081 gaggaggacg tttgggaacc cgacgtgagg gcagagaact gtgactccag cctgaatcga
+     1141 acctacgcca tctcttcctc gctcgtcagc ttctacatcc ctgtggccat catgatcgtg
+     1201 acctacacgc gcatctaccg catcgcccag gtgcagatcc gcaggatttc ctccctggaa
+     1261 agggccgcag agcacgcgca gagctgccgg agcagcgcag cctgcgcacc cgacaccagc
+     1321 ctgcgcgctt ccatcaagaa ggagaccaag gttttcaaga ccctgtccgt gatcatgggg
+     1381 gtcttcgtgt gttgctggct gcccttcttc atccttaact gcatggtccc tttctgcagt
+     1441 ggacaccccg aaggccctcc ggccggcttc ccctgcgtca gtgagaccac cttcgacgtc
+     1501 ttcgtctggt tcggttgggc caactcctca ctcaacccca tcatctatgc cttcaacgcc
+     1561 gacttccgga aggtgtttgc ccagctgctg gggtgcagcc acgtctgctc ccgcacgccg
+     1621 gtgaagacgg tgaacatcag caatgagctc atctcctaca accaagacac tgtcttccac
+     1681 aaggaaatcg cagctgccta catccacatg atgcccaacg ctgttacccc cggcgacccg
+     1741 gaggtggaca acgatgaaga ggaggagggt cctttcgatc gcatgtccca gatctatcag
+     1801 acatccccag atggtgaccc tgttgcagag tctgtctggg agctggactg cgagggggag
+     1861 atttctttag gcaaaataac acctttcacc ccaaatggat tccattaaac tgcattaaga
+     1921 aacgccctca tggatctgca taactgcaca gacactgaca agcatgcaca cacaggcaaa
+     1981 tacatgcctt tccagtgctt ctccctttat catgtgtttc tgtgcagtag ttcatgtgct
+     2041 tagaaacctc accccatgga ttggtagttc aaataattgg ccgaagcagg tgcaataaac
+     2101 tcagtcaaat atacccagcc taccagagag ggaccaatga tcatattaga gaagagagta
+     2161 tggtgctgtg tcctt
+//

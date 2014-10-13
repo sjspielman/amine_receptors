@@ -1,0 +1,97 @@
+LOCUS       XM_003934799            1382 bp    DNA              PRI 06-SEP-2012
+DEFINITION  PREDICTED: Saimiri boliviensis boliviensis adrenoceptor alpha 1B
+            (ADRA1B), mRNA.
+ACCESSION   XM_003934799
+VERSION     XM_003934799.1  GI:403287214
+KEYWORDS    RefSeq.
+SOURCE      Saimiri boliviensis boliviensis (Bolivian squirrel monkey)
+  ORGANISM  Saimiri boliviensis boliviensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Saimiriinae; Saimiri.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003943671) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Saimiri boliviensis Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1382
+                     /sub_species="boliviensis"
+                     /mol_type="mRNA"
+                     /isolate="3227"
+                     /sex="female"
+                     /db_xref="taxon:39432"
+                     /organism="Saimiri boliviensis boliviensis"
+                     /chromosome="Unknown"
+     gene            1..1382
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 1 mRNA, 5 ESTs, 9 Proteins"
+                     /db_xref="GeneID:101040811"
+                     /gene="ADRA1B"
+     misc_feature    62..64
+                     /note="upstream in-frame stop codon"
+                     /gene="ADRA1B"
+     STS             125..1368
+                     /db_xref="UniSTS:481056"
+                     /gene="ADRA1B"
+     STS             173..1362
+                     /db_xref="UniSTS:482384"
+                     /gene="ADRA1B"
+     CDS             194..1318
+                     /product="alpha-1B adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:403287215"
+                     /db_xref="GeneID:101040811"
+                     /translation="MNPDLDTGHNTSAPAHWGELKNANFTGPNQTSSNSTLPQLDITRA
+                     ISVGLVLGAFILFAIVGNILVILSVACNRHLRTPTNYFIVNLAMADLLLSFTVLPFSAA
+                     LEVLGYWVLGRIFCDIWAAVDVLCCTASILSLCAISIDRYIGVRYSLQYPTLVTRRKAI
+                     LALLSVWVLSTVISIGPLLGWKEPAPNDDKECGVTEEPFYALFSSLGSFYIPLAVILVM
+                     YCRVYIVAKRTTKNLEAGVMKEMSNSKELTLRIHSKNFHEDTLSSTKAKGHNPRSSIAV
+                     KLFKFSREKKAAKTLGIVVGMFILCWLPFFIALPLDLDSPPSTHLHFTFKLLAEPESPG
+                     TDGGASNGGCEPAGDVANGQPGFKSNMPLAPGQF"
+                     /gene="ADRA1B"
+                     /protein_id="XP_003934848.1"
+     STS             244..999
+                     /db_xref="UniSTS:271116"
+                     /standard_name="PMC150908P1"
+                     /gene="ADRA1B"
+     STS             486..641
+                     /db_xref="UniSTS:266947"
+                     /standard_name="ADRA1B"
+                     /gene="ADRA1B"
+ORIGIN
+        1 gcgagcgagc ggatcggtgc aggcaggaga cgtgctgccg ggctgggctg cccgggggag
+       61 atgactcctc gccgggaggg cgcctctggg aagaagacca cgggggaagc aaagtttcag
+      121 ggcagctgag gagccttcgc cgcagcgctt ccgagcccaa tcatccccct ggctatggag
+      181 ggcggactct aagatgaatc ccgatctgga caccggccac aacacatcag cacctgccca
+      241 ctggggagag ttgaaaaatg ccaacttcac tggccccaac cagacctcga gcaactccac
+      301 actgccccag ctggacatca ccagggccat ctctgtgggc ctggtgctgg gcgccttcat
+      361 cctctttgcc atcgtgggca acatcctagt catcttgtct gtggcctgca accggcacct
+      421 gcggacgccc accaactact tcatcgtcaa cctggccatg gccgacctgc tgctgagctt
+      481 caccgtcctg cccttctcgg cggccctgga ggtgctgggc tactgggtgc tggggcggat
+      541 cttctgtgac atttgggcag ccgtggatgt cctgtgctgc acagcgtcca ttctgagcct
+      601 gtgcgccatc tccatcgatc gctacatcgg ggtgcgctac tctctgcagt accccacgct
+      661 ggtcacccgg aggaaggcca tcttggcgct gctcagtgtc tgggtcctgt ccaccgtcat
+      721 ctccatcggg cctctccttg ggtggaagga gccggcgccc aacgatgaca aggagtgcgg
+      781 ggtcaccgaa gaacccttct acgccctctt ctcctccctg ggctccttct acatccctct
+      841 ggcggtcatt ctggtcatgt actgccgtgt ctacatcgtg gccaagagaa ccaccaagaa
+      901 cctggaggcg ggagtcatga aggagatgtc caactccaag gagctgaccc tgaggatcca
+      961 ctccaagaac tttcacgagg acaccctcag cagtaccaag gccaagggcc acaaccccag
+     1021 gagttccata gctgtcaaac tttttaagtt ctccagggaa aagaaagcag ccaagacgct
+     1081 gggcattgtg gtcggtatgt tcatcttgtg ctggctaccc ttcttcatcg ctctgccact
+     1141 tgacctggat tcaccaccat ccacccacct acatttcacc ttcaagctcc tggcggagcc
+     1201 cgagagcccc gggaccgacg gcggcgccag caacgggggc tgcgagcccg cgggcgacgt
+     1261 ggccaacggg cagccgggct tcaaaagcaa catgcccctg gcgcccgggc agttttaggg
+     1321 tcccggtgcg cagctccctt tccctgggga ggaaatcatc gtgggggggt ggggagggcg
+     1381 gg
+//

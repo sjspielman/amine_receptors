@@ -1,0 +1,89 @@
+LOCUS       XM_004557340            1589 bp    DNA              VRT 14-MAY-2013
+DEFINITION  PREDICTED: Maylandia zebra histamine H2 receptor-like
+            (LOC101477198), mRNA.
+ACCESSION   XM_004557340
+VERSION     XM_004557340.1  GI:499011133
+DBLINK      BioProject: PRJNA198780
+KEYWORDS    RefSeq.
+SOURCE      Maylandia zebra (zebra mbuna)
+  ORGANISM  Maylandia zebra
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Haplochromini;
+            Maylandia; Maylandia zebra complex.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004531761.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Maylandia zebra Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1589
+                     /mol_type="mRNA"
+                     /isolate="#2_Kocher"
+                     /sex="female"
+                     /db_xref="taxon:106582"
+                     /organism="Maylandia zebra"
+                     /chromosome="Unknown"
+     gene            1..1589
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /db_xref="GeneID:101477198"
+                     /gene="LOC101477198"
+     misc_feature    304..306
+                     /note="upstream in-frame stop codon"
+                     /gene="LOC101477198"
+     CDS             352..1449
+                     /product="histamine H2 receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:499011134"
+                     /db_xref="GeneID:101477198"
+                     /translation="MIATAVRWLILVFFIILTIGGNVLVCLAVGMSRRLWRIANCFVVS
+                     LAVTDLLLGLLVLPLSATVELRSGEWPFGEALCNIYISLDVMLCTASILTLLVISVDRY
+                     LAISAPLSHSRRVTPLRVTLAIITIWAMSLAVSVLPIHLGWNTADYRVQNLAWGMGDDE
+                     KEGYYCQFGWNNNYVLLYAFGSFYLPLMVMCGMYLCIFRMAREQARRIRATLPSFARTA
+                     TAVIAREHKATVTLAAVLGAFVICWFPYFTYFTWIGMKEKTNPPNTLHSVVLWLGYFNS
+                     TLNPILYPAFNRDFHRAYRELLHCKRLYRRKLHLNGVSVNKRLTFTNGKRLSQQCEGQI
+                     DIQEKDTEEKTLTLQMGNSIPDEPR"
+                     /gene="LOC101477198"
+                     /protein_id="XP_004557397.1"
+ORIGIN
+        1 gcaagagaga gagagggata cgtttacaca gccaggtctg aggaatcagt acatctatgt
+       61 tcaaggaaga agtgttggat ctgacaggtg tttacgacaa accacgtgag tgtcatgttt
+      121 acttcagagg ctgtggcaat gtgaaacaag agaagactat gaagggcttt ccatacagag
+      181 ataaaccttt aaaccagact gcttctatgc acatagatac catggaaaag acagtctgag
+      241 ggacctgaca acagctgaga aactttggag ataagcagat gaggcatttt caatatttac
+      301 tactgaggta ctggcagtag cactgttcca gtgccagaga aggagtgcat catgatcgcc
+      361 acagcagtgc gctggctcat cctggtgttt ttcatcattc taaccattgg tggtaacgtg
+      421 ctagtgtgtt tggctgtagg aatgagccgt cgactatgga gaattgctaa ctgcttcgtg
+      481 gtttcgctgg cagtgacaga tctcctcctt ggcctactgg tgcttccctt gtccgccact
+      541 gtggagctgc gcagcgggga atggccgttt ggagaagccc tgtgcaacat ctacatttca
+      601 ttagacgtca tgctgtgcac ggcctccatc ctgaccctcc tagtaatcag tgtggaccga
+      661 taccttgcta tttcagcacc ccttagccac tcccggagag ttacacctct aagggtgaca
+      721 ttggctatca tcaccatctg ggctatgtca ctagctgtgt ccgttctgcc tatccacttg
+      781 gggtggaaca cagcggacta cagggttcaa aacttagcct ggggcatggg ggatgatgaa
+      841 aaagagggct actactgtca gtttggatgg aataacaact atgttcttct ttatgccttt
+      901 ggctcatttt acctgcctct gatggttatg tgtggaatgt atctttgcat attcaggatg
+      961 gcacgagaac aggctaggcg aattcgtgct accctgccat catttgcacg tacagcaact
+     1021 gcagtaatag cccgagagca caaagctaca gtgaccctgg ctgcagtact tggggctttt
+     1081 gtcatctgtt ggttccctta cttcacctac ttcacctgga ttggaatgaa ggaaaagaca
+     1141 aacccgccta atacacttca ctccgtagtc ctgtggttgg gttattttaa ctctaccctt
+     1201 aatccaatac tttatccagc ctttaacagg gatttccaca gagcctacag agagctgctt
+     1261 cactgcaaaa gactatatcg gagaaaactg caccttaacg gtgtatcggt aaataagcga
+     1321 ttgaccttta ccaatggaaa aagactttct caacagtgtg agggacagat agacatacaa
+     1381 gaaaaagaca cagaggagaa gaccctcacg ctacaaatgg gaaatagtat tcctgatgag
+     1441 ccaagatgaa atgctatgga tgttgtctcc ccaatagaat ctagagttcc agcaaaatat
+     1501 tgcttactat tactcactca aagtaaaaga ttacccaatg gtttacactg tcactcattt
+     1561 ctagatgata gatagtgcca aagtttatg
+//

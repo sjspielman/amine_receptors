@@ -1,0 +1,65 @@
+LOCUS       XP_006237068             486 aa                     ROD 09-DEC-2013
+DEFINITION  PREDICTED: histamine H1 receptor isoform X2 [Rattus norvegicus].
+ACCESSION   XP_006237068
+VERSION     XP_006237068.1  GI:564348154
+DBLINK      BioProject: PRJNA12455
+KEYWORDS    RefSeq.
+SOURCE      Rattus norvegicus (Norway rat)
+  ORGANISM  Rattus norvegicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Rattus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003808212.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Rattus norvegicus Annotation Release
+            104
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..486
+                     /strain="BN/SsNHsdMCW"
+                     /organism="Rattus norvegicus"
+                     /chromosome="4"
+                     /db_xref="taxon:10116"
+     Protein         1..486
+                     /product="histamine H1 receptor isoform X2"
+                     /calculated_mol_wt="55562"
+     Region          37..>199
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          50..467
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..486
+                     /coded_by="XM_006237006.1:212..1672"
+                     /gene="Hrh1"
+                     /gene_synonym="Hisr"
+                     /db_xref="GeneID:24448"
+                     /db_xref="RGD:2830"
+ORIGIN
+        1 msfantsstf edkmcegnrt amaspqllpl vvvlssislv tvglnllvly avhserklht
+       61 vgnlyivsls vadlivgavv mpmnilylim tkwslgrplc lfwlsmdyva stasifsvfi
+      121 lcidryrsvq qplrylryrt ktrasatilg awffsflwvi pilgwhhfmp papelredkc
+      181 etdfynvtwf kimtaiinfy lptllmlwfy vkiykavrrh cqhrqltngs lpsfselklr
+      241 sddtkegakk pgrespwgvl krpsrdpsvg ldqkstsedp kmtsptvfsq egeretrpcf
+      301 rldimqkqsm aegdvrgska ndqalsqpkm deqslntcrr isetsedqtl vdqqsfsrtt
+      361 dsdtsiepgp grvksrsgsn sgldyikitw krlrshsrqy vsglhlnrer kaakqlgfim
+      421 aafilcwipy fiffmviafc ksccsepvhm ftiwlgyins tlnpliyplc nenfkktfkk
+      481 ilhirs
+//

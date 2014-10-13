@@ -1,0 +1,127 @@
+LOCUS       XM_006230522            2631 bp    DNA              ROD 07-AUG-2014
+DEFINITION  PREDICTED: Rattus norvegicus dopamine receptor D4 (Drd4), transcript
+            variant X2, mRNA.
+ACCESSION   XM_006230522
+VERSION     XM_006230522.1  GI:564331672
+DBLINK      BioProject: PRJNA12455
+KEYWORDS    RefSeq.
+SOURCE      Rattus norvegicus (Norway rat)
+  ORGANISM  Rattus norvegicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Rattus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_007905666.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Rattus norvegicus Annotation Release
+            105
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2631
+                     /mol_type="mRNA"
+                     /db_xref="taxon:10116"
+                     /sex="pooled males and females"
+                     /note="pooled female animals of strain BN/SsNHsdMCW plus
+                     one male of strain SHR (also known as SHR-Akr)"
+                     /strain="mixed"
+                     /organism="Rattus norvegicus"
+                     /chromosome="1"
+     gene            1..2631
+                     /note="dopamine receptor D4; Derived by automated
+                     computational analysis using gene prediction method:
+                     Gnomon. Supporting evidence includes similarity to: 1 mRNA,
+                     1 Protein, and 100% coverage of the annotated genomic
+                     feature by RNAseq alignments, including 4 samples with
+                     support for all annotated introns"
+                     /db_xref="GeneID:25432"
+                     /db_xref="RGD:2522"
+                     /gene="Drd4"
+                     /gene_synonym="D4RA"
+     CDS             89..1174
+                     /product="D(4) dopamine receptor isoform X2"
+                     /codon_start="1"
+                     /gene_synonym="D4RA"
+                     /db_xref="GI:564331673"
+                     /db_xref="GeneID:25432"
+                     /db_xref="RGD:2522"
+                     /translation="MGNSSATGDGGLLAGRGPESLGNSLVCVSVASERILQTPTNYFIV
+                     SLAAADLLLAVLVLPLFVYSEVQGGVWLLSPRLCDTLMAMDVMLCTASIFNLCAISVDR
+                     FVAVTVPLRYNQQGQCQLLLIAATWLLSAAVAAPVVCGLNDVPGRDPTVCCLEDRDYVV
+                     YSSICSFFLPCPLMLLLYWATFRGLRRWEAARHTKLHSRAPRRPSGPGPPVSDPTQGPL
+                     FSDCPPPSPSLRTSPTVSSRPESDLSQSPCSPGCLLPDAALAQPPAPSSRRKRGAKITG
+                     RERKAMRVLPVVVGAFLMCWTPFFVVHITRALCPACFVSPRLVSAVTWLGYVNSALNPI
+                     IYTIFNAEFRSVFRKTLRLRC"
+                     /gene="Drd4"
+                     /protein_id="XP_006230584.1"
+     STS             198..359
+                     /db_xref="UniSTS:508533"
+                     /standard_name="Drd4"
+                     /gene="Drd4"
+                     /gene_synonym="D4RA"
+     STS             372..435
+                     /db_xref="UniSTS:142868"
+                     /standard_name="UniSTS:142868"
+                     /gene="Drd4"
+                     /gene_synonym="D4RA"
+     STS             1078..1180
+                     /db_xref="UniSTS:142867"
+                     /standard_name="Drd4"
+                     /gene="Drd4"
+                     /gene_synonym="D4RA"
+ORIGIN
+        1 ggagctggac gctgggggcg ggattccgga tagcccctga ctgcaaatcc ccaggctcag
+       61 cgccttgcag agtctcagct agggcgccat ggggaacagc agcgctactg gtgacggtgg
+      121 gctgttggcc gggcgtgggc cagagtcctt agggaactcg ctcgtttgcg tgagcgtggc
+      181 ctccgagcgc atcctgcaga cacccaccaa ctacttcatc gtgagcctgg cggctgccga
+      241 cctcctcctc gcggtgctgg tgttgcctct ctttgtctac tccgaggtcc agggtggcgt
+      301 gtggctgctg agcccccgcc tctgtgacac cctcatggcc atggacgtca tgctgtgcac
+      361 cgcctccatc ttcaacctgt gcgccatcag cgtggacagg tttgtggctg tgaccgtgcc
+      421 actgcgctac aaccagcagg gtcagtgcca gctgctgctc atcgccgcca cgtggctgct
+      481 gtctgccgcg gtggctgcgc ccgtcgtgtg cggcctcaat gatgtgcccg gtcgcgatcc
+      541 aaccgtgtgc tgcctggagg accgcgacta cgtggtctac tcatccattt gttccttctt
+      601 cctgccctgt ccgctcatgc tactgcttta ctgggccact ttccgtggct tgcggcgctg
+      661 ggaggcagcc cggcacacca agcttcacag ccgcgcgccg cgccgaccca gcggcccggg
+      721 cccgccggtg tcggacccta ctcagggtcc cctcttctca gattgtccgc ctccctcacc
+      781 cagcctccgg acgagcccca ccgtctccag cagaccagag tcagacctct ctcagagccc
+      841 ctgcagcccc gggtgtctgc tccctgatgc agcgctcgcg caaccgcctg cgccgtcttc
+      901 ccgcagaaag agaggcgcca agatcactgg aagggagcgc aaggcgatga gagtcctgcc
+      961 ggtggtagtt ggggccttcc tgatgtgttg gacgcctttc ttcgtggtgc acatcacacg
+     1021 ggcgctgtgt ccggcttgtt tcgtgtcccc acgcctggtc agtgctgtca cctggctggg
+     1081 ctatgtcaac agtgccctca accccatcat ctacaccatc ttcaatgccg agtttcgaag
+     1141 tgtcttccgc aagactcttc gtctccgctg ctgaaagaac cgctgatgtc ttgaggtcaa
+     1201 ggggttccaa gcctgtgtgc agagtgcgct ggcgcgcttt cgttcgtctg attaaatgaa
+     1261 gtctttccta accatttatc aacgctgggg gctgggaaaa agtaaggaaa agagggaggt
+     1321 cttttgtctg gatgatgggc cccggctaac ttctgccttt gaggatgctg ccggttcagc
+     1381 tccaggaggc aggaggcttc agaagtcttt gccctggagg agtaggggac cgactacatc
+     1441 tgccttagtt tccgctcaac atgaaaaatg accaagtgtt ctcctgggag aggagctaga
+     1501 ggaatttcct gaggctcctg ggtccccagg atcctgtcca ggccttgctc cttggagagc
+     1561 tagggaggga gggctcttct gtcattgatg ggggagggga ttcccatttc agaagctttc
+     1621 tgagtacagc acacatagct tcctaccagc cttcttccag aaggtaccct aaacttggca
+     1681 ctgaccaagt tccactaagg tgccctcgga aaggaagccc tacactcagg cccacccagg
+     1741 ccatccttac ccaatgtatg tccagcatct gggtatctat gtgaccaggc agcagggttc
+     1801 aaggttggac tgaagcagcc aatgtgttgg ggctcctaga ccaaggctca gtcctgtaat
+     1861 taggtgactc ctggcaggga ccgcctaccc tactttcccc tcccccattc tgcatggaag
+     1921 agatttaagt cagtactggt gcagaagggt ctgtgcaggg gtggttctca gttgggattt
+     1981 gacatcaaag ctgttttttt tttgtttttt tgttttttgt tttggagctg ggaaccgaac
+     2041 ccagggcttg ctaggcaaac gctctaccac tgagccaaat ccccaacccc tcaaagctgt
+     2101 ttttgatatt gagaaataac tgtgagttct ataacagtaa gcaacacaca cacacacaca
+     2161 cacacacaca cacacacaca cacacacaca cacactcaca gtcttttata ctagtcctgg
+     2221 tcaaacagga acaattcccc agcactgagg gtgctccgac ctcactgggc tctagatgct
+     2281 catccccctg ctgtggcctc tgttgacatc ctaggactag catgctccca ggagggcaac
+     2341 ggggtctcag gtttacgtct gtcaacataa agtctaatat tagtggaaac aggcctccct
+     2401 taagttttgt ccctggagac cctaggatac caactctgcc tggcctttgc tgacctccac
+     2461 tgaactgaaa aagctctata catacaaagg taaggctgaa actcatgtga gcgggacaga
+     2521 agtctctgga agcttgatat agcttgggga accaagccct aagtgcccat gcccctagac
+     2581 cctgagtttt ttccttagag gaaagggaaa caataaactg gatcaattcc a
+//

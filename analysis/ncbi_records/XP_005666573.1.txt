@@ -1,0 +1,60 @@
+LOCUS       XP_005666573             460 aa                     MAM 26-SEP-2013
+DEFINITION  PREDICTED: alpha-2C adrenergic receptor [Sus scrofa].
+ACCESSION   XP_005666573
+VERSION     XP_005666573.1  GI:545843820
+DBLINK      BioProject: PRJNA28993
+KEYWORDS    RefSeq.
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003610757.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Sus scrofa Annotation Release 104
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..460
+                     /db_xref="taxon:9823"
+                     /breed="mixed"
+                     /organism="Sus scrofa"
+                     /chromosome="8"
+     Protein         1..460
+                     /product="alpha-2C adrenergic receptor"
+                     /calculated_mol_wt="49610"
+     Region          60..>184
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          74..435
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..460
+                     /coded_by="XM_005666516.1:348..1730"
+                     /gene="ADRA2C"
+                     /db_xref="GeneID:733706"
+ORIGIN
+        1 maspalaaal aaaaaagpna sgageagsgg aanasgsawg pppgqysaga vaglaavvgf
+       61 livftvvgnv lvviavltsr alrapqnlfl vslasadilv atlvmpfsla nelmaywyfg
+      121 qvwcgvylal dvlfctssiv hlcaisldry wsvtqaveyn lkrtprrvka tivavwlisa
+      181 visfpplvsl yrqpdgaayp qcglndetwy ilsscigsff apclimglvy ariyrvaklr
+      241 trtlsekrep agpdgasptt englgageng hcapprrpra dvepedssaa aerrrrrgal
+      301 rrggrrraga kgaagaegtg tetgtaepgt ltaarspgps grlsrassrs vefflsrrrr
+      361 arssvcrrkv aqarekrftf vlavvmgvfv lcwfpfffsy slygicreac qvpdplfkff
+      421 fwigycnssl npviytvfnq dfrrsfkhil frrrrrgfrq
+//

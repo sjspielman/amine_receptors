@@ -1,0 +1,97 @@
+LOCUS       XM_004587478            1810 bp    DNA              MAM 18-MAY-2013
+DEFINITION  PREDICTED: Ochotona princeps adrenoceptor alpha 1B (ADRA1B), mRNA.
+ACCESSION   XM_004587478
+VERSION     XM_004587478.1  GI:504150279
+DBLINK      BioProject: PRJNA193497
+KEYWORDS    RefSeq.
+SOURCE      Ochotona princeps (American pika)
+  ORGANISM  Ochotona princeps
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha;
+            Ochotonidae; Ochotona.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004535463.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ochotona princeps Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1810
+                     /mol_type="mRNA"
+                     /country="USA: Washington"
+                     /isolate="Ochotona princeps_07Jul2011"
+                     /sex="female"
+                     /db_xref="taxon:9978"
+                     /organism="Ochotona princeps"
+                     /chromosome="Unknown"
+     gene            1..1810
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 9 mRNAs, 21 Proteins"
+                     /db_xref="GeneID:101523367"
+                     /gene="ADRA1B"
+     misc_feature    123..125
+                     /note="upstream in-frame stop codon"
+                     /gene="ADRA1B"
+     CDS             252..1808
+                     /product="alpha-1B adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:504150280"
+                     /db_xref="GeneID:101523367"
+                     /translation="MNPDLDPGHNTSAPAHWGELKNANFTGPNQTSSNSSLPQLDVTRA
+                     ISVGLVLGAFILFAIVGNILVILSVACNRHLRTPTNYFIVNLAIADLLLSFTVLPFSAA
+                     LEVLGYWVLGRIFCDIWAAVDVLCCTASILSLCAISIDRYIGVRYSLQYPTLVTRRKAI
+                     LALLSVWVLSTVISIGPLLGWKEPAPNDDKECGVTEEPFYAFFSSLGSFYIPLAVILVM
+                     YCRVYIVAKRTTKNLEAGVMKEMSNSKELTLRIHSKNFHEDALSSTKAKGHNPRSSIAV
+                     KLFKFSREKKAAKTLGIVVGMFILCWLPFFITLPLGSLFSTLKPPDAVFKVVFWLGYFN
+                     SCLNPIIYPCSSKEFKRAFVRILGCQCRGRRRRRRRRRLGGCAYTYRPWTRGGSLERSQ
+                     SRKDSLDDSGSCLSGSQRTLPSASPSPGYLGRGAPQAVELYAFPEWRAPGALLSLPASE
+                     PAGRRSRHDSTQLFTFKLLADPESPGTDGGSSNGGCESVADVANGQPGFKSNMPLAPGH
+                     F"
+                     /gene="ADRA1B"
+                     /protein_id="XP_004587535.1"
+     STS             302..1057
+                     /db_xref="UniSTS:271116"
+                     /standard_name="PMC150908P1"
+                     /gene="ADRA1B"
+ORIGIN
+        1 aaacttggag ctgccgcctc ttcccctctt cttcttcttc tccttctcct ccagcaggcg
+       61 acctagcggc tcggtgcagg caagggacgt gctgtcgcca gagctggact gccctgggga
+      121 catgacttct cagaaggccg tccctgcgaa gaagatcaca agcagagcaa agtttcaggg
+      181 cagctgagga gccttcgccg cagcccttca cccccaatca cccccgctgg ctatggaggg
+      241 cggactctaa aatgaatccc gatctggacc ccggccacaa cacatcagca cctgcccact
+      301 ggggagagtt gaaaaatgcc aacttcactg gccccaacca gacctcaagc aactcctctc
+      361 tgccccagct ggacgtcacc agggccatct ccgtgggcct ggtgctgggc gccttcatcc
+      421 tctttgccat tgtgggcaac atcctagtca ttctgtctgt ggcttgcaac cggcacctgc
+      481 gcacacccac caactacttc atcgtcaacc tggccatcgc cgacctgctg ctcagcttca
+      541 ctgtcctgcc cttctccgct gccctggagg tgctcggcta ctgggtcctg gggcgcatct
+      601 tctgcgacat ctgggcagcc gtggacgtcc tatgctgcac agcgtccatt ctgagcctgt
+      661 gcgccatctc catcgatcgc tacattgggg tgcgctactc tctccagtac cccacgctgg
+      721 tcacccggag gaaggccatc ttggcgctcc tcagtgtctg ggtgttgtcc actgtcatct
+      781 ccattgggcc tctgcttggc tggaaggagc cagcgcccaa tgatgacaag gaatgcgggg
+      841 tcactgaaga gcccttctat gccttcttct cctccctggg ctccttctac atcccactgg
+      901 ccgtcattct ggtcatgtac tgccgagtct acatcgtggc caagaggacc accaagaacc
+      961 tggaggcagg ggtcatgaaa gagatgtcca attccaagga gctgaccctg aggatccact
+     1021 ccaagaactt tcacgaggac gccctcagca gtaccaaggc caagggtcac aaccccagga
+     1081 gttccatagc tgttaaactt tttaagttct ccagggaaaa gaaagcagcc aagaccttgg
+     1141 gcatcgtggt tggtatgttc atcttgtgct ggcttccctt cttcatcacc ctcccactag
+     1201 gctccctgtt ctccaccctg aagccccccg acgccgtgtt caaggtggtc ttctggctgg
+     1261 gctacttcaa cagttgcctc aaccccatca tctacccgtg ctccagcaag gagttcaagc
+     1321 gcgccttcgt gcgcatcctc gggtgccagt gccgtggtcg ccgccgccgc cggcgccgtc
+     1381 gccgcctggg cggttgcgcc tacacctacc ggccgtggac gcgcggcggc tcgctggagc
+     1441 gctcccagtc gcgcaaggac tcgctggacg acagcggcag ctgcctgagc ggcagccagc
+     1501 ggacccttcc gtcggcctca cccagcccgg gctacctggg ccgcggcgcg ccgcaggccg
+     1561 tcgagctgta cgctttcccg gagtggaggg cgcccggcgc cctgctcagc ctgcccgcct
+     1621 ccgagcccgc cggccgccgc agccgccacg actcgactca gctcttcacc ttcaagctcc
+     1681 tggcagaccc agagagtccc ggcacggacg ggggctccag caacggtggc tgcgagtctg
+     1741 tggccgacgt agccaatggg cagcctggct tcaaaagcaa catgccgctg gcacccggac
+     1801 acttctaggg
+//

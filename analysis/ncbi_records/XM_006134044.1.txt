@@ -1,0 +1,97 @@
+LOCUS       XM_006134044            2040 bp    DNA              VRT 15-NOV-2013
+DEFINITION  PREDICTED: Pelodiscus sinensis beta-4C adrenergic receptor-like
+            (LOC102460140), transcript variant X1, mRNA.
+ACCESSION   XM_006134044
+VERSION     XM_006134044.1  GI:558212935
+DBLINK      BioProject: PRJNA221645
+KEYWORDS    RefSeq.
+SOURCE      Pelodiscus sinensis (Chinese soft-shelled turtle)
+  ORGANISM  Pelodiscus sinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Testudines; Cryptodira;
+            Trionychoidea; Trionychidae; Pelodiscus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005858300.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pelodiscus sinensis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2040
+                     /mol_type="mRNA"
+                     /country="Japan: Saga"
+                     /isolate="Daiwa-1"
+                     /sex="female"
+                     /db_xref="taxon:13735"
+                     /organism="Pelodiscus sinensis"
+                     /chromosome="Unknown"
+     gene            1..2040
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 16 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 2 samples with support for all annotated introns"
+                     /db_xref="GeneID:102460140"
+                     /gene="LOC102460140"
+     CDS             34..1413
+                     /product="beta-4C adrenergic receptor-like isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:558212936"
+                     /db_xref="GeneID:102460140"
+                     /translation="MAPWPQINATSWEDAAANCTGAASLSRQWAIGAALSLTVLVTAAG
+                     NLLVILAIAKTPRLQTMTNVFVTSLASADLIMGLLVVPPGATIVLSGRWPYGTLVCELW
+                     TSLDVLCVTASIETLCAIAVDRYLAITSPLQYQMLVTKGRARAVVCLVWAISAFISFLP
+                     IMNHWWRDGADEDALNCYQNPSCCDFVTNMPYAIVSSIISFYVPLLVMIFVYARVFAVA
+                     TRQIRLVERDKVRFLQEPPSPSSKGPRGTRWRRPSRLLVIKEHKALKTLGIIMGTFTLC
+                     WLPFFVANIVKVFYRSLIPGQVFLFLNWLGYVNSAFNPIIYCRSPDFRSAFKRLLCCPR
+                     CADRRLHAVSRDLSRCPCAFTSQGSSPGDSKPVVLGQPPGQEEDGGTSSSSSRSSSRSG
+                     ENILSYLHSNGNGHAQRPLWEMQLQGTQTTLCLQMEEDVSKPLSWAVALGLCVGSYPPQ
+                     R"
+                     /gene="LOC102460140"
+                     /protein_id="XP_006134106.1"
+ORIGIN
+        1 acggcgaggg gcgcacgaag ctccccatgt gagatggctc cttggcccca gatcaacgcc
+       61 acctcctggg aggacgcagc cgccaactgc acgggtgccg ccagcctgag ccggcagtgg
+      121 gccatcgggg ccgccctgag cctcacggtg ctggtgaccg cggccggcaa cctgctggtg
+      181 atcctcgcca tcgccaagac accgcgcctg cagaccatga ccaacgtgtt cgtcacctcg
+      241 ctggccagcg ctgacctcat catgggcttg ctggtggtgc cgccaggggc caccatcgtg
+      301 ctgagcggcc gctggcccta cggcaccctg gtgtgtgagc tgtggacctc gctggacgtg
+      361 ctgtgcgtca cagccagcat cgagaccctg tgtgccattg ccgtggacag gtacctggcc
+      421 attacttcgc cactgcagta ccagatgctg gtgaccaagg gcagggcgcg ggctgtggtg
+      481 tgcctggtct gggccatctc tgccttcatc tccttcctgc ccatcatgaa ccactggtgg
+      541 cgggacgggg ccgatgagga tgcgctgaac tgctaccaga acccgagctg ttgtgatttc
+      601 gtcaccaaca tgccctacgc catcgtctcc tccatcatct ctttctacgt gccactgctg
+      661 gtcatgatct tcgtctacgc ccgtgtcttc gccgtggcca cccggcagat ccggctcgtc
+      721 gagcgggaca aggtccgctt cctccaggag ccccccagcc ccagcagcaa gggccctagg
+      781 ggcactcgct ggaggagacc ctcccggctg ctggtcataa aggaacacaa ggcgcttaag
+      841 accctgggca tcatcatggg caccttcacc ctctgctggc tgcccttctt cgtggccaac
+      901 attgtcaagg tcttctacag gtccctcatc cccggccagg tcttcctctt cctcaactgg
+      961 ctgggctacg tcaactcggc cttcaacccc atcatctact gccgcagccc cgacttcagg
+     1021 agcgccttca agaggctact gtgctgcccc cggtgcgcgg accgcaggct gcatgccgtc
+     1081 tccagggacc tcagccggtg cccgtgcgcc ttcacttctc agggatcctc cccgggagac
+     1141 agcaagcccg tggtactggg gcagcccccc gggcaggaag aggatggggg aaccagcagc
+     1201 agcagcagcc gctccagcag caggagtggg gaaaacatcc tctcctacct ccatagcaat
+     1261 gggaacggcc atgcccagcg ccccctgtgg gagatgcagc tgcagggcac ccagaccact
+     1321 ctgtgtctac agatggaaga ggatgtgtca aagcccctct cctgggccgt tgctctcggt
+     1381 ttgtgtgtcg gctcctaccc cccccaaaga tgaagacgcg cagcccccta gtctttttac
+     1441 ttttgaggtt cactcaggta ttttgaacgt ccgtcccttc atttcctgcc tgctttccag
+     1501 gcttggacac tgcatagagg aaattggacc tgaaagacac gtgtgacata ggggaggcgt
+     1561 ctttggaacc ggtcttccct gtacacatgg caaacgggca ggaaagaggt ggtctcccgc
+     1621 tgtcgttagt tatttccagc aagagcccct gacagacgtt ggactgattc ccaggtgccg
+     1681 gcggctgcgc ctagagaggt tactgtgact tcgccatctc ttgtgatggc tggctagagt
+     1741 cagggctaga aggagccccc gcgcctggag atgggacgtt ggactcaaga cgagagacct
+     1801 ccctccccga ggctaggcag ctgaatttga gtactgctcg ggacacgggt tacatgagga
+     1861 actgaccgag ctcccgggga ccagcgtgtg taatcagcct ccagagaggc tccaagggaa
+     1921 ggagacgctt cctgtatcga cagcaagaga attcctacct cagaagcagc gagtcggaat
+     1981 gcagctggag tctgaatctg ggagccagac ctggattccc ttcgaaaggg gccctggcag
+//

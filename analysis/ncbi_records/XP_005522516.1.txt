@@ -1,0 +1,68 @@
+LOCUS       XP_005522516             490 aa                     VRT 13-SEP-2013
+DEFINITION  PREDICTED: muscarinic acetylcholine receptor M4 [Pseudopodoces
+            humilis].
+ACCESSION   XP_005522516
+VERSION     XP_005522516.1  GI:543356689
+DBLINK      BioProject: PRJNA217046
+KEYWORDS    RefSeq.
+SOURCE      Pseudopodoces humilis (Tibetan ground-tit)
+  ORGANISM  Pseudopodoces humilis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes; Paridae;
+            Pseudopodoces.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005087567.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pseudopodoces humilis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..490
+                     /db_xref="taxon:181119"
+                     /organism="Pseudopodoces humilis"
+                     /chromosome="Unknown"
+     Protein         1..490
+                     /product="muscarinic acetylcholine receptor M4"
+                     /calculated_mol_wt="54851"
+     Region          52..>256
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          65..464
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          229..336
+                     /note="Learning-associated protein; pfam10169"
+                     /db_xref="CDD:255802"
+                     /region_name="Laps"
+     CDS             1..490
+                     /coded_by="XM_005522459.1:36..1508"
+                     /gene="CHRM4"
+                     /db_xref="GeneID:102100125"
+ORIGIN
+        1 mhnlsaqpwq tkmanltydn ftlgnhseva lqpptnyktv elvfiatvtg slslvtvvgn
+       61 ilvmlsikvn rqlqtvnnyf lfslacadli igvfsmnlyt vyiikgywpl gavvcdlwla
+      121 ldyvvsnasv mnlliisfdr yfcvtkplty parrttkmag lmiaaawils filwapailf
+      181 wqfivgkrtv perecyiqfl snpavtfgta iaafylpvvi mtvlyihisl asrsrvrrhk
+      241 pesrkdrktk slrflkgpvv kqnnnnspkr avevkeevrn gkvddqpsaq teatghqeek
+      301 etsnesstvs mtqttkdkpt aeilpagqgq spanprvntt skwskikivt kqtgtecvta
+      361 ieivpaksga snhnslansr pvnvarkfas iarsqvrkkr qmaarekkvt rtifaillaf
+      421 iltwtpynvm vlintfcetc vpetvwsigy wlcyvnstin pacyalcnat fkktfkhllm
+      481 cqyrnigtar
+//

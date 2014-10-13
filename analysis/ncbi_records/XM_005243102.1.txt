@@ -1,0 +1,90 @@
+LOCUS       XM_005243102            1647 bp    DNA              VRT 08-AUG-2013
+DEFINITION  PREDICTED: Falco peregrinus dopamine receptor D5 (DRD5), mRNA.
+ACCESSION   XM_005243102
+VERSION     XM_005243102.1  GI:529446911
+DBLINK      BioProject: PRJNA198010
+KEYWORDS    RefSeq.
+SOURCE      Falco peregrinus (peregrine falcon)
+  ORGANISM  Falco peregrinus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Falconiformes;
+            Falconidae; Falco.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004930387.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Falco peregrinus Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1647
+                     /mol_type="mRNA"
+                     /collection_date="Oct-2010"
+                     /country="United Arab Emirates: Abu Dhabi Falcon Hospital"
+                     /sex="male"
+                     /db_xref="taxon:8954"
+                     /organism="Falco peregrinus"
+                     /chromosome="Unknown"
+     gene            1..1647
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 2 ESTs, 8 Proteins"
+                     /db_xref="GeneID:101911541"
+                     /gene="DRD5"
+     CDS             1..1476
+                     /product="D(1B) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:529446912"
+                     /db_xref="GeneID:101911541"
+                     /translation="MEKPNPSRSPPRQLSPRWPTPRGRASSVPVPNSPGMVAAGSLLAL
+                     LILWTLFGNVLVCAAIVRYRHLRSKVTNIFIVSLAVSDLLVALLVMPWKAVAEVAGYWP
+                     FGAFCNVWVAFDIMCSTASILNLCVISVDRYWAISSPFRYERKMTQRLALVMIGVAWTL
+                     SVLISFIPVQLNWHRGRDVVAAGDIGDGFGTGWAAAGAVTTWADDMSTTWVALAAMRPS
+                     EGTSGSNETLAGHSESCDSSLNRTYAISSSLISFYIPVAIMIVTYTRIYRIAQVQIRRI
+                     SSLERAAEHAQSCRSNHVDCHHHKSLKSSIRKETKVLKTLSVIMGVFVCCWLPFFILNC
+                     MVPFCESPPSDPHAGLPCVSETTFNIFVWFGWANSSLNPIIYAFNADFRKVFSNLLGCG
+                     QFCSSTPVETVNISNELISYNQHTLFHKEIVTAYVNMIPNVVDCEENREDPFDRMSQIS
+                     PDHEIATDSICELDCEGEVSLGKITPFTPNGLH"
+                     /gene="DRD5"
+                     /protein_id="XP_005243159.1"
+ORIGIN
+        1 atggaaaagc ccaacccgtc ccgctccccc ccacgacaac tctctccccg ctggcccaca
+       61 cccagaggtc gggcgagctc cgtgcccgtc cctaacagcc cggggatggt ggcggcgggc
+      121 agcttgctgg cgctgctcat cctctggacg ctctttggga acgtgctggt gtgcgcggcc
+      181 atcgtccgct accggcacct gaggagcaag gtcaccaaca tcttcatcgt ctccctggcc
+      241 gtttcggacc tgctagtggc tctgctagtc atgccctgga aagcggtggc cgaggtggcc
+      301 gggtactggc cctttggggc cttctgcaat gtctgggtgg ccttcgatat catgtgctcc
+      361 acggcctcca tcctgaacct gtgcgtgatc agcgtggaca ggtactgggc tatttccagc
+      421 cccttccgct atgagaggaa gatgacccag cggctggctc tggtgatgat tggtgtggca
+      481 tggactttgt ctgtgctcat ctccttcatc cccgtccagc tcaactggca cagaggtcgg
+      541 gatgtcgttg ctgctggtga tattggagat ggctttggca ctggctgggc agcggcaggt
+      601 gctgtcacca cctgggcaga cgatatgagc accacatggg tggcattagc agcaatgaga
+      661 ccctcggagg ggacctctgg cagcaatgag accctcgctg gacactcgga gagctgtgac
+      721 tccagcctca acaggactta cgctatttct tcctccttga tcagttttta tattccggtg
+      781 gctatcatga tagttaccta cactcgaatc taccgcattg cccaggtgca gatacgtcgt
+      841 atctcttcac tggagagggc agctgaacat gcgcaaagct gccggagcaa ccatgttgac
+      901 tgccaccatc acaagagcct caagtcctcc atcaggaaag aaaccaaggt gttgaagact
+      961 ctctctgtca tcatgggcgt ctttgtctgc tgctggttgc ccttcttcat cctgaactgc
+     1021 atggttccct tctgcgagag cccacccagt gacccccacg ctggccttcc ctgtgtcagt
+     1081 gagaccacct ttaatatctt cgtctggttt ggttgggcca actcctctct caaccctatc
+     1141 atctatgcct tcaatgctga ctttagaaag gtcttctcca acctcctggg ttgcggtcag
+     1201 ttttgctcta gtactccagt ggagactgtt aatataagca atgagcttat ctcttacaac
+     1261 cagcacaccc ttttccataa ggagatagtg acagcttatg ttaacatgat cccaaatgtg
+     1321 gttgactgtg aggaaaatcg cgaggaccct ttcgatagga tgtcccagat ctcccctgac
+     1381 cacgagattg ccactgactc gatctgtgag ctggactgcg agggggaggt ttcactaggc
+     1441 aaaataacac ctttcactcc aaatggttta cattaaattg catcctgccc tggtcagttc
+     1501 ttctgggata ataaaccaaa atattagcac tgaatggaga agcctgcttg attttatgct
+     1561 atagtttagt cagtcacttc atactaaagt cacttctatg tgtagcactt cgcaggatgt
+     1621 agacgctgtc aggagggagc tggcagc
+//

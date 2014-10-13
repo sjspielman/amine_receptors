@@ -1,0 +1,107 @@
+LOCUS       XM_003825120            1774 bp    DNA              PRI 02-SEP-2014
+DEFINITION  PREDICTED: Pan paniscus dopamine receptor D3 (DRD3), transcript
+            variant X1, mRNA.
+ACCESSION   XM_003825120
+VERSION     XM_003825120.2  GI:675781345
+DBLINK      BioProject: PRJNA169343
+KEYWORDS    RefSeq.
+SOURCE      Pan paniscus (pygmy chimpanzee)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003870557.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 2, 2014 this sequence version replaced gi:397509519.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pan paniscus Annotation Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1774
+                     /mol_type="mRNA"
+                     /country="Germany"
+                     /isolate="Ulindi"
+                     /sex="female"
+                     /db_xref="taxon:9597"
+                     /organism="Pan paniscus"
+                     /chromosome="Unknown"
+     gene            1..1774
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 10 mRNAs, 15 Proteins, and 38%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:100984609"
+                     /gene="DRD3"
+     STS             435..1720
+                     /db_xref="UniSTS:480916"
+                     /gene="DRD3"
+     STS             484..1730
+                     /db_xref="UniSTS:483127"
+                     /gene="DRD3"
+     CDS             512..1714
+                     /product="D(3) dopamine receptor isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:397509520"
+                     /db_xref="GeneID:100984609"
+                     /translation="MAPLSQLSGHLNYTCGAENSTGASQARPHAYYALSYCALILAIVF
+                     GNGLVCMAVLKERALQTTTNYLVVSLAVADLLVATLVMPWVVYLEVTGGVWNFSRICCD
+                     VFVTLDVMMCTASILNLCAISIDRYTAVVMPVHYQHGTGQSSCRRVALMITAVWVLAFA
+                     VSCPLLFGFNTTGDPTVCSISNPDFVIYSSVVSFYLPFGVTVLVYARIYVVLKQRRRKR
+                     ILTRQNSQCNSVRPGFPQQTLSPDPAHLELKRYYSICQDTALGGPGFQERGGELKREEK
+                     TRNSLSPTIAPKLSLEVRKLSNGRLSTSLKLGPLQPRGVPLREKKATQMVAIVLGAFIV
+                     CWLPFFLTHVLNTHCQTCHVSPELYSATTWLGYVNSALNPVIYTTFNIEFRKAFLKILS
+                     C"
+                     /gene="DRD3"
+                     /protein_id="XP_003825168.1"
+     STS             1406..1605
+                     /db_xref="UniSTS:34219"
+                     /standard_name="DRD3-556F"
+                     /gene="DRD3"
+     STS             1536..1713
+                     /db_xref="UniSTS:53374"
+                     /standard_name="RH71216"
+                     /gene="DRD3"
+ORIGIN
+        1 aaaggtaaaa acagtggaaa aactaagatt aaaaagagca ctgaggagaa aatatacatg
+       61 tactaaaaag cacagtatcc gagcagatag agagacaaag aggaaaagag agcgaggtag
+      121 aaaacggatc ctgcctatgc ctactccttc cctctttcag caccaaggac agaacctctg
+      181 agcggctgac ccaagcaatg ctcagtttag ggtccctccc aaatcctcta cagaaaacgg
+      241 atacattcga aagcagctat gaaacatgca ctaaggtcta atagggaagc tggaaaagca
+      301 gcactcaagt aatttcacct tagaggcaaa aatgggtgat ttctttctgt tcatttcata
+      361 gtttctgagt cctgagaaag gcaaagtttg cttgggtatg tctgctgtca gtaaatggct
+      421 gcaggagccg aagtggtaaa ctcctcggtc tccagaaatc agaagaaaat tttagggaag
+      481 ccccttggca tcacgcacct ccctctgggc tatggcacct ctgagccagc tgagtggcca
+      541 cctgaactac acctgtgggg cggagaactc cacaggtgcc agccaggccc gcccacatgc
+      601 ctactatgcc ctctcctact gcgcgctcat cctggccatc gtcttcggca atggcctggt
+      661 gtgcatggct gtgctgaagg agcgggccct gcagactacc accaactact tagtagtgag
+      721 cctggctgtg gcagacttgc tggtggccac cttggtgatg ccctgggtgg tatacctgga
+      781 ggtgacaggt ggagtctgga atttcagccg catttgctgt gatgtttttg tcaccctgga
+      841 tgtcatgatg tgtacagcca gcatccttaa cctctgtgcc atcagcatag acaggtacac
+      901 tgcagtggtc atgcccgttc actaccagca tggcacggga cagagctcct gtcggcgcgt
+      961 ggccctcatg atcacggccg tctgggtact ggcctttgct gtgtcctgcc ctcttctgtt
+     1021 tggctttaat accacagggg accccactgt ctgctccatc tccaaccctg attttgtcat
+     1081 ctactcttca gtggtgtcct tctacctgcc ctttggagtg actgtccttg tctatgccag
+     1141 aatctacgtg gtgctgaaac aaaggagacg gaaaaggatc ctcactcgac agaacagtca
+     1201 gtgcaacagt gtcaggcctg gcttccccca acaaaccctc tctcctgacc cggcacatct
+     1261 ggagctgaag cgttactaca gcatctgcca ggacactgcc ttgggtggac caggcttcca
+     1321 agaaagagga ggagagttga aaagagagga gaagactcgg aattccctga gtcctaccat
+     1381 agcgcccaag ctcagcttag aagttcgaaa actcagcaat ggcagattat cgacatcttt
+     1441 gaagctgggg cccctgcaac ctcggggagt gccacttcgg gagaagaagg caacccagat
+     1501 ggtggccatt gtgcttgggg ccttcattgt ctgctggctg cccttcttct tgacccatgt
+     1561 tctcaatacc cactgccaga catgccacgt gtccccagag ctttacagtg ccacgacatg
+     1621 gctgggctac gtgaatagcg ccctcaaccc tgtgatctat accaccttca atatcgagtt
+     1681 ccggaaagcc ttcctcaaga tcctgtcttg ctgagggagc agaagaggga acactctttg
+     1741 tacccatttc tagctgccag gctgttggcc cact
+//

@@ -1,0 +1,68 @@
+LOCUS       XP_006008990             433 aa                     VRT 05-NOV-2013
+DEFINITION  PREDICTED: D(1B) dopamine receptor-like [Latimeria chalumnae].
+ACCESSION   XP_006008990
+VERSION     XP_006008990.1  GI:557017155
+DBLINK      BioProject: PRJNA219830
+KEYWORDS    RefSeq.
+SOURCE      Latimeria chalumnae (coelacanth)
+  ORGANISM  Latimeria chalumnae
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Coelacanthiformes; Coelacanthidae; Latimeria.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005820912.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Latimeria chalumnae Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..433
+                     /country="South Africa"
+                     /isolate="SAIAB 97564"
+                     /note="Wild Caught"
+                     /db_xref="taxon:7897"
+                     /tissue_type="blood"
+                     /organism="Latimeria chalumnae"
+                     /chromosome="Unknown"
+     Protein         1..433
+                     /product="D(1B) dopamine receptor-like"
+                     /calculated_mol_wt="48582"
+     Region          27..>151
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          31..335
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          40..321
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..433
+                     /coded_by="XM_006008928.1:1..1302"
+                     /gene="LOC102355261"
+                     /db_xref="GeneID:102355261"
+ORIGIN
+        1 mgdgtgivik kellsrvvtg svlsllilwt lfgnilvcta vmrfrhlrsk vtnifivsla
+       61 vsdllvallv mpwkavaeva gywpfgafcn iwvafdimcs tasilnlcvi svdrywaiss
+      121 pfryerkmtq kvaivmislt wtlsvlisfi pvqlnwhkss aeaflegnet vneksencds
+      181 slnrtyaiss slisfyipva imivtytriy riaqiqiqri ssleraaeha qscrgkqidc
+      241 hhhstlktsi rketkvlktl svimgvfvcc wlpffilnci vpfcdrtsse lntrlpcvse
+      301 ttfdifvwfg wansslnpii yafnvdfrka fasllgfshf csntrvetvn isnelvsynq
+      361 dtvfhkdivt ayvnmipnvv dgiddneetf drmsqisqss pnndlaaesv cdldceadis
+      421 ldkitpftpn glh
+//

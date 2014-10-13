@@ -1,0 +1,96 @@
+LOCUS       XM_004382515            1521 bp    DNA              MAM 27-MAR-2013
+DEFINITION  PREDICTED: Trichechus manatus latirostris dopamine receptor D2,
+            transcript variant 1 (DRD2), mRNA.
+ACCESSION   XM_004382515
+VERSION     XM_004382515.1  GI:471398853
+DBLINK      BioProject: PRJNA189960
+KEYWORDS    RefSeq.
+SOURCE      Trichechus manatus latirostris (Florida manatee)
+  ORGANISM  Trichechus manatus latirostris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Afrotheria; Sirenia; Trichechidae; Trichechus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004444030.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Trichechus manatus latirostris Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1521
+                     /sub_species="latirostris"
+                     /mol_type="mRNA"
+                     /isolate="Lorelei"
+                     /sex="female"
+                     /db_xref="taxon:127582"
+                     /organism="Trichechus manatus latirostris"
+                     /chromosome="Unknown"
+     gene            1..1521
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 27 Proteins"
+                     /db_xref="GeneID:101349901"
+                     /gene="DRD2"
+     CDS             23..1354
+                     /product="D(2) dopamine receptor isoform 1"
+                     /codon_start="1"
+                     /db_xref="GI:471398854"
+                     /db_xref="GeneID:101349901"
+                     /translation="MDPLNLSWYDDDLESQNWSRPFNGSEVKADRPHYNYYAMLLTLLI
+                     FIIVFGNVLVCMAVSREKALQTTTNYLIVSLAVADLLVATLVMPWVVYLEVVGEWKFSR
+                     IHCDIFVTLDVMMCTASILNLCAISIDRYTAVAMPMLYNTRYSSKRRVTVMITIVWVLS
+                     FTISCPLLFGLNNTDQNECIIANPAFVVYSSIVSFYVPFIVTLLVYIKIYIVLRKRRKR
+                     VNTKRSSRAFRANLKAPLKGNYTHPEDMQLCTVIMKSNGSFPVNRRRVEAARRAQELEM
+                     EMLSSTSPPERTRYSPIPPSHHQLTLPDSSHHGLHTTPDSPAKPEKNGHAKDHPKIAKI
+                     FEIQSMPNGKTRTSLKTMSRRKLSQQKEKKATQMLAIVLGVFIICWLPFFITHILNIHC
+                     DCNIPPVLYSAFTWLGYVNSAVNPIIYTTFNIEFRKAFMKILHC"
+                     /gene="DRD2"
+                     /protein_id="XP_004382572.1"
+     STS             317..524
+                     /db_xref="UniSTS:266487"
+                     /standard_name="DRD2"
+                     /gene="DRD2"
+     STS             353..443
+                     /db_xref="UniSTS:262987"
+                     /standard_name="DRD2"
+                     /gene="DRD2"
+     STS             854..1034
+                     /db_xref="UniSTS:272844"
+                     /standard_name="PMC311033P6"
+                     /gene="DRD2"
+ORIGIN
+        1 acccagtggc tccgctgccc caatggatcc tctgaatctg tcctggtacg atgatgacct
+       61 ggagagccag aactggagcc ggcccttcaa cgggtctgaa gtgaaggcag acaggcccca
+      121 ttacaactac tatgctatgc tgctcaccct gcttatcttc atcatcgtct tcggcaacgt
+      181 gctggtgtgc atggctgtgt cccgcgagaa ggcgctacag accaccacca actacttgat
+      241 cgtcagcctc gctgtggctg acctcctcgt agccacgctg gtcatgcctt gggttgtcta
+      301 cctggaggtg gtaggtgagt ggaaattcag caggattcac tgtgacatct ttgtcactct
+      361 ggacgtcatg atgtgcacag caagcatcct gaacctgtgt gccatcagca ttgacaggta
+      421 cacagctgtg gccatgccca tgctctacaa cacacggtac agttccaagc gccgagtaac
+      481 ggtcatgatc accatcgtct gggtcctgtc cttcaccatc tcctgcccgc tgctctttgg
+      541 actcaacaac acagaccaga atgagtgcat cattgccaat cccgccttcg tggtctactc
+      601 ctccatcgtc tccttctatg tgcccttcat tgtcaccctg ctggtctaca tcaagatcta
+      661 cattgtcctc cgcaagcgcc gcaagagggt caacaccaag cgcagcagcc gagctttcag
+      721 agccaacttg aaggccccac tcaagggcaa ctacactcac cctgaggaca tgcaactctg
+      781 caccgttatc atgaagtcta atgggagttt cccagtgaac aggcggagag tggaggctgc
+      841 ccgccgagcc caggagctgg agatggagat gctctccagc accagcccac ctgagaggac
+      901 ccggtacagc cccatccctc ccagccacca ccagctgacc ctccctgact cgtcccacca
+      961 tggcctccac accactcccg acagccccgc caaaccagag aagaacgggc atgccaaaga
+     1021 ccaccccaag attgccaaga tctttgagat ccagtccatg cccaatggca aaacccggac
+     1081 ctctctcaag accatgagcc gcaggaagct ctcacagcag aaggagaaga aagccaccca
+     1141 gatgctcgcc atcgtgcttg gcgtgttcat catctgctgg ctgcccttct tcatcacaca
+     1201 catcctgaac atacactgtg attgcaacat cccgcccgtc ctgtacagcg ccttcacgtg
+     1261 gctgggttat gtcaacagtg ccgtgaaccc catcatctac acgaccttca acatcgagtt
+     1321 ccgcaaggcc ttcatgaaga tcctacactg ctgactctgc tgcccgcccg cacagcagct
+     1381 gcttcccacc tcggcccggg caggcctggc ctcagtccct gggtgccttg ggcaggaagg
+     1441 cgcggggtgg actcagccct cccttcaccc ggggcaggcc ctgcagtgtt agcttggctc
+     1501 cacgcccctc actgcccgca c
+//

@@ -1,0 +1,103 @@
+LOCUS       XM_004571505            2288 bp    DNA              VRT 14-MAY-2013
+DEFINITION  PREDICTED: Maylandia zebra muscarinic acetylcholine receptor M4-like
+            (LOC101472526), mRNA.
+ACCESSION   XM_004571505
+VERSION     XM_004571505.1  GI:499041896
+DBLINK      BioProject: PRJNA198780
+KEYWORDS    RefSeq.
+SOURCE      Maylandia zebra (zebra mbuna)
+  ORGANISM  Maylandia zebra
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Haplochromini;
+            Maylandia; Maylandia zebra complex.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004531904.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Maylandia zebra Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2288
+                     /mol_type="mRNA"
+                     /isolate="#2_Kocher"
+                     /sex="female"
+                     /db_xref="taxon:106582"
+                     /organism="Maylandia zebra"
+                     /chromosome="Unknown"
+     gene            1..2288
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 23 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 2 samples with support for all annotated introns"
+                     /db_xref="GeneID:101472526"
+                     /gene="LOC101472526"
+     misc_feature    75..77
+                     /note="upstream in-frame stop codon"
+                     /gene="LOC101472526"
+     CDS             102..1523
+                     /product="muscarinic acetylcholine receptor M4-like"
+                     /codon_start="1"
+                     /db_xref="GI:499041897"
+                     /db_xref="GeneID:101472526"
+                     /translation="MCHYIPHLMTSGRRLHVNCCRWTDGQADSGKLSSSNTPGNMEPTP
+                     TLLRLSVNTSRVPPLSPPYPYSTAQLVLIAMVTTSLSILTVLGNTLVILSIKVNRHLQM
+                     VNNYFLLSLAVADLIIGLFSMNVYTLYKLQGRWLLGPVLCDAWLVLDYVASSASVLNLL
+                     LISLDRYFCLTRPLSYPVRRTGRMACLMIAAAWLLSFILWAPAILSWQTDKGGRVVPHD
+                     QCYIRLLVSPAVTMGTTLPSFYLPAIIMIGLYSHLSVASYSRMSVLMPNQGALRASSPS
+                     LKDFLLRRRGMGTSDPCSDLTPNQLQSCTPKTRRKKKTCRSPDDTAQAESSWRHWKHPS
+                     QTAVKPTGDEDHNKTESEDSFNADLHRAASAVFSSCPDISSHERRRQRVMARERRVTRT
+                     ILAIILVFVLTWTPYNVMAVVAAFCHCRIPDALWTTGYWLCYVNSTVNPGCYALCNVTF
+                     RKTFCSLLRCRCRRL"
+                     /gene="LOC101472526"
+                     /protein_id="XP_004571562.1"
+ORIGIN
+        1 ttctctgtgc ctgctgcagt gtcttcacta acggtaatgc tgggaggaag atgaagttaa
+       61 aacccgtgtg gtggtaactg aagctgggct catcttctct aatgtgtcat tacatcccac
+      121 atctgatgac gtcaggacgg aggctgcatg taaactgctg cagatggact gatggacagg
+      181 cagacagcgg caagctgagc agctccaaca cccccggaaa catggaaccg acgcctactt
+      241 tgctccgcct ctccgtcaac acctcccgtg tgcctccgct ctcaccacca tatccgtaca
+      301 gcaccgctca gctggtcctc attgccatgg ttaccacctc cctcagcatc ctcaccgttc
+      361 tcggcaacac tttggtgatc ctgtccatca aagtgaaccg tcacctgcag atggtcaaca
+      421 attacttcct gctgagcctg gcggtggccg acctgatcat cggcctgttc tccatgaacg
+      481 tgtacacgct gtataagctg cagggccgct ggctgctggg ccccgtgcta tgtgacgcgt
+      541 ggctcgtcct tgactacgtg gcgagcagcg cctcggtcct gaacctgctg ctcatcagtc
+      601 tggatcggta cttttgcctg acgcgaccgc tcagctaccc agtgcggcgg acgggcagga
+      661 tggcgtgcct gatgattgct gccgcctggc tgctttcttt cattctctgg gctcccgcca
+      721 tcctgtcctg gcagacagat aagggcgggc gcgtcgtccc tcacgatcag tgttacatcc
+      781 gtctacttgt tagccctgct gttactatgg ggacgactct tccctccttt tacctgccgg
+      841 caatcatcat gatcggcctc tacagccacc tgtcagttgc cagctacagc cgaatgagtg
+      901 tgctcatgcc aaaccagggt gctctcaggg cttccagtcc ctccttgaaa gacttcctgc
+      961 tgaggcggcg aggcatgggg acgagtgacc cctgctcaga cctgaccccg aaccagctcc
+     1021 agtcctgcac gccaaagacc agaaggaaga agaagacatg tagaagtcca gatgatacag
+     1081 cgcaggccga gagtagctgg agacactgga agcatccctc tcaaactgct gtcaaaccca
+     1141 ccggagacga agaccacaac aagactgaat ctgaagactc attcaacgct gacctccaca
+     1201 gggcggcctc ggcagtcttc tcctcctgcc ccgacatcag ctcacatgag aggaggcggc
+     1261 agcgagtgat ggcgagggag aggagggtca cgaggaccat cctggccatc atcctggtat
+     1321 ttgtcctcac ctggacgccg tacaatgtca tggccgttgt tgctgccttc tgccattgcc
+     1381 gcattcctga cgccctgtgg accacaggat actggctgtg ctacgtgaac agcactgtca
+     1441 accccggctg ctatgccctg tgcaacgtga ccttcagaaa aaccttctgc agcctcctgc
+     1501 gctgccgctg caggcggctg taacagcact ggtgcgtttt tgctttgttt ttggcagctg
+     1561 gctttttgct ttcctttcat ggagtttggt cctatcgcag gtttccatct aaatgtagaa
+     1621 ggagatttaa gatgggcaaa acaaatgcga acaaaaggtt gtttccatcc ttgcagctca
+     1681 gtggttggtc tgacaaacag ccggtggtgc aaaacgtcct taaatcaaag cagataatgc
+     1741 catcatgtct ccatttccag ctcagatgac atggcctctt atcacaattt gggctgtaaa
+     1801 tgtttgatgt ttatgtagtt aattaatcca tctacttcct gctgcttctc catgatgtgt
+     1861 ttaatgagca gtgactgatg taacaaggca taaatgctgt caaggctgca gctactgttc
+     1921 atctttatta ttaagaaagt gtttggtaga tgcagcacaa taaaggaaat aaaacagcgt
+     1981 cattactgct aagaaacacg tttaaggctg tgaacatgct tatttctggt agaaagtttt
+     2041 aacatgaaag tctatgactc tgctggagcc tctagtggac tttggttgcc tcagaggttg
+     2101 cttggtggag accagaagca gagttaaagc agatttttgt gtttttagtt gaaactgtag
+     2161 aggaccgaga atagaaccct gaggaactcc tggagaactt accgacactt taaatgtgga
+     2221 gaagtcgatc tgtctgctta aagattcggg tcactgagtt cctgtagtga acaaagcttg
+     2281 tgatttgt
+//

@@ -1,0 +1,64 @@
+LOCUS       XP_006096894             502 aa                     MAM 15-NOV-2013
+DEFINITION  PREDICTED: D(3) dopamine receptor isoform X1 [Myotis lucifugus].
+ACCESSION   XP_006096894
+VERSION     XP_006096894.1  GI:558161309
+DBLINK      BioProject: PRJNA208947
+KEYWORDS    RefSeq.
+SOURCE      Myotis lucifugus (little brown bat)
+  ORGANISM  Myotis lucifugus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Microchiroptera;
+            Vespertilionidae; Myotis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005871236.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Myotis lucifugus Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..502
+                     /db_xref="taxon:59463"
+                     /country="USA: Framingham, MA"
+                     /organism="Myotis lucifugus"
+                     /chromosome="Unknown"
+                     /sex="female"
+     Protein         1..502
+                     /product="D(3) dopamine receptor isoform X1"
+                     /calculated_mol_wt="55666"
+     Region          99..>289
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          107..485
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..502
+                     /coded_by="XM_006096832.1:214..1722"
+                     /gene="DRD3"
+                     /db_xref="GeneID:102417311"
+ORIGIN
+        1 mstvsvswer qsllclgmsa vskwlqelrc lnftvvrnqe kssgiplgsl lslwamapls
+       61 qlsgyinstc gtdnftgdnq arphayyals ycslilaivf gnglvcvavl reralqtttn
+      121 ylvvslavad llvatlvmpw vvylevtggv wnfsrlccdv fvtldvmmct asilnlcais
+      181 idrytavvmp vhyqhgtgqs scrrvalmit avwvlafavs cpllfgfntt gdpsvcsisn
+      241 pdfviyssvv sfylpfgvtv lvyariyvvl rqrrrkrilt rqnsqcisvr psfpqhsscl
+      301 rlhpirqfsl rarfpsdatg kmghsedkqy pqkcqdplls hlqplspgra hmglrryysi
+      361 cqdtafgppg fqegegelkk eastrnslsp tmapklslev rklsngrlst slklgplqpr
+      421 gvplrekkat qmlvivlgtf ivcwlpfflt hvlnthcpac hvspglyrat twlgyvnsal
+      481 npviyttfni efrkaflkil sc
+//

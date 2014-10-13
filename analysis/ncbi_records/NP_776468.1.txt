@@ -1,0 +1,128 @@
+LOCUS       NP_776468                444 aa                     MAM 26-JAN-2014
+DEFINITION  D(2) dopamine receptor [Bos taurus].
+ACCESSION   NP_776468
+VERSION     NP_776468.1  GI:27806647
+KEYWORDS    RefSeq.
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (residues 1 to 444)
+  AUTHORS   Zimin AV, Delcher AL, Florea L, Kelley DR, Schatz MC, Puiu D,
+            Hanrahan F, Pertea G, Van Tassell CP, Sonstegard TS, Marcais G,
+            Roberts M, Subramanian P, Yorke JA and Salzberg SL.
+  TITLE     A whole-genome assembly of the domestic cow, Bos taurus
+  JOURNAL   Genome Biol. 10 (4), R42 (2009)
+   PUBMED   19393038
+REFERENCE   2  (residues 1 to 444)
+  AUTHORS   Chio CL, Hess GF, Graham RS and Huff RM.
+  TITLE     A second molecular form of D2 dopamine receptor in rat and bovine
+            caudate nucleus
+  JOURNAL   Nature 343 (6255), 266-269 (1990)
+   PUBMED   2137198
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from X51657.1.
+            ##Evidence-Data-START##
+            Transcript exon combination :: X51657.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+            SRS369781, SRS369789 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..444
+                     /db_xref="taxon:9913"
+                     /organism="Bos taurus"
+                     /chromosome="15"
+                     /map="15"
+     Protein         1..444
+                     /note="dopamine D2 receptor"
+                     /product="D(2) dopamine receptor"
+                     /calculated_mol_wt="50541"
+     Site            38..60
+                     /note="propagated from UniProtKB/Swiss-Prot (P20288.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          45..>233
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          57..427
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Site            71..93
+                     /note="propagated from UniProtKB/Swiss-Prot (P20288.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            109..130
+                     /note="propagated from UniProtKB/Swiss-Prot (P20288.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            152..172
+                     /note="propagated from UniProtKB/Swiss-Prot (P20288.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            189..213
+                     /note="propagated from UniProtKB/Swiss-Prot (P20288.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          190..197
+                     /note="propagated from UniProtKB/Swiss-Prot (P20288.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Agonist binding (By similarity)"
+     Site            194
+                     /note="Important for in receptor activation (By
+                     similarity); propagated from UniProtKB/Swiss-Prot
+                     (P20288.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="other"
+     Site            197
+                     /note="Important for receptor activation (By similarity);
+                     propagated from UniProtKB/Swiss-Prot (P20288.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="other"
+     Region          211..374
+                     /note="propagated from UniProtKB/Swiss-Prot (P20288.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Interaction with PPP1R9B (By similarity)"
+     Site            375..396
+                     /note="propagated from UniProtKB/Swiss-Prot (P20288.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          387..395
+                     /note="propagated from UniProtKB/Swiss-Prot (P20288.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Agonist binding (By similarity)"
+     Site            411..432
+                     /note="propagated from UniProtKB/Swiss-Prot (P20288.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     CDS             1..444
+                     /coded_by="NM_174043.2:4..1338"
+                     /gene="DRD2"
+                     /db_xref="BGD:BT11104"
+                     /db_xref="GeneID:281126"
+ORIGIN
+        1 mdplnlswyd ddpesrnwsr pfngsegkad rppynyyaml ltllifvivf gnvlvcmavs
+       61 rekalqtttn ylivslavad llvatlvmpw vvylevvgew kfsrihcdif vtldvmmcta
+      121 silnlcaisi drytavampm lyntrysskr rvtvmiaivw vlsftiscpm lfglnntdqn
+      181 eciianpafv vyssivsfyv pfivtllvyi kiyivlrrrr krvntkrssr afranlkapl
+      241 kgncthpedm klctvimksn gsfpvnrrrv eaarraqele memlsstspp ertryspipp
+      301 shhqltlpdp shhglhstpd spakpekngh aktvnpkiak ifeiqsmpng ktrtslktms
+      361 rrklsqqkek katqmlaivl gvfiicwlpf fithilnihc dcnippvlys aftwlgyvns
+      421 avnpiiyttf niefrkaflk ilhc
+//

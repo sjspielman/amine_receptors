@@ -1,0 +1,91 @@
+LOCUS       XM_004659316            1566 bp    DNA              ROD 28-MAY-2013
+DEFINITION  PREDICTED: Jaculus jaculus adrenoceptor beta 1 (Adrb1), mRNA.
+ACCESSION   XM_004659316
+VERSION     XM_004659316.1  GI:507551139
+DBLINK      BioProject: PRJNA193488
+KEYWORDS    RefSeq.
+SOURCE      Jaculus jaculus (lesser Egyptian jerboa)
+  ORGANISM  Jaculus jaculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Dipodidae; Dipodinae; Jaculus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004504342.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Jaculus jaculus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1566
+                     /mol_type="mRNA"
+                     /collection_date="May-2011"
+                     /country="USA"
+                     /isolate="JJ0015"
+                     /sex="female"
+                     /note="the animal was collected near Giza City, Egypt in
+                     2009 and now lives in a colony in the USA"
+                     /db_xref="taxon:51337"
+                     /organism="Jaculus jaculus"
+                     /chromosome="Unknown"
+     gene            1..1566
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 6 Proteins"
+                     /db_xref="GeneID:101606188"
+                     /gene="Adrb1"
+     CDS             90..1340
+                     /product="beta-1 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:507551140"
+                     /db_xref="GeneID:101606188"
+                     /translation="MGLLMALIVSLIVAGNVLVIVAIAKTPRLQTLTNLFIISLASADL
+                     VMGLLVVPFGATIVVWGRWEYGSFFCELWTSVDVLCVTASIETLCVIALDRYLAITSPF
+                     RYQSLLTRARARALVCTVWAISALVSFLPILMHWWRAESEEARRCYNDPKCCDFVTNRA
+                     YAIASSVVSFYVPLCIMAFVYLRVFREAQKQVKKIDSCERRFLGGPVRPPSPVASPSPG
+                     SPRPVVTAAAADSLANGRSSKRRPSRLVALREQKALKTLGIIMGVFTLCWLPFFLANVV
+                     KAFHRDLVPDRLFVFFNWLGYANSAFNPIIYCRSPDFRKAFQRLLCCARRAARRRGHSV
+                     HRGDRPRASGCLAGAGPPPSPGAPSDDDDEDVGATPPVRLLEPWAGCNGGGAAAIVDSD
+                     SSLDEPGRPGFTSESKV"
+                     /gene="Adrb1"
+                     /protein_id="XP_004659373.1"
+     STS             183..704
+                     /db_xref="UniSTS:256461"
+                     /standard_name="Adrb1"
+                     /gene="Adrb1"
+ORIGIN
+        1 gcctgctggt gcccgcgtca cctcccgcct ccctgctgcc gccggccagc cagggccccg
+       61 agcctctgtc gcagcagtgg acggcgggca tgggcctgct gatggcgctc atcgtgtcgc
+      121 tcatcgtggc gggcaacgtg ctggtgatcg tggccatcgc caagacgccc cggctgcaga
+      181 cgctcaccaa cctcttcatc atatccctgg ccagcgccga cctggtgatg ggcttgttgg
+      241 tggtgccgtt cggggccacc atcgtggtgt ggggccgctg ggagtatggc tcgttcttct
+      301 gcgagctctg gacctcggtg gacgtgctgt gtgtgacggc cagcatcgag accctgtgtg
+      361 tcatcgccct ggaccgctac ctggccatca cgtcgccctt ccgctaccag agcctgctga
+      421 cgcgcgcgcg ggcgcgggcc ctcgtgtgca ccgtgtgggc catctcggcc ctggtgtcct
+      481 tcctgcccat cctcatgcac tggtggcggg ccgagagcga agaggcacgt cgctgctaca
+      541 acgaccccaa gtgctgcgat ttcgtcacga accgggccta cgccatcgcc tcgtccgtgg
+      601 tctccttcta cgtccccttg tgcatcatgg ccttcgtgta cctgcgggtg ttccgcgaag
+      661 ctcagaagca ggtgaagaag atcgacagct gcgagcgccg cttcctgggt ggccctgtgc
+      721 gcccgccctc gccggtggcc tctccgtcgc cggggtcccc gcgtccagtg gtcaccgccg
+      781 ccgccgccga ctcgctggcc aacgggcgct ccagcaagcg gcggccctcg cgcctcgtgg
+      841 ccctgcgcga gcagaaggcg ctcaagacgc tgggcatcat catgggtgtg ttcacgctct
+      901 gctggctgcc cttcttcctg gccaacgtgg tgaaggcctt ccaccgcgac ctggtgcccg
+      961 accgcctctt cgtcttcttc aactggctcg gttatgccaa ctcggcgttc aaccccatca
+     1021 tctactgccg cagcccggac ttccgcaagg ccttccagcg cctgctgtgc tgcgcgcgcc
+     1081 gggcggcccg ccgccgggga cactcggtcc accgcgggga cagaccgcga gcctcgggct
+     1141 gcctggccgg agccggaccg ccgccgtccc ccggggctcc gtcggacgat gacgacgagg
+     1201 acgtcggggc cacgccgccc gtgcgcctcc tggagccctg ggcaggttgc aacggcggcg
+     1261 gggcggcggc gatcgtggac agcgattcga gcctggacga gccgggccgc ccgggcttca
+     1321 cctcggaatc caaggtgtag gtttggaccg ggtgctgcgg ggcggagggg aggaggagga
+     1381 gagcggaggc ggctccgggg tcgcccagcg ggaaggagga gagctgtgtt tactcaagac
+     1441 ccaaagcagg tgaactcgaa gcccaccagg gtgtcggaat catcccagac aagacagaaa
+     1501 agcccccggc ggaccgttgc acacagcaag gaaagtttgc agagcagctg ggagagtggc
+     1561 tttctg
+//

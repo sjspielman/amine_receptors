@@ -1,0 +1,88 @@
+LOCUS       XM_005078333            1588 bp    DNA              ROD 17-JUL-2013
+DEFINITION  PREDICTED: Mesocricetus auratus histamine receptor H2 (Hrh2), mRNA.
+ACCESSION   XM_005078333
+VERSION     XM_005078333.1  GI:524956853
+DBLINK      BioProject: PRJNA210213
+KEYWORDS    RefSeq.
+SOURCE      Mesocricetus auratus (golden hamster)
+  ORGANISM  Mesocricetus auratus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Cricetinae; Mesocricetus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004801686.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Mesocricetus auratus Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1588
+                     /mol_type="mRNA"
+                     /isolate="Golden Hamster female 1"
+                     /sex="female"
+                     /db_xref="taxon:10036"
+                     /organism="Mesocricetus auratus"
+                     /chromosome="Unknown"
+     gene            1..1588
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 13 mRNAs, 12 Proteins"
+                     /db_xref="GeneID:101844473"
+                     /gene="Hrh2"
+     misc_feature    491..493
+                     /note="upstream in-frame stop codon"
+                     /gene="Hrh2"
+     CDS             512..1588
+                     /product="histamine H2 receptor"
+                     /codon_start="1"
+                     /db_xref="GI:524956854"
+                     /db_xref="GeneID:101844473"
+                     /translation="MEPNGTIHSCCLGSTVLKVTISLILTTLILITVAGNVVVCLAVSL
+                     NRRLRSLTNCFIVSLAATDLLLGLLVLPFSAIYQLSFRWSFGQVFCNIYTSLDVMLCTA
+                     SILNLFMISLDRYCAVTDPLRYPVLVTPVRVAISLVFIWVISITLSFLSIHLGWNSRNE
+                     TRGDNDTFKCKVQVNEVYGLVDGLVTFYLPLLIMCVTYYRIFKIAREQAKRINHISSWK
+                     AATIREHKATVTLAAVMGAFIVCWFPYFTAFVYRGLRGDDAINEAVEGIVLWLGYANSA
+                     LNPILYAALNRDFRMAYQQLFRCKLASHNSHRTSLRLNNSLLSRGQSREGRWQEEKPLK
+                     LQVWSGTETTRPQGTPDR"
+                     /gene="Hrh2"
+                     /protein_id="XP_005078390.1"
+ORIGIN
+        1 agccagtgca ggcgcgcgga cctaggcgac ccggtgctgg cagcgcacag cagcagcacc
+       61 agctcctgtg actccagaga gcgcagctaa tagtccttga ccttatacca tggatggaag
+      121 caggcactag ccatggagaa ggacatgaca gcctacgtgt atgatccctt gcacaaaccc
+      181 aacccacctc aagacacagc caccagtgcc tcgatctcca tgaggaacct agaaagtaga
+      241 cgcacactac agaccaggaa ggaacgtgac ttggaagacc agctgaggac tgcggtctga
+      301 gctgtgaaag ctctagtctt actgtattct cacatgtcct gcacttcaca aggaacagct
+      361 tgatctatta ctacaacagc attaggccag tcatcagacc ttccccaacc cccctttggc
+      421 ttggtgggag agagcctgaa gcccggtggt tggagctgga agagaagcgg ccaaggccaa
+      481 gggttgagtg tagaagctac agggccccag aatggagccc aacggcacga ttcattcttg
+      541 ctgcttaggc tctactgtac tgaaggtcac catcagtttg atcctcacca ccctcatcct
+      601 catcaccgtt gctggcaacg tggtcgtctg cctggctgtc agcttgaacc gtcggctccg
+      661 cagtctgacc aattgcttta ttgtgtcttt ggcagcgacc gacctactcc ttggcctcct
+      721 ggtgctgccc ttctctgcca tttaccagct ctccttcagg tggagctttg gccaggtctt
+      781 ctgcaacatc tacaccagcc tggatgtgat gctctgcaca gcctccatcc tcaacctctt
+      841 catgatcagc ttggaccgct actgcgcagt cacagaccca ttgaggtacc ctgtgctggt
+      901 caccccggtt cgagtggcca tttccttggt ctttatttgg gtcatttcca tcaccctgtc
+      961 tttcctgtct attcacctgg ggtggaacag cagaaacgag accagagggg acaacgacac
+     1021 cttcaagtgc aaagtgcagg ttaatgaggt ctacgggctg gtggacgggc tggtcacctt
+     1081 ctacctgcct cttctcatca tgtgtgtcac ctactaccga atctttaaga tcgccaggga
+     1141 gcaggccaag aggatcaacc acatcagctc ctggaaggca gccaccatcc gagagcacaa
+     1201 agccaccgtg acgctggctg cggtcatggg ggccttcatc gtctgctggt ttccctactt
+     1261 tactgcgttc gtctatcgtg ggctgagagg ggacgacgcc atcaacgagg cggttgaagg
+     1321 cattgtccta tggctaggct atgccaactc agccctgaac cctatcctgt acgccgccct
+     1381 caacagagac ttccgcatgg cttaccaaca gctcttccgc tgtaagcttg ccagccacaa
+     1441 ctcccacagg acgtccctga ggctgaacaa ttctctgctg tccaggggcc aaagccgaga
+     1501 aggcaggtgg caggaggaga agcccctgaa gctccaagtg tggagtggga cagaaaccac
+     1561 acgcccccaa gggaccccag acaggtaa
+//

@@ -1,0 +1,127 @@
+LOCUS       XM_003923693            2785 bp    DNA              PRI 06-SEP-2012
+DEFINITION  PREDICTED: Saimiri boliviensis boliviensis dopamine receptor D2
+            (DRD2), mRNA.
+ACCESSION   XM_003923693
+VERSION     XM_003923693.1  GI:403262764
+KEYWORDS    RefSeq.
+SOURCE      Saimiri boliviensis boliviensis (Bolivian squirrel monkey)
+  ORGANISM  Saimiri boliviensis boliviensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Saimiriinae; Saimiri.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003943612) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Saimiri boliviensis Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2785
+                     /sub_species="boliviensis"
+                     /mol_type="mRNA"
+                     /isolate="3227"
+                     /sex="female"
+                     /db_xref="taxon:39432"
+                     /organism="Saimiri boliviensis boliviensis"
+                     /chromosome="Unknown"
+     gene            1..2785
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 6 mRNAs, 31 ESTs, 13 Proteins"
+                     /db_xref="GeneID:101049546"
+                     /gene="DRD2"
+     misc_feature    176..178
+                     /note="upstream in-frame stop codon"
+                     /gene="DRD2"
+     CDS             320..1651
+                     /product="D(2) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:403262765"
+                     /db_xref="GeneID:101049546"
+                     /translation="MDPLNLSWYDDDLERQNWSRPFNGSDGKADRPHYNYYATLLTLLI
+                     IVIVFGNVLVCMAVSREKALQTTTNYLIVSLAVADLLVATLVMPWVVYLEVVGEWKFSR
+                     IHCDIFVTLDVMMCTASILNLCAISIDRYTAVAMPMLYNTRYSSKRRVTVMIAIVWVLS
+                     FTISCPLLFGLNNTDQNECIIANPAFVVYSSIVSFYVPFIVTLLVYIKIYIVLRRRRKR
+                     VNTKRSSRAFRAHLRAPLKGNCTHPEDMKLCTVIMKSNGSFPVNRRRVEAARRAQELEM
+                     EMLSSTSPPERTRYSPIPPSHHQLTLPDPSHHGLHSTTDSPAKPEKNGHARNHPRIAKF
+                     FEIQTMPNGKTRTSLKTISRRKLSQQKEKKATQMLAIVLGVFIICWLPFFITHILNIHC
+                     DCNIPPVLYSAFTWLGYVNSAVNPIIYTTFNIEFRKAFLKILHC"
+                     /gene="DRD2"
+                     /protein_id="XP_003923742.1"
+     STS             614..821
+                     /db_xref="UniSTS:266487"
+                     /standard_name="DRD2"
+                     /gene="DRD2"
+     STS             650..740
+                     /db_xref="UniSTS:262987"
+                     /standard_name="DRD2"
+                     /gene="DRD2"
+     STS             909..1081
+                     /db_xref="UniSTS:267588"
+                     /standard_name="MARC_13871-13872:1007494510:1"
+                     /gene="DRD2"
+     STS             1599..2725
+                     /db_xref="UniSTS:506860"
+                     /standard_name="Drd2"
+                     /gene="DRD2"
+     STS             2622..2740
+                     /db_xref="UniSTS:60667"
+                     /standard_name="G10651"
+                     /gene="DRD2"
+ORIGIN
+        1 ttaagaagtg tttgttgaat ggacaaatga atgatggatc agctctgttc aagctcatct
+       61 tactatactt ttaagaaaat cgtatttgct cgtttgtcct accagctgta aaaacttgct
+      121 aaccgagagt ggcagaaagc ccaacacgtt aagaaaattc ttagctgtca acttttaaat
+      181 cccgagtttg agaattttta ttattaggtg ccaggagttg gtcttctccc tggagacctc
+      241 tgcaggaggc cctcccgctg acaccctgtg tccatttttc ctggccagag cctggccacc
+      301 cagtggctcc gctgccccga tggatccact gaatctgtcc tggtacgatg acgatctgga
+      361 gaggcagaac tggagccgac ccttcaacgg gtcggatggg aaggcggaca gaccccacta
+      421 caattactac gccactctgc tcaccctgct catcatcgtc atcgtcttcg gcaacgtgct
+      481 ggtgtgcatg gccgtgtccc gcgagaaggc gctgcagacc accaccaact acctgatcgt
+      541 cagcctcgca gtggccgacc tgctcgtggc cacactggtc atgccctggg ttgtctacct
+      601 ggaggtggtg ggcgagtgga aattcagcag gattcactgt gacatcttcg tcactctgga
+      661 cgtcatgatg tgcacggcga gcatcctgaa cttgtgtgcc atcagcatcg acaggtacac
+      721 agctgtggcc atgcccatgc tgtacaatac gcgctacagc tccaagcgcc gggtcaccgt
+      781 catgatcgcc atcgtctggg tcctgtcctt caccatctcc tgcccgctcc tcttcggact
+      841 caataacaca gaccagaatg agtgcatcat cgccaacccg gccttcgtgg tctactcctc
+      901 tatcgtctcc ttctacgtgc ccttcatcgt caccctgctg gtctacatca agatctacat
+      961 tgtcctccgc agacgccgca agcgagtcaa caccaagcgc agcagccgag ctttcagggc
+     1021 ccacctgagg gccccactaa agggcaactg cactcacccc gaggacatga aactctgcac
+     1081 cgttatcatg aagtctaatg ggagtttccc agtgaacagg cggagagtgg aggctgcccg
+     1141 gcgagcccag gagctggaga tggagatgct ctctagcacc agcccacccg agaggacccg
+     1201 gtacagcccc atcccgccca gccaccacca gctgactctc cccgacccgt cccaccacgg
+     1261 tctccacagc actactgaca gccccgccaa accagagaag aacgggcatg ccagaaacca
+     1321 ccccaggatt gccaagttct ttgagatcca gaccatgccc aatggcaaaa cccggacctc
+     1381 cctcaagacc ataagccgta ggaagctctc ccagcagaag gagaagaaag ccactcagat
+     1441 gctcgccatc gttcttggcg tgttcatcat ctgctggctg cccttcttca tcacacacat
+     1501 cctgaacata cactgtgact gcaacatccc gcctgtcctg tacagcgcct tcacgtggct
+     1561 gggctacgtc aacagcgccg tgaaccccat catctacacc accttcaaca ttgagttccg
+     1621 caaggccttc ctgaagatcc tccactgctg actctgctgc ctacccgcac agcagcctgc
+     1681 ttcccgcctc cctgcccagg ccggccggcc tcacccctgt gaaccgcggg caggaaggcc
+     1741 caggtggatc agcctcctct tcactttggc aggtcctgca gtgttcgctt ggctccgtgc
+     1801 ccctcactgc ccgcacaccc tcactctgcc agggcagtgc tagtgagctg ggcatggtac
+     1861 cagccctggg gctggacccc ccagctcagg ggcagctcac agagtccccc ctctcacctc
+     1921 caggccccta tccttggcac caaagatgta gccgccttcc ttgaccttcc tctggggctc
+     1981 tggggttgct ggggccagag tcagggccca gaggctgagt tttctctgtt tgtggggctt
+     2041 gacctggagc aggcggtggg gagagatgga cagttcacac cctgcaaggc ccacaggagg
+     2101 gaagcaagct ctcttgccga ggagccaggc tgcttcagtc ctgggagacc tgtgtaaata
+     2161 ccagactgca ggatggtccc cagagattcc caagccaaaa tcctcagctc cctcttgcac
+     2221 cctgatgggg acctctactt cccaggtggg tcctgacccg cctcaccctg tgatagctcc
+     2281 ccaagtggtt tccacctgct ctgagaagag gaaccctcat cttgaagggc ccaggagggt
+     2341 ctgtggggag aggaactcct tgccctagcc caccctgcca ccttcggacg gccctgtgat
+     2401 gcatttcttc tcacagcaca tgctggccag cctggggtct ggcggggaga tcagaccttg
+     2461 gaactctatc tgggcctggc ctggaagata tcaaaggttc tttgaggggc tgcctccgcc
+     2521 acagtctgat gcaaaaccac tttccttttc attccttctg gccttttctc tctcctgttt
+     2581 cccttccctt ccactgcctc tgccttagag gagcccatgg ctaagaggct gctgaaaacc
+     2641 atttggcctt gcctggccct gccctgaggg aggaggggaa gccacagctt gggagagccc
+     2701 ctgggcccca gactctgtaa catcactatc catgcaccaa actaataaaa ctttgacaag
+     2761 agtcaccttc caggaccccc gggta
+//

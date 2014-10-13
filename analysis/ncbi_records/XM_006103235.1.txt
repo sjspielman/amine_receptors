@@ -1,0 +1,97 @@
+LOCUS       XM_006103235            1945 bp    DNA              MAM 15-NOV-2013
+DEFINITION  PREDICTED: Myotis lucifugus cholinergic receptor, muscarinic 3
+            (CHRM3), mRNA.
+ACCESSION   XM_006103235
+VERSION     XM_006103235.1  GI:558190426
+DBLINK      BioProject: PRJNA208947
+KEYWORDS    RefSeq.
+SOURCE      Myotis lucifugus (little brown bat)
+  ORGANISM  Myotis lucifugus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Microchiroptera;
+            Vespertilionidae; Myotis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005871521.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Myotis lucifugus Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1945
+                     /mol_type="mRNA"
+                     /country="USA: Framingham, MA"
+                     /sex="female"
+                     /db_xref="taxon:59463"
+                     /organism="Myotis lucifugus"
+                     /chromosome="Unknown"
+     gene            1..1945
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 26 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 8 samples with support for all annotated introns"
+                     /db_xref="GeneID:102431423"
+                     /gene="CHRM3"
+     CDS             139..1911
+                     /product="muscarinic acetylcholine receptor M3"
+                     /codon_start="1"
+                     /db_xref="GI:558190427"
+                     /db_xref="GeneID:102431423"
+                     /translation="MNLHNNNTTLPLLPNLSSLWVPGSPGAGLPPGAGTDSGSYNVSQA
+                     AGNASPANGTISDPLGGHTVWQVVLIAVLTGVVALLTIIGNILVIVAFKVNKQLKTVNN
+                     YFLLSLACADLIIGVISMNMFTAYIIMNRWAMGNLACDLWLSIDYVASNASVMNLLVIS
+                     FDRYFSITRPLTYRAKRTTKRAGMMIGLAWVISFVLWAPAILFWQYFVGKRTVPPGECY
+                     IQFLSEPTITFGTAIAAFYLPVTIMTILYWRIYKETEKRTKELAGLQASGTEAEAENFV
+                     PTTGSSRSCSSYELQQQSVARSARRRCGCCDFWFPTKTWTPSAQRVEQDHSSSDSWNNN
+                     DAAASLENSVSSDEEDIGSETRAIYSIVLKLPGHSTLLNSTGPPSPDSLRVPDQELGTA
+                     GVERKASKLQAQRSVDDGGRFQKSFSKLPVELESAVDPAKTPNANSSLGRSTATLPLSS
+                     KEATLAKRFALKTRSQITKRKRMSLIKEKKAAQTLSAILLAFIITWTPYNIMVLVNTFC
+                     GSCVPKNYWNLGYWLCYINSTVNPVCYALCNKTFRTTFKTLLLCQCDKRRRRRQQYQQR
+                     QSVTFHRCVPAQDV"
+                     /gene="CHRM3"
+                     /protein_id="XP_006103297.1"
+ORIGIN
+        1 tccgaagcct cgcccagagc cgccgtttct gctcttcctg gctggctgga cgatgcggcg
+       61 acgccttccc ctgcttgatc acagctccgc gctcggctcc tgctgcaggg aagcccaaga
+      121 ctatgtccga gagtcacaat gaacttgcat aataacaata caacgttgcc gttgttgcca
+      181 aacctcagct ccctctgggt acctggttcc ccaggtgcag ggctgccccc gggcgcgggc
+      241 actgattctg gcagctacaa cgtttctcag gcagctggga atgccagtcc tgccaatggc
+      301 accatcagcg accctctggg aggccacacc gtctggcagg tggtcttgat tgccgtcctc
+      361 acgggggtcg tggccctgct gaccatcatt ggcaacatcc tggtgatcgt ggcgttcaag
+      421 gtcaacaagc agctgaagac ggtcaacaac tacttcctct taagcctggc ctgcgccgat
+      481 ctgatcatcg gggtcatttc catgaacatg tttacggcct acatcatcat gaatcgctgg
+      541 gctatgggga acttggcctg cgacctctgg ctttccatcg actatgtggc cagcaacgcc
+      601 tccgtcatga acctgctggt gattagcttt gaccggtact tctccatcac caggccgctc
+      661 acctaccgag ccaaaaggac cacgaaaaga gccggcatga tgataggcct ggcctgggtc
+      721 atctccttcg tcctctgggc gcccgccatc ctgttctggc agtacttcgt gggcaagaga
+      781 accgtgcccc cgggggagtg ttacatccag ttcctcagcg agcccaccat taccttcggc
+      841 acggccatcg ccgccttcta tttgcccgtc accatcatga cgatcttata ctggaggatc
+      901 tataaggaaa cggaaaagcg gaccaaagag ctggccgggc tgcaggcctc cgggacggaa
+      961 gcagaggcgg aaaactttgt cccgaccacg ggcagctccc ggagctgcag cagctacgag
+     1021 ctgcagcagc agagcgtggc gcgctcggcc cgccggcggt gcggctgctg cgacttctgg
+     1081 ttccccacca agacctggac gcccagcgcc cagcgcgtgg agcaggacca cagcagcagc
+     1141 gacagctgga acaacaacga cgcggcggcc tccctggaaa actccgtgtc ctccgacgag
+     1201 gaggacatcg gctcggagac cagagccatc tactccattg tgctcaagct gcccgggcac
+     1261 agcaccctcc tcaactccac cgggccaccg tccccagaca gcctgcgggt gcccgaccag
+     1321 gagctgggca cggcgggcgt ggagcggaaa gccagcaagc tgcaggccca gaggagcgtg
+     1381 gacgacggag gccgcttcca aaagagcttc tccaagctcc ccgtcgagtt agagtcggcc
+     1441 gtggacccgg ccaagacgcc caacgccaac tcctccctgg ggaggtccac ggccacgcta
+     1501 cctctgtcct ccaaggaggc cactctggcc aagaggtttg ccctgaagac ccggagccag
+     1561 atcacgaagc ggaagcggat gtcgctcatc aaggagaaga aagccgccca gaccctcagc
+     1621 gccatcctgc tggccttcat catcacctgg acgccctaca acatcatggt cctggtgaac
+     1681 accttctgcg gcagctgcgt ccccaaaaac tactggaacc tgggctactg gctgtgctac
+     1741 atcaacagca cggtgaaccc cgtgtgctac gccctgtgca acaagacctt ccgcaccacc
+     1801 ttcaagacgc tgctgctctg ccagtgcgac aagcggcggc ggcgcaggca gcagtaccag
+     1861 cagcggcagt ccgtgacctt ccacaggtgt gtgcccgcgc aggacgtgta gagtgagttt
+     1921 ggtcaatggc catgaccttc tatag
+//

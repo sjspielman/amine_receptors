@@ -1,0 +1,62 @@
+LOCUS       XP_004383485             434 aa                     MAM 27-MAR-2013
+DEFINITION  PREDICTED: beta-3 adrenergic receptor [Trichechus manatus
+            latirostris].
+ACCESSION   XP_004383485
+VERSION     XP_004383485.1  GI:471401783
+DBLINK      BioProject: PRJNA189960
+KEYWORDS    RefSeq.
+SOURCE      Trichechus manatus latirostris (Florida manatee)
+  ORGANISM  Trichechus manatus latirostris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Afrotheria; Sirenia; Trichechidae; Trichechus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004444045.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Trichechus manatus latirostris Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..434
+                     /sub_species="latirostris"
+                     /isolate="Lorelei"
+                     /sex="female"
+                     /db_xref="taxon:127582"
+                     /organism="Trichechus manatus latirostris"
+                     /chromosome="Unknown"
+     Protein         1..434
+                     /product="beta-3 adrenergic receptor"
+                     /calculated_mol_wt="46094"
+     Region          54..>145
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          60..347
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..434
+                     /coded_by="XM_004383428.1:112..1416"
+                     /gene="ADRB3"
+                     /db_xref="GeneID:101347777"
+ORIGIN
+        1 malwphgnss lgswpdaptl apnaantsgl pgvpwaaala gallalavla tvggnllviv
+       61 aiartprlqt itnvfvtsla aadlvvgllv vppgatvalt dhwplgatgc elwtsvdvlc
+      121 vtasietlca lavdrylavt nplrygalvt krraraavvl vwvvstavsf apimsqwwrv
+      181 gadaeaqlch snprccafas nmpyallssl vsfylpllvm lfvyarvfiv atrqlrllrg
+      241 elgrfppeds pqallrflpp tpagpcaspa gvpsscgrrp arllhvrehr alrtlglimg
+      301 tftlcwlpff vanvvravgs pslvpspafl alnwlgyans afnpliycrs pdfrrafrrl
+      361 lcgcgscrpv kprataslar dssgvpaalt slaesrqgpp ldraswrsfl glkgqetstp
+      421 liqtlwkasg lcse
+//

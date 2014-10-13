@@ -1,0 +1,96 @@
+LOCUS       XM_005053679            1801 bp    DNA              VRT 17-JUL-2013
+DEFINITION  PREDICTED: Ficedula albicollis 5-hydroxytryptamine (serotonin)
+            receptor 4, G protein-coupled (HTR4), transcript variant X2, mRNA.
+ACCESSION   XM_005053679
+VERSION     XM_005053679.1  GI:525012251
+DBLINK      BioProject: PRJNA208061
+KEYWORDS    RefSeq.
+SOURCE      Ficedula albicollis (collared flycatcher)
+  ORGANISM  Ficedula albicollis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Muscicapidae; Ficedula.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004775704.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Ficedula albicollis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1801
+                     /mol_type="mRNA"
+                     /collection_date="2009"
+                     /country="Sweden: Oland"
+                     /isolate="OC2"
+                     /sex="male"
+                     /db_xref="taxon:59894"
+                     /organism="Ficedula albicollis"
+                     /chromosome="13"
+     gene            1..1801
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 Proteins, and 46% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101812975"
+                     /gene="HTR4"
+     misc_feature    197..199
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR4"
+     CDS             230..1408
+                     /product="5-hydroxytryptamine receptor 4 isoform X2"
+                     /codon_start="1"
+                     /db_xref="GI:525012252"
+                     /db_xref="GeneID:101812975"
+                     /translation="MEELDVNVSSSEGFGVAGKILLLSFISAVILMAILGNLLVMVAVC
+                     RDRQLRKIKTNYFIVSLAFADLLVSVLVMPFGAIELVQDNWVYGEMFCLVRTSLDVLLT
+                     TASILHLCCISLDRYYAICCQPLVYRNKMTPLRIAVMLGGCWVIPTFISFLPIMQGWNS
+                     IGIIDLIQQRQFNKASNSTYCIFMVNKPYAITCSVVAFYIPFLLMVLAYHRIYVTARAH
+                     ARQIRLLQRAGNPQEPRPQEPRQNFQDQHSSHRMKTETKAAKTLCIIMGCFCLCWAPFF
+                     VTNIVDPFINYTVPGKLWTAFLWLGYINSGLNPFLYAFLNKAFRRAFLIILCCGDERYR
+                     RPSVLGQSVPCSTTTINGSTHVLRYKVLHNGHHQEQEKLPIHADPESQESCF"
+                     /gene="HTR4"
+                     /protein_id="XP_005053736.1"
+ORIGIN
+        1 gctggaacgc tgcctggtgg aaaaagacct ggaagtgctg ctctaaagca gctgaacgtg
+       61 acctggtggg tgcccaaaaa accaagggca cctggcttgg atcctccagt ggggtaaatc
+      121 tgcatttctg ggagatcctg gagctaatcc ctgcatttct ctctccactg caggatgagg
+      181 tctgttctat ggacattgaa cccccagctc cctgtgcctg ttgcctgtga tggaagaact
+      241 tgatgtgaat gtgagttcca gcgagggctt cggcgtggcg gggaagatcc tgctgctctc
+      301 cttcatctcc gccgtcatcc tcatggccat cctgggcaac ctgctggtca tggtggccgt
+      361 gtgcagggac aggcagctca ggaaaatcaa gaccaactat ttcattgttt ccctggcctt
+      421 tgctgacctg ctggtgtcgg tgctggtgat gccctttgga gccatcgagc tggtccagga
+      481 caattgggtc tacggggaga tgttctgcct ggtgaggaca tccctggacg tgctgctcac
+      541 cacagcctcc atcctgcacc tctgctgcat ctccctggac aggtactatg ccatctgctg
+      601 ccagcccctg gtgtaccgga acaagatgac cccgctgcgc atcgctgtga tgctgggagg
+      661 ctgctgggtc atccccacct ttatttcttt cctccctatc atgcaaggct ggaacagcat
+      721 tggcatcatt gatctgatcc agcaaagaca attcaacaaa gcctccaact ccacctactg
+      781 catcttcatg gtgaacaaac cctacgccat cacctgctcc gtggtggctt tttacatccc
+      841 cttcctgctg atggtgctgg cctaccaccg catctacgtg acggcgcggg cacacgcgcg
+      901 gcagatccgg ctgctgcagc gggcagggaa cccccaggag ccacgcccac aggagccacg
+      961 gcagaatttc caggaccagc acagctccca ccgcatgaaa accgagacca aagctgccaa
+     1021 gaccctgtgc atcatcatgg gctgcttctg cctctgctgg gccccgttct tcgtcaccaa
+     1081 catcgtggat cccttcataa actacacggt gcccggcaag ctgtggacgg ccttcctgtg
+     1141 gctgggctac atcaactcgg gcctgaaccc tttcctctac gccttcctca acaaggcttt
+     1201 cagacgtgcc ttcctcatca tcctctgctg cggcgacgag cgctaccgcc ggccctccgt
+     1261 gctgggccag agcgtgccct gctccaccac caccatcaat ggctccacgc acgtgctgag
+     1321 gtacaaggtt ttacacaatg ggcaccacca ggaacaagag aagcttccca tccacgctga
+     1381 ccccgaatcc caagagtcct gtttctagtc ctgggccagc agaggaagag cagatccctc
+     1441 caggatatcc caaggactcg aacattcctc cacctgcact gtcgtggtgc ctcctgcagc
+     1501 gaattcccag caatgtgcag cggtgggagc tggggagggt cagcactgct gtccctgtcc
+     1561 ctgtccctgt ccctgtccct gcaggggcag ctggagcaca gctgtgccaa gccctgctcc
+     1621 aggagcacag gcaggacaca aaacagctcc aaaccagccg tgcaggggct cctgctgctc
+     1681 ctttcctgct gctccttcat tgccagctct gctccccctg tcccggaggt ctcaggccgt
+     1741 gcctgggtgg ctctgagctg ctccatccct gctgctcctg ccaggggagg agcagcaccg
+     1801 g
+//

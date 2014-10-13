@@ -1,0 +1,96 @@
+LOCUS       XM_005376583            1793 bp    DNA              ROD 27-AUG-2013
+DEFINITION  PREDICTED: Chinchilla lanigera adrenoceptor alpha 1B (Adra1b), mRNA.
+ACCESSION   XM_005376583
+VERSION     XM_005376583.1  GI:533122616
+DBLINK      BioProject: PRJNA210822
+KEYWORDS    RefSeq.
+SOURCE      Chinchilla lanigera (long-tailed chinchilla)
+  ORGANISM  Chinchilla lanigera
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Chinchillidae; Chinchilla.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004955408.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Chinchilla lanigera Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1793
+                     /mol_type="mRNA"
+                     /isolate="Chin_1"
+                     /sex="female"
+                     /db_xref="taxon:34839"
+                     /organism="Chinchilla lanigera"
+                     /chromosome="Unknown"
+     gene            1..1793
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 27 Proteins, and 81%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:102020769"
+                     /gene="Adra1b"
+     CDS             330..1793
+                     /product="alpha-1B adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:533122617"
+                     /db_xref="GeneID:102020769"
+                     /translation="MNPDLDAGHNTSAPAHWGELKDANFSGPNQTSSNSTLPQLDITRA
+                     ISVGLVLGAFILFAIVGNILVILSVACNRHLRTPTNYFIVNLAIADLLLSFTVLPFSAA
+                     LEVLGYWVLGRIFCDIWAAVDVLCCTASILSLCAISIDRYIGVRYSLQYPTLVTRRKAI
+                     LALLSVWVLSTVISIGPLLGWKEPAPNDDKECGVTEEPFYALFSSLGSFYIPLAVILVM
+                     YCRVYIVAKRTTKNLEAGVMKEMSNSKELTLRIHSKNFHEDTLSSTKAKGHNPRSSIAV
+                     KLFKFSREKKAAKTLGIVVGMFILCWLPFFIALPLGSLFSTLKPPDAVFKVVFWLGYFN
+                     SCLNPIIYPCSSKEFKRAFVRILGCQCRGHRRRRRRRRLGGCLYISAVRLLCFLLWPGA
+                     PVPSPWVRRSLQRLQLLATKAAKPTARGCSSPRRPSLVSSVRVAWVAVPYLKHCSDQGG
+                     STPRCPKQVPKAGRAARTADGSATCCPAD"
+                     /gene="Adra1b"
+                     /protein_id="XP_005376640.1"
+     STS             380..1135
+                     /db_xref="UniSTS:271116"
+                     /standard_name="PMC150908P1"
+                     /gene="Adra1b"
+ORIGIN
+        1 ccggctccgc cgcgccccct gcccgcccgc ggctccctgc gctcccctgc gagcccggcc
+       61 cggccggcgc gcctgacgtg gaccattaaa cttggagctg ccgcctcgtc ccctctctcc
+      121 tcctccctct gacaggcaag gagcggctcg gtgcgggcag gcgacgtgct gctgccgggc
+      181 tgggctgccc gggggagatg attcctggcc gggagggcgc ctctgggaag aagaccgcgg
+      241 gggaagcaaa gtttcggggc agctgaagag ccctgcctgc agcccttgga gccccatcac
+      301 ctccctggct atggagggcg gactctaaaa tgaatcccga tctggacgcc ggccacaaca
+      361 catcagcacc tgcccactgg ggagagttga aagatgccaa cttcagtggc cccaaccaga
+      421 cctcgagcaa ctccacactg ccccagctgg acatcaccag ggccatctct gtgggcctgg
+      481 tgctgggcgc cttcatcctg tttgccatcg tgggcaacat cctagtcatc ttgtccgtgg
+      541 cctgcaaccg gcacctgcgg acgcccacca actacttcat tgtcaacctg gccatcgccg
+      601 acctgctgct gagtttcact gtcctgccct tctccgcggc cctggaggtg ctaggctact
+      661 gggtgctggg acggatcttc tgtgacatct gggcagctgt agacgtcctg tgctgcacag
+      721 cctccattct gagcctgtgc gccatctcca tcgaccgcta cattggggtg cgctactctc
+      781 tgcagtaccc cacgctggtc acccggagga aggccatctt ggcgctcctc agcgtctggg
+      841 tgctgtccac ggtgatctcc atcgggcctc tccttggctg gaaggagccg gcgcccaatg
+      901 atgacaaaga atgcggggtc accgaagaac ccttctacgc cctcttctcc tccctgggct
+      961 ccttctacat ccctctggcg gtcattctgg tcatgtactg ccgcgtctac atcgtggcca
+     1021 agaggaccac gaagaacctg gaggcgggcg tcatgaagga gatgtctaac tccaaggagc
+     1081 tgaccctgag gatccactcc aagaactttc acgaggacac gctcagcagt accaaggcca
+     1141 agggccacaa ccccaggagc tccatagctg tcaaactttt taaattctcc agggaaaaga
+     1201 aagctgccaa gaccttgggc attgtggtcg gtatgttcat cttgtgctgg cttcccttct
+     1261 tcatcgctct cccacttggc tccttgttct ccaccctgaa gcccccggac gccgtgttca
+     1321 aggtggtgtt ctggctgggc tacttcaaca gctgcctcaa ccccatcatc tacccgtgct
+     1381 ccagcaagga gttcaagcgc gccttcgtgc gcatcctcgg gtgccagtgc cgcggccacc
+     1441 gccgccgccg ccgccgtcgc cgcctgggcg gctgtttata tatatctgcc gttcggctgc
+     1501 tgtgttttct gctatggcca ggagccccgg tcccctcccc gtgggtgcgc cggtctctgc
+     1561 agcgtctcca gctgctcgcg acaaaggcgg cgaagcctac cgcccggggc tgctcctcgc
+     1621 ctcggaggcc ctcgcttgtt tcctcggtac gcgtggcctg ggtagcagta ccgtacttga
+     1681 aacactgtag cgaccaaggc ggctccacgc cccgctgccc taagcaggtg cctaaagccg
+     1741 gacgggctgc ccgtacggcg gacgggagtg ccacctgctg tccagccgac taa
+//

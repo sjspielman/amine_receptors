@@ -1,0 +1,101 @@
+LOCUS       XM_006014314            2221 bp    DNA              VRT 05-NOV-2013
+DEFINITION  PREDICTED: Latimeria chalumnae histamine H1 receptor-like
+            (LOC102349900), mRNA.
+ACCESSION   XM_006014314
+VERSION     XM_006014314.1  GI:557028719
+DBLINK      BioProject: PRJNA219830
+KEYWORDS    RefSeq.
+SOURCE      Latimeria chalumnae (coelacanth)
+  ORGANISM  Latimeria chalumnae
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Coelacanthiformes; Coelacanthidae; Latimeria.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005827518.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Latimeria chalumnae Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2221
+                     /mol_type="mRNA"
+                     /country="South Africa"
+                     /isolate="SAIAB 97564"
+                     /note="Wild Caught"
+                     /db_xref="taxon:7897"
+                     /tissue_type="blood"
+                     /organism="Latimeria chalumnae"
+                     /chromosome="Unknown"
+     gene            1..2221
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 18 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:102349900"
+                     /gene="LOC102349900"
+     CDS             24..1637
+                     /product="histamine H1 receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:557028720"
+                     /db_xref="GeneID:102349900"
+                     /translation="MPLMGCENTSTVTDLPNSGVAVCVGAMALLTVIMNILVLWAIRIE
+                     RALHTVGNLYIVSLSVADLIVGAIVMPLSIKDWYGFILAEKGLCQFWLITDYVASTASI
+                     FSLFILCVDRYRSVTQPLIYMKYRTKTRASLMICGSWMLSLAWMIPILAWDSKTMKDDC
+                     NQTKIKCNTGFHDCAPFKISAAVINFFIPSLIMLLFYIKIFLTVRKHCQKRRSFHCSPN
+                     YPQTKDGSASFQKCKTHPNREKYTIAPDSKKKKSVELDLYTLQSQSCTSLNDEDAKPAL
+                     QGIIEERHMKNSREANIFTPPFKEPKRSPQPECTGIFHHLQGLNVQHTPNENVDFLREK
+                     QSLPDDGLDKQPDNADGSDDDDYSNNDNTRNMPVTKEDCNMRVKDSLSTVQNAHASGTE
+                     ASDSIAYQNASSHNSRYELARPTADAVDNTGNNPLKRLWSQVRSYSKTRAQTSYLRKEI
+                     KAAKQLGCIMAAFMLCWIPYFVLFGIPDSTVPEMVKTLTIWLGYLNSTLNPFIYALCNE
+                     NFRKTFKRIFSKSYFLSCWS"
+                     /gene="LOC102349900"
+                     /protein_id="XP_006014376.1"
+ORIGIN
+        1 ccatccaatg actgccttac agaatgcctc tcatgggttg tgaaaacact tccaccgtga
+       61 ctgatttacc taattctggt gttgccgtct gtgtgggagc catggctcta ctgactgtca
+      121 taatgaatat cttggtctta tgggcaatca ggatagaacg agctttacac actgttggaa
+      181 acttatacat agttagtcta tcagttgcag atctcatagt tggtgcaata gtcatgccac
+      241 taagcattaa ggattggtat ggttttattc tagcagagaa aggtctctgc cagttttggc
+      301 ttataacaga ttatgtggct agcacagctt ctattttcag cctgttcata ttatgtgtgg
+      361 atcgttaccg ttcagtaaca caaccactta tttacatgaa atatcggact aaaactagag
+      421 cttcattgat gatatgtgga tcctggatgt tatccttggc atggatgata ccaatattgg
+      481 cttgggattc taaaaccatg aaagatgact gcaatcaaac aaaaataaag tgcaatacag
+      541 gctttcacga ctgtgcccct tttaaaattt cagctgctgt gatcaatttc tttattccat
+      601 ctttaataat gcttttattt tatataaaaa tattcttgac tgtaagaaaa cattgtcaaa
+      661 aaagaagaag cttccattgc tcgcctaact acccccaaac aaaggacggg tctgcttctt
+      721 tccaaaagtg caagacacat cccaacaggg aaaagtacac tatcgctcca gactctaaaa
+      781 aaaagaaatc tgtagagttg gacttgtaca ctttgcaaag ccagagctgt actagcctga
+      841 atgatgagga tgcgaaacct gctttgcaag ggattattga ggaaagacac atgaaaaaca
+      901 gtcgtgaggc taacattttt actccaccat ttaaagaacc aaaaagatct ccacagccag
+      961 aatgcactgg catattccat catttgcaag gtctgaacgt tcaacataca ccaaatgaaa
+     1021 atgttgattt cttaagagaa aagcaatctc tgccagatga tggtttagat aagcaaccag
+     1081 ataatgctga tgggagtgat gatgatgatt acagcaacaa cgataatacc agaaacatgc
+     1141 ctgtaacgaa agaggactgc aacatgagag taaaagactc tctttccaca gtgcagaatg
+     1201 cacatgcctc tggaactgaa gcttctgata gtattgcata ccaaaatgct tccagccaca
+     1261 actctagata tgaattggct agaccaacag cagatgcagt agacaacaca ggcaacaacc
+     1321 cactaaagcg gctttggtcc caggttcgtt cttattccaa gaccagagca caaacgtctt
+     1381 atttgcgcaa agaaataaaa gcagccaaac agctgggctg cataatggca gcttttatgc
+     1441 tgtgctggat tccatacttt gtgctatttg gtattcctga ctctactgtt cctgagatgg
+     1501 ttaaaacgct cacaatttgg ctaggctact taaactcaac cttaaatccg ttcatttatg
+     1561 cactgtgcaa tgaaaacttc aggaagactt tcaaacggat ttttagtaaa tcatatttct
+     1621 tgtcgtgttg gtcatgatac aaggaggaca atataattcc ttctaatgga ccaatatacg
+     1681 tttagaaata cataatattt tgagatcaca tagaattctt cttcaggtgg taaggaagca
+     1741 aatgaacatt taaaaaaaaa tcccattcat tcttgactct taatttctga aaaaaatata
+     1801 ttcctgccac agtatatatt gctagctata tacacgtagc tcatactttt ggaaatgtat
+     1861 cctctggttt ttaatattac atgaacatta ataactacag gacaaagaat gctttaacag
+     1921 cccaacacat ttgctacaaa acttttatta ggaaagtata agtctagaca atttatttca
+     1981 agaaatgaaa tagttcattg ttttgtttac acattttaaa ctagttatca tacaccatac
+     2041 actttgttgt tgtaatgtga caaaaatttg cccctgtgag ttgtgatatt ttggacccag
+     2101 tttatcaata gagtaacagt ttgcaaatcc cctattttaa gaagtaaaag cttgtagagg
+     2161 gtagcccatc agctccccgc tgttctgagt tgtcagacac cggacagtcc catttcacta
+     2221 g
+//

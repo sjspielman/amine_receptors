@@ -1,0 +1,96 @@
+LOCUS       XM_004428857            1443 bp    DNA              MAM 11-APR-2013
+DEFINITION  PREDICTED: Ceratotherium simum simum adrenoceptor beta 3 (ADRB3),
+            mRNA.
+ACCESSION   XM_004428857
+VERSION     XM_004428857.1  GI:478509271
+DBLINK      BioProject: PRJNA191537
+KEYWORDS    RefSeq.
+SOURCE      Ceratotherium simum simum (southern white rhinoceros)
+  ORGANISM  Ceratotherium simum simum
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Perissodactyla; Rhinocerotidae;
+            Ceratotherium.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004454182.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ceratotherium simum simum Annotation Release
+            100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1443
+                     /sub_species="simum"
+                     /mol_type="mRNA"
+                     /country="USA: San Diego Zoo, California"
+                     /isolate="SDZICR_KB13650"
+                     /sex="female"
+                     /db_xref="taxon:73337"
+                     /organism="Ceratotherium simum simum"
+                     /chromosome="Unknown"
+     gene            1..1443
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 12 mRNAs, 42 Proteins"
+                     /db_xref="GeneID:101389882"
+                     /gene="ADRB3"
+     misc_feature    142..144
+                     /note="upstream in-frame stop codon"
+                     /gene="ADRB3"
+     CDS             205..1422
+                     /product="beta-3 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:478509272"
+                     /db_xref="GeneID:101389882"
+                     /translation="MTPWPQGNSSLASWPGTPTLAPNTANTSGLPGMPWAAALAGALLV
+                     LATVGGNLLVIVAIARTPRLQTMTNVFVTSLAAADLVVGLLVVPPGATLALTGHWPLGA
+                     TGCELWTSVDVLCVTASIETLCALAVDRYLAVTNPLRYGSLVTKRRARAAVVLVWVVSA
+                     AVSFAPIMSKWWRVGADAEAQRCHSNPSCCAFASNIPYALLSSSVSFYLPLLVMLFVYA
+                     RVFVVATRQLCLLRRELGRFPPEESPPARSRSLSSAPAGPSAAPAGVPSYGRRPARLLP
+                     LREHRALRTLGLIVGTFTLCWLPFFVANVVRALGGPSLVPNPAFLALNWLGYANSAFNP
+                     LIYCRSPDFRSAFRRLLCRCGRCWPEEHLAAASRPHDPSGAPAALTSPAESRQCPPLDG
+                     ASWGIS"
+                     /gene="ADRB3"
+                     /protein_id="XP_004428914.1"
+     STS             356..719
+                     /db_xref="UniSTS:506234"
+                     /standard_name="ADRB3"
+                     /gene="ADRB3"
+     STS             541..1113
+                     /db_xref="UniSTS:528345"
+                     /standard_name="MARC_68773-68774:1209743884:2"
+                     /gene="ADRB3"
+ORIGIN
+        1 cactcccccc caccccccac cccgaagcgg tggcacccag gggatggggg ggaggcttag
+       61 cgttctcacc cgccggtcgg tcaactaggg aagatggccc aggctgaggg aatcgctccc
+      121 ccgccccact acctcctccc ctgagccggg ggaactggga gacccctttc cctctttctc
+      181 cccagcccca cgcgcgacgc gggaatgact ccgtggcctc aggggaacag ctctctggcc
+      241 tcgtggccgg ggacccccac cctggcgccc aatactgcca acaccagtgg gctgccaggg
+      301 atgccgtggg cggcggcact ggcgggggcg ctgttggtgc tggccactgt gggaggcaac
+      361 ctgctggtaa tcgtggccat cgcccggacg ccgagactcc agaccatgac caacgtgttt
+      421 gtgacttcgc tggccgcggc cgacctggtg gtgggactcc tggtagtgcc tccgggggcc
+      481 accttggcgc tgactggcca ctggcccctg ggcgccactg gttgcgagct gtggacttcg
+      541 gtggacgtgc tgtgcgtgac ggccagcatc gaaaccctgt gcgccctggc cgtggaccgc
+      601 tacctggccg tgaccaaccc gctgcgctac ggctcactgg tcaccaaacg ccgcgcccgg
+      661 gcagccgtgg tcctggtgtg ggtcgtgtcc gccgcggtgt cgtttgcgcc catcatgagc
+      721 aagtggtggc gcgtgggggc cgacgccgag gcgcagcgtt gccactccaa tccgagctgc
+      781 tgcgccttcg cctccaacat cccctacgcg ctgctctcct cctccgtctc cttctacctt
+      841 ccgcttcttg tgatgctctt cgtctacgct cgagttttcg tcgtggctac gcgccagcta
+      901 tgcttgctgc gccgggagct gggccgcttc ccgccggagg agtctccgcc ggctcggtct
+      961 cgctctctgt cctccgcccc agcggggccg agcgctgcgc ccgccggggt gccctcctac
+     1021 ggccggcggc ccgcgcgcct tctgcctctc cgggaacacc gggccctgcg caccttgggt
+     1081 ctcatcgtgg gcaccttcac tctctgctgg ttgcccttct ttgtggccaa cgtggtgcgc
+     1141 gccctcgggg gcccctccct agttcccaac ccggccttcc tcgcccttaa ctggctgggc
+     1201 tatgccaact ctgccttcaa cccgctcatc tattgccgca gcccggactt tcgcagcgcc
+     1261 ttccgccgcc tgctgtgccg ctgcggccgc tgctggcccg aggagcacct cgccgccgcc
+     1321 tcccggcccc acgacccctc tggcgcccct gcggccctga ccagccccgc ggagtccagg
+     1381 cagtgcccac cgcttgacgg agcttcctgg ggaatttctt aggccttgaa ggacaagaaa
+     1441 caa
+//

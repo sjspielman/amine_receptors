@@ -1,0 +1,87 @@
+LOCUS       XM_004382399            1401 bp    DNA              MAM 27-MAR-2013
+DEFINITION  PREDICTED: Trichechus manatus latirostris cholinergic receptor,
+            muscarinic 2 (CHRM2), mRNA.
+ACCESSION   XM_004382399
+VERSION     XM_004382399.1  GI:471398477
+DBLINK      BioProject: PRJNA189960
+KEYWORDS    RefSeq.
+SOURCE      Trichechus manatus latirostris (Florida manatee)
+  ORGANISM  Trichechus manatus latirostris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Afrotheria; Sirenia; Trichechidae; Trichechus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004444029.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Trichechus manatus latirostris Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1401
+                     /sub_species="latirostris"
+                     /mol_type="mRNA"
+                     /isolate="Lorelei"
+                     /sex="female"
+                     /db_xref="taxon:127582"
+                     /organism="Trichechus manatus latirostris"
+                     /chromosome="Unknown"
+     gene            1..1401
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 mRNAs, 23 Proteins"
+                     /db_xref="GeneID:101349646"
+                     /gene="CHRM2"
+     CDS             1..1401
+                     /product="muscarinic acetylcholine receptor M2"
+                     /codon_start="1"
+                     /db_xref="GI:471398478"
+                     /db_xref="GeneID:101349646"
+                     /translation="MNNSTNSSNDGLALTSPYKTFEVVFIVLVAGSLSLVTIIGNILVM
+                     VSIKVNRHLQTVNNYFLFSLACADLIIGVFSMNLYTLYTVIGYWPLGPVVCDLWLALDY
+                     VVSNASVMNLLIISFDRYFCVTKPLTYPVKRTTKMAGMMIAAAWVLSFILWAPAILFWQ
+                     FVVGVRTVKDGECYIQFFSNAAVTFGTAIAAFYLPVIIMTVLYWHISRASKSRIKKDKK
+                     EPVASQDPVSPSLVQGRIVKPNNNNMPSSDDGLEHNKIQNGKAPRVAVTANCVQGEEKE
+                     SSNDSTSVSAVASNMREDEITQDENTVSTSLGHSKEENSKQTCIKIGTKTQKGDACTRA
+                     NTTVELVASAGQNGDEKQNIVARKIVKMTKQPAKKKPPPSREKKVTRTILAILLAFIIT
+                     WAPYNVMVLINTFCAPCIPNTVWTIGYWLCYINSTINPACYALCNATFKKTFKHLLMCH
+                     YKNIGATR"
+                     /gene="CHRM2"
+                     /protein_id="XP_004382456.1"
+     STS             1086..1149
+                     /db_xref="UniSTS:479807"
+                     /standard_name="CHRM2"
+                     /gene="CHRM2"
+ORIGIN
+        1 atgaataact caacaaactc ctctaatgat ggcctggctc tgaccagccc ttataagacc
+       61 tttgaagtgg tctttattgt tcttgtggct ggatccctca gcttggtgac catcattggg
+      121 aacatcctgg tcatggtctc cattaaagtc aaccgccacc tccagactgt caacaattac
+      181 ttcttgttca gcttggcctg tgctgacctc atcataggtg ttttctccat gaacttgtat
+      241 accctctaca ctgtgattgg ctactggcct ttggggcctg tggtgtgtga cctttggcta
+      301 gccctggact atgtggtcag caacgcctca gttatgaatc tgctcatcat cagctttgac
+      361 aggtacttct gcgtcaccaa gcctctgacc taccccgtca agcggaccac gaaaatggca
+      421 gggatgatga ttgctgctgc ctgggtcctc tccttcatcc tctgggcccc agccattctc
+      481 ttctggcagt ttgtcgtagg ggtgagaact gtgaaggatg gtgaatgcta catccagttt
+      541 ttttccaacg ctgctgtcac ctttggtacg gccatcgcag ccttctattt gccagtgatc
+      601 atcatgactg tgctatactg gcacatatcc cgagccagca agagcaggat aaagaaggac
+      661 aagaaggagc ctgtggccag ccaagatcca gtttctccaa gtttggtgca agggaggata
+      721 gtgaagccaa acaataacaa tatgcccagc agtgacgatg gcctggagca caacaaaatc
+      781 cagaacggta aggcccccag agttgctgtg actgcaaact gtgtccaggg ggaggaaaaa
+      841 gagagctcca atgactccac ctcggtcagc gcggtcgcct ctaatatgag agaagatgaa
+      901 ataacccagg acgaaaacac agtgtccacc tccctgggcc actccaagga agagaactct
+      961 aagcaaacgt gcatcaaaat tggcaccaag acccaaaaag gggatgcgtg tacccgagct
+     1021 aacaccaccg tggagctagt tgcttctgca ggtcaaaatg gggacgaaaa gcagaacatt
+     1081 gtagcccgca agattgtgaa gatgactaag cagcctgcca aaaagaagcc tcctccttcc
+     1141 cgggaaaaga aagtgaccag gacaatcttg gccattctgt tagctttcat catcacctgg
+     1201 gccccataca atgtcatggt gctcatcaac accttctgtg caccctgcat ccccaacacg
+     1261 gtgtggacaa ttggttactg gctctgttac atcaacagca ccatcaaccc cgcctgctat
+     1321 gcactttgta acgctacctt caagaagacc tttaaacacc ttctcatgtg tcattacaaa
+     1381 aacataggcg ccacgaggta a
+//

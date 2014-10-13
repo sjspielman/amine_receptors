@@ -1,0 +1,99 @@
+LOCUS       XM_004402229            1763 bp    DNA              MAM 31-MAR-2013
+DEFINITION  PREDICTED: Odobenus rosmarus divergens 5-hydroxytryptamine
+            (serotonin) receptor 1A, G protein-coupled (HTR1A), mRNA.
+ACCESSION   XM_004402229
+VERSION     XM_004402229.1  GI:472365463
+DBLINK      BioProject: PRJNA189954
+KEYWORDS    RefSeq.
+SOURCE      Odobenus rosmarus divergens (Pacific walrus)
+  ORGANISM  Odobenus rosmarus divergens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+            Odobenidae; Odobenus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004450418.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Odobenus rosmarus divergens Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1763
+                     /sub_species="divergens"
+                     /mol_type="mRNA"
+                     /collection_date="06-Sep-2011"
+                     /country="USA:AK, Round Island"
+                     /isolate="Ivan"
+                     /sex="male"
+                     /isolation_source="blood"
+                     /db_xref="taxon:9708"
+                     /organism="Odobenus rosmarus divergens"
+                     /chromosome="Unknown"
+     gene            1..1763
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 mRNAs, 13 Proteins"
+                     /db_xref="GeneID:101368922"
+                     /gene="HTR1A"
+     misc_feature    362..364
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR1A"
+     CDS             410..1678
+                     /product="5-hydroxytryptamine receptor 1A"
+                     /codon_start="1"
+                     /db_xref="GI:472365464"
+                     /db_xref="GeneID:101368922"
+                     /translation="MDVLSPGQGNNTTLSEGPFGTRGNATGVSDVTFSYQVITSLLLGT
+                     LIFCAVLGNACVVAAIALERSLQNVANYLIGSLAVTDLMVSVLVLPMAALYQVLNKWTL
+                     GQVTCDLFIALDVLCCTSSILHLCAIALDRYWAITDPIDYVNKRTPRRAAALISLTWLI
+                     GFLISIPPMLGWRTPEDRSDPDACTISKDHGYTIYSTFGAFYIPLLLMLVLYGRIFRAA
+                     RFRIRKTVKKVEKKGADTRFGVSPAPQPKKSVNGDPGSREWRQGVENKAGGALCTNGAV
+                     RQGDEGAALEVIEVHRVGNSKEHLPLPSEAGAIPCAPASFEKKNERNAEAKRKMALARE
+                     RKTVKTLGIIMGTFILCWLPFFIVALVLPFCESSCHMPTLLGAIINWLGYSNSLLNPVI
+                     YAYFNKDFQNAFKKIIKCKFCRG"
+                     /gene="HTR1A"
+                     /protein_id="XP_004402286.1"
+     STS             1492..1622
+                     /db_xref="UniSTS:265885"
+                     /standard_name="HTR1A"
+                     /gene="HTR1A"
+ORIGIN
+        1 gaggacgagg cttctctgtt ccagatactt ctaagattga agactgtttg ctagtgggga
+       61 gactccggct ccggcagcca gttgggcagc ggcaaagtaa aatggacagt gagaaacaga
+      121 cgttccagcc acctctccaa cgcccagagg tcccggagct gttctctgga gaactccttt
+      181 tccagctgga gtctctgagc ctgctggacc aagggagccc agggagcgcc tggaagctgc
+      241 tcctcggaga tgccctcgcc tgagcagtaa gaatttcccg ttgagtccct gcattccctc
+      301 cacctgaaat tccccaggag agaggggtgg aagaccccag ggggaggggc gagggggatc
+      361 ctaacgcagc actttctccc ctccccctcc ccctgccggg cgcgcaggca tggatgtgct
+      421 cagcccggga cagggcaaca acaccacctt gtcagagggt cccttcggga cacgcggcaa
+      481 cgctactggc gtctccgacg tgaccttcag ctaccaagtg atcacctcac tgctgctggg
+      541 cacgctcatt ttctgcgcgg tgctgggcaa tgcgtgcgtg gtggccgcca tcgccctgga
+      601 gcgctccctg cagaatgtgg ccaactatct catcggctcg ctggctgtca ctgacctcat
+      661 ggtgtcggtg ctggtgctgc ccatggctgc gctctaccag gtgctcaaca aatggacact
+      721 ggggcaggtc acctgtgacc tattcattgc cctcgacgtg ctgtgctgca cctcgtccat
+      781 cctgcacctg tgcgccattg cactggacag gtactgggcc atcaccgacc ccatcgacta
+      841 cgtgaacaag aggacgcccc ggcgcgccgc tgcgctcatc tcgctcactt ggctcattgg
+      901 cttccttatc tccatcccgc ccatgctggg ttggcgcacc cccgaagacc gctcggaccc
+      961 cgacgcgtgc acgattagca aggaccacgg ctacactatc tactccacct ttggcgcttt
+     1021 ctacatcccg ctgctgctca tgctggttct ctacggacgc atcttccgag cagcgcgctt
+     1081 ccgcatccgc aaaacagtca agaaggtgga gaagaaggga gcggacaccc gctttggggt
+     1141 gtcgccagcc ccgcagccca agaagagcgt aaacggcgat ccggggagca gagaatggag
+     1201 gcagggtgtg gagaacaagg cagggggtgc tctgtgcacc aacggcgcgg tgaggcaggg
+     1261 tgacgagggc gccgccctgg aggtgattga agtgcaccgg gtgggcaact ccaaagagca
+     1321 cctgccgctg cccagcgagg cgggtgcaat cccttgcgcc cccgcctcct tcgagaagaa
+     1381 gaatgagcgc aacgcggagg ccaagcgcaa gatggccctg gcccgagaga ggaaaacggt
+     1441 gaagacgctg ggcatcatca tgggcacctt catcctctgc tggctgccct tcttcatcgt
+     1501 ggccctggtc ctgcccttct gcgagagcag ctgccacatg cccaccctgt tgggcgccat
+     1561 aatcaactgg ttgggctact ccaactctct gctcaaccct gtcatttacg cctacttcaa
+     1621 caaagacttc caaaacgcgt ttaagaagat catcaagtgc aagttctgcc gcggatgatg
+     1681 gtggaggagt agtcggcgag taggcccgcc ccatcctctc tgcctcctcc agccctctgg
+     1741 aatcaacacc tatgatagct cgc
+//

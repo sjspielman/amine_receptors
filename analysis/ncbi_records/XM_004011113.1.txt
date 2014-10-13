@@ -1,0 +1,90 @@
+LOCUS       XM_004011113            1416 bp    DNA              MAM 02-DEC-2012
+DEFINITION  PREDICTED: Ovis aries 5-hydroxytryptamine (serotonin) receptor 1B, G
+            protein-coupled (HTR1B), mRNA.
+ACCESSION   XM_004011113
+VERSION     XM_004011113.1  GI:426234356
+KEYWORDS    RefSeq.
+SOURCE      Ovis aries (sheep)
+  ORGANISM  Ovis aries
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Caprinae; Ovis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004080171) annotated using gene prediction method: GNOMON,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ovis aries Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1416
+                     /breed="Texel"
+                     /db_xref="taxon:9940"
+                     /mol_type="mRNA"
+                     /organism="Ovis aries"
+                     /chromosome="8"
+     gene            1..1416
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 8 mRNAs, 19 Proteins"
+                     /db_xref="GeneID:101111375"
+                     /gene="HTR1B"
+     misc_feature    59..61
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR1B"
+     CDS             179..1390
+                     /product="5-hydroxytryptamine receptor 1B"
+                     /codon_start="1"
+                     /db_xref="GI:426234357"
+                     /db_xref="GeneID:101111375"
+                     /translation="MPQGCAPGPRARRVMEAAAPQCPQPPSASSQTGLSQANLSAGPSH
+                     NCSAAEEYIYQDFIALPWKVVVVLLLALFTLATTLSNAFVIATVYRTRKLHTPANYLIA
+                     SLAVTDLLVSILVMPISTMYTVTGRWTLGQVVCDFWLSSDITCCTASILHLCVIALDRY
+                     WAITDAVEYSAKRTPKRAAVMIALVWVFSICISLPPFFWRQAKAEAMSNCVVNTDHVLY
+                     TVYSTVGAFYFPTLLLIALYGRIYVEARSRILKQTPNRTGKRLTRAQLITDSPGSTSSV
+                     TSINSRAPEVPSESGSPVYVNQVKVRVSDALLEKKKLMAARERKATKTLGIILGAFIVC
+                     WLPFFIISLVIPICTSCWFHQAIFDFFTWLGYLNSLINPIIYTMSNEDFKQAFHKLIGF
+                     KCAN"
+                     /gene="HTR1B"
+                     /protein_id="XP_004011162.1"
+     STS             555..990
+                     /db_xref="UniSTS:158177"
+                     /standard_name="GDB:603584"
+                     /gene="HTR1B"
+     STS             582..875
+                     /db_xref="UniSTS:157840"
+                     /standard_name="GDB:580611"
+                     /gene="HTR1B"
+ORIGIN
+        1 gcgctcgggc ggtgcgggga acgggccagc cagccagcct cgcccttgac ctctcgcttg
+       61 atctgggaac ctgggtggag gcgtaattaa ggaaccctcc agggaacgga caatctcccg
+      121 gggtggacga gactgcggtc tcctccgcgg tcctcctgtc ctcatcttcg tgcgctccat
+      181 gccccagggc tgcgctccgg ggccacgggc gaggagagtc atggaggcag cggcccctca
+      241 gtgtccccag ccgccgtccg cgagttccca gactgggctt tctcaagcca acctttcggc
+      301 tggtccctcc cacaactgca gcgccgccga ggagtacatt taccaggact tcatcgccct
+      361 gccctggaaa gtagtcgtgg tcctgctgct ggcgctcttc accttggcca ccacgctctc
+      421 caacgccttt gtgatcgcca ctgtgtaccg gacgcggaag ctgcataccc cggccaacta
+      481 cctgatcgcc tccttggcgg tcaccgacct gctcgtgtcc atcctggtga tgcccatcag
+      541 taccatgtac acggtcaccg gccgctggac gctgggccag gtggtctgcg acttctggct
+      601 gtcgtcggac atcacctgtt gcacagcctc catcctgcac ctctgtgtca tcgccctgga
+      661 ccgctactgg gccattacgg acgccgtgga gtactcggcg aaaaggactc ccaagagggc
+      721 cgcggtcatg atcgcgctgg tgtgggtctt ctccatctgc atctcgctgc cgcccttctt
+      781 ctggcggcag gccaaagctg aggcgatgtc gaactgcgtg gtgaacaccg accacgtcct
+      841 gtacaccgtc tactccacgg tgggcgcttt ctacttcccc accctgctcc tcatcgccct
+      901 ctatggccgc atctacgtgg aagcccgctc ccggattttg aaacagacgc ccaacagaac
+      961 cggtaagcgt ctgacccgag cccagctgat taccgactcc cccgggtcca cgtcttcggt
+     1021 cacctcgatt aactcgcggg ctccggaggt acccagcgaa tccgggtctc ctgtgtacgt
+     1081 gaaccaagtc aaagtgcgcg tctccgacgc cctgctggag aagaagaaac tcatggccgc
+     1141 tagggagcgc aaagccacca agaccctggg gatcattttg ggcgcgttca tcgtgtgttg
+     1201 gctgcccttc ttcatcatct ccctggtcat cccgatctgc acatcctgct ggttccacca
+     1261 ggccattttt gacttcttca cgtggctggg ctatctcaac tccctcatca accccatcat
+     1321 ctacaccatg tccaacgagg acttcaaaca agctttccat aaactcatag gcttcaagtg
+     1381 cgcgaactga cttgttaatt acagtggagt cgccta
+//

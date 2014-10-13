@@ -1,0 +1,86 @@
+LOCUS       XM_005619320            1241 bp    DNA              MAM 24-SEP-2013
+DEFINITION  PREDICTED: Canis lupus familiaris 5-hydroxytryptamine (serotonin)
+            receptor 4, G protein-coupled (HTR4), transcript variant X2, mRNA.
+ACCESSION   XM_005619320
+VERSION     XM_005619320.1  GI:545496161
+DBLINK      BioProject: PRJNA12384
+KEYWORDS    RefSeq.
+SOURCE      Canis lupus familiaris (dog)
+  ORGANISM  Canis lupus familiaris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae;
+            Canis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003726056.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Canis lupus familiaris Annotation
+            Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1241
+                     /sub_species="familiaris"
+                     /mol_type="mRNA"
+                     /breed="boxer"
+                     /sex="female"
+                     /db_xref="taxon:9615"
+                     /organism="Canis lupus familiaris"
+                     /chromosome="4"
+     gene            1..1241
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 8 Proteins, and 99% coverage of the
+                     annotated genomic feature by RNAseq alignments, including 2
+                     samples with support for all annotated introns"
+                     /db_xref="GeneID:489198"
+                     /gene="HTR4"
+     CDS             56..1129
+                     /product="5-hydroxytryptamine receptor 4 isoform X2"
+                     /codon_start="1"
+                     /db_xref="GI:545496162"
+                     /db_xref="GeneID:489198"
+                     /translation="MAILGNLLVMVAVCRDRQLRKIKTNYFIVSLAFVDLLVSVLVMPF
+                     GAIELVQDIWIYGEMFCLVRTSLDVLLTTASIFHLCCISLDRYYAICCQPLVYRNKMTP
+                     LRIALMLGGCWIIPMFISFLPIMQGWNNIGIIDLIEKRKFNQNSNSTYCIFMVNKPYAI
+                     TCSVVAFYIPFLLMVLAYYRIYVTAKEHAHQIQMLQRAGAPSEGRPQPADQHSTHRMRT
+                     ETKAAKTLCIIMGCFCLCWAPFFVTNIVDPFIDYTVPGQVWTAFLWLGYINSGLNPFLY
+                     AFLNKSFRRAFLIILCCDDERYRRPSILGQTVPCSTTTINGSTHVLRDAVECGGQWESH
+                     CHPPATSSLVAAHPSDP"
+                     /gene="HTR4"
+                     /protein_id="XP_005619377.1"
+     STS             623..761
+                     /db_xref="UniSTS:504885"
+                     /standard_name="HTR4"
+                     /gene="HTR4"
+ORIGIN
+        1 ttttggttca gtggagaaag tcgtgctgct cacgtttctc tcagcggtta tcctgatggc
+       61 catcttgggg aacctgctgg tgatggtggc tgtgtgcagg gacaggcagc tcaggaagat
+      121 aaaaaccaat tatttcattg tatctctcgc ctttgtggat ctgctagttt ctgtgctggt
+      181 gatgcccttt ggtgccattg agctggttca agacatctgg atttatgggg agatgttttg
+      241 ccttgtccgg acatcgctag atgtcctgct cacgacagca tcgatttttc acctgtgctg
+      301 catttccctg gacaggtatt atgccatctg ctgccagcct ctggtctata ggaacaagat
+      361 gacccctctg cgcatcgcgt taatgctggg aggctgctgg atcatcccca tgtttatctc
+      421 ttttctccct ataatgcaag gctggaataa tattggcata attgatttga tagaaaaaag
+      481 gaagttcaac caaaactcca actctacgta ctgtatcttc atggtcaaca agccctacgc
+      541 catcacctgc tctgtggtgg ccttctacat cccatttctc ctcatggtgc tggcctatta
+      601 tcgcatctac gtcacagcaa aagagcatgc ccaccaaatc cagatgttac aacgggcagg
+      661 agccccctct gaaggcaggc cccagccagc tgaccagcac agcactcatc gcatgaggac
+      721 cgagaccaaa gcagccaaga ccctgtgcat catcatgggt tgcttctgcc tctgctgggc
+      781 tccattcttc gtcactaata ttgtggatcc attcatagac tacactgttc ctgggcaggt
+      841 gtggaccgct ttcctctggc ttggctacat caactctggg ttgaacccct ttctgtacgc
+      901 cttcttgaat aagtctttta gacgtgcctt cctcatcatc ctctgctgtg atgatgagcg
+      961 ctaccgaaga ccctccattc tgggccagac tgtcccctgt tcaaccacaa ccattaatgg
+     1021 atccacacat gtgctaaggg atgcggtgga gtgtggtggc caatgggaga gtcactgcca
+     1081 ccctccagca acttcttcct tggtggctgc tcaccccagt gacccttagg ccctggggca
+     1141 gtgactccga agacagccat ccctccgaaa gagggcagat tgtaagctgc cgcttgagtg
+     1201 ggactgctcc tgcccttccc tccatcccgc ctcgcacctg g
+//

@@ -1,0 +1,87 @@
+LOCUS       XM_005685049            1655 bp    DNA              MAM 30-SEP-2013
+DEFINITION  PREDICTED: Capra hircus histamine receptor H2 (HRH2), mRNA.
+ACCESSION   XM_005685049
+VERSION     XM_005685049.1  GI:548480900
+DBLINK      BioProject: PRJNA217901
+KEYWORDS    RefSeq.
+SOURCE      Capra hircus (goat)
+  ORGANISM  Capra hircus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Caprinae; Capra.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005100759.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Capra hircus Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1655
+                     /mol_type="mRNA"
+                     /collection_date="Sep-2009"
+                     /country="China: Kunming"
+                     /breed="Yunnan black goat"
+                     /db_xref="taxon:9925"
+                     /organism="Capra hircus"
+                     /chromosome="10"
+     gene            1..1655
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 Proteins, and 98% coverage of the
+                     annotated genomic feature by RNAseq alignments, including 2
+                     samples with support for all annotated introns"
+                     /db_xref="GeneID:102168263"
+                     /gene="HRH2"
+     CDS             576..1655
+                     /product="histamine H2 receptor"
+                     /codon_start="1"
+                     /db_xref="GI:548480901"
+                     /db_xref="GeneID:102168263"
+                     /translation="MASNGTASSSCLDPAAFKVTVTVVLTLLILITIAGNVVVCLAVGL
+                     NRRLRSLTNCFIVSLAITDLLLGLLVLPFSAFHQLSCQWGFGKVFCNIYTSLDVMLCTA
+                     SILNLFMISLDRYCAVTDPLRYPVLVTPLRVAVSLVLIWVISITLSFLSIHLEWNGRPE
+                     NRSDSHAVPKCKVQVNLVYGLVDGLVTFYLPLLVMCVTYYRILRIAREQARRIRNVGPW
+                     RAATLREHKATATLAAVMGAFVVCWLPYFTVFIYRGLRGDSAVDKTVEDVVLWLGYANS
+                     ALNPVLYAALNRDFRTAYQQLFRCSPAGHDARRTSLGSNSSQLVRRPGREPRWPEERPL
+                     RLQVWSGTEVTAPQGAADR"
+                     /gene="HRH2"
+                     /protein_id="XP_005685106.1"
+ORIGIN
+        1 aatgtgccaa ggtcctagac gcctgctggt ggaagacttg agcagaaaac tctcacgctc
+       61 tccagtggac cctagagggc aaggcagccg tgccggaccc ccatcacgtg gatgggggca
+      121 gctatccgtc atggagaagg ctgcagccat agcgccacat gagacctccc caataaaacc
+      181 aaagccacct ccagactcac gccccagtgc ctcagtttcc atgcaacagc ctgagagtgg
+      241 agctgcgttc agccctggga ggaagccggc tctgttggag gcggtttgaa gactgtggct
+      301 tgaaccagga aactcacttc gagaactaga tgtccctcat cttccttcct actcatgccc
+      361 cccaccttct tggagatcat cttatttatt ctagaaaaaa cagcactagc ttggtccctg
+      421 gagcctcccc acatttggat acttctctca gctctggtgg gcagcctgga gcccagcggt
+      481 ggacataatt gatctgctgg ggagctggaa gaggagcagc cacgggcccg gggcggggtg
+      541 ggggtgcaca ggggaaggag ctgtagggac ccaggatggc gtccaatggc acagcctctt
+      601 cctcttgtct ggaccccgcc gcgttcaagg tcaccgtcac cgtagtcctc accctcctca
+      661 tcctcatcac catcgctggc aacgtggtcg tctgcctggc ggtgggcttg aaccgccggc
+      721 tccgcagcct gaccaactgc ttcatcgtgt ccctggccat caccgacttg ctcctcggcc
+      781 tgctggtgct gcccttctct gccttccacc agctgtcgtg ccagtggggc ttcggcaagg
+      841 tcttctgcaa catctacacc agcctggacg tcatgctctg cacggcctcc atcctcaacc
+      901 tcttcatgat cagccttgac aggtactgcg ccgtcacgga ccccctgcgc taccccgtgc
+      961 tggtcacccc gctccgggtc gccgtctccc tcgtcttaat ctgggtcatc tccatcaccc
+     1021 tgtccttcct gtccatccac ctggaatgga acggcaggcc tgagaaccgc agtgacagcc
+     1081 acgccgtccc caagtgcaaa gtccaggtaa acctggtgta cggcctggtg gatgggctgg
+     1141 tcaccttcta cctgccgctg ctcgtcatgt gcgtcacgta ctaccgcatc ctcaggatcg
+     1201 cccgggagca ggccaggagg atccgcaacg tgggcccgtg gagggcagcc acgctcaggg
+     1261 agcacaaggc cacggcgacg ctggctgccg tcatgggggc cttcgtcgtc tgctggctgc
+     1321 cgtacttcac cgtgttcatc taccgggggc tgcgggggga cagcgctgtc gacaagaccg
+     1381 tggaagacgt ggtcctgtgg ctgggctatg ccaactcggc cctgaacccc gtgctgtacg
+     1441 ccgcgctcaa cagagacttc cgcacggcct accagcagct cttccgctgc agccccgccg
+     1501 gccacgacgc ccgcaggact tcgctggggt ccaacagctc tcagctggtg aggcgtccgg
+     1561 gccgggaacc caggtggccg gaagagaggc ccctgaggct ccaggtgtgg agcgggactg
+     1621 aggtcacggc cccccagggc gccgcagaca ggtaa
+//

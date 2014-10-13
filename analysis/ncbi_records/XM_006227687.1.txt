@@ -1,0 +1,95 @@
+LOCUS       XM_006227687            1550 bp    DNA              ROD 09-DEC-2013
+DEFINITION  PREDICTED: Rattus norvegicus trace amine-associated receptor 8a
+            (Taar8a), transcript variant X1, mRNA.
+ACCESSION   XM_006227687
+VERSION     XM_006227687.1  GI:564324711
+DBLINK      BioProject: PRJNA12455
+KEYWORDS    RefSeq.
+SOURCE      Rattus norvegicus (Norway rat)
+  ORGANISM  Rattus norvegicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Rattus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003805678.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Rattus norvegicus Annotation Release
+            104
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1550
+                     /strain="BN/SsNHsdMCW"
+                     /mol_type="mRNA"
+                     /organism="Rattus norvegicus"
+                     /chromosome="1"
+                     /db_xref="taxon:10116"
+     gene            1..1550
+                     /note="trace amine-associated receptor 8a; Derived by
+                     automated computational analysis using gene prediction
+                     method: Gnomon. Supporting evidence includes similarity to:
+                     19 Proteins, and 100% coverage of the annotated genomic
+                     feature by RNAseq alignments, including 1 sample with
+                     support for all annotated introns"
+                     /db_xref="GeneID:319104"
+                     /db_xref="RGD:631391"
+                     /gene="Taar8a"
+                     /gene_synonym="Ta11; Trar5"
+     CDS             55..1158
+                     /product="trace amine-associated receptor 8a isoform X1"
+                     /codon_start="1"
+                     /gene_synonym="Ta11; Trar5"
+                     /db_xref="GI:564324712"
+                     /db_xref="GeneID:319104"
+                     /db_xref="RGD:631391"
+                     /translation="MTSNFSQAPLQLCYENVNASCIKTPYSPGLRVLLYMVFGFGAVLA
+                     VCGNLLVVISVLHFKQLHSPANFLIASLASADFLVGISVMPFSMVRSIESCWYFGDTFC
+                     SLHSCCDAAFCYSSLFHLCFISVDRYIAVTDPLVYPTKFTVSVSGICISISWILPLVYS
+                     SAVFYTGISATGIENLVSALNCVGGCQIVVNQDWVLIDFLLFLIPTLVMIILYSKIFLV
+                     AKQQAVKIETSISGSKGESSLESHKARVAKRERKAAKTLGVTVVAFMVSWLPYTIDTLI
+                     DAFMGFITPAYVYEICCWSAYYNSAMNPLIYAFFYPWFRKAIKLILSGEILKSHSSTMS
+                     LFSDTSWLISQLPALEVFCPVSVCLPR"
+                     /gene="Taar8a"
+                     /protein_id="XP_006227749.1"
+     STS             200..986
+                     /db_xref="UniSTS:516842"
+                     /standard_name="Taar8a"
+                     /gene="Taar8a"
+                     /gene_synonym="Ta11; Trar5"
+ORIGIN
+        1 tgccgttgtc ttctagcagg acagaaatcc ctcaagcatc aaaaaggcag aatcatgaca
+       61 agcaactttt cccaagcccc cctgcagctc tgctatgaga acgtgaatgc ttcctgcatt
+      121 aaaaccccct attcgccagg gctccgggtc ctcctgtaca tggtctttgg ctttggggct
+      181 gtgctggcag tgtgtgggaa cctcctggtg gtgatttcag tcctccattt caagcagctg
+      241 cactctcctg ccaatttcct catcgcctcc ctggccagtg ctgacttctt ggtgggcatc
+      301 tctgtgatgc ccttcagcat ggtcaggtcc atcgagagct gctggtactt tggagacaca
+      361 ttttgtagcc ttcacagctg ctgtgatgca gcattttgct attcttctct tttccacctc
+      421 tgtttcatct ctgtggacag gtacatcgct gtcacggacc ctctggtcta tcccaccaag
+      481 ttcacagtgt ctgtgtctgg aatttgcatc agcatctcct ggattctgcc cctcgtgtac
+      541 agcagtgcag tgttctacac aggcatcagt gctacgggga ttgaaaactt agtaagtgct
+      601 ctcaactgtg tagggggctg ccaaatcgtt gtcaatcaag actgggtttt gatagatttt
+      661 ctcttattcc tcatccctac cctcgttatg atcatactct acagcaaaat atttttagta
+      721 gccaaacagc aagctgtaaa aattgaaact tctataagtg gaagcaaagg agaatcgtcc
+      781 ttagagagtc acaaagccag ggtggccaag agagagagga aggctgccaa aaccttgggg
+      841 gtcactgtgg tggcatttat ggtctcatgg ctaccatata caattgacac cttgattgat
+      901 gctttcatgg gcttcatcac tcctgcctat gtctatgaaa tttgttgctg gagcgcctat
+      961 tataactcag ccatgaaccc tttgatttat gctttctttt acccttggtt taggaaagcc
+     1021 ataaagctca ttttaagtgg agagattcta aagagtcatt catctaccat gagtttgttt
+     1081 tcagacacat cctggttgat ctcccaactg ccagcactag aagttttctg cccagtgtct
+     1141 gtctgtctcc cacggtgagc ctgtccatca ttcaacccac aaaaaagtgg ttagatccac
+     1201 agaaacaatg tctgttggaa ggaactgcgg tgtgaatttg ctgcctctgt cacctagcag
+     1261 acaggactgc tctcaggcag gtcctcatac ttcctcccag tttctcccag aagagtaact
+     1321 cctgtctttc tcccctgttg gggcccgtcc atccattggc ttctccaggc cactaaacac
+     1381 tctctgtacc catgcaaatt tgaccacttc agtatgaact ttcggtgctg ccctcattta
+     1441 cttgagttct cccaatgaca gcacacaagt gcagcccagt gctgttggtt gtactgtggt
+     1501 gcttcccagt cacagaagtc cactcaggtt agaagagcat ctttgtcaca
+//

@@ -1,0 +1,61 @@
+LOCUS       XP_001919160             494 aa                     VRT 01-AUG-2013
+DEFINITION  PREDICTED: muscarinic acetylcholine receptor M3-like [Danio rerio].
+ACCESSION   XP_001919160
+VERSION     XP_001919160.1  GI:189526474
+DBLINK      BioProject: PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003040085.2) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..494
+                     /strain="Tuebingen"
+                     /organism="Danio rerio"
+                     /chromosome="12"
+                     /db_xref="taxon:7955"
+     Protein         1..494
+                     /product="muscarinic acetylcholine receptor M3-like"
+                     /calculated_mol_wt="55719"
+     Region          72..>244
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          85..448
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..494
+                     /coded_by="XM_001919125.1:1..1485"
+                     /gene="LOC100149598"
+                     /db_xref="GeneID:100149598"
+ORIGIN
+        1 mnltlsaepg lfltnsspgm ranpvtafms hdlhpandsl hnitqipsvl sdplgghsvl
+       61 qvvmiallcg sislltiign tlvllsfkln kqlktvnnyy llslafadli igvlsmnlyt
+      121 tyiimdqwal gnfacdlwla idyvasnasv mnllvisfdr yfsvtrplty rakrttkram
+      181 tmiglawsis filwapailf wqyfvgertv epdkcyiqfi sepittfcta iaafylpvti
+      241 mtvlywriyk etenrsrela glkasgnvee esvvvvpqtg ssrshssyel qpaapmrktk
+      301 trrlwfwsrg dversssdsw nnnetaisid qsdddeeeda ehiytiekqd leakpskfgv
+      361 sksstldskd qpvksarktn krkklslvke kkaaqtlsai llafiitwtp ynimvllnaf
+      421 cdgcipetlw algywlcyvn stvnpmcyal cnkafrttfr sillcqwrkk klnkaqiqkr
+      481 apaatyrkht qsld
+//

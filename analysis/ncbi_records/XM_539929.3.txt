@@ -1,0 +1,102 @@
+LOCUS       XM_539929               2400 bp    DNA              MAM 24-SEP-2013
+DEFINITION  PREDICTED: Canis lupus familiaris 5-hydroxytryptamine (serotonin)
+            receptor 5A, G protein-coupled (HTR5A), transcript variant 1, mRNA.
+ACCESSION   XM_539929
+VERSION     XM_539929.3  GI:545525802
+DBLINK      BioProject: PRJNA12384
+KEYWORDS    RefSeq.
+SOURCE      Canis lupus familiaris (dog)
+  ORGANISM  Canis lupus familiaris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae;
+            Canis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003726086.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 24, 2013 this sequence version replaced gi:73978747.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Canis lupus familiaris Annotation
+            Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2400
+                     /sub_species="familiaris"
+                     /mol_type="mRNA"
+                     /breed="boxer"
+                     /sex="female"
+                     /db_xref="taxon:9615"
+                     /organism="Canis lupus familiaris"
+                     /chromosome="16"
+     gene            1..2400
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /db_xref="GeneID:482814"
+                     /gene="HTR5A"
+     CDS             748..1830
+                     /product="5-hydroxytryptamine receptor 5A isoform 1"
+                     /codon_start="1"
+                     /db_xref="GI:73978748"
+                     /db_xref="GeneID:482814"
+                     /translation="MDSPVNLTYFSLFTPAPSETNHSSLGTGSEDPRPSPPLLSVFGVL
+                     VLTLLGCLVAATFSWNLLVLATILRVRTFHRVPHNLVASMAISDVLVAALVMPLSLVHE
+                     LSGRRWQLGRRLCQLWIACDVLCCTASIWNVTAIALDRYWSITRHLEYTLRARRRVSNV
+                     MILLTWALSAVISLAPLLFGWGETYSEGSEECQVSREPSYTVFSTVGAFYLPLCVVLFV
+                     YWKIYKAAKVRVGSRKTNSVSPLTEAVEAKTSTQQPQMVFTVRHTTVTFQTEGDTWREQ
+                     KDQKAALMVGILIGVFALCWIPFFTTELISPLCSCDIPAIWKSIFLWLGYSNSFFNPLI
+                     YTAFNKNYNSAFKNFFSRQH"
+                     /gene="HTR5A"
+                     /protein_id="XP_539929.2"
+ORIGIN
+        1 tatacggaat gtaagccccc gtggaaagct gagaacccac tgcagcgctc gaagagagaa
+       61 ggaccagggc cggtaccgag gacagcgccc ggccccgcgc ccaggtgggc gaggcggcag
+      121 caccgtggac agcaccagcg cgcggcgggg agaggcgggg agaggcgacc tcatcagctg
+      181 acgccgtacg taggctggat ccccacttcg aggaggcagg tctggatggg cgcgcccgcg
+      241 ccgcggcccc agacggggag gggctggcgg ggagggggcg atcgcagaag gcaggcccca
+      301 caaagggggc cctccgtgcc ccccgccccc cgggctcgga gttgaggctg tagcctgccg
+      361 ccggggcagc cgggcgggta gggaggcgac gaggcgagag tactgctctg acgcaccggc
+      421 gcccggacgc tccagggacg ctccagggac gcccagctgc cgcccgccct gggcaccccg
+      481 accaccgtcc ctgccgaggt gggagcctgg gcacgccagc ctaggagggc cccggccgcc
+      541 agacgcagcc cagcgttctc cgccctgccc cgccgtctcc cacggccgct gcccggcggg
+      601 aggctggggc cggtctggtc gaccatcccc aggagccctg ccgccaggcg gaggctgcaa
+      661 acgtccaggg tggctgtgcg cgccggggcc accgtcttcc tgaacgcccc tcctgcacac
+      721 cccctgggct ggcctcccga cccgacgatg gattcgcctg tgaacctcac ctacttctcc
+      781 ctcttcaccc cggccccttc ggagaccaac cacagcagcc tcggcaccgg ctcggaagac
+      841 ccgcgcccca gcccgccgct cctctctgtc ttcggtgtgc ttgtgctaac cttgctgggc
+      901 tgtctggtgg ccgcgacctt ctcctggaac cttctggtgc tggcgaccat cctccgtgtg
+      961 cgcaccttcc accgtgttcc gcacaacctc gtggcgtcca tggccatctc ggacgtgctg
+     1021 gtcgcggctc tggtcatgcc actgagcctg gtgcacgagc tgtccggccg ccgctggcag
+     1081 ctgggtcgcc ggctctgcca gctgtggatc gcgtgcgacg tgctctgctg caccgccagc
+     1141 atctggaatg tgacggccat cgcgctggac cgctactggt ccatcacccg ccacctggaa
+     1201 tacacgctcc gcgcccgcag gcgcgtctcc aatgttatga tcctgctcac ctgggcgctc
+     1261 tccgcggtga tctccctagc gccgctgctc ttcggctggg gggagaccta ctccgagggc
+     1321 agcgaggagt gccaggtgag ccgcgagccc tcctacaccg tgttctccac cgtgggcgcc
+     1381 ttctacctgc cgctctgcgt ggtgctcttc gtgtactgga agatctacaa ggccgccaag
+     1441 gtgcgcgtgg gctccaggaa gaccaacagc gtctcgccct taacggaggc tgtggaggca
+     1501 aagacctcta ctcagcagcc ccagatggtg ttcactgtcc gccacaccac cgtcaccttc
+     1561 cagacagaag gggacacgtg gagggaacag aaagaccaga aagctgccct gatggtgggc
+     1621 atcctcattg gggtgtttgc actctgctgg atccccttct tcaccacaga gctcatcagc
+     1681 cccctctgct cctgtgacat ccccgccatc tggaagagca tcttcctttg gctcggctac
+     1741 tccaactcct tctttaaccc cctgatctat acagcattca acaagaacta caatagcgcc
+     1801 ttcaagaatt tcttttctag gcaacactga gaatggcgcc tgggcataag aatgagtaac
+     1861 tcagtgaaat ttccaattcc atccacttcc ccatccctac acagcaccac atgaaaaagg
+     1921 caagcccatg aagttttcca gggtcgcctt cagaactggc cctcacctcc atactcctag
+     1981 gtagggatgt gggtcttcac agtccaattt tgtcaacctt attgatctaa attacctatt
+     2041 atttctcact tagcacctaa tagccacaga ctttacccac aaagtaccca ttccaccccc
+     2101 aaatccactc cagtgtggtc attgtccttg ccccagagaa gtcaaacaag gcagatgaga
+     2161 gggaagaaat caagcaactt gaacaggttg agaatggata gaaaatgttg aggaagaagt
+     2221 cagaatgggg acatccgagg ggtaggaaac cataattccc agttttctgg aatagtcctt
+     2281 attttgaaat gccattctat ggtcctggtg agtataccct agtacttatt gtgtatgttc
+     2341 caatgtttgg ctacaaaata ttgtctctaa acctattaaa gtacatagtc acagctgcaa
+//

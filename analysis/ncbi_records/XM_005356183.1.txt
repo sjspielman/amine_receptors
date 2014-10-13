@@ -1,0 +1,109 @@
+LOCUS       XM_005356183            2286 bp    DNA              ROD 21-AUG-2013
+DEFINITION  PREDICTED: Microtus ochrogaster adrenoceptor beta 2, surface
+            (Adrb2), mRNA.
+ACCESSION   XM_005356183
+VERSION     XM_005356183.1  GI:532026517
+DBLINK      BioProject: PRJNA210839
+KEYWORDS    RefSeq.
+SOURCE      Microtus ochrogaster (prairie vole)
+  ORGANISM  Microtus ochrogaster
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Arvicolinae; Microtus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004949026.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Microtus ochrogaster Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2286
+                     /mol_type="mRNA"
+                     /isolate="Prairie Vole_2"
+                     /sex="female"
+                     /db_xref="taxon:79684"
+                     /organism="Microtus ochrogaster"
+                     /chromosome="18"
+     gene            1..2286
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 11 long SRA reads, 15
+                     Proteins, and 49% coverage of the annotated genomic feature
+                     by RNAseq alignments"
+                     /db_xref="GeneID:101981008"
+                     /gene="Adrb2"
+     CDS             227..1504
+                     /product="beta-2 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:532026518"
+                     /db_xref="GeneID:101981008"
+                     /translation="MGPPGNDSDFLLAPNGSSAPDHDITQERDEAWVVGMAILMSVIVL
+                     AIVFGNVLVITAIAKFERLQTVTNYFITSLACADLVMGLAVVPFGASHILMKMWNFGNF
+                     WCEFWTSIDVLCVTASIETLCVIAVDRYIAITSPFKYQSLLTKNKARMVILMVWIVSGL
+                     TSFLPIQMHWYRATHKKAIDCYHKETCCDFFTNQAYAIASSIVSFYVPLVVMVFVYSRV
+                     FQVAKRQLQKIDKSEGRFHSQNLSQVEQDGRSGHGLRRSSKFCLKEHKALKTLGIIMGT
+                     FTLCWLPFFIVNIVHVIQENLIPKEVYILLNWLGYVNSAFNPLIYCRSPDFRIAFQELL
+                     CLRRSSSKAYGNGYSTNSNGKTDYTGEVSGCPLGQGKESELLCEDPPGSESFLNCQGTV
+                     PSLSIDSQGRNCSTKDSPLECRLSTL"
+                     /gene="Adrb2"
+                     /protein_id="XP_005356240.1"
+     STS             353..1240
+                     /db_xref="UniSTS:265908"
+                     /standard_name="ADRB2"
+                     /gene="Adrb2"
+     STS             643..1097
+                     /db_xref="UniSTS:258478"
+                     /standard_name="ADRB2sts1"
+                     /gene="Adrb2"
+ORIGIN
+        1 cgaggctgct tctcctgcgt tcaggctgca gctagcaggc acagcgagcc gcgagcaccc
+       61 cacgagctga gtgtgcagga cgcgcttcca gcacagctac ctccagccgc tgaatgaagc
+      121 ttccaggagt ccgcccccgg ccggctgcgc cccgtcggag gtgcacccgc tgagagcacc
+      181 agagcgccta aagccggtgg tgcgctcacc tgctagtctg tcagtcatgg ggccacccgg
+      241 gaacgacagc gacttcttgc tggcacccaa cggaagcagt gcgccagacc acgacatcac
+      301 tcaggaacgg gacgaagcgt gggtggtagg catggccatc ctcatgtcgg ttatcgtcct
+      361 ggccatcgtg tttggcaacg tgctggtcat cacagccatt gccaagtttg agcgactaca
+      421 gactgtcacc aactacttca taacctcttt ggcgtgtgct gatctagtca tgggcctagc
+      481 ggtggtgccg tttggggcca gtcacatcct tatgaaaatg tggaattttg gcaacttctg
+      541 gtgcgagttc tggacttcca tcgatgtgtt gtgcgtcaca gccagcatcg agaccctgtg
+      601 tgtgattgca gtggatcgct acattgctat cacatcgcca ttcaagtacc agagcctgct
+      661 gaccaagaat aaggcccgaa tggttatcct gatggtgtgg attgtctccg gccttacctc
+      721 cttcttgccc atccaaatgc actggtaccg tgccacacac aagaaagcca tcgactgcta
+      781 tcacaaggag acttgctgtg acttcttcac gaaccaggcc tatgccattg cctcctccat
+      841 tgtgtctttc tatgtgcctc tggtggtcat ggtctttgtc tattcccggg tcttccaggt
+      901 ggccaaaagg cagctccaga agatagacaa atctgaagga agattccact cccaaaacct
+      961 cagccaggtg gagcaggatg ggcgaagtgg gcacggactc cgaaggtcct ccaagttctg
+     1021 cttgaaagag cacaaagccc tcaagacttt gggcatcatc atgggcactt tcaccctctg
+     1081 ctggctgccc ttcttcatcg tcaacatcgt gcacgtgatt caggaaaacc tcatccctaa
+     1141 ggaagtttac atcctcctta actggttggg ctacgtcaat tcggctttca atcccctaat
+     1201 ctactgtcgg agtccagatt tcaggattgc cttccaggag cttctatgcc tccgcaggtc
+     1261 ttcttcaaaa gcctatggga atggctactc caccaacagt aatggcaaaa cagactacac
+     1321 aggggaggtg agtggatgcc cgttggggca ggggaaagaa agcgaactgc tgtgtgagga
+     1381 cccaccaggc tcggaaagct ttttgaactg tcaaggtact gtgcctagcc ttagcattga
+     1441 ttcccaaggg aggaactgta gcaccaaaga ctcaccgctg gaatgcaggc tttctactct
+     1501 ttaagacccc ccccaacagg acactaacga gaatatttaa cttgagtgta ataactttag
+     1561 aataaaattg tatagagatt tgcagaaggg ggaagaatcc ttctgccttt tttattttat
+     1621 ttttttaagc tgcaaagaga gagagaaaga gagagactgt atttgaatgt ttgtttggtt
+     1681 cttgtacagt tcagttcctc tttgtatgga acttgaaagt ttctgtctga agtgtcttgg
+     1741 tcctagatga ctgtgtctac atgtttagat cacttttccg tttatctacc tcattggtca
+     1801 agtattaggg atactatata ttgctgctag tcatttgtat ctgaaggaaa tcttccttcc
+     1861 tgtacccttg gacttgacaa ccctgtgtct tggacctctc tgctgtgaat acggactctc
+     1921 tcccactccc cttgtttgct caactggagt gttctaggca gagatctgag ggacagcttc
+     1981 agttgttttt ctgagcaaag tctaaagttt acagtaaata aaatgtttga ctatgatttc
+     2041 attgcacctg tctctccaaa ccctcttgac tctcgagtgt ccttgtctca cccactggaa
+     2101 accacaggta actatgtgtc ataactgctg agtggcttaa tacggaaggc taccagagtg
+     2161 gcacgcactg atttgcctag cattcacatg tgcctttgga tctccagatg caagcctgta
+     2221 tctttccaaa tctctcttgt gccccaaatc agccccgcct gctctcagca taaccccatg
+     2281 cgtcct
+//

@@ -1,0 +1,93 @@
+LOCUS       XM_006277862            1708 bp    DNA              VRT 09-DEC-2013
+DEFINITION  PREDICTED: Alligator mississippiensis beta-2 adrenergic
+            receptor-like (LOC102567188), mRNA.
+ACCESSION   XM_006277862
+VERSION     XM_006277862.1  GI:564242240
+DBLINK      BioProject: PRJNA221578
+KEYWORDS    RefSeq.
+SOURCE      Alligator mississippiensis (American alligator)
+  ORGANISM  Alligator mississippiensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Crocodylia;
+            Alligatoridae; Alligatorinae; Alligator.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006237012.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Alligator mississippiensis
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1708
+                     /mol_type="mRNA"
+                     /country="USA: Florida"
+                     /note="assembly comes from two alligators"
+                     /db_xref="taxon:8496"
+                     /organism="Alligator mississippiensis"
+                     /chromosome="Unknown"
+     gene            1..1708
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 34 Proteins, and 88% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 2 samples with support for all annotated introns"
+                     /db_xref="GeneID:102567188"
+                     /gene="LOC102567188"
+     CDS             1..1179
+                     /product="beta-2 adrenergic receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:564242241"
+                     /db_xref="GeneID:102567188"
+                     /translation="MASARNASGLDSANSTTLSGDVWMVGMGVLMSLIVLAIVFGNVLV
+                     ITAIARFQRLQTVTNCFITSLACADLVMGLAVVPFGASHIMLQMWQFGNFWCEFWTSLD
+                     VLCVTASIETLCVIAVDRYFAITSPFKYQSLLTKGKARVVILVVWLVSALTSFLPIHMH
+                     WYQAESREALDCYEKATCCYFFTNQAYAIASSIISFYLPLVVMVFVYARVFQVAKQQLK
+                     KIDRFHVQGCQQPEHSGRPGRRASKFCLKEHKALKTLGIIMGTFTLCWLPFFIVNIVHV
+                     IQDNIIPNYLYTLLNWLGYVNSAFNPLIYCRSPDFRFAFQELLCLRRSALKLYANGYSN
+                     SNGRSDFHEEDNGYHSGPDKPCELLCEGGAVAATGGLLHCQEIPGCPGMVES"
+                     /gene="LOC102567188"
+                     /protein_id="XP_006277924.1"
+     STS             390..823
+                     /db_xref="UniSTS:258478"
+                     /standard_name="ADRB2sts1"
+                     /gene="LOC102567188"
+ORIGIN
+        1 atggcgtcgg cgcggaacgc cagcgggctg gacagcgcga acagcaccac gctgtcgggg
+       61 gacgtgtgga tggtgggcat gggcgtgctc atgtcgctca tcgtgctggc catcgtcttc
+      121 ggcaacgtgc tggtgatcac ggccatcgcg cgcttccagc gcctgcagac ggtcaccaac
+      181 tgcttcatca cgtcgctggc ttgcgccgac ctggtgatgg ggctggccgt ggtgcccttc
+      241 ggcgccagcc acatcatgct gcagatgtgg cagttcggca acttctggtg cgagttctgg
+      301 acgtcgctgg acgtgctgtg cgtgacggcc agcatcgaga ccttgtgcgt catcgccgtg
+      361 gaccgctact tcgccatcac ctcgcccttc aagtaccaga gcctgctgac caagggcaag
+      421 gcccgcgtag tcatcctcgt ggtgtggctg gtgtcagcgc tcacctcctt cctgcccatc
+      481 cacatgcact ggtatcaggc ggaaagccgg gaggccctgg actgctacga gaaggccacg
+      541 tgctgctact tcttcaccaa ccaggcctac gccatcgcct cctccatcat ctccttctac
+      601 ctgcccttgg tggtcatggt cttcgtctac gcccgggtct tccaggtggc caagcagcag
+      661 ctgaagaaga tcgacaggtt ccacgtccag ggctgccagc agcccgagca cagcggccgg
+      721 ccgggccggc gcgcctccaa gttctgcctc aaggagcaca aagccctgaa gaccctgggc
+      781 atcatcatgg gcaccttcac gctgtgctgg ctgcccttct tcatcgtcaa catcgtgcac
+      841 gtcatccagg acaacatcat ccccaattac ctgtacaccc tcctcaactg gctgggctat
+      901 gtcaattccg ctttcaaccc gctcatctac tgccgcagcc cggacttcag gttcgccttc
+      961 caggagctgc tgtgcctgcg ccgctccgcc ctcaagctct acgccaatgg atactccaac
+     1021 agcaacggca ggagcgactt ccacgaggag gacaacggct accactcggg gccggataag
+     1081 ccttgcgagc tgctgtgcga gggaggtgcc gtcgcggcca caggaggctt gttgcactgt
+     1141 caagagattc ctggctgtcc tggaatggtt gagagttgaa tggatggacc tctcgtcctc
+     1201 accaccctga gctcacaggg ctctgaaaag atagaaagca ggagtgcagt caagcttctt
+     1261 tgagactggg gacactgtgg gaaactacca ttttggcaac tgccttcatc ccagcccatc
+     1321 acccatgagg agtcatccaa aggagaagtt gaagtagtga caaagaacca atgaggatcc
+     1381 atctgcactt caagcatgta gggaacatgg aaaaggggta tctgcattga aagaaccact
+     1441 ttccaggagt cagccatgtg tccaacctgg gaaggctgtg gcaaggcaca acagaagaag
+     1501 gatctcttag caccaaacna gctgagtatt caaacaggga gaaggacacc agtgggtttc
+     1561 cctgccacac caaccttgga aagcatagtt gtaaaaggaa tgaaagctcc agtgatgcac
+     1621 tgttctcttt ataggctaat taatggagga aatgtcaagc tcactgctgc atggtcaggc
+     1681 caggttagga acatgtccag gttttgcc
+//

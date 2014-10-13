@@ -1,0 +1,96 @@
+LOCUS       XM_005334209            1271 bp    DNA              ROD 21-AUG-2013
+DEFINITION  PREDICTED: Spermophilus tridecemlineatus dopamine receptor D2
+            (Drd2), transcript variant X2, mRNA.
+ACCESSION   XM_005334209
+VERSION     XM_005334209.1  GI:532097220
+DBLINK      BioProject: PRJNA210856
+KEYWORDS    RefSeq.
+SOURCE      Ictidomys tridecemlineatus (thirteen-lined ground squirrel)
+  ORGANISM  Ictidomys tridecemlineatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Sciuridae; Xerinae; Marmotini; Ictidomys.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004936612.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Ictidomys tridecemlineatus
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1271
+                     /mol_type="mRNA"
+                     /isolate="#75"
+                     /sex="female"
+                     /db_xref="taxon:43179"
+                     /organism="Ictidomys tridecemlineatus"
+                     /chromosome="Unknown"
+     gene            1..1271
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 7 Proteins, and 20%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:101958798"
+                     /gene="Drd2"
+     CDS             27..1271
+                     /product="D(2) dopamine receptor isoform X2"
+                     /codon_start="1"
+                     /db_xref="GI:532097221"
+                     /db_xref="GeneID:101958798"
+                     /translation="MDPLNLSWYDDDLERQNWSRPFNGSEGKADRPHYNYYAMLLTLLI
+                     FVIVFGNVLVCMAVSREKALQTTTNYLIVSLAVADLLVATLVMPWVVYLEVVGEWKFSR
+                     IHCDIFVTLDVMMCTASILNLCAISIDRYTAVAMPMLYNTRYSSKRRVTVMIAIVWVLS
+                     FTISCPLLFGLNNTDQNECIIANPAFVVYSSIVSFYVPFIVTLLVYIKIYIVLRKRRKR
+                     VNTKRSSRAFRANLKAPLKEAARRAQELEMEMLSSTSPPERTRYSPIPPSHHQLTLPDP
+                     SHHGLHSTPDSPAKPEKNGHAKDHPKIAKIFEIQSMPNGKTRTSLKTMSRRKLSQQKEK
+                     KATQMLAIVLGVFIICWLPFFITHILNIHCDCNIPPVLYSAFTWLGYVNSAVNPIIYTT
+                     FNIEFRKAFMKILHC"
+                     /gene="Drd2"
+                     /protein_id="XP_005334266.1"
+     STS             321..528
+                     /db_xref="UniSTS:266487"
+                     /standard_name="DRD2"
+                     /gene="Drd2"
+     STS             357..447
+                     /db_xref="UniSTS:262987"
+                     /standard_name="DRD2"
+                     /gene="Drd2"
+     STS             771..951
+                     /db_xref="UniSTS:272844"
+                     /standard_name="PMC311033P6"
+                     /gene="Drd2"
+ORIGIN
+        1 tgccacccag tggctccgct gcccccatgg atccactgaa tctgtcctgg tacgatgatg
+       61 acctggagag gcagaactgg agccggccct tcaacgggtc tgaaggaaag gcggacaggc
+      121 cccactacaa ctactatgcc atgctgctca ccctgctcat cttcgtcatc gtcttcggga
+      181 atgtgctggt gtgcatggcc gtgtcccggg agaaggcact gcagaccacc acgaactacc
+      241 tgatcgtcag cctcgctgtg gccgacctcc tcgtcgccac gctggtcatg ccctgggttg
+      301 tctacctgga ggttgtgggt gagtggaaat tcagcaggat tcattgtgac atcttcgtca
+      361 ctctggacgt catgatgtgc acagcaagca tcctgaacct gtgtgccatc agcatcgaca
+      421 gatacacagc tgtggccatg cctatgctgt acaacacacg ctatagctcc aaacgccgag
+      481 tgacagtcat gattgccatt gtctgggtcc tgtccttcac catctcctgc ccgctgctct
+      541 ttggactcaa caacacagac cagaacgagt gcatcattgc caaccctgcc ttcgtggtct
+      601 actcctccat cgtctccttc tacgtgccct tcatcgtcac cctgctggtc tacatcaaga
+      661 tctacatcgt cctccgcaag cgccgcaagc gggtcaacac taagcgcagc agccgagctt
+      721 tcagggccaa cctgaaggcc ccactcaagg aggctgcccg gcgagcccag gagctggaga
+      781 tggagatgct gtccagcacc agcccgccag agaggacccg gtacagcccc atcccgccca
+      841 gccaccacca gctgactctc cccgacccat cccatcacgg cctccacagc acccccgaca
+      901 gccccgccaa accagagaag aatgggcatg ccaaagacca ccccaagatt gccaagatct
+      961 ttgagataca gtccatgccc aatggcaaaa cccggacctc gctcaagacc atgagccgta
+     1021 ggaagctctc ccagcagaag gagaagaaag ccacgcagat gctcgctatt gttcttggcg
+     1081 tgttcatcat ctgctggctg cccttcttca tcacacacat cctgaacata cactgtgact
+     1141 gcaacatccc gcccgtcctg tacagcgcct tcacgtggct gggctacgtc aacagcgcgg
+     1201 tgaaccccat catctacacc accttcaaca tcgagttccg caaggccttc atgaagatcc
+     1261 tacactgctg a
+//

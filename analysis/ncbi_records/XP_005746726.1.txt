@@ -1,0 +1,65 @@
+LOCUS       XP_005746726             490 aa                     VRT 30-SEP-2013
+DEFINITION  PREDICTED: alpha-2Db adrenergic receptor-like [Pundamilia nyererei].
+ACCESSION   XP_005746726
+VERSION     XP_005746726.1  GI:548448293
+DBLINK      BioProject: PRJNA220167
+KEYWORDS    RefSeq.
+SOURCE      Pundamilia nyererei
+  ORGANISM  Pundamilia nyererei
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Haplochromini;
+            Pundamilia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005187582.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pundamilia nyererei Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..490
+                     /isolate="P.nyererei 1_Seehausen"
+                     /sex="female"
+                     /organism="Pundamilia nyererei"
+                     /chromosome="Unknown"
+                     /db_xref="taxon:303518"
+     Protein         1..490
+                     /product="alpha-2Db adrenergic receptor-like"
+                     /calculated_mol_wt="54467"
+     Region          76..468
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          84..>186
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     CDS             1..490
+                     /coded_by="XM_005746669.1:542..2014"
+                     /gene="LOC102209505"
+                     /db_xref="GeneID:102209505"
+ORIGIN
+        1 mdalealtpv tattpatlip nsslenvsqa ssgssrsppl pphsqvasvf ivlvvtviil
+       61 gtvvgnvlvv vavftsralr apqnlflvsl asadilvatl vipfslanev mgywyfgstw
+      121 csfylaldvl fctssivhlc aisldrywsv tkavsynrkr tprriktmis ivwlisivis
+      181 sppllmthke dlgtygennt htqecllnnq twyilssclv sffapgvimi lvyckiyrva
+      241 kqrastvfva knvmerqpsq setcfvgtsr vcqrkgcpqy eldsprppar hsssnidsns
+      301 sthrrgelde idleerscqg eiktslsfss slrfprrggg rmktdegkda egaanslkpp
+      361 psvpppscas iswassdhgs nhfllpspvp vrsrhaslsk nkvaqmrekr ftfvlavvmg
+      421 vfvlcwfpff ftyslhavcr enciipdtlf nlffwigycn sclnpiiyti fnrdfrrafk
+      481 kilfqthkrt
+//

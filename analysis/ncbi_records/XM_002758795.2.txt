@@ -1,0 +1,105 @@
+LOCUS       XM_002758795            1687 bp    DNA              PRI 02-SEP-2014
+DEFINITION  PREDICTED: Callithrix jacchus dopamine receptor D3 (DRD3),
+            transcript variant X3, mRNA.
+ACCESSION   XM_002758795
+VERSION     XM_002758795.2  GI:675731875
+DBLINK      BioProject: PRJNA46205
+KEYWORDS    RefSeq.
+SOURCE      Callithrix jacchus (white-tufted-ear marmoset)
+  ORGANISM  Callithrix jacchus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003184460.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 2, 2014 this sequence version replaced gi:296226237.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Callithrix jacchus Annotation
+            Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1687
+                     /db_xref="taxon:9483"
+                     /mol_type="mRNA"
+                     /organism="Callithrix jacchus"
+                     /chromosome="15"
+     gene            1..1687
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 15 ESTs, 15 Proteins, and
+                     65% coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:100398788"
+                     /gene="DRD3"
+     STS             79..1629
+                     /db_xref="UniSTS:480916"
+                     /gene="DRD3"
+     STS             418..495
+                     /db_xref="UniSTS:157523"
+                     /standard_name="GDB:512205"
+                     /gene="DRD3"
+     CDS             421..1623
+                     /product="D(3) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:296226238"
+                     /db_xref="GeneID:100398788"
+                     /translation="MAPLSQLSSHLNYTCGEENSTGASQVRPHAYYALSYCALILAIVF
+                     GNGLVCMAVLKERALQTTTNYLVVSLAVADLLVATLVMPWVVYLEVTGGVWNFSRICCD
+                     VFVTLDVMMCTASILNLCAISIDRYTAVVMPVHYQHGTGQSSCRRVALMITAVWVLAFA
+                     VSCPLLFGFNTTGDPTVCSISNPDFVIYSSLVSFYLPFGVTVLVYARIYVVLKQRRRKR
+                     ILTRQNSQCISVRPGFPQQTLSPDRAHLELKRYYSICQDTALGGPGFQERGGELKREER
+                     TQNSLSPTIAPKLSLEVRKLSNGRLSTSLKLGPLQPRGVPLREKKATQMVAIVLGAFIV
+                     CWLPFFLTHILNTHCQTCHVSPELYSATTWLGYVNSALNPVIYTTFNIEFRKAFLKILS
+                     C"
+                     /gene="DRD3"
+                     /protein_id="XP_002758841.1"
+     STS             1315..1514
+                     /db_xref="UniSTS:34219"
+                     /standard_name="DRD3-556F"
+                     /gene="DRD3"
+     STS             1445..1622
+                     /db_xref="UniSTS:53374"
+                     /standard_name="RH71216"
+                     /gene="DRD3"
+ORIGIN
+        1 tttctgagtc ctgagaaaag caaactttgc tttgcttggg tatgcctgct gtcagtaaat
+       61 ggctgcagga tccgaactgg taaactcctc ggtctccaga aatcagaaga aaattttagg
+      121 aaagagaaca aataattaaa actctgtaag tcttaatgag gtgctaagga ggcaatccac
+      181 aaatgtttcc ggcagactta ttcagcactg agaaactgaa catcagcaaa gcaggacaaa
+      241 tgtcataact gatgaggacc tgaccactct ctgttcctct gacttttaaa taggttatgc
+      301 actcactctg aaagatacca gaacaaacta taaagaacaa gataaattaa tactttgtaa
+      361 ggaatttaaa agctcattaa aatgtgaagg cccttggcat cacatacctc cctctgggct
+      421 atggcacctc tgagtcagct gagcagccac ctgaactaca cctgtgggga ggaaaactcc
+      481 acaggtgcca gccaggtgcg cccacatgcc tactatgccc tctcctactg cgcgctcatc
+      541 ctggccatcg tcttcggcaa tggtctggtg tgcatggctg tgctgaagga gcgggccctg
+      601 cagactacca ccaactacct agtagtgagc ctggctgtgg cagacttgct ggtggccacg
+      661 ttggtgatgc cctgggtggt atacctggag gtgacaggtg gagtctggaa tttcagccgc
+      721 atttgctgcg atgtttttgt caccctggat gtcatgatgt gtacggccag catcctgaac
+      781 ctctgtgcaa tcagcataga caggtatact gccgtggtca tgcctgttca ctaccagcat
+      841 ggcacgggac agagctcctg tcggcgcgtg gccctcatga tcacagccgt ctgggtactg
+      901 gcctttgctg tgtcctgccc tctcctattt ggcttcaata ccacaggtga ccccactgtc
+      961 tgctccattt ccaacccaga ttttgtcatc tactcttcat tggtgtcctt ctacctgccc
+     1021 tttggagtta ctgtgcttgt ctatgccaga atctatgtgg tgttgaaaca aaggagacgg
+     1081 aaacggatcc tcactcgaca gaacagtcag tgcatcagtg tcaggcctgg cttcccccaa
+     1141 caaaccctct ctcctgaccg ggcacatctg gagctgaagc gctattacag catctgccaa
+     1201 gacactgcct tgggtggacc aggcttccaa gaaagaggag gagagttgaa aagagaggag
+     1261 aggactcaaa actccctgag tcccaccata gcgcccaagc tcagcttaga ggttcgaaaa
+     1321 ctcagcaatg gcagattatc aacatctttg aagctgggac ccctgcaacc tcggggagtg
+     1381 ccacttcggg agaagaaggc aacccaaatg gtggccattg tgcttggggc ctttattgtc
+     1441 tgctggctgc ccttcttctt gacccatatt ctcaataccc actgccagac atgccacgtg
+     1501 tccccagagc tttacagtgc cacaacatgg ctgggctatg tgaatagcgc cctcaacccc
+     1561 gtgatctata ccaccttcaa tatcgagttc cggaaagcct tcctcaagat cctgtcttgc
+     1621 tgaggaagca gaggagggaa cactccttgt acccatgtct agcggccagg ctgttggccc
+     1681 actcaga
+//

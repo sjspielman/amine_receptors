@@ -1,0 +1,86 @@
+LOCUS       XM_005416376            1371 bp    DNA              VRT 13-SEP-2013
+DEFINITION  PREDICTED: Geospiza fortis adrenoceptor alpha 2A (ADRA2A), mRNA.
+ACCESSION   XM_005416376
+VERSION     XM_005416376.1  GI:543246853
+DBLINK      BioProject: PRJNA217051
+KEYWORDS    RefSeq.
+SOURCE      Geospiza fortis (medium ground-finch)
+  ORGANISM  Geospiza fortis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Fringillidae; Emberizinae; Thraupini; Geospiza.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005054300.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Geospiza fortis Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1371
+                     /db_xref="taxon:48883"
+                     /mol_type="mRNA"
+                     /organism="Geospiza fortis"
+                     /chromosome="Unknown"
+                     /sex="female"
+     gene            1..1371
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 12 Proteins"
+                     /db_xref="GeneID:102033754"
+                     /gene="ADRA2A"
+     CDS             37..1371
+                     /product="alpha-2A adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:543246854"
+                     /db_xref="GeneID:102033754"
+                     /translation="MFNLERPFTERGHFFSSMEYQRQLEEEEGYPPPGTNGTFNDSGAG
+                     PGWDAPYPLHTTITLISLASLLMLFTVFGNVLVIIAVFTSRALKAPQNLFLVSLASADI
+                     LVATLVIPFTLANEVMGYWYFGKVWCEIYLALDVLFCTSSIVHLCAISLDRYWSITQAI
+                     EYNLKRTPRRIKCIIFIVWVISAVISFPPLISIEKKSGQQADQGVAVCKINDEKWYIIS
+                     SSIGSFFAPCLIMILVYMRIYQIAKRRTRVPPNKRAERPEKKQNGLADKEDLPATAQLN
+                     GEKAAGGSGGQEGEVNGIDMEETSSSEHQENSQCKKSEKPSRGKTKTKLSQIKPGDSLP
+                     RKTEEERNTKGSRWRGRQNREKRFTFVLAVVIGVFVICWFPFFFTYTLMAICESCSVPD
+                     TLFKFFFWFGYCNSSLNPVIYTIFNHDFRRAFKRILCRIERKMSV"
+                     /gene="ADRA2A"
+                     /protein_id="XP_005416433.1"
+     STS             506..630
+                     /db_xref="UniSTS:266590"
+                     /standard_name="ADRA2A"
+                     /gene="ADRA2A"
+ORIGIN
+        1 gggcgaaggg cgggggtgtc cgcgcagccg gggttgatgt ttaacctgga gcgcccgttc
+       61 acggagaggg gccacttctt ctcctccatg gagtaccagc ggcagctgga ggaggaggag
+      121 ggctaccccc ctcccggcac taatgggacc ttcaacgaca gcggggccgg cccgggctgg
+      181 gacgcgccgt accctctgca caccaccatc actctcatca gcctggccag cttgctcatg
+      241 ctcttcaccg tctttggcaa cgtcctggtc atcatcgctg tcttcaccag ccgggcgctc
+      301 aaagcccccc agaacctctt cctggtctcc ttagcctcag ctgacatcct ggtggccacg
+      361 ctggtcatcc ccttcacact ggcaaatgag gtgatgggct actggtactt cggtaaagtg
+      421 tggtgtgaga tctacctggc cttggatgtg ctgttctgca cctcctccat cgtgcacctc
+      481 tgtgccatca gcctggaccg gtactggtcc atcacacaag ccatcgagta caacctcaag
+      541 cgtaccccgc gacgcatcaa gtgcatcatc ttcatcgtct gggtcatctc ggctgtcatc
+      601 tccttcccac cactcatctc catcgagaag aagagcgggc agcaggctga ccagggggtg
+      661 gcagtgtgca agatcaacga tgagaagtgg tacatcatct cttctagcat tggctccttc
+      721 tttgccccct gcctcatcat gatcctggtc tacatgcgca tctaccagat agccaagagg
+      781 agaacgaggg tcccgccgaa caagcgggca gagcgccctg agaagaagca gaatggcttg
+      841 gctgacaagg aggacctgcc agccacggcg cagctcaacg gggagaaggc agcaggaggc
+      901 agtggcgggc aagagggaga ggtcaatggc atagacatgg aggagacctc ttcctctgag
+      961 caccaggaga acagccagtg caagaagtcg gagaaaccat cgagaggaaa gaccaagact
+     1021 aagctgagcc aaattaagcc cggggacagt ttgcccagga agacagagga agagaggaac
+     1081 accaaagggt cccgctggag aggcaggcag aaccgggaga agcgcttcac ctttgtgctt
+     1141 gcggtggtga tcggggtctt tgtcatctgc tggttcccct tcttcttcac ctacacattg
+     1201 atggccatct gcgagagctg ctccgtgcct gacaccctct tcaagttctt cttctggttc
+     1261 ggttactgca acagctcctt gaaccccgtc atctatacca ttttcaacca tgacttcaga
+     1321 cgggctttca aaaggatcct ctgcaggata gagaggaaaa tgagtgtttg a
+//

@@ -1,0 +1,186 @@
+LOCUS       XM_522752               5589 bp    DNA              PRI 25-OCT-2012
+DEFINITION  PREDICTED: Pan troglodytes 5-hydroxytryptamine (serotonin) receptor
+            2A, G protein-coupled, transcript variant 2 (HTR2A), mRNA.
+ACCESSION   XM_522752
+VERSION     XM_522752.4  GI:410047738
+KEYWORDS    RefSeq.
+SOURCE      Pan troglodytes (chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003457804) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Oct 25, 2012 this sequence version replaced gi:332841269.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Pan troglodytes Annotation Release 102
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..5589
+                     /mol_type="mRNA"
+                     /isolate="Yerkes chimp pedigree #C0471 (Clint)"
+                     /sex="male"
+                     /db_xref="taxon:9598"
+                     /organism="Pan troglodytes"
+                     /chromosome="13"
+     gene            1..5589
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 14 mRNAs, 37 ESTs, 13 Proteins"
+                     /db_xref="GeneID:467355"
+                     /gene="HTR2A"
+     misc_feature    692..694
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR2A"
+     STS             707..2186
+                     /db_xref="UniSTS:482037"
+                     /gene="HTR2A"
+     STS             710..1051
+                     /db_xref="UniSTS:272845"
+                     /standard_name="PMC311033P7"
+                     /gene="HTR2A"
+     CDS             734..2149
+                     /product="5-hydroxytryptamine receptor 2A isoform 2"
+                     /codon_start="1"
+                     /db_xref="GI:114649570"
+                     /db_xref="GeneID:467355"
+                     /translation="MDILCEENTSLSSTTNSLMQLNDDTRLYSNDFNSGEANTSDAFNW
+                     TVDSENRTNLSCEGCLSPSCLSLLHLQEKNWSALLTAVVIILTIAGNILVIMAVSLEKK
+                     LQNATNYFLMSLAIADMLLGFLVMPVSMLTILYGYRWPLPSKLCAVWIYLDVLFSTASI
+                     MHLCAISLDRYVAIQNPIHHSRFNSRTKAFLKIIAVWTISVGISMPIPVFGLQDDSKVF
+                     KEGSCLLADDNFVLIGSFVSFFIPLTIMVITYFLTIKSLQKEATLCVSDLGTRAKLASF
+                     SFLPQSSLSSEKLFQRSIHREPGSYTGRRTMQSISNEQKACKVLGIVFFLFVVMWCPFF
+                     ITNIMAVICKESCNEDIIGALLNVFVWIGYLSSAVNPLVYTLFNKTYRSAFSRYIQCQY
+                     KENKKPLQLILVNTIPALAYKSSQLQMGQKKNSKQDAKTTDNDCSMVALGKQHSEEASK
+                     DNSDGVNEKVSCV"
+                     /gene="HTR2A"
+                     /protein_id="XP_522752.2"
+     STS             814..905
+                     /db_xref="UniSTS:272842"
+                     /standard_name="PMC311033P4"
+                     /gene="HTR2A"
+     STS             1032..1164
+                     /db_xref="UniSTS:31941"
+                     /standard_name="HTR2A-112F"
+                     /gene="HTR2A"
+     STS             2163..2368
+                     /db_xref="UniSTS:58296"
+                     /standard_name="SGC31576"
+                     /gene="HTR2A"
+     STS             2186..2345
+                     /db_xref="UniSTS:480187"
+                     /standard_name="HTR2A"
+                     /gene="HTR2A"
+     STS             2970..3753
+                     /db_xref="UniSTS:462260"
+                     /standard_name="HTR2A_1901"
+                     /gene="HTR2A"
+     STS             5277..5400
+                     /db_xref="UniSTS:40286"
+                     /standard_name="RH48562"
+                     /gene="HTR2A"
+ORIGIN
+        1 ctgatgaaat gaacgaggca gtcagagagc tactccattc ccgtggaaac caggagtccc
+       61 ctggtgcaga cagctcttcc tactttccca tgcagttctt ttgtgcgact ttgaggggct
+      121 cgtgaatgat ttctaaatgt gtgcctgctg aggcgagccg cacagggagg gaggaaccca
+      181 gccgagcggt ggcagaggaa gccaacagga tcctagcagt gcgggagctg gctcagctct
+      241 tgcatgcagt ttttgaagtc agcaaaacag aaaccaaatt actatcatat tatgctggtg
+      301 gaagatcaag aagaggggac tctacaccag tttaattact gtgagagatg cagcgagtca
+      361 cagaataaca aatgtatctc atgtgtggac cctgaagaca aatgacattt atcttcccga
+      421 atgctcaaaa aaaaaaccct gcaacctcta tgctaaaagt tcattctgct tttttgtcct
+      481 cgctttggtg agaaaataat aaaaccaaac agtggactct cctaaaattg tcaatgaaga
+      541 aaacttacag ccaccacagt tcagttcttt aactatcatt gtaataatgg aagacaaaaa
+      601 tccagccccg ggagaccagc atgtacacca gcctcagtgt tacagagtgt gggtacatca
+      661 aggtgaatgg tgagcagaag ctataacctg ttagtccttc cacacctcat ctgctacaag
+      721 ttctggctta gacatggata ttctttgtga agaaaatact tctttgagct caactacgaa
+      781 ctccctaatg caattaaatg atgacaccag gctctacagt aatgacttta actccggaga
+      841 agctaacact tctgatgcat ttaactggac agtcgactct gaaaatcgaa ccaacctgtc
+      901 ctgtgaaggg tgcctctcac catcgtgtct ctccttactt catctccagg aaaaaaactg
+      961 gtctgcttta ctgacagccg tagtgattat tctaactatt gctggaaaca tactcgtcat
+     1021 catggcagtg tccctagaga aaaagctgca gaatgccacc aactatttcc tgatgtcact
+     1081 tgccatagct gatatgctgc tgggtttcct tgtcatgccc gtgtccatgt taaccatcct
+     1141 gtatgggtac cggtggcctc tgccgagcaa gctttgcgca gtctggattt acctggacgt
+     1201 gctcttctcc acggcctcca tcatgcacct ctgcgccatc tcgctggacc gctacgtcgc
+     1261 gatccagaat cccatccacc acagccgctt caactccaga actaaggcat ttctgaaaat
+     1321 cattgctgtt tggaccatat cagtaggtat atccatgcca ataccagtct ttgggctaca
+     1381 ggatgattcg aaggtcttta aggaggggag ttgcttactc gctgatgata actttgtcct
+     1441 gatcggctct tttgtgtcat ttttcattcc cttaaccatc atggtgatca cctactttct
+     1501 aactatcaag tcactccaga aagaagctac tttgtgtgta agtgatcttg gcacacgggc
+     1561 caaattagct tctttcagct tcctccctca gagttctttg tcttcagaaa agctcttcca
+     1621 gcggtcgatc catagggagc cagggtccta cacaggcagg aggactatgc agtccatcag
+     1681 caatgagcaa aaggcatgca aggtgctggg catcgtcttc ttcctgtttg tggtgatgtg
+     1741 gtgccctttc ttcatcacga acatcatggc cgtcatctgc aaagagtcct gcaatgagga
+     1801 tatcattggg gccctgctca atgtgtttgt ttggatcggt tatctctctt cagccgtcaa
+     1861 cccactagtc tacacactgt tcaacaagac ctataggtca gccttttcac ggtatattca
+     1921 gtgtcagtac aaggaaaaca aaaaaccatt gcagttaatt ttagtgaaca ctataccggc
+     1981 tttggcctac aagtctagcc aacttcaaat gggacaaaaa aagaattcaa agcaagatgc
+     2041 caagacaaca gataatgact gctcaatggt tgctctagga aagcagcatt ctgaagaggc
+     2101 ttctaaagac aatagcgacg gagtgaatga aaaggtgagc tgtgtgtgat aggctagttg
+     2161 ccgtggcaac tgtggaaggc acactgagca agttttcacc tatctggaaa aaaaaaaaaa
+     2221 taagagattg gaaaaaatta gacaagtcta gtggaaccaa cgatcatatc tgtatgcctc
+     2281 attttattct gtcaatgaaa agcggggttc aatgctacaa aatgtgtgct tggaaaatgt
+     2341 tctgacagca tttcagctgt gagctttctg atacttattt ataacattgt aaatgatata
+     2401 tctttaaaat gattcacttt tattgtataa ttatgaagcc ctaagtaaat ctaaattaac
+     2461 ttctattttc aagtggaaac cttgctgcta tgctgttcat tgatgacatg ggattgagtt
+     2521 ggttacctat tgctgtaaat aaaaatagct ataaatagtg aaaattttat tgaatataat
+     2581 ggcctcttaa aaattatctt taaaacttac tatggtatat attttgaaag gagaaaaaaa
+     2641 agacactaag gtcagtgtta taaaatctgt attgctaaga taattaaatg aaatacttga
+     2701 caacattttt cattcctgct ttttcataga taccattttg aaatattcac aaggttgctg
+     2761 gcatttgctg catttcaggt taattctcag aagtgaaaaa gacttcaaat gttattcaat
+     2821 aactattgct gctttctctt ctacttcttg tgctttactc tgaatttcca gtgtggtctt
+     2881 gtttaatatt tgttcttcta ggtaaactag caaaaggatg atttaacatt accaaatgcc
+     2941 tttctagcaa ttgcttctct aaaacagcac tatcgaggta tttggtaact tgctgtgaaa
+     3001 tgactgcatc atgcatgcac tcttttgagc agtaaatgta tgttgatgta actgtgtcag
+     3061 gattgaggat gaactcaggt ttccggctac tgacagtggt agagtcctag gacatctctg
+     3121 taaaaagcag gtgactttcc tgtgacactc atcaggtaaa ctgatgcttt cagatccatt
+     3181 ggtttatact atttattaaa accattctgc ttggttccac aatcatctat tgagtgtaca
+     3241 tttatgtgtg aagcaaattt ctagatatga gaaatataaa aataattaaa acaaaatcct
+     3301 tgccttcaaa cgaaatggct cggccaggca cggaggctcg tgcttgtaat cctagcactt
+     3361 tgggaggctg agatgggagg atcacttgag gccaagagtt tgagaccaac ctgggtaaca
+     3421 aagtgagacc tccctgtctc tacaaaaaaa atcaaaaaat tatctgatcc ttgtggcaca
+     3481 caactgtggt cccagctaca cgggaggctg agacacaagg atcacttgag cccagaagct
+     3541 caaggctgca gtgagccaag ttcacaccac tgccatttcc tcctgggcaa cagagtgaga
+     3601 ccctatcaca aaaaaaaaag aaagaaaaaa agaaaatgac taaactgaaa tggtcttagt
+     3661 caaaaaatat aaacagactt atttttagaa tcctttcaac ttatttcctt cttacctggt
+     3721 tcagaaacaa gtttgtttca actgtgagag tagttttaaa aataagtttt cctgattggt
+     3781 taccaataaa caccaaacaa ataaaggagg gggaaaatat catttgaggc ttaacattgc
+     3841 aattaattta gaaatatgca cctcaatctc aagccagttt ataactacca tagttttgag
+     3901 caaaattttt cttctatttc tccaaaaact cactcatttc agtattactc attaacactg
+     3961 ggctccctaa tagaaaagca gatattataa tatttcattg aaatggttac taaagagaaa
+     4021 aagagattaa caacagttaa tccaccttga tattataaca ctcaaggtta aattgcatgt
+     4081 tgttattgga atcaatgtta tatatatgat tacaatgctg aagaatttct attgaatgag
+     4141 aaatagtgtt tgccctaaac ctttgggaaa aaaatacaat ttgaaaacta aagaatgtgg
+     4201 gaagtgtcat tgtgtaattt ggaaatgcat aaaattctca ttatgtcctc atagatatgt
+     4261 tgaaagatgg ttcactattt caaagataga atgtataata tgctgctagt accaaggctg
+     4321 catttgaact gaactactcc ttatgatata ccatactaac tgatgaaaat ataaatgtta
+     4381 aaatgtctcc gctctaatgt attttgcctt cacttgtaac tctgcacatt tcattatata
+     4441 ttagggaaaa gattacagat tctaccccca tatactcaat cttgatcaga atgaacatta
+     4501 atgttgcctg atagatgtct tttgaccacc tatatattac aaatgtgtat gtgttttttt
+     4561 cttccataag tatctattca agtgtatact gtataggcaa atgtgtagct gtatatatgt
+     4621 acagacatgt tctcatgcac tttattcaat atttatatat ttatatggac aaaaagcaag
+     4681 tcaatgaaaa cactcagtat atacacatgt gtgcatgttt gtatcatgtt tatttaaatg
+     4741 tgaattcatg ttctaatatt tctatgacct tccattgctg caaagcagat taaagtgtaa
+     4801 caaaaatatc agctctttaa ataaactgga aattaatcta attttatgga agaactttaa
+     4861 gacaagtcta tgagggtggc gaaaacaatg gtccacatat atagtttctt gatcctaaat
+     4921 aaaatggtac ctttgggccc tttgtttagt ctggcaattt tctgactact atggcttttt
+     4981 aaacagactc acacctaagt gaaacacagt tgtcaaatga tttatggatc tgtgattaaa
+     5041 ggattcactt ttaatcaata ctattaaaac ggagtaacaa accttgctct actttaagtt
+     5101 gaatgataga ttcctctata ttcaaaaaaa agcaattaac tgccataatt agggaaaact
+     5161 gtttaaagca tactgcattt acttggccac agcgccatct catggtaatt ttttaaagtg
+     5221 ctaccgtagc caaattgaac taagtcactg tactgctttc agcaaagggt gcttctccca
+     5281 tttgtgcatc aatgagacat atttataaag tgctaaatta ttctgtgcca tatgtaacaa
+     5341 atacagtgaa gattatttta tgaacttatt ttaattgagg cgatgctaaa agttttcaag
+     5401 aaaggataaa taactgtaaa taaagtagac tcaaaaatga atgcgatttt gtgtgagtcc
+     5461 atagctgtgt ctactaaacg gaattacccc aaatcttcca ggtcatcaga ctcagaactc
+     5521 caggtatcat cctgatattt gagagcaaaa aagcctgtgc ttctggaagt cagccatgtc
+     5581 acagagcta
+//

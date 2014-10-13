@@ -1,0 +1,92 @@
+LOCUS       XM_002755443            1784 bp    DNA              PRI 08-JUN-2012
+DEFINITION  PREDICTED: Callithrix jacchus cholinergic receptor, muscarinic 1,
+            transcript variant 1 (CHRM1), mRNA.
+ACCESSION   XM_002755443
+VERSION     XM_002755443.1  GI:296218555
+KEYWORDS    RefSeq.
+SOURCE      Callithrix jacchus (white-tufted-ear marmoset)
+  ORGANISM  Callithrix jacchus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003184099) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+FEATURES             Location/Qualifiers
+     source          1..1784
+                     /db_xref="taxon:9483"
+                     /mol_type="mRNA"
+                     /organism="Callithrix jacchus"
+                     /chromosome="11"
+     gene            1..1784
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 4 mRNAs, 119 ESTs, 36 Proteins"
+                     /db_xref="GeneID:100401418"
+                     /gene="CHRM1"
+     misc_feature    83..85
+                     /note="upstream in-frame stop codon"
+                     /gene="CHRM1"
+     CDS             146..1528
+                     /product="muscarinic acetylcholine receptor M1 isoform 1"
+                     /codon_start="1"
+                     /db_xref="GI:296218556"
+                     /db_xref="GeneID:100401418"
+                     /translation="MNTSAPPAVSPNITVLAPGKGPWQVAFIGITTGLLSLATVTGNLL
+                     VLISFKVNTELKTVNNYFLLSLACADLIIGTFSMNLYTTYLLMGHWALGTLACDLWLAL
+                     DYVASNASVMNLLLISFDRYFSVTRPLSYRAKRTPRRAALMIGLAWLVSFVLWAPAILF
+                     WQYLVGERTVTAGQCYIQFLSQPIITFGTAMAAFYLPVTVMCTLYWRIYRETENRAREL
+                     AALQGSETPGKGGGSSSSSERSQPGAEGSPETPPGRCCRCCRAPRLLQAYSWKEEEEED
+                     EGSMESLTSSEGEEPGSEVVIKMPMVDPEAQAPTKQPPRSSPNTVKRPTKKGRDRAGKG
+                     QKPRGKEQLAKRKTFSLVKEKKAARTLSAILLAFILTWTPYNIMVLVSTFCKDCVPETL
+                     WELGYWLCYVNSTINPMCYALCNKAFRDTFRLLLLCRWDKRRWRKIPKRPGSVHRTPSR
+                     QC"
+                     /gene="CHRM1"
+                     /protein_id="XP_002755489.1"
+     STS             169..801
+                     /db_xref="UniSTS:273430"
+                     /standard_name="PMC65026P1"
+                     /gene="CHRM1"
+     STS             225..527
+                     /db_xref="UniSTS:253963"
+                     /standard_name="CHRM1"
+                     /gene="CHRM1"
+     STS             261..803
+                     /db_xref="UniSTS:155985"
+                     /standard_name="GDB:197880"
+                     /gene="CHRM1"
+ORIGIN
+        1 ggtggcaaga atcaggttcc agttttctgg aacctcaggt gacttctcta cctgtcacct
+       61 gtcccaggtg atgactttcc tctgaggaag ccctgtagcc tgcctggagg aaggggctcc
+      121 ccaaccccag ccccacctag ccaccatgaa cacctcagcc ccacctgctg tcagccccaa
+      181 catcaccgtc ctggcaccag gaaagggtcc ctggcaagtg gccttcatag ggatcaccac
+      241 gggcctcctg tcactggcca cggtgacagg caacctgctg gtactcatct ccttcaaggt
+      301 caacacggag ctcaagacag tcaataacta cttcctgctg agcctggcct gcgctgacct
+      361 catcattggt accttctcca tgaacctcta caccacatac ctgctcatgg gccactgggc
+      421 tctgggcacg ctagcttgtg acctctggct ggccctggac tatgtggcca gcaacgcctc
+      481 cgtgatgaat ctgctgctca tcagctttga ccgctacttc tccgtgacgc ggcccctgag
+      541 ctaccgtgcc aagcgcacac cccgccgggc agctctgatg atcggcctgg cctggctggt
+      601 ttcctttgtc ctctgggccc cagccatcct cttctggcag tacctggttg gggagcggac
+      661 agtgacggca gggcagtgct acatccagtt cctctcccag cccatcatca cctttggcac
+      721 agccatggcc gccttctacc tcccggtcac agtcatgtgc acgctctact ggcgcatcta
+      781 ccgggagaca gagaaccgag cacgggagct ggcagccctt cagggctctg agacaccagg
+      841 caaagggggt ggcagcagca gcagctcaga gaggtctcag ccaggggccg agggctcccc
+      901 agagactcct ccaggccgct gctgtcgctg ctgcagggcc cccaggctgc tgcaggccta
+      961 cagctggaag gaagaagagg aagaggatga aggctccatg gagtccctca catcctcaga
+     1021 gggagaggag cctggctccg aagtggtgat caagatgccc atggtggacc ccgaggcgca
+     1081 ggcccccacc aagcagcccc cacggagctc cccaaataca gtcaagaggc cgaccaagaa
+     1141 agggcgtgat cgagccggca agggccagaa gccccgaggg aaggagcagc tggccaagcg
+     1201 gaagaccttc tcgctggtca aggagaagaa ggcggctcgg accctgagtg ccatcctcct
+     1261 ggccttcatc ctcacctgga cgccgtacaa catcatggtg ctggtgtcca ccttctgcaa
+     1321 ggactgtgtt cctgagaccc tgtgggagct gggctactgg ctgtgctacg tcaacagcac
+     1381 catcaacccc atgtgctacg cactctgcaa caaagccttc cgggacacct ttcgcctgct
+     1441 gctgctttgc cgctgggaca agagacgctg gcgcaagatc cccaagcgcc ctggctccgt
+     1501 gcaccgcacc ccctcccgcc aatgctgatg gtccctctcc tgcatccctc caccccagtc
+     1561 cccgggagag gccggaggga agcgggcagg ggatgcatcc tcagccccag ggccctgctc
+     1621 aggcctcacc tggcctccca tgcccctagg tcaccttcct gggcagccca gagagaccct
+     1681 gccaactttc cagactgcta ttcccaggca gggagggaaa cccggggaac tggtttttct
+     1741 gttccctgct gggtgggaat gggctcttca ccaggaagaa ggcc
+//

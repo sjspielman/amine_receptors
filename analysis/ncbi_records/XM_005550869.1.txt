@@ -1,0 +1,114 @@
+LOCUS       XM_005550869            2002 bp    DNA              PRI 19-SEP-2013
+DEFINITION  PREDICTED: Macaca fascicularis cholinergic receptor, muscarinic 2
+            (CHRM2), transcript variant X2, mRNA.
+ACCESSION   XM_005550869
+VERSION     XM_005550869.1  GI:544423040
+DBLINK      BioProject: PRJNA215851
+KEYWORDS    RefSeq.
+SOURCE      Macaca fascicularis (crab-eating macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005092964.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Macaca fascicularis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2002
+                     /mol_type="mRNA"
+                     /country="Indonesia: Tinjil, Java South Coast"
+                     /dev_stage="5.8 year-old"
+                     /sex="female"
+                     /db_xref="taxon:9541"
+                     /organism="Macaca fascicularis"
+                     /chromosome="3"
+     gene            1..2002
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 22 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 4 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:102141940"
+                     /gene="CHRM2"
+     CDS             522..1922
+                     /product="muscarinic acetylcholine receptor M2 isoform X2"
+                     /codon_start="1"
+                     /db_xref="GI:544423041"
+                     /db_xref="GeneID:102141940"
+                     /translation="MNNSTNSSNNSLALTSPYKTFEVVFIVLVAGSLSLVTIIGNILVM
+                     VSIKVNRHLQTVNNYFLFSLACADLIIGVFSMNLYTLYTVIGYWPLGPVVCDLWLALDY
+                     VVSNASVMNLLIISFDRYFCVTKPLTYPVKRTTKMAGMMIAAAWVLSFILWAPAILFWQ
+                     FIVGVRTVKDGECYIQFFSNAAVTFGTAIAAFYLPVIIMTVLYWHISRASKSRIKKEKK
+                     EPVANQDPVSPSLVQGRIVKPNNNNMPSSDDGLEHNKIQNGKAPRDPVTENCVQGEEKE
+                     SSNDSTSVSAVASNMRDDEITQDENTVSTSLGHSKDENSKQTCIKIGTKTPKSDSCTPT
+                     NTTVEVVGSSGQNGDEKQNIVARKIVKMTKQPAKKKPPPSREKKVTRTILAILLAFIIT
+                     WAPYNVMVLINTFCAPCIPNTVWTIGYWLCYINSTINPACYALCNATFKKTFKHLLMCH
+                     YKNIGATR"
+                     /gene="CHRM2"
+                     /protein_id="XP_005550926.1"
+     STS             522..1922
+                     /db_xref="UniSTS:481709"
+                     /gene="CHRM2"
+     STS             855..1449
+                     /db_xref="UniSTS:265990"
+                     /standard_name="CHRM2"
+                     /gene="CHRM2"
+     STS             1387..1920
+                     /db_xref="UniSTS:253964"
+                     /standard_name="CHRM2"
+                     /gene="CHRM2"
+     STS             1607..1670
+                     /db_xref="UniSTS:479807"
+                     /standard_name="CHRM2"
+                     /gene="CHRM2"
+ORIGIN
+        1 agctaatcga acacacacgc acgaatacag acacgctctc ctgctgtact aaaggcgccc
+       61 gggcgcaaag acctacggag cgcgcgcggg cgcacacaca cacacacaca ctcacacgct
+      121 ccaggctgcc ggttggccag agcctggcaa tcgcagattt caccaggaaa tcgccgagat
+      181 accggaatag gtgttgcctc cccaaaacta attcctactt ccccaagcac tttggggaag
+      241 aaatgaatcc aacccagctc gccgaggcat ccaggtctcc gttctatttt ggtctccagg
+      301 ctcttcgtga aagccagatc aagggagaaa gagaaccggc ggctggcctc ggactctaag
+      361 cggtgcgcag ctccagcccg ggcggatcgg ccctgaaccc acaaacggct cctcgctcct
+      421 tcaagcctcc accacctcgc agccggggag gcaactggag cgaaaccagc gacaggttta
+      481 aatgtttact tgctacttgg ctactgatta gagaacacaa aatgaataac tcaacaaact
+      541 cctctaacaa tagcctggct cttaccagtc cttataagac atttgaagtg gtgtttattg
+      601 tcctggtggc tggatccctc agtttggtga ccattatcgg gaacattcta gtcatggttt
+      661 ccattaaagt caaccgccac ctccagaccg tcaacaatta ctttttgttc agcttggcct
+      721 gtgctgacct tatcataggc gttttctcca tgaacttgta caccctctac actgtgatag
+      781 gttactggcc tttgggacct gtggtgtgtg acctttggct agccctggac tatgtggtca
+      841 gcaatgcctc agttatgaat ctgctcatca tcagctttga caggtacttc tgtgtcacaa
+      901 aacctctgac ctacccagtc aagcggacca caaaaatggc aggtatgatg attgcagctg
+      961 cctgggtcct ctctttcatc ctctgggctc cagccattct attctggcag ttcattgtag
+     1021 gggtgagaac tgtgaaggat ggggagtgct acattcagtt tttttccaat gctgctgtca
+     1081 cctttggtac ggccattgca gcattctatt tgccagtgat catcatgact gtgctatact
+     1141 ggcacatatc ccgagccagc aagagcagga taaagaagga aaagaaggag cctgtggcca
+     1201 accaagaccc tgtttctcca agtctggtac aaggaaggat agtgaagcca aacaataaca
+     1261 acatgcccag cagtgacgat ggcctggagc acaacaaaat ccagaatggc aaagccccca
+     1321 gagatcctgt gactgaaaac tgtgttcagg gagaggagaa agagagctcc aatgactcca
+     1381 cctcagtcag tgctgttgcc tctaatatga gagatgacga aataactcag gatgaaaaca
+     1441 cagtttccac ttccctgggc cattccaaag atgagaactc taagcaaaca tgcatcaaaa
+     1501 ttggcaccaa gactcccaaa agtgactcat gtaccccaac taataccacc gtggaggtag
+     1561 tggggtcttc aggtcagaat ggagatgaaa agcagaacat tgtagcccgc aagattgtga
+     1621 agatgactaa gcagcctgca aaaaagaagc ctcctccttc ccgagaaaag aaagtcacca
+     1681 ggacaatctt ggctattctg ttggctttca tcatcacttg ggccccatac aatgtcatgg
+     1741 tgctcattaa caccttttgt gcaccttgca tccccaacac tgtgtggaca atcggttact
+     1801 ggctttgtta catcaacagc actatcaacc ctgcctgcta tgcactttgt aatgccacct
+     1861 tcaagaagac ctttaaacac cttctcatgt gtcattataa gaacataggc gctacaaggt
+     1921 aaaacatctt ggaaaaagat agaaggtggg caaggggagc ttgagaagaa taaaagggat
+     1981 aacagagctc ctagttttaa aa
+//

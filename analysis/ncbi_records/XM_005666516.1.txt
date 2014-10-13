@@ -1,0 +1,96 @@
+LOCUS       XM_005666516            2260 bp    DNA              MAM 26-SEP-2013
+DEFINITION  PREDICTED: Sus scrofa adrenoceptor alpha 2C (ADRA2C), mRNA.
+ACCESSION   XM_005666516
+VERSION     XM_005666516.1  GI:545843819
+DBLINK      BioProject: PRJNA28993
+KEYWORDS    RefSeq.
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003610757.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Sus scrofa Annotation Release 104
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2260
+                     /breed="mixed"
+                     /db_xref="taxon:9823"
+                     /mol_type="mRNA"
+                     /organism="Sus scrofa"
+                     /chromosome="8"
+     gene            1..2260
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 13 Proteins, and 99% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:733706"
+                     /gene="ADRA2C"
+     CDS             348..1730
+                     /product="alpha-2C adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:545843820"
+                     /db_xref="GeneID:733706"
+                     /translation="MASPALAAALAAAAAAGPNASGAGEAGSGGAANASGSAWGPPPGQ
+                     YSAGAVAGLAAVVGFLIVFTVVGNVLVVIAVLTSRALRAPQNLFLVSLASADILVATLV
+                     MPFSLANELMAYWYFGQVWCGVYLALDVLFCTSSIVHLCAISLDRYWSVTQAVEYNLKR
+                     TPRRVKATIVAVWLISAVISFPPLVSLYRQPDGAAYPQCGLNDETWYILSSCIGSFFAP
+                     CLIMGLVYARIYRVAKLRTRTLSEKREPAGPDGASPTTENGLGAGENGHCAPPRRPRAD
+                     VEPEDSSAAAERRRRRGALRRGGRRRAGAKGAAGAEGTGTETGTAEPGTLTAARSPGPS
+                     GRLSRASSRSVEFFLSRRRRARSSVCRRKVAQAREKRFTFVLAVVMGVFVLCWFPFFFS
+                     YSLYGICREACQVPDPLFKFFFWIGYCNSSLNPVIYTVFNQDFRRSFKHILFRRRRRGF
+                     RQ"
+                     /gene="ADRA2C"
+                     /protein_id="XP_005666573.1"
+ORIGIN
+        1 ggctcgcggc cggggcgctc tccgtgagcc gggacgaggg cggggccgcg cgaggaccct
+       61 gggacctgcc ccctcccccc gccgccgcgt cgccgctcgc tccgggcgcc tcctgctctg
+      121 cacttacgcg tgtggcagcg gcggggagcc cggcagccac gctctccggc gcgccgctcg
+      181 cccgccgagc caccacggcc gagggccggc tgcggggcgc cgcggtcccc ggcgggcgcg
+      241 cccgaggagc aggcggcgat gcgggcgccg acccgggctg cggggcgccc aagctgccgc
+      301 ggctgcgccc cggctccagg cgggaccgcg tagcttacgg gaggaccatg gcgtccccgg
+      361 cgctggcggc ggcgctggcg gcggcggcgg cggcgggccc caacgcgagc ggcgccggcg
+      421 aggcgggtag cggcggggct gccaacgcct cggggtctgc ctggggtccg cccccgggcc
+      481 agtactcggc gggcgccgtg gcggggctgg cggctgtagt gggcttcctc atcgtcttca
+      541 ccgtggtggg caacgtgctg gtggtgatcg ccgtgctgac cagtcgcgcg ctgcgtgcgc
+      601 cgcagaacct cttcctggtg tcgctggcct cggctgacat cctggtggcc actctggtca
+      661 tgcccttctc cctggccaac gagctcatgg cctactggta cttcgggcag gtgtggtgcg
+      721 gcgtgtacct ggcgctcgat gtgctcttct gcacctcgtc catcgtgcac ctgtgcgcca
+      781 tcagcctgga ccgctactgg tccgtgacgc aggccgtcga gtacaacctg aagcgcacgc
+      841 cgcgccgcgt caaggccacc atcgtggccg tgtggctcat ctcggccgtc atctccttcc
+      901 cgccgctggt ctcgctctac cgccagcccg acggcgccgc ctacccgcag tgtggcctca
+      961 acgacgagac ctggtacatc ctgtcttcct gcatcggctc attcttcgcg ccctgcctca
+     1021 tcatgggcct ggtctacgcg cgcatctacc gcgtggccaa gctgcgcacg cgcacgctga
+     1081 gcgagaagcg cgagcccgca ggccccgacg gcgcgtcccc gaccacggag aacgggctgg
+     1141 gcgcggggga gaacgggcac tgcgcgcccc cgcgccgccc gcgcgccgac gtggagccag
+     1201 aagacagcag cgcagcggcc gagaggcggc ggcgccgggg cgcgctgcgg cggggcgggc
+     1261 ggcggcgcgc gggcgcgaaa ggggccgcag gcgccgaggg cacggggact gagacgggga
+     1321 cggcggagcc gggcacgctg accgccgcga gatccccggg tcccagcggg cgcctgtcgc
+     1381 gcgccagctc gcgctccgtc gagttcttcc tgtcgcgccg gcgccgggcg cgcagcagcg
+     1441 tgtgccgccg caaggtggcc caggcgcgcg agaagcgctt caccttcgtg ctggcggtgg
+     1501 tcatgggcgt gttcgtgctc tgctggttcc cgttcttctt cagctacagc ctgtacggca
+     1561 tctgccgcga ggcctgccag gtgcccgacc cgctcttcaa attcttcttc tggatcggct
+     1621 actgcaacag ctcgctcaac cccgtcatct acaccgtctt caatcaggac ttccggcgct
+     1681 ctttcaagca catcctcttc cgacggagga gaaggggctt caggcagtga tccgcacacc
+     1741 ctcccgggtg ccgagaccct ggacagctcc cggcggagcg gggctggggg gcggcaggcg
+     1801 tggcctcgcg ggagagagtg ggagcagcct tcccagagac caaggattgg cctccggggc
+     1861 gcgcggcggg gctggagcga gggctgggag ctcacggggg cccccaggga gggggaagga
+     1921 gagaggggag acccctctgc cctcccatct cagcaagggg ctgcctctag ggctccaggc
+     1981 ctggttccag ctccaggggt ctgccaaggt gcagctgaga ggtcagaggc acagaccgca
+     2041 ttcgcatcct cccaagttgg tgagaaagga gccagccccc tgccccagca cacgcccccc
+     2101 cctcccgccc cgcccccgtc acttctgagc aagggctgac tccccaggac cgggggggtg
+     2161 gctgtcccag gggaggaagg aggccactga caagctttgg ttactgaaag tatttaaatg
+     2221 tttgccaaaa atgactgaca gccaaaacaa ccaaactctt
+//

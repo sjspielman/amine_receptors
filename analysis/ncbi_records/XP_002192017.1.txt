@@ -1,0 +1,57 @@
+LOCUS       XP_002192017             333 aa                     VRT 12-FEB-2013
+DEFINITION  PREDICTED: trace amine-associated receptor 1 [Taeniopygia guttata].
+ACCESSION   XP_002192017
+VERSION     XP_002192017.1  GI:224048147
+DBLINK      BioProject: PRJNA32405
+KEYWORDS    RefSeq.
+SOURCE      Taeniopygia guttata (zebra finch)
+  ORGANISM  Taeniopygia guttata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Estrildidae; Estrildinae; Taeniopygia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_002198512.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Taeniopygia guttata Annotation Release 101
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..333
+                     /isolate="Black17"
+                     /sex="male"
+                     /organism="Taeniopygia guttata"
+                     /chromosome="3"
+                     /db_xref="taxon:59729"
+     Protein         1..333
+                     /product="trace amine-associated receptor 1"
+                     /calculated_mol_wt="38178"
+     Region          47..301
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <187..315
+                     /note="Protein of unknown function (DUF1129); cl11555"
+                     /db_xref="CDD:264421"
+                     /region_name="DUF1129"
+     CDS             1..333
+                     /coded_by="XM_002191981.1:1..1002"
+                     /gene="TAAR1"
+                     /db_xref="GeneID:100230417"
+ORIGIN
+        1 mqlfcesing scirsswsns irismyifmv ciilatvagn ltviisishf kqlhtptnfl
+       61 ilsmatvdfl lgffimpcsm vrsvehcwyf geffckihts mdimlstasi fhlsfisidr
+      121 yyavcdplry kskintfviv vmvciswmvp aafafgmifl dlnlrgaeki ynhvhcaggc
+      181 flifsetsgi vasivsfyip gfvmlciyrk iysvarkqar sinaisrkkm efemkhdisf
+      241 crerkaaktl giimgaflic wtpfffstvi npfmnyvipp iiidalvwfg ylnstlnpiv
+      301 yaffymwfrr alkiilfgkv fqqdssrthl fad
+//

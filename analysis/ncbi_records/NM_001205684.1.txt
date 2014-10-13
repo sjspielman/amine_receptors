@@ -1,0 +1,91 @@
+LOCUS       NM_001205684            1704 bp    DNA              MAM 12-SEP-2013
+DEFINITION  Bos taurus adrenergic, alpha-1D-, receptor (ADRA1D), mRNA.
+ACCESSION   NM_001205684
+VERSION     NM_001205684.1  GI:329664155
+KEYWORDS    RefSeq.
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (bases 1 to 1704)
+  AUTHORS   Zimin,A.V., Delcher,A.L., Florea,L., Kelley,D.R., Schatz,M.C.,
+            Puiu,D., Hanrahan,F., Pertea,G., Van Tassell,C.P., Sonstegard,T.S.,
+            Marcais,G., Roberts,M., Subramanian,P., Yorke,J.A. and Salzberg,S.L.
+  TITLE     A whole-genome assembly of the domestic cow, Bos taurus
+  JOURNAL   Genome Biol. 10 (4), R42 (2009)
+   PUBMED   19393038
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from
+            AAFC03072445.1.
+            On Apr 20, 2011 this sequence version replaced gi:119905510.
+            Sequence Note: The RefSeq transcript and protein were derived from
+            genomic sequence to make the sequence consistent with the reference
+            genome assembly. The genomic coordinates used for the transcript
+            record were based on alignments.
+            ##Evidence-Data-START##
+            RNAseq introns :: single sample supports all introns SRS369783,
+            SRS369785 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1704
+                     /map="13"
+                     /mol_type="mRNA"
+                     /breed="Hereford"
+                     /db_xref="taxon:9913"
+                     /organism="Bos taurus"
+                     /chromosome="13"
+     gene            1..1704
+                     /note="adrenergic, alpha-1D-, receptor"
+                     /db_xref="BGD:BT24991"
+                     /db_xref="GeneID:539543"
+                     /gene="ADRA1D"
+     CDS             1..1704
+                     /product="alpha-1D adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:329664156"
+                     /db_xref="BGD:BT24991"
+                     /db_xref="GeneID:539543"
+                     /translation="MTFRDLLSFSFEGPGSDGSASGTGRGGGAGGAAASEGQAVDGVPG
+                     AAGCGGGGGGVVGAGSSEDNRSSSGEPGSPGAGGEVNGTAAVEGLVVSAQGVGVGVFLA
+                     AFILTAVAGNVLVILSVACNRHLQTVTNYFIVNLAVADLLLSATVLPFSATMEVLGFWA
+                     FGRAFCDVWAAVDVLCCTASILSLCTISVDRYVGVRHSLKYPSIMTERKAAAILALLWA
+                     VAVVVSVGPLLGWKEPVPPDESFCGITEEAGYAVFSSLCSFYLPMAVIVVMYCRVYVVA
+                     RSTTRSLEAGVKRERGKASEVVLRIHCRGASPGSAETHWGMHSTKGRKFRSSLSVRLLK
+                     FSREKKAAKTLAIVVGVFVLCWFPFFFVLPLGSLFPQLKPSEGVFKVIFWLGYFNSCVN
+                     PLIYPCSSREFKRAFLRLLRCQCHHSRQRRRPLWSIYSRNWQASNGSSHPDCPPGPGAI
+                     PTRAPQAFTVPSAPGSLGASKAQAPAVTCRKMPCTFREWRLLRPFQRPATQLHAKVSSP
+                     SQKIHTREAMCALHSEVEVVFLGVPHDAAEGTTCQAYKLEDYSHLQETDI"
+                     /gene="ADRA1D"
+                     /protein_id="NP_001192613.1"
+ORIGIN
+        1 atgactttcc gcgatctcct gagcttcagt ttcgagggac ccggctcgga cggcagcgcc
+       61 agtgggactg gtagaggggg aggcgcgggc ggcgctgccg cctcggaggg ccaggcggtg
+      121 gacggcgtgc ctggggccgc gggctgcggc ggcggcggcg gcggcgtggt gggcgcgggc
+      181 agcagcgagg acaaccggag ctcctctgga gagcccggga gccccggcgc cggcggcgag
+      241 gtgaatggca cagcggccgt cgaggggctg gtggtgagtg ctcagggagt gggtgtgggc
+      301 gtcttcctgg cagccttcat cctcacagct gtggcaggca acgtgctggt catcctctcg
+      361 gtggcctgca accgccacct gcaaacggtc acaaactatt ttattgtgaa cttggctgtg
+      421 gccgacctgc tgctaagtgc tacagtgctc cccttttcgg ccaccatgga ggtcctgggc
+      481 ttctgggcct ttggccgggc cttctgcgac gtctgggccg ccgtggacgt gctgtgctgc
+      541 acggcctcca tcctcagcct ctgcacgatc tcggtggacc ggtacgtggg tgtacgccat
+      601 tcgctgaagt acccctccat catgaccgag cgcaaggcag cagccatcct ggcgctgctc
+      661 tgggccgtag ctgtcgtcgt gtccgtgggg ccactgctgg gatggaagga gccggtgccc
+      721 ccggacgaga gcttctgcgg catcacagag gaggcaggct atgctgtctt ctcctccctg
+      781 tgctctttct acctgcctat ggcagtcatc gtggtcatgt actgccgtgt gtacgtggtg
+      841 gcgcgaagca ccacgcgcag cttggaggcg ggcgtcaagc gcgagcgcgg caaggcctcg
+      901 gaggtggtgc tgcgcatcca ctgtcgcggc gccagccctg gctcagctga gacccattgg
+      961 gggatgcaca gcaccaaggg tcgcaagttc cgcagctcac tgtcggtgcg tctgctcaag
+     1021 ttctcccgcg agaagaaggc ggccaagacg ctggccattg tcgtgggcgt ctttgtgctc
+     1081 tgctggttcc cctttttctt cgtcctccca ctgggctccc tgttcccaca gctgaagccc
+     1141 tcagagggtg tcttcaaggt tatcttctgg ctgggctact tcaacagttg tgtgaatcca
+     1201 ctcatctacc cctgctccag cagggagttc aagcgtgcct tcctccgcct cctgcgctgc
+     1261 cagtgccatc atagtcgcca gcgccgccgc ccactctgga gtatctacag tcgcaactgg
+     1321 caagcttcaa atggcagctc acacccagac tgccctcctg gcccaggtgc catacccacc
+     1381 agggccccac aggccttcac tgtgccctca gcccctggct ccctgggcgc atccaaagca
+     1441 caggctccag ctgtcacctg tcgaaagatg ccctgcacct tccgtgagtg gaggcttctc
+     1501 cggccattcc agagacctgc tacccagctg catgccaaag tctccagccc atcgcaaaag
+     1561 atccacacca gagaggccat gtgcgccctg cactcagagg tggaagtggt gttcttaggt
+     1621 gtcccccatg atgcagctga gggtactacc tgccaggctt ataaactgga ggactacagc
+     1681 catctccaag agactgatat ttaa
+//

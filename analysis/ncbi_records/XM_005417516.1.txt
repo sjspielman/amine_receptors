@@ -1,0 +1,98 @@
+LOCUS       XM_005417516            2116 bp    DNA              VRT 13-SEP-2013
+DEFINITION  PREDICTED: Geospiza fortis cholinergic receptor, muscarinic 5
+            (CHRM5), mRNA.
+ACCESSION   XM_005417516
+VERSION     XM_005417516.1  GI:543250241
+DBLINK      BioProject: PRJNA217051
+KEYWORDS    RefSeq.
+SOURCE      Geospiza fortis (medium ground-finch)
+  ORGANISM  Geospiza fortis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Fringillidae; Emberizinae; Thraupini; Geospiza.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005054301.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Geospiza fortis Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2116
+                     /db_xref="taxon:48883"
+                     /mol_type="mRNA"
+                     /organism="Geospiza fortis"
+                     /chromosome="Unknown"
+                     /sex="female"
+     gene            1..2116
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 mRNAs, 1 EST, 23 Proteins"
+                     /db_xref="GeneID:102040192"
+                     /gene="CHRM5"
+     CDS             530..2116
+                     /product="muscarinic acetylcholine receptor M5"
+                     /codon_start="1"
+                     /db_xref="GI:543250242"
+                     /db_xref="GeneID:102040192"
+                     /translation="MEVNLFSNSTVVNSSSINHKQLEGHSLWEVITIATVTAIVSLITI
+                     VGNILVMISFKVNSQLKTVNNYYLLSLACADLIIGIFSMNLYTSYILIGHWTLGSLACD
+                     LWLALDYVASNASVMNLLVISFDRYFSITRPLTYRAKRTPKRAGIMIGMAWLISFMLWA
+                     PVILCWQYFVGERTVPPEECQIQFLYEPIITFGTAIAAFYIPVSVMTILYCRIYKETEK
+                     RTKDLAELQGSESVAEYETIKPQKTLLKSCFSCKQQNLVKRERCQASWSSSSRSTSATA
+                     KASQAASTCMDWAKADQLTTCSSYASSEDEDKLATDPVFQVTYKSPSKSKAEEYNETTD
+                     VVVKDQPEESDFENQKYFLSPTKEHVQKSKKCVAYKFRLVVKADGTQEGNNGCRKVKIT
+                     PCSAALSKDPSIKSMDPNINNQITKRKRMVLIKERKAAQTLSAILLAFIITWTPYNIMV
+                     LISTFCSDCIPLTLWHLGYWLCYVNSTVNPMCYALCNKTFRKTFKMLLFCQWKKKKVEE
+                     KLYWQGNTRLP"
+                     /gene="CHRM5"
+                     /protein_id="XP_005417573.1"
+ORIGIN
+        1 gaaggctacc aaaatgtaaa aggaaataac ttttcagtgt tggaatagca ccagaaagca
+       61 gacggaattt actgcatagc aaatacttat tttttagatg ggtgcttgag ttgactgggg
+      121 tcagtgcatt tgccttttat taatatgttt tttggttggg agggaaagat gcaaagttca
+      181 caggtccttt ctgttacctg agcagggcag aattaacaaa aatcctgaat gtagaggaac
+      241 tcagatactg aagatacctg gaaataaact ggaaacaagc aataccacaa gagcaaagca
+      301 gcagtgaaca agacgacgct gtgaaaaaga aatcacaaga cgagagtgca caatgcattt
+      361 caaatagaaa aaagcttcct atctgctgag tgagtctcag tatattctga cagagcacag
+      421 acaaagcttc aatcaagtat ctcctagcta tctccaaaag gatgcttctg agtacagaaa
+      481 gcagtatgca acagtgctaa ggtcctgatg acaatacgcc aggacaagaa tggaagtcaa
+      541 tttattcagc aattctactg ttgtaaacag ttcatccatc aaccataagc agttagaagg
+      601 acatagcctc tgggaagtca tcactattgc cactgtaact gcaattgtaa gcttaataac
+      661 catagtggga aatattcttg taatgatatc ctttaaggtc aacagtcagc tcaaaactgt
+      721 caacaattac tacttgctca gccttgcctg tgcagatctc atcattggga tattttctat
+      781 gaacctttat acatcctaca tactcatagg ccattggact cttggaagcc tcgcctgtga
+      841 cctgtggcta gcactggact atgtagctag caatgcctca gtaatgaacc tcctagtcat
+      901 cagttttgac agatattttt ccatcacaag gcctttaact tacagggcca aacgcacacc
+      961 caaaagagct ggcatcatga ttggtatggc ttggctgatt tccttcatgt tgtgggcgcc
+     1021 tgtaatcttg tgctggcaat attttgtggg tgaacgaaca gtaccacctg aagagtgcca
+     1081 gatacagttt ctgtatgaac ccattattac ctttggtact gcaattgctg ctttttacat
+     1141 tccagtatct gtgatgacca ttctgtactg ccgcatttac aaagagaccg agaaacgcac
+     1201 caaggacctc gctgaactgc agggctcaga gtctgtggca gagtatgaga caataaagcc
+     1261 tcagaaaact ctcctgaagt cttgcttcag ttgcaagcag caaaacttag tcaaaagaga
+     1321 gaggtgtcag gcttcttggt cctcatctag ccgaagtaca tcagctacgg cgaaggcctc
+     1381 ccaggcagcg agtacttgca tggactgggc caaagctgac cagttaacca cctgcagcag
+     1441 ctacgcctcc tcagaagatg aggataaact tgccactgac ccagttttcc aagtaactta
+     1501 caaaagtcca tctaaaagta aggcagaaga gtataatgag actacagatg ttgttgtcaa
+     1561 agaccaacct gaagaaagtg attttgagaa ccagaaatac tttttgtcac ctaccaaaga
+     1621 gcatgtacaa aaaagtaaaa aatgtgtggc ctataaattc cgtttggtgg ttaaggctga
+     1681 tggcactcag gaaggcaaca atggttgccg aaaagtaaaa ataactcctt gttctgctgc
+     1741 tctgtcaaag gacccttcca tcaaaagcat ggatccaaat ataaataacc agatcaccaa
+     1801 aaggaaacgc atggttctta taaaggaacg caaagcagca cagactttaa gtgccattct
+     1861 tttggctttt atcatcactt ggactcccta taatatcatg gttttgatct ccacattttg
+     1921 ctctgactgc atccccctga cgctgtggca ccttggatat tggctatgct atgtgaacag
+     1981 tactgttaac cccatgtgtt atgccctctg taataaaact ttcaggaaga cttttaagat
+     2041 gctgcttttc tgccagtgga aaaagaaaaa agtggaagag aaactatact ggcagggcaa
+     2101 taccagactg ccataa
+//

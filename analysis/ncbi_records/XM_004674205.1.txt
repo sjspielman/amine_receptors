@@ -1,0 +1,92 @@
+LOCUS       XM_004674205            1642 bp    DNA              MAM 30-MAY-2013
+DEFINITION  PREDICTED: Condylura cristata 5-hydroxytryptamine (serotonin)
+            receptor 2B, G protein-coupled (HTR2B), mRNA.
+ACCESSION   XM_004674205
+VERSION     XM_004674205.1  GI:507926004
+DBLINK      BioProject: PRJNA193510
+KEYWORDS    RefSeq.
+SOURCE      Condylura cristata (star-nosed mole)
+  ORGANISM  Condylura cristata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Insectivora; Talpidae;
+            Condylura.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004567103.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Condylura cristata Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1642
+                     /mol_type="mRNA"
+                     /isolate="star-nosed mole 26May11"
+                     /sex="female"
+                     /db_xref="taxon:143302"
+                     /organism="Condylura cristata"
+                     /chromosome="Unknown"
+     gene            1..1642
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 9 Proteins"
+                     /db_xref="GeneID:101628897"
+                     /gene="HTR2B"
+     misc_feature    59..61
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR2B"
+     CDS             122..1633
+                     /product="5-hydroxytryptamine receptor 2B"
+                     /codon_start="1"
+                     /db_xref="GI:507926005"
+                     /db_xref="GeneID:101628897"
+                     /translation="MTSIATDHADHCTKLGQLTEKQQMAFSCRMSEQRTIPELILQSSL
+                     DQLFSSNGSGFQTDSTPEEMKQPGEEQGNKPRWAALLILLVIIPTIGGNILVILAVSLE
+                     KKLQYATNYFLMSLAVADLLVGLFVMPIALLTIMFEAMWPLPLVLCPAWLFLDVLFSTA
+                     SIMHLCAISVDRYIAIKKPIQANQCNSRATAFIKITVVWLISIGIAIPVPVRGIEADLG
+                     NADNITCVMTKDRFSNFKLFGSLAAFFIPLAIMIITYFLTIHALQKKAYLVKNKPPPRL
+                     PWLNVSTIFQRDETSCPSPEKVAMLDGSCKDKTLPTSSDDILVRRMSTAGKKSLQTISN
+                     EQRASKVLGIVFFLFLLMWCPFFITNITSVLCDSCNQTTLEMLLEIFVWVGYVSSGVNP
+                     LVYTLFNKTFRDAFGRYITCNYWATKSKKTLRNCSSNIYFRNPMAENSKFFMKHGVRNG
+                     VNPATYQSPMRLRSSTIQSSSIILLDTLLLTENEGDKIEEQVSYV"
+                     /gene="HTR2B"
+                     /protein_id="XP_004674262.1"
+ORIGIN
+        1 acacgggcat gtgctgtgtg ctgtgcgctg tcatttttga gaacctgaat ttttttttta
+       61 aaggaaggag tcaactttgg ctttgagtgt ttggccaggg tacgatgcct taaaaaagcc
+      121 gatgaccagc atagctactg accatgctga ccactgtaca aaactgggcc aactcacaga
+      181 aaaacagcaa atggctttct cttgtagaat gtctgaacaa agaacaattc ctgagcttat
+      241 tttgcagagc tcacttgatc agttattttc ttctaatggg tcgggattcc agacagactc
+      301 gacaccggag gaaatgaagc agcctggtga ggagcaggga aacaaaccac gctgggcagc
+      361 tctcctgata ctcctggtga taatacccac cattggggga aacatccttg ttattctggc
+      421 tgtttcactg gagaaaaagc tgcaatatgc caccaattat ttcctaatgt cactggcggt
+      481 agctgatttg ctggttggat tgtttgtgat gccgattgcc cttctgacaa taatgtttga
+      541 agcgatgtgg cccctcccac ttgttctatg ccctgcctgg ttatttcttg atgttctttt
+      601 ttctactgcg tccatcatgc acctctgtgc catttcagtg gatcgttaca tagccatcaa
+      661 aaaaccaatc caggccaatc aatgtaactc tagagccaca gcattcatca agattactgt
+      721 ggtgtggtta atttcaatag gcattgccat tccagtccca gttagaggga tagaagctga
+      781 tctgggcaat gcagacaaca tcacttgcgt catgaccaag gatcgtttta gcaatttcaa
+      841 gctctttggc tcactggctg ccttttttat accactggca atcatgatta tcacctactt
+      901 tctcacaatc catgctttgc agaagaaagc ttacttggtc aaaaacaagc cacctccacg
+      961 tctaccgtgg ctgaatgtgt ctacaatttt ccaaagggat gaaacatcct gcccatcacc
+     1021 tgaaaaggtg gcaatgttag atggttcttg caaggacaaa accctgccca cctcaagtga
+     1081 tgacatcctt gtgcgaagaa tgtctacagc tggaaaaaag tcattacaga ccatttccaa
+     1141 tgaacagaga gcctcaaagg ttctagggat tgtgtttttc ctttttttgc ttatgtggtg
+     1201 tccctttttt attacaaata taacttcagt tttatgtgat tcctgcaacc agactactct
+     1261 tgaaatgctc ctggagatat ttgtgtgggt aggctatgtt tcctcagggg tgaatccact
+     1321 ggtctatact ctctttaata agacttttcg ggatgcattt ggccgataca tcacctgcaa
+     1381 ttactgggcc acaaaatcaa aaaaaactct tagaaattgc tctagtaata tctactttcg
+     1441 gaatccaatg gcagagaact ctaagttttt catgaaacat ggagtgagaa atggggttaa
+     1501 ccctgccacg tatcagagcc caatgaggct ccgaagttca accattcagt cttcatcaat
+     1561 tattctacta gatacacttc tcttaactga aaatgaaggg gacaaaattg aagagcaagt
+     1621 cagttatgta tagcaaaagt gg
+//

@@ -1,0 +1,92 @@
+LOCUS       XM_001513493            1455 bp    DNA              MAM 29-APR-2014
+DEFINITION  PREDICTED: Ornithorhynchus anatinus adrenoceptor beta 1 (ADRB1),
+            mRNA.
+ACCESSION   XM_001513493
+VERSION     XM_001513493.2  GI:620962128
+DBLINK      BioProject: PRJNA19039
+KEYWORDS    RefSeq; includes ab initio.
+SOURCE      Ornithorhynchus anatinus (platypus)
+  ORGANISM  Ornithorhynchus anatinus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Monotremata; Ornithorhynchidae; Ornithorhynchus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001794184.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Apr 29, 2014 this sequence version replaced gi:149634615.
+            ##RefSeq-Attributes-START##
+            ab initio :: 13% of CDS bases
+            ##RefSeq-Attributes-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Ornithorhynchus anatinus Annotation
+            Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1455
+                     /mol_type="mRNA"
+                     /country="Australia: Upper Barnard River on Glen Rock
+                     Station, New South Wales"
+                     /isolate="Glennie"
+                     /sex="female"
+                     /db_xref="taxon:9258"
+                     /tissue_type="liver; lung; brain; spleen"
+                     /organism="Ornithorhynchus anatinus"
+                     /chromosome="Unknown"
+     gene            1..1455
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 22 Proteins, and 85% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:100082919"
+                     /gene="ADRB1"
+     CDS             22..1455
+                     /product="beta-1 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:149634616"
+                     /db_xref="GeneID:100082919"
+                     /translation="MGDGGLPLGPQPRNLSTPWPPPDGAPGSSRPAGPAASAPAGPPWS
+                     QQWTAGVGLLMALMVVLIVAGNVLVIAAVARTQRLQTLTNLFIISLASADLVMGLLVVP
+                     FGATLVVWGRWEFGSFFCELWTSVDVLCVTASIETLCVIALDRYIAITSPFRYRSLLTR
+                     ARARGLVCGVWAISGLVSFLPILMHWWRAAGDEARRCYDDPKCCDFVTNRAYAIASSVV
+                     SFYLPLAVMAFVYLRVFREARKQVKKIDRCERRFYGGARPPSPTAPTAPRARSPPPRPP
+                     SPPAPPAPPPPPPRSPSFPCQPPPSGLPNGRPGKRRPSRLLALKEHKALKTLGIIMGVF
+                     TLCWLPFFLANVVKVFHRDLVPDRLFVFFNWLGYANSAFNPIIYCRSPDFRQAFQRLLC
+                     RPRPASRRHGRHGRPRRRHRLLLLLLGAGPEGRPPPAPRHPDPDPDPGPDPAPPWTGCN
+                     GGAPGDADPGRDACSESQL"
+                     /gene="ADRB1"
+                     /protein_id="XP_001513543.1"
+ORIGIN
+        1 ctttgacctc cggcggccgc catgggggac ggggggctcc ccctcggccc gcagccccgc
+       61 aacctgtcga cgccctggcc gcctcccgac ggggcccccg gctcttcccg gccggcgggc
+      121 ccggccgcct cggcgccggc gggcccgccg tggtcccagc agtggacggc cggcgtgggg
+      181 ctgctgatgg ccctgatggt ggtgctgatc gtggcgggca acgtgctggt gatcgcggcc
+      241 gtggcccgga cgcagcggct gcagacgctg accaacctgt tcatcatctc cctggccagc
+      301 gccgacctgg tcatggggct gctggtggtg cccttcgggg ccacgctggt ggtgtggggc
+      361 cgctgggagt tcggctcctt cttctgcgag ctgtggacct cggtggacgt gctgtgtgtg
+      421 acggccagca tcgagaccct gtgcgtcatc gccctggacc gctacatcgc catcacctcg
+      481 cccttccgct accgcagcct gctgacccgg gcccgggccc gaggcctggt gtgcggcgtg
+      541 tgggccatct cgggcctggt gtccttcctg cccatcctca tgcactggtg gcgggccgcc
+      601 ggcgacgagg cccggcgctg ctacgacgac cccaagtgct gcgacttcgt caccaaccgg
+      661 gcctacgcca tcgcctcgtc ggtcgtgtcc ttctacctgc ccctggccgt catggccttc
+      721 gtctacctgc gcgtcttccg cgaggcgcgc aagcaggtca agaagatcga ccgctgcgag
+      781 cgccgcttct acggcggggc caggccgccc tcgcccacgg cgcccacggc gccccgggcc
+      841 cggtcccccc ctcctcggcc gccatccccc cccgctcctc ctgctcctcc tcctcctcct
+      901 cctcggtcgc catcgtttcc ctgtcagccg cccccctcgg gcctccccaa cggccgcccc
+      961 ggcaagaggc gcccctcccg cctcctggcc ctcaaggagc acaaggccct gaagaccctg
+     1021 ggcatcatca tgggcgtctt caccctgtgc tggctgccct tcttcctggc caacgtggtc
+     1081 aaggtcttcc accgcgacct ggtgcccgac cggctcttcg tcttcttcaa ctggctgggc
+     1141 tacgccaact cggccttcaa ccccatcatc tactgccgca gccccgactt ccgccaggcc
+     1201 ttccagcggc tcctctgccg cccccgtccg gcctcccgcc gccatggccg ccacggccgc
+     1261 ccccgccgcc gccatcgcct cctcctcctc ctcctgggcg ccggccccga gggccgcccg
+     1321 ccgcccgcgc cccgccaccc cgaccccgac cccgaccccg gccccgaccc ggccccgccc
+     1381 tggaccggct gcaacggcgg cgcccccggg gacgcagacc ccggccgcga tgcctgctcc
+     1441 gagtcccagc tctag
+//

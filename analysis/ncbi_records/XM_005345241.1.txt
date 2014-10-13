@@ -1,0 +1,87 @@
+LOCUS       XM_005345241            1529 bp    DNA              ROD 21-AUG-2013
+DEFINITION  PREDICTED: Microtus ochrogaster 5-hydroxytryptamine (serotonin)
+            receptor 1F, G protein-coupled (Htr1f), mRNA.
+ACCESSION   XM_005345241
+VERSION     XM_005345241.1  GI:532002043
+DBLINK      BioProject: PRJNA210839
+KEYWORDS    RefSeq.
+SOURCE      Microtus ochrogaster (prairie vole)
+  ORGANISM  Microtus ochrogaster
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Arvicolinae; Microtus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004948969.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Microtus ochrogaster Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1529
+                     /mol_type="mRNA"
+                     /isolate="Prairie Vole_2"
+                     /sex="female"
+                     /db_xref="taxon:79684"
+                     /organism="Microtus ochrogaster"
+                     /chromosome="2"
+     gene            1..1529
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 mRNAs, 1 long SRA read, 17
+                     Proteins, and 59% coverage of the annotated genomic feature
+                     by RNAseq alignments"
+                     /db_xref="GeneID:101983385"
+                     /gene="Htr1f"
+     CDS             312..1412
+                     /product="5-hydroxytryptamine receptor 1F"
+                     /codon_start="1"
+                     /db_xref="GI:532002044"
+                     /db_xref="GeneID:101983385"
+                     /translation="MDFLNSSDQNLTSGERLNRMPSKILVSLTLSGLALMTTTINSLVI
+                     AAIIVTRKLHHPANYLICSLAVTDFLVAVLVMPFSIVYIVKERWIMGPILCDIWLSIDI
+                     ICCTCSILHLSVIALDRYRAITDAVEYARKRTPKNAGIMITIVWVISVFISMPPLFWRQ
+                     QGTSRVNECVIKHDHIASTIYSTFGAFYIPLVLILILYYKIYRAARTLYHKRQASRVMK
+                     EEMNGQVLLESGEKSIKLVSASYMLEKSLSDPSTDFDRIQSIVKSPRSELKHEKSWRRQ
+                     KISGTRERKAATTLGLILGAFVICWLPFFVKELVVNVCDKCKLSDEVSNFLTWLGYLNS
+                     LINPLIYTIFNEDFKKAFQKLVRCRC"
+                     /gene="Htr1f"
+                     /protein_id="XP_005345298.1"
+ORIGIN
+        1 gtcggccctc gggctagctg gcgtctggaa cccgccctgg agctgcgccc caagctgcag
+       61 cgcgcattca gctcgcccgc ccaggagcag ctgggacgcg ccgctgtcgc ccgcgcacga
+      121 tcgcggtggg ctgtggacct gagcccctga gcttcgctag ggggaggccg aattgaaatg
+      181 gaattgtact gtggacagct cactaacttc tcccaagatc aggaagtgaa gtgagaatga
+      241 aaaccaacag ttgaacccat cacaccaagg tttttatttt ccaactctat taacatttta
+      301 aacaaaaaga aatggatttt ttaaattcat cagatcaaaa cttgacctca ggggaacgct
+      361 taaaccgaat gccatccaaa attttagtat ccctcactct gtccgggctg gcactgatga
+      421 ccacgactat caactccctc gtgattgctg caatcattgt gactcggaag ctgcaccacc
+      481 cagccaacta tttaatttgt tccctggcag ttacagattt tcttgtagct gtcctcgtga
+      541 tgcccttcag tattgtgtac attgtgaaag aaagatggat tatgggacca atactctgtg
+      601 acatttggct gagcatcgac atcatctgtt gtacttgttc catcttgcat ctatcggtga
+      661 tagccctgga taggtaccga gcaatcacag atgctgttga atatgccagg aagaggactc
+      721 ccaagaacgc tggcatcatg atcacaatag tgtgggttat atctgtcttc atctctatgc
+      781 cccctctctt ctggaggcaa caaggaacta gccgggttaa tgaatgtgtc atcaagcacg
+      841 accacattgc ttccacaatt tactccacgt ttggagcttt ctacattcca ctcgtattga
+      901 tattgatcct ctactacaaa atatacaggg cagcaaggac actgtaccac aagcgacaag
+      961 caagccgcgt gatgaaggag gagatgaatg gccaagtcct tttggagagt ggtgagaaga
+     1021 gcattaaact ggtctccgca tcctatatgc tagagaaatc cttatctgat ccatcaacag
+     1081 acttcgatag aatccaaagc atagtgaaaa gtcccaggtc tgagttgaag catgagaaat
+     1141 cttggaggag gcagaaaatc tcaggcacta gggaacgcaa ggcagccact accctgggct
+     1201 tgatcttggg tgcatttgta atatgttggt tgccgttttt tgtaaaagaa ctggttgtta
+     1261 atgtctgtga caaatgtaaa ctctctgacg aagtgtcaaa ctttttgaca tggcttggtt
+     1321 acctgaattc ccttataaat ccactgattt atacaatttt caacgaagac ttcaagaaag
+     1381 ccttccaaaa acttgtacga tgtcgatgtt aggctaaagg cggtctattt ttaaaggtag
+     1441 aggctttatt tattacggga taactaaatg aatgtaatgt aataaaatat ttaaattttt
+     1501 agagaaacta tattaaagct gctacaatt
+//

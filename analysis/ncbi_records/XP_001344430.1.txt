@@ -1,0 +1,59 @@
+LOCUS       XP_001344430             356 aa                     VRT 01-AUG-2013
+DEFINITION  PREDICTED: 5-hydroxytryptamine receptor 1F [Danio rerio].
+ACCESSION   XP_001344430
+VERSION     XP_001344430.1  GI:125856057
+DBLINK      BioProject: PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001879506.3) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..356
+                     /strain="Tuebingen"
+                     /organism="Danio rerio"
+                     /chromosome="9"
+                     /db_xref="taxon:7955"
+     Protein         1..356
+                     /product="5-hydroxytryptamine receptor 1F"
+                     /calculated_mol_wt="40183"
+     Region          26..>157
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          39..335
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..356
+                     /coded_by="XM_001344394.2:1..1071"
+                     /gene="htr1fa"
+                     /db_xref="GeneID:100005344"
+                     /db_xref="ZFIN:ZDB-GENE-081105-125"
+ORIGIN
+        1 mdsnhtgpsk nngdvvllsl tlsflailtt amnclvitai ivtrklhhps nylicslavt
+       61 dllvailvmp fsiiyiakdt wligealckf wlsvditcct csilhlaaia vdryraitda
+      121 veysrkrtsl raaimisvvw llaivislpp illrngeene ciivhtnias mlystfgafy
+      181 iplililily ykiyraaktl yhrrrtscln ksemnghmlp kcsdrepttp dtlsppeksm
+      241 sepstegdrv ritarspksr rerslrrhri snirekkaat tlgliigafv vcwlpffihe
+      301 viynictvsc srsvavtnfl twlgylnsli npliytifne dfkrafqkii kcknyl
+//

@@ -1,0 +1,64 @@
+LOCUS       XP_005365086             485 aa                     ROD 21-AUG-2013
+DEFINITION  PREDICTED: histamine H1 receptor [Microtus ochrogaster].
+ACCESSION   XP_005365086
+VERSION     XP_005365086.1  GI:532044548
+DBLINK      BioProject: PRJNA210839
+KEYWORDS    RefSeq.
+SOURCE      Microtus ochrogaster (prairie vole)
+  ORGANISM  Microtus ochrogaster
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Arvicolinae; Microtus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004949099.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Microtus ochrogaster Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..485
+                     /isolate="Prairie Vole_2"
+                     /sex="female"
+                     /organism="Microtus ochrogaster"
+                     /chromosome="Unknown"
+                     /db_xref="taxon:79684"
+     Protein         1..485
+                     /product="histamine H1 receptor"
+                     /calculated_mol_wt="55332"
+     Region          36..>198
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          49..466
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..485
+                     /coded_by="XM_005365029.1:23..1480"
+                     /gene="Hrh1"
+                     /db_xref="GeneID:101991589"
+ORIGIN
+        1 msllntstfe dkmcegnrta maspqllplv vvlssislvt vglnllvlya vhserklhtv
+       61 gnlyivslsv adlivgavvm pmnilylima rwslgrplcl fwlsmdyvas tasifsvfil
+      121 cidryrsvqq plrylryrtk trasatilga wflsflwvip ilgwhhftls ppvlredkce
+      181 tdfynvtwfk vmtaiinfyl ptllmlwfyv kiykavrqhc qhrqltngsl psflkiksks
+      241 edikegtkkp gkespwgvlk rpsrdpsggl nqkstsedpk mnsptvfsqe edreavtrhc
+      301 fhlditqama egggrdsetn dqalsqlkmd eqnlnacrri setsedqtlv drqsfsrttd
+      361 sdpstepgpg rdklrsgsns gldyikitwk rlrshsrqyv sglhlnrerk aakqlgfima
+      421 afilcwipyf iffmviafct sccsepvhmf tiwlgyinst lnpliyplcn enfkktfkki
+      481 lhirp
+//

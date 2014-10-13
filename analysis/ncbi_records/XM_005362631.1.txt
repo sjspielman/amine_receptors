@@ -1,0 +1,91 @@
+LOCUS       XM_005362631            1328 bp    DNA              ROD 21-AUG-2013
+DEFINITION  PREDICTED: Microtus ochrogaster adrenoceptor beta 3 (Adrb3), mRNA.
+ACCESSION   XM_005362631
+VERSION     XM_005362631.1  GI:532039660
+DBLINK      BioProject: PRJNA210839
+KEYWORDS    RefSeq.
+SOURCE      Microtus ochrogaster (prairie vole)
+  ORGANISM  Microtus ochrogaster
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Arvicolinae; Microtus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004949086.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Microtus ochrogaster Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1328
+                     /mol_type="mRNA"
+                     /linkage_group="LG7_11"
+                     /isolate="Prairie Vole_2"
+                     /sex="female"
+                     /db_xref="taxon:79684"
+                     /organism="Microtus ochrogaster"
+     gene            1..1328
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 23 Proteins, and 51%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:102001118"
+                     /gene="Adrb3"
+     CDS             132..1328
+                     /product="beta-3 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:532039661"
+                     /db_xref="GeneID:102001118"
+                     /translation="MAPWPHKNGSLALWSDVPMLDPSAANTSGLPGVPWAAALAGTLLA
+                     LATVGGNLLVIVAIARTPRLQTITNVFVTSLATADLVVGLLVMPPGATLALTGHWPLGA
+                     TGCELWTSVDVLCVTASIETLCALAVDRYLAVTNPLRYGTLVTKRRARAAVVLVWIVSA
+                     TVSFAPIMSQWWRVGADAEAQECHSDPRCCSFVSNMPYALLSSSVSFYLPLLVMLFVYA
+                     RVFVVAKRQRRLLRRELGRFPPEESPRTPSRSPSPVTGGTGSAPDGVPSCGRRPARLLP
+                     LREHRALRTLGLIMGIFTLCWLPFFLANVLRALAGPSLVPNGVFIALNWLGYANSAFNP
+                     LIYCRSPDFRDAFRRLLCGCGGRGREEPRAVAFPASPAGATAARASSAEFRQSRPLNR"
+                     /gene="Adrb3"
+                     /protein_id="XP_005362688.1"
+     STS             278..355
+                     /db_xref="UniSTS:271495"
+                     /standard_name="PMC164531P1"
+                     /gene="Adrb3"
+     STS             283..646
+                     /db_xref="UniSTS:506234"
+                     /standard_name="ADRB3"
+                     /gene="Adrb3"
+ORIGIN
+        1 aaagctgaca gacttacccc aacaacttag ggaagatggc ccaggcagga ggagtcgctc
+       61 ccaaatccta ttgtcccctt ccctgagcca gggggtcagg gagaactttc ccaccccagg
+      121 cgcaacagga gatggctccg tggcctcaca agaacggctc tctggctttg tggtcagatg
+      181 tccccatgtt ggaccccagt gcagccaaca caagtgggtt gccaggggtg ccatgggcag
+      241 cggcattggc tgggacgttg ttggcgctgg ccacggtggg aggcaacctg ctggtaatcg
+      301 tagccatagc ccgcacgccg agactccaga ccataaccaa cgtgttcgtg acttcgctgg
+      361 ccacagctga cttggtagtg ggacttctcg taatgccacc gggggccact ttggcgctga
+      421 ctggccattg gcccttgggt gcaactggat gcgagctgtg gacgtcggtg gacgtgctct
+      481 gtgtaaccgc cagcatcgag accctgtgcg ccctggctgt ggaccgctac ctagctgtca
+      541 ccaaccctct gcgttatggc acactggtta ccaagcgccg agctcgggcg gcggtggtcc
+      601 tggtgtggat cgtgtccgcc acagtgtcct ttgcgcccat catgagccag tggtggcgcg
+      661 taggggctga cgctgaggcg caggagtgcc actccgatcc gcgctgctgt tccttcgtct
+      721 ccaacatgcc ctacgcgctg ctctcctcct ccgtctcctt ctaccttccg ctcctggtga
+      781 tgctctttgt ctacgcgcga gtgttcgtcg tggctaagcg tcaacggcgt ttactgcgcc
+      841 gggagctggg ccgcttcccg cccgaggagt ctccgcggac tccatcgcgc tctccgtccc
+      901 ctgtcacagg cgggacaggc tcggctccgg atggagtgcc ctcctgcggc cggcggccgg
+      961 cgcggctcct gccgcttcgg gaacaccgcg ccctgcgcac cttaggtctc attatgggca
+     1021 tcttcactct gtgttggctg cccttcttcc tggctaacgt actgcgcgcc ctcgccgggc
+     1081 cctctttggt tcccaacggg gttttcatcg ccctcaactg gctgggctat gccaactccg
+     1141 ccttcaaccc gctcatctac tgccgcagcc cagacttccg cgacgctttc cgccgtcttc
+     1201 tgtgcggttg cggtggccgc gggcgggagg agccacgcgc tgtcgccttc ccagccagtc
+     1261 cggcgggagc cacagcggct cgggccagct cagccgagtt caggcaaagc cggccgctca
+     1321 acaggtag
+//

@@ -1,0 +1,138 @@
+LOCUS       NP_001006649             458 aa                     MAM 01-FEB-2014
+DEFINITION  5-hydroxytryptamine receptor 2C precursor [Canis lupus familiaris].
+ACCESSION   NP_001006649
+VERSION     NP_001006649.1  GI:54792733
+KEYWORDS    RefSeq.
+SOURCE      Canis lupus familiaris (dog)
+  ORGANISM  Canis lupus familiaris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae;
+            Canis.
+REFERENCE   1  (residues 1 to 458)
+  AUTHORS   Masuda K, Hashizume C, Ogata N, Kikusui T, Takeuchi Y and Mori Y.
+  TITLE     Sequencing of canine 5-hydroxytriptamine receptor (5-HTR) 1B, 2A, 2C
+            genes and identification of polymorphisms in the 5-HTR1B gene
+  JOURNAL   J. Vet. Med. Sci. 66 (8), 965-972 (2004)
+   PUBMED   15353848
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            AB193091.1.
+            On Jan 12, 2005 this sequence version replaced gi:57112667.
+            ##Evidence-Data-START##
+            Transcript exon combination :: AB193091.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+            SRS072646, SRS332229 [ECO:0000348]
+            ##Evidence-Data-END##
+            ##RefSeq-Attributes-START##
+            undergoes RNA editing :: inferred from conservation
+            ##RefSeq-Attributes-END##
+FEATURES             Location/Qualifiers
+     source          1..458
+                     /db_xref="taxon:9615"
+                     /sub_species="familiaris"
+                     /organism="Canis lupus familiaris"
+                     /chromosome="X"
+                     /map="X"
+     Protein         1..458
+                     /note="serotonin receptor 2C; 5-hydroxytryptamine receptor
+                     2C; 5-HT2C"
+                     /product="5-hydroxytryptamine receptor 2C precursor"
+     sig_peptide     1..32
+                     /note="By similarity; propagated from UniProtKB/Swiss-Prot
+                     (Q60F97.1)"
+                     /calculated_mol_wt="3517"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+     mat_peptide     33..458
+                     /note="propagated from UniProtKB/Swiss-Prot (Q60F97.1)"
+                     /product="5-hydroxytryptamine receptor 2C"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /calculated_mol_wt="48337"
+     Site            53..78
+                     /note="propagated from UniProtKB/Swiss-Prot (Q60F97.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          73..>243
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          76..368
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Site            90..110
+                     /note="propagated from UniProtKB/Swiss-Prot (Q60F97.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            128..150
+                     /note="propagated from UniProtKB/Swiss-Prot (Q60F97.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          134..139
+                     /note="propagated from UniProtKB/Swiss-Prot (Q60F97.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Agonist binding (By similarity)"
+     Region          151..153
+                     /note="propagated from UniProtKB/Swiss-Prot (Q60F97.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="DRY motif, important for ligand-induced
+                     conformation changes (By similarity)"
+     Site            171..193
+                     /note="propagated from UniProtKB/Swiss-Prot (Q60F97.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            214..235
+                     /note="propagated from UniProtKB/Swiss-Prot (Q60F97.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            312..333
+                     /note="propagated from UniProtKB/Swiss-Prot (Q60F97.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          324..328
+                     /note="propagated from UniProtKB/Swiss-Prot (Q60F97.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Agonist binding (By similarity)"
+     Site            349..371
+                     /note="propagated from UniProtKB/Swiss-Prot (Q60F97.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          364..368
+                     /note="propagated from UniProtKB/Swiss-Prot (Q60F97.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="NPxxY motif, important for ligand-induced
+                     conformation changes and signaling (By similarity)"
+     Region          456..458
+                     /note="propagated from UniProtKB/Swiss-Prot (Q60F97.1)"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /region_name="PDZ-binding"
+     CDS             1..458
+                     /coded_by="NM_001006648.1:1..1377"
+                     /gene="HTR2C"
+                     /gene_synonym="5-HT-2C; 5-HTR2C"
+                     /db_xref="GeneID:450240"
+ORIGIN
+        1 mvnlrkavhs flvhligllv wqcdisvspv aalvtdifnt sdggrfkfpd gvqnwpalsi
+       61 viiiiltigg nilvimavsl ekklhnatny flmslaiadm lvgllvmpls llailydyvw
+      121 plprylcpvw isldvlfsta simhlcaisl dryvairnpv ehsrfnsrtk aimkiaivwa
+      181 isigvsvpip viglrdeekv fvnnttcvln dpnfvligsf vaffipltim vitycltihv
+      241 lrrqalmllh ghveepprin ldflkccrrn gteeensanp nqdsnprrrk kkerrprgtm
+      301 qainnerkas kvlgivffvf lvmwcpffit nilsvlcgka cnqklmekll nvfvwigyvc
+      361 sginplvytl fnkiyrrafs nylrcnykpe kkppvrqmpr vaatalsgre lnvniyrhtn
+      421 epvlkkandk epgiemqven lelpvnpssv vserissv
+//

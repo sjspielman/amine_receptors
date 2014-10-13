@@ -1,0 +1,98 @@
+LOCUS       XM_004766003            1967 bp    DNA              MAM 13-JUN-2013
+DEFINITION  PREDICTED: Mustela putorius furo 5-hydroxytryptamine (serotonin)
+            receptor 5A, G protein-coupled (HTR5A), mRNA.
+ACCESSION   XM_004766003
+VERSION     XM_004766003.1  GI:511892786
+DBLINK      BioProject: PRJNA158527
+KEYWORDS    RefSeq.
+SOURCE      Mustela putorius furo (domestic ferret)
+  ORGANISM  Mustela putorius furo
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+            Mustelidae; Mustelinae; Mustela.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004569259.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Mustela putorius furo Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1967
+                     /sub_species="furo"
+                     /mol_type="mRNA"
+                     /breed="Sable"
+                     /isolate="ID#1420"
+                     /sex="female"
+                     /db_xref="taxon:9669"
+                     /organism="Mustela putorius furo"
+                     /chromosome="Unknown"
+     gene            1..1967
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 5 samples with support for all annotated introns"
+                     /db_xref="GeneID:101691459"
+                     /gene="HTR5A"
+     misc_feature    409..411
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR5A"
+     CDS             640..1716
+                     /product="5-hydroxytryptamine receptor 5A"
+                     /codon_start="1"
+                     /db_xref="GI:511892787"
+                     /db_xref="GeneID:101691459"
+                     /translation="MDSPVNLTYFFLSTPAPSETNHSSLDAEDPRPSPPLHSVFGVLVL
+                     TLLGFLVAATFSWNLLVLATILRVRTFHRVPHNLVASMAISDVLVAALVMPLSLVHELS
+                     GRRWQLGRRLCQLWIACDVLCCTASIWNVTAIALDRYWSVARHLEYTPRARKRISNVMI
+                     VLTWALSAVISLAPLLFGWGETYSERSEECQVSREPSYTVFSTVGAFYLPLCVVLFVYW
+                     KVYKAAKLRVGSRKTNSVSPWPEAVEAKTPAPQPQMVFTVRHTTVTFQTEGDTWREQKE
+                     QRAALMVGILIGVFALCWLPFFTTELIGPLCAYDIPAVWKSIFLWLGYSNSFFNPLIYT
+                     AFNKNYNSAFKNFFCRQH"
+                     /gene="HTR5A"
+                     /protein_id="XP_004766060.1"
+ORIGIN
+        1 gcgagcactg cgcgctctgg gcggaggggc ggggataggc ggcctcatca gctgatgcct
+       61 gacgtaggct ggatccccac tttgagaagc aggtctggag gggcgcgccg gcgttccgcc
+      121 ccagagccgc ggccccagac ggcgtggggc tggggctggg gcgatagcag gaggcagatc
+      181 cccagaaaaa cggcccctgc ctggcttccc tgcacgggct tgaggctgca gcccgccgcc
+      241 cggaggggcg aggagggagc cgacgcgcag cgcaagtcct gctctgacgc accagcaccc
+      301 ctccggcacc cacaggctcc gggggcgcca gctgcccccc gactcgggag atgctcagct
+      361 ctgggtgacc agactgctgt ccgtgccgcg gggaaaagcc ccggcaagtg acggcttcgg
+      421 agggccccgg ctgcgctgcg agacgcagcc cagcagcctc gtctcagcca ccccgtctcc
+      481 cgcgtgtgct cgctggcagg aggtttcgga aacaatcccc agaaaccccg ccaccagcca
+      541 gaggtcgcaa acaccccagt ggctccgggc gcaggggcca cgactgtctt cccgaacgcc
+      601 ccttctgcac gcaccccggg ccggtctcct gacccagcga tggattcgcc tgtgaaccta
+      661 acctattttt ttctctccac ccccgcccct tcggagacca accacagcag ccttgacgcc
+      721 gaagacccgc gccccagccc gcccctccac tctgtcttcg gtgtgcttgt tctgaccttg
+      781 ctgggctttc tggtggctgc gacgttctcc tggaacctcc tggtactggc gaccatcctc
+      841 cgtgtgcgca ccttccaccg ggttccgcac aacttagtgg cgtccatggc catctcggac
+      901 gtgctcgtgg cggctctggt catgccgctg agcctggtgc atgagttgtc cggccggcgc
+      961 tggcagctgg gtcggcggct gtgccagctg tggatcgcgt gcgacgtgct ctgctgcacc
+     1021 gccagcatct ggaatgtgac cgccatcgcg ctggaccgct attggtccgt cgcgcgtcac
+     1081 ctggaataca cgccccgcgc ccgcaagcgc atctccaatg ttatgatcgt gctcacctgg
+     1141 gcactctccg cggtgatctc gctggcgccg ctgctcttcg gctgggggga gacatactcg
+     1201 gagcgcagcg aggagtgcca ggtgagccgc gagccctcct acaccgtgtt ctccaccgtg
+     1261 ggcgccttct acctgccgct ctgcgtggtg ctcttcgtgt actggaaggt ctacaaggcc
+     1321 gccaagctcc gcgtgggctc caggaagacc aacagcgtgt caccctggcc ggaggcggtg
+     1381 gaggcgaaga cccctgcgcc gcagccccag atggtgttca ccgtgcgcca caccactgtc
+     1441 accttccaga cagaagggga cacgtggaga gaacagaagg agcagagagc tgccctgatg
+     1501 gtgggcatcc tcatcggggt gttcgcgctc tgctggctgc ccttcttcac cacggagctc
+     1561 atcggccctc tctgcgccta cgacatcccc gccgtctgga agagcatctt cctttggctc
+     1621 ggctactcca actccttctt caacccgctc atctacacag cgttcaacaa gaactataac
+     1681 agcgccttca agaacttctt ttgtaggcaa cactgagcgg gaggcctggg gaggagggac
+     1741 aagatcctcg aactcagtga gatttccagc tccatctgct tccccgtccc taccatggac
+     1801 cccttccaca tggaagaggc acgtcctcca ggctctccgg ggtcatcttc agaactagcc
+     1861 ctcacttccc cactccgagg taggaatgtg ggtcttcaca ggcagcttgg gtgccctttt
+     1921 tttttcaatt ttttttttaa aagattttat ttatctgaca gagagat
+//

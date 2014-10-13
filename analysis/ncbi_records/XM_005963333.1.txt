@@ -1,0 +1,95 @@
+LOCUS       XM_005963333            1567 bp    DNA              MAM 05-NOV-2013
+DEFINITION  PREDICTED: Pantholops hodgsonii dopamine receptor D2 (DRD2), mRNA.
+ACCESSION   XM_005963333
+VERSION     XM_005963333.1  GI:556735570
+DBLINK      BioProject: PRJNA221624
+KEYWORDS    RefSeq.
+SOURCE      Pantholops hodgsonii (chiru)
+  ORGANISM  Pantholops hodgsonii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Antilopinae; Pantholops.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005810533.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pantholops hodgsonii Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1567
+                     /mol_type="mRNA"
+                     /country="China: Qinghai-Tibetan Plateau, Kekexili National
+                     Nature Reserve"
+                     /sex="male"
+                     /db_xref="taxon:59538"
+                     /organism="Pantholops hodgsonii"
+                     /chromosome="Unknown"
+     gene            1..1567
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 2 ESTs, 12 Proteins"
+                     /db_xref="GeneID:102340310"
+                     /gene="DRD2"
+     CDS             329..1567
+                     /product="D(2) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:556735571"
+                     /db_xref="GeneID:102340310"
+                     /translation="MDPLNLSWYDDDPESRNWSRPFNGSEGKADRPHYNYYAMLLTLLI
+                     FVIVFGNVLVCMAVSREKALQTTTNYLIVSLAVADLLVATLVMPWVVYLEVVGEWKFSR
+                     IHCDIFVTLDVMMCTASILNLCAISIDRYTAVAMPMLYNTRYSSKRRVTVMIAIVWVLS
+                     FTISCPMLFGLNNTDQNECIIANPAFVVYSSIVSFYVPFIVTLLVYIKIYIVLRRRRKR
+                     VNTKRSSRAFRANLKAPLKGNCTHPEDMKLCTVIMKSNGSFPVNRRRVEAARRAQELEM
+                     EMLSSTSPPERTRYSPIPPSHHQLTLPDPSHHGLHSTPDSPAKPEKNGHAKDHPKIAKI
+                     FEIQSMPNGKTRTSLKTMSRRKLSQQKEKKATQMLAIVLGESALVAGHSPALPNPGWVT
+                     DPAIQAPLPVITP"
+                     /gene="DRD2"
+                     /protein_id="XP_005963395.1"
+     STS             623..830
+                     /db_xref="UniSTS:266487"
+                     /standard_name="DRD2"
+                     /gene="DRD2"
+     STS             1160..1340
+                     /db_xref="UniSTS:272844"
+                     /standard_name="PMC311033P6"
+                     /gene="DRD2"
+ORIGIN
+        1 tgtttgttga ataagtgggt gaataaatga ttagctcttt tcaagctcat tgattttatt
+       61 atacttaaaa aatggtacta tctcatttgt tttaccatca gcaagaatct gctagcagaa
+      121 gagtggcagc aggctgcaat atttcaagaa aattttggga tgcaaactta aaatcctgag
+      181 gctggagaat tctcttgtaa cctccagtgg tgggtgttag ccccgagcct cccatggata
+      241 gcagcatgct ttgggaggtc ctcctgctca ctccctgtgt ccgtttctcc tggccagagc
+      301 ctggccaccc agtggccccg ctgcccccat ggatccgctg aacctgtcct ggtatgatga
+      361 tgatccagag agccggaact ggagccggcc cttcaatggg tctgaaggga aggctgacag
+      421 gccccactac aactactatg ccatgctgct caccctgctc atcttcgtca tcgtctttgg
+      481 caacgtgctg gtgtgtatgg ctgtgtcccg cgagaaggcg ctgcagacca ccaccaacta
+      541 cctgatcgtc agcctcgctg tggctgacct cctggtggcc acactggtca tgccctgggt
+      601 ggtctacctg gaggtggtgg gcgagtggaa attcagcagg attcactgtg acatctttgt
+      661 caccctggat gtcatgatgt gcacagccag catcctgaac ctatgtgcca tcagcatcga
+      721 caggtacaca gccgtggcca tgcccatgct ctacaacaca cgttacagct ctaagcgccg
+      781 agtcacggtc atgatcgcca tcgtctgggt cctgtccttc accatctcct gcccgatgct
+      841 tttcggactc aacaacacag accagaatga atgcatcatc gccaaccccg ccttcgtggt
+      901 ctactcctcc atcgtctcct tctacgtgcc cttcatcgtc accctgctgg tctacatcaa
+      961 gatctacatc gtcctccgaa ggcggcgcaa gcgcgtcaac accaagcgca gcagccgggc
+     1021 tttccgggcc aacctgaagg ccccgctcaa gggcaactgt actcaccccg aggacatgaa
+     1081 actctgcacg gttatcatga agtctaatgg gagtttccca gtgaacaggc ggagagtgga
+     1141 ggctgcccgc cgagcccagg agctggagat ggagatgctc tccagcacca gcccgcctga
+     1201 gaggacccga tacagcccca tcccccccag ccaccaccag ctgaccctcc ccgacccatc
+     1261 ccaccacggc ctccacagca cacccgacag ccccgccaag ccagagaaga acgggcatgc
+     1321 caaagaccac cccaagattg ccaagatctt tgagatccag tccatgccca atggcaaaac
+     1381 ccggacctct ctcaagacca tgagccgcag gaagctctcc cagcagaagg agaagaaggc
+     1441 cacccagatg ctcgccattg ttcttggtga gtcagccctg gtcgctggcc acagccctgc
+     1501 cctgcccaac cccggctggg tgacggaccc agcaatacag gcccccttac ctgttatcac
+     1561 tccctaa
+//

@@ -1,0 +1,98 @@
+LOCUS       XM_005671276            1438 bp    DNA              MAM 26-SEP-2013
+DEFINITION  PREDICTED: Sus scrofa 5-hydroxytryptamine (serotonin) receptor 7,
+            adenylate cyclase-coupled (HTR7), transcript variant X1, mRNA.
+ACCESSION   XM_005671276
+VERSION     XM_005671276.1  GI:545871217
+DBLINK      BioProject: PRJNA28993
+KEYWORDS    RefSeq.
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003612060.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Sus scrofa Annotation Release 104
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1438
+                     /breed="mixed"
+                     /db_xref="taxon:9823"
+                     /mol_type="mRNA"
+                     /organism="Sus scrofa"
+                     /chromosome="14"
+     gene            1..1438
+                     /note="5-hydroxytryptamine (serotonin) receptor 7,
+                     adenylate cyclase-coupled; Derived by automated
+                     computational analysis using gene prediction method:
+                     Gnomon. Supporting evidence includes similarity to: 1 mRNA,
+                     1 EST, 9 Proteins, and 100% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 4 samples
+                     with support for all annotated introns"
+                     /db_xref="GeneID:397158"
+                     /gene="HTR7"
+                     /gene_synonym="5-HT7"
+     CDS             70..1380
+                     /product="5-hydroxytryptamine receptor 7 isoform X1"
+                     /codon_start="1"
+                     /gene_synonym="5-HT7"
+                     /db_xref="GI:545871218"
+                     /db_xref="GeneID:397158"
+                     /translation="MMMDVNSSGRPDLYGHLRSILLPEVGRGLPDLSSDGAGPVAGSWA
+                     PHLLHGVPEVTASPVPTWDAPRDNASGCGEQINYGRAEKVVIGSILTLITLLTIAGNCL
+                     VVISVCFVKKLRQPSNYLIVSLALADLSVAVAVMPFVSVTDLIGGKWIFGHFFCNVFIA
+                     MDVMCCTASIMTLCVISIDRYLGITRPLTYPVRQNGKCMAKMILSVWLLSASITLPPLF
+                     GWAQNVNDDKVCLISQDFGYTIYSTAVAFYIPMSVMLFMYYQIYKAARKSAAKHKFPGF
+                     PRPEEPDSVISLNGMVKLQKEVEECANLSRLLKHERKNISIFKREQKAATTLGIIVGAF
+                     TVCWLPFFLLSTARPFICGTACSCIPLWVERTFLWLGYANSLINPFIYAFFNRDLRTTY
+                     RSLLQCQYRNINRKLSAAGMHEALKLAERPERPELVL"
+                     /gene="HTR7"
+                     /protein_id="XP_005671333.1"
+     STS             71..608
+                     /db_xref="UniSTS:511811"
+                     /standard_name="HTR7"
+                     /gene="HTR7"
+                     /gene_synonym="5-HT7"
+     STS             1168..1307
+                     /db_xref="UniSTS:39426"
+                     /standard_name="RH66814"
+                     /gene="HTR7"
+                     /gene_synonym="5-HT7"
+ORIGIN
+        1 aagcccccgg gccggcagcc ggagcgcttg gcgggggcgc cggctccatg ggcagctgcg
+       61 cacagcggca tgatgatgga cgttaacagc agcggccgcc cggacctcta cgggcatctc
+      121 cgttctatcc tcttgccgga ggtggggcgc gggcttcccg acttgagctc cgacggcgcc
+      181 ggccctgtcg cgggctcctg ggcgccgcac ctgctgcacg gggtccctga ggtgacggcc
+      241 agccccgtgc ccacctggga cgcgccccgg gacaatgcct cgggctgcgg ggagcagatc
+      301 aactacggca gagccgagaa agttgtgatc ggctccatcc tgacgctcat cacgctgctg
+      361 acgatcgccg gcaactgcct ggtggtgatt tcggtctgct tcgtcaagaa gctccgtcag
+      421 ccctccaact acctgatcgt gtccctggcg ctggccgacc tctcggtggc cgtggcggtc
+      481 atgcccttcg tcagcgtcac tgaccttatt gggggcaagt ggatctttgg ccacttcttc
+      541 tgcaacgtct ttatcgccat ggacgtcatg tgctgcacgg cctcgatcat gaccctgtgc
+      601 gtgatcagta tcgacaggta ccttgggatc acgaggccgc tgacgtaccc cgtcaggcag
+      661 aatggcaagt gcatggctaa gatgatcctc tctgtctggc ttctctccgc ctccatcact
+      721 ttgccgccgc tcttcggctg ggcgcagaac gtaaatgacg acaaggtgtg cttgatcagc
+      781 caggattttg gctacacgat ctactccacg gcagtggcgt tctacatccc catgtccgtc
+      841 atgcttttca tgtactacca gatttacaag gccgccagga agagcgccgc caaacacaag
+      901 ttcccaggct tccctcgccc ggaggagccc gacagcgtca tttcactgaa tggcatggtg
+      961 aagctccaga aggaggtgga ggagtgtgcg aacctttcga gactcctcaa acacgagagg
+     1021 aaaaacatct ccatctttaa gagggaacag aaagcagcca ccaccttggg gatcattgtc
+     1081 ggggccttca ccgtgtgctg gctgccgttt ttcctcctct cgacggccag acccttcatc
+     1141 tgtggcactg cgtgcagctg catcccgctg tgggtggaga ggacatttct gtggctgggc
+     1201 tatgcaaact ctctcattaa cccctttata tatgccttct tcaaccggga cctgaggacc
+     1261 acctaccgca gcctgctcca gtgccagtac cggaatatca accggaagct ctcggctgca
+     1321 ggcatgcacg aggccctgaa gcttgctgag aggcccgaga gacctgagct tgtgctgtaa
+     1381 gacaaaagtc tgactactgt aggaaaaaaa gtcatgattc atgatcaaaa gtggaata
+//

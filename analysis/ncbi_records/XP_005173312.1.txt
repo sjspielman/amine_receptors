@@ -1,0 +1,61 @@
+LOCUS       XP_005173312             405 aa                     VRT 01-AUG-2013
+DEFINITION  PREDICTED: adrenergic receptor, beta 2a isoform X1 [Danio rerio].
+ACCESSION   XP_005173312
+VERSION     XP_005173312.1  GI:528500181
+DBLINK      BioProject: PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003335294.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..405
+                     /strain="Tuebingen"
+                     /organism="Danio rerio"
+                     /chromosome="14"
+                     /db_xref="taxon:7955"
+     Protein         1..405
+                     /product="adrenergic receptor, beta 2a isoform X1"
+                     /calculated_mol_wt="46085"
+     Region          43..>235
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          52..321
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..405
+                     /coded_by="XM_005173255.1:136..1353"
+                     /gene="adrb2a"
+                     /db_xref="GeneID:565838"
+                     /db_xref="ZFIN:ZDB-GENE-100414-3"
+ORIGIN
+        1 mgnirssipe dlicpnntna stkselqmtv lgtlmsilvl iivfgnvmvi taisrfqrlq
+       61 nvtncfitsl acadlvmglv vipfgalyii lntwhfghfl cdfwtatdvl cvtasietlc
+      121 viamdryiai tspfryqsll tknrarfivl mvwviaglvs ylpihmewwi stdnetlccy
+      181 nntyccefdi tysyaivssi isfyiplvim vfvysrvfqe arkqlkkink tegrfhaqks
+      241 nsrnqdvann hsemrstkka kfylkehkal ktlgiimgvf tlcwlpffvl nvipkgsvdi
+      301 wtfrilnwig yansafnpli ycrspdfrya fkeilclnrs rypnvrpnng yiynahswqs
+      361 enreqskgss gdsdhaegnl akeeclsadk tdsngncska qmrvl
+//

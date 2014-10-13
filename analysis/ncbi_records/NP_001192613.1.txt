@@ -1,0 +1,61 @@
+LOCUS       NP_001192613             567 aa                     MAM 12-SEP-2013
+DEFINITION  alpha-1D adrenergic receptor [Bos taurus].
+ACCESSION   NP_001192613
+VERSION     NP_001192613.1  GI:329664156
+KEYWORDS    RefSeq.
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (residues 1 to 567)
+  AUTHORS   Zimin,A.V., Delcher,A.L., Florea,L., Kelley,D.R., Schatz,M.C.,
+            Puiu,D., Hanrahan,F., Pertea,G., Van Tassell,C.P., Sonstegard,T.S.,
+            Marcais,G., Roberts,M., Subramanian,P., Yorke,J.A. and Salzberg,S.L.
+  TITLE     A whole-genome assembly of the domestic cow, Bos taurus
+  JOURNAL   Genome Biol. 10 (4), R42 (2009)
+   PUBMED   19393038
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from
+            AAFC03072445.1.
+            On Apr 20, 2011 this sequence version replaced gi:119905511.
+            Sequence Note: The RefSeq transcript and protein were derived from
+            genomic sequence to make the sequence consistent with the reference
+            genome assembly. The genomic coordinates used for the transcript
+            record were based on alignments.
+            ##Evidence-Data-START##
+            RNAseq introns :: single sample supports all introns SRS369783,
+            SRS369785 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..567
+                     /db_xref="taxon:9913"
+                     /breed="Hereford"
+                     /organism="Bos taurus"
+                     /chromosome="13"
+                     /map="13"
+     Protein         1..567
+                     /product="alpha-1D adrenergic receptor"
+                     /calculated_mol_wt="60250"
+     Region          119..403
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..567
+                     /coded_by="NM_001205684.1:1..1704"
+                     /gene="ADRA1D"
+                     /db_xref="BGD:BT24991"
+                     /db_xref="GeneID:539543"
+ORIGIN
+        1 mtfrdllsfs fegpgsdgsa sgtgrgggag gaaasegqav dgvpgaagcg gggggvvgag
+       61 ssednrsssg epgspgagge vngtaavegl vvsaqgvgvg vflaafilta vagnvlvils
+      121 vacnrhlqtv tnyfivnlav adlllsatvl pfsatmevlg fwafgrafcd vwaavdvlcc
+      181 tasilslcti svdryvgvrh slkypsimte rkaaailall wavavvvsvg pllgwkepvp
+      241 pdesfcgite eagyavfssl csfylpmavi vvmycrvyvv arsttrslea gvkrergkas
+      301 evvlrihcrg aspgsaethw gmhstkgrkf rsslsvrllk fsrekkaakt laivvgvfvl
+      361 cwfpfffvlp lgslfpqlkp segvfkvifw lgyfnscvnp liypcssref kraflrllrc
+      421 qchhsrqrrr plwsiysrnw qasngsshpd cppgpgaipt rapqaftvps apgslgaska
+      481 qapavtcrkm pctfrewrll rpfqrpatql hakvsspsqk ihtreamcal hsevevvflg
+      541 vphdaaegtt cqaykledys hlqetdi
+//

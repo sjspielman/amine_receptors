@@ -1,0 +1,88 @@
+LOCUS       XM_004396193            1495 bp    DNA              MAM 31-MAR-2013
+DEFINITION  PREDICTED: Odobenus rosmarus divergens adrenoceptor alpha 2C
+            (ADRA2C), mRNA.
+ACCESSION   XM_004396193
+VERSION     XM_004396193.1  GI:472353157
+DBLINK      BioProject: PRJNA189954
+KEYWORDS    RefSeq.
+SOURCE      Odobenus rosmarus divergens (Pacific walrus)
+  ORGANISM  Odobenus rosmarus divergens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+            Odobenidae; Odobenus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004450315.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Odobenus rosmarus divergens Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1495
+                     /sub_species="divergens"
+                     /mol_type="mRNA"
+                     /collection_date="06-Sep-2011"
+                     /country="USA:AK, Round Island"
+                     /isolate="Ivan"
+                     /sex="male"
+                     /isolation_source="blood"
+                     /db_xref="taxon:9708"
+                     /organism="Odobenus rosmarus divergens"
+                     /chromosome="Unknown"
+     gene            1..1495
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 14 Proteins"
+                     /db_xref="GeneID:101373984"
+                     /gene="ADRA2C"
+     CDS             33..1457
+                     /product="alpha-2C adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:472353158"
+                     /db_xref="GeneID:101373984"
+                     /translation="MASPALAAALAAAAAAGPNASGAGEGGSGGAANASGAAPGAAWGP
+                     PGGQYSAGAVAGLAAVVGFLIVFTVVGNVLVVIAVLTSRALRAPQNLFLVSLASADILV
+                     ATLVMPFSLANELMAYWYFGQVWCGVYLALDVLFCTSSIVHLCAISLDRYWSVTQAVEY
+                     NLKRTPRRVKATIVAVWLISAVISFPPLVSLYRQPDSAAYPQCGLNDETWYILSSCVGS
+                     FFAPCLIMGLVYARIYRVAKLRTRTLSEKRAPAGPDGASPTTENGLGAAAGAGENGHCA
+                     PPRRPCADVDPEDSSAAAERRRRRGALRRGGRRRAGGEGGAGGAGGAEVPGPGPGPGTT
+                     DSGALAAARSPGPGGRLSRASSRSVEFFLSRRRRARSSVCRRKVAQAREKRFTFVLAVV
+                     MGVFVLCWFPFFFSYSLYGICREACQVPDPLFKFFFWIGYCNSSLNPVIYTVFNQDFRR
+                     SFKHILFRRRRRGFRQ"
+                     /gene="ADRA2C"
+                     /protein_id="XP_004396250.1"
+ORIGIN
+        1 ccaggcggga ccgcgtagct cgcgggagga ccatggcgtc cccggcgctg gcggcggcgc
+       61 tggcggcggc ggcggcggcg ggccccaacg cgagcggcgc cggcgagggg ggcagcggcg
+      121 gggccgccaa cgcctcgggc gctgcgccgg gggccgcctg ggggccgcct gggggccagt
+      181 actcggcggg cgccgtggcg gggctggctg cagtggtggg cttcctcatc gtcttcaccg
+      241 tggtgggcaa cgtgctggtg gtgatcgccg tgctgaccag ccgggcgctg cgtgcgccgc
+      301 agaacctctt cctggtgtcg ctggcctcgg ccgacatcct ggtggccacg ctggtcatgc
+      361 ctttctcgct ggccaacgag ctcatggcct actggtactt cgggcaggtg tggtgtggcg
+      421 tgtacctggc gctcgacgtg ctcttctgca cctcgtccat cgtgcatctg tgcgccatca
+      481 gcctggaccg ctactggtcg gtgacgcagg ccgtcgagta caacctgaag cgcacaccgc
+      541 gccgcgtcaa ggcgaccatc gtggccgtgt ggctcatctc ggctgtcatc tccttcccac
+      601 cgctcgtctc gctctaccgc cagcccgaca gtgccgccta cccgcagtgc ggcctcaacg
+      661 acgagacgtg gtacatcctg tcctcctgcg tcggctcctt cttcgcgccc tgtctcatca
+      721 tgggcctggt ctacgcgcgc atctaccgcg tggccaagct gcgtacgcgc acgctcagcg
+      781 agaagcgcgc gcccgcgggc cccgacggtg cgtccccaac cacagagaat gggctgggtg
+      841 cggcagcggg cgcgggcgag aatgggcact gcgcgccccc gcgccgcccg tgcgccgacg
+      901 tggacccgga ggacagcagc gctgcggctg agcggcggcg acgccggggt gcgctgcggc
+      961 ggggcgggcg gcggcgcgcg ggcggggagg ggggcgcggg cggcgcgggc ggcgccgaag
+     1021 tgccggggcc cgggccgggg ccagggacga ccgattcggg cgctctggct gccgcgaggt
+     1081 ccccgggccc cggcgggcgc ctgtcgcgcg ccagctcgcg ctccgtcgag ttctttttgt
+     1141 cgcgccgccg ccgggcgcgc agcagcgtgt gccgccgcaa ggtggcccag gcgcgcgaga
+     1201 agcgcttcac cttcgtgctg gcggtggtca tgggcgtgtt cgtgctctgc tggttcccct
+     1261 tcttcttcag ctacagcctg tacggcatct gccgcgaggc ctgccaggtg cccgacccgc
+     1321 tcttcaagtt ctttttctgg atcggctact gcaacagctc gctcaacccg gtcatctaca
+     1381 ccgtctttaa ccaggacttc cggcgttcct ttaagcacat cctcttccga cggaggagaa
+     1441 ggggcttcag gcagtgagct gcgcgcccgg ccccgcgcag accctggaca gctcc
+//

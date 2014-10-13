@@ -1,0 +1,88 @@
+LOCUS       XM_004944828            1155 bp    DNA              VRT 19-JUN-2013
+DEFINITION  PREDICTED: Gallus gallus 5-hydroxytryptamine (serotonin) receptor 4,
+            G protein-coupled (HTR4), transcript variant X5, mRNA.
+ACCESSION   XM_004944828
+VERSION     XM_004944828.1  GI:513206422
+DBLINK      BioProject: PRJNA10808
+KEYWORDS    RefSeq.
+SOURCE      Gallus gallus (chicken)
+  ORGANISM  Gallus gallus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Galliformes;
+            Phasianidae; Phasianinae; Gallus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003763912.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Gallus gallus Annotation Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1155
+                     /mol_type="mRNA"
+                     /breed="Red Jungle fowl, inbred line UCD001"
+                     /isolate="#256"
+                     /sex="female"
+                     /db_xref="taxon:9031"
+                     /organism="Gallus gallus"
+                     /chromosome="13"
+     gene            1..1155
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 1 EST, 10 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 5 samples with support for all
+                     annotated introns"
+                     /db_xref="CGNC:948"
+                     /db_xref="GeneID:416150"
+                     /gene="HTR4"
+     misc_feature    30..32
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR4"
+     CDS             63..1142
+                     /product="5-hydroxytryptamine receptor 4 isoform X5"
+                     /codon_start="1"
+                     /db_xref="GI:513206423"
+                     /db_xref="CGNC:948"
+                     /db_xref="GeneID:416150"
+                     /translation="MEELDVNVSSSEGFGVAEKIVLLTFISAVILMAILGNLLVMVAVC
+                     RDRQLRKIKTNYFIVSLAFADLLVSVLVMPFGAIELVQDNWIYGEMFCLVRTSLDVLLT
+                     TASILHLCCISLDRYYAICCQPLVYRNKMTPLRIAVMLGGCWVIPTFISFLPIMQGWNS
+                     IGIIDLIQQRQFNKASNSTYCIFMVNKPYAITCSVVAFYFPFLLMVLAYYRIYVTAREH
+                     ARQIRVLQRAGTPADSRHQPDQHSTHRMKTETKAAKTLCIIMGCFCLCWAPFFVTNIVD
+                     PFINYTVPGKLWTAFLWLGYINSGLNPFLYAFLNKSFRRAFLIILCCGDERYRRPSILG
+                     QTVPCSTTTINGSTHVLRH"
+                     /gene="HTR4"
+                     /protein_id="XP_004944885.1"
+ORIGIN
+        1 ctgcaggaca aggtctcttc tatggacact gaacacccag ctacctatgc ctattgcctg
+       61 tgatggaaga gcttgatgtt aatgtgagtt cgagtgaggg cttcggcgta gcagagaaga
+      121 tcgtactgct caccttcatc tccgcagtta tcctgatggc catcctgggg aacctgttgg
+      181 tgatggtggc tgtgtgccgg gacaggcagc tcaggaaaat caagaccaat tatttcatcg
+      241 tttctcttgc cttcgcggac ctgctggtgt cagtactggt gatgccgttt ggagccattg
+      301 agttggtcca ggacaactgg atctatgggg agatgttctg cctcgtccga acatccctcg
+      361 atgtcttgct caccacagca tcgatcctgc acctgtgctg catatcactg gacaggtact
+      421 acgctatctg ttgccagcca ctggtgtaca ggaacaagat gactccgctg cgtattgctg
+      481 taatgcttgg aggctgctgg gtaatcccga catttatttc tttcctccct atcatgcaag
+      541 gctggaatag cattggcatc attgatttga ttcagcaaag gcagttcaac aaggcttcca
+      601 actccacgta ctgcatattc atggtcaaca agccatatgc cattacctgc tctgtggtgg
+      661 ccttctactt tcccttcctg ctgatggtgc tggcctatta tcgcatctac gtcaccgccc
+      721 gggagcacgc ccggcagatc cgggtgctgc agcgcgcagg gacccctgct gacagcaggc
+      781 accagcctga ccagcacagc actcatcgca tgaagaccga gaccaaagct gccaagaccc
+      841 tgtgcatcat catggggtgc ttctgcctgt gctgggcccc cttctttgtc acaaacatag
+      901 tggacccttt cataaactat acggtgccgg ggaagttgtg gacagctttc ctgtggctgg
+      961 gctacatcaa ttcagggttg aaccccttcc tctatgcctt cctgaacaag tctttcagac
+     1021 gtgccttcct catcatcctg tgctgtggtg atgagcgata ccgaaggcct tccatcctgg
+     1081 ggcagacagt cccctgttcc accaccacaa taaacggatc aactcatgtg ctaaggcatt
+     1141 aaggcagtca cagag
+//

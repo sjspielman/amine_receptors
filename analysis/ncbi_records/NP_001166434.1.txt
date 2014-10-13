@@ -1,0 +1,94 @@
+LOCUS       NP_001166434             388 aa                     ROD 12-MAR-2014
+DEFINITION  5-hydroxytryptamine receptor 4 [Cavia porcellus].
+ACCESSION   NP_001166434
+VERSION     NP_001166434.1  GI:290543527
+KEYWORDS    RefSeq.
+SOURCE      Cavia porcellus (domestic guinea pig)
+  ORGANISM  Cavia porcellus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Caviidae; Cavia.
+REFERENCE   1  (residues 1 to 388)
+  AUTHORS   Segura P, Vargas MH, Cordoba-Rodriguez G, Chavez J, Arreola JL,
+            Campos-Bedolla P, Ruiz V, Garcia-Hernandez LM, Mendez C and Montano
+            LM.
+  TITLE     Role of 5-HT2A, 5-HT4 and 5-HT7 receptors in the antigen-induced
+            airway hyperresponsiveness in guinea-pigs
+  JOURNAL   Clin. Exp. Allergy 40 (2), 327-338 (2010)
+   PUBMED   19995401
+  REMARK    GeneRIF: The 5-HT4 receptor seem to be particularly involved in
+            antigen-induced airway hyperresponsiveness(AI-AHR) to ACh in
+            guinea-pigs.
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from Y13585.1.
+            ##Evidence-Data-START##
+            Transcript exon combination :: Y13585.1 [ECO:0000332]
+            RNAseq introns              :: mixed/partial sample support
+            ERS240754 [ECO:0000350]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..388
+                     /db_xref="taxon:10141"
+                     /organism="Cavia porcellus"
+     Protein         1..388
+                     /note="serotonin receptor 4; 5-HT4; 5-HT-4"
+                     /product="5-hydroxytryptamine receptor 4"
+                     /calculated_mol_wt="43595"
+     Site            20..40
+                     /note="propagated from UniProtKB/Swiss-Prot (O70528.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          42..312
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Site            59..79
+                     /note="propagated from UniProtKB/Swiss-Prot (O70528.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            94..116
+                     /note="propagated from UniProtKB/Swiss-Prot (O70528.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          <138..329
+                     /note="Mammalian taste receptor protein (TAS2R); pfam05296"
+                     /db_xref="CDD:253139"
+                     /region_name="TAS2R"
+     Site            138..158
+                     /note="propagated from UniProtKB/Swiss-Prot (O70528.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            193..213
+                     /note="propagated from UniProtKB/Swiss-Prot (O70528.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            261..281
+                     /note="propagated from UniProtKB/Swiss-Prot (O70528.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            295..315
+                     /note="propagated from UniProtKB/Swiss-Prot (O70528.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     CDS             1..388
+                     /coded_by="NM_001172963.1:1..1167"
+                     /gene="Htr4"
+                     /gene_synonym="5-HT4S"
+                     /db_xref="GeneID:100135548"
+ORIGIN
+        1 mdkldanvss kegfgsvekv vlltflsavi lmailgnllv mvavcrdrql rkiktnyfiv
+       61 slafadllvs vlvmpfgaie lvqdiwvyge mfclvrtsld vllttasifh lccisldryy
+      121 aiccqplvyr nkmtplrial mlggcwvipm fisflpimqg wnnigivdli ekrkfnqnsn
+      181 stycvfmvnk pyaitcsvva fyipfllmvl ayyriyvtak eharqiqvlq ragapaegrp
+      241 qpadqhsthr mrtetkaakt lciimgcfcl cwapffvtni vdpfidytvp gqlwtaflwl
+      301 gyinsglnpf lyaflnksfr rafliilccd deryrrpsil gqtvpcsttt ingsthvlrd
+      361 tvecggqwes qchpaasspl vaaqpidt
+//

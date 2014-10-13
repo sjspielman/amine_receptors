@@ -1,0 +1,102 @@
+LOCUS       XM_683178               2416 bp    DNA              VRT 01-AUG-2013
+DEFINITION  PREDICTED: Danio rerio si:dkey-276l13.4 (si:dkey-276l13.4), mRNA.
+ACCESSION   XM_683178
+VERSION     XM_683178.3  GI:528481752
+DBLINK      BioProject: PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001879134.3) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Aug 1, 2013 this sequence version replaced gi:125818310.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2416
+                     /strain="Tuebingen"
+                     /mol_type="mRNA"
+                     /organism="Danio rerio"
+                     /chromosome="6"
+                     /db_xref="taxon:7955"
+     gene            1..2416
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 Proteins, and 98% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:559806"
+                     /db_xref="ZFIN:ZDB-GENE-120215-60"
+                     /gene="si:dkey-276l13.4"
+     CDS             809..2185
+                     /product="5-hydroxytryptamine receptor 2A-like"
+                     /codon_start="1"
+                     /db_xref="GI:125818311"
+                     /db_xref="GeneID:559806"
+                     /db_xref="ZFIN:ZDB-GENE-120215-60"
+                     /translation="MALNGTAAELRSLGISAEISKDTSMEQKVSLGNAVLNNSMDCNGS
+                     EERNRSEFSSSDYVQKNWVALLISLVIIITVTGNILVIMAVSLERKLQNATNYFLRSLA
+                     ITDMLLGILVMPVAMVTILYGYTWPLPRTLCPIWIYLDVLFSTASIMHLCAISLDRYIA
+                     IRNPIHHSRSNSLTKARVKIIAAWTISVVISMPVPVLGLHDHSKVFRNESCQLTDNNFV
+                     LIGSFVAFFVPLIIMVVTYFLTISALQSEATLCLDQLIVRPTWSSTIGLLPRGSVSSER
+                     LFSRSSICREGASRGSGRRSMQSISNEQKASKVLGVVFLLFVIMWCPFFVTNVMAVVCG
+                     SVCDEDLVGGLMNVFVWVGYLSSAVNPFIYTLFNKTYRAAFARYMQCRYHEERRPLQLI
+                     LVNTIPPLAYSSSGLPLKVENSLRRKAEGSRSGSFTNTERSICGSTQNKQERDEVVSHL
+                     "
+                     /gene="si:dkey-276l13.4"
+                     /protein_id="XP_688270.2"
+ORIGIN
+        1 ctctatccac ctatggaaga tgagggagct cgaatttaat cttaaagatc ttcatttgag
+       61 ttctgaagac gaatctcagg aacaacacga gggtgagtaa ctaataacaa agattttatt
+      121 tttggtttaa ctaactgttt aaataagcat aacacagaca ctttccccct tttgtaaaac
+      181 atcatcataa acacctgttt tatttgaaat attgtttata atatggtaca ttttaaaaga
+      241 attcctgtca tccccagcaa tgtgagttta aaaggataaa aagagcattc catcagagcc
+      301 ttctgcctga agtgcttatt tgaatgcctg tataaacgtg tgggaataaa taggttcaca
+      361 tgtctttgtt gcagttgaca agcaccaaag ggaccactca gagacaagtc tttctggagg
+      421 gagcgcagag agtctggctt tagttacagt tggagagaac gatgagcgga gagtgagtga
+      481 gagagcaaga gggagggaga aaagaggctg aagtgctgag aggaaaagag aaaggatgaa
+      541 tggaacagga ccacatgttg ggtcgcatca tcagtggctc atttctacag ctttggtgtt
+      601 tctagaaaca gcgaacctct tctggattac cagcggcaaa actgtctctt ctgttctgaa
+      661 tcgcaatcca tctgaacatt gtctgcggag gagaggaggt aaacatgttt tcactctcac
+      721 actggtacat tttggacttg gagatcaatg gaacgcttca aatggagagt cgcttccttg
+      781 acttaatgga tgaataaatt gctctttaat ggccctgaat gggacggctg ctgaactcag
+      841 gtccttaggg atttctgcgg agatttccaa agacaccagc atggagcaga aggtgtcttt
+      901 gggtaatgca gttctcaata actctatgga ttgcaatggg agcgaagaga gaaaccggtc
+      961 ggagttttcg tcctctgatt atgtccagaa gaactgggtg gcacttttga tttcgctggt
+     1021 cataatcatc accgtgacgg gcaacatcct ggtcatcatg gcggtgagtt tggagaggaa
+     1081 gttacagaac gccaccaact acttcttgag gtctttggcc attacagaca tgcttttggg
+     1141 aatccttgtt atgccggtag caatggtgac aatcctctac ggttacacct ggcctctccc
+     1201 tcgcaccctg tgtccgatct ggatctacct ggacgttctc ttctccaccg cctccatcat
+     1261 gcacctgtgc gccatatctc tggacagata catcgccatc cgcaacccca tccaccacag
+     1321 ccgctccaac tccctaacaa aagcccgcgt caaaatcatc gcagcctgga ccatctctgt
+     1381 ggttatctcc atgcctgttc cagtcctcgg ccttcatgac cactccaaag tcttccgcaa
+     1441 cgaaagctgc caacttacgg acaacaattt cgtcctgatt ggctcgtttg tggcgttttt
+     1501 cgtcccgctc atcatcatgg tcgtcacata ctttctcacc atcagtgctc tacaaagcga
+     1561 agcgactttg tgcctggacc aactcatcgt gcgtccaaca tggtcgtcca ccattggact
+     1621 cctccctcga ggttcagttt cctctgagcg tctcttctca cgctcatcaa tctgccgaga
+     1681 aggagcttcc agaggatccg gacgccgatc catgcagtcc atcagcaatg aacagaaggc
+     1741 atccaaagtg ctcggcgtgg ttttcctact ttttgtgatc atgtggtgtc cgttttttgt
+     1801 gacgaacgtg atggcggtgg tgtgcggctc cgtgtgcgat gaagatttgg taggcgggtt
+     1861 gatgaatgtg tttgtttggg ttggatattt atcatcggcg gtcaacccgt tcatctacac
+     1921 actcttcaac aagacttacc gtgccgcgtt cgcccggtac atgcagtgcc gctaccatga
+     1981 ggagaggaga cccctgcagc tgatactggt caacacaatc ccccctctgg cctacagctc
+     2041 ctctgggctt cccctgaagg tggagaactc attacggagg aaagcagagg gcagccggtc
+     2101 tgggagcttc accaacactg agaggtcaat ctgtggaagc acacaaaaca agcaggaacg
+     2161 ggatgaggta gtaagccatt tgtaacagac cctagagagt gtttaattgg ggtccacatc
+     2221 aacagacctc gcattatggg tgtaaacgct tgacaaatga agccttttat tttaatatac
+     2281 acctacctgt gcaggacagc acagtcagca gatgatacta cctacagctc acagccaaaa
+     2341 caggacacag atgctttaaa actgggccag tagcaataaa ctctcttatt ttgtaaaata
+     2401 tactcatttt agatca
+//

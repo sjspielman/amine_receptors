@@ -1,0 +1,99 @@
+LOCUS       XM_004942287            2289 bp    DNA              VRT 19-JUN-2013
+DEFINITION  PREDICTED: Gallus gallus adrenoceptor beta 1 (ADRB1), mRNA.
+ACCESSION   XM_004942287
+VERSION     XM_004942287.1  GI:513191998
+DBLINK      BioProject: PRJNA10808
+KEYWORDS    RefSeq.
+SOURCE      Gallus gallus (chicken)
+  ORGANISM  Gallus gallus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Galliformes;
+            Phasianidae; Phasianinae; Gallus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003763812.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Gallus gallus Annotation Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2289
+                     /mol_type="mRNA"
+                     /breed="Red Jungle fowl, inbred line UCD001"
+                     /isolate="#256"
+                     /sex="female"
+                     /db_xref="taxon:9031"
+                     /organism="Gallus gallus"
+                     /chromosome="6"
+     gene            1..2289
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 13 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101750705"
+                     /gene="ADRB1"
+     CDS             7..1281
+                     /product="beta-1 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:513191999"
+                     /db_xref="GeneID:101750705"
+                     /translation="MGDGWLPPDCGPHNRSGGGGATAAPTGNRQVSAELLSQQWEAGMS
+                     LLMALVVLLIVAGNVLVIAAIGRTQRLQTLTNLFITSLACADLVMGLLVVPFGATLVVR
+                     GTWLWGSFLCECWTSVDVLCVTASIETLCVIAIDRYLAITSPFRYQSLMTRARAKGIIC
+                     TVWAISALVSFLPIMMHWWRDEDPQALKCYQDPGCCDFVTNRAYAIASSIISFYIPLLI
+                     MIFVYLRVYREAKEQIRKIDRCEGRFYGSQEQPQPPPLPHQQPILGNGRASKRKTSRVM
+                     AMREHKALKTLGIIMGVFTLCWLPFFLVNVVNVFNRDLVPDWLFVFFNWLGYANSAFNP
+                     IIYCRSPDFRKAFKRLLCFPRKADRRLHAGGQPAPLPGGFISTLGSPEHSPGGMWSDCN
+                     GGMQGGSESSLEERHSKTSRSESKV"
+                     /gene="ADRB1"
+                     /protein_id="XP_004942344.1"
+ORIGIN
+        1 gcagccatgg gagatgggtg gctgccgccc gactgcggcc cccacaaccg ctccggaggc
+       61 ggcggggcga cggcggcgcc gaccgggaac cgtcaggtgt ccgccgaact gctgtcgcag
+      121 cagtgggagg cgggcatgag cctgctgatg gccctggtgg tgctgctcat cgtggccggc
+      181 aacgtgctgg tgatcgcggc catcgggcgc acgcagcggc tgcagacgct caccaacctc
+      241 ttcatcacct cgctggcctg cgccgacctg gtgatggggc tgctggtggt gcccttcggg
+      301 gccacgctgg tggtgcgggg cacctggctg tggggctcct tcctctgcga gtgttggacg
+      361 tcggtggacg tgctctgcgt gacggccagc atcgagacct tgtgcgtcat cgccatcgac
+      421 cgctacctgg ccatcacttc gcctttccgc taccagagcc tgatgaccag ggctcgggcc
+      481 aagggcatca tctgcaccgt ctgggccatc tccgccctgg tctctttcct gcccatcatg
+      541 atgcactggt ggcgggacga ggaccctcag gcactcaagt gctaccagga cccgggctgc
+      601 tgcgacttcg tcaccaaccg ggcttacgcc atcgcttcgt ccatcatctc cttctacatc
+      661 cccctcctca tcatgatctt cgtgtacctg cgggtgtacc gggaggccaa ggagcagatc
+      721 aggaagatcg accgctgcga gggccggttc tatggcagcc aggagcagcc gcagccaccc
+      781 ccgctccccc accaacagcc catcctcggc aacggccgcg ccagcaagag gaagacgtcc
+      841 cgtgtcatgg ccatgaggga gcacaaagct ctgaagacat tgggtatcat catgggggtg
+      901 ttcaccctct gctggctccc tttcttcttg gtgaacgttg tcaacgtctt caacagagac
+      961 ctggtgccgg actggctctt tgttttcttc aactggttgg gctacgccaa ctccgctttc
+     1021 aaccccatca tctactgccg cagcccggac ttccgtaagg ccttcaagag gctgctctgc
+     1081 ttcccccgca aagctgacag gcgactgcac gctggcggcc aacccgcccc gctgcccggg
+     1141 ggcttcatca gcaccctggg ctcccctgag cacagcccag gggggatgtg gtctgactgc
+     1201 aacgggggca tgcagggtgg cagtgagtcg agcctggagg agagacatag caaaacatcc
+     1261 cgctcggagt ccaaggtata ggggggtggg tttgtggggc cggccacggc tggggggcac
+     1321 aggcagggga cgagtgggga gagagcccgt gtttactgat gaataaaagc aggtgaattg
+     1381 tatccgacat acctcatctg aacctaaagc aaacaggaag cccactgagc ggagaacaga
+     1441 gcaaataaac agcctgtccc aaagccaacc agattatatt cgggtcggaa ggaggcttag
+     1501 ctgtggctgg gctagagaaa cgctttcaca agtcccatcc cgtgggcgag ttttccccag
+     1561 acagtggcgg tagctgctgg agcagcggga gcagtcctgt gatgccgtga ttccacgagg
+     1621 ctgggcagcg gctggggctg caccccgagg gcagcagcag cccgagccgt gaccccgagg
+     1681 gctccggcag cggtcctgca cacacacaca cacacacaca cacacacaca cacacacaca
+     1741 cacacacaca cacggcagag cggccgatcc cagccgtgag gttggagctg caggtgcttt
+     1801 gcgcctcagc tgccgcgaga gctgtccgaa acccatggtc gctgtgctcc cctcttctgc
+     1861 agagcagaag cgatgacaaa gttaagaacg aggaacacag atctgttttg aaagggaaaa
+     1921 aaaaaaaaca aacccgaaca acccaaactc tcctgctatt tttttttccc ccctctgcat
+     1981 cagcaaccag tgagttgttg tgcttatctc tttggccaga caatagcggt cgggctggga
+     2041 aacttctacc tcaaactgtg catattgtac agggcaataa atgggccgtg tttatattaa
+     2101 acagcgtatt tgcctaccat gaggagtatt ttaggggaaa ggggaagggg ggggggggag
+     2161 ttaatgagcc ttctgcagct tgttcgttgt aattacagat ggacagggaa aaaaacaccc
+     2221 tggcaacaac aagatcttac tgcacatttt tggggagcgg caacaaagct gttttttgca
+     2281 cagtattaa
+//

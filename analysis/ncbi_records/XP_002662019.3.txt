@@ -1,0 +1,65 @@
+LOCUS       XP_002662019             400 aa                     VRT 01-AUG-2013
+DEFINITION  PREDICTED: 5-hydroxytryptamine receptor 7 [Danio rerio].
+ACCESSION   XP_002662019
+VERSION     XP_002662019.3  GI:528478699
+DBLINK      BioProject: PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001878996.3) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Aug 1, 2013 this sequence version replaced gi:326667702.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..400
+                     /strain="Tuebingen"
+                     /organism="Danio rerio"
+                     /chromosome="5"
+                     /db_xref="taxon:7955"
+     Protein         1..400
+                     /product="5-hydroxytryptamine receptor 7"
+                     /calculated_mol_wt="44842"
+     Region          66..>241
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          76..363
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          262..>294
+                     /note="Protein of unknown function (DUF3018); pfam11455"
+                     /db_xref="CDD:151894"
+                     /region_name="DUF3018"
+     CDS             1..400
+                     /coded_by="XM_002661973.3:255..1457"
+                     /gene="LOC572143"
+                     /db_xref="GeneID:572143"
+ORIGIN
+        1 mmfnssldff sfthpevase vlngsshffy nismamwnks cgeqlldfta aekiviglml
+       61 aiittvtvig nmlvviavcv vkklrqpsny llvslavadl svaivvmpfv ivtdltggkw
+      121 lfgevfcnif igmdvmccta simtlcvisv drylgitrpl typarqngql makmifgvwl
+      181 vsasitlppf cgwaknvnta gvclisqdfg ytiystavaf yipmivmlfm yykifkaark
+      241 sgakhrftdf srrerletva sealrmqglk pqhtpgvaee caalsrllsr erqnisifkr
+      301 eqkaattlgv ivgvfgicwl pffilstarp ficgvkcsci piwlertllw fgyanslmnp
+      361 fiyaffnrdl rstyrdllrc ryrninrrls avgvhealkv
+//

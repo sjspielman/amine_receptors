@@ -1,0 +1,103 @@
+LOCUS       XM_005082403            2050 bp    DNA              ROD 17-JUL-2013
+DEFINITION  PREDICTED: Mesocricetus auratus cholinergic receptor, muscarinic 2
+            (Chrm2), mRNA.
+ACCESSION   XM_005082403
+VERSION     XM_005082403.1  GI:524965099
+DBLINK      BioProject: PRJNA210213
+KEYWORDS    RefSeq.
+SOURCE      Mesocricetus auratus (golden hamster)
+  ORGANISM  Mesocricetus auratus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Cricetinae; Mesocricetus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004801730.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Mesocricetus auratus Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2050
+                     /mol_type="mRNA"
+                     /isolate="Golden Hamster female 1"
+                     /sex="female"
+                     /db_xref="taxon:10036"
+                     /organism="Mesocricetus auratus"
+                     /chromosome="Unknown"
+     gene            1..2050
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 mRNAs, 25 Proteins"
+                     /db_xref="GeneID:101844151"
+                     /gene="Chrm2"
+     misc_feature    427..429
+                     /note="upstream in-frame stop codon"
+                     /gene="Chrm2"
+     CDS             481..1881
+                     /product="muscarinic acetylcholine receptor M2"
+                     /codon_start="1"
+                     /db_xref="GI:524965100"
+                     /db_xref="GeneID:101844151"
+                     /translation="MNNSTNSSNNGLAISSPYKTFEVVFIVLVAGSLSLVTIIGNILVM
+                     VSIKVNRHLQTVNNYFLFSLACADLIIGVFSMNLYTLYTVIGYWPLGPVVCDLWLALDY
+                     VVSNASVMNLLIISFDRYFCVTKPLTYPVKRTTKMAGMMIAAAWVLSFILWAPAILFWQ
+                     FIVGVRTVKEGECYIQFFSNAAVTFGTAIAAFYLPVIIMTVLYWHISRASKSRIKKEKK
+                     EPVAHQDPVSPSLVQGRIVKPNNNNTSGGDGGLEHNKIQNGKAPRDGVTENCVQGEEKE
+                     SSNDSTSVSAVASNMRDDEITQDENTVSTSLGHSKDDNSKQTCIKIVTKTQKGDSCTPT
+                     STTVELVGSSGQNGDEKQNIVARKIVKMTKQPAKKKPPPSREKKVTRTILAILLAFIIT
+                     WAPYNVMVLINTFCAPCIPNTVWTIGYWLCYINSTINPACYALCNATFKKTFKHLLMCH
+                     YKNIGATR"
+                     /gene="Chrm2"
+                     /protein_id="XP_005082460.1"
+     STS             814..1408
+                     /db_xref="UniSTS:265990"
+                     /standard_name="CHRM2"
+                     /gene="Chrm2"
+ORIGIN
+        1 gagacccgtt ctagggagca ggcacgcggg ggcaccgaca cacacactcc actcgcacac
+       61 acgcacacgc gcacacgcgc acaccagcct gcgggcttgg ccagagcctg aagtcgcaga
+      121 tcctactagg aaatcgccag aggcgctggg agaagtggaa gagcgcagct cgcagactct
+      181 aattactact tcccggcact cgggtgaaga aatgaagccc acacagctgc tcgccatatc
+      241 caggtctcct ttctatttcg gtgtccacag tcatctccct gaaagccaga tccagggaga
+      301 aggcgagcgg gcagtcagct gcggactcta agctgtgctg ctggcgccgc ctgagcgggt
+      361 ccaacttgag cccgccaaag gttcctcgct ccggccagac tccaccagat ctcagccccg
+      421 ggccactaag tcagctacag gtttaaatgt ttgtttggag gcgtggctac tgaacacaaa
+      481 atgaataact caacaaactc atctaataat ggcttggcta ttagcagtcc ttacaagaca
+      541 tttgaagtgg tatttattgt ccttgtggct ggatccctca gtctggtgac catcattgga
+      601 aacatccttg tcatggtttc cattaaagtc aaccgccacc ttcagacagt caacaattac
+      661 ttcttgttca gccttgcctg tgctgacctc atcataggtg ttttctccat gaacttgtat
+      721 accctctaca ctgtgattgg ttactggcct ttgggacctg tagtatgtga cctgtggcta
+      781 gccttggact atgtagtcag caatgcctct gttatgaatt tgctcatcat cagctttgac
+      841 aggtacttct gtgtcacaaa acccctgacc tacccagtta agcggaccac aaaaatggcg
+      901 ggcatgatga ttgcagctgc ctgggtcctt tccttcatcc tctgggctcc agccattctc
+      961 ttctggcagt tcattgtagg ggtgagaact gtaaaggagg gggagtgcta cattcagttc
+     1021 ttttccaatg ctgctgtcac ctttggcact gccattgcag ccttctatct gccggtcatc
+     1081 atcatgactg tgttgtattg gcacatatcc cgggcaagta agagtaggat aaagaaggaa
+     1141 aagaaggaac cggtggccca ccaagatcca gtatctccaa gtctagtgca gggaagaatt
+     1201 gtaaagccaa acaacaacaa cacttcaggt ggtgatggtg gcctggagca caacaaaatc
+     1261 cagaacggca aggctccccg ggatggcgtg actgaaaact gtgttcaggg ggaagagaag
+     1321 gagagctcga atgactccac ctcagtcagt gctgtcgcct ccaatatgag agatgatgaa
+     1381 ataacccagg atgaaaacac agtttctact tccctgggcc attctaaaga tgacaactct
+     1441 aagcaaacat gcatcaaaat tgtcaccaag acccaaaaag gtgactcatg caccccaacg
+     1501 agtaccacag tagaactagt tgggtcatcg ggtcaaaatg gggatgaaaa gcagaacatt
+     1561 gtagcacgca agattgtgaa gatgaccaag cagcctgcca aaaagaagcc tccgccatcc
+     1621 cgggaaaaga aggtgaccag gacaatcttg gctatcctgc tggctttcat catcacctgg
+     1681 gcaccgtaca atgtcatggt gctcatcaat accttctgtg caccctgcat ccccaataca
+     1741 gtgtggacaa tcggctactg gctctgttac atcaatagca ccatcaaccc tgcctgctac
+     1801 gcactttgca atgccacctt caaaaagact tttaaacacc tccttatgtg tcactacaag
+     1861 aatataggcg ctacaaggta aaagacctct acaaaagaag aaaagtggtc gagtagggct
+     1921 tgggaagaag aacagagaca agacagctgt ctgtttatag tgctctgcca ttgcactttc
+     1981 cagtcttgct acaaatgtgc agttaaggag ctctagaata acattcttac catgcccatg
+     2041 ctccagtttg
+//

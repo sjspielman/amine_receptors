@@ -1,0 +1,62 @@
+LOCUS       XP_005671333             436 aa                     MAM 26-SEP-2013
+DEFINITION  PREDICTED: 5-hydroxytryptamine receptor 7 isoform X1 [Sus scrofa].
+ACCESSION   XP_005671333
+VERSION     XP_005671333.1  GI:545871218
+DBLINK      BioProject: PRJNA28993
+KEYWORDS    RefSeq.
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003612060.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Sus scrofa Annotation Release 104
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..436
+                     /db_xref="taxon:9823"
+                     /breed="mixed"
+                     /organism="Sus scrofa"
+                     /chromosome="14"
+     Protein         1..436
+                     /product="5-hydroxytryptamine receptor 7 isoform X1"
+                     /calculated_mol_wt="48299"
+     Region          101..>218
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          109..388
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..436
+                     /coded_by="XM_005671276.1:70..1380"
+                     /gene="HTR7"
+                     /gene_synonym="5-HT7"
+                     /db_xref="GeneID:397158"
+ORIGIN
+        1 mmmdvnssgr pdlyghlrsi llpevgrglp dlssdgagpv agswaphllh gvpevtaspv
+       61 ptwdaprdna sgcgeqinyg raekvvigsi ltlitlltia gnclvvisvc fvkklrqpsn
+      121 ylivslalad lsvavavmpf vsvtdliggk wifghffcnv fiamdvmcct asimtlcvis
+      181 idrylgitrp ltypvrqngk cmakmilsvw llsasitlpp lfgwaqnvnd dkvclisqdf
+      241 gytiystava fyipmsvmlf myyqiykaar ksaakhkfpg fprpeepdsv islngmvklq
+      301 keveecanls rllkherkni sifkreqkaa ttlgiivgaf tvcwlpffll starpficgt
+      361 acsciplwve rtflwlgyan slinpfiyaf fnrdlrttyr sllqcqyrni nrklsaagmh
+      421 ealklaerpe rpelvl
+//

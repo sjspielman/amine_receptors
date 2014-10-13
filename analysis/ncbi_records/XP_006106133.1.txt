@@ -1,0 +1,74 @@
+LOCUS       XP_006106133             697 aa                     MAM 15-NOV-2013
+DEFINITION  PREDICTED: D(1B) dopamine receptor [Myotis lucifugus].
+ACCESSION   XP_006106133
+VERSION     XP_006106133.1  GI:558203934
+DBLINK      BioProject: PRJNA208947
+KEYWORDS    RefSeq.
+SOURCE      Myotis lucifugus (little brown bat)
+  ORGANISM  Myotis lucifugus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Microchiroptera;
+            Vespertilionidae; Myotis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005871810.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Myotis lucifugus Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..697
+                     /db_xref="taxon:59463"
+                     /country="USA: Framingham, MA"
+                     /organism="Myotis lucifugus"
+                     /chromosome="Unknown"
+                     /sex="female"
+     Protein         1..697
+                     /product="D(1B) dopamine receptor"
+                     /calculated_mol_wt="76877"
+     Region          <2..170
+                     /note="M14 family of metallocarboxypeptidases and related
+                     proteins; cl11393"
+                     /db_xref="CDD:264346"
+                     /region_name="Peptidase_M14_like"
+     Site            order(28,37..38,76..77,86,149)
+                     /db_xref="CDD:199839"
+                     /site_type="active"
+     Region          288..579
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <346..>398
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     CDS             1..697
+                     /coded_by="XM_006106071.1:1..2094"
+                     /gene="DRD5"
+                     /db_xref="GeneID:102423058"
+ORIGIN
+        1 marvlrehlv fkiapmlnpd gvypgnyrcs lmgfdlkrhw ldpspwahpt lygvkqliiq
+       61 myndpktsle fyidihahst mmngflygnv fedeerfqrq aifpkllcqn aedfsyssts
+      121 fnrdavkagt grrflgglld htsscytlev sfysyisggs taavpsteea spapkgrtaa
+      181 thpeapearr gparpgvpah ravsvppglw dpwprvpsry prvpdgaarg aqglrlertq
+      241 papaaesesd mllrgrngte yparqqlapr egapgsrggg agapaqaivr srhlrarmth
+      301 mfivslavsd lfvallvmpw kavaevaghw pfgafcdvwv afdimcstas ilnlcvisvd
+      361 rywaisrpfs yqqrmtprva lvmvglawtl silisfipvq lhwhrdeags rgavdpppad
+      421 langtswgta gdpevreenc dsslnrtyai asslisfyip vaimivtyar iyriahaqir
+      481 riacleragq raqrcggrep epglrvsiqk etkvlktlsv imgvfvccwl pffllncmap
+      541 fcsrrpegar agfpcvsdtt fdvfvwfgwa nsslnpviya fnadfrkvfa qllgcgrlcs
+      601 rrtrvatvtl snelisydqd tvfsretaaa yshvvhsevt prhregdkee egpldlmcqt
+      661 aqaspegdpa aqsvwelgce getslgkttp ftssgfh
+//

@@ -1,0 +1,94 @@
+LOCUS       XM_004469372            1937 bp    DNA              MAM 06-MAY-2013
+DEFINITION  PREDICTED: Dasypus novemcinctus adrenoceptor beta 3 (ADRB3), mRNA.
+ACCESSION   XM_004469372
+VERSION     XM_004469372.1  GI:488557991
+DBLINK      BioProject: PRJNA196486
+KEYWORDS    RefSeq.
+SOURCE      Dasypus novemcinctus (nine-banded armadillo)
+  ORGANISM  Dasypus novemcinctus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Xenarthra; Cingulata; Dasypodidae; Dasypus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004483087.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Dasypus novemcinctus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1937
+                     /mol_type="mRNA"
+                     /country="USA: National Hansen's Disease Programs at
+                     Louisiana State University, School of Veterinary Medicine"
+                     /isolate="3-136"
+                     /sex="female"
+                     /db_xref="taxon:9361"
+                     /organism="Dasypus novemcinctus"
+                     /chromosome="Unknown"
+     gene            1..1937
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 67 Proteins, and 89% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 3 samples with support for all annotated introns"
+                     /db_xref="GeneID:101422800"
+                     /gene="ADRB3"
+     CDS             1..1170
+                     /product="beta-3 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:488557992"
+                     /db_xref="GeneID:101422800"
+                     /translation="MAPWPHGNSSLAPWPDAPTLAPNTANASGLPGAPGAAALAGALLA
+                     LAVLATVGGNLLVIVAIARTPRLQTNTNVFVTSLAAADLVVGLLVVPPGATLALTGHWP
+                     LGATGCELWTSVDVLCVTASIETLCALAVDRYLAVTNPLRYGALVTKRRARAAVALVWL
+                     VSAAVSFAPIMSQWWRVGADAEAQRCHSNPRCCAFASNLPYALLSSSVSFYLPLLVMLF
+                     VYARVFAVATRQLRLLRLELRRFPPEASPRAPSPAPGRPARLLPLREHRALLTLGLIMG
+                     TFTLCWLPFFVANVVRALGGPALVPSSALLALNWLGYANSAFNPLIYGRSPDFRSAFRR
+                     LLRDCGRCGPGEPPAAAARTPAAWTGAAGSRQRPLDGCDGSDGEEPLGV"
+                     /gene="ADRB3"
+                     /protein_id="XP_004469429.1"
+     STS             161..524
+                     /db_xref="UniSTS:506234"
+                     /standard_name="ADRB3"
+                     /gene="ADRB3"
+ORIGIN
+        1 atggctccgt ggcctcacgg caacagctcc ctggcgccct ggccggacgc gcccaccctg
+       61 gcccccaaca ccgccaacgc gagcgggctg ccgggggcgc cgggggccgc ggccctggcc
+      121 ggggcgctgc tggcgctggc ggtgctggcg accgtggggg gcaacctgct ggtgatcgtg
+      181 gccatcgccc ggacgccgcg gctccagacc aacaccaacg tgttcgtgac ttcgctggcc
+      241 gccgccgacc tggtggtggg gctcttggtg gtgcccccgg gggccacctt ggcgctgacg
+      301 ggccactggc ccttgggcgc cacgggttgc gagctgtgga cctcggtgga tgtgctgtgc
+      361 gtgacggcca gcatcgaaac cctgtgcgcc ctggccgtgg accgctacct ggccgtgacc
+      421 aacccgctgc gctacggcgc gctggtcacc aagcgccgcg cccgcgccgc cgtggccctg
+      481 gtgtggctcg tgtcggccgc ggtgtcgttt gcgcccatca tgagccagtg gtggcgcgtg
+      541 ggggccgacg ccgaggcgca gcgctgccac tccaacccgc gctgctgcgc cttcgcctcc
+      601 aacctgccct acgcgctgct ctcctcctcc gtctccttct acctcccgct gctcgtgatg
+      661 ctcttcgtct acgcgcgggt tttcgccgtg gccacgcgcc agctgcgcct gctgcgcctg
+      721 gagctgcgcc gcttcccgcc cgaggcgtcc ccgcgggccc cgtcgcccgc cccggggcgg
+      781 cccgcgcgcc tgctgcctct gcgggagcac cgcgccctgc tcacgctggg tctcatcatg
+      841 ggcaccttca ctctctgctg gctgcccttc ttcgtggcca acgtggtgcg cgccctcggg
+      901 ggccccgcgc tcgtccccag ctcggctctc ctcgccctca actggctcgg ctacgccaac
+      961 tccgccttca acccgctcat ctacggccgc agcccggact tccgcagcgc cttccgccgc
+     1021 ctgctgcgcg actgcggccg ctgcgggccc ggggagcccc ccgccgccgc cgcccggacc
+     1081 cccgccgcct ggaccggcgc ggccggctcc agacagcggc cgctcgacgg gtgtgatggc
+     1141 agcgacggtg aggagccact cggggtgtga aggagagccg ggagccagga gcctgtgaat
+     1201 gctgattccc ctccgggctc cctggggagc gcgttaggcg gcggaggaca agaaacggca
+     1261 actccattta tccagcacct tcggaaaacc tctggcctct ctttcagaat cagcccagta
+     1321 gagcttcccg cttggaaaac tctgcccagc agacccggat gacctggcca cgggaatggg
+     1381 ggtggctggt gctttcgggg gagggcgagt cctcccttac agagtaggtt tgcgccatgc
+     1441 tctggggatt cgctttcttc cagagttttc taaatcccac tcctgaactt catcactacc
+     1501 tcagcagctg ggggtggggg tcggggtggg agaggacagg gagccggtgc tcagctgtcc
+     1561 gtggagcagc cgggctggct ttggcagggg cgcccgtccc cgtgctcatt tttgcctgcg
+     1621 tgctcagggc agatgagact cctagttctg tccttccttt gcccaggccc tgaggtggcc
+     1681 ttcggggttc gcccggccct gtagcccagg cagaggttag aaaagatcaa ggttgggagc
+     1741 ttcgccctgg ccttgtcact gccgctgtcc aagcaccagc ctccagcacc ttagacacgg
+     1801 aacagctctg atctacctca cagcagggtc agaaggactc tttcagggtt tgggggcgct
+     1861 ccggggttcc taggaaggcg aaccattagc gtggatccct tcttttcctt tgaaaatcaa
+     1921 actaataaaa attactc
+//

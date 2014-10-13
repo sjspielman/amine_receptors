@@ -1,0 +1,89 @@
+LOCUS       XM_005345116            1454 bp    DNA              ROD 21-AUG-2013
+DEFINITION  PREDICTED: Microtus ochrogaster dopamine receptor D3 (Drd3), mRNA.
+ACCESSION   XM_005345116
+VERSION     XM_005345116.1  GI:532001651
+DBLINK      BioProject: PRJNA210839
+KEYWORDS    RefSeq.
+SOURCE      Microtus ochrogaster (prairie vole)
+  ORGANISM  Microtus ochrogaster
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Arvicolinae; Microtus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004948967.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Microtus ochrogaster Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1454
+                     /mol_type="mRNA"
+                     /isolate="Prairie Vole_2"
+                     /sex="female"
+                     /db_xref="taxon:79684"
+                     /organism="Microtus ochrogaster"
+                     /chromosome="2"
+     gene            1..1454
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 Proteins, and 47% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101990858"
+                     /gene="Drd3"
+     CDS             60..1436
+                     /product="D(3) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:532001652"
+                     /db_xref="GeneID:101990858"
+                     /translation="MAPLSQISTHINSTCGAENSTGVSRARPHAYYALSYCALILAIIF
+                     GNALVCAAVLRERALQTTTNYLVVSLAVADLLVATLVMPWVVYLEVTGGVWNFSRICCD
+                     VFVTLDVMMCTASILNLCAISIDRCYYYLHIRIPDNLLESPTARMWPSLCLALQTLWRT
+                     HQKESSERLFDLYKDSTWPPPLSRDPSICSISNPDFVIYSSVVSFYVPFGVTVLVYARI
+                     YMVLRQRRRKRILTRQNSQCISIRPGFPQQSSCLRLHPIRQFSIRARFLSDATGQMEHI
+                     EDKQYPQKCQDPLLSQLQPLSPGQTHGELKRYYSICQDTALRHPGFQEGEGGMSQVERT
+                     RNSLSPTMAPKLSLEVRKLSNGRLSTSLKLGPLQPRGVPLREKKATQMVAIVLGAFIVC
+                     WLPFFLTHVLITHCQACHVSPALYRATTWLGYVNSALNPVIYTTFNVEFRKAFLKILSC
+                     "
+                     /gene="Drd3"
+                     /protein_id="XP_005345173.1"
+     STS             1258..1435
+                     /db_xref="UniSTS:53374"
+                     /standard_name="RH71216"
+                     /gene="Drd3"
+ORIGIN
+        1 tagtcaagag aaatcaaacg taaagggaca ttctggagtc acattcctcc atctgggcta
+       61 tggcacctct gagccagata agcacccaca tcaactccac ctgtggggca gagaactcca
+      121 caggggtcag ccgggcccgc ccgcatgcct actatgccct gtcctactgt gcgctcatcc
+      181 tagccatcat cttcggcaat gccctggtgt gcgcggctgt gctgagggag cgcgccctac
+      241 agaccaccac caactacctg gtggtgagcc tggctgtcgc agacctgctg gtggctacac
+      301 tggtgatgcc gtgggtggtg tacctggagg tgacaggtgg agtctggaac ttcagccgca
+      361 tttgctgtga tgtttttgtc accctggatg tcatgatgtg tacagccagc atcctgaacc
+      421 tctgtgccat cagcatagac aggtgctatt actaccttca catccgcata ccagataatc
+      481 tgttagagag tcctacagct cgaatgtggc catctctctg cctggccctt caaaccctct
+      541 ggagaacgca ccagaaggag agctctgagc gtctctttga tctatacaag gattcaacat
+      601 ggccaccccc actctcaagg gaccccagta tctgctccat ctccaaccct gattttgtca
+      661 tctactcttc agtggtgtcc ttctacgttc cctttggagt gaccgtcctg gtctatgcca
+      721 ggatctacat ggtgctgaga cagaggagac ggaaacggat cctcactcga cagaatagtc
+      781 agtgtatcag catcaggcct ggattcccgc agcagtcttc ctgtctgcgg ctccatccca
+      841 ttcggcagtt ttcaataagg gccaggtttc tgtcagatgc cacgggacaa atggaacaca
+      901 tagaagacaa acaatatccc cagaaatgtc aggaccctct cttgtcacaa ctgcagcccc
+      961 tctctcccgg ccagacacac ggcgagctga agcgctacta cagcatctgc caagacactg
+     1021 ccttgaggca cccgggcttt caagaaggag aaggagggat gagccaggtg gagaggactc
+     1081 ggaactcctt gagccccacc atggcaccca agctcagctt agaggttcga aaactcagca
+     1141 atggcaggtt atccacatcc ctgaagctgg ggcccctgca gcctagggga gtgccacttc
+     1201 gagagaagaa ggccacccag atggtggcca ttgtgctcgg agccttcatt gtctgctggc
+     1261 tgcccttctt cctgactcat gttctcatta ctcactgtca ggcatgccat gtgtccccgg
+     1321 cgctttacag agccacaaca tggctaggct atgtgaacag tgcccttaac cctgtcatct
+     1381 ataccacctt caatgtggag ttccgcaaag ccttcctcaa gatcctgtcc tgctgaggga
+     1441 ggagaggccg cact
+//

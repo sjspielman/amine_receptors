@@ -1,0 +1,100 @@
+LOCUS       XM_005153155            2344 bp    DNA              VRT 26-JUL-2013
+DEFINITION  PREDICTED: Melopsittacus undulatus 5-hydroxytryptamine (serotonin)
+            receptor 1B, G protein-coupled (HTR1B), mRNA.
+ACCESSION   XM_005153155
+VERSION     XM_005153155.1  GI:527270534
+DBLINK      BioProject: PRJNA197262
+KEYWORDS    RefSeq.
+SOURCE      Melopsittacus undulatus (budgerigar)
+  ORGANISM  Melopsittacus undulatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Psittaciformes;
+            Psittacidae; Melopsittacus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004848280.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Melopsittacus undulatus Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2344
+                     /db_xref="taxon:13146"
+                     /mol_type="mRNA"
+                     /organism="Melopsittacus undulatus"
+                     /chromosome="Unknown"
+                     /sex="male"
+     gene            1..2344
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 27 ESTs, 42 long SRA
+                     reads, 21 Proteins"
+                     /db_xref="GeneID:101877416"
+                     /gene="HTR1B"
+     CDS             13..1146
+                     /product="5-hydroxytryptamine receptor 1B"
+                     /codon_start="1"
+                     /db_xref="GI:527270535"
+                     /db_xref="GeneID:101877416"
+                     /translation="MEPAGPCRAQLIPANDSYRNCSAEEGIYQDSTPLSWKIVLAVVLA
+                     LVTLATVLSNAFVIATVYQTRKLHTPANYLIASLAVTDLLVSILVMPISTMYTVTGKWT
+                     LGQVVCDIWLSSDITCCTASILHLCVIALDRYWAITDAVEYSTKRTPKRAAGMIALVWV
+                     FSICISMPPLFWRQAKAEEVSHCVVNTDHVLYTVYSTVGAFYFPTLLLIALYGRIYVEA
+                     RSRILKQTPKKAGKRLTRAQLITDSPGSSSSVTSINSKTPEGFSETGSPVYMNQVKVKV
+                     SDALLEKKKLTAARERKATKTLGIILGAFIFCWLPFFIISLVLPICKDACWFHMAIFDF
+                     FTWLGYLNSLINPVIYTMSNEDFKQAFHKLIRFRCTG"
+                     /gene="HTR1B"
+                     /protein_id="XP_005153212.1"
+ORIGIN
+        1 ggcagcggag ggatggagcc ggcaggaccc tgccgggcgc agctgatccc cgccaacgat
+       61 tcttaccgaa actgcagcgc cgaggaaggg atctaccaag attccacccc tctctcctgg
+      121 aagatcgttc tcgccgtcgt cctggcgctt gtcaccctgg ccacagtgct ctccaacgcc
+      181 tttgtcatcg ccacggtcta ccagacgagg aaactccaca cgccggccaa ctatctcatc
+      241 gcctcgctgg ctgtcaccga ccttctcgtc tccattctcg tcatgcccat tagcaccatg
+      301 tacactgtga ccggcaagtg gacgctgggc caggtcgtct gcgatatctg gttgtcctcg
+      361 gacatcacct gttgcacggc gtccatcctg cacctctgtg tcatcgccct ggaccgctac
+      421 tgggcgatca ccgacgccgt cgaatactcc acaaaacgga ctcccaagcg ggcagcgggt
+      481 atgatcgctc tggtgtgggt tttctccatc tgcatctcca tgcccccttt gttttggcgg
+      541 caggcgaagg ctgaagaagt ctctcactgt gtggtgaaca cagaccacgt cctctacacc
+      601 gtgtactcta cagtgggagc cttctacttc cccaccctgc tgctgatagc cctctacggg
+      661 aggatctacg tagaagccag gtcgcggatt ttgaagcaga ctccaaagaa agcaggtaaa
+      721 agactaacgc gggctcagtt aatcacagac tccccggggt cgtcctcctc cgtcacgtcc
+      781 ataaactcca agacccccga gggattcagc gaaacgggct ctcccgtgta catgaaccag
+      841 gtgaaggtga aggtctcgga tgccctcctg gagaaaaaga agctcacggc cgctagagag
+      901 cggaaagcta caaagacttt agggattatt ttaggagcct tcatcttctg ttggctgccc
+      961 tttttcatca tcagcctggt gttgcctatt tgcaaggacg cttgctggtt ccatatggcc
+     1021 atctttgact ttttcacatg gcttggatat ctcaactccc tcatcaaccc cgtcatctat
+     1081 actatgtcga acgaagactt caaacaagct ttccacaaac tcatacgttt ccgatgcaca
+     1141 ggctgaacgt tttgaatgcg atgtgtcctc cgggtctgtc cccacgcacg ccggtgcccg
+     1201 gcgccacaga atcaagttgc tattgtaaag acccactgct tgaaacttcc ccaagcccag
+     1261 ttgccagact catgatgctg caaaaacgtc aatacatact gccaccaaac tgctcagctc
+     1321 tgcatttcag tgtaatgact ctggcagaga tgctgttcca atagtcacgc agatcagttg
+     1381 caaaaaaaga gggcagcctc ttatcaaggt ctataattca tctggactga agaaaaagtt
+     1441 tgagagtaaa ctccatttat tttgcaggct taacttctta atttgttctc tggccggttg
+     1501 taggggtgtg cacaagagca cagttgtctc tgtctgtgtt ggtagcatag ttgtacttct
+     1561 gcacacctgt aatttctttc tttcagtgga aagagttgct cccttcacat atgaggccaa
+     1621 gaggagggaa aaaaaaaggc agcgtttaaa ataggagttt cacagtacat tctgtaaatg
+     1681 actcctccag ctgaacatgt gtgagaagtg acagtgtgca aaagttatgt ttgtgtttca
+     1741 acacaatagc aaatgctgta gaaaccagag ttgtagacct gttcaactgc actgcatatc
+     1801 tatagtctgt cttcatagtt gcatttacaa agtaaatact tcttgcttct actccataac
+     1861 tcaagagcag aaatcaggaa gttcaatgac cttttccata aaccagctgg gaatagaagt
+     1921 agcagtttga tgttgtaacc atgttttcca ttttgtgtca gttgcacacc cttaccgcat
+     1981 gaaccactgc aaaatttaga attctctaag taattacatt atttagtgta ttttgtaaag
+     2041 aagtgaagca gtttgttctc tcagaagagc tgtgtcacct gcaaaataaa tacccatgaa
+     2101 tcatgagtaa actgatgtta gtgaaattac tctcctccct acttccctcc tatagttctt
+     2161 ctcttttttt tcttcctttt tctttccctc tgatttgacc ttaaggcagg tctatgcata
+     2221 ttcagcagtc aaagtcagag tttcaggata tggtccacct gctgtgatag aactgcattg
+     2281 attgttcctt ctatgtgtaa atgaaaatga gtataaacaa taaaatgctt tactgtgttc
+     2341 tcaa
+//

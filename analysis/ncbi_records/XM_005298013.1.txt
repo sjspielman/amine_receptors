@@ -1,0 +1,90 @@
+LOCUS       XM_005298013            1520 bp    DNA              VRT 14-AUG-2013
+DEFINITION  PREDICTED: Chrysemys picta bellii 5-hydroxytryptamine (serotonin)
+            receptor 4, G protein-coupled (HTR4), transcript variant X3, mRNA.
+ACCESSION   XM_005298013
+VERSION     XM_005298013.1  GI:530616645
+DBLINK      BioProject: PRJNA210179
+KEYWORDS    RefSeq.
+SOURCE      Chrysemys picta bellii (western painted turtle)
+  ORGANISM  Chrysemys picta bellii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Testudines; Cryptodira;
+            Testudinoidea; Emydidae; Chrysemys.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004848598.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Chrysemys picta Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1520
+                     /sub_species="bellii"
+                     /mol_type="mRNA"
+                     /country="USA: Grant Co., WA"
+                     /isolate="RCT428"
+                     /sex="female"
+                     /isolation_source="small lake 1.3 miles south of Potholes
+                     Reservoir"
+                     /db_xref="taxon:8478"
+                     /organism="Chrysemys picta bellii"
+                     /chromosome="Unknown"
+     gene            1..1520
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 14 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 5 samples with support for all annotated introns"
+                     /db_xref="GeneID:101949587"
+                     /gene="HTR4"
+     CDS             297..1430
+                     /product="5-hydroxytryptamine receptor 4 isoform X3"
+                     /codon_start="1"
+                     /db_xref="GI:530616646"
+                     /db_xref="GeneID:101949587"
+                     /translation="MEELDVNVSSSEGFGVAEKIALLTFISAVILMAILGNLLVMVAVC
+                     RDRQLRKIKTNYFIVSLAFADLLVSVLVMPFGAIELVQDNWIYGEMFCLVRTSLDVLLT
+                     TASILHLCCISLDRYYAICCQPLVYRNKMTPLRIALMLGGCWTIPTFISFLPIMQGWNS
+                     IGILDLIQQRQFNKASNSTYCVFMVNKPYAITCSVVAFYIPFLLMVLAYYRIYITAREH
+                     ARQIRILQRAGAPTEGRHHPDQHSSHRMKTETKAAKTLCIIMGCFCLCWAPFFITNVVD
+                     PFINYTVPEQLWTAFLWLGYINSGLNPFLYAFLNKSFRRAFLIILCCGDERYRRPSILG
+                     QTVPCSTTTINGSTHVLSGCSSISKFLLLFCNRPVPV"
+                     /gene="HTR4"
+                     /protein_id="XP_005298070.1"
+ORIGIN
+        1 cccggggacc ggcgacgcgc tcaggcggcg gggaagctgc tcgtccgtgc gctcgtggct
+       61 ggccgggagc ggggccagcg ggcagcgaga ggcgcctgct aggggagcgg gctctgggac
+      121 cggcccggga gcgcggcggt gcccggcacc cggagaggca gccagccgac gggaggatgc
+      181 ggacagcctc gtagggagct gggccatgcc ccggggggcc aggctgcgca cacggcaatg
+      241 gaccaggttt cttctatggg cgctgaactc ccagctacct atgcctattg cctgtgatgg
+      301 aagaacttga tgttaatgtg agttcgagtg aggggttcgg cgtggcagag aagatcgcac
+      361 tgctcacctt tatctcggcg gttatactca tggcgatcct ggggaacttg ctggtgatgg
+      421 tggcagtatg cagagacagg cagctcagga aaatcaagac caattatttc attgtctcac
+      481 ttgcctttgc ggacctgctg gtgtcggtgc tggtgatgcc ctttggagct attgagctgg
+      541 ttcaggataa ctggatttat ggagagatgt tctgcctggt ccgaacatct ctagatgtcc
+      601 tgctcaccac agcatcaatc cttcacctgt gctgtatctc cctagacagg tactatgcta
+      661 tctgctgcca gcctctggtt tacaggaata agatgacacc actgcgcatt gctctaatgc
+      721 ttggagggtg ctggaccatc ccgacattta tttcttttct ccctataatg caaggctgga
+      781 attccattgg tatattagac ttgatacaac aaagacagtt caacaaggct tccaactcaa
+      841 cctactgcgt gttcatggtc aacaaaccct acgccatcac ctgctcagtg gtggccttct
+      901 acattccatt cctcttgatg gtgctggcct actatcggat ttacatcacg gccagggagc
+      961 acgcccgcca gatccggatc ctccagcgtg caggggcgcc cacagagggg agacaccacc
+     1021 cggatcagca tagctctcac cgtatgaaga cagagaccaa agctgccaag accctgtgta
+     1081 tcatcatggg gtgcttctgt ctgtgctggg ccccattctt tatcactaat gtcgtggacc
+     1141 cgttcataaa ttatactgta cctgagcagc tgtggacagc tttcctgtgg ttgggctaca
+     1201 tcaattcagg gttgaacccc ttcctgtatg ccttcctgaa caagtctttc agacgtgcct
+     1261 tcctcatcat tctgtgctgt ggagacgaac gctaccgaag gccttccatc ttggggcaaa
+     1321 ctgtcccctg ttccaccacc actataaatg gatcgacgca cgtgctaagt ggctgttctt
+     1381 ctatctccaa gttcctcctg ctgttctgca atagaccagt tcctgtttaa ccctgaacat
+     1441 gctctgtaca cagttttaca taatgggcat catcaggaac acgagaagct tcccatccac
+     1501 aatgacccag aatcccagga
+//

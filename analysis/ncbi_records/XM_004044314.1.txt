@@ -1,0 +1,142 @@
+LOCUS       XM_004044314            2019 bp    DNA              PRI 03-DEC-2012
+DEFINITION  PREDICTED: Gorilla gorilla gorilla 5-hydroxytryptamine (serotonin)
+            receptor 1B, G protein-coupled (HTR1B), mRNA.
+ACCESSION   XM_004044314
+VERSION     XM_004044314.1  GI:426353783
+KEYWORDS    RefSeq.
+SOURCE      Gorilla gorilla gorilla (western lowland gorilla)
+  ORGANISM  Gorilla gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004003211) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Gorilla gorilla Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2019
+                     /db_xref="taxon:9595"
+                     /sub_species="gorilla"
+                     /mol_type="mRNA"
+                     /organism="Gorilla gorilla gorilla"
+                     /chromosome="6"
+     gene            1..2019
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 8 mRNAs, 3 ESTs, 13 Proteins"
+                     /db_xref="GeneID:101124222"
+                     /gene="HTR1B"
+     STS             128..379
+                     /db_xref="UniSTS:157837"
+                     /standard_name="GDB:580599"
+                     /gene="HTR1B"
+     misc_feature    248..250
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR1B"
+     STS             311..745
+                     /db_xref="UniSTS:158176"
+                     /standard_name="GDB:603580"
+                     /gene="HTR1B"
+     STS             326..559
+                     /db_xref="UniSTS:157838"
+                     /standard_name="GDB:580603"
+                     /gene="HTR1B"
+     CDS             371..1543
+                     /product="5-hydroxytryptamine receptor 1B"
+                     /codon_start="1"
+                     /db_xref="GI:426353784"
+                     /db_xref="GeneID:101124222"
+                     /translation="MEEPGAQCAPPSPAGSETWVPQANLSSAPSQNCSAKDYIYQDSIA
+                     LPWKVLLVMLLALITLATTLSNAFVIATVYRTRKLHTPANYLIASLAVTDLLVSILVMP
+                     ISTMYTVTGRWTLGQVVCDFWLSSDITCCTASILHLCVIALDRYWAITDAVEYSAKRTP
+                     KRAAVMIALVWVFSISISLPPFFWRQAKAEEEVSECVVNTDHILYTVYSTVGAFYFPTL
+                     LLIALYGRIYVEARSRILKQTPNRTGKRLTRAQLITDSPGSTSSVTSINSRVPDVPSES
+                     GSPVYVNQVKVRVSDALLEKKKLMAARERKATKTLGIILGAFIVCWLPFFIISLVMPIC
+                     KDACWFHLAIFDFFTWLGYLNSLINPIIYTMSNEDFKQAFHKLIRFKCTS"
+                     /gene="HTR1B"
+                     /protein_id="XP_004044362.1"
+     STS             371..1543
+                     /db_xref="UniSTS:481202"
+                     /gene="HTR1B"
+     STS             504..799
+                     /db_xref="UniSTS:157839"
+                     /standard_name="GDB:580608"
+                     /gene="HTR1B"
+     STS             702..1139
+                     /db_xref="UniSTS:158177"
+                     /standard_name="GDB:603584"
+                     /gene="HTR1B"
+     STS             729..1025
+                     /db_xref="UniSTS:157840"
+                     /standard_name="GDB:580611"
+                     /gene="HTR1B"
+     STS             892..1737
+                     /db_xref="UniSTS:277337"
+                     /standard_name="HTR1B_V264"
+                     /gene="HTR1B"
+     STS             973..1173
+                     /db_xref="UniSTS:157841"
+                     /standard_name="GDB:580614"
+                     /gene="HTR1B"
+     STS             1090..1637
+                     /db_xref="UniSTS:158178"
+                     /standard_name="GDB:603594"
+                     /gene="HTR1B"
+     STS             1166..1409
+                     /db_xref="UniSTS:157842"
+                     /standard_name="GDB:580618"
+                     /gene="HTR1B"
+     STS             1212..1290
+                     /db_xref="UniSTS:272841"
+                     /standard_name="PMC311033P3"
+                     /gene="HTR1B"
+     STS             1378..1617
+                     /db_xref="UniSTS:157843"
+                     /standard_name="GDB:580621"
+                     /gene="HTR1B"
+ORIGIN
+        1 atttggtcaa agccttctcc tcaagcagta cttcaccctc ctgcactaga cgcctccagg
+       61 gagctggagc ggagcagggc tcggtgggcc agctcttagc aacccagggc taagacccgg
+      121 tgtggagagg aacaaccaca gacgcggcgg cttcgctagg cgctctggaa gtgcagggga
+      181 ggcgcccgcc tgccttggct gccgcaccca tgacctctag tttcagctgt gaacctgggc
+      241 ggaggaataa ttgaggaact cacggaacta tcaactgggg acaaacctgc gatcgccacg
+      301 gtccttccgc cctctccttc gtccgctcca tgcccaagag ctgcgctccg gagctggggc
+      361 gaggagagcc atggaggaac cgggtgctca gtgcgctcca ccgtcgcccg cgggctccga
+      421 gacctgggtt cctcaagcca acttatcctc tgctccctcc caaaactgca gcgccaagga
+      481 ctacatttac caggactcca tcgccctacc ctggaaagta ctgctggtta tgctattggc
+      541 gctcatcacc ttggccacca cgctctccaa tgcctttgtg attgccacag tgtaccggac
+      601 ccggaaactg cacaccccgg ctaactacct gatcgcctct ctggcggtca ccgacctgct
+      661 tgtgtccatc ctggtgatgc ccatcagcac catgtacact gtcaccggcc gctggacact
+      721 gggccaggtg gtctgtgact tctggctgtc gtcggacatc acttgttgca ctgcctccat
+      781 cctgcacctc tgtgtcatcg ccctggaccg ctactgggcc atcacggacg ccgtggagta
+      841 ctcagctaaa aggactccca agagggcggc ggtcatgatc gcgctggtgt gggtcttctc
+      901 catctctatc tcgctaccgc ccttcttctg gcgtcaggcc aaggccgaag aggaggtgtc
+      961 ggaatgcgtg gtgaacaccg accacatcct ctacacggtc tactccacgg tgggtgcttt
+     1021 ctacttcccc accctgctcc tcatcgccct ctatggccgc atctacgtag aagcccgctc
+     1081 ccggattttg aaacagacgc ccaacaggac cggcaagcgc ttgacccgag cccagctgat
+     1141 aaccgactcc cccgggtcca cgtcctcggt cacctctatt aactcgcggg ttcccgacgt
+     1201 gcccagcgaa tccgggtctc ctgtgtatgt gaaccaagtc aaagtgcgag tctccgacgc
+     1261 tctgctggaa aagaagaaac tcatggccgc tagggagcgc aaagccacca agaccctagg
+     1321 gatcattttg ggagccttta ttgtgtgttg gctacccttc ttcatcatct ccctagtgat
+     1381 gcctatctgc aaagatgcct gctggttcca cctagccatc tttgacttct tcacatggct
+     1441 gggctatctc aactccctca tcaaccccat aatctatacc atgtccaatg aggactttaa
+     1501 acaagcattc cataaactga tacgttttaa gtgcacaagt tgacttgcca tttgcagtgg
+     1561 ggtcgcctaa gcgacctttg gggaccaagt tgtgtctggt tccacaggta ggtcgaatct
+     1621 tctttcgcgg tttctgggtc ccagcgaggc tctctctcct gggcaagggc aatggatcct
+     1681 gagaagccag aatagtcctg agagagagct ctgaaaggag aagtgttgaa actaaatgta
+     1741 gagcttccct gcccaggagg aggctcactt cctcccctca agccccgggc tcagcactga
+     1801 ccctgcggca gccaatccca aagggggttg caacttttaa aaattgataa tggaagggaa
+     1861 tccctgccct gctttggtat cgtggataat gcccactaga agcagtgtac ttgtaattgt
+     1921 tgtctgaagc ctgtctgaga cagatctacg tacagcctgg cagtacttga actagacgct
+     1981 taatgccctg tgtttttggg gagaactttg tgttacagc
+//

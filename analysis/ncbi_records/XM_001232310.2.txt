@@ -1,0 +1,92 @@
+LOCUS       XM_001232310            1411 bp    DNA              VRT 19-JUN-2013
+DEFINITION  PREDICTED: Gallus gallus histamine receptor H4 (HRH4), transcript
+            variant X1, mRNA.
+ACCESSION   XM_001232310
+VERSION     XM_001232310.2  GI:513172009
+DBLINK      BioProject: PRJNA10808
+KEYWORDS    RefSeq.
+SOURCE      Gallus gallus (chicken)
+  ORGANISM  Gallus gallus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Galliformes;
+            Phasianidae; Phasianinae; Gallus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003763686.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Jun 19, 2013 this sequence version replaced gi:118086909.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Gallus gallus Annotation Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1411
+                     /mol_type="mRNA"
+                     /breed="Red Jungle fowl, inbred line UCD001"
+                     /isolate="#256"
+                     /sex="female"
+                     /db_xref="taxon:9031"
+                     /organism="Gallus gallus"
+                     /chromosome="2"
+     gene            1..1411
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 8 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 6 samples with support for all annotated introns"
+                     /db_xref="CGNC:11236"
+                     /db_xref="GeneID:769106"
+                     /gene="HRH4"
+     misc_feature    135..137
+                     /note="upstream in-frame stop codon"
+                     /gene="HRH4"
+     CDS             189..1394
+                     /product="histamine H3 receptor-like isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:513172010"
+                     /db_xref="CGNC:11236"
+                     /db_xref="GeneID:769106"
+                     /translation="MLNMHNSTAETPCMMGPCNGTVSPQPLTPQFPLGVLIFLALLMVL
+                     LALVTILGNVLVILAFILDKNLRHRNNYFFLNLAISDFAVGVFCMPLYIPYALTGTWHL
+                     GKGLCKLWLLLDYLMCSASVFNIVLISYDRFLSVTKAVSYRTQQGMMSNPVVKMVAIWV
+                     FAFLLYSPAVLLWEYMAGYSMVEEGQCYAEFFNNWYFLLCASTLEFFVPLISVTYFNLS
+                     IFYNIQRRQRRGSIQYCESPGSRSMTWRFCFLLRRGSSLSETEDSASSVMRSLRPSLAS
+                     NSTSPTSPVADKRDFSASFRANSQSRLQRDKKVAKSLAIIVCVFVICWAPYTLLMIIRG
+                     ACQGKCVHPILYEITFWLLWINSSLNPFLYPLCHVRFQMAFMKILCPQKLTMLRSNDTP
+                     SV"
+                     /gene="HRH4"
+                     /protein_id="XP_001232311.2"
+ORIGIN
+        1 gtgtcattat ttactacgat tttaaaaatt ttatgttaaa catttaccta tcatcagaac
+       61 ctctcaattt ttttcctctt gactcaattt tttagatgtc tattagcctt ttcatctcag
+      121 ctgttacgaa tctctgaatc tcagccttct ggacaataca agtttcttcc tggactgaac
+      181 tgacctggat gctcaacatg cacaacagca cggctgaaac tccatgcatg atgggaccct
+      241 gtaatgggac agtgtcccca cagccattga cccctcagtt tcccctgggt gtattgatat
+      301 tcctggctct gctcatggtg ctgctggctc tggtcaccat cctcggaaac gtcctggtga
+      361 tcctggcttt catcttggac aaaaatctca ggcaccggaa taactatttc tttctcaacc
+      421 ttgccatttc tgactttgca gtaggtgtct tctgcatgcc actgtacatc ccttatgccc
+      481 tgacagggac ctggcacctg gggaaagggc tatgcaagct ctggctgctt ttggactatc
+      541 tcatgtgttc agcttcagtg tttaacattg tccttatcag ctatgaccgt ttcctgtcag
+      601 ttacgaaagc ggtatcttac agaacccagc agggaatgat gtccaaccct gttgtcaaga
+      661 tggtggccat ctgggtcttt gccttcctgc tctattctcc agcagttctc ctttgggagt
+      721 acatggctgg ctacagcatg gtagaggagg gacagtgcta tgccgagttc ttcaacaact
+      781 ggtacttcct cctctgtgca tccaccctgg agttctttgt gccactgatc tcagtcacct
+      841 acttcaactt gagcatcttc tacaacatcc agagacggca gcggcgcggc agcattcaat
+      901 actgtgagtc tccagggagc agaagcatga cctggaggtt ttgttttttg ctgaggcgag
+      961 gatcctcttt gtcagaaaca gaggacagtg cttcttcagt aatgaggtca ttgagaccat
+     1021 cactggcgtc taactctaca tctccaacga gtcctgtggc tgacaaaagg gacttctctg
+     1081 catctttccg tgcaaattct cagtcaagac tgcaaagaga caagaaggtt gcgaagtcac
+     1141 ttgccataat tgtgtgtgtc tttgtcattt gctgggcccc atatacttta ctgatgatta
+     1201 ttcgtggagc ctgccaagga aaatgtgtcc atccaatcct gtatgaaatt accttttggc
+     1261 ttttgtggat taattcctct ctgaacccat ttctttaccc actctgtcat gtgagatttc
+     1321 aaatggcttt tatgaaaata ttatgtcccc aaaagttgac aatgttgaga tcaaatgata
+     1381 caccttctgt ttagagcatt aaagtaaaag a
+//

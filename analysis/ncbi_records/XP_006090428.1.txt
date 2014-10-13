@@ -1,0 +1,62 @@
+LOCUS       XP_006090428             383 aa                     MAM 15-NOV-2013
+DEFINITION  PREDICTED: 5-hydroxytryptamine receptor 1B [Myotis lucifugus].
+ACCESSION   XP_006090428
+VERSION     XP_006090428.1  GI:558132250
+DBLINK      BioProject: PRJNA208947
+KEYWORDS    RefSeq.
+SOURCE      Myotis lucifugus (little brown bat)
+  ORGANISM  Myotis lucifugus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Microchiroptera;
+            Vespertilionidae; Myotis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005871119.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Myotis lucifugus Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..383
+                     /db_xref="taxon:59463"
+                     /country="USA: Framingham, MA"
+                     /organism="Myotis lucifugus"
+                     /chromosome="Unknown"
+                     /sex="female"
+     Protein         1..383
+                     /product="5-hydroxytryptamine receptor 1B"
+                     /calculated_mol_wt="42431"
+     Region          61..>182
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          68..362
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..383
+                     /coded_by="XM_006090366.1:225..1376"
+                     /gene="HTR1B"
+                     /db_xref="GeneID:102426814"
+ORIGIN
+        1 meengaqcap pfagsqtgvs qanlsaapsh ncssvyqdsv alpwkvllvl llalitlatt
+       61 fsnafviatv yrtrklhtpa nyliaslavt dllvsilvmp istlytvagr wtlgqvvcdf
+      121 wlssditcct asilhlcvia ldrywaitda veysakrtpk raavmivlvw vfsisislpp
+      181 ffwrqakaqs ecvvntdhil ytvystvgaf yfptlllial ygriyvears rilkqtpnkt
+      241 gkrltraqli tdspgstssv tsinsrapdl psesgspvyv nqvkvrvsda llekkklmaa
+      301 rerkatktlg iilgafivcw lpffiislvl picrnacwfh qaifdfftwl gylnslinpi
+      361 iytmsnedfk qafhklvrfk cts
+//

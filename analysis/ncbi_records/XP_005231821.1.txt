@@ -1,0 +1,70 @@
+LOCUS       XP_005231821             451 aa                     VRT 08-AUG-2013
+DEFINITION  PREDICTED: D(1A) dopamine receptor [Falco peregrinus].
+ACCESSION   XP_005231821
+VERSION     XP_005231821.1  GI:529423954
+DBLINK      BioProject: PRJNA198010
+KEYWORDS    RefSeq.
+SOURCE      Falco peregrinus (peregrine falcon)
+  ORGANISM  Falco peregrinus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Falconiformes;
+            Falconidae; Falco.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004929829.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Falco peregrinus Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..451
+                     /collection_date="Oct-2010"
+                     /country="United Arab Emirates: Abu Dhabi Falcon Hospital"
+                     /sex="male"
+                     /db_xref="taxon:8954"
+                     /organism="Falco peregrinus"
+                     /chromosome="Unknown"
+     Protein         1..451
+                     /product="D(1A) dopamine receptor"
+                     /calculated_mol_wt="50296"
+     Region          40..>157
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          45..334
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          239..>312
+                     /note="Type-1V conjugative transfer system mating pair
+                     stabilisation; cl19475"
+                     /db_xref="CDD:267828"
+                     /region_name="TraN"
+     CDS             1..451
+                     /coded_by="XM_005231764.1:509..1864"
+                     /gene="DRD1"
+                     /db_xref="GeneID:101913304"
+ORIGIN
+        1 mtwndttmdg egllverdss friltgcfls llilstllgn tlvcaavirf rhlrskvtnf
+       61 fvislavsdl lvavlvmpwk avaeiagfwp fgsfcniwva fdimcstasi lnlcvisvdr
+      121 ywaisspfry erkmtpkaaf imisvawtls vlisfipvql nwhkatttsf ldlnaslqgi
+      181 smdncdssln rmyaisssli sfyipvaimi vtytriyria qkqirrisal eraavhaknc
+      241 qntsgnrssm dcqqpesnfk msfkretkvl ktlsvimgvf vccwlpffvl ncmipfcept
+      301 qpskgaeafc insttfdvfv wfgwanssln piiyafnadf rkafstllgc yrlcpmsgna
+      361 ietvsinnng avvfssqhep kgsspkesnl vyliphaiic peeeplkkee egelsktlek
+      421 mspalsgild yeadvsleki npitqngqhk t
+//

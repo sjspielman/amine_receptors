@@ -1,0 +1,60 @@
+LOCUS       XP_003498591             415 aa                     ROD 30-APR-2014
+DEFINITION  PREDICTED: D(2) dopamine receptor isoform X2 [Cricetulus griseus].
+ACCESSION   XP_003498591
+VERSION     XP_003498591.1  GI:354472732
+DBLINK      BioProject: PRJNA72741
+KEYWORDS    RefSeq.
+SOURCE      Cricetulus griseus (Chinese hamster)
+  ORGANISM  Cricetulus griseus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Cricetinae; Cricetulus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003613694.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Cricetulus griseus Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..415
+                     /cell_line="CHO-K1"
+                     /db_xref="taxon:10029"
+                     /organism="Cricetulus griseus"
+                     /chromosome="Unknown"
+     Protein         1..415
+                     /product="D(2) dopamine receptor isoform X2"
+                     /calculated_mol_wt="47385"
+     Region          45..>233
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          57..398
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..415
+                     /coded_by="XM_003498543.1:1..1248"
+                     /gene="Drd2"
+                     /db_xref="GeneID:100751925"
+ORIGIN
+        1 mdplnlswyd ddlerqnwsr pfngsegkad rpqynyyaml ltllifiivf gnvlvcmavs
+       61 rekalqtttn ylivslavad llvatlvmpw vvylevvgew kfsrihcdif vtldvmmcta
+      121 silnlcaisi drytavampm lyntrysskr rvtvmiaivw vlsftiscpl lfglnntdqn
+      181 eciianpafv vyssivsfyv pfivtllvyi kiyivlrkrr krvntkrssr afranlktpl
+      241 kdaarraqel ememlsstsp pertryspip pshhqltlpd pshhglhsnp dspakpekng
+      301 hakianpkia kffeiqtmpn gktrtslkti srrklsqqke kkatqmlaiv lgvfiicwlp
+      361 ffithilnih cdcnippvly saftwlgyvn savnpiiytt fniefrkafm kilhc
+//

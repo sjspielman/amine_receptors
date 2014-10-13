@@ -1,0 +1,59 @@
+LOCUS       XP_003360631             375 aa                     MAM 26-SEP-2013
+DEFINITION  PREDICTED: D(3) dopamine receptor [Sus scrofa].
+ACCESSION   XP_003360631
+VERSION     XP_003360631.2  GI:350596010
+DBLINK      BioProject: PRJNA28993
+KEYWORDS    RefSeq.
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003613005.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Oct 11, 2011 this sequence version replaced gi:335306923.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Sus scrofa Annotation Release 104
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..375
+                     /db_xref="taxon:9823"
+                     /breed="mixed"
+                     /organism="Sus scrofa"
+                     /chromosome="Unknown"
+     Protein         1..375
+                     /product="D(3) dopamine receptor"
+     Region          41..>197
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          49..358
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..375
+                     /coded_by="XM_003360583.3:1..1128"
+                     /gene="DRD3"
+                     /db_xref="GeneID:100624552"
+ORIGIN
+        1 maplsqlggh instcaaent tgaxphayya lsyctlilai vfgnglvcva vlreralqtt
+       61 tnylvvslav adllvatlvm pwvvylevtg gvwnfsrvcc dvfvtldvmm ctasilnlca
+      121 isidrytavv mpvhyqhgtg qsscrrvalm itavwvlafa vscpllfgfn tteskptydi
+      181 tplylppsqr flynsehsed kqypqkcqds lllhlqplsp gqthmelkry ysicqdtalg
+      241 rpgfqegege lkragrtrns lsptmapkls levrklsngr lstslklgpl qprgvplrek
+      301 ketqmlvivl gtfivcwlpf flthvlnthc qachvspely sattwlgyvn salnpviytt
+      361 fnvefrkafl kilsc
+//

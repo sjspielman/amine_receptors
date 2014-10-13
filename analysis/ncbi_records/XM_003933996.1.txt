@@ -1,0 +1,88 @@
+LOCUS       XM_003933996            1436 bp    DNA              PRI 06-SEP-2012
+DEFINITION  PREDICTED: Saimiri boliviensis boliviensis 5-hydroxytryptamine
+            (serotonin) receptor 4, G protein-coupled, transcript variant 2
+            (HTR4), mRNA.
+ACCESSION   XM_003933996
+VERSION     XM_003933996.1  GI:403285465
+KEYWORDS    RefSeq.
+SOURCE      Saimiri boliviensis boliviensis (Bolivian squirrel monkey)
+  ORGANISM  Saimiri boliviensis boliviensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Saimiriinae; Saimiri.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003943665) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Saimiri boliviensis Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1436
+                     /sub_species="boliviensis"
+                     /mol_type="mRNA"
+                     /isolate="3227"
+                     /sex="female"
+                     /db_xref="taxon:39432"
+                     /organism="Saimiri boliviensis boliviensis"
+                     /chromosome="Unknown"
+     gene            1..1436
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 4 mRNAs, 3 ESTs, 10 Proteins"
+                     /db_xref="GeneID:101033707"
+                     /gene="HTR4"
+     misc_feature    87..89
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR4"
+     CDS             120..1283
+                     /product="5-hydroxytryptamine receptor 4 isoform 2"
+                     /codon_start="1"
+                     /db_xref="GI:403285466"
+                     /db_xref="GeneID:101033707"
+                     /translation="MDKLDANVSSKEGFGSVEKVVLLTFLSAVILMAILGNLLVMVAVC
+                     WDRQLRKIKTNYFIVSLAFADLLVSVLVMPFGAIELVQDIWIYGEMFCLVRTSLDVLLT
+                     TASIFHLCCISLDRYYAICCQPLVYRNKMTPLRIALMLGGCWVIPTFISFLPIMQGWNN
+                     IGIIDLIEKRKFNQNSNSTYCIFMVNKPYAITCSVVAFYIPFLLMVLAYYRIYVTAKEH
+                     AHQIQMLQRAGASSEGRPQSADQHSTHRMRTETKAAKTLCIIMGCFCLCWAPFFVTNIV
+                     DPFIDYTVPGQVWTAFLWLGYINSGLNPFLYAFLNKSFRRAFLIILCCDGERYRRPSIL
+                     GQTVPCSTTTINGSTHVLRYTVLHSGHHQELEKLPIHNDPESLESCF"
+                     /gene="HTR4"
+                     /protein_id="XP_003934045.1"
+     STS             780..918
+                     /db_xref="UniSTS:504885"
+                     /standard_name="HTR4"
+                     /gene="HTR4"
+ORIGIN
+        1 agctcggctc cgcggctggg ggtggccgct cggatctgcc agggcgcgtc gctccctcgc
+       61 ctccggcagc gggaccctgt gggcactgaa atccagctca ctcatgctta tttcctgtaa
+      121 tggacaaact tgatgctaat gtgagttcca aggagggttt cgggtcagtg gagaaggtcg
+      181 tgctgctcac gtttctctcg gcggttatcc tgatggccat cttggggaac ttgctggtga
+      241 tggtggctgt gtgctgggac cggcagctca ggaaaataaa aaccaattat ttcattgtat
+      301 ctcttgcttt tgcggatctg ctggtttcgg tgctggtgat gccctttggt gccattgagc
+      361 tggttcaaga catctggatt tatggggaga tgttttgtct tgttcggaca tctctggacg
+      421 ttctgctcac aacagcatcg atttttcacc tgtgctgcat ttccctggat aggtattacg
+      481 ccatctgctg ccagcctttg gtctatagga acaagatgac ccctctgcgc atcgcactca
+      541 tgctgggagg ctgctgggtc atcccaacgt ttatttcttt tctccctata atgcaaggct
+      601 ggaataacat tggcataatt gatttgatag aaaagaggaa gttcaaccag aactctaatt
+      661 ctacgtactg tatcttcatg gtcaacaagc cctacgccat cacctgctct gtggtggcgt
+      721 tctacatccc atttcttctc atggtgctgg cctattaccg catctatgtc acagctaagg
+      781 agcatgccca ccagatccag atgttacaac gggcaggagc ctcctccgag ggcaggcctc
+      841 agtcggcaga ccagcatagc actcaccgca tgaggacaga gaccaaagca gccaagaccc
+      901 tgtgcatcat catgggttgc ttctgcctct gctgggcgcc attctttgtt accaatattg
+      961 tggatccttt catagactac actgtccctg ggcaggtgtg gaccgctttc ctctggctcg
+     1021 gctatatcaa ttccgggttg aacccttttc tctacgcctt cttgaataag tcttttaggc
+     1081 gtgcctttct catcatcctc tgctgtgatg gtgagcgcta ccgaagacct tccattctgg
+     1141 gccagactgt cccttgttca accacaacca ttaacggatc cacacatgtg ctaaggtaca
+     1201 cagttctgca cagtggacat catcaggaac tcgagaaact gcccatacat aatgacccag
+     1261 aatccctgga atcatgcttc tgattgagga catggctcac aacttagcca ttcattccca
+     1321 ttcatgtttg catgaacagg tcaccctggc atccctcctg atcctcatca ccaccagtga
+     1381 ggcacaaggc agtaggggct gagggcccat ggcaggtaca cagaggatgg tgttgg
+//

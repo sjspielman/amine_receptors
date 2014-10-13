@@ -1,0 +1,64 @@
+LOCUS       XP_004443226             487 aa                     MAM 11-APR-2013
+DEFINITION  PREDICTED: histamine H1 receptor [Ceratotherium simum simum].
+ACCESSION   XP_004443226
+VERSION     XP_004443226.1  GI:478538234
+DBLINK      BioProject: PRJNA191537
+KEYWORDS    RefSeq.
+SOURCE      Ceratotherium simum simum (southern white rhinoceros)
+  ORGANISM  Ceratotherium simum simum
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Perissodactyla; Rhinocerotidae;
+            Ceratotherium.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004454301.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ceratotherium simum simum Annotation Release
+            100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..487
+                     /sub_species="simum"
+                     /country="USA: San Diego Zoo, California"
+                     /isolate="SDZICR_KB13650"
+                     /sex="female"
+                     /db_xref="taxon:73337"
+                     /organism="Ceratotherium simum simum"
+                     /chromosome="Unknown"
+     Protein         1..487
+                     /product="histamine H1 receptor"
+                     /calculated_mol_wt="55459"
+     Region          36..>199
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          50..468
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..487
+                     /coded_by="XM_004443169.1:40..1503"
+                     /gene="HRH1"
+                     /db_xref="GeneID:101391552"
+ORIGIN
+        1 mtllnssyvl edkmcegnkt tmaspqlmpl vvvlstislv tvglnllvly avrserklht
+       61 vgnlyivsls vadlivgavv mpmnilyllm skwplgrplc lfwlsmdyva stasifsvfi
+      121 lcidryrsvq qplrylkyrt ktrasatilg awflsflwvi piwgwsrfvs qtlrrqedkc
+      181 etdfydvtwf kimtaiinfy lptllmlwfy akiykavrqh cqhrdlings lpsfseiklr
+      241 penpkvgakk sgkespwavl krkpkdaggg pvlklpsedp kemkspgdss qeedgdvdnl
+      301 hcfprniaqm qteaegsgrg yaainqshsq lemdeqglnm rganempedq ilgdspsfsq
+      361 tdsdtptepa sgkgkprrgs stgldyikft wkrlrshsrq yvsglhmnre rkaarqlgfi
+      421 mvafilcwip yfiffmviaf cksccnehvh mftiwlgyin stlnpliypl cnenfkktfk
+      481 kilhirs
+//

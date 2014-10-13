@@ -1,0 +1,61 @@
+LOCUS       XP_003266028             422 aa                     PRI 14-JAN-2013
+DEFINITION  PREDICTED: 5-hydroxytryptamine receptor 1A [Nomascus leucogenys].
+ACCESSION   XP_003266028
+VERSION     XP_003266028.1  GI:332233673
+DBLINK      BioProject: PRJNA62133
+KEYWORDS    RefSeq.
+SOURCE      Nomascus leucogenys (northern white-cheeked gibbon)
+  ORGANISM  Nomascus leucogenys
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hylobatidae; Nomascus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004087906.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Nomascus leucogenys Annotation Release 101
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..422
+                     /isolate="Asia; international studbook 0098"
+                     /sex="female"
+                     /db_xref="taxon:61853"
+                     /tissue_type="blood"
+                     /organism="Nomascus leucogenys"
+                     /chromosome="18"
+     Protein         1..422
+                     /product="5-hydroxytryptamine receptor 1A"
+                     /calculated_mol_wt="46027"
+     Region          48..>169
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          59..400
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..422
+                     /coded_by="XM_003265980.1:402..1670"
+                     /gene="HTR1A"
+                     /db_xref="GeneID:100595976"
+ORIGIN
+        1 mdvlspgqgn nttsppapfe tggnttgisd vtfsyqvits lllgtlifca vlgnacvvaa
+       61 ialerslqnv anyligslav tdlmvsvlvl pmaalyqvln kwtlgqvtcd lfialdvlcc
+      121 tssilhlcai aldrywaitd pidyvnkrtp rraaalislt wligflisip pmlgwrtped
+      181 rsdpdactis kdhgytiyst fgafyiplll mlvlygrifr aarfrirktv kkvektgadt
+      241 rlgaspapqp kksvngesgs rnwrlgvenk aggalcanga vrqgddgaal evievhrvgn
+      301 skehlplpse agptpcapas ferknernae akrkmalare rktvktlgii mgtfilcwlp
+      361 ffivalvlpf cesschmptl lgaiinwlgy snsllnpviy ayfnkdfqna fkkiikckfc
+      421 rq
+//

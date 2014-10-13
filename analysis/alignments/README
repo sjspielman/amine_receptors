@@ -1,0 +1,19 @@
+SJS. Description of files in alignments/
+
+
+Overview
+1. Files were created using amine_receptors/scripts/obtain_alignment.py. 
+2. Files named nucleotide_XYZ correspond exactly to protein_XYZ (same ids, same seq order, same alignment, etc...). 
+3. Files named the same but with .phy and .fasta extensions also the same, but phylip needed for RAxML input.
+
+Alignment Files
+1. {nucleotide/protein}_aln.{fasta/phy}        ->  alignment created with iterative strategy. all columns present.
+2. {nucleotide/protein}_aln_masked.{fasta/phy} ->  alignment created with iterative strategy, and thus contains the same sequences as (1). Here, however, positions which do not agree with their column's domain consensus structure are masked with ?
+3. {nucleotide/protein}_aln_naive.{fasta/phy}  ->  alignment which did not under iterative sequence removal. Contains a simple mafft alignment of ../{nucleotide/protein}_records.fasta
+
+Misc Files
+1. partitions.txt         ->  file for RAxML input (-q argument) giving the domain partitions. We use only two partitions, transmembrane and extramembrane
+2. domain_consensus.txt   ->  string giving the consensus domain structure determined from the iterative alignment
+3. domain_alignment.fasta ->  "protein" alignment created with iterative strategy but where residues have been replaced with OMI
+
+

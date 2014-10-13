@@ -1,0 +1,93 @@
+LOCUS       XM_005525000            1968 bp    DNA              VRT 13-SEP-2013
+DEFINITION  PREDICTED: Pseudopodoces humilis 5-hydroxytryptamine (serotonin)
+            receptor 2B, G protein-coupled (HTR2B), mRNA.
+ACCESSION   XM_005525000
+VERSION     XM_005525000.1  GI:543363377
+DBLINK      BioProject: PRJNA217046
+KEYWORDS    RefSeq.
+SOURCE      Pseudopodoces humilis (Tibetan ground-tit)
+  ORGANISM  Pseudopodoces humilis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes; Paridae;
+            Pseudopodoces.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005087576.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pseudopodoces humilis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1968
+                     /db_xref="taxon:181119"
+                     /mol_type="mRNA"
+                     /organism="Pseudopodoces humilis"
+                     /chromosome="Unknown"
+     gene            1..1968
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 4 ESTs, 10 Proteins"
+                     /db_xref="GeneID:102101838"
+                     /gene="HTR2B"
+     CDS             460..1851
+                     /product="5-hydroxytryptamine receptor 2B"
+                     /codon_start="1"
+                     /db_xref="GI:543363378"
+                     /db_xref="GeneID:102101838"
+                     /translation="MPHPLQSWNGSGAGNGSLLPLSVTGAPKQDYTSEEQGNKVHWVAL
+                     LILLVIIPTIGGNILVILAVSLEKKLQYATNYFLTSLAVADLLVGLFVMPIALLIILFD
+                     NTWPLPTAWCPIWLFLDVLFSTASIMHLCAISLDRYIAIKKPIQASQYNSWATTIIKII
+                     VVWLISIGIAIPVPIRGIEDGNGNSTNITCALMPDRFHDFILYGSVASFFIPLAIMIVT
+                     YFLTIQVLRKKAYLINKPPQRFTWSTVSTVFQRDTTPASSPEKVAMLNGSRKDQTLSSD
+                     MLICRTSTIGRKSMQTITNEQRASKVLGIVFFLFLLMWCPFFITNISSVLCNSCNKEVF
+                     QKLLEIFAWIGYVSSGVNPLVYTLFNKTFREAFSRYITCNYQTTKPIKALGQRSSRISF
+                     RSSVAENSKLFVMNGMRNGINPIIYQSPMKLRSSPIQASSAILLDTLLLTENEVDKTEE
+                     QVSYV"
+                     /gene="HTR2B"
+                     /protein_id="XP_005525057.1"
+ORIGIN
+        1 agaaggagca aatctacata gactgcacct aaaaggaatc atttcgcatt cagattcatc
+       61 tatcactctt tactgctgca gaaaagaaaa aaaaaaagga agctaatgca ctgcttattt
+      121 ttgacagcta ctgatttttt ccttataata ttctgaaatc tgaacgttgc tgtaaagggg
+      181 agaccagacc cctgaaccct accaaccaga gatgggcaca agacaagact ttcattttta
+      241 aaactctttt gtgcccagca aggcacagaa ttaaaaaaat tggataccag ctcggacatg
+      301 gttcttgtat ctcaaaatag cagatgacca gttcactata ctgaccatgc tggcctttct
+      361 tcaacaccat cctggaccag agaggaagag agaactctta caccgtatgc aactcctgcg
+      421 caaaatacag ctcgtgaaga cattccactg cacacaaaaa tgccccatcc tttacagtcc
+      481 tggaacggat ctggagctgg caatggatct ttgttgcctc tctcagtaac aggagcaccc
+      541 aagcaggact acacaagtga ggaacaaggg aacaaagtgc actgggtagc attgctgatc
+      601 ctcctggtga taatccccac cattgggggg aacatacttg tcattctggc agtgtccctg
+      661 gagaagaagt tgcaatatgc taccaactac tttctgacat ccttggcggt ggcagattta
+      721 ctcgtgggtc ttttcgtgat gccaattgcc cttctcataa tattatttga caatacctgg
+      781 cctttaccaa ctgcctggtg tcccatctgg ctgttccttg atgtcctctt ttccacagct
+      841 tccatcatgc acctctgtgc catctccctg gaccgctaca ttgcaataaa aaagccaatc
+      901 caggccagcc aatacaattc atgggctaca acaatcatca aaatcattgt ggtttggctc
+      961 atttcaatag gcattgcaat tccagttcct atcagaggca ttgaggatgg aaatggtaac
+     1021 tctacgaaca tcacgtgtgc cctgatgcct gatcgttttc atgacttcat tctgtacgga
+     1081 tcagtggctt cctttttcat tcccctcgct atcatgatcg tcacttattt cctgacaatc
+     1141 caagtgctgc gcaaaaaggc ctatttgatc aacaagccgc cccagcgctt cacctggtca
+     1201 acagtgtcca cagtctttca gcgtgacaca acacctgcct cctcaccaga aaaggtggcc
+     1261 atgctaaatg gctccagaaa ggaccagact ttgtccagtg acatgcttat ctgcaggaca
+     1321 tccacaattg ggaggaagtc catgcaaacg ataaccaatg aacaaagggc atcaaaagtt
+     1381 ctggggattg tattttttct tttcttgctg atgtggtgcc cgttctttat aacaaacatc
+     1441 agctcagttc tgtgcaactc ctgcaacaag gaggtttttc aaaagctttt ggaaatattt
+     1501 gcttggatag ggtatgtatc ctcaggagtg aaccctcttg tatatacact cttcaacaaa
+     1561 acatttaggg aggctttcag caggtacatt acttgcaact atcagaccac aaagcctatc
+     1621 aaggcccttg ggcagcgctc cagcaggatc tctttcagaa gctctgtagc agaaaattcc
+     1681 aagctctttg tcatgaatgg gatgagaaat gggattaacc ccattatata ccagagtcca
+     1741 atgaagctaa ggagctcacc catccaagca tcatcagcca ttctgctgga tacgttgctg
+     1801 ctcaccgaga atgaggttga taaaacagaa gaacaagtca gctatgtata gtggaatggc
+     1861 agccatgtcc atacagtatt actgtatgta ttattctagg taactgcact gtaagaaggt
+     1921 ataaatactg ttggtttctg ttatttatga aagcaatctt ataaattt
+//

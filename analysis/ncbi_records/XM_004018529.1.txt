@@ -1,0 +1,112 @@
+LOCUS       XM_004018529            2945 bp    DNA              MAM 02-DEC-2012
+DEFINITION  PREDICTED: Ovis aries histamine receptor H1 (HRH1), mRNA.
+ACCESSION   XM_004018529
+VERSION     XM_004018529.1  GI:426249680
+KEYWORDS    RefSeq.
+SOURCE      Ovis aries (sheep)
+  ORGANISM  Ovis aries
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Caprinae; Ovis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004080182) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ovis aries Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2945
+                     /breed="Texel"
+                     /db_xref="taxon:9940"
+                     /mol_type="mRNA"
+                     /organism="Ovis aries"
+                     /chromosome="19"
+     gene            1..2945
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 1 mRNA, 1 EST, 8 Proteins"
+                     /db_xref="GeneID:101121717"
+                     /gene="HRH1"
+     misc_feature    84..86
+                     /note="upstream in-frame stop codon"
+                     /gene="HRH1"
+     CDS             108..1577
+                     /product="histamine H1 receptor"
+                     /codon_start="1"
+                     /db_xref="GI:426249681"
+                     /db_xref="GeneID:101121717"
+                     /translation="MTCPNSSCIFEDEMCEGNKTAPASDAQLMPLVVVLSAISLVTVGL
+                     NLLVLYAVRSERKLHTVGNLYIVSLSVADLIVGVVVMPMNIIYLLRCRWSLGRPLCLFW
+                     LSMDYVASTASIFSVFILCIDRYRSVQQPLKYLRYRTKTRASITILAAWFLSFLWIIPI
+                     LSWRHFQLKTPEPLGHKCETDFYKVTWFKIMTAIVNFYLPTLLMLWFYAKIYKAVRQHC
+                     QHRELINGSFPSFSDVKMKPENLQVGAKKPGKESPWEVLKRKPKDTGGGPVLKPPSQEP
+                     KEVTSLGVFSQEKDGEPDNFYCFPLDTVQTQPEAEGSGRGYAAINQSQNQFEMGEQGLN
+                     MPGAKEALEDQIQGDSQSFSRTDSDTPAEPAAPGKGKSRSESSTGLEYIKFTWKRLRSH
+                     SRQYVSGLHMNRERKAAKQLGFIMAAFIVCWIPYFVFFMVVAFCESCSNERVHMFTIWL
+                     GYINSTLNPLIYPLCNENFKKTFKKILHIRS"
+                     /gene="HRH1"
+                     /protein_id="XP_004018578.1"
+     STS             2456..2590
+                     /db_xref="UniSTS:250901"
+                     /standard_name="HRH1"
+                     /gene="HRH1"
+ORIGIN
+        1 ccattgtcct gttgagggac gtttgcgcta tttctattct tggctattga ataagaccgc
+       61 tgtgaactct tgggagtgaa ccatagctgg aggctacact tgtgccaatg acctgtccca
+      121 attcctcctg catcttcgaa gacgagatgt gtgaggggaa taagaccgcc cctgccagcg
+      181 atgcccagct gatgcccctg gtggtggtcc tgagcgccat ctccttggtc acagtgggac
+      241 tcaacctgct ggtcctgtac gctgtgcgca gcgagcggaa actgcacacg gtggggaacc
+      301 tctacatcgt cagcctctcg gtggccgatc tgatcgtggg ggtggtcgtc atgcccatga
+      361 acatcatcta cctcctcagg tgcaggtggt ccctggggcg ccctctctgc ctcttctggc
+      421 tttctatgga ctatgtggcc agcacagcgt ccattttcag cgtcttcatc ttgtgcatcg
+      481 accgctaccg ttctgtgcag cagcccctca agtacctgcg gtatcgtacc aagacccgag
+      541 catccatcac catcctagcc gcctggtttc tgtccttcct gtggattatc cccattctga
+      601 gctggcgtca cttccagctg aagaccccag agcccctggg gcataagtgt gagacggact
+      661 tctacaaagt cacatggttc aaaatcatga ccgctatcgt caacttctac ctgcccacct
+      721 tgctcatgct ctggttctat gctaagatct acaaggctgt gcggcagcac tgccagcacc
+      781 gggagctcat caacgggtcc ttcccctcct tctctgacgt gaagatgaag ccagagaacc
+      841 tccaggtggg cgccaagaaa ccggggaagg agtccccctg ggaggttctg aaaaggaagc
+      901 caaaagacac tgggggtgga cctgtcttga agccaccatc ccaggagcca aaggaggtga
+      961 catctctagg cgtcttcagc caagagaagg atggagaacc ggacaacttc tactgcttcc
+     1021 ctcttgacac tgtgcagacg cagccagagg cagaagggag tggcaggggc tatgcagcca
+     1081 tcaaccagag ccagaaccag tttgagatgg gtgagcaggg cctgaacatg cctggggcta
+     1141 aggaggcctt agaggatcag atccaaggtg acagccagtc cttctcccgg acagactcgg
+     1201 acacccccgc agagccggcg gcaccgggga aaggcaagtc gcgaagcgag tctagcacag
+     1261 gcctggagta catcaagttc acttggaaga ggctgcgctc gcattcgcga cagtacgtgt
+     1321 ctgggttgca catgaaccga gagcggaagg ccgccaagca gctggggttt atcatggcgg
+     1381 ccttcatcgt ctgctggatt ccttacttcg tcttcttcat ggtcgtcgcc ttctgcgaga
+     1441 gctgctctaa cgagcgtgtg cacatgttca ccatctggct gggctacatc aactccacgc
+     1501 tgaaccccct catctacccc ttgtgcaatg agaacttcaa gaagaccttc aagaaaattc
+     1561 tgcacattcg ttcctagggg aggctcccag gggatgcaac caagtgacgc ttaacgacgt
+     1621 ccctgaagga agtgaaggag gaagcctgtt gcattgccag gcacctgggc tttctggagt
+     1681 cgcaagaatg gtcttagggg ctggggagtt tggagagttc gtaggtgcag cgggaagaac
+     1741 agcagatggc ggtggtcagc agagagattg tactctgaga gccgaatatt tgcaagagac
+     1801 ttagatctgt ctgagctctc ctgttcctca ggaatgtggg ggcctcaagc tcacactgta
+     1861 attccagctt tcaaactcaa attatcaggc tactgaaggg acgtgtgtgt agagttccag
+     1921 tggaactctg gagccttctt caaatgagct ccacgactgt ggagcagaga ccttagacat
+     1981 gcagatagat gctgtccctg cccggggtca ccttgaaagg caggacagct actccactgt
+     2041 gactgccacg tctcagaaca cctctcttct gagcctctta tgcagctttc tccagatcca
+     2101 gtgtctgaac aaccctggct cctccaccgt attatttctc actcacgcgc atcttaagag
+     2161 ttgatgggaa atgatgcagt ctgcacatcc atcattttca aacccaaatt ccgttctcgt
+     2221 attaaagaag aggttaaatg cctccctcaa agagaaaagg agtatttttt agacggttgt
+     2281 atattagaaa caaagagaag tggggagaat aaagccatat tgcttgaggg ctgtgccagg
+     2341 tggatgtcat ttaagcccct ggacacccca caacaggagg atggtattac tagaaaagca
+     2401 aatggaggga ccacaaggtg caataaggta cctgagatca cacagctagt tataagaaag
+     2461 ctggagcaaa catcctatgg tttcaactca ctgtaacaca ttttctccaa aaggcaaaaa
+     2521 tttgttctat tcagtacaca cacacacaca cacacacaca cacacacaat tcctgagagt
+     2581 ggtggcagtt cacaagtgta tattgagagg aggaacagct gacatagaat gtggccacag
+     2641 aggcgatact ttgaggagga acagtatact ttttcatctg cgaattctgc tgtgtttatc
+     2701 caagaaacat catcatgtac ttttatggtc acacttttta agtcaaaact tgcaaaggca
+     2761 tgggaacagg cagttttatt cggtgtttat gttgcaatct ggttgtgatt tatattttaa
+     2821 aactggatgt taaactgtca tatatgtagc cagtgggagt gcctgtataa gctggtattt
+     2881 tatgtcttgt gttccttttt gcatgatctg ttaaaatgag agatttttac ctactaaaat
+     2941 atgat
+//

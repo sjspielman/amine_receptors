@@ -1,0 +1,89 @@
+LOCUS       NM_001172755            2085 bp    DNA              ROD 27-AUG-2013
+DEFINITION  Cavia porcellus 5-hydroxytryptamine (serotonin) receptor 5A (Htr5a),
+            mRNA.
+ACCESSION   NM_001172755
+VERSION     NM_001172755.1  GI:289629285
+KEYWORDS    RefSeq.
+SOURCE      Cavia porcellus (domestic guinea pig)
+  ORGANISM  Cavia porcellus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Caviidae; Cavia.
+REFERENCE   1  (bases 1 to 2085)
+  AUTHORS   Thomas,D.R., Larminie,C.G., Lyons,H.R., Fosberry,A., Hill,M.J. and
+            Hayes,P.D.
+  TITLE     Cloning and pharmacological characterisation of the guinea pig
+            5-ht5A receptor
+  JOURNAL   Eur. J. Pharmacol. 494 (2-3), 91-99 (2004)
+   PUBMED   15212962
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AJ534845.1.
+            ##Evidence-Data-START##
+            Transcript exon combination :: AJ534845.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+            ERS240744, ERS240751 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2085
+                     /db_xref="taxon:10141"
+                     /mol_type="mRNA"
+                     /organism="Cavia porcellus"
+     gene            1..2085
+                     /note="5-hydroxytryptamine (serotonin) receptor 5A"
+                     /db_xref="GeneID:100379278"
+                     /gene="Htr5a"
+     misc_feature    339..341
+                     /note="upstream in-frame stop codon"
+                     /gene="Htr5a"
+     CDS             588..1658
+                     /function="G-protein coupled receptor"
+                     /product="5-hydroxytryptamine receptor 5A"
+                     /codon_start="1"
+                     /db_xref="GI:289629286"
+                     /db_xref="GeneID:100379278"
+                     /translation="MDLLVNFSFTLSTPSSLESNHSLGAEDLRPSPPLLSVFSMLVLTL
+                     LGLLVAATFAWNLLVLATILRVRTFHRVPHNLVASMAVSDVLVAALVMPLSLVHELSGR
+                     RWQLGRRLCQLWVACDVLCCTASIWNVTAIALDRYWSIACHLEYTTRARKRASNVMIAL
+                     TWALSAVISLAPLLFGWGETYSEHREECQVSREPSYAVFSTVGAFYLPLCVVLFVYWKI
+                     YKAAKLRVGARKTNSVSPVPEAMEVKDSTQQSQMVFTVRPTTVTFQTDGDTWREQKEQR
+                     AALMVGILIGVFVLCWIPFFVTELVGPLCSWDIPAIWKSIFLWLGYSNSFFNPLIYTAF
+                     NKNYSSAFKSFFSRQH"
+                     /gene="Htr5a"
+                     /protein_id="NP_001166226.1"
+ORIGIN
+        1 tgatgcctta cgtagggctg gatcccactt tgataagagc aggtctggtg ggcgcgccag
+       61 catcccctcc ctggagtcgc agccccagac agagtgggaa aggaacgcgc ccggatcaga
+      121 aggcagttcc tgggaggagg tatctatgtg gcttccctaa tgaaaagctg agaccgtggg
+      181 caggaggggg ttggcggcgg gagccacgcc gagagttcgg ctctgacgca cggacgagct
+      241 ctgagcacca gctctctgca gggccaaccc tgggatgctg tactccgggc tacgggacag
+      301 ccgtcttctc ccaggtgagg aacctgcagc atgtgaccta gctccttgac ccagctgccc
+      361 tagcctctgg ggactccagg ctcagggact tgcagctctg tgccctcctc cagaccgtct
+      421 cgtctctctg cacgctcagg caggaggccg gggccacctt tgtcctccag acgcctcgcc
+      481 acctgccaaa ggcagtgaac atccagactg cttctgagcg cagagggccg cctggagact
+      541 tgcgcaccct tgctgtatgc gtgccgcgct ggtgtcctgc cctaacgatg gatctgcttg
+      601 tgaacttctc ctttaccctc tccaccccat cctctctgga gtctaaccac agcctgggag
+      661 ctgaggacct gcgccccagc ccgcccttgc tctccgtctt cagcatgctc gttctgacct
+      721 tgctgggcct tctagtggca gccacgttcg cctggaacct gctggtgctg gccaccatcc
+      781 tccgcgtgcg caccttccac cgtgtcccac ataacctggt ggcctccatg gctgtctccg
+      841 atgtgctggt ggccgcgctg gtcatgccac tgagtctggt gcatgaactg tctgggcgcc
+      901 gctggcagct aggccggagg ctgtgccagc tgtgggtggc atgcgatgtg ctgtgctgca
+      961 cggccagcat ctggaatgtg acggccatag ccctggaccg atactggtcc atcgcatgtc
+     1021 acctggaata cacgacccgc gctcgaaagc gcgcatccaa tgtaatgatc gcgctcacct
+     1081 gggcactctc ggctgtcatc tctctggccc cgctgctgtt tggctggggg gagacgtact
+     1141 ctgagcaccg agaggagtgc caggtgagcc gagagccctc ctacgccgtg ttctccaccg
+     1201 tgggggcttt ctacctgccg ctctgcgtgg tgctcttcgt atactggaag atctacaagg
+     1261 ctgccaagct ccgtgtgggt gccaggaaga ccaacagcgt ctcacctgtg cctgaagcca
+     1321 tggaggtgaa ggactccaca caacagtccc agatggtgtt cacagtccgc cctaccactg
+     1381 tcaccttcca gacagacggg gacacgtggc gggagcagaa ggaacagaga gcagccctca
+     1441 tggtgggcat cctcatcggg gtgttcgtgc tgtgctggat ccccttcttt gtcaccgagc
+     1501 ttgtcggccc cctctgctcc tgggatatcc cggccatctg gaaaagcatc ttcctctggc
+     1561 ttggctactc taactccttc ttcaaccccc tcatctacac agccttcaac aagaactata
+     1621 gcagcgcctt caagagcttc ttttcgagac agcactgatc atagttgagg gcaaaaatgc
+     1681 ctttgtcctg tggctctgta gaagtttgga ctctgcaccc tgcagccacg gagtggtaaa
+     1741 attctccaag taccacatgg ccatctcaga gctcagttca cccatttcct aacttgcaca
+     1801 cagcggggac atcttcaccc agggctctgt gtgtcccatt tgcctcctgt cccttactct
+     1861 gcaccagcag ccgcagacct ggcccaccaa ggacccactc cttccctaag tccactccaa
+     1921 cacagcccct ggcatggacc tggagaagcc ctatcatgga agcaagtggg aggaggtaca
+     1981 gcataggggc aagggaagga ggatgggaaa aaaacccaat gagatgcaag gagaccataa
+     2041 tactaagctg tccagactca aaaaaaaaaa aaaaaaaaaa aaaaa
+//

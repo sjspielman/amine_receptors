@@ -1,0 +1,93 @@
+LOCUS       XM_004285282            1869 bp    DNA              MAM 18-MAR-2013
+DEFINITION  PREDICTED: Orcinus orca adrenoceptor alpha 1D (ADRA1D), mRNA.
+ACCESSION   XM_004285282
+VERSION     XM_004285282.1  GI:466084638
+DBLINK      BioProject: PRJNA189949
+KEYWORDS    RefSeq.
+SOURCE      Orcinus orca (killer whale)
+  ORGANISM  Orcinus orca
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Cetacea;
+            Odontoceti; Delphinidae; Orcinus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004438655.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Orcinus orca Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1869
+                     /mol_type="mRNA"
+                     /collection_date="06-Sep-2011"
+                     /isolate="Morgan"
+                     /sex="male"
+                     /note="Norwegian herring-eating population"
+                     /db_xref="taxon:9733"
+                     /tissue_type="blood"
+                     /organism="Orcinus orca"
+                     /chromosome="Unknown"
+     gene            1..1869
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 36 Proteins"
+                     /db_xref="GeneID:101282631"
+                     /gene="ADRA1D"
+     CDS             51..1760
+                     /product="alpha-1D adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:466084639"
+                     /db_xref="GeneID:101282631"
+                     /translation="MTFRYLLNVSFEGPCSDSSAGSSSAGGGGGGAGGAAASEGRAVDG
+                     VRVTAGGSSGGGVVGAGNGEDNRSSAGEPGSTGAGGEVNGTAAVGGLVVSAQGVGVGVF
+                     LAAFILTAVAGNLMVILSVACNRHLQTVTNYFIVNLAVADLLLSTTVLPFSATMEVLGF
+                     WAFGRAFCDVWAAVDVLCCTASILSLCTISVDRYVGVRHSLKYPAIMTERKAAAILALL
+                     WAVALVVSVGPLLGWKEPVPPDERFCGITEEAGYAVFSSLCSFYLPMAVIVVMYCRVYV
+                     VARSTTRSLEAGVKRERGKASEVVLRIHCRGASTGSDGAHGGMRSAKGHTFRSSLSVRL
+                     LKFSREKKAAKTLAIVVGVFVLCWFPFFFVLPLGSLFPQLKPSEGVFKVIFWLGYFNSC
+                     VNPLIYPCSSREFKRAFLRLLRCQCHRSRQHHRPLWSIYSHHWQASNGGPRPDYAPGPG
+                     AAPSGALLALTTPSAPGSPGTRKAQAPVVGRRKPPCAFRKWRLLGPFRKPTTPLHAKVS
+                     SLSQKKHAREAACALHLEVEAVCLGVRSEAAEGTTCQAYELANSSLLRETDI"
+                     /gene="ADRA1D"
+                     /protein_id="XP_004285330.1"
+ORIGIN
+        1 cagtcgctcg tcctgcgccc agccccggcc cccgacggct gcgcgttgag atgacttttc
+       61 gctatctcct gaacgtcagt ttcgagggac cctgctcaga cagcagcgcc gggagctcca
+      121 gcgcgggcgg tggcgggggt ggcgcgggcg gcgcggccgc ctccgagggc cgggcggtgg
+      181 acggcgtgcg ggtgaccgca ggcggtagca gcggcggcgg cgtggtgggc gcgggcaacg
+      241 gcgaggacaa ccggagctcc gctggggagc cggggagcac tggcgccggc ggcgaggtga
+      301 acggcacggc cgccgtcggg gggctggtgg tgagtgcgca gggcgtgggc gtgggcgtct
+      361 tcctggctgc cttcatcctc acggccgtgg cgggcaacct gatggtcatc ctctccgtgg
+      421 cctgcaaccg ccacctgcag acggtcacaa actatttcat tgtgaacctg gccgtggccg
+      481 acctgctgct gagcaccaca gtgctcccct tctcggccac catggaggtt ctgggcttct
+      541 gggccttcgg ccgggccttc tgcgacgtgt gggccgccgt ggatgtgctg tgctgcacgg
+      601 cctccatcct cagcctctgc acaatctcgg tggaccggta cgtgggcgtg cgccactcgc
+      661 tcaagtaccc ggcaatcatg accgagcgca aggcggccgc catcctggcg ctgctctggg
+      721 ccgtagccct cgtggtgtct gtggggccgc tgctgggctg gaaggagccg gtgccccctg
+      781 acgagcgctt ctgcggcatc acggaggagg caggatacgc tgttttctcc tccctgtgct
+      841 ctttctacct gcctatggcc gtcattgtgg tcatgtactg ccgcgtgtat gtggtagcgc
+      901 gaagcaccac gcgcagcctg gaggcgggag tcaagcgcga gcggggcaag gcctcagagg
+      961 tggtgctgcg catccactgt cgcggcgcaa gcactggctc agacggagcc cacggtggga
+     1021 tgcgcagcgc caagggccac accttccgca gctcactgtc agtgcgtctg ctcaagttct
+     1081 cccgtgagaa gaaggcggcc aagacgctgg ccatcgtcgt gggcgtcttc gtgctctgct
+     1141 ggttcccctt tttcttcgtt ctgccactgg gctccctgtt cccacagctg aagccctcag
+     1201 agggcgtctt caaggttatc ttctggctgg gctacttcaa cagttgcgtg aacccgctca
+     1261 tctacccttg ctccagccgg gagttcaagc gggccttcct ccgcctcctg cgctgccaat
+     1321 gccatcgtag tcgccagcac caccgccccc tctggagcat ctacagtcac cactggcaag
+     1381 cctcgaatgg cggcccgcgc cctgactacg ctcctggccc aggcgccgca ccctccgggg
+     1441 ccctgctggc cctcaccacg ccctcagccc ccggctcccc aggcacacgc aaggcgcagg
+     1501 ctccggtcgt cggccgtcga aagccgccct gcgcctttcg caagtggagg cttctcgggc
+     1561 cgttccggaa acccaccacc ccgctgcatg ccaaggtctc cagcctgtcg caaaagaaac
+     1621 acgccagaga ggctgcgtgc gccctgcact tggaggtgga agctgtgtgc ttaggcgtcc
+     1681 gcagtgaggc agctgagggc actacctgcc aggcctacga attggcaaac tctagccttc
+     1741 tccgggagac tgatatttaa ggacccctga gttaggccga ggagtgtgct gggggtggga
+     1801 gaagggtgtg gagatggagg ctggctttgt tcaagaggcc ggtgagaatc aaggacccag
+     1861 aaatcgatc
+//

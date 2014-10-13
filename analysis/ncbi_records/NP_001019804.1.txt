@@ -1,0 +1,59 @@
+LOCUS       NP_001019804             434 aa                     MAM 09-JAN-2014
+DEFINITION  5-hydroxytryptamine receptor 2B [Canis lupus familiaris].
+ACCESSION   NP_001019804
+VERSION     NP_001019804.1  GI:66864893
+KEYWORDS    RefSeq.
+SOURCE      Canis lupus familiaris (dog)
+  ORGANISM  Canis lupus familiaris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae;
+            Canis.
+REFERENCE   1  (residues 1 to 434)
+  AUTHORS   Bonaventure,P., Nepomuceno,D., Miller,K., Chen,J., Kuei,C.,
+            Kamme,F., Tran,D.T., Lovenberg,T.W. and Liu,C.
+  TITLE     Molecular and pharmacological characterization of serotonin 5-HT2A
+            and 5-HT2B receptor subtypes in dog
+  JOURNAL   Eur. J. Pharmacol. 513 (3), 181-192 (2005)
+   PUBMED   15862800
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AY832859.1.
+            ##Evidence-Data-START##
+            Transcript exon combination :: AY832859.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+            SRS072746 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..434
+                     /db_xref="taxon:9615"
+                     /sub_species="familiaris"
+                     /organism="Canis lupus familiaris"
+                     /chromosome="25"
+                     /map="25"
+     Protein         1..434
+                     /note="5HT2B receptor"
+                     /product="5-hydroxytryptamine receptor 2B"
+                     /calculated_mol_wt="48920"
+     Region          70..>161
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          76..379
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..434
+                     /coded_by="NM_001024633.1:1..1305"
+                     /gene="HTR2B"
+                     /db_xref="GeneID:403881"
+ORIGIN
+        1 maisyriseq stipehilqs sfhhlifanw sglqtesipe emkqtgeqqg kkpqwaalli
+       61 ltviiptigg nilvilaisl ekklqyatny flmslavadl lvglfvmpia lltimfetiw
+      121 plplvlcpaw lfldvlfsta simhlcaisv dryiaikkpi qanqsnsrat afikitvvwl
+      181 isigiaipvp irgietdrsn psnitcvltk drfgnfmlyg slaafftpla imivtyflti
+      241 ralqkkaslv knkpppcltw ltvstafrrn etpcsspekv amldgshkdr tlpsssddll
+      301 mrrmstagkk smqtisneqr askvlgivff lfllmwcpff itnvtlvlcd scnqttlnml
+      361 levfvwigyv ssgvnplvyt lfnktfrnaf gryitcnyqa mksvktvrkc ssnnyfrngr
+      421 elkvfhetwn vkwy
+//

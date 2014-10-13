@@ -1,0 +1,93 @@
+LOCUS       XM_006207807            1270 bp    DNA              MAM 29-NOV-2013
+DEFINITION  PREDICTED: Vicugna pacos dopamine receptor D2 (DRD2), transcript
+            variant X2, mRNA.
+ACCESSION   XM_006207807
+VERSION     XM_006207807.1  GI:560971027
+DBLINK      BioProject: PRJNA221631
+KEYWORDS    RefSeq.
+SOURCE      Vicugna pacos (alpaca)
+  ORGANISM  Vicugna pacos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Tylopoda;
+            Camelidae; Vicugna.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005882776.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Vicugna pacos Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1270
+                     /mol_type="mRNA"
+                     /isolate="Carlotta (AHFN-0088)"
+                     /sex="female"
+                     /db_xref="taxon:30538"
+                     /organism="Vicugna pacos"
+                     /chromosome="Unknown"
+     gene            1..1270
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 5 Proteins"
+                     /db_xref="GeneID:102529763"
+                     /gene="DRD2"
+     CDS             26..1270
+                     /product="D(2) dopamine receptor isoform X2"
+                     /codon_start="1"
+                     /db_xref="GI:560971028"
+                     /db_xref="GeneID:102529763"
+                     /translation="MDPLNLSWYDDVRGSWNWSRPFNGSEGKADRPQYNYYAMLLTLLI
+                     FVIVFGNVLVCMAVSREKALQTTTNYLIVSLAVADLLVATLVMPWVVYLEVVGEWKFSR
+                     IHCDIFVTLDVMMCTASILNLCAISIDRYTAVAMPMLYNTRYSSKRRVTVMITIVWVLS
+                     FTISCPLLFGLNNTDQNECIIANPAFVVYSSIVSFYVPFIVTLLVYIKIYIVLRRRRKR
+                     VNTKRSSRAFRANLKAPLKEAARRAQELEMEMLSSTSPPERTRYSPIPPSHHQLTLPDP
+                     SHHGLHSTPDSPAKPEKNGHAKDHPKIARIFEIQSMPNGKTRTSLKTMSRRKLSQQKEK
+                     KATQMLAIVLGVFIICWLPFFITHILNIHCDCSIPPVLYSAFTWLGYVNSAVNPIIYTT
+                     FNIEFRKAFLKILHC"
+                     /gene="DRD2"
+                     /protein_id="XP_006207869.1"
+     STS             320..527
+                     /db_xref="UniSTS:266487"
+                     /standard_name="DRD2"
+                     /gene="DRD2"
+     STS             356..446
+                     /db_xref="UniSTS:262987"
+                     /standard_name="DRD2"
+                     /gene="DRD2"
+     STS             770..950
+                     /db_xref="UniSTS:272844"
+                     /standard_name="PMC311033P6"
+                     /gene="DRD2"
+ORIGIN
+        1 gccaccccgt ggccccgccg ccccaatgga tccactgaac ctgtcctggt acgatgacgt
+       61 tcgggggagc tggaactgga gccggccctt caacgggtcc gaggggaagg ccgacaggcc
+      121 ccagtacaac tactacgcca tgctgctcac cctcctcatc ttcgtcatcg tcttcggcaa
+      181 cgtgctggtg tgcatggccg tgtcccgcga gaaggcactg cagaccacca ccaactacct
+      241 gatcgtcagc ctggccgtgg ccgacctcct ggtggccacg ctcgtcatgc cctgggtggt
+      301 ctacctggag gtggtgggtg agtggaaatt cagcaggatt cactgtgaca tctttgtcac
+      361 tctggatgtc atgatgtgca cagcaagcat cctgaacctg tgtgccatta gcatcgacag
+      421 gtacacagct gtggccatgc ccatgctcta caacacacgc tatagctcca agcgcagagt
+      481 cactgtcatg atcaccatcg tctgggtcct gtccttcacc atctcctgcc cactgctctt
+      541 tggactcaac aacacagacc agaacgagtg catcatcgcc aaccccgcct tcgtggtcta
+      601 ctcctccatc gtctccttct acgtgccctt catcgtcacc ctgctggtct acatcaaaat
+      661 ctacatcgtc ctccgcaggc ggcggaagcg ggtcaacacc aagcgcagca gccgggcatt
+      721 cagggccaac ctgaaggccc cgctcaagga ggctgcccgc cgagcccagg aactggagat
+      781 ggagatgctt tccagcacca gcccacccga gaggacccgg tacagcccca tcccgcccag
+      841 ccaccaccag ctgacccttc ctgacccatc ccaccatggc ctccacagca ctcctgacag
+      901 ccccgccaaa ccagagaaga acgggcatgc caaagaccac cccaagattg ccaggatctt
+      961 tgagatccag tccatgccca atggcaaaac ccggacctcc ctcaagacca tgagccgcag
+     1021 gaagctctcc cagcagaagg agaagaaagc cactcagatg ctcgccattg ttctcggcgt
+     1081 cttcatcatc tgctggctgc ccttcttcat cacccacatc ctgaacatac actgtgactg
+     1141 cagcatcccg cccgtcctgt acagcgcctt cacgtggctg ggctacgtca acagcgccgt
+     1201 gaaccccatc atctacacga ccttcaacat cgagttccgc aaggccttcc tgaagatcct
+     1261 acactgctga
+//

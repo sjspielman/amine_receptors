@@ -1,0 +1,90 @@
+LOCUS       XM_006204468            1677 bp    DNA              MAM 29-NOV-2013
+DEFINITION  PREDICTED: Vicugna pacos 5-hydroxytryptamine (serotonin) receptor 4,
+            G protein-coupled (HTR4), transcript variant X1, mRNA.
+ACCESSION   XM_006204468
+VERSION     XM_006204468.1  GI:560964233
+DBLINK      BioProject: PRJNA221631
+KEYWORDS    RefSeq.
+SOURCE      Vicugna pacos (alpaca)
+  ORGANISM  Vicugna pacos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Tylopoda;
+            Camelidae; Vicugna.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005882746.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Vicugna pacos Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1677
+                     /mol_type="mRNA"
+                     /isolate="Carlotta (AHFN-0088)"
+                     /sex="female"
+                     /db_xref="taxon:30538"
+                     /organism="Vicugna pacos"
+                     /chromosome="Unknown"
+     gene            1..1677
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 14 mRNAs, 15 Proteins"
+                     /db_xref="GeneID:102528004"
+                     /gene="HTR4"
+     CDS             305..1471
+                     /product="5-hydroxytryptamine receptor 4 isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:560964234"
+                     /db_xref="GeneID:102528004"
+                     /translation="MDELDANVSSKEGFGSVEKVVLLTFLSAVILMAILGNLLVMVAVC
+                     RDRQLRKIKTNYFIVSLAFADLLVSVLVMPFGAIELVQDIWIYGEMFCLVRTSLDVLLT
+                     TASIFHLCCISLDRYYAICCQPLVYRNKMTPLRIVLMLGGCWVIPMFISFLPIMQGWNN
+                     IGILDLIEKRKFSHNSNSTYCVFMVNKPYAITCSVVAFYIPFLLMVLAYCRIYVTAKEH
+                     AHQIQMLQRAGAPSEGRPQPADQHSTHRMRTETKAAKTLCIIMGCFCLCWAPFFVTNIV
+                     DPFVDYTVPGQVWTAFLWLGYINSGLNPFLYAFLNKSFRRAFLIILCCDDERYRRPSIL
+                     GQTVPCSTTTINGSTHVLRDAVECGGQWESQYHPPATSPLVAAHPRDT"
+                     /gene="HTR4"
+                     /protein_id="XP_006204530.1"
+     STS             965..1102
+                     /db_xref="UniSTS:504885"
+                     /standard_name="HTR4"
+                     /gene="HTR4"
+ORIGIN
+        1 agaaagatgc tcggcgcgca cgcccaggtg agccggcgct ggggtccctc cgcccgcagc
+       61 cctgggcccg cgcctcgcgc ctcgcgcccg ccggcctccc agcgcggggg ctggagccgg
+      121 cacccgaggg ggcggcgggg agggcgcagg cagcggctgg gagcgcagcg gcggcgacgg
+      181 cagaagctcg gctccgcggc gagaggggtg gccgctccgg tccgccaggg cgctcgctcc
+      241 ctcgcctcgg gcggcgggac cctgtgggca ctgagatcca gttcactcat gcctagttcc
+      301 tgtaatggac gaacttgatg ctaatgtgag ttccaaggag ggttttgggt ctgtggagaa
+      361 ggttgtgctg ctcacatttc tctcagcggt tatcttgatg gctatcctgg ggaacctcct
+      421 agtgatggtg gctgtgtgca gggacaggca gctcaggaaa ataaagacca attacttcat
+      481 cgtgtctctt gcctttgcgg atttgctggt gtcagtgctg gtgatgccgt ttggtgccat
+      541 tgagctggtt caagacatct ggatctatgg ggagatgttt tgccttgtcc ggacatctct
+      601 tgacgtcctg ctcacaacag catcaatttt tcacctgtgc tgcatttctt tggataggta
+      661 ttatgccatc tgctgccaac ccttggtcta taggaacaag atgacccctc tgcgcatcgt
+      721 gttaatgctg ggaggctgct gggtcatccc catgtttatc tcttttctcc ctatcatgca
+      781 aggctggaat aacattggca tacttgattt gatagaaaaa aggaagttca gccacaactc
+      841 taactccacg tactgtgtct tcatggtcaa caagccctac gccatcacct gctccgtggt
+      901 ggccttctac atcccgtttc tcctcatggt gctggcctac tgtcgcatct atgtcacagc
+      961 caaggagcat gcccaccaga tccagatgtt acagcgggca ggagccccct cagagggcag
+     1021 gccccagccg gcagaccagc acagcactca tcgcatgagg acagagacca aagcagccaa
+     1081 gacgctgtgc atcatcatgg gctgcttctg cctctgctgg gctccattct ttgtcaccaa
+     1141 tattgtggat ccgttcgtag actacactgt ccctgggcag gtgtggaccg cgttcctctg
+     1201 gcttggctac atcaattctg ggttgaaccc ctttctctac gcctttttga acaagtcttt
+     1261 tagacgtgcc ttcctcatca tcctctgctg tgatgacgag cgctaccgca gaccttccat
+     1321 cctgggccag actgtcccct gctcaaccac aaccatcaat ggatccacac atgtgttaag
+     1381 ggatgcagtg gagtgtggtg gccagtggga gagtcaatac caccccccag caacttctcc
+     1441 tttggtggct gctcatccca gagacactta ggcccctggg gcagtgaccc ggaagacagc
+     1501 catccctctg ggagagggcc agatctaagc tgctgcttgt gcgtgactgc atctggtatt
+     1561 ctcttcatcc agcacttcat ctgttggtgc agtcccttca cgtccattgg gcttttcctc
+     1621 caggattcca gcaagtggca cttgagggag tcaggggaca ggacagcccc cttgttc
+//

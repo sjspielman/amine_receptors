@@ -1,0 +1,61 @@
+LOCUS       XP_002191647             443 aa                     VRT 12-FEB-2013
+DEFINITION  PREDICTED: D(2) dopamine receptor isoform 1 [Taeniopygia guttata].
+ACCESSION   XP_002191647
+VERSION     XP_002191647.1  GI:224083165
+DBLINK      BioProject: PRJNA32405
+KEYWORDS    RefSeq.
+SOURCE      Taeniopygia guttata (zebra finch)
+  ORGANISM  Taeniopygia guttata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Estrildidae; Estrildinae; Taeniopygia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_002198023.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Taeniopygia guttata Annotation Release 101
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..443
+                     /isolate="Black17"
+                     /sex="male"
+                     /organism="Taeniopygia guttata"
+                     /chromosome="24"
+                     /db_xref="taxon:59729"
+     Protein         1..443
+                     /product="D(2) dopamine receptor isoform 1"
+                     /calculated_mol_wt="49974"
+     Region          41..>230
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          53..426
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..443
+                     /coded_by="XM_002191611.2:23..1354"
+                     /gene="DRD2"
+                     /db_xref="GeneID:100191007"
+ORIGIN
+        1 mdplnlswyd gdrnwsraln aseaaqrphy nyyamllall ifiivfgnvl vcmavsrera
+       61 lqtttnyliv slavadllva tlcmpwvvym evvgewrisr ihcdifvtld vmmctasiln
+      121 lcaisidryt avampmlynt rysskrrvtv miavvwvlsf aiscpllfgl nntdekecii
+      181 gnpafvvyss ivsfyvpfiv tllvyvqiyi vlrrrrkrvs tkrsshvlds dtqaplkdkc
+      241 thpedvklct vivksngsfq vnkrkveaes hieemememv sstsppekaa lkptapsnhq
+      301 livpvasnrg nnstlqapls spgkvekngh akeshhtakv feihslpngk trnllkavir
+      361 rklsqqkekk atqmlaivlg vfiicwlpff ithilnmhcd cnippamysa ftwlgyvnsa
+      421 vnpiiyttfn iefrkafmki lhc
+//

@@ -1,0 +1,95 @@
+LOCUS       XM_003981353            1355 bp    DNA              MAM 24-FEB-2014
+DEFINITION  PREDICTED: Felis catus adrenoceptor alpha 1B (ADRA1B), mRNA.
+ACCESSION   XM_003981353
+VERSION     XM_003981353.2  GI:586975568
+DBLINK      BioProject: PRJNA175699
+KEYWORDS    RefSeq.
+SOURCE      Felis catus (domestic cat)
+  ORGANISM  Felis catus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae;
+            Felinae; Felis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004064520.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Feb 24, 2014 this sequence version replaced gi:410949382.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Felis catus Annotation Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1355
+                     /mol_type="mRNA"
+                     /breed="Abyssinian"
+                     /isolate="Cinnamon"
+                     /sex="female"
+                     /db_xref="taxon:9685"
+                     /organism="Felis catus"
+                     /chromosome="A1"
+     gene            1..1355
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 27 Proteins, and 85% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101092238"
+                     /gene="ADRA1B"
+     CDS             84..1355
+                     /product="alpha-1B adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:410949383"
+                     /db_xref="GeneID:101092238"
+                     /translation="MNPDLDTGHNTSAPAHWGELKNANFTGPNQTSSNSTLPQLDITRA
+                     ISVGLVLGAFILFAIVGNIVVILSVACNRHLRTPTNYFIVNLAIADLLLSFTVLPFSAA
+                     LEVLGYWVLGRVFCDIWAAVDVLCCTASILSLCAISIDRYIGVRYSLQYPTLVTRRKAI
+                     LALLSVWVLSTVISIGPLLGWKEPAPNDDKECGVTEEPFYALFSSLGSFYIPLAVILVM
+                     YCRVYIVAKRTTKNLEAGVMKEMSNSKELTLRIHSKNFHEDTLSSTKAKGHNPRSSIAV
+                     KLFKFSREKKAAKTLGIVVGMFILCWLPFFIALPLGSLFSTLKPPDAVFKVVFWLGYFN
+                     SCLNPIIYPCSSKEFKRAFVRILGCQFVPVSPTGPVDNSCSGAPRPGCGLCHYRPPGLN
+                     RSDPVAESEPADLSHKSCLPVFDP"
+                     /gene="ADRA1B"
+                     /protein_id="XP_003981402.1"
+     STS             134..889
+                     /db_xref="UniSTS:271116"
+                     /standard_name="PMC150908P1"
+                     /gene="ADRA1B"
+     STS             376..531
+                     /db_xref="UniSTS:266947"
+                     /standard_name="ADRA1B"
+                     /gene="ADRA1B"
+     STS             749..1003
+                     /db_xref="UniSTS:261999"
+                     /standard_name="ADRA1B"
+                     /gene="ADRA1B"
+ORIGIN
+        1 agcaaagttg cagggcagct gaggagctcg gccgcagccc ttccagcccc gctcacccca
+       61 ggctatggag ggccgactct aaaatgaatc ccgatctgga caccggccac aacacatcag
+      121 cacctgccca ctggggagag ttgaaaaatg ccaacttcac tggccccaac cagacctcga
+      181 gcaactccac actgccccag ctggacatca ccagggccat ctccgtgggc ctggtgctgg
+      241 gcgccttcat cctctttgcc atcgtgggca acatcgtggt catcctgtcg gtggcctgca
+      301 accgtcacct gcggacgccc accaactact tcatcgtcaa cctggccatt gccgacctgc
+      361 tgctgagttt caccgtgctg cccttctcgg cggccctgga agtgctcggc tactgggtgc
+      421 tgggacgggt cttctgtgac atctgggccg ccgtggacgt cctgtgctgc acggcctcca
+      481 ttctgagcct gtgcgccatc tctatcgatc gctacattgg ggtgcgctac tctctgcagt
+      541 accccacgct ggtcacccgg aggaaggcca tcttggcgct cctcagcgtc tgggtcttgt
+      601 ccacagtcat ctccatcggg cctctccttg ggtggaagga gcccgcgccc aatgatgaca
+      661 aagaatgtgg ggtcactgaa gaacctttct acgccctctt ctcctccctg ggctccttct
+      721 acatccctct ggcggtcatt ctggtcatgt actgtcgcgt gtacatcgtt gccaagagga
+      781 ccaccaagaa cctggaggcc ggagtcatga aggagatgtc caactccaag gagctgaccc
+      841 tgaggatcca ctccaagaac tttcatgagg acaccctcag cagtaccaag gccaagggcc
+      901 acaaccccag gagttccata gctgtcaaac tttttaagtt ctccagggaa aagaaagcag
+      961 ccaagacctt gggcattgtg gtcggtatgt tcatcttgtg ctggctaccc ttcttcatcg
+     1021 ctctgccgct tggctccctg ttctccaccc tgaagccccc cgacgccgtg ttcaaggtgg
+     1081 tgttctggct gggctacttc aacagctgcc tcaaccccat catctacccg tgctccagca
+     1141 aggagttcaa gcgcgccttc gtgcgcatcc tcgggtgcca gtttgtcccc gtcagtccca
+     1201 ccggtcctgt ggacaatagt tgttctggag cccctcggcc cggctgcggc ctttgccatt
+     1261 accgccctcc agggctaaac agatctgacc ctgtggccga aagtgagccc gcggatttgt
+     1321 cccataaatc ctgcttgcct gtttttgacc cttag
+//

@@ -1,0 +1,70 @@
+LOCUS       XP_005919189             525 aa                     VRT 30-OCT-2013
+DEFINITION  PREDICTED: alpha-2B adrenergic receptor-like [Haplochromis burtoni].
+ACCESSION   XP_005919189
+VERSION     XP_005919189.1  GI:554816799
+DBLINK      BioProject: PRJNA220165
+KEYWORDS    RefSeq.
+SOURCE      Haplochromis burtoni (Burton's mouthbrooder)
+  ORGANISM  Haplochromis burtoni
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Haplochromini;
+            Haplochromis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005179427.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Haplochromis burtoni Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..525
+                     /isolate="A. burtoni ID#24_Hofmann"
+                     /sex="female"
+                     /organism="Haplochromis burtoni"
+                     /chromosome="Unknown"
+                     /db_xref="taxon:8153"
+     Protein         1..525
+                     /product="alpha-2B adrenergic receptor-like"
+                     /calculated_mol_wt="56747"
+     Region          56..>225
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          67..>238
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <263..>323
+                     /note="Predicted coiled-coil domain-containing protein
+                     (DUF2360); pfam10152"
+                     /db_xref="CDD:255793"
+                     /region_name="DUF2360"
+     CDS             1..525
+                     /coded_by="XM_005919127.1:954..2531"
+                     /gene="LOC102308546"
+                     /db_xref="GeneID:102308546"
+ORIGIN
+        1 masvqdsgcs melsgwnssv sgsgssvpcn qsvlnpapys peataafata itlmviftiv
+       61 gnimviiavl tsrslrgpqn lflvslaaad ilvatliipf slanellgyw yfkslwceiy
+      121 laldvlfcts sivhlcaisl drylsisrvt ygrqrtpkri kaaivvvwli saiisfppll
+      181 slnkseggdk gsergpqcql nderwyilys tigsffapcl imilvyvriy qiakqrtrcp
+      241 pgeprkdgvg catpsqpprh vqangkdeee stppssnkts narpptlait pspapaesqt
+      301 spnptpnnll qppspspavp tatevdtssq vpstpstvpq satktkaegk kgkrlqkkka
+      361 dnnnadssst esdmehshgg grgstsmpgs pagggihspa svkryrdmia tskgarlvpg
+      421 rksktdnnpg aarrkamvnr ekrftfvlav vigvfvvcwf pfffsyslqa vcpetctipg
+      481 plftfffwig ycnsslnpvi ytifnkdfrk afkkilcrst kgtff
+//

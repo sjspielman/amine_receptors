@@ -1,0 +1,98 @@
+LOCUS       XM_005082535            1987 bp    DNA              ROD 17-JUL-2013
+DEFINITION  PREDICTED: Mesocricetus auratus 5-hydroxytryptamine (serotonin)
+            receptor 2B, G protein-coupled (Htr2b), mRNA.
+ACCESSION   XM_005082535
+VERSION     XM_005082535.1  GI:524965367
+DBLINK      BioProject: PRJNA210213
+KEYWORDS    RefSeq.
+SOURCE      Mesocricetus auratus (golden hamster)
+  ORGANISM  Mesocricetus auratus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Cricetinae; Mesocricetus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004801733.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Mesocricetus auratus Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1987
+                     /mol_type="mRNA"
+                     /isolate="Golden Hamster female 1"
+                     /sex="female"
+                     /db_xref="taxon:10036"
+                     /organism="Mesocricetus auratus"
+                     /chromosome="Unknown"
+     gene            1..1987
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 mRNAs, 4 Proteins"
+                     /db_xref="GeneID:101836394"
+                     /gene="Htr2b"
+     misc_feature    217..219
+                     /note="upstream in-frame stop codon"
+                     /gene="Htr2b"
+     CDS             253..1677
+                     /product="5-hydroxytryptamine receptor 2B"
+                     /codon_start="1"
+                     /db_xref="GI:524965368"
+                     /db_xref="GeneID:101836394"
+                     /translation="MSEQSTTPEHILQNICDHLILSNHSGLKTESVAKEMKLIAEEQGN
+                     RVHWAALLILMVIIPTIGGNILVILAVSLEKRLQYATNYFLMSLAVADLLVGLFVMPIA
+                     LLTIMFEAIWPLPLVLCPAWLFLDVLFSTASIMHLCAISVDRYIAIKKPIQANQCNSRA
+                     TTFIKITAVWLISIGIAIPVPIKGIENDVTSPDNITCELKKERFGNFMLFGSLAAFFAP
+                     LAIMIVTYFLTIHALQKKAYLVKNKPPQRLTWCTVSTVFQREESSFSSPEKVAMLDGSH
+                     KDKTLPNSSDETLMRRLSSVGKKSSQTISNEQRASKVLGIVFFLFLLMWCPFFITNITL
+                     ALCDSCNQATLKILLEIFVWIGYISSGVNPLVYTLFNKTFREAFCRYITCNYRATKSVK
+                     ALRKCSSTIYFGNSMVENSKFLTKRGIRNGINPAMYQSPMRLRSSTIQSSSIILLDTLL
+                     LTENNGDKTEEQVSYV"
+                     /gene="Htr2b"
+                     /protein_id="XP_005082592.1"
+ORIGIN
+        1 tcttctgaaa tctaagcctc tagaaaagac tagaatgtgg atgccttact ggcaaacgtg
+       61 gacagatgtg tacacattct catcttggag gacctaaatc tttaaaaagg aatataagcc
+      121 aaccttggca ttgaatgtct ggcatgggta caatgcctta caaaagcaga tgactagctt
+      181 agctactgac atgctgacca ctgtctggaa ctggactgaa tcacagaaca gcaaacgcct
+      241 tgctcttaca gaatgtctga acaaagcaca actcctgagc acattttaca gaatatatgt
+      301 gatcacttga tcttgtctaa ccactctgga ttaaagacag aatcagtagc aaaggaaatg
+      361 aagctgattg ccgaggaaca ggggaacaga gtgcactggg cagctctgct gatactcatg
+      421 gtgataatac ccaccatcgg tgggaacatc cttgttattc tggctgtgtc actggagaaa
+      481 aggctgcagt atgctaccaa ctactttcta atgtccttgg cggtggctga tttgctggtt
+      541 ggattgtttg tgatgccgat tgccctcttg acaatcatgt ttgaggctat atggcccctc
+      601 ccactggtcc tgtgtcctgc ctggttattc cttgatgttc tcttttcaac ggcttccatc
+      661 atgcatctct gtgctatttc agtggatcgt tacatagcca tcaaaaagcc aatccaggcc
+      721 aatcagtgca actcccgggc tactacattc atcaagatta cagcggtatg gttaatttca
+      781 ataggcattg ccatcccagt ccctattaaa gggatagaga atgatgtgac tagccctgac
+      841 aacatcacct gcgagctgaa gaaggaacgt tttggcaatt tcatgctctt tggctcactg
+      901 gctgctttct ttgcacctct tgcaatcatg atagtcacct actttctcac tattcacgcc
+      961 ttacaaaaga aagcttacct ggtcaaaaac aagccacctc aacgcctaac ttggtgtacc
+     1021 gtgtccacag ttttccaaag agaagaatca tctttctcat cacctgaaaa ggttgcaatg
+     1081 ctggatggtt cccacaaaga taaaactcta cctaactcaa gtgatgaaac tcttatgcga
+     1141 agactgtcct cagttggaaa aaaatcatcc caaactattt ctaatgaaca gagagcctca
+     1201 aaagtccttg gaattgtatt tttcctcttt ctgcttatgt ggtgcccctt ttttattaca
+     1261 aatataactt tagctttgtg tgattcctgc aaccaggcta ctctcaaaat actcctggag
+     1321 atatttgtgt ggataggcta catttcctca ggggtgaatc ctttggtcta taccctcttc
+     1381 aataagacct ttcgggaagc attttgcagg tacatcacct gtaattaccg agccacaaag
+     1441 tcagtaaaag cacttagaaa atgttccagt acaatctact ttgggaattc aatggtagaa
+     1501 aactctaaat ttttgacaaa acgtggaatt cgaaatggga tcaatcctgc catgtaccag
+     1561 agcccaatga ggctccgaag ttcaaccatt cagtcttcat caatcattct cctagataca
+     1621 cttctcctca ctgaaaacaa tggtgacaaa actgaagagc aagtcagcta tgtgtagcag
+     1681 aacaggacgt cttcatctaa ctcgagcaag gtgatgaaca tgatgtaagt gcaccaagaa
+     1741 aaatgcatag aataaaaaaa tcatctcctg aaagcaagaa ttaatactaa acaaagtcga
+     1801 aacatggata aagtagttct gtatggctac aaacaaaagc aatccctact ctggttttca
+     1861 aatgaaataa aattatataa atcaacaaac ttcagtcttc aaaaaaataa aacaatgtca
+     1921 taaattattc taagttccta actgtgtgta aagttgtggt aagaatgaaa taaaatgaaa
+     1981 caaaaaa
+//

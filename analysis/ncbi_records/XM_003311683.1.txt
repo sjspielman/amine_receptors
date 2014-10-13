@@ -1,0 +1,107 @@
+LOCUS       XM_003311683            2659 bp    DNA              PRI 25-OCT-2012
+DEFINITION  PREDICTED: Pan troglodytes adrenoceptor alpha 1A (ADRA1A), mRNA.
+ACCESSION   XM_003311683
+VERSION     XM_003311683.1  GI:332825951
+KEYWORDS    RefSeq.
+SOURCE      Pan troglodytes (chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003457217) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Pan troglodytes Annotation Release 102
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2659
+                     /mol_type="mRNA"
+                     /isolate="Yerkes chimp pedigree #C0471 (Clint)"
+                     /sex="male"
+                     /db_xref="taxon:9598"
+                     /organism="Pan troglodytes"
+                     /chromosome="8"
+     gene            1..2659
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 4 mRNAs, 10 ESTs, 9 Proteins"
+                     /db_xref="GeneID:472723"
+                     /gene="ADRA1A"
+     misc_feature    919..921
+                     /note="upstream in-frame stop codon"
+                     /gene="ADRA1A"
+     CDS             1006..2295
+                     /product="alpha-1A adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:332825952"
+                     /db_xref="GeneID:472723"
+                     /translation="MVFLSGNASDSSNCTQPPAPVNISKAILLGVILGGLILFGVLGNI
+                     LVILSVACHRHLHSVTHYYIVNLAVADLLLTSTVLPFSAIFEVLGYWAFGRVFCNIWAA
+                     VDVLCCTASIMGLCIISIDRYIGVSYPLRYPTIVTQRRGLMALLCVWALSLVISIGPLF
+                     GWRQPAPEDETICQINEEPGYVLFSALGSFYLPLAIILVMYCRVYVVAKRESRGLKSGL
+                     KTDKSDSEQVTLRNYRKNAPAGGSGMASAKTKTHFSVRLLKFSREKKAAKTLGIVVGCF
+                     VLCWLPFFLVMPIGSFFPDFKPSETVFKIVFWLGYLNSCINPIIYPCSSQEFKKAFQNV
+                     LRIQCLRRKQSSKHALGYTLHPPSQAVEGQHKDMVRIPVGSRETFYRISKTDGVCEWKF
+                     FSSMPRGSARITVSKDQSSCTTARGHTPMT"
+                     /gene="ADRA1A"
+                     /protein_id="XP_003311731.1"
+     STS             2369..2579
+                     /db_xref="UniSTS:34325"
+                     /standard_name="SGC35558"
+                     /gene="ADRA1A"
+ORIGIN
+        1 acgtcagcga gagctgcaaa gttccttgct attcttttct ggtgtcgggg agctgaatat
+       61 taaaagggtg attgtggagt taccggttat ctgcattttt tttttctttt cttattttga
+      121 ctctttaaaa aatgcggtaa agtgacagcg gttcaggagc ttaaagacat cagtggtgga
+      181 ggggtgagtc agcgggtgca aaaggacaag gatttggtgc ctcggagaca cggtcccctc
+      241 tccgcctcca gagaagagca ggcaggcagc tcccgggacc gaagccgggt ccgcatcccc
+      301 cgcgcgcgag ctggtggctc agcagcggcg cttcaggtgg acgcggtcaa acgatgcccc
+      361 gcagccgcct gggtctcggc acatattcca cacccacgtc ccctggcctg tgctcctaga
+      421 atctggagag agcaggcgcc ttcggtgggg cagctcaaaa tgtaggtaac tgcgggccag
+      481 gagcagcgcc cagatgccat cggtccctgc ctttgagcgt cgacggctga tcctctggtt
+      541 tgagggagag actggcgctg gagttttgaa ttccgaatca tgtgagaatg ctgaatcttc
+      601 ccccagccag gacgaataag acagcgcgga aaagcaaatt ctcgtaattc tggaattgca
+      661 tgttgcaagg agtctcctgg atctttgcac ccagcttcgg gtagggaggg agtccgggtc
+      721 ctgggctagg ccagcccggc aggtggagag ggtccccggc agccccgcgc gcccctggcc
+      781 atgtctcctt taatgccctg ccccttcgtg tggccttctg agggttccca gggctggcca
+      841 gggttgtttc ccacccgcgc gcgcgctctc acccccagcc aaacccacct ggcagggttc
+      901 cctccagccg agaccttttg attcccggct cccgcgctcc cgcctccgcg ccagcccggg
+      961 aggtggccct ggagagccgg acctcgcccg gccccagctg ggaccatggt gtttctctcc
+     1021 ggaaatgctt ccgacagctc caactgcacc caaccgccgg caccggtgaa catttccaag
+     1081 gccattctgc tcggggtgat cttggggggc ctcattcttt tcggggtgct gggtaacatc
+     1141 ctagtgatcc tctccgtagc ctgtcaccga cacctgcact cagtcacgca ctactacatc
+     1201 gtcaacctgg cggtggccga cctcctgctc acctccacgg tgctgccctt ttccgccatc
+     1261 ttcgaggtcc taggctactg ggccttcggc agggtcttct gcaacatctg ggcggcagtg
+     1321 gatgtgctgt gctgcaccgc gtccatcatg ggcctctgca tcatctccat cgaccgctac
+     1381 atcggcgtga gctacccgct gcgctaccca accatcgtca cccagaggag gggtctcatg
+     1441 gctttgctct gcgtctgggc actctccctg gtcatatcca ttggacccct gttcggctgg
+     1501 aggcagccgg cccccgagga cgagaccatc tgccagatca acgaggagcc gggctacgtg
+     1561 ctcttctcag cgctgggctc cttctacctg ccgctggcca tcatcctggt catgtactgc
+     1621 cgcgtctacg tggtggccaa gagggagagc cggggcctca agtctggcct caagaccgac
+     1681 aagtcggact cggagcaagt gacgctccgc aactatcgga aaaacgcccc ggcaggaggc
+     1741 agcgggatgg ccagcgccaa gaccaagacg cacttctcag tgaggctcct caagttctcc
+     1801 cgggagaaga aagcggccaa aacgctgggc atcgtggtcg gctgcttcgt cctctgctgg
+     1861 ctgcctttct tcttagtcat gcccattggg tctttcttcc ctgatttcaa gccctctgaa
+     1921 acagttttta aaatagtatt ttggctcgga tatctaaaca gctgcatcaa ccccatcata
+     1981 tacccatgct ccagccaaga gttcaaaaag gcctttcaga atgtcttgag aatccagtgt
+     2041 ctccgcagaa agcagtcttc caaacatgcc ctgggctaca ccctgcaccc gcccagccag
+     2101 gccgtggaag ggcagcacaa ggacatggtg cgcatccccg tgggatcaag agagaccttc
+     2161 tacaggatct ccaagacgga tggcgtttgt gaatggaaat ttttctcttc catgccccgt
+     2221 ggatctgcca ggattacagt gtccaaagac caatcctcct gtaccacagc ccggggacac
+     2281 acacccatga catgaagcca gcttcccgtc cacaactgtt gtccttactg cccaaggaag
+     2341 gggagcatga aacccaccac tggtcctgcg acccactgtc tttggaatcc accccaggag
+     2401 cccaggagcc ttgcctgaca cttggattta cttctttatc aagcatccat ctgactaagg
+     2461 cacaaatcca acatgttact gttattgata caggaaaaac agtaacttaa ggaatgatca
+     2521 tgaatgcaaa gggaaagagg aaaacagcct tcagggacaa atagctcaat ttttttgtaa
+     2581 atcagtttca tacaacctcc ctcccccatt tcattcttaa aagtcaattg agaatcatca
+     2641 gccacgtgta gggtgtgag
+//

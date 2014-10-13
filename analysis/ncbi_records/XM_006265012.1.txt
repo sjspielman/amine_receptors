@@ -1,0 +1,88 @@
+LOCUS       XM_006265012            1577 bp    DNA              VRT 09-DEC-2013
+DEFINITION  PREDICTED: Alligator mississippiensis cholinergic receptor,
+            muscarinic 1 (CHRM1), mRNA.
+ACCESSION   XM_006265012
+VERSION     XM_006265012.1  GI:564252073
+DBLINK      BioProject: PRJNA221578
+KEYWORDS    RefSeq.
+SOURCE      Alligator mississippiensis (American alligator)
+  ORGANISM  Alligator mississippiensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Crocodylia;
+            Alligatoridae; Alligatorinae; Alligator.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006227683.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Alligator mississippiensis
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1577
+                     /mol_type="mRNA"
+                     /country="USA: Florida"
+                     /note="assembly comes from two alligators"
+                     /db_xref="taxon:8496"
+                     /organism="Alligator mississippiensis"
+                     /chromosome="Unknown"
+     gene            1..1577
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 29 Proteins, and 69% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:102572624"
+                     /gene="CHRM1"
+     CDS             72..1577
+                     /product="muscarinic acetylcholine receptor M1"
+                     /codon_start="1"
+                     /db_xref="GI:564252074"
+                     /db_xref="GeneID:102572624"
+                     /translation="MLLSSQYTLPGAPRASPSTMNLSDFHQALNSTSGPAPEGRYSLWE
+                     VVLIVLMTGVLSLVTVVGNLLVLVSFKVNSELKTVNNYFLLSLACADLIIGAISMNLYT
+                     TYIIMGRWALGNVACDLWLALDYVASNASVMNLLLISFDRYFSVTRPLTYRAKRTPKRA
+                     AIMIGLAWAISFILWAPAILFWQYFVGARTVPPGNCSIQFFSEPIITFGTAIAAFYLPV
+                     TIMITLYWRIYRETENRTKELAGLQGSETKSSATKARPKGIGDGSTSSSERSQALPPLS
+                     GETKAPKKTCCFSGWWAEPALAKQGSNGSWNITEEEDEDEEEGSPDSLTSSEGEEQRFE
+                     VQSLCSMVLRLPMVGTVASSGSKTSARRPKTPALSGRTTMAESHLLKKSKELSKRKTLS
+                     LVKEKKAARTLSAILLAFLLTWMPYNIIVLVSTFCRDCVPKSLWELGYWLCYVNSTVNP
+                     MCYALCNRSFRNTFRMLLACHWDKRRWKKISKHVAAFHRAPAQ"
+                     /gene="CHRM1"
+                     /protein_id="XP_006265074.1"
+ORIGIN
+        1 agatgtcctc agcctgaaga gccaccatcc atctcccact gggctccagg ctggggtgct
+       61 ggaagaaccc aatgttgctc tcttcccagt acacccttcc aggagccccc agagccagcc
+      121 ccagcaccat gaatctctct gacttccatc aagccctcaa cagcacctca gggcctgccc
+      181 cggagggaag atattcatta tgggaggtgg tcttgattgt cctgatgacc ggtgtgctct
+      241 ctctggtcac cgtggtgggc aacctgctgg tgttggtgtc cttcaaagtc aacagcgagc
+      301 tgaagacggt caacaactac ttcctgctga gtttggcctg tgcagacctc atcatcggag
+      361 ccatctctat gaacctctac acaacctaca tcatcatggg gcgttgggcc cttgggaacg
+      421 tggcctgcga cctctggctg gccttggatt atgtggccag caatgcctcc gtcatgaacc
+      481 tgctcctgat cagcttcgat cgctatttct ccgtcacacg gcccctgact taccgagcca
+      541 agaggacgcc caagagggca gccattatga ttggcttggc ttgggccatc tccttcatcc
+      601 tctgggcgcc tgccatcttg ttctggcagt actttgtggg ggcgaggact gtccccccag
+      661 gcaactgctc catccagttc ttttccgagc ccatcattac ctttggcacg gccatcgcgg
+      721 ccttctactt gccagtcacc attatgatca ctctctactg gaggatttac cgcgagacgg
+      781 agaatcggac caaggaactg gctgggcttc agggctcaga gaccaagagc tcagccacca
+      841 aagccaggcc gaagggcatt ggggatggga gtaccagcag ctcagagcgg tcccaggcac
+      901 tgccacctct gtctggtgag accaaagccc ccaagaagac ctgttgtttc tctggttggt
+      961 gggcagagcc ggcgttggca aagcaaggca gcaatgggag ctggaacatc acagaggagg
+     1021 aggacgagga cgaagaggaa ggatcaccng actccctgac ctcctccgag ggtgaggagc
+     1081 agcgttttga ggtccagagc ctctgttcaa tggtcctccg gctgcccatg gtcggcactg
+     1141 tggcttcctc tggctccaag acctcagcga ggcggccaaa gacaccggcg ctgtcgggga
+     1201 ggacgaccat ggccgagagc cacctcctaa agaagagcaa ggagctgtcc aagcgcaaga
+     1261 cgctctcgtt ggtcaaagag aagaaagctg cccggacctt gagcgccatc ttgttggctt
+     1321 tccttctcac ctggatgccc tacaacatca tagtgctggt gtccaccttc tgcagggact
+     1381 gcgttcccaa gagcctctgg gagctgggct actggctatg ctacgtcaac agcaccgtca
+     1441 accccatgtg ttatgccctc tgcaaccggt ctttccgcaa caccttccgc atgctgctcg
+     1501 catgccactg ggacaagcgg aggtggaaga agatatccaa gcacgtcgcc gcctttcacc
+     1561 gggccccggc gcagtga
+//

@@ -1,0 +1,99 @@
+LOCUS       XM_004481777            1797 bp    DNA              MAM 06-MAY-2013
+DEFINITION  PREDICTED: Dasypus novemcinctus 5-hydroxytryptamine (serotonin)
+            receptor 1B, G protein-coupled (HTR1B), mRNA.
+ACCESSION   XM_004481777
+VERSION     XM_004481777.1  GI:488593207
+DBLINK      BioProject: PRJNA196486
+KEYWORDS    RefSeq.
+SOURCE      Dasypus novemcinctus (nine-banded armadillo)
+  ORGANISM  Dasypus novemcinctus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Xenarthra; Cingulata; Dasypodidae; Dasypus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004499213.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Dasypus novemcinctus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1797
+                     /mol_type="mRNA"
+                     /country="USA: National Hansen's Disease Programs at
+                     Louisiana State University, School of Veterinary Medicine"
+                     /isolate="3-136"
+                     /sex="female"
+                     /db_xref="taxon:9361"
+                     /organism="Dasypus novemcinctus"
+                     /chromosome="Unknown"
+     gene            1..1797
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 35 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /db_xref="GeneID:101434213"
+                     /gene="HTR1B"
+     misc_feature    375..377
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR1B"
+     STS             444..677
+                     /db_xref="UniSTS:157838"
+                     /standard_name="GDB:580603"
+                     /gene="HTR1B"
+     CDS             489..1661
+                     /product="5-hydroxytryptamine receptor 1B-like"
+                     /codon_start="1"
+                     /db_xref="GI:488593208"
+                     /db_xref="GeneID:101434213"
+                     /translation="MEEPSAQCAAPPPAGSVTGLAQTNLSTAPSDNCSAEDYIYQDSIA
+                     LPWKVLLIILLALITLATTLSNAFVITTVYRTRKLHTPANYLIASLAVTDLLVSILVMP
+                     ISTMYTVTGRWTLGQVVCDLWLSSDITCCTASILHLCVIALDRYWAITDAVEYSAKRTP
+                     KRAAVMIVLVWVFSISISLPPFFWRQAKAEEEVSDCVVNTDHILYTVYSTVGAFYFPTL
+                     LLIALYGRIYVEARSRILKQTPNRTGKRLTRAQLITDSPGSTSSVTSINSRAPELPSES
+                     GSPVYVNQVKVRVSDALLEKKKLMAARERKATKTLGIILGAFIVCWLPFFIISLVLPIC
+                     KDACWFHLAIFDFFTWLGYLNSLINPIIYTMSNEDFKQAFHKLIRFKCTS"
+                     /gene="HTR1B"
+                     /protein_id="XP_004481834.1"
+     STS             1091..1291
+                     /db_xref="UniSTS:157841"
+                     /standard_name="GDB:580614"
+                     /gene="HTR1B"
+ORIGIN
+        1 tgcaagcttt ggtctcgaca gctaggaaac tcctgcgggc cgagtctgca gattcaggac
+       61 gtccctggct aggagacgct taggctccga gcaattgggg taagagaccc cacttgaccg
+      121 aagcctcctt cccaaataat acatcccctc ctccactaga tgcctccgta gtaggaagag
+      181 tggagcgggc ctgggtgggc cagtccttag caaccccgga ccaagatggg gcgtggagag
+      241 gagcagccag agatgcggtg gcagcgcaag gcgcacggga agtgcagaag acgcgccggc
+      301 aggcttcggc tgccgcgccc ctgacctcta gttgcggctg gggacctggg cggaggagtt
+      361 attgaggaac cgactgaact gaccagcaac gagggtcaag tctccggtct cctccgctgt
+      421 ccttccgccc tctccctctt ttgctccatg cccaagtgct gcgctccaga gccggggcaa
+      481 agagagccat ggaggagccg agcgcccagt gcgccgcgcc gccgccggcg ggctctgtga
+      541 ccgggctggc acaaaccaac ctctccactg ctccctccga caactgtagc gctgaagact
+      601 acatttacca ggactcgatc gccctgccct ggaaagtgct gctgatcatc ctgctggcgc
+      661 tcatcacctt ggccaccacc ctctccaacg ccttcgtgat caccactgtg taccggaccc
+      721 ggaagctgca taccccggcc aactacctga tcgcttccct ggcggtcacc gacctgctcg
+      781 tgtccatcct ggtgatgccc atcagtacca tgtatacggt caccggtcgc tggacgcttg
+      841 gccaggttgt ttgcgactta tggctgtcgt cggacatcac ctgttgcact gcttctatct
+      901 tgcacctctg tgtcatcgcc ctggaccgct actgggccat cacggacgcc gtggagtact
+      961 cagccaaaag gactcccaaa cgggcggcgg tcatgatagt gctggtttgg gtcttctcca
+     1021 tctccatctc gctgcccccc ttcttctggc gccaggccaa agctgaggag gaggtgtcgg
+     1081 actgcgtggt gaacaccgac cacatcctct acacggtcta ctccacggtg ggcgctttct
+     1141 acttccccac cctgctcctt atcgcacttt atggccgcat ctatgtggaa gctcgctctc
+     1201 ggattttgaa acagacgccc aacagaaccg gcaagcgctt gacccgagcc cagctgataa
+     1261 ccgactctcc cgggtccacg tcctcggtca cctccattaa ttcgcgggct cccgagttgc
+     1321 ccagcgaatc cgggtctcca gtgtacgtga accaagtcaa agtgagagtc tccgacgccc
+     1381 tgctggagaa gaagaaactc atggccgcta gggagcgcaa agccaccaag accctgggga
+     1441 taattttggg agcatttatt gtatgttggc tgcccttctt catcatctct ctggtgttgc
+     1501 ctatctgcaa ggatgcctgc tggttccacc tggccatctt tgacttcttc acgtggctgg
+     1561 gctatctcaa ctccctcatc aaccccatca tctatactat gtccaatgag gacttcaaac
+     1621 aagccttcca taaactgata cgctttaagt gcacaagttg acttgtcaat tgcagtgggt
+     1681 cgcctaagcg gcctttgggg accattttgg gtctggttcc acagcctgga aattatgaca
+     1741 tcaaggaacc caaggatttc cggccagact tcacaactct gggaggaaac tgtgagc
+//

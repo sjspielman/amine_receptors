@@ -1,0 +1,89 @@
+LOCUS       XM_005859015            1580 bp    DNA              MAM 29-OCT-2013
+DEFINITION  PREDICTED: Myotis brandtii trace amine associated receptor 1
+            (TAAR1), mRNA.
+ACCESSION   XM_005859015
+VERSION     XM_005859015.1  GI:554528535
+DBLINK      BioProject: PRJNA218631
+KEYWORDS    RefSeq.
+SOURCE      Myotis brandtii (Brandt's bat)
+  ORGANISM  Myotis brandtii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Microchiroptera;
+            Vespertilionidae; Myotis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005354291.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Myotis brandtii Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1580
+                     /mol_type="mRNA"
+                     /collection_date="Dec-2011"
+                     /country="Russia: Perm poKrai"
+                     /sex="male"
+                     /note="collected at hibernation roost"
+                     /db_xref="taxon:109478"
+                     /lat_lon="58.8348 N 57.6119 E"
+                     /organism="Myotis brandtii"
+                     /chromosome="Unknown"
+     gene            1..1580
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 3 samples with support for all annotated introns"
+                     /db_xref="GeneID:102246183"
+                     /gene="TAAR1"
+     CDS             264..1280
+                     /product="trace amine-associated receptor 1"
+                     /codon_start="1"
+                     /db_xref="GI:554528536"
+                     /db_xref="GeneID:102246183"
+                     /translation="MSFCHNVVNISCVNSSWSNDVRASLYSLMVLIILTTVAGNLIVII
+                     SISHFKQLHTPTNWLIHSMATVDFLLGCLVMPYSMVRSVEHCWPFGEVFCKIHTSTDIM
+                     LSSASIFHLSFISIDRYYAVCDPLRYKAKISILVIFVMITISWSIPALFAFGMIFLGLN
+                     FKGAEQMYYKHAHGSGGCSVFFSKTPGVLAFMTSFYIPGSIMLYVYYRIYFIAKGQARS
+                     INNANQQLQIGLEEKNGISRNKERKAAKTLGIVMGVFLTCWCPFFVCTVMDPFLDYTIP
+                     PPLNDALIWFGYLNSTFNPMIYAFFYPWFRRALKMILFGKIFQKDSSRCQLFLESNP"
+                     /gene="TAAR1"
+                     /protein_id="XP_005859077.1"
+ORIGIN
+        1 atttcaatgt ttgcgtcatg ctgtctgttc gctgtggcct atcttagagc agcagtggct
+       61 ccggccagca gcagctgtgc ggcctcctcc caaaggcagc gtttctgctg tcggctcatc
+      121 cgcttgctct gttcactcac ctgagcaggt ttttgggata gatatatggg aataaaagat
+      181 ggaactgtaa cctgactgtg gatttctaag gaagattcaa cacacagagg aaaaaataaa
+      241 ctagtggcta gccttcagga acgatgtcct tttgccataa tgtagttaat atttcctgtg
+      301 tgaacagcag ctggtcaaat gatgtccgtg cttccctata tagtttaatg gtgctcatca
+      361 ttctgaccac agtggctggc aatctgatag ttattatttc catctcacac ttcaagcaac
+      421 ttcatacccc aactaattgg ctcattcatt ccatggccac tgtggacttc ctgctggggt
+      481 gcctggtcat gccttacagc atggtgaggt ctgttgagca ctgctggccg tttggagaag
+      541 tcttctgtaa gattcacacc agcaccgata tcatgctcag ctcagcatcc attttccact
+      601 tgtccttcat ttccattgac cgatactatg ctgtgtgtga cccgttgaga tacaaagcca
+      661 agatcagtat cttggttatt tttgtgatga tcaccatcag ctggagcatc cctgctcttt
+      721 ttgcatttgg aatgatcttt ctggggctaa acttcaaagg cgctgaacag atgtattaca
+      781 aacacgctca tggttcaggg ggctgttctg tcttctttag caaaacaccc ggggttctgg
+      841 cctttatgac ttctttctat atacctggat ctattatgtt gtatgtctat tatagaatat
+      901 atttcatagc taaagggcag gcaagatcga ttaacaatgc aaatcagcag cttcaaattg
+      961 gattggaaga gaaaaatgga atttcacgga acaaagaacg aaaagctgca aagactttag
+     1021 ggattgtgat gggggttttc ctcacatgct ggtgcccttt ctttgtctgc acagtcatgg
+     1081 accctttcct ggactatact atcccacccc ccttgaatga tgcattgatt tggtttggct
+     1141 acttgaactc tacttttaat ccaatgattt atgcattttt ctatccctgg ttcagaagag
+     1201 cgttgaagat gattctattt ggtaaaattt tccaaaaaga ttcatctagg tgtcaattat
+     1261 ttttagaatc aaatccatag aattacaata ccttactgtt ttgcaaaaca gctggtggtg
+     1321 atatttatga acacagcgta accaactaca tgcaccaact gcatggtctt gaagtcagtt
+     1381 acttgattta aagaatgtat aatgagacag gatgattata tcttgcttcc tacttgggat
+     1441 gtagtacata tgatcttagc cattcttacc atacatatga agctttgcaa gtccagaatg
+     1501 taaggtacta catttaaaaa aacttttcct gttttttcag gtaccaccat ggaattgaaa
+     1561 gtggtcctct actcagatat
+//

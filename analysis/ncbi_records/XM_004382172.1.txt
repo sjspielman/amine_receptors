@@ -1,0 +1,94 @@
+LOCUS       XM_004382172            1904 bp    DNA              MAM 27-MAR-2013
+DEFINITION  PREDICTED: Trichechus manatus latirostris adrenoceptor alpha 1A
+            (ADRA1A), mRNA.
+ACCESSION   XM_004382172
+VERSION     XM_004382172.1  GI:471397750
+DBLINK      BioProject: PRJNA189960
+KEYWORDS    RefSeq.
+SOURCE      Trichechus manatus latirostris (Florida manatee)
+  ORGANISM  Trichechus manatus latirostris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Afrotheria; Sirenia; Trichechidae; Trichechus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004444027.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Trichechus manatus latirostris Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1904
+                     /sub_species="latirostris"
+                     /mol_type="mRNA"
+                     /isolate="Lorelei"
+                     /sex="female"
+                     /db_xref="taxon:127582"
+                     /organism="Trichechus manatus latirostris"
+                     /chromosome="Unknown"
+     gene            1..1904
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 14 mRNAs, 41 Proteins"
+                     /db_xref="GeneID:101353836"
+                     /gene="ADRA1A"
+     misc_feature    350..352
+                     /note="upstream in-frame stop codon"
+                     /gene="ADRA1A"
+     CDS             434..1834
+                     /product="alpha-1A adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:471397751"
+                     /db_xref="GeneID:101353836"
+                     /translation="MVFLSGNASDSSNCTHPPAPVNISKAILLGVILAGLIIFGVLGNI
+                     LVILSVACHRHLHSVTHYYIVNLAVADLLLTSTVLPFSAIFEILGYWAFGRVFCNIWAA
+                     VDVLCCTASIMGLCIISIDRYIGVSYPLRYPTIVTQRRGVMALLCVWAFSLVISIGPLF
+                     GWRQPAPEDETICQITEEPGYVLFSALGSFYVPLAIILVMYCRVYVVAKRESRGLKSGL
+                     KTDKSDSEQVTLRIHRKNAPTGSRGASSAKNKTHFSVRLLKFSREKKAAKTLGIVVGCF
+                     VLCWLPFFLVMPIGSFFPDSKPSDTVFKIVFWLGYLNSCINPIIYPCSSQEFKKAFQNV
+                     LKIHCLRRKQSSKHTLGYTLHAPSQALEGQHKDVVRIPVGSGETFYKISKKDGVCEWKF
+                     FSSMPHGSARITVPKDQSACTTARVRSKSFLQVCCCVGPSTPSLGENHQVPTIKIHTIS
+                     LSENGEEV"
+                     /gene="ADRA1A"
+                     /protein_id="XP_004382229.1"
+ORIGIN
+        1 gaattccaaa ctgtgcacag aatgctgaat gttctcccca ctgggacgga tcagacagtg
+       61 cagaaaagcc gactcctgta attctctgat tgcgtattta caacgcgttt ccttgagctt
+      121 tgcgccaaac ctcgggtagg aagggagttg ggaccctggc ccagcgcagc tggtgcggag
+      181 ggtccgcggg caaacccgcc cgtccctggc catgtcatct ttaatgcctt gcccttttac
+      241 cttgccttct gagggtttcc agggctgcct ggggttgcct cccacccgcg ctttctctct
+      301 cacccccagc caaacccagc ggacaggact ccccagtgcc gagatctttt gactctgctc
+      361 tctcgctctg gcctccgccc cagcccgggg gtggccttca agagccggac ctggtctggc
+      421 actgcctggg accatggtgt ttctctccgg aaatgcctcc gacagctcca actgcactca
+      481 cccgcccgca ccggtgaaca tttccaaggc catcctgctt ggggtgatct tagcgggcct
+      541 catcattttc ggggtgctgg gaaacatcct agtgatcctc tccgtggcct gccaccggca
+      601 tctgcactcg gtcactcact actacatcgt caacctagcc gtggccgacc ttctgctcac
+      661 ttccacggtg ctgcccttct ctgcgatctt cgagatcctg ggctactggg cctttggcag
+      721 ggtcttttgc aatatctggg cggctgtgga cgtcctgtgc tgcactgcgt ccatcatggg
+      781 actctgcatc atctccattg accgctacat tggcgtgagc tacccgctgc gataccccac
+      841 catcgtgacc cagaggaggg gtgtcatggc tctgctctgc gtctgggcgt tctccctggt
+      901 catctccata gggcctttgt tcggctggag gcagccagcc cccgaagacg agaccatatg
+      961 ccagatcacg gaagagccag gctacgtgtt gttctcggct ctgggctcct tctacgtccc
+     1021 gctggccatt atcctggtca tgtactgccg agtctacgtg gtggccaaga gggagagtcg
+     1081 aggcctcaag tctggcctca agactgacaa gtcagactcc gagcaggtga ctctccgcat
+     1141 ccatcggaaa aatgccccca cagggagcag aggagcatcc agcgccaaga ataagacgca
+     1201 cttctcggtg aggctcctca agttttcccg ggagaagaag gcggccaaaa cgctgggcat
+     1261 cgtggtcggc tgcttcgtcc tctgctggct gccttttttc ttagtgatgc caattgggtc
+     1321 tttcttccct gattccaagc cctcggacac cgtttttaaa atagtatttt ggctcggata
+     1381 cctaaacagc tgcatcaacc ccatcatata cccatgctcg agtcaagagt ttaaaaaggc
+     1441 atttcagaat gtcttgaaaa tccactgtct tcgcagaaag cagtcttcca aacatactct
+     1501 gggctatacc ctccatgcgc ccagccaggc cctggagggg cagcacaagg acgtggtacg
+     1561 cattccagtg ggatcaggag agaccttcta taagatctcc aagaaggatg gggtctgtga
+     1621 atggaaattt ttctcttcca tgccccatgg atctgccagg attacagtgc ccaaagacca
+     1681 atcagcctgc accacagcgc gggtgagaag taaaagcttt ttgcaggtct gctgctgcgt
+     1741 agggccgtcg acccccagcc tcggagagaa ccatcaagtt cctaccatta agatccacac
+     1801 catctccctc agtgaaaatg gggaggaagt ctagaggaca ggaaaggtca gaagtgggga
+     1861 taatcttagg taaccacctc acttcccact cagaaatcca gttc
+//

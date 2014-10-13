@@ -1,0 +1,95 @@
+LOCUS       XM_002933918            1513 bp    DNA              VRT 18-JUN-2013
+DEFINITION  PREDICTED: Xenopus (Silurana) tropicalis 5-hydroxytryptamine
+            (serotonin) receptor 1E, G protein-coupled (htr1e), transcript
+            variant X1, mRNA.
+ACCESSION   XM_002933918
+VERSION     XM_002933918.2  GI:512841853
+DBLINK      BioProject: PRJNA205740
+KEYWORDS    RefSeq.
+SOURCE      Xenopus (Silurana) tropicalis (western clawed frog)
+  ORGANISM  Xenopus (Silurana) tropicalis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Amphibia; Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae; Xenopus;
+            Silurana.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004668237.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Jun 18, 2013 this sequence version replaced gi:301608799.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Xenopus (Silurana) tropicalis
+            Annotation Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1513
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8364"
+                     /sex="female"
+                     /note="partially inbred F6; sterile"
+                     /strain="Nigerian"
+                     /organism="Xenopus (Silurana) tropicalis"
+                     /chromosome="Unknown"
+     gene            1..1513
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 4 ESTs, 15 Proteins, and
+                     87% coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:100380026"
+                     /db_xref="Xenbase:XB-GENE-965113"
+                     /gene="htr1e"
+     misc_feature    223..225
+                     /note="upstream in-frame stop codon"
+                     /gene="htr1e"
+     CDS             226..1314
+                     /product="5-hydroxytryptamine receptor 1E isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:301608800"
+                     /db_xref="GeneID:100380026"
+                     /db_xref="Xenbase:XB-GENE-965113"
+                     /translation="MKKMNCTNCTIKSKPVTEKMLISLTLAIITILTTVLNSAVILAIC
+                     TTKKLHQPANYLICSLAVTDFLVAILVMPLSITYIVMDTWTLGYVICEIWLSVDMTCCT
+                     CSILHLCVIALDRYWAITDAIEYARKRTVKRAGIMILTVWTISVFISIPPLFWRNHHNI
+                     NIPSKCIIQHDHLIYTIYSTCGAFYIPLTLILILYYRIYHAAKNLYQKRGSSRHLSNRS
+                     NDSQNSFAHCKLTQTFCVSEFSTSDPTTEFEKMNASVRTPPYDNDIDIFGDRQQQISSS
+                     RERKAARILGLILGAFILSWLPFFIKELVVGIQLCTVSPEVADFLTWLGYVNSLVNPLL
+                     YTSFNDDFKLAFKKLIRCKEHS"
+                     /gene="htr1e"
+                     /protein_id="XP_002933964.1"
+ORIGIN
+        1 gtgttcagta tctgagagag actgtgaggg gcaggctgga ctgcttacaa acctccctga
+       61 ttctgggact ccagaaagga ctgccgggca ttggaaaata agcaatgtgt aagaagagaa
+      121 aagaagcagc tctacctggt cagcgttaag gccccactat gtaacaaatg tttctgctga
+      181 agactatgat gaaaatgaag gcaatctaac tgctttcctc tctgaatgaa gaagatgaat
+      241 tgtacaaact gcacaatcaa atcaaaacca gtaactgaaa agatgcttat ttccttaact
+      301 ttggctataa taaccattct gacgacagtg ttaaactctg ctgtcatact tgcaatctgc
+      361 acaaccaaaa aattgcatca gcccgcaaac tatttgattt gctctttagc agtaacagac
+      421 tttcttgttg caattttggt catgccttta agcataactt acatagttat ggacacatgg
+      481 acccttggct atgtcatatg tgaaatatgg cttagtgttg acatgacttg ctgtacttgt
+      541 tccatccttc atttgtgcgt cattgctttg gatagatact gggccattac agatgctatt
+      601 gaatatgcca gaaaaagaac agtcaaaaga gctggaatta tgatattaac tgtgtggact
+      661 atttctgttt tcatttccat accaccattg ttttggagaa accaccacaa cataaacatt
+      721 cctagcaaat gcataattca acacgaccat cttatatata ccatttactc tacatgtgga
+      781 gcattttata tccccttaac tttgatactt atcttatact atagaattta tcatgctgca
+      841 aaaaatctgt accaaaaaag agggtccagc cggcacttga gtaacagaag caatgatagt
+      901 caaaactcat tcgcccattg caaacttaca cagacgttct gtgtatcaga gttctccact
+      961 tcagacccca ccacagaatt tgagaagatg aacgcatcag tgaggacccc tccttatgat
+     1021 aatgacattg atatctttgg agaccgacag caacaaattt ccagttcacg tgaaagaaag
+     1081 gctgctcgta ttttgggact aattttaggt gcttttatat taagctggct accatttttt
+     1141 attaaagaac ttgtggtagg gattcagcta tgcactgttt ccccagaagt ggctgacttt
+     1201 ttgacatggc tggggtatgt gaattcacta gttaacccac ttctgtacac gagtttcaat
+     1261 gatgatttta agctggcatt taagaaactc atcaggtgca aagagcactc ttaactacca
+     1321 tgatggatgt gcagatttat tgccttaagg gtgaaaatct ttccaactgc aaaactgact
+     1381 tgttggttaa gggaatgcta aactctattt tatttttgat tgttgttttg ttaaatctgg
+     1441 tcacttatac agcagtcttc tacctctgtt gttattatcg tgataaatat caaataaaat
+     1501 gtttcatgag aaa
+//

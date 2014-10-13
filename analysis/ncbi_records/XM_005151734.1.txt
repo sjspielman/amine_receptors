@@ -1,0 +1,93 @@
+LOCUS       XM_005151734            1860 bp    DNA              VRT 26-JUL-2013
+DEFINITION  PREDICTED: Melopsittacus undulatus cholinergic receptor, muscarinic
+            2 (CHRM2), mRNA.
+ACCESSION   XM_005151734
+VERSION     XM_005151734.1  GI:527267316
+DBLINK      BioProject: PRJNA197262
+KEYWORDS    RefSeq.
+SOURCE      Melopsittacus undulatus (budgerigar)
+  ORGANISM  Melopsittacus undulatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Psittaciformes;
+            Psittacidae; Melopsittacus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004848275.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Melopsittacus undulatus Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1860
+                     /db_xref="taxon:13146"
+                     /mol_type="mRNA"
+                     /organism="Melopsittacus undulatus"
+                     /chromosome="Unknown"
+                     /sex="male"
+     gene            1..1860
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 3 ESTs, 3 long SRA reads,
+                     21 Proteins"
+                     /db_xref="GeneID:101871465"
+                     /gene="CHRM2"
+     CDS             122..1522
+                     /product="muscarinic acetylcholine receptor M2"
+                     /codon_start="1"
+                     /db_xref="GI:527267317"
+                     /db_xref="GeneID:101871465"
+                     /translation="MNNSTYINSSTENVMALESPYKTVEVVFIVLVAGSLSLVTIIGNI
+                     LVMVSIKVNRHLQTVNNYFLFSLACADLIIGIFSMNLYTLYTVIGYWPLGPVVCDLWLA
+                     LDYVVSNASVMNLLIISFDRYFCVTKPLTYPVKRTTKMAGMMIAAAWVLSFILWAPAIL
+                     FWQFIVGGRTVPDGDCYIQFFSNAAVTFGTAIAAFYLPVIIMTVLYWQISQASKSRIKK
+                     GKKEAAQNQGTVSPSLVQSKIVKPNNNNIPASGDGLEHSKIQNGKATGETVTENCVQGE
+                     EKESSNDSTSVSVVASNMKEDEAAKDSSQASASQDHLKVGNSKLTCIRIVTKSQKGDCC
+                     ASTNTTVEIVGTSREEKQNSVARKIVKMTKQPAKKKPPPSREKKVTRTILAILLAFIIT
+                     WTPYNVMVLINSFCTSCIPGTVWTIGYWLCYINSTINPACYALCNATFKKTFKHLLMCH
+                     YKNIGATR"
+                     /gene="CHRM2"
+                     /protein_id="XP_005151791.1"
+ORIGIN
+        1 ccagtccatc aatgtaaagc aacaaaccct cttcacctgt gaagactaca aggcagcaag
+       61 aagacattgt cccagaaaac atgcttaagt gataactggg taacttgtta gcagaacaga
+      121 aatgaataac tcaacgtaca taaactcttc cactgaaaat gtgatggctt tggagagccc
+      181 ctataaaact gtagaggtgg tctttattgt cctggtagca gggtctctca gcctagtcac
+      241 cataattggg aacatcctgg tcatggtgtc aatcaaagtc aacaggcacc tacaaactgt
+      301 caataactat ttcctgttca gcttggcctg cgctgacttg atcatcggca tcttttcaat
+      361 gaacctatac accctctaca ctgtgatagg gtactggcct ttggggcctg tcgtgtgtga
+      421 cctctggctg gctcttgact atgtggtcag caacgcctct gtaatgaacc ttctcattat
+      481 cagctttgac agatactttt gtgtcaccaa gcctctgacc taccctgtga agcggaccac
+      541 taagatggca ggcatgatga ttgcagctgc gtgggtgctg tccttcatcc tgtgggcccc
+      601 tgcaattctc ttctggcagt tcattgtggg aggaaggact gtcccagatg gggattgcta
+      661 cattcagttt ttttccaatg ctgctgtcac ttttggtact gccattgcag ccttctattt
+      721 gcctgttatc atcatgactg tcctttactg gcaaatctct caagccagta agagtcgaat
+      781 aaagaaagga aaaaaggaag ctgcccaaaa ccaaggtaca gtttctccca gccttgtcca
+      841 aagtaaaata gtgaaaccaa acaataacaa catcccagcc agtggtgatg ggttggaaca
+      901 tagcaaaatt cagaatggaa aagccactgg agagactgtg acggagaact gtgtgcaagg
+      961 ggaggagaag gagagctcta acgactccac ctctgtcagc gtggtcgctt ccaacatgaa
+     1021 agaagatgaa gccgccaaag attccagcca ggcttctgcc tcccaagacc atctcaaagt
+     1081 gggaaactcc aagctgacgt gcatcaggat agtcaccaag tcccaaaagg gtgattgctg
+     1141 tgcttccacc aacactactg tggagattgt aggcaccagc agggaggaga agcagaatag
+     1201 cgtagcccgg aaaatcgtca agatgacaaa gcaaccagcc aaaaagaaac cacctccttc
+     1261 tagagagaaa aaagtgacaa ggactatttt ggccatcctc ctggccttca tcatcacctg
+     1321 gaccccatac aatgtgatgg tgctcatcaa cagcttctgc acatcctgca tccctggtac
+     1381 tgtatggacc ataggctatt ggctctgtta tatcaacagt accatcaacc ctgcttgtta
+     1441 tgccctctgc aatgctacct tcaagaagac ctttaagcac cttcttatgt gtcattacaa
+     1501 gaatatagga gctacaaggt aaaaatagta ataaaataat aatggaaagg atgaagaagt
+     1561 tccaaattaa attaaaaaag ctccaacctc caactagata aatgccatag cactttacgc
+     1621 tcttctacag aatgtgcaat ccaggatgtt aatggaaata ctgacatgga gcatcagctc
+     1681 cactcctgag aactacattt agaaacattt ttttaaatta ttgaaaacaa atcttgtgga
+     1741 catggagatg tttgaagaat tattcaagga tatggactgg aggcacagtt ccttgctttg
+     1801 tgcaagtatt ctgcagaagg gctttagagt ctacaatttt ggggcattct gtgtaaaatc
+//

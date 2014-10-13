@@ -1,0 +1,87 @@
+LOCUS       XM_004008948            1521 bp    DNA              MAM 02-DEC-2012
+DEFINITION  PREDICTED: Ovis aries 5-hydroxytryptamine (serotonin) receptor 4, G
+            protein-coupled, transcript variant 1 (HTR4), mRNA.
+ACCESSION   XM_004008948
+VERSION     XM_004008948.1  GI:426229851
+KEYWORDS    RefSeq.
+SOURCE      Ovis aries (sheep)
+  ORGANISM  Ovis aries
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Caprinae; Ovis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004080168) annotated using gene prediction method: GNOMON,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ovis aries Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1521
+                     /breed="Texel"
+                     /db_xref="taxon:9940"
+                     /mol_type="mRNA"
+                     /organism="Ovis aries"
+                     /chromosome="5"
+     gene            1..1521
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 24 mRNAs, 18 Proteins"
+                     /db_xref="GeneID:101117928"
+                     /gene="HTR4"
+     misc_feature    126..128
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR4"
+     CDS             159..1325
+                     /product="5-hydroxytryptamine receptor 4 isoform 1"
+                     /codon_start="1"
+                     /db_xref="GI:426229852"
+                     /db_xref="GeneID:101117928"
+                     /translation="MDELDANVSAKEGFKSVEKVVLLTFLSAVILMAILGNLLVMVAVC
+                     RDRQLRKIKTNYFIVSLAFADLLVSVLVMPFGAIELVQDIWIYGEMFCLVRTSLDVLLT
+                     TASIFHLCCISLDRYYAICCQPLVYRNKMTPLRIALMLGGCWVIPTFISFLPIMQGWNN
+                     IGIIDLIEKRKVNQNSNSTYCIFMVNKPYAITCSVVAFYIPFLLMVLAYYRIYVTAKEH
+                     AHQIQMLQRAGAPTEGRLQPTDQHSTHRMRTETKAAKTLCIIMGCFCLCWAPFFVTNIV
+                     DPFVDYTVPGQVWTAFLWLGYINSGLNPFLYAFLNKSFRRAFLIILCCDDERYRRPSIL
+                     GQTVPCSTTTINGSTHVLRDAVECGGQWESQSHPPASSPLVAAQPSDT"
+                     /gene="HTR4"
+                     /protein_id="XP_004008997.1"
+     STS             819..957
+                     /db_xref="UniSTS:504885"
+                     /standard_name="HTR4"
+                     /gene="HTR4"
+ORIGIN
+        1 cgcaggcagc ggctgggagc gcggcggcgg cggcggcaga agctcggttc cgcggcgagg
+       61 ggcggccgtt cccgtccccc cgggcgcctc gctccctagc ctcagccgag gtacccagtg
+      121 ggcgctgata tccaactcac ccatgcctat ttcctgtaat ggacgaactt gatgctaatg
+      181 tgagtgccaa ggagggtttc aagtcagtgg agaaggtcgt gctgctcacg tttctctcgg
+      241 cagttatcct gatggctatc ttggggaacc tactggtgat ggtggctgtg tgcagggaca
+      301 ggcagctcag gaaaataaaa accaattatt tcattgtgtc tcttgccttt gcggatctgc
+      361 tggtgtcagt gctggtgatg cccttcggtg ccattgagct ggttcaagac atctggattt
+      421 acggggagat gttctgcctt gtccggacat ctctggatgt cctgctcaca acagcatcga
+      481 tttttcacct gtgctgcatt tctctggata ggtattatgc catctgctgc cagcctttgg
+      541 tctataggaa caagatgacc cctctgcgaa tcgcattaat gctgggaggc tgctgggtca
+      601 tccccacgtt tatctctttt ctccctataa tgcaaggctg gaataacatt ggaataattg
+      661 atttgataga aaaaaggaag gtcaatcaga actctaactc tacgtactgt atcttcatgg
+      721 tcaacaagcc ctacgccatc acctgctccg tggtagcctt ctacatccca tttctcctca
+      781 tggtgctggc ctattatcgc atctatgtca cagctaagga gcatgctcac cagatccaga
+      841 tgctgcaacg ggcaggagcc cccacagagg gcagactcca accaacagac cagcatagca
+      901 ctcatcgcat gaggacagag accaaagcag ccaagactct gtgcatcatc atgggttgct
+      961 tctgcctttg ctgggctcca ttctttgtca ccaatattgt ggatccattc gtagactata
+     1021 ctgttcccgg gcaggtgtgg accgctttcc tctggcttgg ctacatcaat tctggattga
+     1081 acccctttct ctacgccttc ttgaataagt cttttagacg tgccttcctc atcatcctct
+     1141 gctgtgatga tgaacgctac cgaagacctt ccattttggg ccagactgtc ccctgttcaa
+     1201 ccacaactat taatggatcc acacatgtgc taagggatgc agtggaatgt ggtggccaat
+     1261 gggagagtca gtcccacccc ccagcaagtt ctcctctggt ggccgcacag cccagtgaca
+     1321 cttaggcccc tggggcagtg accctgaaga cagccatccc tccgagagag ggcaggtcct
+     1381 gagctgctgc ccgtgcatga ctgcacccgg tgtcctcttc acccagcgtt ccatctgttg
+     1441 gtgcaggcac cctgtgccca tcgagctttt cctccaggat tctagcaggt ggcaggggac
+     1501 aggatggccc ccttgttcac t
+//

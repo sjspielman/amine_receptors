@@ -1,0 +1,102 @@
+LOCUS       XM_001234082            2069 bp    DNA              VRT 19-JUN-2013
+DEFINITION  PREDICTED: Gallus gallus dopamine receptor D3 (DRD3), transcript
+            variant X1, mRNA.
+ACCESSION   XM_001234082
+VERSION     XM_001234082.3  GI:513161614
+DBLINK      BioProject: PRJNA10808
+KEYWORDS    RefSeq.
+SOURCE      Gallus gallus (chicken)
+  ORGANISM  Gallus gallus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Galliformes;
+            Phasianidae; Phasianinae; Gallus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003763493.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Jun 19, 2013 this sequence version replaced gi:363728398.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Gallus gallus Annotation Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2069
+                     /mol_type="mRNA"
+                     /breed="Red Jungle fowl, inbred line UCD001"
+                     /isolate="#256"
+                     /sex="female"
+                     /db_xref="taxon:9031"
+                     /organism="Gallus gallus"
+                     /chromosome="1"
+     gene            1..2069
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 8 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 6 samples with support for all
+                     annotated introns"
+                     /db_xref="CGNC:11247"
+                     /db_xref="GeneID:770757"
+                     /gene="DRD3"
+     CDS             48..1325
+                     /product="D(3) dopamine receptor isoformX1"
+                     /codon_start="1"
+                     /db_xref="GI:363728399"
+                     /db_xref="CGNC:11247"
+                     /db_xref="GeneID:770757"
+                     /translation="MALFTRASSHLNTTSSVPCGAGNTTEPDLPRSHAYYALCYCILIL
+                     AIIFGNVLVCLAVLRERTLQTTTNYLVVSLAVADLLVATLVMPWVVYLEVTGGVWTFSR
+                     ICCDVFVTMDVMMCTASILNLCAISIDRYTAVVKPVQYQYNTGQSSCRRVSLMIVVVWM
+                     LAFAVSCPLLFGFNTTGDPSVCSISNPVFIIYSSLVSFYLPFMVTLLLYVRIYLVLRQR
+                     QKKRTLSRQCSYSASTKPCYTHKEHNKRKTLPNRCQDPFSPCLQLKCSDQEMSTKRKLL
+                     TAFSLQQYRSFCQDRSLSETPGTPQHNRLEERRKSKNPGLEVQRLSNGKTVSSLKLAHQ
+                     QPRLIQLRERKATQMLAIVLGTFIVCWMPFFLIHILNAHCPACHVPPGLYSASTWLGYV
+                     NSALNPIIYTTFNTDFRRAFLKILCC"
+                     /gene="DRD3"
+                     /protein_id="XP_001234083.2"
+ORIGIN
+        1 agccccgctc ggccgcggcg gcggggcccg gtgggcaggg catccccatg gcactcttca
+       61 caagagccag cagccatctt aataccacca gctctgttcc ctgtggagca ggtaacacaa
+      121 cagaacctga cctgccacgt tcacacgcct actatgccct ctgttactgc atcctgattt
+      181 tggctatcat ctttgggaac gtgctggtct gcttagctgt gctgagggag cgcaccttgc
+      241 aaaccaccac aaactacctt gtggtaagcc tagcagtggc ggacttgctg gtggctactt
+      301 tggtgatgcc atgggtagtg tacctggagg tgactggggg agtctggact ttcagccgca
+      361 tctgttgcga tgtctttgtc acgatggatg tcatgatgtg cacagccagc attttaaacc
+      421 tctgtgccat cagcattgac agatacactg cagtggtgaa accagtgcag taccagtaca
+      481 acactgggca gagctcctgc aggagggtct ctctcatgat cgtggtagtc tggatgctgg
+      541 cattcgcagt gtcatgccct ctcctctttg gcttcaatac tacaggggat cccagtgtct
+      601 gttcaatatc caatcctgtt ttcataatct actcctcttt ggtatccttc tacctcccct
+      661 tcatggtgac ccttctgctc tatgtccgga tttacctcgt gctaagacaa aggcaaaaga
+      721 agagaaccct cagtcggcag tgcagctaca gcgccagcac caaaccatgt tatacacaca
+      781 aagaacacaa caagaggaaa actttgccaa acagatgcca ggacccattt tccccttgtc
+      841 tccagctcaa atgctcagac caggagatgt ctaccaaaag aaagttgctg actgccttca
+      901 gcctccagca gtaccgcagc ttctgccaag atagatctct cagcgagaca cctgggactc
+      961 cacaacataa caggctggaa gagaggagaa agagtaagaa tcctgggctg gaggtacaga
+     1021 ggctcagtaa tggcaaaact gtcagctctc tgaagctagc acaccagcag ccccggctga
+     1081 tccagcttcg ggagaggaag gctacacaga tgctggctat tgtcctgggg acattcatag
+     1141 tctgctggat gccattcttc ttgattcaca tcctcaacgc ccactgcccc gcctgccatg
+     1201 tgcccccagg gctgtacagt gccagcacct ggcttggtta tgtcaacagc gccctcaatc
+     1261 ccatcatcta caccaccttc aacaccgact tccgcagagc cttcctcaag atcctctgct
+     1321 gctgacggca gggccagcat ttctggttgt tctgggaatg cactgaacct catccaaagc
+     1381 acggccagaa taaggattca tcctgactgc tgcagtacct gctctcacag cacagccctg
+     1441 gggagccagt ttcgataaca tcccttcagt aagaaaggac tagcacctca ggccagttca
+     1501 tcagccccat tgccaaccca gatgtcagca cgcaggctgg cccagtttcc cacagccgtt
+     1561 ccagagcagt ccttccatgg tttccttccc ccatgctatt tcacaaatcc atctccagta
+     1621 gttcctaggt caaaacacca aatgagtcca gctaggccat gtcagctggt ctcatgccag
+     1681 agcagcctaa tgctcttctc cctgtacaga aaaacccatc ctgggacagt cctgatgttt
+     1741 ctcccatttt cacctctcac tgtacaggat ccagagagac tcaccagggg ccccagctct
+     1801 ttctcccaag ctttggctta gcagtgttgt tagccacacg tttgacagct ttgggcataa
+     1861 ctacaagtca tctctgcctt ctacaccttg gctcctccat ccaggcagtg cttcctttct
+     1921 ttcctaatac aaagacaaaa cattgtcctt cttttgtttg atgggttttg gggtgggacg
+     1981 ctagtgaaca ccatgtattg cttgcgtgga gagatgcttt tcatactgta ttgtaactgc
+     2041 attaatacaa taaaacacac atctaattg
+//

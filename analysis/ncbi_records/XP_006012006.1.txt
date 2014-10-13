@@ -1,0 +1,81 @@
+LOCUS       XP_006012006             457 aa                     VRT 05-NOV-2013
+DEFINITION  PREDICTED: trace amine-associated receptor 4-like [Latimeria
+            chalumnae].
+ACCESSION   XP_006012006
+VERSION     XP_006012006.1  GI:557023587
+DBLINK      BioProject: PRJNA219830
+KEYWORDS    RefSeq.
+SOURCE      Latimeria chalumnae (coelacanth)
+  ORGANISM  Latimeria chalumnae
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Coelacanthiformes; Coelacanthidae; Latimeria.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005822006.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Latimeria chalumnae Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..457
+                     /country="South Africa"
+                     /isolate="SAIAB 97564"
+                     /note="Wild Caught"
+                     /db_xref="taxon:7897"
+                     /tissue_type="blood"
+                     /organism="Latimeria chalumnae"
+                     /chromosome="Unknown"
+     Protein         1..457
+                     /product="trace amine-associated receptor 4-like"
+                     /calculated_mol_wt="51580"
+     Region          44..328
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          58..313
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <347..446
+                     /note="Exonuclease-Endonuclease-Phosphatase (EEP) domain
+                     superfamily; cl00490"
+                     /db_xref="CDD:260458"
+                     /region_name="EEP"
+     Site            order(351,353,414,438..439)
+                     /note="putative catalytic site [active]"
+                     /db_xref="CDD:197306"
+                     /site_type="active"
+     Site            order(353,439)
+                     /note="putative phosphate binding site [ion binding]"
+                     /db_xref="CDD:197306"
+                     /site_type="other"
+     Site            438
+                     /note="putative metal binding site [ion binding]"
+                     /db_xref="CDD:197306"
+                     /site_type="other"
+     CDS             1..457
+                     /coded_by="XM_006011944.1:1..1374"
+                     /gene="LOC102348475"
+                     /db_xref="GeneID:102348475"
+ORIGIN
+        1 mnatsvlgld evqycfefin sscpkslrsr siymvmyifm sgaiiitmig nllviisish
+       61 fkqlqsptnf lllslaiadf llgfgimpys mirsiescwy fgeslckihs gfdmmlstas
+      121 tfhlcfiavd rycavcdplh ysvritipvv ilflviswlv picfafgvmf idshaegied
+      181 fvdsvsctgf cavflnklwg vlapiiaffs palimigiya kiffvarrha vvinntidkv
+      241 nfvkdiknki sknketkaak tlsivmgvfl lcwlpfmvis vvdpflnfst pavlfdafmw
+      301 lgyfnsmfnp iiygffypwf rkalktlltg eiftqnssla qfpcpwvigg dfncpldtvm
+      361 drsssgqvaq tlmakaipts mkeyglmdvw rhlhstarey syyshahqtf scidpfliss
+      421 llshqvtvce flprfisdhs piriqleapd diqgpfw
+//

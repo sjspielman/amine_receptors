@@ -1,0 +1,65 @@
+LOCUS       XP_005808181             469 aa                     VRT 23-OCT-2013
+DEFINITION  PREDICTED: alpha-2Db adrenergic receptor-like [Xiphophorus
+            maculatus].
+ACCESSION   XP_005808181
+VERSION     XP_005808181.1  GI:551513337
+DBLINK      BioProject: PRJNA220265
+KEYWORDS    RefSeq.
+SOURCE      Xiphophorus maculatus (southern platyfish)
+  ORGANISM  Xiphophorus maculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Atherinomorphae; Cyprinodontiformes;
+            Poeciliidae; Poeciliinae; Xiphophorus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005372393.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Xiphophorus maculatus Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..469
+                     /db_xref="taxon:8083"
+                     /isolate="XMAC-090115_JP163A"
+                     /sex="female"
+                     /strain="JP 163 A"
+                     /organism="Xiphophorus maculatus"
+                     /chromosome="Unknown"
+     Protein         1..469
+                     /product="alpha-2Db adrenergic receptor-like"
+                     /calculated_mol_wt="52684"
+     Region          61..447
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          69..>173
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     CDS             1..469
+                     /coded_by="XM_005808124.1:1..1410"
+                     /gene="LOC102226842"
+                     /db_xref="GeneID:102226842"
+ORIGIN
+        1 mdfaddsnss vnqtssssla kspplpphsq aasvcivlvv aviilgtvvg nvlvvvavft
+       61 sralrapqnl flvslasadi lvatlvipfs lanevmgywy fgstwcsfyl aldvlfctss
+      121 ivhlcaisld rywsvtkavs ynrkrtpkri kvmisivwli sivissppll msqkdsdleg
+      181 edrsevsrqe clinnqtwyi lsscmvsffa pgvimilvyc kiyrvakqra stvfvaknvm
+      241 erqpsqsetc fvggggtcqr kgkaqyeles pqpghrrssf nidsnssshr rqelddidle
+      301 ernpdpevke sfssslrfpr rvggrvktdd vdgtpnrlkl ppplpscasi swassdqcsq
+      361 nfllpsplpi rsrqmslskn kvaqmrekrf tfvlavvmgv fvlcwfpfff tyslhaicre
+      421 nctipetlfd lffwigycns clnpiiytif nrdfrrafkk ilfhthkrt
+//

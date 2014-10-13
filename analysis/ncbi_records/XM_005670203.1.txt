@@ -1,0 +1,89 @@
+LOCUS       XM_005670203            1361 bp    DNA              MAM 26-SEP-2013
+DEFINITION  PREDICTED: Sus scrofa D(3) dopamine receptor-like (LOC100513049),
+            mRNA.
+ACCESSION   XM_005670203
+VERSION     XM_005670203.1  GI:545866073
+DBLINK      BioProject: PRJNA28993
+KEYWORDS    RefSeq.
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003611814.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Sus scrofa Annotation Release 104
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1361
+                     /breed="mixed"
+                     /db_xref="taxon:9823"
+                     /mol_type="mRNA"
+                     /organism="Sus scrofa"
+                     /chromosome="13"
+     gene            1..1361
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 Proteins, and 69% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:100513049"
+                     /gene="LOC100513049"
+     CDS             1..1344
+                     /product="D(3) dopamine receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:545866074"
+                     /db_xref="GeneID:100513049"
+                     /translation="MAPLSQLGGHINSTCAAENTTGASRARPHAYYALSYCTLILAIVF
+                     GNGLVCVAVLRERALQTTTNYLVVSLAVADLLVATLVMPWVVYLEVTGGVWNFSRVCCD
+                     VFVTLDVMMCTASILNLCAISIDRYTAVVMPVHYQHGTGQSSCRRVALMITAVWVLAFA
+                     VSCPLLFGFNTTGDPSICSISNPDFVLYSSVVSFYLPFGVTVLVYARIYVVLRQRRRKR
+                     FLTRQNSQCLSVRPGFPQQSSCLRLHPIRQFSIRARFPSDAMGKTEHSEDKQYPQKCQD
+                     SLLLHLQPLSPGQTHMELKRYYSICQDTALGRPGFQEGEGELKRAGRTRNSLSPTMAPK
+                     LSLEVRKLSNGRLSTSLKLGPLQPRGVPLREKKATQMLVIVLGTFIVCWLPFFLTHVLN
+                     THCQACHVSPELYSATTWLGYVNSALNPVIYTTFNVEFRKAFLKILSC"
+                     /gene="LOC100513049"
+                     /protein_id="XP_005670260.1"
+     STS             1036..1235
+                     /db_xref="UniSTS:34219"
+                     /standard_name="DRD3-556F"
+                     /gene="LOC100513049"
+     STS             1166..1343
+                     /db_xref="UniSTS:53374"
+                     /standard_name="RH71216"
+                     /gene="LOC100513049"
+ORIGIN
+        1 atggcgcctc ttagccaact ggggggccac atcaactcca cttgtgcagc agagaacacc
+       61 acaggggcca gccgggcccg cccgcatgcc tactatgccc tgtcctactg cacactcatc
+      121 ctggccatag tctttggcaa tggtctggtg tgtgtggccg tgctgaggga acgggcccta
+      181 cagaccacca ccaactatct ggtggtgagc ctggccgtgg cggacctgct agtggccacc
+      241 ttggtgatgc cctgggtggt gtacctggag gtaacaggtg gagtctggaa tttcagccga
+      301 gtctgctgcg atgttttcgt caccctggat gtcatgatgt gtacagccag catcctgaac
+      361 ctctgtgcca tcagcatcga cagatacact gccgtggtca tgccagttca ctaccaacat
+      421 ggcacgggac agagctcctg tcggcgtgtg gccctcatga tcacggccgt ctgggtactg
+      481 gccttcgccg tgtcttgccc tctcctcttt ggcttcaaca ccacaggaga ccccagcatc
+      541 tgctctatct ccaaccctga ttttgtcctc tactcttcag tggtgtcctt ctacctaccc
+      601 tttggagtga ctgtgcttgt ctatgccagg atctatgtgg tattaagaca gaggagacgg
+      661 aaacgcttcc tcactcgaca gaacagtcag tgcctcagtg tgaggcctgg cttcccccag
+      721 cagtcttcct gtctacggtt gcaccccatt cggcagtttt caataagggc cagatttcca
+      781 tcagatgcca tggggaaaac ggaacattca gaagacaaac aatatcccca gaaatgtcag
+      841 gactctctct tgttacacct gcagcccctt tcccctggcc agacacacat ggagttgaag
+      901 cgctactaca gcatctgcca agatactgcc ttggggagac caggcttcca ggaaggagaa
+      961 ggagagttga aaagggcagg gaggactcgg aactccctca gccccaccat ggcccccaag
+     1021 ctcagcttag aggttcgaaa actcagtaat ggcaggttgt caacatccct gaagctgggg
+     1081 cctctgcaac ctcggggagt accacttcgg gagaagaagg caacccagat gctggttatt
+     1141 gtgctcggga ccttcattgt ctgctggctg cccttcttct tgacccatgt tctcaatacc
+     1201 cactgtcaag catgccacgt gtccccagag ctttacagtg ccacaacgtg gctgggctac
+     1261 gtgaacagcg ccctcaaccc cgtgatctat accaccttca atgtcgagtt ccgcaaagcc
+     1321 ttcctcaaga tcctatcttg ctgatggaga ggagagaaga c
+//

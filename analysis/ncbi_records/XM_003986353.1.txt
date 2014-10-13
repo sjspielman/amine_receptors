@@ -1,0 +1,98 @@
+LOCUS       XM_003986353            2045 bp    DNA              MAM 06-NOV-2012
+DEFINITION  PREDICTED: Felis catus 5-hydroxytryptamine (serotonin) receptor 1E,
+            G protein-coupled (HTR1E), mRNA.
+ACCESSION   XM_003986353
+VERSION     XM_003986353.1  GI:410959621
+KEYWORDS    RefSeq.
+SOURCE      Felis catus (domestic cat)
+  ORGANISM  Felis catus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae;
+            Felinae; Felis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004064755) annotated using gene prediction method: GNOMON,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Felis catus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2045
+                     /mol_type="mRNA"
+                     /breed="Abyssinian"
+                     /isolate="Cinnamon"
+                     /sex="female"
+                     /db_xref="taxon:9685"
+                     /organism="Felis catus"
+                     /chromosome="B2"
+     gene            1..2045
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 3 mRNAs, 11 Proteins"
+                     /db_xref="GeneID:101088489"
+                     /gene="HTR1E"
+     misc_feature    650..652
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR1E"
+     CDS             725..1822
+                     /product="5-hydroxytryptamine receptor 1E"
+                     /codon_start="1"
+                     /db_xref="GI:410959622"
+                     /db_xref="GeneID:101088489"
+                     /translation="MNITNCTTEASVAVRPKTVTEKMLISMTLVTITTLTMLLNLAVIM
+                     AICTTKKLHQPANYLICSLAVTDLLVAVLVMPLSIMYIAMESWKLGYFICEVWLSVDMT
+                     CCTCSILHLCVIALDRYWAITNAIEYARKRTAKRAGLMILTVWTISIFISMPPLFWRSH
+                     CQLSPRPSQCTIQHDHVIYTIYSTLGAFYIPLTLILILYYRIYHAAKSLYQKRGSSRHL
+                     SNRSTDSQNSFASCKLTQTFCVSDFSTSDPTTEFEKIHTSIRIPSFDNDLDHPGERQQI
+                     SSTRERKAARILGLILGAFILSWLPFFIKELIVGLSIYTVSSEVADFLTWLGYVNSLIN
+                     PLLYTSFNEDFKLAFKKLIKCREHT"
+                     /gene="HTR1E"
+                     /protein_id="XP_003986402.1"
+     STS             1349..1738
+                     /db_xref="UniSTS:157233"
+                     /standard_name="GDB:435482"
+                     /gene="HTR1E"
+ORIGIN
+        1 aagatctgaa gcacctcaga gctccgacct ccaagttctc ctccaccgcc accgccctca
+       61 tcgcaccctg gctcaccttt tcatcccacc cacccccttc gctgttcagt ggtgtcctgc
+      121 gcgcctgcaa acctgcctgg tgatttagta aactgctccc tgctcgtgtt cctgttcctg
+      181 ctcctgctcc tcctcctcct ccacctcctc ctgccagctc tcgctcacgc ctcctcttcc
+      241 agtcggggca cccagacttc gcaaagcgca gcgcctgccg cctgcagcgc cacggggcag
+      301 cccagcgcat cgcgctccca gctccttctg gccgcagcca gggggcacgg gcgctggcaa
+      361 aggactctcg agggcccaac gcccctggac tcagcgtgct ccagagctgg gtgttgagag
+      421 aagctgtgct ttcacaaagc tcgggagaga acggagcgcg ttcggtgtga gacttgggga
+      481 gccagcggga cgccccaggt cgcccagtac gacgcggctg cacgcaccgt ccacaaggaa
+      541 ccctccattc agaagaaatg ctgtggtgct tccttttacc ccatacaaaa tggaacataa
+      601 gaaactacaa agctgaacaa actacaatct tcttataaat gagaggcact gaagtctgag
+      661 cagtttccag ctgagggaaa ataaccaaca gcttctccac agtgtagatc aaagcaggga
+      721 aaacatgaat atcactaact gtaccacaga agccagtgtg gctgtgagac ccaagaccgt
+      781 cactgagaag atgctcatat ccatgactct ggtgaccatc accaccctga ccatgttgtt
+      841 gaatttggcc gtgatcatgg ccatctgtac caccaagaag ctccaccagc ctgccaacta
+      901 cctgatctgt tctctggccg tgacggacct cctggtggca gtgctcgtca tgcccctgag
+      961 catcatgtac attgccatgg aaagctggaa actagggtac ttcatctgtg aggtgtggct
+     1021 gagtgtggac atgacctgct gcacctgctc catcctccat ctctgtgtga ttgccctgga
+     1081 caggtactgg gccatcacca atgctattga atatgccagg aagaggacgg ccaagagggc
+     1141 tgggctgatg atcctcaccg tctggaccat ctccatcttc atctccatgc cccctctgtt
+     1201 ctggaggagc cactgccagc tgagcccacg ccctagtcag tgcacaatcc agcatgacca
+     1261 tgtcatctac accatttact ccacactggg ggcattttat atccccttga ctttgatact
+     1321 tattctgtat taccgtattt atcatgcagc caagagcctt taccagaaaa gaggatcaag
+     1381 ccggcactta agcaacagaa gcacagatag ccaaaattct tttgcgagtt gtaaacttac
+     1441 acagactttc tgtgtgtctg atttctccac ctcagaccct accacagagt ttgagaagat
+     1501 ccacacctct atcaggatcc cttccttcga caatgatcta gatcaccctg gagaacggca
+     1561 gcaaatctct agcaccaggg agcgcaaggc agcacgaatc ctaggactga ttttgggtgc
+     1621 attcattttg tcatggctgc catttttcat caaagagttg attgtaggtc tgagcatcta
+     1681 tacagtgtcc tctgaagtgg ctgatttttt gacgtggctc ggttatgtta attctctgat
+     1741 caaccctctg ctctacacaa gttttaatga agactttaag ctggctttta aaaagctcat
+     1801 taagtgccga gaacatactt agattgcaaa aagccaaaaa gcgtcacttt taccagcctt
+     1861 gtgagtggac aagggtaagg ggtgcaactt atcaatttgt gaacatagtt ggttcaggaa
+     1921 attttgtgag gtagtgtggt ctttttgttt gttttgttct gttttgtttg aggtttgtta
+     1981 tttggtgtgc cgttttctac ctctggtttt attgtggtac atgatttcaa ataaacatta
+     2041 tcata
+//

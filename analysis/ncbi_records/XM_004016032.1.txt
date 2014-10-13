@@ -1,0 +1,89 @@
+LOCUS       XM_004016032            1511 bp    DNA              MAM 02-DEC-2012
+DEFINITION  PREDICTED: Ovis aries dopamine receptor D2, transcript variant 1
+            (DRD2), mRNA.
+ACCESSION   XM_004016032
+VERSION     XM_004016032.1  GI:426244542
+KEYWORDS    RefSeq.
+SOURCE      Ovis aries (sheep)
+  ORGANISM  Ovis aries
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Caprinae; Ovis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004080178) annotated using gene prediction method: GNOMON,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ovis aries Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1511
+                     /breed="Texel"
+                     /db_xref="taxon:9940"
+                     /mol_type="mRNA"
+                     /organism="Ovis aries"
+                     /chromosome="15"
+     gene            1..1511
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 4 mRNAs, 21 Proteins"
+                     /db_xref="GeneID:101113525"
+                     /gene="DRD2"
+     CDS             34..1365
+                     /product="D(2) dopamine receptor isoform 1"
+                     /codon_start="1"
+                     /db_xref="GI:426244543"
+                     /db_xref="GeneID:101113525"
+                     /translation="MDPLNLSWYDDDPESRNWSRPFNGSEGKADRPHYNYYAMLLTLLI
+                     FVIVFGNVLVCMAVSREKALQTTTNYLIVSLAVADLLVATLVMPWVVYLEVVGEWKFSR
+                     IHCDIFVTLDVMMCTASILNLCAISIDRYTAVAMPMLYNTRYSSKRRVTVMIAIVWVLS
+                     FTISCPMLFGLNNTDQNECIIANPAFVVYSSIVSFYVPFIVTLLVYIKIYIVLRRRRKR
+                     VNTKRSSRAFRANLKAPLKGNCTHPEDMKLCTVIMKSNGSFPVNRRRVEAARRAQELEM
+                     EMLSSTSPPERTRYSPIAPSHHQLTLPDPSHHGLHSTPDSPAKPEKNGHAKDHPKIAKI
+                     FEIQSMPNGKTRTSLKTMSRRKLSQQKEKKATQMLAIVLGVFIICWLPFFITHILNIHC
+                     DCNIPPVLYSAFTWLGYVNSAVNPIIYTTFNIEFRKAFLKILHC"
+                     /gene="DRD2"
+                     /protein_id="XP_004016081.1"
+     STS             328..535
+                     /db_xref="UniSTS:266487"
+                     /standard_name="DRD2"
+                     /gene="DRD2"
+     STS             865..1045
+                     /db_xref="UniSTS:272844"
+                     /standard_name="PMC311033P6"
+                     /gene="DRD2"
+ORIGIN
+        1 agagcctggc cacccagtgg ccccgctgcc cccatggatc cgctgaacct gtcctggtat
+       61 gatgacgatc cagagagccg gaactggagc cggcccttca atgggtctga agggaaggct
+      121 gacaggcccc actacaacta ctatgccatg ctgctcaccc tgctcatctt cgtcatcgtc
+      181 tttggcaacg tgctggtgtg tatggctgtg tcccgcgaga aggcgctgca gaccaccacc
+      241 aactacctga tcgtcagcct cgctgtggct gacctcctgg tggccacact ggtcatgccc
+      301 tgggtggtct acctggaggt ggtgggcgag tggaaattca gcaggattca ctgtgacatc
+      361 tttgtcaccc tggatgtcat gatgtgcaca gccagcatcc tgaacctgtg tgccatcagc
+      421 atcgacaggt acacagccgt ggccatgccc atgctctaca acacacgtta cagctctaag
+      481 cgccgagtca cggtcatgat cgccatcgtc tgggtcctgt ccttcaccat ctcctgcccg
+      541 atgctcttcg gactcaacaa cacagaccag aatgagtgca tcatcgccaa ccccgccttc
+      601 gtggtctact cctccatcgt ctccttctac gtgcccttca tcgtcaccct gctggtctac
+      661 atcaagatct acatcgtcct gcgaaggcgg cgcaagcgcg tcaacaccaa gcgcagcagc
+      721 cgggctttcc gggccaacct gaaggccccg ctcaagggca actgtactca ccccgaggac
+      781 atgaaactct gcacggttat catgaagtct aatgggagtt tcccagtgaa caggcggaga
+      841 gtggaggctg cccgccgagc ccaggagcta gagatggaga tgctctccag caccagcccg
+      901 cccgagagga cccgatacag ccccatcgcc cccagccacc accagctgac cctccccgac
+      961 ccatcccacc atggcctcca cagcacaccc gacagccccg ccaagccaga gaagaacggg
+     1021 catgccaaag accaccccaa gattgccaag atctttgaga tccagtccat gcccaatggc
+     1081 aaaacccgga cctctctcaa gaccatgagc cgcaggaagc tctcccaaca gaaggagaag
+     1141 aaggccaccc agatgctcgc cattgttctt ggtgtgttca tcatctgctg gctgcccttc
+     1201 ttcatcaccc acatcctgaa catacactgt gactgcaaca tcccgcccgt gctgtacagc
+     1261 gccttcacgt ggctgggcta cgtcaacagc gccgtgaacc ccatcatcta caccaccttc
+     1321 aacatcgagt tccgcaaggc cttcctcaag atcctacact gctgaccctg ctgcctacct
+     1381 gcacagcagc ccgcctctcc ccttctctgc cccgcggccc cgcctggggc cccgggagcc
+     1441 gcgcgcaagg ggggcgcagg gcagcctcgg ccatgtcctt gcccgcgggc cctgcagtgt
+     1501 tagcttggct c
+//

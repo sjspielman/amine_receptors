@@ -1,0 +1,91 @@
+LOCUS       XM_005351511            1321 bp    DNA              ROD 21-AUG-2013
+DEFINITION  PREDICTED: Microtus ochrogaster dopamine receptor D4 (Drd4), mRNA.
+ACCESSION   XM_005351511
+VERSION     XM_005351511.1  GI:532015606
+DBLINK      BioProject: PRJNA210839
+KEYWORDS    RefSeq.
+SOURCE      Microtus ochrogaster (prairie vole)
+  ORGANISM  Microtus ochrogaster
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Arvicolinae; Microtus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004948999.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Microtus ochrogaster Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1321
+                     /mol_type="mRNA"
+                     /isolate="Prairie Vole_2"
+                     /sex="female"
+                     /db_xref="taxon:79684"
+                     /organism="Microtus ochrogaster"
+                     /chromosome="8"
+     gene            1..1321
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 1 long SRA read, 5
+                     Proteins, and 81% coverage of the annotated genomic feature
+                     by RNAseq alignments"
+                     /db_xref="GeneID:101997840"
+                     /gene="Drd4"
+     CDS             30..1190
+                     /product="D(4) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:532015607"
+                     /db_xref="GeneID:101997840"
+                     /translation="MGNNNTDDDGGLLAGRGSEPLGPGAGLGGAGVAALVGGVLLIGLV
+                     LAGNSLVCVSVASERTLQTPTNYFIVSLAAADLLLAILVLPLFVYSEVQGGVWLLSPRL
+                     CDTLMAMDVMLCTASIFNLCAISVDRFVAVTVPLSYNRQGQRQQLLIAATWLLSAAVAA
+                     PVLCGLNDVPGRDPAVCRLEDRDYVVYSSVCSFFLPCPLMLLLYWATFRGLRRWEATRH
+                     TKLHSRAPRRPSGPGPPVLDNAQGPLFPQCLPPSPSLLQSPSGSNQLEPDLSQRPCGPE
+                     CPLPDAMLQQPPALPSCRRGAKITGRERKAMRVLPVVVGAFLMCWTPFFVVHITRALCP
+                     ACFVPPSLVSAVTWLGYVNSALNPIIYTVFNAEFRSVFRKSLRLRC"
+                     /gene="Drd4"
+                     /protein_id="XP_005351568.1"
+     STS             217..378
+                     /db_xref="UniSTS:508533"
+                     /standard_name="Drd4"
+                     /gene="Drd4"
+     STS             521..1047
+                     /db_xref="UniSTS:270336"
+                     /standard_name="PMC117557P1"
+                     /gene="Drd4"
+ORIGIN
+        1 cttgcgggag cgcgttcagc tgtcgagcca tggggaacaa caacacggac gacgacggtg
+       61 ggctgttggc cgggcgtggg tcagagcccc tggggccggg cgccggtctt gggggcgcgg
+      121 gtgtggcggc cctggttggg ggcgtgctgc tcatcggctt ggtgttggcg gggaactcgc
+      181 tcgtgtgcgt gagcgtggcc tccgagcgca ccctgcagac acccaccaac tacttcatcg
+      241 ttagcctggc ggccgccgac ctcctccttg caatactagt gctaccactc tttgtctact
+      301 ccgaggttca gggtggcgtg tggctgctga gtccccgcct ctgtgacacc ctcatggcca
+      361 tggacgtcat gctatgcacc gcttccatct tcaacctgtg cgccatcagc gtggacaggt
+      421 tcgtggccgt gacggtgccg ctaagctaca accgtcaggg tcagcgccag cagctgctca
+      481 tcgccgccac atggctgcta tctgccgcgg tggctgcgcc ggtgctgtgc ggcctcaacg
+      541 acgtccccgg ccgcgaccca gccgtgtgcc gtctggagga ccgcgactac gtggtctact
+      601 cgtccgtttg ctccttcttc ctgccctgtc cactaatgct gctgctttac tgggctactt
+      661 ttcgcggcct gcggcgctgg gaggcaaccc ggcacaccaa gctgcacagc cgcgcgccgc
+      721 gcagacccag cggccctggc ccgcccgtgt tggacaatgc tcagggcccc ctttttccac
+      781 aatgtctgcc cccttcaccc agcctcctgc aaagccccag cggctccaac cagcttgagc
+      841 cagatctctc tcagagaccc tgtggccctg agtgtccgct cccggatgca atgctccagc
+      901 aaccgccagc actgccttcc tgcaggaggg gcgccaagat cacgggaagg gagcgcaagg
+      961 caatgagagt cttgccggtg gtcgtcgggg ccttcctgat gtgttggacg cctttcttcg
+     1021 tggtgcacat cacgcgggcg ctgtgtccag cttgtttcgt gccccctagc ctggtcagtg
+     1081 ccgtcacctg gctaggctat gtcaacagtg ccctcaaccc catcatctac accgtcttca
+     1141 acgccgagtt ccgcagcgtc ttccgcaagt ctctccgtct ccgctgctga aaaggccact
+     1201 gctgtcctga ggtcagggag atccaagcct gtgggcggag tgcgctggcg catctgatta
+     1261 aacgaattat ttcctaatca tttatgaagg ctgggggttg gggaggagca agcaaaagag
+     1321 g
+//

@@ -1,0 +1,105 @@
+LOCUS       XM_005162673            2455 bp    DNA              VRT 01-AUG-2013
+DEFINITION  PREDICTED: Danio rerio dopamine receptor D3 (drd3), transcript
+            variant X1, mRNA.
+ACCESSION   XM_005162673
+VERSION     XM_005162673.1  GI:528519684
+DBLINK      BioProject: PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001878487.3) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2455
+                     /strain="Tuebingen"
+                     /mol_type="mRNA"
+                     /organism="Danio rerio"
+                     /chromosome="24"
+                     /db_xref="taxon:7955"
+     gene            1..2455
+                     /note="dopamine receptor D3; Derived by automated
+                     computational analysis using gene prediction method:
+                     Gnomon. Supporting evidence includes similarity to: 2
+                     mRNAs, 1 EST, 4 Proteins, and 100% coverage of the
+                     annotated genomic feature by RNAseq alignments, including 1
+                     sample with support for all annotated introns"
+                     /db_xref="GeneID:282554"
+                     /db_xref="ZFIN:ZDB-GENE-021119-1"
+                     /gene="drd3"
+     CDS             423..1841
+                     /product="D(3) dopamine receptor isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:528519685"
+                     /db_xref="GeneID:282554"
+                     /db_xref="ZFIN:ZDB-GENE-021119-1"
+                     /translation="MGFCFGSSLEKLNRSSTLMAMFSSGEWLWNDSEHSFTPGGNYSPA
+                     SGVEEAKRNYYAMLYSLLILAIVFGNVLVCIAVLRERALQTTTNYLVVSLAVADLLVAS
+                     LVMPWAVYLEVVGGAWLFSRLYCNVFVTLDVMMCTASILNLCAISIDRYTAVVMPVLYN
+                     TTHSSRKRVSVMIATVWVLAFAVSCPLLFGFNTTDDPAVCSISNPDFVIYSSVVSFYLP
+                     FAVTLLVYVRIYIFLRRRRKKITFRQGSGKVQPASAPPSVEMCLQDDAHKEKRDLSPIR
+                     INVITESKEQVIRPRLLANCLRRKRPQTAPAENSLLPPVITLNYCSISQASFARTEQDA
+                     NREEEEGGDEEQVAVRSCEVKKLANGRTHTSLRPPRAAHAMVCPSQARCRSMHSKEKKA
+                     TQMLAIVLGVFLICWLPFFVTHILNTHCRACHIPPEVYSAFTWLGYVNSALNPVIYTTF
+                     NIEFRRAFIKILSC"
+                     /gene="drd3"
+                     /protein_id="XP_005162730.1"
+ORIGIN
+        1 agcttgagtg cgaacagcgt agacatcctt cggaaaacgt cggaggaacg cgaatacctt
+       61 tagagttccc acatgatgta caattgggga ttttgagatt ctgtttagtt ctttcacctt
+      121 cccggattac cttcaaaaca tgtttgctgt accaccaacc actgtactaa tgaaagcagg
+      181 gacgcttcgt gcgtaaagga gcttttggag atggcgcgga gcttgtaacc atccttgcga
+      241 atctggctgt gcgcgaaacc attgtgggca tcattcaatg ctcaaaagcg tcgcgagtaa
+      301 gcatatttgg agctgtgtat tagtaagttt tgcgtacgcg gtaaggatgg agtcccttcc
+      361 acagcggcaa cggcgaaggg cgactggacc gataagttta acctcaagga aagtgcgttc
+      421 agatggggtt ctgtttcggt tcttcgctgg agaagcttaa cagatcttcc acacttatgg
+      481 caatgtttag cagtggtgaa tggctctgga atgactctga gcattcattc acccctgggg
+      541 gaaactacag cccagcgtca ggcgttgaag aagcgaagag gaattattat gccatgctct
+      601 attccctgct catcctggct atcgtgtttg ggaatgttct ggtttgcatt gctgtgcttc
+      661 gagagagagc tcttcagacc accaccaact acctggtggt cagtctggca gtggctgatc
+      721 tgttggtcgc ctcactggtc atgccttggg cagtttattt ggaagtggtc ggcggagctt
+      781 ggcttttcag tcgcctgtac tgcaatgtct ttgtgaccct ggatgtgatg atgtgcaccg
+      841 caagcatact taacctgtgt gccatcagta tcgacaggta tacagctgtg gtgatgcccg
+      901 tgttatacaa caccacccac agctcccgca aaagggtttc agtcatgatt gccacggttt
+      961 gggtcctcgc ctttgccgtc tcctgccctc tactgtttgg attcaacact acagatgacc
+     1021 ctgcggtgtg ctcaatttca aaccctgatt ttgttatcta ctcctccgtg gtgtcgtttt
+     1081 acttgccgtt tgcggtgacc cttctggtct atgtgcgcat ttacatcttt ctcagaagga
+     1141 gaaggaagaa aatcaccttc cgccaaggca gtggcaaagt tcagccagca tccgctccac
+     1201 catcagtgga gatgtgttta caagacgacg cacacaaaga gaaaagagac ctttccccca
+     1261 tcaggatcaa tgtgataact gaaagcaagg agcaggtgat ccgtccgcgg ctcctagcca
+     1321 actgtctgag gcgcaaacgg cctcaaaccg cacctgccga gaactcgttg ctgcctccgg
+     1381 tgatcacgct gaattactgc agcatcagcc aagcgtcttt tgctcgcact gaacaagatg
+     1441 caaaccgcga ggaagaggag ggtggggatg aggagcaggt ggcggtgagg agctgtgagg
+     1501 tgaagaagtt ggcaaacgga cgcacacaca caagcctgcg gccaccccgg gccgcacacg
+     1561 ccatggtttg ccccagtcag gcacgctgca gaagtatgca ctccaaggag aagaaagcca
+     1621 cgcagatgtt ggccatcgtt ctgggtgttt ttcttatttg ctggctgcct ttctttgtga
+     1681 cccacatcct caacactcat tgcagagctt gtcacattcc tcctgaggtc tacagcgcct
+     1741 tcacttggct cggctacgtc aacagcgctc tcaatcccgt catctacacc acgttcaaca
+     1801 tcgagtttcg cagagccttc attaaaatcc tgagctgcta aaccatgggc tatattccca
+     1861 taaaacgttt aatgcggctt tcagacactg tggatgccat tttgggatgc aatatgccat
+     1921 acacagagga tattaaaaga ctgtctgaat gtgttcaggg ggatttcaca gtcactataa
+     1981 agcacactac gcttgcaatc ggtggataag aattgattgc aatcttcttc aagttcacag
+     2041 gagaaccagt ttgtgcttca catccaacgt caaagcctag aagatctttt tgtgttctcc
+     2101 atctcagcac cttgtcgcat gtgggcaaat ccagagttca ttgtgtgtat gcatgtgtct
+     2161 caccatggat taagctgaga tgagttttac ctgaaacact tcagttgaaa cacagcgggg
+     2221 aaaactgcag tttatgaggc tacaaaggct agtgatttgt caaagggacc ataaaacagg
+     2281 tggaccaaaa gagtgtgaag gtaaaagatt gaagactgtg ttgtgctttt attggattcg
+     2341 tgatacaact gcatatcaga agaaaaaaca gaggaaaaaa aaagaagatg gttgtgattg
+     2401 ttatggatga aacgtgattt tattccatga attaaagcta cattgaatcc tcaaa
+//

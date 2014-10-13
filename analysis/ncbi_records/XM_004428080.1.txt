@@ -1,0 +1,132 @@
+LOCUS       XM_004428080            3838 bp    DNA              MAM 11-APR-2013
+DEFINITION  PREDICTED: Ceratotherium simum simum adrenoceptor alpha 2A (ADRA2A),
+            mRNA.
+ACCESSION   XM_004428080
+VERSION     XM_004428080.1  GI:478507701
+DBLINK      BioProject: PRJNA191537
+KEYWORDS    RefSeq.
+SOURCE      Ceratotherium simum simum (southern white rhinoceros)
+  ORGANISM  Ceratotherium simum simum
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Perissodactyla; Rhinocerotidae;
+            Ceratotherium.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004454179.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ceratotherium simum simum Annotation Release
+            100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3838
+                     /sub_species="simum"
+                     /mol_type="mRNA"
+                     /country="USA: San Diego Zoo, California"
+                     /isolate="SDZICR_KB13650"
+                     /sex="female"
+                     /db_xref="taxon:73337"
+                     /organism="Ceratotherium simum simum"
+                     /chromosome="Unknown"
+     gene            1..3838
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 10 mRNAs, 14 Proteins"
+                     /db_xref="GeneID:101408211"
+                     /gene="ADRA2A"
+     misc_feature    810..812
+                     /note="upstream in-frame stop codon"
+                     /gene="ADRA2A"
+     CDS             963..2345
+                     /product="alpha-2A adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:478507702"
+                     /db_xref="GeneID:101408211"
+                     /translation="MFRQEQPLAEGSFAPMGSLQPDAGNASWNGTEAPGGGARATPYSL
+                     QVTLTLVCLAGLLMLLTVFGNVLVIIAVFTSRALKAPQNLFLVSLASADILVATLVIPF
+                     SLANEVMGYWYFGKVWCEIYLALDVLFCTSSIVHLCAISLDRYWSITQAIEYNLKRTPR
+                     RIKAIIITVWVISAVISFPPLISIEKKGGGSGQQPAEPHCKINDQKWYVISSCIGSFFA
+                     PCLIMILVYVRIYQIAKRRTRVPPSRRGPDAGAPPPGGAERRPNGLGPERGMGPVGAEV
+                     EPLPAQLNGAPGEPAPAGPRDTDALDLEESSSSEHAERPPGPRRSERGPRAKGKARVTQ
+                     VKPGDSLPRRGPGAPAAGPGEERGGGAKASRWRGRQNREKRFTFVLAVVIGVFVVCWFP
+                     FFFTYTLTAVGCSVPRTLFKFFFWFGYCNSSLNPVIYTIFNHDFRRAFKKILCRGDRKR
+                     IV"
+                     /gene="ADRA2A"
+                     /protein_id="XP_004428137.1"
+     STS             1405..1529
+                     /db_xref="UniSTS:266590"
+                     /standard_name="ADRA2A"
+                     /gene="ADRA2A"
+ORIGIN
+        1 cagcagcggc tctggcttcg gtgcagacac ccagcagccg gcgcgctgcc gcccggccac
+       61 ccccagcacc ttctcccccc agccctgcgc acctgcccca actcacgctg ccctcggacc
+      121 ccggctgtcc ggtcgcgcgc agtgcccgca gctcgccggg ccgacgccca ggagactccc
+      181 tgctttggcc gcggctcctg gagggccgat cgcccacccg gcccggccct cctgaggacg
+      241 ggggcgcctt catgcggccc ccacccccct cgccccgccg ccgccgccgc cgcccccgag
+      301 ctccgcgcgc tgcgccccag ccccagcagg gcacgcaact ttggaagtcc cgcggcgctc
+      361 tgagaggtgg cagagtccgc accccggccc cagcccgggc tccgccggcc ccgccgcgtc
+      421 tgggggaagc gagagagtcg gtaatcgctt cggggatgta aggagacaga cataggaccc
+      481 caagcccgca tcagcacccc tcggctgcct cccggggtgg gggcgggccc cgcacacggt
+      541 aagacctctt gctttcgctc aggctcgaga gtcgagagag agatatatat ttaatatcct
+      601 gtcatccttt caagtcatca ggccaccgat gacttttgtt ctcccttctt gaagaataaa
+      661 tctctttccc catcggctcg atctactctc tcccgtcgct cagaaataaa acttggctgt
+      721 atttaggagc tgggagcgag aaggcgccca ccccgagcgc ccgaagcgtg ggtcgggcgc
+      781 ggttcgctgg agccgggccc atgggccgct agcggtcccc cagctcgggc ccgaccttcc
+      841 tgcggccccc tccccatgtg agcctcggcg gggcgagcgg ggcgcggaag gaagaggaag
+      901 acccacggcg ctgggccgga aggcagctgg cagcaggccc aggccagcgg gcacccgcgt
+      961 tcatgttccg ccaggagcag ccgctggccg agggcagctt cgcgcccatg ggctccctgc
+     1021 agccggacgc gggcaacgcg agctggaacg ggaccgaggc gccggggggc ggcgcccggg
+     1081 ccacccccta ctccttgcag gtgacgctga cgctggtatg cctggccggc ctgctcatgc
+     1141 tgctcaccgt gttcggcaac gtgctcgtca tcatcgccgt gttcacaagc cgcgcgctca
+     1201 aggcgcccca gaacctcttc ctcgtgtctc tggcctcggc cgacatcctg gtggccacgc
+     1261 tcgtcatccc tttctcgttg gccaacgagg tcatgggcta ctggtacttt ggcaaggtgt
+     1321 ggtgtgagat ctacctggcc ctcgatgtgc tcttctgcac atcgtccatc gtgcacctgt
+     1381 gcgccatcag cctggatcgc tactggtcca tcacgcaggc catcgagtac aacctgaagc
+     1441 gcacgccacg ccgcatcaag gccatcatca tcaccgtgtg ggtcatctcg gccgtcatct
+     1501 ccttcccgcc gctcatctcc atcgagaaga agggcggcgg cagcggccag cagccggccg
+     1561 agccgcactg caagatcaac gaccagaagt ggtatgtcat ctcgtcgtgc atcggctcct
+     1621 tcttcgcgcc ctgcctcatc atgatcctgg tctacgtgcg catctaccag atcgccaagc
+     1681 gccgcacccg cgtgccgccc agccggcggg gcccggatgc gggcgccccg ccgccggggg
+     1741 gcgccgagcg caggcccaac ggcctgggtc cggagcgcgg catgggcccc gtgggcgccg
+     1801 aggtcgagcc gctgcccgcc cagcttaacg gtgcccccgg ggagcccgcg ccggcagggc
+     1861 cgcgcgacac cgacgcgctg gacctggagg agagctcgtc gtccgagcac gccgagcggc
+     1921 cccccgggcc tcgcaggtcc gagcgcggcc cccgggccaa gggcaaagcc cgggtgaccc
+     1981 aggtgaagcc cggggacagc ctgccgcggc gcgggccggg ggcgccggcg gccggtcccg
+     2041 gggaggagcg cggcgggggc gccaaggcgt cgcgctggcg cgggcggcag aaccgcgaga
+     2101 agcgcttcac gttcgtgctg gccgtggtca tcggcgtgtt cgtggtgtgc tggttcccct
+     2161 tcttcttcac ctacacgctc acggccgtcg gctgctccgt gccgcgcacg ctcttcaagt
+     2221 tcttcttctg gttcggctac tgcaacagct cgctgaaccc ggtcatctac accatcttca
+     2281 accacgactt ccgccgcgcc ttcaagaaga tcctctgccg cggggacagg aagcggatcg
+     2341 tgtgagcgca gagcccgcgc cgcgcgaaca gactcgtgca gatcgcaggc agctgggatc
+     2401 caggggcgcg tctacgcagg cctagtactc tgaaaccagg gtcctgccta ctctgcgttt
+     2461 cctggcccgg gaggttgctc tgcggcttcc gggcatctgc tcttccctac cagggaaaag
+     2521 tactgactgg gagggccaca cgccccccaa ctgttgttag ggctgcttct gactgggagc
+     2581 catctctcta ggttcttggg ccgcccctaa tcagtgttgt ttcctaaaga tattttcacg
+     2641 tccaagtcca actctgacag cagttcagag caagcgctgg accccagagc gtacggctca
+     2701 caaagggtta atggacgggg gttacccagg ccccgctgat tgctgtctcc ctcccaccaa
+     2761 ctctattttt aaacaaacgc tcagggccgt cctgcccgcc ctcccatccc ccactgtaaa
+     2821 tatacactat ttttgatagt gcacacagga gggtccccag tgtcgctttg cttttgatgt
+     2881 cagaatcctg gctgttggag atgccctgga ggcagacacg ttgtgtctgg ttcaggctaa
+     2941 gtccctttgc aatgcaagcc cttttctagc gtcattacct ccctctgtgt ccttgtcacc
+     3001 agcaactggt gactgtcccc ggggcctgga tttgctttga gatttcctga gggaaaaggt
+     3061 ttgtctattt ttttttcctg tgcataacag cataattgtc ttttcctatg taaatattac
+     3121 agtgttggac cagacagaag taaatgaacc tttccgcctt gcatcagccc tgtgtataaa
+     3181 gccattatcc tctgatgcac cctttgcccc agtaactcac tttaaaaccg tctctttccg
+     3241 atgccccctc cctcctaccc tcctgggccc accgcttgaa gaatatgtat gtttctatct
+     3301 tgtatctctg tgcgcccttc cctccccaaa agtgctgact gcgggaaatc tttaagctgc
+     3361 tgtttttaga cacaggggag tggaaattgt gtggaagaag caaacctgat acaatttgcc
+     3421 caaggtaaac agtttggaaa gacaaatggg cctgccagac tgtacagttc ctgccccagg
+     3481 agctcctaag tctcagagag gtgtcctcta cccgcttttc tggttgagag catgtcactg
+     3541 atgagctcgt atagtcaggg gaggagcgga gacctcctgt ttacatccga gtttctacgt
+     3601 gtttgagaca gattctttaa ggcccacact ctcctgtcac taaagaaaaa ctaatgtcag
+     3661 cacatgttgc taatggcagt ggattttttt taaataaaaa gtttacagat caactgtgaa
+     3721 ataaatatga attaaatggt cctgcctgtt atctgagttt ccaaaagctt tgagagtctg
+     3781 ggaacatcgg gttatatata tatattttta aattaaaaaa tgtgtgtaca ttataaaa
+//

@@ -1,0 +1,92 @@
+LOCUS       XM_005260267            1522 bp    DNA              PRI 03-FEB-2014
+DEFINITION  PREDICTED: Homo sapiens histamine receptor H3 (HRH3), transcript
+            variant X2, mRNA.
+ACCESSION   XM_005260267
+VERSION     XM_005260267.2  GI:578835742
+DBLINK      BioProject: PRJNA168
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NT_011362.11) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Feb 3, 2014 this sequence version replaced gi:530417807.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Homo sapiens Annotation Release 106
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1522
+                     /db_xref="taxon:9606"
+                     /mol_type="mRNA"
+                     /organism="Homo sapiens"
+                     /chromosome="20"
+     gene            1..1522
+                     /note="histamine receptor H3; Derived by automated
+                     computational analysis using gene prediction method:
+                     Gnomon. Supporting evidence includes similarity to: 2
+                     mRNAs, 4 ESTs, and 94% coverage of the annotated genomic
+                     feature by RNAseq alignments, including 1 sample with
+                     support for all annotated introns"
+                     /db_xref="GeneID:11255"
+                     /db_xref="HGNC:HGNC:5184"
+                     /db_xref="MIM:604525"
+                     /gene="HRH3"
+                     /gene_synonym="GPCR97; HH3R"
+     CDS             1..1122
+                     /product="histamine H3 receptor isoform X2"
+                     /codon_start="1"
+                     /gene_synonym="GPCR97; HH3R"
+                     /db_xref="GI:530417808"
+                     /db_xref="GeneID:11255"
+                     /db_xref="HGNC:HGNC:5184"
+                     /db_xref="MIM:604525"
+                     /translation="MERAPPDGPLNASGALAGEAAAAGGARGFSAAWTAVLAALMALLI
+                     VATVLGNALVMLAFVADSSLRTQNNFFLLNLAISDFLVGAFCIPLYVPYVLTGRWTFGR
+                     GLCKLWLVVDYLLCTSSAFNIVLISYDRFLSVTRAVSYRAQQGDTRRAVRKMLLVWVLA
+                     FLLYGPAILSWEYLSGGSSIPEGHCYAEFFYNWYFLITASTLEFFTPFLSVTFFNLSIY
+                     LNIQRRTRLRLDGAREAAGPEPPPEAQPSPPPPPGCWGCWQKGHGEAMPLHRKVAKSLA
+                     VIVSIFGLCWAPYTLLMIIRAACHGHCVPDYWYETSFWLLWANSAVNPVLYPLCHHSFR
+                     RAFTKLLCPQKLKIQPHSSLEHCWKKMKKKTCL"
+                     /gene="HRH3"
+                     /protein_id="XP_005260324.1"
+ORIGIN
+        1 atggagcgcg cgccgcccga cgggccgctg aacgcttcgg gggcgctggc gggcgaggcg
+       61 gcggcggcgg gcggggcgcg cggcttctcg gcagcctgga ccgcggtgct ggccgcgctc
+      121 atggcgctgc tcatcgtggc cacggtgctg ggcaacgcgc tggtcatgct cgccttcgtg
+      181 gccgactcga gcctccgcac ccagaacaac ttcttcctgc tcaacctcgc catctccgac
+      241 ttcctcgtcg gcgccttctg catcccactg tatgtaccct acgtgctgac aggccgctgg
+      301 accttcggcc ggggcctctg caagctgtgg ctggtagtgg actacctgct gtgcacctcc
+      361 tctgccttca acatcgtgct catcagctac gaccgcttcc tgtcggtcac ccgagcggtc
+      421 tcataccggg cccagcaggg tgacacgcgg cgggcagtgc ggaagatgct gctggtgtgg
+      481 gtgctggcct tcctgctgta cggaccagcc atcctgagct gggagtacct gtccgggggc
+      541 agctccatcc ccgagggcca ctgctatgcc gagttcttct acaactggta cttcctcatc
+      601 acggcttcca ccctggagtt ctttacgccc ttcctcagcg tcaccttctt taacctcagc
+      661 atctacctga acatccagag gcgcacccgc ctccggctgg atggggctcg agaggcagcc
+      721 ggccccgagc cccctcccga ggcccagccc tcaccacccc caccgcctgg ctgctggggc
+      781 tgctggcaga aggggcacgg ggaggccatg ccgctgcaca ggaaagtggc caagtcgctg
+      841 gccgtcatcg tgagcatctt tgggctctgc tgggccccat acacgctgct gatgatcatc
+      901 cgggccgcct gccatggcca ctgcgtccct gactactggt acgaaacctc cttctggctc
+      961 ctgtgggcca actcggctgt caaccctgtc ctctaccctc tgtgccacca cagcttccgc
+     1021 cgggccttca ccaagctgct ctgcccccag aagctcaaaa tccagcccca cagctccctg
+     1081 gagcactgct ggaaaaagat gaagaagaaa acatgtctgt gaacttgatg ttcctgggat
+     1141 gtttaatcaa gagagacaaa attgctgagg agctcagggc tggattggca ggtgtgggct
+     1201 cccacgccct cctccctccg ctaaggcttc cggctgagct gtgccagctg cttctgccca
+     1261 ccccgcctct gggctcacac cagccctggt ggccaagcct gccccggcca ctctgtttgc
+     1321 tcacccagga cctctggggg ttgttgggag gagggggccc ggctgggccc gagggtccca
+     1381 aggcgtgcag gggcggtcca gaggaggtgc ccgggcaggg gccgcttcgc catgtgctgt
+     1441 gcacccgtgc cacgcgctct gcatgctcct ctgcctgtgc ccgctgcgct gccctgcaaa
+     1501 ccgtgaggtc acaataaagt gt
+//

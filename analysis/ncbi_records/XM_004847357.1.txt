@@ -1,0 +1,92 @@
+LOCUS       XM_004847357            1666 bp    DNA              ROD 18-JUN-2013
+DEFINITION  PREDICTED: Heterocephalus glaber alpha-2C adrenergic receptor-like
+            (LOC101723218), mRNA.
+ACCESSION   XM_004847357
+VERSION     XM_004847357.1  GI:512970545
+DBLINK      BioProject: PRJNA197330
+KEYWORDS    RefSeq.
+SOURCE      Heterocephalus glaber (naked mole-rat)
+  ORGANISM  Heterocephalus glaber
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Bathyergidae; Heterocephalus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004624755.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Heterocephalus glaber Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1666
+                     /mol_type="mRNA"
+                     /isolate="NMR 29"
+                     /sex="female"
+                     /db_xref="taxon:10181"
+                     /organism="Heterocephalus glaber"
+                     /chromosome="Unknown"
+     gene            1..1666
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 12 Proteins, and 83% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101723218"
+                     /gene="LOC101723218"
+     CDS             1..1347
+                     /product="alpha-2C adrenergic receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:512970546"
+                     /db_xref="GeneID:101723218"
+                     /translation="MASPALVAAEGPNASGAGEGGGGANASGAVWGPPPSQYSAGAVAG
+                     LAAVVGFLIVFTVVGNVLVVIAVLTSRALRAPQNLFLVSLASADILVATLVMPFSLANE
+                     LMAYWYFGQVWCGVYLALDVLFCTSSIVHLCAISLDRYWSVTQAVEYNLKRTPRRVKAT
+                     IVAVWLISAVISFPPLVSFYRQPDGAAYPQCGLNDETWYILSSCIGSFFAPCLIMGLVY
+                     ARIYRVAKLRTRTLSEKRGPVGYDGASRATENGVGAAGAAAGENGHCALPRADVEPDES
+                     STAEKRLRRGALRRGARRRQGGAEAQGPGSEPPEPGALSASRSPGPGGRLSRASSRSVE
+                     FFLSRRRRARSSVCRRKVAQAREKRFTFVLAVVMGVFVLCWFPFFFSYSLYGICREACQ
+                     LPGPLFKLFFWIGYCNSSLNPVIYTVFNQDFRRSFKHILFRRRRRGFRQ"
+                     /gene="LOC101723218"
+                     /protein_id="XP_004847414.1"
+     STS             1165..1285
+                     /db_xref="UniSTS:13513"
+                     /standard_name="STS-J03853"
+                     /gene="LOC101723218"
+ORIGIN
+        1 atggcgtccc cggcgctggt ggccgcggag ggccccaacg cgagtggtgc gggcgagggc
+       61 ggcggcggcg ccaatgcctc gggggccgtg tgggggccgc cgcccagcca gtactcggca
+      121 ggcgcagtgg cggggctggc ggccgtggtg ggctttctca tcgtcttcac cgtggtgggc
+      181 aacgtgctgg tggtcatcgc cgtgctgacc agccgggcgc tgcgagcgcc gcagaacctc
+      241 ttcctggtgt cactggcctc ggccgacatc ctggtggcca cgctggtcat gcccttctcg
+      301 ctggccaacg agctcatggc ctactggtac ttcggacagg tgtggtgcgg cgtgtacctg
+      361 gcactcgacg tgctcttctg cacctcgtcc atcgtgcacc tgtgcgccat cagtctggac
+      421 cgctactggt ccgtgacgca ggccgtcgag tacaacctga agcgcacgcc acgcagagtc
+      481 aaggccacta tcgtagctgt gtggctcatc tcggccgtca tctccttccc gccactcgtc
+      541 tccttctacc gccagcccga tggcgccgcc tacccgcagt gcggcctcaa cgacgagacc
+      601 tggtacatcc tgtcctcctg catcggctcc ttcttcgctc cctgccttat catgggcctg
+      661 gtctacgcgc gcatctaccg cgtggccaag ctgcgcacgc gcacgctcag cgagaagcgc
+      721 gggcccgtgg gctacgacgg cgcgtcccgg gccacggaga acggcgtggg ggcggcaggg
+      781 gcggcagcgg gagagaatgg gcactgcgcc ctcccgcgcg ccgacgtgga gccggacgag
+      841 agcagcacgg ccgagaagag gctgcgcagg ggtgcactgc ggcgcggcgc acggcggcgc
+      901 caggggggcg cggaagcaca ggggccgggg tccgagcccc ccgagccggg agcgctgtcg
+      961 gcgtcccggt cccccgggcc cggagggcgc ctgtcccgcg ccagctcgcg ctccgtcgag
+     1021 ttcttcctgt cgcgccggcg ccgggcgcgc agcagcgtgt gccgccgcaa ggtggcccag
+     1081 gctcgagaga agcgcttcac cttcgtgctg gccgtggtca tgggcgtgtt tgtgctgtgc
+     1141 tggttcccct tcttcttcag ctacagcctg tacggcatct gccgcgaggc ctgccagctg
+     1201 cccggcccgc tcttcaagct cttcttctgg atcggctact gcaacagctc actcaaccca
+     1261 gtcatctaca ccgtcttcaa ccaggacttc cggcgctcct ttaagcacat cctcttccga
+     1321 cgaaggcgaa ggggcttccg acagtgacct cgcatcctgg ccagagaccc agggcagact
+     1381 ggcccggggg cgcaggggag tggggaggaa agagggcccc ctttgcctcc cctctcagcg
+     1441 ggggctactt ccgggcctgc aggcctgggt ccagctcctg ggcccccatg gggcgtggct
+     1501 gtgaaagcca gagggtgcga cccccacatg ggcgagagaa gagaccccca gacacacact
+     1561 gcgcagcgtc cccgatgagc aagggctggc ttcccgggag caacgagttt agaaggcacc
+     1621 cagtctggtt actgagagta tttcagtgtt tgccgaaaac gacagc
+//

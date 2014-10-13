@@ -1,0 +1,97 @@
+LOCUS       XM_003481994            1694 bp    DNA              MAM 26-SEP-2013
+DEFINITION  PREDICTED: Sus scrofa 5-hydroxytryptamine receptor 1D-like
+            (LOC100739392), mRNA.
+ACCESSION   XM_003481994
+VERSION     XM_003481994.2  GI:545834161
+DBLINK      BioProject: PRJNA28993
+KEYWORDS    RefSeq.
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003300135.3) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 26, 2013 this sequence version replaced gi:350585739.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Sus scrofa Annotation Release 104
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1694
+                     /breed="mixed"
+                     /db_xref="taxon:9823"
+                     /mol_type="mRNA"
+                     /organism="Sus scrofa"
+                     /chromosome="6"
+     gene            1..1694
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 2 ESTs, 21 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:100739392"
+                     /gene="LOC100739392"
+     CDS             328..1461
+                     /product="5-hydroxytryptamine receptor 1D-like"
+                     /codon_start="1"
+                     /db_xref="GI:350585740"
+                     /db_xref="GeneID:100739392"
+                     /translation="MSPPNQSVEDLLQGTSNRSLNATETPKAWDPGTLQVLKISLAVVL
+                     SIITLATVLSNAFVLTTIFLTRKLHTPANYLIGSLAMTDLLVSILVMPISIPYTITQTW
+                     SFGQLLCDIWLSSDITCCTASILHLCVIALDRYWAITDALEYSKRRTAGHAAAMIAIVW
+                     AISICISIPPLFWRQARAHEEISDCLVNTSQISYTIYSTCGAFYIPSLLLIILYGRIYR
+                     AARNRILNPPSLYGKRFTTAHLITGSAGSSLCSLNPSLHEEHAHSAGSPLFFNHVKIKL
+                     ADSVLERKRISAARERKATKTLGIILGAFIICWLPFFVASLVLPICRDSCWIHPALFDF
+                     FTWLGYLNSLINPIIYTVFNEEFRQAFQKVVHFRKAL"
+                     /gene="LOC100739392"
+                     /protein_id="XP_003482042.1"
+     STS             523..870
+                     /db_xref="UniSTS:156842"
+                     /standard_name="GDB:371366"
+                     /gene="LOC100739392"
+     STS             1262..1450
+                     /db_xref="UniSTS:143418"
+                     /standard_name="Htr1d"
+                     /gene="LOC100739392"
+ORIGIN
+        1 agctttgccg acactgttgt gatttcctga taaatgtcta acaaatccag catgtgtcca
+       61 ctaggcctgg ccagctgctg ggcaaagttc cagaacagtg agacatcttg ggattcatct
+      121 ggtttaggaa agacctttaa ctcccaggtg gtagtcacct caacgttctt taaatagtca
+      181 agtgttgatg tcttttcact gtggtctgtt ctgatggctg acccctacca gcgtgaaaca
+      241 gaaggatgac ctttttctgt gaacaggaca actgtgaagg agggagctgt gtgtgtgaaa
+      301 gtctgtggga agagagagcc acctagaatg tccccaccaa accagtcagt ggaagacctt
+      361 ctgcagggga cttccaacag atccctgaat gccacagaaa ctccaaaagc ttgggatcca
+      421 gggaccctcc aagtcctcaa aatttctctc gctgtggtcc tctccatcat cacactggcc
+      481 actgtccttt ccaatgcctt tgtactcact accatcttcc tgaccaggaa gctccacact
+      541 ccagccaact atctcattgg ctccctggcc atgacagacc tcttagtttc catcttggtc
+      601 atgcccatca gcatcccata taccatcacc caaacctgga gctttggcca actcctgtgt
+      661 gacatctggc tgtcttctga catcacatgc tgcacggcct ccatcctgca tctctgtgtc
+      721 attgctctgg acaggtactg ggccatcacg gatgccctgg agtatagtaa acgccggaca
+      781 gcgggccacg cggctgccat gattgccatt gtctgggcca tctccatctg catctccatc
+      841 ccaccactct tttggcggca ggccagggct catgaagaga tatcagactg cctggtgaac
+      901 acttctcaga tctcctacac catctactcc acctgtgggg ccttctacat cccatctctg
+      961 ttgctcatca tcctctatgg ccggatctac agggccgccc ggaaccgcat cttgaatcca
+     1021 ccgtcactct acgggaagcg cttcaccaca gcccatctca tcacaggctc tgcaggctcc
+     1081 tcgctgtgct cgctcaaccc cagccttcat gaggagcacg ctcattcagc cggttcccct
+     1141 ctctttttca accacgtgaa aatcaagctt gccgatagtg tcctagagcg caagaggatt
+     1201 tccgctgccc gagagaggaa agccactaaa accctgggga tcattctggg ggcttttatc
+     1261 atctgctggt tgcccttctt tgttgcatct ctggtcctcc ccatctgccg ggactcctgc
+     1321 tggatccacc cagccctttt tgactttttc acttggctag gctacttaaa ctccctcatc
+     1381 aatccaataa tctatactgt gtttaacgaa gagtttcggc aagcgtttca gaaagttgtc
+     1441 catttccgaa aagccttgta gtcttacttg gtggtgactc ttgttatctt ttatgtcctg
+     1501 tatcccgatt ggaagtgtat tttttatttt tcctgagaat tgggttaatc ctgattcctc
+     1561 aggtttgggt tcaatgagta gaattgttca gcattctttt tcctgttgtc ttcctggcct
+     1621 ctagtcacca aaagctgggc agctgtgtga aaggggacaa gacttcactt ggtgtaagat
+     1681 tttcatggtt cacg
+//

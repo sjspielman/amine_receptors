@@ -1,0 +1,63 @@
+LOCUS       XP_005174603             339 aa                     VRT 01-AUG-2013
+DEFINITION  PREDICTED: trace amine-associated receptor 1-like [Danio rerio].
+ACCESSION   XP_005174603
+VERSION     XP_005174603.1  GI:528523760
+DBLINK      BioProject: PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003336689.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..339
+                     /strain="Tuebingen"
+                     /organism="Danio rerio"
+                     /chromosome="Unknown"
+                     /db_xref="taxon:7955"
+     Protein         1..339
+                     /product="trace amine-associated receptor 1-like"
+                     /calculated_mol_wt="38399"
+     Region          51..>168
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          63..309
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <133..321
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srv;
+                     pfam10323"
+                     /db_xref="CDD:255906"
+                     /region_name="7TM_GPCR_Srv"
+     CDS             1..339
+                     /coded_by="XM_005174546.1:1..1020"
+                     /gene="LOC101885329"
+                     /db_xref="GeneID:101885329"
+ORIGIN
+        1 mmffrgglle pvrsqmppye edwkcssdpl gvdgelqwhl vdkhshdsas siitiignll
+       61 viitvvhfrq lhtptnylil slavadllvg gvvmppsmlr sietcwylgd lfckihssld
+      121 vtlctasiln lciisldryy aichpfqyhs kmtslatlvm iiicwtvsav lgfgmifmel
+      181 nilgvedfyy enikcdggct lfqsktiaiv yslicfyipa lvilcvylki lheaqrqvqa
+      241 iqsvnselkk egkanktlai iigvfltlwv pfflcnlidp figysvppll fdlfywigyy
+      301 nstcnpivya ffyswfrhaf rvilskaifq tnssrtvll
+//

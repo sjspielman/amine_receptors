@@ -1,0 +1,65 @@
+LOCUS       XP_004415946             474 aa                     MAM 31-MAR-2013
+DEFINITION  PREDICTED: D(1B) dopamine receptor [Odobenus rosmarus divergens].
+ACCESSION   XP_004415946
+VERSION     XP_004415946.1  GI:472393353
+DBLINK      BioProject: PRJNA189954
+KEYWORDS    RefSeq.
+SOURCE      Odobenus rosmarus divergens (Pacific walrus)
+  ORGANISM  Odobenus rosmarus divergens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+            Odobenidae; Odobenus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004451338.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Odobenus rosmarus divergens Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..474
+                     /sub_species="divergens"
+                     /collection_date="06-Sep-2011"
+                     /country="USA:AK, Round Island"
+                     /isolate="Ivan"
+                     /sex="male"
+                     /isolation_source="blood"
+                     /db_xref="taxon:9708"
+                     /organism="Odobenus rosmarus divergens"
+                     /chromosome="Unknown"
+     Protein         1..474
+                     /product="D(1B) dopamine receptor"
+                     /calculated_mol_wt="51775"
+     Region          62..357
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <122..>174
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     CDS             1..474
+                     /coded_by="XM_004415889.1:232..1656"
+                     /gene="DRD5"
+                     /db_xref="GeneID:101380571"
+ORIGIN
+        1 mlppgrngta erarleqqql aprgaaggae gaaplgpaqv vtaglltlli vwtllgnvlv
+       61 caaivrsrpl rakmtnvfiv slavsdlfva llvmpwkava evagywpfga fcdiwvafdi
+      121 mcstasilnl cvisvdrywa isrpfsyerk msqrvalimv glawtlsili sfipvqlhwh
+      181 rakagswggv epppslangt pweeagepea raencdssln rtyaisssli sfyipvaimi
+      241 vtytriyria qvqirrissl eraaehaqsc rsraacapdt slgtsirket kvlktlsvim
+      301 gvfvfcwlpf filncmvpfc sgrpegpqag fpcvsetafd vfvwfgwans slnpviyafn
+      361 adfrkvfaql lgcsnlcsrt pvetvnisne lisynqdtvf hkeiaaayvq mipnavtpgd
+      421 gevdkeeesp fhrmsqisqt sphgdpaaes vweldcegei slgkitpfsp ngfh
+//

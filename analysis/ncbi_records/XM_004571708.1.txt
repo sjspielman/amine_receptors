@@ -1,0 +1,93 @@
+LOCUS       XM_004571708            1842 bp    DNA              VRT 14-MAY-2013
+DEFINITION  PREDICTED: Maylandia zebra alpha-2Db adrenergic receptor-like
+            (LOC101479598), mRNA.
+ACCESSION   XM_004571708
+VERSION     XM_004571708.1  GI:499042311
+DBLINK      BioProject: PRJNA198780
+KEYWORDS    RefSeq.
+SOURCE      Maylandia zebra (zebra mbuna)
+  ORGANISM  Maylandia zebra
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Haplochromini;
+            Maylandia; Maylandia zebra complex.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004531909.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Maylandia zebra Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1842
+                     /mol_type="mRNA"
+                     /isolate="#2_Kocher"
+                     /sex="female"
+                     /db_xref="taxon:106582"
+                     /organism="Maylandia zebra"
+                     /chromosome="Unknown"
+     gene            1..1842
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 14 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101479598"
+                     /gene="LOC101479598"
+     misc_feature    341..343
+                     /note="upstream in-frame stop codon"
+                     /gene="LOC101479598"
+     CDS             383..1654
+                     /product="alpha-2Db adrenergic receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:499042312"
+                     /db_xref="GeneID:101479598"
+                     /translation="MDLTQLSLLLGNVSNVENTTDAPFALPHTEAATALIILVVTVIIS
+                     VTIVGNVLVIVAVLTSRALRAPQNLFLVSLASADILVATLVIPFSLVNEVMGYWYFGST
+                     WCAFYLALDVLFCTSSIVHLCAISLDRYWSVTKAVSYNLKRTPKRIKSMIAVVWIISAI
+                     ISFPPLLMTKHDERECLLNDETWYILSSCLVSFFAPGLIMILVYCKIYKVAKQRSSTVF
+                     VAKNGLERQPSQSETCFVRKDRFEMESPSSQSSGSHPQKQGELDDIDLEESCCASDTKP
+                     RHHRFTKRRKVEGSDSCPPQNCRLSWASARALQLYPEQKNPAGRQQLAAANKTKVAQMR
+                     EKRFTFVLAVVMGVFVLCWFPFFFTYSLHAICRESCYIPAALFNLFFWIGYCNSSVNPI
+                     IYTIFNRDFRKAFKKIICRTSKRT"
+                     /gene="LOC101479598"
+                     /protein_id="XP_004571765.1"
+ORIGIN
+        1 ctcccgttcg tctccataga gaagcggttc accctaacgc aactagcatt acgcatgaca
+       61 tggatgccgc aggagcgagt ttattctcgg agtctttgcg gattgtgaac tctgctcctc
+      121 tcgcagtttt ctcacacagt cgacatctga tgtgcgtgtc ggatctcccc aaaggacgtg
+      181 tgttaaacag tttgctgttt caggagatca cgtctgcagc ccccgtgtct tatgtgggct
+      241 gcactcgata gtgacccgga gctttacgcg cagccgatcc ccatgcttta gcaacacagc
+      301 tcagcgcact caaccttaga tgtttcgaaa aagaacaggg tgaaataaca aagatgatac
+      361 aaacggacat tttgcagaca gaatggattt aacccagcta agcctcttgt tgggaaatgt
+      421 ttccaacgtt gaaaacacca ccgacgcacc gttcgctctg ccacacacag aggcagccac
+      481 cgcactcatc atcctcgtgg ttacagtgat catttcggtc acaattgttg gtaatgtgtt
+      541 ggtgattgta gcggttctta ctagcagggc tctccgtgcc cctcagaacc ttttcctggt
+      601 ctctcttgca tcggcggaca tcctggtggc cacactagtg atccccttct ccctcgtcaa
+      661 cgaggtaatg ggctactggt actttggaag tacttggtgc gccttctatc tcgctctgga
+      721 tgtgttgttc tgcacctcat ccatcgttca cctgtgcgcc atcagcctgg accgatactg
+      781 gtcagtaaca aaggcggtta gctacaacct gaaacggaca cctaagcgca tcaagtccat
+      841 gattgctgta gtgtggataa tatctgctat catctccttc cctcctctcc tcatgaccaa
+      901 acacgatgaa cgggagtgtc tgctaaatga tgaaacctgg tacatcctct catcctgcct
+      961 ggtctccttt ttcgctcccg gtctcattat gattctggta tattgtaaaa tttataaagt
+     1021 tgccaagcag cgctcctcca ccgtgttcgt ggctaagaat ggcctggaga ggcagccctc
+     1081 tcagtcagag acctgttttg tcaggaagga ccggttcgaa atggagagcc ctagcagtca
+     1141 aagctccggc agccatccgc aaaagcaagg ggagctggac gacatcgacc tggaggagag
+     1201 ctgctgtgca tcggatacga aaccccgaca ccatcgcttc accaagcgaa ggaaagtaga
+     1261 gggatcggac agttgtccac cccagaactg ccgactttcc tgggcttcag cccgggcgtt
+     1321 acaactttac ccggagcaga agaacccagc tgggcgacaa cagctggccg cagccaacaa
+     1381 gaccaaagtg gcccagatgc gggagaagcg cttcaccttc gtcttggcgg tagtgatggg
+     1441 ggtgtttgtg ctctgctggt tccccttctt ctttacttac agcctgcatg ctatctgcag
+     1501 agagagctgc tacatccccg ccgcactttt caaccttttc ttttggattg gctactgcaa
+     1561 cagttctgtg aaccccataa tctacaccat tttcaacagg gatttcagaa aagcttttaa
+     1621 gaaaatcata tgcaggacat caaaacgcac atgaaaggtt gaaaaataat tttctggctc
+     1681 tcagaaacat tgggaagaaa tcatagtatt ataacttatt gatcttggct gactattctg
+     1741 ctactccatc atttaaatgt aatgtttagc atattaaaaa tatccagtgt tgtgtacaca
+     1801 ttaaattgtc tataattgaa ataaatcatt atatatactt ga
+//

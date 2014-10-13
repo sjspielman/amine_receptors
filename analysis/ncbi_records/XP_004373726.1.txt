@@ -1,0 +1,60 @@
+LOCUS       XP_004373726             400 aa                     MAM 27-MAR-2013
+DEFINITION  PREDICTED: D(3) dopamine receptor [Trichechus manatus latirostris].
+ACCESSION   XP_004373726
+VERSION     XP_004373726.1  GI:471366384
+DBLINK      BioProject: PRJNA189960
+KEYWORDS    RefSeq.
+SOURCE      Trichechus manatus latirostris (Florida manatee)
+  ORGANISM  Trichechus manatus latirostris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Afrotheria; Sirenia; Trichechidae; Trichechus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004443962.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Trichechus manatus latirostris Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..400
+                     /sub_species="latirostris"
+                     /isolate="Lorelei"
+                     /sex="female"
+                     /db_xref="taxon:127582"
+                     /organism="Trichechus manatus latirostris"
+                     /chromosome="Unknown"
+     Protein         1..400
+                     /product="D(3) dopamine receptor"
+                     /calculated_mol_wt="44156"
+     Region          44..>234
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          52..383
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..400
+                     /coded_by="XM_004373669.1:382..1584"
+                     /gene="DRD3"
+                     /db_xref="GeneID:101353801"
+ORIGIN
+        1 maplsqlsgh instcgaens tgtsrarpha yyalsycali laivfgnglv cvavlreral
+       61 qtttnylvvs lavadllvat lvmpwvvyle vtggvwnfsr fccdvfvtld vmmctasiln
+      121 lcaisidryt avvmpvhyqh gtgqsscrrv almitavwvl afavscpllf gfnttgdpsv
+      181 csisnpdfvi yssvvsfylp fgvtvlvyar iyvvlrqrrr kriltrqnsq cisvrpsfsq
+      241 qplspgqahk elkhyysicq dtalgqpgfq egegdlkree rtgnslsptm apklslevrk
+      301 lsngrlstsl klgplqprav plrekkatqm lvivlgtfiv cwlpfflthv lnthcqachv
+      361 spelysattw lgyvnsalnp viyttfnvef rkaflkilsr
+//

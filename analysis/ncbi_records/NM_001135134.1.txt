@@ -1,0 +1,95 @@
+LOCUS       NM_001135134            1452 bp    DNA              VRT 30-JUN-2014
+DEFINITION  Danio rerio adrenoceptor beta 3b (adrb3b), mRNA.
+ACCESSION   NM_001135134
+VERSION     NM_001135134.1  GI:205830392
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+REFERENCE   1  (bases 1 to 1452)
+  AUTHORS   Klee EW, Schneider H, Clark KJ, Cousin MA, Ebbert JO, Hooten WM,
+            Karpyak VM, Warner DO and Ekker SC.
+  TITLE     Zebrafish: a model for the study of addiction genetics
+  JOURNAL   Hum. Genet. 131 (6), 977-1008 (2012)
+   PUBMED   22207143
+  REMARK    Review article
+REFERENCE   2  (bases 1 to 1452)
+  AUTHORS   Wang Z, Nishimura Y, Shimada Y, Umemoto N, Hirano M, Zang L, Oka T,
+            Sakamoto C, Kuroyanagi J and Tanaka T.
+  TITLE     Zebrafish beta-adrenergic receptor mRNA expression and control of
+            pigmentation
+  JOURNAL   Gene 446 (1), 18-27 (2009)
+   PUBMED   19540320
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from BC163105.1.
+            On Sep 25, 2008 this sequence version replaced gi:189517270.
+            ##Evidence-Data-START##
+            Transcript exon combination :: BC163098.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+            ERS000088, ERS000089 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1452
+                     /db_xref="taxon:7955"
+                     /mol_type="mRNA"
+                     /organism="Danio rerio"
+                     /chromosome="10"
+                     /map="10"
+     gene            1..1452
+                     /note="adrenoceptor beta 3b"
+                     /db_xref="GeneID:792519"
+                     /db_xref="ZFIN:ZDB-GENE-081022-154"
+                     /gene="adrb3b"
+                     /gene_synonym="zgc:194843; zgc:194852"
+     misc_feature    121..123
+                     /note="upstream in-frame stop codon"
+                     /gene="adrb3b"
+                     /gene_synonym="zgc:194843; zgc:194852"
+     CDS             139..1356
+                     /product="adrenoceptor beta 3b"
+                     /codon_start="1"
+                     /gene_synonym="zgc:194843; zgc:194852"
+                     /note="beta-3-adrenergic receptor b; adrenergic receptor,
+                     beta 3b"
+                     /db_xref="GI:205830393"
+                     /db_xref="GeneID:792519"
+                     /db_xref="ZFIN:ZDB-GENE-081022-154"
+                     /translation="MSANTTTLIPEDVKPLLVLPLALVIFLTVIGNLLVILAIARTPLL
+                     HTTTNVFIISMAFADLIMGCVVQPLGLSMVVAGKWVLGNPMCDLWTSLDVFCVTASIET
+                     LCAIAVERYIAITRPLEHQVLLGKRRAAYIVCTVWIVSSLVSFVPIMNHNSRANYLAAN
+                     DCYNNSECCDFHTNQHYAIFSSVVSFYVPLLVMVFLYGKVFAIANKQLKLIGKDRLRFL
+                     SSCNEDSCEIPEGSARSYSRRTTKHVVKEHKALKTLGIIMGIFSLCWLPFFIFNIIKSF
+                     NPEVPTQLVFLLLNWLGYANSGLNPIIYCHSPEYRNAFFNLLGCKKPKHFNQTTVNKHL
+                     QSFTSCIQSNSSVRMDCMGHKDPIARGGNTCSDMSSVLKGEEVEIQPHNDSTMTMINLA
+                     EMLKGH"
+                     /gene="adrb3b"
+                     /protein_id="NP_001128606.1"
+ORIGIN
+        1 ggaggaggat ttgagggagg aagatccaat ctgggacatt atccaagcat gcaaaggact
+       61 acagaagtct ttagcagaat tttgggactg actaatccag tgtctatttc tcttgatcac
+      121 tgaaagcttc ctctcaggat gagcgccaac accaccaccc tgattcctga agatgtcaag
+      181 cccctgctgg ttcttcctct ggcgttggtc atcttcttga cggtgattgg aaacctgctg
+      241 gtcatcctgg cgatcgcccg cacccctctc ctccacacca ccaccaatgt cttcatcatc
+      301 tctatggcat tcgctgatct cattatgggc tgtgtggtcc agcctttagg actcagtatg
+      361 gtggtggctg ggaaatgggt tttggggaac cctatgtgtg acctgtggac gtctttagac
+      421 gtgttctgcg tcaccgctag cattgagaca ttgtgcgcta tcgctgttga gcgatacatt
+      481 gcgattacca gacctctgga gcatcaggta ctgttgggaa aacgcagagc cgcctacatc
+      541 gtatgcacag tgtggatcgt gtcatcctta gtttccttcg tgccaataat gaaccataat
+      601 tctcgtgcaa attatttagc agcaaacgac tgctacaaca actcggagtg ctgcgatttc
+      661 catactaacc agcactacgc catcttctcc tctgtggttt ccttctatgt gcctcttctt
+      721 gttatggtgt ttctgtacgg gaaggtgttt gccattgcaa acaagcagtt gaaactcatc
+      781 ggtaaggaca gacttcgttt tctgagctct tgcaatgaag actcttgtga aattcctgaa
+      841 ggttcggctc gaagttacag tcggagaaca acaaagcatg tcgtgaaaga acacaaggcg
+      901 ctcaagactc tagggattat catgggcatc ttcagtctct gttggctgcc cttcttcatc
+      961 ttcaatatca tcaaaagttt taatcctgaa gtgccaacac agcttgtgtt tctcttgttg
+     1021 aactggctgg gctacgccaa ctcaggcctg aacccaatca tctactgcca cagtcctgag
+     1081 taccgcaacg ctttctttaa tctcttaggg tgcaaaaaac ccaagcattt taaccaaacc
+     1141 accgtgaaca aacatctaca aagcttcacc tcgtgcatcc agagcaacag ttcggtaaga
+     1201 atggattgca tgggtcacaa agatccaatt gcacggggcg ggaacacttg ctctgacatg
+     1261 agctcagttt taaaaggaga agaggtagaa atacagcctc acaatgactc gacaatgacg
+     1321 atgatcaatc tagcagagat gttgaagggc cactgaagat gggaaacaga cccagtgctc
+     1381 aagagaatta accataatgt catgcttttc aagcggaccc tgactgcatt tcatgcaaac
+     1441 cacgtgcaaa gg
+//

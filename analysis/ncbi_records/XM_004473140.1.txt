@@ -1,0 +1,102 @@
+LOCUS       XM_004473140            2203 bp    DNA              MAM 06-MAY-2013
+DEFINITION  PREDICTED: Dasypus novemcinctus cholinergic receptor, muscarinic 3
+            (CHRM3), transcript variant 1, mRNA.
+ACCESSION   XM_004473140
+VERSION     XM_004473140.1  GI:488567085
+DBLINK      BioProject: PRJNA196486
+KEYWORDS    RefSeq.
+SOURCE      Dasypus novemcinctus (nine-banded armadillo)
+  ORGANISM  Dasypus novemcinctus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Xenarthra; Cingulata; Dasypodidae; Dasypus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004485466.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Dasypus novemcinctus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2203
+                     /mol_type="mRNA"
+                     /country="USA: National Hansen's Disease Programs at
+                     Louisiana State University, School of Veterinary Medicine"
+                     /isolate="3-136"
+                     /sex="female"
+                     /db_xref="taxon:9361"
+                     /organism="Dasypus novemcinctus"
+                     /chromosome="Unknown"
+     gene            1..2203
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 51 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /db_xref="GeneID:101434986"
+                     /gene="CHRM3"
+     misc_feature    226..228
+                     /note="upstream in-frame stop codon"
+                     /gene="CHRM3"
+     CDS             259..2001
+                     /product="muscarinic acetylcholine receptor M3 isoform 1"
+                     /codon_start="1"
+                     /db_xref="GI:488567086"
+                     /db_xref="GeneID:101434986"
+                     /translation="MTLHNSSTASPWGPNISSAWIHGPPDPGLPPGTAPPLGSYNLSRA
+                     AGNFSGANGTTSDPLGGHTVWQVVFIAFLTGSLALVTIIGNILVIVAFKVNKQLKTVNN
+                     YFLLSLACADLIIGVISMNLFTTYIIMNRWALGNLACDLWLSIDYVASNASVMNLLVIS
+                     FDRYFSITRPLTYRAKRTTKRAGVMIGLAWVISFVLWAPAILFWQYFVGKRTVPPGECF
+                     IQFLSEPTITFGTAIAAFYMPVTIMTILYWRIYKETEKRTKELAGLQASGTEAEAENFV
+                     HPTGSSRSCSSYELQQQSVKRPARRKYGRCHFWFTTRSWKPSAEQMDADHSSSDSWNNN
+                     DAAASLENSASSDEEDLGSETRAIYSIVLKLPGHSTILNSTKLPSSDNLRVPEEELAKA
+                     GAERKASRLQAQRSMDDGGSFSKLQLESAVDTAKAPDASAGKAALPLSFKEATLAKRFA
+                     LKTRSQITKRKRMSLIKEKKAAQTLSAILLAFIVTWTPYNIMVLVNTFCDSCIPKTYWN
+                     LGYWLCYINSTVNPVCYALCNKTFRTTFKMLLLCQCDKRRRRKQQYQQRQSAVFHKRTP
+                     EQAL"
+                     /gene="CHRM3"
+                     /protein_id="XP_004473197.1"
+ORIGIN
+        1 agcccgaggc gaccaagggg cgcggggccg gcggcgcggg acggccacct ggagagcgcc
+       61 gcggccaggt atgaagaata atggcatata tttcgattac aagccgctca gtggactttg
+      121 tattgaatga actgtatcta tcccatcagg atgtacaaca ccaaggctct tcactacacc
+      181 tgtgttctga ttagtggcca aataaatgac attcagaact tcagctaagg tactgtaaga
+      241 ctatgtcaga gagtcacgat gaccctgcac aatagcagca cagcctcgcc gtggggtccc
+      301 aacatcagct ctgcctggat ccacggtccc cccgacccag ggctgccccc gggcacagcc
+      361 cctcctcttg gcagctacaa cctctcccga gcagccggga acttctccgg ggccaacggc
+      421 accaccagcg accccctggg agggcacacc gtctggcagg tggtcttcat cgccttcctg
+      481 acgggctccc tggccttggt caccatcatc ggcaacatcc tggtgatcgt ggcgtttaag
+      541 gtcaacaagc agctgaagac ggtcaacaac tacttcctct tgagcctggc ctgcgccgac
+      601 ctcatcattg gcgtcatctc catgaatctc ttcaccacct acatcatcat gaaccgatgg
+      661 gctctgggga acctggcctg cgacctctgg ctctccatcg actacgtggc cagcaatgcc
+      721 tccgtcatga acctcctggt catcagcttc gacaggtact tttccatcac gaggccactc
+      781 acgtaccgag ccaaacggac aaccaagaga gcgggcgtga tgatcggcct ggcctgggtc
+      841 atctccttcg tcctctgggc ccccgccatc ttgttctggc aatactttgt tgggaagaga
+      901 accgtgcccc ccggggagtg tttcatccag ttcctaagcg agcccaccat cacctttggc
+      961 acagccatcg ccgcctttta catgcctgtc accatcatga ctattttata ctggaggatc
+     1021 tataaggaga ccgagaaacg taccaaagag ctcgccgggc tgcaggcctc agggacggaa
+     1081 gcggaggccg agaactttgt gcaccctacg ggcagctccc gcagctgcag cagctacgag
+     1141 ctccagcagc agagcgtcaa gcgcccggcc cggaggaagt atggccgctg ccacttctgg
+     1201 ttcaccacca ggagctggaa gcccagtgcc gagcagatgg acgccgacca cagcagcagc
+     1261 gacagctgga acaacaacga cgccgcggcc tccctggaga actcggcctc ctccgacgag
+     1321 gaggacctgg gctccgagac cagggccatc tactcgatcg tgctcaagct gccggggcac
+     1381 agcaccatcc tcaactccac caagctgccc tcctcggaca acctgcgggt gcccgaggag
+     1441 gagctggcca aggcgggcgc cgagcggaaa gccagccggc tgcaggccca gaggagcatg
+     1501 gacgatggag gcagcttctc gaagctccag ctggagtcag ccgtggacac ggccaaggcc
+     1561 cccgacgcct cggcggggaa ggccgccctg cccctgtcct tcaaggaagc caccctggcc
+     1621 aagaggttcg ccctcaagac caggagtcag atcaccaaac ggaagaggat gtcgctcatc
+     1681 aaagagaaga aggcggcgca gaccctcagc gccatcctgc tggccttcat cgtcacctgg
+     1741 accccgtaca acatcatggt tctggtgaac accttctgtg acagctgcat ccccaaaacc
+     1801 tattggaatc tgggctactg gctgtgctac atcaatagca ccgtgaaccc cgtgtgctat
+     1861 gcgctgtgca acaaaacctt ccgaaccacc ttcaagatgc tgctgctgtg ccagtgcgac
+     1921 aagcggcggc ggcgcaagca gcagtaccag cagcggcagt cggccgtctt ccacaagcgc
+     1981 acgcccgagc aggccttgta gggggacccg gactgacacc ccccgacccg cgggcctgag
+     2041 cggggagccc ggtggggtgg ggtgggagga acgccggtgg tgatgacggt gctctgtcac
+     2101 ccagctggga aacaagctgc ctgggtccca atcctttgaa taaattccat tttaatacaa
+     2161 aaaaaaaaaa aatcagatac aagttcagca aaaaaaaaaa aaa
+//

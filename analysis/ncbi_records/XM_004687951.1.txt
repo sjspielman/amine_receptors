@@ -1,0 +1,93 @@
+LOCUS       XM_004687951            1671 bp    DNA              MAM 30-MAY-2013
+DEFINITION  PREDICTED: Condylura cristata cholinergic receptor, muscarinic 5
+            (CHRM5), mRNA.
+ACCESSION   XM_004687951
+VERSION     XM_004687951.1  GI:507963467
+DBLINK      BioProject: PRJNA193510
+KEYWORDS    RefSeq.
+SOURCE      Condylura cristata (star-nosed mole)
+  ORGANISM  Condylura cristata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Insectivora; Talpidae;
+            Condylura.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004567124.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Condylura cristata Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1671
+                     /mol_type="mRNA"
+                     /isolate="star-nosed mole 26May11"
+                     /sex="female"
+                     /db_xref="taxon:143302"
+                     /organism="Condylura cristata"
+                     /chromosome="Unknown"
+     gene            1..1671
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 mRNAs, 18 Proteins"
+                     /db_xref="GeneID:101634490"
+                     /gene="CHRM5"
+     misc_feature    34..36
+                     /note="upstream in-frame stop codon"
+                     /gene="CHRM5"
+     CDS             76..1671
+                     /product="muscarinic acetylcholine receptor M5"
+                     /codon_start="1"
+                     /db_xref="GI:507963468"
+                     /db_xref="GeneID:101634490"
+                     /translation="MDGESYHNATPVNSTPVNHQPLERHGLWEVITIASVTAVVSLITI
+                     VGNILVMISFKVNSQLKTVNNYYLLSLACADLIIGIFSMNLYTTYILMGRWALGSLACD
+                     LWLALDYVASNASVMNLLVISFDRYFSITRPLTYRAKRTPKRAGFMIGLAWLISFILWA
+                     PAILCWQYLVGERTVPPDECQIQFLSEPTITFGTAIAAFYIPVSVMTILYCRIYRETEK
+                     RTKDLADLQGSDSVADAEKRKPTHKALLRSCLSCPRPMLAQRERDEASWSSSRRSTSTP
+                     AKPAQDTGPSTEWAKDEQLTTCGSYPSSEDEDRSTSDPVFQVVYKNQAKEDPREEFSAE
+                     ETKETLVKSQAEKNDYDAPKYFLSPAAAHRPKNQKCVAYKFRLVVKADGTQETNNSCRK
+                     VKIMPCSFPVSKDPSTKGLHNLSHQMTKRKRMVLVKERKAAQTLSAILLAFILTWTPYN
+                     IMVLVSTFCDKCVPVTLWHLGYWLCYVNSTVNPICYALCNRTFRKTFKMLLLCRWKKKK
+                     VEEKLYWQGNSKLP"
+                     /gene="CHRM5"
+                     /protein_id="XP_004688008.1"
+ORIGIN
+        1 tgtgagaata ggtgagatca aaagagaaca atctagaaca taagatttac ttctgatgta
+       61 aatcctcgca ccaggatgga tggggaatct taccacaatg caactcctgt caacagcacg
+      121 ccagtaaatc accagccttt ggaacgccat ggcttgtggg aagtcatcac catcgcctct
+      181 gtgacggctg tggtaagcct gatcaccatt gtgggcaaca tcttagtcat gatctccttt
+      241 aaagtcaata gtcagctgaa gacagtaaac aactactact tgctcagctt agcctgtgca
+      301 gatctcatca ttgggatctt ctctatgaac ctgtacacca cctacatcct catggggcgc
+      361 tgggctcttg ggagcctggc ttgtgacctt tggcttgcac tggactacgt ggccagcaat
+      421 gcttcagtca tgaaccttct ggtgatcagc ttcgaccgtt acttttctat cacaagacct
+      481 ctgacatatc gggccaagcg gacccccaaa agggctggct ttatgattgg cttggcctgg
+      541 ctgatctcct tcatcctctg ggctccagca atcctctgct ggcagtactt agtcggagag
+      601 cggacggtac caccggacga atgtcagatc cagttcctct ccgagcccac catcaccttt
+      661 ggcactgcca ttgctgcctt ctacatccca gtttctgtca tgacgatcct ctactgcaga
+      721 atctaccggg aaacagaaaa gcgaaccaag gacctggctg acctccaggg ctctgactct
+      781 gtggctgacg cagagaagag aaagcccact cacaaggccc tcctcaggtc ctgcctcagc
+      841 tgcccacgcc ccatgctggc ccagagggag agggacgagg cctcctggtc gtcctcccgc
+      901 aggagcacct ccacccctgc aaagccagcc caagacactg gcccaagcac tgagtgggct
+      961 aaagatgagc agctcaccac ctgtggcagc tacccatcct ctgaggatga ggacaggtcc
+     1021 accagtgacc ctgtcttcca agtggtctac aagaatcagg ccaaggaaga ccccagggaa
+     1081 gaattcagtg ctgaagaaac caaggaaact ttggtgaaaa gtcaagctga gaaaaatgac
+     1141 tatgatgccc ccaaatactt cctgtctcca gctgctgctc atagacccaa gaatcagaaa
+     1201 tgtgtggcct acaagttccg actggtggta aaagctgacg ggacccagga gaccaacaac
+     1261 agctgccgca aggtgaaaat catgccctgc tccttcccag tttccaagga cccttccacc
+     1321 aaaggccttc acaacctcag ccaccaaatg accaagcgca agaggatggt tcttgtcaaa
+     1381 gagaggaagg cagcccagac cctgagtgct atcctcctgg ccttcatcct cacttggacc
+     1441 ccttacaaca tcatggtcct ggtttccacc ttctgcgaca agtgtgtccc agtcaccctg
+     1501 tggcacttgg gctactggtt gtgctacgtc aatagtaccg ttaaccccat ttgctacgct
+     1561 ctctgcaaca gaaccttcag gaagactttt aagatgctgc tcctctgccg atggaaaaag
+     1621 aaaaaagtgg aagagaagtt gtattggcaa ggcaacagca agctcccctg a
+//

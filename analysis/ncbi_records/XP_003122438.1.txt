@@ -1,0 +1,54 @@
+LOCUS       XP_003122438             371 aa                     MAM 26-SEP-2013
+DEFINITION  PREDICTED: D(4) dopamine receptor [Sus scrofa].
+ACCESSION   XP_003122438
+VERSION     XP_003122438.1  GI:311247018
+DBLINK      BioProject: PRJNA28993
+KEYWORDS    RefSeq.
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003299443.3) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Sus scrofa Annotation Release 104
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..371
+                     /db_xref="taxon:9823"
+                     /breed="mixed"
+                     /organism="Sus scrofa"
+                     /chromosome="2"
+     Protein         1..371
+                     /product="D(4) dopamine receptor"
+                     /calculated_mol_wt="39336"
+     Region          52..352
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..371
+                     /coded_by="XM_003122390.1:1..1116"
+                     /gene="DRD4"
+                     /db_xref="GeneID:100512329"
+ORIGIN
+        1 mgnrsvadad gllagrepat gggagdpgaa aalaggvlli gavlagnslv cvsvaaeral
+       61 qtptnyfivs laaadlllal lvlplfvyse vhggvwllsp glcdalmamd vmlctasifn
+      121 lcaisvdrfv avavplhynr qsrrqlllig atwllsaava apvlcglnda rgrdpavcrl
+      181 enrdyvvyss vcsfflpcpl mlllywatfr glrrweaarr aklhgraprr psgpgppppd
+      241 ailapdttpp pdaippapdt rpppdapppl daavaaeapl qarrrrakit grerkamrvl
+      301 pvvvgafllc wtpffvvhit ralcptcavp prlvsavtwl gyvnsalnpv iytafnaefr
+      361 svfrkalrlc c
+//

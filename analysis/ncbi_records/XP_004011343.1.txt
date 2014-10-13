@@ -1,0 +1,61 @@
+LOCUS       XP_004011343             365 aa                     MAM 02-DEC-2012
+DEFINITION  PREDICTED: 5-hydroxytryptamine receptor 1E [Ovis aries].
+ACCESSION   XP_004011343
+VERSION     XP_004011343.1  GI:426234726
+KEYWORDS    RefSeq.
+SOURCE      Ovis aries (sheep)
+  ORGANISM  Ovis aries
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Caprinae; Ovis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004080171) annotated using gene prediction method: GNOMON,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ovis aries Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..365
+                     /db_xref="taxon:9940"
+                     /breed="Texel"
+                     /organism="Ovis aries"
+                     /chromosome="8"
+     Protein         1..365
+                     /product="5-hydroxytryptamine receptor 1E"
+                     /calculated_mol_wt="41354"
+     Region          31..>225
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          45..344
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <292..333
+                     /note="Protein of unknown function (DUF3353); pfam11833"
+                     /db_xref="CDD:256656"
+                     /region_name="DUF3353"
+     CDS             1..365
+                     /coded_by="XM_004011294.1:164..1261"
+                     /gene="HTR1E"
+                     /db_xref="GeneID:101114783"
+ORIGIN
+        1 mnitnctpea svavrpktit ekmlvsmtla mittltmlln savivaictt kklhqpanyl
+       61 icslavtdll vavlvmplsi myivmeswkl gyficevwls vdmtcctcsi lhlcvialdr
+      121 ywaitnaiey arkrtakrag lmiltvwtis ifismpplfw rshrqlsppp sqctiqhdhv
+      181 iytiystlga fyipltlili lyyriyhaak slyqkrgssr hlsnrstdsq nsfgsckltq
+      241 tfcvsdfsts dpttefekih tsirippfdn dldhpgerqq isstrerkaa rilglilgaf
+      301 ilswlpffik elivglstya vssevadflt wlgyvnslin pllytsfned fklafkklir
+      361 creht
+//

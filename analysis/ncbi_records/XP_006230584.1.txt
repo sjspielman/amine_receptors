@@ -1,0 +1,65 @@
+LOCUS       XP_006230584             361 aa                     ROD 07-AUG-2014
+DEFINITION  PREDICTED: D(4) dopamine receptor isoform X2 [Rattus norvegicus].
+ACCESSION   XP_006230584
+VERSION     XP_006230584.1  GI:564331673
+DBLINK      BioProject: PRJNA12455
+KEYWORDS    RefSeq.
+SOURCE      Rattus norvegicus (Norway rat)
+  ORGANISM  Rattus norvegicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Rattus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_007905666.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Rattus norvegicus Annotation Release
+            105
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..361
+                     /db_xref="taxon:10116"
+                     /sex="pooled males and females"
+                     /note="pooled female animals of strain BN/SsNHsdMCW plus
+                     one male of strain SHR (also known as SHR-Akr)"
+                     /strain="mixed"
+                     /organism="Rattus norvegicus"
+                     /chromosome="1"
+     Protein         1..361
+                     /product="D(4) dopamine receptor isoform X2"
+                     /calculated_mol_wt="38985"
+     Region          28..342
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <226..289
+                     /note="Herpes DNA replication accessory factor; pfam04929"
+                     /db_xref="CDD:252884"
+                     /region_name="Herpes_DNAp_acc"
+     CDS             1..361
+                     /coded_by="XM_006230522.1:89..1174"
+                     /gene="Drd4"
+                     /gene_synonym="D4RA"
+                     /db_xref="GeneID:25432"
+                     /db_xref="RGD:2522"
+ORIGIN
+        1 mgnssatgdg gllagrgpes lgnslvcvsv aserilqtpt nyfivslaaa dlllavlvlp
+       61 lfvysevqgg vwllsprlcd tlmamdvmlc tasifnlcai svdrfvavtv plrynqqgqc
+      121 qllliaatwl lsaavaapvv cglndvpgrd ptvccledrd yvvyssicsf flpcplmlll
+      181 ywatfrglrr weaarhtklh sraprrpsgp gppvsdptqg plfsdcppps pslrtsptvs
+      241 srpesdlsqs pcspgcllpd aalaqppaps srrkrgakit grerkamrvl pvvvgaflmc
+      301 wtpffvvhit ralcpacfvs prlvsavtwl gyvnsalnpi iytifnaefr svfrktlrlr
+      361 c
+//

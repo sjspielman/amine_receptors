@@ -1,0 +1,88 @@
+LOCUS       XM_005233552            1481 bp    DNA              VRT 08-AUG-2013
+DEFINITION  PREDICTED: Falco peregrinus beta-4C adrenergic receptor-like
+            (LOC101918615), mRNA.
+ACCESSION   XM_005233552
+VERSION     XM_005233552.1  GI:529427560
+DBLINK      BioProject: PRJNA198010
+KEYWORDS    RefSeq.
+SOURCE      Falco peregrinus (peregrine falcon)
+  ORGANISM  Falco peregrinus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Falconiformes;
+            Falconidae; Falco.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004929980.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Falco peregrinus Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1481
+                     /mol_type="mRNA"
+                     /collection_date="Oct-2010"
+                     /country="United Arab Emirates: Abu Dhabi Falcon Hospital"
+                     /sex="male"
+                     /db_xref="taxon:8954"
+                     /organism="Falco peregrinus"
+                     /chromosome="Unknown"
+     gene            1..1481
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 12 Proteins"
+                     /db_xref="GeneID:101918615"
+                     /gene="LOC101918615"
+     CDS             1..1458
+                     /product="beta-4C adrenergic receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:529427561"
+                     /db_xref="GeneID:101918615"
+                     /translation="MEGLRGAQKDREVQDEECMEKDQGTWQGAGMCVAQCRVHREPGQM
+                     VWDWGHSEGLECMVQGWSPCGAASLSRQWVVGAALSLTVLVIVAGNLLVIVAIAKTPRL
+                     QTMTNVFITSLACADLIMGLLVVPPGATILLSGHWPYGTMVCELWTSLDVLCVTASIET
+                     LCAIAVDRYLAITSPLQYEALVTKGRARAVVCLVWAISAFISFLPIMNHWWRDGTDEQA
+                     VRCYDDPHCCDFVTNMTYAIISSTISFYVPLLVMIFVYVRVFAVATRHVQLIGKDKVRF
+                     LQEPPSPSSRSSRRRRPSRLLAIKEHKALKTLGIIMGTFTLCWLPFFVANIIKVFCRPL
+                     VPDQLFLFLNWLGYVNSAFNPIIYCRSPDFRSAFRKLLCCPRRADRRLHAVSQDLQRCP
+                     CAFSPQGGPSEDSKVAAPGRSGEDSEARGSGSTSRCSSRTEETSLSQGSGPRQRPLGES
+                     QLQGTQTTLCSQLDEFAGKETPVGPSI"
+                     /gene="LOC101918615"
+                     /protein_id="XP_005233609.1"
+ORIGIN
+        1 atggagggac tgaggggtgc acagaaggac agagaggtgc aggatgagga gtgcatggag
+       61 aaggaccagg gcacatggca aggcgctggc atgtgcgtgg cacagtgcag ggtgcacaga
+      121 gaaccaggac agatggtgtg ggactggggc cacagcgagg ggctggagtg catggtgcag
+      181 ggctggagcc catgcggggc cgccagcctg agccggcagt gggtggtggg ggccgccctc
+      241 agcctcaccg tgctggtcat cgtggccggc aacctgctgg tcatcgtggc tatcgccaag
+      301 acgccgcggc tgcagaccat gaccaacgtc ttcatcacct cgctggcgtg cgccgacctt
+      361 atcatgggct tgctggtggt gccaccgggg gccaccatcc tgctgagcgg ccactggccc
+      421 tacggcacga tggtgtgtga gctgtggacc tcgctggatg tgctgtgtgt cacggccagc
+      481 atcgagacgc tgtgtgccat tgctgtggat cgctacctcg ccatcacgtc gccactgcag
+      541 tacgaggcgc tggtgaccaa gggcagggcg cgggccgtgg tgtgcctggt gtgggccatc
+      601 tctgccttca tctccttcct gcccatcatg aaccactggt ggcgggatgg gacagacgag
+      661 caggcagtgc gctgctacga tgacccgcac tgctgcgact ttgtcactaa catgacctac
+      721 gccatcatct cctccaccat ctccttctac gtgcccctgc tcgtcatgat ctttgtctac
+      781 gtccgcgtct tcgctgtggc tacacgacac gtccagctca tcggcaagga caaggtgagg
+      841 ttcctgcagg agccccccag ccccagctcc aggagcagcc ggcggagacg gccctcccgt
+      901 ctgctggcca tcaaggagca caaggcgctc aagaccctgg gcatcatcat gggcaccttc
+      961 acgctctgct ggctgccctt ctttgtggcc aacatcatca aggttttctg ccggccactg
+     1021 gtgccggatc agctcttcct cttcctcaac tggctgggct acgtcaactc agccttcaac
+     1081 cccatcatct actgccgcag ccctgacttc aggagtgcct tccgcaagct gctgtgctgc
+     1141 ccgcgccgcg ctgaccgccg gctccacgcc gtctcacagg acctgcagcg ctgcccctgt
+     1201 gccttcagcc cccagggggg cccgtcagag gacagcaagg tggcagcccc cgggcgctcc
+     1261 ggggaggaca gcgaggctcg gggcagcggc agcaccagcc gctgcagcag ccggacggag
+     1321 gagaccagcc tgtcccaggg cagtggtcct cggcagcggc ccctgggcga gtcccagctg
+     1381 cagggcaccc agaccacgct gtgctcacag cttgacgagt ttgccggcaa agagacaccc
+     1441 gtgggtcctt ccatctgact gggagcagct gagagctggg a
+//

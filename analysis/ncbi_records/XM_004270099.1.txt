@@ -1,0 +1,109 @@
+LOCUS       XM_004270099            1985 bp    DNA              MAM 18-MAR-2013
+DEFINITION  PREDICTED: Orcinus orca 5-hydroxytryptamine (serotonin) receptor 1B,
+            G protein-coupled (HTR1B), mRNA.
+ACCESSION   XM_004270099
+VERSION     XM_004270099.1  GI:466010553
+DBLINK      BioProject: PRJNA189949
+KEYWORDS    RefSeq.
+SOURCE      Orcinus orca (killer whale)
+  ORGANISM  Orcinus orca
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Cetacea;
+            Odontoceti; Delphinidae; Orcinus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004438449.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Orcinus orca Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1985
+                     /mol_type="mRNA"
+                     /collection_date="06-Sep-2011"
+                     /isolate="Morgan"
+                     /sex="male"
+                     /note="Norwegian herring-eating population"
+                     /db_xref="taxon:9733"
+                     /tissue_type="blood"
+                     /organism="Orcinus orca"
+                     /chromosome="Unknown"
+     gene            1..1985
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 13 mRNAs, 23 Proteins"
+                     /db_xref="GeneID:101285522"
+                     /gene="HTR1B"
+     misc_feature    245..247
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR1B"
+     STS             328..547
+                     /db_xref="UniSTS:157838"
+                     /standard_name="GDB:580603"
+                     /gene="HTR1B"
+     CDS             332..1531
+                     /product="5-hydroxytryptamine receptor 1B"
+                     /codon_start="1"
+                     /db_xref="GI:466010554"
+                     /db_xref="GeneID:101285522"
+                     /translation="MPESCAWRDMEEAGAQCAPPLSVSSQTGLSQANVSAAPSHNCSAE
+                     SYIYQDSIALPWKVVLVVLLALFTLATTLSNAFVIATVYRTRKLHTPANYLIASLAVTD
+                     LLVSILVMPVSTMYTVTGRWTLGQVVCDFWLSSDITCCTASILHLCVIALDRYWAITDA
+                     VEYSAKRTPKRAAVMIALVWVFSISISLPPFFWRQAKAEEEVSNCVVNTDHILYTVYST
+                     VGAFYFPTLLLIALYGRIYVEARSRILKQTPNRTGKRLTRAQLVTDSPGSTSSVTSINS
+                     RAADLPSESGSPVHVNQVKVRVSDALLEKKKLMAARERKATKTLGIILGAFIVCWLPFF
+                     IISLVMPICKDACWFHLAIFDFFTWLGYVNSLINPIIYTMSNEDFKQALHKLIRFKCTS
+                     "
+                     /gene="HTR1B"
+                     /protein_id="XP_004270147.1"
+     STS             717..1013
+                     /db_xref="UniSTS:157840"
+                     /standard_name="GDB:580611"
+                     /gene="HTR1B"
+     STS             1366..1606
+                     /db_xref="UniSTS:157843"
+                     /standard_name="GDB:580621"
+                     /gene="HTR1B"
+ORIGIN
+        1 tggccgatgc tccctcctca aacaaaacca cagcctcctc ctctagacgc cccggtggga
+       61 gccggagcgc agcggggctc tgtggaccag cccttagcaa cccggggcta agacggggcg
+      121 tagagaggaa cagccagaaa cgcggcggca gcgacgggcg ccccgaagtg caggggacgc
+      181 gcccgccggc ctcgtctgcc tcgcccttga cctctaggtt cacctgggaa cctgggtgga
+      241 ggagtaattg aggaacccac ggatccgact agccaccagg ggacaagact ctggtccctt
+      301 cagcggtcct ttcctcgtcc tcgtccgctc catgcccgag agctgcgctt ggagagacat
+      361 ggaggaagcg ggcgctcagt gtgccccgcc gctgtccgtg agctcccaga cggggctttc
+      421 gcaagccaac gtctctgctg ctccctccca caactgcagc gccgagagct acatttacca
+      481 ggactccata gccctgccct ggaaagtagt actggtcgtg ctgctggcgc tcttcacctt
+      541 ggccaccacg ctctccaatg cgtttgtgat cgccactgtg taccggacgc ggaagctgca
+      601 tacccccgcc aactacctga tcgcctccct ggcggtcacc gacctgctgg tatccatcct
+      661 ggtcatgccc gtcagcacca tgtacacggt cacgggacgc tggacgctgg gccaggtggt
+      721 gtgtgacttc tggctgtcat cggacatcac ctgttgcact gcttccatct tgcacctctg
+      781 tgtcatcgcc ctggaccgct actgggcgat cacggacgcc gtggagtact cggctaaaag
+      841 gactcccaag agggcggcgg tcatgatcgc gctcgtgtgg gtcttctcca tctccatctc
+      901 gctgccgccc ttcttctggc gtcaggccaa agccgaggag gaggtgtcga actgcgtggt
+      961 gaacacagat cacatcctct acactgtcta ctccacggtg ggcgctttct acttccccac
+     1021 cctgctgctt atcgccctct atggccgcat ctacgtggaa gcccgctccc ggattttgaa
+     1081 acagacgccc aacagaaccg gcaagcgtct gacccgagcc cagctggtta ctgactcgcc
+     1141 cgggtccacg tcttccgtca cctccattaa ttcgcgggct gcagacttac ccagcgaatc
+     1201 ggggtctcct gtgcacgtga accaagtcaa agtgcgagtc tccgacgccc tgctggagaa
+     1261 gaagaaactc atggccgcta gggagcgcaa agccaccaag accctgggaa tcattttggg
+     1321 agcgttcatc gtgtgttggc tgcccttctt catcatctcc ctggtgatgc ctatctgcaa
+     1381 ggatgcctgc tggttccacc tggccatctt tgacttcttc acgtggctgg gctatgtcaa
+     1441 ctccctcatc aaccccatca tctataccat gtccaacgag gacttcaaac aagcgctcca
+     1501 taaactgata cgctttaagt gcacaagctg acttgtccat tgcagtgggg tcgcctaagc
+     1561 ggcctttggg ggaccatgct gtgtctggtt ccacaggtag gtcgactctt tgactgttac
+     1621 tgggtcggag tgaggctctc ttctgagcaa gggcaatgga tcctgagaag ccaggacagc
+     1681 cctgcgagag ctctaaagga gaactgttca aacagctgag gagggggctc actttctccc
+     1741 ctcaaacccc agtttcagca ccgaccctgc cacagcccat cgcaaggggg gttgcaactt
+     1801 tcagaaaatc gatgatggaa aagggatccc tgccctgctt tggtatcaca gatgatgccc
+     1861 cctagaacca gaagtacttg tcgttcttgt ctggagcctg tctgagacat gatctacata
+     1921 cagcctggca gtacttgaac tagacactaa taccctgtgt ttgggggaga actttgtgtt
+     1981 acagc
+//

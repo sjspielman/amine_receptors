@@ -1,0 +1,98 @@
+LOCUS       XM_420871               1749 bp    DNA              VRT 19-JUN-2013
+DEFINITION  PREDICTED: Gallus gallus adrenergic, alpha-1D-, receptor (ADRA1D),
+            transcript variant X2, mRNA.
+ACCESSION   XM_420871
+VERSION     XM_420871.3  GI:513185414
+DBLINK      BioProject: PRJNA10808
+KEYWORDS    RefSeq.
+SOURCE      Gallus gallus (chicken)
+  ORGANISM  Gallus gallus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Galliformes;
+            Phasianidae; Phasianinae; Gallus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001471685.2) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Jun 19, 2013 this sequence version replaced gi:118090859.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Gallus gallus Annotation Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1749
+                     /mol_type="mRNA"
+                     /breed="Red Jungle fowl, inbred line UCD001"
+                     /isolate="#256"
+                     /sex="female"
+                     /db_xref="taxon:9031"
+                     /organism="Gallus gallus"
+                     /chromosome="4"
+     gene            1..1749
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /db_xref="CGNC:11925"
+                     /db_xref="GeneID:422933"
+                     /gene="ADRA1D"
+     misc_feature    268..270
+                     /note="upstream in-frame stop codon"
+                     /gene="ADRA1D"
+     CDS             367..1665
+                     /product="alpha-1D adrenergic receptor isoform X2"
+                     /codon_start="1"
+                     /db_xref="GI:513185415"
+                     /db_xref="CGNC:11925"
+                     /db_xref="GeneID:422933"
+                     /translation="MTFPELSNGSLSENRTGQGSQSGANRSWGLQGEESPEGNGTTLPF
+                     ALDVQAVGVGVFLAVFILSAIVGNILVILSVACNRHLQTVTNYFIVNLAIADLLLSTTV
+                     LPFSATLEVLGFWVFGRIFCNIWAAVDVLCCSASIMSLCIISVDRYIGVKYSLKYPTIM
+                     TERKAGVILVVVWLSSMVISIGPLLGWKEPPPPDESICSITEEPGYALFSSLFSFYLPL
+                     MVILVMYFRIYVVARRTTRSLEAGVKKERNKSMEVVLRIHCRSVLEEPLSSTQSKGHNF
+                     RSSLSVRLLKFSREKKAAKTLAIVVGVFILCWFPFFFVLPFGQSSFLYLCPGDAYPLKV
+                     IAACFALFFLPISEALRNGLQGHLLAGILQQLREPHHLPLLQQGVQASVHQATQVPMSP
+                     QKKAHLACLRPPLARGLSEQLCAGLRDGPEAQD"
+                     /gene="ADRA1D"
+                     /protein_id="XP_420871.3"
+ORIGIN
+        1 ggagctctct cgaccgagcg gggaaagcaa acggagccac cgaacgctgc tcagccgctg
+       61 ccccagagca gccccggagc atgcgagggc agcggggggg ccccgtcctc gctgcccccc
+      121 ccggtgggac ggcggcgggg ccgtcgcggg gaggcgggca ccgcaatccg gcgtgaagag
+      181 ggctgggaga tcactccatc cctactccgt ccctccatcc cggctcgggg gaggcagacc
+      241 ttgccccagt ttttgggggt gaggtgctga gcgagtcgtg gagggggctg cgaggatcat
+      301 gccggggggg ctgcgcctcg gcatcgcttt ctcgtcgccc tccatggagc ctggactttt
+      361 tttacgatga ctttccctga gctgagcaat ggcagcttga gtgagaacag gacgggacag
+      421 ggcagccaga gcggtgccaa ccggtcctgg gggttgcaag gcgaggagtc ccccgaaggc
+      481 aacggcacca cgctgccatt cgccttggac gtgcaggcgg tgggcgtcgg ggtcttcttg
+      541 gctgtcttca tcctctcggc catcgtgggc aacatcctcg tcatcctgtc ggtggcttgc
+      601 aaccggcacc tgcagacagt caccaactac ttcatcgtca acctggccat cgccgacctg
+      661 ctgctcagca ccaccgtgct gcccttctcg gccaccttgg aggtgttggg tttttgggtt
+      721 tttggccgca tcttctgcaa catctgggca gcggtggatg tgctgtgctg ctccgcctcc
+      781 atcatgagct tgtgcatcat ctccgtggac aggtatatcg gcgtcaagta ttccctcaag
+      841 tatcccacca tcatgacaga gaggaaggct ggggtcatcc tggtggtggt ctggctctcc
+      901 tccatggtca tctccattgg gccgctgctg gggtggaagg aaccaccgcc accagatgag
+      961 agcatctgta gcatcactga ggagccaggc tatgccctgt tctcttccct tttctccttt
+     1021 tacctgcccc tcatggtcat cctggtgatg tacttcagga tctacgtggt ggccaggagg
+     1081 acaacccgga gcttggaggc gggggtcaag aaggagagga ataaatccat ggaggtggtg
+     1141 ctgcgcatcc actgccgcag tgtgctggag gagcctctct ccagcaccca gagcaaaggg
+     1201 cacaacttca ggagctccct ctccgtgcgg ctcctcaagt tctcccgtga gaaaaaagca
+     1261 gccaagactc ttgccatcgt tgtgggcgtc ttcatcctct gttggttccc cttcttcttc
+     1321 gtcctgcctt ttggtcagtc atcctttctc tatttgtgtc ctggtgatgc ctacccactc
+     1381 aaggtgattg ctgcttgctt cgcactgttc tttcttccca tctctgaagc cctcagaaat
+     1441 ggtcttcaag gtcatcttct ggctgggata cttcaacagc tgcgtgaacc ccatcatcta
+     1501 cccctgctcc agcaaggagt tcaagcgagc gttcatcagg ctactcaagt gccaatgtca
+     1561 ccgcagaaga aggcccatct ggcgtgtcta cgaccaccac tggcgagggg cctcagtgaa
+     1621 cagctctgtg caggactccg agacggacct gaggcccagg attagcaccc tgaacagctc
+     1681 cttcatattt aactcctcct tgcaggagag agctggcaag aggcgaacac tcagcttcaa
+     1741 gggttggaa
+//

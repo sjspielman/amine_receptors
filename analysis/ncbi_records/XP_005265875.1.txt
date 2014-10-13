@@ -1,0 +1,63 @@
+LOCUS       XP_005265875             366 aa                     PRI 03-FEB-2014
+DEFINITION  PREDICTED: alpha-1B adrenergic receptor isoform X1 [Homo sapiens].
+ACCESSION   XP_005265875
+VERSION     XP_005265875.1  GI:530380859
+DBLINK      BioProject: PRJNA168
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NT_023133.14) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Homo sapiens Annotation Release 106
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..366
+                     /db_xref="taxon:9606"
+                     /organism="Homo sapiens"
+                     /chromosome="5"
+     Protein         1..366
+                     /product="alpha-1B adrenergic receptor isoform X1"
+                     /calculated_mol_wt="40302"
+     Region          56..>232
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          68..323
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..366
+                     /coded_by="XM_005265818.1:71..1171"
+                     /gene="ADRA1B"
+                     /gene_synonym="ADRA1; ALPHA1BAR"
+                     /db_xref="GeneID:147"
+                     /db_xref="HGNC:HGNC:278"
+                     /db_xref="HPRD:00080"
+                     /db_xref="MIM:104220"
+ORIGIN
+        1 mnpdldtghn tsapahwgel knanftgpnq tssnstlpql ditraisvgl vlgafilfai
+       61 vgnilvilsv acnrhlrtpt nyfivnlama dlllsftvlp fsaalevlgy wvlgrifcdi
+      121 waavdvlcct asilslcais idryigvrys lqyptlvtrr kailallsvw vlstvisigp
+      181 llgwkepapn ddkecgvtee pfyalfsslg sfyiplavil vmycrvyiva krttknleag
+      241 vmkemsnske ltlrihsknf hedtlsstka kghnprssia vklfkfsrek kaaktlgivv
+      301 gmfilcwlpf fialpleskg slslktlnac cksrkemneh nlnlsslesg hvrdtgatlh
+      361 hhiiry
+//

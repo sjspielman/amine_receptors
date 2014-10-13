@@ -1,0 +1,22 @@
+SJS.
+PIPELINE FOR AMINE RECEPTOR COLLECTION, PROCESSING, AND ALIGNMENT.
+
+1. Run ~/Research/AmineReceptors/Amine_9.6.14/run_blast.py on cluster (submit array job 1-42). This will return 42 files containing blast ids. Once all are returned, cat >> *blast_ids_all.txt*
+2. Remove duplicate lines from blast_ids_all.txt > *blast_ids_noduplicates.txt* (leaves 4232 unique ids)
+3. Process the resulting blast_ids_noduplicates.txt file with ~/Research/AmineReceptors/Amine_9.6.14/run_process_blast.py . This is submitted to phylocluster with process_blast.qsub, which is an array job 1-4232.
+    -> Verifies Vertebrata
+    -> Verifies NOT lowquality, pseudogene, etc.
+    -> Remove sequences with >1% ambiguiuous characters.
+    -> Ensures that the sequence is indeed a gpcr, using gpcrhmm. We use very conservative thresholds here.
+    -> Fetch corresponding nucleotide NCBI record and confirm that it plays nicely with the protein sequence
+    -> Retrieve gpcrhmm structure file from their server
+    -> Save the ncbi nucleotide and protein records and the sequences. All sequences are saved with id, "protid_nucid".
+    [Note: since run on cluster, produces individual fasta files for each nucleotide and protein sequence. Must cat them together.]
+    *Resulting files are protein_records.fasta and nucleotide_records.fasta*
+    
+4. Begin iterative alignment on protein sequences.
+    -> Align.
+    -> Replace sequence with domain tag. Domains called if >0.5 posterior probability, means no ambiguous (unless exactly 50-50)
+    -> Remove sequences which contain >=5% sites out of line with consensus
+    -> Repeat while sequences are still getting kicked out (while num_discard > 0)
+    *Resulting files are found in alignments/ directory*

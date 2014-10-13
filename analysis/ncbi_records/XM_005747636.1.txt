@@ -1,0 +1,92 @@
+LOCUS       XM_005747636            1715 bp    DNA              VRT 30-SEP-2013
+DEFINITION  PREDICTED: Pundamilia nyererei D(4) dopamine receptor-like
+            (LOC102198482), mRNA.
+ACCESSION   XM_005747636
+VERSION     XM_005747636.1  GI:548459668
+DBLINK      BioProject: PRJNA220167
+KEYWORDS    RefSeq.
+SOURCE      Pundamilia nyererei
+  ORGANISM  Pundamilia nyererei
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Haplochromini;
+            Pundamilia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005187602.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pundamilia nyererei Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1715
+                     /mol_type="mRNA"
+                     /isolate="P.nyererei 1_Seehausen"
+                     /sex="female"
+                     /db_xref="taxon:303518"
+                     /organism="Pundamilia nyererei"
+                     /chromosome="Unknown"
+     gene            1..1715
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 13 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 2 samples with support for all annotated introns"
+                     /db_xref="GeneID:102198482"
+                     /gene="LOC102198482"
+     CDS             441..1649
+                     /product="D(4) dopamine receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:548459669"
+                     /db_xref="GeneID:102198482"
+                     /translation="MSPLAALLWLGRDQTDAAQMVANLSAAQEAGTATAALHNLPALVF
+                     GVLLIVVIICGNLMVCLSVFVEKALKTTTNYFIVSLAVADLMLAVLVLPLFVYSEFQDG
+                     VWTLNTTICDGLMTMDVMLCTASIFNLCAISIDRFIAVSIPLNYNRKHVDLRQVVLLSA
+                     TWILALAVASPIIFGINNVPGRDPRECKLENDDYVLYSSVCSFFIPCPIMLLLYCGMFR
+                     GLRRWEEARKAKLKDSIQACRKLQEATATLPPLASLPPLLPPIIERDPADTLDEASTLQ
+                     SPDLPPNSTENKDGPVPAVSFAEIKFNHDPRRRKRAKINSRERKAMKVLPVVVGAFLFC
+                     WTPFFVLHTMRARCQECHIPPALMSVVTWLGYVNSALNPVIYTVFNTEFRNFFKKVLQR
+                     CCS"
+                     /gene="LOC102198482"
+                     /protein_id="XP_005747693.1"
+ORIGIN
+        1 ctttgtgcta gcgggctgca ggcaaacact cgggagctgg aaacatccac ggcacgacac
+       61 tttctctgct gtctgacccc agagtccttc ggctatcttc ccagcgttaa agaaagaagc
+      121 agttttctat tgatatgaag attttaatga aagattttaa agaactgcat ctgtattctt
+      181 ctggattttt ttcatcacta aatattcttt gtgacaaaaa tctgacttca tcaccatatt
+      241 tttaatattt aaataaaagt ttaactttgt aaataccaac ttgtgttttt gtccatctgc
+      301 ttttacgcag aggatttttg cgtaaaaggc gcaacggtgc gcactggagc tcgtcactgc
+      361 agtctgctac agtctaagtg gagtctgtgt gagagcatga taaggctaca gtgtggcagt
+      421 cggactccaa cccggccttc atgagcccgt tggccgcgct gctgtggctc ggacgggatc
+      481 agaccgacgc ggcgcagatg gtggcaaacc tgagcgcagc gcaggaggcg gggacagcga
+      541 ccgcggcact gcacaacctg cctgccctgg ttttcggggt gctgctgatc gtcgtcatca
+      601 tctgcggcaa cttgatggtg tgtctgagtg tgttcgtcga aaaggcactg aaaaccacca
+      661 ccaactactt catcgtgagt ctggcagtgg cggatctgat gttggcggtg ctcgtgctgc
+      721 cgctcttcgt ctattcggag ttccaggatg gtgtatggac cctcaacact accatctgtg
+      781 atggtctcat gacgatggat gttatgttgt gtactgcctc catcttcaat ctctgcgcta
+      841 tcagcattga caggttcatc gctgtgtcaa tcccgctcaa ctacaacagg aagcatgtgg
+      901 acctgcggca agttgttttg ctgtcggcca cctggatcct ggccttggct gtagcctcgc
+      961 caatcatctt tggcatcaac aatgtcccag gccgcgatcc gagggaatgt aaactagaga
+     1021 atgatgacta tgttctgtat tcttccgtct gctccttctt catcccctgc cccatcatgc
+     1081 tgctgctgta ctgtggcatg ttccgcggcc tgcgacgatg ggaggaggca cgtaaagcca
+     1141 agttgaagga cagcatccag gcgtgccgca agctgcagga ggccacagcc acgttgcctc
+     1201 ctctggcttc gctgccacct ctgctgcctc ccattataga gcgagaccca gcagatactc
+     1261 tcgatgaagc atccaccttg cagtccccag acctgccccc gaactcaaca gagaacaaag
+     1321 acggccctgt gccagcggtc agttttgcag agattaagtt caaccacgac ccgcgcagaa
+     1381 gaaaaagggc caagatcaac agccgcgaga ggaaggctat gaaggtgctt cctgtcgttg
+     1441 tgggtgcctt cctattctgc tggactcctt tctttgtcct ccacacaatg cgagcacgct
+     1501 gtcaagagtg ccacatcccg ccagccctaa tgagcgtggt gacgtggctg ggctatgtca
+     1561 acagcgccct gaaccccgtc atatacactg tcttcaacac tgagttcagg aacttcttca
+     1621 aaaaagtcct ccagcgctgt tgttcataga actaccggag tggacgctgc tccgtggacc
+     1681 attcttaaac gcacaacagc tgcaagagat gctgc
+//

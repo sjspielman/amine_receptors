@@ -1,0 +1,105 @@
+LOCUS       XM_004764560            2371 bp    DNA              MAM 13-JUN-2013
+DEFINITION  PREDICTED: Mustela putorius furo 5-hydroxytryptamine (serotonin)
+            receptor 1A, G protein-coupled (HTR1A), mRNA.
+ACCESSION   XM_004764560
+VERSION     XM_004764560.1  GI:511889807
+DBLINK      BioProject: PRJNA158527
+KEYWORDS    RefSeq.
+SOURCE      Mustela putorius furo (domestic ferret)
+  ORGANISM  Mustela putorius furo
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+            Mustelidae; Mustelinae; Mustela.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004569249.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Mustela putorius furo Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2371
+                     /sub_species="furo"
+                     /mol_type="mRNA"
+                     /breed="Sable"
+                     /isolate="ID#1420"
+                     /sex="female"
+                     /db_xref="taxon:9669"
+                     /organism="Mustela putorius furo"
+                     /chromosome="Unknown"
+     gene            1..2371
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 14 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101671971"
+                     /gene="HTR1A"
+     misc_feature    662..664
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR1A"
+     CDS             749..2017
+                     /product="5-hydroxytryptamine receptor 1A"
+                     /codon_start="1"
+                     /db_xref="GI:511889808"
+                     /db_xref="GeneID:101671971"
+                     /translation="MDVLNPGQGNNTTLSEGPFGTRGNATGISDVTFSYQVITSLLLGT
+                     LIFCAVLGNACVVAAIALERSLQNVANYLIGSLAVTDLMVSVLVLPMAALYQVLNKWTL
+                     GQVTCDLFIALDVLCCTSSILHLCAIALDRYWAITDPIDYVNKRTPRRAAALISLTWLI
+                     GFLISIPPMLGWRTPEDRSDPDACTISKDHGYTIYSTFGAFYIPLLLMLVLYGRIFRAA
+                     RFRIRKTVKKVEKKGADTRFGVSPAPQPKKSVNGDPGSREWRQGVENKAVGTLCTNGAV
+                     RQGEDGAALEVIEVHRVGNSKEHLPLPSEAGAIPCTPASFEKKNERNAEAKRKMALARE
+                     RKTVKTLGIIMGTFILCWLPFFIVALVLPFCESSCHMPTLLGAIINWLGYSNSLLNPVI
+                     YAYFNKDFQNAFKKIIKCKFCRR"
+                     /gene="HTR1A"
+                     /protein_id="XP_004764617.1"
+ORIGIN
+        1 gcagatccgg tggaaaagaa ttctgaatct ctgccgacca aaaggggcta gaacgaaaag
+       61 acgctgatct agtgggagag gagggcgggg acccagagga aagagacact cagggttggg
+      121 gaagtgttag gaggggaggg ttagcgtggg agggagggac actctcagag ctgtgggagc
+      181 gacgcaagga aggataagga aaggggagtg agaagaaaga gggagactga agggggtggg
+      241 gagaaggctt tctagaaagg agacaggagg agagagtgga aaagggatag ggagagaagc
+      301 aggaagagga gagtcagagt gaccttagag gatgaggctt ctctattcca gatacttcta
+      361 agattgaaga ctgttggcta gtggggagac tccgactccg gctccggcag ccagttgggc
+      421 agaggcaaag taaaatggac agtgagaaac agatgttcca gccacctctc caacgcccag
+      481 aggtcccgaa gctcttttgt ggcgaactcc ttccccagct ggagtctctg aggctgctgg
+      541 accaagggag cccagggagc gcctggaagc tgctcctcgg agatgccctc gcctgagcag
+      601 taagaacttc ttgcttgagt ccctgcattc cctccacctg aaactcccca ggagagaggg
+      661 gtagaagacc ccagggggag gggcgagggg ggatcctaac gcagcacttt ctcccctccc
+      721 cctccccccc cccgccgggc gcgcaggcat ggatgtgctc aacccgggac agggcaacaa
+      781 caccaccttg tccgagggtc ccttcgggac acgcggcaac gctactggca tctccgacgt
+      841 gaccttcagc taccaagtga tcacctcact tctgctgggc acgctcattt tctgcgcggt
+      901 gctgggcaat gcgtgcgtgg tggccgccat cgccctggag cgctccctgc agaatgtggc
+      961 caactatctc atcggctctt tggctgtcac cgacctcatg gtgtcggtgc tggtgctgcc
+     1021 catggctgca ctctaccagg tgctcaacaa atggacgctg gggcaggtca cctgtgacct
+     1081 attcatcgcc ctcgacgtgc tgtgttgcac ctcgtccatc ctgcacctgt gcgccattgc
+     1141 actggacagg tactgggcca tcacggaccc cattgactac gtgaacaaga ggacgccccg
+     1201 gcgcgccgct gcgctcatct cgctcacttg gcttattggc ttccttatct ccatcccgcc
+     1261 catgctgggt tggcgcaccc ccgaagaccg ctccgacccc gacgcgtgca cgattagcaa
+     1321 ggaccacggc tacactatct actccacctt tggcgctttc tacatcccgc tgctgctcat
+     1381 gctggttctc tacgggcgca tcttccgagc tgcgcgcttc cgcatccgca aaacagtcaa
+     1441 gaaggtggag aagaagggag cggacacccg ctttggggtg tcgccggccc cgcagcccaa
+     1501 gaagagcgtg aacggcgatc cggggagcag agaatggagg cagggtgtgg agaacaaggc
+     1561 agtggggact ctgtgcacca acggcgcggt gaggcagggt gaggatggcg ccgcccttga
+     1621 ggtgattgaa gtgcacaggg tgggcaactc caaagagcac ctgccgctgc ccagcgaggc
+     1681 gggtgctatc ccttgcaccc ccgcctcctt cgagaagaag aatgagcgca acgccgaggc
+     1741 caagcgcaag atggccctgg cccgagagag gaaaacggtg aagacgttgg gcatcatcat
+     1801 gggcacattc atcctctgct ggctgccctt tttcatcgtg gccctggtcc tgcccttctg
+     1861 tgagagcagc tgccacatgc ccaccctgct cggagccata atcaactggc tggggtactc
+     1921 caactctctg ctcaaccctg tcatttacgc ctacttcaac aaagacttcc aaaacgcgtt
+     1981 taagaagatc atcaagtgca aattctgccg ccgatgatgg tggagtagtc ggcgagtagg
+     2041 cccgccccat cttctcttcc tcctccagtc ttctggaatc aacacttctg atagctcgct
+     2101 aatttcctct gaccttctcc gctgctcggg gtccccgctt ccagacctcg tccctccact
+     2161 tccgtcgccc aataccctgc tcggagggag tgcgctttgt gcaaagagcc ccagagagag
+     2221 gtctggaggg ggtgggaaac tccccgctcc gtgataagcg atcttggctc agcctttggc
+     2281 ctcagaatca gttctgaact ctgcacttgc ctcctccctc ttccgcaccc caaatcttcg
+     2341 cggcggaagt ttaagcctaa gccattcaag g
+//

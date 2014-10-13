@@ -1,0 +1,105 @@
+LOCUS       XM_003134101            1978 bp    DNA              MAM 26-SEP-2013
+DEFINITION  PREDICTED: Sus scrofa adrenoceptor alpha 1B (ADRA1B), transcript
+            variant X1, mRNA.
+ACCESSION   XM_003134101
+VERSION     XM_003134101.4  GI:545878293
+DBLINK      BioProject: PRJNA28993
+KEYWORDS    RefSeq.
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003612465.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 26, 2013 this sequence version replaced gi:350594457.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Sus scrofa Annotation Release 104
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1978
+                     /breed="mixed"
+                     /db_xref="taxon:9823"
+                     /mol_type="mRNA"
+                     /organism="Sus scrofa"
+                     /chromosome="16"
+     gene            1..1978
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 ESTs, 17 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 2 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:100519931"
+                     /gene="ADRA1B"
+     CDS             326..1882
+                     /product="alpha-1B adrenergic receptor isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:350594458"
+                     /db_xref="GeneID:100519931"
+                     /translation="MNPDLDTGHNTSAPAHWGELKNANFTGPNQTSSNSTLPQLDITRA
+                     ISVGLVLGAFILFAIVGNILVILSVACNRHLRTPTNYFIVNLAIADLLLSFTVLPFSAA
+                     LEVLGYWVLGRIFCDIWAAVDVLCCTASILSLCAISIDRYIGVRYSLQYPTLVTRRKAI
+                     LALLSVWVLSTVISIGPLLGWKEPAPNDDKECGVTEEPFYALFSSLGSFYIPLAVILVM
+                     YCRVYIVAKRTTKNLEAGVMKEMSNSKELTLRIHSKNFHEDTLSSTKAKGHNPRSSIAV
+                     KLFKFSREKKAAKTLGIVVGMFILCWLPFFIALPLGSLFSTLKPPDNVFKVVFWLGYFN
+                     SCLNPIIYPCSSKEFKRAFVRILGCQCRGRRRRRRRRRLGGCAYTYRPWTRGGSLERSQ
+                     SRKDSLDDSGSCLSGSQRTLPSASPSPGYLGRGAPPPVELCAFPEWKAPGALLSLPAPE
+                     PPGRRGRQDSGPLFTFKLLTEPESPGTDGDTSHGGCEAAADVANGQLGFKSNMPLAPGQ
+                     F"
+                     /gene="ADRA1B"
+                     /protein_id="XP_003134149.3"
+     STS             376..1131
+                     /db_xref="UniSTS:271116"
+                     /standard_name="PMC150908P1"
+                     /gene="ADRA1B"
+     STS             618..773
+                     /db_xref="UniSTS:266947"
+                     /standard_name="ADRA1B"
+                     /gene="ADRA1B"
+ORIGIN
+        1 gtcatgacac ctaaacaaat ggtcgattcc acgggtcaaa tatcagccag aggagttaag
+       61 gagcatcttc agtgaaggga ggaaaggagc aacagggaaa ggaccataag caagacgctc
+      121 agtggcatcc tggcgaacga gcggcttggt gcaggcagga gacgtgctgc cgggctggcc
+      181 tgcccggggg agatgacttc tcgtcaggag ggcgcctctg ggaagaagac cacgggggaa
+      241 gcaaagtttc agggcagctg aggagccttc gccgcagccc ttccgagccc tgtcaccccc
+      301 ctggctatgg agggcggact ctaaaatgaa tcccgatctg gacaccggcc acaacacatc
+      361 agcacctgcc cactggggag agttgaaaaa tgccaacttc actggcccca accagacctc
+      421 gagcaactcc acactgcccc agctggacat caccagggcc atctccgtgg gcctggtgct
+      481 gggtgccttc atcctctttg ccatcgtggg caacatcctg gtcatcttgt ctgtggcctg
+      541 caaccgtcac ctgcggacgc ccaccaacta cttcatcgtc aacctggcca ttgccgacct
+      601 gctgctaagc ttcactgtgc tgcccttctc agcggccctg gaggtgctgg gctactgggt
+      661 gctgggccga atcttctgtg acatctgggc ggcagtggac gtcctgtgct gtacagcctc
+      721 catcctgagc ctatgcgcca tctccatcga ccgctacatt ggggtgcgct actctctgca
+      781 ataccccact ctggtcacca gaaggaaggc catcttggcg ctcctcagtg tctgggtctt
+      841 gtctacagtc atctccattg ggcctcttct tgggtggaag gagccggcac cgaacgatga
+      901 caaggagtgt ggggtcactg aagaaccctt ctatgccctc ttctcctccc tgggctcctt
+      961 ctacatccct ctggcggtca ttctggtcat gtactgccgt gtctacatcg tggccaagag
+     1021 gaccaccaag aacctggagg ctggcgtcat gaaggagatg tccaactcta aggagctgac
+     1081 cttgaggatc cactccaaga actttcacga ggacaccctc agcagtacga aggccaaagg
+     1141 ccacaaccct aggagttcca tagctgtcaa actttttaag ttttcccggg aaaagaaggc
+     1201 ggccaagacc ttgggcattg tggtcgggat gttcatcttg tgctggctac ccttcttcat
+     1261 cgctctccca cttggctccc tgttctccac cctgaagccc cccgacaacg tgttcaaggt
+     1321 ggtgttctgg ctgggctatt tcaacagctg cctcaacccc atcatctacc cgtgctccag
+     1381 caaggagttt aagcgcgcct tcgtgcgcat cctcgggtgc cagtgccgcg gccgccgtcg
+     1441 ccgccgccgc cgccgccgcc tgggcggctg cgcctacacc taccgcccgt ggacgcgcgg
+     1501 cggctcactg gagcgctcgc agtcgcgcaa ggactcgctg gacgacagcg gcagctgcct
+     1561 gagcggcagc cagcggaccc tgccctcggc ctcgccgagc cccggctacc tgggccgcgg
+     1621 cgcaccgccg cccgttgagc tgtgcgcctt cccagagtgg aaggcacccg gcgccctcct
+     1681 gagcctgccc gcgcccgagc cccccggccg ccgcggccgc caagactcgg gcccgctctt
+     1741 caccttcaag ctcctgacgg agcccgagag tcccgggacc gacggagaca ccagccacgg
+     1801 gggctgcgag gccgcggccg atgtggccaa cgggcagctg ggcttcaaaa gcaacatgcc
+     1861 cctggcgccc gggcagtttt agggccccgc gcaccgcttt ccatccctgg ggaggcggtc
+     1921 atttgggggg agggcggggc ggaggggggg agggcagtgt tggcgcccgg tagacgcg
+//

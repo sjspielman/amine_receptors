@@ -1,0 +1,86 @@
+LOCUS       XM_004282332            1387 bp    DNA              MAM 18-MAR-2013
+DEFINITION  PREDICTED: Orcinus orca histamine receptor H3 (HRH3), mRNA.
+ACCESSION   XM_004282332
+VERSION     XM_004282332.1  GI:466070846
+DBLINK      BioProject: PRJNA189949
+KEYWORDS    RefSeq.
+SOURCE      Orcinus orca (killer whale)
+  ORGANISM  Orcinus orca
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Cetacea;
+            Odontoceti; Delphinidae; Orcinus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004438579.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Orcinus orca Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1387
+                     /mol_type="mRNA"
+                     /collection_date="06-Sep-2011"
+                     /isolate="Morgan"
+                     /sex="male"
+                     /note="Norwegian herring-eating population"
+                     /db_xref="taxon:9733"
+                     /tissue_type="blood"
+                     /organism="Orcinus orca"
+                     /chromosome="Unknown"
+     gene            1..1387
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 mRNAs, 13 Proteins"
+                     /db_xref="GeneID:101290343"
+                     /gene="HRH3"
+     misc_feature    13..15
+                     /note="upstream in-frame stop codon"
+                     /gene="HRH3"
+     CDS             28..1386
+                     /product="histamine H3 receptor"
+                     /codon_start="1"
+                     /db_xref="GI:466070847"
+                     /db_xref="GeneID:101290343"
+                     /translation="MERSPPDGPLNASGALAGEAAAAAAGGARGFSTAWTAVLAALMAL
+                     LIVATVLGNALVMLAFVADSSLRTQNNFFLLNLAISDFLVGAFCIPLYVPYVLTGRWPF
+                     GRGLCKLWLVVDYLLCTSSVFNIVLISYDRFLSVTRAVSYRAQQGDTRRAVRKMVLVWV
+                     LAFLLYGPAILSWEYLSGGSSIPEGHCYAEFFYNWYFLITASTLEFFTPFLSVTFFNLS
+                     IYLNIQRRTRVRLDGAREAAASELPPEAQPSPPPAAPSCWDCWQKGCGEAVPLHRCGVG
+                     GGEAAPGTGAEAGDAVLGGGSGGGAVASPTSSSGSSSRGAERPRSLKRGSKPSVSSASL
+                     EKRTKMVSQSIAQRFRLSRDKKVAKSLAVIVSTFGLCWAPYTLLMITRAACHGPCVPDY
+                     WYEMSFWLLWANSAVNPVLYPLCHYSFRRAFTKLLCPQKLKVQPPSSLEHCWK"
+                     /gene="HRH3"
+                     /protein_id="XP_004282380.1"
+ORIGIN
+        1 cccggcgccg cgtgagccgg cggggccatg gagcgctccc cgcccgacgg accgctgaac
+       61 gcgtcggggg cgctggcagg cgaggcggcg gcggcggcgg cgggcggagc gcgcggcttc
+      121 tccaccgcct ggaccgcggt gctggcggcg ctcatggcgc tgctcatcgt ggccacggtg
+      181 ctgggcaacg cgctggtcat gctcgccttc gtggccgatt cgagcctccg cacgcagaac
+      241 aacttctttc tgctcaacct cgccatctcc gacttcctcg tgggggcatt ctgcatccca
+      301 ctgtacgtgc cctacgtgct gactggccgc tggccctttg gccggggcct ctgcaagctg
+      361 tggctggtgg tggactacct gctctgcacc tcttctgtct tcaatatcgt gctcatcagc
+      421 tatgaccgct tcctgtcggt cacccgagcc gtctcctacc gggcccagca gggcgacacg
+      481 cggcgggcag tgaggaagat ggtgctggtg tgggtgctgg ccttcctgct ctacggaccc
+      541 gccatcctca gctgggagta cctgtcgggg ggcagctcca tccccgaggg ccactgctac
+      601 gccgagttct tctacaactg gtacttcctc atcacggcct ccaccctcga gttcttcacg
+      661 cccttcctca gcgtcacctt cttcaacctc agcatctacc tgaacattca gagacgcacc
+      721 cgtgtccggc tggacggggc ccgcgaggcg gcggcctcgg agcttccccc cgaggcccag
+      781 ccctccccgc cgccggccgc gcccagctgc tgggattgct ggcaaaaggg gtgtggggag
+      841 gccgtgccgc tgcacaggtg cggggttggg ggtggcgagg cagccccagg caccggggcc
+      901 gaggctgggg atgcggtcct cgggggcggc agcgggggag gtgccgtggc ctcgcccacc
+      961 tccagctctg gcagctcctc gaggggcgcc gagcggccgc gctcactcaa gcggggctcc
+     1021 aagccatccg tgtcctcggc gtccttggag aagcgcacga agatggtgtc ccagagcatc
+     1081 gcccagcgct tccggctctc gcgggacaag aaggtggcca agtcgctggc cgtcatcgtg
+     1141 agcacctttg ggctctgctg ggccccgtac acactcctca tgatcacccg ggccgcctgc
+     1201 cacggcccct gcgtccccga ctactggtat gagatgtcct tctggctgct gtgggccaac
+     1261 tcggccgtca accctgtcct ctacccgctg tgccactaca gcttccgccg ggcctttacc
+     1321 aagctgctct gcccacagaa gctcaaggtg cagcccccca gctccctgga gcactgctgg
+     1381 aagtgag
+//

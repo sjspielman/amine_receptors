@@ -1,0 +1,93 @@
+LOCUS       XM_001514118            1638 bp    DNA              MAM 29-APR-2014
+DEFINITION  PREDICTED: Ornithorhynchus anatinus 5-hydroxytryptamine (serotonin)
+            receptor 2A, G protein-coupled (HTR2A), mRNA.
+ACCESSION   XM_001514118
+VERSION     XM_001514118.2  GI:620964386
+DBLINK      BioProject: PRJNA19039
+KEYWORDS    RefSeq.
+SOURCE      Ornithorhynchus anatinus (platypus)
+  ORGANISM  Ornithorhynchus anatinus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Monotremata; Ornithorhynchidae; Ornithorhynchus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001794255.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Apr 29, 2014 this sequence version replaced gi:149635917.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Ornithorhynchus anatinus Annotation
+            Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1638
+                     /mol_type="mRNA"
+                     /country="Australia: Upper Barnard River on Glen Rock
+                     Station, New South Wales"
+                     /isolate="Glennie"
+                     /sex="female"
+                     /db_xref="taxon:9258"
+                     /tissue_type="liver; lung; brain; spleen"
+                     /organism="Ornithorhynchus anatinus"
+                     /chromosome="Unknown"
+     gene            1..1638
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 20 Proteins, and 86% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /db_xref="GeneID:100083607"
+                     /gene="HTR2A"
+     CDS             37..1443
+                     /product="5-hydroxytryptamine receptor 2A"
+                     /codon_start="1"
+                     /db_xref="GI:149635918"
+                     /db_xref="GeneID:100083607"
+                     /translation="MDILCEEESTVTQTANSLIQLNHDRSLLKADFISGEANISDVLNW
+                     TVDAENLTNVSCEGNLTPPCNVLFHVQEKNWPALLTAVVIILTIAGNILVIMAVSLEKK
+                     LQNATNYFLMSLAIADMLLGFFVMPVSMLNILYGYNWPFPTKLCPVWIYMDVLFSTASI
+                     MHLCAISLDRYIAIRNPIQHSRFNSRTKAFVKIIAVWTISVGISMPVPVFGLQDDSKVF
+                     KEGNCFLADENFVLIGSFVAFFIPLTIMVITYFLTIKSLQKEATLCVNDTGSKTKLASF
+                     SFLPQSSLSSEKLFQRSLHRDLGLSGRRTMQSISNEQKASKVLGIVFFLFVVMWCPFFI
+                     TNVLAVICKESCNENAMGVLLNIFVWIGYLSSAVNPLVYTLFNKTYRSAFARYIQCQYK
+                     EEKKPLQLILVNTIPALAYNSSQLQLAQMKSLKKEGKMKDNSKVSRGKHHCANASKTSL
+                     GLAEDTVSSV"
+                     /gene="HTR2A"
+                     /protein_id="XP_001514168.1"
+ORIGIN
+        1 tccacaattc catctccacc aagctcaggc ttagaaatgg atattctttg tgaagaggag
+       61 agtactgtga cccaaactgc caactcccta atccaactaa atcatgaccg aagcctgctc
+      121 aaggcagatt ttatctctgg agaggctaac atttctgatg ttcttaactg gacggtggat
+      181 gctgaaaacc taactaacgt ttcatgtgaa ggaaatctca ctccaccctg taacgtgctc
+      241 tttcatgtcc aagagaaaaa ctggccagcc ctgctgacgg ctgtggtgat cattttaact
+      301 attgctggaa acatcctcgt catcatggca gtctcactgg agaaaaagct gcagaatgcc
+      361 accaattatt ttctgatgtc ccttgccata gcagatatgc tgttgggttt ctttgttatg
+      421 ccagtgtcaa tgttaaacat tctgtatgga tacaactggc ctttccccac caagctctgt
+      481 ccagtgtgga tatatatgga cgtgcttttc tccacggcct ccatcatgca cctctgtgca
+      541 atctcgctgg atcgctacat tgccatccga aatcccattc agcacagccg cttcaactcg
+      601 agaaccaagg cgtttgtgaa aataatagct gtttggacca tatccgtggg tatttcaatg
+      661 ccagtgccag tatttggact gcaagatgat tccaaagtct ttaaagaagg aaactgcttc
+      721 cttgcagatg agaactttgt tctgattggc tctttcgtgg ctttcttcat tcccctaact
+      781 attatggtga tcacctactt tttaactata aagtcactcc agaaagaagc cactctgtgt
+      841 gtgaatgata ctggctcaaa gaccaaattg gcctcgttca gttttctccc tcaaagttcc
+      901 ctgtcttcag aaaaactctt tcagcggtcc ttgcacaggg atctaggact gtccgggcgg
+      961 agaactatgc agtctatcag taatgaacag aaagcgtcca aggtgctcgg cattgtcttc
+     1021 tttctgttcg tggtcatgtg gtgccccttc ttcatcacca acgtgctggc tgtcatctgc
+     1081 aaagagtcgt gtaacgaaaa tgccatggga gtgctcctga atatattcgt ctggatcggt
+     1141 tacctttcct cagccgtcaa cccactggtc tacacactct tcaataaaac ctaccgctcg
+     1201 gctttcgccc gctacatcca gtgccagtac aaagaagaga agaagccttt gcagttgatc
+     1261 ttggtgaaca ctatccctgc cttggcctac aactctagtc agctccagct ggcacagatg
+     1321 aaaagcctca aaaaagaggg caagatgaag gacaattcta aggttagcag aggaaaacat
+     1381 cattgcgcta atgcgtcaaa gacgagtctc ggtctggcgg aggacacggt cagctctgtg
+     1441 tgattgcact ggaccactta tggctactat ggcaaccgtg atgtggcaca tcaagcaacc
+     1501 gacaagctgg gtgacttggg aaagccaggc aggtccagta gaactgtcag cataacacaa
+     1561 gcctcatgtt cttctgccaa tgaaaaccag ggttaaatgc cacaaatgtg cacttttttt
+     1621 gaaatgttca taaggtac
+//

@@ -1,0 +1,124 @@
+LOCUS       NP_001166222             365 aa                     ROD 12-MAR-2014
+DEFINITION  5-hydroxytryptamine receptor 1E [Cavia porcellus].
+ACCESSION   NP_001166222
+VERSION     NP_001166222.1  GI:289629278
+KEYWORDS    RefSeq.
+SOURCE      Cavia porcellus (domestic guinea pig)
+  ORGANISM  Cavia porcellus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Caviidae; Cavia.
+REFERENCE   1  (residues 1 to 365)
+  AUTHORS   Klein MT and Teitler M.
+  TITLE     Distribution of 5-ht(1E) receptors in the mammalian brain and
+            cerebral vasculature: an immunohistochemical and pharmacological
+            study
+  JOURNAL   Br. J. Pharmacol. 166 (4), 1290-1302 (2012)
+   PUBMED   22260342
+  REMARK    GeneRIF: Identification of Htr1e in olfactory bulb glomeruli and
+            dentate gyrus molecular layer suggests critical role for Htr1e in
+            functions associated with these brain regions in this species.
+REFERENCE   2  (residues 1 to 365)
+  AUTHORS   Bai F, Yin T, Johnstone EM, Su C, Varga G, Little SP and Nelson DL.
+  TITLE     Molecular cloning and pharmacological characterization of the guinea
+            pig 5-HT1E receptor
+  JOURNAL   Eur. J. Pharmacol. 484 (2-3), 127-139 (2004)
+   PUBMED   14744596
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AY344643.1.
+            ##Evidence-Data-START##
+            Transcript exon combination :: AY344643.1 [ECO:0000332]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..365
+                     /db_xref="taxon:10141"
+                     /organism="Cavia porcellus"
+     Protein         1..365
+                     /note="5-HT1E; 5-HT-1E; serotonin receptor 1E"
+                     /product="5-hydroxytryptamine receptor 1E"
+                     /calculated_mol_wt="41522"
+     Site            23..47
+                     /note="propagated from UniProtKB/Swiss-Prot (Q6VB83.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          30..>225
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          45..344
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Site            60..82
+                     /note="propagated from UniProtKB/Swiss-Prot (Q6VB83.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            97..118
+                     /note="propagated from UniProtKB/Swiss-Prot (Q6VB83.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          98..107
+                     /note="propagated from UniProtKB/Swiss-Prot (Q6VB83.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Agonist binding (By similarity)"
+     Region          119..121
+                     /note="propagated from UniProtKB/Swiss-Prot (Q6VB83.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="DRY motif, important for ligand-induced
+                     conformation changes (By similarity)"
+     Site            139..160
+                     /note="propagated from UniProtKB/Swiss-Prot (Q6VB83.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            180..202
+                     /note="propagated from UniProtKB/Swiss-Prot (Q6VB83.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          <292..333
+                     /note="Protein of unknown function (DUF3353); pfam11833"
+                     /db_xref="CDD:256656"
+                     /region_name="DUF3353"
+     Site            292..314
+                     /note="propagated from UniProtKB/Swiss-Prot (Q6VB83.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          304..308
+                     /note="propagated from UniProtKB/Swiss-Prot (Q6VB83.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Agonist binding (By similarity)"
+     Site            325..347
+                     /note="propagated from UniProtKB/Swiss-Prot (Q6VB83.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          340..344
+                     /note="propagated from UniProtKB/Swiss-Prot (Q6VB83.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="NPxxY motif, important for ligand-induced
+                     conformation changes and signaling (By similarity)"
+     CDS             1..365
+                     /coded_by="NM_001172751.1:1..1098"
+                     /gene="Htr1e"
+                     /gene_synonym="5HT1E"
+                     /db_xref="GeneID:100379275"
+ORIGIN
+        1 mnitncttda smvvrpktvt ekmlicmtlv iittltmlln savimaictt kklhqpanyl
+       61 icslavtdll vavlvmplsi myivmdswrl gyficevwls vdmtcctcsi lhlcvialdr
+      121 ywaitnaiey arkrtakrag lmiltvwtis ifismpplfw rshrqlsppp sqctiqhdhv
+      181 iytiystfga fyipltlili lyyriyhaak slyqkrgssr hlsnrstdsq nsfasckltq
+      241 tfcvsdfsts dpttefekih asirippfdn dldhpgerqq isstrerkaa rilglilgaf
+      301 ilswlpffik elivglsiyt vssevgdflt wlgyvnslin pllytsfned fklafkklir
+      361 creht
+//

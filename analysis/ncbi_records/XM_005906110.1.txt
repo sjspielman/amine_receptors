@@ -1,0 +1,95 @@
+LOCUS       XM_005906110            1340 bp    DNA              MAM 01-NOV-2013
+DEFINITION  PREDICTED: Bos mutus adrenoceptor beta 3 (ADRB3), mRNA.
+ACCESSION   XM_005906110
+VERSION     XM_005906110.1  GI:555988668
+DBLINK      BioProject: PRJNA221623
+KEYWORDS    RefSeq.
+SOURCE      Bos mutus
+  ORGANISM  Bos mutus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005395165.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Bos grunniens mutus Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1340
+                     /mol_type="mRNA"
+                     /country="China"
+                     /isolate="yakQH1"
+                     /sex="female"
+                     /db_xref="taxon:72004"
+                     /organism="Bos mutus"
+                     /chromosome="Unknown"
+     gene            1..1340
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 9 mRNAs, 47 Proteins"
+                     /db_xref="GeneID:102279772"
+                     /gene="ADRB3"
+     CDS             108..1340
+                     /product="beta-3 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:555988669"
+                     /db_xref="GeneID:102279772"
+                     /translation="MPPPLSRVSWETLSLIPSRPTRDAGMAPWPPGNSSLTPWPDIPTL
+                     APNTANASGLPGVPWAVALAGALLALAVLATVGGNLLVIVAIARTPRLQTMTNVFVTSL
+                     ATADLVVGLLVVPPGATLALTGHWPLGVTGCELWTSVDVLCVTASIETLCALAVDRYLA
+                     VTNPLRYGALVTKRRALAAVVLVWVVSAAVSFAPIMSKWWRIGADAEAQRCHSNPRCCT
+                     FASNMPYALLSSSVSFYLPLLVMLFVYARVFVVAMRQLRLLRRELGRFPPEESPPAPSR
+                     SGSPGLAGPCASPAGVPSYGRRPARLLPLREHRALRTLGLIMGTFTLCWLPFFVVNVVR
+                     ALGGPSLVSGPTFLALNWLGYANSAFNPLIYCRSPDFRSASRRLPCRCRPGGPAGPMQT
+                     PQLDGASCGLS"
+                     /gene="ADRB3"
+                     /protein_id="XP_005906172.1"
+     STS             338..415
+                     /db_xref="UniSTS:271495"
+                     /standard_name="PMC164531P1"
+                     /gene="ADRB3"
+     STS             343..706
+                     /db_xref="UniSTS:506234"
+                     /standard_name="ADRB3"
+                     /gene="ADRB3"
+     STS             528..1100
+                     /db_xref="UniSTS:528345"
+                     /standard_name="MARC_68773-68774:1209743884:2"
+                     /gene="ADRB3"
+ORIGIN
+        1 ccccagcggt ggcacccaag gggtgggggt ggcggggaga ctgtgcgttc tcggccggtc
+       61 aaactgggga agatggccca ggccagggaa atcgctccca cgccccgatg cccccgccgc
+      121 tgagcagggt gagctgggag accctttccc tcattccttc ccgccccacg cgcgacgcgg
+      181 ggatggctcc gtggcctcct gggaacagct ctctgacccc gtggccagat atccccaccc
+      241 tggcacccaa tactgccaac gcgagtgggc tgccaggggt gccctgggcg gtggcgctgg
+      301 cgggcgcgct gttggcgcta gcggtgctgg ccaccgtggg aggcaacctg ctggtaatcg
+      361 tggccatcgc ccggacgccg agactccaga ccatgaccaa cgtgttcgtg acttcgctgg
+      421 ccacagccga cctggtggtg gggctcctgg tcgtgccccc gggggccacg ttggcgctga
+      481 ccggccactg gcccctgggc gtcaccggtt gcgagctgtg gacctcggtg gacgtgctgt
+      541 gtgtgaccgc cagcatcgaa accctgtgcg ccctggcggt ggaccgctac ctggccgtga
+      601 ccaacccgct gcgctacggc gcgctggtca ccaaacgccg cgccctagca gccgtggtcc
+      661 tggtgtgggt cgtgtccgcc gcggtgtcgt ttgcgcccat catgagcaaa tggtggcgca
+      721 tcggggccga tgccgaggcg cagcgttgcc actccaaccc gcgctgctgc accttcgcct
+      781 ccaacatgcc ctacgcgctg ctctcctcct cggtctcgtt ctatcttccg ctcctggtga
+      841 tgctcttcgt ctacgcacga gttttcgtgg tggccatgcg ccagctgcgc ttgctgcgcc
+      901 gggagctggg tcgcttcccg ccagaggagt ctccgccggc tccttctcgc tccggatccc
+      961 ctggcctggc ggggccgtgc gcctcgcccg caggggtgcc ctcctacggc cggcggccgg
+     1021 cgcgccttct gcctctgcgg gaacaccgcg ccctgcgcac cttggggctc atcatgggaa
+     1081 ccttcactct ctgctggttg cctttctttg tggtcaacgt ggtgcgcgcc ctcgggggcc
+     1141 cctctctggt gtccggcccc actttcctcg cccttaactg gctgggctat gccaactctg
+     1201 ctttcaaccc gctcatctac tgccgcagcc cggactttcg gagcgcctcc cgccgcctgc
+     1261 cgtgtcgctg ccggccgggg ggccccgctg gccccatgca gaccccacag ctcgacgggg
+     1321 cttcctgcgg actttcttag
+//

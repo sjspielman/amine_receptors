@@ -1,0 +1,102 @@
+LOCUS       XM_002746972            2251 bp    DNA              PRI 02-SEP-2014
+DEFINITION  PREDICTED: Callithrix jacchus trace amine associated receptor 1
+            (TAAR1), transcript variant X2, mRNA.
+ACCESSION   XM_002746972
+VERSION     XM_002746972.2  GI:675654388
+DBLINK      BioProject: PRJNA46205
+KEYWORDS    RefSeq.
+SOURCE      Callithrix jacchus (white-tufted-ear marmoset)
+  ORGANISM  Callithrix jacchus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003183404.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 2, 2014 this sequence version replaced gi:296199274.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Callithrix jacchus Annotation
+            Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2251
+                     /db_xref="taxon:9483"
+                     /mol_type="mRNA"
+                     /organism="Callithrix jacchus"
+                     /chromosome="4"
+     gene            1..2251
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 ESTs, 5 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 2 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:100385432"
+                     /gene="TAAR1"
+     CDS             638..1645
+                     /product="trace amine-associated receptor 1"
+                     /codon_start="1"
+                     /db_xref="GI:296199275"
+                     /db_xref="GeneID:100385432"
+                     /translation="MPFCYNLINISCVKNNWSNDVRASLYSLMVLIILTTLVGNLIVII
+                     SISHFKQLHTPTNWLIHSMATVDFLLGCLVMPYSMVRSVEHCWYFGEVFCKIHTSTDIM
+                     LSSASIFHLSFISIDRYYAVCDPLRYKARISILVICVMIFISWSVPAIFAFGMIFLELN
+                     FKGVEDIYYEHVHCRGGCSVFFSKISGVLAFMTSFCIPGSIMLCVYYRIYLTAKGQARS
+                     INDGNQKLQIGLEMKNGISRSKERKAAKTLGIVMGVFLVCWCPFFVCIVMDPFLHYTIP
+                     PALNDVLIWFGYLNSTFNPMVYSFFYPWFRKALKMILFGKIFQKDSSRCNLFLE"
+                     /gene="TAAR1"
+                     /protein_id="XP_002747018.1"
+     STS             826..943
+                     /db_xref="UniSTS:273333"
+                     /standard_name="PMC55357P1"
+                     /gene="TAAR1"
+ORIGIN
+        1 acttaaaaaa ataaagagat cgtatgcctt gcccacagcc catatggaaa cagcttctag
+       61 ggcctctcac ctcagtgctc tttgcaccat gccacttcac ttcttacaat agcctttagt
+      121 ctgtatatca aacatcttta ataagtgggg ccacaatatc atacttcact agtaagtgcc
+      181 attatttaag acagcatata ttcttatatg aaaatttaaa ggttaatctt ttaaaattga
+      241 tctcacgttg gttttctctg caatgcagag aaagactgga ctggtataaa acaaaatgga
+      301 ctagcaattg agaccacagc tcatattcaa gctttaataa tttgtgaatt aaacttcaat
+      361 ttctttccag taaaatgaaa ctaataaagc atgtcgtgcc ttccatacaa aaaaatgatg
+      421 ttggtattat aaatttcaag taaaagggta actgaaataa tgcatggaat atatgtagaa
+      481 gtactttgca agctggaaat aaagctatga ttctgggaaa ggtatgtgca gataaaaatt
+      541 aaaaaagaca aggaactgca acctgattat gaatttggaa aaaagattac tcaacacaca
+      601 aagggaaaag taaactggtt gacagccctc tggaaagatg cccttttgct acaatctaat
+      661 taatatttcc tgtgtgaaaa acaactggtc aaatgatgtc cgtgcttccc tgtacagttt
+      721 aatggtgctc ataattctga ccacactggt tggcaatctg atagttatta tttctatatc
+      781 acacttcaag caactccaca ctccgactaa ttggctcatt cattccatgg ccactgtgga
+      841 ctttcttctg gggtgcttgg tcatgcctta cagcatggtg agatctgttg agcattgttg
+      901 gtattttgga gaagtcttct gtaaaattca caccagcacc gacattatgc tgagctcagc
+      961 atccattttc cacttgtctt tcatctccat tgaccgctac tatgctgtgt gtgatccatt
+     1021 gagatataaa gccaggatca gtatcttggt tatctgtgtg atgatcttca ttagttggag
+     1081 tgtccccgct atttttgcat ttggaatgat ctttctggag ctaaacttca aaggagttga
+     1141 agacatatat tacgaacatg ttcactgcag aggaggttgc tctgtcttct ttagcaaaat
+     1201 atctggggta ctggccttta tgacgtcttt ctgcatacct ggatctatta tgttatgtgt
+     1261 ctattacaga atatatctta cagctaaagg gcaggcaaga tcaattaatg atggcaatca
+     1321 gaagctccaa attggattgg aaatgaaaaa tggaatttca cggagcaaag aaaggaaagc
+     1381 tgcgaagaca ctggggattg tgatgggagt tttcctggtg tgctggtgcc ctttctttgt
+     1441 ctgtatagtg atggaccctt ttctgcacta cactattcca cctgctttga acgatgtatt
+     1501 gatttggttt ggctacttga actctacatt taatccaatg gtttattcat ttttctatcc
+     1561 ctggtttaga aaagcactga agatgattct gtttggtaaa attttccaaa aagattcatc
+     1621 taggtgcaat ttatttttgg aatagaatta gtggaattat tatattttac tgttttgcaa
+     1681 atcagttgat gatcgtattt atgaacacaa cataaccaac cccatgcacc aaccacatgg
+     1741 atttttattc agttacttga gtcaaagtat gtatggtgag ttaaattatg atgcttatag
+     1801 gtaatttcct atttgggaca tagcaggtat aatcttttcc attcttactg ccttattcca
+     1861 gctttgcctt aaatccagca tttaagggac taccttttat ataacttctc ctgcccttag
+     1921 aagaactgcc atgagtttat agtggtacct tagtcagcta ttcagtggtg gaaacgataa
+     1981 ggttgaattt gagaatgcaa attagaatga ttttgtcaga tatttataca cgtccttgtc
+     2041 acatatatgt atatgtcttt tgtaaaatca actaaaagta cacacattaa atgctactgc
+     2101 taaataattg ttgacataat ttatttatat tgttaatata tataccaatc cttaaatatc
+     2161 ttgatcttca tattttaaag tatgtttttc tgattcttgt acttctaaga aatttgtaaa
+     2221 ataaaagaaa atataaaaat aaaatatata t
+//

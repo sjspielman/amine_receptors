@@ -1,0 +1,86 @@
+LOCUS       XM_004374847            1395 bp    DNA              MAM 27-MAR-2013
+DEFINITION  PREDICTED: Trichechus manatus latirostris adrenoceptor alpha 2A
+            (ADRA2A), mRNA.
+ACCESSION   XM_004374847
+VERSION     XM_004374847.1  GI:471368760
+DBLINK      BioProject: PRJNA189960
+KEYWORDS    RefSeq.
+SOURCE      Trichechus manatus latirostris (Florida manatee)
+  ORGANISM  Trichechus manatus latirostris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Afrotheria; Sirenia; Trichechidae; Trichechus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004443967.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Trichechus manatus latirostris Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1395
+                     /sub_species="latirostris"
+                     /mol_type="mRNA"
+                     /isolate="Lorelei"
+                     /sex="female"
+                     /db_xref="taxon:127582"
+                     /organism="Trichechus manatus latirostris"
+                     /chromosome="Unknown"
+     gene            1..1395
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 17 Proteins"
+                     /db_xref="GeneID:101343943"
+                     /gene="ADRA2A"
+     CDS             1..1395
+                     /product="alpha-2A adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:471368761"
+                     /db_xref="GeneID:101343943"
+                     /translation="MFRQEQPLAEGSFAPMGSLQPDAGNSSWNGTEAPGGGVRATPYSL
+                     QVTLTLVCLAGLLMLLTVFGNVLVIIAVFTSRALKAPQNLFLVSLASADILVATLVIPF
+                     SLANEVMGYWYFGKAWCEIYLALDVLFCTSSIVHLCAISLDRYWSITQAIEYNLKRTPR
+                     RIKAIIVTVWVISAVISFPPLISFEKGGRGGPQPAVPRCEINDQKWYVISSSIGSFFAP
+                     CLIMILVYVRIYQIAKRRTRVPPSRRGPDAGAAPPGGAERRLNGMGPERGAGPTGAENE
+                     PLPVQLNGAPGEPSPVGPRDAEALDLEESSSSEHAERPPGPRRPKRGPRANGKARASQV
+                     KPGDSLPRRGPGVAGPGAPAAGPGEDRGRGAKASRWRGRQNREKRFTFVLAVVIGVFVV
+                     CWFPFFFTYTLTAVGCFVPPTLFKVFFWCGYCNSSLNPVIYTIFNHDFRRAFKKILCRG
+                     DMKRIV"
+                     /gene="ADRA2A"
+                     /protein_id="XP_004374904.1"
+     STS             443..567
+                     /db_xref="UniSTS:266590"
+                     /standard_name="ADRA2A"
+                     /gene="ADRA2A"
+ORIGIN
+        1 atgttccgcc aggagcagcc gctggctgag ggcagcttcg cgcccatggg ctccctgcag
+       61 ccggacgctg gcaactcgag ctggaacggg accgaggcgc cggggggcgg tgttcgggcc
+      121 accccttact ctctgcaggt gacgctgacg ctggtgtgcc tggccggcct gctcatgctg
+      181 ctcaccgtgt ttggcaacgt gctcgtcatc atcgcagtgt tcacgagccg cgcgctcaag
+      241 gcgcctcaga accttttcct ggtgtcgctg gcctcagccg acatcctggt ggccacgctc
+      301 gtcatcccct tctcgctggc caacgaggtc atgggctact ggtactttgg caaggcatgg
+      361 tgcgaaatct acctggcgct cgacgtgctc ttctgcacgt cgtccatcgt acacctgtgc
+      421 gccatcagcc tagaccgcta ctggtccatc acgcaagcca tcgagtacaa cctgaagcgc
+      481 acaccgcgcc gcatcaaggc catcatcgtc accgtgtggg tcatctcggc cgtcatctcc
+      541 ttcccgccgc tcatctcctt cgagaagggc ggccgcggcg gcccgcagcc cgcggtgccg
+      601 cgctgcgaaa tcaatgacca gaagtggtat gtcatctcat ctagcatcgg ctccttcttc
+      661 gcgccctgcc tcatcatgat cctggtctac gtgcgcatct accagattgc caagcgccgc
+      721 acccgcgtgc cacccagccg ccgaggcccg gacgccggtg ccgcgccgcc ggggggcgcc
+      781 gagcgcaggc tcaacggcat gggcccagag cgcggcgctg gccctacagg cgccgagaac
+      841 gaaccgctgc ccgtccagct caacggcgct ccgggggagc cctcgccggt cgggccgcgc
+      901 gacgccgaag cgctggacct ggaggagagc tcctcgtccg agcacgccga gcggcccccg
+      961 ggaccccgca ggcccaagcg tgggccccgg gccaacggca aggcccgggc gagccaggtt
+     1021 aagcctgggg acagcctgcc gcggcgcggg ccgggagtgg cggggcccgg ggcaccggca
+     1081 gccgggcccg gggaggatcg cggcagaggc gccaaggcgt cgcgctggcg cgggcggcag
+     1141 aaccgcgaga agcgcttcac gttcgtgctg gccgtggtca tcggcgtgtt cgtggtgtgc
+     1201 tggttcccct tcttcttcac ctacacgctc actgcggtcg gctgctttgt gcctcccacg
+     1261 ctcttcaagg tcttcttctg gtgcggctac tgcaacagct cgctgaaccc ggtcatctac
+     1321 accatcttca accacgactt ccgccgcgcc ttcaagaaga tcctctgccg gggggacatg
+     1381 aagcggatcg tgtga
+//

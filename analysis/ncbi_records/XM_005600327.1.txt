@@ -1,0 +1,94 @@
+LOCUS       XM_005600327            1644 bp    DNA              MAM 22-SEP-2013
+DEFINITION  PREDICTED: Equus caballus histamine receptor H1 (HRH1), transcript
+            variant X1, mRNA.
+ACCESSION   XM_005600327
+VERSION     XM_005600327.1  GI:545187729
+DBLINK      BioProject: PRJNA19129
+KEYWORDS    RefSeq.
+SOURCE      Equus caballus (horse)
+  ORGANISM  Equus caballus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Perissodactyla; Equidae; Equus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001867380.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Equus caballus Annotation Release
+            101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1644
+                     /mol_type="mRNA"
+                     /breed="thoroughbred"
+                     /isolate="Twilight"
+                     /sex="female"
+                     /db_xref="taxon:9796"
+                     /organism="Equus caballus"
+                     /chromosome="16"
+     gene            1..1644
+                     /note="histamine receptor H1; Derived by automated
+                     computational analysis using gene prediction method:
+                     Gnomon. Supporting evidence includes similarity to: 2
+                     mRNAs, 10 Proteins, and 100% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 9 samples
+                     with support for all annotated introns"
+                     /db_xref="GeneID:100034110"
+                     /gene="HRH1"
+                     /gene_synonym="H1"
+     CDS             107..1567
+                     /product="histamine H1 receptor isoform X1"
+                     /codon_start="1"
+                     /gene_synonym="H1"
+                     /db_xref="GI:545187730"
+                     /db_xref="GeneID:100034110"
+                     /translation="MTCLNSSSDLEDKMCEGNKTTIASPQLMPLVVVLSTISLVTVALN
+                     LLVLYAVRSERKLHTVGNLYIVSLSVADLIVGAVVMPMNILYLFTSKWPLGRPLCLFWL
+                     SMDYVASTASIFSVFILCIDRYRSVQQPLRYLRYRTKTRASATILGAWFLSFLWVIPIW
+                     GWHHFVSQTWNRQEDKCETDFYDVTWFKIMTAIINFYLPTLLMLWFYTKIYKAVRQHCQ
+                     HRDLINGSLPSFSDVKLKPENPKVDAKKSEESPWEVLKRKPKDAGGGSVLKLPSEDPKE
+                     MKSPAVFSQEEVGEVDNLHCFPLNTVQMHTEAEGNDRGYVAINQSQSQLEMGEQGLNMR
+                     EANEMPEDQILGDSPSFSQTDLDTPPEPASGKGKPRGGSNTGLDYIRFTWKRLRSHSRQ
+                     CVSGLHMNRERKAAKQLGFIMAAFILCWIPYFIFFMVIAFCKSCCNEHVHMFTIWLGYI
+                     NSTLNPLIYPLCNENFKKTFKKILHIRS"
+                     /gene="HRH1"
+                     /protein_id="XP_005600384.1"
+ORIGIN
+        1 tttacaggtg gggtaattgg agtcctggct gtttacccaa gctccaccca gcccagcaag
+       61 caagagccct gggaatgagc catagccgta ggctgctctt gtgccaatga cctgtctcaa
+      121 ttcctcctcc gacttagaag acaagatgtg tgaggggaac aagaccacca tagccagtcc
+      181 ccaactgatg cccctggtgg tagtcctgag caccatctcc ttggtcacag tggcgctcaa
+      241 cctgctggtc ctgtatgctg tgcggagcga gcggaagcta cacactgtgg ggaacctgta
+      301 catcgtcagc ctctcggtgg cagacctgat tgtgggagct gttgtcatgc ccatgaacat
+      361 cctctacctc ttcacgtcca agtggcccct gggccggcct ctctgcctct tttggctttc
+      421 catggactac gtggccagca cagcatccat tttcagtgtc ttcatcttgt gcattgatcg
+      481 ctatcgctcg gtccagcagc ccctcagata cttgaggtat cgtaccaaga cccgagcatc
+      541 agccaccatc ttgggggcct ggtttctgtc cttcctgtgg gttattccca tttggggctg
+      601 gcatcacttc gtgtcacaga cctggaatcg ccaggaggac aagtgtgaga cagacttcta
+      661 tgatgtcacc tggttcaaga tcatgaccgc catcatcaac ttctacctgc ccaccttgct
+      721 catgctatgg ttctacacca agatctacaa ggctgtacgg cagcactgtc agcaccgaga
+      781 tctcatcaac ggatccctcc cttccttctc tgacgttaag ctgaagccag agaatcccaa
+      841 ggtggatgct aagaaatcag aggagtctcc ctgggaggtt ctgaaaagga agccaaaaga
+      901 tgctggtggt ggatctgtct tgaagctacc atctgaagac ccaaaggaga tgaagtcccc
+      961 agctgttttc agccaagagg aggttggaga agtagacaac ctccactgct tcccacttaa
+     1021 cactgtgcag atgcacactg aggcagaggg gaatgacagg ggctacgtag ccatcaacca
+     1081 gagccagagc cagcttgaga tgggtgagca gggcctgaac atgcgtgagg ccaacgagat
+     1141 gccagaggat cagatcctgg gtgacagccc atccttctcc cagacagact tagacacccc
+     1201 cccagagcca gcatctggga aaggcaaacc gagaggtggg tctaacacag gcctggatta
+     1261 catcaggttc acttggaaga ggctccgctc acattcgaga cagtgcgtgt ctgggttgca
+     1321 catgaaccga gaacggaagg ctgccaaaca attggggttt atcatggcag ccttcatcct
+     1381 ttgctggatt ccttacttca tcttcttcat ggttattgcc ttctgtaaga gctgttgcaa
+     1441 tgagcatgta cacatgttca ccatctggct gggctacatt aactccacac tgaatcccct
+     1501 catttaccct ttgtgcaatg agaacttcaa gaagacgttc aagaaaatcc tgcacattcg
+     1561 ctcctaaggg agactagaag gggatgcaac aaagtgacat ttaggatgtc cctgaaggaa
+     1621 atggaggatg aaggcctgtg agct
+//

@@ -1,0 +1,158 @@
+LOCUS       XM_002763170            4716 bp    DNA              PRI 02-SEP-2014
+DEFINITION  PREDICTED: Callithrix jacchus 5-hydroxytryptamine (serotonin)
+            receptor 2C, G protein-coupled (HTR2C), mRNA.
+ACCESSION   XM_002763170
+VERSION     XM_002763170.2  GI:675769359
+DBLINK      BioProject: PRJNA46205
+KEYWORDS    RefSeq.
+SOURCE      Callithrix jacchus (white-tufted-ear marmoset)
+  ORGANISM  Callithrix jacchus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003185010.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 2, 2014 this sequence version replaced gi:296236206.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Callithrix jacchus Annotation
+            Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4716
+                     /db_xref="taxon:9483"
+                     /mol_type="mRNA"
+                     /organism="Callithrix jacchus"
+                     /chromosome="X"
+     gene            1..4716
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 23 ESTs, 12 Proteins, and
+                     99% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 1 sample with support for all
+                     annotated introns"
+                     /db_xref="GeneID:100387477"
+                     /gene="HTR2C"
+     CDS             703..2082
+                     /product="5-hydroxytryptamine receptor 2C"
+                     /codon_start="1"
+                     /db_xref="GI:296236207"
+                     /db_xref="GeneID:100387477"
+                     /translation="MVNLRNAVHSFLVHLIGLLVWQCDISVSPVAALVTDIFNTSDGGR
+                     FKFPDGVQNWPALAIVIIIIMTIGGNILVIMAVSMEKKLHNATNYFLMSLAIADMLVGL
+                     LVMPLSLLAILYDYVWPLPRYLCPVWISLDVLFSTASIMHLCAISLDRYVAIRNPIEHS
+                     RFNSRTKAIMKIAIVWAISIGVSVPIPVIGLRDEEKVFVNNTTCVLNDPNFVLIGSFVA
+                     FFIPLTIMVITYCLTIYVLRRQALMLLHGHTEEPPGLSLDFLKCCKRNTAEEENSANPN
+                     QDQNARRRKKKERRPRGTMQAINNERKASKVLGIVFFVFLIMWCPFFITNILSVLCEKS
+                     CNQKLMEKLLNVFVWIGYVCSGINPLVYTLFNKVYRRAFSNYLRCNYKIEKKPPVRQIP
+                     RVAATALSGRELNVNIYRHTNEPVVKKTNDNEPGIEMQVENLEELPVNPSSVVSERISS
+                     V"
+                     /gene="HTR2C"
+                     /protein_id="XP_002763216.1"
+     STS             749..852
+                     /db_xref="UniSTS:158200"
+                     /standard_name="GDB:603978"
+                     /gene="HTR2C"
+     STS             1055..1202
+                     /db_xref="UniSTS:498203"
+                     /standard_name="HTR2C"
+                     /gene="HTR2C"
+     STS             2409..2603
+                     /db_xref="UniSTS:78097"
+                     /standard_name="RH1706"
+                     /gene="HTR2C"
+     STS             4498..4637
+                     /db_xref="UniSTS:7048"
+                     /standard_name="RH11284"
+                     /gene="HTR2C"
+ORIGIN
+        1 gctaggcagg cggtctggtg ctcgctgagg acgcttcctt cctcagatgc accgattctg
+       61 cctttggagc cgctgaattg ctagccttgg ctgctccatt ggcctgcctt tccccttacc
+      121 tgctgattgc ttatgaactt ttcttctctc tgtctgtgct tcgttgtcgt cggagtcgtc
+      181 gagatcgtcg tggcgctcgt gtgatggtct tcgtccgttt agagtagtgt agttagttag
+      241 gggccaacga agaagaaaga agaagcgatt agtgcagaga tgctggaggt ggtcagttac
+      301 taagctagag taagatagtg gagagagaaa agccaaacct agccgggggg cgcacggtcg
+      361 cctaaaggag gtcgactcgc cggcgcttcc cattgcgccg agctccctcc gttcctctcc
+      421 ctccgccgag gcgtgaggtt gcggcgcgca gcgcagcgca gcgcaccgac tgccgcgggc
+      481 tccgctgggc gattgcagcc gagtccgttt ctcgtctagc tgccgccgcg gcgaccgctg
+      541 cttcatcttc ctcccggacg ctagtgggtt atcagctaac acccgcgagc atctataaca
+      601 ggccaagcaa cgccatcctt cgaatacaac taaaggatga atctaatctg ttaatttcct
+      661 cttctcaatt ttaaactttg gttgcttaag actgaagcaa tcatggtgaa cctgaggaac
+      721 gcggtgcatt cgttccttgt gcacctaatt ggcctattgg tttggcaatg cgatatttct
+      781 gtaagcccag tagctgctct agtaactgac attttcaata cctccgatgg tggacgcttc
+      841 aaattcccag acggggtaca aaactggcca gcacttgcaa tcgtcataat aataatcatg
+      901 acaataggtg gcaacatcct cgttatcatg gcagtgagca tggaaaagaa actgcacaat
+      961 gccaccaatt acttcttaat gtccctagcc attgcagata tgctagtggg actacttgtc
+     1021 atgcccctgt ctctccttgc aatactttat gattatgtct ggccactacc tagatatttg
+     1081 tgccccgtct ggatttcttt agatgtttta ttttcaacag cgtccatcat gcacctctgc
+     1141 gctatttcgc tggatcggta tgtagcaata cgtaatccta ttgagcatag ccgtttcaat
+     1201 tcgcggacta aggccatcat gaagattgct attgtttggg caatttctat aggtgtgtca
+     1261 gttcctatcc ctgtgattgg actgagggac gaagaaaagg tgttcgtgaa caacacaacg
+     1321 tgcgtgctca acgacccaaa tttcgttctt attgggtcct tcgtagcatt cttcatacca
+     1381 ctgaccatta tggtgattac gtattgcctg acgatctacg ttcttcgcag acaagctttg
+     1441 atgttactgc acggccacac cgaggaaccg cctggactaa gtctggattt cctgaagtgc
+     1501 tgcaagagga atacggccga ggaagagaac tctgcaaacc ctaaccaaga ccagaatgca
+     1561 cgccgaagaa agaagaagga gagacgtcct aggggcacca tgcaggcaat caacaatgaa
+     1621 agaaaagctt cgaaagtcct tgggattgtt ttctttgtgt ttctgatcat gtggtgccca
+     1681 tttttcatta ccaacattct gtcggttctt tgtgagaagt cctgtaacca aaagctcatg
+     1741 gaaaagcttc tgaatgtgtt tgtttggatt ggttatgttt gttcaggaat caatcctctg
+     1801 gtgtacactc tcttcaacaa agtttaccga agggcattct ccaactattt gcgctgcaat
+     1861 tataagatag agaaaaagcc tcctgtcagg cagattccaa gagttgccgc cactgctttg
+     1921 tctgggaggg agcttaatgt taacatttat cggcatacca atgaaccggt agtcaagaaa
+     1981 accaatgaca atgagcccgg tatagagatg caagttgaga atttagagga gttaccagta
+     2041 aatccctcca gtgtggttag tgaaaggatt agtagtgtat gagaaagaac agcacagtct
+     2101 tttcctacag tacaagctac acacgtagga aaattttctt ctttaatttt ccgttggtca
+     2161 taactaatgt aaatattgct gtctgaaaaa aaagttttta catatagctt tgcaaccttg
+     2221 tactttacaa tcatgcctac attactgaga tttagggttc tatatttact gtttataata
+     2281 gatggagact aacttatttt gattgtttga tgaatgaaat gtttactttt gccctccctc
+     2341 ccttctttcc ttcttccttc tttcctttct tccttccttt ctctctttct tttgtgtata
+     2401 tggcaacgtt catgttcatc tcaggtggca tttgcaggag accagaatga ggcacatgca
+     2461 gtggttttat ttcaaccaca cctaaattaa caaattaaat ggaaatttgt tccaggttaa
+     2521 cagtaaatat acactttaaa ttcctgctct gctcatctac acacataaac acagtaagat
+     2581 acgttctgct ttctgataca tctgtcagtg agtcaaaggc agaacttcgt cttgttgttc
+     2641 atataggggc aaaatttgac attgtcagaa tattgtgttg gtatttattg caatgtctgt
+     2701 ccccaaacat agtggtattt taacacagca gctggttaac caggactaca gaagtggaag
+     2761 gatgatgaga tacaatacac caaatagctt ttcacttctt aaagacaatg ttcaaattct
+     2821 gattattaca ataagcaaac tgaaattagt gttttcattc tggtccttag taaattccta
+     2881 actacatgat taaactggga aatgagatcc cagagttatt tcccaataca gattcaacat
+     2941 caattgggtt ttgacctcag catgctggaa attcgtgtgc tccacacaaa gtaaaattag
+     3001 tattttgagc cttattaaaa tattttctta attatggtac ctctatctat aggacccaat
+     3061 ttagcagtcc atttttgagt aaaacttgta ttggaagtat agatggtaga aacttcggaa
+     3121 gttttacttg attaaggact acagaactgg gcccttagaa tgtgaaaaaa agtagttaaa
+     3181 aagatgctta taccaaactc tgaagataac agaaatacag agtttccatc tggattttaa
+     3241 acaaaattta tctcattttc agatccttcc aaactctcta gtgcaggaaa aggctgcagc
+     3301 taatttgtga aagtggcaag ctcttcattg cactgcaaag aagtttaaat ctttgttaaa
+     3361 atatagtgtt gtgttacaat aagtgttggc catcgtttca ttcgtaggcc tgctgctctc
+     3421 tacgaattca gtaccatttt aatagtttat aaactgtgaa aggttttcaa gcgttgctaa
+     3481 agtcaaacca ttcagtctat gctgcgtgca gagtatacaa gtgtttctag tgacagtatt
+     3541 tccatgtgtg accatttcac acaactgtgg ataaattttc gaagaattca tgatgctagt
+     3601 tcttatgctt gacagttact tacacacctg agagtgtgcc tctcagtatc ttaaaattgg
+     3661 tcaatgaaaa atctgaactt ctaaaagccc ttgtctgtgt tctcaacaca cagcatagat
+     3721 aaatccaata gtctgccaca ggagcagtgg gagagctgct gtatttgagg aaacttacac
+     3781 agtctctatt tgatttgcaa cactgccaaa catcagtcaa ttgcttgagc atgcccaaat
+     3841 ataacatgag agtcaagtct acctgccttg cctgttaggt ctgttgaagt gcatgttaaa
+     3901 ataattacat gaaacagaat gagatgattt aattcttact gaaatgaaaa tgtctgcaga
+     3961 aacacagcat gcatttagca tgagttctgc catacagatg gtgccctgca tgtatgccat
+     4021 gtatgttgca tgaatccatc gatttgtatt aaggtagggc agaacagctg ataaaagaag
+     4081 aactgaagaa aagccttcag catggttaca aagaccatgc attcagatct gaagtagtat
+     4141 gagtgttaga aaaaattgga aacatctgat ttctgaacta gcagggcaag ctcatagcac
+     4201 atgttttacc aagaaataaa acataaacca cagatttccg aaagtactag caataagttg
+     4261 aatgataaaa gcttatagca catttgttaa tgattcttat gtcatcaagt agtagtactt
+     4321 aatagtaccc aacatggtaa ttatcctcaa agtgtgtgct attcgtaagt tctgtgcagt
+     4381 ttgatatgaa gcaaatatac tcatttggat ataaatctta tccttcaatg ttaaagctac
+     4441 aaacttttat aaatgtttta aagaagtcca tgtgataaat ataaaggtga tgaatttacc
+     4501 atcaaacaaa tcattttgat gtattattat atatgtatat ctgtgtaaga cacgtgcaac
+     4561 agactgcctt atattatttt ctgtaattcc tctcctttgt caaatggtat tttttgtgag
+     4621 tggttgcaaa gtgttgtctt attcctgatt cctgtatgtc attcactcca ggttttgtga
+     4681 gacttcctat taatttatta aatttattaa atgttg
+//

@@ -1,0 +1,66 @@
+LOCUS       XP_003228657             452 aa                     VRT 22-MAY-2014
+DEFINITION  PREDICTED: D(1) dopamine receptor-like [Anolis carolinensis].
+ACCESSION   XP_003228657
+VERSION     XP_003228657.1  GI:327287882
+DBLINK      BioProject: PRJNA60547
+KEYWORDS    RefSeq.
+SOURCE      Anolis carolinensis (green anole)
+  ORGANISM  Anolis carolinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata;
+            Toxicofera; Iguania; Iguanidae; Polychrotinae; Anolis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003339226.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Anolis carolinensis Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..452
+                     /db_xref="taxon:28377"
+                     /organism="Anolis carolinensis"
+                     /chromosome="Unknown"
+                     /country="USA"
+     Protein         1..452
+                     /product="D(1) dopamine receptor-like"
+                     /calculated_mol_wt="50820"
+     Region          61..>174
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          62..343
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <114..359
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srv;
+                     pfam10323"
+                     /db_xref="CDD:255906"
+                     /region_name="7TM_GPCR_Srv"
+     CDS             1..452
+                     /coded_by="XM_003228609.2:369..1727"
+                     /gene="LOC100566713"
+                     /db_xref="GeneID:100566713"
+ORIGIN
+        1 mdelylkgee reggtadman dslneegqve vdnselslrm vmasllllli lstllgntlv
+       61 cmavvkfrhl rskvtnffvi slavsdlfva vlvmpwkava evvgfwpfgv fcdiwvafdi
+      121 mcstasilnl ciismdrywa isspfryerk mtqrvafimi gvawmlsvli sfipvqlrwh
+      181 kaseilpahd mdanftwipg encdsslnrt yaissslisf yipvaimivt ytrifliaqr
+      241 qirrissler avehaqgcqs necphelslk nsfkketkvl ktlsvimgvf vfcwlpffvl
+      301 ncmvpfcnhh lqklgklpcv sdavfnifvw fgwansslnp iiyafnadfr kafatilgcg
+      361 hfcssntvet vnfsnelvsy hhdttcqkdl vtlsyphllp hatslqgedn dndhdfvfdk
+      421 vsqtscsnna avlsaivhve yetdaslekt sp
+//

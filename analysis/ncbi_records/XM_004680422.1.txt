@@ -1,0 +1,89 @@
+LOCUS       XM_004680422            1524 bp    DNA              MAM 30-MAY-2013
+DEFINITION  PREDICTED: Condylura cristata adrenoceptor beta 1 (ADRB1), mRNA.
+ACCESSION   XM_004680422
+VERSION     XM_004680422.1  GI:507940124
+DBLINK      BioProject: PRJNA193510
+KEYWORDS    RefSeq.
+SOURCE      Condylura cristata (star-nosed mole)
+  ORGANISM  Condylura cristata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Insectivora; Talpidae;
+            Condylura.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004567112.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Condylura cristata Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1524
+                     /mol_type="mRNA"
+                     /isolate="star-nosed mole 26May11"
+                     /sex="female"
+                     /db_xref="taxon:143302"
+                     /organism="Condylura cristata"
+                     /chromosome="Unknown"
+     gene            1..1524
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 6 Proteins"
+                     /db_xref="GeneID:101631191"
+                     /gene="ADRB1"
+     CDS             93..1319
+                     /product="beta-1 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:507940125"
+                     /db_xref="GeneID:101631191"
+                     /translation="MGLLMALIVLLIVVGNVLVIVAIAKTPRLQTLTNLFIISLASADL
+                     VMGLLVVPFGATIVVWGRWEYGSFFCELWTSVDVLCVTASIETLCVIALDRYLAITSPF
+                     RYQSLLTRARARALVCTVWAISALVSFLPILMHWWRAESDEASRCYNDPKCCDFVTNRA
+                     YAIASSVVSFYVPLCIMAFVYLRVFREAQKQVKKIDSCERRFLGGPARPPSPAPSPAPS
+                     PGSPRPAAAPLANGRSSKRRPSRLVALREQKALKTLGIIMGVFTLCWLPFFLANVVKAF
+                     HRDLVPDRLFVFFNWLGYANSAFNPIIYCRSPDFRKAFQRLLCCARRAACRSRATPGDR
+                     SRASGRPAVAGPPPSPGAPSDDDDDDDVGAAPPARLLEPWAGCNGGTADSDSSLDEPSR
+                     AGCSSESKV"
+                     /gene="ADRB1"
+                     /protein_id="XP_004680479.1"
+     STS             186..707
+                     /db_xref="UniSTS:256461"
+                     /standard_name="Adrb1"
+                     /gene="ADRB1"
+ORIGIN
+        1 cgcggctgct ggtgccggcg tcgccgtccg cctcgtttct gaccccggcc agcgagagcg
+       61 ccgcgtcgct gtcgcagcag tggacggccg gcatgggcct gctgatggcg ctcatcgtgc
+      121 tgctcatcgt ggtgggcaac gtgctggtga tcgtggccat cgccaagacg ccgcggctgc
+      181 agacgctcac caacctcttc atcatctccc tggccagcgc cgacctggtc atgggactgc
+      241 tggtggtccc cttcggggcc accatcgtgg tgtggggccg ctgggagtac ggctccttct
+      301 tctgcgagct ctggacctcc gtggacgtgc tgtgcgtgac ggccagcatc gagaccctgt
+      361 gtgtcatcgc cctggaccgc taccttgcca tcacgtcgcc cttccgatac cagagcctcc
+      421 tgacccgcgc gcgagcgcga gccctcgtgt gcaccgtgtg ggccatctcg gccctggtgt
+      481 ccttcctccc catcctcatg cactggtggc gggcggagag cgacgaggct agccgctgct
+      541 acaacgaccc caagtgttgc gatttcgtca ccaaccgggc ctacgccatc gcctcttcgg
+      601 tcgtgtcctt ctacgtgccc ctgtgcatca tggccttcgt gtacctgcgg gtgttccgcg
+      661 aggcccagaa gcaggtgaag aagatcgaca gctgcgagcg ccgcttcctc ggcggcccag
+      721 cgcggccgcc ctcgccggcg ccctcgccgg cgccctcgcc cgggtctccg cggccggccg
+      781 ccgcccctct agcgaatggg cgctccagca agcggcggcc ctcgcgcctg gtggccctgc
+      841 gggagcagaa ggcgctcaag acactgggca tcatcatggg cgtgttcacg ctctgctggc
+      901 tgcccttctt cctggccaac gtggtgaaag ccttccatcg cgacctggtg ccagatcgcc
+      961 tcttcgtctt cttcaactgg ctgggctacg ccaactcggc cttcaacccc atcatctact
+     1021 gccgcagccc cgactttcgc aaggccttcc agcgtctgct ctgctgcgct cgccgggcgg
+     1081 cttgcaggag ccgcgcgacc cccggcgacc ggtcgcgcgc ctcgggccgc ccggccgtgg
+     1141 ccgggccgcc gccgtcgccc ggagcccctt cggacgacga cgacgacgac gacgtcgggg
+     1201 ccgcgccccc cgcgcgcctg ctggagccct gggccggctg caacggcggg acggcggaca
+     1261 gcgactcgag cctggacgag cccagccgcg ctggctgctc ctccgaatcc aaggtctagc
+     1321 gccggtgccg ccacccacct gtccacctcc ctggccggga ctccccgctt ccaggggaag
+     1381 gagatctgtg tttactcaag agggaaagca ggtgaactcg aaacccacaa acctcgtccg
+     1441 attcatccga gacagaagcc agcgcagttg cacagacagg aaagtttggg gaggggtggg
+     1501 cgagtggctt actggttttt cttg
+//

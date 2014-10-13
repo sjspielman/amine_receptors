@@ -1,0 +1,86 @@
+LOCUS       XM_002200114            1515 bp    DNA              VRT 12-FEB-2013
+DEFINITION  PREDICTED: Taeniopygia guttata cholinergic receptor, muscarinic 4
+            (CHRM4), mRNA.
+ACCESSION   XM_002200114
+VERSION     XM_002200114.2  GI:449502277
+DBLINK      BioProject: PRJNA32405
+KEYWORDS    RefSeq.
+SOURCE      Taeniopygia guttata (zebra finch)
+  ORGANISM  Taeniopygia guttata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Estrildidae; Estrildinae; Taeniopygia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_002198757.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Feb 12, 2013 this sequence version replaced gi:224051097.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Taeniopygia guttata Annotation Release 101
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1515
+                     /mol_type="mRNA"
+                     /isolate="Black17"
+                     /sex="male"
+                     /db_xref="taxon:59729"
+                     /organism="Taeniopygia guttata"
+                     /chromosome="5"
+     gene            1..1515
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 2 ESTs, 11 Proteins"
+                     /db_xref="GeneID:100220023"
+                     /gene="CHRM4"
+     CDS             49..1515
+                     /product="muscarinic acetylcholine receptor M4"
+                     /codon_start="1"
+                     /db_xref="GI:224051098"
+                     /db_xref="GeneID:100220023"
+                     /translation="MHNLSAQPWQAKMANLTYDNFTLGNHSEVAVQPPTNYKTVELVFI
+                     ATVTGSLSLVTVVGNILVMLSIKVNRQLQTVNNYFLFSLACADLIIGVFSMNLYTVYII
+                     KGYWPLGAVVCDLWLALDYVVSNASVMNLLIISFDRYFCVTKPLTYPARRTTKMAGLMI
+                     AAAWILSFILWAPAILFWQFIVGKRTVPERECYIQFLSNPAVTFGTAIAAFYLPVVIMT
+                     VLYIHISLASRSRVRRHKPESRKERKAKSLRFLKGPVVKQNNNNSPKRAVEVKEEVRNG
+                     KVDDQPSAQTEATGHQEEKETSNESSTVSMTQTTKDKPTAEVLPAGQGQSPAKPRVNPT
+                     SKWSKIKIVTKQTGTECVTAIEIVPAKSGASNSLANSRPVNVARKFASIARSQVRKKRQ
+                     MAAREKKVTRTIFAILLAFILTWTPYNVMVLINTFCETCVPETVWSIGYWLCYVNSTIN
+                     PACYALCNATFKKTFKHLLMCQYRNIGTAR"
+                     /gene="CHRM4"
+                     /protein_id="XP_002200150.1"
+ORIGIN
+        1 gatttcatct tccagaagga gctgtttgct gtgagagaca cagatcccat gcacaacctc
+       61 tctgctcagc cctggcaggc aaagatggcc aacctgacct atgacaactt caccctgggc
+      121 aaccactctg aggtggctgt gcagcctccc accaactaca agacagtgga gctggttttc
+      181 attgctactg tcaccggctc gctcagtctt gtcaccgtgg tggggaacat cctggtgatg
+      241 ctctccatca aggtgaaccg ccagctccag actgtcaaca actatttcct cttcagcctg
+      301 gcctgcgcag acctcatcat cggggtcttc tccatgaacc tctacacggt ctatatcatc
+      361 aaaggctatt ggccactggg ggccgtggtg tgcgacctgt ggctggctct ggactatgtg
+      421 gtgagcaatg cctctgtcat gaacctgctc atcatcagct ttgaccggta cttctgtgtc
+      481 accaagcccc tgacataccc ggccaggagg accaccaaga tggcagggct aatgattgcg
+      541 gccgcatgga tattgtcctt cattctctgg gcccctgcca tcttgttctg gcagttcatt
+      601 gtgggcaaga ggacagtccc tgagagggaa tgctacatcc agttcctctc caaccccgcg
+      661 gtgacatttg gcacagccat tgctgctttt tacctgcccg tggtcatcat gacagtgctg
+      721 tacatccaca tctccctggc cagcagaagc agggtaagga ggcacaagcc tgagagcagg
+      781 aaagagagga aagccaagtc cctcagattc ctcaagggcc ccgtggtcaa acagaacaac
+      841 aataattctc ccaagagggc cgtggaggtg aaggaggagg tgaggaatgg gaaagtggat
+      901 gaccagccat ctgcacagac agaggccact ggccatcagg aggagaagga gacatccaat
+      961 gagtccagca ccgtcagcat gacccagacc acaaaagaca aacccacagc agaagtcttg
+     1021 ccagcagggc aaggacagag tccagccaag cctcgggtga acccaacttc caagtggtcc
+     1081 aagattaaga ttgtcaccaa gcagactggg accgaatgtg tcaccgccat tgagattgtc
+     1141 ccagccaagt caggtgcctc taactccctg gccaacagcc gcccagtcaa tgttgccagg
+     1201 aagtttgcca gcattgccag gagccaagta cggaagaagc gtcagatggc tgcccgagag
+     1261 aagaaagtca cccgaaccat atttgccatc ttgctggcct tcatactcac atggacaccc
+     1321 tacaacgtga tggtcctcat caacaccttc tgtgagacct gcgtgcccga aacagtgtgg
+     1381 tccatcggct actggctctg ctatgtcaac agcaccatca acccagcctg ctacgccctc
+     1441 tgcaatgcca ctttcaagaa aaccttcaag caccttctca tgtgccagta caggaacatt
+     1501 ggcacagcca gataa
+//

@@ -1,0 +1,82 @@
+LOCUS       XM_003509758            1179 bp    DNA              ROD 30-APR-2014
+DEFINITION  PREDICTED: Cricetulus griseus dopamine receptor D4 (Drd4), mRNA.
+ACCESSION   XM_003509758
+VERSION     XM_003509758.2  GI:625216394
+DBLINK      BioProject: PRJNA72741
+KEYWORDS    RefSeq.
+SOURCE      Cricetulus griseus (Chinese hamster)
+  ORGANISM  Cricetulus griseus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Cricetinae; Cricetulus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003614763.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Apr 30, 2014 this sequence version replaced gi:354495374.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Cricetulus griseus Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1179
+                     /cell_line="CHO-K1"
+                     /db_xref="taxon:10029"
+                     /mol_type="mRNA"
+                     /organism="Cricetulus griseus"
+                     /chromosome="Unknown"
+     gene            1..1179
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 Proteins, and 30% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:100751093"
+                     /gene="Drd4"
+     CDS             1..1164
+                     /product="D(4) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:354495375"
+                     /db_xref="GeneID:100751093"
+                     /translation="MGSNNAADGGGLLAGRGPETLGTGAGLGGAGVAALVGGLLLIVMV
+                     LAGNSLVCLSVASERTLQTPTNYFIVSLAAADLLLAILVLPLFVYSEVQGGVWLLSLRL
+                     CDTLMAMDVMLCTASIFNLCAISVDRFVAVTVPLSYNQQGQSQLLLIAATWLLSAAVAA
+                     PVLCGLNDVPGRDPAVCRLEDRDYVVYSSVCSFFLPCPLMLLLYWATFRSLRRWEAARH
+                     TKLHSRAPRRPSGPGPPVSDRAQGLFFPDCLPPSPSLLQSSSGSSQPEPDLFQRPCGPE
+                     RLLPDAAIPQAPAPPSRGRRGAKITGRERKAMRVLPVVVGAFLMCWTPFFVVHITRALC
+                     SACFVPSRLVSAVTWLGYVNSALNPIIYTVFNAEFRSVFRKSLRLCC"
+                     /gene="Drd4"
+                     /protein_id="XP_003509806.1"
+     STS             492..1021
+                     /db_xref="UniSTS:270336"
+                     /standard_name="PMC117557P1"
+                     /gene="Drd4"
+ORIGIN
+        1 atggggagca acaacgcggc cgatggcggt ggactgttgg cggggcgtgg gccagagacc
+       61 ctggggactg gcgccgggct tggaggcgcg ggtgtggcgg cgctggtggg gggcctgctg
+      121 ctcatcgtca tggtgttggc tgggaactca ctcgtgtgcc tgagcgtggc ctccgaacgc
+      181 accctgcaga cccccaccaa ctacttcatc gtgagcctgg cggctgcaga cctccttctc
+      241 gcaatactag tgctgccact ctttgtctac tccgaggtcc aaggtggcgt gtggctgctc
+      301 agcctccgcc tctgtgacac cctcatggcc atggatgtca tgctatgtac tgcctccatc
+      361 ttcaacctgt gcgccatcag cgtggacagg ttcgtggccg tgacggtgcc gctgagctac
+      421 aaccagcagg gccagagcca gctgctgctc atcgccgcca catggctgct gtccgctgcg
+      481 gtggctgcgc cggtgctgtg cggcctcaac gatgtgcccg gccgcgatcc agcggtgtgc
+      541 cgcctggagg accgcgacta cgtggtctac tcgtccgttt gctccttctt cctgccctgt
+      601 ccgctcatgc tactgcttta ctgggccact tttcgaagcc tgcgacgctg ggaggcagcc
+      661 cggcacacca agctgcacag ccgcgcaccg cgtagaccca gcggcccggg tccacccgtg
+      721 tcggaccgtg ctcagggtct cttcttccca gactgtctgc ccccttcacc cagcctcttg
+      781 cagagctcca gcggctccag ccagcctgag ccagatctct ttcagagacc ctgcggcccc
+      841 gagcgtctgc tcccggatgc agcgatccct caagcgcccg caccgccttc ccgcggaaga
+      901 aggggagcca agatcacggg aagggagcgc aaggcaatga gagtcctgcc ggtggtagtt
+      961 ggggcattcc tgatgtgttg gacgcctttc ttcgtggtgc acatcacgcg ggcgctgtgt
+     1021 tcggcttgtt tcgtgccctc tcgcttggtc agtgcggtca cctggctagg ctatgtcaac
+     1081 agtgccctca accccatcat ctacaccgtc ttcaatgccg agttccgaag cgtcttccgc
+     1141 aagtctctcc gtctctgctg ctgaaaaggc cactggtgt
+//

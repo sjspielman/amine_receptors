@@ -1,0 +1,67 @@
+LOCUS       XP_006129194             464 aa                     VRT 15-NOV-2013
+DEFINITION  PREDICTED: alpha-2B adrenergic receptor [Pelodiscus sinensis].
+ACCESSION   XP_006129194
+VERSION     XP_006129194.1  GI:558189887
+DBLINK      BioProject: PRJNA221645
+KEYWORDS    RefSeq.
+SOURCE      Pelodiscus sinensis (Chinese soft-shelled turtle)
+  ORGANISM  Pelodiscus sinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Testudines; Cryptodira;
+            Trionychoidea; Trionychidae; Pelodiscus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005856812.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pelodiscus sinensis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..464
+                     /country="Japan: Saga"
+                     /isolate="Daiwa-1"
+                     /sex="female"
+                     /db_xref="taxon:13735"
+                     /organism="Pelodiscus sinensis"
+                     /chromosome="Unknown"
+     Protein         1..464
+                     /product="alpha-2B adrenergic receptor"
+                     /calculated_mol_wt="51868"
+     Region          51..>182
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          65..440
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <242..332
+                     /note="Patatins and Phospholipases; cl11396"
+                     /db_xref="CDD:264349"
+                     /region_name="Patatin_and_cPLA2"
+     CDS             1..464
+                     /coded_by="XM_006129132.1:1..1395"
+                     /gene="ADRA2B"
+                     /db_xref="GeneID:102455491"
+ORIGIN
+        1 mgtqercsrr sldsralpge grwssagypw reqdepwsrk spasmaavit flilftifgn
+       61 slvilavlts raltaaqnlf lvslaaadil vatliipfsl anelmgywhf qktwceiyla
+      121 ldvlfctssi vhlcaisldr ywsvsraiey nakrtprrik ciilivwmia afislppliy
+      181 kgnkggheag rpqcklneea wyilsssigs ffapciimil vylriyliak hrtrhgstgk
+      241 kpqagekgaa rktaglsvet spqqpdarep sghqgrvede dppmtptcpa hrtsllslee
+      301 qppppvaspc qppvetkepp gsspperspr cslkqsngha qssargmetl atakgevllv
+      361 rrvktlsasp wkrkthlnre krftfvlavv igvfvlcwfp ffflyslgai cpelckvpes
+      421 vfqfffwigy cnstlnpiiy tifnqdfrka frkllcrqgp rtaw
+//

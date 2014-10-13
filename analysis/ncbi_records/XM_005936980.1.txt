@@ -1,0 +1,94 @@
+LOCUS       XM_005936980            1744 bp    DNA              VRT 30-OCT-2013
+DEFINITION  PREDICTED: Haplochromis burtoni muscarinic acetylcholine receptor
+            M4-like (LOC102307046), mRNA.
+ACCESSION   XM_005936980
+VERSION     XM_005936980.1  GI:554853663
+DBLINK      BioProject: PRJNA220165
+KEYWORDS    RefSeq.
+SOURCE      Haplochromis burtoni (Burton's mouthbrooder)
+  ORGANISM  Haplochromis burtoni
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Haplochromini;
+            Haplochromis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005179614.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Haplochromis burtoni Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1744
+                     /mol_type="mRNA"
+                     /isolate="A. burtoni ID#24_Hofmann"
+                     /sex="female"
+                     /db_xref="taxon:8153"
+                     /organism="Haplochromis burtoni"
+                     /chromosome="Unknown"
+     gene            1..1744
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 25 Proteins, and 95% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 3 samples with support for all annotated introns"
+                     /db_xref="GeneID:102307046"
+                     /gene="LOC102307046"
+     CDS             323..1744
+                     /product="muscarinic acetylcholine receptor M4-like"
+                     /codon_start="1"
+                     /db_xref="GI:554853664"
+                     /db_xref="GeneID:102307046"
+                     /translation="MCHYIPHLMTSGRRLHVNCCRWTDGQADSGKLSSSNIPGNMEPTP
+                     TLLRLSVNTSRVPPLSPPYPYSTAQLVLIAMVTTSLSILTVLGNTLVILSIKVNRHLQM
+                     VNNYFLLSLAVADLIIGLFSMNVYTLYKLQGRWLLGPVLCDAWLVLDYVASSASVLNLL
+                     LISLDRYFCLTRPLSYPVRRTGRMACLMIAAAWLLSFILWAPAILSWQTDKGGRVVPND
+                     QCYIRLLVSPAVTMGTTLPSFYLPAIIMIGLYSHLSVASCSRMSVLMPNQGALRASSPS
+                     LKDFLLRRRGMETRDPCSDLTPNQLQSCTPKTRRKKKTCRSPDDTAQAESSWRHWKHPS
+                     QTAVKPTGDEDHNKTESEDSFNADLHRAASAVFSSCPDISSHERRRQRVIARERRVTRT
+                     ILAIILVFVLTWTPYNVMAVVAAFCHCRIPDALWTTGYWLCYVNSTVNPGCYALCNVTF
+                     RKTFCSLLRCRCRRL"
+                     /gene="LOC102307046"
+                     /protein_id="XP_005937042.1"
+ORIGIN
+        1 cgcggctttt tgtccacttt aatgagctct gcataaatat ttggaggctg gctgagagtc
+       61 cgggctgctg ctcggagggt cgaggaactc ggatggcaga tctgtgactg cactgcagca
+      121 catttgtgtc agagcggagg ttaatcaaat aacatggagg aaaagagatg atattaggac
+      181 tgtaaataag cactctgaca gtgctggaag tttccgtttg cttctctgtg cctgctgcag
+      241 tgtcttcact aacggtaatg ctgggaggaa gatgaagtta aaacccgtgt ggtggtaact
+      301 gaagctgggc tcatcttctc taatgtgtca ttacatccca catctgatga cgtcaggacg
+      361 aaggctgcat gtaaactgct gcagatggac tgatggacag gcagacagcg gcaagctgag
+      421 cagctccaac atccccggaa acatggaacc gacgcctact ttgctccgcc tctccgtcaa
+      481 cacctcccgt gtgcctccgc tctcaccacc atatccgtac agcaccgctc agctggtcct
+      541 cattgccatg gttaccacct ccctcagcat cctcaccgtt ctcggcaaca ctttggtgat
+      601 cctgtccatc aaagtgaacc gtcacctgca gatggtcaac aattacttcc tgctgagcct
+      661 ggcggtggcc gacctgatca tcggcctgtt ctccatgaac gtgtacacgc tgtataagct
+      721 gcagggccgc tggctgctgg gccccgtgct atgtgacgcg tggctcgtcc ttgactacgt
+      781 ggcgagcagc gcctcggtcc tgaacctgct gctcatcagt ctggatcggt acttttgcct
+      841 gacgcgaccg ctcagctacc cagtgcggcg gacgggcagg atggcgtgcc tgatgattgc
+      901 tgccgcctgg ctgctttctt tcattctctg ggctcccgcc atcctgtcct ggcagacaga
+      961 taagggcggg cgcgtcgtcc ctaacgatca gtgttacatc cgtctacttg ttagccctgc
+     1021 tgttactatg gggacgactc ttccctcctt ttacctgccg gcaatcatca tgatcggcct
+     1081 ctacagccac ctgtcagttg ccagctgcag ccgaatgagt gtgctcatgc caaaccaggg
+     1141 tgctctcagg gcttccagtc cctccttaaa agacttcctg ctgaggcggc gaggcatgga
+     1201 gacgagagac ccctgctcag acctgacccc gaatcagctc cagtcctgca cgccaaagac
+     1261 cagaaggaag aagaagacat gtagaagtcc agatgataca gcgcaggccg agagtagctg
+     1321 gagacactgg aagcatccct ctcaaactgc tgtcaaaccc accggagacg aagaccacaa
+     1381 caagactgaa tctgaagact cattcaacgc tgacctccac agggcggcct cggcagtctt
+     1441 ctcctcctgc cccgacatca gctcacatga gaggaggcgg cagcgagtga tagcgaggga
+     1501 gaggagggtc acgaggacca tcctggccat catcctggta tttgtcctca cctggacgcc
+     1561 gtacaatgtc atggccgttg ttgctgcctt ctgccattgc cgcattcctg acgccctgtg
+     1621 gaccacagga tactggctgt gctacgtgaa cagcactgtc aaccccggct gctatgccct
+     1681 gtgcaacgtg accttcagaa aaaccttctg cagcctcctg cgctgccgct gcaggcggct
+     1741 gtaa
+//

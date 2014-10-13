@@ -1,0 +1,129 @@
+LOCUS       XM_004878103            3653 bp    DNA              ROD 18-JUN-2013
+DEFINITION  PREDICTED: Heterocephalus glaber 5-hydroxytryptamine (serotonin)
+            receptor 2C, G protein-coupled (Htr2c), mRNA.
+ACCESSION   XM_004878103
+VERSION     XM_004878103.1  GI:512815842
+DBLINK      BioProject: PRJNA167983
+KEYWORDS    RefSeq.
+SOURCE      Heterocephalus glaber (naked mole-rat)
+  ORGANISM  Heterocephalus glaber
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Bathyergidae; Heterocephalus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004629767.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Heterocephalus glaber Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3653
+                     /db_xref="taxon:10181"
+                     /mol_type="mRNA"
+                     /organism="Heterocephalus glaber"
+                     /chromosome="Unknown"
+                     /sex="male"
+     gene            1..3653
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 14 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 4 samples with support for all annotated introns"
+                     /db_xref="GeneID:101726296"
+                     /gene="Htr2c"
+     misc_feature    11..13
+                     /note="upstream in-frame stop codon"
+                     /gene="Htr2c"
+     CDS             62..1444
+                     /product="5-hydroxytryptamine receptor 2C-like"
+                     /codon_start="1"
+                     /db_xref="GI:512815843"
+                     /db_xref="GeneID:101726296"
+                     /translation="MVNLRNAVHSFLVHLIGLLVWQFDISVSPVAAMVTDIFNTSHGGR
+                     FKFPDGVQNWPALSIVSIIIMTIGGNILVIMAVSMEKKLHNATNYFLMSLAIADMLVGL
+                     LVMPLSLLAILYDYVWPLPRYLCPVWISLDVLFSTASIIHLCAISLDRYVAIRNPIEHS
+                     RFNSRTKAIMKIAIVWAISLGVSVPIPVIGLRDENKVFVDNTTCVLNDPNFVLIGSFVA
+                     FFIPLTIMVITYFLTIYVLRRQALMLLRGHIEEPLGPSLNFLKCCKRNTADEENPANPN
+                     QDGNPRRKKKKERRPRGTMQAINNEKKALKVLGIVFFVFLVMWCPFFITNILSVLCEKA
+                     CNQKLMEKLLNVFVWIGYVCSGINPLVYTLFNKIYRRAFSNYLRCNYKPHKKPPIRQIP
+                     LLRVAATPLSGRELNVNVYRHTNEPVIRKAKESEPGIEMQVENLELPVNPSNVVSERIS
+                     SV"
+                     /gene="Htr2c"
+                     /protein_id="XP_004878160.1"
+     STS             414..561
+                     /db_xref="UniSTS:498203"
+                     /standard_name="HTR2C"
+                     /gene="Htr2c"
+ORIGIN
+        1 ttcaatctgt taattttctc ttctcaattt taaactttgg ttgcttaaca ctgaagcaat
+       61 catggtgaac ctaaggaacg cggtgcattc attccttgtg cacctaattg gcctgttggt
+      121 ttggcaattt gatatttctg tgagtccagt agcagctatg gtaactgaca ttttcaatac
+      181 ctctcatggt ggacgcttta aatttccaga cggggtacaa aattggccag cactttcaat
+      241 cgtcagcata ataatcatga caataggtgg caacatactt gttatcatgg cagtaagcat
+      301 ggaaaagaaa ctgcacaatg ccaccaatta tttcttaatg tccctagcca ttgctgatat
+      361 gctagtggga ctacttgtca tgccactttc tctgcttgcg attctttatg attatgtctg
+      421 gccactacct agatatttgt gccccgtctg gatttcttta gatgttctat tttctactgc
+      481 gtccatcata cacctctgtg ccatatctct ggatcggtat gtagcaatac gtaatcctat
+      541 tgagcatagt cgtttcaatt cgcggactaa ggccatcatg aagattgcta ttgtttgggc
+      601 aatttctcta ggtgtgtcag tgcccatccc agtgattgga ctgagggatg aaaacaaagt
+      661 gttcgtggac aacaccacgt gtgtgctcaa tgacccgaac ttcgtgctga tcggatcctt
+      721 cgtggcgttc ttcatccctc tgacaatcat ggtgatcacg tacttcctga ccatctatgt
+      781 cctgcgcaga caagccctga tgttgctgcg cggccacatc gaggaaccac tgggcccaag
+      841 cctgaatttt ctgaagtgct gcaagaggaa taccgccgac gaagagaatc cagcaaaccc
+      901 caaccaagat gggaacccgc gccggaaaaa gaagaaagaa agacgtcctc ggggcaccat
+      961 gcaggctatc aacaacgaaa agaaagcatt gaaagtcctt ggcattgtgt tctttgtgtt
+     1021 tctggtcatg tggtgcccat tcttcattac caatattctc tcggttctgt gtgagaaagc
+     1081 ctgtaatcaa aagcttatgg aaaagcttct gaatgtgttt gtttggattg gctatgtttg
+     1141 ttcgggaatt aatcctctgg tgtacacgct cttcaacaaa atttaccgca gggctttctc
+     1201 caactatttg cgctgcaact ataagcccca caaaaagcct cctatcagac agataccgtt
+     1261 actgagagtt gccgctactc ctttatccgg aagggagctt aatgttaacg tttaccggca
+     1321 taccaatgag cccgtgatta ggaaagctaa ggagagcgag cctggtatag agatgcaagt
+     1381 ggagaattta gagctgccag taaacccttc caatgtggtt agtgaaagga ttagcagtgt
+     1441 gtaaaacaga gcaacacagt cttcttccag ggaagctaca ctggtaggaa aatctttaac
+     1501 tttctgtggg ttataactac tgtaaatatt gctgtctgaa acagtgtttt tatatatagc
+     1561 tttgcaaccc tgtactttac aatcatgctt acaatagtga gatttagggt tctatattta
+     1621 ctgtttataa tagatggaga ctaagttatt ttgagtcttt gatggataaa atgtttatgt
+     1681 ttttattccc ttccttcctt cttccctccc ccacaccatc tccctctctc tctcttcctc
+     1741 agaaagttaa tgttcatctc aggtggcatt tgccggagac cagaatgatg cacattgcag
+     1801 tggttacatt tcaaccacac ctaaattgac aaattctgtg gaatcttttt ccaggttaac
+     1861 agtaaatatg cactttaaat tcttactctg cttatctaca cacatgaaca cagtaggata
+     1921 ggctctgcct catgaaacat ccatcagtga gtcaggcagt actgcacttt gttattactt
+     1981 atagggacaa aatttgacat tgtcagaata ttgtattggt attttgctgc aatgtctgtc
+     2041 cccaaacata gtggtatttt cacacagcag ctggttaacc aggactacag aagtggaagg
+     2101 ataacaaaga gatatatata ccaaaagctt ttcacttctt aaggataatg ttcaaattct
+     2161 gattattatg acaagcaacc tggaattagt gttttcattc tggtccttag taaataccta
+     2221 attccatgac taaactggga aattgagatc ccaaagttat ttcccaatcc aggattcaac
+     2281 atcagttggg ttttgatcta agaattctgg aaattcatgg gatacacaca aggtgaaatt
+     2341 accattttga gccttattaa aatattttct taattatggt acctctgtct ataggaccca
+     2401 atttagcagt ccatttttga gtaaaacttg tgtaggatgc ctagatgaca aaaactttgg
+     2461 aagttttact ggattaagga ctaccaaatt aggcccttag aatgtggaaa aaagaaattt
+     2521 aaaaataact tttattgaac tctgggaata acagaaatac agtttccatt tggattttaa
+     2581 acaaaattta tctcatttac agatccttcc aaactctcta gtgcaggaaa aggctgcagc
+     2641 taatttgtaa aaagtggcaa gctcttcatt gtactgcaat taccagaaac ttaaatcttt
+     2701 gttaaatata gtgttgtgtt aaaataaata ttggccattg tgtcatttgc ggcctgctgc
+     2761 tctccaagaa ttcagtatca ttttaatagt ttgtaaaata tgaaaagttt tcaagcattg
+     2821 ctaaagtaag accattaagt ctatgctgtg tgcagagtat acatgtgttt ccagtgttcc
+     2881 ttgtgtctcc attttacgca gctgtggata tcatctccaa agaattcata atgctatttc
+     2941 ttactcctga cagttactta tgtacttcag agtgtgcctg ttagtaactt aaatttggtg
+     3001 actgaagaat ctaaagttcc aagacccttg gtctgtgtcc tcaacacaca gcatagataa
+     3061 gttcaacagt ctgccacaca ggcagtggga gagcggctgt atttgaggaa attcatacag
+     3121 tctcttcgtg atctacaaca ctgccaaaaa gccagccaat tgcttgagca tgcccaaata
+     3181 taacacaaaa gtaaagtcta cctgcctgtt aggtgagctg agctgcatgt taaaacaagt
+     3241 atttgaaatt gaacaagatg atctaattcc taatgagacg aaaatgtctg atgaaacaca
+     3301 gcttgcattt agcatgagtt ctgcacatac agatggtgtc ctgcacgtac actgtgtatg
+     3361 ttgcatgaat ccattgactt gtattaatgt aaggcagagt agctgggata aaaaggactg
+     3421 aagaaaatcc ctcagcagtc ctgaaaaaga ccacacattc agacctgaaa cattgtgagt
+     3481 attagagaaa attggaaaca tcggatttct taactatcag ggcaagctca tagcacatgt
+     3541 tttacagaaa agttaaatat caactatgga tttccagaag cactagaaat aagttgaatg
+     3601 gtaacagctt atagcacatt tgttaataac tcttatgtca tcgaatagta gta
+//

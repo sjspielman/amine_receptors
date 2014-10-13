@@ -1,0 +1,131 @@
+LOCUS       XM_006093474            3083 bp    DNA              MAM 15-NOV-2013
+DEFINITION  PREDICTED: Myotis lucifugus dopamine receptor D2 (DRD2), transcript
+            variant X1, mRNA.
+ACCESSION   XM_006093474
+VERSION     XM_006093474.1  GI:558146407
+DBLINK      BioProject: PRJNA208947
+KEYWORDS    RefSeq.
+SOURCE      Myotis lucifugus (little brown bat)
+  ORGANISM  Myotis lucifugus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Microchiroptera;
+            Vespertilionidae; Myotis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005871165.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Myotis lucifugus Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3083
+                     /mol_type="mRNA"
+                     /country="USA: Framingham, MA"
+                     /sex="female"
+                     /db_xref="taxon:59463"
+                     /organism="Myotis lucifugus"
+                     /chromosome="Unknown"
+     gene            1..3083
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 12 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 2 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:102432445"
+                     /gene="DRD2"
+     CDS             393..1724
+                     /product="D(2) dopamine receptor isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:558146408"
+                     /db_xref="GeneID:102432445"
+                     /translation="MDPLNLSWYDDDLESQNWSRPFNGSAGKADKPPYNYYATLLTLLI
+                     FIIVFGNVLVCMAVSREKALQTTTNYLIVSLAVADLLVATLVMPWVVYLEVVGEWRFSR
+                     IHCDIFVTLDVMMCTASILNLCAISIDRYTAVAMPMLYNTRYSSKRRVTVMIAIVWVLS
+                     FTISCPMLFGLNNTEQSECIIANPAFVVYSSVVSFYVPFIVTLLVYIKIYIVLRRRRKR
+                     VNTKRSSRAFRATLKAPLKGSCTHPEDMKLCTVIMKSNGSFPVNRRRLEAARRAQELEM
+                     EMLSSTSPPERTRYSPIPPSHHQLTLPDASHHSLHGTPDSSAKPEKNGHAKDHPKIAKI
+                     FEIQSMPNGKTRTSLKTLSRRKLSQQKERKATQMLAIVLGVFIICWLPFFITHILNIHC
+                     DCNIPPVLYSAFTWLGYVNSAVNPIIYTTFNIEFRKAFMKLLHC"
+                     /gene="DRD2"
+                     /protein_id="XP_006093536.1"
+     STS             687..894
+                     /db_xref="UniSTS:266487"
+                     /standard_name="DRD2"
+                     /gene="DRD2"
+     STS             723..813
+                     /db_xref="UniSTS:262987"
+                     /standard_name="DRD2"
+                     /gene="DRD2"
+     STS             982..1154
+                     /db_xref="UniSTS:267588"
+                     /standard_name="MARC_13871-13872:1007494510:1"
+                     /gene="DRD2"
+     STS             1224..1404
+                     /db_xref="UniSTS:272844"
+                     /standard_name="PMC311033P6"
+                     /gene="DRD2"
+ORIGIN
+        1 aagagaatat gaacaactga gcgcctcctc tgggccagag actagactaa gggtgtagtg
+       61 tacctcgtta accttcaaag taacccccga ggtaggcagt ctgccagctg cagagctgtg
+      121 cagaccagca ctactgctcc cagagtccac cagcaccacc agcactcagt gacgtttatc
+      181 caaccgggag ccttcccagc agatgctaag gctccacaac agggttaaca caacctctgc
+      241 ccgtcagaca cacagagaga tgggccagcc acagaagcag cgagtaccag agaacactgc
+      301 aaacagatgg aatggtagca aacacctccc cagctgattc tccttagcga gaaggagtca
+      361 gagcctggcc acccggtggc cctgctgccc caatggatcc actgaacctg tcctggtacg
+      421 atgacgacct ggagagccag aactggagcc ggcccttcaa cgggtctgca gggaaggccg
+      481 acaagccccc ctacaactac tatgccacgc tgctcaccct gctcatcttc atcatcgtct
+      541 ttggcaacgt gctggtgtgc atggccgtgt cccgcgagaa ggcactgcag accaccacca
+      601 actacctgat cgtcagcctc gccgtcgctg acctcctcgt agccacgctc gtcatgccct
+      661 gggtggtcta cctggaggtg gtgggcgagt ggagattcag caggattcac tgtgacatct
+      721 ttgtcactct ggacgtcatg atgtgcacag caagcatcct gaacctgtgt gccatcagca
+      781 tcgacaggta cacggctgtg gccatgccca tgctctacaa cacgcgctac agctccaaac
+      841 gccgagtcac cgtcatgatt gccatcgtct gggtcctgtc cttcaccatc tcctgtccga
+      901 tgctctttgg actcaacaac acagaacaga gtgagtgcat catcgccaac cccgccttcg
+      961 tggtctactc ctccgtcgtc tccttctatg tgcccttcat cgtcaccctg ctggtctaca
+     1021 tcaagatcta catagtcctc cggaggcgcc ggaagcgggt caacaccaag cgcagcagcc
+     1081 gggctttcag ggccaccctg aaggccccac tcaagggcag ctgcactcac cccgaggaca
+     1141 tgaaactctg caccgttatc atgaagtcta atggcagttt ccctgtgaac aggcgaagat
+     1201 tggaggctgc acgccgagcc caggagctgg agatggagat gctctccagc accagcccac
+     1261 ccgagaggac ccggtacagc cccatcccgc ccagccacca ccagctgacc ctccccgacg
+     1321 cgtcccacca cagcctccac ggcactcctg acagctccgc caaacccgag aagaatgggc
+     1381 atgccaaaga ccaccccaag attgccaaga tctttgagat ccagtccatg cccaatggca
+     1441 aaacccggac ctcgcttaag accctgagcc gcaggaagct ctcgcagcag aaggagagga
+     1501 aagccaccca gatgctggcc atcgtgcttg gcgtgttcat catctgctgg ctgcccttct
+     1561 tcatcacaca catcctgaac attcactgtg actgcaacat cccacccgtc ctgtacagcg
+     1621 ccttcacgtg gctgggctac gtcaacagcg ccgtgaaccc catcatctac acgaccttta
+     1681 acatcgagtt ccgcaaggcc ttcatgaagc tcctgcactg ctgacccgct gcccacctcc
+     1741 ctgccaggcg ccggccacag tccctaggag ccctgggcgg gagggtgtgc ggtggacttc
+     1801 cctttgcctg gcaggccctg tagtgttagc ttgacaccac gccccacact gtcgggatac
+     1861 cctcactctg ccagggcagt gtagagagcc aggcgtggtg ccagcccttg ggctggaccc
+     1921 ggtggctcag gggcagctct cagagctccc ctcccacttc cagacccttc tctttggcac
+     1981 caaagacagg gcagcccgct ctggcctttc tcgggagctg gtgttgcagg ggccagagtc
+     2041 agggtctagg ctgcgccctc tgctgggctc agcctggtcc ccacaggttt gtgctggagg
+     2101 ggacggtggg gagacatgga cgcttcatag cccacgaggc ccacaccagg gctcttgcca
+     2161 aggccccagc taacctcctt ctggggacac ccatgtaaat accagaccac agaatgaacc
+     2221 ccagggaaga ccaagccaaa gtcttcactc tcccgcccga caggagcctc tacttcccgc
+     2281 agagaccacc cctcagctca ccctgccgcc tcctgacaga ctcaggtgaa cttcttgtag
+     2341 caaatgttca gccagcctgg ggcagggggt gaagatggct ggggcctgga tgggggtgtc
+     2401 tgaggttctt tgggggctgc ctcctgccat actatgccac aaatccacct tccttttcct
+     2461 ttgcctcttc tcttttccct cccccttcca tcccactgcc tgggcctccg aggagccctg
+     2521 ctgagggagg agccctggcc tggccctgct gagggaggat gggaagctgc agttggggga
+     2581 gcccctggcc ccaggctctg taacatcact acacatgctc cacaccaata aaactttgac
+     2641 aagtcacctg gcggcccctt ggggagggac acggtgccaa tgggcacggc gccaccttgt
+     2701 ccttcgcctc agaggcagcc aagccccgtg tctgtgtggg gagggtggag aggcaccctg
+     2761 cacaccatcc aggaaagggt aggggaaaga agaaaggaag aggccccagg aggaccaggg
+     2821 agatgtgtgt gcctgtgtct cccctcctcc cgccttctcc tctcaagccg ctgagtgctc
+     2881 tccatcctgc tactgggtgg ccctgaccct cagccgtcaa ccaagatgaa ggcaagaaca
+     2941 tttcctgtgg gaatcccaag cacaccgtgg gctcccctaa ctgccagagt gacaggggct
+     3001 gccagaggga agccaggctg tccccacatc ccgctcccct gctccagggc ccagcacccc
+     3061 tgaaggaccg atccccagcc ctc
+//

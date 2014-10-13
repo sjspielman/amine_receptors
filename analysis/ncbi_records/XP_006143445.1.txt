@@ -1,0 +1,64 @@
+LOCUS       XP_006143445             365 aa                     MAM 03-DEC-2013
+DEFINITION  PREDICTED: 5-hydroxytryptamine receptor 1E-like [Tupaia chinensis].
+ACCESSION   XP_006143445
+VERSION     XP_006143445.1  GI:562827669
+DBLINK      BioProject: PRJNA221634
+KEYWORDS    RefSeq.
+SOURCE      Tupaia chinensis (Chinese tree shrew)
+  ORGANISM  Tupaia chinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Scandentia; Tupaiidae; Tupaia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006159559.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Tupaia chinensis Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..365
+                     /db_xref="taxon:246437"
+                     /country="China"
+                     /organism="Tupaia chinensis"
+                     /chromosome="Unknown"
+                     /sex="male"
+     Protein         1..365
+                     /product="5-hydroxytryptamine receptor 1E-like"
+                     /calculated_mol_wt="41402"
+     Region          30..>225
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          45..344
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <292..333
+                     /note="Protein of unknown function (DUF3353); pfam11833"
+                     /db_xref="CDD:256656"
+                     /region_name="DUF3353"
+     CDS             1..365
+                     /coded_by="XM_006143383.1:490..1587"
+                     /gene="LOC102501759"
+                     /db_xref="GeneID:102501759"
+ORIGIN
+        1 mnstncttea smavrpktvt ekmlicmalv vittltmlln savimaigtt kklhqpanyl
+       61 icslavtdll vavlvmplsi myivmdswkl gyficevwls vdmtcctcsi lhlcvialdr
+      121 ywaitnaiey arkrtakrag lmiltvwtis ifismpplfw rshrrlsppp sqctiqhdhv
+      181 iytiystlga fyipltlili lyyriyhaak slyqkrgssr hlsnrstdsq nsfasckltq
+      241 tfcvsdfsts dpttefekih ssirippfdn dldhpgerqq isstrerkaa rilglilgaf
+      301 ilswlpffik elivglsiyt vssevadflt wlgyinslin pllytsfned fklafkklir
+      361 creht
+//

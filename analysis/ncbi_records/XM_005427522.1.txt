@@ -1,0 +1,90 @@
+LOCUS       XM_005427522            1787 bp    DNA              VRT 13-SEP-2013
+DEFINITION  PREDICTED: Geospiza fortis dopamine receptor D2 (DRD2), transcript
+            variant X2, mRNA.
+ACCESSION   XM_005427522
+VERSION     XM_005427522.1  GI:543279181
+DBLINK      BioProject: PRJNA217051
+KEYWORDS    RefSeq.
+SOURCE      Geospiza fortis (medium ground-finch)
+  ORGANISM  Geospiza fortis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Fringillidae; Emberizinae; Thraupini; Geospiza.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005054447.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Geospiza fortis Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1787
+                     /db_xref="taxon:48883"
+                     /mol_type="mRNA"
+                     /organism="Geospiza fortis"
+                     /chromosome="Unknown"
+                     /sex="female"
+     gene            1..1787
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 1 EST, 6 Proteins"
+                     /db_xref="GeneID:102041928"
+                     /gene="DRD2"
+     CDS             1..1245
+                     /product="D(2) dopamine receptor isoform X2"
+                     /codon_start="1"
+                     /db_xref="GI:543279182"
+                     /db_xref="GeneID:102041928"
+                     /translation="MDPLNLSWYDGDRNWSRALNASEAAQKPHYNYYAVLLALLIFIIV
+                     FGNVLVCMAVSRERALQTTTNYLIVSLAVADLLVATLCMPWVVYMEVVGEWRFSRIHCD
+                     IFVTLDVMMCTASILNLCAISIDRYTAVAMPMLYNTRYSSKRRVTVMIAVVWVLSFAIS
+                     CPLLFGLNNTDEKECIIGNPAFVVYSSIVSFYVPFMVTLLVYVQIYIVLRRRRKRVSTK
+                     RSSHVLDSDTQAPLKEAESHIEEMEMEMVSSTSPPEKTALKPTAPSNHQLIVPVASNRG
+                     NNSTLQAPLSSPGKVEKNGHAKESHHTAKVFEIHSLPNGKTRNLLKAVIRRKLSQQKEK
+                     KATQMLAIVLGVFIICWLPFFITHILNMHCDCNIPPAMYSAFTWLGYVNSAVNPIIYTT
+                     FNIEFRKAFMKILHC"
+                     /gene="DRD2"
+                     /protein_id="XP_005427579.1"
+ORIGIN
+        1 atggatcccc tcaacctctc gtggtacgac ggggacagga actggagcag ggccctgaac
+       61 gcctcggagg cggcgcagaa gccgcactac aactactacg ccgtgctgct ggccctcctc
+      121 atcttcatca tcgtctttgg caacgtcctg gtgtgcatgg cagtgtccag ggagagggcc
+      181 ctgcagacca ccaccaacta cctgatcgtc agcctggccg tggctgacct gctggtggcc
+      241 acgctctgca tgccctgggt ggtctacatg gaggtggtgg gggagtggcg tttcagccgc
+      301 atccactgcg atatctttgt caccctggat gtcatgatgt gcactgccag catcctcaac
+      361 ctctgtgcca tcagcattga caggtacacg gccgtggcca tgcccatgct ctacaacacc
+      421 cgctacagct ccaagcgcag ggtcaccgtc atgatcgccg tggtctgggt gctctccttt
+      481 gccatctcct gcccgctcct cttcggcctc aacaacacag atgagaagga gtgcatcatc
+      541 ggcaaccctg ccttcgtggt gtactcctcc atcgtgtcct tctacgtgcc cttcatggtg
+      601 acgctgctgg tgtacgtgca gatctacatc gtgctgcggc gccgcaggaa gcgcgtcagc
+      661 accaagcgca gcagccacgt gctggactcg gacacgcagg cccccctgaa ggaggcagag
+      721 agtcacatag aagagatgga aatggagatg gtgtccagta ccagtccccc tgagaaaacg
+      781 gccctcaaac ccacagcacc aagtaaccac cagttgattg tgccagttgc ttctaatcgg
+      841 ggcaacaact ctaccctgca ggcacccctg agcagccctg ggaaggtgga gaagaatggc
+      901 catgccaaag aatcccacca cacagccaag gtcttcgaga tccactccct gcccaacggc
+      961 aagacgagga acttgctcaa ggccgtgatc aggaggaaac tgtcccagca gaaggagaag
+     1021 aaagccacgc agatgctggc catcgtgctc ggtgttttca tcatctgctg gctccccttc
+     1081 ttcatcactc acatcctgaa catgcactgc gactgcaaca tcccgccggc catgtacagc
+     1141 gccttcacgt ggctcggcta cgtcaacagc gctgtcaacc ccattatcta caccaccttc
+     1201 aacatcgagt ttcgcaaggc tttcatgaag atcctccact gctaaagcca caaacagcgc
+     1261 ccgctttttt ttaggaacgg agggggaaga ggaagcgatg ccatccgtgc cggggagggg
+     1321 gctggagctc tggagctggg cacccgggca cctggtgggg ctggcacgag gtgggagtgt
+     1381 gtctcacccc gctgggtgac ctctggaccg gccccaaggg cgcttttcag agccagcctt
+     1441 acgttgtgtt ggaagtggag gtgcaggaat cgaggagctc tcgctcggtt ctcgcccgtg
+     1501 gccacccggc ctggagggca ctgtgcacgg ggtggccacg ggacagcagg agatagcact
+     1561 gggtacaact ctcaccaaag acaaggccat ccttccccct ggcagcagga gccagccagg
+     1621 gcctctgcaa gctccgtgca atagctttgc cttcacctcg agctgactca cccggtgttt
+     1681 aactgctgaa gccttcagaa atcccataaa aaaccaaccc aagaactttc agaggtcccc
+     1741 aggcgggtcg agaaggttct gccaccccca gaccctgcag caatggg
+//

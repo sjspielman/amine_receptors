@@ -1,0 +1,87 @@
+LOCUS       XM_002194227            1505 bp    DNA              VRT 12-FEB-2013
+DEFINITION  PREDICTED: Taeniopygia guttata adrenoceptor alpha 2A (ADRA2A), mRNA.
+ACCESSION   XM_002194227
+VERSION     XM_002194227.2  GI:449505897
+DBLINK      BioProject: PRJNA32405
+KEYWORDS    RefSeq.
+SOURCE      Taeniopygia guttata (zebra finch)
+  ORGANISM  Taeniopygia guttata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Estrildidae; Estrildinae; Taeniopygia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_002198841.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Feb 12, 2013 this sequence version replaced gi:224052810.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Taeniopygia guttata Annotation Release 101
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1505
+                     /mol_type="mRNA"
+                     /isolate="Black17"
+                     /sex="male"
+                     /db_xref="taxon:59729"
+                     /organism="Taeniopygia guttata"
+                     /chromosome="6"
+     gene            1..1505
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 13 Proteins"
+                     /db_xref="GeneID:100231407"
+                     /gene="ADRA2A"
+     misc_feature    27..29
+                     /note="upstream in-frame stop codon"
+                     /gene="ADRA2A"
+     CDS             171..1505
+                     /product="alpha-2A adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:449505898"
+                     /db_xref="GeneID:100231407"
+                     /translation="MFNLERPFTERGHFFSSMEYQRQLEEEEGYPPPGANGTFNDSGAG
+                     PGWGTPYPLHTTITLISLASLLMLFTVFGNVLVIIAVFTSRALKAPQNLFLVSLASADI
+                     LVATLVIPFSLANEVMGYWYFGKVWCEIYLALDVLFCTSSIVHLCAISLDRYWSITQAI
+                     EYNLKRTPRRIKCIIFIVWVISAVISFPPLISIEKKSGQQADQGVAGCKINDEKWYIIS
+                     SSIGSFFAPCLIMILVYMRIYQIAKRRTRVPPNKRAERPEKKQNGLTDKEDLPATAQLN
+                     GEKAAGGSGGQEGEVNGIDMEETSSSEHQENNQCKKSERPLKGKTKTKLSQIKPGDSLP
+                     RKTEEERNTKGSRWRGRQNREKRFTFVLAVVIGVFVICWFPFFFTYTLTAVCESCSVPD
+                     TLFKFFFWFGYCNSSLNPVIYTIFNHDFRRAFKRILCRIERKRNV"
+                     /gene="ADRA2A"
+                     /protein_id="XP_002194263.2"
+ORIGIN
+        1 accgggggca gctccccacg tggggctgac gcggcagccc cggcccgatc cggggctata
+       61 aagctgctcg gcggcgagcg aggcagagac gcggggagcc gcgcacggag ccgggcgcgg
+      121 cgcgggtgga gccggggcga agggcggggg tgtccgcgca gccggggttg atgtttaacc
+      181 tggagcgccc gttcacggag aggggccact tcttctcctc catggagtac cagcggcagc
+      241 tggaggagga ggagggctac ccccctcccg gcgctaatgg gaccttcaac gacagcgggg
+      301 ccggcccggg ctggggcacg ccgtaccctc tgcacaccac catcactctc atcagcctgg
+      361 ccagcttgct catgctgttc accgtctttg gcaacgtcct ggtcatcatc gccgtcttca
+      421 ccagccgggc gctcaaagcc ccccagaacc tcttcctggt ctccttagcc tcagctgaca
+      481 tcctggtggc cacgctggtc atccccttct cgctggcaaa tgaggtgatg gggtactggt
+      541 acttcggtaa agtctggtgt gagatctacc tggctttgga tgtgctgttc tgcacctcct
+      601 ccattgtgca cctctgtgcc atcagcctgg accggtactg gtccatcacg caagccatcg
+      661 agtacaacct caagcgtacc ccgcggcgca tcaaatgcat catcttcatc gtctgggtca
+      721 tctcggctgt catctccttc ccaccactca tctccataga gaagaagagc gggcagcagg
+      781 ctgaccaggg ggtggcaggg tgcaagatca acgatgagaa gtggtacatc atctcttcta
+      841 gcatcggctc cttctttgcc ccctgcctca tcatgatcct ggtctacatg cgcatctacc
+      901 agatagccaa gaggagaacc agggtcccac cgaacaagcg ggcagagcgc cccgagaaga
+      961 agcagaatgg cttgactgac aaggaggacc tgccagccac agcgcagctc aatggggaga
+     1021 aggcagcagg aggcagtggt gggcaagagg gagaggtcaa tggcatagac atggaggaga
+     1081 cctcttcctc tgagcaccag gagaacaacc agtgtaagaa gtcagagaga ccattgaaag
+     1141 gaaagaccaa gactaagctg agccaaatta agcccgggga cagtttgccc aggaagacag
+     1201 aggaggagag gaacaccaaa gggtcccgct ggagaggcag gcagaaccgg gagaagcgtt
+     1261 tcacctttgt gcttgcagtg gtgatcgggg tctttgtcat ctgctggttc cccttcttct
+     1321 tcacctacac gctgacggcc gtctgcgaga gctgctccgt gcctgacacc ctcttcaagt
+     1381 tcttcttctg gttcggttac tgcaatagct ccttgaaccc cgtcatctat accattttca
+     1441 accatgactt cagacgggct ttcaaaagga tcctctgcag gatagagagg aaaaggaatg
+     1501 tttga
+//

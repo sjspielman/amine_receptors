@@ -1,0 +1,61 @@
+LOCUS       XP_003909717             460 aa                     PRI 04-SEP-2012
+DEFINITION  PREDICTED: muscarinic acetylcholine receptor M1 [Papio anubis].
+ACCESSION   XP_003909717
+VERSION     XP_003909717.1  GI:402893050
+KEYWORDS    RefSeq.
+SOURCE      Papio anubis (olive baboon)
+  ORGANISM  Papio anubis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Papio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003877566) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Papio anubis Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..460
+                     /country="USA: Southwest National Primate Research Center,
+                     San Antonio"
+                     /isolate="1X1155"
+                     /sex="female"
+                     /db_xref="taxon:9555"
+                     /organism="Papio anubis"
+                     /chromosome="14"
+     Protein         1..460
+                     /product="muscarinic acetylcholine receptor M1"
+                     /calculated_mol_wt="51276"
+     Region          25..>166
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          50..418
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..460
+                     /coded_by="XM_003909668.1:740..2122"
+                     /gene="CHRM1"
+                     /db_xref="GeneID:101002299"
+ORIGIN
+        1 mntsappavs pnitvlapgk gpwqvafigi ttgllslatv tgnllvlisf kvntelktvn
+       61 nyfllslaca dliigtfsmn lyttyllmgh walgtlacdl wlaldyvasn asvmnlllis
+      121 fdryfsvtrp lsyrakrtpr raalmiglaw lvsfvlwapa ilfwqylvge rtvlagqcyi
+      181 qflsqpiitf gtamaafylp vtvmctlywr iyretenrar elaalqgset pgkgggssss
+      241 sersqpgaeg spetppgrcc rccraprllq ayswkedeee degsmeslts segeepgsev
+      301 vikmpmvdpe aqaptkqppr sspntvkrpt kkgrdragkg qkprgkeqla krktfslvke
+      361 kkaartlsai llafiltwtp ynimvlvstf ckdcvpetlw elgywlcyvn stinpmcyal
+      421 cnkafrdtfr llllcrwdkr rwrkipkrpg svhrtpsrqc
+//

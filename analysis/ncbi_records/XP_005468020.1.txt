@@ -1,0 +1,63 @@
+LOCUS       XP_005468020             370 aa                     VRT 12-SEP-2013
+DEFINITION  PREDICTED: D(1) dopamine receptor-like [Oreochromis niloticus].
+ACCESSION   XP_005468020
+VERSION     XP_005468020.1  GI:542175904
+DBLINK      BioProject: PRJNA72943
+KEYWORDS    RefSeq.
+SOURCE      Oreochromis niloticus (Nile tilapia)
+  ORGANISM  Oreochromis niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NT_167418.2) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Oreochromis niloticus Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..370
+                     /linkage_group="LG2"
+                     /isolate="000638D3DF"
+                     /sex="female"
+                     /organism="Oreochromis niloticus"
+                     /db_xref="taxon:8128"
+     Protein         1..370
+                     /product="D(1) dopamine receptor-like"
+                     /calculated_mol_wt="41125"
+     Region          44..>157
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          45..336
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..370
+                     /coded_by="XM_005467963.1:795..1907"
+                     /gene="LOC100708081"
+                     /db_xref="GeneID:100708081"
+ORIGIN
+        1 mdpmnfttvi dngfvdeaps srvltgcfls llilttllgn tlvcaavtkf rhlrskvtnf
+       61 fvislavsdl lvailvmpwk avteiagfwp fgsfcdtwva fdimcstasi lnlcvisldr
+      121 ywaisspfry erkmtptvay imisvawtls vlisfipvql nwhkaqtksy taltgssvsp
+      181 asnatsypen cdsslnrtya istslisfyi pvvimvatyt qiyriahrqi rrisaleraa
+      241 esaknrhdsm grgssiadse ssfrltfkre tkvlktlsvi mgvfvccwlp ffilncmvpf
+      301 ceqssggeaf pcispttfdv fvwfgwanss lnpiiyafna dfrkafsill gchrlypggh
+      361 dietaslnkk
+//

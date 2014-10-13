@@ -1,0 +1,133 @@
+LOCUS       NP_001028138             471 aa                     PRI 26-FEB-2014
+DEFINITION  5-hydroxytryptamine receptor 2A [Macaca mulatta].
+ACCESSION   NP_001028138
+VERSION     NP_001028138.1  GI:74136485
+KEYWORDS    RefSeq.
+SOURCE      Macaca mulatta (Rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1  (residues 1 to 471)
+  AUTHORS   Watakabe A, Komatsu Y, Sadakane O, Shimegi S, Takahata T, Higo N,
+            Tochitani S, Hashikawa T, Naito T, Osaki H, Sakamoto H, Okamoto M,
+            Ishikawa A, Hara S, Akasaki T, Sato H and Yamamori T.
+  TITLE     Enriched expression of serotonin 1B and 2A receptor genes in macaque
+            visual cortex and their bidirectional modulatory effects on neuronal
+            responses
+  JOURNAL   Cereb. Cortex 19 (8), 1915-1928 (2009)
+   PUBMED   19056862
+  REMARK    GeneRIF: found enrichment of serotonin receptor 2A mRNA in primary
+            visual cortex (V1) and clear activity-dependent modulatory effects
+            of 5-HT2A receptor agonists on responses of V1 neurons.
+REFERENCE   2  (residues 1 to 471)
+  AUTHORS   Johnson MP, Baez M, Kursar JD and Nelson DL.
+  TITLE     Species differences in 5-HT2A receptors: cloned pig and rhesus
+            monkey 5-HT2A receptors reveal conserved transmembrane homology to
+            the human rather than rat sequence
+  JOURNAL   Biochim. Biophys. Acta 1236 (1), 201-206 (1995)
+   PUBMED   7794950
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from S78209.1.
+            ##Evidence-Data-START##
+            Transcript exon combination :: S78209.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+            SRS211172, SRS214014 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..471
+                     /db_xref="taxon:9544"
+                     /organism="Macaca mulatta"
+                     /chromosome="17"
+                     /map="17"
+     Protein         1..471
+                     /note="5-HT2A receptor; 5-HT-2; 5-HT-2A; serotonin receptor
+                     2A"
+                     /product="5-hydroxytryptamine receptor 2A"
+                     /calculated_mol_wt="52472"
+     Site            76..99
+                     /note="propagated from UniProtKB/Swiss-Prot (P50128.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          89..>207
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          97..380
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Site            111..132
+                     /note="propagated from UniProtKB/Swiss-Prot (P50128.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            149..171
+                     /note="propagated from UniProtKB/Swiss-Prot (P50128.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          155..160
+                     /note="propagated from UniProtKB/Swiss-Prot (P50128.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Agonist binding (By similarity)"
+     Region          172..174
+                     /note="propagated from UniProtKB/Swiss-Prot (P50128.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="DRY motif, important for ligand-induced
+                     conformation changes (By similarity)"
+     Site            192..215
+                     /note="propagated from UniProtKB/Swiss-Prot (P50128.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            234..254
+                     /note="propagated from UniProtKB/Swiss-Prot (P50128.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            325..346
+                     /note="propagated from UniProtKB/Swiss-Prot (P50128.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          336..340
+                     /note="propagated from UniProtKB/Swiss-Prot (P50128.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Agonist binding (By similarity)"
+     Site            363..384
+                     /note="propagated from UniProtKB/Swiss-Prot (P50128.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          376..380
+                     /note="propagated from UniProtKB/Swiss-Prot (P50128.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="NPxxY motif, important for ligand-induced
+                     conformation changes and signaling (By similarity)"
+     Region          469..471
+                     /note="propagated from UniProtKB/Swiss-Prot (P50128.1)"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /region_name="PDZ-binding"
+     CDS             1..471
+                     /coded_by="NM_001032966.1:11..1426"
+                     /gene="HTR2A"
+                     /db_xref="GeneID:613032"
+ORIGIN
+        1 mdilceents lssttnslmq lnedtrlysn dfnsgeants dafnwtvese nrtnlscegc
+       61 lspsclsllh lqeknwsall tavviiltia gnilvimavs lekklqnatn yflmslaiad
+      121 mllgflvmpv smltilygyr wplpsklcav wiyldvlfst asimhlcais ldryvaiqnp
+      181 ihhsrfnsrt kaflkiiavw tisvgismpi pvfglqddsk vfkegsclla ddnfvligsf
+      241 vsffipltim vityfltiks lqkeatlcvs dlgtraklas fsflpqssls seklfqrsih
+      301 rdpgsytgrr tmqsisneqk ackvlgivff lfvvmwcpff itnimavick escnedviga
+      361 llnvfvwigy lssavnplvy tlfnktyrsa fsryiqcqyk enkkplqlil vntipalayk
+      421 ssqlqmgqkk nskqdakttd ndcsmvalgk qhsedaskdn sdgvnekvsc v
+//

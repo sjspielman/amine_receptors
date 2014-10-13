@@ -1,0 +1,105 @@
+LOCUS       XM_004280375            2057 bp    DNA              MAM 18-MAR-2013
+DEFINITION  PREDICTED: Orcinus orca adrenoceptor beta 2, surface (ADRB2), mRNA.
+ACCESSION   XM_004280375
+VERSION     XM_004280375.1  GI:466061323
+DBLINK      BioProject: PRJNA189949
+KEYWORDS    RefSeq.
+SOURCE      Orcinus orca (killer whale)
+  ORGANISM  Orcinus orca
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Cetacea;
+            Odontoceti; Delphinidae; Orcinus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004438537.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Orcinus orca Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2057
+                     /mol_type="mRNA"
+                     /collection_date="06-Sep-2011"
+                     /isolate="Morgan"
+                     /sex="male"
+                     /note="Norwegian herring-eating population"
+                     /db_xref="taxon:9733"
+                     /tissue_type="blood"
+                     /organism="Orcinus orca"
+                     /chromosome="Unknown"
+     gene            1..2057
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 15 mRNAs, 39 Proteins"
+                     /db_xref="GeneID:101276872"
+                     /gene="ADRB2"
+     misc_feature    138..140
+                     /note="upstream in-frame stop codon"
+                     /gene="ADRB2"
+     CDS             249..1505
+                     /product="beta-2 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:466061324"
+                     /db_xref="GeneID:101276872"
+                     /translation="MGQPGNRSVFLLAPNGSHAPDQDVTQERDEAWVVGMGIVMSLIVL
+                     AIVFGNVLVITAIAKFERLQTVTNYFITSLACADLLMGLAVVPFGACHILMKMWAFGNF
+                     WCEFWTSIDVLCVTASIETLCVIAVDRYLAITSPFKYQCLLTKNKARVVVLMVWVVSGL
+                     TSFLPIQMHWYRATHQEAINCYAKETCCDFFTNQAYAIASSIVSFYLPLVVMVFVYSKV
+                     FQVAKRQLQKIDKSEGRFHTQNISQMEQDGRSGPGQRRASKFCLKEHKALKTLGIIMGT
+                     FTLCWLPFFIVNIVHVIQDNLIPKEVYILLNWVGYVNSAFNPLIYCRSPDFRIAFQELL
+                     CQRKSSLKASGDGYSSNSNGRTDYPGEQSGYHLGEEKDNELLCEDLPGTEDFVNRQGTV
+                     PNDNTDSQGRNCSTNDSLL"
+                     /gene="ADRB2"
+                     /protein_id="XP_004280423.1"
+     STS             375..1262
+                     /db_xref="UniSTS:265908"
+                     /standard_name="ADRB2"
+                     /gene="ADRB2"
+     STS             1701..1961
+                     /db_xref="UniSTS:65272"
+                     /standard_name="WI-19151"
+                     /gene="ADRB2"
+ORIGIN
+        1 gcccataacg ggcagcgcgc actccgaggc tgtttctcca gagcgcaggc tgggactgac
+       61 tggcaccgcg agcccagagc acccccggag ctgagaacac cacgcgcccc caccacatcc
+      121 accccacggc cgctgaatga ggcttccagg tgcccgcttg ctgcccgcag cgccccgccg
+      181 gaggtccgct cgctgagggg cggctggtgc gctggccgcc cgtgcgctca cctgccagct
+      241 tgcgcgccat ggggcagccc gggaaccgca gcgtcttttt gctggcgccc aacggaagcc
+      301 acgcaccgga ccaagacgtc acacaggaac gggacgaggc gtgggtggta ggcatgggca
+      361 tcgtcatgtc gcttatcgtc ctggccatcg tgtttggaaa cgtgctggtc atcacagcca
+      421 tcgccaagtt cgagcgtctg cagacagtca ccaactactt catcacctcc ctggcctgtg
+      481 ctgacctgct catgggcctg gcggtggtgc cctttggggc ctgccacatc ctcatgaaaa
+      541 tgtgggcttt tggcaacttc tggtgtgagt tttggacttc cattgacgtg ttgtgcgtca
+      601 cagccagcat tgagaccctg tgcgtgatcg ccgtggatcg ctaccttgcc atcacatcac
+      661 ccttcaagta tcagtgcctg ctgaccaaga ataaggcgcg ggtggtcgtt ttgatggtgt
+      721 gggtcgtgtc cggccttacc tccttcttgc ccattcagat gcactggtac cgggccaccc
+      781 accaggaagc catcaactgc tatgccaagg agacctgctg tgacttcttc acgaaccaag
+      841 cctatgccat tgcctcctcc attgtgtcct tctacttgcc cctggtggtc atggtcttcg
+      901 tctactccaa ggtcttccag gtagccaaaa ggcagctcca gaagatcgac aaatctgagg
+      961 gccgcttcca tacccagaac atcagccaaa tggagcagga tgggcggagc gggcccggac
+     1021 aacgcagggc ctccaagttc tgcttgaagg aacacaaagc cctcaagact ttaggcatta
+     1081 tcatgggcac tttcaccctg tgctggctgc ccttcttcat tgtcaacatt gtgcacgtga
+     1141 tccaggataa cctcatccct aaggaagttt acatccttct aaactgggtg ggctatgtca
+     1201 actctgcttt caatcccctc atctactgcc ggagccccga tttcaggatt gccttccagg
+     1261 agctcctgtg ccagcgcaag tcttccttga aggcctctgg ggatggctac tccagcaaca
+     1321 gcaatggcag aactgactac ccaggggaac agagtggata tcacctgggg gaggagaaag
+     1381 acaatgaact gctgtgtgag gatctcccag gcacggaaga cttcgtgaac cggcaaggta
+     1441 ctgtgcccaa tgataacact gattcgcaag ggaggaactg tagtacaaat gactcactgc
+     1501 tgtaatgcgc tttttctact ttttaagacc ccttctcccc ccacccaaca aaacactaaa
+     1561 cagactattt aacttgagtg taataaattt agaataaact tgtatagaga tgtgcaggag
+     1621 gaaggatatc cttctgcctt tttatttttt taagttgtaa aaaagagaaa acgtatttga
+     1681 gtgactgttt cttgtacagt tcagttcctc tttgcatgga actcgtaagt ttatgtctga
+     1741 agggcttcag tctcagagga cctggggctg ctatgtttta atgacttttc ccgcatatct
+     1801 acctcattga tcaagtatta ggggtaatat attgctgctg gtaatttgta tctgaaggag
+     1861 actttccttc ctgcaccctt ggactggaca aactcgagtc tctcggacct tttgctgtga
+     1921 acatggactc tccccgcccc tcttatttgc tcaaacgggg tgttgtaggc agggatttga
+     1981 ggggcagctt cggttgtttt cctgagcaaa gtctaaagtt tacagtaaat aaattgtttg
+     2041 accatgactt aattgca
+//

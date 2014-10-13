@@ -1,0 +1,84 @@
+LOCUS       XM_004449983            1395 bp    DNA              MAM 06-MAY-2013
+DEFINITION  PREDICTED: Dasypus novemcinctus 5-hydroxytryptamine (serotonin)
+            receptor 7, adenylate cyclase-coupled (HTR7), transcript variant 2,
+            mRNA.
+ACCESSION   XM_004449983
+VERSION     XM_004449983.1  GI:488516090
+DBLINK      BioProject: PRJNA196486
+KEYWORDS    RefSeq.
+SOURCE      Dasypus novemcinctus (nine-banded armadillo)
+  ORGANISM  Dasypus novemcinctus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Xenarthra; Cingulata; Dasypodidae; Dasypus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004465190.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Dasypus novemcinctus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1395
+                     /mol_type="mRNA"
+                     /country="USA: National Hansen's Disease Programs at
+                     Louisiana State University, School of Veterinary Medicine"
+                     /isolate="3-136"
+                     /sex="female"
+                     /db_xref="taxon:9361"
+                     /organism="Dasypus novemcinctus"
+                     /chromosome="Unknown"
+     gene            1..1395
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 10 Proteins, and 74% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /db_xref="GeneID:101424528"
+                     /gene="HTR7"
+     CDS             1..1311
+                     /product="5-hydroxytryptamine receptor 7 isoform 2"
+                     /codon_start="1"
+                     /db_xref="GI:488516091"
+                     /db_xref="GeneID:101424528"
+                     /translation="MMDVNSSGRPDLYGHLRSLLLPEVGRGLPDLSPDGGAGRVAGSWA
+                     PHLLRGAPEVTASPSPTWDAPRDNASGCGEQINYGRAEKVVIGSILTLITLLTIAGNCL
+                     VVISVCFVKKLRQPSNYLIVSLALADLSVAVAVMPFVSVTDLIGGKWIFGHFFCNVFIA
+                     MDVMCCTASIMTLCVISIDRYLGITRPLTYPVRQNGKCMAKMILSVWLLSASITLPPLF
+                     GWAQNVNDDKVCLISQDFGYTIYSTAVAFYIPMSVMLFMYYQIYKAARKSAAKHKFPGF
+                     PRVEEPESIISLNGIVKLQKEVEECANLSRLLKQERKNISIFKREQKAATTLGIIVGAF
+                     TVCWLPFFLLSTARPFICGTACSCIPLWVERTFLWLGYANSLINPFIYAFFNRDLRTTY
+                     RSLLQCQYRNINRKLSAAGMHEALKLAERPERPEFVL"
+                     /gene="HTR7"
+                     /protein_id="XP_004450040.1"
+ORIGIN
+        1 atgatggacg ttaacagcag cggccgcccg gacctctacg ggcacctccg ctccttgcta
+       61 ctgcccgagg tcgggcgcgg gttgcccgac ctgagccccg acggcggcgc cggccgggtc
+      121 gccggctcct gggcaccgca tctgctgcgc ggggcccccg aggtgacggc cagcccctcg
+      181 cccacctggg acgcgccccg ggacaatgcc tctggctgcg gggagcagat caactacggc
+      241 agagccgaga aagttgtgat cggctccatc ctgacgctca tcacgctgct gacgatcgcc
+      301 ggcaactgcc tggtggtgat ctcggtgtgc ttcgtcaaga agctccgcca gccctccaac
+      361 tacctaatcg tgtccctggc gctggccgac ctctcggtgg ccgtggcggt catgcccttc
+      421 gtcagcgtca ctgacctcat cgggggcaag tggatctttg gccacttctt ctgcaatgtc
+      481 ttcattgcca tggacgtcat gtgctgcacc gcctcgatca tgaccctctg cgtgatcagc
+      541 atcgacaggt acctcgggat caccaggccc ctcacgtacc ctgtgaggca gaatgggaaa
+      601 tgcatggcga aaatgattct ctctgtctgg cttctttctg cctccatcac tttaccgccg
+      661 ctctttggat gggctcagaa cgtcaacgac gacaaagtgt gcttgatcag ccaggatttt
+      721 ggctacacga tttactccac tgcagtggca ttttatatcc ccatgtctgt catgcttttc
+      781 atgtactacc agatttacaa ggctgccagg aagagcgccg ccaaacacaa gttcccaggc
+      841 ttccctcgtg tggaggagcc ggaaagcatc atctccctga acggaatagt gaaactccag
+      901 aaagaggtgg aagagtgtgc aaacctttcg agactcctca aacaggaaag gaaaaacatc
+      961 tccatcttta agagggaaca gaaagcagcc accaccttag ggatcatcgt tggcgccttc
+     1021 acggtgtgct ggctgccgtt tttcctcctc tcgacagcca ggccctttat ctgtggcact
+     1081 gcctgcagct gtatcccgct ctgggtggag aggacctttc tgtggctggg ctatgcaaac
+     1141 tctctcatta acccttttat atatgccttc ttcaaccggg acctgaggac cacctaccgc
+     1201 agcctgctcc agtgccagta tcggaatatc aaccggaagc tctcagctgc aggcatgcat
+     1261 gaagccctga agcttgccga gaggcctgag agacctgagt ttgtgctgta agacaaaact
+     1321 ctgactacag tagaaaaaaa agtcatgatt catgatgaaa aggagaataa tggagacaaa
+     1381 ctaagcaagg caaga
+//

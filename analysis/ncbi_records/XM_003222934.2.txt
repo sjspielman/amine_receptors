@@ -1,0 +1,94 @@
+LOCUS       XM_003222934            1956 bp    DNA              VRT 22-MAY-2014
+DEFINITION  PREDICTED: Anolis carolinensis histamine H3 receptor-like
+            (LOC100559929), mRNA.
+ACCESSION   XM_003222934
+VERSION     XM_003222934.2  GI:637317167
+DBLINK      BioProject: PRJNA60547
+KEYWORDS    RefSeq.
+SOURCE      Anolis carolinensis (green anole)
+  ORGANISM  Anolis carolinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata;
+            Toxicofera; Iguania; Iguanidae; Polychrotinae; Anolis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003338734.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On May 22, 2014 this sequence version replaced gi:327276448.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Anolis carolinensis Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1956
+                     /linkage_group="c"
+                     /db_xref="taxon:28377"
+                     /mol_type="mRNA"
+                     /organism="Anolis carolinensis"
+                     /country="USA"
+     gene            1..1956
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 9 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 4 samples with support for all annotated introns"
+                     /db_xref="GeneID:100559929"
+                     /gene="LOC100559929"
+     CDS             108..1427
+                     /product="histamine H3 receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:327276449"
+                     /db_xref="GeneID:100559929"
+                     /translation="MGTELNASSSSSSTSSSSSPRDQGCLGPCPPPGALSAPLSVFLAA
+                     LMALLVLATVCGNALVVVAFALDRSLRSQGNFFFLNLAIADLLVGGFCIPLYIPYILTG
+                     EWKFGKGLCKVWLVVDYLVCTASVFNIVLISFDRFISVTKAVSYRAQKGVTKNAVVKMV
+                     MVWVAAFLLYGPAIISWEHVTQRSIVSEKECHAEFFYNWYFLMIASTIEFFTPFISVTY
+                     FNLSIYFNIRKRTPIRTETLSPGERDCEVCSHGKKQEHAIFFMKVSRKRNNEQTGSLSP
+                     TKLATSKLNGHHQHNQLVEFNIDQDLPPLQVDVQSKSPWDGFYKALEGISNNTKKMEVA
+                     NTMASRFRLSRDKKVAKSLAIIVCIFALCWAPYTLLMIIRAACHGQCIHHALYEASFWL
+                     LWLNSAINPILYPLCHMSFRKAFFKLLCPGKAKIHPNIFS"
+                     /gene="LOC100559929"
+                     /protein_id="XP_003222982.1"
+ORIGIN
+        1 gcgtgagttg cacaggctcg gtcctttgct cactcctttc ctgggcgatt ccgcgcgtgg
+       61 aggcgagatg gagcctctct aagggcgcct cgggatattc agccgcgatg gggacagagc
+      121 tgaacgcctc ctcctcctcc tcctccacct cctcctcctc ctcccccagg gaccagggct
+      181 gcctgggccc ctgcccgccc cccggggccc tctccgcgcc cctctccgtc ttcctcgccg
+      241 ccctgatggc gctcctggtc ctggccaccg tctgcggcaa cgcgctcgtc gtggtggctt
+      301 tcgccctgga ccgaagcctc cgcagccaag gcaacttctt cttcctcaac ctggccattg
+      361 cagacctcct cgtaggtggg ttttgcatcc ccctctacat cccttacatc ctgacgggtg
+      421 aatggaagtt tgggaagggc ctgtgcaaag tctggttggt ggtcgattac ctggtgtgca
+      481 cggcctccgt cttcaacatc gtcttgatca gttttgacag gttcatctcc gtcacaaaag
+      541 cagtgagtta ccgagcccag aaaggcgtga ccaagaatgc cgttgtgaaa atggtgatgg
+      601 tgtgggtcgc cgctttcctc ctgtacggtc cagccatcat cagctgggag cacgtcaccc
+      661 agcgtagcat tgtttcggag aaagagtgcc atgctgagtt cttctacaac tggtacttcc
+      721 tcatgattgc gtccaccatt gagttcttca cgcccttcat cagcgtgact tacttcaacc
+      781 tgagcatcta tttcaacatt cggaaacgga cgcccataag gaccgagacc ctctctcccg
+      841 gcgaacggga ctgtgaggtg tgctcccatg ggaagaagca ggagcatgcc atttttttta
+      901 tgaaagtgag ccggaaaagg aacaacgagc aaacagggag cctctctcca accaagttgg
+      961 ccacgtcgaa gcttaacggt catcaccagc acaaccagtt ggtagaattc aacatcgacc
+     1021 aagatcttcc acctttacaa gtggatgttc agtccaaatc tccttgggat ggtttctaca
+     1081 aagcacttga ggggatttcc aacaacacta agaagatgga ggtggccaac accatggcta
+     1141 gtcggtttag gctttcccgg gacaaaaaag tggccaagtc tttggccatc atcgtctgca
+     1201 tctttgctct ctgttgggct ccctacaccc tcctgatgat aatccgagcc gcttgccacg
+     1261 ggcaatgcat ccaccatgct ctctatgaag cctcgttctg gcttctgtgg ctgaattcgg
+     1321 ccattaatcc cattttgtat cccttgtgcc acatgagctt tagaaaagcg ttctttaaac
+     1381 tgttgtgtcc gggcaaggct aaaattcacc cgaatatttt ttcatgacat tatgcaaagc
+     1441 cgagaacgag gaattttaat attgatgcct ttagcatctc aaaagaactg tgatgctgta
+     1501 ggctcatcca agtgaacagc tcattctgcc ctgaagtcaa agctatggaa acatattttt
+     1561 tttctgaatc ttataggcaa tgaggactga acttatccat aattcacaat cacaggctgg
+     1621 gacttcattc tttggatgta accatcgata aaattccatt tccattgccg acagacagtg
+     1681 tgtgtgcttg tgtttaagaa attgcttaaa ataaaaaagc aaggtttgct ttaaagtctg
+     1741 ctactaatag ttgcatttta tgggagggag ggaaggaact gcactctagg tttccaaagc
+     1801 gcacacagat tttatccata tgcaactgtt ttcctttgta aactgtgaga aattccatgc
+     1861 actcatccca actgtatgtg ccaaaataca accgttatca aaacatgatc aaaatttgat
+     1921 gtttacagct tagcaaagtc tctgtatatc tccttt
+//

@@ -1,0 +1,98 @@
+LOCUS       XM_004583370            1660 bp    DNA              MAM 18-MAY-2013
+DEFINITION  PREDICTED: Ochotona princeps 5-hydroxytryptamine (serotonin)
+            receptor 7, adenylate cyclase-coupled (HTR7), transcript variant X2,
+            mRNA.
+ACCESSION   XM_004583370
+VERSION     XM_004583370.1  GI:504141971
+DBLINK      BioProject: PRJNA193497
+KEYWORDS    RefSeq.
+SOURCE      Ochotona princeps (American pika)
+  ORGANISM  Ochotona princeps
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha;
+            Ochotonidae; Ochotona.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004535451.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ochotona princeps Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1660
+                     /mol_type="mRNA"
+                     /country="USA: Washington"
+                     /isolate="Ochotona princeps_07Jul2011"
+                     /sex="female"
+                     /db_xref="taxon:9978"
+                     /organism="Ochotona princeps"
+                     /chromosome="Unknown"
+     gene            1..1660
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 10 mRNAs, 5 Proteins"
+                     /db_xref="GeneID:101521700"
+                     /gene="HTR7"
+     misc_feature    59..61
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR7"
+     CDS             254..1564
+                     /product="5-hydroxytryptamine receptor 7 isoform X2"
+                     /codon_start="1"
+                     /db_xref="GI:504141972"
+                     /db_xref="GeneID:101521700"
+                     /translation="MMMDVNSSGRPDYGHLRSLLLPDVGRGGLPDLSPDGGADRVAATW
+                     SPHLLSEVPEVTASPASTWDAPPDNASGCWEQINYGSTEKVVIGSILTLITLLTIAGNC
+                     LVVISVCFVKKLRQPSNYLIVSLALADLSVAVAVMPFVSVTDLIGGQWIFGHFFCNVFI
+                     AMDVMCCTASIMTLCVISIDRYLGITRPLTYPVRQNGKCMAKMILSVWLLSASITLPPL
+                     FGWAQNVNDDKVCLISQDFGYTIYSTAVAFYIPMSVMLFMYYRIYKAARKSAAKHKFPG
+                     FPRVPPDSILSLNGMVKLQKEVEECANLSRLLKHERKNISIFKREQKAATTLGIIVGAF
+                     TVCWLPFFLLSTARPFICGTACSCIPLWVERTCLWLGYANSLINPFIYAFFNRDLRTTY
+                     RSLLQCQYRNINRKLSAAGMHEALKLAERPERSEFAL"
+                     /gene="HTR7"
+                     /protein_id="XP_004583427.1"
+     STS             255..795
+                     /db_xref="UniSTS:511811"
+                     /standard_name="HTR7"
+                     /gene="HTR7"
+     STS             1352..1491
+                     /db_xref="UniSTS:39426"
+                     /standard_name="RH66814"
+                     /gene="HTR7"
+ORIGIN
+        1 gtcgggtgcc cggtgacctc tcgttagggg actgccccgc gcggccccgc ttccgtgtta
+       61 acccgcagcg gctggaccgc ccgggacgtg cgggactcgc caaggccaag ccgggcgccc
+      121 cccagcggcg agctgcgggt cccatggctg ggccgggcgg agcggaaccg gcgaggtgaa
+      181 gccccggggc cggcagccgg agcgcgcgtg gccggtgcgc cggctccatg gggcagcggc
+      241 ccacagctgc acgatgatga tggacgttaa cagcagcggc cgcccggact acgggcacct
+      301 ccgctctctg cttctgccgg atgtggggcg cggcgggctg ccggacctga gccccgacgg
+      361 tggtgcggac agggtggcgg ccacctggtc gccgcacctg ctgagtgagg tccctgaggt
+      421 gactgctagc cccgcgtcca cctgggacgc gcccccggac aatgcctctg gctgctggga
+      481 acagatcaac tatggcagca ccgagaaagt tgtgatcggt tccatcctga cgctcatcac
+      541 gctgctgacg atcgcgggca attgcctggt ggtgatctcc gtgtgcttcg tcaagaagct
+      601 ccgccagccc tccaactacc tgatcgtgtc cctggcgctg gccgacctct cggtggccgt
+      661 ggcggtcatg cccttcgtca gcgtcaccga tctcatcggg ggccagtgga tctttggcca
+      721 cttcttctgc aatgtcttca tcgccatgga cgtcatgtgc tgcacagcct cgatcatgac
+      781 cctgtgcgtg atcagcatag acaggtatct gggcatcacg aggcccctca cctaccccgt
+      841 gaggcagaat gggaagtgca tggccaagat gattctgtct gtgtggcttc tctcggcttc
+      901 catcaccttg cccccactct tcggctgggc tcagaacgtc aacgacgaca aagtgtgctt
+      961 gatcagccag gattttggct acacgattta ctccacggca gtggcgtttt atatccccat
+     1021 gtccgtcatg ctcttcatgt actaccggat ttataaggcc gccaggaaga gcgctgccaa
+     1081 gcacaagttc cctggctttc cccgcgtgcc gccagacagc atcctctccc tgaatggcat
+     1141 ggtgaagctg cagaaggagg tggaagagtg tgcaaacctt tcgagactgc tcaagcacga
+     1201 gaggaaaaac atctccatct ttaagaggga acagaaagca gccaccacct tggggatcat
+     1261 tgtcggggcc ttcaccgtgt gctggctgcc ttttttcctc ttgtcgacag ccaggccctt
+     1321 catctgcggc actgcctgca gctgcatccc actgtgggtg gagaggacat gcctgtggct
+     1381 tggctatgca aactctctca ttaacccttt tatatatgcc ttcttcaacc gggacctgag
+     1441 gaccacctac cgcagcctgc tccagtgcca gtaccggaac atcaaccgga agctgtctgc
+     1501 cgcaggcatg cacgaggccc tgaagctagc tgagaggcca gagagatctg agtttgcgct
+     1561 gtaagacaaa actctgacta ctgtagaaaa aaaggtcatg attcatgatc caagcggaat
+     1621 catggagatg aaataaacaa agcagaacgg gtggaaacag
+//

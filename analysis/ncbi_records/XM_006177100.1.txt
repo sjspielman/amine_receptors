@@ -1,0 +1,101 @@
+LOCUS       XM_006177100            1614 bp    DNA              MAM 29-NOV-2013
+DEFINITION  PREDICTED: Camelus ferus dopamine receptor D2 (DRD2), transcript
+            variant X2, mRNA.
+ACCESSION   XM_006177100
+VERSION     XM_006177100.1  GI:560901535
+DBLINK      BioProject: PRJNA183928
+KEYWORDS    RefSeq.
+SOURCE      Camelus ferus (Wild Bactrian camel)
+  ORGANISM  Camelus ferus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Tylopoda;
+            Camelidae; Camelus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006210479.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Camelus ferus Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1614
+                     /mol_type="mRNA"
+                     /collection_date="18-Feb-2010"
+                     /country="Mongolia: Mongolian wild camel protection area,
+                     Bayan Tooree, Altai province"
+                     /isolate="Naran"
+                     /sex="male"
+                     /db_xref="taxon:419612"
+                     /organism="Camelus ferus"
+                     /chromosome="Unknown"
+     gene            1..1614
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 5 Proteins"
+                     /db_xref="GeneID:102508088"
+                     /gene="DRD2"
+     CDS             28..1272
+                     /product="D(2) dopamine receptor isoform X2"
+                     /codon_start="1"
+                     /db_xref="GI:560901536"
+                     /db_xref="GeneID:102508088"
+                     /translation="MDPLNLSWYDDVRGGWNWSRPFNGSEGKADRPQYNYYAMLLTLLI
+                     FVIVFGNVLVCMAVSREKALQTTTNYLIVSLAVADLLVATLVMPWVVYLEVVGEWKFSR
+                     IHCDIFVTLDVMMCTASILNLCAISIDRYTAVAMPMLYNTRYSSKRRVTVMITIVWVLS
+                     FTISCPLLFGLNNTDQNECIIANPAFVVYSSIVSFYVPFIVTLLVYIKIYIVLRRRRKR
+                     VNTKRSSRAFRANLKAPLKEAARRAQELEMEMLSSTSPPERTRYSPIPPSHHQLTLPDP
+                     SHHGLHSTPDSPAKPEKNGHAKDHPKIARIFEIQSMPNGKTRTSLKTMSRRKLSQQKEK
+                     KATQMLAIVLGVFIICWLPFFITHILNIHCDCSIPPVLYSAFTWLGYVNSAVNPIIYTT
+                     FNIEFRKAFLKILHC"
+                     /gene="DRD2"
+                     /protein_id="XP_006177162.1"
+     STS             322..529
+                     /db_xref="UniSTS:266487"
+                     /standard_name="DRD2"
+                     /gene="DRD2"
+     STS             358..448
+                     /db_xref="UniSTS:262987"
+                     /standard_name="DRD2"
+                     /gene="DRD2"
+     STS             772..952
+                     /db_xref="UniSTS:272844"
+                     /standard_name="PMC311033P6"
+                     /gene="DRD2"
+ORIGIN
+        1 tggccatccc gtggccccgc cgccccaatg gatccactga acctgtcctg gtacgatgac
+       61 gttcgggggg gctggaactg gagccggccc ttcaacgggt ccgaggggaa ggccgacagg
+      121 ccccagtaca actactacgc catgctgctc acccttctca tcttcgtcat cgtcttcggc
+      181 aacgtgctgg tgtgcatggc cgtgtcccgc gagaaggcac tgcagaccac caccaactac
+      241 ctgatcgtca gcctggctgt ggctgacctc ctggtggcca cgctcgtcat gccctgggtg
+      301 gtctacctgg aggtggtggg tgagtggaaa ttcagcagga ttcactgtga catctttgtc
+      361 actctggatg tcatgatgtg cacagcaagc atcctgaacc tgtgtgccat cagcatcgac
+      421 aggtacacag ctgtggccat gcccatgctc tacaacacac gctatagctc caagcgcaga
+      481 gtcactgtca tgatcaccat cgtctgggtc ctgtccttca ccatctcctg cccactgctc
+      541 tttggcctca acaacacaga ccagaacgag tgcatcatcg ccaaccccgc cttcgtggtc
+      601 tactcctcca tcgtctcctt ctacgtgccc ttcatcgtca ccctgctggt ctacatcaaa
+      661 atctacatcg tcctccgcag gcggcggaag cgggtcaaca ccaagcgcag cagccgggcg
+      721 ttcagggcca acctgaaggc cccgctcaag gaggctgccc gccgagccca ggaactggag
+      781 atggagatgc tttccagcac cagcccaccc gagaggaccc ggtacagccc catcccgccc
+      841 agccaccacc agctgaccct tcctgaccca tcccaccatg gcctccacag cactcctgac
+      901 agccccgcca aaccagagaa gaacgggcat gccaaagacc accccaagat tgccaggatc
+      961 tttgagatcc agtccatgcc caatggcaaa acccggacct ccctcaagac catgagccgc
+     1021 aggaagctct cccagcagaa ggagaagaaa gccactcaga tgctcgccat tgttcttggc
+     1081 gtcttcatca tctgctggct gcccttcttc atcacccaca tcctgaacat acactgtgac
+     1141 tgcagcatcc cgcccgtcct gtacagcgcc ttcacgtggc tgggctacgt caacagcgcc
+     1201 gtgaacccca tcatctatac gaccttcaac atcgaattcc gcaaggcctt cctgaagatc
+     1261 ctacactgct gaccctgctt cccacctccc tgcccagtgg ccccgcctcg gtccctggga
+     1321 gccgtgggca gggcggccca ggacggcctc ggcctcctct tcgccttcag gccctgcagt
+     1381 gttagcttgg ctccacgccc ctcactgccc gcacaccctc gctccgccag ggcagtgcta
+     1441 gagagccagg taccgtgcca gccctcgggc cggacccctg gctcaggggc agctcacaga
+     1501 gcccctgttc acttgcaggc tctctctgct tggcaccaaa gacccagcca ccttctctga
+     1561 acttcctccg gggctctggg gttgccaggc cggtgtcagg gctcagaggc tgtg
+//

@@ -1,0 +1,90 @@
+LOCUS       XM_005013045            1495 bp    DNA              VRT 26-JUN-2013
+DEFINITION  PREDICTED: Anas platyrhynchos 5-hydroxytryptamine (serotonin)
+            receptor 1E, G protein-coupled (HTR1E), mRNA.
+ACCESSION   XM_005013045
+VERSION     XM_005013045.1  GI:514717739
+DBLINK      BioProject: PRJNA208071
+KEYWORDS    RefSeq.
+SOURCE      Anas platyrhynchos (mallard)
+  ORGANISM  Anas platyrhynchos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Anseriformes; Anatidae;
+            Anas.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004676554.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Anas platyrhynchos Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1495
+                     /mol_type="mRNA"
+                     /country="China: Beijing"
+                     /breed="Pekin duck"
+                     /sex="female"
+                     /isolation_source="Gold Star Duck Production"
+                     /db_xref="taxon:8839"
+                     /organism="Anas platyrhynchos"
+                     /chromosome="Unknown"
+     gene            1..1495
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 15 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101793331"
+                     /gene="HTR1E"
+     misc_feature    107..109
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR1E"
+     CDS             173..1267
+                     /product="5-hydroxytryptamine receptor 1E"
+                     /codon_start="1"
+                     /db_xref="GI:514717740"
+                     /db_xref="GeneID:101793331"
+                     /translation="MNFTNCTTEANVAAKPKTVTEKMLVTLTLATITTLTMLLNSAVIA
+                     AISTTKKLHQPANYLICSLAVTDLLVAVLVMPLSITYIMIDKWTLGYFICEIWLSVDMT
+                     CCTCSILHLCVIALDRYWAITDAIEYARKRTAKRAGLMIVTVWTISIFISMPPLFWRNH
+                     HSVNIPSECRIQHDHVIYTIYSTFGAFYIPLTLILILYYRIYHAAKSLYQKRGSSRHLS
+                     NRSTDSQNSFASCKLTQTFCVSDFSTSDPTTEFDKINASVRIPPFENDLDLAGDRQQIS
+                     TTRERKAARILGLILGAFILSWLPFFIKELLVGLHICTVSPEVADFLTWLGYVNSLINP
+                     LLYTSFNEDFKLAFRKLIRCREHS"
+                     /gene="HTR1E"
+                     /protein_id="XP_005013102.1"
+ORIGIN
+        1 atgagcagga gaaaacctgg aagctttttg ctgcactgtt gaatatggaa atataaaaac
+       61 atttgtacct ggagcatctc tgtccctctt tccaatgggt gacttctgaa gctggaacta
+      121 ctccgctacc tgcagcagcc acttctttca ctgtacatcc tgcagggcga aaatgaattt
+      181 cacaaattgc accactgaag ccaacgtggc tgcaaagcca aaaactgtaa ctgaaaagat
+      241 gcttgttacc ctgaccctgg ccacaatcac aaccctgact atgctgctga attccgctgt
+      301 gattgcggca atctccacaa ccaagaagct ccaccagcca gcaaattatt taatatgttc
+      361 gctagctgtg acggatctcc ttgttgctgt ccttgtcatg cccctgagta tcacttacat
+      421 aatgatagac aaatggactt tgggatactt catctgtgag atctggctta gcgtcgacat
+      481 gacctgctgc acgtgttcga ttcttcacct gtgtgtcatt gctctggaca ggtactgggc
+      541 aatcacagat gcaatcgaat atgccaggaa aaggacggcc aaaagggctg ggctgatgat
+      601 cgtcaccgtg tggactatct ccattttcat atccatgccc cctttgtttt ggagaaatca
+      661 ccacagcgtc aatattccta gcgagtgccg cattcagcat gatcacgtca tctacactat
+      721 ttactccaca ttcggggcat tttatatacc tttgactttg atcctgattc tgtactacag
+      781 gatctaccac gctgccaaga gcctttacca gaagcggggt tcgagccgcc acctcagcaa
+      841 caggagcact gacagccaaa actctttcgc tagctgtaag ctcacacaga cgttctgcgt
+      901 ctcggacttc tccacctctg acccaaccac ggagtttgat aaaatcaacg catccgtgag
+      961 gatccctcct ttcgagaatg acctggacct ggctggtgac cggcagcaga tttccaccac
+     1021 acgggagcga aaggctgctc gcattttggg actgatcttg ggtgctttca ttttgtcctg
+     1081 gttgcccttt ttcatcaagg agctgctggt gggcctccac atttgcactg tctctccaga
+     1141 agtagcagat ttcttgacct ggcttggata tgtcaactcc cttatcaacc ctttgctgta
+     1201 cactagcttt aatgaagatt tcaaactggc cttcagaaag ctcatcaggt gtcgagaaca
+     1261 ttcttaaaag tactgggaga tgatgatgat gacatgactc ctggccttaa gaatgagaaa
+     1321 actaatttga ctattgtcac tgcccttgac aaagggaaaa agggattttt gtgtttgcct
+     1381 ctttgctcga cttctcttta gcctgtaaat ttgttttgct ctttttttac ctctggtgtt
+     1441 attcatggta aagagtttga aataaattta ttctacaaag aaacagattt tttag
+//

@@ -1,0 +1,60 @@
+LOCUS       XP_006155395             366 aa                     MAM 03-DEC-2013
+DEFINITION  PREDICTED: 5-hydroxytryptamine receptor 1F [Tupaia chinensis].
+ACCESSION   XP_006155395
+VERSION     XP_006155395.1  GI:562853517
+DBLINK      BioProject: PRJNA221634
+KEYWORDS    RefSeq.
+SOURCE      Tupaia chinensis (Chinese tree shrew)
+  ORGANISM  Tupaia chinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Scandentia; Tupaiidae; Tupaia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006159953.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Tupaia chinensis Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..366
+                     /db_xref="taxon:246437"
+                     /country="China"
+                     /organism="Tupaia chinensis"
+                     /chromosome="Unknown"
+                     /sex="male"
+     Protein         1..366
+                     /product="5-hydroxytryptamine receptor 1F"
+                     /calculated_mol_wt="41615"
+     Region          33..>155
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          46..347
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..366
+                     /coded_by="XM_006155333.1:36..1136"
+                     /gene="HTR1F"
+                     /db_xref="GeneID:102476368"
+ORIGIN
+        1 mdflnssdqn ltseellnrm pskilvsltl sglalmttti nslviaaiiv trklhhpany
+       61 licslavtdf lvavlvmpfs ivyivreswi mgqvvcdiwl svditcctcs ilhlsaiald
+      121 ryraitdave yarkrtpkra gimitvvwii svfismpplf wrhqgtsrdd ecvikhdhiv
+      181 stiystfgaf yiplalilil yykiyraakt lyhkrqasri akeelngqvl lesgekstrl
+      241 vstpylleks lsdpstdfek ihstvksprs efkhekswrr qkisgtrerk aattlglilg
+      301 afvicwlpff vkelvvnvce kckiseevsn fltwlgylns linpliytif nedfkkafqk
+      361 lvrcqc
+//

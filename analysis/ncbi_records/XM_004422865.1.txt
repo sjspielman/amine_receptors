@@ -1,0 +1,100 @@
+LOCUS       XM_004422865            2186 bp    DNA              MAM 11-APR-2013
+DEFINITION  PREDICTED: Ceratotherium simum simum 5-hydroxytryptamine (serotonin)
+            receptor 1A, G protein-coupled (HTR1A), mRNA.
+ACCESSION   XM_004422865
+VERSION     XM_004422865.1  GI:478497166
+DBLINK      BioProject: PRJNA191537
+KEYWORDS    RefSeq.
+SOURCE      Ceratotherium simum simum (southern white rhinoceros)
+  ORGANISM  Ceratotherium simum simum
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Perissodactyla; Rhinocerotidae;
+            Ceratotherium.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004454164.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ceratotherium simum simum Annotation Release
+            100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2186
+                     /sub_species="simum"
+                     /mol_type="mRNA"
+                     /country="USA: San Diego Zoo, California"
+                     /isolate="SDZICR_KB13650"
+                     /sex="female"
+                     /db_xref="taxon:73337"
+                     /organism="Ceratotherium simum simum"
+                     /chromosome="Unknown"
+     gene            1..2186
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 12 mRNAs, 16 Proteins"
+                     /db_xref="GeneID:101390551"
+                     /gene="HTR1A"
+     misc_feature    261..263
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR1A"
+     CDS             573..1841
+                     /product="5-hydroxytryptamine receptor 1A"
+                     /codon_start="1"
+                     /db_xref="GI:478497167"
+                     /db_xref="GeneID:101390551"
+                     /translation="MDVLSPGQGNNTTSSEGPFGTRANATGISDVTFSYQVITSLLLGT
+                     LIFCAVLGNACVVAAIALERSLQNVANYLIGSLAVTDLMVSVLVLPMAALYQVLNKWTL
+                     GQVICDLFIALDVLCCTSSILHLCAIALDRYWAITDPIDYVNKRTPRRAAALISLTWLI
+                     GFLISIPPMLGWRTPEDRSDPDACTISKDHGYTIYSTFGAFYIPLLLMLVLYGRIFRAA
+                     RFRIRKTVKKVEKAAADTHLGASPAPQPRKSVNGEPGSREWRQGVENKAGGTLCANGAA
+                     RQGDDGAALEVIEVYRVGNSKEHLPLPSEAGAIPCAPVFFEKKNERNAEAKRKMALARE
+                     RKTVKTLGIIMGTFILCWLPFFIVALVLPFCESSCHMPTPLGAIINWLGYSNSLLNPVI
+                     YAYFNKDFQNAFKKIIKCKFCRR"
+                     /gene="HTR1A"
+                     /protein_id="XP_004422922.1"
+ORIGIN
+        1 gagggataag ggaaggagag tgagaaggga gagggagact aaaagggaat gctagtgggg
+       61 agaaaggggg agaaggagga ggcttaagag aaagaaaaga gaagacacag tgagagagag
+      121 ggagggagag aagctgggag aggagggtca cagagtgacc gtggaggatg gggtttctct
+      181 attccagata cttctaggct tggagactgt tggctagtgg ggagactccg gctctggcag
+      241 ccagctgggc agcggtaaag taaaatggac agcgagagac agacgttcca gccacctctc
+      301 cgccgcccag agatcccgga gctgttttct ggccaactcg tttcccagct ggagtctctg
+      361 agcgcgctgg atcgcgggaa cccggtgagc gcctagaagc tgctcctcgg agatgccttc
+      421 gcctgaccag taagaacttc ctgcttgagt ccctgcatcc cctccacctg aaactccaca
+      481 ggagagaggg gcggaagacc ccagggggag gggcgagggg gatcctagcc cagctcattc
+      541 tcccctcccc ctcccccgcc gggcgcgcag gcatggatgt gctcagccct ggacaaggca
+      601 acaacaccac atcgtccgag ggtcccttcg ggacacgcgc caacgctact ggcatctccg
+      661 acgtgacctt cagctaccaa gtgatcacct ctctgctgct gggcaccctc attttctgcg
+      721 cggtgctggg caatgcgtgc gtggtggccg ccatcgccct ggagcgctcc ctgcagaacg
+      781 tggccaacta tctcattggc tccctggccg tcaccgacct tatggtttcg gtgctggtgc
+      841 tgcccatggc cgcgttgtac caggtgctca acaagtggac gctgggacag gtcatctgtg
+      901 acctgttcat cgccctcgac gtactgtgct gcacctcgtc cattctgcac ctgtgcgcca
+      961 tcgcgctgga caggtactgg gccattacgg accccatcga ctacgtgaac aagaggacgc
+     1021 cccgccgcgc cgccgcgctc atctcgctca cttggctcat tggcttcctc atctccatcc
+     1081 cgcccatgct gggctggcgc acccccgaag accgctcgga ccccgacgcg tgcaccatca
+     1141 gcaaggacca tggctacact atctactcca ccttcggcgc tttctacatc ccgctgctgc
+     1201 tcatgctggt tctctatggg cgcatcttcc gagccgcgcg cttccgcatc cgcaagacag
+     1261 tgaagaaggt ggagaaggcg gcagcggaca cccaccttgg ggcgtcgcca gccccgcagc
+     1321 ccaggaagag cgtaaatggc gagccaggga gcagagaatg gaggcagggc gtggagaaca
+     1381 aggcaggggg gactctgtgc gccaatggcg cggcgaggca gggtgacgac ggcgccgccc
+     1441 tggaggtgat cgaagtgtac cgggtgggca actccaaaga gcacctgccg ctgcccagcg
+     1501 aggccggtgc tatcccctgc gctcctgtct tcttcgagaa gaaaaatgag cgcaacgccg
+     1561 aggccaagcg caagatggcc ctggcccgcg agaggaagac ggtgaagacg ctgggcatca
+     1621 tcatgggcac cttcattctc tgctggctgc ccttcttcat cgtggcccta gttctgccct
+     1681 tctgcgagag cagctgccat atgcccaccc cgttgggcgc cataatcaac tggctgggct
+     1741 actccaactc tctgctcaac cctgtcattt acgcctattt caacaaggat tttcaaaacg
+     1801 catttaagaa aatcatcaag tgcaagttct gccgccgatg atgatggagg agtagccggt
+     1861 aactaggccc aaccccagcc ctctggaatc aacacctata gataacttgc tacttttcct
+     1921 ctttctcagc tgctccaccc gcggcttcct gacctcgtcc gccttgcccc atccccaata
+     1981 ccctgctcgg agggagggcg ttctgtgcaa agaagcccca gccgcggggc aggagggcct
+     2041 gggaaactcc ccgggtctgt aagaagcgac cttggctcag actttggcct cacaatcagt
+     2101 tttgatccta gcaattgctt cctccctctt ttgcccccta atattagcgg cggaagttta
+     2161 agtctcagcc gctcaaggca aaaaaa
+//

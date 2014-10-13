@@ -1,0 +1,99 @@
+LOCUS       XM_006129874            2109 bp    DNA              VRT 15-NOV-2013
+DEFINITION  PREDICTED: Pelodiscus sinensis 5-hydroxytryptamine (serotonin)
+            receptor 2C, G protein-coupled (HTR2C), mRNA.
+ACCESSION   XM_006129874
+VERSION     XM_006129874.1  GI:558193920
+DBLINK      BioProject: PRJNA221645
+KEYWORDS    RefSeq.
+SOURCE      Pelodiscus sinensis (Chinese soft-shelled turtle)
+  ORGANISM  Pelodiscus sinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Testudines; Cryptodira;
+            Trionychoidea; Trionychidae; Pelodiscus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005856922.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pelodiscus sinensis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2109
+                     /mol_type="mRNA"
+                     /country="Japan: Saga"
+                     /isolate="Daiwa-1"
+                     /sex="female"
+                     /db_xref="taxon:13735"
+                     /organism="Pelodiscus sinensis"
+                     /chromosome="Unknown"
+     gene            1..2109
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /db_xref="GeneID:102462937"
+                     /gene="HTR2C"
+     CDS             298..1713
+                     /product="5-hydroxytryptamine receptor 2C"
+                     /codon_start="1"
+                     /db_xref="GI:558193921"
+                     /db_xref="GeneID:102462937"
+                     /translation="MSTVSGTGILVSLTTVSVTLDFSLHGGLMAWPLSSNLTLNQSLPT
+                     SDPLNTSERGEVSRMSMKEKNWPALLILVIIVLTIGGNILVIMAVSLEKKLQNATNYFL
+                     MSLAVADMLVGILVMPVSLVTILYDSAWPLPKQLCPIWISLDVLFSTASIMHLCAISLD
+                     RYVAIRNPIEHSRFNSRTKAIMKIAAVWTISIGISMPIPVIGLQDDARVFVNGSCVLND
+                     ENFVLFGSFVAFFIPLIIMVISYCLTVQVLQKQATVFMYGEAPKQRRSSMNCLKKENPE
+                     NLSMLQNHEAASHLNSPVNKEAVLFRKGTMQSINNERRASKVLGIVFFLFLILWCPFFI
+                     TNIMSVLCKEACDEGLLAELLEVFVWVGYICSGINPLVYTLFNKTYRRAFASYIRCQYT
+                     TNTKSTLRQNPCLNVASTASYGKDLALNSYRNGNELNSMELDETEEGLEMQPGTSELSI
+                     NSCNVVSERVSCV"
+                     /gene="HTR2C"
+                     /protein_id="XP_006129936.1"
+ORIGIN
+        1 ttctgcccca agccagccac agacaacgag tttcaccaga gaaatgctgt cacagaatgc
+       61 tggatgtgaa gatgagctga acagtatgaa acctcatgtc ccaaggcggc caaccagtgg
+      121 tcacgaaaca ccatatcaga ggaaatccag aagagcttct ctccaacttc tgtaagggct
+      181 agtccacaat ggaagatcca agagttttct ggctctggtg ttgtgaaatt tggttgctgc
+      241 ctcggaccct ccatttgaaa aagaaattaa cgctgaagaa taattaagtg agagataatg
+      301 agcactgtaa gcggcactgg gatattagtc agcttaacga cggtgtcggt gacgctagat
+      361 tttagtttgc atggtggtct gatggcttgg cccttaagca gcaatttgac tctgaatcag
+      421 agtttgccca catctgaccc tcttaacacc tctgaaaggg gagaagtctc tcgcatgtcc
+      481 atgaaggaaa agaactggcc agccctcctg attctggtga tcattgtgct gactattgga
+      541 gggaatatcc ttgtaattat ggctgtctcc ttggagaaaa aactacagaa cgccaccaac
+      601 tacttcctca tgtctttggc ggtggcagac atgttggtgg ggatcctggt catgcccgtt
+      661 tccctcgtta caattctgta cgattctgct tggcctttgc ctaaacaatt gtgccccata
+      721 tggatttccc tagatgtgct cttttcaact gcatctatca tgcatctctg tgccatctct
+      781 cttgatcggt atgtagcaat acgcaatccc attgagcaca gccgcttcaa ttcccgcacc
+      841 aaggctatta tgaaaattgc tgccgtttgg accatatcaa tagggatctc catgcccatc
+      901 ccagtcatag ggctgcagga cgacgccagg gtgttcgtga acggcagctg cgttctgaac
+      961 gacgagaact tcgtcctctt cgggtccttc gtggcgttct ttatcccgct catcatcatg
+     1021 gtcatctcct actgcctgac cgtccaggtg ctccagaagc aggccacggt gttcatgtat
+     1081 ggcgaggccc ccaagcagcg caggagcagc atgaactgcc tcaaaaaaga aaaccccgag
+     1141 aacctctcca tgctccagaa ccacgaggcg gcctcccact tgaactctcc cgtcaataag
+     1201 gaagccgtgc tcttccggaa agggaccatg cagtcgatca acaacgagcg cagagcctcc
+     1261 aaggtcctgg gcattgtttt ctttttgttt cttatcttgt ggtgtccgtt tttcatcact
+     1321 aacatcatgt ctgtcctttg caaggaagcc tgtgatgagg gcctcctggc cgaactcctc
+     1381 gaggtgtttg tttgggttgg ttacatttgt tccgggatca accccctggt gtacacgctc
+     1441 ttcaataaaa cttatcgcag ggccttcgcc agctacatcc gctgccagta cacgaccaat
+     1501 acgaaatcga cactgcgaca aaacccgtgt ctgaatgttg cttccacggc ttcgtacggg
+     1561 aaagacctgg cgctaaatag ctaccgaaat ggcaatgaac tcaacagcat ggagctagat
+     1621 gaaactgagg agggcttgga aatgcagccg gggacttcag agctctcaat aaacagttgc
+     1681 aatgttgtca gcgaaagggt cagctgtgtg tgatccagtc acacccacgg ctcagtgccc
+     1741 tgcagctgaa cgatatcttt gtaaaactgt atgtgttcct caaagaacaa tgtaaatact
+     1801 gcatcctgaa caaagctttt ttttaaatgc atttttccag cccactactt tcaattggac
+     1861 acacaccgca gtgagggtta aggttctgta ttcaccgtca ctgctagatc aaaaataccc
+     1921 gttcctttgc ttacatcgag gatatgatgc tgaccgtttt cttccagtgt atgaacaaac
+     1981 atgctgaaaa catactcagg tggcatttgc tggagtccag aatggcccat tcatagttag
+     2041 gacaactttt taaagttaac gataaatata tgcaggtcga acctctctag tccggcaccc
+     2101 ttgggacct
+//

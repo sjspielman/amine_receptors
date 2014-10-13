@@ -1,0 +1,120 @@
+LOCUS       XM_004540460            3187 bp    DNA              VRT 14-MAY-2013
+DEFINITION  PREDICTED: Maylandia zebra 5-hydroxytryptamine receptor 1D-like
+            (LOC101483613), mRNA.
+ACCESSION   XM_004540460
+VERSION     XM_004540460.1  GI:498933766
+DBLINK      BioProject: PRJNA198780
+KEYWORDS    RefSeq.
+SOURCE      Maylandia zebra (zebra mbuna)
+  ORGANISM  Maylandia zebra
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Haplochromini;
+            Maylandia; Maylandia zebra complex.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004531714.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Maylandia zebra Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3187
+                     /mol_type="mRNA"
+                     /isolate="#2_Kocher"
+                     /sex="female"
+                     /db_xref="taxon:106582"
+                     /organism="Maylandia zebra"
+                     /chromosome="Unknown"
+     gene            1..3187
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 19 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 5 samples with support for all annotated introns"
+                     /db_xref="GeneID:101483613"
+                     /gene="LOC101483613"
+     misc_feature    1416..1418
+                     /note="upstream in-frame stop codon"
+                     /gene="LOC101483613"
+     CDS             1434..2591
+                     /product="5-hydroxytryptamine receptor 1D-like"
+                     /codon_start="1"
+                     /db_xref="GI:498933767"
+                     /db_xref="GeneID:101483613"
+                     /translation="MELDNSSLDYFIRNFTEIPNTTTAPPWSEATLLGFQVSLSALLAI
+                     VTLATVLSNAFVIATIFLTRKLHTPANFLIGSLAVTDLLVSILVMPISIVYTVSKTWSL
+                     GQIVCDIWLSSDITFCTASILHLCVIALDRYWAITHALEYSKRRTMRRAGIMVGVVWVI
+                     SISISMPPLFWRQAKAHEELTECMVNTDQISYTLYSTFGAFYVPTVLLIILYGRIYVAA
+                     RSRIFKTPSSSGKRFTTAQLIQTSAGSSLCSLNSSSHHEAHLHSGNAGGVGGGGGGSPL
+                     FMNSVKVKLADNVLERKRLCAARERKATKTLGIILGAFIVCWLPFFVGTLVMAICKECW
+                     FDPVLFDIFTWLGYLNSLINPVIYTVFNDEFKQAFQKLIKFRRCS"
+                     /gene="LOC101483613"
+                     /protein_id="XP_004540517.1"
+     STS             1623..1969
+                     /db_xref="UniSTS:156842"
+                     /standard_name="GDB:371366"
+                     /gene="LOC101483613"
+ORIGIN
+        1 atgcaacttg ttgacgtttc tctaatcttc ccggtggaga atcgttcgca tcagatccag
+       61 gaagtccccg tgtcttccac cgggagggtt aataattact ggagacaccc cacaacgatc
+      121 tgcatccttg cgcatacaac gaaggttcgc cggtacagca gttttcacac ttttcagaca
+      181 tagtggggat ttaactctgg taataaaaaa agagagcagc tttgccagtg actgtgaaga
+      241 agtcgttgaa agtgtgagaa agtgtcaaat atcagatttg aacgctgacc acacgaccgc
+      301 cttaactgtg tttataccca cacgaaggat ctgcctttca gataagagtt gaaggaccct
+      361 cagcgcgcac agcagcaaca tctacagaag cagatgcact tttagtataa ccagtctgag
+      421 ttccgactgt ttgtactgga cgtgcgtaaa taaaggacgc ctccaaagac attccgggat
+      481 agcttttatt cttttctcca aaaacgaaag actgaatatc aacagacgaa gaacatccac
+      541 ggaagaaaat gcctcggaag aagctggatg aaaatctgac aaaacctcgc aatctttacg
+      601 gactctacaa gtgaacatct gtctgacagg cgatgctgtg agaagagaga tatggatgtt
+      661 gaagaattac ccatgagcta catttataag tttttccttg gtttgatgct gatcctgtaa
+      721 ctgtagtgct ttggcttccc aacatcatta gaaataggga gcaaagccaa gttacagtca
+      781 gaacctgact aagctttctt gtggacttca gaaaagataa gggagagaga gagagcaagc
+      841 aaacctttgt atctgttgtc atcatcttcc tacgcacagt tccccggttt gctttattga
+      901 aaaggaggag cccattaaag catttgatag ataggaaaag cttggtctga aggtgtggtt
+      961 gctggctggc tgctagttgg agatgagata agagcgtggg gaaacgagag agacaagacg
+     1021 tgcctttctg acgggagatg aatacaaatt aggattttgc cctcctgcag ctacaccagt
+     1081 taagcgaatc aatactgaag tggagaaatg gtcaaattcg tctctgattc atgccaacta
+     1141 atcatcagta tcattagttc taaaccaaaa ctgtggaatg agttgtttgc taacggttaa
+     1201 tatgaaataa ttcttttgaa taaaagggtt gatgaattaa ggagagatcc gtttacaaat
+     1261 gcggtttcaa aaaagttaga aaaaagaaca ttaaaagacg gacttctggt caaaaccatc
+     1321 agtgccacac catcatggcc tttttcagtg ttacacctga actgatccgt gtacagttgt
+     1381 agattataga tatgagactg gattcaaagc aggtttaaca gagtggaggc gcgatggagc
+     1441 tggacaacag ctcactggac tacttcatta gaaacttcac agagattcct aacaccacta
+     1501 cagcaccacc ctggagcgag gccacactcc tcggtttcca ggtctctctg tctgctctgt
+     1561 tagccattgt caccttggct actgtccttt caaatgcctt tgtcatcgcc accatctttc
+     1621 tgaccaggaa gctccacaca cctgccaact tcctaattgg ctccctcgcc gtcacagacc
+     1681 tgttggtttc cattttagtc atgccaatta gcattgtgta cactgtcagc aagacctggt
+     1741 cgctggggca gattgtttgt gacatctggc tgtcatctga tatcacattc tgcaccgcct
+     1801 ccatcttgca cctgtgtgta attgcgctgg atcgctattg ggctatcacg cacgcgctgg
+     1861 agtactcaaa gcgccgcacc atgcgccgtg cagggatcat ggttggggtg gtgtgggtga
+     1921 tatctatatc gatttccatg cctccacttt tctggcggca ggccaaagcc catgaggagc
+     1981 ttacagagtg tatggtgaat acagatcaga tctcttacac cctatactcc accttcggcg
+     2041 ccttctacgt tcccacagtg cttctcatca tcctctacgg tcggatttac gttgcagccc
+     2101 gctctcgcat ttttaagaca ccgtcgtcgt ctgggaagcg tttcaccaca gcgcagctaa
+     2161 tccagacctc tgcagggtcc tctctctgtt ctcttaattc ctcctcccac cacgaagcac
+     2221 acctacactc tggcaatgcg ggaggtgtgg gaggaggagg gggagggtca cctctgttca
+     2281 tgaacagcgt gaaagtcaag ctggcagaca acgtgctgga gaggaaacgt ctgtgtgcag
+     2341 cacgggagag gaaagcaacc aagacactgg gcatcatcct gggcgcgttc attgtctgtt
+     2401 ggcttccctt ctttgttggc acgcttgtca tggcgatatg caaagagtgc tggtttgatc
+     2461 cagtgctgtt tgacatcttt acatggctgg gatacctgaa ctccctcatc aaccctgtca
+     2521 tctacaccgt cttcaacgac gaattcaagc aggctttcca aaagctcatc aaattcagac
+     2581 ggtgctcctg aaaaaaagac aagcgtggat taaaactggc atatccagtg aaaaaaaatg
+     2641 gagcgaaaaa ggcaaaacaa aaacaataga taatagtcag agtggaacta ctgtgcaaaa
+     2701 aatgtaccat gttgataaat gtgatttttt taaaaataca ttaaatatct gtgcatagac
+     2761 ctttagatac ctgcagtatt tcaattataa agacttgtgc atgcatccta caaaagaccc
+     2821 ccccaccccc acctttccag acattgcgat gtgccagaat tcccacacct aagacgaact
+     2881 aaaaaagaag tttgggaaat ctatttaata tgagagagac atcattgtta tttcttggag
+     2941 caagaaaagc ttctacacag ataaggacca gagtgactgt ttggaaggag caaactctga
+     3001 gcgactgaat tcaatcgagc caaaaaagaa aagtcatgaa atgtatgttg tcttcatctc
+     3061 tgtgtcacac tgtacgctgc ttctcctatg tactgtaaag tttctgtgga acagtaaagt
+     3121 acttagaaag actccaactt ctaaaggctc agaaaagctt tgtccatgta tgcaagtgtg
+     3181 cattaaa
+//

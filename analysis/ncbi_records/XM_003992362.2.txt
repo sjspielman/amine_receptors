@@ -1,0 +1,91 @@
+LOCUS       XM_003992362            1270 bp    DNA              MAM 24-FEB-2014
+DEFINITION  PREDICTED: Felis catus dopamine receptor D2 (DRD2), transcript
+            variant 2, mRNA.
+ACCESSION   XM_003992362
+VERSION     XM_003992362.2  GI:587000965
+DBLINK      BioProject: PRJNA175699
+KEYWORDS    RefSeq.
+SOURCE      Felis catus (domestic cat)
+  ORGANISM  Felis catus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae;
+            Felinae; Felis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004065017.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Feb 24, 2014 this sequence version replaced gi:410971922.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Felis catus Annotation Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1270
+                     /mol_type="mRNA"
+                     /breed="Abyssinian"
+                     /isolate="Cinnamon"
+                     /sex="female"
+                     /db_xref="taxon:9685"
+                     /organism="Felis catus"
+                     /chromosome="D1"
+     gene            1..1270
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 Proteins, and 86% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101096838"
+                     /gene="DRD2"
+     CDS             1..1245
+                     /product="D(2) dopamine receptor isoform 2"
+                     /codon_start="1"
+                     /db_xref="GI:410971923"
+                     /db_xref="GeneID:101096838"
+                     /translation="MDPLNLSWYDDDLESQNWSRPFNGSEGRTGKPHYNYYATLLTLLI
+                     FVIVFGNVLVCMAVSREKALQTTTNYLIVSLAVADLLVATLVMPWVVYLEVVGEWKFSR
+                     IHCDIFVTLDVMMCTASILNLCAISIDRYTAVAMPMLYNTRYSSKRRVTVMIAIVWVLS
+                     FTISCPLLFGLNNTDQNECIIANPAFVVYSSIVSFYVPFIVTLLVYIKIYIVLRRRRKR
+                     VNTKRSSRAFRANLKAPLKEAARRAQELEMEMLSSTSPPERTRYSPIPPSHHQLTLPDP
+                     SHHGLHSTADSPAKPEKNGHAKDHPKIAKIFEIQSMPNGKTRTSLKTMSRRKLSQQKEK
+                     KATQMLAIVLGVFIICWLPFFITHILNIHCDCNIPPVLYSAFTWLGYVNSAVNPIIYTT
+                     FNIEFRKAFMKILHC"
+                     /gene="DRD2"
+                     /protein_id="XP_003992411.1"
+     STS             295..502
+                     /db_xref="UniSTS:266487"
+                     /standard_name="DRD2"
+                     /gene="DRD2"
+     STS             331..421
+                     /db_xref="UniSTS:262987"
+                     /standard_name="DRD2"
+                     /gene="DRD2"
+ORIGIN
+        1 atggatccac tgaacctgtc ctggtacgat gatgatctgg agagccagaa ctggagccgg
+       61 cccttcaacg ggtccgaagg aaggaccgga aagcctcact acaactacta tgccacgctt
+      121 ctcaccttgc tcatcttcgt catcgtcttc ggcaacgtgc tggtctgcat ggccgtgtcc
+      181 cgcgagaagg cgctgcagac caccaccaac tacctgatcg tcagcctcgc cgtggccgac
+      241 ctcctggtgg ccacgctcgt catgccctgg gttgtctacc tggaggtggt gggcgagtgg
+      301 aaattcagca ggattcactg tgacatcttt gtcactctgg acgtcatgat gtgcacagca
+      361 agcatcctga acctatgtgc catcagcatc gacaggtaca cagccgtggc catgcccatg
+      421 ctctacaaca cccgctacag ctccaaacgc cgagtcactg tcatgatcgc gatcgtctgg
+      481 gtcctgtcct ttaccatctc ctgcccactg ctcttcggac tcaacaacac agaccagaac
+      541 gagtgcataa tcgccaaccc cgcgttcgtg gtgtactcct ccatcgtctc cttctacgtg
+      601 cccttcatcg tcaccctgct ggtctacatc aagatctaca tcgtcctccg caggcgccgc
+      661 aaacgggtca acacgaagcg cagcagccgg gcttttaggg ccaacctgaa ggccccgctc
+      721 aaggaggctg cccgccgagc ccaggaacta gagatggaga tgctgtccag caccagcccc
+      781 cccgagagga cccggtacag ccccataccg cccagccacc accagctgac cctccccgac
+      841 ccatcccacc acggcctcca cagcacggcc gacagccccg ccaaaccaga gaagaatggg
+      901 catgccaaag accaccccaa gattgccaag atctttgaga tccagtccat gcccaatggc
+      961 aaaacccgga cctctctcaa gaccatgagc cgcaggaagc tctcccaaca gaaggagaag
+     1021 aaagccaccc agatgctcgc cattgttctc ggcgtgttca tcatctgctg gctgcccttc
+     1081 ttcatcaccc acatcctgaa tatacactgt gattgcaaca tcccgcctgt cctgtacagc
+     1141 gccttcacgt ggctgggcta tgtcaacagt gccgtgaacc ccatcatcta cacgaccttc
+     1201 aacattgagt tccgcaaggc cttcatgaag atcctgcatt gctgacccgc ttcccgcctc
+     1261 cctgcccagg
+//

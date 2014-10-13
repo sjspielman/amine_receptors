@@ -1,0 +1,94 @@
+LOCUS       XM_005273415            1796 bp    DNA              PRI 13-AUG-2013
+DEFINITION  PREDICTED: Homo sapiens adrenoceptor alpha 1A (ADRA1A), transcript
+            variant X2, mRNA.
+ACCESSION   XM_005273415
+VERSION     XM_005273415.1  GI:530387594
+DBLINK      BioProject: PRJNA168
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NT_167187.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Homo sapiens Annotation Release 105
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1796
+                     /db_xref="taxon:9606"
+                     /mol_type="mRNA"
+                     /organism="Homo sapiens"
+                     /chromosome="8"
+     gene            1..1796
+                     /note="adrenoceptor alpha 1A; Derived by automated
+                     computational analysis using gene prediction method:
+                     Gnomon. Supporting evidence includes similarity to: 5
+                     mRNAs, 1 EST, 2 Proteins, and 100% coverage of the
+                     annotated genomic feature by RNAseq alignments, including 2
+                     samples with support for all annotated introns"
+                     /db_xref="GeneID:148"
+                     /db_xref="HGNC:HGNC:277"
+                     /db_xref="MIM:104221"
+                     /gene="ADRA1A"
+                     /gene_synonym="ADRA1C; ADRA1L1; ALPHA1AAR"
+     CDS             738..1712
+                     /product="alpha-1A adrenergic receptor isoform X2"
+                     /codon_start="1"
+                     /gene_synonym="ADRA1C; ADRA1L1; ALPHA1AAR"
+                     /db_xref="GI:530387595"
+                     /db_xref="GeneID:148"
+                     /db_xref="HGNC:HGNC:277"
+                     /db_xref="MIM:104221"
+                     /translation="MVFLSGNASDSSNCTQPPAPVNISKAILLGVILGGLILFGVLGNI
+                     LVILSVACHRHLHSVTHYYIVNLAVADLLLTSTVLPFSAIFEVLGYWAFGRVFCNIWAA
+                     VDVLCCTASIMGLCIISIDRYIGVSYPLRYPTIVTQRRGLMALLCVWALSLVISIGPLF
+                     GWRQPAPEDETICQINEEPGYVLFSALGSFYLPLAIILVMYCRVYVVAKRESRGLKSGL
+                     KTDKSDSEQVTLRIHRKNAPAGGSGMASAKTKTHFSVRLLKFSREKKAAKTLGIVVGCF
+                     VLCWLPFFLVMPIGTYILKYDVLFWRKGLSVCTRLRERKEIKN"
+                     /gene="ADRA1A"
+                     /protein_id="XP_005273472.1"
+ORIGIN
+        1 tttccctggg gcgcctagct caaagccgcc tttctctttg cgctctttca ggtggacgcg
+       61 gtcaaacgat gccccgcagc ctcctgggtc tcagcacata ttccacacct acgtcccctg
+      121 acctgtgctc ctagaagctg gagagagcag gagccttcgg tggggcagct caaaatgtag
+      181 gtaactgcgg gccaggagca gcgcccaacc tgtagcgctg cgctacccaa ccatcggtcc
+      241 ctgcctttga gcgtcgacgg ctgatctttt ggtttgaggg agagactggc gctggagttt
+      301 tgaattccga atcatgtgca gaatgctgaa tcttccccca gccaggacga ataagacagc
+      361 gcggaaaagc agattctcgt aattctggaa ttgcatgttg caaggagtct cctggatctt
+      421 cgcacccagc ttcgggtagg gagggagtcc gggtcccggg ctaggccagc ccggcaggtg
+      481 gagagggtcc ccggcagccc cgcgcgcccc tggccatgtc tttaatgccc tgccccttca
+      541 tgtggccttc tgagggttcc cagggctggc cagggttgtt tcccacccgc gcgcgcgctc
+      601 tcacccccag ccaaacccac ctggcagggc tccctccagc cgagaccttt tgattcccgg
+      661 ctcccgcgct cccgcctccg cgccagcccg ggaggtggcc ctggacagcc ggacctcgcc
+      721 cggccccggc tgggaccatg gtgtttctct cgggaaatgc ttccgacagc tccaactgca
+      781 cccaaccgcc ggcaccggtg aacatttcca aggccattct gctcggggtg atcttggggg
+      841 gcctcattct tttcggggtg ctgggtaaca tcctagtgat cctctccgta gcctgtcacc
+      901 gacacctgca ctcagtcacg cactactaca tcgtcaacct ggcggtggcc gacctcctgc
+      961 tcacctccac ggtgctgccc ttctccgcca tcttcgaggt cctaggctac tgggccttcg
+     1021 gcagggtctt ctgcaacatc tgggcggcag tggatgtgct gtgctgcacc gcgtccatca
+     1081 tgggcctctg catcatctcc atcgaccgct acatcggcgt gagctacccg ctgcgctacc
+     1141 caaccatcgt cacccagagg aggggtctca tggctctgct ctgcgtctgg gcactctccc
+     1201 tggtcatatc cattggaccc ctgttcggct ggaggcagcc ggcccccgag gacgagacca
+     1261 tctgccagat caacgaggag ccgggctacg tgctcttctc agcgctgggc tccttctacc
+     1321 tgcctctggc catcatcctg gtcatgtact gccgcgtcta cgtggtggcc aagagggaga
+     1381 gccggggcct caagtctggc ctcaagaccg acaagtcgga ctcggagcaa gtgacgctcc
+     1441 gcatccatcg gaaaaacgcc ccggcaggag gcagcgggat ggccagcgcc aagaccaaga
+     1501 cgcacttctc agtgaggctc ctcaagttct cccgggagaa gaaagcggcc aaaacgctgg
+     1561 gcatcgtggt cggctgcttc gtcctctgct ggctgccttt tttcttagtc atgcccattg
+     1621 ggacatacat tcttaaatat gacgtgctgt tttggagaaa agggctgtcg gtctgcacta
+     1681 ggctgcggga gaggaaagag attaaaaact gaaaccaggg cagggatgag tgtgctatcc
+     1741 acagctgaga agtgaaacac ccatgtttaa tagggactga cccaggaaaa tcaggt
+//

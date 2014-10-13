@@ -1,0 +1,65 @@
+LOCUS       XP_005428121             564 aa                     VRT 13-SEP-2013
+DEFINITION  PREDICTED: D(1B) dopamine receptor [Geospiza fortis].
+ACCESSION   XP_005428121
+VERSION     XP_005428121.1  GI:543280802
+DBLINK      BioProject: PRJNA217051
+KEYWORDS    RefSeq.
+SOURCE      Geospiza fortis (medium ground-finch)
+  ORGANISM  Geospiza fortis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Fringillidae; Emberizinae; Thraupini; Geospiza.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005054470.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Geospiza fortis Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..564
+                     /db_xref="taxon:48883"
+                     /organism="Geospiza fortis"
+                     /chromosome="Unknown"
+                     /sex="female"
+     Protein         1..564
+                     /product="D(1B) dopamine receptor"
+                     /calculated_mol_wt="61554"
+     Region          125..>244
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          132..455
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..564
+                     /coded_by="XM_005428064.1:1..1695"
+                     /gene="DRD5"
+                     /db_xref="GeneID:102032969"
+ORIGIN
+        1 mglisdnrfe kklsfrgtkt igfpikitkt rslkklkhdi strhparpas hiapfspvrs
+       61 qreagravsv pvlaaplapg mlgvisplpa vgprsslavr kepvtaptqv aagsllalli
+      121 lwtlfgnvlv caaivryrhl rskvtnifiv slavsdllva llvmpwkava evagywpfga
+      181 fcnvwvafdi mcstasilnl cvisvdrywa isspfryerk mtqrlalvmi svawalsvli
+      241 sfipvqlnwh kggdvvaaad igdgfgtawa aagavttwae dmsttwvala avrpsdgtsg
+      301 sndtltgpse scdsslnrty aissslisfy ipvaimivty triyriaqvq irrisslera
+      361 aehaqscrss hidchhhtsl kssirketkv lktlsvimgv fvccwlpffi lncmvpfces
+      421 ppsdphaglp cvsettfnif vwfgwanssl npiiyafnad frkvfsnllg cgqfcsgtav
+      481 etvnisneli synqdtlyhk eivtayvnmi pnvvdceenr gdpfdrmsqi spdhevatds
+      541 aceldcegei slgkitpftp nglh
+//

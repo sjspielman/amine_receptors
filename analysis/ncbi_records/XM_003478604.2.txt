@@ -1,0 +1,102 @@
+LOCUS       XM_003478604            2200 bp    DNA              ROD 25-JUN-2013
+DEFINITION  PREDICTED: Cavia porcellus 5-hydroxytryptamine receptor 5B-like
+            (LOC100715649), mRNA.
+ACCESSION   XM_003478604
+VERSION     XM_003478604.2  GI:514478219
+DBLINK      BioProject: PRJNA73553
+KEYWORDS    RefSeq.
+SOURCE      Cavia porcellus (domestic guinea pig)
+  ORGANISM  Cavia porcellus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Caviidae; Cavia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NT_176416.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Jun 25, 2013 this sequence version replaced gi:348585786.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Cavia porcellus Annotation Release
+            101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2200
+                     /mol_type="mRNA"
+                     /db_xref="taxon:10141"
+                     /specimen_voucher="Broad:Sequencing.Sample:289.1, Broad
+                     Institute, Cambridge, MA"
+                     /sex="female"
+                     /strain="inbred line 2N"
+                     /organism="Cavia porcellus"
+                     /chromosome="Unknown"
+     gene            1..2200
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 13 Proteins, and 52% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:100715649"
+                     /gene="LOC100715649"
+     misc_feature    167..169
+                     /note="upstream in-frame stop codon"
+                     /gene="LOC100715649"
+     CDS             245..1324
+                     /product="5-hydroxytryptamine receptor 5B-like"
+                     /codon_start="1"
+                     /db_xref="GI:348585787"
+                     /db_xref="GeneID:100715649"
+                     /translation="MEAASLSPTTPGTALLWARETCSGSPASVLPGREPPYSVFTVLVV
+                     TLLVLLIMATFLWNLLVLVTILRVPAFHRVPHNLVASTAVSDVLVAAVVMPLSLTRELS
+                     AGRRWQLGRSLCHVWICFDVLFCTASIWNVAAIALDRYWTITRHLHYTLRTRRRASALM
+                     IALTWALSALIALAPLLFGWGEVYDARLQRCQVSQEPSYAIFSTCGAFYLPLGVVLFVY
+                     WKIYKAAKVRFGRRRRAVLPLPATAEVKEAPHQAEMVFTARCPATVTIQASADSWREQK
+                     EKRAAMMVGILIGVFVLCWIPFFVTELISPLCACSLPPIWKSVFLWLGYSNSFFNPLIY
+                     TAFNKNYNNAFKGLFTRQR"
+                     /gene="LOC100715649"
+                     /protein_id="XP_003478652.1"
+ORIGIN
+        1 gcggagatgg acagaagggt ccccttcttt tcttcctcca ttggaaaaga gggtccatga
+       61 ggaccccagg tagaaacgcc aaagggaggc tgcagcccaa agagggagca ggatagagcg
+      121 acctagacgt tcctctgtcc tttcctggga ttcagggttc cttctgtgac cccagccgcc
+      181 ccgtccacgc cgaggtcgcg gaccacactt cagcccctgc tccgcagccc tgagtcaagg
+      241 ctccatggaa gccgccagcc tctcgccgac cactccgggc accgcccttc tctgggcccg
+      301 ggagacctgc agcggtagcc cagcctcggt cctgcctggt cgggagccgc cctattctgt
+      361 cttcacagta ctggtggtga ctctgctggt gctgctgatc atggccactt tcctgtggaa
+      421 tctgctggtt ctggtcacca tcctgcgcgt ccctgccttc catcgcgtac cgcataactt
+      481 ggtggcctcg acggccgttt cagacgtcct cgtggcagca gtggtgatgc cactgagcct
+      541 aacgagggaa ctgtcggccg gacgacgatg gcagcttgga cggagcctgt gccacgtgtg
+      601 gatctgcttc gacgtgctgt tttgcaccgc cagcatctgg aacgtggcgg ccatcgccct
+      661 ggaccgctac tggaccatta cgcgccacct gcactacacg ctgcgcaccc ggcgccgcgc
+      721 ctcagcgctc atgatcgcgc ttacctgggc gctgtccgcg ctcatcgccc tcgctccgtt
+      781 gctcttcggc tggggcgagg tgtacgacgc caggctccag cgctgccaag tgagccagga
+      841 accttcctac gcgatcttct ccacctgtgg cgccttttac ttgccccttg gcgtggtgct
+      901 gtttgtgtac tggaagatct acaaagcagc caaggttcgt tttggccgtc ggagacgggc
+      961 tgtactgcca ttacctgcca ccgcggaggt gaaggaggca cctcatcagg ctgagatggt
+     1021 gttcacagca cgctgcccag caactgtgac catccaggca agtgcagact cttggcggga
+     1081 gcagaaggag aaacgagcag ccatgatggt ggggattctg attggagtgt ttgtgctatg
+     1141 ctggatcccc tttttcgtga ctgagcttat tagccctctc tgtgcctgca gcctaccccc
+     1201 aatctggaaa agcgtattcc tatggcttgg ctactccaat tctttcttta accccctcat
+     1261 ttacacagct tttaacaaga actataacaa tgccttcaaa ggcctgttta ccaggcagag
+     1321 ataaaagggg ctgaagacat atgggcagag ttatgagaag gaaatgaatt tcgatctatc
+     1381 aacttcagtg gtctgggcac tttccctcat agttaagtgc taatgatgtt ttgaaagtca
+     1441 tgttgttagg catggactat ggaagcaact gtgccatata cttactgtct catgaaggct
+     1501 agcaaaggta tggcaaacct aactaagccc tcttcccata tagttatagc atgcactgcc
+     1561 aatagatcat cacacgtctt cccactaaga aactccacct tagaatcttt ttatgacaac
+     1621 atctgaggta gttactgcta atgttagcac tgactgacac atgggtcaaa actgacttcc
+     1681 tttccttggc aaagatatct caaaccactc aagacacttt cttcttagct actatacatc
+     1741 ccccaaaagg caaaataata tctccattca caaatgtttc cctttgcaaa caatttggtc
+     1801 cacaaacaaa agcatccagt aaaaatttgc ttctataagc aaactccaca tcaggtcaca
+     1861 aacatggtca taacatcttc cccacagttg taatacaaac cacattacca aggtatatct
+     1921 caatttgcag gaagataagg accattttgt taacaaccct cagtctatct ctagcctatt
+     1981 gaattagact ctaaaagaat tagtctggtg atctgtgtat tacagtctat gaggatgatt
+     2041 ttttaaccag tgagagatgc tgttctttga acagtataag ttagcattcc tggtggatga
+     2101 ctcgggtagc acttctaaaa gcttaccaca attccaatgt ttagccagag ttgagaaatc
+     2161 ctgcttaggc ctttgcaatg tttattcatg acttgggaga
+//

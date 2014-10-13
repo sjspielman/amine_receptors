@@ -1,0 +1,95 @@
+LOCUS       XM_005554377            1858 bp    DNA              PRI 19-SEP-2013
+DEFINITION  PREDICTED: Macaca fascicularis adrenoceptor alpha 2C (ADRA2C), mRNA.
+ACCESSION   XM_005554377
+VERSION     XM_005554377.1  GI:544431102
+DBLINK      BioProject: PRJNA215851
+KEYWORDS    RefSeq.
+SOURCE      Macaca fascicularis (crab-eating macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005092967.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Macaca fascicularis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1858
+                     /mol_type="mRNA"
+                     /country="Indonesia: Tinjil, Java South Coast"
+                     /dev_stage="5.8 year-old"
+                     /sex="female"
+                     /db_xref="taxon:9541"
+                     /organism="Macaca fascicularis"
+                     /chromosome="5"
+     gene            1..1858
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 17 Proteins, and 98% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:102129584"
+                     /gene="ADRA2C"
+     CDS             78..1334
+                     /product="alpha-2C adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:544431103"
+                     /db_xref="GeneID:102129584"
+                     /translation="MASPALAAALAVAAAAGPNASGAGERGSGANASGASWGPPRGQYS
+                     AGAVAGLAAVVGFLIVFTVVGNVLVVIAVLTSRALRAPQNLFLVSLASADILVATLVMP
+                     FSLANELMAYWYFGQVWCGVYLALDVLFCTSSIVHLCAISLDRYWSVTQAVEYNLKRTP
+                     RRVKATIVAVWLISAVISFPPLVSLYRQPDGAAYPQCGLNDETWYILSSCIGSFFAPCL
+                     IMGLVYARIYRVAKLRTRTLSEKRAPVGPDGASPTTENGLGAAAGAGENGHCAPPRADV
+                     EPDESSEAAERRSPGPGGRLSRASSRSVEFFLSRRRRARSSVCRRKVAQAREKRFTFVL
+                     AVVMGVFVLCWFPFFFSYSLYGICREACQVPVPLFKFFFWIGYCNSSLNPVIYTVFNQD
+                     FRRSFKHILFRRRRRGFRQ"
+                     /gene="ADRA2C"
+                     /protein_id="XP_005554434.1"
+     STS             1152..1272
+                     /db_xref="UniSTS:13513"
+                     /standard_name="STS-J03853"
+                     /gene="ADRA2C"
+ORIGIN
+        1 accccggctg gggggcgccc aagctgccgc ggctgctccc cggctccagc agggaccgcg
+       61 tagctcgcgg gaggaccatg gcgtccccgg cgctggcggc ggcgctggcg gtggcggcag
+      121 ctgcgggccc caatgcgagc ggcgcgggcg agaggggcag cggcgccaac gcctcggggg
+      181 cttcctgggg gccgccacgc ggccagtact cggcgggtgc ggtggcaggg ctggcggccg
+      241 tggtgggctt cctcatcgtc ttcaccgtgg tgggcaacgt gctggtggtg atcgccgtgc
+      301 tgaccagccg ggcgctgcgc gcgccacaga acctcttcct ggtgtcgctg gcctcggccg
+      361 acatcctggt ggccacgcta gtcatgccct tctcgctggc caacgagcta atggcctact
+      421 ggtacttcgg gcaggtgtgg tgcggcgtgt acctggcgct cgatgtgctg ttttgcacct
+      481 cgtcgatcgt gcacctgtgt gccatcagcc tggaccgcta ctggtcggtg acgcaggccg
+      541 tcgagtacaa cctgaagcgc acgccacgcc gcgtcaaggc caccatcgtg gccgtgtggc
+      601 tcatctcggc cgtcatctcc ttcccgccgc tggtctcgct ctaccgccag cccgacggcg
+      661 ccgcctaccc gcagtgcggc ctcaacgacg agacctggta catcctgtcc tcctgcatcg
+      721 gctccttctt cgcgccctgc ctcatcatgg gcctggtcta cgcgcgcatc taccgcgtgg
+      781 ccaagctgcg cacgcgcacg ctcagcgaga agcgcgcccc cgtgggcccc gacggtgcgt
+      841 ccccgaccac cgaaaacggg ctgggcgcgg cggcaggcgc gggtgagaac gggcactgcg
+      901 cgcccccgcg cgccgacgtg gagccggacg agagcagcga ggcggccgag aggcggtccc
+      961 cgggccccgg cggccgcctg tcgcgcgcca gctcgcgctc cgtcgagttc ttcctgtcgc
+     1021 gcaggcgccg ggcgcgcagc agcgtgtgcc gccgcaaggt ggcccaggcg cgcgagaagc
+     1081 gcttcacctt cgtgctggcc gtggtcatgg gcgtgttcgt gctctgctgg ttccccttct
+     1141 tcttcagcta cagcctgtac ggtatctgcc gcgaggcctg ccaggtgccc gtcccgctct
+     1201 tcaagttctt cttctggatc ggctactgca acagctcgct gaacccagtc atctacacgg
+     1261 tcttcaacca ggacttccgg cgatccttca agcacatcct cttccgacgg aggagaaggg
+     1321 gcttcaggca gtgactcgcg cccgtctggg gatcctggac agctccacgc tcagggctgg
+     1381 gcagaaaggg cggcccagac gggagctttc ccagagaccc ggggatggat tggcctccag
+     1441 ggcgcagggg agggtgcggc agggcaggag cttggcagag agagagccgg gctccgggga
+     1501 gtggggagga gagaggggga gacccctttg ccttcccgcc tcagcaaggg gctgcttctg
+     1561 gggctccctg cctggatcca gctgtggggg ccctgccgag gtgtggctgt gaggtcaggg
+     1621 ttttagagag cagtgtcaga ggtagcttcc taaatgggcg agcaaggagc cccccgaaac
+     1681 acactaccac tccccatccc cgtctgacca agggctgact tctccaggac ctagtcgggg
+     1741 ggtggctgcc agggggcaag gagaaagcac cgacaatctt tgattactga aagtatttaa
+     1801 atgtttgcca aaaacaacag ccaaaccacc aaactatttt ctaaataaac ctttgtaa
+//

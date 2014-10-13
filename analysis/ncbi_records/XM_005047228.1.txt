@@ -1,0 +1,103 @@
+LOCUS       XM_005047228            1996 bp    DNA              VRT 17-JUL-2013
+DEFINITION  PREDICTED: Ficedula albicollis cholinergic receptor, muscarinic 5
+            (CHRM5), mRNA.
+ACCESSION   XM_005047228
+VERSION     XM_005047228.1  GI:524999066
+DBLINK      BioProject: PRJNA208061
+KEYWORDS    RefSeq.
+SOURCE      Ficedula albicollis (collared flycatcher)
+  ORGANISM  Ficedula albicollis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Muscicapidae; Ficedula.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004775628.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Ficedula albicollis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1996
+                     /mol_type="mRNA"
+                     /collection_date="2009"
+                     /country="Sweden: Oland"
+                     /isolate="OC2"
+                     /sex="male"
+                     /db_xref="taxon:59894"
+                     /organism="Ficedula albicollis"
+                     /chromosome="5"
+     gene            1..1996
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 11 Proteins, and 89% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 4 samples with support for all annotated introns"
+                     /db_xref="GeneID:101819745"
+                     /gene="CHRM5"
+     misc_feature    377..379
+                     /note="upstream in-frame stop codon"
+                     /gene="CHRM5"
+     CDS             410..1996
+                     /product="muscarinic acetylcholine receptor M5"
+                     /codon_start="1"
+                     /db_xref="GI:524999067"
+                     /db_xref="GeneID:101819745"
+                     /translation="MEVNLFSNSTVVNSSSINHKQLEGHSLWEVISIATVTAIVSLITI
+                     VGNILVMISFKVNSQLKTVNNYYLLSLACADLIIGIFSMNLYTSYILIGHWTLGSLACD
+                     LWLALDYVASNASVMNLLVISFDRYFSITRPLTYRAKRTPKRAGIMIGMAWLISFMLWA
+                     PVILCWQYFVGERTVPPEECQIQFLNEPIVTFGTAIAAFYIPVSVMTILYCRIYKETEK
+                     RTKDLAELQGSESVAEFETIKPQKTLLKSCFSCKQQNLVKRERCQASWSSSSRSTSATV
+                     KASQAASTCMDWAKADQLTTCSSYASSEDEDKLATDSVFQVTYKSPSKSKAEEYNETTD
+                     VVVKDQPEESDFENQKYFLSPTKEHVQKSKKCVAYKFRLVVKADGTQEANNGCRKVKIT
+                     PCSAALSKEPSIKSMDPNINSQITKRKRMVLIKERKAAQTLSAILLAFIITWTPYNIMV
+                     LISTFCSDCIPLTLWHLGYWLCYVNSTVNPMCYALCNKTFRKTFKMLLFCQWKKKKVEE
+                     KLYWQGNTRLP"
+                     /gene="CHRM5"
+                     /protein_id="XP_005047285.1"
+ORIGIN
+        1 gaatttgcct tttatttctt actttttttt ttggtgggga gggaaagatg caaagttcac
+       61 aggtcctttc tgttacctga tcagggcaga attaacaaaa atcctgaatg tggaagaact
+      121 cagatactga agatatctgg aaataaactg gaaacaacca ataccacaac agcaaagcag
+      181 cagtgaacaa gaagacgctg tggaaaagaa atcacaagac gagagtgcac aatgcatttc
+      241 aaatagaaaa aagcttccta tctgctgagt gagtctcagt atattctgac agagcacaga
+      301 caaagcatca gtcaagtatc tcctagctat ctccaaaagg atgattctga gtacagaaag
+      361 cagtatgcaa cagtggtaag gtcctgatga caatacacca aggacaagga tggaagtcaa
+      421 tttattcagc aattctactg ttgtaaacag ttcatccatc aaccataagc agttagaagg
+      481 gcatagcctc tgggaagtca ttagtattgc cactgtaact gcaattgtaa gcttaataac
+      541 catagtggga aatattctag tgatgatatc ctttaaggtt aacagtcagc tcaaaactgt
+      601 caacaattat tacttgctca gccttgcctg tgcagatctc atcattggga tattttctat
+      661 gaacctttat acatcctata tactcatagg ccattggact cttggaagcc ttgcctgtga
+      721 cctgtggcta gcactggact atgtagctag caatgcctca gtgatgaacc tcctagtcat
+      781 cagttttgac agatattttt ccatcacaag gcctttaact tacagagcca aacgcacacc
+      841 caaaagagct ggcatcatga ttggtatggc ttggctaatt tccttcatgt tgtgggcacc
+      901 cgtaatattg tgctggcagt attttgtggg tgaacgaaca gtgccacctg aagagtgcca
+      961 gatacagttc ctgaatgaac ccattgttac ctttggtact gcaattgctg ctttttacat
+     1021 tccggtgtct gtgatgacca ttctgtactg ccgcatttat aaagagacgg agaaacgcac
+     1081 caaggacctc gctgaactgc agggctcaga gtctgtggca gagtttgaga caataaagcc
+     1141 tcagaaaact ctcctgaagt cttgcttcag ttgcaagcaa caaaacttag tcaaaaggga
+     1201 gaggtgtcag gcttcttggt cttcatctag tcgaagtacg tcagccacag tgaaggcgtc
+     1261 ccaggcagcg agtacttgta tggactgggc taaggctgac cagttaacca cctgcagcag
+     1321 ctatgcttca tcagaagacg aggataaact tgccactgac tcagttttcc aagtaaccta
+     1381 caaaagccca tctaaaagta aggcagaaga gtataatgag actacagatg ttgttgtcaa
+     1441 agaccaacct gaagaaagtg attttgagaa ccagaaatac tttttgtcac ctaccaaaga
+     1501 acatgtacaa aaaagtaaaa aatgtgtggc ctataaattt cgtttggtag ttaaggctga
+     1561 tggcacccag gaagccaaca atggctgccg aaaagtaaaa ataactcctt gttctgctgc
+     1621 tctgtcaaag gagccttcca tcaaaagcat ggatccaaat attaatagcc aaatcaccaa
+     1681 aaggaaacgg atggttctta taaaggaacg caaggcagca cagactttaa gtgccattct
+     1741 tttggctttt atcatcacat ggacccccta taatattatg gttttgatct ccacattttg
+     1801 ctctgactgc attcccctga cactgtggca ccttggatat tggctatgct atgtgaacag
+     1861 cactgttaac cccatgtgtt atgccctctg taataaaact ttcaggaaga cttttaagat
+     1921 gctgcttttc tgccagtgga aaaagaaaaa agtggaagag aaactctact ggcaaggcaa
+     1981 taccagactg ccataa
+//

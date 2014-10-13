@@ -1,0 +1,101 @@
+LOCUS       XM_005459225            2120 bp    DNA              VRT 12-SEP-2013
+DEFINITION  PREDICTED: Oreochromis niloticus muscarinic acetylcholine receptor
+            M4-like (LOC100699420), mRNA.
+ACCESSION   XM_005459225
+VERSION     XM_005459225.1  GI:542244846
+DBLINK      BioProject: PRJNA72943
+KEYWORDS    RefSeq.
+SOURCE      Oreochromis niloticus (Nile tilapia)
+  ORGANISM  Oreochromis niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NT_167537.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Oreochromis niloticus Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2120
+                     /mol_type="mRNA"
+                     /isolate="000638D3DF"
+                     /sex="female"
+                     /db_xref="taxon:8128"
+                     /organism="Oreochromis niloticus"
+                     /chromosome="Unknown"
+     gene            1..2120
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 100% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 2 samples
+                     with support for all annotated introns"
+                     /db_xref="GeneID:100699420"
+                     /gene="LOC100699420"
+     CDS             254..1867
+                     /product="muscarinic acetylcholine receptor M4-like"
+                     /codon_start="1"
+                     /db_xref="GI:542244847"
+                     /db_xref="GeneID:100699420"
+                     /translation="MSNDSNGVGGLQPLWNINGSLLNQTTDLFSNTSCNISTNDSTSCS
+                     AVDSGVGTGSPYKALEMFFIAMVTGSLSFVTVTGNILVMLSIKVNRHLQTVNNYFLFSL
+                     ACADLIIGVFSMNLYTVYIIVGYWPLGPVVCDLWLALDYVVSNASVMNLLIISFDRYFC
+                     VTKPLTYPTRRTTKMAGLMIAAAWILSFILWAPAILFWQFIVGQRTVPPGECYIQFLSN
+                     PAVTFGTAIAAFYLPVIIMTVLYIHISLASRSRVSKHKPEKKDKKGMKTPCLMKSHLLK
+                     QNNNNETSPHASPHSTPKLSLDSTTTALDAVKNGKVDESKPAEPQPLAQPSSGLTQEEK
+                     ESSNDSSTAFIPPREPKDNSNNKITSEVLANPTPVPTTTNSAIHKINPSSRWSKIKIVT
+                     KQSGDECITAIEIVPPVDGAERHSIPISRPRTVARKFASIARSQVRRKRQMAAREKKVT
+                     KTIFAILLAFIITWTPYNVMVLISTFCQSCVPDTVWAIGYWLCYVNSTINPACYALCNA
+                     TFKKTFKNLLLCQYKNIGTR"
+                     /gene="LOC100699420"
+                     /protein_id="XP_005459282.1"
+ORIGIN
+        1 catccaggga gggaaactgc actattaaaa ctggttaaag agaaagcaga acagaagcag
+       61 aaggaccata atgtgaactg tgagtgtgct cgacggaaaa gcggagcgga ggataacatt
+      121 ttagaagggc tacacaaggg tgatagtggg tagaaaactt ggagaaagaa aaacaacgtg
+      181 gacgagagcg aaaagagaaa agaagggaga gaaaagtctc gtcttcgctg ttgtcggttc
+      241 agcgccatga atcatgagta acgacagtaa cggagttgga gggcttcagc ctctctggaa
+      301 catcaatggc tcattgctca accaaacgac tgacctgttc tccaacacat cgtgcaacat
+      361 atccaccaat gattcaacat cctgttctgc tgttgacagt ggagtgggaa ctggaagtcc
+      421 atacaaagct ttggagatgt tttttattgc tatggttaca ggatcgttga gctttgtgac
+      481 tgttacagga aatattttag tcatgctctc catcaaagta aaccgtcacc tacaaactgt
+      541 caataactat ttcctatttt cattagcatg cgctgacttg atcatcggtg ttttcagtat
+      601 gaatttgtat acagtctaca ttattgttgg ctactggcca cttgggccgg tggtctgtga
+      661 cttgtggcta gctttagatt atgttgtgtc aaacgcctct gtgatgaatc tgttaattat
+      721 cagctttgat cgctatttct gtgttaccaa accccttacg tatccaacaa gaaggacaac
+      781 taagatggca ggattaatga ttgcagcagc ttggatcctg tcattcatct tatgggctcc
+      841 tgccatcttg ttctggcagt tcatcgttgg gcagagaaca gtgccacctg gagagtgtta
+      901 tattcagttc ctttctaatc ctgcagtgac atttggaaca gcaatagcag cattttatct
+      961 ccctgtcatt atcatgacag tgttatacat ccatatctcc ctggcctcaa ggagcagggt
+     1021 ttccaaacac aaaccagaga agaaagacaa gaagggaatg aaaactccct gcctaatgaa
+     1081 gagtcacctg ttgaagcaga acaacaacaa tgagaccagt cctcatgcca gtccccactc
+     1141 aactccaaaa ctcagtttgg attcaactac cactgcactg gatgctgtga agaatggaaa
+     1201 agtggatgaa tcaaaacctg ctgagcctca gcctctggca cagccaagtt caggactcac
+     1261 acaggaagaa aaagagagct ccaatgattc atccacagct tttattcccc ccagagaacc
+     1321 aaaggacaat tccaacaaca aaataacgtc tgaggtgcta gcaaacccca ctccagtacc
+     1381 gacaacaacc aattctgcca tccacaagat caatccctct tcaaggtggt ccaagataaa
+     1441 gattgtgaca aagcagtctg gggatgaatg catcacagct atagagatcg ttccacctgt
+     1501 agatggagct gagaggcatt caatcccaat cagccgtcct cgaactgtgg caagaaaatt
+     1561 tgcaagcatt gctagaagcc aagtgagaag gaaaagacag atggctgcca gagaaaagaa
+     1621 agtaaccaag actatctttg ccatcctgct ggctttcatc ataacatgga caccgtataa
+     1681 tgtgatggtg ttgatctcaa ccttctgcca gtcctgtgtc cctgacacag tgtgggcaat
+     1741 tggctactgg ctgtgttatg tcaactctac tatcaaccca gcttgttatg cactgtgcaa
+     1801 tgccacattt aaaaagactt tcaagaacct gttgctatgc caatataaaa atataggtac
+     1861 aagataagat agaaggagga gatttgagat aggatggaag gcaaagctgt aaatcatttc
+     1921 aagaagttgc gtgaaagaaa aatgaaggaa ctgaataaag aatagcagaa ctgggtgatg
+     1981 ggtgccttct gaagagacca gaaacttgca gtggattagt aaatgtattt attctacaaa
+     2041 tgaatgagtg gtccctattc atacagtcta agcaaagcgt gagtgtaaac cagagattct
+     2101 tttattcttt tacctgtcaa
+//

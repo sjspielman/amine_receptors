@@ -1,0 +1,93 @@
+LOCUS       XM_004653206            1409 bp    DNA              ROD 28-MAY-2013
+DEFINITION  PREDICTED: Jaculus jaculus 5-hydroxytryptamine (serotonin) receptor
+            7, adenylate cyclase-coupled (Htr7), transcript variant X3, mRNA.
+ACCESSION   XM_004653206
+VERSION     XM_004653206.1  GI:507538489
+DBLINK      BioProject: PRJNA193488
+KEYWORDS    RefSeq.
+SOURCE      Jaculus jaculus (lesser Egyptian jerboa)
+  ORGANISM  Jaculus jaculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Dipodidae; Dipodinae; Jaculus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004504322.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Jaculus jaculus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1409
+                     /mol_type="mRNA"
+                     /collection_date="May-2011"
+                     /country="USA"
+                     /isolate="JJ0015"
+                     /sex="female"
+                     /note="the animal was collected near Giza City, Egypt in
+                     2009 and now lives in a colony in the USA"
+                     /db_xref="taxon:51337"
+                     /organism="Jaculus jaculus"
+                     /chromosome="Unknown"
+     gene            1..1409
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 10 mRNAs, 6 Proteins"
+                     /db_xref="GeneID:101609641"
+                     /gene="Htr7"
+     STS             6..546
+                     /db_xref="UniSTS:511811"
+                     /standard_name="HTR7"
+                     /gene="Htr7"
+     CDS             8..1315
+                     /product="5-hydroxytryptamine receptor 7 isoform X3"
+                     /codon_start="1"
+                     /db_xref="GI:507538490"
+                     /db_xref="GeneID:101609641"
+                     /translation="MMDVNSSGRPDLYGHLRSFLLPEVGRGLPDLSPDGGAEPGPGSWA
+                     PHLLSGVSEGTASPAPTWDAPPDNVSGCGEQINYGRAEKVVIGSILTLITLLTIAGNCL
+                     VVISVCFVKKLRQPSNYLIVSLALADLSVAVAVMPFVSVTDLIGGKWIFGHFFCNVFIA
+                     MDVMCCTASIMTLCVISIDRYLGITRPLTYPVRQNGRCMAKMILSVWLLSASITLPPLF
+                     GWAQNVNDDKVCLISQDFGYTIYSTAVAFYIPMSVMLFMYYQIYKAARRSAAKHKFPGF
+                     PRAQPDSAASLNGMVRLQKEVEECANLSRLLKHERKNISIFKREQKAATTLGIIVGAFT
+                     VCWLPFFLLSTARPFICGTACSCIPLWVERTCLWLGYANSLINPFIYAFFNRDLRTTYR
+                     SLLQCQYRNINRKLSAAGMHEALKLAERPERAECVL"
+                     /gene="Htr7"
+                     /protein_id="XP_004653263.1"
+     STS             1103..1242
+                     /db_xref="UniSTS:39426"
+                     /standard_name="RH66814"
+                     /gene="Htr7"
+ORIGIN
+        1 cggcacgatg atggacgtta acagcagcgg ccgccccgac ctctacggcc acctccgctc
+       61 cttcctcctg ccggaggtgg ggcgcgggct gcccgacctg agccccgacg gtggcgccga
+      121 gcccggcccg ggctcctggg cgccgcacct gctgagcggc gtgtcggagg gcacggccag
+      181 ccccgcgccc acctgggacg cgcccccgga caatgtctcg ggctgcgggg agcagatcaa
+      241 ctacggcaga gccgagaaag ttgtgatcgg ctccatcctg acgctcatca cgctgctgac
+      301 gatcgcgggc aactgcctgg tggtgatctc cgtgtgcttc gtcaagaagc tccgccagcc
+      361 ctccaactac ctgatcgtgt ccctggcgct ggccgacctc tcggtggccg tggcggtcat
+      421 gcccttcgtc agcgtcaccg acctcatcgg cggcaagtgg atttttggcc acttcttctg
+      481 caacgtcttc attgccatgg atgtcatgtg ctgcacggcc tcgatcatga ccctgtgcgt
+      541 gatcagcata gacaggtacc ttgggatcac caggcccctc acctaccctg tgaggcagaa
+      601 tggcaggtgc atggccaaaa tgattctgtc cgtgtggctc ctgtcggcct ccatcacctt
+      661 gccgccgctc ttcggctggg cccagaatgt gaacgacgac aaggtgtgcc tgatcagcca
+      721 ggacttcggc tacaccatct actccaccgc cgtggcgttc tacatcccca tgtcggtcat
+      781 gctgttcatg tactaccaga tctacaaggc ggcccgccgc agcgcggcca agcacaagtt
+      841 cccgggcttc ccgcgcgcgc agcccgacag cgccgcctcg ctgaacggca tggtgcggct
+      901 gcagaaggag gtggaggagt gtgccaacct ctccagactc ctcaaacacg agaggaaaaa
+      961 catctccatc ttcaagaggg agcagaaggc agccaccacc ttgggcatca tcgtgggggc
+     1021 cttcaccgtg tgctggctgc ccttcttcct gctctccacc gccaggccct tcatctgcgg
+     1081 cacggcctgc agctgcatcc cgctgtgggt ggagaggaca tgcctgtggc tgggctatgc
+     1141 aaactcgctc attaaccctt ttatatatgc cttcttcaac cgggacctga ggaccaccta
+     1201 ccgcagcctg ctccagtgcc agtaccggaa tatcaaccgg aagctctcgg ccgcaggcat
+     1261 gcacgaggcc ctgaaacttg ccgagaggcc cgagagagcc gagtgtgtgc tgtaagacaa
+     1321 aactctgact actgtaggaa aaaaggtcat gattcatgat ccgcagcgga ataatggaga
+     1381 tgaaataaac aaggccaagc aggtggaaa
+//

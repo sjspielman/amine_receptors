@@ -1,0 +1,96 @@
+LOCUS       XM_004666464            1736 bp    DNA              ROD 28-MAY-2013
+DEFINITION  PREDICTED: Jaculus jaculus dopamine receptor D2 (Drd2), mRNA.
+ACCESSION   XM_004666464
+VERSION     XM_004666464.1  GI:507565739
+DBLINK      BioProject: PRJNA193488
+KEYWORDS    RefSeq.
+SOURCE      Jaculus jaculus (lesser Egyptian jerboa)
+  ORGANISM  Jaculus jaculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Dipodidae; Dipodinae; Jaculus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004504404.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Jaculus jaculus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1736
+                     /mol_type="mRNA"
+                     /collection_date="May-2011"
+                     /country="USA"
+                     /isolate="JJ0015"
+                     /sex="female"
+                     /note="the animal was collected near Giza City, Egypt in
+                     2009 and now lives in a colony in the USA"
+                     /db_xref="taxon:51337"
+                     /organism="Jaculus jaculus"
+                     /chromosome="Unknown"
+     gene            1..1736
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 12 mRNAs, 15 Proteins"
+                     /db_xref="GeneID:101598614"
+                     /gene="Drd2"
+     misc_feature    58..60
+                     /note="upstream in-frame stop codon"
+                     /gene="Drd2"
+     CDS             94..1425
+                     /product="D(2) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:507565740"
+                     /db_xref="GeneID:101598614"
+                     /translation="MDPLNLSWYDDELERQNWSRPFNGSEGKADRPHYNYYAMLLTLLI
+                     FVIVFGNVLVCMAVSREKALQTTTNYLIVSLAVADLLVATLVMPWVVYLEVVGEWKFSR
+                     IHCDIFVTLDVMMCTASILNLCAISIDRYTAVAMPMLYNTRYSSKRRVTVMIAIVWVLS
+                     FTISCPLLFGLNNTDQNECIIANPAFVVYSSIVSFYVPFIVTLLVYIKIYIVLRKRRKR
+                     VNTKRSSRAFRANLKAPLKGNCTHPEDMKLCTVLMKSNGSFPVNRRRMEAARRAQELEM
+                     EMLSSTSPPERTRYSPVPPSHHQLTLPDPSHHGLHSNPDSPAKPEKNGHAKDHPKIAKI
+                     FEIQTMPNGKTRTSLKTMSRRKLSQQKEKKATQMLAIVLGVFIICWLPFFITHILNIHC
+                     DCNIPPVLYSAFTWLGYVNSAVNPIIYTTFNIEFRKAFLKILRC"
+                     /gene="Drd2"
+                     /protein_id="XP_004666521.1"
+     STS             424..515
+                     /db_xref="UniSTS:262987"
+                     /standard_name="DRD2"
+                     /gene="Drd2"
+ORIGIN
+        1 gggaggcgga agcctcgagc agccggcgcc gtctctgccc ccgggcgccc tatggcttga
+       61 agagccttgc cacccagtgg ctccgctgcc ccgatggatc cactgaatct gtcctggtac
+      121 gatgacgagc tggagaggca gaactggagc cggcccttca atgggtcgga aggaaaggcg
+      181 gacaggcccc actataacta ctacgccatg ctgctcacct tgctcatatt cgtcatcgtc
+      241 ttcggaaacg tgctggtgtg catggccgtg tcccgggaga aggcgctgca gaccaccacc
+      301 aactacctga tcgtcagcct cgccgtagct gacctcctgg tggccacgct ggtcatgccc
+      361 tgggtcgtct acctggaggt ggtgggagaa tggaaattca gtaggattca ctgtgacatc
+      421 tttgtcactc tggatgtcat gatgtgcacg gcaagcatcc tgaacctgtg tgccatcagc
+      481 atcgacaggt acaccgcggt ggccatgccc atgctgtaca acacgcgcta cagctccaag
+      541 cgccgagtca ctgtcatgat agccatcgtt tgggtcctgt ccttcaccat ctcctgcccc
+      601 ctgctcttcg gactcaacaa cacagaccag aatgagtgca tcattgccaa ccctgccttt
+      661 gtggtctact cttccatcgt ctccttctac gtgcccttca ttgtcaccct gctggtctac
+      721 atcaaaatct acatcgttct tcgcaagcgt cgcaagcggg tcaacaccaa gcgcagcagc
+      781 cgagctttca gagccaactt gaaggcccca ctcaagggca actgtactca ccccgaggac
+      841 atgaagctct gcaccgttct catgaagtct aatgggagct tcccagtgaa caggcggaga
+      901 atggaagctg cccgcagagc ccaagagctg gaaatggaga tgttgtccag caccagccca
+      961 cccgagagga cccggtacag ccccgtccca cccagccacc accagcttac tctccctgac
+     1021 ccatcccacc atggcctcca tagtaatccc gacagccctg ccaaaccaga gaagaatggg
+     1081 catgccaaag accaccccaa gattgccaag atatttgaga tccagaccat gcccaatggc
+     1141 aaaacccgga cctcactcaa gacgatgagc cgcaggaagc tctcccagca gaaggagaag
+     1201 aaagccacac agatgcttgc cattgttctt ggcgtgttca tcatctgctg gctgcccttc
+     1261 ttcatcactc acatcctgaa catacactgt gactgcaaca tcccgcccgt cctctacagc
+     1321 gccttcacgt ggctgggcta cgtcaacagc gccgtgaatc ccatcatcta caccaccttc
+     1381 aacatcgagt tccgcaaggc cttcctgaag atcctgcgct gctgaccccg ccgctcgccc
+     1441 gcacggcagc tgcttcctgc ctccctgccc ggggcctcac cctgccagtc gtgggcagag
+     1501 gggcctgggt ggcctcagct ttccctggac cccaccggcc ctgcagcgtc agcctggctc
+     1561 catgtccctc tctgcccact caccctcact ctatcagggt agggccaggg agccaggcat
+     1621 cgtgccagcc ctgaggctgg acccatggct cagggtagct cacagtgtgg ccctcccacc
+     1681 tccagaagcc ctgttcttgg caccaaagtc gcagctgcct tccttgactt ttctct
+//

@@ -1,0 +1,91 @@
+LOCUS       XM_005170774            1606 bp    DNA              VRT 01-AUG-2013
+DEFINITION  PREDICTED: Danio rerio dopamine receptor D2 like (drd2l), transcript
+            variant X1, mRNA.
+ACCESSION   XM_005170774
+VERSION     XM_005170774.1  GI:528505270
+DBLINK      BioProject: PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003047796.2) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1606
+                     /strain="Tuebingen"
+                     /mol_type="mRNA"
+                     /organism="Danio rerio"
+                     /chromosome="16"
+                     /db_xref="taxon:7955"
+     gene            1..1606
+                     /note="dopamine receptor D2 like; Derived by automated
+                     computational analysis using gene prediction method:
+                     Gnomon. Supporting evidence includes similarity to: 2
+                     mRNAs, 3 ESTs, 3 Proteins, and 98% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:378718"
+                     /db_xref="ZFIN:ZDB-GENE-030910-1"
+                     /gene="drd2l"
+                     /gene_synonym="drd2b"
+     CDS             215..1567
+                     /product="dopamine receptor D2 like isoform X1"
+                     /codon_start="1"
+                     /gene_synonym="drd2b"
+                     /db_xref="GI:528505271"
+                     /db_xref="GeneID:378718"
+                     /db_xref="ZFIN:ZDB-GENE-030910-1"
+                     /translation="MRLLNESWQRIFIMPVLNVTEELTITASPSSAVFLSLHQSNCSVS
+                     PSPSSPPYNFYAVLLVLLIFCVVFGNVLVCVAVSREKALQTTTNYLIVSLAVSDLLLAT
+                     LVMPWGVYLEVVGEWRFSRIHCDVLLTLDVMMCTASILNLCAISIDRYTAVAMPLLYNT
+                     RYSSRRRVALMIAVVWFLSFAISCPLLFGLNNTASQEGRDCSFADPAFVVYSSVASFYV
+                     PFIVTLLVYVQICVVLRRRGRRTAPTRRRAANTEPADAQRTRKNKCTHPEDVKLCTLIL
+                     KPPAAAPQRKKVTLVKEAVVHPLDVEPVCFLSADREQTQTQPSGRAKLSLSVAPCAGQS
+                     GPGPRRDTLQEKTHTEKHAAAKERVRGRLSQQKERKATQMLAIVLGVFIICWLPFFLTH
+                     VLKAHCGSCCISPSLYSAVTWLGYLNSAVNPVIYTTFNIEFRKAFIKILHC"
+                     /gene="drd2l"
+                     /protein_id="XP_005170831.1"
+ORIGIN
+        1 aaatcgacac tattagttta catctgcctc tgaggagaaa taatcggctg aggaggaggc
+       61 gcgcgcccaa ggagcagaca gagagcgcga aaatgagcag agatcaggtg catctgctgc
+      121 aatgttcatc cacatctccg aagaaatctg gatttctgct tccccatcgc catgaacatc
+      181 acactgtctg ctgttctact gtgggactga tgaaatgcgc ctactgaatg aaagttggca
+      241 gaggatcttc atcatgcctg tcctgaacgt gacagaagag ctgaccatca ctgcgtctcc
+      301 gtcctccgcg gtgtttttgt ctctccatca gtcgaactgc tctgtgtctc catctccgtc
+      361 ctctccgccg tataacttct atgccgtgct gctggtgctg ctgatcttct gtgtggtgtt
+      421 cggtaacgtg ctggtgtgtg tggcggtgtc ccgagagaaa gcgctccaga ccaccaccaa
+      481 ttacctcatc gtgtccctgg ctgtgtctga cctgctgctg gccacattgg tgatgccctg
+      541 gggcgtctat ctggaggttg ttggtgagtg gaggttcagc aggattcact gtgatgttct
+      601 gctaacgctg gatgtgatga tgtgcaccgc cagcatcctc aacctgtgcg ccatcagcat
+      661 cgacaggtac acagcggtgg ccatgccgct gctctacaac acacgctaca gctccaggag
+      721 acgcgtcgct ctgatgatcg ctgtcgtatg gtttctgtcc ttcgccatct cctgcccact
+      781 gctgttcggc ctcaacaaca ctgccagtca ggagggccga gactgcagtt ttgcggaccc
+      841 tgcgttcgtg gtttactcgt ctgtggcctc gttttacgtg ccgttcatcg tgacgctgct
+      901 ggtgtatgtg cagatctgtg tggttctgcg cagacgaggc cggcgcaccg ctcccacacg
+      961 cagacgagca gcaaacacag agccggcgga cgctcagagg acgcgcaaga ataagtgcac
+     1021 tcatcctgaa gatgtgaagc tgtgcacttt aatactgaag cctcctgcag ccgctccaca
+     1081 gcgcaagaaa gtgacgctgg tgaaggaggc tgtggttcac cctctggatg tggagccggt
+     1141 gtgttttctc agcgcagaca gagagcagac acagacgcag ccgtctggaa gagccaaact
+     1201 ctcgttgtct gtggccccgt gtgcaggtca gtcgggccct ggaccccgca gagacacact
+     1261 gcaggagaaa acacacacag agaaacacgc cgcggctaaa gagagagtgc gaggacgact
+     1321 gtcacagcag aaggagagga aagccacgca gatgctggcc atcgtcttag gagtgttcat
+     1381 catctgctgg ctgccgtttt tcctcactca tgtgctgaag gctcactgcg gcagctgctg
+     1441 catctctcca tcgctctaca gcgccgtcac ctggctgggt tatctgaaca gcgccgtcaa
+     1501 cccagtcatt tacaccacct tcaacatcga gttccgcaag gccttcatca agatcctgca
+     1561 ctgttgaaca cacacaccca cacaaacaca cacaaacata tgcaga
+//

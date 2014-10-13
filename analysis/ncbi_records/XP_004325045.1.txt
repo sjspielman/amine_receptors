@@ -1,0 +1,59 @@
+LOCUS       XP_004325045             446 aa                     MAM 25-MAR-2013
+DEFINITION  PREDICTED: D(1A) dopamine receptor-like [Tursiops truncatus].
+ACCESSION   XP_004325045
+VERSION     XP_004325045.1  GI:470640062
+DBLINK      BioProject: PRJNA189944
+KEYWORDS    RefSeq.
+SOURCE      Tursiops truncatus (bottlenosed dolphin)
+  ORGANISM  Tursiops truncatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Cetacea;
+            Odontoceti; Delphinidae; Tursiops.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004205758.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Tursiops truncatus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..446
+                     /db_xref="taxon:9739"
+                     /organism="Tursiops truncatus"
+                     /chromosome="Unknown"
+                     /sex="female"
+     Protein         1..446
+                     /product="D(1A) dopamine receptor-like"
+                     /calculated_mol_wt="49171"
+     Region          41..>158
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          46..331
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..446
+                     /coded_by="XM_004324997.1:916..2256"
+                     /gene="LOC101335886"
+                     /db_xref="GeneID:101335886"
+ORIGIN
+        1 mrtlntstmd gagmvverdf sfriltacfl sllilstllg ntlvcaavir frhlrskvtn
+       61 ffvislavsd llvavlvmpw kavaeiagfw pfgsfcniwv afdimcstas ilnlcvisvd
+      121 rywaisspfr yerkmtpkaa filisvawtl svlisfipvq lswhkakpts psdgnatsld
+      181 ettdncdssl srtyaisssl isfyipvaim ivtytriyri aqkqirrisa leraavhakn
+      241 cqtttgngnp vecsqpessf kmsfkretkv lktlsvimgv fvccwlpffi lncmvpfcgs
+      301 getqpfcids itfdvfvwfg wansslnpii yafnadfrka fstllgcyrl cpathnaiet
+      361 vsinnngavv fsshheprgs iskdcnlvyl iphavgssed lkkaeaggia epleklspal
+      421 svildydtdv slekiqpvtq ngqhpt
+//

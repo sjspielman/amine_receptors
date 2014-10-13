@@ -1,0 +1,63 @@
+LOCUS       XP_005804450             397 aa                     VRT 23-OCT-2013
+DEFINITION  PREDICTED: beta-1 adrenergic receptor-like [Xiphophorus maculatus].
+ACCESSION   XP_005804450
+VERSION     XP_005804450.1  GI:551505835
+DBLINK      BioProject: PRJNA220265
+KEYWORDS    RefSeq.
+SOURCE      Xiphophorus maculatus (southern platyfish)
+  ORGANISM  Xiphophorus maculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Atherinomorphae; Cyprinodontiformes;
+            Poeciliidae; Poeciliinae; Xiphophorus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005372293.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Xiphophorus maculatus Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..397
+                     /db_xref="taxon:8083"
+                     /isolate="XMAC-090115_JP163A"
+                     /sex="female"
+                     /strain="JP 163 A"
+                     /organism="Xiphophorus maculatus"
+                     /chromosome="Unknown"
+     Protein         1..397
+                     /product="beta-1 adrenergic receptor-like"
+                     /calculated_mol_wt="43654"
+     Region          50..335
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          58..321
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..397
+                     /coded_by="XM_005804393.1:1..1194"
+                     /gene="LOC102226151"
+                     /db_xref="GeneID:102226151"
+ORIGIN
+        1 mgdggasspv nlhngtgsea sdasgsaaaa sehwlagmsl vmglivlsiv fgnilvivai
+       61 aktqrlqtlt nvfivslasa dlimgllvvp fgaalevrgs wmygsffcef wisvdvlcvt
+      121 asietlcvia idryvaitsp fryqslltka raramvcvvw gisglvsflp ilmhwsrdsv
+      181 dtacyddphc cdfvtnraya isssiisfyi pllvmifvya rvyreakkql rkidkcegrf
+      241 hntltgltsk ckkrpskila lreqkalktl giimgtftlc wlpffivnvv rvfcaemvdk
+      301 nlfvflnwlg yvnsafnpii ycrspdfrka fkrllccprq adrrlhissc dlsrcsggfv
+      361 salepgtlem wsdcaaldns dtslmgtgkl phsesqm
+//

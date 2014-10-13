@@ -1,0 +1,106 @@
+LOCUS       XM_005341693            2001 bp    DNA              ROD 21-AUG-2013
+DEFINITION  PREDICTED: Spermophilus tridecemlineatus 5-hydroxytryptamine
+            receptor 1B-like (LOC101958165), mRNA.
+ACCESSION   XM_005341693
+VERSION     XM_005341693.1  GI:532114160
+DBLINK      BioProject: PRJNA210856
+KEYWORDS    RefSeq.
+SOURCE      Ictidomys tridecemlineatus (thirteen-lined ground squirrel)
+  ORGANISM  Ictidomys tridecemlineatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Sciuridae; Xerinae; Marmotini; Ictidomys.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004936890.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Ictidomys tridecemlineatus
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2001
+                     /mol_type="mRNA"
+                     /isolate="#75"
+                     /sex="female"
+                     /db_xref="taxon:43179"
+                     /organism="Ictidomys tridecemlineatus"
+                     /chromosome="Unknown"
+     gene            1..2001
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 11 mRNAs, 7 long SRA reads, 27
+                     Proteins"
+                     /db_xref="GeneID:101958165"
+                     /gene="LOC101958165"
+     STS             318..554
+                     /db_xref="UniSTS:157838"
+                     /standard_name="GDB:580603"
+                     /gene="LOC101958165"
+     CDS             363..1538
+                     /product="5-hydroxytryptamine receptor 1B-like"
+                     /codon_start="1"
+                     /db_xref="GI:532114161"
+                     /db_xref="GeneID:101958165"
+                     /translation="MEGPSVQCAQPPPAGSQIGVPQANLSAAPSHNCSAAESYIYQDSI
+                     ALPWKVLLVVLLALFTLATTLSNAFVIATVYRTRKLHTPANYLIASLAVTDLLVSILVM
+                     PISTMYTVTGRWTLGQVVCDFWLSSDITCCTASIMHLCVIALDRYWAITDAVEYSAKRT
+                     PKRAAVMITLVWVFSISISLPPFFWRQAKAEEEVLDCLVNTDHVLYTVYSTVGAFYLPT
+                     LLLIALYGRIYVEARSRILKQTPNKTGKRLTRAQLITDSPGSTSSVTSINSRAPDVPSE
+                     SGSPVYVNQVKVRVSDALLEKKKLMAARERKATKTLGIILGAFIVCWLPFFIISLVIPI
+                     CKDACWFHMAIFDFFTWLGYLNSLINPIIYTMSNEDFKQAFHKLIRFKCAS"
+                     /gene="LOC101958165"
+                     /protein_id="XP_005341750.1"
+     STS             724..1020
+                     /db_xref="UniSTS:157840"
+                     /standard_name="GDB:580611"
+                     /gene="LOC101958165"
+     STS             968..1168
+                     /db_xref="UniSTS:157841"
+                     /standard_name="GDB:580614"
+                     /gene="LOC101958165"
+ORIGIN
+        1 tcttcaagca atacctctcc cttctccact ttgtttctcc agagagcaaa accagagctg
+       61 ggctgggtgg gtcagttctt caggtaccag ggctaggaca gggcgtggag aggagcagtc
+      121 agtaacgcag acgcagcgcc aggcgcactg gaagtgcaga ggacgcgccc gcctgattgc
+      181 ctgctgcgag ggtgacctct agtttcagca aggaacctgg gcggaggagt tagagagaaa
+      241 cccacggaac tgacttcaag gcgagaccag actgtggtct ctatgaacct tccattttca
+      301 gctgtcctcc tcgtccgctc catgcccaag agctgcgctc cagagctagg gccagaagag
+      361 ccatggaggg accgagtgtt cagtgcgccc agccgccgcc cgcgggatct cagatcgggg
+      421 taccccaagc caacctctct gctgctccct cccacaactg cagcgcagcg gagagctaca
+      481 tttaccagga ctccattgcc ctaccctgga aagtactgct ggttgtgctg ctggcgctct
+      541 tcaccttggc caccacgctt tccaatgcct ttgtgatcgc cacggtgtat cggacccgga
+      601 agctgcacac cccggctaac tatctgatag cttccctggc cgtcaccgac ctgcttgtgt
+      661 ccatcctggt gatgcccatc agcactatgt acacggttac gggtcgctgg acactgggac
+      721 aggtggtctg cgacttctgg ctgtcgtcgg acatcacctg ttgcactgct tccatcatgc
+      781 atctctgtgt catcgccctg gaccgctact gggccatcac ggatgccgtg gagtattcag
+      841 ctaaaaggac tcccaaaagg gcggctgtca tgatcactct ggtgtgggtc ttctccatct
+      901 ctatctctct accacccttc ttctggcgtc aggccaaagc cgaggaagaa gtgttggact
+      961 gcttagtgaa caccgaccac gtcctctaca cggtctactc cacggtgggt gctttctact
+     1021 tacccaccct gctcctcatc gccctctatg gccgcatcta tgtggaagcc cgctcgcgga
+     1081 ttttgaaaca gacgcccaac aagaccggca agcgcttgac ccgagcccag ctgatcacag
+     1141 attcccctgg gtccacgtcc tctgtcacct ccattaattc gcgggctccc gatgtgccca
+     1201 gcgaatctgg gtctccagtg tatgtgaacc aagtcaaagt gcgagtctcc gacgctttgc
+     1261 tggaaaagaa gaaactcatg gccgctagag agcgcaaagc caccaagacc ctggggataa
+     1321 ttttgggagc atttattgtg tgctggctgc ccttcttcat catctccctg gtgataccta
+     1381 tctgcaagga tgcctgctgg ttccacatgg ccatctttga tttcttcacg tggctaggct
+     1441 atctaaattc cctcatcaat cccatcatct ataccatgtc caatgaggat ttcaaacaag
+     1501 cgttccataa actgatacgt tttaagtgcg caagttgact tgccaattgc agtggggtcg
+     1561 cctaagcgac ctttggggac caagttgggt ctttccacag gtaggtggaa tcttctttcg
+     1621 ctgttactgg gtccgaacaa ggctctctct tctgggcaag ggcaatggat cctgagaagc
+     1681 caggacagcc ctgagagctc tgaaaggaga actgttcaaa ctaaatgtag agcttccctg
+     1741 ctgaggagaa ggttcacctc ctcccctcaa accttgggct cagcacagat actgcggcag
+     1801 ccaatcacaa aggggtttgc aacttaaaaa ttgatgatgg ataggtgatc cctgccctgc
+     1861 tttagtatca tggatgatgc cctctaaagc cagtggtact tgtagttgtt gtctgaagcc
+     1921 tgtctgagac agatctacaa acagcctggc agtacttgaa ctagacactt aataccctgt
+     1981 gttttgggga gaacattgtg t
+//

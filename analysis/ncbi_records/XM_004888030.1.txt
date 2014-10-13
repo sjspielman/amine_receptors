@@ -1,0 +1,96 @@
+LOCUS       XM_004888030            1787 bp    DNA              ROD 18-JUN-2013
+DEFINITION  PREDICTED: Heterocephalus glaber 5-hydroxytryptamine receptor
+            1E-like (LOC101705725), mRNA.
+ACCESSION   XM_004888030
+VERSION     XM_004888030.1  GI:512854475
+DBLINK      BioProject: PRJNA167983
+KEYWORDS    RefSeq.
+SOURCE      Heterocephalus glaber (naked mole-rat)
+  ORGANISM  Heterocephalus glaber
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Bathyergidae; Heterocephalus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004632124.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Heterocephalus glaber Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1787
+                     /db_xref="taxon:10181"
+                     /mol_type="mRNA"
+                     /organism="Heterocephalus glaber"
+                     /chromosome="Unknown"
+                     /sex="male"
+     gene            1..1787
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 9 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 5 samples with support for all annotated introns"
+                     /db_xref="GeneID:101705725"
+                     /gene="LOC101705725"
+     misc_feature    478..480
+                     /note="upstream in-frame stop codon"
+                     /gene="LOC101705725"
+     CDS             589..1686
+                     /product="5-hydroxytryptamine receptor 1E-like"
+                     /codon_start="1"
+                     /db_xref="GI:512854476"
+                     /db_xref="GeneID:101705725"
+                     /translation="MNLTNYTTEASVAVKPKTVTEKMLICMTLVIITTLTMLLNSAVIM
+                     AICTTRKLHQPANYLICSLAVTDLLVAVLVMPLSVMYIVMDNWRLGYFICEVWLSVDMT
+                     CCTCSILHLCVIALDRYWAITKAIEYARKRTARRAGLMILTVWTISIFISMPPLFWRSH
+                     RQVSPPPSQCTIQHDHVIYTIYSTLGAFYIPLTLILILYYRIYHAAKSLYQKRGSSRHL
+                     SNRSTDSQNSFASCKLTQTFCVSDFSTSDPTTEFEKIHTSIRIPPFDNDLDQPGERQQI
+                     SSTRERKAARILGLILGAFILSWLPFFIKELIVGLSIYTVSSEVGDFLTWLGYVNSLIN
+                     PLLYTSFNEDFKLAFKKLIRCREHT"
+                     /gene="LOC101705725"
+                     /protein_id="XP_004888087.1"
+     STS             1213..1602
+                     /db_xref="UniSTS:157233"
+                     /standard_name="GDB:435482"
+                     /gene="LOC101705725"
+ORIGIN
+        1 gctccatcag atccggaatt tggagcccag ttctcctcca gcgccacccc gcgcactgcg
+       61 cctcggctca ccttttcatc ccacccaccc ccttctccgt ccagtggtga cctgcgtgcc
+      121 tgcaacctcc gcggctgatt tgacagactg ccctctgttc ctgctcctcc tcttgcagcc
+      181 cgtcagcgcg tgccacccac tgctccgcgg ccgcccagag cgccgcgctc cccgctcagt
+      241 ctggcccagg gcccgggcgg ccgggacgcc ggagcggagg gcgccccgtg gctcctcgta
+      301 cgccagaccc gggtgttgag agaagcggcg ctttgataaa gctcgaaaga taaaggagcg
+      361 gttcctaggg agacttctgg agctgcactc gccgtccaca aggaactctc cattcagaag
+      421 aaatgctgtg gcctttccct ttaccaacag aaaatgaaac acaagagact atgtagatga
+      481 agaaattata gccttcttat aaatgagaga cagtcaagat cacacagctt cccacagaag
+      541 ggaaataacc aacagcttct ccacagtgta gattggaacc agagaaacat gaacctcacg
+      601 aactatacca cggaagccag tgtggctgta aaacccaaga ctgtcactga gaagatgctt
+      661 atttgcatga ctctggtgat aatcaccaca ctaaccatgt tattgaactc tgctgtcatc
+      721 atggccatct gcaccaccag gaagctccac cagcctgcca actacctgat ctgctccctg
+      781 gccgtgactg acctcctagt ggcggtgctc gtcatgcccc tgagcgtcat gtacattgtc
+      841 atggacaact ggagactggg gtacttcatc tgtgaggtgt ggctgagtgt ggatatgacc
+      901 tgctgcacct gctccatcct ccatctctgt gtgatcgcac tggacaggta ctgggccatc
+      961 accaaagcta ttgaatatgc gaggaaaaga acagccagga gagctggcct gatgatcctc
+     1021 accgtgtgga ctatctctat tttcatctcc atgccccctc tgttctggag gagccaccgc
+     1081 caagtcagcc cgccccccag ccagtgtacg atccagcatg accatgtcat ctacaccatt
+     1141 tactccacac ttggagcatt ttatatccct ttgactttga tcctgattct ctattaccgg
+     1201 atttaccacg cagccaagag tctttaccag aaaaggggat cgagccggca tttaagcaac
+     1261 agaagtacag atagccagaa ttcttttgcg agttgtaaac ttacacagac gttctgcgtg
+     1321 tctgacttct ccacctcaga tcccactaca gagtttgaaa agatccatac ttccatccgg
+     1381 atccctccct ttgacaatga cctcgatcaa cctggagaac gccagcaaat ctccagtacc
+     1441 agggaacgca aggcagcacg catcctcgga ctgattctgg gtgcattcat tttgtcttgg
+     1501 cttccgtttt ttatcaaaga gttgattgta ggtctgagca tttacactgt gtcctccgaa
+     1561 gtgggtgatt ttttgacatg gctcggttat gttaattctc tgatcaaccc actgctgtac
+     1621 acaagtttta atgaagactt taaactggct tttaaaaagc tcattagatg ccgagagcat
+     1681 acctagattg taaaaaacca aaatgcatga cttttaccag agcctctgga gtacatgggg
+     1741 gtaagggatg caacttatta attcttgaac atacttggtt caggaga
+//

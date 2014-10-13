@@ -1,0 +1,91 @@
+LOCUS       XM_005355192            1580 bp    DNA              ROD 21-AUG-2013
+DEFINITION  PREDICTED: Microtus ochrogaster histamine receptor H2 (Hrh2), mRNA.
+ACCESSION   XM_005355192
+VERSION     XM_005355192.1  GI:532023821
+DBLINK      BioProject: PRJNA210839
+KEYWORDS    RefSeq.
+SOURCE      Microtus ochrogaster (prairie vole)
+  ORGANISM  Microtus ochrogaster
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Arvicolinae; Microtus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004949016.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Microtus ochrogaster Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1580
+                     /mol_type="mRNA"
+                     /isolate="Prairie Vole_2"
+                     /sex="female"
+                     /db_xref="taxon:79684"
+                     /organism="Microtus ochrogaster"
+                     /chromosome="16"
+     gene            1..1580
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 15 mRNAs, 1 long SRA read, 9
+                     Proteins, and 84% coverage of the annotated genomic feature
+                     by RNAseq alignments"
+                     /db_xref="GeneID:101987975"
+                     /gene="Hrh2"
+     CDS             504..1580
+                     /product="histamine H2 receptor"
+                     /codon_start="1"
+                     /db_xref="GI:532023822"
+                     /db_xref="GeneID:101987975"
+                     /translation="MEPNGTIHSCCLDSTVWKVTISLILTTLILITIAGNVVVCLAVSL
+                     NRRLRSLTNCFIVSLAATDLLLGLLVLPFSAIYQLSFKWTFGRVFCSIYTSLDVMLCTA
+                     SILNLFMISLDRYCAVTDPLRYPVLVTPVRVAISLVFIWVISITLSFLSIHLGWNSRNE
+                     TRGDNDTSKCKVQVNEVYGLVDGLVTFYLPLLIMCVTYYRIFKIAREQAKRINHIGSWK
+                     AATIREHKATVTLAAVMGAFIICWFPYFTTFVYRGLRGDDAINEVVEGIVLWLGYANSA
+                     LNPILYAAFNRDFRMAYQQLFCCKLASHNPYKSSLRLNSSLLSRNQSREVRWQEEKPLK
+                     LQVWSRKEITPPQGTPDR"
+                     /gene="Hrh2"
+                     /protein_id="XP_005355249.1"
+     STS             1398..1536
+                     /db_xref="UniSTS:22639"
+                     /standard_name="RH71388"
+                     /gene="Hrh2"
+ORIGIN
+        1 agcccgtgca ggcgcgcgga cctaagcgac ccggtgctgg cagcgcacag cagcagcacc
+       61 agctcctgca accccagagc gggcagctga tagtcctcaa tcttaggcca tggatggaag
+      121 tgggccccag tcatacagaa ggacatgaca gcctatgtgt atgagccctt gcacataaag
+      181 caaaagccac ctcaagacac agccatcagc acctcagtct ccatgaggat cctagaaggt
+      241 agacacatac tacagacctg gaaggaaggt gatgtggaag accagctgag gactgggctt
+      301 tgagccttga agaccctgtc ttacttattc ttatgccctg tactgcacaa ggaacagctt
+      361 gatctattcc cacaacatta ggctagtcac tagaccctcc ccaaccttcc tttggcttgg
+      421 ccaggaaccc gaagcccagt ggttggagtt ggaagagaag taaccaaggc ccagggtgag
+      481 tgtcgaagct acagggcccc agaatggaac ccaatggcac tatccattcc tgttgcttag
+      541 actctactgt atggaaagtc accatcagtt tgatcctcac caccctcatc ctcatcacca
+      601 ttgctggcaa tgtggtcgtc tgcctggctg tcagcctgaa ccgtcggctc cgcagtctga
+      661 ccaattgctt cattgtgtcc ttggcggcta ctgacctgct gcttggcctc ctggtgctgc
+      721 ccttctctgc catttaccag ctctctttca agtggacctt tggcagggtc ttctgcagca
+      781 tctacaccag cctggatgtg atgctctgta cagcctccat tctcaacctc ttcatgatca
+      841 gcttggaccg ctactgtgct gtcacagacc cactgaggta ccccgtgctg gtcactccag
+      901 ttcgtgttgc catttctttg gtcttcattt gggtcatttc catcacccta tccttcctgt
+      961 ctattcacct ggggtggaac agcagaaacg agaccagggg agacaatgac acctccaagt
+     1021 gcaaagtgca ggtcaacgag gtgtacgggc tggtggacgg gctggtcacc ttctacctgc
+     1081 ctcttctcat catgtgtgtc acctactaca gaatctttaa gatcgccagg gagcaggcca
+     1141 aaaggatcaa tcacatcggc tcctggaagg cagccaccat cagagagcac aaagccactg
+     1201 tgacgttggc tgcggtcatg ggagcgttca ttatctgctg gtttccctac ttcacgacgt
+     1261 ttgtttatcg tgggctgaga ggggatgatg ccatcaatga ggtggttgaa ggcatcgttc
+     1321 tgtggctagg ctacgccaat tcagccctga accctatcct gtacgctgct ttcaacagag
+     1381 acttccgcat ggcttaccaa cagctcttct gctgcaagct tgccagccac aacccctaca
+     1441 aatcctccct gaggctgaac agttctctgc tgtccaggaa ccaaagccga gaagtcagat
+     1501 ggcaggagga gaagcccctg aagctccaag tgtggagtag gaaagaaatc acacctcccc
+     1561 agggaacccc agacaggtaa
+//

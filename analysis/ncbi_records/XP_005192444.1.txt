@@ -1,0 +1,61 @@
+LOCUS       XP_005192444             403 aa                     MAM 05-AUG-2013
+DEFINITION  PREDICTED: 5-hydroxytryptamine receptor 1B [Bos taurus].
+ACCESSION   XP_005192444
+VERSION     XP_005192444.1  GI:528909118
+DBLINK      BioProject: PRJNA13366
+KEYWORDS    RefSeq.
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NT_182008.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Bos taurus Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..403
+                     /db_xref="taxon:9913"
+                     /breed="Hereford"
+                     /organism="Bos taurus"
+                     /chromosome="9"
+     Protein         1..403
+                     /product="5-hydroxytryptamine receptor 1B"
+                     /calculated_mol_wt="44521"
+     Region          82..>201
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          87..382
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..403
+                     /coded_by="XM_005192387.1:1359..2570"
+                     /gene="HTR1B"
+                     /db_xref="BGD:BT10520"
+                     /db_xref="GeneID:317707"
+ORIGIN
+        1 mpqscapgpr arrdmeavaa qcpqppsass qtglsqanls agpshncsaa eeyiyqdfia
+       61 lpwkvvvvll lalftlattl snafviatvy rtrklhtpan yliaslavtd llvsilvmpi
+      121 stmytvtgrw tlgqvvcdlw lssditccta silhlcvial drywaitdav eysakrtpkr
+      181 aavmialvwv fsicislppf fwrqakaeam sncvvntdhv lytvystvga fyfptlllia
+      241 lygriyvear srilkqtpnr tgkrltraql itdspgstss vtsinsrape vpsesgspvy
+      301 vnqvkvrvsd allekkklma arerkatktl giilgafivc wlpffiisla ipictscwfh
+      361 qaifdfftwl gylnslinpi iytmsnedfk qafhkligfk ctn
+//

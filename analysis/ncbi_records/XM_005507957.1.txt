@@ -1,0 +1,89 @@
+LOCUS       XM_005507957            1304 bp    DNA              VRT 15-SEP-2013
+DEFINITION  PREDICTED: Columba livia 5-hydroxytryptamine (serotonin) receptor 6,
+            G protein-coupled (HTR6), mRNA.
+ACCESSION   XM_005507957
+VERSION     XM_005507957.1  GI:543734018
+DBLINK      BioProject: PRJNA217047
+KEYWORDS    RefSeq.
+SOURCE      Columba livia (rock pigeon)
+  ORGANISM  Columba livia
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Columbiformes;
+            Columbidae; Columba.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004973467.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Columba livia Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1304
+                     /mol_type="mRNA"
+                     /collection_date="13-Jun-2010"
+                     /country="Denmark: Vordingborg"
+                     /breed="Danish Tumbler"
+                     /sex="male"
+                     /note="bred by Anders Christiansen, Hans Ove Christiansen,
+                     and certified by Danmarks Racedueforeninger"
+                     /db_xref="taxon:8932"
+                     /tissue_type="blood"
+                     /organism="Columba livia"
+                     /chromosome="Unknown"
+     gene            1..1304
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 3 Proteins, and 19%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:102090181"
+                     /gene="HTR6"
+     CDS             2..1303
+                     /product="5-hydroxytryptamine receptor 6"
+                     /codon_start="1"
+                     /db_xref="GI:543734019"
+                     /db_xref="GeneID:102090181"
+                     /translation="MEGDSGSPNASVLGERSLLVGSSWVAAFLCFIILLTAAGNFLLIL
+                     LIVTQRSLRNTSNYFLVSLFMSDLMVGLVVMPPAMLNQLYGRWVLHGDFCSLWSSFDVM
+                     CCSASILNLCIISLDRYLLIISPLKYKLRMTSCRALGLILATWTLAALASFLPIKMGWH
+                     KLDFEVHTPNVTSWGDEDQCRLLVSLPYALVASCLTFFLPSAAISFTYCRILLAARKQA
+                     VQVASLASNVATADETAPQVPQTPTQPPGGSESRRFANKHSKKALKASLTLGILLGMFF
+                     VAWLPFFVTNVTQAACGCVPAGFFDVLTWLGYCNSTMNPIIYPLFMRDFKRAMGRYLPC
+                     CRRAGEPRPSAISLSMRNSNSGPRAPTSLKNVLTLPAETDSLDSGALGNEHNVLTAENG
+                     PRAHPARGARLVNLFDVEPPDAELQPRQLGTPVA"
+                     /gene="HTR6"
+                     /protein_id="XP_005508014.1"
+ORIGIN
+        1 catggagggc gattcggggt cccccaacgc cagcgtgctg ggggagcgct cgctgctagt
+       61 ggggagcagc tgggtggccg ctttcctctg cttcatcatc ctgctgaccg cagcggggaa
+      121 cttcctcctc atcctcctca tcgtcaccca gcgctccctg cggaacacct ccaactactt
+      181 cctggtgtcc ctcttcatgt ccgacctgat ggtggggctg gtggtgatgc ccccggccat
+      241 gctcaaccag ctctacggcc gttgggtgct gcacggtgac ttctgctccc tctggtcctc
+      301 cttcgatgtc atgtgctgca gcgcttccat cctcaacctc tgcatcatca gcctggaccg
+      361 ctacctgctc atcatctccc cgctcaagta caagctgcgc atgacgtcct gccgagccct
+      421 cgggctcatc ctggccacct ggaccttggc cgcacttgcc tccttcctcc ccatcaagat
+      481 gggctggcac aagctggact ttgaggtcca caccccaaat gtcacctcct ggggggacga
+      541 ggaccagtgt cggctgctgg tcagcttgcc ctacgccttg gtggcctcct gcctcacctt
+      601 cttcctcccg tccgccgcca tctccttcac ctactgccgc atcctcctgg cggcccgcaa
+      661 gcaagcggtg caggtggctt ctctcgcctc caacgtggcc accgccgacg agaccgcgcc
+      721 gcaggtcccc cagaccccga cccagccccc ggggggcagc gagagcagga gattcgccaa
+      781 caagcacagc aagaaggcgc tgaaggccag cctgacgctg ggcatcctcc tgggcatgtt
+      841 cttcgtggct tggctgccct tcttcgtcac caacgtgacg caggccgcct gcggctgcgt
+      901 ccccgctggc ttctttgacg tgctcacctg gctgggttac tgcaacagca ccatgaaccc
+      961 catcatctac ccactcttca tgcgggactt caagcgggcc atgggcaggt acctgccgtg
+     1021 ctgccggcgc gcgggggagc cccggcccag cgccatctcc ctctccatga ggaactccaa
+     1081 cagtggaccc cgcgccccca cctccctcaa gaacgtcctc accttgccgg ccgagaccga
+     1141 ctcgcttgac tccggggcgc tggggaatga acacaacgtg ctgacggccg aaaacggccc
+     1201 ccgggctcac ccagcccgcg gcgcacgctt ggtcaacctc ttcgacgtgg agcccccgga
+     1261 tgcggagctg cagccccggc agcttgggac ccccgtggcc tgag
+//

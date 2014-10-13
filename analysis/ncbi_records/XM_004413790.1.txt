@@ -1,0 +1,101 @@
+LOCUS       XM_004413790            1803 bp    DNA              MAM 31-MAR-2013
+DEFINITION  PREDICTED: Odobenus rosmarus divergens cholinergic receptor,
+            muscarinic 1, transcript variant 1 (CHRM1), mRNA.
+ACCESSION   XM_004413790
+VERSION     XM_004413790.1  GI:472389042
+DBLINK      BioProject: PRJNA189954
+KEYWORDS    RefSeq.
+SOURCE      Odobenus rosmarus divergens (Pacific walrus)
+  ORGANISM  Odobenus rosmarus divergens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+            Odobenidae; Odobenus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004451047.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Odobenus rosmarus divergens Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1803
+                     /sub_species="divergens"
+                     /mol_type="mRNA"
+                     /collection_date="06-Sep-2011"
+                     /country="USA:AK, Round Island"
+                     /isolate="Ivan"
+                     /sex="male"
+                     /isolation_source="blood"
+                     /db_xref="taxon:9708"
+                     /organism="Odobenus rosmarus divergens"
+                     /chromosome="Unknown"
+     gene            1..1803
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 mRNAs, 20 Proteins"
+                     /db_xref="GeneID:101380644"
+                     /gene="CHRM1"
+     misc_feature    352..354
+                     /note="upstream in-frame stop codon"
+                     /gene="CHRM1"
+     CDS             421..1803
+                     /product="muscarinic acetylcholine receptor M1 isoform 1"
+                     /codon_start="1"
+                     /db_xref="GI:472389043"
+                     /db_xref="GeneID:101380644"
+                     /translation="MNTSAPPAVSPNITVLAPGKGPWQVAFIGITTGLLSLATVTGNLL
+                     VLISFKVNTELKTVNNYFLLSLACADLIIGTFSMNLYTTYLLMGHWALGTLACDLWLAL
+                     DYVASNASVMNLLLISFDRYFSVTRPLSYRAKRTPRRAALMIGLAWLVSFILWAPAILF
+                     WQYLVGERTVLAGQCYIQFLSQPIITFGTAMAAFYLPVTVMCTLYWRIYRETENRAREL
+                     AALQGSETPGKGGGSSSSSERSQRGTEGSPETPPGRCCRCCRAPRLLQAYSWKEDEEED
+                     EGSMESLTSSEGEEPGSEVVIKMPMVDPEAQAPAKQPPRSSPNTVKRPTRKGRERAGKG
+                     QKPRGKDQLAKRKTFSLVKEKKAARTLSAILLAFILTWTPYNIMVLVSTFCKNCVPETL
+                     WELGYWLCYVNSTINPMCYALCNKAFRDTFRLLLLCRWDKRRWRKIPKRPGSVHRTPSR
+                     QC"
+                     /gene="CHRM1"
+                     /protein_id="XP_004413847.1"
+     STS             500..801
+                     /db_xref="UniSTS:253963"
+                     /standard_name="CHRM1"
+                     /gene="CHRM1"
+ORIGIN
+        1 ctcctccctc tcggggctcg aattaggtgc cctagtggag gaggggggca cgctccagga
+       61 cctagtccga ccccagccgc tgcctgaggc ttccctccag ctccccctcc cttccttttc
+      121 tccctttcct ccctccctct ctttcctctc ctccctcccc cccccaggct ggcgtgccag
+      181 ggggtgggac atgccaatca gtggttgtgc ctctccggct gccagcacag ggcgcagctc
+      241 cccccgggag ccaggtgttt gggtccctgg agacggcgcc ggcccccggg gaggcagtgg
+      301 ggccgaggac cctacagacc cttctccagc cccatggtga tgaccccccc gtgaggaagc
+      361 cctgtagtgc gactagagga aggggctgcc cccaccagcc ccccccaaaa ccccgccacc
+      421 atgaatacct cggccccacc cgctgtcagc cccaacatca ccgtcctggc cccgggaaag
+      481 gggccctggc aagtggcctt cattgggatc accacaggcc tcctgtccct ggccacggtg
+      541 acaggcaacc tgctggtact catctccttc aaggtcaaca ctgagctcaa gacagtcaac
+      601 aactacttcc tgctcagcct ggcctgtgct gacctcatca tcggtacctt ctccatgaac
+      661 ctctacacca cgtatctgct catgggccac tgggctctgg gcacactggc ctgcgacctc
+      721 tggctggcgc tggactacgt ggcgagcaac gcgtccgtca tgaacctgct gctcatcagt
+      781 ttcgaccgct acttctccgt gacccggccc ctgagctatc gagccaagcg cacaccccgc
+      841 cgggcggcgc tgatgatcgg cctggcctgg ctggtctcct tcatcctgtg ggccccggcc
+      901 attcttttct ggcagtacct ggtaggggag cggacggtcc tggccggcca gtgctacatc
+      961 cagttcctgt cccagcccat catcaccttc ggcacggcca tggccgcctt ctacctcccc
+     1021 gtcacggtca tgtgcacgct ctactggcgc atctaccggg agacggagaa ccgggcccgg
+     1081 gagctggcgg ccctgcaggg ctccgagaca cccggtaagg ggggcggcag cagcagcagc
+     1141 tccgagcggt cccagcgggg gactgagggc tccccggaga cccctccggg ccgctgctgc
+     1201 cgctgctgcc gggcacccag gctgctgcag gcctacagct ggaaagaaga tgaagaagag
+     1261 gacgaaggct ccatggagtc gctcacgtcc tcggagggtg aggagcctgg ctctgaggtg
+     1321 gtgatcaaga tgcccatggt ggaccccgag gcgcaggccc ccgccaagca gcccccccgg
+     1381 agctccccca acacggtcaa gaggccaacc cggaaagggc gtgagcgagc gggcaagggc
+     1441 cagaagcccc gagggaagga tcagctggcc aagcggaaga ccttctcgct ggtcaaggag
+     1501 aagaaggcgg cgcggaccct gagtgccatt ctgctggcct tcatcctcac ctggacgcca
+     1561 tacaacatca tggtgctggt gtccactttc tgcaagaact gtgtccccga gaccctgtgg
+     1621 gagctgggct actggctgtg ttacgtcaac agcaccatca accccatgtg ctacgcgctc
+     1681 tgcaacaaag ccttccggga caccttccgc ctgttactgc tttgccgctg ggacaagcgt
+     1741 cgctggcgca agatccccaa gcgccccggc tctgtgcacc gcaccccctc ccgccaatgc
+     1801 tga
+//

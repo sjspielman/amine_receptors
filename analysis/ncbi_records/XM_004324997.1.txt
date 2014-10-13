@@ -1,0 +1,119 @@
+LOCUS       XM_004324997            3348 bp    DNA              MAM 25-MAR-2013
+DEFINITION  PREDICTED: Tursiops truncatus D(1A) dopamine receptor-like
+            (LOC101335886), mRNA.
+ACCESSION   XM_004324997
+VERSION     XM_004324997.1  GI:470640061
+DBLINK      BioProject: PRJNA189944
+KEYWORDS    RefSeq.
+SOURCE      Tursiops truncatus (bottlenosed dolphin)
+  ORGANISM  Tursiops truncatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Cetacea;
+            Odontoceti; Delphinidae; Tursiops.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004205758.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Tursiops truncatus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3348
+                     /db_xref="taxon:9739"
+                     /mol_type="mRNA"
+                     /organism="Tursiops truncatus"
+                     /chromosome="Unknown"
+                     /sex="female"
+     gene            1..3348
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 13 mRNAs, 15 Proteins"
+                     /db_xref="GeneID:101335886"
+                     /gene="LOC101335886"
+     misc_feature    856..858
+                     /note="upstream in-frame stop codon"
+                     /gene="LOC101335886"
+     CDS             916..2256
+                     /product="D(1A) dopamine receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:470640062"
+                     /db_xref="GeneID:101335886"
+                     /translation="MRTLNTSTMDGAGMVVERDFSFRILTACFLSLLILSTLLGNTLVC
+                     AAVIRFRHLRSKVTNFFVISLAVSDLLVAVLVMPWKAVAEIAGFWPFGSFCNIWVAFDI
+                     MCSTASILNLCVISVDRYWAISSPFRYERKMTPKAAFILISVAWTLSVLISFIPVQLSW
+                     HKAKPTSPSDGNATSLDETTDNCDSSLSRTYAISSSLISFYIPVAIMIVTYTRIYRIAQ
+                     KQIRRISALERAAVHAKNCQTTTGNGNPVECSQPESSFKMSFKRETKVLKTLSVIMGVF
+                     VCCWLPFFILNCMVPFCGSGETQPFCIDSITFDVFVWFGWANSSLNPIIYAFNADFRKA
+                     FSTLLGCYRLCPATHNAIETVSINNNGAVVFSSHHEPRGSISKDCNLVYLIPHAVGSSE
+                     DLKKAEAGGIAEPLEKLSPALSVILDYDTDVSLEKIQPVTQNGQHPT"
+                     /gene="LOC101335886"
+                     /protein_id="XP_004325045.1"
+     STS             1827..2573
+                     /db_xref="UniSTS:158016"
+                     /standard_name="GDB:595147"
+                     /gene="LOC101335886"
+ORIGIN
+        1 tagcgggcag ttccgcggga aggcgcaggg ctcttccccg agggaccaga ggccactcga
+       61 ggggcgcccg ggcgctcgtt ttccggagaa gggaagcaaa gaagctgccc aggtgactaa
+      121 tactgggggt gccctctctc aaggaagctc caagcgtccg ggggcatttt tcggggtctc
+      181 gtccgctttg aaccatctct agccattgga ggcagtgggg gcagcgccag ctctctgtgg
+      241 acctggccca ggatcctttt cccaaacccg ctccggcgac tgttgcgcat cgggagcaga
+      301 gccccagctg cgcgcgcagg ataggactga ggcgtgcctc ccgggcgcct cgcgaagccc
+      361 gctctccccg agctcctggg ggcttggaga gagacaaccc caaggcaaga gctttggggg
+      421 agctggtgca gagccagggg cttggaggag caaggcatgt attttcagct gcgcctcaga
+      481 aggggagaat tctctgtcac caccagaaag acaacagccc tgaaatgtga cgacaattga
+      541 ctagcttgtc agaagactgg gagtctctgg attgatagct tagaatatgc taaaaagcca
+      601 gtgctttcca tggggcattg aagggccaac tggtccccgt gacagtgaat tggagcaagg
+      661 gagtcagaag acagttgtag agagcaagag ggagcttcca aggggctgat ctggactgcc
+      721 aagggcaggc tcctgccaca cagttgctgc acccctctaa tggaatgctg gtgaggtcct
+      781 ccacccaggg gagcaagtgg ggctgtgcaa ggggctgcct gaccagcgag gactcctgca
+      841 ggtctgacca acccctaatc cctgcttagg aacctgaggg gtgtccgagc cccctctgca
+      901 ctctccctca ggaagatgag gactctgaac acctctacca tggacggcgc cgggatggtg
+      961 gtggagaggg acttctcctt ccgcatcctt acagcctgtt tcctgtcgct gctcatcctg
+     1021 tccacactcc tggggaacac gctggtctgt gctgccgtca tcaggttccg acacctgcgg
+     1081 tccaaggtga ccaacttctt cgttatctcc ttggccgtgt cggatctctt ggtggctgtc
+     1141 ttggtcatgc cctggaaagc ggtggctgag atcgctggct tctggccctt tgggtccttc
+     1201 tgtaacatct gggtggcctt tgacatcatg tgctccaccg cgtccatcct caacctctgt
+     1261 gtgatcagcg tggacaggta ttgggccatc tctagcccct tccggtatga gaggaagatg
+     1321 acccccaagg cagccttcat tctgatcagc gtggcatgga ctttgtctgt tctcatctcc
+     1381 ttcattccgg tgcagctcag ctggcacaag gcgaaaccca caagcccctc tgatgggaat
+     1441 gccacttccc tggatgagac caccgacaac tgtgactcca gcctgagcag gacatatgct
+     1501 atttcatcct ccctaataag cttttacatc cctgtggcca tcatgatcgt cacctacacc
+     1561 aggatctaca ggatcgccca gaaacaaata cggcgcatct cggccttgga gagggccgca
+     1621 gtccatgcca agaactgcca gaccactacc ggtaacggaa accccgtgga gtgttctcag
+     1681 ccggaaagct ccttcaagat gtccttcaaa agagagacta aagttctgaa gactctgtct
+     1741 gtgatcatgg gggtgtttgt gtgctgctgg ctccctttct tcatcttgaa ctgcatggtg
+     1801 cccttctgtg ggtctgggga gacccagccc ttctgcatcg attccatcac ctttgacgtg
+     1861 tttgtgtggt ttgggtgggc taattcctcc ttgaacccca tcatttatgc ctttaatgct
+     1921 gattttcgga aggcattttc caccctctta ggatgctaca gactttgccc ggcgacgcat
+     1981 aatgccatag agacggttag catcaataac aatggggctg tggtgttttc cagccatcac
+     2041 gagcctcgag gttccatctc caaggactgc aatctggtgt atctgatccc acatgccgtg
+     2101 ggctcctctg aggacctgaa gaaggcggag gcgggtggga tagctgagcc cttggagaag
+     2161 ctctccccag ccctgtctgt cattttggac tatgacactg atgtctccct agagaagatc
+     2221 cagcccgtca cacaaaacgg acagcacccg acctgaactc caaaatgaat cctagcagac
+     2281 atgctcatcc cagaagctag aggagacttc tctggggctt gctgtgaaga aactaaggtg
+     2341 tggtgagact ccgatgtcgg gcgagccctc ctctgctgct tcccctcaac acacaactaa
+     2401 ctacatttta atctacatgc cagtgtgttt tctgtgttgt tcatagcgaa tcaagaggga
+     2461 cacaagtgaa gcgagtgttc ataagggacg tgtctttggc tccaaaatta tttttagaaa
+     2521 ctgagcctta tcttaggact taagaaacag ggcaaagaat caacaatgaa cagcttcact
+     2581 taaatattaa atctttccca gaaggaagtg agaagggttg agtttgctgt gtacaaacag
+     2641 gtgctaacac tggtccaagc aaagttttca gattgtaaag gtaggtgcat gccttcataa
+     2701 attattccta aaaaataatt gagccttaca gtaggaatgg gatttttttt ttccagagtt
+     2761 gatgctttgt tgatattggt ttatttagtt attgtattat atggatattt ttaatttatt
+     2821 ataataaatc tatatttatc atatttaata gggtaaatga atgagttatc tgaaatctta
+     2881 caatagcatt tttgtccatt taactagcac tttataagct gatgaaacaa acacatagac
+     2941 tctctgagag tctaaatgct catgtataac ttccagaaac acagcaaagt ctaatagaaa
+     3001 aaaaacaaag aagttgtgat gattccttaa aattcatggg aacaaataaa tacgaggtga
+     3061 gaactgacaa atgctgtgat tgcttttttt ttctctcctc aaaagatttt gaaagattta
+     3121 aaaaagcata gctactcttg tgttcaaaat ttcttaaggg acaaagactt tcccaggaga
+     3181 atgatttgca gttctgtaaa tatttgaaat aaaagttagc ttaagaagaa tccaacttga
+     3241 aatatatgat cttaggtggt aataaaaagt atatgccgct ttgtatttat gtaaaataat
+     3301 tggccttctt tgtcttttct catttcctgt gtcagatagc ttttctga
+//

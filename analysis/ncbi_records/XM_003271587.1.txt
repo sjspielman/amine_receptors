@@ -1,0 +1,97 @@
+LOCUS       XM_003271587            1176 bp    DNA              PRI 14-JAN-2013
+DEFINITION  PREDICTED: Nomascus leucogenys 5-hydroxytryptamine (serotonin)
+            receptor 1D, G protein-coupled (HTR1D), mRNA.
+ACCESSION   XM_003271587
+VERSION     XM_003271587.1  GI:332244967
+DBLINK      BioProject: PRJNA62133
+KEYWORDS    RefSeq.
+SOURCE      Nomascus leucogenys (northern white-cheeked gibbon)
+  ORGANISM  Nomascus leucogenys
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hylobatidae; Nomascus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004087911.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Nomascus leucogenys Annotation Release 101
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1176
+                     /mol_type="mRNA"
+                     /isolate="Asia; international studbook 0098"
+                     /sex="female"
+                     /db_xref="taxon:61853"
+                     /tissue_type="blood"
+                     /organism="Nomascus leucogenys"
+                     /chromosome="24"
+     gene            1..1176
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 4 ESTs, 5 Proteins"
+                     /db_xref="GeneID:100580305"
+                     /gene="HTR1D"
+     CDS             1..1083
+                     /product="5-hydroxytryptamine receptor 1D"
+                     /codon_start="1"
+                     /db_xref="GI:332244968"
+                     /db_xref="GeneID:100580305"
+                     /translation="MWWNSTETPEAWDPRTLQALKISLAMVLSIITLATVLSNAFVLTT
+                     ILLTRKLHTPANYLIGSLATTDLLVSILVMPISIAYTITHTWNFGQILCDIWLSSDITC
+                     CTASILHLCVIALDRYWAITDPLEYSKRRTAGHAATMIAIVWAISICISIPPLFWRQAK
+                     AQEEMSDCLVNTSQISYTIYSTCGAFYVPSVLLIILYGRIYRAARNRILNPPSLYGKRF
+                     TTAHLITGSTGSSLCSLNPSLHEGHSHSAGSPLFFNHVKIKLADSALERKRISAARERK
+                     ATKTLGIILGAFIICWLPFFVVSLVLPICRDSCWIHPALFDFFTWLGYLNSLINPIIYT
+                     VFNEEFRQAFQKVVPFRKAS"
+                     /gene="HTR1D"
+                     /protein_id="XP_003271635.1"
+     STS             145..491
+                     /db_xref="UniSTS:156842"
+                     /standard_name="GDB:371366"
+                     /gene="HTR1D"
+     STS             594..742
+                     /db_xref="UniSTS:32807"
+                     /standard_name="SHGC-74364"
+                     /gene="HTR1D"
+     STS             805..1103
+                     /db_xref="UniSTS:158102"
+                     /standard_name="GDB:597566"
+                     /gene="HTR1D"
+     STS             967..1092
+                     /db_xref="UniSTS:158524"
+                     /standard_name="GDB:636095"
+                     /gene="HTR1D"
+     STS             1006..1145
+                     /db_xref="UniSTS:158103"
+                     /standard_name="GDB:597572"
+                     /gene="HTR1D"
+ORIGIN
+        1 atgtggtgga attccacaga aaccccagag gcttgggatc ccaggaccct ccaggcgctc
+       61 aagatctccc ttgccatggt cctttccatc atcacactgg ccacagtcct ctccaacgcc
+      121 tttgtactca ccaccatctt actcaccagg aagctccaca cccctgccaa ctacctgatt
+      181 ggctccctgg ccaccactga cctcttggtt tccatcttgg tcatgcccat cagcatcgcc
+      241 tataccatca cccacacctg gaactttggc caaatcttgt gtgacatctg gctgtcttct
+      301 gacatcacgt gctgcacagc ctccatcctg catctgtgtg tcattgctct ggacaggtac
+      361 tgggcaatca cggatcccct ggagtacagt aaacgcagga cggctggcca cgcggccacc
+      421 atgatcgcca tcgtctgggc catctccatc tgcatctcca tccccccgct cttctggcgg
+      481 caggccaagg cccaggagga gatgtcggac tgcctggtga acacctctca gatctcctac
+      541 accatctact ccacctgtgg ggccttctac gttccctcag tgttgctcat catcctatat
+      601 ggccggatat accgggctgc ccggaaccgc atcctgaatc cgccctcact ctatgggaag
+      661 cgcttcacca cggcccacct catcacaggc tctacagggt cctcgctctg ctcgctcaac
+      721 cccagcctcc atgaggggca ctcgcactcg gctggctccc ctctcttttt caaccacgtg
+      781 aaaatcaagc ttgctgatag tgccctggaa cgcaagagga tttccgctgc tcgagaaagg
+      841 aaagccacta aaaccctggg catcattctg ggggccttta tcatctgctg gctgcccttc
+      901 ttcgtggtgt ctctggtcct tcccatctgc cgggactcct gctggatcca cccggcgctc
+      961 tttgacttct tcacctggct aggctattta aactccctca tcaatccaat aatctacact
+     1021 gtgtttaatg aagagtttcg gcaagctttt cagaaagttg tccctttccg gaaggcctcc
+     1081 tagtcttatt cggtgatgac tcctgttatc ttttgtgtcc tgtaacctca tcaggattgt
+     1141 cttttttttt taaaattatt ttctgagatt tggatt
+//

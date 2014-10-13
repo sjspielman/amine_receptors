@@ -1,0 +1,90 @@
+LOCUS       XM_428541               1522 bp    DNA              VRT 19-JUN-2013
+DEFINITION  PREDICTED: Gallus gallus beta-4C adrenergic receptor-like
+            (LOC430991), transcript variant X2, mRNA.
+ACCESSION   XM_428541
+VERSION     XM_428541.4  GI:513220631
+DBLINK      BioProject: PRJNA10808
+KEYWORDS    RefSeq.
+SOURCE      Gallus gallus (chicken)
+  ORGANISM  Gallus gallus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Galliformes;
+            Phasianidae; Phasianinae; Gallus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003764152.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Jun 19, 2013 this sequence version replaced gi:363742136.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Gallus gallus Annotation Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1522
+                     /mol_type="mRNA"
+                     /breed="Red Jungle fowl, inbred line UCD001"
+                     /isolate="#256"
+                     /sex="female"
+                     /db_xref="taxon:9031"
+                     /organism="Gallus gallus"
+                     /chromosome="22"
+     gene            1..1522
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 17 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 11 samples with support for all annotated
+                     introns"
+                     /db_xref="GeneID:430991"
+                     /gene="LOC430991"
+     CDS             89..1402
+                     /product="beta-4C adrenergic receptor isoform X2"
+                     /codon_start="1"
+                     /db_xref="GI:513220632"
+                     /db_xref="GeneID:430991"
+                     /translation="MTPLPTGNGTAWGAAAPGTVPNCSWAAILSRQWAVGAALSITILV
+                     IVAGNLLVIVAIAKTPRLQTMTNVFVTSLACADLIMGLLVVPPGATILLSGHWPYGTVV
+                     CELWTSLDVLCVTASIETLCAIAVDRYLAITAPLQYEALVTKGRAWAVVCMVWAISAFI
+                     SFLPIMNHWWRDGADEQAVRCYDDPRCCDFVTNMTYAIVSSTISFYVPLLVMIFVYVRV
+                     FAVATRHVQLIGKDKVRFLQETPSLSSRAGRRRRPSRLLAIKEHKALKTLGIIMGTFTL
+                     CWLPFFVANIIKVFCRPLVPDQLFLFLNWLGYINSAFNPIIYCRSPDFRSAFRKLLCCP
+                     RRADRRLHAAPQDPQHCSCAFSPRADPMEDSKAAAPGRPGEDSEVLGRSRREENASSHG
+                     GGHQQRPLGECWLQGTQTTLCEQLDEFTSREMPLGPSV"
+                     /gene="LOC430991"
+                     /protein_id="XP_428541.4"
+ORIGIN
+        1 cccgagtccc gctccggcgc cggcagccgt ggagcgcacg gggggcaaaa gagtgcacgg
+       61 agcgggaccg cccccccctg ccgaagcgat gaccccgctt cccacaggca acggcacagc
+      121 ctggggggcg gccgcccccg gcaccgtccc caattgcagc tgggctgcca tcctgagccg
+      181 gcagtgggcg gtgggagccg cgctgagcat caccattctg gtcatcgtgg ccggcaacct
+      241 gctggtgatc gtggccatcg ccaagacgcc gcggctgcag accatgacca acgtctttgt
+      301 cacctcgctg gcctgcgccg acctcatcat gggcttgctg gtggtgccac cgggggccac
+      361 catcctgctg agcggccact ggccctatgg cacggtggtg tgcgagctgt ggacctctct
+      421 ggacgtgctg tgtgtgacgg cgagcattga gacgctgtgc gccatcgccg tggatcgcta
+      481 cctggccatc acggcgccgc tgcagtacga ggcgctggtg accaagggca gagcgtgggc
+      541 tgtggtgtgc atggtgtggg ccatctccgc cttcatctcc ttcctgccca tcatgaacca
+      601 ctggtggcgg gatggagcag acgagcaggc ggtgcgctgc tacgatgacc cgcgctgctg
+      661 tgactttgtc accaacatga cctacgccat cgtctcctcc accatctcct tctacgtgcc
+      721 gctgctcgtc atgatctttg tctacgtccg tgtctttgct gtggccacac gccacgtcca
+      781 gctcatcggc aaggacaagg tgaggttcct gcaggagacc cccagcctca gctccagggc
+      841 tgggaggcgg cggcggccct cccgcctgtt ggccatcaag gagcacaagg cgctcaagac
+      901 cttgggcatc atcatgggca ccttcacgct ctgctggctg cccttctttg tggccaacat
+      961 catcaaggtg ttctgccggc cgctggtgcc cgaccagctg ttcctcttcc tcaactggtt
+     1021 gggttacatc aactcagcct tcaaccccat catctactgc cgcagccccg acttcaggag
+     1081 cgctttccgc aagctgctgt gctgcccgcg ccgcgccgac cgccggctgc acgccgcccc
+     1141 acaggacccg cagcactgct cctgtgcctt cagcccccgg gcggacccca tggaggacag
+     1201 caaggctgcg gcccccgggc ggcccgggga ggacagcgag gtgctgggga gaagcaggag
+     1261 ggaggagaat gcctcatccc acggtggtgg ccaccagcag cggcccctgg gcgagtgctg
+     1321 gctgcagggc acgcagacca cgctgtgcga gcagctggat gagttcacca gcagagagat
+     1381 gccgttgggt ccctcagtct gactgggagt ggagcagagc ggggagcatt atgttgggac
+     1441 ggggacgctg cgtggggaag gaggagtggc actgagggtg acagcgctgg aaggacactc
+     1501 tggtgcatgc acccacacgg ag
+//

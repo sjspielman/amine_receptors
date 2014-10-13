@@ -1,0 +1,114 @@
+LOCUS       XM_006254793            2283 bp    DNA              ROD 07-AUG-2014
+DEFINITION  PREDICTED: Rattus norvegicus 5-hydroxytryptamine (serotonin)
+            receptor 4, G protein-coupled (Htr4), transcript variant X3, mRNA.
+ACCESSION   XM_006254793
+VERSION     XM_006254793.2  GI:672083265
+DBLINK      BioProject: PRJNA12455
+KEYWORDS    RefSeq.
+SOURCE      Rattus norvegicus (Norway rat)
+  ORGANISM  Rattus norvegicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Rattus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_007906032.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Aug 7, 2014 this sequence version replaced gi:564393649.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Rattus norvegicus Annotation Release
+            105
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2283
+                     /mol_type="mRNA"
+                     /db_xref="taxon:10116"
+                     /sex="pooled males and females"
+                     /note="pooled female animals of strain BN/SsNHsdMCW plus
+                     one male of strain SHR (also known as SHR-Akr)"
+                     /strain="mixed"
+                     /organism="Rattus norvegicus"
+                     /chromosome="18"
+     gene            1..2283
+                     /note="5-hydroxytryptamine (serotonin) receptor 4, G
+                     protein-coupled; Derived by automated computational
+                     analysis using gene prediction method: Gnomon. Supporting
+                     evidence includes similarity to: 3 mRNAs, 2 ESTs, 3
+                     Proteins, and 100% coverage of the annotated genomic
+                     feature by RNAseq alignments"
+                     /db_xref="GeneID:25324"
+                     /db_xref="RGD:2850"
+                     /gene="Htr4"
+     CDS             560..1723
+                     /product="5-hydroxytryptamine receptor 4 isoform X3"
+                     /codon_start="1"
+                     /db_xref="GI:564393650"
+                     /db_xref="GeneID:25324"
+                     /db_xref="RGD:2850"
+                     /translation="MDRLDANVSSNEGFGSVEKVVLLTFFAMVILMAILGNLLVMVAVC
+                     RDRQLRKIKTNYFIVSLAFADLLVSVLVMPFGAIELVQDIWFYGEMFCLVRTSLDVLLT
+                     TASIFHLCCISLDRYYAICCQPLVYRNKMTPLRIALMLGGCWVIPMFISFLPIMQGWNN
+                     IGIVDVIEKRKFNHNSNSTFCVFMVNKPYAITCSVVAFYIPFLLMVLAYYRIYVTAKEH
+                     AQQIQMLQRAGATSESRPQTADQHSTHRMRTETKAAKTLCVIMGCFCFCWAPFFVTNIV
+                     DPFIDYTVPEKVWTAFLWLGYINSGLNPFLYAFLNKSFRRAFLIILCCDDERYKRPPIL
+                     GQTVPCSTTTINGSTHVLRYTVLHSGQHQELEKLPIHNDPESLESCF"
+                     /gene="Htr4"
+                     /protein_id="XP_006254855.1"
+     STS             1154..1232
+                     /db_xref="UniSTS:495967"
+                     /standard_name="Htr4"
+                     /gene="Htr4"
+     STS             1535..1654
+                     /db_xref="UniSTS:532457"
+                     /standard_name="Htr4"
+                     /gene="Htr4"
+ORIGIN
+        1 tctgaaagca ttaagtctgc agaacttgtg ctccaattcc cgaagtgcca ggtactccct
+       61 tgaaggccac tcccagccaa accttgctct gggccaggcg gtgtcaggca tgagaaggag
+      121 gaagtagact gcacaaaagg attgcctctg gcacagacac ctcagagcag tctggagttt
+      181 attgtctctg aatagaggaa gtggacactc aaagaggtga acagatttgc ccaaggtcac
+      241 cgaggagtct gcagtgaggc cagggtttgc cccctgtccc cagcgaatgg gtacggtggt
+      301 cctggtcaga gagagcacat gctggccagc ccaggggtgt gagatcgggc aatctctgtg
+      361 cccactcccc agtgcgcccc tctgcacagg tggcaccccg cgtgccctgt gggggcggca
+      421 gcgagccgga ccgcagggac acctaagctg ggggctgtgg agcctgccga gcctggcttg
+      481 gttggaagga ggaggatgct ctgcgtgccc agggtcctgt gggcactgac atccaacgta
+      541 ctcatgccca tttcctgtaa tggacagact tgatgctaat gtgagttcca acgagggttt
+      601 cgggtctgtg gagaaggtcg tactgctcac gttcttcgca atggttatcc tgatggccat
+      661 cctgggcaac ctgctggtga tggttgctgt gtgcagggac aggcagctca ggaaaataaa
+      721 aaccaattat ttcattgtgt ctcttgcctt tgctgatctg ctggtttcgg tgctggtgat
+      781 gcccttcggt gccattgagt tggtccaaga catctggttt tatggggaga tgttttgcct
+      841 ggtccggacc tctctggatg tcctactcac cacagcatca atttttcacc tctgctgcat
+      901 ttccctggat aggtattatg ccatctgctg tcaacctttg gtttatagaa acaagatgac
+      961 ccctctacgc atcgcattaa tgctgggagg ctgctgggtc attcccatgt ttatatcttt
+     1021 tctccccata atgcaaggct ggaacaacat cggcatagtt gatgtgatag agaaaaggaa
+     1081 attcaaccac aactctaact ctacattctg tgtcttcatg gtcaacaagc cctatgccat
+     1141 cacctgctct gtggtggcct tctacatccc gtttctcctc atggtgctgg cctattaccg
+     1201 tatctatgtc actgctaagg agcatgccca gcagatccag atgttacaac gggcaggagc
+     1261 cacctctgaa agcaggcccc agacagctga ccagcacagc acacatcgca tgcggacaga
+     1321 gaccaaagca gccaagactt tatgtgtcat catgggctgc ttctgtttct gctgggcccc
+     1381 cttctttgtc accaatattg tggacccttt catagactac actgtgcccg agaaggtgtg
+     1441 gactgctttc ctctggcttg gctatatcaa ttcagggttg aacccttttc tctatgcctt
+     1501 cttgaataag tctttcagac gtgccttcct tatcatcctc tgctgtgatg atgagcgcta
+     1561 caaaagaccc cccattctgg gccagactgt cccctgttca accacaacca ttaatggatc
+     1621 cactcatgtg ctaaggtata cagttttgca tagtggtcaa caccaggaac tggagaagtt
+     1681 gcccatacac aatgacccag agtccctgga atcatgcttt tgattgaaga cgtggcttgc
+     1741 cctttagcgg ttcatcccca tctgtgtctg catgaacagg ttactctgga atcactcctg
+     1801 actctgggca tcaccagtga agcatgaagc atggtgaggc agggtccggt gaaggtgcac
+     1861 agaggacagc attgagtggg acctgaaccc agcacattaa ggatttcaga accgtgtggg
+     1921 gatttgagat gtcatcagac ccagtgtctt acccagagcc caagtggcac ctcccattcc
+     1981 acgctgacat gtggtcagtc tttgctcaca cctctccagg ggcaggagct gactacctcc
+     2041 taatgtggtg gggatgctct aattgtgtgg aagttcagtc attcattggt ggacaagtct
+     2101 cgctgtctgg cttctgtagg ggcactgcag ttggtcttct ctcttaggtg aacacctccc
+     2161 atctcctctt cactctggac atcctctgga cgtactttgg tgggctctag atgtctgtct
+     2221 ggaagctctg aagtattgac atggaaggaa taggaatttt tggtttacaa ccattaacct
+     2281 ctc
+//

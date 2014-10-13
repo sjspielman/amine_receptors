@@ -1,0 +1,103 @@
+LOCUS       XM_002193381            2492 bp    DNA              VRT 12-FEB-2013
+DEFINITION  PREDICTED: Taeniopygia guttata dopamine receptor D5 (DRD5), mRNA.
+ACCESSION   XM_002193381
+VERSION     XM_002193381.2  GI:449501264
+DBLINK      BioProject: PRJNA32405
+KEYWORDS    RefSeq.
+SOURCE      Taeniopygia guttata (zebra finch)
+  ORGANISM  Taeniopygia guttata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Estrildidae; Estrildinae; Taeniopygia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_002198637.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Feb 12, 2013 this sequence version replaced gi:224050109.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Taeniopygia guttata Annotation Release 101
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2492
+                     /mol_type="mRNA"
+                     /isolate="Black17"
+                     /sex="male"
+                     /db_xref="taxon:59729"
+                     /organism="Taeniopygia guttata"
+                     /chromosome="4"
+     gene            1..2492
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 4 ESTs, 6 Proteins"
+                     /db_xref="GeneID:100219893"
+                     /gene="DRD5"
+     CDS             1..1884
+                     /product="D(1B) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:449501265"
+                     /db_xref="GeneID:100219893"
+                     /translation="MGLTSRNRFKKKTVSACAGALPRGAIHPIELERERIGFSLAGLSA
+                     CNTSQPSRRSHWNKYGGTLHFPSLRKTPSPSRSPHRTFQPRSLPARGRPSCVRARPGQP
+                     LLPRGCRGHFPAPRGGTGTALFSCAAQSRRTEPVTAPRNCEGDSVSEGGKERGGRLAPP
+                     RLSVPSRPPAAAVPTGPDGASLAAEHARGAAGAPGAAQVAAGSLLALLILWTLFGNVLV
+                     CAAIVRYRHLRSKVTNIFIVSLAVSDLLVALLVMPWKAVAEVAGYWPFGAFCNVWVAFD
+                     IMCSTASILNLCVISVDRYWAISSPFRYERKMTQRLALVMISVAWALSVLISFIPVQLN
+                     WHKDMSTTWVALAAVRPSDGTSGSNDTLSGPSESCDSSLNRTYAISSSLISFYIPVAIM
+                     IVTYTRIYRIAQVQIRRISSLERAAEHAQSCRSSHIDCHHHTSLKSSIRKETKVLKTLS
+                     VIMGVFVCCWLPFFILNCMVPFCESPPSDPHAGLPCVSETTFNIFVWFGWANSSLNPII
+                     YAFNADFRKVFSNLLGCGHFCSGTAVETVNISNELISYNQDTLYHKEIVTAYVNMIPNV
+                     VDCEENREDPFDRMSQISPDHEVATDSACELDCEGEISLGKITPFTPNGLH"
+                     /gene="DRD5"
+                     /protein_id="XP_002193417.2"
+ORIGIN
+        1 atgggtttga cctctcgcaa tcgttttaaa aagaaaactg tttctgcttg tgctggagcc
+       61 ctaccgagag gagcgattca tcccatagag ctggaaagag agagaatcgg attttcgctt
+      121 gccgggcttt ctgcctgtaa tacatctcag ccatccagaa gaagccactg gaacaagtac
+      181 ggaggcacac tccatttccc atccctgcgg aagacaccca gcccgtcccg ctccccacac
+      241 cgcacctttc agccccgttc gctcccagcg agaggccggc cgagctgtgt ccgtgcccgt
+      301 ccaggacagc cgctcttgcc ccggggatgc cgggggcact tccccgctcc ccgcggtggg
+      361 accgggaccg cgctcttctc ttgcgctgcg caaagccgcc gcacagagcc ggtgacggca
+      421 ccgaggaact gcgagggtga ctcggtgtcg gagggaggga aagagcgggg agggcggctg
+      481 gccccgccgc gcctttccgt cccgtcccga cccccggcag ccgcggtgcc caccggcccg
+      541 gacggggcgt ccctggcggc ggagcatgcg cggggagcgg cgggcgcccc aggcgcagcg
+      601 caggtggcgg cgggcagcct gctggcgctg ctcatcctct ggactctctt cgggaacgtg
+      661 ctcgtgtgcg cggccatcgt ccgctaccgg cacctgcgga gcaaggttac caacatcttc
+      721 atcgtgtccc tggctgtctc ggacctgctg gtggccctgc tggtcatgcc ctggaaggcg
+      781 gtggcggagg tagctgggta ctggcccttt ggggctttct gcaatgtctg ggtggccttt
+      841 gatatcatgt gctccacggc ctccatcctc aacctgtgcg tgatcagcgt ggacaggtac
+      901 tgggctatct ccagcccttt ccgctacgag agaaagatga cccagcggtt ggctctggtc
+      961 atgatcagcg tggcatgggc gctgtctgtg ctcatctcct tcatccctgt ccagctcaac
+     1021 tggcacaaag atatgagtac cacatgggtg gcgttagcgg cagtgagacc ctctgatggg
+     1081 acctctggca gcaatgatac cctcagtgga ccatcggaga gctgtgactc cagcctcaac
+     1141 aggacttacg ctatttcctc ctccttgatc agtttttata tcccggtggc tatcatgata
+     1201 gttacctaca ctcgaatcta ccgcattgcc caggtgcaga ttcgtcgtat ctcttccttg
+     1261 gagagggcag ccgagcatgc acagagctgc cggagcagcc acattgactg ccaccatcac
+     1321 acaagcctca agtcctccat caggaaagaa accaaggtgt taaagacact ctctgtcatt
+     1381 atgggtgtct ttgtctgttg ctggttgcca ttcttcatcc tgaattgcat ggttcccttc
+     1441 tgcgagagcc cacccagcga cccccacgct ggcctgccct gcgtcagtga gaccaccttt
+     1501 aatatttttg tctggtttgg ttgggctaac tcttctctta accccatcat ctatgccttc
+     1561 aatgctgact ttagaaaggt tttctccaac ctcctgggat gtggtcactt ttgctctggt
+     1621 actgcagtgg agactgttaa tataagcaac gagcttatct cttacaacca ggacaccctt
+     1681 taccataagg agatagtgac tgcttatgtt aacatgatcc caaatgtggt tgactgtgag
+     1741 gagaatcgcg aggacccttt tgataggatg tcccagatct cccctgacca tgaggttgcc
+     1801 actgactctg cctgtgagct ggactgtgag ggggagattt cgctaggcaa gataacacct
+     1861 ttcactccaa atggtttaca ttaaattgtg tcctggtctg gtcaattctt cttggaatat
+     1921 aaaagaaaat atttgcactg agtggaaaaa cctgcttgat gatgtgctgt aatttggtca
+     1981 gtcagtttat gctaaattca cttctgtggg tagtgctttg cagggtgtag acactgtcat
+     2041 acagggggct ggcggcacaa acttaaatca gcacttcccc aggctgaggg cagaccaggc
+     2101 agtcatgttg attagctgtg gtgaggtatt gtggtataat tgcagtcagt tcatatttat
+     2161 aatgtgtttg caaatgaaag gtgccgttgt cactgctaag tattatgact tctaaaatca
+     2221 gggacagatg tggctggcat agacattaaa tttaaaaaaa ttccaggctg ttggtttgtt
+     2281 cagatcttat gtttcttttt ctccattttt ttgtttgttt agttttgatt tttttttttt
+     2341 ttaagataga gatagtgagg tggtaatttg gatgattatt taaatgcgtg tttctgccaa
+     2401 aacagtttat gtgaaatcct tgttctccta ggcggcgttg ttgcctatga tatcctctgt
+     2461 tcctggatga ataaataaaa attatattga tc
+//

@@ -1,0 +1,122 @@
+LOCUS       XM_003825702            2937 bp    DNA              PRI 02-SEP-2014
+DEFINITION  PREDICTED: Pan paniscus adrenoceptor alpha 2A (ADRA2A), mRNA.
+ACCESSION   XM_003825702
+VERSION     XM_003825702.2  GI:675782860
+DBLINK      BioProject: PRJNA169343
+KEYWORDS    RefSeq.
+SOURCE      Pan paniscus (pygmy chimpanzee)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003870559.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 2, 2014 this sequence version replaced gi:397510744.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pan paniscus Annotation Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2937
+                     /mol_type="mRNA"
+                     /country="Germany"
+                     /isolate="Ulindi"
+                     /sex="female"
+                     /db_xref="taxon:9597"
+                     /organism="Pan paniscus"
+                     /chromosome="Unknown"
+     gene            1..2937
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 69 ESTs, 17 Proteins, and 94%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:100977068"
+                     /gene="ADRA2A"
+     STS             30..254
+                     /db_xref="UniSTS:40025"
+                     /standard_name="STS-AA040321"
+                     /gene="ADRA2A"
+     CDS             387..1421
+                     /product="alpha-2A adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:397510745"
+                     /db_xref="GeneID:100977068"
+                     /translation="MFRQEQPLAEGSFAPMGSLQPDTGNASWNGTEAPGGGARATPYSL
+                     QVTLTLVCLAGLLMLLTVFGNVLVIIAVFTSRALKAPQNLFLVSLASADILVATLVIPF
+                     SLANEVMGYWYFGKAWCEIYLALDVLFCTSSIVHLCAISLDRYWSITQAIEYNLKRTPR
+                     RIKAIIITVWVISAVISFPPLISIEKKGGGGGPQPAEPRCEINDQKWYVISSCIGSFFA
+                     PCLIMILVYVRIYQIAKRRTRGEERVGAAKASRWRGRQNREKRFTFVLAVVIGVFVVCW
+                     FPFFFTYTLTAVGCSVPRTLFKFFFWFGYCNSSLNPVIYTIFNHDFRRAFKKILCRGDR
+                     KRIV"
+                     /gene="ADRA2A"
+                     /protein_id="XP_003825750.1"
+     STS             2526..2656
+                     /db_xref="UniSTS:87259"
+                     /standard_name="RH93859"
+                     /gene="ADRA2A"
+     STS             2661..2779
+                     /db_xref="UniSTS:39286"
+                     /standard_name="D10S1861"
+                     /gene="ADRA2A"
+ORIGIN
+        1 tgtatatata tatttaattt cctgtcatcc ttccaagtta tcaggccacc gatgattttt
+       61 gttctccctt cttgaagaat aaatctctct ttacccatcg gctctcccta ctctctcccg
+      121 ccgcttagaa ataaaacttg gctgtattaa gcgctcggag caagaaggcg cccaccgaga
+      181 gcgtctgaag cgcgagccag gcgcagttcg cgggacccgg gccatgggcc gctagcggtc
+      241 ctccagttcg ggcccggcct ccctgcggcc ccctccctat gtgagccgca gccaggcgag
+      301 cggggcgccg gaggaagagg aggacccacg ggcgccgggc cggaaggcag ctggcagcag
+      361 gcccaggcca gcgggcgccc gcgttcatgt tccgccagga gcagccgttg gccgagggca
+      421 gctttgcgcc catgggctcc ctgcagccgg acacgggcaa cgcgagctgg aatgggaccg
+      481 aggcgccggg gggcggcgcc cgggccaccc cttactccct gcaggtgacg ctgacgctgg
+      541 tgtgcctggc cggcctgctc atgctgctca ccgtgttcgg caacgtgctc gtcatcatcg
+      601 ccgtgttcac gagccgcgcg ctcaaggcgc cccaaaacct cttcctggtg tctctggcct
+      661 cggccgacat cctggtggcc acgctcgtca tccctttctc gctggccaac gaggtcatgg
+      721 gctactggta cttcggcaag gcgtggtgcg agatctacct ggcgctcgac gtgctcttct
+      781 gcacgtcgtc catcgtgcac ttgtgcgcca tcagcctgga ccgctactgg tccatcacac
+      841 aggccatcga gtacaacctg aagcgcacgc cgcgccgcat caaggccatc atcatcaccg
+      901 tgtgggtcat ctcggccgtc atctccttcc cgccgctcat ctccatcgag aagaagggcg
+      961 gcggcggcgg cccgcagccg gccgagccgc gctgcgagat caacgaccag aagtggtacg
+     1021 tcatctcgtc gtgcatcggc tccttcttcg ctccctgcct catcatgatc ctggtctacg
+     1081 tgcgcatcta ccagatcgcc aagcgtcgca cccgcgggga ggagcgcgtc ggggctgcca
+     1141 aggcgtcgcg ctggcgcggg cggcagaacc gcgagaagcg cttcacgttc gtgctggccg
+     1201 tggtcatcgg agtgttcgtg gtgtgctggt tccccttctt cttcacctac acgctcacgg
+     1261 ccgtcgggtg ctccgtgcca cgcacgctct tcaagttctt cttctggttc ggctactgca
+     1321 acagctcgct gaacccggtc atctacacca tcttcaacca cgatttccgc cgcgccttca
+     1381 agaagatcct ctgtcggggg gacaggaagc ggatcgtgtg aggtttccgc tggcgcccgc
+     1441 gtagactcac gctgactgca ggcagcgggg ggcatcgagg ggtgctcagc ctcagggcac
+     1501 tcagaaaccc gggcgctgcc tgctctgcgt ttcctcgtct ggggtggctc tgcagcctcc
+     1561 tgcgggcggg cgtctgctgc tcctacaagg gaagcttcct gctgccaggc ccacacatcc
+     1621 ccagttgttg gtttggccac tcttgacctg gagccatctt cctagtgggc cacccctaat
+     1681 cagtattgct tcctaaaggt attttcaccc tcttcgcctg gtacagccct cacagctctt
+     1741 cagagcaagc actggactac aagggcatgg ctcacaaaag gttaatggat gggggttacc
+     1801 tagctctggc taattcccct tccattccca acgctctctc tctctctttt taaagaaaaa
+     1861 tgctaaaggc agccctgcct gccctcccca ccccccactg taaatataca ctatttttga
+     1921 tagcacacat ggggccccca tatctcttgg ccttggtttt gatgttgaaa tcctggcctt
+     1981 gggagagatg ccttccaggc agacacagct gtctggttca ggccaagccc ctttgcaatg
+     2041 caagcccttt ctggtgttat gaagtccctc tatgtcgtcg ttttcaccag caactggtga
+     2101 ctgtcccttc gacacggacc tgctttgaga tttcctgaca gggaaaagat ttctgtccat
+     2161 ttttttcctg tgcctaacag cataattgcc ttttcctatg taaatattat gatggtggat
+     2221 caagacataa gtaaatgagc ctttctgcct cacatcagcc ctgtgtataa agccattatt
+     2281 ctctgatgca ctgttcgccc cagtaactca ctttaaaacc tctctttcca gtgttccctc
+     2341 tctccctcca gggccactgc ttgaagaaga atatgtatgt ttctatcctg tatgtctgtg
+     2401 tgcccctcct gccccgaaag tgctgactat ggggaaatct tttagctgct gtttttagac
+     2461 tccaaggagt ggaaattatg tggaagaagc aaacctgata gaatttgccc aaggtaaaca
+     2521 gtttgaaaag acagatgggc ctgccaaact gtacagttcc ttccccaaga gctgttaggt
+     2581 atcaaaatgt tgtcctttcc cccctccctg cttttctggt tgagatcatg tcattgatga
+     2641 actgccaaag tcaggggagg agggcagaga ccttgtgttt acatctgcgt ttctacatgt
+     2701 tttagacaga gacaatttaa ggcctgcact cttatttcac taaagaaaaa ctaatgtcag
+     2761 cacatgttgc taatgacagt ggattttttt taaataaaaa agtttacaga tcaaatgtga
+     2821 aataaatatg aatggagtgg tcctcttgtc tgttatctga gttttcaaaa gctttaagac
+     2881 tctgggaaca tctgatttta tggatttttt aaaaataaaa aatgtacctt ataaaaa
+//

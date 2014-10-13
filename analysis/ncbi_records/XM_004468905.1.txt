@@ -1,0 +1,83 @@
+LOCUS       XM_004468905            1431 bp    DNA              MAM 06-MAY-2013
+DEFINITION  PREDICTED: Dasypus novemcinctus D(1B) dopamine receptor-like
+            (LOC101435683), mRNA.
+ACCESSION   XM_004468905
+VERSION     XM_004468905.1  GI:488556523
+DBLINK      BioProject: PRJNA196486
+KEYWORDS    RefSeq.
+SOURCE      Dasypus novemcinctus (nine-banded armadillo)
+  ORGANISM  Dasypus novemcinctus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Xenarthra; Cingulata; Dasypodidae; Dasypus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004482936.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Dasypus novemcinctus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1431
+                     /mol_type="mRNA"
+                     /country="USA: National Hansen's Disease Programs at
+                     Louisiana State University, School of Veterinary Medicine"
+                     /isolate="3-136"
+                     /sex="female"
+                     /db_xref="taxon:9361"
+                     /organism="Dasypus novemcinctus"
+                     /chromosome="Unknown"
+     gene            1..1431
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 39 Proteins, and 74% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101435683"
+                     /gene="LOC101435683"
+     CDS             1..1431
+                     /product="D(1B) dopamine receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:488556524"
+                     /db_xref="GeneID:101435683"
+                     /translation="MLPPGRNGTVSPARFRLQQLLAQGDAVGGSARAARLGPRQVVTAG
+                     LLTLLILWTLLGNVLVCAAIVRSRHLRAKMTNVFIVSLAVSDLFVALLVMPWKAVAEVA
+                     GYWPFGAFCDVWVAFDIMCSTASILNLCVISVDRYWAISRPFRYERKMTQRVALVMVGL
+                     AWTLSILISFIPVQLHWHRDKAGSRGRLGAASHLANATSWEEAEEPEGRAENCDSSLNR
+                     TYAISSSLISFYIPVAIMIVTYTRIYRIAQVQIRRISSLERAAERAQSRRRRAPCAPAT
+                     SLRASIQKETKVLKTLSGIMGVFVCCWLPFFILNCSVPFCSGPTAGPAAGFPCVSETTF
+                     DVFVWFGWANSSLNPIIYAFNADFRGVFAQLLGCGHLCARSRVETVNISNELVSYNQDT
+                     AFHREMAAAYVHMIPNAVTPAEGGADREEEEAPFDRLSQVSQTSPDGEPAAEATWELDR
+                     DGEISLGKITPFATNGLH"
+                     /gene="LOC101435683"
+                     /protein_id="XP_004468962.1"
+ORIGIN
+        1 atgctgccgc cggggcgcaa cggcacggtg tccccggcgc ggttccggct gcagcagctg
+       61 ctggctcagg gggatgccgt ggggggctcg gcccgggcgg cgcggctggg gcccaggcag
+      121 gtggtcaccg caggcctcct gactctgctc atcctctgga ccctgctggg caacgtgctg
+      181 gtgtgtgcgg ccatcgtgcg cagccgccac ctgcgcgcca agatgaccaa cgtcttcatc
+      241 gtgtccttgg ccgtgtccga tctcttcgtg gcgctgctgg tcatgccctg gaaggcggtc
+      301 gccgaggtgg ccggttactg gcccttcggg gcgttctgcg acgtctgggt ggccttcgac
+      361 atcatgtgct ccacggcctc catcctcaat ctttgcgtta tcagcgtgga ccgctactgg
+      421 gccatctcca gacccttccg ctacgagcgc aagatgaccc agcgcgtggc cttggtcatg
+      481 gtcggcctgg cctggacatt gtccatcctc atctccttca tcccggtcca actgcactgg
+      541 cacagggaca aggcgggctc ccggggacgg ctgggtgccg cgtcccacct ggccaatgcc
+      601 acttcctggg aggaggcgga ggagcccgaa ggaagggcgg agaactgtga ctccagcctg
+      661 aaccggactt acgccatctc ctcctcactc atcagcttct acatcccggt ggccatcatg
+      721 atcgtgacct acacgcgcat ctaccgcatc gcccaggtgc agatccgcag gatttcctcc
+      781 ctggagaggg cggcggagcg cgcgcagagc cgccggcgcc gtgcgccctg cgcgcctgcc
+      841 accagcctga gggcctccat ccagaaggag acgaaggtcc tcaagacgct gtcggggatc
+      901 atgggggtct tcgtgtgctg ctggctgccc ttcttcatcc tcaactgctc ggtccccttc
+      961 tgcagcggcc ccactgctgg ccccgcggcc ggcttccctt gcgtcagcga gaccaccttt
+     1021 gacgtctttg tctggtttgg ctgggccaac tcttctctca accccatcat ctacgccttc
+     1081 aacgccgact tccggggggt gttcgcccag ctgctggggt gcggccacct ctgcgcccgc
+     1141 agccgggtgg agacggtgaa catcagcaac gagctcgtct cctacaacca ggacaccgcc
+     1201 ttccaccggg agatggcagc cgcctacgtc cacatgatcc ccaacgcggt gaccccggca
+     1261 gagggtggcg ccgacagaga ggaggaggag gccccctttg atcgtctctc tcaggtttcc
+     1321 cagacatccc cagacggtga acctgctgca gaggctacct gggagctgga tcgggacggg
+     1381 gagatttcac tgggcaaaat aacgcccttc gccacaaatg gattgcatta a
+//

@@ -1,0 +1,99 @@
+LOCUS       XM_006143806            2452 bp    DNA              MAM 03-DEC-2013
+DEFINITION  PREDICTED: Tupaia chinensis 5-hydroxytryptamine (serotonin) receptor
+            5A, G protein-coupled (HTR5A), mRNA.
+ACCESSION   XM_006143806
+VERSION     XM_006143806.1  GI:562828574
+DBLINK      BioProject: PRJNA221634
+KEYWORDS    RefSeq.
+SOURCE      Tupaia chinensis (Chinese tree shrew)
+  ORGANISM  Tupaia chinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Scandentia; Tupaiidae; Tupaia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006159574.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Tupaia chinensis Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2452
+                     /mol_type="mRNA"
+                     /country="China"
+                     /sex="male"
+                     /db_xref="taxon:246437"
+                     /organism="Tupaia chinensis"
+                     /chromosome="Unknown"
+     gene            1..2452
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 Proteins, and 88% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:102475583"
+                     /gene="HTR5A"
+     CDS             1..1065
+                     /product="5-hydroxytryptamine receptor 5A"
+                     /codon_start="1"
+                     /db_xref="GI:562828575"
+                     /db_xref="GeneID:102475583"
+                     /translation="MDLPANLTFPSACPSDANRSLGAQDLLPGPPLLSVFGVLLLTLLG
+                     FLVAATFAWNLLVLATILRVRTFHRVPHNLVASMAISDVLVAALVMPLSLVHELSGRRW
+                     QLGRRLCQLWVACDVLCCTASIWNVTAIALDRYWSITHHLEYTLRARRRVSNLMIALTW
+                     ALAAIISLAPLLFGWGETYSEGSGECQVSREPSYAVFSTVGAFYLPLGVVLFVYWKVYK
+                     AAKLRVGPRKANSVSPASEVAEVKDAAQQPQTVFTVRHATVTFQTEGDTWREQREQRAA
+                     LMVGILIGVFVLCWIPFFVTELIGPLCSCDVPAVWKSIFLWLGYSNSFFNPLIYTAFNK
+                     NYNSAFRNFFSRQH"
+                     /gene="HTR5A"
+                     /protein_id="XP_006143868.1"
+ORIGIN
+        1 atggatttgc ctgcgaacct gaccttcccg tccgcctgcc cgtcggacgc caaccgcagc
+       61 ctcggcgccc aggacctgct tcccggcccg cccctcctct ccgtcttcgg tgtgctcctt
+      121 ctgaccttgc tgggcttcct ggtcgcggcg actttcgcgt ggaacctgct ggtgctggcg
+      181 accatcctcc gtgtgcgcac cttccaccgc gtgccacaca acctggtggc gtccatggcc
+      241 atctcggacg tgctggtggc cgcgctggtc atgcccctga gcctggtgca tgagctgtcc
+      301 gggcgccgct ggcagctggg ccggaggctg tgccagctat gggtcgcatg cgacgtgctc
+      361 tgctgcacag ccagcatctg gaacgtgacg gccatcgccc tggaccgcta ctggtccatc
+      421 acccaccacc tggagtacac gctccgcgcc cgaaggcgcg tctccaacct gatgatcgcg
+      481 ctcacctggg cgctggccgc catcatctct ctggccccgc tgcttttcgg ctggggagag
+      541 acgtactcgg agggcagtgg ggagtgccag gtgagccggg agccctccta cgccgtgttc
+      601 tccaccgtgg gcgcgttcta cctgccactg ggtgtggtgc tcttcgtgta ctggaaggtc
+      661 tacaaggccg ccaagctgcg tgtgggcccc aggaaggcca acagcgtctc ccccgcgtcc
+      721 gaggtggccg aggtgaagga cgcagcacag cagccccaga ccgtgttcac cgtccgccac
+      781 gccaccgtca cgttccagac tgaaggggac acgtggcggg agcagaggga gcagcgggct
+      841 gccctcatgg tgggcatcct catcggggtg ttcgtgctct gctggatccc cttcttcgtc
+      901 accgagctca tcggcccgct ctgctcctgt gacgtccctg ccgtctggaa aagcatcttc
+      961 ctctggctcg gctactccaa ttcctttttc aaccccctga tctacacggc tttcaacaag
+     1021 aactacaaca gcgccttcag gaacttcttt tccaggcagc actgagcagg ggcggagcca
+     1081 tcatgccatg gatgtcggct cagtgtgtgc cacatcgcag ccgccagccg caagctactt
+     1141 cgagggctct ttcctgggtc tcctcggaac gaaagcagcc tcaggcggca ctcgcggcag
+     1201 gagcaggcag tttcggtgac ctcgcctctt gggcttacct aaaggcctga ctgtaccaac
+     1261 agccacggac ttggtcaacg gagcaccctt tctcgcctgg ggagaccagc ttggctgctg
+     1321 tcattgtcct agggaagtca agccaggcag atgagaggga cagaaaagaa tccggggaca
+     1381 tctgggggcg gagaccatac ttcttgcttt ctgtatagtc cccatttcag ataccccgtt
+     1441 ctgtggtcct agcaaagcgc acctaatctt tagaggctag atcccagtag ttgaccacaa
+     1501 tcttgtcccc aacctatata gccccaccta tgagaccagt gaatatcggc tgtaagggtt
+     1561 ccctgtggca actccacaca cacacacaca aacacacaca cgcactcaca cattcacaca
+     1621 ctcacacaca cactcacaca cacacacacg cagccatagg aggggcgact gcaccaggcg
+     1681 gctggtctag cccaaatgca gcccacccat gtggaacagc actccgagtc caatcagaag
+     1741 ctaccctaac attttggagc acctgttcac aaacgacagc acacctgccg tttcagaagc
+     1801 ccagttatac tcctgggtgc ctgttcagaa gctctgctca cagtcctgtg tctttggctc
+     1861 atgagattag agtgaaataa ccagcacgaa gttgccagct tcttaaatcc agcttacgac
+     1921 ccgtccctgg gaggcagctc accgtgcacg agctctcagg gtttggtacc accgggcgag
+     1981 ctgctgcctg ctgtggtgta tgaatgctgc aaggaggccc agactgtagg tcgccagaga
+     2041 agccgaacgg tcgtgagccg tggtctcagt cctctgcaca ggaagtggac atgacacggg
+     2101 gcacagaagc acagagagcc cagctgttat accaaactgc agaaaggtct cataattcat
+     2161 ttgcccaagg cctgctgtgc ctgacattcc gaatgcctac atcaaaaaca tgtattacag
+     2221 taacccctaa gttatgatac acacgatgct gtgggtcata aggtatttca gtttggactt
+     2281 ccaaagtagg gaatttgtaa caattgcttg agggttagtc ttgcatttgc agtaacgatt
+     2341 gctttctttt cttcttcttc tgcttctgct gctgcttctt cttcttcttc ttcttcttct
+     2401 tcttcttctt cttcttcttc ttcttctttt aatttacaaa gaatgtgaga gg
+//

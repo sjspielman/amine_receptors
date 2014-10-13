@@ -1,0 +1,56 @@
+LOCUS       XP_006264548             361 aa                     VRT 09-DEC-2013
+DEFINITION  PREDICTED: histamine H3 receptor-like [Alligator mississippiensis].
+ACCESSION   XP_006264548
+VERSION     XP_006264548.1  GI:564250970
+DBLINK      BioProject: PRJNA221578
+KEYWORDS    RefSeq.
+SOURCE      Alligator mississippiensis (American alligator)
+  ORGANISM  Alligator mississippiensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Crocodylia;
+            Alligatoridae; Alligatorinae; Alligator.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006227417.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Alligator mississippiensis
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..361
+                     /note="assembly comes from two alligators"
+                     /db_xref="taxon:8496"
+                     /organism="Alligator mississippiensis"
+                     /chromosome="Unknown"
+                     /country="USA: Florida"
+     Protein         1..361
+                     /product="histamine H3 receptor-like"
+                     /calculated_mol_wt="40601"
+     Region          17..332
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..361
+                     /coded_by="XM_006264486.1:1..1086"
+                     /gene="LOC102558023"
+                     /db_xref="GeneID:102558023"
+ORIGIN
+        1 mallalitvl gnalvilafv vdknlryrsn yfflnlaisd vavgafsipv yipyvltgtw
+       61 hlgkvfcklw livdslmcsa ssfnivlisy drflsvsnav yyrshqtmts kavvllvaiw
+      121 vfaflldgpa iiiweyvvac ssmrdgecyp elifnwyism cisvlgsfip lfsvayfnlr
+      181 vfqtiqkhkr nssvqlsnsp kgkrqpwrlc tllkkrmpsp dletkdsvsa ssgiqnqsla
+      241 ldssnlsqih siisenddlg syrkktqskp qrhkniakpl siivciftic wapysfltli
+      301 rvacsgtcvs dslheatfwl lwinssvnpf lyslyhvkfr rafikmlcpq klvglsqsss
+      361 s
+//

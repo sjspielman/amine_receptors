@@ -1,0 +1,107 @@
+LOCUS       XM_005979502            2031 bp    DNA              MAM 05-NOV-2013
+DEFINITION  PREDICTED: Pantholops hodgsonii adrenoceptor beta 2, surface
+            (ADRB2), mRNA.
+ACCESSION   XM_005979502
+VERSION     XM_005979502.1  GI:556768697
+DBLINK      BioProject: PRJNA221624
+KEYWORDS    RefSeq.
+SOURCE      Pantholops hodgsonii (chiru)
+  ORGANISM  Pantholops hodgsonii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Antilopinae; Pantholops.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005815575.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pantholops hodgsonii Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2031
+                     /mol_type="mRNA"
+                     /country="China: Qinghai-Tibetan Plateau, Kekexili National
+                     Nature Reserve"
+                     /sex="male"
+                     /db_xref="taxon:59538"
+                     /organism="Pantholops hodgsonii"
+                     /chromosome="Unknown"
+     gene            1..2031
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 mRNAs, 27 ESTs, 13 Proteins"
+                     /db_xref="GeneID:102324704"
+                     /gene="ADRB2"
+     CDS             228..1484
+                     /product="beta-2 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:556768698"
+                     /db_xref="GeneID:102324704"
+                     /translation="MGQPGNRSVFLLAPNASRAPDQDGTLERDEAWVVGMGILMSLIVL
+                     AIVFGNVLVITAIAKFERLQTVTNYFITSLACADLVMGLAVVPFGACHILMKMWTFGNF
+                     WCEFWTSIDVLCVTASIETLCVIAVDRYFAITSPFKYQCLLTKNKARVVILMVWIVSGL
+                     TSFLPIQMHWYRASHKEAIKCYAKETCCDFFTNQPYAIASSIVSFYLPLVVMVFVYSRV
+                     FQVAKRHLQKIDKSEGRFHAQNISQVEQDGRSGLGQRRTSKFYLKEHKALKTLGIIMGT
+                     FTLCWLPFFIVNIVHVIQDNLIPKEIYILLNWLGYINSAFNPLIYCRSPDFRIAFQELL
+                     CLRRSSLKAYGNGCSSTSNDRTDYTGEQSGYHLGEEKDSELLCEDPPGTKNFVNQQGTV
+                     PSDSTDSQGRNCSTNDSLL"
+                     /gene="ADRB2"
+                     /protein_id="XP_005979564.1"
+     STS             354..1241
+                     /db_xref="UniSTS:265908"
+                     /standard_name="ADRB2"
+                     /gene="ADRB2"
+     STS             824..982
+                     /db_xref="UniSTS:475538"
+                     /standard_name="CC483684"
+                     /gene="ADRB2"
+     STS             1687..1945
+                     /db_xref="UniSTS:65272"
+                     /standard_name="WI-19151"
+                     /gene="ADRB2"
+ORIGIN
+        1 ctccagagcg caagccggaa ctggctgaaa ctgccgggca ctgcgagtcc agagcacccc
+       61 cggagctgag tgcaccacgc acccctacca cacccatacc cacccacggc cgctgaatga
+      121 gtcttccagg tgctcgcttg ctgcccgccg cgccccgccg gaggtccgct cgctgagggc
+      181 ggctggtgcg ccggccgcct gtgcgctcac ctgccagcct gcgcgccatg gggcagcccg
+      241 ggaaccgcag cgtctttttg ctggcgccca acgcaagccg cgcgccggac caagacggca
+      301 cgctggaacg ggacgaggcc tgggtggtgg gcatgggcat cctcatgtcg cttattgtcc
+      361 tggccatcgt gtttggaaac gtgctagtca tcacagccat tgccaagttt gagcgtctgc
+      421 agacggtcac caactacttc atcacctccc tggcctgtgc tgacctggtc atgggcctgg
+      481 cagtggtgcc ctttggggcc tgccacatcc tcatgaaaat gtggactttt ggcaacttct
+      541 ggtgtgagtt ttggacttcc attgacgtat tgtgcgtcac ggccagcatt gagaccctgt
+      601 gcgtgatcgc tgtggatcgc tactttgcca tcacgtcacc cttcaagtat cagtgcctgc
+      661 tgaccaagaa taaggcccgg gtggtcattt tgatggtgtg gatcgtgtct ggccttacct
+      721 ctttcctacc cattcagatg cactggtacc gggccagcca caaggaagct atcaagtgct
+      781 atgctaagga aacctgctgt gacttcttca cgaaccaacc ctatgccatt gcctcctcca
+      841 ttgtgtcctt ctaccttccc ctggtggtca tggtctttgt ctactccagg gtgttccagg
+      901 tagccaaaag gcatctccag aagatcgaca aatctgaggg ccgcttccat gcccaaaaca
+      961 tcagtcaagt ggagcaggat gggcggagcg gtctaggaca acgcaggaca tccaagttct
+     1021 acttgaagga acacaaagcc ctcaagactt taggcattat catgggcact ttcaccctat
+     1081 gctggctgcc cttcttcatt gtcaacattg tgcacgtgat ccaggataac ctcatcccta
+     1141 aggaaattta catccttcta aactggttgg gctacatcaa ctctgctttc aatcccctta
+     1201 tctactgccg gagcccagat ttcaggattg ccttccagga gcttctctgc ctgcgcaggt
+     1261 cttcactgaa ggcctatggg aatggctgct ccagcaccag caatgacagg actgactaca
+     1321 caggggaaca gagtggatat cacctggggg aggagaaaga cagtgaactt ctgtgtgaag
+     1381 accccccagg caccaaaaac tttgtgaacc agcaaggtac tgtgcccagt gatagcactg
+     1441 attcacaagg gaggaattgt agtacaaatg actcactgct gtaatgcagg ttttctactt
+     1501 tttaagacac cccttctccc tggttccccg taacaaaaca ctaaacagac tatttaactt
+     1561 gagtgtaata aatttagaat aaagttgtac agagatgtgc aggaggaaag atatccttct
+     1621 gcctttttat tttttatttt tttaagttgt aacaaaatat atttgagtaa ctgtttcttg
+     1681 tacagttcag ttcctctttg cctggaactc gttaagttta tgtctgaagg gcttcagtct
+     1741 caaagaacct ggggctgcta tgttttgatg acttttcctg catatctacc tcattgatat
+     1801 attaggggta atatattgct gctggtaatt tgtatccgaa ggagaccttc cttcctgcac
+     1861 ccttggactg gaagatattg agtctctcag acctttcgct gtgaacatgg actctcctcg
+     1921 cccctcttat ttgctcaaac ggggtgttgt aggcagggac ttgaggggca gctttggttg
+     1981 tttttctgag caaagtctaa agtttacagt aaataaattg tttgaccatg a
+//

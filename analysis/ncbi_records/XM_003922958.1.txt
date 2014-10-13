@@ -1,0 +1,109 @@
+LOCUS       XM_003922958            2063 bp    DNA              PRI 06-SEP-2012
+DEFINITION  PREDICTED: Saimiri boliviensis boliviensis 5-hydroxytryptamine
+            (serotonin) receptor 1E, G protein-coupled (HTR1E), mRNA.
+ACCESSION   XM_003922958
+VERSION     XM_003922958.1  GI:403261181
+KEYWORDS    RefSeq.
+SOURCE      Saimiri boliviensis boliviensis (Bolivian squirrel monkey)
+  ORGANISM  Saimiri boliviensis boliviensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Saimiriinae; Saimiri.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003943611) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Saimiri boliviensis Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2063
+                     /sub_species="boliviensis"
+                     /mol_type="mRNA"
+                     /isolate="3227"
+                     /sex="female"
+                     /db_xref="taxon:39432"
+                     /organism="Saimiri boliviensis boliviensis"
+                     /chromosome="Unknown"
+     gene            1..2063
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 3 mRNAs, 18 ESTs, 5 Proteins"
+                     /db_xref="GeneID:101032583"
+                     /gene="HTR1E"
+     STS             644..1833
+                     /db_xref="UniSTS:481920"
+                     /gene="HTR1E"
+     misc_feature    647..649
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR1E"
+     CDS             686..1783
+                     /product="5-hydroxytryptamine receptor 1E"
+                     /codon_start="1"
+                     /db_xref="GI:403261182"
+                     /db_xref="GeneID:101032583"
+                     /translation="MNITNCTTEASLAVRPKTITEKMLICMTLVVITTLTTLLNLAVIM
+                     AICTTKKLHQPANYLICSLAVTDLLVAVLVMPLSIMYIVMDRWKLGYFLCEVWLSVDMT
+                     CCTCSILHLCVIALDRYWAITNAIEYARKRTAKRAALMILTVWTISIFISMPPLFWRSH
+                     RRLSPPPSQCTIQHDHVIYTIYSTLGAFYIPLTLILILYYRIYHAAKSLYQKRGSSRHL
+                     SNRSTDSQNSFASCKLTQTFCVSDFSTSDPTIEFEKFHASIRIPPFDNDPDHPGERQQI
+                     SSTRERKAARILGLILGAFILSWLPFFIKELIVGLSIYTVSSEVADFLTWLGYVNSLIN
+                     PLLYTSFNEDFKLAFKKLIRCREHT"
+                     /gene="HTR1E"
+                     /protein_id="XP_003923007.1"
+     STS             759..1342
+                     /db_xref="UniSTS:157232"
+                     /standard_name="GDB:435478"
+                     /gene="HTR1E"
+     STS             1783..1974
+                     /db_xref="UniSTS:43677"
+                     /standard_name="WI-18995"
+                     /gene="HTR1E"
+     STS             1784..1881
+                     /db_xref="UniSTS:10601"
+                     /standard_name="D6S2061"
+                     /gene="HTR1E"
+ORIGIN
+        1 aagacctgga gcacctcgga gctgcgaccc ccagttcacc acaccacctg ccttactccc
+       61 aggctcatct tttcatccca cctacccact tctctattca cggagtcctg ggtggctgcg
+      121 acctgcgtag atgatttaac agactgcccc tgctcctgct cctgctcctg ctcctcctct
+      181 tccctgctct ctcgcctcct cttccagtcc gggcgcccag actcggcgga gcgcagcgcc
+      241 tgccacccgc ggtgcctccg gctgcccggc gcgccgcact cccaggttct gtctcgccgc
+      301 agcccggctg ccagtggcgc gggcaaggac gctggcgggg agaacgcccc gagctcggcg
+      361 taccccagaa tcgagtgctg agagaagcag tgctttgatc cagctcagaa ggaaaaggag
+      421 cgggttccga gtgagacttc tggagccagc gggacgcccc agttggccca gtgcggcgcg
+      481 gctgcacgca ccgtccacaa ggaaccttca ctcagaagaa atgctgtggc ccttaatttt
+      541 accaacagaa aatggaacat aagagaccac atagctgaac aaattacagc cttcttacaa
+      601 gtgagaaact tcgaggctac gtagtttcca gctgaaggga aataactaac agcttctcca
+      661 cagtgtagac agaaacaggg gaaacatgaa catcacaaac tgtacgacag aagccagctt
+      721 ggctgtaaga cccaagacca tcactgagaa gatgctcatt tgcatgactc tggtggtcat
+      781 caccaccctt accacgttgc tgaacttggc tgtgatcatg gccatctgca ccaccaagaa
+      841 gcttcaccag cctgcaaact acctaatctg ttctctggcc gtgacagacc tcctggtggc
+      901 ggtgctcgtc atgcccctga gcatcatgta cattgtcatg gaccgctgga agcttggata
+      961 cttcctctgt gaggtgtggc tgagtgtgga catgacttgc tgcacctgct ccatcctcca
+     1021 tctctgtgtc attgccctgg acaggtactg ggccatcacc aatgctattg aatatgccag
+     1081 gaagaggacg gccaaaaggg ccgcactgat gatccttacc gtctggacta tctccatctt
+     1141 catctccatg ccccctctgt tctggaggag ccaccgccgc ctaagccctc cccctagtca
+     1201 gtgcaccatc cagcatgacc atgtcatcta taccatttac tccacgctgg gcgcatttta
+     1261 tatccccttg actttgatat tgattctcta ttaccggatt taccatgcgg ccaagagcct
+     1321 ttaccagaaa aggggatcaa gtcggcactt aagcaacaga agcacagaca gccagaattc
+     1381 ttttgcaagt tgtaaactta cacagacttt ctgtgtgtct gacttctcca cctcagaccc
+     1441 taccatagag tttgaaaagt tccatgcctc tatcaggatc ccacccttcg acaatgatcc
+     1501 ggatcaccca ggagaacgcc agcagatctc tagcaccagg gaacggaagg cagcacgcat
+     1561 cctagggctg attctgggtg cgttcatttt gtcctggctg ccatttttca tcaaagagtt
+     1621 gattgtgggt ctgagcatct acaccgtgtc ctcagaagtg gccgactttc tgacgtggct
+     1681 tggttatgtt aattctctga tcaatcctct gctctacaca agttttaatg aagactttaa
+     1741 gctggctttt aaaaagctca ttaggtgccg agagcatact tagactgtaa aaagctaaaa
+     1801 ggcatgactt ttgccagagc ctcctgagtg gatgggggta aggggtgcaa cttaataatt
+     1861 cttgaacata cttggttcag gagagtttgt aagtatgtgt ggtctcattt tcttgtttgt
+     1921 tttgttctgt tttgtttgag gcttgttatt tggtgtgctg ttttctacct ctggtcttgt
+     1981 atgtagtaca taacttcaaa taaacatgac acaaaaacag aaattttgta gaaataatag
+     2041 taaggtgaaa tagtaaatac ttt
+//

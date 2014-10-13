@@ -1,0 +1,88 @@
+LOCUS       XM_004714061            1413 bp    DNA              MAM 29-MAY-2013
+DEFINITION  PREDICTED: Echinops telfairi 5-hydroxytryptamine (serotonin)
+            receptor 2A, G protein-coupled (HTR2A), mRNA.
+ACCESSION   XM_004714061
+VERSION     XM_004714061.1  GI:507696059
+DBLINK      BioProject: PRJNA193504
+KEYWORDS    RefSeq.
+SOURCE      Echinops telfairi (small Madagascar hedgehog)
+  ORGANISM  Echinops telfairi
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Afrotheria; Tenrecidae; Tenrecinae; Echinops.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004558784.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Echinops telfairi Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1413
+                     /mol_type="mRNA"
+                     /country="Germany: Ludwig Maximilians University, Munich"
+                     /isolate="266"
+                     /sex="female"
+                     /db_xref="taxon:9371"
+                     /organism="Echinops telfairi"
+                     /chromosome="Unknown"
+     gene            1..1413
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 19 Proteins"
+                     /db_xref="GeneID:101647368"
+                     /gene="HTR2A"
+     CDS             1..1413
+                     /product="5-hydroxytryptamine receptor 2A"
+                     /codon_start="1"
+                     /db_xref="GI:507696060"
+                     /db_xref="GeneID:101647368"
+                     /translation="MERLCEENVSMSSPLNSFHRFQADTRLYSSNFHSGDANASDVFNW
+                     TVDSENRTNLSCAGCLSPPCYSLVHGQEKNWSALLTAVVIILTIAGNILVIMAVSLEKK
+                     LQNATNYFLMSLAIADMLLGFLVMPVSMLTILYGYRWPLPSKLCAVWIYLDVLFSTASI
+                     MHLCAISLDRYVAIQNPIHHSRFNSRTKAFLKIIAVWTISVGISMPIPVFGLQDDSKVF
+                     KEGSCLLADDNFVLIGSFVSFFIPLTIMVVTYFLTIKSLQKEATLCVRDLGSRTKLASF
+                     SFLPQSSLPSEKLFQRSIHREPGSYGRRTMQSISNEQKACKVLGIVFFLFVVMWCPFFI
+                     TNIMAVICKKSCNEDVIGALLNVFVWIGYLSSAVNPLVYTLFNKTYRSAFSRYMQCQYK
+                     ESKKPLQLILVNTIPALACKSNDLHRDQERQPRKDGEMVGTDCSMAALGQPPPEDAPTA
+                     SVHALNEKVSCV"
+                     /gene="HTR2A"
+                     /protein_id="XP_004714118.1"
+     STS             299..431
+                     /db_xref="UniSTS:31941"
+                     /standard_name="HTR2A-112F"
+                     /gene="HTR2A"
+ORIGIN
+        1 atggagaggc tctgtgaaga aaacgtctcc atgagctcac ctctgaactc cttccaccga
+       61 ttccaggctg acaccagact ctacagcagc aattttcact cgggagacgc gaacgcttcc
+      121 gacgtgttta actggacggt ggactctgaa aaccgaacca acctttcctg tgccggctgc
+      181 ctctcgccac catgctactc cttagttcat ggccaggaaa aaaactggtc tgccttgctg
+      241 acagctgtgg tgattattct caccatcgct ggcaacatac tcgtcatcat ggcagtgtcc
+      301 ctggagaaaa agctgcagaa cgccaccaac tacttcctga tgtcccttgc catcgccgac
+      361 atgctgctgg gcttcctggt gatgcccgtg tccatgttaa ccatcctgta tgggtaccgg
+      421 tggcctctgc caagcaagct ctgcgcagtg tggatctacc tggatgtgct cttctccacg
+      481 gcctctatca tgcacctgtg tgccatctcg ctggaccgct atgtcgccat ccagaacccc
+      541 atccatcaca gccgtttcaa ctccagaaca aaagccttcc tgaagatcat tgctgtttgg
+      601 accatatcag taggtatctc catgccgata ccagtcttcg gactgcagga tgattccaaa
+      661 gtctttaagg aagggagttg tctcctcgct gatgataact tcgtcctgat cggctccttt
+      721 gtgtcctttt tcatccctct aacgatcatg gtggtcacat acttcttaac cattaagtcc
+      781 ctccagaaag aggccacttt atgcgtgcgt gaccttggca gccgcaccaa actagcttct
+      841 ttcagcttcc tccctcagag ctccctgcct tcagaaaagc tctttcagcg ctccatccac
+      901 agggagccgg gctcctacgg caggaggacg atgcagtcca tcagcaacga gcaaaaggcc
+      961 tgcaaggtgc tgggcatcgt cttcttcctc ttcgtggtga tgtggtgccc cttcttcatc
+     1021 acgaacatca tggccgtcat ctgcaagaag tcttgcaacg aggacgtcat tggagccctg
+     1081 ctcaatgtgt tcgtgtggat cggctacctc tcctcggccg tcaacccact cgtctacacc
+     1141 ttgttcaata agacctaccg gtcggccttc tccaggtaca tgcaatgtca gtacaaggaa
+     1201 agcaagaaac cattgcagtt gattttagtg aacacgatac cagccttggc ctgtaagtcg
+     1261 aatgacctcc atcgggacca agagaggcag ccaaggaaag atggcgagat ggtgggtact
+     1321 gactgctcca tggctgccct gggacaaccg ccaccggaag atgcgcccac cgccagtgtc
+     1381 cacgccttga atgaaaaggt cagctgtgtg tga
+//

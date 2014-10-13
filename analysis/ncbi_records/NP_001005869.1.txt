@@ -1,0 +1,139 @@
+LOCUS       NP_001005869             470 aa                     MAM 22-FEB-2014
+DEFINITION  5-hydroxytryptamine receptor 2A [Canis lupus familiaris].
+ACCESSION   NP_001005869
+VERSION     NP_001005869.1  GI:54607157
+KEYWORDS    RefSeq.
+SOURCE      Canis lupus familiaris (dog)
+  ORGANISM  Canis lupus familiaris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae;
+            Canis.
+REFERENCE   1  (residues 1 to 470)
+  AUTHORS   Przyklenk K, Frelinger AL 3rd, Linden MD, Whittaker P, Li Y, Barnard
+            MR, Adams J, Morgan M, Al-Shamma H and Michelson AD.
+  TITLE     Targeted inhibition of the serotonin 5HT2A receptor improves
+            coronary patency in an in vivo model of recurrent thrombosis
+  JOURNAL   J. Thromb. Haemost. 8 (2), 331-340 (2010)
+   PUBMED   19922435
+  REMARK    GeneRIF: 5HT2A receptor inhibition with APD791, even when initiated
+            after the onset of recurrent thrombosis, improves coronary patency
+            in the in vivo canine model.
+REFERENCE   2  (residues 1 to 470)
+  AUTHORS   Bonaventure P, Nepomuceno D, Miller K, Chen J, Kuei C, Kamme F, Tran
+            DT, Lovenberg TW and Liu C.
+  TITLE     Molecular and pharmacological characterization of serotonin 5-HT2A
+            and 5-HT2B receptor subtypes in dog
+  JOURNAL   Eur. J. Pharmacol. 513 (3), 181-192 (2005)
+   PUBMED   15862800
+REFERENCE   3  (residues 1 to 470)
+  AUTHORS   Masuda K, Hashizume C, Ogata N, Kikusui T, Takeuchi Y and Mori Y.
+  TITLE     Sequencing of canine 5-hydroxytriptamine receptor (5-HTR) 1B, 2A, 2C
+            genes and identification of polymorphisms in the 5-HTR1B gene
+  JOURNAL   J. Vet. Med. Sci. 66 (8), 965-972 (2004)
+   PUBMED   15353848
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AB193092.1.
+            On Jan 12, 2005 this sequence version replaced gi:57103106.
+            ##Evidence-Data-START##
+            Transcript exon combination :: AB193092.1, AY832858.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+            ERS240723, ERS240725 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..470
+                     /db_xref="taxon:9615"
+                     /sub_species="familiaris"
+                     /organism="Canis lupus familiaris"
+                     /chromosome="22"
+                     /map="22"
+     Protein         1..470
+                     /note="5HT2A receptor; serotonin receptor 2A"
+                     /product="5-hydroxytryptamine receptor 2A"
+                     /calculated_mol_wt="52247"
+     Site            76..99
+                     /note="propagated from UniProtKB/Swiss-Prot (O46635.2)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          89..>207
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          97..379
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Site            111..132
+                     /note="propagated from UniProtKB/Swiss-Prot (O46635.2)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            149..171
+                     /note="propagated from UniProtKB/Swiss-Prot (O46635.2)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          155..160
+                     /note="propagated from UniProtKB/Swiss-Prot (O46635.2)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Agonist binding (By similarity)"
+     Region          172..174
+                     /note="propagated from UniProtKB/Swiss-Prot (O46635.2)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="DRY motif, important for ligand-induced
+                     conformation changes (By similarity)"
+     Site            192..215
+                     /note="propagated from UniProtKB/Swiss-Prot (O46635.2)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            234..254
+                     /note="propagated from UniProtKB/Swiss-Prot (O46635.2)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            324..345
+                     /note="propagated from UniProtKB/Swiss-Prot (O46635.2)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          335..339
+                     /note="propagated from UniProtKB/Swiss-Prot (O46635.2)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Agonist binding (By similarity)"
+     Site            362..383
+                     /note="propagated from UniProtKB/Swiss-Prot (O46635.2)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          375..379
+                     /note="propagated from UniProtKB/Swiss-Prot (O46635.2)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="NPxxY motif, important for ligand-induced
+                     conformation changes and signaling (By similarity)"
+     Region          468..470
+                     /note="propagated from UniProtKB/Swiss-Prot (O46635.2)"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /region_name="PDZ-binding"
+     CDS             1..470
+                     /coded_by="NM_001005869.1:1..1413"
+                     /gene="HTR2A"
+                     /gene_synonym="5-HT-2; 5-HT-2A; 5-HTR2A"
+                     /db_xref="GeneID:403882"
+ORIGIN
+        1 mdvlfednap lspttsslmp sngdprlygn dlnagdants dafnwtvdae nrtnlscegc
+       61 lsppcfsllh lqeknwsall tavviiltia gnilvimavs lekklqnatn yflmslaiad
+      121 mllgflvmpv smltilygyr wplpsklcav wiyldvlfst asimhlcais ldryvaiqnp
+      181 ihhsrfnsrt kaflkiiavw tisvgismpi pvfglqddsk vfkegsclla ddnfvligsf
+      241 vsffipltim vityfltiks lqkeatlcvs dpgtraklas fsflpqssls seklfqrsih
+      301 repgsygrrt mqsisneqka ckvlgivffl fvvmwcpffi tnimavicke scnediigal
+      361 lnvfvwigyl ssavnplvyt lfnktyrsaf sryiqcqyke nkkplqlilv ntipalayks
+      421 sqlqmgqkkn skkdakstdn dysmvalgkq hsedaptdni ntvnekvscv
+//

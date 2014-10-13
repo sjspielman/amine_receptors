@@ -1,0 +1,96 @@
+LOCUS       XM_005745933            1866 bp    DNA              VRT 30-SEP-2013
+DEFINITION  PREDICTED: Pundamilia nyererei muscarinic acetylcholine receptor
+            M2-like (LOC102209405), mRNA.
+ACCESSION   XM_005745933
+VERSION     XM_005745933.1  GI:548444239
+DBLINK      BioProject: PRJNA220167
+KEYWORDS    RefSeq.
+SOURCE      Pundamilia nyererei
+  ORGANISM  Pundamilia nyererei
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Haplochromini;
+            Pundamilia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005187571.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pundamilia nyererei Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1866
+                     /mol_type="mRNA"
+                     /isolate="P.nyererei 1_Seehausen"
+                     /sex="female"
+                     /db_xref="taxon:303518"
+                     /organism="Pundamilia nyererei"
+                     /chromosome="Unknown"
+     gene            1..1866
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 11 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /db_xref="GeneID:102209405"
+                     /gene="LOC102209405"
+     CDS             138..1517
+                     /product="muscarinic acetylcholine receptor M2-like"
+                     /codon_start="1"
+                     /db_xref="GI:548444240"
+                     /db_xref="GeneID:102209405"
+                     /translation="MQRMLDSMEILNSSNASNISVSNGTGLFSRSPYTTLEIALIILVA
+                     GSLSLITVIGNILVMLSIKVNRNLQTVNNYFLFSLACADLIIGVCSMNLYTVYIVIGFW
+                     PLGAVVCDLWLAVDYVVSNASVMNLLIISFDRYFCVTKPLSYPVRRSTKIAGLMIAAAW
+                     VLSFILWAPAILFWQFIVGGRTVKPNECYIQFFSNPAVTFGTAIAAFYLPVAIMIYLYW
+                     RISKASRSRMRKDSRKTSGTSLGEAPSNSQEEGGENTTATKKVQEEAADGKEKEMLQQK
+                     QQQNGIGPCKEDRTNQVDSTSDSIQASTSKDAEIPPSSRKNSNIGKNEAQPSSRKNSAA
+                     DAQMLVTKTLFKVTMRAMSENAVAKWKKRGISSREKKVTRTIMAILVAFVVTWTPYNVM
+                     VLINTFCSICIPNTLWTIGYWLCYINSTINPACYALCNATFKNTFKQLLLCQYKNIRTS
+                     R"
+                     /gene="LOC102209405"
+                     /protein_id="XP_005745990.1"
+ORIGIN
+        1 tgtcaggtta ctttctgctt tgctctccgc tccagtgtgt cgggagaaga gagagtaaca
+       61 tggacgactt caaaacagtt cacctgtgtc gttctctgca gatgaggttt tgcacatatg
+      121 tgaacgacgc ttgaagcatg caaaggatgc tggacagcat ggagattctc aattcatcca
+      181 acgctagcaa catcagtgtc agcaatggca ctggcctctt ctctcgaagc ccgtacacga
+      241 ctttggagat agcgctcatc attctcgttg caggatctct gagtctgatc actgtcatcg
+      301 gaaacatcct ggtcatgctc tctataaagg taaacaggaa cctgcagacc gtcaacaact
+      361 acttcctgtt cagcctggcc tgcgcagacc tgattattgg tgtctgctcc atgaacctct
+      421 acaccgtcta cattgtgatt gggttctggc ccctaggagc agtggtgtgt gacctatggc
+      481 tggctgtcga ctatgttgtg agcaacgcct cagtcatgaa cttgctcatc atcagttttg
+      541 accgttactt ttgtgtcacc aaaccgctta gctacccagt gcggcgcagc accaaaatag
+      601 cagggctgat gattgcagca gcatgggtct tgtccttcat cctgtgggct cctgcaattt
+      661 tgttctggca gttcatagtt gggggaagga ctgtgaaacc caatgagtgc tacatccagt
+      721 tcttctccaa cccagcggtg accttcggga cggctatcgc ggctttctac ctacctgtgg
+      781 ccatcatgat ctacctttac tggcgcatct ccaaggccag tcgcagccgc atgaggaaag
+      841 acagcaggaa gacctcaggc actagtctgg gagaagctcc ttctaacagc caggaggaag
+      901 gaggtgagaa caccactgca acaaaaaagg ttcaggagga ggctgcagat ggcaaggaga
+      961 aggaaatgct ccagcagaaa cagcaacaga acggaatcgg tccgtgcaag gaagaccgaa
+     1021 ccaaccaggt ggactccaca tcagatagca ttcaggcttc gacatccaag gatgctgaga
+     1081 ttccaccttc gtcacggaaa aactcaaata ttgggaaaaa tgaagcccaa ccatcttctc
+     1141 ggaaaaactc agcagctgac gctcaaatgc tagtcacgaa aactctgttt aaggtaacaa
+     1201 tgcgcgcgat gagtgaaaac gctgtggcaa agtggaaaaa gaggggaatt tcttccaggg
+     1261 agaaaaaggt cacacgcacc atcatggcca tcctggttgc atttgtcgtc acgtggacgc
+     1321 cgtacaacgt gatggtgctt atcaacacat tctgctccat ctgcatcccc aacacgctgt
+     1381 ggaccattgg ctactggctg tgctacatca acagcaccat caacccagcc tgctatgccc
+     1441 tctgcaacgc caccttcaag aacaccttca agcagctgct tctgtgccag tacaagaaca
+     1501 tacgcacttc acgatgagca gggggtgcaa atgctttact gtgtttgtgg tggagtctga
+     1561 ataatgtgac aaatctttta aagaatgatt tcgaaagttg gaaacataga tacatagata
+     1621 aagtgtggtc ttgttgtgca attacttcat gttgcttttc ggtggtagaa tcccccccag
+     1681 cccccttctt ccactgaaaa taaaactgtg atttaactca taatcatatt ataaagtcaa
+     1741 actttcaaag acttaaatgg aactaatttc aatgagcttt acttactctc tgaaaaatac
+     1801 ttttgcataa cagtcacttg gagttttatt tcttttttta tttcctcctt ttgctacttc
+     1861 tacaca
+//

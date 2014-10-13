@@ -1,0 +1,86 @@
+LOCUS       XM_005527917            1555 bp    DNA              VRT 13-SEP-2013
+DEFINITION  PREDICTED: Pseudopodoces humilis cholinergic receptor, muscarinic 2
+            (CHRM2), mRNA.
+ACCESSION   XM_005527917
+VERSION     XM_005527917.1  GI:543369494
+DBLINK      BioProject: PRJNA217046
+KEYWORDS    RefSeq.
+SOURCE      Pseudopodoces humilis (Tibetan ground-tit)
+  ORGANISM  Pseudopodoces humilis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes; Paridae;
+            Pseudopodoces.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005087595.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pseudopodoces humilis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1555
+                     /db_xref="taxon:181119"
+                     /mol_type="mRNA"
+                     /organism="Pseudopodoces humilis"
+                     /chromosome="Unknown"
+     gene            1..1555
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 1 EST, 17 Proteins"
+                     /db_xref="GeneID:102103691"
+                     /gene="CHRM2"
+     CDS             1..1398
+                     /product="muscarinic acetylcholine receptor M2"
+                     /codon_start="1"
+                     /db_xref="GI:543369495"
+                     /db_xref="GeneID:102103691"
+                     /translation="MNNSTYINSSTENVMALESPYKTVEVVFIVLVAGSLSLVTIIGNI
+                     LVMVSIKVNRHLQTVNNYFLFSLACADLIIGIFSMNLYTLYTVIGYWPLGPVVCDLWLA
+                     LDYVVSNASVMNLLIISFDRYFCVTKPLTYPVKRTTKMAGMMIAAAWVLSFILWAPAIL
+                     FWQFIVGGRTVPDGDCYIQFFSNPAVTFGTAIAAFYLPVIIMTVLYWQISRASKSRIKK
+                     GKKEAAQNQETVSPSLVQGKIVKPNNNNIPTSGDGLEHSKIQNGKTSEETVTNNSVQGE
+                     KESSNDSTSISVVASNLKEDEATKDTRQASASQAHVKAENSKLTCIRIVTKSQKGDCCA
+                     PTNTTVEIVGTNGEEKQNSVARKIVKMTKQPAKKKPPPSREKKVTRTILAILLAFIITW
+                     TPYNVMVLINSFCTSCIPNTVWTIGYWLCYINSTINPACYALCNATFKKTFKHLLMCHY
+                     KNIGATR"
+                     /gene="CHRM2"
+                     /protein_id="XP_005527974.1"
+ORIGIN
+        1 atgaataact caacgtacat aaactcttcc actgaaaatg tgatggcctt ggagagcccc
+       61 tacaaaactg ttgaggtggt gttcatcgtc ctggtggcag ggtctctcag cctggtcacc
+      121 ataattggga acatcctggt catggtgtca atcaaagtca acaggcacct ccagactgtc
+      181 aacaattatt tcctgttcag cctggcctgt gctgacttga tcatcggcat cttttccatg
+      241 aacctgtaca ccctctacac tgtgataggc tactggccct tggggcctgt ggtgtgtgac
+      301 ctctggctgg ctcttgacta cgtggtcagc aacgcctctg taatgaacct gctcattatc
+      361 agctttgaca ggtacttttg tgtcaccaag cctctgacgt atcccgtaaa gcggaccacc
+      421 aagatggccg gcatgatgat cgcagccgcc tgggtgctgt ccttcatcct ctgggcccct
+      481 gcaattctct tctggcaatt cattgtggga ggaaggactg ttccagatgg ggattgctac
+      541 atccagtttt tttccaaccc tgctgtcact tttggcactg ccattgcagc cttctatttg
+      601 cctgttatca tcatgactgt cctttactgg caaatctctc gggccagtaa gagtcggata
+      661 aagaaaggaa agaaggaagc tgcccaaaac caagaaacag tttcccccag ccttgtccaa
+      721 ggtaaaatag tgaaaccaaa caataacaat atcccgacca gcggagatgg gttggagcac
+      781 agcaaaattc agaatgggaa aaccagcgaa gagactgtaa ccaataactc tgttcaaggg
+      841 gagaaggaga gctccaacga ctccacctcc atcagtgtgg tcgcttccaa cttgaaagag
+      901 gatgaagcta ccaaagatac cagacaggct tctgcctccc aagcccatgt caaagcagag
+      961 aactccaagc tgacatgcat caggatagtc accaagtccc aaaaggggga ctgctgtgcc
+     1021 cctaccaaca ctactgtgga gatcgtaggc acgaacgggg aggagaagca aaacagcgta
+     1081 gcccggaaaa ttgtcaagat gacaaagcag ccagccaaaa agaaaccgcc cccttctaga
+     1141 gagaaaaaag tgacaaggac gattttggcc atcctcctgg ccttcatcat cacctggacc
+     1201 ccatacaatg tgatggtgct catcaacagc ttctgcacat cctgcatccc taacaccgta
+     1261 tggaccatag gatactggct ctgttacatc aacagcacca tcaaccccgc ctgctacgcg
+     1321 ctctgcaatg ccactttcaa gaagaccttt aagcaccttc ttatgtgtca ttacaagaat
+     1381 ataggagcta caaggtaaaa ataataataa aaataattat agaaagggtg aagaagttcc
+     1441 aaattaaatt taaaaaaccc tcaacgctat agcactttat gctcttctgt ggaatgtgca
+     1501 atccaggatg ttggtggaaa tactgataag gggcatcagc tgtacccctg aggac
+//

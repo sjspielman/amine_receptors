@@ -1,0 +1,138 @@
+LOCUS       NP_001003110             443 aa                     MAM 23-FEB-2014
+DEFINITION  D(2) dopamine receptor [Canis lupus familiaris].
+ACCESSION   NP_001003110
+VERSION     NP_001003110.1  GI:50978810
+KEYWORDS    RefSeq.
+SOURCE      Canis lupus familiaris (dog)
+  ORGANISM  Canis lupus familiaris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae;
+            Canis.
+REFERENCE   1  (residues 1 to 443)
+  AUTHORS   Depoortere R, Barret-Grevoz C, Bardin L and Newman-Tancredi A.
+  TITLE     Apomorphine-induced emesis in dogs: differential sensitivity to
+            established and novel dopamine D2/5-HT(1A) antipsychotic compounds
+  JOURNAL   Eur. J. Pharmacol. 597 (1-3), 34-38 (2008)
+   PUBMED   18773888
+  REMARK    GeneRIF: Report differential sensitivity to established and novel
+            dopamine D2/5-HT(1A) antipsychotic compounds in dog model of emesis.
+REFERENCE   2  (residues 1 to 443)
+  AUTHORS   de Bruin C, Hanson JM, Meij BP, Kooistra HS, Waaijers AM,
+            Uitterlinden P, Lamberts SW and Hofland LJ.
+  TITLE     Expression and functional analysis of dopamine receptor subtype 2
+            and somatostatin receptor subtypes in canine cushing's disease
+  JOURNAL   Endocrinology 149 (9), 4357-4366 (2008)
+   PUBMED   18483151
+  REMARK    GeneRIF: Expression and functional role of D2 and somatostatin
+            receptors in corticotroph adenoma cells.
+REFERENCE   3  (residues 1 to 443)
+  AUTHORS   Myeong H, Jeoung D, Kim H, Ha JH, Lee Y, Kim KH, Park C and Kaang
+            BK.
+  TITLE     Genomic analysis and functional expression of canine dopamine D2
+            receptor
+  JOURNAL   Gene 257 (1), 99-107 (2000)
+   PUBMED   11054572
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AF293963.1.
+            ##Evidence-Data-START##
+            Transcript exon combination :: AF293963.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+            SRS332229 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..443
+                     /db_xref="taxon:9615"
+                     /sub_species="familiaris"
+                     /organism="Canis lupus familiaris"
+                     /chromosome="5"
+                     /map="5"
+     Protein         1..443
+                     /note="dopamine D2 receptor"
+                     /product="D(2) dopamine receptor"
+                     /calculated_mol_wt="50432"
+     Site            38..60
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9GJU1.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          45..>233
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          57..426
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Site            71..93
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9GJU1.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            109..130
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9GJU1.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            152..172
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9GJU1.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            189..213
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9GJU1.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          190..197
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9GJU1.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Agonist binding (By similarity)"
+     Site            194
+                     /note="Important for receptor activation (By similarity);
+                     propagated from UniProtKB/Swiss-Prot (Q9GJU1.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="other"
+     Site            197
+                     /note="Important for receptor activation (By similarity);
+                     propagated from UniProtKB/Swiss-Prot (Q9GJU1.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="other"
+     Region          211..373
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9GJU1.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Interaction with PPP1R9B (By similarity)"
+     Site            374..395
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9GJU1.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          386..394
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9GJU1.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Agonist binding (By similarity)"
+     Site            410..431
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9GJU1.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     CDS             1..443
+                     /coded_by="NM_001003110.1:1..1332"
+                     /gene="DRD2"
+                     /db_xref="GeneID:403701"
+ORIGIN
+        1 mdplnlswyd ddlesqnwsr pfngsegkpg kphynyyaml ltllifiivf gnvlvcmavs
+       61 rekalqtttn ylivslavad llvatlvmpw vvylevvgew kfsrihcdif vtldvmmcta
+      121 silnlcaisi drytavampm lyntrysskr rvtvmiaivw vlsftiscpl lfglnntdqn
+      181 eciianpafv vyssivsfyv pfivtllvyi kiyivlrrrr krvnterssr afranlkapl
+      241 kgncthpedm klctvimksn gsfpvnrrrv eaarraqele memlsstspp ertryspipp
+      301 shhqltlpdp shhglhstad spakpekngh akdhpkiaki feiqsmpngk trtslktmsr
+      361 rklsqqkekk atqmlaivlg vfiicwlpff ithilnihce cnippvlysa ftwlgyvnsa
+      421 vnpiiyttfn iefrkaflki lhc
+//

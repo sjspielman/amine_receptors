@@ -1,0 +1,106 @@
+LOCUS       XM_003936131            2540 bp    DNA              PRI 06-SEP-2012
+DEFINITION  PREDICTED: Saimiri boliviensis boliviensis histamine receptor H2,
+            transcript variant 2 (HRH2), mRNA.
+ACCESSION   XM_003936131
+VERSION     XM_003936131.1  GI:403290119
+KEYWORDS    RefSeq.
+SOURCE      Saimiri boliviensis boliviensis (Bolivian squirrel monkey)
+  ORGANISM  Saimiri boliviensis boliviensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Saimiriinae; Saimiri.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003943685) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Saimiri boliviensis Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2540
+                     /sub_species="boliviensis"
+                     /mol_type="mRNA"
+                     /isolate="3227"
+                     /sex="female"
+                     /db_xref="taxon:39432"
+                     /organism="Saimiri boliviensis boliviensis"
+                     /chromosome="Unknown"
+     gene            1..2540
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 5 mRNAs, 4 ESTs, 4 Proteins"
+                     /db_xref="GeneID:101035394"
+                     /gene="HRH2"
+     misc_feature    463..465
+                     /note="upstream in-frame stop codon"
+                     /gene="HRH2"
+     CDS             640..1764
+                     /product="histamine H2 receptor isoform 2"
+                     /codon_start="1"
+                     /db_xref="GI:403290120"
+                     /db_xref="GeneID:101035394"
+                     /translation="MAPNGTASSFCLDSIAFKITISVILGILIFITVAGNVVVCLAVGL
+                     NRRLRNLTNCFIVSLAVTDLLLGLLVLPFSAIYQLSCQWSFGKVFCNIYTSLDVMLCTA
+                     SILNLFMISLDRYCAVMDPLRYPVLVTPVRVTISLVLIWVISITLSFLSIHLGWNSRNE
+                     TSKGNHTTPKCKVQVNEVYGLVDGLVTFYLPLLIMCVTYYRIFKVARDQAKRINHISSW
+                     KAATIREHKATVTLAAVMGAFIICWFPYFTAFVYRGLKGDDAINEVLEAIVLWLGYANS
+                     ALNPILYAALNRDFRTGYQQLFCCRLASRNSHKTSLRSNASQLSRTQSREPRPQEEKPL
+                     KLQVWSGTDVTAPQGATDRPWLCLPECWSVELTC"
+                     /gene="HRH2"
+                     /protein_id="XP_003936180.1"
+     STS             1537..1675
+                     /db_xref="UniSTS:22639"
+                     /standard_name="RH71388"
+                     /gene="HRH2"
+ORIGIN
+        1 tgggtgcgag gctcggggcg caggccgtgc gcgcgccgcc cgctccatcc ctgcccggag
+       61 cgcagccggc gcgggcgctg gaccaaggca aacccggtgc ggagccaacg cccgccgcag
+      121 cagcaccagc tcctgtcctc cactgactcc agagaaggag atccccagtc cttgacccca
+      181 tcacgcagat gggaccaggc accagctatg gagagggata cagccatgtc tccacatgac
+      241 ccatcctgca tgacaccaaa gccaccgcca gacagtacct tggattctat gcaaaacctg
+      301 gagagtggag acttgcccca gccccgggag gaagctagct cttcagggga tcatccgagg
+      361 actggagttt gatccatgaa cctggcttca aggccttgct tttctctctt gttcattcat
+      421 actcattccc aacaccttag aagagattgc ttaatttatt tctagaaaac agccctgagt
+      481 cagtcatcaa aggtccccct ccaaaaaaaa aaaaaaaatt ggacacactg tggctctgtt
+      541 gggagcctgg agtccagtgg ttggcataat tgtcacactg ggagaagaga agaagcagcc
+      601 aggagccctg gtcaggggac agagccacag ggtcccagga tggcgcccaa tggcacagcc
+      661 tcttccttct gcctggactc tattgcattc aagatcacca tcagcgtgat ccttgggatc
+      721 ctcattttca tcactgttgc tggcaatgtg gtcgtctgtc tggctgtggg cttgaaccgc
+      781 cggctccgca atctgaccaa ttgcttcatt gtgtccttgg ctgtcacgga cttgctcctc
+      841 ggcctcctgg tgctgccctt ctctgccatc taccagctgt cctgccagtg gagctttggc
+      901 aaggtcttct gcaatatcta caccagcctg gatgtgatgc tctgcacagc ctccattctc
+      961 aacctcttca tgatcagcct cgaccggtac tgcgccgtca tggacccgct gcggtaccct
+     1021 gtgctggtca ccccggttcg ggtcaccatc tctctggtct taatttgggt catctccatt
+     1081 accctgtcct tcctgtctat ccacctgggg tggaacagca ggaacgagac cagcaagggc
+     1141 aatcatacca cccctaagtg caaagtccaa gtcaatgaag tgtacgggct ggtggatggg
+     1201 ctggtcactt tctacctacc gctattgatc atgtgcgtca cctactaccg catcttcaag
+     1261 gtagcccggg atcaggccaa aaggatcaat cacattagct cctggaaggc agccaccatc
+     1321 agggagcaca aagccacagt gacactggct gccgtcatgg gggccttcat catctgctgg
+     1381 tttccctact tcaccgcatt tgtgtaccgt gggctgaaag gggatgatgc catcaatgag
+     1441 gtgttagaag ccattgttct atggctaggc tatgccaact cagccctgaa ccccatcctg
+     1501 tatgctgcgc tgaacagaga ctttcgcacc gggtaccagc agctcttctg ctgcaggctt
+     1561 gccagccgta actctcacaa aacttctctg aggtccaacg cctctcagct gtccaggacc
+     1621 caaagtcgag aacccaggcc acaggaagag aaacccctaa agctccaggt gtggagtggg
+     1681 acagacgtca cggcccccca gggagccaca gacagaccat ggctttgcct cccagaatgc
+     1741 tggtctgtgg aactgacctg ttgattcatt tgtttgttca tttggccatt cattcatttg
+     1801 caaacattca cccaattccc accacatgcc aggaatcaca acaaatactg aggatgtaga
+     1861 aatgagattt ttggggttta gcatgatgaa gttacagaaa atcaatggca caaccctgat
+     1921 ctcagctctg ccatcactca ccttgtgtct tgagcaagtt cttccccctc tcaggcctca
+     1981 gtttcctcat ctcacagaga gttgatctat cctgggcttc ccacctgccc tccggagttg
+     2041 cctgatgctc acatgagcaa agggacgtga acatgctcgg ccatctccta acaggacata
+     2101 agtccactct ggagtactaa gcatcagact taagaaaagc ttgcagaccc accaacaagg
+     2161 ttctggagtt gtgggggcaa aactgcctag tgagaccctg catatgccct ctggtccttg
+     2221 ctgctgccac ccccattctc agaggtggag tgtccccctg tagacttggg tcctgggccc
+     2281 tctgctcccc caccactgtc cacccggagc aagcctggtc gctcctgcac tgaaccattg
+     2341 gctcgggccc tggaccctgc ccctcacatc caccttccaa gtgcacacct ggaaacttcc
+     2401 gcttccagtc ctgatggaca aaacgaccat ctcccatatc cttgcacaat ctcttattca
+     2461 ggaggcagct ggagtgcaaa gctgacttcg ttcacaaagc acaacaaaca aaaacataca
+     2521 gggatgtggt tcggctagaa
+//

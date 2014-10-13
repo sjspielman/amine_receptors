@@ -1,0 +1,64 @@
+LOCUS       XP_005271483             442 aa                     PRI 13-AUG-2013
+DEFINITION  PREDICTED: D(2) dopamine receptor isoform X2 [Homo sapiens].
+ACCESSION   XP_005271483
+VERSION     XP_005271483.1  GI:530397834
+DBLINK      BioProject: PRJNA168
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NT_033899.8) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Homo sapiens Annotation Release 105
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..442
+                     /db_xref="taxon:9606"
+                     /organism="Homo sapiens"
+                     /chromosome="11"
+     Protein         1..442
+                     /product="D(2) dopamine receptor isoform X2"
+                     /calculated_mol_wt="50389"
+     Region          49..>232
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          57..425
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..442
+                     /coded_by="XM_005271426.1:51..1379"
+                     /gene="DRD2"
+                     /gene_synonym="D2DR; D2R"
+                     /db_xref="GeneID:1813"
+                     /db_xref="HGNC:HGNC:3023"
+                     /db_xref="HPRD:00539"
+                     /db_xref="MIM:126450"
+ORIGIN
+        1 mdplnlswyd ddlerqnwsr pfngsdgkad rphynyyatl ltlliavivf gnvlvcmavs
+       61 rekalqtttn ylivslavad llvatlvmpw vvylevgewk fsrihcdifv tldvmmctas
+      121 ilnlcaisid rytavampml yntrysskrr vtvmisivwv lsftiscpll fglnnadqne
+      181 ciianpafvv yssivsfyvp fivtllvyik iyivlrrrrk rvntkrssra frahlraplk
+      241 gncthpedmk lctvimksng sfpvnrrrve aarraqelem emlsstsppe rtryspipps
+      301 hhqltlpdps hhglhstpds pakpekngha kdhpkiakif eiqtmpngkt rtslktmsrr
+      361 klsqqkekka tqmlaivlgv fiicwlpffi thilnihcdc nippvlysaf twlgyvnsav
+      421 npiiyttfni efrkaflkil hc
+//

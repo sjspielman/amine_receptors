@@ -1,0 +1,98 @@
+LOCUS       XM_005885616            1997 bp    DNA              MAM 29-OCT-2013
+DEFINITION  PREDICTED: Myotis brandtii histamine receptor H3 (HRH3), mRNA.
+ACCESSION   XM_005885616
+VERSION     XM_005885616.1  GI:554588642
+DBLINK      BioProject: PRJNA218631
+KEYWORDS    RefSeq.
+SOURCE      Myotis brandtii (Brandt's bat)
+  ORGANISM  Myotis brandtii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Microchiroptera;
+            Vespertilionidae; Myotis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005371769.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Myotis brandtii Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1997
+                     /mol_type="mRNA"
+                     /collection_date="Dec-2011"
+                     /country="Russia: Perm poKrai"
+                     /sex="male"
+                     /note="collected at hibernation roost"
+                     /db_xref="taxon:109478"
+                     /lat_lon="58.8348 N 57.6119 E"
+                     /organism="Myotis brandtii"
+                     /chromosome="Unknown"
+     gene            1..1997
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 15 Proteins, and 90% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 3 samples with support for all annotated introns"
+                     /db_xref="GeneID:102264022"
+                     /gene="HRH3"
+     CDS             1..1377
+                     /product="histamine H3 receptor"
+                     /codon_start="1"
+                     /db_xref="GI:554588643"
+                     /db_xref="GeneID:102264022"
+                     /translation="MPEGDTPSVYCQMYAPLNRGFYALFSTREEHSHLFGQASEPLLLH
+                     QDIPGWDHPPDGNSTVLGNALVMLAFVADSSLRTQNNFFLLNLAISDFLVGAFCIPLYV
+                     PYVLTGRWPFGRGLCKLWLVVDYLLCTSSVFNIVLISYDRFLSVTRAVSYRAQQGNTRQ
+                     AVWKMALVWVLAFLLYGPAILSWEHLSGGSSIPEGHCYAEFFYNWYFLITASTLEFFTP
+                     FLSVTFFNLSIYLNIQKRTRDRLDGVREATGPEPRPEAQPSPPAAPGCWGCWQKGHREA
+                     MPLHRYGAGVGEAAPGTEAGEAALGGSGGGTANSPTSSSGSSSRGTERPRSLKRGSKPS
+                     ASSASLEKRMKMVSQGITQRFRLSRDKKVAKSLAIIVSIFGLCWAPYTLLMIIRAACHG
+                     HCVPDYWYETSFWLLWANSAVNPVLYPLCHYSFRRAFTKLLCPHKLKVQPHSSLEHCWK
+                     "
+                     /gene="HRH3"
+                     /protein_id="XP_005885678.1"
+ORIGIN
+        1 atgcctgaag gagatacacc atcagtgtac tgtcagatgt atgccccgtt gaaccgcggt
+       61 ttctatgccc tcttctccac acgtgaggag catagccacc tgtttggaca ggcctctgaa
+      121 cccctcctcc tccatcagga catcccaggc tgggaccacc ctccagatgg caacagcacg
+      181 gtgctgggca acgcgctggt catgctcgcc ttcgtggccg actcgagcct ccgcacccag
+      241 aacaacttct ttctgctcaa cctcgccatc tccgactttc tcgtgggagc cttctgtatt
+      301 ccactgtatg tgccctatgt gctgactggc cgctggccct tcggccgggg cctctgcaag
+      361 ctgtggctgg tggtggacta tctactctgc acgtcctccg tcttcaacat cgtgctcatc
+      421 agctatgacc ggttcctgtc ggttacccgc gctgtctctt acagggccca gcagggcaac
+      481 acgcggcagg cggtgtggaa gatggcgctg gtgtgggtgc tggccttcct gctgtacggg
+      541 ccggccatcc tgagctggga gcacctgtcg ggcggcagct ccatccctga gggccactgc
+      601 tacgcggagt tcttctacaa ctggtacttc ctcatcacgg cctccacgct cgagttcttc
+      661 acgcccttcc tcagcgtcac cttcttcaac ctcagcatct acctgaacat ccagaagcgc
+      721 acccgcgacc ggctggacgg tgtccgagag gccactggcc cggagccccg accagaagcc
+      781 cagccctctc cgccagccgc acctggctgc tggggctgct ggcagaaggg gcacagggag
+      841 gccatgccac tgcacaggta tggcgccggg gtcggcgagg cggcccctgg cactgaggca
+      901 ggggaggcag ccctgggggg cagtggtggg ggcactgcaa actcgcccac ctccagctca
+      961 ggcagctcct cgcggggcac agagcggcct cgctcgctca agaggggctc caagccgtcg
+     1021 gcgtcctctg cgtcactgga gaagcgcatg aagatggtgt cccagggcat cacccagcgc
+     1081 ttccggctgt ctcgggacaa gaaagtggcc aagtcgctgg ccatcatcgt gagcatcttt
+     1141 ggactctgct gggccccata caccctcctg atgatcatcc gggctgcctg ccatggccac
+     1201 tgcgtccccg actactggta tgagacatcc ttctggctac tgtgggccaa ctcagcagtc
+     1261 aacccagtcc tctatccact gtgccattac agctttcgcc gggccttcac caagctgctg
+     1321 tgcccccaca agctcaaggt ccagcctcac agctctctgg agcactgctg gaagtgagct
+     1381 ggctacccag gcccctctgc ccacaccgtg gtttctgggc agccgccgcc tcctcttcgg
+     1441 cccacacttt tgccatctgg cctctcttag accacctgcc tgccgtgaag gcagcttggt
+     1501 gggctggccg aggaccctac tgcctgaact ggaatgtgag tggctagccc tgccacccaa
+     1561 atcctctctt ccccaggagg gacaatctgg gggtcttagc cacaatgtcc acctccccgc
+     1621 agacagtgtg gcaaccagtg ggtccaccgt ttgcacagtt actgcttggt gttcttccca
+     1681 aagcaagcgc gtggcgtgtg ctccatgctt tctacccagc cgtttgctcc tgcatgtgca
+     1741 cgcacgcctg cacacacctg cacacacctg cacaccttcc cttgctccag accggcccgg
+     1801 gctaccggct ctgcagccat ctgccccttc ttaagcctgg cccgactcct tcagtcctct
+     1861 ttcctccaac tatctctgcc cccaaagtgc caacagcttg ctgctgttct ctgcttttcc
+     1921 attctgggtg tttcaggaag acaaagaaga ggaaaacaca tctgtgaact cgatgttcct
+     1981 tggatgttta atcaaga
+//

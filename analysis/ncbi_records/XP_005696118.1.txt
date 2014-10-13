@@ -1,0 +1,63 @@
+LOCUS       XP_005696118             489 aa                     MAM 30-SEP-2013
+DEFINITION  PREDICTED: histamine H1 receptor isoform X1 [Capra hircus].
+ACCESSION   XP_005696118
+VERSION     XP_005696118.1  GI:548516058
+DBLINK      BioProject: PRJNA217901
+KEYWORDS    RefSeq.
+SOURCE      Capra hircus (goat)
+  ORGANISM  Capra hircus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Caprinae; Capra.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005100911.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Capra hircus Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..489
+                     /collection_date="Sep-2009"
+                     /country="China: Kunming"
+                     /breed="Yunnan black goat"
+                     /db_xref="taxon:9925"
+                     /organism="Capra hircus"
+                     /chromosome="22"
+     Protein         1..489
+                     /product="histamine H1 receptor isoform X1"
+                     /calculated_mol_wt="55464"
+     Region          38..>200
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          51..470
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..489
+                     /coded_by="XM_005696061.1:363..1832"
+                     /gene="HRH1"
+                     /db_xref="GeneID:102184954"
+ORIGIN
+        1 mtcpnsscif edkmcegnkt apasdaqlmp lvvvlsaisl vtvglnllvl yavrserklh
+       61 tvgnlyivsl svadlivgvv vmpmnilyll rcrwslghpl clfwlsmdyv astasifsvf
+      121 ilcidryrsv qqplkylryr tktrasvtil aawflsflwi ipilswrhfq pktpeppghk
+      181 cetdfykvtw fkimtaivnf ylptllmlwf yakiykavrq hcqhreling sfpsfsdvkm
+      241 kpenlqvgak kpgkespwev lkrkpkdtgg gpvlkppsqe pkevtslgif sqekdgelgn
+      301 fycfpldtvq tqpeaegsgr gyaainqsqn qfemgeqgln mpgakealed qiqgdsqsfs
+      361 rtdsdtpaep aapgkgksrs esstgleyik ftwkrlrshs rqyvsglhmn rerkaakqlg
+      421 fimaafivcw ipyfiffmvv afcescsner vhmftiwlgy instlnpliy plcnenfkkt
+      481 fkkilhirs
+//

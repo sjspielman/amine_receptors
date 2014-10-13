@@ -1,0 +1,57 @@
+LOCUS       XP_003971235             366 aa                     VRT 06-NOV-2012
+DEFINITION  PREDICTED: histamine H2 receptor-like [Takifugu rubripes].
+ACCESSION   XP_003971235
+VERSION     XP_003971235.1  GI:410915520
+KEYWORDS    RefSeq.
+SOURCE      Takifugu rubripes (Fugu rubripes)
+  ORGANISM  Takifugu rubripes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Percomorpharia; Tetraodontiformes; Tetradontoidea;
+            Tetraodontidae; Takifugu.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004071094) annotated using gene prediction method: GNOMON.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Takifugu rubripes Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..366
+                     /note="scaffold_6"
+                     /db_xref="taxon:31033"
+                     /organism="Takifugu rubripes"
+                     /chromosome="15"
+     Protein         1..366
+                     /product="histamine H2 receptor-like"
+                     /calculated_mol_wt="41196"
+     Region          27..289
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <139..>164
+                     /note="Type 1 glutamine amidotransferase (GATase1)-like
+                     domain; cl00020"
+                     /db_xref="CDD:260141"
+                     /region_name="GAT_1"
+     CDS             1..366
+                     /coded_by="XM_003971186.1:1..1101"
+                     /gene="LOC101078933"
+                     /db_xref="GeneID:101078933"
+ORIGIN
+        1 msstaarcvl lvafilltis gnvmvclavc rsrrlrrian cfvvslavtd lllgllvlpf
+       61 satvelrsgn wslggvlcni yistdvllct ssiltllais vdrylaisap ltyphrvtrl
+      121 raalvllsiw awsmamsfvp ihmgwntvdf qvqhldwgvg dedrdgrycq fewnnnyvvl
+      181 ytlcsfylpl llmcgmylci frvareqvhr iraatpsfar lsttaviare hkatvtlaav
+      241 lgafvicwfp yftfftwtgi kpkrnppnti hsvvlwlgyf nsalnpilyp afnrdfrray
+      301 aellryrgls hikvpftfls vsqrltcans krvpkhlerh istviktaeg etltlqckng
+      361 ildeps
+//

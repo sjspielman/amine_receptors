@@ -1,0 +1,61 @@
+LOCUS       XP_006277091             377 aa                     VRT 09-DEC-2013
+DEFINITION  PREDICTED: 5-hydroxytryptamine receptor 1D [Alligator
+            mississippiensis].
+ACCESSION   XP_006277091
+VERSION     XP_006277091.1  GI:564240517
+DBLINK      BioProject: PRJNA221578
+KEYWORDS    RefSeq.
+SOURCE      Alligator mississippiensis (American alligator)
+  ORGANISM  Alligator mississippiensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Crocodylia;
+            Alligatoridae; Alligatorinae; Alligator.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006236280.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Alligator mississippiensis
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..377
+                     /note="assembly comes from two alligators"
+                     /db_xref="taxon:8496"
+                     /organism="Alligator mississippiensis"
+                     /chromosome="Unknown"
+                     /country="USA: Florida"
+     Protein         1..377
+                     /product="5-hydroxytryptamine receptor 1D"
+                     /calculated_mol_wt="42123"
+     Region          <22..>89
+                     /note="Na+/H+ antiporter 1; cl01133"
+                     /db_xref="CDD:260805"
+                     /region_name="Na_H_antiport_1"
+     Region          61..356
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..377
+                     /coded_by="XM_006277029.1:36..1169"
+                     /gene="HTR1D"
+                     /db_xref="GeneID:102558592"
+ORIGIN
+        1 msqfnhsael slqstanksl nstdipvald erlllglkis lavvlslitl atilsntfvi
+       61 itifltrklh tpanyligsl altdllvsil vmpisiaytv srtwtfgqvm cdiwlssdit
+      121 cctasilhlc vialdrywai tdaleyakrr tasraafmia vvwvisicis mpplfwrqak
+      181 aheemascsv ntdqisytiy stcgafyipt vllvilygri yvaarsrilk ppslygkrft
+      241 taqlitgstg ssfcsinssl nerhshsggs pifinhvkik ltdsvlerkr isasrerkat
+      301 ktlgiilgaf ifcwlpffvv slvmpicqda cwfhpilldf ftwlgyfnsl inpviytafn
+      361 edfkhafqkl ihfrkcs
+//

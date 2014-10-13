@@ -1,0 +1,98 @@
+LOCUS       XM_004761411            1441 bp    DNA              MAM 13-JUN-2013
+DEFINITION  PREDICTED: Mustela putorius furo dopamine receptor D3 (DRD3), mRNA.
+ACCESSION   XM_004761411
+VERSION     XM_004761411.1  GI:511883212
+DBLINK      BioProject: PRJNA158527
+KEYWORDS    RefSeq.
+SOURCE      Mustela putorius furo (domestic ferret)
+  ORGANISM  Mustela putorius furo
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+            Mustelidae; Mustelinae; Mustela.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004569222.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Mustela putorius furo Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1441
+                     /sub_species="furo"
+                     /mol_type="mRNA"
+                     /breed="Sable"
+                     /isolate="ID#1420"
+                     /sex="female"
+                     /db_xref="taxon:9669"
+                     /organism="Mustela putorius furo"
+                     /chromosome="Unknown"
+     gene            1..1441
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 Protein, and 86% coverage of the
+                     annotated genomic feature by RNAseq alignments, including 1
+                     sample with support for all annotated introns"
+                     /db_xref="GeneID:101690016"
+                     /gene="DRD3"
+     misc_feature    12..14
+                     /note="upstream in-frame stop codon"
+                     /gene="DRD3"
+     CDS             87..1430
+                     /product="D(3) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:511883213"
+                     /db_xref="GeneID:101690016"
+                     /translation="MAPLSQLSSQINSTCGAENSTGASRARPHTYYALSYCALILAIIF
+                     GNGLVCVAVLKERALQTTTNYLVVSLAVADLLVATLVMPWVVYLEVTGGVWNFSRVCCD
+                     VFVTLDVMMCTASILNLCAISIDRYTAVVMPVHYQHGTGQSSCRRVALMITAVWVLAFA
+                     VSCPLLFGLNTTGDPSVCSISNPDFVIYSSVVSFYLPFGVTVLVYTRIYMVLRQRRRKR
+                     ILTRQNSQCISVRPGFPQQSSCLRLHPIRQFSIRDRIPSDATGQMEHAEDKQCPQKCQD
+                     PLLSHLQPLSPSQAHMELKRYYSICQDTALGRPGFQEAGGELKREGRTRNSLSPTMAPK
+                     LSLEVRKLSNGRLSTSLKLGPLQPRGMPLREKKATQMLAIVLGAFIVCWLPFFLTHVLN
+                     THCQACHVSPELYSATTWLGYVNSALNPVIYTTFNVEFRKAFLKILSC"
+                     /gene="DRD3"
+                     /protein_id="XP_004761468.1"
+     STS             1122..1321
+                     /db_xref="UniSTS:34219"
+                     /standard_name="DRD3-556F"
+                     /gene="DRD3"
+     STS             1252..1429
+                     /db_xref="UniSTS:53374"
+                     /standard_name="RH71216"
+                     /gene="DRD3"
+ORIGIN
+        1 cactgaggtg ctaaactcca cagtctccag aaatcagaag aaattttcag ggaaacccac
+       61 aggggtcgct attctccctc tgggctatgg cgcctctgag ccagttgagc agccagatca
+      121 actccacctg tggggcagag aactccacag gggccagccg ggcccgcccg cacacctact
+      181 acgcactctc ctactgcgca ctgatcctgg ccatcatctt cggcaacggt ctggtgtgtg
+      241 tggcagtgtt gaaggaacgg gctttgcaga ccaccaccaa ctacctggtg gtgagcttgg
+      301 ccgtggctga cctgctggtg gccaccttgg tgatgccctg ggtggtgtac ctggaggtga
+      361 caggtggagt ctggaacttc agccgcgttt gctgtgatgt atttgtcacc ctggacgtca
+      421 tgatgtgtac agccagcatc ctgaacctct gcgccatcag tatcgacagg tacaccgcgg
+      481 tggtcatgcc ggttcactat caacacggca cgggacagag ctcctgtcgg cgcgtggccc
+      541 tcatgatcac agctgtctgg gtgctggcct ttgctgtctc ctgccctctc ctctttggcc
+      601 tcaacaccac aggagacccc agtgtctgct ccatctccaa ccctgatttt gtcatctact
+      661 cttcagtggt gtccttctac ctgcccttcg gagtgactgt cctcgtctac accaggatct
+      721 acatggtgct gagacagagg agacggaaac ggatcctcac tcgacagaac agtcagtgca
+      781 tcagtgtcag acccggcttc cctcaacagt cttcctgtct gaggctgcac cccattcggc
+      841 agttttcaat aagggacaga attccatcag atgccactgg acaaatggaa catgcagaag
+      901 ataaacagtg tccccaaaaa tgtcaggatc ctctcttgtc ccacctacag ccactctccc
+      961 ctagtcaggc acacatggag ctgaagcgtt actacagcat ctgccaagat actgccttgg
+     1021 ggcgacccgg attccaagag gccgggggag agttgaagag ggaggggagg actcggaact
+     1081 ccctcagccc caccatggca cccaagctca gcttagaggt tcgaaaactc agtaatggca
+     1141 ggttgtcgac atctctaaag ctggggccct tgcagcctcg tggaatgcca cttcgggaga
+     1201 agaaggcaac ccagatgctg gcaattgtgc ttggggcctt cattgtctgc tggctgccct
+     1261 tctttttgac ccacgttctc aatactcact gccaagcctg ccatgtgtcc ccagagcttt
+     1321 acagcgccac cacgtggctg ggctacgtga acagtgccct caaccccgtg atctatacca
+     1381 ccttcaatgt cgagttccgt aaagcgttcc tcaagatcct gtcttgctga aggagaggag
+     1441 a
+//

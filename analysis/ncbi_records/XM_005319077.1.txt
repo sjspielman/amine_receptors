@@ -1,0 +1,89 @@
+LOCUS       XM_005319077            1443 bp    DNA              ROD 21-AUG-2013
+DEFINITION  PREDICTED: Spermophilus tridecemlineatus dopamine receptor D5
+            (Drd5), mRNA.
+ACCESSION   XM_005319077
+VERSION     XM_005319077.1  GI:532066559
+DBLINK      BioProject: PRJNA210856
+KEYWORDS    RefSeq.
+SOURCE      Ictidomys tridecemlineatus (thirteen-lined ground squirrel)
+  ORGANISM  Ictidomys tridecemlineatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Sciuridae; Xerinae; Marmotini; Ictidomys.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004936477.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Ictidomys tridecemlineatus
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1443
+                     /mol_type="mRNA"
+                     /isolate="#75"
+                     /sex="female"
+                     /db_xref="taxon:43179"
+                     /organism="Ictidomys tridecemlineatus"
+                     /chromosome="Unknown"
+     gene            1..1443
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 21 Proteins"
+                     /db_xref="GeneID:101962448"
+                     /gene="Drd5"
+     CDS             1..1443
+                     /product="D(1B) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:532066560"
+                     /db_xref="GeneID:101962448"
+                     /translation="MLPPGRNGTAYWARFRMQQQMVQGGALGGSAGAASLGPVQVVTAG
+                     LLTLLIVWTLFGNVLVCAAIVRSRHLRAKMTNVFIVSLAVSDLFVALLVMPWKAVAEVA
+                     GYWPFGAFCDVWVAFDIMCSTASILNLCIISVDRYWAISRPFRYERKMTQTVALVMVGL
+                     AWTLSILISFIPVQFNWHRDKSSSRGQEDLPSNLANGTPWEEAGEPNVRAENCDSSLNR
+                     VYAISSSLISFYIPVAIMIVTYTRIYRIAQVQIRRISSLERAAEHAQSCRSRAPGEPNT
+                     NLRASIKKETKVLKTLSVIMGVFVCCWLPFFILNCMVPFCNGDPQAGFPCVSETTFDVF
+                     VWFGWANSSLNPIIYAFNADFRKVFAQLLGCSHLCSRTRVESVNISNELISYNQDTVFH
+                     KEIVGPYIHMIPNAVAPGDRQVDNEEEEEKEEGPLDHLSGTFQTPPDGDPAAESVWDLD
+                     CEGEISLGKITPFTPNGLPETA"
+                     /gene="Drd5"
+                     /protein_id="XP_005319134.1"
+     STS             1178..1365
+                     /db_xref="UniSTS:166211"
+                     /standard_name="Drd5"
+                     /gene="Drd5"
+ORIGIN
+        1 atgctgcctc ccgggcgcaa tggcaccgcg tactgggctc ggttcaggat gcagcagcaa
+       61 atggttcagg ggggcgcctt gggcggctca gctggggccg cgtccctggg gccagtgcag
+      121 gtggtcaccg cgggcctcct gacactcctc attgtctgga ccctgtttgg caacgtgctg
+      181 gtctgcgccg ccatcgtgcg cagtcgccat ctgcgtgcga agatgaccaa tgttttcatc
+      241 gtgtctctgg cagtgtccga cctcttcgtg gcactgctgg tcatgccctg gaaggcagtc
+      301 gccgaggtgg ctggttactg gccttttggg gcattctgcg acgtctgggt ggcctttgac
+      361 atcatgtgct ctacggcctc catcctgaac ttgtgcatca tcagtgtgga ccgctactgg
+      421 gccatctcca ggcccttccg ctatgagcgc aagatgaccc agaccgtggc cttagtcatg
+      481 gtgggtctgg cttggacctt gtccatcctc atctccttca ttccagtcca gttcaactgg
+      541 cacagagaca agtcgagctc ccggggccag gaggaccttc catccaactt ggccaatggg
+      601 acgccctggg aggaagccgg ggagcccaat gtgagggcag agaactgtga ctccagcctg
+      661 aaccgagtct acgccatctc ctcctcgctc atcagcttct acatccctgt ggccatcatg
+      721 attgtgacct acacgcgcat ctaccgtata gcgcaggtgc agatccgcag gatctcctcc
+      781 ttggagagag ccgcggagca tgcgcagagc tgcaggagca gagccccagg agaacccaac
+      841 accaacctga gggcttccat caagaaggag accaaggtcc tcaagaccct gtctgtgatc
+      901 atgggggtgt tcgtgtgctg ctggctgccc ttcttcatcc tcaactgcat ggttcctttt
+      961 tgcaatgggg atccgcaagc cggcttcccc tgcgtcagcg agaccacctt cgatgtcttt
+     1021 gtctggtttg gctgggccaa ctcctcactc aaccctatta tctacgcctt caacgctgac
+     1081 ttccggaagg tgttcgcaca gctgctgggg tgcagtcacc tgtgctcccg cacacgtgtg
+     1141 gagtcggtga acatcagcaa tgagctcatc tcctacaacc aagacacggt cttccacaag
+     1201 gagattgtag ggccctatat ccatatgatt cccaacgcgg tggcacccgg agacaggcag
+     1261 gtggacaacg aggaggagga ggagaaggag gagggccctt tagatcactt atccgggacc
+     1321 tttcagacgc ccccagatgg tgatcctgct gctgagtctg tctgggacct ggactgcgag
+     1381 ggggagattt cattaggcaa aataacaccc ttcaccccaa atggattgcc tgaaactgca
+     1441 tag
+//

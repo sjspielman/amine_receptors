@@ -1,0 +1,93 @@
+LOCUS       XM_005981647            1277 bp    DNA              MAM 05-NOV-2013
+DEFINITION  PREDICTED: Pantholops hodgsonii adrenoceptor beta 3 (ADRB3), mRNA.
+ACCESSION   XM_005981647
+VERSION     XM_005981647.1  GI:556773097
+DBLINK      BioProject: PRJNA221624
+KEYWORDS    RefSeq.
+SOURCE      Pantholops hodgsonii (chiru)
+  ORGANISM  Pantholops hodgsonii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Antilopinae; Pantholops.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005816644.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pantholops hodgsonii Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1277
+                     /mol_type="mRNA"
+                     /country="China: Qinghai-Tibetan Plateau, Kekexili National
+                     Nature Reserve"
+                     /sex="male"
+                     /db_xref="taxon:59538"
+                     /organism="Pantholops hodgsonii"
+                     /chromosome="Unknown"
+     gene            1..1277
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 9 mRNAs, 4 ESTs, 27 Proteins"
+                     /db_xref="GeneID:102321437"
+                     /gene="ADRB3"
+     CDS             105..1277
+                     /product="beta-3 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:556773098"
+                     /db_xref="GeneID:102321437"
+                     /translation="MPPPLSRVSWETLSFIPSRPTRDAGMAPWPPGNSSLTPWPDIPTL
+                     APNTANASGLPGVPWAVALAGALLALAVLATVGGNLLVIVAIARTPRLQTMTNVFVTSL
+                     ATADLVVGLLVVPPGATLALTGHWPLGVTGCELWTSVDVLCVTASIETLCALAVDRYLA
+                     VTNPLRYGALVTRRRARAAVVLVWVVSAAVSFAPIMSKWWRVGADAEAQRCHSNPRCCT
+                     FASNMPYALLSSSVSFYLPLLVMLFVYARVFVVATRQLRLLRRELRRFPPEESPPAPSR
+                     SGSPGPAGPYASPAGVPSYGRRPARLLPLREHRALRTLGLIMGTFTLCWLPFFVVNVVR
+                     ALGGPSLASGPTDLAAPSPPRAPSGAPTVLTSPAGSRQPSPLDGASCGLS"
+                     /gene="ADRB3"
+                     /protein_id="XP_005981709.1"
+     STS             335..412
+                     /db_xref="UniSTS:271495"
+                     /standard_name="PMC164531P1"
+                     /gene="ADRB3"
+     STS             340..703
+                     /db_xref="UniSTS:506234"
+                     /standard_name="ADRB3"
+                     /gene="ADRB3"
+     STS             525..1097
+                     /db_xref="UniSTS:528345"
+                     /standard_name="MARC_68773-68774:1209743884:2"
+                     /gene="ADRB3"
+ORIGIN
+        1 cagcggtggc acccaacggg tgggggtggc gcggagactg tgtgttctcg gcccggtcaa
+       61 ctggggaaga tggctcaggc cgggggaatc gctcccacgc cccgatgccc ccgccgctga
+      121 gcagggtgag ctgggagacc ctttccttca ttccttcccg ccccacgcgc gacgcgggaa
+      181 tggctccgtg gcctcccggg aacagctctc tgaccccgtg gccagatatc cccaccctgg
+      241 cacccaatac tgccaacgcg agtgggctgc caggggtgcc ctgggcggtg gcgctggcgg
+      301 gggcgctgtt ggcgctagcg gtgctggcca ccgtgggagg caacctgctg gtaatcgtgg
+      361 ccatcgcccg gacgccgaga ctccagacca tgaccaacgt gttcgtgact tcgctggcca
+      421 cagccgacct ggtggtgggg cttctggtcg tgcccccggg ggccacattg gcgctcaccg
+      481 gccactggcc cctgggagtc accggctgcg agctgtggac ctcggtggac gtgctgtgtg
+      541 tgaccgccag catcgaaacc ctgtgcgccc tggcggtgga ccgctacctg gccgtgacca
+      601 acccgctgcg ctacggcgca ctggtcacca gacgccgcgc ccgagcagcc gtggtgctgg
+      661 tgtgggtcgt gtccgccgcg gtgtcgtttg cgcccatcat gagcaaatgg tggcgcgttg
+      721 gggcagatgc cgaggcgcag cgttgccact ccaacccgcg ctgctgcacc ttcgcctcca
+      781 acatgcccta cgcgctgctc tcctcctcgg tctccttcta ccttccgctt ctggtgatgc
+      841 tcttcgtcta cgcacgagtt ttcgtggtgg ctacgcgcca gctgcgcttg ctgcgccggg
+      901 agctgcgtcg cttcccgcca gaggagtctc cgccggctcc ttctcgctcc gggtcccctg
+      961 gaccggcggg gccgtacgcc tcgcctgccg gggtgccctc ctacggccgg cggccggcgc
+     1021 gccttctgcc tctgcgggaa caccgcgccc tgcgcacctt ggggctcatc atgggaacct
+     1081 tcactctctg ctggttgcct ttctttgtgg tcaacgtggt gcgcgccctc gggggcccct
+     1141 ctctagcgtc cggccccact gacctcgccg ctccctcccc gccccgagcc ccctccggcg
+     1201 cccccacggt cctgaccagc cccgctggct ccaggcagcc ctcaccgctc gacggggctt
+     1261 cctgcggact ttcttag
+//

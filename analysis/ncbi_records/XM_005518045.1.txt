@@ -1,0 +1,94 @@
+LOCUS       XM_005518045            2075 bp    DNA              VRT 13-SEP-2013
+DEFINITION  PREDICTED: Pseudopodoces humilis dopamine receptor D5 (DRD5), mRNA.
+ACCESSION   XM_005518045
+VERSION     XM_005518045.1  GI:543344058
+DBLINK      BioProject: PRJNA217046
+KEYWORDS    RefSeq.
+SOURCE      Pseudopodoces humilis (Tibetan ground-tit)
+  ORGANISM  Pseudopodoces humilis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes; Paridae;
+            Pseudopodoces.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005087556.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pseudopodoces humilis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2075
+                     /db_xref="taxon:181119"
+                     /mol_type="mRNA"
+                     /organism="Pseudopodoces humilis"
+                     /chromosome="Unknown"
+     gene            1..2075
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 3 ESTs, 10 Proteins"
+                     /db_xref="GeneID:102109760"
+                     /gene="DRD5"
+     CDS             1..1458
+                     /product="D(1B) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:543344059"
+                     /db_xref="GeneID:102109760"
+                     /translation="MLRGGRSPLPPATEHPSEARGPAGAPGAAQVAAGSLLALLILWTL
+                     FGNVLVCAAIVRYRHLRSKVTNIFIVSLAVSDLLVALLVMPWKAVAEVAGYWPFGAFCN
+                     VWVAFDIMCSTASILNLCVISVDRYWAISSPFRYERKMTQRLALVMISVAWALSVLISF
+                     IPVQLNWHKGGDVVAADDIGDGFGTAWAAAGAVTTWAEDMSTTWVALTAVRPSDGTSGN
+                     NDTLTGPSESCDSSLNRTYAISSSLISFYIPVAIMIVTYTRIYRIAQVQIRRISSLERA
+                     AEHAQSCRSSHIDCHHHTSLKSSIRKETKVLKTLSVIMGVFVCCWLPFFILNCMVPFCE
+                     SPPSDPHAGLPCVSETTFNIFVWFGWANSSLNPIIYAFNADFRKVFSNLLGCGQFCSGT
+                     AVETVNISNELISYNQDTLYHKEIVTAYVNMIPNVVDCEENREDPFDRMSQISPDHEVA
+                     TDSACELDCEGEISLGKITPFTPNGLH"
+                     /gene="DRD5"
+                     /protein_id="XP_005518102.1"
+ORIGIN
+        1 atgctgcggg gcggccggag cccactgccc ccggcgacgg agcaccccag cgaggcacgg
+       61 gggccggcgg gcgctcccgg cgcggcgcag gtggcggcgg gcagcctgct ggctctgctc
+      121 atcctctgga cgctctttgg gaacgtgctc gtgtgcgcgg ccatcgtccg ctaccggcac
+      181 ctgcggagca aggttaccaa catcttcatc gtgtccctgg ctgtctcgga cctactggtg
+      241 gccctgctgg tcatgccctg gaaggcggtg gcagaggtag ctgggtactg gccctttggg
+      301 gctttctgca acgtatgggt ggcctttgat ataatgtgtt ccacggcctc catcctcaac
+      361 ctgtgcgtga tcagtgtgga caggtactgg gcgatctcta gccctttccg ctacgagagg
+      421 aagatgaccc agcggctggc tctggtgatg atcagcgtgg catgggcact gtctgtgctc
+      481 atctccttca tccccgtcca gctcaactgg cacaaaggtg gagatgttgt tgctgctgat
+      541 gatattggag atggatttgg cactgcctgg gcagcagcag gtgcagtcac cacctgggca
+      601 gaagatatga gtaccacttg ggtggcatta acagcagtga gaccctctga tgggacctct
+      661 ggcaacaacg atacactcac tggaccatcg gagagctgtg actctagcct caacaggact
+      721 tatgctattt cctcctcctt gatcagtttt tatatcccgg tggctatcat gatagttacc
+      781 tacactcgaa tctaccgcat tgcccaggtg cagattcgtc gtatctcttc cttggagagg
+      841 gcagctgagc atgcacagag ctgccggagc agccacattg actgccacca tcacaccagc
+      901 ctcaagtcct ccatcaggaa agaaaccaag gtgttaaaga cgctgtctgt catcatgggt
+      961 gtctttgtct gttgctggtt gccattcttc atcctgaact gcatggttcc cttctgcgag
+     1021 agcccaccca gtgaccctca cgctggcctc ccctgcgtca gtgagaccac ctttaatatc
+     1081 tttgtctggt ttggttgggc taactcttct cttaacccca tcatctatgc cttcaatgct
+     1141 gactttagaa aggttttctc caacctcctg ggatgcggtc agttttgctc tggtactgca
+     1201 gtggagactg ttaatataag caatgagctt atctcttaca accaggacac cctttaccat
+     1261 aaggagatag tgactgctta tgttaacatg atcccaaatg tggttgactg tgaggaaaat
+     1321 cgcgaggacc cttttgatag gatgtcccag atctcccctg accacgaggt tgccactgac
+     1381 tctgcctgtg agctggactg tgagggggag atttcgctag gcaagataac acctttcact
+     1441 ccaaatggtt tacattaaat tgcgccctgg tttggtcagt tattcttgga ttataaaagc
+     1501 aaatattagc actgagtgga gaaacctgct tgatgatgtg ctgtagtttg gtcagtcagt
+     1561 ttatgctaaa ttcacttctg tgggtagtac tttgcaggat gtagacactg tcatacaggg
+     1621 ggctggcagc aaaaactgaa atcagcactc ccccaggctg agggcagacc aggcagtcgt
+     1681 gttgattagc tgtggtgagg tattttgtgg tctaattgca gtcagtttat gtttataagg
+     1741 tgtttgcgaa tgaaaggtgc cattgtcact gctaagtatt atgacttcta aaatcaggga
+     1801 gagatgtggc tggcatagac attaaataaa aaaaaataat tctgggctgt ttgtttgttc
+     1861 agattttatg tttctttttc tcaattttct tgtttgttta gttctgattt tatttattta
+     1921 ttttttaaga tagagatagt gagtggtgat ttggatgatt atttaaatgc gtgtttctgc
+     1981 caaaacagtt tatgtgaaat ccttgttctc ctaggcggcg ttgttgccta tgatatcctc
+     2041 tgttcctgga tgaataaata aaagttatac tgatc
+//

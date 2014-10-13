@@ -1,0 +1,91 @@
+LOCUS       XM_680297               1828 bp    DNA              VRT 01-AUG-2013
+DEFINITION  PREDICTED: Danio rerio alpha-1B-adrenergic receptor-like
+            (LOC557259), mRNA.
+ACCESSION   XM_680297
+VERSION     XM_680297.5  GI:528491897
+DBLINK      BioProject: PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001877118.3) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Aug 1, 2013 this sequence version replaced gi:326671146.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1828
+                     /strain="Tuebingen"
+                     /mol_type="mRNA"
+                     /organism="Danio rerio"
+                     /chromosome="10"
+                     /db_xref="taxon:7955"
+     gene            1..1828
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 11 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 2 samples with support for all annotated introns"
+                     /db_xref="GeneID:557259"
+                     /gene="LOC557259"
+     CDS             283..1578
+                     /product="alpha-1A adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:528491898"
+                     /db_xref="GeneID:557259"
+                     /translation="MTSMLPEEDYINSTFFPENCSNCSTIPVLEIDVTKTLVLGLVLVL
+                     FLIFGVMGNILVILSVACHRNLRSVTHYFIGNLAIADLLLSSVVLPFSAVSEALGRWVF
+                     GRHLCNAWTALDVLCCTASILSLCVISVDRCMAVSYPLQYPSFATGRRAMTAVAALWAL
+                     SAAISVGPLFGWREPMPEDESVCRVNEDPGYAIFSAACSFYVPLAVILAMYCRVYVVAR
+                     HKTRAMSKSRETNGLSEQGMTLRIHCRKAQNDTRKEDAMRLKNSHFAFMRLLKFSREKK
+                     AAKTLGIVVGCFVLCWLPFFLVLPISSIFPSHRPPDAVFKITFWLGYFNSCLNPIIYPC
+                     FSQEFKKAFQNVLHGRCLSRTHQTWSPPANATQYMPKSPQGLSSGFTDSWRSDHASSSA
+                     VMLNENSYDEPDTSLSLKVHQVSICKIDGEPV"
+                     /gene="LOC557259"
+                     /protein_id="XP_685389.5"
+ORIGIN
+        1 caaacacttt tgcatcccat cggactcctc tctcctacct cgtgtttttg cttttcttaa
+       61 atgtcacgag cgagttggaa tataacacaa tctcaacgga cgttctgcat tgacggtcac
+      121 aggctacaag atcacaaaaa ctatgatggc tgatatccaa aaatttccct gaaaagataa
+      181 aatgtcactc gaggttctca agtttgcctg ccaaggctac taaggcatgg atgattatca
+      241 tcaaccccat gttaatcaga cttgcatgta gagactcaca tcatgaccag catgcttcca
+      301 gaagaagatt acataaattc aaccttcttt cccgaaaact gttccaactg ttccaccata
+      361 cctgtgttgg agatcgacgt caccaagact ctggttttgg gtctggttct ggtccttttt
+      421 ttaatattcg gagtgatggg taacatcctg gtcatcctct cagtggcatg ccatcgcaac
+      481 cttcgatccg tgactcatta ttttattgga aatctggcaa tcgcagacct gcttctgagc
+      541 tctgtggttc ttccattctc tgctgtatct gaagccttgg gtcgctgggt gttcggtcgt
+      601 catttatgta acgcctggac cgctcttgac gtgttgtgct gcacggcatc catcctcagc
+      661 ctctgcgtaa tctctgtgga tcgctgcatg gccgtcagtt acccgctgca atacccttcc
+      721 tttgctacgg gtcgaagggc aatgactgca gtggcagctc tctgggccct ttcagctgct
+      781 atctccgtcg ggccactatt tggatggagg gaacccatgc cagaagacga gtcggtgtgc
+      841 agagttaacg aagatccagg atacgccatc ttctctgctg catgctcctt ctatgttccg
+      901 ttggcagtca ttctggcaat gtactgtagg gtgtatgtag tggcccgaca caagactcgt
+      961 gcaatgagta agagcaggga gacgaatggg ttaagtgagc agggaatgac tctacgtatc
+     1021 cactgtcgaa aagcccagaa tgacaccagg aaggaggatg caatgcgctt gaagaactcg
+     1081 cactttgcct ttatgcgcct acttaagttc tcacgggaga agaaggcggc caagactctt
+     1141 gggattgtgg tgggatgttt cgtgctctgc tggctgccgt tttttcttgt gctgcccatt
+     1201 agctccatct tcccatccca cagacccccc gatgctgttt tcaaaatcac attctggctc
+     1261 ggctacttca acagctgcct gaaccccatc atctacccat gcttcagcca ggagtttaag
+     1321 aaagccttcc agaacgttct gcatggacgc tgcctgagcc gaacacatca gacttggagc
+     1381 cctccagcca atgcgactca gtatatgccc aaatctccac agggtttatc atctggattt
+     1441 actgactcct ggaggtctga tcatgcatca tcgagtgctg taatgctgaa tgaaaactca
+     1501 tatgatgaac ctgacacatc tctgagtctc aaggttcatc aggtttccat atgtaagata
+     1561 gatggtgagc ctgtgtgaaa tgatttttga ctttgtgaat ctcaaatcgt ttactgtgaa
+     1621 gtgaaatatg ggaaaaataa ggatctcgtt ggagctggcg tacaggagcg ccaccttgtg
+     1681 ggagtatctt gaatgtggat ctgcattatt ttgaggtttc tcctaaatat ttctgtttta
+     1741 agatatttaa actgattttt tttcaagaat aaatattaaa cggccaaatg tactgtatta
+     1801 atacgaaatt attaaaaaaa tacatagg
+//

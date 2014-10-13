@@ -1,0 +1,102 @@
+LOCUS       XM_002714562            2076 bp    DNA              MAM 13-JUN-2014
+DEFINITION  PREDICTED: Oryctolagus cuniculus 5-hydroxytryptamine (serotonin)
+            receptor 1E, G protein-coupled (HTR1E), mRNA.
+ACCESSION   XM_002714562
+VERSION     XM_002714562.2  GI:655842307
+DBLINK      BioProject: PRJNA42933
+KEYWORDS    RefSeq; corrected model.
+SOURCE      Oryctolagus cuniculus (rabbit)
+  ORGANISM  Oryctolagus cuniculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha; Leporidae;
+            Oryctolagus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003159281.1) and transcript sequence (GBCJ01263082.1) annotated
+            using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Jun 13, 2014 this sequence version replaced gi:291396572.
+            ##RefSeq-Attributes-START##
+            assembly gap :: added 486 transcript bases to patch genome assembly
+            gap
+            ##RefSeq-Attributes-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Oryctolagus cuniculus Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2076
+                     /db_xref="taxon:9986"
+                     /mol_type="mRNA"
+                     /organism="Oryctolagus cuniculus"
+                     /chromosome="12"
+     gene            1..2076
+                     /note="The sequence of the model RefSeq transcript was
+                     modified relative to its source genomic sequence to
+                     represent the inferred CDS: added 486 bases not found in
+                     genome assembly; Derived by automated computational
+                     analysis using gene prediction method: Gnomon. Supporting
+                     evidence includes similarity to: 9 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:100358620"
+                     /gene="HTR1E"
+     CDS             672..1769
+                     /product="5-hydroxytryptamine receptor 1E"
+                     /codon_start="1"
+                     /db_xref="GI:291396573"
+                     /db_xref="GeneID:100358620"
+                     /translation="MNITNCTTEASMAVRPKTVTEKMLICMTLVIITTLTMLLNSAVIV
+                     AICTTKKLHQPANYLICSLAVTDLLVAVLVMPLSIMYIVMESWKLGYFICEVWLSVDMT
+                     CCTCSILHLCVIALDRYWAITNAIEYARKRTAKRAGLMILTVWTISVFISMPPLFWRSH
+                     RQLSPPPSQCTIQHDHVIYTVYSTFGAFYIPLTLILILYYRIYHAAKSLYQKRGSSRHL
+                     SNRSTDSQNSFASCKLTQTFCVSDFSTSDPTTEFEKIHSSIRIPPFDNDLDHPGERQQI
+                     SSTRERKAARILGLILGAFILSWLPFFIKELIVGLSIYTVSSEVADFLTWLGYVNSLIN
+                     PLLYTSFNDDFKLAFKKLIRCREHT"
+                     /gene="HTR1E"
+                     /protein_id="XP_002714608.1"
+ORIGIN
+        1 cagcctgagc cagccccaga tcacctcaga gctttggccc gccgttctcc accgccgctg
+       61 cccgcattgc acccgcctca cctgttcgtc ccacccaccc cctgtcctct cagtgccgcc
+      121 ctgggtgact ccactgcgcg actgctggag tagactgccc cctgctcctg ctcctcctcc
+      181 gtttccccgc tctcgctttc gcctcctctt ccagtcccgg ctcccagacc cgcgaagcgc
+      241 agcgcctgca gcccgcacgc cgcgctcacc ggccccgtct cgcctcagcc cacagggcac
+      301 tggcgcgtca agggcactgg aggggcagcg ccccggggct cagtgtaccc ccaaagccgg
+      361 gtgttgcgag aagcggggct ctgtgaaagc ccggtaggaa aagcagcggg ttccaagtga
+      421 gacttgtgag ccagcgggac gcgccagttc gccccgtgcc acgcggcggc acgcaccgtg
+      481 cacaaggatc ctccattcag cagaaatgcc gtggccattc cctttatcca caggaactga
+      541 aacacaagag actacatagc tgaagaaatt gtagtttact tacaggtgag aaacattcaa
+      601 ggctacctgg tttccaattg aaggaaaata agcaacagct tttccacagg gtagactgga
+      661 acaagagcaa catgaacatc acgaactgta ctacagaagc cagcatggcg gtgagaccca
+      721 agactgtcac tgagaagatg ctcatttgca tgactctggt gattatcacc accctgacca
+      781 tgttgctgaa ctcagccgta atcgtggcca tttgtaccac caagaagcta caccaacctg
+      841 caaactacct gatctgttct ctggccgtga cggacctcct ggtggcggtg cttgtcatgc
+      901 ccctgagcat catgtacatt gtcatggaga gctggaagct tgggtacttc atctgtgagg
+      961 tgtggctgag tgttgacatg acctgctgca cctgctccat cctgcatctc tgtgtgattg
+     1021 ccctggacag gtactgggcc atcaccaatg ctattgaata tgccaggaag aggacggcca
+     1081 agagggctgg actgatgatc ctcaccgtct ggaccatctc tgtcttcatc tccatgcccc
+     1141 ctctgttctg gagaagccac cgccagctca gcccacctcc cagtcagtgc accatccagc
+     1201 acgaccatgt catctacacc gtctactcca cattcggggc attttatatc cctttgactt
+     1261 tgatactgat tctctattac cggatttacc atgcagccaa gagcctttac cagaaaaggg
+     1321 gatcaagccg tcacttgagc aacagaagca cagacagtca aaattccttt gcgagttgta
+     1381 agcttacaca gactttctgt gtgtctgact tctccacctc agaccctacc acagagtttg
+     1441 aaaagatcca cagctccatc aggatccctc ccttcgacaa cgatctcgac cacccaggag
+     1501 aacgccagca gatctctagc accagagagc gcaaggcagc acgcatcctg gggctgattt
+     1561 taggtgcatt cattttgtcc tggctgccct ttttcatcaa agagttgatt gtaggtctga
+     1621 gcatctatac cgtttcctcg gaagtggcgg attttttgac atggcttggc tatgttaatt
+     1681 ctctgatcaa ccctctgctc tatacgagtt ttaatgacga cttcaagctg gcttttaaaa
+     1741 agctcattag gtgccgagag catacttaga ttctaaaaag ccaaaagcat gactttggcc
+     1801 agatcctcat gaatggacag gggtgagggg tgcaacttat taattcttga acttacttgg
+     1861 ttcgggagga tttgtaagta tgtgtggtct ttttttttat ttgtttgttt tgttctgttt
+     1921 tgtctgaagc ttgttatttg ctgtgctgtt ttctacctct ggtcttattt gtggcacata
+     1981 atataaaata aacattatcg tacaaaacca gaaatttctt agaagtaata ataagatgaa
+     2041 atagtatgtt ttttagccat ttcaattaac cctgca
+//

@@ -1,0 +1,69 @@
+LOCUS       XP_005951640             441 aa                     VRT 30-OCT-2013
+DEFINITION  PREDICTED: D(5)-like dopamine receptor-like [Haplochromis burtoni].
+ACCESSION   XP_005951640
+VERSION     XP_005951640.1  GI:554883885
+DBLINK      BioProject: PRJNA220165
+KEYWORDS    RefSeq.
+SOURCE      Haplochromis burtoni (Burton's mouthbrooder)
+  ORGANISM  Haplochromis burtoni
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Haplochromini;
+            Haplochromis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005180513.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Haplochromis burtoni Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..441
+                     /isolate="A. burtoni ID#24_Hofmann"
+                     /sex="female"
+                     /organism="Haplochromis burtoni"
+                     /chromosome="Unknown"
+                     /db_xref="taxon:8153"
+     Protein         1..441
+                     /product="D(5)-like dopamine receptor-like"
+                     /calculated_mol_wt="49325"
+     Region          52..339
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          60..329
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <125..>172
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     CDS             1..441
+                     /coded_by="XM_005951578.1:198..1523"
+                     /gene="LOC102291339"
+                     /db_xref="GeneID:102291339"
+ORIGIN
+        1 metfynhtrn qrqdqsqhpv vtaaadspah gsdlslralt gcvlcvlivs tllgnalvca
+       61 avikfrhlrs kvtnafvisl avsdlfvavl vmpwravsev agvwlfgrfc dtwvafdimc
+      121 stasilhlci ismdrywais spfryerrmt rrfacvmigv awtlsvlisf ipvqlnwhra
+      181 gaqnatdpgd cnaslnrtya issslisfyi pvlimvgtyt rifriartqi rrisslergc
+      241 ravhrrpras aheesslkts lrretkvlkt lsvimgvfvf cwlpffvlnc mvpfcrlerl
+      301 gappcvsdtt fsvfvwfgwa nsslnpviya fnadfrkafs tilgcsryca tsaveavdfs
+      361 nelashhdtt lqkevcgapa elerdfdkvs aisgdsrnhr nlllpailrh eweaeisldm
+      421 mpfghdtpad fyvipgqvqd l
+//

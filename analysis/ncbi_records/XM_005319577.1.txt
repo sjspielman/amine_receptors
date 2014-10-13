@@ -1,0 +1,89 @@
+LOCUS       XM_005319577            1360 bp    DNA              ROD 21-AUG-2013
+DEFINITION  PREDICTED: Spermophilus tridecemlineatus 5-hydroxytryptamine
+            receptor 1A-like (LOC101971175), mRNA.
+ACCESSION   XM_005319577
+VERSION     XM_005319577.1  GI:532067575
+DBLINK      BioProject: PRJNA210856
+KEYWORDS    RefSeq.
+SOURCE      Ictidomys tridecemlineatus (thirteen-lined ground squirrel)
+  ORGANISM  Ictidomys tridecemlineatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Sciuridae; Xerinae; Marmotini; Ictidomys.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004936480.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Ictidomys tridecemlineatus
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1360
+                     /mol_type="mRNA"
+                     /isolate="#75"
+                     /sex="female"
+                     /db_xref="taxon:43179"
+                     /organism="Ictidomys tridecemlineatus"
+                     /chromosome="Unknown"
+     gene            1..1360
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 15 Proteins, and 4%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:101971175"
+                     /gene="LOC101971175"
+     CDS             70..1341
+                     /product="5-hydroxytryptamine receptor 1A-like"
+                     /codon_start="1"
+                     /db_xref="GI:532067576"
+                     /db_xref="GeneID:101971175"
+                     /translation="MDVLSPGQGNNTTSSQGPFGTGSNVTDISDVTFSYQLITSLLLGT
+                     LIFCAVLGNACVVAAIALERSLQNVANYLIGSLAVTDLMVSVLVLPMAALYQVLNKWTL
+                     GQVTCDLFIALDVLCCTSSILHLCAIALDRYWAITDPIDYMNKRTPRRAAALISLTWLI
+                     GFLISIPPMLGWRTPEDRLDPDACTISKDHGYTIYSTFGAFYIPLLLMLVLYGRIFRAA
+                     RFRIRKTVKKVEKKGADTRLGTSPALQPKKSVNGQPGGKDWRRGVENKSLGALCANGAV
+                     RQGDDGTALEVIEVHRVGNSKEHLPLPSEGVGAAPCTTASFERKNERNAEAKRKMALAR
+                     ERKTVKTLGIIMGTFILCWLPFFIVALVLPFCESSCHMPTLLGAIINWLGYSNSLLNPV
+                     IYAYFNKDFQNAFKKIIKCKFCRR"
+                     /gene="LOC101971175"
+                     /protein_id="XP_005319634.1"
+     STS             655..1106
+                     /db_xref="UniSTS:271595"
+                     /standard_name="PMC166422P2"
+                     /gene="LOC101971175"
+ORIGIN
+        1 cctaggggga ggggcgaggg agatacttgc agtctttctc ccctccccac gccgggcgtg
+       61 caggcaagca tggatgtgct cagccctggc cagggcaaca ataccacatc gtcccagggg
+      121 cccttcggga caggcagcaa tgttactgac atctccgacg tgaccttcag ttaccaactg
+      181 atcacctctc tgctgctagg cacgctcatt ttctgcgcgg tgcttgggaa tgcgtgcgtg
+      241 gtggctgcca ttgccctgga gcgctccctc cagaatgtgg ccaactatct catcggctcc
+      301 ttggcggtca ctgacctcat ggtgtcagtg ctagtgctgc ccatggccgc gctgtaccag
+      361 gtgctcaaca agtggactct gggccaggtc acctgcgacc tgtttatcgc cttggatgtt
+      421 ctgtgctgca cctcctccat cctgcacctg tgcgccatcg ctctggacag gtactgggcc
+      481 atcactgacc ccatcgacta catgaacaag aggacgcccc ggcgcgccgc tgcgctaatc
+      541 tcactcactt ggctcattgg ctttctcatc tccatcccgc ccatgctggg ctggcgcacc
+      601 ccagaagatc gcttggaccc cgacgcgtgc actatcagca aggaccacgg ctacactatc
+      661 tactccactt tcggcgcttt ctatatccca ctgctgctca tgctggttct ctatgggcgc
+      721 atcttccgtg ccgctcgctt ccgcatccgc aagacggtca agaaggtaga gaagaaggga
+      781 gctgacaccc gccttggaac atctccggct ctgcaaccca agaagagcgt gaatggacag
+      841 ccaggtggca aagactggag gcggggcgtg gagaacaagt cactgggggc tctgtgcgcc
+      901 aacggcgctg tgaggcaggg cgacgatggc accgccctag aggtaattga agtacaccga
+      961 gtgggcaact ccaaagagca cctgccactg cccagcgagg gggtaggtgc tgccccctgc
+     1021 acgaccgcct ccttcgagag gaagaatgag cgcaacgctg aggcgaagcg caagatggcc
+     1081 ctggcccgtg agaggaagac ggtgaagacg ctgggcatca ttatgggcac ctttatcctc
+     1141 tgctggctgc cctttttcat cgtagccctg gttctgccct tctgtgagag tagctgtcac
+     1201 atgcctaccc ttttgggcgc cataatcaac tggctgggct actccaactc tctgctcaac
+     1261 cccgtcattt atgcctactt caacaaggac tttcaaaacg cgtttaagaa gatcatcaag
+     1321 tgcaagtttt gccgccgatg atgataactg aggagcatcg
+//

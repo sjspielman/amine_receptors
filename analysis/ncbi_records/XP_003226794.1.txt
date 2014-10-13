@@ -1,0 +1,62 @@
+LOCUS       XP_003226794             512 aa                     VRT 22-MAY-2014
+DEFINITION  PREDICTED: alpha-1D adrenergic receptor [Anolis carolinensis].
+ACCESSION   XP_003226794
+VERSION     XP_003226794.1  GI:327284135
+DBLINK      BioProject: PRJNA60547
+KEYWORDS    RefSeq.
+SOURCE      Anolis carolinensis (green anole)
+  ORGANISM  Anolis carolinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata;
+            Toxicofera; Iguania; Iguanidae; Polychrotinae; Anolis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003338954.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Anolis carolinensis Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..512
+                     /db_xref="taxon:28377"
+                     /organism="Anolis carolinensis"
+                     /chromosome="Unknown"
+                     /country="USA"
+     Protein         1..512
+                     /product="alpha-1D adrenergic receptor"
+                     /calculated_mol_wt="57122"
+     Region          65..369
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          73..354
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..512
+                     /coded_by="XM_003226746.2:15..1553"
+                     /gene="adra1d"
+                     /db_xref="GeneID:100556537"
+ORIGIN
+        1 mtfsdrinas lngnhsgeag gingtlpsgg eedvqannst slalkltlqs vsvgvflalf
+       61 ilsaivgnil vilsvacnrh lqtvtnyfii nlaiadllls ttvlpfsatl evledlwvfg
+      121 rifcdiwaav dvlcctasim slciisvdry igvkyslkyp timtekkavi imvavwissm
+      181 visigpllgw keappendqh cniteepgya ifsslfsfyl plavilvmyf niyvvarrtt
+      241 ksleagvkke rsksmevvlr ihcrsvveds qastknkght frsslsvrll kfsrekkaak
+      301 tlaivvgvfi lcwlpfffvl sfgsyfpsvk pegmsfkiif wlgyfnscvn piiypcsske
+      361 fkrafirllk cqcrrrrrpi wrvydnhwrg asvngsgqds erdlqsrvst tngsfilnss
+      421 slessskrrt lnfkrwrmfs pfqkptqlke kmnslsnkir ggsikggvsa syktevesvs
+      481 igipnefmec idyqvyddlt dsessglket di
+//

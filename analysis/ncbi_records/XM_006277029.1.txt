@@ -1,0 +1,79 @@
+LOCUS       XM_006277029            1169 bp    DNA              VRT 09-DEC-2013
+DEFINITION  PREDICTED: Alligator mississippiensis 5-hydroxytryptamine
+            (serotonin) receptor 1D, G protein-coupled (HTR1D), mRNA.
+ACCESSION   XM_006277029
+VERSION     XM_006277029.1  GI:564240516
+DBLINK      BioProject: PRJNA221578
+KEYWORDS    RefSeq.
+SOURCE      Alligator mississippiensis (American alligator)
+  ORGANISM  Alligator mississippiensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Crocodylia;
+            Alligatoridae; Alligatorinae; Alligator.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006236280.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Alligator mississippiensis
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1169
+                     /mol_type="mRNA"
+                     /country="USA: Florida"
+                     /note="assembly comes from two alligators"
+                     /db_xref="taxon:8496"
+                     /organism="Alligator mississippiensis"
+                     /chromosome="Unknown"
+     gene            1..1169
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 24 Proteins, and 96% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:102558592"
+                     /gene="HTR1D"
+     CDS             36..1169
+                     /product="5-hydroxytryptamine receptor 1D"
+                     /codon_start="1"
+                     /db_xref="GI:564240517"
+                     /db_xref="GeneID:102558592"
+                     /translation="MSQFNHSAELSLQSTANKSLNSTDIPVALDERLLLGLKISLAVVL
+                     SLITLATILSNTFVIITIFLTRKLHTPANYLIGSLALTDLLVSILVMPISIAYTVSRTW
+                     TFGQVMCDIWLSSDITCCTASILHLCVIALDRYWAITDALEYAKRRTASRAAFMIAVVW
+                     VISICISMPPLFWRQAKAHEEMASCSVNTDQISYTIYSTCGAFYIPTVLLVILYGRIYV
+                     AARSRILKPPSLYGKRFTTAQLITGSTGSSFCSINSSLNERHSHSGGSPIFINHVKIKL
+                     TDSVLERKRISASRERKATKTLGIILGAFIFCWLPFFVVSLVMPICQDACWFHPILLDF
+                     FTWLGYFNSLINPVIYTAFNEDFKHAFQKLIHFRKCS"
+                     /gene="HTR1D"
+                     /protein_id="XP_006277091.1"
+ORIGIN
+        1 ttaaattgta cagggaacat cagaaagagc agaaaatgag ccagtttaac cactcagcag
+       61 agctctccct ccagagcaca gcaaacaagt cgctgaactc cactgacata ccagtggctt
+      121 tggacgagag gctacttcta gggctgaaga tctctctggc agttgttctg tctcttataa
+      181 ctctggcaac cattctttca aacacctttg taattatcac gatttttctc actagaaagc
+      241 tccatacacc tgcaaattat ctcattggtt ccttggcact gacagatctc ttggtatcta
+      301 tcttagtaat gccaatcagt attgcttaca ctgtcagccg tacgtggacc tttggccaag
+      361 ttatgtgtga tatctggtta tcctcagaca ttacctgctg caccgcctca attctgcacc
+      421 tctgtgttat tgcattagac agatactggg ccatcacaga tgctttggag tatgccaaac
+      481 gccgaacggc cagccgagca gccttcatga tagctgtggt ctgggtgatc tctatttgta
+      541 tttctatgcc accactcttt tggagacaag ccaaagctca tgaagaaatg gcatcgtgtt
+      601 ctgtgaacac agatcagatt tcctacacca tctactcnac ctgcggagcc ttctatatcc
+      661 caaccgtgct cctcgttata ctgtacggga gaatttacgt ggcagctcgc tccaggatcc
+      721 tgaagccacc gtcgttatat gggaaacgat ttaccactgc ccagctgatt actggttcta
+      781 ctgggtcttc tttctgctcc attaattcta gccttaatga gcggcattct cactcaggcg
+      841 gctccccaat atttatcaat catgtgaaaa tcaaacttac agatagtgtc ctggaaagga
+      901 aaagaatttc tgcttcaaga gaaagaaaag ccacaaagac gctgggtatt atcctgggag
+      961 cttttatttt ctgctggctg ccattctttg ttgtaagcct agtcatgccc atctgtcagg
+     1021 atgcttgctg gtttcatccc atcctactag actttttcac atggttaggt tactttaact
+     1081 cactgatcaa tccagtcata tacacggctt ttaatgaaga cttcaaacac gccttccaga
+     1141 agctaataca ctttagaaag tgttcttag
+//

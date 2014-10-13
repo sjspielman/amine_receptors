@@ -1,0 +1,83 @@
+LOCUS       XM_005674944            1104 bp    DNA              MAM 30-SEP-2013
+DEFINITION  PREDICTED: Capra hircus dopamine receptor D3 (DRD3), transcript
+            variant X2, mRNA.
+ACCESSION   XM_005674944
+VERSION     XM_005674944.1  GI:548449691
+DBLINK      BioProject: PRJNA217901
+KEYWORDS    RefSeq.
+SOURCE      Capra hircus (goat)
+  ORGANISM  Capra hircus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Caprinae; Capra.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005100602.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Capra hircus Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1104
+                     /mol_type="mRNA"
+                     /collection_date="Sep-2009"
+                     /country="China: Kunming"
+                     /breed="Yunnan black goat"
+                     /db_xref="taxon:9925"
+                     /organism="Capra hircus"
+                     /chromosome="1"
+     gene            1..1104
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 1 Protein, and 18% coverage
+                     of the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:102188084"
+                     /gene="DRD3"
+     CDS             1..1104
+                     /product="D(3) dopamine receptor isoform X2"
+                     /codon_start="1"
+                     /db_xref="GI:548449692"
+                     /db_xref="GeneID:102188084"
+                     /translation="MAPLNQLGGHINVTCAAENSTGAGRARPHAYYALSYCALILAIVF
+                     GNGLVCVAVLKERALQTTTNYLVVSLAVADLLVATLVMPWVVYLEVTGGVWNFSRVCCD
+                     VFVTLDVMMCTASILNLCAISIDRYTAVVMPVHYQQGTGQSSCRRVALMITAVWVLSFA
+                     VSCPLLLGFNTTGDPSICSISNPDFVLYSSVVSFYLPFGVTVLVYARIYVVLRQRRRKR
+                     ILTRQNSQCLSVRPGFPQQPLSPGQTHMELKRYYSICQDTALGTPGFQEGEGDLQREAR
+                     TRNSLMPLREKKATQMLVIVLGTFIVCWLPFFLTHVLNTHCRACHVSPQLYSATTWLGY
+                     VNSALNPVIYTTFNIEFRKAFLKILSC"
+                     /gene="DRD3"
+                     /protein_id="XP_005675001.1"
+     STS             576..655
+                     /db_xref="UniSTS:266442"
+                     /standard_name="DRD3"
+                     /gene="DRD3"
+ORIGIN
+        1 atggcacctc tcaaccagct ggggggccac atcaacgtga cctgtgcagc agagaactcc
+       61 acaggggccg gccgggcccg cccgcacgcc tactacgccc tctcctactg cgcactcatc
+      121 ctggccatcg tcttcggcaa tggtctggtg tgcgtggctg tgctgaagga acgggccctg
+      181 cagaccacca ccaactattt ggtggtgagc ctggccgtgg cggacctgct ggtggccacc
+      241 ctggtaatgc cctgggtggt gtacctggag gtgacaggtg gggtctggaa tttcagccga
+      301 gtttgctgcg acgttttcgt cactctggat gtcatgatgt gcacagccag catcctgaac
+      361 ctctgtgcca tcagcatcga caggtacact gctgtggtca tgccagttca ctaccagcaa
+      421 ggcacgggac agagctcctg tcgacgtgtg gccctcatga tcacagctgt ctgggtgctg
+      481 tcctttgctg tgtcttgccc tctcctcctt ggcttcaaca ccacaggaga ccccagcatc
+      541 tgctccatct ccaaccctga ctttgtcctc tactcttcag tggtgtcttt ctacctgccc
+      601 ttcggagtga ctgtcctcgt ctatgccagg atctacgtgg tgttgagaca gaggagacgg
+      661 aagcggatcc tcactcgaca gaacagtcag tgcctcagtg tcagacctgg cttcccccaa
+      721 cagcccctct cccctggcca gacacacatg gagctgaaac gctactacag catctgccaa
+      781 gacactgcct taggaacacc aggcttccaa gaaggagagg gagacttgca aagggaagcg
+      841 aggactcgga actccctcat gccactgcgg gagaagaagg caacccagat gctggtcatt
+      901 gtgcttggga ccttcattgt ctgctggctg cccttcttct tgacccatgt tctcaatacc
+      961 cactgcagag catgccacgt gtctccacag ctctacagtg ccaccacgtg gctgggctat
+     1021 gtgaatagtg ccctcaaccc cgtgatctat accaccttca acatcgagtt ccggaaagcc
+     1081 ttcctcaaga tattgtcctg ctga
+//

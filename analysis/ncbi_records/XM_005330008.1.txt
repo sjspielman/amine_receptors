@@ -1,0 +1,92 @@
+LOCUS       XM_005330008            1733 bp    DNA              ROD 21-AUG-2013
+DEFINITION  PREDICTED: Spermophilus tridecemlineatus cholinergic receptor,
+            muscarinic 4 (Chrm4), mRNA.
+ACCESSION   XM_005330008
+VERSION     XM_005330008.1  GI:532088726
+DBLINK      BioProject: PRJNA210856
+KEYWORDS    RefSeq.
+SOURCE      Ictidomys tridecemlineatus (thirteen-lined ground squirrel)
+  ORGANISM  Ictidomys tridecemlineatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Sciuridae; Xerinae; Marmotini; Ictidomys.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004936562.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Ictidomys tridecemlineatus
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1733
+                     /mol_type="mRNA"
+                     /isolate="#75"
+                     /sex="female"
+                     /db_xref="taxon:43179"
+                     /organism="Ictidomys tridecemlineatus"
+                     /chromosome="Unknown"
+     gene            1..1733
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 10 mRNAs, 20 Proteins, and 24%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:101957443"
+                     /gene="Chrm4"
+     CDS             40..1476
+                     /product="muscarinic acetylcholine receptor M4"
+                     /codon_start="1"
+                     /db_xref="GI:532088727"
+                     /db_xref="GeneID:101957443"
+                     /translation="MANFTPVNGSSGNQSVRLVTSTHNRYETVEMVFIATVTGSLSLVT
+                     VVGNILVMLSIKVNRQLQTVNNYFLFSLACADLIIGAFSMNLYTVYIIKGYWPLGAVVC
+                     DLWLALDYVVSNASVMNLLIISFDRYFCVTKPLTYPARRTTKMAGLMIAAAWVLSFVLW
+                     APAILFWQFVVGKRTVPDNQCFIQFLSNPAVTFGTAIAAFYLPVVIMTVLYIHISLASR
+                     SRVHKHRPEGPKEKKAKTLAFLKSPLMKQSVKKPPPGGAAREELRNGKLEEAPPPALPP
+                     PPRPMADKDTSNESSSGSATQNTKERPPTELSTTEATTPAMPAPNLQPRTLNPASKWSK
+                     IQIVTKQTGNECVTAIEIVPATPAGMRPAANVARKFASIARNQVRKKRQMAARERKVTR
+                     TIFAILLAFILTWTPYNVMVLVNTFCQSCIPDTVWSIGYWLCYVNSTINPACYALCNAT
+                     FKKTFRHLLLCQYRNIGTAR"
+                     /gene="Chrm4"
+                     /protein_id="XP_005330065.1"
+ORIGIN
+        1 ttccttcctt ccccagccac cccactgcta ctaaccaaca tggcgaactt cacaccagtc
+       61 aatggcagct cgggcaacca gtctgtgcgc ctggtcacgt caactcataa ccgctatgag
+      121 accgtggaga tggtattcat cgccacagtg acaggctcgc tgagcctggt gactgttgtg
+      181 ggcaacatcc tggtgatgct gtccatcaag gtcaacaggc agctgcagac cgtcaacaac
+      241 tacttcctgt tcagcctggc ctgcgccgac ctcatcatag gcgccttctc catgaacctc
+      301 tacaccgtgt acatcatcaa gggctactgg cccctggggg ctgtggtctg tgacctgtgg
+      361 ctggctctgg actacgtagt gagcaatgcg tcggtcatga accttctcat catcagcttt
+      421 gaccgatact tctgcgtcac caagcccctc acctacccgg cccgtcgtac caccaagatg
+      481 gcgggcctca tgattgcggc tgcctgggtc ctgtccttcg ttctctgggc ccctgccatc
+      541 ttgttctggc agttcgtggt gggcaagagg acagtgccgg acaaccagtg cttcatccag
+      601 ttcctgtcca acccagcagt gacctttggc acagccattg ctgccttcta cctgcccgtg
+      661 gtcatcatga cggtgctcta catccacatc tctctggcca gtcgcagccg agttcacaag
+      721 caccggcctg aaggccccaa ggagaagaag gccaagactc tggccttcct caagagcccc
+      781 ctgatgaagc agagtgtcaa gaaaccccca cccggaggag cagctcggga ggagctgaga
+      841 aacgggaagc tagaggaggc ccctccgcca gccctgccac cgccaccacg ccccatggct
+      901 gacaaggaca cctccaatga gtctagctca ggcagtgcca cccagaacac caaggaacga
+      961 ccacccacag agctgtcgac cacagaggcc accacgcccg ccatgcctgc ccctaacctg
+     1021 cagcctcgga ccctcaaccc cgcctccaaa tggtccaaaa tccagattgt gacgaagcag
+     1081 acaggcaatg agtgtgtgac agcaatcgag attgtacctg ccactccagc tggcatgcgt
+     1141 ccggcagcca acgtggcccg caagtttgcc agcattgctc gcaaccaggt gcgcaagaag
+     1201 cggcagatgg cagcccggga gcgcaaagtg acgaggacca tctttgccat cctgctggcc
+     1261 ttcatcctca cctggacacc ctacaatgtc atggtcctgg tgaacacctt ctgccagagc
+     1321 tgcatccctg acacagtgtg gtccatcggc tactggctct gctacgtcaa cagcaccatc
+     1381 aaccccgcct gctacgcgct ctgcaacgcc acctttaaaa agaccttccg gcacctgttg
+     1441 ctttgccagt atcggaacat tggaactgcc aggtaggcag gtaggcgtgc cctaggaggt
+     1501 gctggtgtgg cacgtgtgct gggggaccac atggctcacc tgctgtgggg aagagactag
+     1561 gaggccccat tccgtgctcg catttgctga agaggagaac tgagctctcc accacacttt
+     1621 gaggaagagg ctctgtttgg attcagagac cagatcccgg ctcaggccga gggggctcag
+     1681 cctctgaact gggaccacct ggcccatgtc tgttgccctg cctcagggag ctg
+//

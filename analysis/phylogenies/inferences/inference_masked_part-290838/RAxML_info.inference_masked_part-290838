@@ -1,0 +1,116 @@
+IMPORTANT WARNING: Alignment column 20 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 21 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 22 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 23 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 24 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 118 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 2355 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 2405 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 2406 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 2407 contains only undetermined values which will be treated as missing data
+
+
+IMPORTANT WARNING: Sequences XP_005964416.1_XM_005964354.1 and XP_005908442.1_XM_005908380.1 are exactly identical
+
+IMPORTANT WARNING
+Found 1 sequence that is exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+
+IMPORTANT WARNING
+Found 10 columns that contain only undetermined values which will be treated as missing data.
+Normally these columns should be excluded from the analysis.
+
+
+A mixed model file with model assignments for undetermined
+columns removed has already been printed to  file /home/sjs3495/amine_data/partitions_consec.txt.reduced
+Just in case you might need it, an alignment file with 
+sequence duplicates and undetermined columns removed is printed to file /home/sjs3495/amine_data/protein_aln_masked_consecpart.fasta.reduced
+
+
+This is RAxML version 8.1.1 released by Alexandros Stamatakis on July 31 2014.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+Alignment has 4049 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 91.46%
+
+RAxML rapid hill-climbing mode
+
+Using 2 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 186
+Name: transmembrane
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 1
+Alignment Patterns: 3863
+Name: transmembrane
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -T 16 -D -p 9419 -s /home/sjs3495/amine_data/protein_aln_masked_consecpart.fasta -m PROTCATLGF -n inference_masked_part-290838 -q /home/sjs3495/amine_data/partitions_consec.txt 
+
+
+Partition: 0 with name: transmembrane
+Base frequencies: 0.090 0.011 0.034 0.019 0.035 0.001 0.001 0.041 0.005 0.122 0.163 0.005 0.037 0.082 0.035 0.073 0.054 0.024 0.049 0.118 
+
+Partition: 1 with name: transmembrane
+Base frequencies: 0.056 0.061 0.048 0.046 0.043 0.048 0.054 0.052 0.041 0.046 0.060 0.057 0.038 0.045 0.055 0.066 0.056 0.038 0.040 0.051 
+
+ML search convergence criterion fast cycle 0->1 Relative Robinson-Foulds 0.066206
+ML search convergence criterion fast cycle 1->2 Relative Robinson-Foulds 0.012516
+ML fast search converged at fast SPR cycle 3 with stopping criterion
+Relative Robinson-Foulds (RF) distance between respective best trees after one succseful SPR cycle: 0.003953%
+ML search convergence criterion thorough cycle 0->1 Relative Robinson-Foulds 0.081028
+ML search convergence criterion thorough cycle 1->2 Relative Robinson-Foulds 0.015481
+ML search converged at thorough SPR cycle 3 with stopping criterion
+Relative Robinson-Foulds (RF) distance between respective best trees after one succseful SPR cycle: 0.003623%
+Inference[0]: Time 25711.013441 CAT-based likelihood -501020.999461, best rearrangement setting 15
+alpha[0]: 1.000000 alpha[1]: 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -505526.924440 tree written to file /share/WilkeLab/work/sjs3495/inference_masked_part-290838/RAxML_result.inference_masked_part-290838
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -505526.924440 .... 
+
+Final GAMMA-based Score of best tree -505500.846326
+
+Program execution info written to /share/WilkeLab/work/sjs3495/inference_masked_part-290838/RAxML_info.inference_masked_part-290838
+Best-scoring ML tree written to: /share/WilkeLab/work/sjs3495/inference_masked_part-290838/RAxML_bestTree.inference_masked_part-290838
+
+Overall execution time: 63608.689622 secs or 17.669080 hours or 0.736212 days
+

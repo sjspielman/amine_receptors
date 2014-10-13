@@ -1,0 +1,131 @@
+LOCUS       XM_002744350            2020 bp    DNA              PRI 02-SEP-2014
+DEFINITION  PREDICTED: Callithrix jacchus adrenoceptor beta 2, surface (ADRB2),
+            mRNA.
+ACCESSION   XM_002744350
+VERSION     XM_002744350.2  GI:675643638
+DBLINK      BioProject: PRJNA46205
+KEYWORDS    RefSeq.
+SOURCE      Callithrix jacchus (white-tufted-ear marmoset)
+  ORGANISM  Callithrix jacchus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003183145.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 2, 2014 this sequence version replaced gi:296193190.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Callithrix jacchus Annotation
+            Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2020
+                     /db_xref="taxon:9483"
+                     /mol_type="mRNA"
+                     /organism="Callithrix jacchus"
+                     /chromosome="2"
+     gene            1..2020
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 8 mRNAs, 99 ESTs, 20 Proteins, and
+                     99% coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:100414106"
+                     /gene="ADRB2"
+     STS             79..415
+                     /db_xref="UniSTS:270293"
+                     /standard_name="PMC115184P1"
+                     /gene="ADRB2"
+     STS             210..420
+                     /db_xref="UniSTS:87528"
+                     /standard_name="RH79898"
+                     /gene="ADRB2"
+     CDS             234..1481
+                     /product="beta-2 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:296193191"
+                     /db_xref="GeneID:100414106"
+                     /translation="MGQPGNSSAFLLAPNGSHAPDHDVTQERDEAWVVGMGIVMSLIVL
+                     AIVFGNVLVITAIAKFERLQTVTNYFITSLACADLVMGLAVVPFGASHILMKMWTFGNF
+                     WCEFWTSIDVLCVTASIETLCVIAVDRYFAITSPFKYQSLLTKNKARVIILMVWIVSGL
+                     TSFLPIQMHWYRATHQEAINCYAKETCCDFFTNQAYAIASSIVSFYVPLVVMVFVYSRV
+                     FQVAKRQLQKIDKSEGRFHAQNLSQVEQDGRTGHGLRRSSKFCLKEHKALKTLGIIMGT
+                     FTLCWLPFFIVNIVHVIRDNLIPKEVYILLNWVGYVNSAFNPLIYCRSPDFRIAFQELL
+                     CLHRSSLKAYGNGYSSNSNGNTGEQSGYHLEQEKENKLLCEDLPGTEDFVGHQGTVPSD
+                     NIDSQGRNCSTNDSLL"
+                     /gene="ADRB2"
+                     /protein_id="XP_002744396.1"
+     STS             293..712
+                     /db_xref="UniSTS:158219"
+                     /standard_name="GDB:606238"
+                     /gene="ADRB2"
+     STS             360..1247
+                     /db_xref="UniSTS:265908"
+                     /standard_name="ADRB2"
+                     /gene="ADRB2"
+     STS             650..1104
+                     /db_xref="UniSTS:258478"
+                     /standard_name="ADRB2sts1"
+                     /gene="ADRB2"
+     STS             839..1046
+                     /db_xref="UniSTS:504882"
+                     /standard_name="ADRB2"
+                     /gene="ADRB2"
+     STS             884..1282
+                     /db_xref="UniSTS:270173"
+                     /standard_name="PMC109640P1"
+                     /gene="ADRB2"
+     STS             1520..1794
+                     /db_xref="UniSTS:156395"
+                     /standard_name="GDB:294209"
+                     /gene="ADRB2"
+     STS             1672..1933
+                     /db_xref="UniSTS:65272"
+                     /standard_name="WI-19151"
+                     /gene="ADRB2"
+ORIGIN
+        1 aacgggcagt acgcactccg aggcggcttc tccagagggc gggctggaac tggctggcat
+       61 cgtgagcccc tagcacccga caagctaagt gtgcaggacg tgcccccacc acacccacct
+      121 cacggccgct gaatgaggct tccaggcgtc cgttcgcggc cctcagagcc ccgccgggga
+      181 tccgcccgct gaggcgccgg cagccagtgc gctcacctgc cagactgcgc gccatggggc
+      241 aacccgggaa cagcagcgcc ttcttgttgg cgcccaatgg aagccacgcg ccggaccacg
+      301 acgtcacgca ggaacgggac gaggcgtggg tggtgggtat gggcatcgtc atgtcgctca
+      361 tcgtcctggc cattgtgttt ggcaatgtgc tggtcatcac agccattgcc aagttcgagc
+      421 gtctgcagac tgtcaccaac tactttatca cttcactggc ctgtgctgac ctggtcatgg
+      481 gcctggcagt ggtgcctttt ggggccagcc atattctcat gaaaatgtgg acttttggca
+      541 acttctggtg tgagttttgg acttccattg atgtgctttg cgtcacggcc agcattgaga
+      601 ccctgtgcgt gatcgcggtg gatcgctact ttgccattac ttcacccttc aagtaccaga
+      661 gcctgctgac caagaataag gcccgggtga tcattctgat ggtgtggatc gtgtcaggcc
+      721 ttacctcctt cttgcccatt cagatgcact ggtaccgggc cacccaccag gaagccatta
+      781 actgctatgc caaggagacc tgctgtgact tcttcacgaa ccaagcctat gccattgcct
+      841 cctccatcgt gtccttctac gtgcccctgg tggtcatggt cttcgtctac tccagagtct
+      901 ttcaggtggc caaaaggcag ctccaaaaga ttgacaaatc tgagggccgc ttccatgccc
+      961 agaaccttag ccaggtggag caggacgggc ggacgggaca tggacttcgc aggtcttcca
+     1021 agttctgctt gaaggagcac aaagccctca agacgttagg tatcatcatg ggcactttca
+     1081 ccctctgctg gctgcccttc tttatcgtca acattgtgca tgtgatccgg gataacctca
+     1141 tccctaagga agtttacatc ctcctaaatt gggtgggcta tgtcaactct gctttcaacc
+     1201 cccttatcta ctgtcggagc ccagatttca ggattgcctt ccaggaactt ctgtgcctgc
+     1261 acaggtcttc tttgaaggcc tatgggaatg gctactccag caacagcaac ggcaacacag
+     1321 gggagcagag tggatatcac ctggaacagg agaaagaaaa taaactgctg tgtgaagacc
+     1381 ttccaggcac ggaagacttt gtgggccatc aaggtactgt gcctagcgat aacattgatt
+     1441 cacaagggag gaactgtagt acaaatgact cactgctgta aagcagtttt tctactttat
+     1501 aagaaccccc ccaccaacag aacactaaac agactattta acttgagtgt aataaactta
+     1561 gaataaaatt gtatagagat atgcaggagg aggggcaccc ttctgccttt tttatttttt
+     1621 taagctgtaa aaagagagaa aacttatttg attatttgtt atttgtacag ttcagttcct
+     1681 ctttgcatgg aacttataag tttatgtctg aagggcttta gtcctagagg acctgggtct
+     1741 gctatgtttt gatgattttt ccatgtatct acctcactat ttaagtatta ggggtaatat
+     1801 attgctgctg gtaatttgta tccgaaggag attttccttc ctacaccctt gaacttgagg
+     1861 attttgagta tcttggacct tttagctgtg aacatggact cttccccgct cctcttattt
+     1921 gcttacacgg ggtattttag gcagggattc gaggggcagc ttcagttgtt ttcctgagca
+     1981 aagtctaaag tttacagtaa ataaattgtt tgaccatgcc
+//

@@ -1,0 +1,87 @@
+LOCUS       XM_004700918            1392 bp    DNA              MAM 29-MAY-2013
+DEFINITION  PREDICTED: Echinops telfairi adrenoceptor beta 1 (ADRB1), mRNA.
+ACCESSION   XM_004700918
+VERSION     XM_004700918.1  GI:507638738
+DBLINK      BioProject: PRJNA193504
+KEYWORDS    RefSeq.
+SOURCE      Echinops telfairi (small Madagascar hedgehog)
+  ORGANISM  Echinops telfairi
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Afrotheria; Tenrecidae; Tenrecinae; Echinops.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004558709.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Echinops telfairi Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1392
+                     /mol_type="mRNA"
+                     /country="Germany: Ludwig Maximilians University, Munich"
+                     /isolate="266"
+                     /sex="female"
+                     /db_xref="taxon:9371"
+                     /organism="Echinops telfairi"
+                     /chromosome="Unknown"
+     gene            1..1392
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 41 Proteins"
+                     /db_xref="GeneID:101640655"
+                     /gene="ADRB1"
+     CDS             1..1392
+                     /product="beta-1 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:507638739"
+                     /db_xref="GeneID:101640655"
+                     /translation="MGAGALALGASELGNLSSAVPLPDGAATAARLLVPASQPPSLLPA
+                     ASVSPAPLSQQWTAGMGLLMTFIVLFIVAGNVLVIVAIAKTPRLQTLTNLFIMSLASAD
+                     LVMGLLVVPFGATLVVWGRWEYGSFFCELWTSVDVLCVTASIETLCVIALDRYLAITSP
+                     FRYQSLLTRARARVLVCTVWAISSLVSFLPILMHWWRAEGKEARGCYKDPKCCDFVTNR
+                     AYAIASSVVSFYLPLCIMAFVYLRVFREAQKQVKKIDSCERRFLGGPARPPSPAPSPGS
+                     PRAGEPVANGRTSKRRPSRLVALREQKALKTLGIIMGVFTLCWLPFFLANVVKAFHREL
+                     VPDRLFVFFNWLGYANSAFNPIIYCRSPDFRKAFQRLLCCARRAARRRHAASGDRPRAS
+                     GCLTVAEPPPSPGADDEDDDEDVGAASPGRLLEPWVGCNGGAAADSDSSLDEPSCPGSA
+                     SESKV"
+                     /gene="ADRB1"
+                     /protein_id="XP_004700975.1"
+     STS             274..795
+                     /db_xref="UniSTS:256461"
+                     /standard_name="Adrb1"
+                     /gene="ADRB1"
+ORIGIN
+        1 atgggcgcgg gggcgctcgc cctgggcgcc tccgagcttg gcaacctgtc atcggccgtg
+       61 ccgctccccg acggcgcggc cacggcggcg cgactgctgg tgcccgcgtc gcagcccccg
+      121 tcgctgctgc ccgccgccag cgtgagcccc gcgccgctct cgcagcagtg gaccgccggc
+      181 atgggcctgc tgatgacgtt catcgtgctg ttcattgtgg cgggcaacgt gctggtgatc
+      241 gtggccatcg ccaagacgcc gcggctgcag acgctcacca atctcttcat catgtccctg
+      301 gccagcgctg acctggtcat ggggctgctg gtggtgccgt ttggggccac cctcgtggtg
+      361 tggggccgtt gggagtacgg ctccttcttc tgcgagctct ggacctcggt ggacgtgctg
+      421 tgtgtgacgg ccagcatcga gaccctgtgt gtcatcgccc tggaccgcta cctcgccatc
+      481 acgtcgccct tccgctacca gagcctgctg acccgcgccc gggcgcgggt cctggtctgc
+      541 accgtatggg ccatctcgtc cctggtgtct ttcctgccca tcctcatgca ctggtggcgg
+      601 gccgagggca aggaagcgcg cggctgctac aaggacccta agtgctgcga ctttgtcacc
+      661 aaccgggcct acgccatcgc ctcgtcggtc gtctccttct acctgcctct gtgcatcatg
+      721 gccttcgtgt acctgcgggt cttccgcgag gcccagaagc aggtgaagaa gatcgacagc
+      781 tgcgagcgcc gcttcctagg cggccccgcg cggccgccct caccggcgcc ctcgcccggc
+      841 tccccacgcg ccggcgagcc ggtggccaac gggcgcacca gcaagcggcg accctcgcgc
+      901 ctcgtggcgc tgcgggagca gaaggcgctc aagacgctgg gcatcatcat gggcgtgttc
+      961 acgctctgct ggctgccctt cttcctggcc aacgtggtga aggccttcca ccgcgagctg
+     1021 gtgcccgacc gcctcttcgt cttcttcaac tggctggggt acgccaactc ggccttcaac
+     1081 cccatcatct actgccgcag ccccgacttc cgcaaggcct tccagcgcct gctctgctgc
+     1141 gcgcgccggg ccgcccgccg gcgccacgcc gcctccggcg accggccgcg cgcctccggc
+     1201 tgcctgaccg tggccgagcc gccgccgtcc cccggggccg acgacgagga cgacgacgag
+     1261 gacgtcgggg ccgcgtcgcc cgggcgtttg ctggagccct gggtcggctg caacggcggc
+     1321 gcggcggcgg acagcgactc gagcctggac gagcccagtt gcccgggctc cgcttcggaa
+     1381 tccaaggtgt ag
+//

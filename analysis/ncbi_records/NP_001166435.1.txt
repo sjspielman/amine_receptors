@@ -1,0 +1,104 @@
+LOCUS       NP_001166435             446 aa                     ROD 12-MAR-2014
+DEFINITION  5-hydroxytryptamine receptor 7 [Cavia porcellus].
+ACCESSION   NP_001166435
+VERSION     NP_001166435.1  GI:290543529
+KEYWORDS    RefSeq.
+SOURCE      Cavia porcellus (domestic guinea pig)
+  ORGANISM  Cavia porcellus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Caviidae; Cavia.
+REFERENCE   1  (residues 1 to 446)
+  AUTHORS   Segura P, Vargas MH, Cordoba-Rodriguez G, Chavez J, Arreola JL,
+            Campos-Bedolla P, Ruiz V, Garcia-Hernandez LM, Mendez C and Montano
+            LM.
+  TITLE     Role of 5-HT2A, 5-HT4 and 5-HT7 receptors in the antigen-induced
+            airway hyperresponsiveness in guinea-pigs
+  JOURNAL   Clin. Exp. Allergy 40 (2), 327-338 (2010)
+   PUBMED   19995401
+  REMARK    GeneRIF: The 5-HT7 receptor seem to be particularly involved in
+            antigen-induced airway hyperresponsiveness(AI-AHR) to ACh in
+            guinea-pigs.
+REFERENCE   2  (residues 1 to 446)
+  AUTHORS   Tsou AP, Kosaka A, Bach C, Zuppan P, Yee C, Tom L, Alvarez R, Ramsey
+            S, Bonhaus DW and Stefanich E.
+  CONSRTM   et al
+  TITLE     Cloning and expression of a 5-hydroxytryptamine7 receptor positively
+            coupled to adenylyl cyclase
+  JOURNAL   J. Neurochem. 63 (2), 456-464 (1994)
+   PUBMED   7518496
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from U41372.1.
+            ##Evidence-Data-START##
+            Transcript exon combination :: U41372.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+            ERS240748, ERS240757 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..446
+                     /db_xref="taxon:10141"
+                     /organism="Cavia porcellus"
+     Protein         1..446
+                     /note="5-hydroxytryptamine7 receptor; 5-HT7; 5-HT-7;
+                     5-HT-X; serotonin receptor 7"
+                     /product="5-hydroxytryptamine receptor 7"
+                     /calculated_mol_wt="49483"
+     Site            83..109
+                     /note="propagated from UniProtKB/Swiss-Prot (P50407.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          99..>210
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          107..385
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Site            120..145
+                     /note="propagated from UniProtKB/Swiss-Prot (P50407.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            158..179
+                     /note="propagated from UniProtKB/Swiss-Prot (P50407.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            200..223
+                     /note="propagated from UniProtKB/Swiss-Prot (P50407.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            239..261
+                     /note="propagated from UniProtKB/Swiss-Prot (P50407.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            330..353
+                     /note="propagated from UniProtKB/Swiss-Prot (P50407.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            366..388
+                     /note="propagated from UniProtKB/Swiss-Prot (P50407.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     CDS             1..446
+                     /coded_by="NM_001172964.1:5..1345"
+                     /gene="Htr7"
+                     /db_xref="GeneID:100135549"
+ORIGIN
+        1 mmgvnssgrp dlyghlhsil lpgrglpdws pdggadpgvs twtprllsgv pevaaspsps
+       61 wdgtwdnvsg cgeqinygra ekvvigsilt litlltiagn clvvisvcfv kklrqpsnyl
+      121 ivslaladls vavavipfvs vtdliggkwi fghffcnvfi amdvmcctas imtlcvisid
+      181 rylgitrplt ypvrqngkcm pkmilsvwll sasitlpplf gwaqnvnddk vclisqdfgy
+      241 tiystavafy ipmsvmlfmy yriykaarks aakhkfpgfp rvqpesiisl ngmvklqkev
+      301 eecanlsrll kherknisif kreqkaattl giivgaftvc wlpffllsta rpficgtacs
+      361 ciplwvertc lwlgyansli npfiyaffnr dlrttyrsll qcqyrninrk lsaagmheal
+      421 klaerperpe cvlqnsdycr kkghds
+//

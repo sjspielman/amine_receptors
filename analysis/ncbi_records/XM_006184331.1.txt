@@ -1,0 +1,89 @@
+LOCUS       XM_006184331            1505 bp    DNA              MAM 29-NOV-2013
+DEFINITION  PREDICTED: Camelus ferus cholinergic receptor, muscarinic 4 (CHRM4),
+            mRNA.
+ACCESSION   XM_006184331
+VERSION     XM_006184331.1  GI:560916286
+DBLINK      BioProject: PRJNA183928
+KEYWORDS    RefSeq.
+SOURCE      Camelus ferus (Wild Bactrian camel)
+  ORGANISM  Camelus ferus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Tylopoda;
+            Camelidae; Camelus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006210916.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Camelus ferus Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1505
+                     /mol_type="mRNA"
+                     /collection_date="18-Feb-2010"
+                     /country="Mongolia: Mongolian wild camel protection area,
+                     Bayan Tooree, Altai province"
+                     /isolate="Naran"
+                     /sex="male"
+                     /db_xref="taxon:419612"
+                     /organism="Camelus ferus"
+                     /chromosome="Unknown"
+     gene            1..1505
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 mRNAs, 26 Proteins"
+                     /db_xref="GeneID:102505450"
+                     /gene="CHRM4"
+     CDS             47..1483
+                     /product="muscarinic acetylcholine receptor M4"
+                     /codon_start="1"
+                     /db_xref="GI:560916287"
+                     /db_xref="GeneID:102505450"
+                     /translation="MANFTPVNGSSSNQSVRLVTSSHNRYETVEMVFIATVTGSLSLVT
+                     VVGNILVMLSIKVNRQLQTVNNYFLFSLACADLIIGAFSMNLYTVYIIKGYWPLGAVVC
+                     DLWLALDYVVSNASVMNLLIISFDRYFCVTKPLTYPARRTTKMAGLMIAAAWVLSFVLW
+                     APAILFWQFVVGKRTVPDNQCFIQFLSNPAVTFGTAIAAFYLPVVIMTVLYIHISLASR
+                     SRVHKHRPEGPKEKKAKTLAFLKSPLMKQSVKKPPPGEAARGELRNGKLEEAPPPVLPP
+                     PPRPMTDKDTSNESSSGSATQNTKERPPTELSTTEATTPATPAPPLQPRTLNPASKWSK
+                     IQIVTKQTGNECVTAIEIVPATPAGMRPAANVARKFASIARNQVRKKRQMAARERKVTR
+                     TIFAILLAFILTWTPYNVMVLVNTFCQSCIPDTVWSIGYWLCYVNSTINPACYALCNAT
+                     FKKTFRHLLLCQYRNIGTAR"
+                     /gene="CHRM4"
+                     /protein_id="XP_006184393.1"
+ORIGIN
+        1 tctccttcct cctccagaca ccgcccgccc accgctgcta gccaaaatgg cgaacttcac
+       61 accagtcaat ggcagctcca gcaatcagtc tgtgcgcctg gtcacatcat cccataaccg
+      121 ctatgagacc gtggagatgg tgttcattgc caccgtgaca ggctcgctga gcctggtgac
+      181 tgttgtgggc aacatcctgg tgatgctgtc catcaaagtc aacaggcagc tgcagacagt
+      241 caacaactac ttcctcttca gcctggcatg tgccgatctc atcataggcg ctttctccat
+      301 gaacctctac accgtgtaca tcatcaaggg ctactggccc ctgggcgccg tggtctgtga
+      361 cctgtggctg gccctggact acgtggtgag caacgcctca gtcatgaacc tgctcatcat
+      421 cagctttgac cggtacttct gcgtcaccaa gcccctcact tacccagcgc ggcgcaccac
+      481 caagatggcg ggcctcatga ttgccgctgc ctgggtcctg tccttcgtgc tctgggcacc
+      541 tgccatcttg ttctggcagt ttgtggtggg caagcggacg gtgccggaca accagtgctt
+      601 catccagttc ctgtccaacc cggcggtgac cttcggcacg gccatcgctg ccttctacct
+      661 gcctgtggtc atcatgacgg tgctctacat ccacatctcc ctggccagtc gcagccgagt
+      721 tcataagcac cggccagaag gcccaaagga gaagaaggcc aagaccctgg ccttcctcaa
+      781 gagccccctg atgaagcaga gtgtcaagaa accgccccca ggagaagctg ctcgtgggga
+      841 gctgcgcaac gggaagctag aggaggcccc tccgcccgtt ctgccccccc cgccgcgccc
+      901 gatgactgac aaagacacct ccaatgagtc cagctcgggc agcgccaccc agaacaccaa
+      961 ggaacgacca cctacggagc tgtcaaccac agaggccacc acgcctgcca ctcccgcccc
+     1021 tcccctacag ccgcggaccc tcaatccagc ctccaaatgg tccaagatcc agattgtgac
+     1081 gaaacagaca ggcaacgagt gtgtgacagc catcgagatt gtgccggcca caccagctgg
+     1141 catgcgtccg gcggccaatg tggcacgcaa gtttgccagc atcgcccgca accaggtgcg
+     1201 caagaagcgg cagatggcag cccgggagcg caaggtgact cggaccatct ttgccattct
+     1261 cctggccttc atcctcacct ggacgcccta caacgttatg gtcctggtga acaccttctg
+     1321 ccagagctgc atccctgaca ctgtgtggtc cattggctac tggctctgct acgttaacag
+     1381 caccatcaac ccggcctgct atgccctctg caacgccacc tttaaaaaga ctttcaggca
+     1441 cctgctgcta tgccagtatc ggaacatcgg cactgccagg taggcaggca ggggtgccac
+     1501 tggag
+//

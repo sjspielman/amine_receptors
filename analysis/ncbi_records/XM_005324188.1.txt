@@ -1,0 +1,105 @@
+LOCUS       XM_005324188            2047 bp    DNA              ROD 21-AUG-2013
+DEFINITION  PREDICTED: Spermophilus tridecemlineatus adrenoceptor beta 2,
+            surface (Adrb2), mRNA.
+ACCESSION   XM_005324188
+VERSION     XM_005324188.1  GI:532076910
+DBLINK      BioProject: PRJNA210856
+KEYWORDS    RefSeq.
+SOURCE      Ictidomys tridecemlineatus (thirteen-lined ground squirrel)
+  ORGANISM  Ictidomys tridecemlineatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Sciuridae; Xerinae; Marmotini; Ictidomys.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004936504.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Ictidomys tridecemlineatus
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2047
+                     /mol_type="mRNA"
+                     /isolate="#75"
+                     /sex="female"
+                     /db_xref="taxon:43179"
+                     /organism="Ictidomys tridecemlineatus"
+                     /chromosome="Unknown"
+     gene            1..2047
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 mRNAs, 13 long SRA reads, 35
+                     Proteins, and 20% coverage of the annotated genomic feature
+                     by RNAseq alignments"
+                     /db_xref="GeneID:101970163"
+                     /gene="Adrb2"
+     CDS             244..1494
+                     /product="beta-2 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:532076911"
+                     /db_xref="GeneID:101970163"
+                     /translation="MGQPGNGSDFLLASNGSHAPDHNVTQERDEAWVVGMAIVMSLIVL
+                     AIVFGNVLVITAIAKFERLQTVTNYFITSLACADLVMGLAVVPFGASHILMKMWTFGNF
+                     WCEFWTSIDVLCVTASIETLCVIAVDRYFAITSPFKYQSLLTKNKARVVILMVWIVSGL
+                     TSFLPIQMHWYRATHQEAIRCYGNETCCDFFTNQAYAIASSIVSFYLPLVVMVFVYSRV
+                     FQVAKRQLQKIDKSEGRFHAQNLSQMEQDGRGGHGLRRSSKFCLKEHKALKTLGIIMGT
+                     FTLCWLPFFIVNIVHVIKDNLIPKEVYILLNWVGYVNSAFNPLIYCRSPDFRIAFQELL
+                     CLRRSSLKAYGNGYSSNGKSEYTEEQSGYHLGQEKESKLLCEEPPGTEDFVNCQGTVPS
+                     DSIDSQGRNCSTNDSLL"
+                     /gene="Adrb2"
+                     /protein_id="XP_005324245.1"
+     STS             370..1257
+                     /db_xref="UniSTS:265908"
+                     /standard_name="ADRB2"
+                     /gene="Adrb2"
+     STS             660..1114
+                     /db_xref="UniSTS:258478"
+                     /standard_name="ADRB2sts1"
+                     /gene="Adrb2"
+ORIGIN
+        1 aacgggcaga gcgcactccg aagcgacttc tccacagcgc gggctgcagt gaccggctgc
+       61 gctaggtcag agcacctcac aagctgagtg ggcaggacgc gcccccaccg cacccaccct
+      121 acggctgctg aatgaggctt ccaggggtcc actcgctgcc tgcagcgccc cgccggaggt
+      181 gcgcccgttg aggcgcggcc agtgagcagg cagcctgtgc gctcacctgc cagcctgcgc
+      241 gccatggggc aacccgggaa cggcagcgac ttcttgcttg catccaatgg aagccatgcg
+      301 ccggaccaca atgtcacgca ggaaagggac gaggcgtggg tggtgggcat ggccatcgtc
+      361 atgtcgctca tcgtcctagc catcgtgttt ggcaacgtgc tggtcatcac agccattgcc
+      421 aagttcgagc gattgcagac ggtcaccaac tacttcatca cctcactggc ctgcgctgac
+      481 ctcgtcatgg gcctagcggt ggtaccgttt ggggccagcc acatcctcat gaaaatgtgg
+      541 acttttggca acttctggtg tgagttttgg acttctattg atgtgttgtg cgtcaccgcc
+      601 agcattgaga ccctgtgtgt gatagcagtg gatcgctact ttgccatcac atctcccttc
+      661 aagtaccaga gcctgctgac caagaataag gcccgggtgg tcattttgat ggtatggatt
+      721 gtgtcgggcc ttacctcctt cttgcccatc caaatgcact ggtaccgggc cacccatcag
+      781 gaagccatca gatgctatgg caacgagacc tgctgtgact tcttcacgaa ccaagcctat
+      841 gccattgctt cctccatagt gtctttctac ttgcccctgg tggtcatggt ctttgtctat
+      901 tccagggtct tccaggtggc taaaaggcag ctccagaaaa ttgacaaatc tgaggggcga
+      961 tttcacgccc aaaatctcag tcagatggag caggatgggc gtggtgggca tggtcttcgc
+     1021 aggtcctcca agttctgctt gaaggagcac aaagctctta agaccttggg catcatcatg
+     1081 ggcactttta ccctctgctg gctgcccttc ttcattgtga acattgtgca tgtgatcaag
+     1141 gacaacctca tccctaagga agtttacatc ctcctaaact gggtgggcta tgtcaattca
+     1201 gctttcaatc ctcttatcta ctgccggagc ccagatttca ggattgcctt ccaggagctt
+     1261 ctgtgcctac gcaggtcttc tctaaaggcc tatgggaatg gctactccag caatggcaaa
+     1321 tcggagtaca cagaggagca gagtggatat cacctggggc aggagaaaga aagcaaactg
+     1381 ctgtgtgagg agcccccagg cacggaagac tttgtaaact gtcaaggtac tgtgcctagc
+     1441 gatagcattg attcacaagg gaggaattgt agtacaaatg actcactgct gtaatgcagt
+     1501 ttgtttttct tttttacttt ttaagacccc ccccaacaga acactaagca gactatttaa
+     1561 cttgagtgta ataaatttag caaaaaaatt gtatagagat ttgcaggagg agatatccct
+     1621 ctgccttttt tttttatttt tttaagctgt aaaaaagaga agatgtgttt gagtgaatat
+     1681 ttgtttcttg tacagttcag ttcctctttg tgtggaactt ctaagtttat gtctgaaggg
+     1741 cgttagtcct aggacccggg tctgtatgtt ttgatgactt ttccatgtat ctacctcatt
+     1801 gttcaagtat tagggttatt atattgctgc tggtaatttg tatctgaagg agattttcct
+     1861 tcctgcaccc ttggacttga gaatcctgaa tatctcggac ctttcagctg tgaacatgga
+     1921 ctctccctcg ctcctcttat ttgctcaaat ggagtgttgt aggcagggat ttgagggaca
+     1981 gctttgtttt cctgagcaaa gtctaaagtt tacagtaaat aaattgtttg accatgactt
+     2041 cattgca
+//

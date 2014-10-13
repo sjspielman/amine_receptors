@@ -1,0 +1,97 @@
+LOCUS       XM_005480051            1859 bp    DNA              VRT 12-SEP-2013
+DEFINITION  PREDICTED: Zonotrichia albicollis cholinergic receptor, muscarinic 4
+            (CHRM4), transcript variant X2, mRNA.
+ACCESSION   XM_005480051
+VERSION     XM_005480051.1  GI:542141995
+DBLINK      BioProject: PRJNA217032
+KEYWORDS    RefSeq.
+SOURCE      Zonotrichia albicollis (white-throated sparrow)
+  ORGANISM  Zonotrichia albicollis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Fringillidae; Emberizinae; Emberizini; Zonotrichia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005081537.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Zonotrichia albicollis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1859
+                     /mol_type="mRNA"
+                     /isolate="Tan morph"
+                     /sex="male"
+                     /db_xref="taxon:44394"
+                     /tissue_type="hematocrit"
+                     /organism="Zonotrichia albicollis"
+                     /chromosome="Unknown"
+     gene            1..1859
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 1 EST, 19 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 5 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:102065508"
+                     /gene="CHRM4"
+     CDS             184..1719
+                     /product="muscarinic acetylcholine receptor M4 isoform X2"
+                     /codon_start="1"
+                     /db_xref="GI:542141996"
+                     /db_xref="GeneID:102065508"
+                     /translation="MAAENRSAPGGGAPWAGLPDPMHNLSAQPWQAKMANLTYDNFTLG
+                     NHSEVAVQPPTNYKTVELVFIATVTGSLSLVTVVGNILVMLSIKVNRQLQTVNNYFLFS
+                     LACADLIIGVFSMNLYTVYIIKGYWPLGAVVCDLWLALDYVVSNASVMNLLIISFDRYF
+                     CVTKPLTYPARRTTKMAGLMIAAAWILSFILWAPAILFWQFIVGKRTVPERECYIQFLS
+                     NPAVTFGTAIAAFYLPVVIMTVLYIHISLASRSRVRRHKPESRKERKTKSLRFLKGPMV
+                     KQNNNNSPKRAVEVKEEVRNGKVDDQPSAQTEATGHQEEKETSNESSTVSMTQTTKDKP
+                     TAEVLPAGQGQSPAIPRVNPTSKWSKIKIVTKQSGSECVTAIEIVPAKSGASNHNSLAN
+                     SRPVNVARKFASIARSQVRKKRQMAAREKKVTRTIFAILLAFILTWAPYNVMVLINTFC
+                     ETCVPETVWSIGYWLCYVNSTINPACYALCNATFKKTFKHLLMCQYRNIGTAR"
+                     /gene="CHRM4"
+                     /protein_id="XP_005480108.1"
+ORIGIN
+        1 agcgggggag ggcgggggcg gggggaggag gccggggccg agccggcagc gccgggccct
+       61 cccctctccc ctctccccgc ccctccgccg cgcgcggcgc cgccgggacc gggagccggg
+      121 accggagccg ggaccggagc cgggccatgc cagccggagc ccccgcgggc gcggcgcggc
+      181 accatggccg ctgagaaccg ctcggcgccg ggcggcggcg cgccctgggc tgggctgccc
+      241 gatcccatgc acaacctctc tgctcagccc tggcaggcaa agatggccaa cctgacctat
+      301 gacaacttca ccctgggcaa ccactccgag gtggctgtgc agcctcccac caactacaag
+      361 acagtggagc tggttttcat tgccactgtc accggctcac tcagccttgt caccgtggtg
+      421 gggaacatcc tggtgatgct ctccatcaag gtgaaccgcc agctccagac tgtcaacaac
+      481 tatttcctct tcagcctggc ctgcgcagac ctcatcatcg gggtcttctc catgaacctc
+      541 tacacggtct acatcatcaa aggctactgg ccactggggg ccgtggtgtg cgacctgtgg
+      601 ctggctctgg actatgtggt gagcaatgcc tctgtcatga acctgctcat catcagcttt
+      661 gaccggtact tctgtgtcac caagcccctg acgtacccgg ccaggaggac caccaagatg
+      721 gcagggctaa tgatcgcggc cgcgtggata ttgtccttca ttctctgggc ccctgccatc
+      781 ttgttctggc agttcattgt aggcaagagg acagtccctg agagggaatg ttacatccag
+      841 ttcctctcca acccagcggt gacatttggc acagccattg ctgcttttta cctgcccgtg
+      901 gtcatcatga cggtgctgta catccatatc tccctggcca gcagaagcag ggtaaggagg
+      961 cacaagcctg agagcaggaa agagaggaaa accaagtccc tcagattcct caagggcccc
+     1021 atggtcaaac agaacaacaa taattctccc aagagggccg tggaggtgaa ggaggaggtg
+     1081 aggaatggga aagtggatga ccagccatct gcacagacag aggccactgg ccatcaggag
+     1141 gagaaggaga catccaatga gtccagcacc gtcagcatga cccagaccac aaaagacaag
+     1201 cccacagcag aagtcttgcc agcagggcaa ggacagagtc cagccatccc ccgggtgaac
+     1261 ccaacttcca agtggtccaa gattaagatt gtcaccaagc agtctgggtc tgaatgtgtc
+     1321 accgccattg agatcgtgcc agctaagtca ggtgcctcta accacaactc cctggccaac
+     1381 agccgcccag tcaatgttgc caggaagttt gccagcatcg ccaggagcca ggtacggaag
+     1441 aagcgccaga tggctgcccg ggagaagaaa gtcacccgca ccatatttgc catcctgctg
+     1501 gccttcatac tcacgtgggc accctacaac gtgatggtcc tcattaacac cttctgtgag
+     1561 acctgcgtgc ccgaaacagt gtggtccatc ggctactggc tctgctatgt caacagcacc
+     1621 atcaacccag cctgctatgc cctctgcaat gctactttca agaaaacctt caagcacctt
+     1681 ctcatgtgcc agtacaggaa cattggcaca gccagataaa ctggtactca gggaccactt
+     1741 cagtatcctt atggaaaccc ttccctttgc ctcctttgcc agcaggggtt cttctgctca
+     1801 ccactcacaa cagtgcagac tgtgcagtga ttgcagagga tgcccttcat ccaatgctg
+//

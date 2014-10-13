@@ -1,0 +1,66 @@
+LOCUS       XP_006271314             602 aa                     VRT 09-DEC-2013
+DEFINITION  PREDICTED: muscarinic acetylcholine receptor M3-like [Alligator
+            mississippiensis].
+ACCESSION   XP_006271314
+VERSION     XP_006271314.1  GI:564264953
+DBLINK      BioProject: PRJNA221578
+KEYWORDS    RefSeq.
+SOURCE      Alligator mississippiensis (American alligator)
+  ORGANISM  Alligator mississippiensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Crocodylia;
+            Alligatoridae; Alligatorinae; Alligator.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006231497.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Alligator mississippiensis
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..602
+                     /note="assembly comes from two alligators"
+                     /db_xref="taxon:8496"
+                     /organism="Alligator mississippiensis"
+                     /chromosome="Unknown"
+                     /country="USA: Florida"
+     Protein         1..602
+                     /product="muscarinic acetylcholine receptor M3-like"
+                     /calculated_mol_wt="67504"
+     Region          88..>269
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          100..>275
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..602
+                     /coded_by="XM_006271252.1:109..1917"
+                     /gene="LOC102577235"
+                     /db_xref="GeneID:102577235"
+ORIGIN
+        1 mimhnnstis plvsnvssfw nrdtqgpgpv ddttlftgsy dftqknesfp ftsveatnas
+       61 lnetgkdplg ghtvwqvvli afltgilalv tiignilvia afkvnkqlkt vnnyfllsla
+      121 cadliigvis mnlsttyiim gqwalgnlac dlwlsidyva snasvmnllv isfdryfsit
+      181 rpltyrakrt tkragvmigl awvisfilwa pailfwqyfv gkrtvppnec fiqflsvpii
+      241 tfgtaiaafy lpvtimsily wriyketekr tkelaglqas gteaeavqfv hqtgssrscs
+      301 syelqqqslk hsnrrkfrrc hfwltakswk psadpgdqeh sssdswnnnd aaaslensas
+      361 sdeediaset raiysivlkl pghsailnst klpssedlhv sgdelqksdt eskerkhkkl
+      421 haqksvddeg ifqksfsklp vqpgsaaetn ktadgissvt ttpaalplsf keatlakkfa
+      481 lktrsqitkr krmslikekk aaqtlsailf afiitwtpyn imvlvntfce dcipktfwnl
+      541 gywlcyinst vnpmcyalcn ktfrttfkml llcqcdkrkr rkqqyqqrqs vifhkripre
+      601 as
+//

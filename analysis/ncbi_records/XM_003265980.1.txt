@@ -1,0 +1,103 @@
+LOCUS       XM_003265980            2071 bp    DNA              PRI 14-JAN-2013
+DEFINITION  PREDICTED: Nomascus leucogenys 5-hydroxytryptamine (serotonin)
+            receptor 1A, G protein-coupled (HTR1A), mRNA.
+ACCESSION   XM_003265980
+VERSION     XM_003265980.1  GI:332233672
+DBLINK      BioProject: PRJNA62133
+KEYWORDS    RefSeq.
+SOURCE      Nomascus leucogenys (northern white-cheeked gibbon)
+  ORGANISM  Nomascus leucogenys
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hylobatidae; Nomascus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004087906.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Nomascus leucogenys Annotation Release 101
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2071
+                     /mol_type="mRNA"
+                     /isolate="Asia; international studbook 0098"
+                     /sex="female"
+                     /db_xref="taxon:61853"
+                     /tissue_type="blood"
+                     /organism="Nomascus leucogenys"
+                     /chromosome="18"
+     gene            1..2071
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 mRNAs, 47 ESTs, 12 Proteins"
+                     /db_xref="GeneID:100595976"
+                     /gene="HTR1A"
+     misc_feature    261..263
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR1A"
+     CDS             402..1670
+                     /product="5-hydroxytryptamine receptor 1A"
+                     /codon_start="1"
+                     /db_xref="GI:332233673"
+                     /db_xref="GeneID:100595976"
+                     /translation="MDVLSPGQGNNTTSPPAPFETGGNTTGISDVTFSYQVITSLLLGT
+                     LIFCAVLGNACVVAAIALERSLQNVANYLIGSLAVTDLMVSVLVLPMAALYQVLNKWTL
+                     GQVTCDLFIALDVLCCTSSILHLCAIALDRYWAITDPIDYVNKRTPRRAAALISLTWLI
+                     GFLISIPPMLGWRTPEDRSDPDACTISKDHGYTIYSTFGAFYIPLLLMLVLYGRIFRAA
+                     RFRIRKTVKKVEKTGADTRLGASPAPQPKKSVNGESGSRNWRLGVENKAGGALCANGAV
+                     RQGDDGAALEVIEVHRVGNSKEHLPLPSEAGPTPCAPASFERKNERNAEAKRKMALARE
+                     RKTVKTLGIIMGTFILCWLPFFIVALVLPFCESSCHMPTLLGAIINWLGYSNSLLNPVI
+                     YAYFNKDFQNAFKKIIKCKFCRQ"
+                     /gene="HTR1A"
+                     /protein_id="XP_003266028.1"
+     STS             402..1670
+                     /db_xref="UniSTS:481605"
+                     /gene="HTR1A"
+     STS             1445..1708
+                     /db_xref="UniSTS:27760"
+                     /standard_name="RH70818"
+                     /gene="HTR1A"
+ORIGIN
+        1 cttctcggtt ctagatattt ctgggattgg agactgtttg ctagtgggga gactccagct
+       61 ccggcagcca gttcgggagc ggcaaagtaa gatggacagc gacagacaga cgttccagcc
+      121 acctctccgc cgcggggaga tcctggagct gctttcaggc caactccagt ttcccagctg
+      181 gagcctctga acgcgctgga ctgcgcgagc acagggagcg ccagaaagct gctccccgga
+      241 gatacccttc gccgaagcag taagaacttc ctgcttgggt ccctgcattc cctccctccg
+      301 aaacttccca ggagaagggc ggaagacccc aggggaaggg gcgaggcgaa tcttcgcgct
+      361 gctttttctt ccctccccct tcccgcgcca ggcgcgcagg catggatgtg ctcagccctg
+      421 gtcagggcaa caacaccaca tcaccaccgg ctccctttga gaccggcggc aacactactg
+      481 gtatctccga cgtgaccttc agctaccaag tgatcacctc tctgctgctg ggcacgctca
+      541 tcttctgcgc ggtgctgggc aatgcgtgcg tggtggctgc catcgccttg gagcgctccc
+      601 tgcagaacgt ggccaattat cttattggct ctttggcggt caccgacctc atggtgtccg
+      661 tgttggtgct gcccatggcc gcgctgtatc aggtgctcaa caagtggaca ctgggccagg
+      721 tcacctgcga cctgttcatc gccctcgacg tgctgtgctg cacctcatcc atcctgcacc
+      781 tgtgcgccat cgctctggac aggtactggg ccatcacgga ccccatcgac tacgtgaaca
+      841 agaggacgcc ccggcgcgcc gctgcgctaa tctcgctcac ttggcttatt ggcttcctca
+      901 tctctatccc gcccatgctg ggctggcgca ccccggaaga ccgctcggac cccgacgcat
+      961 gcaccattag caaggaccac ggctacacta tctattccac cttcggagcc ttctacatcc
+     1021 cgctgctgct catgctggtt ctctatgggc gcatattccg agctgcgcgc ttccgcatcc
+     1081 gcaagacggt caaaaaggtg gagaagaccg gagcggacac ccgccttgga gcatctcccg
+     1141 ccccgcagcc caagaagagc gtgaatggag agtcggggag caggaactgg aggctgggcg
+     1201 tggagaacaa ggctgggggt gctctgtgtg ccaatggcgc ggtgaggcaa ggtgacgatg
+     1261 gtgccgccct ggaggtgatc gaggtgcacc gagtgggcaa ctccaaagag cacttgcctc
+     1321 tgcccagcga ggctggtcct accccttgtg cccccgcttc tttcgagagg aaaaatgagc
+     1381 gcaacgccga ggcgaagcgc aagatggccc tggcccgaga gaggaagaca gtgaagacgc
+     1441 tgggcatcat catgggcacc ttcatccttt gctggctgcc cttcttcatc gtggctcttg
+     1501 ttctgccctt ctgcgagagc agctgccaca tgcccaccct gttgggcgcc ataatcaatt
+     1561 ggctgggcta ctccaactct ctgcttaacc ccgtcattta cgcatacttc aacaaggact
+     1621 ttcaaaacgc gtttaagaag atcattaagt gtaagttctg ccgccagtga tgacggagaa
+     1681 gtagcctgcc agtcggggct acaggatccg tcccattcac tatgcttccc ccaaccctag
+     1741 ggaatcaaca cttaagataa tttgccactt cccctctttc tctctgctcc gctcatggct
+     1801 tgcggacctg gtcccctccc cacttcctgc tccagggcag ggcgcttttt gcaaaggaga
+     1861 cccagcggag gggcgtgaga gccaggaaat tcagagagtt tgtgagaagc gacattggct
+     1921 cggactttgc ctgtagcatc agttttgatc ccagcaattg cctcttctct cttctatctc
+     1981 ctaaatcttt gcgttggatg tttaatcctt agttcaaggc agaaaatcca aaaaataaat
+     2041 aaactgtaca cacagccgcc gcgcccacta a
+//

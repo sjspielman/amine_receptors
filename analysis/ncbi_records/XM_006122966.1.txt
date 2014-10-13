@@ -1,0 +1,91 @@
+LOCUS       XM_006122966            1664 bp    DNA              VRT 15-NOV-2013
+DEFINITION  PREDICTED: Pelodiscus sinensis 5-hydroxytryptamine (serotonin)
+            receptor 2A, G protein-coupled (HTR2A), mRNA.
+ACCESSION   XM_006122966
+VERSION     XM_006122966.1  GI:558161798
+DBLINK      BioProject: PRJNA221645
+KEYWORDS    RefSeq.
+SOURCE      Pelodiscus sinensis (Chinese soft-shelled turtle)
+  ORGANISM  Pelodiscus sinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Testudines; Cryptodira;
+            Trionychoidea; Trionychidae; Pelodiscus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005855214.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pelodiscus sinensis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1664
+                     /mol_type="mRNA"
+                     /country="Japan: Saga"
+                     /isolate="Daiwa-1"
+                     /sex="female"
+                     /db_xref="taxon:13735"
+                     /organism="Pelodiscus sinensis"
+                     /chromosome="Unknown"
+     gene            1..1664
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 9 Proteins, and 88% coverage of the
+                     annotated genomic feature by RNAseq alignments, including 1
+                     sample with support for all annotated introns"
+                     /db_xref="GeneID:102444453"
+                     /gene="HTR2A"
+     CDS             139..1611
+                     /product="5-hydroxytryptamine receptor 2A"
+                     /codon_start="1"
+                     /db_xref="GI:558161799"
+                     /db_xref="GeneID:102444453"
+                     /translation="MVTKGYNFLFFHCTSAPVSDLAMDSLCDEENPTVNSLIQLNHERR
+                     FYTNVFWPGEVNTSHLFNLTMDSENLTNLSCDGRVTPPCHSSLFHLSEKNWPALLTVIV
+                     IVLTIAGNILVIMAVSLEKKLQNATNYFLMSLAIADMLLGFLVMPVSMLTILYGYTWPL
+                     PTKLCAVWIYLDVLFSTASIMHLCAISLDRYIAIRNPIHHSRFNSRTKAFAKIIAVWTI
+                     SVGISMPVPVFGLQDDSKVFKKCSCLLADESFVLIGSFVAFFIPLTIMVVTYFLTIKSL
+                     QKEATLCINDLGTKTKFASFSFFPQSSLSSEKLFQRSLNRDLRNSGRRTMQSISNEQKA
+                     SKVLGIVFFLFVVMWCPFFITNVMAVICKKSCNEKVIGVLLNVFVWIGYLSSAVNPLVY
+                     TLFNKTYRSAFSRYIQCRYKEEKKPLQLILVNTIPALAYNSSQLQLAQMKSLKKEAKMM
+                     AKDYSMVAIGIHPLDSTSKGSISPVSEKVSCV"
+                     /gene="HTR2A"
+                     /protein_id="XP_006123028.1"
+ORIGIN
+        1 aaacaaaagt atctgaggat ccagaataac tccatccatt ttctcagtgt tatgttaaag
+       61 atgaaaatac aatcaatcat aaagagtacc tccttttcat cagcttcagc tttgaacaac
+      121 agaggaatat aaagcctgat ggtgacaaag ggttataatt ttttgttttt tcactgtaca
+      181 tctgccccgg tttcagactt agcaatggat agtctttgtg atgaggagaa cccaactgtg
+      241 aattctttaa tccaattaaa tcatgaaaga agattctaca caaatgtttt ttggcctgga
+      301 gaggttaata catctcatct gtttaatttg actatggact ccgaaaacct aactaatctt
+      361 tcatgtgacg gtagagtgac tccaccgtgc cattcctcac tatttcatct ttcagagaaa
+      421 aactggccag ctctgctgac agttattgtg attgttctaa ccattgctgg aaatattctt
+      481 gttatcatgg ctgtgtcact ggagaaaaag ctacagaatg ccactaatta ttttctaatg
+      541 tcactcgcaa tagctgatat gctgttgggt ttccttgtca tgcctgtgtc aatgttaacc
+      601 atactgtatg gatatacatg gcctctgcct acaaaactct gtgctgtctg gatctatttg
+      661 gatgtgcttt tctccactgc ctccatcatg cacctctgcg ccatctctct ggatcgctat
+      721 attgccatac gaaatcccat ccatcacagc cgctttaact ccagaactaa agctttcgca
+      781 aaaataattg ctgtttggac catatcagtt ggtatctcaa tgccagtccc tgtgtttgga
+      841 ctacaagatg attccaaagt gttcaagaaa tgtagctgcc tgctggctga tgagagcttt
+      901 gtcttaatag gctcgtttgt ggcgttcttc attcctttaa ccatcatggt ggtcacctat
+      961 tttttaacta taaaatcact ccagaaagaa gctaccttat gcattaatga cctaggcaca
+     1021 aagaccaagt ttgcttcatt tagttttttc cctcaaagtt ctctgtcatc agagaaactc
+     1081 tttcaacgct ctttgaacag agacctgagg aactcaggaa ggaggactat gcagtctatc
+     1141 agtaatgaac aaaaagcttc caaggtactt ggtatcgtct tctttctctt tgttgtgatg
+     1201 tggtgcccct ttttcatcac caatgtgatg gcagtcattt gcaagaagtc ttgcaatgaa
+     1261 aaagtcatcg gagtactgct taatgtattt gtctggattg gctacctttc atcagctgtc
+     1321 aacccattgg tatacacact gttcaataaa acctaccgtt ctgctttctc acggtatatt
+     1381 cagtgtcgat acaaggagga gaagaagcct ttacagctga tattagtgaa cactatacct
+     1441 gctttagcat ataactccag ccagctccag ctagcacaaa tgaagagttt aaaaaaagag
+     1501 gctaaaatga tggccaagga ttattctatg gttgcaattg gaatacatcc tttagatagt
+     1561 acctcaaagg gcagtattag cccagtcagt gaaaaggtta gctgtgtgtg actctgccag
+     1621 cctgtcaaca gctgccatgg caaccaatgg tatgtactca gaga
+//

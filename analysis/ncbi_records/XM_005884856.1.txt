@@ -1,0 +1,87 @@
+LOCUS       XM_005884856            1503 bp    DNA              MAM 29-OCT-2013
+DEFINITION  PREDICTED: Myotis brandtii 5-hydroxytryptamine (serotonin) receptor
+            5A, G protein-coupled (HTR5A), mRNA.
+ACCESSION   XM_005884856
+VERSION     XM_005884856.1  GI:554587017
+DBLINK      BioProject: PRJNA218631
+KEYWORDS    RefSeq.
+SOURCE      Myotis brandtii (Brandt's bat)
+  ORGANISM  Myotis brandtii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Microchiroptera;
+            Vespertilionidae; Myotis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005371540.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Myotis brandtii Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1503
+                     /mol_type="mRNA"
+                     /collection_date="Dec-2011"
+                     /country="Russia: Perm poKrai"
+                     /sex="male"
+                     /note="collected at hibernation roost"
+                     /db_xref="taxon:109478"
+                     /lat_lon="58.8348 N 57.6119 E"
+                     /organism="Myotis brandtii"
+                     /chromosome="Unknown"
+     gene            1..1503
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 Protein, and 82% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:102253080"
+                     /gene="HTR5A"
+     CDS             1..966
+                     /product="5-hydroxytryptamine receptor 5A"
+                     /codon_start="1"
+                     /db_xref="GI:554587018"
+                     /db_xref="GeneID:102253080"
+                     /translation="MDLPGNLTTNLSLGTEDPRPRPLRLSVLGAFVLTLLGCLVAATFA
+                     WNALVLATIAHVRTFHRAPYNLVVSMAVSDVLVATLWIACDVLCCTASIWSVMAIALDR
+                     YWSITRHLAYTRGTRRRVSNFMIALTWALSAAISLAPLLFGWGEIYSERREACQVSRAP
+                     AYAVVSTLSAFYLPLGVVLFVYCKIYRAARLRLGFRRSNSVHPAPKAVQRVPAQEPQML
+                     FTARHNTVTFQAEGDTWREQKEQRAAVMVGTLIGVFAICWIPFFTTELVSPLCACDPPA
+                     LWKSIFLWLGYSNSFFNPLIYTAFNKSYSNAVRSFFCRQH"
+                     /gene="HTR5A"
+                     /protein_id="XP_005884918.1"
+ORIGIN
+        1 atggatttgc ctgggaacct aacgaccaac ctcagcctgg gcacagaaga cccgcgcccc
+       61 cgcccgctcc gcctctcggt gctcggcgcc tttgtgctga ccttgctcgg ctgtctggtg
+      121 gcagcgacct tcgcctggaa cgcgctggta ctggcgacaa ttgcgcatgt gcgcaccttc
+      181 caccgcgctc cgtacaacct ggtggtgtcc atggccgtct cggacgtgct ggtggccacg
+      241 ctgtggatcg cgtgcgatgt tctctgctgc acagctagta tctggagtgt gatggccatc
+      301 gcgctggacc gctattggtc catcacgcgc cacctggcgt acacgcgggg cacgcgtcgg
+      361 cgcgtctcca acttcatgat cgcgctgacg tgggcgctgt ccgcggccat ctcgctggcg
+      421 ccgctgctct ttggctgggg ggagatctac tcggagcgcc gggaggcctg ccaggtgagc
+      481 cgtgcgcccg cctacgccgt ggtctccacg ctgagcgcct tctacctgcc actgggcgtg
+      541 gtgctgttcg tgtactgcaa gatctacagg gcggcccggc tgcggctggg ctttcggagg
+      601 agcaacagcg tgcatcctgc gccgaaggct gtgcagaggg tccctgctca ggagccccag
+      661 atgctgttca ccgcccgcca caacaccgtc accttccagg cagaagggga cacgtggagg
+      721 gagcagaagg agcagagagc cgccgtgatg gtgggcactc tcatcggggt gtttgccatc
+      781 tgctggatcc ccttcttcac cacggagctc gtcagccccc tctgcgcctg cgacccccct
+      841 gccctctgga agagcatctt cctttggctc ggctactcca actccttctt caaccccctg
+      901 atctacacgg ccttcaacaa gagctacagc aacgccgtca ggagcttctt ctgtaggcag
+      961 cactgagtcc caggacctgg gattaaaaag ggctaattcc ataactcagt gaaatcttca
+     1021 gtgtggcctg tgtccccatc cccagctggc agcacacagc ctagaccagc ccctcagttc
+     1081 tcccgtggcc ttcaaagccc ccttctccat cccagccagg aaggcggccg ccgggctgat
+     1141 gtggtgacct ctttatctca tagatctact ctttctcatt ctgcacctaa tagctacctt
+     1201 gcccactaag tgccctttcc tctcccaaat ccagcatggc cgtcatcctc gtgcctgaga
+     1261 agtcaaacat ggcatatgca agggaggaaa taaaataata tgggcaggtt gagaaggaaa
+     1321 ttgaaaaatg agtaagaagt tataatgggg acctgggtgg ggggggcggt gtaggaaacc
+     1381 atcattccaa gtatgaaatg gtccctactt caaatttttc tttccatggt cctgatggtg
+     1441 caccctaata tttattgtgt gtcccaatat ttgactgcaa aatactgcct ctaaccataa
+     1501 taa
+//

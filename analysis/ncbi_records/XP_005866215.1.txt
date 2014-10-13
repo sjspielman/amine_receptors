@@ -1,0 +1,76 @@
+LOCUS       XP_005866215             602 aa                     MAM 29-OCT-2013
+DEFINITION  PREDICTED: D(1B) dopamine receptor [Myotis brandtii].
+ACCESSION   XP_005866215
+VERSION     XP_005866215.1  GI:554543196
+DBLINK      BioProject: PRJNA218631
+KEYWORDS    RefSeq.
+SOURCE      Myotis brandtii (Brandt's bat)
+  ORGANISM  Myotis brandtii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Microchiroptera;
+            Vespertilionidae; Myotis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005358369.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Myotis brandtii Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..602
+                     /collection_date="Dec-2011"
+                     /country="Russia: Perm poKrai"
+                     /sex="male"
+                     /note="collected at hibernation roost"
+                     /db_xref="taxon:109478"
+                     /chromosome="Unknown"
+                     /organism="Myotis brandtii"
+                     /lat_lon="58.8348 N 57.6119 E"
+     Protein         1..602
+                     /product="D(1B) dopamine receptor"
+                     /calculated_mol_wt="67260"
+     Region          <63..>192
+                     /note="M14 family of metallocarboxypeptidases and related
+                     proteins; cl11393"
+                     /db_xref="CDD:264346"
+                     /region_name="Peptidase_M14_like"
+     Site            order(104,113..114,152..153,162)
+                     /db_xref="CDD:199839"
+                     /site_type="active"
+     Region          207..484
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <267..>319
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     CDS             1..602
+                     /coded_by="XM_005866153.1:1..1809"
+                     /gene="DRD5"
+                     /db_xref="GeneID:102243447"
+ORIGIN
+        1 mvygdlhela wysifswsph mvtcgtltap dycrawgrag kmvgagtgef pgivgkslae
+       61 tlpasgiidf lisqhpiahv lrehlvfkia pmlypdgvyl gnyrcslmgf dlnrhwldps
+      121 pwahptlygv kqliiqmynd pktslefyid ihahstmmng fmygnvfede erfqrqaifp
+      181 kllcqnaedf syllivwtll gnvlvcaaiv rsrhlrarmt hmfivslavs dlfvallvmp
+      241 wkavaevagh wpfgafcdvw vafdimcsta silnlcvisv drywaisrpf syqqrmtprv
+      301 alvmvglawt lsilisfipv qlhwhrdeag spgavdpppa dlangtswgt agdpevreen
+      361 cdsslnrtya iasslisfyi pvaimivtya riyriahaqi rriaclerag qraqrcgkvl
+      421 ktlsmimgvf vccwlpffll ncmapfcsrr pegaragfpc vsdttfdvfv wfgwanssln
+      481 pviyafnadf rkvfaqllgc grlcsrrrtr vatvtlsnel isydqdtvfs retatayshv
+      541 vpsevtphhr egdkeeegpl dlmcqnsqas pegdpaaqsv welgceaets lgkmpfsssg
+      601 fh
+//

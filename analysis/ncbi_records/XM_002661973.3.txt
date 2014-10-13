@@ -1,0 +1,94 @@
+LOCUS       XM_002661973            1918 bp    DNA              VRT 01-AUG-2013
+DEFINITION  PREDICTED: Danio rerio 5-hydroxytryptamine receptor 7-like
+            (LOC572143), mRNA.
+ACCESSION   XM_002661973
+VERSION     XM_002661973.3  GI:528478698
+DBLINK      BioProject: PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001878996.3) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Aug 1, 2013 this sequence version replaced gi:326667701.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1918
+                     /strain="Tuebingen"
+                     /mol_type="mRNA"
+                     /organism="Danio rerio"
+                     /chromosome="5"
+                     /db_xref="taxon:7955"
+     gene            1..1918
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 ESTs, 4 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 3 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:572143"
+                     /gene="LOC572143"
+     CDS             255..1457
+                     /product="5-hydroxytryptamine receptor 7"
+                     /codon_start="1"
+                     /db_xref="GI:528478699"
+                     /db_xref="GeneID:572143"
+                     /translation="MMFNSSLDFFSFTHPEVASEVLNGSSHFFYNISMAMWNKSCGEQL
+                     LDFTAAEKIVIGLMLAIITTVTVIGNMLVVIAVCVVKKLRQPSNYLLVSLAVADLSVAI
+                     VVMPFVIVTDLTGGKWLFGEVFCNIFIGMDVMCCTASIMTLCVISVDRYLGITRPLTYP
+                     ARQNGQLMAKMIFGVWLVSASITLPPFCGWAKNVNTAGVCLISQDFGYTIYSTAVAFYI
+                     PMIVMLFMYYKIFKAARKSGAKHRFTDFSRRERLETVASEALRMQGLKPQHTPGVAEEC
+                     AALSRLLSRERQNISIFKREQKAATTLGVIVGVFGICWLPFFILSTARPFICGVKCSCI
+                     PIWLERTLLWFGYANSLMNPFIYAFFNRDLRSTYRDLLRCRYRNINRRLSAVGVHEALK
+                     V"
+                     /gene="LOC572143"
+                     /protein_id="XP_002662019.3"
+ORIGIN
+        1 gcaagaagaa cacaactgtc acttctatca agtcaagcgc gtacagtctc tccagccaaa
+       61 ccacagcgat tgtcctccct ctttattgaa gtttttctcg gttgcatccg tacgactttt
+      121 tttcttttct ctcttttgga aagctggaaa acaccccgga tccgcgctcg cttcagcatg
+      181 cgtttggcgc acggagcgca ctcttggcga gctcttcatc atcaccatca tcaccaccat
+      241 catcaggcgc agggatgatg ttcaactcct cgcttgattt cttctcgttc actcaccccg
+      301 aggtcgcgtc ggaagttctc aatggttcct cacacttctt ctacaacatc tcgatggcca
+      361 tgtggaacaa atcctgcggg gagcagctgc tggacttcac cgcggcggag aagatcgtca
+      421 tcggcttgat gctggccatc atcaccaccg tgacggtgat tgggaatatg ctggtggtta
+      481 tcgccgtgtg cgtggtcaag aagctccgac agccctccaa ctatctgctt gtgtccctgg
+      541 ccgtggccga tctctccgtg gccatcgtgg tgatgccgtt tgtgatcgtg accgacctga
+      601 ccgggggaaa gtggctgttt ggagaggtct tctgcaatat cttcatcggc atggatgtga
+      661 tgtgctgcac cgcgtccatc atgacgctgt gcgtgatcag tgtggacaga taccttggca
+      721 tcacccgccc tttgacctac cctgctcgtc aaaatggtca acttatggcc aagatgatct
+      781 ttggcgtgtg gctggtgtct gcctccatca cgcttccgcc attttgcggc tgggcgaaga
+      841 acgtcaacac ggctggcgtc tgtctgatca gccaggactt cggctacacc atctactcca
+      901 ctgctgtggc cttctacatc cccatgatcg tcatgctctt catgtactac aagatcttca
+      961 aagctgccag aaaaagcggc gccaagcatc gattcaccga cttctcccgc agggaacgac
+     1021 ttgaaaccgt cgccagcgaa gctctgagga tgcaaggcct aaaacctcaa cacacgcctg
+     1081 gagtagcaga ggagtgcgcc gctctttctc gattgctcag ccgcgaacga cagaacatct
+     1141 ccatatttaa gagggagcag aaagcagcga ccacacttgg agtgatagtt ggagtttttg
+     1201 ggatttgctg gctgccgttt ttcattcttt ctacagcgag accgttcatt tgtggggtca
+     1261 agtgtagttg cataccgatc tggctggaga ggacgctgtt gtggtttgga tatgcaaatt
+     1321 cattaatgaa ccccttcatt tatgcttttt tcaatcggga cctgcgatcc acctacagag
+     1381 acttgctacg ttgcagatac cggaatataa accgccgact gtcggctgtt ggtgtgcatg
+     1441 aggcactgaa ggtttaaaaa aaaaaagaaa taagaaaaaa agtgaagtta taaagggtga
+     1501 catttggccc caatttggtt gacgcacagg ttagtgatga tggaatcact gtcagccaag
+     1561 aaagacttca aagctgaaca atgtgcaatg ctacattcac ttttttattg gcagagtctt
+     1621 agcaaatgca ggaatcacag gctcctgctt cttcagaaca ttcatatttg agttgcattg
+     1681 aggtcagtat ttatttattt tttttgataa tgattttgct gttagccggt gggctatgat
+     1741 gtgttaagct tgatttcact gaggatttga acaagcaaaa tacctgccaa ttcagcactt
+     1801 attcttgagc cataacaaaa caaaaaacgg aaaataataa atcaatagta gttaacaaaa
+     1861 atgctgaatt cattaaaaac aatataaata atggaaatgg actttaggca gctaaaat
+//

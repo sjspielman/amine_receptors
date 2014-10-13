@@ -1,0 +1,70 @@
+LOCUS       XP_005236421             488 aa                     VRT 08-AUG-2013
+DEFINITION  PREDICTED: muscarinic acetylcholine receptor M4 [Falco peregrinus].
+ACCESSION   XP_005236421
+VERSION     XP_005236421.1  GI:529433270
+DBLINK      BioProject: PRJNA198010
+KEYWORDS    RefSeq.
+SOURCE      Falco peregrinus (peregrine falcon)
+  ORGANISM  Falco peregrinus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Falconiformes;
+            Falconidae; Falco.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004930124.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Falco peregrinus Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..488
+                     /collection_date="Oct-2010"
+                     /country="United Arab Emirates: Abu Dhabi Falcon Hospital"
+                     /sex="male"
+                     /db_xref="taxon:8954"
+                     /organism="Falco peregrinus"
+                     /chromosome="Unknown"
+     Protein         1..488
+                     /product="muscarinic acetylcholine receptor M4"
+                     /calculated_mol_wt="54736"
+     Region          52..>256
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          65..462
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          229..>318
+                     /note="Learning-associated protein; pfam10169"
+                     /db_xref="CDD:255802"
+                     /region_name="Laps"
+     CDS             1..488
+                     /coded_by="XM_005236364.1:1..1467"
+                     /gene="CHRM4"
+                     /db_xref="GeneID:101913200"
+ORIGIN
+        1 mrnlsaqpwq akmanltydn ftlgnrseva iqpptnyktv elifiatvtg slslvtvvgn
+       61 ilvmlsikvn rqlqtvnnyf lfslacadli igvfsmnlyt vyiikgywpl gavvcdlwla
+      121 ldyvvsnasv mnlliisfdr yfcvtkplty parrttkmag lmiaaawils filwapailf
+      181 wqfivgkrtv perecyiqfl snpavtfgta iaafylpvvi mtvlyihisl asrsrvrrhk
+      241 pesrkerkgk slsffkgpmi kqnnnnspkr amevkeevrn gkvddqpsaq teatghqeek
+      301 etsnesstvs mtqttkdkpt aeilpagqgq spshprvnps skwskikivt kqtgtecvta
+      361 ieivpakasd hnslansrpa nvarkfasia rsqvrkkrqm aarekkvtrt ifaillafil
+      421 twtpynvmvl intfcetcvp etvwsigywl cyvnstinpa cyalcnatfk ktfkhllmcq
+      481 yrnigtar
+//

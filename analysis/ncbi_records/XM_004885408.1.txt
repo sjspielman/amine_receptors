@@ -1,0 +1,97 @@
+LOCUS       XM_004885408            1579 bp    DNA              ROD 18-JUN-2013
+DEFINITION  PREDICTED: Heterocephalus glaber adrenoceptor beta 2, surface
+            (Adrb2), mRNA.
+ACCESSION   XM_004885408
+VERSION     XM_004885408.1  GI:512844331
+DBLINK      BioProject: PRJNA167983
+KEYWORDS    RefSeq.
+SOURCE      Heterocephalus glaber (naked mole-rat)
+  ORGANISM  Heterocephalus glaber
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Bathyergidae; Heterocephalus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004631535.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Heterocephalus glaber Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1579
+                     /db_xref="taxon:10181"
+                     /mol_type="mRNA"
+                     /organism="Heterocephalus glaber"
+                     /chromosome="Unknown"
+                     /sex="male"
+     gene            1..1579
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 17 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101708921"
+                     /gene="Adrb2"
+     misc_feature    183..185
+                     /note="upstream in-frame stop codon"
+                     /gene="Adrb2"
+     CDS             219..1475
+                     /product="beta-2 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:512844332"
+                     /db_xref="GeneID:101708921"
+                     /translation="MGHLGNGSDFLLAPNTSYAPDRNVTQERDEAWVVGMAIVMSLIVL
+                     AIVFGNVLVITAIAKFERLQTVTNYFITSLACADLVMGLAVVPFGASHILMKMWTFGNF
+                     WCEFWTSIDVLCVTASIETLCVIAVDRYFAITSPFKYQSLLTKNKARVVILMVWVVSGL
+                     TSFLPIQMHWYRATHQEAINCYAKETCCDFFTNQAYAIASSIVSFYLPLVVMVFVYSRV
+                     FQVAKRQLQKIDRSEGRFHTQNLSQVEPDGRSGHGIRRSSKFYLKEHKALKTLGIIMGT
+                     FTLCWLPFFIVNIVHVIRDNLIPKEVYILLNWVGYVNSAFNPLIYCRSPDFRIAFQELL
+                     CLRRPSLKAYGNGYSSNSNGKTNYTGEPSVCHQGQEKERELLCEDPPGTEDFVTCPGTV
+                     PSDSIDSQGRNCSTNDSLL"
+                     /gene="Adrb2"
+                     /protein_id="XP_004885465.1"
+     STS             345..1232
+                     /db_xref="UniSTS:265908"
+                     /standard_name="ADRB2"
+                     /gene="Adrb2"
+     STS             635..1089
+                     /db_xref="UniSTS:258478"
+                     /standard_name="ADRB2sts1"
+                     /gene="Adrb2"
+ORIGIN
+        1 ggcttcttca gggcgccagc tggaacggga ggcagcgcga gcccagaaca ccccacaagc
+       61 tgagcatgca ggaggcgccc atccacagcc accccacggc tgctgaatga ggcttctagg
+      121 cgtccacccg cggcccgcag cgccccgccg gaggggcgcc cgctgaggcg cggcagctct
+      181 gctgacagcc cctgtgctca cctgctccct tgcgcgccat ggggcacctt gggaacggca
+      241 gcgacttctt gttggcgccc aacacaagct acgcgccaga ccgcaacgtc acgcaggaac
+      301 gggacgaggc atgggtggtg ggcatggcca tcgtcatgtc gctcatcgtc ctggccattg
+      361 tgtttggcaa cgtgctggtc atcacggcca ttgccaagtt cgagcgcctg cagacggtca
+      421 ccaactactt catcacctca ctggcctgcg ccgacctagt catgggcctc gcagtggtgc
+      481 catttggggc cagccacatc ctcatgaaaa tgtggacttt tggcaacttc tggtgcgagt
+      541 tttggacttc cattgatgtg ttgtgcgtca ccgccagcat cgagactttg tgcgtgatcg
+      601 cagtggatcg atactttgcc attacgtcac ctttcaagta tcagagcctg ctgaccaaga
+      661 ataaggcccg ggtggtcatc ctgatggtgt gggttgtgtc gggactcacg tccttcttgc
+      721 ccatccagat gcactggtac cgggccaccc accaggaagc catcaactgc tatgccaagg
+      781 agacctgctg tgacttcttc acgaaccaag cctatgccat tgcctcctcc atcgtgtcct
+      841 tctacttacc cctggtggtc atggtctttg tctactccag ggtcttccaa gtggccaaaa
+      901 ggcagctcca aaagattgac agatctgagg gccgattcca cactcaaaat ctcagccagg
+      961 tggagccgga tgggaggagt gggcatggaa ttcgcaggtc ttccaagttc tacttgaaag
+     1021 aacacaaagc tctcaagacc ttaggcatca tcatgggcac ttttaccctc tgctggctgc
+     1081 ccttcttcat tgtcaacatt gtgcatgtca ttcgggacaa cctcatccct aaggaagttt
+     1141 acatcctcct aaactgggtg ggctatgtca attctgcttt taatcccctc atctactgcc
+     1201 ggagtccaga tttcaggatt gccttccagg agctgctgtg tctgcgcagg ccttctttga
+     1261 aggcttatgg gaatggctac tccagcaaca gcaacggcaa aacgaactac accggggagc
+     1321 cgagtgtgtg tcaccagggg caggagaaag aaagggaact gctgtgtgag gaccccccag
+     1381 gcacagaaga ctttgtgacc tgtccaggta ctgtgcctag cgatagcatt gattcacaag
+     1441 ggaggaattg tagtacgaat gactcactgc tctagtgcag tttttctact tcctaagatt
+     1501 tccttccctc aacagaacac tagactattt aacttgagtg taacaaattt agaataaaac
+     1561 tgtatagaga gttgcagga
+//

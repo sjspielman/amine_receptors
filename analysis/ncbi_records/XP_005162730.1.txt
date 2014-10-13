@@ -1,0 +1,62 @@
+LOCUS       XP_005162730             472 aa                     VRT 01-AUG-2013
+DEFINITION  PREDICTED: D(3) dopamine receptor isoform X1 [Danio rerio].
+ACCESSION   XP_005162730
+VERSION     XP_005162730.1  GI:528519685
+DBLINK      BioProject: PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001878487.3) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..472
+                     /strain="Tuebingen"
+                     /organism="Danio rerio"
+                     /chromosome="24"
+                     /db_xref="taxon:7955"
+     Protein         1..472
+                     /product="D(3) dopamine receptor isoform X1"
+                     /calculated_mol_wt="52784"
+     Region          68..>243
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          76..455
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..472
+                     /coded_by="XM_005162673.1:423..1841"
+                     /gene="drd3"
+                     /db_xref="GeneID:282554"
+                     /db_xref="ZFIN:ZDB-GENE-021119-1"
+ORIGIN
+        1 mgfcfgssle klnrsstlma mfssgewlwn dsehsftpgg nyspasgvee akrnyyamly
+       61 sllilaivfg nvlvciavlr eralqtttny lvvslavadl lvaslvmpwa vylevvggaw
+      121 lfsrlycnvf vtldvmmcta silnlcaisi drytavvmpv lyntthssrk rvsvmiatvw
+      181 vlafavscpl lfgfnttddp avcsisnpdf viyssvvsfy lpfavtllvy vriyiflrrr
+      241 rkkitfrqgs gkvqpasapp svemclqdda hkekrdlspi rinviteske qvirprllan
+      301 clrrkrpqta paensllppv itlnycsisq asfarteqda nreeeeggde eqvavrscev
+      361 kklangrtht slrppraaha mvcpsqarcr smhskekkat qmlaivlgvf licwlpffvt
+      421 hilnthcrac hippevysaf twlgyvnsal npviyttfni efrrafikil sc
+//

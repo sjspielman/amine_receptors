@@ -1,0 +1,94 @@
+LOCUS       XM_003310953            1735 bp    DNA              PRI 25-OCT-2012
+DEFINITION  PREDICTED: Pan troglodytes adrenoceptor alpha 1B (ADRA1B), mRNA.
+ACCESSION   XM_003310953
+VERSION     XM_003310953.2  GI:410039953
+KEYWORDS    RefSeq.
+SOURCE      Pan troglodytes (chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003457061) annotated using gene prediction method: GNOMON,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Oct 25, 2012 this sequence version replaced gi:332822522.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Pan troglodytes Annotation Release 102
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1735
+                     /mol_type="mRNA"
+                     /isolate="Yerkes chimp pedigree #C0471 (Clint)"
+                     /sex="male"
+                     /db_xref="taxon:9598"
+                     /organism="Pan troglodytes"
+                     /chromosome="5"
+     gene            1..1735
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 4 ESTs, 5 Proteins"
+                     /db_xref="GeneID:736934"
+                     /gene="ADRA1B"
+     misc_feature    47..49
+                     /note="upstream in-frame stop codon"
+                     /gene="ADRA1B"
+     CDS             179..1735
+                     /product="alpha-1B adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:332822523"
+                     /db_xref="GeneID:736934"
+                     /translation="MNPDLDTGHNTSAPAHWGELKNANFTGPNQTSSNSTLPQLDITRA
+                     ISVGLVLGAFILFAIVGNILVILSVACNRHLRTPTNYFIVNLAMADLLLSFTVLPFSAA
+                     LEVLGYWVLGRIFCDIWAAVDVLCCTASILSLCAISIDRYIGVRYSLQYPTLVTRRKAI
+                     LALLSVWVLSTVISIGPLLGWKEPAPNDDKECGVTEEPFYALFSSLGSFYIPLVVILVM
+                     YCRVYIVAKRTTKNLEAGVMKEMSNSKELTLRIHSKNFHEDTLSSTKAKGHNPRSSIAV
+                     KLFKFSREKKAAKTLGIVVGMFILCWLPFFIALPLGSLFSTLKPPDAVFKVVFWLGYFN
+                     SCLNPIIYPCSSKEFKRAFVRILGCQCRGRRRRRRRRRLGGCAYTYRPWTRGGSLERSQ
+                     SRKDSLDDSGSCKSXSQRXLPSASPKRGYLGRGAPPPVELNPPPEWKAPGALLSLPAPE
+                     PPGRRGRHDSGPLFTFKLLTEPESPGTDGGATNGGCEAAADVANGQPGFKSNMPLAPGQ
+                     F"
+                     /gene="ADRA1B"
+                     /protein_id="XP_003311001.1"
+     STS             229..984
+                     /db_xref="UniSTS:271116"
+                     /standard_name="PMC150908P1"
+                     /gene="ADRA1B"
+ORIGIN
+        1 ggtgcaggca ggagacgtgc tgccgggctg gactgcccgg gggagatgac tcctcgccag
+       61 gagggcgcct ctgggaagaa gaccacgggg gaagcaaagt ttcagggcag ctgaggagcc
+      121 ttcgccgcag cccttccgag cccaatcatc cccctggcta tggagggcgg actctaagat
+      181 gaatcccgac ctggacaccg gccacaacac atcagcacct gcccactggg gagagttgaa
+      241 aaatgccaac ttcactggcc ccaaccagac ctcgagcaac tccacactgc cccagctgga
+      301 catcaccagg gccatctctg tgggcctggt gctgggcgcc ttcatcctct ttgccatcgt
+      361 gggcaacatc ctagtcatct tgtctgtggc ctgcaaccgg cacctgcgga cgcccaccaa
+      421 ctacttcatt gtcaacctgg ccatggccga cctgctgttg agcttcaccg tcctgccctt
+      481 ctcagcggcc ctagaggtgc tcggctactg ggtgctgggg cggatcttct gtgacatctg
+      541 ggcagccgtg gatgtcctgt gctgcacagc gtccattctg agcctgtgcg ccatctccat
+      601 cgatcgctac atcggggtgc gctactctct gcagtatccc acgctggtca cccggaggaa
+      661 ggccatcttg gcgctgctca gtgtctgggt cttgtccacc gtcatctcca tcgggcctct
+      721 cctaggatgg aaggagccgg cacctaacga tgacaaggag tgcggggtca ccgaagaacc
+      781 cttctatgcc ctcttctcct ctctgggctc cttctacatc cctctggtgg tcattctagt
+      841 catgtactgc cgtgtctata tagtggccaa gagaaccacc aagaacctag aggcaggagt
+      901 catgaaggag atgtccaact ccaaggagct gaccctgagg atccattcca agaactttca
+      961 cgaggacacc cttagcagta ccaaggccaa gggccacaac cccaggagtt ccatagctgt
+     1021 caaacttttt aagttctcca gggaaaagaa agcagctaag acgttgggca ttgtggtcgg
+     1081 tatgttcatc ttgtgctggc tacccttctt catcgctcta ccgcttggct ccttgttctc
+     1141 caccctgaag ccccccgacg ccgtgttcaa ggtggtgttc tggctgggct acttcaacag
+     1201 ctgcctcaat cccatcatct acccatgctc cagcaaggag ttcaagcgcg ctttcgtgcg
+     1261 catcctcggg tgccagtgcc gcggccgccg ccgacgccgc cgccgccgtc gcctgggcgg
+     1321 ctgcgcctac acctaccggc cgtggacgcg cggcggctcg ctggagcgct cgcagtcgcg
+     1381 caaggactcg ctggacgaca gcggcagctg caaaagcngc agccagcggn ccctgccctc
+     1441 ggcctcgccg aaaaggggct acctgggccg cggcgcgccg ccgccagtcg agctgaatcc
+     1501 accccccgag tggaaggcgc ccggcgccct cctgagcctg cccgcgcctg agccccccgg
+     1561 ccgccgcggc cgccacgact cgggcccgct cttcaccttc aagctcctga ccgagcccga
+     1621 gagccccggg accgacggcg gcgccactaa cggaggctgc gaggccgcgg ccgacgtggc
+     1681 caacgggcag ccgggcttca aaagcaacat gcctctggcg cccgggcagt tttag
+//

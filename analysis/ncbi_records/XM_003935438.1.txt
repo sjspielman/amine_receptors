@@ -1,0 +1,104 @@
+LOCUS       XM_003935438            1697 bp    DNA              PRI 06-SEP-2012
+DEFINITION  PREDICTED: Saimiri boliviensis boliviensis dopamine receptor D3,
+            transcript variant 1 (DRD3), mRNA.
+ACCESSION   XM_003935438
+VERSION     XM_003935438.1  GI:403288606
+KEYWORDS    RefSeq.
+SOURCE      Saimiri boliviensis boliviensis (Bolivian squirrel monkey)
+  ORGANISM  Saimiri boliviensis boliviensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Saimiriinae; Saimiri.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003943677) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Saimiri boliviensis Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1697
+                     /sub_species="boliviensis"
+                     /mol_type="mRNA"
+                     /isolate="3227"
+                     /sex="female"
+                     /db_xref="taxon:39432"
+                     /organism="Saimiri boliviensis boliviensis"
+                     /chromosome="Unknown"
+     gene            1..1697
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 6 mRNAs, 17 ESTs, 14 Proteins"
+                     /db_xref="GeneID:101037836"
+                     /gene="DRD3"
+     STS             354..1639
+                     /db_xref="UniSTS:480916"
+                     /gene="DRD3"
+     misc_feature    392..394
+                     /note="upstream in-frame stop codon"
+                     /gene="DRD3"
+     STS             428..505
+                     /db_xref="UniSTS:157523"
+                     /standard_name="GDB:512205"
+                     /gene="DRD3"
+     CDS             431..1633
+                     /product="D(3) dopamine receptor isoform 1"
+                     /codon_start="1"
+                     /db_xref="GI:403288607"
+                     /db_xref="GeneID:101037836"
+                     /translation="MAPLSQLSGHLNYTCGEENSTGASQVRPHAYYALSYCTLILAIVF
+                     GNGLVCTAVLKERALQTTTNYLVVSLAVADLLVATLVMPWVVYLEVTGGVWNFSRICCD
+                     VFVTLDVMMCTASILNLCAISIDRYTAVVLPVHYQHGTGQSSCRRVALMITAVWVLAFA
+                     VSCPLLFGFNTTGDPTVCSISNPDFVIYSSVVSFYLPFRVTVLVYARIYVVLKQRRRKR
+                     ILTRQNSQCISVRPGFPQQTLSPDRAHLELKRYYSICQDTALGGPGFQERGEELKREER
+                     TQNSLSPTIAPKLSLEVRKLSNGRLSTSLKLGPLQPRGVPLREKKATQMVAIVLGAFIV
+                     CWLPFFLTHILNTHCQTCHVSPELYSATTWLGYVNSALNPVIYTTFNIEFRKAFLKILS
+                     C"
+                     /gene="DRD3"
+                     /protein_id="XP_003935487.1"
+     STS             1325..1524
+                     /db_xref="UniSTS:34219"
+                     /standard_name="DRD3-556F"
+                     /gene="DRD3"
+     STS             1455..1632
+                     /db_xref="UniSTS:53374"
+                     /standard_name="RH71216"
+                     /gene="DRD3"
+ORIGIN
+        1 agcgacaaag aggaaaagag gagagcgaga gagaaaactg atcctgctta tgcctactcc
+       61 atctctcttt cagcaccaag gacagaacct ctgaacggct gacccaacca atgctcagtt
+      121 tagggtccct cccaaatcct ctacagaaaa tcgatgcatt cgaaagcagc tatgaaacat
+      181 gctctaaggt ctaataggaa agctggaaaa gcagcactca agtaatttca ccttggaggc
+      241 aaaaatgggt gatttctttc tattcgtttg catagtttct gagtcctgag aaaagcaaag
+      301 tttgctttgc ttgggtatgc ctgctgtcag taaatggctg caggagctga actggtaaac
+      361 tcctcggtct ccggagatca gaagaaaatt ttagggaagg cccttggcat cacgcacctc
+      421 cctctgggct atggcacctc tgagtcagct gagtggccac ctgaactaca cctgtgggga
+      481 ggaaaactcc acaggtgcca gccaggttcg cccacatgcc tactatgccc tctcctactg
+      541 cacactcatc ctggccatcg tcttcggcaa tggcctggtg tgcacggctg tgctgaagga
+      601 gcgggccctg cagactacca ccaactacct agtagtgagc ctggctgtgg cagacttgct
+      661 ggtggccacc ttggtgatgc cctgggtggt atacctggag gtgacaggtg gagtctggaa
+      721 tttcagtcgc atttgctgcg atgtttttgt caccctggat gtcatgatgt gtacagccag
+      781 catcctgaac ctctgcgcca tcagcataga caggtacact gcagtggtcc tgcctgttca
+      841 ctaccagcat ggcacgggac agagctcctg tcggcgtgtg gccctcatga tcacggccgt
+      901 ctgggtactg gcctttgctg tgtcctgccc tctcctgttt ggcttcaata ccacaggtga
+      961 ccccactgtc tgctccattt ccaacccaga ttttgtcatc tactcttcag tggtgtcctt
+     1021 ctacctgccc tttagagtga ctgtgcttgt ctatgccaga atctatgtgg tgttgaaaca
+     1081 aaggagacga aaacggatcc tcactcgaca gaacagtcag tgcatcagtg tcaggcctgg
+     1141 cttcccccaa caaaccctct ctcctgaccg ggcacatctg gagctgaagc gctattacag
+     1201 catctgccaa gacactgctt tgggtggacc aggcttccaa gaaagaggag aagagttgaa
+     1261 aagagaggag aggactcaaa actccctgag tcccaccata gcgcccaagc tcagcttaga
+     1321 ggttcgaaaa ctcagcaatg gcagattgtc aacatctttg aagctgggac ccctgcaacc
+     1381 tcggggagtg ccacttcggg agaagaaggc aacccagatg gtggccattg tgcttggggc
+     1441 cttcattgtc tgctggctgc ccttcttttt gacccatatt ctcaataccc actgccagac
+     1501 atgccacgtg tccccagagc tttacagtgc cacgacatgg ctgggctatg tgaatagcgc
+     1561 cctcaacccc gtgatctata ccaccttcaa tatcgagttc cggaaagcct tcctcaagat
+     1621 cctgtcttgc tgaggaagca gaggagggaa cactccttgt acctatgtct ggctgccagg
+     1681 ctgttggccc actcaga
+//

@@ -1,0 +1,97 @@
+LOCUS       XM_004577478            1833 bp    DNA              MAM 18-MAY-2013
+DEFINITION  PREDICTED: Ochotona princeps 5-hydroxytryptamine (serotonin)
+            receptor 2A, G protein-coupled (HTR2A), mRNA.
+ACCESSION   XM_004577478
+VERSION     XM_004577478.1  GI:504128574
+DBLINK      BioProject: PRJNA193497
+KEYWORDS    RefSeq.
+SOURCE      Ochotona princeps (American pika)
+  ORGANISM  Ochotona princeps
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha;
+            Ochotonidae; Ochotona.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004535437.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ochotona princeps Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1833
+                     /mol_type="mRNA"
+                     /country="USA: Washington"
+                     /isolate="Ochotona princeps_07Jul2011"
+                     /sex="female"
+                     /db_xref="taxon:9978"
+                     /organism="Ochotona princeps"
+                     /chromosome="Unknown"
+     gene            1..1833
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 9 mRNAs, 10 Proteins"
+                     /db_xref="GeneID:101516626"
+                     /gene="HTR2A"
+     misc_feature    25..27
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR2A"
+     CDS             76..1491
+                     /product="5-hydroxytryptamine receptor 2A"
+                     /codon_start="1"
+                     /db_xref="GI:504128575"
+                     /db_xref="GeneID:101516626"
+                     /translation="MEILCEENTSLSSTTNSLVQLSYDTRFYQKDFTSGKANMSEAFNW
+                     TVDSENRTNLSCEGCLSPPCFPFLHLQEKNWSALLTAIVIILTIAGNILVIMAVSLEKK
+                     LQNATNYFLMSLAIADMLLGFLVMPVSMLTILYGYRWPLPSKLCAVWIYLDVLFSTASI
+                     MHLCAISLDRYVAIQNPIHHSRFNSRTKAFLKIIAVWTISVGISMPIPVFGLQDDSKVF
+                     KEGSCLLADDNFVLIGSFVAFFIPLTIMVITYFLTIKSLQKEATLCVSDPGTRAKLASF
+                     SFLPQSSLSSEKLFQRSIHREPGSYTGRRTMQSISNEQKACKVLGIVFFLFVVMWCPFF
+                     ITNIMAVICKESCNEDVITALLNVFVWIGYLSSAVNPLVYTLFNKTYRSAFSRYIQCQY
+                     KENKKPLQLILVNTIPALAYKSSQLQMGQKRNSKKDAKKTDDDCSMVALGKQHSDDAST
+                     DNIDTVNEKVSCV"
+                     /gene="HTR2A"
+                     /protein_id="XP_004577535.1"
+     STS             374..506
+                     /db_xref="UniSTS:31941"
+                     /standard_name="HTR2A-112F"
+                     /gene="HTR2A"
+ORIGIN
+        1 aagatgaatg gcgagcacag gctgtaactt ggggagtctt tctacacttc ctctgctgca
+       61 tgcggcggct cagacatgga gattctctgt gaagagaaca cttctttgag ctccacaacc
+      121 aactctttag tccaattaag ttatgacacc aggttctacc agaaagactt cacctccgga
+      181 aaagccaaca tgtccgaggc gtttaactgg acggtggact ctgagaaccg caccaacctt
+      241 tcctgcgaag ggtgcctctc gccgccctgc ttccccttcc tccacctcca ggagaaaaac
+      301 tggtcagcct tgttgacggc catagtgatc atcctcacca ttgccgggaa catccttgtc
+      361 atcatggcag tgtccctaga gaaaaagctg cagaacgcca ccaactactt cctgatgtca
+      421 cttgccatcg ctgacatgct gctgggtttc ctagtcatgc ccgtgtccat gttaaccatc
+      481 ctgtacgggt acaggtggcc tctgcccagc aagctgtgtg ctgtctggat ttacctggac
+      541 gtgctcttct ccacggcctc catcatgcac ctctgcgcca tctcgcttga ccgctacgtg
+      601 gccatccaga accccattca ccacagccgc ttcaactcca gaacaaaggc ctttctgaaa
+      661 atcatcgccg tttggaccat ctctgtaggt atatctatgc caataccagt ctttgggcta
+      721 caggatgact ccaaggtctt caaagaggga agctgcttac ttgctgatga taactttgtc
+      781 ctgattggct cttttgtggc atttttcatc cccttgacta tcatggtgat cacctacttt
+      841 ctaactatca agtcactcca gaaagaagct acactgtgtg tgagtgatcc tggcacgcga
+      901 gccaaattag cttccttcag cttcctccct cagagttcct tgtcttcaga aaagctcttc
+      961 cagaggtcca tccacaggga gccagggtcc tacacaggtc ggaggacgat gcagtccatc
+     1021 agcaatgagc agaaggcttg caaggtgctg ggtatcgtct tcttcctatt tgtggtgatg
+     1081 tggtgtccct tctttatcac caacattatg gctgtcatct gcaaagaatc ctgcaatgag
+     1141 gatgtcatca cggccctgct caacgtgttt gtctggattg gatacctctc ctcagccgta
+     1201 aacccgctgg tctataccct gttcaacaag acctaccggt cagccttttc acggtacatc
+     1261 cagtgtcagt acaaggaaaa caaaaaacca ctgcagttaa ttctagtgaa cactataccg
+     1321 gccttagcct acaagtcaag tcaactccag atgggacaaa aaaggaattc caaaaaagat
+     1381 gccaagaaaa cagatgatga ctgttctatg gtggctctag ggaagcagca ttcagatgat
+     1441 gcttctacag acaatatcga cacagtgaat gaaaaggtta gctgtgtgtg atagactagt
+     1501 tgccatggca atggtggagg acatgctgag caaattttca cctttctggg gggaaaaaag
+     1561 tattatggag agtggaaaaa aattaggcca gtctaatgga accaacaata atatctgtac
+     1621 tcctcatttt attctgttga tgagaagcag ggttaaacgc cacaaatgtg cactgcaaac
+     1681 atgttctggc agcatttctg ctgtgagctt tatgatactt atttttaaca ttgtaaatta
+     1741 tataccttta aaataattgg cttttattgt ataattgtaa tgaggtcctg aataaatctc
+     1801 aattaacttt cattgtcaca tggaaacctt gct
+//

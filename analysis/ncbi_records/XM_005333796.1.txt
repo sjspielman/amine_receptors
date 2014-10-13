@@ -1,0 +1,89 @@
+LOCUS       XM_005333796            1575 bp    DNA              ROD 21-AUG-2013
+DEFINITION  PREDICTED: Spermophilus tridecemlineatus histamine receptor H1
+            (Hrh1), mRNA.
+ACCESSION   XM_005333796
+VERSION     XM_005333796.1  GI:532096382
+DBLINK      BioProject: PRJNA210856
+KEYWORDS    RefSeq.
+SOURCE      Ictidomys tridecemlineatus (thirteen-lined ground squirrel)
+  ORGANISM  Ictidomys tridecemlineatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Sciuridae; Xerinae; Marmotini; Ictidomys.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004936602.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Ictidomys tridecemlineatus
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1575
+                     /mol_type="mRNA"
+                     /isolate="#75"
+                     /sex="female"
+                     /db_xref="taxon:43179"
+                     /organism="Ictidomys tridecemlineatus"
+                     /chromosome="Unknown"
+     gene            1..1575
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 5 long SRA reads, 10
+                     Proteins"
+                     /db_xref="GeneID:101978224"
+                     /gene="Hrh1"
+     CDS             1..1467
+                     /product="histamine H1 receptor"
+                     /codon_start="1"
+                     /db_xref="GI:532096383"
+                     /db_xref="GeneID:101978224"
+                     /translation="MTLPNSSYVLEDKMCEGNKTTMASPQLMPLVVVLSSISLVTVALN
+                     LLVLYAVRSERKLHTVGNLYIVSLSVADLIVGAVVMPMNILYLVMTKWSLGRPLCLFWL
+                     SMDYVASTASIFSVFILCIDRYRSVQQPLRYLKYRTKTRASATILGAWFLSFLWVIPIL
+                     GWHHFMSHTSRRRDDKCETDFYDVTWFKIMTAIINFYLPTLLMLWFYFKIYKAVRRHCQ
+                     HRELINGSLPTFSEIKQKPENSKVGPKKSEKESPWEAPKRESKDASGGPIFKPSFQDTK
+                     EKKSPDSLSQEEDGEAAKLPCFPLDLVETQTAAKGDGRGCEAVDKSQSQLKTEGQSLNT
+                     RRVSEISVDHTLVESQSIGRMTDSDTSTEPALGRDKLRSGSNPGLDYIKFTWKRLRSHS
+                     RQYISGLHVNRERKAAKQLGFIMAAFILCWIPYFIFFMVIAFCESCCNEQVHMFTIWLG
+                     YINSTLNPLIYPLCNENFKKTFKKILHIRS"
+                     /gene="Hrh1"
+                     /protein_id="XP_005333853.1"
+ORIGIN
+        1 atgacccttc ccaattcctc ctatgtctta gaagacaaga tgtgtgaggg aaacaagacc
+       61 accatggcca gcccccagtt aatgcccctg gttgtggtcc tgagcagcat ctccctggtc
+      121 acagtggcac tcaacctgct ggtgctgtat gctgtacgga gtgagcggaa gctgcatact
+      181 gtgggaaacc tgtacatcgt gagcctctct gtggcagacc tgattgtggg cgctgtggtt
+      241 atgcccatga acatcctgta cctcgtcatg actaagtggt ccctgggtcg ccctctctgc
+      301 ctcttttggc tttccatgga ctatgtggct agcacggcat ccattttcag tgtcttcatt
+      361 ttatgcattg atcggtaccg ctctgttcag cagcccctca ggtacctgaa gtatcgcacc
+      421 aagacccgag catcggccac catcttggga gcctggtttc tttcttttct atgggtcatt
+      481 cctatcctag gttggcatca cttcatgtcc cacacctcga ggcgccggga cgacaagtgt
+      541 gagacagact tttacgacgt cacctggttc aagatcatga ctgccatcat caacttctat
+      601 ctgcccacat tactcatgct ctggttctat ttcaagatct acaaggctgt gcgacgacac
+      661 tgtcagcacc gggagctcat caatggatcc cttcctacct tctcagaaat taaacagaag
+      721 ccagagaatt ccaaggtggg ccccaaaaaa tcagagaagg agtctccctg ggaggctccg
+      781 aaaagggagt cgaaagatgc cagtggtgga cctattttta agccatcatt ccaggacacc
+      841 aaggagaaga aatctccaga ttccttgagc caagaggagg atggagaagc agccaaactc
+      901 ccctgctttc cacttgacct tgtggagaca cagactgcgg caaagggaga tggcaggggc
+      961 tgtgaagccg tggacaagag ccagagccag ctcaagacag agggacaaag cctaaacacc
+     1021 cgtcgggtca gtgaaatatc agtggatcac acgttggttg agagccagtc cattggccgc
+     1081 atgacagact cagataccag cacagaacca gcactgggca gagacaaatt gagaagtggg
+     1141 tccaacccag gcctggacta catcaagttc acgtggaaga ggcttcgctc ccattcaaga
+     1201 cagtacattt ctggtttgca cgtgaaccgg gaacggaaag ctgccaaaca gttgggtttc
+     1261 atcatggcag ccttcatcct ttgctggatt ccctacttca tcttctttat ggtcattgcc
+     1321 ttctgtgaga gctgctgcaa tgaacaagtg cacatgttca ccatctggct gggctatatc
+     1381 aactccactc tgaaccccct catctatcct ttgtgcaatg agaacttcaa gaagacattc
+     1441 aagaaaattc tgcatattcg ctcctaaggg aggcactgaa aggttttgac aaaatgatac
+     1501 ttgatgtcca agaaggaggt ggaggaggaa agcctggcat tgccacacac ctgagctttc
+     1561 tggaaaggag ttgaa
+//

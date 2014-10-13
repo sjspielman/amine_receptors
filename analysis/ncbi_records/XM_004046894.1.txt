@@ -1,0 +1,134 @@
+LOCUS       XM_004046894            2695 bp    DNA              PRI 03-DEC-2012
+DEFINITION  PREDICTED: Gorilla gorilla gorilla adrenoceptor beta 3 (ADRB3),
+            mRNA.
+ACCESSION   XM_004046894
+VERSION     XM_004046894.1  GI:426359355
+KEYWORDS    RefSeq.
+SOURCE      Gorilla gorilla gorilla (western lowland gorilla)
+  ORGANISM  Gorilla gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004003961) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Gorilla gorilla Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2695
+                     /db_xref="taxon:9595"
+                     /sub_species="gorilla"
+                     /mol_type="mRNA"
+                     /organism="Gorilla gorilla gorilla"
+                     /chromosome="8"
+     gene            1..2695
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 8 mRNAs, 28 ESTs, 31 Proteins"
+                     /db_xref="GeneID:101145102"
+                     /gene="ADRB3"
+     misc_feature    161..163
+                     /note="upstream in-frame stop codon"
+                     /gene="ADRB3"
+     STS             188..1473
+                     /db_xref="UniSTS:482279"
+                     /gene="ADRB3"
+     CDS             227..1453
+                     /product="beta-3 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:426359356"
+                     /db_xref="GeneID:101145102"
+                     /translation="MAPWPHENSSLAPWPDLPTLAPNTANTSGLPGVPWAAALAGALLA
+                     LAVLATVGGNLLVIVAIARTPRLQTMTNVFVTSLAAADLVMGLLVVPPAATLALTGHWP
+                     LGATGCELWTSVDVLCVTASIETLCALAVDRYLAVTNPLRYGALVTKRRARTAVVLVWV
+                     VSAAVSFAPIMSQWWRVGADAEAQRCHSNPRCCAFASNMPYVLLSSSVSFYLPLLVMLF
+                     VYARVFVVATRQLRLLRGELGRFPPEESPPAPSRSLAPAPVGTCAPPEGVPACGRRPAR
+                     LLPLREHRALCTLGLIMGTFTLCWLPFFLANVLRALGSPSLVPGPAFLALNWLGYANSA
+                     FNPLIYCRSPDFRSAFRRLLCRCGRRLPPEPCAAARPALFPSGVPAARTSPAQPRLCQR
+                     LDGASWGVS"
+                     /gene="ADRB3"
+                     /protein_id="XP_004046942.1"
+     STS             306..553
+                     /db_xref="UniSTS:272688"
+                     /standard_name="PMC310777P4"
+                     /gene="ADRB3"
+     STS             382..459
+                     /db_xref="UniSTS:271495"
+                     /standard_name="PMC164531P1"
+                     /gene="ADRB3"
+     STS             387..750
+                     /db_xref="UniSTS:506234"
+                     /standard_name="ADRB3"
+                     /gene="ADRB3"
+     STS             572..1144
+                     /db_xref="UniSTS:528345"
+                     /standard_name="MARC_68773-68774:1209743884:2"
+                     /gene="ADRB3"
+     STS             1824..2683
+                     /db_xref="UniSTS:276980"
+                     /standard_name="ADRB3_418"
+                     /gene="ADRB3"
+     STS             2324..2621
+                     /db_xref="UniSTS:68951"
+                     /standard_name="D8S2331"
+                     /gene="ADRB3"
+     STS             2539..2654
+                     /db_xref="UniSTS:14848"
+                     /standard_name="WI-9207"
+                     /gene="ADRB3"
+ORIGIN
+        1 agactatagg cagctgcccc tttaagcgtc gctactcctc ccccaagagc ggtggcaccg
+       61 agggagttgg ggtgggggag gctgagcgct ctggctggga cagctaggga agatggccca
+      121 ggctggggaa gtcgctctca cgccctgctg tcccctcccc tgagccaggt gttttgggag
+      181 accccctcct tccttctttc cctaccgccc cacgcgcgac ccggggatgg ctccgtggcc
+      241 tcacgagaac agctctcttg ccccatggcc ggacctcccc accctggcgc ctaataccgc
+      301 caacaccagt gggctgccag gggtgccgtg ggcggcggcc ctggccgggg cgctgctggc
+      361 gctggcggtg ctggccaccg tgggaggcaa cctgctggtc atcgtggcca tcgcccggac
+      421 tccgagactc cagaccatga ccaacgtgtt cgtgacttcg ctggccgcag ccgacctggt
+      481 gatgggactc ctggtggtgc cgccggcggc caccttggcg ctgactggcc actggccgtt
+      541 gggcgccact ggctgcgagc tgtggacctc ggtggacgtg ttgtgtgtga ccgccagcat
+      601 cgaaacgctg tgcgccctgg ccgtggaccg ctacctggct gtgaccaacc cgctgcgtta
+      661 cggcgcactg gtcaccaagc gccgcgcccg gacagctgtg gtcctggtgt gggtcgtgtc
+      721 ggccgcggtg tcgtttgcgc ccatcatgag ccagtggtgg cgcgtagggg ccgacgccga
+      781 ggcgcagcgc tgccactcca acccgcgctg ctgtgccttc gcctccaata tgccctacgt
+      841 gctgctgtcc tcctccgtct ccttctacct tcctcttctc gtgatgctct tcgtctacgc
+      901 gcgggttttc gtggtggcta cgcgccagct gcgcttgctg cgcggggagc tgggccgctt
+      961 tccgcccgag gagtctccgc cggcgccgtc gcgctctctg gccccggccc cggtggggac
+     1021 gtgcgctccg cccgaagggg tgcccgcctg cggccggcgg cccgcgcgcc tcctgcctct
+     1081 ccgggaacac cgggccctgt gcaccttggg tctcatcatg ggcaccttca ctctctgctg
+     1141 gttgcccttc tttctggcca acgtgctgcg cgccctgggg agcccctctc tagtcccggg
+     1201 cccggctttc cttgccctga actggctagg ttatgccaat tctgccttca acccgctcat
+     1261 ctactgccgc agcccggact ttcgcagcgc cttccgccgt cttctgtgcc gctgcggccg
+     1321 tcgcctgcct ccggagccct gcgccgccgc ccgcccggcc ctcttcccct cgggcgttcc
+     1381 tgcggcccgg accagccccg cgcagcccag gctttgccaa cggctcgacg gggcttcttg
+     1441 gggagtttct taggcctgaa ggacaagaag caacaactct gttgatcaga acctgtggaa
+     1501 aacctctggc ctctgttcag aatgagtccc atgggattcc ccggctgtga cactctaccc
+     1561 tccagaacct gacgactggg ctgtgtgacc caaggaggga tccttaccaa gtgggttttc
+     1621 accatcctct tgctctctgt ctgagagatg ttttctaaac cccagccttg aacttcactc
+     1681 ctccctcagt ggtagtgtcc agctgccgtg gagcagcagg ctggctttgg taggggcacc
+     1741 catcacccgg tttgcctgtg cagtcagtga gtgcttaggg caaagagagc tcccctggtt
+     1801 ccattccttc tgccacccaa accctgatga gaccttagtg ttctccaggc tctgtggccc
+     1861 aggctgagag cagcagggta gaaaagacca agatttgggg ttttatctct ggttccctta
+     1921 ttactgctct caagcattgg cctctctcac tttagccatg gaatggctcc gatctacctc
+     1981 acagcagtgt cagaaggact tcgccagggt tttgggagct ccagggttca taagaaggtg
+     2041 aaccattaga acagatccct tcttttcctt ttgcaatcag ataaataaat atcactgaat
+     2101 gcagttcatc cttggccccc tttccctccg tttgttttct tttcataatc cacttactcc
+     2161 cttcccttct actctgcgct ggcttttgac agaggcagta aattaggcct aatcctcact
+     2221 cttttcttcc taatcttcat caaacaaaaa atgaaaaatc tgtctggatg aaggggagtg
+     2281 agcttgagcc tttgatatct tgctccccca cccttcctga aactcttgaa atccagttgc
+     2341 cattgagtag caaagccacg ctccccacag gacttggaca gagggcccac aggaggatgg
+     2401 gctggctgtg gccaggttca gggcaggggg catttgtccc ctccatgcta taatccagtg
+     2461 gtgccttaca tggtgtgtgt gtgtgtgtgt gtgtgtgtgt gtgtgtgtgt gtgtgtgtgt
+     2521 gtgtgtgtct ggaggcacag gcacaaagca ttgcttggtt tggtcaaatg tcttgtgcca
+     2581 taaatatatt ctgatgtttc ccagcctttc cacaacctct accttcccac tcaccttccc
+     2641 cagctacaaa aatctgtatt atcctcttaa agtaaaactg gagttacaag tttga
+//

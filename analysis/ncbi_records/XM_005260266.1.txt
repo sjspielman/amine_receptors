@@ -1,0 +1,101 @@
+LOCUS       XM_005260266            2059 bp    DNA              PRI 03-FEB-2014
+DEFINITION  PREDICTED: Homo sapiens histamine receptor H3 (HRH3), transcript
+            variant X1, mRNA.
+ACCESSION   XM_005260266
+VERSION     XM_005260266.1  GI:530417805
+DBLINK      BioProject: PRJNA168
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NT_011362.11) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Homo sapiens Annotation Release 106
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2059
+                     /db_xref="taxon:9606"
+                     /mol_type="mRNA"
+                     /organism="Homo sapiens"
+                     /chromosome="20"
+     gene            1..2059
+                     /note="histamine receptor H3; Derived by automated
+                     computational analysis using gene prediction method:
+                     Gnomon. Supporting evidence includes similarity to: 2
+                     mRNAs, 6 ESTs, and 81% coverage of the annotated genomic
+                     feature by RNAseq alignments, including 2 samples with
+                     support for all annotated introns"
+                     /db_xref="GeneID:11255"
+                     /db_xref="HGNC:HGNC:5184"
+                     /db_xref="MIM:604525"
+                     /gene="HRH3"
+                     /gene_synonym="GPCR97; HH3R"
+     CDS             298..1659
+                     /product="histamine H3 receptor isoform X1"
+                     /codon_start="1"
+                     /gene_synonym="GPCR97; HH3R"
+                     /db_xref="GI:530417806"
+                     /db_xref="GeneID:11255"
+                     /db_xref="HGNC:HGNC:5184"
+                     /db_xref="MIM:604525"
+                     /translation="MERAPPDGPLNASGALAGEAAAAGGARGFSAAWTAVLAALMALLI
+                     VATVLGNALVMLAFVADSSLRTQNNFFLLNLAISDFLVGAFCIPLYVPYVLTGRWTFGR
+                     GLCKLWLVVDYLLCTSSAFNIVLISYDRFLSVTRAVSYRAQQGDTRRAVRKMLLVWVLA
+                     FLLYGPAILSWEYLSGGSSIPEGHCYAEFFYNWYFLITASTLEFFTPFLSVTFFNLSIY
+                     LNIQRRTRLRLDGAREAAGPEPPPEAQPSPPPPPGCWGCWQKGHGEAMPLHRYGVGEAA
+                     VGAEAGEATLGGGGGGGSVASPTSSSGSSSRGTERPRSLKRGSKPSASSASLEKRMKMV
+                     SQSFTQRFRLSRDRKVAKSLAVIVSIFGLCWAPYTLLMIIRAACHGHCVPDYWYETSFW
+                     LLWANSAVNPVLYPLCHHSFRRAFTKLLCPQKLKIQPHSSLEHCWKKMKKKTCL"
+                     /gene="HRH3"
+                     /protein_id="XP_005260323.1"
+ORIGIN
+        1 cgcgttgcgc tccggctgca cggtcgcacc ggcagcggct caggctccgg ctcctctccc
+       61 gctgcagcag ccgcgctgcc ggccccactg ggctcggatc cggccccggc cccctcggca
+      121 ccgcctgctc tggccccggc cccggccccg cggaccatgc gctgggcgcc cccaggggaa
+      181 cccgacccgg ccaagggccc gcaaagacga ggctcccggg ccggggcccc tcccggccgc
+      241 ccagctctcg gccggcgccc tgccccgcgt cccggagccg cgtgagcctg cggggccatg
+      301 gagcgcgcgc cgcccgacgg gccgctgaac gcttcggggg cgctggcggg cgaggcggcg
+      361 gcggcgggcg gggcgcgcgg cttctcggca gcctggaccg cggtgctggc cgcgctcatg
+      421 gcgctgctca tcgtggccac ggtgctgggc aacgcgctgg tcatgctcgc cttcgtggcc
+      481 gactcgagcc tccgcaccca gaacaacttc ttcctgctca acctcgccat ctccgacttc
+      541 ctcgtcggcg ccttctgcat cccactgtat gtaccctacg tgctgacagg ccgctggacc
+      601 ttcggccggg gcctctgcaa gctgtggctg gtagtggact acctgctgtg cacctcctct
+      661 gccttcaaca tcgtgctcat cagctacgac cgcttcctgt cggtcacccg agcggtctca
+      721 taccgggccc agcagggtga cacgcggcgg gcagtgcgga agatgctgct ggtgtgggtg
+      781 ctggccttcc tgctgtacgg accagccatc ctgagctggg agtacctgtc cgggggcagc
+      841 tccatccccg agggccactg ctatgccgag ttcttctaca actggtactt cctcatcacg
+      901 gcttccaccc tggagttctt tacgcccttc ctcagcgtca ccttctttaa cctcagcatc
+      961 tacctgaaca tccagaggcg cacccgcctc cggctggatg gggctcgaga ggcagccggc
+     1021 cccgagcccc ctcccgaggc ccagccctca ccacccccac cgcctggctg ctggggctgc
+     1081 tggcagaagg ggcacgggga ggccatgccg ctgcacaggt atggggtggg tgaggcggcc
+     1141 gtaggcgctg aggccgggga ggcgaccctc gggggtggcg gtgggggcgg ctccgtggct
+     1201 tcacccacct ccagctccgg cagctcctcg aggggcactg agaggccgcg ctcactcaag
+     1261 aggggctcca agccgtcggc gtcctcggcc tcgctggaga agcgcatgaa gatggtgtcc
+     1321 cagagcttca cccagcgctt tcggctgtct cgggacagga aagtggccaa gtcgctggcc
+     1381 gtcatcgtga gcatctttgg gctctgctgg gccccataca cgctgctgat gatcatccgg
+     1441 gccgcctgcc atggccactg cgtccctgac tactggtacg aaacctcctt ctggctcctg
+     1501 tgggccaact cggctgtcaa ccctgtcctc taccctctgt gccaccacag cttccgccgg
+     1561 gccttcacca agctgctctg cccccagaag ctcaaaatcc agccccacag ctccctggag
+     1621 cactgctgga aaaagatgaa gaagaaaaca tgtctgtgaa cttgatgttc ctgggatgtt
+     1681 taatcaagag agacaaaatt gctgaggagc tcagggctgg attggcaggt gtgggctccc
+     1741 acgccctcct ccctccgcta aggcttccgg ctgagctgtg ccagctgctt ctgcccaccc
+     1801 cgcctctggg ctcacaccag ccctggtggc caagcctgcc ccggccactc tgtttgctca
+     1861 cccaggacct ctgggggttg ttgggaggag ggggcccggc tgggcccgag ggtcccaagg
+     1921 cgtgcagggg cggtccagag gaggtgcccg ggcaggggcc gcttcgccat gtgctgtgca
+     1981 cccgtgccac gcgctctgca tgctcctctg cctgtgcccg ctgcgctgcc ctgcaaaccg
+     2041 tgaggtcaca ataaagtgt
+//

@@ -1,0 +1,95 @@
+LOCUS       NM_214085               1344 bp    DNA              MAM 10-JAN-2014
+DEFINITION  Sus scrofa 5-hydroxytryptamine (serotonin) receptor 7, adenylate
+            cyclase-coupled (HTR7), mRNA.
+ACCESSION   NM_214085
+VERSION     NM_214085.1  GI:47522981
+KEYWORDS    RefSeq.
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+REFERENCE   1  (bases 1 to 1344)
+  AUTHORS   Nakamura,T., Kitazawa,T., Cao,J., Iwamoto,T., Teraoka,H., Kadota,K.
+            and Taneike,T.
+  TITLE     Excitatory and inhibitory 5-hydroxytryptamine (5-HT) receptors
+            expressed in the isolated porcine uterine muscles
+  JOURNAL   Eur. J. Pharmacol. 600 (1-3), 123-129 (2008)
+   PUBMED   18952076
+  REMARK    GeneRIF: excitatory 5-HT(2A) and inhibitory 5-HT(7) are present in
+            the uterus of non-pregnant pigs. Endogenous 5-HT containing cells
+            are mainly present in uterine glands of the pig
+REFERENCE   2  (bases 1 to 1344)
+  AUTHORS   Ullmer,C., Schmuck,K., Kalkman,H.O. and Lubbert,H.
+  TITLE     Expression of serotonin receptor mRNAs in blood vessels
+  JOURNAL   FEBS Lett. 370 (3), 215-221 (1995)
+   PUBMED   7656980
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AF420595.1.
+            ##Evidence-Data-START##
+            Transcript exon combination :: AF420595.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+            ERS240759, ERS240769 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1344
+                     /db_xref="taxon:9823"
+                     /mol_type="mRNA"
+                     /organism="Sus scrofa"
+                     /chromosome="14"
+                     /map="14"
+     gene            1..1344
+                     /note="5-hydroxytryptamine (serotonin) receptor 7,
+                     adenylate cyclase-coupled"
+                     /db_xref="GeneID:397158"
+                     /gene="HTR7"
+                     /gene_synonym="5-HT7"
+     CDS             1..1344
+                     /product="5-hydroxytryptamine receptor 7"
+                     /codon_start="1"
+                     /gene_synonym="5-HT7"
+                     /note="serotonin 5-hydroxytryptamine 7-a receptor;
+                     5-hydroxytryptamine (serotonin) receptor 7 (adenylate
+                     cyclase-coupled)"
+                     /db_xref="GI:47522982"
+                     /db_xref="GeneID:397158"
+                     /translation="MMGVNSSGRPDLYGHLRSILLPEVGRGLPDLSSDGAGPVAGSWAP
+                     HLLHGVPEVTASPVPTWDAPRDNASGCGEQINYGRAEKVVIGSILTLITLLTIAGNCLV
+                     VISVCFVKKLRQPSNYLIVSLALADLSVAVAVMPFVSVTDLIGGKWIFGHFFCNVFIAM
+                     DVMCCTASIMTLCVISIDRYLGITRPLTYPVRQNGKCMAKMILSVWLLSASITLPPLFG
+                     WAQNVNDDKVCLISQDFGYTIYSTAVAFYIPMSVMLFMYYQIYKAARKSAAKHKFPGFP
+                     REEPDSVISLNGMVKLQKEVEECANLSRLLKHERKNISIFKREQKAATTLGIIVGAFTV
+                     CWLPFFLLSTARPFICGTACSCIPLWVERTFLWLGYANSLINPFIYAFFNRDLRTTYRS
+                     LLQCQYRNINRKLSAAGMHEALKLAERPERPELVLQKSDYCRKKGHDS"
+                     /gene="HTR7"
+                     /protein_id="NP_999250.1"
+     STS             1093..1232
+                     /db_xref="UniSTS:39426"
+                     /standard_name="RH66814"
+                     /gene="HTR7"
+                     /gene_synonym="5-HT7"
+ORIGIN
+        1 atgatgggcg ttaacagcag cggccgcccg gacctctacg ggcatctccg ttctatcctc
+       61 ttgccggagg tggggcgcgg gcttcccgac ttgagctccg acggcgccgg ccctgtcgcg
+      121 ggctcctggg cgccgcacct gctgcacggg gtccctgagg tgacggccag ccccgtgccc
+      181 acctgggacg cgccccggga caatgcctcg ggctgcgggg agcagatcaa ctacggcaga
+      241 gccgagaaag ttgtgatcgg ctccatcctg acgctcatca cgctgctgac gatcgccggc
+      301 aactgcctgg tggtgatttc ggtctgcttc gtcaagaagc tccgtcagcc ctccaactac
+      361 ctgatcgtgt ctctggcgct ggccgacctc tcggtggccg tggcggtcat gcccttcgtc
+      421 agcgtcactg accttattgg gggcaagtgg atctttggcc acttcttctg caacgtcttt
+      481 atcgccatgg acgtcatgtg ctgcacggcc tcgatcatga ccctgtgcgt gatcagtatc
+      541 gacaggtacc ttgggatcac gaggccgctg acgtaccccg tcaggcagaa tggcaagtgc
+      601 atggctaaga tgatcctctc tgtctggctt ctctccgcct ccatcacttt gccgccgctc
+      661 ttcggctggg cgcagaacgt aaatgacgac aaggtgtgct tgatcagcca ggattttggc
+      721 tacacgatct actccacggc agtggcgttc tacatcccca tgtccgtcat gcttttcatg
+      781 tactaccaga tttacaaggc cgccaggaag agcgccgcca aacacaagtt cccaggcttc
+      841 cctcgggagg agcccgacag cgtcatttca ctgaatggca tggtgaagct ccagaaggag
+      901 gtggaggagt gtgcgaacct ttcgagactc ctcaaacacg agaggaaaaa catctccatc
+      961 tttaagaggg aacagaaagc agccaccacc ttggggatca ttgtcggggc cttcaccgtg
+     1021 tgctggctgc cgtttttcct cctctcgacg gccagaccct tcatctgtgg cactgcgtgc
+     1081 agctgcatcc cgctgtgggt ggagaggaca tttctgtggc tgggctatgc aaactctctc
+     1141 attaacccct ttatatatgc cttcttcaac cgggacctga ggaccaccta ccgcagcctg
+     1201 ctccagtgcc agtaccggaa tatcaaccgg aagctctcgg ctgcaggcat gcacgaggcc
+     1261 ctgaagcttg ctgagaggcc cgagagacct gagcttgtgc tacaaaagtc tgactactgt
+     1321 aggaaaaaag gtcatgattc atga
+//

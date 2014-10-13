@@ -1,0 +1,77 @@
+LOCUS       XM_003510913             996 bp    DNA              ROD 30-APR-2014
+DEFINITION  PREDICTED: Cricetulus griseus trace amine associated receptor 1
+            (Taar1), mRNA.
+ACCESSION   XM_003510913
+VERSION     XM_003510913.1  GI:354497708
+DBLINK      BioProject: PRJNA72741
+KEYWORDS    RefSeq; includes ab initio.
+SOURCE      Cricetulus griseus (Chinese hamster)
+  ORGANISM  Cricetulus griseus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Cricetinae; Cricetulus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003614986.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##RefSeq-Attributes-START##
+            ab initio :: 1% of CDS bases
+            ##RefSeq-Attributes-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Cricetulus griseus Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..996
+                     /cell_line="CHO-K1"
+                     /db_xref="taxon:10029"
+                     /mol_type="mRNA"
+                     /organism="Cricetulus griseus"
+                     /chromosome="Unknown"
+     gene            1..996
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 Proteins, and 7% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:100754448"
+                     /gene="Taar1"
+     CDS             1..996
+                     /product="trace amine-associated receptor 1"
+                     /codon_start="1"
+                     /db_xref="GI:354497709"
+                     /db_xref="GeneID:100754448"
+                     /translation="MRRCHDINISHMNSNWSRDVSASLYSLMSLIILATLVGNLIVIIS
+                     ISHFKQLHTPTNWLLHSMATVDFLLGCLVMPYSMVRTVEHCWYFGEIFCKVHTSTDIML
+                     SSASIFHLSFISIDRYYAVFDPLRYKAKMSILTILVMILISWSVPAIFAFGMIFLELNI
+                     RGVEELYHKQAGCLGGCSTFFSKVSGVLVFMTVFYIPGSVMLFVYYRIYFIAKGQARSI
+                     HGTSLQIGLEEKHGMPQSKETKAAKTLGIVMGVFLICWSPFFFCMVLDPFLGYAIPLTL
+                     IDALSWFGYLNSAFNPVVYAFFYPWFRRALKMIVFGKIFQRDSSRSKLFF"
+                     /gene="Taar1"
+                     /protein_id="XP_003510961.1"
+ORIGIN
+        1 atgcgtcgtt gccacgatat taacatttcc cacatgaaca gcaactggtc aagggacgtt
+       61 agtgcttccc tctatagctt aatgtcactt ataattctgg ccactctggt tggtaattta
+      121 atagtaataa tttctatatc ccatttcaag caacttcata cacccacaaa ttggctcctt
+      181 cactccatgg ccactgtgga ctttctgctg ggttgcctgg tgatgcctta cagcatggtg
+      241 aggacagttg agcactgttg gtatttcgga gaaattttct gtaaagttca taccagcact
+      301 gatattatgc tgagctcggc atccattttc cacttatcct tcatttccat tgaccgctac
+      361 tatgctgtgt ttgacccatt gagatacaaa gccaagatga gtatcttgac tattttggtg
+      421 atgatcctca ttagctggag tgttccagct atttttgcat ttggaatgat cttcctggag
+      481 ctgaacatca gaggagttga agagctgtat cacaaacagg ctggctgcct gggtggctgt
+      541 tctaccttct ttagcaaagt gtctggggta ttggtcttca tgactgtttt ctatatacct
+      601 ggatctgtca tgttgtttgt ttactataga atatatttca tagctaaagg acaagccagg
+      661 tcaattcatg gcacaagtct tcaaattgga ttggaagaga aacacggaat gccacaaagc
+      721 aaagaaacaa aagctgcgaa gaccttaggc attgtgatgg gtgttttcct catatgttgg
+      781 tcccctttct ttttctgcat ggtcctggac cctttcctgg gctatgctat cccgctcact
+      841 ttgattgatg cactgagttg gtttgggtac ctgaattctg ccttcaaccc agtggtttat
+      901 gcctttttct atccctggtt cagaagagca ttgaagatga ttgtctttgg caagattttc
+      961 caaagagatt catctaggtc taagttattt ttctaa
+//

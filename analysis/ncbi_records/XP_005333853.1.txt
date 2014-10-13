@@ -1,0 +1,64 @@
+LOCUS       XP_005333853             488 aa                     ROD 21-AUG-2013
+DEFINITION  PREDICTED: histamine H1 receptor [Ictidomys tridecemlineatus].
+ACCESSION   XP_005333853
+VERSION     XP_005333853.1  GI:532096383
+DBLINK      BioProject: PRJNA210856
+KEYWORDS    RefSeq.
+SOURCE      Ictidomys tridecemlineatus (thirteen-lined ground squirrel)
+  ORGANISM  Ictidomys tridecemlineatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Sciuridae; Xerinae; Marmotini; Ictidomys.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004936602.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Ictidomys tridecemlineatus
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..488
+                     /isolate="#75"
+                     /sex="female"
+                     /organism="Ictidomys tridecemlineatus"
+                     /chromosome="Unknown"
+                     /db_xref="taxon:43179"
+     Protein         1..488
+                     /product="histamine H1 receptor"
+                     /calculated_mol_wt="55740"
+     Region          37..>199
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          50..469
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..488
+                     /coded_by="XM_005333796.1:1..1467"
+                     /gene="Hrh1"
+                     /db_xref="GeneID:101978224"
+ORIGIN
+        1 mtlpnssyvl edkmcegnkt tmaspqlmpl vvvlssislv tvalnllvly avrserklht
+       61 vgnlyivsls vadlivgavv mpmnilylvm tkwslgrplc lfwlsmdyva stasifsvfi
+      121 lcidryrsvq qplrylkyrt ktrasatilg awflsflwvi pilgwhhfms htsrrrddkc
+      181 etdfydvtwf kimtaiinfy lptllmlwfy fkiykavrrh cqhrelings lptfseikqk
+      241 penskvgpkk sekespweap kreskdasgg pifkpsfqdt kekkspdsls qeedgeaakl
+      301 pcfpldlvet qtaakgdgrg ceavdksqsq lktegqslnt rrvseisvdh tlvesqsigr
+      361 mtdsdtstep algrdklrsg snpgldyikf twkrlrshsr qyisglhvnr erkaakqlgf
+      421 imaafilcwi pyfiffmvia fcesccneqv hmftiwlgyi nstlnpliyp lcnenfkktf
+      481 kkilhirs
+//

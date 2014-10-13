@@ -1,0 +1,98 @@
+LOCUS       XM_006128269            2240 bp    DNA              VRT 15-NOV-2013
+DEFINITION  PREDICTED: Pelodiscus sinensis dopamine receptor D5 (DRD5), mRNA.
+ACCESSION   XM_006128269
+VERSION     XM_006128269.1  GI:558185833
+DBLINK      BioProject: PRJNA221645
+KEYWORDS    RefSeq.
+SOURCE      Pelodiscus sinensis (Chinese soft-shelled turtle)
+  ORGANISM  Pelodiscus sinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Testudines; Cryptodira;
+            Trionychoidea; Trionychidae; Pelodiscus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005856458.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pelodiscus sinensis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2240
+                     /mol_type="mRNA"
+                     /country="Japan: Saga"
+                     /isolate="Daiwa-1"
+                     /sex="female"
+                     /db_xref="taxon:13735"
+                     /organism="Pelodiscus sinensis"
+                     /chromosome="Unknown"
+     gene            1..2240
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 Proteins, and 99% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:102452408"
+                     /gene="DRD5"
+     CDS             1..1356
+                     /product="D(1B) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:558185834"
+                     /db_xref="GeneID:102452408"
+                     /translation="MVAGSLLSLLILWTLFGNVLVCVAIIRFRHLRSKVTNIFIVSLAV
+                     SDLLVALLVMPWKAVAEVAGYWPFGAFCNVWVAFDIMCSTASILNLCVISVDRYWAISS
+                     PFRYERKMTQRVALVMISVAWALSVLISFIPVQLNWHKGGEAVADGGGELDTTWAAAGT
+                     GTGTATWAEGIGTTWTAVMRPSEGTPSSNETHEGQAESCDSSLNRTYAISSSLISFYIP
+                     VAIMLVTYTRIYRIAQVQIRRISSLERAAEHAQSCRSNHVDCHHHTSLKTSIRKETKVL
+                     KTLSVIMGVFVCCWLPFFILNCMVPFCESPPNDPHASLPCVSETTFNIFVWFGWANSSL
+                     NPIIYAFNADFRKVFSNLLGCSEFCSSTPVETVNISNELISYNQDTLFHKEIVTAYVNM
+                     IPNVVDCNDDPFDRMSQISPDHEIATDSVCELDCEGEISLDKITPFTTNGLH"
+                     /gene="DRD5"
+                     /protein_id="XP_006128331.1"
+ORIGIN
+        1 atggtagctg gcagcctgct ctccctgctg atcctctgga cgctgttcgg caacgtgctg
+       61 gtgtgtgtgg ccatcatccg cttccggcac ctgaggagca aggtcaccaa catcttcatt
+      121 gtgtccttgg ccgtctctga cctcttggtg gccctcctgg tgatgccctg gaaggcagtg
+      181 gccgaggtgg ctggctactg gccctttggg gctttctgca atgtctgggt ggcctttgat
+      241 atcatgtgct ccaccgcttc cattctgaac ctctgcgtga tcagcgtgga caggtactgg
+      301 gccatctcca gccctttcag gtacgagagg aagatgaccc agagggtggc tttggtgatg
+      361 atcagcgtgg cttgggcttt gtcagtcctc atctccttca tcccggtcca gcttaactgg
+      421 cataagggcg gggaggctgt tgctgatggt gggggtgaac ttgacaccac ctgggctgca
+      481 gcaggcacag gcactggcac tgccacctgg gcggaaggga ttggcaccac ttggacagca
+      541 gtcatgagac cctctgaggg gacccccagc agcaatgaga cccatgaggg acaggctgag
+      601 agctgtgatt ccagcctcaa caggacctat gctatctcct cttcactgat cagcttttat
+      661 atcccagtgg ccatcatgct agtcacttac acacggatct accgtattgc tcaagtgcaa
+      721 atccgcagga tctcctccct ggagagggca gctgagcatg cacagagctg ccggagcaac
+      781 cacgttgact gccaccacca caccagcctc aagacttcca tcagaaaaga gactaaggtc
+      841 ttgaagaccc tgtcagtcat catgggagtc tttgtctgtt gctggctgcc cttcttcatc
+      901 ctgaactgca tggttccctt ctgtgagagc cctcctaatg acccacatgc tagccttccc
+      961 tgtgtcagtg agaccacctt taatattttt gtctggtttg gttgggccaa ctcatccctt
+     1021 aatcccatca tctatgcttt caatgctgac ttcaggaagg ttttctccaa ccttttaggg
+     1081 tgcagtgagt tttgctctag cactccagtg gagactgtca atataagcaa tgaactcatc
+     1141 tcctacaatc aagacaccct tttccataag gaaatagtga ctgcttatgt caacatgatc
+     1201 cctaatgtgg ttgattgcaa tgatgatcct tttgacagga tgtcccagat ctcgccagat
+     1261 catgagattg ccacagattc tgtgtgtgag ctagactgtg agggggagat ctctctagac
+     1321 aaaataacac cttttaccac aaatggttta cattaaatac cttatctact tttactggat
+     1381 tgtacaacaa attataaaca cagaatgaaa agactcctgg actcgaagct gtaatttggc
+     1441 cagtcagttc accccaattg tatctagcac ttttaaggtt tagaaattgc cacacagaga
+     1501 tgacaaaact aacttaattc aacatcccct aaattgagag aggactaggg agttaaatca
+     1561 gcgccacaat attatcacaa ttagttaatg tctttaaaaa gctctgaaga gggaaagtgc
+     1621 tctcaaaaca ttgtgactta tgagaagaga acaggtgttg aaatgatata gtcactaaaa
+     1681 aattcttaga ttgttcagtt cttgttttgt ttgaatttcc tttggagcta aggattgggt
+     1741 tgttggtgaa ttatttaaat gtacttattt ctgtttcttt caaaacaact tctctgtaat
+     1801 tcatgttttc ctaggcagtg ttattgcctt tgatgacttg cctggttccg aagatgaaaa
+     1861 taaatgttaa tgaccaagag attatatttc cttcattagc ctgaagattt gcattgtata
+     1921 ctcaaattcc agcatttcta cttgaatgat taaagttact tatttcagta gcaaactaca
+     1981 gtctgtggaa ataggatgtt tgagttaatt cagtgcacat aggaaaaaac tgatttttat
+     2041 actagctctt ttttgataca tgagctagat tgttacctac tgtttttgtt ccttctcatt
+     2101 aattgtcatg gatgtctttt attagtcatt attttctgta tttaaaatat caaacaaata
+     2161 tacttataaa atattaaatc ttaaatctaa acctgaatga gcttttaaga gtatggtaag
+     2221 caaagaatat cctcctatga
+//

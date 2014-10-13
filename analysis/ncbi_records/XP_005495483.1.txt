@@ -1,0 +1,64 @@
+LOCUS       XP_005495483             443 aa                     VRT 12-SEP-2013
+DEFINITION  PREDICTED: D(2) dopamine receptor [Zonotrichia albicollis].
+ACCESSION   XP_005495483
+VERSION     XP_005495483.1  GI:542177941
+DBLINK      BioProject: PRJNA217032
+KEYWORDS    RefSeq.
+SOURCE      Zonotrichia albicollis (white-throated sparrow)
+  ORGANISM  Zonotrichia albicollis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Fringillidae; Emberizinae; Emberizini; Zonotrichia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005081833.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Zonotrichia albicollis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..443
+                     /isolate="Tan morph"
+                     /sex="male"
+                     /db_xref="taxon:44394"
+                     /tissue_type="hematocrit"
+                     /organism="Zonotrichia albicollis"
+                     /chromosome="Unknown"
+     Protein         1..443
+                     /product="D(2) dopamine receptor"
+     Region          41..>230
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          53..426
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..443
+                     /coded_by="XM_005495426.1:609..1940"
+                     /gene="DRD2"
+                     /db_xref="GeneID:102070799"
+ORIGIN
+        1 mdplnlswyd gdrnwsraln aseaahrphy nyyamllall ifiivfgnvl vcmavsrera
+       61 lqtttnyliv slavadllva tlcmpwvvym evxgewrfsr ihcdifvtld vmmctasiln
+      121 lcaisidryt avampmlynt rysskrrvtv miavvwvlsf aiscpllfgl nntdekecii
+      181 gnpafvvyss ivsfyvpfmv tllvyvqiyi vlrrrrkrvs tkrsshvlds dtqaplkdkc
+      241 thpedvklct vivksngsfq vnkrkveaes hieemememv sstsppekta lkptapsnhq
+      301 livpvasnrg nnstlqapls spgkvekngh akeshhtakv feihslpngk trnllkavir
+      361 rkmsqqkekk atqmlaivlg vfiicwlpff ithilnmhcd cnippamysa ftwlgyvnsa
+      421 vnpiiyttfn iefrkafmki lhc
+//

@@ -1,0 +1,91 @@
+LOCUS       XM_003128610            1649 bp    DNA              MAM 26-SEP-2013
+DEFINITION  PREDICTED: Sus scrofa cholinergic receptor, muscarinic 5 (CHRM5),
+            mRNA.
+ACCESSION   XM_003128610
+VERSION     XM_003128610.2  GI:545841606
+DBLINK      BioProject: PRJNA28993
+KEYWORDS    RefSeq.
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003300275.3) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 26, 2013 this sequence version replaced gi:311261173.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Sus scrofa Annotation Release 104
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1649
+                     /breed="mixed"
+                     /db_xref="taxon:9823"
+                     /mol_type="mRNA"
+                     /organism="Sus scrofa"
+                     /chromosome="7"
+     gene            1..1649
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 EST, 16 Proteins, and 89%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:100155818"
+                     /gene="CHRM5"
+     CDS             51..1649
+                     /product="muscarinic acetylcholine receptor M5"
+                     /codon_start="1"
+                     /db_xref="GI:311261174"
+                     /db_xref="GeneID:100155818"
+                     /translation="MEGDSYHNATTINGTPVNHQPLERHGLWEVITIAAVTAVVSLITI
+                     VGNVLVMISFKVNSQLKTVNNYYLLSLACADLIIGIFSMNLYTTYILMGRWALGSLACD
+                     LWLALDYVASNASVMNLLVISFDRYFSITRPLTYRAKRTPKRAGIMIGLAWLISFILWA
+                     PAILCWQYLVGERTVPPDECQIQFLSEPTITFGTAIAAFYIPVSVMTILYCRIYRETEK
+                     RTKDLADLQGSDSVAEVEKSKPAHKVLLRSCFSCPRPPLAQRERNQASWSSSRRSTSTP
+                     GKPSQASCPSTEWAKAEQLTTCSSYPSSEDEDKPTTAPVFQVVYKSQAKESPREKFSAE
+                     ETKETLANAQTEKNDYDTPKYFLSPASAQRPKSQKCVAYKFRLVVKADGTPDTNNGCHK
+                     VKIMPCSFPVSKDPSTKGLDPSLSHQMTKRKRMVLVKERKAAQTLSAILLAFIITWTPY
+                     NIMVLVSTFCDKCVPVSLWHLGYWLCYVNSTVNPICYALCNRTFRKTFKMLLLCRWKKK
+                     KVEEKLYWQGNSKLP"
+                     /gene="CHRM5"
+                     /protein_id="XP_003128658.1"
+ORIGIN
+        1 agaacagcct agaatctaag ccttctccta atgtaaactc ttgcaccagg atggaagggg
+       61 actcttacca caatgcaacc accatcaatg gcacccccgt gaatcaccaa cctttggaac
+      121 gccatgggtt gtgggaagtg atcaccatcg cagctgtgac ggctgtggtg agcctgatca
+      181 ccattgtggg caatgtctta gtcatgatct ccttcaaagt caacagccag ctgaagacag
+      241 ttaacaacta ttatctgctc agcttagcct gtgcagatct catcattggg atcttctcca
+      301 tgaacctcta cacgacatac atcctcatgg gacgctgggc tctcggaagt ctggcttgtg
+      361 acctttggct tgcactggac tacgtggcca gcaatgcttc tgtcatgaac cttctggtga
+      421 tcagttttga ccgttacttt tctatcacaa gaccgctgac gtatcgggcc aagcgtaccc
+      481 caaagagggc tggcatcatg attggcttgg catggctgat ctccttcatc ctctgggccc
+      541 cagcgatcct ctgctggcag tacttggttg gggaacgaac ggtaccacca gatgagtgcc
+      601 agatccagtt cctgtctgag cccaccatca ctttcggcac ggccattgct gccttctaca
+      661 tccctgtttc cgtcatgaca atcctctact gccgaatcta ccgggaaaca gagaagcgaa
+      721 ccaaggacct ggctgatctc cagggctctg actcagtggc tgaagtggag aagagcaagc
+      781 cagctcacaa ggtgctgctc aggtcctgct ttagctgccc tcggccccca ctggcccaga
+      841 gggaaaggaa ccaagcctct tggtcatcct cccgcaggag cacttccacc cctgggaagc
+      901 cctcccaagc ctcttgcccg agcactgagt gggccaaagc cgagcagcta accacctgta
+      961 gcagctaccc ctcctcagaa gacgaggaca agcccaccac tgcccctgtc ttccaagtgg
+     1021 tctacaagag ccaggccaag gaaagcccga gggaaaaatt cagtgctgaa gagaccaagg
+     1081 aaactcttgc gaacgctcaa actgaaaaaa atgactatga cacccccaaa tacttcctgt
+     1141 ctccagcttc ggctcagcga cccaagagtc agaaatgtgt ggcctataag ttccggttgg
+     1201 tagtaaaagc tgatgggacc ccagacacca acaacggatg tcacaaggtg aaaatcatgc
+     1261 cctgctcctt cccagtgtcc aaggaccctt caaccaaggg cctcgatccc agcctcagcc
+     1321 atcagatgac caaacgaaag aggatggtcc tcgtcaaaga gcggaaagca gcccagacct
+     1381 tgagtgccat tctcctggct ttcattatca cgtggacccc ttacaatatc atggtcctgg
+     1441 tttccacctt ctgtgacaag tgtgtcccag tctctctgtg gcacttgggc tactggttgt
+     1501 gctacgtcaa tagcactgtc aaccccatct gctatgccct ctgcaacaga accttcagga
+     1561 aaacctttaa gatgctgctt ctctgccgat ggaaaaagaa aaaagtggaa gagaagttgt
+     1621 actggcaggg gaacagcaag ctcccctga
+//

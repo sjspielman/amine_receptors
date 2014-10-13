@@ -1,0 +1,89 @@
+LOCUS       XM_004623053            1690 bp    DNA              ROD 29-MAY-2013
+DEFINITION  PREDICTED: Octodon degus 5-hydroxytryptamine receptor 1A-like
+            (LOC101580658), mRNA.
+ACCESSION   XM_004623053
+VERSION     XM_004623053.1  GI:507615244
+DBLINK      BioProject: PRJNA193441
+KEYWORDS    RefSeq.
+SOURCE      Octodon degus (degu)
+  ORGANISM  Octodon degus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Octodontidae; Octodon.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004524577.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Octodon degus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1690
+                     /mol_type="mRNA"
+                     /isolate="3935"
+                     /sex="female"
+                     /db_xref="taxon:10160"
+                     /organism="Octodon degus"
+                     /chromosome="Unknown"
+     gene            1..1690
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 mRNAs, 12 Proteins"
+                     /db_xref="GeneID:101580658"
+                     /gene="LOC101580658"
+     misc_feature    316..318
+                     /note="upstream in-frame stop codon"
+                     /gene="LOC101580658"
+     CDS             415..1680
+                     /product="5-hydroxytryptamine receptor 1A-like"
+                     /codon_start="1"
+                     /db_xref="GI:507615245"
+                     /db_xref="GeneID:101580658"
+                     /translation="MDVLSPGQGNNTTSQGPFGTSANITGISDVTFSYQVITSLLLGTL
+                     IFCAVLGNACVVAAIALERSLQNVANYLIGSLAVTDLMVSVLVLPMAALYQVLNKWTLG
+                     QVTCDLFIALDVLCCTSSILHLCAIALDRYWAITDPIDYVNKRTPRRAAALISLTWLIG
+                     FLISIPPMLGWRTPEDRSDPDACTISKDHGYTIYSTFGAFYIPLLLMLVLYGRIFRAAR
+                     FRIRKTVKKVEKKGNDTRLGTSPAPPARKSANGQPGDRDWRRGVESKEKGALCANGAVR
+                     LGDDGATLEVIEVHRVGSSKEHLPLPSEGSTTPGVCAGLQRKNERNAEAKRKMALARER
+                     KTVKTLGIIMGTFILCWLPFFIVALVLPFCESSCHMPTLLGAIINWLGYSNSLLNPVIY
+                     AYFNKDFQSAFKKIIKCKFCRR"
+                     /gene="LOC101580658"
+                     /protein_id="XP_004623110.1"
+ORIGIN
+        1 tgggatttct ctgttccaga taattctggg cttagagact gtttgctagt gaggagactc
+       61 cggcttcagt agccagttgg acagctgcaa agtaacatgg acagcaggag acagaccttc
+      121 cagcaacctc tccgcttccc agagatccgg gaactgctct caggccaact tcagttttcc
+      181 agctggggtc tctgagcacc ctggaccgcg ggagccacag agcgcctgga agctactcct
+      241 ctgagatgca cgtaccgcag cagtaagaac ttcctgcttg agtcctgtat ccccttcctc
+      301 tggaactccc gggagtaggg gtggaagacc ccggggggag gagcgaggga gattctcctg
+      361 cagctctttc tcccctccct cctccgcccc acctctccgg gcgtgcaggc aggcatggat
+      421 gtgctcagcc ctggccaggg caacaacacc acgtcccaag gaccctttgg gacaagcgcc
+      481 aacattactg gaatctctga cgtgaccttc agctaccaag tgatcacctc tctgctgcta
+      541 ggcacgctta ttttctgcgc ggtgctgggc aatgcgtgcg tggtggctgc catcgccctg
+      601 gagcgctccc tccagaatgt ggccaactat ctcatcggtt ccttggcagt cactgacctc
+      661 atggtgtcag tgctggtgct gcccatggca gcgctatacc aggtgctcaa caagtggact
+      721 ctgggccagg tcacttgcga cctatttatc gctttggacg tgctgtgctg cacctcgtcc
+      781 atcctgcacc tgtgcgccat cgctctggac aggtactggg ccatcacgga ccccatcgac
+      841 tacgtgaaca agaggacacc ccggcgcgcc gccgcgctca tctcgctcac gtggctcatt
+      901 ggcttcctca tctccatccc gcccatgctg ggctggcgca cccccgaaga ccgctcggac
+      961 cccgacgcgt gcaccatcag taaggaccac ggctacacca tctactccac tttcggcgct
+     1021 ttctacatcc ctctgctgct catgctggtc ctctacggcc gtattttcag agctgcgcgc
+     1081 ttccgcattc gcaagacggt caagaaggtg gagaagaagg gaaatgacac tcgccttgga
+     1141 acttcgccgg ccccgccagc caggaagagc gcgaatgggc agccaggtga cagagactgg
+     1201 aggcggggcg tggagagcaa ggagaagggg gctctgtgcg ccaacggcgc ggtgaggctg
+     1261 ggcgacgatg gagccacgct ggaggtgatc gaggtgcacc gcgtgggcag ttccaaggag
+     1321 cacctaccct tacccagcga gggcagcacg accccagggg tctgcgccgg cctccagagg
+     1381 aaaaatgagc gcaacgccga ggcgaagcgc aagatggctc tggcccgcga gcggaagacc
+     1441 gtgaagacgc tgggcatcat catgggcacc ttcatcctct gctggctgcc ctttttcatc
+     1501 gtggccctcg tcctgccctt ctgcgagagc agctgccaca tgcccacgct gttgggtgcc
+     1561 ataatcaact ggctgggcta ctccaactcc ctgctaaacc cggtcattta cgcctacttc
+     1621 aacaaagact ttcaaagtgc gtttaagaag atcatcaagt gcaagttctg ccgccgatga
+     1681 tgacgaggaa
+//

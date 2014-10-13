@@ -1,0 +1,93 @@
+LOCUS       XM_005700259            1374 bp    DNA              MAM 30-SEP-2013
+DEFINITION  PREDICTED: Capra hircus 5-hydroxytryptamine receptor 2C-like
+            (LOC102188025), mRNA.
+ACCESSION   XM_005700259
+VERSION     XM_005700259.1  GI:548529384
+DBLINK      BioProject: PRJNA217901
+KEYWORDS    RefSeq.
+SOURCE      Capra hircus (goat)
+  ORGANISM  Capra hircus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Caprinae; Capra.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005100992.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Capra hircus Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1374
+                     /mol_type="mRNA"
+                     /collection_date="Sep-2009"
+                     /country="China: Kunming"
+                     /breed="Yunnan black goat"
+                     /db_xref="taxon:9925"
+                     /organism="Capra hircus"
+                     /chromosome="X"
+     gene            1..1374
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 mRNAs, 18 Proteins, and 7%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:102188025"
+                     /gene="LOC102188025"
+     CDS             1..1374
+                     /product="5-hydroxytryptamine receptor 2C-like"
+                     /codon_start="1"
+                     /db_xref="GI:548529385"
+                     /db_xref="GeneID:102188025"
+                     /translation="MVNLRKAVHSFLVHLIGLLVWQCDISVSPVAAIVTDIFNTSDGGR
+                     FKFPDGVQNWPALSIVIIIILTIGGNILVIMAVSLEKKLHNATNYFLMSLAIADMLVGL
+                     LVMPLSLLAILYDYVWPLPRYLCPVWISLDVLFSTASIMHLCAISLDRYVAIRNPIEHS
+                     RFNSRTKAIMKIAIVWAISLGVSVPIPVIGLRDEDKVFVNNTTCVLNDPNFVLIGSFVA
+                     FFIPLTIMVITYCLTIHVLRRQALMLLHGHTEEPPGINLNFLKCCKTNTNEENSANPNQ
+                     DLNPRRRKKKERRPRGTMQAINNERKASKVLGIVFFVFLIMWCPFFITNILSVLCEKAC
+                     NQKLMEKLLNVFVWIGYVCSGINPLVYTLFNKVYRRAFSNYLRCNYKVDKKPPIRQIPR
+                     VAATALSGRELNVNIYRHTNEPVIKKADDKEPGIEMQVENLELPVNPSNVISERISSV"
+                     /gene="LOC102188025"
+                     /protein_id="XP_005700316.1"
+     STS             47..150
+                     /db_xref="UniSTS:158200"
+                     /standard_name="GDB:603978"
+                     /gene="LOC102188025"
+     STS             353..500
+                     /db_xref="UniSTS:498203"
+                     /standard_name="HTR2C"
+                     /gene="LOC102188025"
+ORIGIN
+        1 atggtgaacc tgaggaaagc agtgcactca ttccttgtgc acctgattgg cctattggtt
+       61 tggcaatgtg atatatctgt gagcccagta gcagccatag taactgacat tttcaatacc
+      121 tccgatggtg gacgcttcaa attcccagac ggggtacaaa actggccagc actttcaatt
+      181 gtcataataa taatcttgac aataggtggc aacatcctcg ttatcatggc agtaagcttg
+      241 gaaaagaaac tgcacaatgc caccaattac ttcttaatgt ccctagccat tgctgatatg
+      301 ctagtgggac tacttgtcat gccactgtct ctgcttgcaa tcctttatga ttatgtctgg
+      361 ccactaccta gatatttgtg ccccgtctgg atttctttag atgttttatt ttctacagcg
+      421 tccatcatgc acctctgcgc tatttcgctg gatcggtatg tagcaatacg taatcctatt
+      481 gagcatagcc gtttcaattc acggactaag gccatcatga agattgctat tgtttgggca
+      541 atttctttag gtgtatcagt tcctatccca gtgattggac tgagggatga agacaaggtg
+      601 ttcgtcaaca acaccacctg cgtgctgaat gacccaaatt tcgttcttat tgggtccttc
+      661 gtagctttct tcataccgct gacaatcatg gtgattacct actgtctgac gattcacgtc
+      721 cttcgccgcc aagctctgat gttactgcac ggccacaccg aggaaccgcc tggaataaac
+      781 ctgaatttcc tgaaatgctg caagacgaac accaatgaag agaattctgc aaacccgaac
+      841 caagatttga acccacgccg aaggaagaag aaagaaagac ggcctagggg caccatgcaa
+      901 gctatcaaca atgaacggaa agcctcgaag gttcttggaa ttgtgttctt tgtgtttctg
+      961 atcatgtggt gcccgttttt tattactaat attttgtcgg ttctttgtga gaaggcttgt
+     1021 aatcaaaagc tcatggaaaa gcttctgaat gtgtttgttt ggattggcta tgtttgttca
+     1081 ggaattaatc ctctggtgta cactcttttc aacaaagttt accgaagggc tttctccaac
+     1141 tatttgcgct gcaattataa ggtagataaa aagcctccaa tcagacaaat cccgagagtt
+     1201 gctgccactg ctttgtctgg gagggagctt aatgttaaca tttaccggca caccaatgaa
+     1261 ccagtaatta agaaagctga tgacaaggag cctggtatag agatgcaagt tgagaatttg
+     1321 gagctaccgg ttaatccctc caatgtgatt agtgaaagga ttagtagtgt gtaa
+//

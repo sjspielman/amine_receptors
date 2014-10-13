@@ -1,0 +1,64 @@
+LOCUS       XP_006276096             487 aa                     VRT 09-DEC-2013
+DEFINITION  PREDICTED: histamine H1 receptor-like isoform X1 [Alligator
+            mississippiensis].
+ACCESSION   XP_006276096
+VERSION     XP_006276096.1  GI:564238453
+DBLINK      BioProject: PRJNA221578
+KEYWORDS    RefSeq.
+SOURCE      Alligator mississippiensis (American alligator)
+  ORGANISM  Alligator mississippiensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Crocodylia;
+            Alligatoridae; Alligatorinae; Alligator.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006235433.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Alligator mississippiensis
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..487
+                     /note="assembly comes from two alligators"
+                     /db_xref="taxon:8496"
+                     /organism="Alligator mississippiensis"
+                     /chromosome="Unknown"
+                     /country="USA: Florida"
+     Protein         1..487
+                     /product="histamine H1 receptor-like isoform X1"
+                     /calculated_mol_wt="55478"
+     Region          27..>150
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          40..>211
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..487
+                     /coded_by="XM_006276034.1:286..1749"
+                     /gene="LOC102571749"
+                     /db_xref="GeneID:102571749"
+ORIGIN
+        1 mcdlnktttq nstgvhlapl glvlgcisli tivlnilvly avrtekklqt vgnlyivsls
+       61 vadlivgavv mplnivyllt ptwvlgrpic lfwlsmdyva stasifslfi lcidryrsvq
+      121 qplkylkyrt ktratvmisg awlvsflwii pilgwhvfan ggerkvcedv cetefhkvtw
+      181 fkvstaivnf yvpsllmlwf yvkifravqk hcqhreling syrsfsenki thsdkvqeeh
+      241 niclqkenlg lntnvlkksl vdpscnvnin fppsesveak lhrgssdkas kalprrndrk
+      301 vmklscfplt iaqtqpgiek vsrmytsvdk hkqneevpcp gdpelsdtse htfaevasck
+      361 ndsdptlesn sgseektnnk dfvglgylkn twkrlrihsk qhiqglhmnr erkaakqlgf
+      421 imaafmlcwi pyfvvfmiia vcrcekfklh mftiwlgyvn stfnpliypl cnenfkkifk
+      481 kilriss
+//

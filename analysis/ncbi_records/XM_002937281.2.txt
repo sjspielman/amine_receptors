@@ -1,0 +1,104 @@
+LOCUS       XM_002937281            2243 bp    DNA              VRT 18-JUN-2013
+DEFINITION  PREDICTED: Xenopus (Silurana) tropicalis octopamine receptor-like
+            (LOC100490372), mRNA.
+ACCESSION   XM_002937281
+VERSION     XM_002937281.2  GI:512817078
+DBLINK      BioProject: PRJNA205740
+KEYWORDS    RefSeq.
+SOURCE      Xenopus (Silurana) tropicalis (western clawed frog)
+  ORGANISM  Xenopus (Silurana) tropicalis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Amphibia; Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae; Xenopus;
+            Silurana.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004668232.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Jun 18, 2013 this sequence version replaced gi:301615738.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Xenopus (Silurana) tropicalis
+            Annotation Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2243
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8364"
+                     /sex="female"
+                     /note="partially inbred F6; sterile"
+                     /strain="Nigerian"
+                     /organism="Xenopus (Silurana) tropicalis"
+                     /chromosome="Unknown"
+     gene            1..2243
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 100% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 2 samples
+                     with support for all annotated introns"
+                     /db_xref="GeneID:100490372"
+                     /gene="LOC100490372"
+     misc_feature    230..232
+                     /note="upstream in-frame stop codon"
+                     /gene="LOC100490372"
+     CDS             245..1462
+                     /product="octopamine receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:512817079"
+                     /db_xref="GeneID:100490372"
+                     /translation="MSYRQPLECQGVGMASGQSRLKMSMDKNVSSLCNFSFSFLRREGN
+                     RTALEIAPQQVAVGSLLTVIDLITFLGNAVVFICPVVEKRLRTVTYMFIMSLAMADLLV
+                     ACLVMPFSIIYEVTGMWLFGKQFCKVWISFDVMFCTASIVTLCFISLDRYCSVVTPYHY
+                     SKRMSRRRCIIMTVTIWVYSSLISFLPVMQGWNEIPGVDTDNGKQCIFVTNWTFAIVAS
+                     SLAFYIPFIIMCSMYFFIYRASRLKATRIVSQTLDLHYHPNSKRQNNLQLENKATRTMG
+                     IIISVFVMCWLPYFVLNVLIAAKGTDSTSRVLVNAFKFITWLGYCNSTINPMLYAFLNR
+                     DFQRALKKLLICRRWRSQVDIGDDMVSIVTFSKTAQDPEYNIKMPISNCVLKNKPAMKC
+                     NPTTHY"
+                     /gene="LOC100490372"
+                     /protein_id="XP_002937327.2"
+ORIGIN
+        1 cacacattca tacacatata ttcatataca cacacacaca ttcatacaca catattcata
+       61 tacacacgca ggcacacctc tccgtgcttc cctgtgccaa actatgggct ggaattaaca
+      121 tgcagtgtac tgctgcctct ccgccagtgc atactctccc atggacttgc tcagagacag
+      181 gactgcaggg acaaacgacc ttccccactg gaatccactc agcgctccct aacagcgtgt
+      241 atggatgagc tacaggcagc cccttgaatg ccagggggtt ggcatggcct caggtcaaag
+      301 cagactgaaa atgtccatgg ataaaaatgt gtcttcgctc tgcaatttct ccttctcttt
+      361 cctgcggagg gaaggcaaca ggacggcgct ggagattgcg ccgcagcaag tggccgttgg
+      421 atcgctattg actgtcattg acctgatcac gttcttgggc aacgccgtcg ttttcatttg
+      481 cccggtggta gaaaagagac tccggacggt cacgtacatg ttcatcatgt ctctggccat
+      541 ggccgatctt ctggttgcct gcctggtcat gccgttcagc atcatttacg aagtgacggg
+      601 aatgtggctc tttggcaaac agttctgcaa ggtgtggatt tccttcgatg tgatgttctg
+      661 cacggcttcc atcgtcaccc tgtgcttcat cagcctggac aggtactgct ccgttgtcac
+      721 cccctatcat tattccaaga ggatgtcacg ccgcagatgt atcattatga cagtgactat
+      781 atgggtttac tcctcgctga tctcctttct gcccgtcatg caaggatgga atgaaatacc
+      841 cggcgttgat actgacaatg ggaagcaatg tatcttcgtc accaactgga cctttgccat
+      901 tgtggcctcc tccttggcat tttacatccc cttcatcatc atgtgcagca tgtacttctt
+      961 catttaccgg gcgtctcggc tgaaagccac tcggattgtg tcccagacgc tggatttgca
+     1021 ttaccaccca aacagtaaac ggcagaacaa cctgcaactg gagaacaaag ccaccaggac
+     1081 catgggcata ataatatcgg tgtttgtcat gtgctggctc ccgtactttg tgctcaacgt
+     1141 tctgatagcc gcaaagggca ccgattccac cagcagagtc ttggtgaacg ctttcaagtt
+     1201 catcacctgg ttggggtatt gcaattccac catcaatccc atgttatatg cctttctaaa
+     1261 tcgggacttc caaagggctt tgaagaaatt gctgatctgc aggcgctgga ggtcccaggt
+     1321 ggacatagga gatgacatgg tctccatcgt gacattttct aagacagctc aagatccaga
+     1381 atataacatc aaaatgccaa tcagcaactg tgtgcttaag aacaaaccag caatgaaatg
+     1441 caaccctaca acccactact aatcaataac acaaacaccc tatagagcac atactcacct
+     1501 atagttacct ttctgtatca gctgaaggta tcgcacaact gctctactga ttcacactaa
+     1561 acacaactaa atctcatatt tgaaccttct tctagtcaac tgataagtat tttatcatta
+     1621 ctaaagtgtt tacatgttgc ggttccctcc acacggagat cagacgtgga acccaagaca
+     1681 caagaatgat catttacaga tggaactgca gtgcgcaaac aggaagtttg gaagcccttt
+     1741 ttttacccat aaggcatcat tttccccata attcaactgt gactgcatcc agtgcaattg
+     1801 ctcctgatgc atcaaatagg agcgactaga gatagtgttc agactcagac tggttgcagt
+     1861 tgcatctagt ggggatggag tcatttcaga tagggttgcc agctagggcc ggggctagta
+     1921 ttacagattt actgccaatg tatttgccgg taaatttgta atccttagtt tttctctggc
+     1981 ccacatctga tcctgccaat tctgcctccc cgctccccct ccatcccacc catcacccct
+     2041 tccgccttgg ctcctgacaa atggcaaagg gggcatttga cacaccagga tcgggggccc
+     2101 actaacactc cttttaactt gggataacgt ttggcatcct gcagagttga cagacccctc
+     2161 attttaatca gatggcaaag ccctagagtt aaggttcctg taatttcttt tcctttttac
+     2221 ctttgggatc aggtccggac tgg
+//

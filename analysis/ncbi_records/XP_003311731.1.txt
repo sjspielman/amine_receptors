@@ -1,0 +1,59 @@
+LOCUS       XP_003311731             429 aa                     PRI 25-OCT-2012
+DEFINITION  PREDICTED: alpha-1A adrenergic receptor [Pan troglodytes].
+ACCESSION   XP_003311731
+VERSION     XP_003311731.1  GI:332825952
+KEYWORDS    RefSeq.
+SOURCE      Pan troglodytes (chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003457217) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Pan troglodytes Annotation Release 102
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..429
+                     /isolate="Yerkes chimp pedigree #C0471 (Clint)"
+                     /sex="male"
+                     /organism="Pan troglodytes"
+                     /chromosome="8"
+                     /db_xref="taxon:9598"
+     Protein         1..429
+                     /product="alpha-1A adrenergic receptor"
+                     /calculated_mol_wt="47410"
+     Region          37..341
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          49..326
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..429
+                     /coded_by="XM_003311683.1:1006..2295"
+                     /gene="ADRA1A"
+                     /db_xref="GeneID:472723"
+ORIGIN
+        1 mvflsgnasd ssnctqppap vniskaillg vilgglilfg vlgnilvils vachrhlhsv
+       61 thyyivnlav adllltstvl pfsaifevlg ywafgrvfcn iwaavdvlcc tasimglcii
+      121 sidryigvsy plryptivtq rrglmallcv walslvisig plfgwrqpap edeticqine
+      181 epgyvlfsal gsfylplaii lvmycrvyvv akresrglks glktdksdse qvtlrnyrkn
+      241 apaggsgmas aktkthfsvr llkfsrekka aktlgivvgc fvlcwlpffl vmpigsffpd
+      301 fkpsetvfki vfwlgylnsc inpiiypcss qefkkafqnv lriqclrrkq sskhalgytl
+      361 hppsqavegq hkdmvripvg sretfyrisk tdgvcewkff ssmprgsari tvskdqssct
+      421 targhtpmt
+//

@@ -1,0 +1,65 @@
+LOCUS       XP_003217630             429 aa                     VRT 22-MAY-2014
+DEFINITION  PREDICTED: alpha-2Da adrenergic receptor-like [Anolis carolinensis].
+ACCESSION   XP_003217630
+VERSION     XP_003217630.1  GI:327265669
+DBLINK      BioProject: PRJNA60547
+KEYWORDS    RefSeq.
+SOURCE      Anolis carolinensis (green anole)
+  ORGANISM  Anolis carolinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata;
+            Toxicofera; Iguania; Iguanidae; Polychrotinae; Anolis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003338619.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Anolis carolinensis Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..429
+                     /db_xref="taxon:28377"
+                     /organism="Anolis carolinensis"
+                     /chromosome="2"
+                     /country="USA"
+     Protein         1..429
+                     /product="alpha-2Da adrenergic receptor-like"
+                     /calculated_mol_wt="49065"
+     Region          38..>155
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          50..404
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          270..>346
+                     /note="Fruit fly transformer protein; pfam06495"
+                     /db_xref="CDD:253769"
+                     /region_name="Transformer"
+     CDS             1..429
+                     /coded_by="XM_003217582.2:745..2034"
+                     /gene="LOC100555911"
+                     /db_xref="GeneID:100555911"
+ORIGIN
+        1 mepqhngssn rsgpgegtll pytpletali llavltmafv tlmgnilvvm avctsralra
+       61 pqnlfvvsla vadilvatli ipfslanevm dywcfgnlwc rlylsldvlf ctssimhlca
+      121 isldrywavt raarynlkrs prrvkitiac iwviaalval pplfktsped nvcllhddtw
+      181 yvlasctasf fapcfimvav ycriyhvakh rnsaiiaarr ashptfksvg khdtrtvstq
+      241 qyfeegpnkv lehsqlarvq pnlprlswer rleemgssga gpcrtprlsw smpncqqkrr
+      301 srdmsfssgq qrrrsrdmsf ssgqqrrrsr dmsfsshrlm qarerrftfv lafiigafvl
+      361 cwfpfffmys lesvlgkdcc isrtlfkfff wigycnssfn piiytifnrd frkafqhllc
+      421 qadplrhlk
+//

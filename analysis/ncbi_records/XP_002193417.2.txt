@@ -1,0 +1,70 @@
+LOCUS       XP_002193417             627 aa                     VRT 12-FEB-2013
+DEFINITION  PREDICTED: D(1B) dopamine receptor [Taeniopygia guttata].
+ACCESSION   XP_002193417
+VERSION     XP_002193417.2  GI:449501265
+DBLINK      BioProject: PRJNA32405
+KEYWORDS    RefSeq.
+SOURCE      Taeniopygia guttata (zebra finch)
+  ORGANISM  Taeniopygia guttata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Estrildidae; Estrildinae; Taeniopygia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_002198637.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Feb 12, 2013 this sequence version replaced gi:224050110.
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Taeniopygia guttata Annotation Release 101
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..627
+                     /isolate="Black17"
+                     /sex="male"
+                     /organism="Taeniopygia guttata"
+                     /chromosome="4"
+                     /db_xref="taxon:59729"
+     Protein         1..627
+                     /product="D(1B) dopamine receptor"
+                     /calculated_mol_wt="68265"
+     Region          217..532
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          217..>336
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          224..518
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..627
+                     /coded_by="XM_002193381.2:1..1884"
+                     /gene="DRD5"
+                     /db_xref="GeneID:100219893"
+ORIGIN
+        1 mgltsrnrfk kktvsacaga lprgaihpie lererigfsl aglsacntsq psrrshwnky
+       61 ggtlhfpslr ktpspsrsph rtfqprslpa rgrpscvrar pgqpllprgc rghfpaprgg
+      121 tgtalfscaa qsrrtepvta prncegdsvs eggkerggrl apprlsvpsr ppaaavptgp
+      181 dgaslaaeha rgaagapgaa qvaagsllal lilwtlfgnv lvcaaivryr hlrskvtnif
+      241 ivslavsdll vallvmpwka vaevagywpf gafcnvwvaf dimcstasil nlcvisvdry
+      301 waisspfrye rkmtqrlalv misvawalsv lisfipvqln whkdmsttwv alaavrpsdg
+      361 tsgsndtlsg psescdssln rtyaisssli sfyipvaimi vtytriyria qvqirrissl
+      421 eraaehaqsc rsshidchhh tslkssirke tkvlktlsvi mgvfvccwlp ffilncmvpf
+      481 cesppsdpha glpcvsettf nifvwfgwan sslnpiiyaf nadfrkvfsn llgcghfcsg
+      541 tavetvnisn elisynqdtl yhkeivtayv nmipnvvdce enredpfdrm sqispdheva
+      601 tdsaceldce geislgkitp ftpnglh
+//

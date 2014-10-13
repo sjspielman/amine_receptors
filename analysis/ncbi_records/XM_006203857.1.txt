@@ -1,0 +1,85 @@
+LOCUS       XM_006203857            1347 bp    DNA              MAM 29-NOV-2013
+DEFINITION  PREDICTED: Vicugna pacos adrenoceptor alpha 2B (ADRA2B), mRNA.
+ACCESSION   XM_006203857
+VERSION     XM_006203857.1  GI:560962980
+DBLINK      BioProject: PRJNA221631
+KEYWORDS    RefSeq.
+SOURCE      Vicugna pacos (alpaca)
+  ORGANISM  Vicugna pacos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Tylopoda;
+            Camelidae; Vicugna.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005882742.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Vicugna pacos Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1347
+                     /mol_type="mRNA"
+                     /isolate="Carlotta (AHFN-0088)"
+                     /sex="female"
+                     /db_xref="taxon:30538"
+                     /organism="Vicugna pacos"
+                     /chromosome="Unknown"
+     gene            1..1347
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 15 Proteins"
+                     /db_xref="GeneID:102536161"
+                     /gene="ADRA2B"
+     CDS             1..1347
+                     /product="alpha-2B adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:560962981"
+                     /db_xref="GeneID:102536161"
+                     /translation="MDHQEPYSVQATAAIAAVITFLILFTIFGNALVILAVLTSRSLRA
+                     PQNLFLVSLAAADILVATLIIPFSLANELLGYWYFRRTWCEVYLALDVLFCTSSIVHLC
+                     AISLDRYWAVSRALEYNSKRTPRRIKCIILTVWLIAAVISLPPLIYKGDQSPQPRGRPQ
+                     CKLNQEAWYILASSIGSFFAPCLIMILVYLRIYLIAKRSHRRGPRAKGGPGKGDSKQPC
+                     RIPGEVSASGKLPTLVSQLATAGEANGRPHPTGEKDEGETPEVPGTPALPPNWPALPNS
+                     GQGQKEGVCGTSPEEEAAEEEEEEEECEPQALPASPASACSPPLQQPQVSRVLATLRGQ
+                     VLLGRGVGTSRGQWWRRRAQLTREKRFTFVLAVVIGVFVLCWFPFFFSYSLGAICPEHC
+                     KVPRGLFQFFFWIGYCNSSLNPVIYTIFNQDFRRAFRRILCRQWTQTAW"
+                     /gene="ADRA2B"
+                     /protein_id="XP_006203919.1"
+     STS             386..934
+                     /db_xref="UniSTS:505020"
+                     /standard_name="15STS02"
+                     /gene="ADRA2B"
+ORIGIN
+        1 atggaccacc aggagcccta ctccgtgcag gccactgcgg caatcgcggc ggtcatcacc
+       61 ttcctcatcc tcttcaccat cttcggcaac gcgctggtta tcttggctgt gctgacaagt
+      121 cgctcgctgc gcgccccgca gaacctgttc ctagtgtcgc tggccgccgc cgacatcctg
+      181 gtggccacgc tcatcatccc tttctcgctg gccaacgagc tgctgggcta ctggtacttc
+      241 cggcgcacct ggtgcgaggt gtacctggcg cttgatgtgc tcttctgcac ctcctccatc
+      301 gtgcacctgt gtgccatcag cctggaccgc tactgggccg tgagccgtgc gctggagtac
+      361 aattccaagc gcaccccgcg ccgcatcaag tgcatcatcc tcaccgtgtg gctcatcgcg
+      421 gctgtcatct cgctgccgcc cctcatctac aagggcgacc agagtcccca gccccgcggg
+      481 cgccctcaat gcaagctcaa ccaggaggcc tggtacatcc tggcctccag tattggctct
+      541 ttctttgcac cctgtcttat catgatcctt gtctacctgc gcatttacct gatcgccaag
+      601 cgcagccacc gcagaggtcc cagggccaag gggggccctg ggaagggtga ctctaagcag
+      661 ccctgccgca tccctgggga agtttcagcc tcaggcaaac tgcccaccct ggtctctcaa
+      721 ctggctactg ctggagaggc aaacggacgc cctcatccca ctggggagaa ggatgagggg
+      781 gagacccctg aagtccctgg aacccccgcc ttgccaccca actggcctgc ccttcccaat
+      841 tcaggccagg gtcagaagga aggtgtttgt gggacgtctc cagaggagga ggctgcagag
+      901 gaggaggagg aggaggaaga gtgtgagcct caggccttgc cagcatctcc tgcctcagct
+      961 tgcagcccac ccttgcagca gccacaggtt tcccgggtgc tggcgaccct gcgtggccag
+     1021 gtactcctgg gcaggggcgt gggcacctcg cgggggcagt ggtggcggcg acgggcgcag
+     1081 ctgacccggg agaagcggtt cacgtttgtg ctggccgtgg tcatcggcgt cttcgtgctc
+     1141 tgctggttcc ccttcttctt cagctacagc ctgggggcca tctgccccga gcactgcaag
+     1201 gtgccccgcg gcctcttcca gttcttcttc tggatcggct actgcaacag ctcgctgaac
+     1261 cctgtcatct acaccatctt caaccaggac ttccgccgtg ccttccgaag aatcctttgc
+     1321 cgccagtgga cccagacggc ctggtga
+//

@@ -1,0 +1,137 @@
+LOCUS       XM_006234548            3081 bp    DNA              ROD 09-DEC-2013
+DEFINITION  PREDICTED: Rattus norvegicus cholinergic receptor, muscarinic 4
+            (Chrm4), transcript variant X1, mRNA.
+ACCESSION   XM_006234548
+VERSION     XM_006234548.1  GI:564341851
+DBLINK      BioProject: PRJNA12455
+KEYWORDS    RefSeq.
+SOURCE      Rattus norvegicus (Norway rat)
+  ORGANISM  Rattus norvegicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Rattus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003807626.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Rattus norvegicus Annotation Release
+            104
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3081
+                     /strain="BN/SsNHsdMCW"
+                     /mol_type="mRNA"
+                     /organism="Rattus norvegicus"
+                     /chromosome="3"
+                     /db_xref="taxon:10116"
+     gene            1..3081
+                     /note="cholinergic receptor, muscarinic 4; Derived by
+                     automated computational analysis using gene prediction
+                     method: Gnomon. Supporting evidence includes similarity to:
+                     2 mRNAs, 4 ESTs, 21 Proteins, and 100% coverage of the
+                     annotated genomic feature by RNAseq alignments, including
+                     14 samples with support for all annotated introns"
+                     /db_xref="GeneID:25111"
+                     /db_xref="RGD:2344"
+                     /gene="Chrm4"
+                     /gene_synonym="M4"
+     CDS             22..1932
+                     /product="muscarinic acetylcholine receptor M4 isoform X1"
+                     /codon_start="1"
+                     /gene_synonym="M4"
+                     /db_xref="GI:564341852"
+                     /db_xref="GeneID:25111"
+                     /db_xref="RGD:2344"
+                     /translation="MTTRTAPTPPPGGQRRRLILPGDCGRCPRSWSPEARAISREGCKH
+                     QGCPTLQVVTPARRRWVTGPGRAVRPHHDWLLPCDITRLGEKCERERESEPQRPELQAK
+                     QGPPLGTLSPPPAPGPVAHPTDSRNLWLVPPSVRHQQRKTEAAATAHLYPVGFSMANFT
+                     PVNGSSANQSVRLVTAAHNHLETVEMVFIATVTGSLSLVTVVGNILVMLSIKVNRQLQT
+                     VNNYFLFSLACADLIIGAFSMNLYTLYIIKGYWPLGAVVCDLWLALDYVVSNASVMNLL
+                     IISFDRYFCVTKPLTYPARRTTKMAGLMIAAAWVLSFVLWAPAILFWQFVVGKRTVPDN
+                     QCFIQFLSNPAVTFGTAIAAFYLPVVIMTVLYIHISLASRSRVHKHRPEGPKEKKAKTL
+                     AFLKSPLMKPSIKKPPPGGASREELRNGKLEEAPPPALPPPPRPVPDKDTSNESSSGSA
+                     TQNTKERPPTELSTAEATTPALPAPTLQPRTLNPASKWSKIQIVTKQTGNECVTAIEIV
+                     PATPAGMRPAANVARKFASIARNQVRKKRQMAARERKVTRTIFAILLAFILTWTPYNVM
+                     VLVNTFCQSCIPERVWSIGYWLCYVNSTINPACYALCNATFKKTFRHLLLCQYRNIGTA
+                     R"
+                     /gene="Chrm4"
+                     /protein_id="XP_006234610.1"
+     STS             465..2021
+                     /db_xref="UniSTS:492564"
+                     /standard_name="UniSTS:492564"
+                     /gene="Chrm4"
+                     /gene_synonym="M4"
+     STS             496..1932
+                     /db_xref="UniSTS:481077"
+                     /standard_name="UniSTS:481077"
+                     /gene="Chrm4"
+                     /gene_synonym="M4"
+     STS             2766..2973
+                     /db_xref="UniSTS:217489"
+                     /standard_name="RH134207"
+                     /gene="Chrm4"
+                     /gene_synonym="M4"
+ORIGIN
+        1 gcgagggggc gcctagtccc catgacaacg cggacagccc ccaccccacc ccccggaggg
+       61 cagcgccgga ggctaatcct ccctggcgac tgtgggcggt gccctcggag ctggagtccc
+      121 gaggcgcggg ccatctctcg ggaagggtgt aagcatcaag ggtgccctac actccaggtg
+      181 gtgacccccg cgcgtcgccg ctgggtgacc ggccccgggc gggcggtgcg tccccaccac
+      241 gattggctgc ttccctgtga catcacgcgg ctcggggaaa agtgcgagcg tgagcgcgag
+      301 tcggagccac agcgcccgga gctgcaggcg aagcaggggc cgccccttgg caccctgtcc
+      361 ccgcccccgg cccccggccc agtcgcccac cccaccgact cgcggaacct ctggcttgtt
+      421 ccgccgtctg tccggcacca gcagagaaag acagaagcag cggccactgc ccacctgtat
+      481 ccagttgggt tcagcatggc caacttcacg cctgtcaatg gcagctcagc caatcagtct
+      541 gtgcgcctgg tcacagcagc ccacaaccac ctggagacag tggagatggt gttcattgct
+      601 acagtgactg gctccctgag cctggtgact gttgtgggta acatcctggt gatgctgtcc
+      661 atcaaggtca acaggcagtt gcagacggtc aacaactact tcctcttcag cctggcgtgt
+      721 gcggatctca tcataggggc attctctatg aacctctaca ctttgtatat catcaagggc
+      781 tactggcccc tgggtgccgt ggtctgtgac ttgtggctgg ccctggacta tgtggtgagc
+      841 aatgcctctg tcatgaacct tcttatcatc agcttcgatc gttacttctg cgtcaccaaa
+      901 cccctcacct atcccgcccg ccgcactact aagatggcag gtctcatgat cgcagctgcc
+      961 tgggtcttgt cctttgtgct ctgggctcct gccatcttgt tctggcagtt tgtggtgggc
+     1021 aagaggacgg tgcctgataa ccagtgcttc atccagttct tgtccaaccc ggcagtgacc
+     1081 tttggcaccg ccattgctgc cttctacctg cctgtggtca tcatgacggt actgtatatt
+     1141 cacatctcac tggccagccg cagccgcgtt cacaagcatc gacctgaggg ccccaaggag
+     1201 aagaaggcca agactctggc tttcctcaag agccctctga tgaagccgag tatcaagaaa
+     1261 cctccaccag ggggcgcttc tcgagaggaa ctgcgcaatg ggaagctgga agaggctcct
+     1321 ccgccagccc tgcccccgcc tccacgccca gtgcctgaca aggacacttc caatgagtcc
+     1381 agctcaggca gtgccaccca gaacaccaag gaacggccac ccacagagct gtccaccgca
+     1441 gaggccacca ctccagcgct gcctgcccct accctgcagc cacgaaccct caacccagcc
+     1501 tccaaatggt ccaagattca aattgtaaca aagcagacag gcaatgaatg tgtgacggcc
+     1561 atcgagattg tacctgccac tccagctggt atgcgcccag cagccaatgt ggcccgaaag
+     1621 tttgccagca ttgctcgcaa ccaggtgcgc aagaagcggc agatggcggc ccgggagcgc
+     1681 aaagtgactc ggacaatctt tgccattctg ctggccttca tcctcacctg gacaccctac
+     1741 aatgtcatgg tcctggtgaa caccttttgc cagagctgta tccccgagag ggtgtggtcc
+     1801 atcggctact ggctctgcta cgtcaacagc accatcaacc ccgcctgcta tgcactctgc
+     1861 aatgccactt tcaaaaagac cttccggcac cttttgctgt gccagtatcg gaacatcggc
+     1921 acagccaggt agacaggcag gtgccctagg aggtgctggt gtcatgagtg tgtaccgggg
+     1981 aaccacatgg ctcaccggct gtggaggaga gagtaggcgg ccccactctg agttcgcatc
+     2041 tgctgaagag aacaggtctc ccagacaccg tgaggtacca gaggcccttc gctaggatgg
+     2101 gagagatctc tactgaagcc tagaaggctc agcccaggga gggtctgaac tgtcaccacc
+     2161 cggcccacat ctgttacctt gcctcaggaa gatgggggac aatggctgga gtgggcagtg
+     2221 gctctacaaa ggccaaccat cggccgaagt gcatagagcc gagcccagga gcatctcggg
+     2281 aggagcaaaa ggagccaggc ttgcaagggc ggggtccccc atgcgctgta atcggtgctt
+     2341 tccgccttcc tgcaccctcc tccccctgca tgtaggctca gcccttcccc tgaccccaag
+     2401 tcccactcca gggtgagaga gtgccctgct aatgttgctc agccaggctc tgggtgggaa
+     2461 accaagccct ttggcactcc cctggccagc agtcatatct ggatggggca actgggaaat
+     2521 catgctaagc tgagacagat tccagggcac tgagtcaatt agtgctggat catatggtca
+     2581 aactgtcaag agcccacccc cacccccagg tcacacatca aatgagtggc agcagcgttc
+     2641 ctctctcctc tacaaggagg gaggtgtgga tccaagggag gaaaggtggt ggtagggacc
+     2701 ttggtgatct atacaggcct cagtgacagg tgacacaagc aagcaccctc attagtcccc
+     2761 aaggagagca ttccagactg gcagtagcct ggaccagaaa gactcttgac taggtgaggc
+     2821 agagttcaaa tgagtcacct gggttctctt ccctaacccc agccctgtgg gtccctggga
+     2881 gagataacac ccaaggggcc ctggaagaca tttttgtaaa tgttctgctc tttccactaa
+     2941 ttgttgggag cacttcttac gtagccctcc gctcccctca gtacatcttt ccccatcctc
+     3001 ccacccccaa caaagctccc tggcaaactc cctgggaagg ggcttttata tattaaaaaa
+     3061 gaggctttta ttggaaaaaa a
+//

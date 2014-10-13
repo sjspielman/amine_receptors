@@ -1,0 +1,64 @@
+LOCUS       XP_005376640             487 aa                     ROD 27-AUG-2013
+DEFINITION  PREDICTED: alpha-1B adrenergic receptor [Chinchilla lanigera].
+ACCESSION   XP_005376640
+VERSION     XP_005376640.1  GI:533122617
+DBLINK      BioProject: PRJNA210822
+KEYWORDS    RefSeq.
+SOURCE      Chinchilla lanigera (long-tailed chinchilla)
+  ORGANISM  Chinchilla lanigera
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Chinchillidae; Chinchilla.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004955408.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Chinchilla lanigera Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..487
+                     /isolate="Chin_1"
+                     /sex="female"
+                     /organism="Chinchilla lanigera"
+                     /chromosome="Unknown"
+                     /db_xref="taxon:34839"
+     Protein         1..487
+                     /product="alpha-1B adrenergic receptor"
+                     /calculated_mol_wt="53567"
+     Region          56..363
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          68..348
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..487
+                     /coded_by="XM_005376583.1:330..1793"
+                     /gene="Adra1b"
+                     /db_xref="GeneID:102020769"
+ORIGIN
+        1 mnpdldaghn tsapahwgel kdanfsgpnq tssnstlpql ditraisvgl vlgafilfai
+       61 vgnilvilsv acnrhlrtpt nyfivnlaia dlllsftvlp fsaalevlgy wvlgrifcdi
+      121 waavdvlcct asilslcais idryigvrys lqyptlvtrr kailallsvw vlstvisigp
+      181 llgwkepapn ddkecgvtee pfyalfsslg sfyiplavil vmycrvyiva krttknleag
+      241 vmkemsnske ltlrihsknf hedtlsstka kghnprssia vklfkfsrek kaaktlgivv
+      301 gmfilcwlpf fialplgslf stlkppdavf kvvfwlgyfn sclnpiiypc sskefkrafv
+      361 rilgcqcrgh rrrrrrrrlg gclyisavrl lcfllwpgap vpspwvrrsl qrlqllatka
+      421 akptargcss prrpslvssv rvawvavpyl khcsdqggst prcpkqvpka graartadgs
+      481 atccpad
+//

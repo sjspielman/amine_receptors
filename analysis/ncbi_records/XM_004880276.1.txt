@@ -1,0 +1,96 @@
+LOCUS       XM_004880276            1948 bp    DNA              ROD 18-JUN-2013
+DEFINITION  PREDICTED: Heterocephalus glaber cholinergic receptor, muscarinic 4
+            (Chrm4), mRNA.
+ACCESSION   XM_004880276
+VERSION     XM_004880276.1  GI:512824206
+DBLINK      BioProject: PRJNA167983
+KEYWORDS    RefSeq.
+SOURCE      Heterocephalus glaber (naked mole-rat)
+  ORGANISM  Heterocephalus glaber
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Bathyergidae; Heterocephalus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004630311.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Heterocephalus glaber Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1948
+                     /db_xref="taxon:10181"
+                     /mol_type="mRNA"
+                     /organism="Heterocephalus glaber"
+                     /chromosome="Unknown"
+                     /sex="male"
+     gene            1..1948
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 15 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101726411"
+                     /gene="Chrm4"
+     misc_feature    138..140
+                     /note="upstream in-frame stop codon"
+                     /gene="Chrm4"
+     CDS             291..1715
+                     /product="muscarinic acetylcholine receptor M4"
+                     /codon_start="1"
+                     /db_xref="GI:512824207"
+                     /db_xref="GeneID:101726411"
+                     /translation="MADFTPVNGSSGNQSVRLVTSAHNRYETVEMVFIATVTGSLSLVT
+                     VVGNILVMLSIKVNRQLQTVNNYFLFSLACADLIIGAFSMNLYTVYIIKGYWPLGAVVC
+                     DLWLALDYVVSNASVMNLLIISFDRYFCVTKPLTYPARRTTKMAGLMIAAAWVLSFVLW
+                     APAILFWQFVVGKRTVPDNQCFIQFLSNPAVTFGTAIAAFYLPVVIMTVLYIHISLASR
+                     SRVHKHRPEGPKEKKAKTLAFLKSPLVKQSVKKPPLAGAARDELRNGKLEEAPPPALPP
+                     PPRPVADKDTSNESSSGSATQNTKERPPTELSTTEAVPAPALQPRTLNPASKWSKIQIV
+                     TKQTGNECVTAIEIVPATPAGMRPAANVARKFASIARNQVRKKRQMAARERKVTRTIFA
+                     ILLAFILTWTPYNVMVLVNTFCQSCIPDTVWSIGYWLCYVNSTINPACYALCNATFKKT
+                     FRHLLLCQYRNIGTAR"
+                     /gene="Chrm4"
+                     /protein_id="XP_004880333.1"
+ORIGIN
+        1 tcccttattt tctttctagt gctttttctg ttgtgcacac gtttctgtgc cctctgggct
+       61 gggctctgca tttcctgtcc tgttatccca gcgtgagaat ggtgtcaggc acctggcact
+      121 gggtaccttg gtacccgtaa ctgcccaatg gaggcacaaa tgagtgtgca ggacattgct
+      181 ctgtggctga cttggtttcc ctccacactg ccccatcctc tccagaactt cagcaccttc
+      241 ttctctcctt cctcctccag cccctgccac cctgttgccc actccccaac atggcggact
+      301 tcacaccagt caacggcagc tcaggcaacc agtccgtgcg cctggtcacc tcggcccaca
+      361 atcgctacga gaccgtggag atggtgttca tcgccacggt gacgggctca ctgagcctgg
+      421 tgactgtcgt gggcaacatc ctggtgatgc tgtccatcaa ggtcaacagg cagctgcaga
+      481 cggtcaacaa ctacttcctg ttcagcctgg cgtgcgcaga cctcatcata ggcgccttct
+      541 ccatgaacct ctacactgtg tacatcatca agggctactg gcccctgggc gccgtggtct
+      601 gtgacctgtg gctggccctg gactacgtgg tgagcaacgc ctctgtcatg aacctcctca
+      661 tcatcagctt cgaccgctac ttctgcgtca ccaagcccct cacctacccc gcccggcgga
+      721 ccaccaagat ggctgggctc atgatcgccg ccgcctgggt cctgtccttt gtgctctggg
+      781 cgcctgccat cttgttctgg cagtttgtgg tggggaagag gacagtgccc gacaaccagt
+      841 gcttcatcca gttcctatcc aacccagcgg tgacctttgg cacggccatc gcagccttct
+      901 acctgcctgt ggtcatcatg acggtgctgt acatccacat ctccctggcc agtcgcagcc
+      961 gtgtccacaa gcaccggccc gaaggcccca aggagaagaa ggccaagacg ctggccttcc
+     1021 tcaagagccc gctggtgaag caaagcgtca agaagccccc gctggctgga gcggcccgcg
+     1081 acgagcttcg aaacgggaag ctggaggagg ccccgccacc ggccctgccg ccaccaccac
+     1141 gccccgtggc cgacaaggac acctccaacg agtccagctc gggcagcgcc acccagaaca
+     1201 ccaaggaacg cccccccacg gagctgtcta ccacagaggc cgtgcccgcc cctgccctgc
+     1261 agccgcggac cctcaacccg gcatccaagt ggtccaagat ccagatagtg acgaagcaga
+     1321 caggcaatga gtgtgtgaca gccatcgaga tcgtgcccgc cacgcctgcc ggcatgcgcc
+     1381 cggcggccaa tgtagcccgc aagtttgcca gcatcgctcg aaaccaggtg cgcaagaagc
+     1441 ggcagatggc ggcccgggag cgcaaagtga cgcggaccat ctttgccatc ctgctggcct
+     1501 tcatcctcac gtggacgccc tacaacgtca tggtcctggt gaacaccttc tgccagagct
+     1561 gcatccccga cacggtgtgg tccattggct actggctctg ctacgtcaac agcaccatca
+     1621 accccgcctg ctacgcgctc tgcaacgcca catttaaaaa gaccttccgg cacctgctgc
+     1681 tgtgtcagta ccggaacatc ggcaccgcca ggtaggcggg cgggcgagcc caggaggtgc
+     1741 tggtgtcacg tgggctgggg gaccacgtga cggaggcccc gttccacgtt cccgtttgct
+     1801 gcagaggatg gaggctcagg aagtggctct ggctggattt cgagaccaga tccctgctca
+     1861 ggacctggag gctcggccca gggaccctgt ctgtccctcc gcctcaggag gctggggaca
+     1921 ttggctgggg tgtgcagcgg ccccatgg
+//

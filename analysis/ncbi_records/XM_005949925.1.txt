@@ -1,0 +1,109 @@
+LOCUS       XM_005949925            2647 bp    DNA              VRT 30-OCT-2013
+DEFINITION  PREDICTED: Haplochromis burtoni alpha-1B adrenergic receptor-like
+            (LOC102292363), mRNA.
+ACCESSION   XM_005949925
+VERSION     XM_005949925.1  GI:554880402
+DBLINK      BioProject: PRJNA220165
+KEYWORDS    RefSeq.
+SOURCE      Haplochromis burtoni (Burton's mouthbrooder)
+  ORGANISM  Haplochromis burtoni
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Haplochromini;
+            Haplochromis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005180161.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Haplochromis burtoni Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2647
+                     /mol_type="mRNA"
+                     /isolate="A. burtoni ID#24_Hofmann"
+                     /sex="female"
+                     /db_xref="taxon:8153"
+                     /organism="Haplochromis burtoni"
+                     /chromosome="Unknown"
+     gene            1..2647
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 8 samples with support for all annotated introns"
+                     /db_xref="GeneID:102292363"
+                     /gene="LOC102292363"
+     CDS             171..1589
+                     /product="alpha-1B adrenergic receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:554880403"
+                     /db_xref="GeneID:102292363"
+                     /translation="MSLWTNGSSVDLFPGTKTPPPDSNSSNRTVGPPGAAPLDLSRAVP
+                     VGMVLASFIMFAIVGNILVILSVVCNRHLRIPTNYFIINLAIADLLLGTTVLPVSATLE
+                     VLDYWVFGRIFCDIWAAVDVLCCTASIMSLCVISIDRYIGVRYPLQYPTIVTERRALLA
+                     MLGVWILAIIISIGPLLGWKQPPSQDDTVCLITEEPFYALFSSLGSFYIPLAVILAMYC
+                     RVYIVAKRTTKNLEAGMMKERAEDSSELTLRIHCRNQQIQELCPASKASGGGASTGRSS
+                     LAVKLLKFSREKKAAKTLGVVVGMFILCWLPFFLALPIGSFNSSLRPPETFFKVIFWLG
+                     YFNSCLNPIIYPCYSREFKQAFIRILRCRWKRKRQDLQAYYNYRGHQGSNNSSFMNGSQ
+                     QTLSSVSPSPLCVTSRLRPLPWPSSSSSDRDLLPGSVAERGRLSPRPTLAKKAGTGRSM
+                     GVGRGTSMNGDASV"
+                     /gene="LOC102292363"
+                     /protein_id="XP_005949987.1"
+ORIGIN
+        1 cccgctccgc agctcagccc gaggaggagc tccgcgggcc ggcgggagtc agtcacaccg
+       61 cccggagagc cgagcctcca cctgcgggga tttaacagca acgtggaaac tttttaaaat
+      121 cagatttgag aaagtctcgg atcctctgcg ggtctgcgcc acggtcagcc atgagtctgt
+      181 ggactaacgg ctcctccgtg gatctgttcc ccgggacaaa gacccctccg ccggactcca
+      241 actcctccaa ccgcaccgtc gggccccccg gagccgcccc gctggacctg agccgggcgg
+      301 tgccggtcgg catggtgctg gcatccttca tcatgttcgc catcgtcggg aacatcctcg
+      361 tcatcctgtc cgtggtctgc aaccgacacc tgcggatccc caccaactac ttcatcatca
+      421 acctggccat cgccgacctg ctgctgggca ccaccgtgct gcccgtgtcc gccaccctgg
+      481 aggttttgga ttattgggtg tttggtcgga tcttctgcga tatctgggcg gcggtggacg
+      541 tcctgtgctg cacggcgtcc atcatgtccc tctgcgtcat ctccatcgac cgctacatcg
+      601 gagttcgcta cccactgcag tacccgacta tcgtcacaga gcggcgggcg ctgctcgcca
+      661 tgctgggtgt ctggatcctc gccatcatca tctccattgg cccgctcctt ggctggaagc
+      721 agccgccgtc acaggacgac accgtgtgcc tcatcaccga ggagccgttc tacgccctct
+      781 tctcgtccct cggctccttc tacatcccgc tcgccgtcat cctcgccatg tactgccgcg
+      841 tctacatcgt tgccaagcgc accaccaaga acctggaggc cggcatgatg aaggagcgtg
+      901 cggaggactc cagcgagctc acgctgagga tccactgcag gaaccagcag atccaggagc
+      961 tgtgccccgc ctccaaggcc agcgggggcg gggcctcgac cggacgcagc tcactcgccg
+     1021 tcaaactgct taagttctcc cgagagaaga aagcagccaa gacgctgggt gtggtggtgg
+     1081 gcatgttcat cctgtgctgg ctgcccttct tcctcgctct gcctatcggc tcattcaaca
+     1141 gcagcctgcg tcctcctgaa accttcttca aagtcatctt ctggttggga tacttcaaca
+     1201 gctgcttgaa cccaatcatc tacccgtgct acagccgcga gtttaaacag gccttcatcc
+     1261 gaatcttgcg ctgccgctgg aagaggaagc gtcaggattt gcaggcgtac tacaactacc
+     1321 gtggccatca gggctccaac aactcgtcct tcatgaatgg cagccagcag acgttgtcct
+     1381 ccgtcagccc aagtccgctc tgcgtcacat ccaggctccg cccactgccg tggccgtctt
+     1441 cctcctcctc agacagagac ctcctccctg gatcggtggc ggagcgagga cggctgagcc
+     1501 cgcggcctac actcgctaaa aaagccggga cggggcggag catgggagtg ggacgaggga
+     1561 cgtcaatgaa cggggatgct tctgtctgag ccgcacagga atctggaacg ctagctgcag
+     1621 cctcagatgg caacgcccct ccctgctgtt aacaggaagt ggctttaaaa acactgaatg
+     1681 cacaaaacgc tctttccgcc caggtgtgac gaccggacct gaacgtgggt ggagctcctc
+     1741 acctgctaca aacacgatgt tgcgacatgc ggcgggtttc tggcagttca cggctgtcca
+     1801 cgacacttaa gacttcagca cgaaaccttt aatgtgaaaa tccaagcatc ctgcttcttt
+     1861 ttttcatatc aaaacattaa gataataaat ccaaatttct cctaaaacaa aaactttgtt
+     1921 ttaatggaaa aaatgaaaaa agaaacagca cagatgttaa aaaagtaaac attttattta
+     1981 ttcacttatt gacgaggtgt ttattttatt caaataaatc aaacttaaaa cacttaatgc
+     2041 ttatttaacc ctactacttc ttcttcctgc tcacagtcca gcttaaacgt tcgttacgcc
+     2101 ccctgctgga ctggactgag aatgagtttt tcaggaaaat aacaaaataa tatacaaaca
+     2161 tgaatatttt ggtttcttaa ggaaattcta aaacttctta agaaaatctt cttaaagcgc
+     2221 ttaacgtaat tttgtttcac aatttatctt ttgtttgttt ttaaagactt ttattctgaa
+     2281 ggtctcttaa ctcaaagtca aagtagttgg tcatgaaggg ctcttattgt taaggtctga
+     2341 cgtcaccgat tagttaaaga cttttattgt ataaagctgc gcctggtggt cgtctgagga
+     2401 actgcagcta aaaacactaa tactgaaata tttattttag aacaaaaagt gtaaaaagaa
+     2461 aaaaatccaa acttcttaaa aacaacttga tttttaatca aaacgttgaa tctacaatct
+     2521 taacacgttt atttatgatt atttgtactt tatttatatt tccatacttc tgttgttgta
+     2581 ataagtgacc tcactgtaaa ttaaagtcat tcatctaata aataaaatac ttttatgggt
+     2641 taattat
+//

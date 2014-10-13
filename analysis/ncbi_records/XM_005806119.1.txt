@@ -1,0 +1,87 @@
+LOCUS       XM_005806119            1473 bp    DNA              VRT 23-OCT-2013
+DEFINITION  PREDICTED: Xiphophorus maculatus D(1C) dopamine receptor-like
+            (LOC102219067), mRNA.
+ACCESSION   XM_005806119
+VERSION     XM_005806119.1  GI:551509296
+DBLINK      BioProject: PRJNA220265
+KEYWORDS    RefSeq.
+SOURCE      Xiphophorus maculatus (southern platyfish)
+  ORGANISM  Xiphophorus maculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Atherinomorphae; Cyprinodontiformes;
+            Poeciliidae; Poeciliinae; Xiphophorus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005372333.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Xiphophorus maculatus Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1473
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8083"
+                     /isolate="XMAC-090115_JP163A"
+                     /sex="female"
+                     /strain="JP 163 A"
+                     /organism="Xiphophorus maculatus"
+                     /chromosome="Unknown"
+     gene            1..1473
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 25 Proteins"
+                     /db_xref="GeneID:102219067"
+                     /gene="LOC102219067"
+     CDS             1..1473
+                     /product="D(1C) dopamine receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:551509297"
+                     /db_xref="GeneID:102219067"
+                     /translation="MENYTVWSNFSQVLSELDGMGGEEEEEEEEGVSGNGLRVLIGCIL
+                     FLLIVSTLLGNTLVCAAVIKFRHLRSKVTNFFVISLAVSDLFVAVLVMPWEAVTEVTDS
+                     WLFGGFCDVWITFDIMCSTASILNLCIISVDRYWAIASPFKYERKMTHRVAFVMIGVAW
+                     TLSILISLIPVQMNWHRALEEDGAVMAEVAAILDRNWTNSTNLTGSASASMSCVANLNK
+                     TYAISSSLISFYIPVLIMIATYTRIYRIAQTQIRRIASLERAAEQAQNQGHGGTRNQQQ
+                     HRAADEASLKSSFKKETKVLKTLSIIMGVFVFCWLPFFVLNCTVPFCDPPCVSDTTFTV
+                     FVWFGWANSSLNPVIYAFNADFRRAFATILGCNRICSNNAVEAVNFSNELVSYHHDTTF
+                     HKEALVPAQPQQRPRNLSMTLDDRLEDMSARFDEESNISNGSSSRDRLLLLPAAVQLED
+                     KAEISLETITPMTSAAELDNEVFIPGQVHQDG"
+                     /gene="LOC102219067"
+                     /protein_id="XP_005806176.1"
+ORIGIN
+        1 atggaaaact acacggtgtg gagtaatttc agccaagttc tctccgaact ggacgggatg
+       61 ggtggtgagg aagaggagga agaggaggaa ggcgtcagtg ggaacggact gcgcgtcctg
+      121 attggctgca tcctcttcct gctcatcgtg tccacgctgc tcgggaacac gctggtctgc
+      181 gccgccgtca tcaagttccg ccacctgcgg tccaaagtca ccaacttctt cgtgatctcg
+      241 ctggccgtgt ccgacctgtt cgtggccgtg ctggtgatgc cgtgggaggc cgtgaccgag
+      301 gtgaccgaca gctggctgtt cggaggcttc tgcgacgtgt ggatcacctt cgacatcatg
+      361 tgctccacgg cctccatcct caacctgtgc atcatcagcg tggaccgata ctgggccatc
+      421 gccagcccct tcaagtacga gcggaaaatg acgcaccgcg tggcgttcgt gatgatcggg
+      481 gtggcgtgga cgctgtccat cctcatctcc ctgattccgg tgcagatgaa ctggcacagg
+      541 gctctggagg aggacggcgc ggtgatggcg gaagtggcgg ccatcttgga caggaactgg
+      601 acaaactcca ccaacctgac cggaagcgcc tcggcctcca tgagctgcgt ggccaacctg
+      661 aacaaaacct acgccatctc ctcgtccctc atcagcttct acatcccggt tctgatcatg
+      721 atcgccactt acacccggat ctaccggatc gctcagaccc aaatccgcag aatcgcgtct
+      781 ttggagcggg cggcggagca ggctcagaac cagggacacg gcgggaccag gaaccagcag
+      841 cagcaccggg ccgccgacga ggcgtcgctc aagtcttcgt tcaagaagga aaccaaagtc
+      901 ctgaagacgc tgtcgatcat catgggggtt ttcgtcttct gctggttgcc gttcttcgtc
+      961 ctgaactgca ccgtcccgtt ctgcgacccg ccctgcgtca gcgacaccac cttcaccgtg
+     1021 ttcgtctggt tcggctgggc caactcctcc ctcaacccgg tcatctacgc cttcaacgcg
+     1081 gacttccgcc gggccttcgc caccatcctg ggctgcaacc gcatctgctc caacaacgcg
+     1141 gtggaagctg tgaacttcag caacgagctc gtctcctacc accacgacac caccttccac
+     1201 aaggaggcgc tggttcccgc gcagccgcag cagcggcccc gcaacctgag catgaccttg
+     1261 gacgaccgcc tggaggacat gagcgcccgg ttcgacgagg agtccaacat ttccaacggc
+     1321 tcttcgagcc gcgacaggct gctgctgctg ccggccgccg tccagctgga ggacaaggcg
+     1381 gagatttctc tggaaaccat cacacccatg acgtcagcag cagaactgga caacgaggtt
+     1441 ttcataccag gacaagtcca tcaggacgga tag
+//

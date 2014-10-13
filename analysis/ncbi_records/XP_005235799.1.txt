@@ -1,0 +1,64 @@
+LOCUS       XP_005235799             430 aa                     VRT 08-AUG-2013
+DEFINITION  PREDICTED: alpha-2B adrenergic receptor [Falco peregrinus].
+ACCESSION   XP_005235799
+VERSION     XP_005235799.1  GI:529432005
+DBLINK      BioProject: PRJNA198010
+KEYWORDS    RefSeq.
+SOURCE      Falco peregrinus (peregrine falcon)
+  ORGANISM  Falco peregrinus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Falconiformes;
+            Falconidae; Falco.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004930098.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Falco peregrinus Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..430
+                     /collection_date="Oct-2010"
+                     /country="United Arab Emirates: Abu Dhabi Falcon Hospital"
+                     /sex="male"
+                     /db_xref="taxon:8954"
+                     /organism="Falco peregrinus"
+                     /chromosome="Unknown"
+     Protein         1..430
+                     /product="alpha-2B adrenergic receptor"
+                     /calculated_mol_wt="47064"
+     Region          71..>202
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          85..406
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..430
+                     /coded_by="XM_005235742.1:1..1293"
+                     /gene="ADRA2B"
+                     /db_xref="GeneID:101922013"
+ORIGIN
+        1 mrggrcpeeh apqaawqvip aspvtppphs raprgtaehh qpdpaaggtm ggpegsysvq
+       61 ataaiaatit flvlftitgn vlvimavlss rllrapqnlf lvslaaadil vatliipfsl
+      121 anellgywyf ektwceiyla ldvlfctssi vhlcaisldr ywsvsraiey nakrtprrik
+      181 csilivwtia aiislpplvy kgekkaaagg rpqcklneea wyvlsssvgs ffapclimil
+      241 vylriyliak rrhrshpsst kpagsvppsv tlpagadppg tcppadrtsl lspeeplass
+      301 spgagtspqp ggrprdtmat gtgqvvlahr ppalnpwrrk tqvnrekrft fvlavvigvf
+      361 vlcwfpfffl yslgalcpqh ckvpdsvfqf ffwigycnss lnpviytvfn qdfrkafrrl
+      421 lcrcraptpw
+//

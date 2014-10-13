@@ -1,0 +1,91 @@
+LOCUS       XM_006217417            1377 bp    DNA              MAM 29-NOV-2013
+DEFINITION  PREDICTED: Vicugna pacos 5-hydroxytryptamine (serotonin) receptor
+            2C, G protein-coupled (HTR2C), mRNA.
+ACCESSION   XM_006217417
+VERSION     XM_006217417.1  GI:560990649
+DBLINK      BioProject: PRJNA221631
+KEYWORDS    RefSeq.
+SOURCE      Vicugna pacos (alpaca)
+  ORGANISM  Vicugna pacos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Tylopoda;
+            Camelidae; Vicugna.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005882997.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Vicugna pacos Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1377
+                     /mol_type="mRNA"
+                     /isolate="Carlotta (AHFN-0088)"
+                     /sex="female"
+                     /db_xref="taxon:30538"
+                     /organism="Vicugna pacos"
+                     /chromosome="Unknown"
+     gene            1..1377
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 31 Proteins"
+                     /db_xref="GeneID:102532750"
+                     /gene="HTR2C"
+     CDS             1..1377
+                     /product="5-hydroxytryptamine receptor 2C"
+                     /codon_start="1"
+                     /db_xref="GI:560990650"
+                     /db_xref="GeneID:102532750"
+                     /translation="MVNLRKAVHSFLVHLIGLLVWQCDISVSPVAAIVTDIFNTSDGGR
+                     FKFPDGVQNWPALSIVIIIILTIGGNILVIMAVSLEKKLHNATNYFLMSLAIADMLVGL
+                     LVMPLSLLAILYDYVWPLPRYLCPVWISLDVLFSTASIMHLCAISLDRYVAIRNPIEHS
+                     RFNSRTKAIMKIAIVWAISLGVSVPIPVIGLRDEDKVFVNNTTCVLNDPNFVLIGSFVA
+                     FFIPLTIMVITYCLTIHVLRRQALMLLHGHTEEPPGISLDFLKCCKRNAADEENSANPN
+                     QDLNPRRRKKKERRPRGTMQAINNERKASKVLGIVFFVFLIMWCPFFITNILSVLCEKA
+                     CNQKLMEKLLNVFVWIGYVCSGINPLVYTLFNKVYRRAFSNYLRCNYKAEKKPPVRQIP
+                     RVAATALSGRELNVNIYRHTNEPVIKKADDKEPGIEMQVENLELPVNPSNVVSERISSV
+                     "
+                     /gene="HTR2C"
+                     /protein_id="XP_006217479.1"
+     STS             47..150
+                     /db_xref="UniSTS:158200"
+                     /standard_name="GDB:603978"
+                     /gene="HTR2C"
+     STS             353..500
+                     /db_xref="UniSTS:498203"
+                     /standard_name="HTR2C"
+                     /gene="HTR2C"
+ORIGIN
+        1 atggtgaacc tgaggaaagc ggtgcactcg ttccttgtgc acctaattgg cctattggtt
+       61 tggcaatgcg atatttctgt gagcccagta gcagctatag taactgacat tttcaatacc
+      121 tccgatggtg gacgcttcaa attcccagac ggggtacaaa actggccagc actttcaatc
+      181 gtcataataa taatcctgac tataggtggc aacattctcg tgatcatggc agtaagcttg
+      241 gaaaagaaac tacacaatgc caccaattac ttcttaatgt ccctagccat tgctgatatg
+      301 ctggtgggac tacttgtcat gccactgtct ctgcttgcaa ttctttatga ttatgtctgg
+      361 ccactaccta gatatttgtg ccccgtctgg atttctttag atgttttatt ttctacagcg
+      421 tccatcatgc acctctgcgc tatctcgctg gatcggtatg tagcaatacg taatcctatt
+      481 gagcatagcc gtttcaattc acggactaag gccatcatga agattgctat tgtttgggca
+      541 atttctttag gtgtgtcagt tcctatccca gtgattggac tgagagatga ggacaaggtg
+      601 ttcgtgaaca acaccacctg cgtgctgaat gacccaaatt tcgttcttat cgggtccttc
+      661 gtagctttct tcataccgct gacgatcatg gtgattacgt actgtctgac gatccacgtc
+      721 cttcgccgac aagctctgat gctactgcac ggccacaccg aggaaccgcc cggaataagc
+      781 ctggatttcc tgaagtgctg caagaggaat gccgccgacg aggagaactc tgcaaaccct
+      841 aatcaggatt tgaacccacg ccgaagaaag aagaaagaga gacggcctag gggcaccatg
+      901 caggctatca acaacgaacg gaaagcctcg aaagtccttg gcatcgtttt ctttgtgttt
+      961 ctgatcatgt ggtgcccgtt ctttattact aatattctgt cggttctttg tgagaaggct
+     1021 tgtaatcaaa agctcatgga aaagcttctg aatgtgtttg tttggattgg ctatgtttgt
+     1081 tcaggaatta atcctctggt gtacactctt ttcaacaaag tttaccgaag ggctttctcc
+     1141 aactatttgc gctgtaatta taaggcagaa aaaaagcctc cggtcagaca gatcccgaga
+     1201 gttgctgcca ctgctttgtc tgggagggag cttaacgtta acatttaccg gcacaccaac
+     1261 gaaccggtga ttaagaaagc tgatgacaaa gagcccggca tagagatgca agttgagaat
+     1321 ttggagctcc cagttaatcc ctccaatgtg gtcagtgaaa gaattagtag tgtgtaa
+//

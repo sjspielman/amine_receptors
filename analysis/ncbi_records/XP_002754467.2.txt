@@ -1,0 +1,62 @@
+LOCUS       XP_002754467             443 aa                     PRI 02-SEP-2014
+DEFINITION  PREDICTED: D(2) dopamine receptor isoform X1 [Callithrix jacchus].
+ACCESSION   XP_002754467
+VERSION     XP_002754467.2  GI:390469668
+DBLINK      BioProject: PRJNA46205
+KEYWORDS    RefSeq.
+SOURCE      Callithrix jacchus (white-tufted-ear marmoset)
+  ORGANISM  Callithrix jacchus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003184052.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Jun 8, 2012 this sequence version replaced gi:296216212.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Callithrix jacchus Annotation
+            Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..443
+                     /db_xref="taxon:9483"
+                     /organism="Callithrix jacchus"
+                     /chromosome="11"
+     Protein         1..443
+                     /product="D(2) dopamine receptor isoform X1"
+                     /calculated_mol_wt="50648"
+     Region          45..>233
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          57..426
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..443
+                     /coded_by="XM_002754421.3:320..1651"
+                     /gene="DRD2"
+                     /db_xref="GeneID:100400797"
+ORIGIN
+        1 mdplnlswyd ddlerqnwsr pfngsdgkvd rphynyyatl ltlliivivf gnvlvcmavs
+       61 rekalqtttn ylivslavad llvatlvmpw vvylevvgew kfsrihcdif vtldvmmcta
+      121 silnlcaisi drytavampm lyntrysskr rvtvmiaivw vlsftiscpl lfglnntdqn
+      181 eciianpafv vyssivsfyv pfivtllvyi kiyivlrrrr krvntkrssr afrahlrapl
+      241 kgncthpedm klctvimksn gsfpvnrrrv eaarraqele memlsstspp ertryspipp
+      301 shhqltlpdp shhglhsttd spakpekngh arnhpriakf feiqtmpngk trtslktisr
+      361 rklsqqkekk atqmlaivlg vfiicwlpff ithilnihcd cnippvlysa ftwlgyvnsa
+      421 vnpiiyttfn iefrkaflki lhc
+//

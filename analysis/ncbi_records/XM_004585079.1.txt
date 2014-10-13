@@ -1,0 +1,89 @@
+LOCUS       XM_004585079            1366 bp    DNA              MAM 18-MAY-2013
+DEFINITION  PREDICTED: Ochotona princeps dopamine receptor D2 (DRD2), transcript
+            variant X2, mRNA.
+ACCESSION   XM_004585079
+VERSION     XM_004585079.1  GI:504145429
+DBLINK      BioProject: PRJNA193497
+KEYWORDS    RefSeq.
+SOURCE      Ochotona princeps (American pika)
+  ORGANISM  Ochotona princeps
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha;
+            Ochotonidae; Ochotona.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004535456.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ochotona princeps Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1366
+                     /mol_type="mRNA"
+                     /country="USA: Washington"
+                     /isolate="Ochotona princeps_07Jul2011"
+                     /sex="female"
+                     /db_xref="taxon:9978"
+                     /organism="Ochotona princeps"
+                     /chromosome="Unknown"
+     gene            1..1366
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 6 Proteins"
+                     /db_xref="GeneID:101521060"
+                     /gene="DRD2"
+     CDS             26..1270
+                     /product="D(2) dopamine receptor isoform X2"
+                     /codon_start="1"
+                     /db_xref="GI:504145430"
+                     /db_xref="GeneID:101521060"
+                     /translation="MDPLNLSWYDDDLERQNWSRSFNGSEGKWDRPHYNYYAMLLTLLI
+                     FIIVFGNVLVCMAVSREKALQTTTNYLIVSLAVADLLVATLVMPWVVYLEVVGEWKFSR
+                     VHCDIFVTLDVMMCTASILNLCAISIDRYTAVAMPMLYNTRYSSKRRVTVMIAIVWVLS
+                     LTISCPLLFGLNKTDQNECIIANPAFVVYSSIVSFYVPFIVTLLVYIKIYIVLRKRRKR
+                     VNTKRSSRAFRANLRAPLKDAARRAQELEMDMLSSTSPPERTRYSPIPPSHHQLTLPDP
+                     SHHALHSTPDSPAKPEKNGHAKDHPKIAKIFEIQTMPNGKTRTSLKTMSRRKLSQQKEK
+                     KATQMLAIVLGVFIICWLPFFITHILNIHCDCNIPPVLYSAFTWLGYVNSAVNPIIYTT
+                     FNIEFRKAFLKILHC"
+                     /gene="DRD2"
+                     /protein_id="XP_004585136.1"
+     STS             320..527
+                     /db_xref="UniSTS:266487"
+                     /standard_name="DRD2"
+                     /gene="DRD2"
+     STS             770..950
+                     /db_xref="UniSTS:272844"
+                     /standard_name="PMC311033P6"
+                     /gene="DRD2"
+ORIGIN
+        1 gtcacccagt ggccccactg ccccgatgga tcccctcaat ctgtcctggt atgacgatga
+       61 cctggagagg cagaactgga gccgatcctt caacggatcg gagggaaagt gggacaggcc
+      121 ccactacaac tactatgcca tgctgcttac gctgcttatc ttcatcatcg tcttcggcaa
+      181 cgtgctggtg tgcatggctg tgtcccgcga gaaggcactg cagaccacca ccaactacct
+      241 gatcgtcagc ctcgctgtgg ctgacctcct cgtcgccaca ctcgtcatgc cctgggtggt
+      301 ctacctggag gtggtgggtg agtggaaatt cagcagggtt cactgtgaca tcttcgtcac
+      361 tctggatgtc atgatgtgca cagctagcat cctgaatctg tgtgccatca gcattgacag
+      421 gtacacagct gtggccatgc ctatgttgta caatacgcgc tatagctcca agcgccgagt
+      481 caccgtcatg atcgccattg tctgggtcct gtccctcacc atctcctgcc cactgctgtt
+      541 cggcctcaac aaaacagacc agaacgagtg catcatcgcc aaccccgcct tcgtggtcta
+      601 ctcctccatc gtctccttct acgtgccctt catcgtcacc ctgctcgtct acatcaagat
+      661 ctacatagtc ctgcgcaagc gccgcaagag ggtcaacacg aagcgcagca gccgagcctt
+      721 cagggccaac ctgagagcac cgctcaagga cgctgcccgc cgagcccagg agctggagat
+      781 ggatatgctc tccagcacca gcccacccga gaggacccgt tacagtccca tcccgcccag
+      841 ccaccaccaa ctgaccctcc ccgacccgtc ccaccatgcc ctccacagca cccccgacag
+      901 ccccgccaaa ccagagaaga acgggcatgc caaagaccac cccaagattg ccaagatctt
+      961 tgagatccag accatgccca atggcaaaac tcgcacctcg ctcaagacca tgagccgcag
+     1021 gaagctatcc cagcagaagg agaagaaagc cacccagatg cttgccatcg tcctcggtgt
+     1081 gttcatcatc tgctggctgc ccttcttcat cacccacatc ctgaacatac actgtgactg
+     1141 caacatcccg cctgtgctgt acagcgcctt cacatggctg ggatacgtca acagcgccgt
+     1201 gaaccccatc atctacacga ccttcaacat tgagttccgc aaggccttcc tgaagatcct
+     1261 acactgctga ctctgtgccc gcctgcccag cagcctgctc tctgcctccc tgtccaggct
+     1321 gcagggcctc ttcgctttga gccagtaggc agctaggcca gggtgg
+//

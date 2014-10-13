@@ -1,0 +1,93 @@
+LOCUS       XM_005505174            1335 bp    DNA              VRT 15-SEP-2013
+DEFINITION  PREDICTED: Columba livia adrenoceptor alpha 2A (ADRA2A), mRNA.
+ACCESSION   XM_005505174
+VERSION     XM_005505174.1  GI:543728290
+DBLINK      BioProject: PRJNA217047
+KEYWORDS    RefSeq.
+SOURCE      Columba livia (rock pigeon)
+  ORGANISM  Columba livia
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Columbiformes;
+            Columbidae; Columba.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004973345.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Columba livia Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1335
+                     /mol_type="mRNA"
+                     /collection_date="13-Jun-2010"
+                     /country="Denmark: Vordingborg"
+                     /breed="Danish Tumbler"
+                     /sex="male"
+                     /note="bred by Anders Christiansen, Hans Ove Christiansen,
+                     and certified by Danmarks Racedueforeninger"
+                     /db_xref="taxon:8932"
+                     /tissue_type="blood"
+                     /organism="Columba livia"
+                     /chromosome="Unknown"
+     gene            1..1335
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 24 Proteins, and 54%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:102090898"
+                     /gene="ADRA2A"
+     CDS             1..1335
+                     /product="alpha-2A adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:543728291"
+                     /db_xref="GeneID:102090898"
+                     /translation="MFNLERPFTEGGHFFSSMEYQRQLEEEEGYPPPGTNGTFNESGAG
+                     PGWGTPYPLHTTITLISLAGLLMLFTVFGNVLVIIAVFTSRALKAPQNLFLVSLASADI
+                     LVATLVIPFSLANEVMGYWYFGKVWCEIYLALDVLFCTSSIVHLCAISLDRYWSITQAI
+                     EYNLKRTPRRIKCIIFIVWVISAVISFPPLISIEKKTGQQADQGVAGCKINDEKWYIIS
+                     SSIGSFFAPCLIMILVYMRIYQIAKRRTRVPPNKRAERPEKRQNGLADKEDLPATAQLN
+                     GEKAAGGGGGQEGEINSIDMEESSSSEHQENNQCKKSERPSRGKTKTKLSQIKPGDSLP
+                     RKTEEERNTKGSRWRGRQNREKRFTFVLAVVIGVFVICWFPFFFTYTLMAVCRSCSVPD
+                     TLFKFFFWFGYCNSSLNPVIYTIFNHDFRRAFKRILCRMERKRIV"
+                     /gene="ADRA2A"
+                     /protein_id="XP_005505231.1"
+     STS             470..594
+                     /db_xref="UniSTS:266590"
+                     /standard_name="ADRA2A"
+                     /gene="ADRA2A"
+ORIGIN
+        1 atgtttaacc tggagcgccc gttcacggag gggggccact tcttctcctc catggagtac
+       61 cagcggcaac tggaggagga ggagggctac ccgcctcctg gcaccaacgg gaccttcaac
+      121 gagagcgggg ctgggccggg ctggggcacg ccgtaccccc tgcacaccac catcaccctc
+      181 atcagcctgg cgggcttgct tatgctcttc actgtcttcg gcaacgttct ggtcatcatc
+      241 gctgtcttca ccagccgggc gctcaaggcc ccccagaatc tcttcctggt ctccttagcc
+      301 tcagctgaca tcctggtggc cacgctggtc atccccttct ccctggcaaa tgaggtgatg
+      361 gggtactggt actttggcaa agtctggtgt gagatttacc tggccttgga tgtgctgttc
+      421 tgcacctcct ccattgtgca cttgtgtgcc atcagcctgg accgttactg gtccatcaca
+      481 caagccatcg agtacaacct caagcgtacc ccacgccgca tcaagtgcat catcttcatc
+      541 gtctgggtca tctcagccgt catctccttc ccaccgctca tctctatcga gaagaagact
+      601 gggcagcagg ctgaccaggg ggtggcgggg tgcaagatca atgatgagaa gtggtacatc
+      661 atctcttcta gcatcggctc cttctttgcc ccctgcctca tcatgatcct ggtctacatg
+      721 cgcatctatc agatagccaa gaggcgaact agggtaccgc caaacaagcg ggcagagcgc
+      781 cctgagaaga ggcagaacgg cttggctgac aaggaggatc tgccagcaac agcccagctc
+      841 aatggggaga aggcagcagg aggtggtggt gggcaggagg gagagatcaa cagcatagac
+      901 atggaggaga gctcttcctc tgagcaccag gagaacaacc agtgtaagaa gtcagagaga
+      961 ccatcgaggg gaaagactaa gactaaactg agccagatta agcctgggga cagtttgccc
+     1021 aggaagacag aggaggagag gaacaccaaa gggtctcggt ggaggggcag gcagaaccgg
+     1081 gagaagcgtt tcacctttgt gctggcggtg gtgattgggg tctttgtcat ctgctggttc
+     1141 ccattcttct tcacctacac tctgatggct gtctgcagga gctgctctgt gcctgacacc
+     1201 ctcttcaagt tcttcttctg gtttggttac tgcaatagct ccttgaaccc tgtcatctat
+     1261 accattttca accatgactt caggcgggcc ttcaagagga tcctctgcag gatggagagg
+     1321 aaaaggattg tttga
+//

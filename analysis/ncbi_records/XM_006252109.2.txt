@@ -1,0 +1,160 @@
+LOCUS       XM_006252109            4457 bp    DNA              ROD 07-AUG-2014
+DEFINITION  PREDICTED: Rattus norvegicus adrenoceptor alpha 1A (Adra1a),
+            transcript variant X4, mRNA.
+ACCESSION   XM_006252109
+VERSION     XM_006252109.2  GI:672078271
+DBLINK      BioProject: PRJNA12455
+KEYWORDS    RefSeq.
+SOURCE      Rattus norvegicus (Norway rat)
+  ORGANISM  Rattus norvegicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Rattus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_007905996.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Aug 7, 2014 this sequence version replaced gi:564386495.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Rattus norvegicus Annotation Release
+            105
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4457
+                     /mol_type="mRNA"
+                     /db_xref="taxon:10116"
+                     /sex="pooled males and females"
+                     /note="pooled female animals of strain BN/SsNHsdMCW plus
+                     one male of strain SHR (also known as SHR-Akr)"
+                     /strain="mixed"
+                     /organism="Rattus norvegicus"
+                     /chromosome="15"
+     gene            1..4457
+                     /note="adrenoceptor alpha 1A; Derived by automated
+                     computational analysis using gene prediction method:
+                     Gnomon. Supporting evidence includes similarity to: 1 mRNA,
+                     6 ESTs, 22 Proteins, and 100% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 34 samples
+                     with support for all annotated introns"
+                     /db_xref="GeneID:29412"
+                     /db_xref="RGD:2055"
+                     /gene="Adra1a"
+                     /gene_synonym="Adra1c"
+     STS             593..1098
+                     /db_xref="UniSTS:270443"
+                     /standard_name="PMC123165P1"
+                     /gene="Adra1a"
+                     /gene_synonym="Adra1c"
+     CDS             1000..2283
+                     /product="alpha-1A adrenergic receptor isoform X3"
+                     /codon_start="1"
+                     /gene_synonym="Adra1c"
+                     /db_xref="GI:564386496"
+                     /db_xref="GeneID:29412"
+                     /db_xref="RGD:2055"
+                     /translation="MVLLSENASEGSNCTHPPAPVNISKAILLGVILGGLIIFGVLGNI
+                     LVILSVACHRHLHSVTHYYIVNLAVADLLLTSTVLPFSAIFEILGYWAFGRVFCNIWAA
+                     VDVLCCTASIMGLCIISIDRYIGVSYPLRYPTIVTQRRGVRALLCVWVLSLVISIGPLF
+                     GWRQPAPEDETICQINEEPGYVLFSALGSFYVPLAIILVMYCRVYVVAKRESRGLKSGL
+                     KTDKSDSEQVTLRIHRKNVPAEGGGVSSAKNKTHFSVRLLKFSREKKAAKTLGIVVGCF
+                     VLCWLPFFLVMPIGSFFPDFKPSETVFKIVFWLGYLNSCINPIIYPCSSQEFKKAFQNV
+                     LRIQCLRRRQSSKHALGYTLHPPSQALEGQHRDMVRIPVGSGETFYKISKTDGVCEWKF
+                     FSSMPQGSARITVPKDQSACTTARGFYP"
+                     /gene="Adra1a"
+                     /protein_id="XP_006252171.1"
+     STS             1309..1384
+                     /db_xref="UniSTS:271119"
+                     /standard_name="PMC150908P4"
+                     /gene="Adra1a"
+                     /gene_synonym="Adra1c"
+     STS             3174..3277
+                     /db_xref="UniSTS:233191"
+                     /standard_name="RH143945"
+                     /gene="Adra1a"
+                     /gene_synonym="Adra1c"
+ORIGIN
+        1 gtaacagctg gagattacgg tactcgctag gctaccgcct gccttgtact acgtcaaccc
+       61 gagccgcaaa gttccaagcc gctcttttct ggtgtccaga aactgaatat caaactggtg
+      121 atcgtggagt tattggctcg ctgtatttgt catttctttt ctctattttc agtctttatt
+      181 tttaaaagat ccgggagaaa cagaagcgag cccggagttt gaggtgctcg gtagtggtgt
+      241 gtggggtgag tcagcgggtg ctaaggactg ggtcttggtc tttggagact gccccccccc
+      301 cacgccccat tctcctgcag agaagcagcc ggcgctgcaa ggactgaagg tccgcttctc
+      361 ctggcgccag ggcctccgca gccgcgcagc agctggattc agataaacga agctccaggg
+      421 ccactacggt ctcctcaaat atttcagacc catgtcactt agccagaact cctagacgct
+      481 ggagctagcg acatcccata gatgggcgga caagtggcga gtaactgcgg gtcgtctgca
+      541 gcacccatat gcccagcgtc cctgccttga gcttcgaagg ccgagccaca cttagctacc
+      601 atttcagcaa agactggtca tagacttgtg aatttctaat tgtgtggatg cacagaatgg
+      661 atcagactgc acagaaaagc agatttttgt aatttcaggt tgcttccgca gcctgtcctt
+      721 ttaaaccttg ggaaggtgtc cccagaaacc cagagcgccc ctggccatgt cacctttaat
+      781 gcactgtacc ttaacgtggc cctctgaggg tttccaaggc tgcccagggt ggtttgcaac
+      841 aggtgtgttc tctccctacc ggagcccaac ccagctgtca ggagtccccc gagctgagat
+      901 tttttgactt ggcttcctca cacccggttt cgcacaggcc ccacccccac tcctggaggg
+      961 tggccatcca aagcctgacc ttgccccctc cctgagacca tggtgcttct ctctgaaaat
+     1021 gcttcggaag gctccaactg cacccaccca ccagctccgg tgaacatttc taaggccatt
+     1081 ctgcttgggg tgatcttggg gggcctcatc attttcggag tcctggggaa cattttagtg
+     1141 atcctctcag tggcctgtca tcggcatctg cactccgtga ctcactacta cattgtcaac
+     1201 ctggctgtgg cagacctcct cctcacctcc actgtgctgc ccttctctgc catctttgag
+     1261 atcctgggct actgggcctt tggcagggtg ttctgcaata tctgggcggc cgtggacgtc
+     1321 ttatgctgca cagcgtccat catgggcctc tgcatcatct ccatcgaccg atacattggt
+     1381 gtgagctacc cgctgcgcta tcccaccatt gtcacccaga ggaggggcgt cagggctctg
+     1441 ctctgcgtct gggtgctttc tttggtcatc tccatcggac ccctgttcgg ctggaggcag
+     1501 ccggctccag aggatgagac catctgccag atcaatgagg agccgggcta cgtgctgttc
+     1561 tcagcgctgg gctctttcta cgtgccactg gccatcattc tggttatgta ctgtcgagtc
+     1621 tacgtagtag ccaagagaga aagccggggc ctcaagtccg gcctcaagac ggacaagtca
+     1681 gactcagagc aagtgacgct ccgcatccac cgtaaaaatg tccctgcaga aggcggcgga
+     1741 gtcagcagtg ccaagaataa gactcacttc tcagtgaggc tgctcaagtt ttctcgagag
+     1801 aagaaagctg ccaagacgct gggcatcgtg gtgggttgct tcgtcctctg ctggctgccg
+     1861 ttcttcctag tgatgcccat tgggtctttc ttcccggatt tcaagccttc ggaaaccgtt
+     1921 tttaaaatag tattttggct cgggtatcta aatagttgca tcaaccctat catataccca
+     1981 tgctccagcc aggagttcaa gaaagccttt cagaatgtcc tgcgaatcca gtgtcttcgc
+     2041 agaaggcagt cttccaagca tgccctgggc tataccctgc acccgcccag ccaggctcta
+     2101 gagggacagc acagagacat ggtgcgtatc ccggtgggct cgggagagac tttctataag
+     2161 atctccaaga cagatggagt ctgtgaatgg aagtttttct cttccatgcc ccagggatcg
+     2221 gccaggatta cagtgccaaa ggaccaatct gcctgtacca cagcccgggg cttttatcca
+     2281 tgaagccacc tgtgcgacag agcccagttg gaacacttca cctgctctgg gctgacaaac
+     2341 taatgctgag gagctgtgct gaggccacat cttccaaaag ccatggcaac agtggcctcc
+     2401 cgccctccaa ggtccccgca agatgaagga gtggacatga ctgttggggg cctgggttgg
+     2461 gaagcaagct aggatttcag cagacaatgc ccgccccagg gaaaggtgcc attggtagga
+     2521 tctccttcat gtttcccaga cctatggcat aagggtgagc tgagaaagag gcttacctgc
+     2581 tctctgcaga gaatgtcatg gttcaaaaca ccactgctga acttacaaag gccttaggaa
+     2641 tggcagggag cactgaaggg aagattgacc atagctgtgg ctcaaagcag agaggtttag
+     2701 ttatgctttt ccttgactga taagcaagga actgccctga aactggaggt ttggatttgg
+     2761 gagttcttgc catactgtcc ctgtagctca cgcagagcca tctcacttaa ggctggaggt
+     2821 gatgatttgt taagtcgtga aaatacagat ttaggtgaaa aaaatcctag cacaacttag
+     2881 cactgcattt agagaaaaga atatgatgag catcctggtc tacaaaacag ggtgagtaaa
+     2941 atgagtgtct gtggaagtca tggggaatga aggctgaaat cccaatatga atttaagttt
+     3001 atgtgtatcg ccacatactt acccaggtca ttccagtgtg ggagaaggaa aagaaaggaa
+     3061 ggttttgttg ttttttttaa tctacttttg gtgtgtgaag aaatagaagt tatgagtcaa
+     3121 ggacgtcttt gaatgctctc atattcaatc tgtattagtg atgcttccgt gtcccccaga
+     3181 gttcgctgtg tattttgact cactgacttt cctagtgagc ttcttcagtt ccaacttgta
+     3241 accccagctc agtctggacc ttctgccctc ttgtcctggc caacaattgg gaagagcctg
+     3301 tagttcatgg ccacccattc ttgctttcct ggctaacaga caggcatgaa tcactttgtt
+     3361 ctttctccat agataagctg ctaccaaacc agggaaattg tcaggacaat cattgctttt
+     3421 ctcaataggg tgacatgtaa taacaagcca actgtcactg tcactgtgag gtccttaaga
+     3481 acacaaaggc ctcaaaggga acctgtgggc cattgggcat actctgacca gcagccccag
+     3541 atggccactc ttcattgtac caccctggtg tgaaaccaaa gagaggtgat gatagtcccc
+     3601 agtgtatgag gtggcaaggt ggtggtttca tctattcgga agtgaaaaat gtgcttttcc
+     3661 aagagacatt gttacaaaat ggggtggggg ttgttcctag agaaaccaaa agtaaataaa
+     3721 taaacacctg ttttatgtat actaggagtt ggccaactgt ttccataaat ggctagatgg
+     3781 taaacatttt aggtatggtg aactatatga tctctgtttt ggatcttttc gagggaaaat
+     3841 cctttaaaaa tatagaccat cattaactca aaagacagca aggagtgtcc caggtttatc
+     3901 ccatgggcca caacttttct tccctgattc acaccaccac cagttggtta tagagccaat
+     3961 acttgtgaac tccagctgta ggtggtgagc atgcttttat caggaggtca ctaacctaac
+     4021 atacccactg gaataaatca acattcccaa cctgtgtgag tggttacatt acgcagcaag
+     4081 ttcagaactt catgattgcc catcaggtgg gagtagcaga gaaaagcacc tgccagttcc
+     4141 acattgaatc ctaccacaaa ggcaggtcag cagaaagtgc catgagggag gagtcttcaa
+     4201 ggttaggagg taacttcccc catgacatat atacaaaact aaccctaacc ccaacatcaa
+     4261 tgccaacctt aaacatgaaa cctaacaccg atcccaaccc tgaccctaac tttaatacaa
+     4321 aacgtaaccc tgaccatgac attgaccctg acactgaact tgaccaaaag cccagccaca
+     4381 accacaaacc taaccctaat cctaccctaa gcttaaccct aaacctaccc ctatccctat
+     4441 ccctaaccct aaaccta
+//

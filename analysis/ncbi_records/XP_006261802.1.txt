@@ -1,0 +1,61 @@
+LOCUS       XP_006261802             431 aa                     VRT 09-DEC-2013
+DEFINITION  PREDICTED: beta-1 adrenergic receptor [Alligator mississippiensis].
+ACCESSION   XP_006261802
+VERSION     XP_006261802.1  GI:564245359
+DBLINK      BioProject: PRJNA221578
+KEYWORDS    RefSeq.
+SOURCE      Alligator mississippiensis (American alligator)
+  ORGANISM  Alligator mississippiensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Crocodylia;
+            Alligatoridae; Alligatorinae; Alligator.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006225792.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Alligator mississippiensis
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..431
+                     /note="assembly comes from two alligators"
+                     /db_xref="taxon:8496"
+                     /organism="Alligator mississippiensis"
+                     /chromosome="Unknown"
+                     /country="USA: Florida"
+     Protein         1..431
+                     /product="beta-1 adrenergic receptor"
+     Region          61..363
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          69..349
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..431
+                     /coded_by="XM_006261740.1:1..1296"
+                     /gene="ADRB1"
+                     /db_xref="GeneID:102574660"
+ORIGIN
+        1 mgdgwlppdc qphnrsgspp pappgsvspp psspggrhel lsqqwtagmg llmvlvvlli
+       61 vagnvlviaa irrtqrlqtl tnlfitslac adlvmgllvv pfgatqvvqg rwvwgsflce
+      121 cwtsldvlcv tasietlcvi aidrylaitw pfryqslmtk grakgiictv wgisalvsfl
+      181 pimmhwwrde dpqaldcyqd pgccdfvtnr ayaiassiis fyipllimif vyirvyreak
+      241 eqikkidrce grfhnnhhhq ppaqghahhq pilgngrask rkssrimamr eqkalktlgi
+      301 imgiftlcwl pfflvnvvnv fnrdlvpdql fvffnwlgya nsafnpiiyx rspdfrkafk
+      361 rllccprkad rrlhasgeel srfpgsfint lgtperslgg mwsdcnggtq ggsdssleer
+      421 nsktsysesk v
+//

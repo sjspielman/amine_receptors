@@ -1,0 +1,103 @@
+LOCUS       XM_006227719            1701 bp    DNA              ROD 07-AUG-2014
+DEFINITION  PREDICTED: Rattus norvegicus trace amine-associated receptor 8b
+            (Taar8b), transcript variant X1, mRNA.
+ACCESSION   XM_006227719
+VERSION     XM_006227719.2  GI:672033797
+DBLINK      BioProject: PRJNA12455
+KEYWORDS    RefSeq.
+SOURCE      Rattus norvegicus (Norway rat)
+  ORGANISM  Rattus norvegicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Rattus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_007905633.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Aug 7, 2014 this sequence version replaced gi:564324808.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Rattus norvegicus Annotation Release
+            105
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1701
+                     /mol_type="mRNA"
+                     /db_xref="taxon:10116"
+                     /sex="pooled males and females"
+                     /note="pooled female animals of strain BN/SsNHsdMCW plus
+                     one male of strain SHR (also known as SHR-Akr)"
+                     /strain="mixed"
+                     /organism="Rattus norvegicus"
+                     /chromosome="1"
+     gene            1..1701
+                     /note="trace amine-associated receptor 8b; Derived by
+                     automated computational analysis using gene prediction
+                     method: Gnomon. Supporting evidence includes similarity to:
+                     1 mRNA, 2 ESTs, 23 Proteins, and 100% coverage of the
+                     annotated genomic feature by RNAseq alignments, including
+                     11 samples with support for all annotated introns"
+                     /db_xref="GeneID:319106"
+                     /db_xref="RGD:631386"
+                     /gene="Taar8b"
+                     /gene_synonym="Ta7"
+     CDS             444..1523
+                     /product="trace amine-associated receptor 8b isoform X2"
+                     /codon_start="1"
+                     /gene_synonym="Ta7"
+                     /db_xref="GI:564324809"
+                     /db_xref="GeneID:319106"
+                     /db_xref="RGD:631386"
+                     /translation="MRRRTEIPQASKGRIMTSNFSQATLQLCYENVNASCIKTPYSPGL
+                     RVLLYMVFGFGAVLAVCGNLLVVISVLHFKQLHSPANFLIASLASADFLVGISVMPFSM
+                     VRSIESCWYFGDTFCSLHSCCDAAFCYSSLFHLCFISVDRYIAVTEPLVYPTKFTMSVS
+                     GICISISWILPLVYSSAVFYTGISATGIENLVSALNCVGGCQVAINQDWVLISFLLFFI
+                     PTLVMIILYSKIFLVAKQQAVKIETSISGSKGESSLESHKARVAKRERKAAKTLGVTVM
+                     AFMVSWLPYTIDTLIDAFMGFITPAYVYEICGWIAYYNSAMNPLIYAFFYPWFRKAIKL
+                     ILSGKILKGHSSTTSLFSE"
+                     /gene="Taar8b"
+                     /protein_id="XP_006227781.1"
+     STS             634..1420
+                     /db_xref="UniSTS:516842"
+                     /standard_name="Taar8a"
+                     /gene="Taar8b"
+                     /gene_synonym="Ta7"
+ORIGIN
+        1 agctctggac tcatgagggt cctgtgggtc caacagcttc cttgtgcctg acccaaatgg
+       61 ctcacttcca ctgaatgatc caggaagact taggtcacaa aggacagtgt cagagaccat
+      121 gggatcattt gatgtcacag tccaaaggtt ctatcaccat ttctattcag aagtatacta
+      181 agtgctgtct tactaaacag gggattagtc catcactcca aactgcatgg ctttgcttca
+      241 gaactgccaa ctctcccctg ttcatcccag tgcaaatcgt cagcccaagg tctctacaag
+      301 ggatacctca agcaccacag gtcactactg tcctgacttc tttccaagat tgcatctaac
+      361 cccaaggcat tctcctgcac tcacctctag aaaaagctgg tcagaatgac acttctcagt
+      421 atgaggtata tcaagttggg tccatgagga ggaggacaga aatccctcaa gcatcaaaag
+      481 gcagaatcat gacaagcaac ttttcccaag caaccctgca gctctgctat gagaatgtga
+      541 atgcttcctg cattaaaacc ccctattcac cagggctccg ggtcctcctg tacatggtct
+      601 ttggctttgg ggctgtgctg gcagtgtgtg ggaacctcct ggtggtgatt tcagtcctcc
+      661 atttcaagca gctgcactct cctgccaatt tcctcatcgc ctccctggcc agtgctgact
+      721 tcttggtggg catctctgtg atgcccttca gcatggtcag gtccatcgag agctgctggt
+      781 actttggaga cacattttgt agccttcaca gctgctgtga tgcagcattt tgctactctt
+      841 ctcttttcca cctctgtttc atctctgtgg acaggtacat cgctgtcacg gaacctctgg
+      901 tctatcccac caagttcaca atgtctgtgt ctggaatttg catcagcatc tcctggattc
+      961 tgccccttgt gtacagcagc gcagtattct acacaggcat cagtgctacg gggattgaaa
+     1021 acctagtaag tgctctcaac tgtgtaggag gctgccaagt tgcgatcaat caagactggg
+     1081 ttttgataag ttttctctta ttcttcatac ctacccttgt tatgatcatc ctctacagca
+     1141 aaatattttt agtagccaaa cagcaagctg taaaaattga aacttctata agtggaagca
+     1201 aaggagaatc gtccttagag agtcacaaag ccagggtggc caagagagag aggaaggctg
+     1261 ccaaaacctt gggggtcact gtcatggcat ttatggtctc atggctacca tatacaattg
+     1321 acaccttgat tgatgctttc atgggcttca tcactcctgc ctatgtctat gaaatttgtg
+     1381 gctggatcgc ttattataac tcagccatga accctttgat ttatgctttc ttttaccctt
+     1441 ggtttaggaa agccataaag ctcattttaa gtgggaaaat tttaaagggt cattcatcaa
+     1501 ctactagttt gttttcagaa taagcattaa tacaaatttc acaaaataca ttaaggcatg
+     1561 aatctgtgga atgtgacagt attaattgta aggaatggcc catctgaagc tacaaaagta
+     1621 cagcattttt caaaaaaaat tagccaggag gaaagtcata ccagagttaa accattaaac
+     1681 tgtcgttgag atgattaatg t
+//

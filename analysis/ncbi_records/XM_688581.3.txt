@@ -1,0 +1,87 @@
+LOCUS       XM_688581               1541 bp    DNA              VRT 01-AUG-2013
+DEFINITION  PREDICTED: Danio rerio si:dkeyp-66d7.5 (si:dkeyp-66d7.5), mRNA.
+ACCESSION   XM_688581
+VERSION     XM_688581.3  GI:528492076
+DBLINK      BioProject: PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001877052.3) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Aug 1, 2013 this sequence version replaced gi:125827517.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1541
+                     /strain="Tuebingen"
+                     /mol_type="mRNA"
+                     /organism="Danio rerio"
+                     /chromosome="10"
+                     /db_xref="taxon:7955"
+     gene            1..1541
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 12 Proteins, and 93% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 3 samples with support for all annotated introns"
+                     /db_xref="GeneID:565304"
+                     /db_xref="ZFIN:ZDB-GENE-091118-105"
+                     /gene="si:dkeyp-66d7.5"
+     CDS             1..1215
+                     /product="5-hydroxytryptamine receptor 7-like"
+                     /codon_start="1"
+                     /db_xref="GI:125827518"
+                     /db_xref="GeneID:565304"
+                     /db_xref="ZFIN:ZDB-GENE-091118-105"
+                     /translation="MFTTHGAELVLASRETEIAIFNGSTEFFPTALTTAEPRSNGSCGE
+                     QRTLDPDLTKTVIVGLMLSSITAVTVMGNTLVVIAVCVVKKLRQPSNYLLVSLAIADLS
+                     VAVAVMPFAIVTDLTGGVWLFGEVFCNIFIGMDVMCCTASIMTLCVISVDRYLGITRPL
+                     TYPARQNGQLMAKMIVGVWLVSASITLPPFCGWAHNVNTAGVCLISQDVGYTLYSTAVA
+                     FYIPMVVMLFMYYKIFKAARRSGAKHNFTSLPPIQLACPEPALATVDGFCMHGMKNGAT
+                     SEEFSALSCLLNRERRSASIFRREQKAATTLGVIMGVFSFCWLPFFLFTTARPFICGLL
+                     CNCAPVWLERVLLWLGYTNSLMNPFIYAFFNRDLRSTYKDLLRCRYRNINRRLSAMGVH
+                     EALKL"
+                     /gene="si:dkeyp-66d7.5"
+                     /protein_id="XP_693673.2"
+ORIGIN
+        1 atgttcacga cacatggcgc cgaattggtt ttggcttcca gagagaccga aattgccatt
+       61 ttcaatgggt caacagagtt tttccccact gcattaacca cagcggagcc cagaagcaat
+      121 ggttcctgtg gggagcagcg gactctggat ccggacttga ccaagactgt gatcgtcggg
+      181 ctgatgctca gctccatcac tgcggtcact gtcatgggaa acacgctggt tgtgatcgcg
+      241 gtttgtgtgg tgaaaaagct cagacagccg tctaactatc tgctggtgtc tctggccatt
+      301 gctgacctct cagtggctgt ggccgtgatg ccctttgcca ttgtgaccga cctgactgga
+      361 ggagtctggc tgtttggaga ggtcttctgc aacatcttta ttgggatgga tgtcatgtgc
+      421 tgcacagcat caataatgac actgtgtgtg atcagtgtgg atagatacct tggaatcact
+      481 cgtcctctga cctaccctgc gagacagaac ggacagctga tggccaagat gatagttggc
+      541 gtctggttgg tgtcggcatc catcactctg ccgccattct gcggctgggc acataacgtc
+      601 aacactgcgg gagtttgtct gatcagtcag gatgtgggct acaccctcta ctctacagct
+      661 gtggccttct acatccctat ggtggtcatg cttttcatgt attacaagat tttcaaagct
+      721 gcccgcagaa gtggggccaa acacaatttc acttcactcc ctccaattca gttggcctgt
+      781 cccgaaccag ctttggccac tgtagatggg ttctgcatgc atgggatgaa gaatggtgca
+      841 acttccgagg agttttctgc cctctcctgc ttgttgaatc gtgaacggcg gagcgcatcg
+      901 attttcaggc gtgagcagaa ggcagcaacc accctcggag tgatcatggg ggttttctca
+      961 ttctgctggt tgccgttttt cctcttcacc acagcacgac cgttcatttg tgggctgctc
+     1021 tgtaattgtg cccccgtctg gctggaaaga gtactgctgt ggctgggcta caccaactca
+     1081 ctcatgaacc ctttcatcta cgccttcttc aaccgagacc tacgttcaac atacaaagac
+     1141 ctgctgcgct gccgttatag aaacatcaac cggcgactct cagctatggg agtgcatgag
+     1201 gctctaaaac tctgactgct tataatctat atatacctgg tttacaacca aggctccttg
+     1261 gaaaaatgtt cctctaccca catttaaaaa aagctggcac actaacaagg acaaaaaagg
+     1321 ctgcatcatc tagcatcata tgttagagcg tatcttgaga atacagattg agttatccac
+     1381 atatctccag ctaagccttg taacccctct aaaatttcac tcccatctgg gttataccac
+     1441 taaaagtaac ccctctgctt ccatttgccc taaagaccac tgcctctagc atgtgacatg
+     1501 aggctcctta cacagctcct attgacctta ttcttcacat a
+//

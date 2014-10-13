@@ -1,0 +1,99 @@
+LOCUS       XM_004415889            1931 bp    DNA              MAM 31-MAR-2013
+DEFINITION  PREDICTED: Odobenus rosmarus divergens dopamine receptor D5 (DRD5),
+            mRNA.
+ACCESSION   XM_004415889
+VERSION     XM_004415889.1  GI:472393352
+DBLINK      BioProject: PRJNA189954
+KEYWORDS    RefSeq.
+SOURCE      Odobenus rosmarus divergens (Pacific walrus)
+  ORGANISM  Odobenus rosmarus divergens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+            Odobenidae; Odobenus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004451338.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Odobenus rosmarus divergens Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1931
+                     /sub_species="divergens"
+                     /mol_type="mRNA"
+                     /collection_date="06-Sep-2011"
+                     /country="USA:AK, Round Island"
+                     /isolate="Ivan"
+                     /sex="male"
+                     /isolation_source="blood"
+                     /db_xref="taxon:9708"
+                     /organism="Odobenus rosmarus divergens"
+                     /chromosome="Unknown"
+     gene            1..1931
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 1 EST, 7 Proteins"
+                     /db_xref="GeneID:101380571"
+                     /gene="DRD5"
+     misc_feature    25..27
+                     /note="upstream in-frame stop codon"
+                     /gene="DRD5"
+     CDS             232..1656
+                     /product="D(1B) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:472393353"
+                     /db_xref="GeneID:101380571"
+                     /translation="MLPPGRNGTAERARLEQQQLAPRGAAGGAEGAAPLGPAQVVTAGL
+                     LTLLIVWTLLGNVLVCAAIVRSRPLRAKMTNVFIVSLAVSDLFVALLVMPWKAVAEVAG
+                     YWPFGAFCDIWVAFDIMCSTASILNLCVISVDRYWAISRPFSYERKMSQRVALIMVGLA
+                     WTLSILISFIPVQLHWHRAKAGSWGGVEPPPSLANGTPWEEAGEPEARAENCDSSLNRT
+                     YAISSSLISFYIPVAIMIVTYTRIYRIAQVQIRRISSLERAAEHAQSCRSRAACAPDTS
+                     LGTSIRKETKVLKTLSVIMGVFVFCWLPFFILNCMVPFCSGRPEGPQAGFPCVSETAFD
+                     VFVWFGWANSSLNPVIYAFNADFRKVFAQLLGCSNLCSRTPVETVNISNELISYNQDTV
+                     FHKEIAAAYVQMIPNAVTPGDGEVDKEEESPFHRMSQISQTSPHGDPAAESVWELDCEG
+                     EISLGKITPFSPNGFH"
+                     /gene="DRD5"
+                     /protein_id="XP_004415946.1"
+ORIGIN
+        1 accggagggg cgcgacgcgg ccactgacct ggaggcgctc gaggaagcga gaggggtccc
+       61 cgcgcactcg gggccccggc gcagcgcacg gtgagcgccc cccgggggct cggggtttcc
+      121 cttaaccgcg ggtcccggtg cgccagcccc cgggcgccgg atggggtcac ccggggggcg
+      181 caaggccgaa gttgggaccg cgcgcagccc gcccctgccg ccgagccgga catgctgccg
+      241 ccgggccgca acggcaccgc ggagcgggcg cggttggagc agcagcagct ggcgccgcgg
+      301 ggcgccgcgg ggggcgcgga gggggcggcg ccgctggggc ccgcgcaggt ggtcacggca
+      361 ggcctcctga ccctgctcat cgtctggacc ctgctgggca acgtgctggt ttgcgcggcc
+      421 atcgtgcgca gccgccccct gcgcgccaag atgaccaacg tcttcatcgt gtctctggct
+      481 gtgtcggacc tcttcgtggc gctgctcgtc atgccctgga aggcggtcgc tgaggtggct
+      541 ggttactggc cctttggggc cttctgcgac atctgggtgg cctttgatat catgtgctcc
+      601 accgcctcca tcctgaacct gtgcgtcatc agcgtggacc gctactgggc catctccagg
+      661 cccttctcct atgagcgcaa gatgagccag cgcgtggcgc tgatcatggt cggcctggcc
+      721 tggaccttgt ccattcttat ctccttcatc ccagttcagc ttcattggca cagggccaag
+      781 gcaggctcct ggggcggggt ggaaccgcca cccagcctgg ccaacgggac gccctgggag
+      841 gaagcggggg agccagaggc gagggccgaa aactgtgact ccagcctgaa ccgaacttac
+      901 gcaatctcct cttcgctcat cagcttctac atccccgtgg ccatcatgat cgtgacctac
+      961 acgcgcatct accgcatcgc ccaggtgcag atccgcagga tttcctccct ggagagggcc
+     1021 gcggagcacg cgcagagctg ccgcagccgc gcagcctgtg cccctgacac cagcctgggg
+     1081 acatccatca ggaaggagac caaggtcctc aagaccctgt cggtgatcat gggggtcttc
+     1141 gtgttttgct ggctgccctt cttcatcctt aactgcatgg tccccttctg cagcgggcgc
+     1201 cccgagggtc ctcaggctgg cttcccctgc gtcagcgaga ccgcctttga cgtcttcgtc
+     1261 tggttcggct gggccaactc ctccctcaac cccgtcatct acgccttcaa cgctgacttc
+     1321 cggaaggtgt ttgcgcagct gctggggtgc agcaacctct gctcccgcac cccggtggag
+     1381 acagtgaaca tcagcaatga gctcatctcc tacaaccagg acaccgtctt ccacaaggag
+     1441 attgctgctg cctacgtcca gatgatcccc aatgccgtga ccccggggga tggggaggtg
+     1501 gacaaggagg aggagagccc tttccatcgt atgtcccaga tctctcaaac gtccccacat
+     1561 ggtgaccctg cggccgagtc tgtctgggag ctggactgcg aaggggagat ttcattaggc
+     1621 aaaataacac ctttctcccc aaatggattc cattaaactg cataagaagc gcccctcctg
+     1681 gatctacata gctgcacaga cattaacaag catgcagaat acacactcac caatacattt
+     1741 ccagtcctgt tcagtggatc acattttctg tgtttgtgta gtagcccatg ggcttagaaa
+     1801 cctcaccaga ttgatttgct gttgaaagaa tcggcagaag cgtttggcat aaactcagtc
+     1861 aaatataccc cccagcctag cagaaatgga ccaatggtcc agttagagaa gagaaggtgg
+     1921 tgtttggttc t
+//

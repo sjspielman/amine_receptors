@@ -1,0 +1,61 @@
+LOCUS       XP_001369817             505 aa                     MAM 14-APR-2014
+DEFINITION  PREDICTED: alpha-1B adrenergic receptor [Monodelphis domestica].
+ACCESSION   XP_001369817
+VERSION     XP_001369817.1  GI:126290690
+DBLINK      BioProject: PRJNA15683
+KEYWORDS    RefSeq.
+SOURCE      Monodelphis domestica (gray short-tailed opossum)
+  ORGANISM  Monodelphis domestica
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Metatheria; Didelphimorphia; Didelphidae; Monodelphis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001581837.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Monodelphis domestica Annotation
+            Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..505
+                     /pop_variant="pop1"
+                     /db_xref="taxon:13616"
+                     /organism="Monodelphis domestica"
+                     /chromosome="1"
+     Protein         1..505
+                     /product="alpha-1B adrenergic receptor"
+                     /calculated_mol_wt="56205"
+     Region          56..363
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          68..348
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..505
+                     /coded_by="XM_001369780.2:20..1537"
+                     /gene="ADRA1B"
+                     /db_xref="GeneID:100025515"
+ORIGIN
+        1 mnphldvshn isapayweep svgnltgpnq tssystppel dirraisvgi vlgafilfai
+       61 vgnilvilsv acnrhlrtpt nyfivnlaia dlllsftvlp fsaalevlgy wvlgrifcdi
+      121 waavdvlcct asilslcais idryigvrys lqyptlvtrk kailallsvw vlsmvisigp
+      181 llgwkepapk dekecgvtee pfyalfsslg sfyipltvil vmycrvyiva krttknleag
+      241 vmkemsnske ltlrihsknf hedalsstkv kghnprnsia vklfkfsrek kaaktlgivv
+      301 gmfilcwlpf fiilplgslf atlkppdtvf kvvfwlgyfn scinpiiypc sskefkrafl
+      361 rilkcqchrr nrlgwwnyny rawnrgsfeq srkdslddsg sclsgsqrtl nsatpspgyl
+      421 skvthpqvem ytfsewkssg tflspphpep pgrhrdtghl ftlkylaehe ghpgldsngg
+      481 cevaanmang qagfkknmpl gpsqf
+//

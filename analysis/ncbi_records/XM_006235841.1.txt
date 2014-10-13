@@ -1,0 +1,92 @@
+LOCUS       XM_006235841            1548 bp    DNA              ROD 09-DEC-2013
+DEFINITION  PREDICTED: Rattus norvegicus 5-hydroxytryptamine (serotonin)
+            receptor 5A, G protein-coupled (Htr5a), transcript variant X1, mRNA.
+ACCESSION   XM_006235841
+VERSION     XM_006235841.1  GI:564345132
+DBLINK      BioProject: PRJNA12455
+KEYWORDS    RefSeq.
+SOURCE      Rattus norvegicus (Norway rat)
+  ORGANISM  Rattus norvegicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Rattus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003807871.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Rattus norvegicus Annotation Release
+            104
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1548
+                     /strain="BN/SsNHsdMCW"
+                     /mol_type="mRNA"
+                     /organism="Rattus norvegicus"
+                     /chromosome="4"
+                     /db_xref="taxon:10116"
+     gene            1..1548
+                     /note="5-hydroxytryptamine (serotonin) receptor 5A, G
+                     protein-coupled; Derived by automated computational
+                     analysis using gene prediction method: Gnomon. Supporting
+                     evidence includes similarity to: 2 ESTs, 3 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 6 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:25689"
+                     /db_xref="RGD:2851"
+                     /gene="Htr5a"
+                     /gene_synonym="5HT5A; MR22"
+     CDS             82..1224
+                     /product="5-hydroxytryptamine receptor 5A isoform X1"
+                     /codon_start="1"
+                     /gene_synonym="5HT5A; MR22"
+                     /db_xref="GI:564345133"
+                     /db_xref="GeneID:25689"
+                     /db_xref="RGD:2851"
+                     /translation="MLYVVREPHFAKAGLGGHGSVHSRSSSPRHGGEGPGQGRRLPSEN
+                     SLDTEALRTSQSFLSAFRVLVLTLLGFLAAATFTWNLLVLATILRVRTFHRVPHNLVAS
+                     MAISDVLVAVLVMPLSLVHELSGRRWQLGRRLCQLWIACDVLCCTASIWNVTAIALDRY
+                     WSITRHLEYTLRARKRVSNVMILLTWALSAVISLAPLLFGWGETYSELSEECQVSREPS
+                     YTVFSTVGAFYLPLCVVLFVYWKIYKAAKFRMGSRKTNSVSPIPEAVEVKDASQHPQMV
+                     FTVRHATVTFQTEGDTWREQKEQRAALMVGILIGVFVLCWFPFFVTELISPLCSWDIPA
+                     LWKSIFLWLGYSNSFFNPLIYTAFNRSYSSAFKVFFSKQQ"
+                     /gene="Htr5a"
+                     /protein_id="XP_006235903.1"
+ORIGIN
+        1 gcaccgctgt aagcagagag aaggctgaat gctgaagccc catgcagaga gccgggtggg
+       61 gagaggcggc ttcatcagct gatgctttac gtagtgcggg agccccactt tgctaaggca
+      121 ggtctgggtg ggcacggcag cgtgcactct cgaagcagca gccccaggca cggtggagag
+      181 ggaccagggc agggcagaag gctgccttca gaaaacagct tggacacgga agccctgcgc
+      241 actagtcagt cttttctctc agctttccga gtgctagtcc tgactttgct gggctttcta
+      301 gctgccgcca cgttcacttg gaacctgctg gtgctggcca ccatcctcag ggtacgcacc
+      361 ttccaccgag taccacacaa cctggtagca tccatggcta tctcggatgt gctagtagct
+      421 gtgctggtta tgcctctgag cctggtacat gaactgtctg ggcgccgctg gcagctgggc
+      481 cggcgtctat gccagctgtg gattgcgtgt gacgtcctct gctgtactgc cagcatctgg
+      541 aatgtgacag caatagcttt ggaccgctac tggtcaataa cgcgccacct ggagtacaca
+      601 ctccgtgccc gcaagcgtgt ctccaacgtg atgatcctgc tcacttgggc actctccgct
+      661 gtcatctctc tggctccgct gctctttggc tggggagaga cttactcgga gctcagtgaa
+      721 gaatgccagg tcagtcgcga gccttcctac accgtgttct ccactgtggg cgccttctac
+      781 ctgccgctgt gtgtggtgct ctttgtatac tggaagattt acaaggctgc gaagttccgc
+      841 atgggctcca ggaagaccaa cagcgtctcc cccatacctg aagctgtgga ggtgaaggac
+      901 gcttcacaac atccccagat ggtgttcact gtccgtcacg ccaccgtcac cttccagaca
+      961 gaaggggaca cgtggaggga acagaaggag caaagggcag ccctcatggt gggcatcctc
+     1021 attggggtgt ttgtcctctg ctggttcccc ttctttgtta cggagctcat cagtccgctg
+     1081 tgctcctggg atatccctgc cctctggaag agcatcttcc tgtggctggg ctattccaac
+     1141 tccttcttca acccgctcat ctacacggcg ttcaacagga gctacagcag tgcttttaag
+     1201 gtcttcttct ccaagcagca gtgagaggcc acatgggagt gccttcttcc cgtagcttgt
+     1261 agctcggtgg actgtcctgc ctcacaaacc cctgtagtct gcccagctgt ccagaggaac
+     1321 aagatccatc tgccaagggc accagggtca catcagagct cagctcactt cagttctgtg
+     1381 cccgtgtgct ggaaggtgtc tcctataggc tctggtagct tgtgtcccca gtctgggcac
+     1441 tcttcctcac actgtaccag cagccacagg cctggcccac aacgtgccca tttctcctcc
+     1501 aactccactc cagcgggacc atgagaagtt tgatcagaac gaacagga
+//

@@ -1,0 +1,89 @@
+LOCUS       XM_002720807            1197 bp    DNA              MAM 13-JUN-2014
+DEFINITION  PREDICTED: Oryctolagus cuniculus adrenoceptor beta 3 (ADRB3), mRNA.
+ACCESSION   XM_002720807
+VERSION     XM_002720807.1  GI:291409103
+DBLINK      BioProject: PRJNA42933
+KEYWORDS    RefSeq; includes ab initio.
+SOURCE      Oryctolagus cuniculus (rabbit)
+  ORGANISM  Oryctolagus cuniculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha; Leporidae;
+            Oryctolagus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003159332.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##RefSeq-Attributes-START##
+            ab initio :: 11% of CDS bases
+            ##RefSeq-Attributes-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Oryctolagus cuniculus Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1197
+                     /mol_type="mRNA"
+                     /breed="Thorbecke inbred"
+                     /sex="female"
+                     /db_xref="taxon:9986"
+                     /organism="Oryctolagus cuniculus"
+                     /chromosome="Unknown"
+     gene            1..1197
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 57 Proteins, and 59% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:100339100"
+                     /gene="ADRB3"
+     CDS             1..1197
+                     /product="beta-3 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:291409104"
+                     /db_xref="GeneID:100339100"
+                     /translation="MAPWPHGNSSAAPWPDTPTLAPNTANTSGLPGVPWAAALAGALLA
+                     LATVGGNLLVIVAIACTPRLQTMTNVFVTSLAAADLVVGLLVVPPGATLALTGHWPLGA
+                     TGCELWTSVDVLCVTASIETLCALAVDRYVAVTNPLRYGALVTKRRARAAVLLVWLVSA
+                     AVSFAPIMSQWWRVGADAEAQRCHSNPRCCAFASNLPYALLSSSVSFYLPLLVMLFVYA
+                     RVFVVATRQLRLLRGELGRFPLEEPSPALSRAQALAAAGPCAAPACSRRPARLLPLREH
+                     RALLTLGLIMGTFTLCWLPFFLANVLRALGGPSLVPSPALLALNWLGYANSAFNPLIYC
+                     RSPDFRRAFRRLLCGCRGTEPRAAASRAPEPSRARAAGTSPAESRPRPPLHRRVLSSL"
+                     /gene="ADRB3"
+                     /protein_id="XP_002720853.1"
+     STS             147..224
+                     /db_xref="UniSTS:271495"
+                     /standard_name="PMC164531P1"
+                     /gene="ADRB3"
+     STS             152..515
+                     /db_xref="UniSTS:506234"
+                     /standard_name="ADRB3"
+                     /gene="ADRB3"
+ORIGIN
+        1 atggctccgt ggcctcacgg gaacagctct gcggccccgt ggcctgacac ccccaccctg
+       61 gcacccaata ccgctaacac gagtgggctg ccgggggtgc cgtgggcggc ggcgctggcc
+      121 ggggcgctgc tggcgctggc cacggtggga ggcaacctgc tggtaatcgt ggccatcgcc
+      181 tgcacgccga gactgcagac catgaccaac gtgttcgtga cttcgctggc tgcagccgac
+      241 ctggtggtgg gactcctggt agtgccgccg ggggccacct tggcgctgac cggccactgg
+      301 cccctgggcg ccactggctg cgagctgtgg acttcagtgg atgtgctgtg cgtgacggcc
+      361 agcatcgaga ccctgtgcgc cctggccgtg gaccgctacg tggccgtgac caacccactg
+      421 cgttacggcg cgctggtcac caagcgccgc gcccgggcgg ccgtgctcct ggtgtggctc
+      481 gtgtccgccg cggtgtcctt tgcgcccatc atgagccagt ggtggcgcgt aggggcggac
+      541 gccgaggctc agcgctgtca ctccaacccg cgctgctgcg ccttcgcctc caacttgccc
+      601 tacgcgctgc tctcctcctc cgtgtctttt taccttccgc tcctggtgat gctcttcgtc
+      661 tacgcgcggg tcttcgtcgt ggccacacgc cagctgcgcc tgctgcgcgg ggagctgggc
+      721 cgcttcccgc tggaggagcc gtcgcccgcg ctctcgcgcg cccaggcgct cgccgccgcg
+      781 gggccgtgcg ctgcgcccgc ctgcagtcgg aggcccgcgc gcctgctgcc tctccgggag
+      841 caccgcgccc tgctcacgct ggggctcatt atgggcacct tcaccctctg ctggttgcct
+      901 ttctttctgg cgaacgtgct gcgcgccctc ggtggcccct cgctggttcc cagcccggcc
+      961 ctgctcgccc tcaactggct gggctatgcc aactctgcct tcaacccgct catctactgc
+     1021 cgcagcccgg actttcgccg cgccttccgc cgtcttctgt gcggctgccg gggcaccgag
+     1081 ccccgcgccg ccgcctcccg ggcgcccgag ccctcgcgcg cccgtgcggc cgggaccagc
+     1141 cccgccgagt ccaggccgcg cccgccgctc cacagacgag tgctctcctc gctgtag
+//

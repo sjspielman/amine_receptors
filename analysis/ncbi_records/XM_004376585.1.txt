@@ -1,0 +1,97 @@
+LOCUS       XM_004376585            1845 bp    DNA              MAM 27-MAR-2013
+DEFINITION  PREDICTED: Trichechus manatus latirostris 5-hydroxytryptamine
+            (serotonin) receptor 2A, G protein-coupled (HTR2A), mRNA.
+ACCESSION   XM_004376585
+VERSION     XM_004376585.1  GI:471377665
+DBLINK      BioProject: PRJNA189960
+KEYWORDS    RefSeq.
+SOURCE      Trichechus manatus latirostris (Florida manatee)
+  ORGANISM  Trichechus manatus latirostris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Afrotheria; Sirenia; Trichechidae; Trichechus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004443980.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Trichechus manatus latirostris Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1845
+                     /sub_species="latirostris"
+                     /mol_type="mRNA"
+                     /isolate="Lorelei"
+                     /sex="female"
+                     /db_xref="taxon:127582"
+                     /organism="Trichechus manatus latirostris"
+                     /chromosome="Unknown"
+     gene            1..1845
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 9 mRNAs, 26 Proteins"
+                     /db_xref="GeneID:101357713"
+                     /gene="HTR2A"
+     misc_feature    17..19
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR2A"
+     CDS             80..1492
+                     /product="5-hydroxytryptamine receptor 2A"
+                     /codon_start="1"
+                     /db_xref="GI:471377666"
+                     /db_xref="GeneID:101357713"
+                     /translation="MDILCDQNTSLSLTPNSLSQFNDDTRLYNHDFNPGEANTSDAFNW
+                     TVDSENRTNLSCEGCLSPPCYSLLHLQEKNWSALLTAVVIILTIAGNVLVIMAVSLEKK
+                     LQNATNYFLMSLAIADMLLGFLVMPVSMLTILYGYRWPLPSKLCAVWIYLDVLFSTASI
+                     MHLCAISLDRYVAIQNPIHHSRFNSRTKAFLKIIAVWTISVGISMPIPVFGLQDDSKVF
+                     KEGSCLLADDNFVLIGSFVSFFIPLTIMVITYFLTIKSLQKEATLCVSEFGTRAKLAPF
+                     SFLPQSSLSSEKLFQRSNHREPGSYGRRTMQSISNEQKACKVLGIVFFLFVVMWCPFFI
+                     TNIMAVICKESCNEDVIGALLNVFVWIGYLSSAVNPLVYTLFNKTYRSAFSRYIQCQYK
+                     ENKKPLQIILVNTIPALAYKSSQLQKGQGKNSKTDAKMTDNDCSMVALGKQQSEGASTG
+                     DVNTVNEKVSCV"
+                     /gene="HTR2A"
+                     /protein_id="XP_004376642.1"
+     STS             378..510
+                     /db_xref="UniSTS:31941"
+                     /standard_name="HTR2A-112F"
+                     /gene="HTR2A"
+ORIGIN
+        1 acatacagat ggatggtgag aagaggttat aatttgttca tttttctgta tttcatctgt
+       61 ggaaagttct ggcttagcca tggatattct ttgtgatcaa aacacttctt tgagcttgac
+      121 tccgaactcc ttaagtcaat tcaatgatga cacaaggctc tacaatcacg attttaaccc
+      181 gggagaagct aacacttccg atgcatttaa ctggacagtg gactctgaaa atcgaacaaa
+      241 cctttcctgt gaaggctgcc tctcaccacc gtgttactcc ttacttcatc tccaagaaaa
+      301 aaactggtct gctttgctga cagctgtcgt gattatccta accattgctg gaaacgtact
+      361 cgtcatcatg gcagtgtccc tagagaaaaa gctgcagaac gccaccaact acttcctgat
+      421 gtcacttgcc atagctgata tgctgctggg cttccttgtg atgcccgtgt ccatgctaac
+      481 gatcctgtat gggtaccggt ggcctctgcc aagcaagctg tgcgcagtct ggatctacct
+      541 ggacgtgctc ttctccaccg cctccatcat gcacctttgc gccatctcac tggaccgcta
+      601 cgtcgccatc cagaacccaa tccatcacag ccgcttcaac tccagaacaa aggcctttct
+      661 gaaaataatt gctgtttgga ccatctcggt cggtatatcc atgccaattc cggtctttgg
+      721 gctacaggat gattccaagg tctttaagga aggaagctgc ttgcttgctg atgataactt
+      781 tgtcctgatt ggctcctttg tgtctttttt catccctctg acaatcatgg tgatcaccta
+      841 ctttttaact atcaagtcac tccagaaaga agctactttg tgtgtgagtg agtttggcac
+      901 ccgggccaaa ttagctcctt tcagctttct ccctcagagc tccctgtctt cagaaaagct
+      961 cttccagcgc tccaaccaca gggagccagg gtcctacggc aggaggacta tgcagtccat
+     1021 cagcaacgag caaaaagcat gcaaggtgct gggcatcgtc ttcttcctgt tcgtggtgat
+     1081 gtggtgcccc ttcttcatca caaacatcat ggccgtcatc tgcaaagagt cctgcaacga
+     1141 ggacgtcatc ggagccctgc ttaacgtgtt cgtgtggatc ggctacctct cctcagccgt
+     1201 caacccactc gtgtacacgc tgttcaataa gacctacagg tcggcttttt cacggtacat
+     1261 tcaatgtcag tacaaggaaa acaagaaacc tttgcagata attttagtga acactatacc
+     1321 agccttggcc tacaagtcta gtcaactcca aaagggccaa gggaagaatt caaagacaga
+     1381 cgccaagatg acagataatg actgctcgat ggttgctcta ggaaaacaac agtcggaagg
+     1441 tgcttctaca ggcgatgtca acacagtgaa tgaaaaggtt agctgtgtgt gataggctgg
+     1501 ttgccatggt aactgtggcc aggcacactg agcaagtttt cacctatctg ggacaaaaaa
+     1561 aaaagaacag ggagcctgga aaaaaaatta ggccagtcta gtggaaccaa cagtaatatc
+     1621 aatgtacact ttattttgtc agtgaaaagc agggttaaat gccacaaaat gtgcacttct
+     1681 aaaatgtcct gacagcattc cagctgtgag cgttatggta cttcttttta acattgtaaa
+     1741 tgatatgtct ttaaaatgat tagttttcat tgtataatta taatgaggcc ataaataaat
+     1801 ctaaatgaat ttctggtgtt gaatggaaac cttgctagtg tgttg
+//

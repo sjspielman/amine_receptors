@@ -1,0 +1,96 @@
+LOCUS       XM_003509406            1927 bp    DNA              ROD 30-APR-2014
+DEFINITION  PREDICTED: Cricetulus griseus cholinergic receptor, muscarinic 3
+            (Chrm3), mRNA.
+ACCESSION   XM_003509406
+VERSION     XM_003509406.2  GI:625215415
+DBLINK      BioProject: PRJNA72741
+KEYWORDS    RefSeq.
+SOURCE      Cricetulus griseus (Chinese hamster)
+  ORGANISM  Cricetulus griseus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Cricetinae; Cricetulus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003614706.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Apr 30, 2014 this sequence version replaced gi:354494660.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Cricetulus griseus Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1927
+                     /cell_line="CHO-K1"
+                     /db_xref="taxon:10029"
+                     /mol_type="mRNA"
+                     /organism="Cricetulus griseus"
+                     /chromosome="Unknown"
+     gene            1..1927
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 23 Proteins, and 84% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:100753955"
+                     /gene="Chrm3"
+     CDS             21..1790
+                     /product="muscarinic acetylcholine receptor M3"
+                     /codon_start="1"
+                     /db_xref="GI:354494661"
+                     /db_xref="GeneID:100753955"
+                     /translation="MTLHSNSTTSPLFPNISSSWVHSSSEAGLPLGTVTHLGSYNISQA
+                     AGNFSSNDTSSDPLGGHTVWQVVFIAFLTGFLALVTIIGNILVIVAFKVNKQLKTVNNY
+                     FLLSLACADLIIGVISMNLFTTYIIMNRWALGNLACDLWLSIDYVASNASVMNLLVISF
+                     DRYFSITRPLTYRAKRTTKRAGVMIGLAWVISIVLWAPAILFWQYFVGKRTVPPGECFI
+                     QFLSEPTITFGTAIAAFYMPVTIMTILYWRIYKETEKRTKELAGLQASGTEAEAENFVH
+                     PTGSSRSCSSYELQQQSMKRSSRRKYGRCHFWFTTKSWKPSVEQMDQDHSSSDSWNNND
+                     AAASLENSASSDEEDIGSETRAIYSIVLKLPGHSTILNATKLPSSDNLQVPDEDLGTVD
+                     VERNANKLQAQKSMDDGDSCQKDFSKLPIQLESAVDTTKTSDTNSSVDKTTSTLPLSFK
+                     EATLAKRFALKTRSQITKRKRMSLIKEKKAAQTLSAILLAFIITWTPYNIMVLVNTFCD
+                     SCIPKTYWNLGYWLCYINSTVNPVCYALCNKTFRTTFKMLLLCQCDKRKRRKQQYQQRQ
+                     SVIFHKRVPEQAL"
+                     /gene="Chrm3"
+                     /protein_id="XP_003509454.1"
+ORIGIN
+        1 gactatgtca gagagtcaca atgaccttgc acagtaacag tacaacctcg cctttgtttc
+       61 ccaacatcag ctcttcctgg gtgcacagtt cctcagaggc agggttgccc ttggggacag
+      121 tcactcactt gggcagctat aacatttcac aagcagctgg gaatttctcc tcaaacgaca
+      181 cctccagtga ccctctgggg ggtcacaccg tctggcaagt ggtcttcatt gcattcttaa
+      241 caggcttcct ggcattggtg accatcattg gcaacatcct tgtcattgtg gcatttaagg
+      301 tcaacaaaca gctgaagaca gtcaacaact acttcctctt aagcctggcc tgtgcagatc
+      361 tgatcatcgg ggtcatttcc atgaacctgt tcactaccta catcattatg aaccgctggg
+      421 cactggggaa cttagcctgt gacctctggc tttccattga ctatgtggcc agcaatgctt
+      481 ctgtcatgaa tctgctggtc atcagcttcg ataggtactt ctccatcaca aggccactca
+      541 cctaccgagc caaacgaaca acaaaacgag ctggtgtgat gattggtctg gcttgggtca
+      601 tctccattgt cctgtgggct cctgccatct tgttctggca atactttgta gggaagagaa
+      661 ctgtgccacc aggagaatgt ttcattcagt tcctgagtga gcccaccatc accttcggca
+      721 cagcaattgc tgccttttat atgcctgtca ccatcatgac tattttatat tggaggatct
+      781 ataaggaaac tgaaaaacgt accaaagagc tggctgggct gcaggcctct gggacagaag
+      841 ctgaggcaga aaactttgtc caccccacag gcagttctcg aagctgcagc agctatgaac
+      901 tacaacagca aagcatgaag cgctcatcca gaaggaagta tggtcgctgt cacttctggt
+      961 tcacaaccaa gagctggaag cccagtgttg agcagatgga ccaagaccat agtagcagtg
+     1021 acagctggaa taacaatgat gctgctgcct ccctggaaaa ctctgcctcc tccgatgaag
+     1081 aggacattgg ctcggagacc agagccatct actctattgt gctcaagctt ccaggtcata
+     1141 gcaccatcct caacgctacc aagctacctt cctcagacaa cctgcaggtg ccagatgagg
+     1201 acctggggac tgttgatgtg gagagaaacg ccaataagct tcaggcccaa aagagcatgg
+     1261 atgatggtga cagttgtcag aaggacttct ccaagcttcc catccagtta gagtctgctg
+     1321 tggatacaac caagacctct gacaccaact cctcggtgga caagaccaca tccactctac
+     1381 cactgtcctt caaggaagcc acactggcta agaggtttgc tttgaagacc agaagtcaga
+     1441 tcaccaagcg gaaaagaatg tcactcatca aggagaagaa ggcagcccag accctcagtg
+     1501 ccatcttgct ggccttcatc atcacatgga ccccctacaa tatcatggtc ctggtgaata
+     1561 ccttctgtga tagctgcatc cccaaaacct attggaatct gggctactgg ctatgctata
+     1621 tcaacagcac cgtgaacccc gtgtgctatg ccctgtgcaa caaaacattc agaaccacct
+     1681 tcaagatgct tctcttatgc cagtgtgaca aaagaaagag acgcaaacag cagtaccaac
+     1741 aaagacagtc agtcattttt cacaagcgag tgcctgagca ggccttgtag aaaaagggtt
+     1801 tgtcagtagc agtgaccaca cacgcatatc agcccacaca gcctagcaga agtctggcac
+     1861 aggtgggagg ccattcctgg tggtgataaa aaggggtttt atcaaccaca caggagagaa
+     1921 gctgcct
+//

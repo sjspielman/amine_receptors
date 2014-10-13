@@ -1,0 +1,130 @@
+LOCUS       XM_003477480            3333 bp    DNA              ROD 25-JUN-2013
+DEFINITION  PREDICTED: Cavia porcellus 5-hydroxytryptamine (serotonin) receptor
+            2A, G protein-coupled (Htr2a), mRNA.
+ACCESSION   XM_003477480
+VERSION     XM_003477480.2  GI:514475578
+DBLINK      BioProject: PRJNA73553
+KEYWORDS    RefSeq.
+SOURCE      Cavia porcellus (domestic guinea pig)
+  ORGANISM  Cavia porcellus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Caviidae; Cavia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NT_176413.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Jun 25, 2013 this sequence version replaced gi:348583534.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Cavia porcellus Annotation Release
+            101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3333
+                     /mol_type="mRNA"
+                     /db_xref="taxon:10141"
+                     /specimen_voucher="Broad:Sequencing.Sample:289.1, Broad
+                     Institute, Cambridge, MA"
+                     /sex="female"
+                     /strain="inbred line 2N"
+                     /organism="Cavia porcellus"
+                     /chromosome="Unknown"
+     gene            1..3333
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 16 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 6 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:100135545"
+                     /gene="Htr2a"
+     misc_feature    1471..1473
+                     /note="upstream in-frame stop codon"
+                     /gene="Htr2a"
+     CDS             1534..2946
+                     /product="5-hydroxytryptamine receptor 2A"
+                     /codon_start="1"
+                     /db_xref="GI:348583535"
+                     /db_xref="GeneID:100135545"
+                     /translation="MDVLCEENTSLSSTPNSLMQFNDDTRLPSAFHSGEANVSDALNWT
+                     IDSENRTNLSCEGCLPATCFSLLHLQEKNWSALLTTVVIILTIAGNILVIMAVSLEKKL
+                     QNATNYFLMSLAIADMLLGFLVMPVSMLTILYGYRWPLPSKLCAIWIYLDVLFSTASIM
+                     HLCAISLDRYVAIQNPIHHSRFNSRTKAFLKIIAVWTISVGISMPVPVFGLQDDSKVFK
+                     EGSCLLADDNFVLIGSFVAFFIPLTIMVITYFLTIKSLQKEATLCVSDPGTRAKLSSFS
+                     FLPQSSLSSEKLFQRSIHRETGSYAGRRTMQSISNEQKACKVLGIVFFLFVVMWCPFFV
+                     TNIMAVICKESCNEDVIGALLNVFVWIGYLSSAVNPLVYTLFNKTYRSAFARYIQCQYK
+                     ENKKPLQLILVNTIPALAYKSSQLQMGQKKNSKKDTETTDNDCSMVSLGEQHSEDVCTD
+                     NIHTTNETVSCV"
+                     /gene="Htr2a"
+                     /protein_id="XP_003477528.1"
+     STS             1829..1961
+                     /db_xref="UniSTS:31941"
+                     /standard_name="HTR2A-112F"
+                     /gene="Htr2a"
+ORIGIN
+        1 cagagtaatt gccactgatt tgctggccac tcagctcatt ttggacgtca ccctgttggc
+       61 tctggaaaga agagctttgt gcctccagtt ctcaggacat gctgtttcca gccttatgga
+      121 cactctggtc actcttctct gttcagtcta gtaaattacc accatgagga ttagcttcct
+      181 tctcaggaat ctgcatgaaa agagagctct cccacttctc cctaaagcaa aggaaaactt
+      241 cccgatgtta ccagaaagaa agaaaagctg cttggtccgc ctccctggct gttgctacct
+      301 tgccggttat gacacacaga cagagggagg tctgaggagg cgcccaaggc agccagagag
+      361 cagctcagtc ccgtccccgt ggtaaccggg agccctgagc ctgagcgcag gctgctctgc
+      421 ctactttctc gcgtggttct tttgtgtcac tttgacaagg gctggtgaat gatctctcag
+      481 cgtgtgcctg ccgaggccag ctgcacagga ggaaggagcc acgccggccg ctggcaaagg
+      541 agccaactcg gacctcacag ggctggaact ggctgcaccc ttgcaagcag tttcccaagt
+      601 cagcaaaaac agcaatcaaa ttactgtctc actgtgctgc caggagctca aggagaaggg
+      661 tctgttcccc gggctcactg cccatgtgag atggggcgag tcacagaata gccaagcgtg
+      721 ccggcttcac agagcttggg gacaagcgta agttttcatg ctactgtatt ttactgctgt
+      781 gtgattttct tttccttgtt ctttctggtc tgtaatcatg cttggccaaa atggattcat
+      841 ttccatgaga aattctggag tggaaagtta cctactaatc ttcaggactt tttctttttc
+      901 cttgtgttta ctaagcatca taatacaagc tgaaattcct gatagcaatt gctgtagcat
+      961 ctcagactaa gactgagaac tgtaacctga agtgtgccca gttaccagag ggttaacacc
+     1021 ggcatatttt taattgactg tcttcatgtc atctgtatgt gtccccagtg gtctggattg
+     1081 catgctgttt taacactgtg gtcaactttt gtgatcagca tctctaactg agggagacag
+     1141 agccaagcaa gagtgctagt tagttacaaa acttttattc tttggccagg atcacatttg
+     1201 tgttcctaaa ttctcagaac tttgcacctg ctgtgctaaa agtccattct ggttgctttt
+     1261 ttgggaggag gggagaaacc ttgctttgct gaaaaaaaaa attacaactc aacaatggac
+     1321 tgtggtgaaa ttgtggaagg aggaaatgta aagagccctc acagttctct aactattgtt
+     1381 atcataatgg gagagaaaaa accagccaaa ggagcccccc acacacacca gcttccgcac
+     1441 agtggagcac ggggacgcaa agatgaacgg tgaacagagg ctgccacttg tgagcctttc
+     1501 aacacttcgt ctgttacaag ttccggcata gacatggatg ttctttgtga agaaaatact
+     1561 tctttgagct caactccaaa ctccttaatg caattcaatg atgacacaag gctccccagt
+     1621 gccttccatt caggagaagc gaatgtgtct gatgcactga actggaccat agactctgaa
+     1681 aatcgaacca acctttcctg tgaagggtgc ctccccgcaa catgtttctc cttacttcat
+     1741 ctccaggaaa aaaactggtc tgctttactg acaactgtag tgattattct caccattgct
+     1801 ggaaacatac tcgtcatcat ggcagtgtcc ctagagaaaa agctgcagaa cgccaccaac
+     1861 tatttcctga tgtcccttgc catagctgat atgctgctgg gtttcctggt catgcctgtg
+     1921 tccatgttaa ccatcctgta tgggtaccgg tggcctctgc ctagcaagct ctgcgcaatc
+     1981 tggatttacc tggacgtgct gttctccacg gcctccatca tgcacctgtg tgccatttca
+     2041 ctggaccgct atgttgccat ccagaacccc atccaccata gccgcttcaa ctctagaaca
+     2101 aaggcatttc tgaaaatcat tgctgtttgg accatatctg taggtatatc catgcccgtt
+     2161 ccagtctttg ggctgcagga tgattccaag gtctttaagg aggggagttg cctacttgct
+     2221 gatgataact ttgtactgat tggttctttc gtggcatttt tcattccctt aaccatcatg
+     2281 gtgatcacct actttttaac tatcaagtca cttcagaaag aagctactct gtgtgtgagc
+     2341 gatcctggca cacgggccaa attatcttct ttcagcttcc tgcctcagag ttccctgtct
+     2401 tcagaaaagc tcttccaaag gtcaatccac agggaaactg gatcctatgc cggcaggagg
+     2461 actatgcagt ccatcagcaa tgagcagaaa gcttgcaagg tgctgggcat cgtcttcttc
+     2521 ttgtttgtgg tgatgtggtg cccattcttc gtcacgaaca tcatggctgt catctgcaaa
+     2581 gagtcctgta atgaagacgt catcggagcc ctgctcaatg tgtttgtttg gatcgggtac
+     2641 ctctcctcag cagtcaatcc cctcgtctat acactgttca ataaaaccta caggtcagcc
+     2701 tttgcacggt atattcaatg tcagtacaag gaaaacaaaa agcccttgca gctgattttg
+     2761 gtgaacacta taccggcttt ggcttacaag tccagtcagc tccaaatggg acaaaaaaag
+     2821 aattctaaga aagataccga gaccacagat aatgactgct ctatggtatc tctaggagag
+     2881 caacactcag aagatgtgtg tacagacaat atccacacca cgaatgaaac ggttagctgt
+     2941 gtgtgaggga ctggttgcca tgacaactgt ggagggcaca ccaaagtaga gttcatcaat
+     3001 ctgggggaag aaaaaataag ggattggaaa aaattaacag aactgaaaat aatgtttctg
+     3061 tggttcagtg tattctgtca gtggaaacag ggctaaatgc cacaagacat gcacttcaaa
+     3121 atgttctgac cacgtttcag atgtgagctt cgtggtattt ttaatgttct aaatgatgtc
+     3181 tttagaaact ttagctttta ttgtgcaatg attatgaggc cctaaataaa tctaatctaa
+     3241 ctctattatc aaatggaaat cttgctgttt ctgttgaagg catgggattg tgttgcttac
+     3301 ctaatgctgt aaataaaaat aactgtaaat aat
+//

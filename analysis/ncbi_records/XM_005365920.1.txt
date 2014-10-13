@@ -1,0 +1,95 @@
+LOCUS       XM_005365920            1885 bp    DNA              ROD 21-AUG-2013
+DEFINITION  PREDICTED: Microtus ochrogaster adrenoceptor alpha 2C (Adra2c),
+            mRNA.
+ACCESSION   XM_005365920
+VERSION     XM_005365920.1  GI:532046361
+DBLINK      BioProject: PRJNA210839
+KEYWORDS    RefSeq.
+SOURCE      Microtus ochrogaster (prairie vole)
+  ORGANISM  Microtus ochrogaster
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Arvicolinae; Microtus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004949103.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Microtus ochrogaster Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1885
+                     /mol_type="mRNA"
+                     /isolate="Prairie Vole_2"
+                     /sex="female"
+                     /db_xref="taxon:79684"
+                     /organism="Microtus ochrogaster"
+                     /chromosome="Unknown"
+     gene            1..1885
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 1 long SRA read, 11
+                     Proteins, and 100% coverage of the annotated genomic
+                     feature by RNAseq alignments"
+                     /db_xref="GeneID:101991974"
+                     /gene="Adra2c"
+     CDS             57..1433
+                     /product="alpha-2C adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:532046362"
+                     /db_xref="GeneID:101991974"
+                     /translation="MASPALAAALAVAATEGPNGSDAGDWGSGGGANASGTDWGPPPGQ
+                     YSAGAVAGLAAVVGFLIVFTVVGNVLVVIAVLTSRALRAPQNLFLVSLASADILVATLV
+                     MPFSLANELMAYWYFGQVWCGVYLALDVLFCTSSIVHLCAISLDRYWSVTQAVEYNLKR
+                     TPRRVKATIVAVWLISAVISFPPLVSFYRRPDGAAYPQCGLNDETWYILSSCIGSFFAP
+                     CLIMGLVYARIYRVAKLRTRTLSEKRTPSGPDGASPTTENGLGKAAGENGHCAPPRTDV
+                     EPDESSAAERRRRRGALRRGGRRREGAEGDMGSADGQGPGLAAEQGARTASRSPGPGGR
+                     LSRASSRSVEFFLSRRRRARSSVCRRKVAQAREKRFTFVLAVVMGVFVLCWFPFFFSYS
+                     LYGICREACQLPEPLFKFFFWIGYCNSSLNPVIYTVFNQDFRRSFKHILFRRRRRGFRQ
+                     "
+                     /gene="Adra2c"
+                     /protein_id="XP_005365977.1"
+ORIGIN
+        1 agctgccgcg gctgcgcccc ggctcctggc aggaccgcgt agctctcggg aggaccatgg
+       61 cgtccccagc gctggccgcg gcgctggcgg tggcagcgac tgagggcccc aacgggagcg
+      121 acgcgggcga ttggggtagc ggcgggggtg ccaacgcctc ggggactgac tgggggccgc
+      181 cgccgggcca gtactccgca ggtgccgtgg cgggactggc agccgtggtg ggtttcctca
+      241 tcgttttcac cgtggtgggc aacgtgctcg tggtaatcgc tgtgctgacc agccgagcgc
+      301 tgcgcgcccc gcagaacctc ttcttggtgt ctctggcctc agctgacatc ctggtggcca
+      361 cactggtcat gcccttttcg ctggccaatg aactcatggc ctactggtac ttcgggcaag
+      421 tgtggtgtgg tgtgtacctg gcactggacg tgctcttctg cacctcgtcc atcgttcact
+      481 tgtgtgctat aagcctggac cgctactggt cggtgacgca ggcggtagag tacaacctga
+      541 agcgcacgcc acgccgtgtc aaggccacca tcgtggccgt gtggctcatc tcggctgtca
+      601 tctccttccc gcctctcgtc tccttctacc gacggcccga cggcgccgcc tacccgcagt
+      661 gcggcctcaa cgatgagacc tggtacatct tgtcgtcctg cataggctcc ttcttcgcgc
+      721 cctgcctcat catgggcctg gtctatgcac gcatctaccg cgtggccaag ctgcgcacgc
+      781 gtacgctcag cgagaaacgt accccctctg gccccgacgg tgcgtccccg accacagaga
+      841 acgggctggg caaggcagcg ggggagaacg ggcattgcgc gcccccgcgc accgatgtgg
+      901 agccagatga gagcagcgcg gcagagaggc ggaggcgccg gggagcgctg cgcagaggag
+      961 ggcggcggag agagggagcc gagggggaca tgggcagtgc agacggacaa ggaccggggc
+     1021 tggcggccga gcagggcgct cggacagcgt ctcggtcccc aggacctggc gggcgcctgt
+     1081 cacgagcaag ctcgcgctcc gtcgagttct ttctgtcgcg ccggcgccgg gcgcgcagca
+     1141 gcgtgtgccg ccgcaaggtg gcccaggcgc gcgagaagcg cttcaccttc gtgttggcgg
+     1201 tggtcatggg cgtgttcgta ctgtgctggt tccccttctt ctttagctac agcctgtatg
+     1261 gtatctgccg cgaggcctgc cagttgcctg aaccgctctt taagtttttc ttctggatcg
+     1321 gctactgcaa cagttcgctc aatcctgtca tctataccgt cttcaatcag gacttcaggc
+     1381 gctctttcaa gcacatcctc tttcgaagga ggagaagggg cttcaggcag tgaccctcag
+     1441 gcctcctggc actgacctcc tggacagctc caaactcggg ccggcagagg gaccaatcag
+     1501 aggtggcctc tccagagttc caggagtggc ctggaattca gggcgcagtg tggaatgtag
+     1561 ccagcaggag ctgggcgaga gacaactggg cctcggggag tggggaggag aaagggagac
+     1621 ccctttgcct tcccatctca gcgagtggct gtggctaggt tgtggatcca gttcctgaga
+     1681 gagcttctgt ggagtgtgac tgtgaagtta gggttttaga cggcagcaag aaaggacccc
+     1741 cccccccaac tctcagcgtt ccctatgagc aaggactgac ttcctatgac ctaaaaagcg
+     1801 tctatctggg ggaggagaga gggtgcagac aatctctggt tactgagagt atttgttttc
+     1861 ccaaaaacaa tgacagccaa aacaa
+//

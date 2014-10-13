@@ -1,0 +1,61 @@
+LOCUS       XP_001503773             365 aa                     MAM 22-SEP-2013
+DEFINITION  PREDICTED: 5-hydroxytryptamine receptor 1E [Equus caballus].
+ACCESSION   XP_001503773
+VERSION     XP_001503773.1  GI:149722776
+DBLINK      BioProject: PRJNA19129
+KEYWORDS    RefSeq.
+SOURCE      Equus caballus (horse)
+  ORGANISM  Equus caballus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Perissodactyla; Equidae; Equus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001867364.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Equus caballus Annotation Release
+            101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..365
+                     /breed="thoroughbred"
+                     /isolate="Twilight"
+                     /sex="female"
+                     /db_xref="taxon:9796"
+                     /organism="Equus caballus"
+                     /chromosome="10"
+     Protein         1..365
+                     /product="5-hydroxytryptamine receptor 1E"
+                     /calculated_mol_wt="41388"
+     Region          30..>154
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          45..344
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..365
+                     /coded_by="XM_001503723.1:1..1098"
+                     /gene="HTR1E"
+                     /db_xref="GeneID:100065574"
+ORIGIN
+        1 mnitncttea svavrpktvt ekmlismtlv iitsltmlln savimaictt kklhqpanyl
+       61 icslavtdll vavlvmplsi myivmdswkl gyfvcevwls vdmtcctcsi lhlcvialdr
+      121 ywaitnaiey arkrtakrag lmiltvwtis vfismpplfw rshrrlslpl sqctiqhdhv
+      181 iytiystlga fyipltlili lyyriyhaak slyqkrgssr hlsnrstdsq nsfasckltq
+      241 tfcvsdfsts dpttefekih tsirippfdn dldhpgerqq isstrerkaa rilglilgaf
+      301 ilswlpffik elivglsiyt vssgvadflt wlgyvnslin pllytsfned fklafkklir
+      361 creht
+//

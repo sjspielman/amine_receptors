@@ -1,0 +1,102 @@
+LOCUS       XM_004394419            1457 bp    DNA              MAM 31-MAR-2013
+DEFINITION  PREDICTED: Odobenus rosmarus divergens adrenoceptor beta 3 (ADRB3),
+            mRNA.
+ACCESSION   XM_004394419
+VERSION     XM_004394419.1  GI:472349551
+DBLINK      BioProject: PRJNA189954
+KEYWORDS    RefSeq.
+SOURCE      Odobenus rosmarus divergens (Pacific walrus)
+  ORGANISM  Odobenus rosmarus divergens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+            Odobenidae; Odobenus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004450294.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Odobenus rosmarus divergens Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1457
+                     /sub_species="divergens"
+                     /mol_type="mRNA"
+                     /collection_date="06-Sep-2011"
+                     /country="USA:AK, Round Island"
+                     /isolate="Ivan"
+                     /sex="male"
+                     /isolation_source="blood"
+                     /db_xref="taxon:9708"
+                     /organism="Odobenus rosmarus divergens"
+                     /chromosome="Unknown"
+     gene            1..1457
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 16 mRNAs, 43 Proteins"
+                     /db_xref="GeneID:101386439"
+                     /gene="ADRB3"
+     misc_feature    139..141
+                     /note="upstream in-frame stop codon"
+                     /gene="ADRB3"
+     CDS             214..1440
+                     /product="beta-3 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:472349552"
+                     /db_xref="GeneID:101386439"
+                     /translation="MAPWPHGNSSPASWPAAPTPTPNTANTSGLPGVPWAVALAGALWA
+                     LLALEVLVTVGGNLLVIVAIARTPRLQTMTNVFVTSLATADLVVGLLVVPPGATLALIG
+                     HWPLGATGCELWTSVDVLCVTASIETLCALAVDRYLAVTNPLRYGALVTKRCARASVVL
+                     VWVVSAAVSFAPIMSKWWRVGADAEAQRCHSNPHCCAFASNIPYALLSSSVSFYLPLLV
+                     MLFVYARVFLVARRQLRLLRRELGRFPQEESPPTASRFLSPAPAGPCASPAGVPSYGRR
+                     PARLLPLREHRALRTLGLIMGTFTLCWLPFFVANVMRALGGPSLVPSPAFLALNWLGYA
+                     NSAFNPLIYCRSPDFRSAFRRLLCRCRREEHPAAASPPGDPSGAPAALTDPAESRQCPP
+                     LDGASWGIS"
+                     /gene="ADRB3"
+                     /protein_id="XP_004394476.1"
+     STS             378..455
+                     /db_xref="UniSTS:271495"
+                     /standard_name="PMC164531P1"
+                     /gene="ADRB3"
+     STS             383..746
+                     /db_xref="UniSTS:506234"
+                     /standard_name="ADRB3"
+                     /gene="ADRB3"
+     STS             568..1140
+                     /db_xref="UniSTS:528345"
+                     /standard_name="MARC_68773-68774:1209743884:2"
+                     /gene="ADRB3"
+ORIGIN
+        1 actcctcccc cccccaaccc ccccaccaag cggtggcacc aagcgggttg cgggggaggc
+       61 tgagctttct cagccggtca actagggaag atggcccagg ccgaggaaat cgctcccacg
+      121 ccctgctgtc ccctcccctg agcagaggga agggatcctt ccagaaggga gaccccctct
+      181 ctctttccct cccgccccac gcgcgccgcg ggaatggctc cgtggcctca cgggaacagc
+      241 tctccggcct cgtggccggc tgcccccacc ccgacgccca atactgccaa cacgagtggg
+      301 ctgccagggg tgccgtgggc ggtggccttg gcgggggcgc tgtgggcgct gttggcgctg
+      361 gaggtgctgg tcaccgtggg aggcaacctg ctggtaatcg tggccatcgc tcggacgccg
+      421 agactccaga ccatgaccaa cgtgttcgtg acttcgctgg ccacagcaga cctggtggtg
+      481 ggactgctgg tagtgccgcc gggggccacc ttggcgctga ttggccactg gcccctggga
+      541 gccactggtt gcgagctgtg gacctcagtg gacgtgctgt gtgtgacagc cagcatcgaa
+      601 accctgtgcg ccctggccgt ggaccgctac ctggcagtga ccaacccgct gcgctacggc
+      661 gcgctggtca ccaaacggtg cgcacgggcg tcagtggtgc tggtgtgggt cgtgtccgcc
+      721 gcggtgtcgt ttgcgcccat catgagcaaa tggtggcgcg tgggagccga cgccgaggcg
+      781 cagcgttgcc actccaatcc gcactgctgc gccttcgcct ccaacatacc ctacgcgctg
+      841 ctgtcctcct ccgtctcctt ctaccttccg cttctggtga tgctcttcgt ctacgcgcgc
+      901 gttttcctcg tggccaggcg ccaactgcgc ctgctgcgcc gggagctggg ccgcttcccg
+      961 caggaggagt ccccgccgac tgcgtctcgc tttctgtccc ccgccccggc cgggccgtgc
+     1021 gcttcgcccg caggggtgcc ctcttacggt cggcggcccg cgcgccttct gcctctccgg
+     1081 gaacaccggg ccctgcgcac cttgggtctc atcatgggta ccttcactct ctgctggttg
+     1141 cccttctttg tggccaacgt gatgcgcgct ctcggcggcc cctctctggt tcccagcccg
+     1201 gctttcctgg cccttaactg gctaggctat gccaactccg ccttcaaccc gctcatctac
+     1261 tgccgcagcc ccgactttcg cagcgccttc cgccgcctcc tgtgccgctg ccggcgggag
+     1321 gagcacccag ccgccgcctc cccgcctggc gacccctcgg gcgcccctgc ggccctgacc
+     1381 gaccccgcgg agtccaggca gtgcccaccg ctcgacgggg cttcctgggg aatttcttaa
+     1441 gtcctgaacg acaagaa
+//

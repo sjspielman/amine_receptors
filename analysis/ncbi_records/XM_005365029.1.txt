@@ -1,0 +1,100 @@
+LOCUS       XM_005365029            2240 bp    DNA              ROD 21-AUG-2013
+DEFINITION  PREDICTED: Microtus ochrogaster histamine receptor H1 (Hrh1), mRNA.
+ACCESSION   XM_005365029
+VERSION     XM_005365029.1  GI:532044547
+DBLINK      BioProject: PRJNA210839
+KEYWORDS    RefSeq.
+SOURCE      Microtus ochrogaster (prairie vole)
+  ORGANISM  Microtus ochrogaster
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Arvicolinae; Microtus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004949099.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Microtus ochrogaster Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2240
+                     /mol_type="mRNA"
+                     /isolate="Prairie Vole_2"
+                     /sex="female"
+                     /db_xref="taxon:79684"
+                     /organism="Microtus ochrogaster"
+                     /chromosome="Unknown"
+     gene            1..2240
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 15 mRNAs, 5 long SRA reads, 10
+                     Proteins, and 93% coverage of the annotated genomic feature
+                     by RNAseq alignments"
+                     /db_xref="GeneID:101991589"
+                     /gene="Hrh1"
+     CDS             23..1480
+                     /product="histamine H1 receptor"
+                     /codon_start="1"
+                     /db_xref="GI:532044548"
+                     /db_xref="GeneID:101991589"
+                     /translation="MSLLNTSTFEDKMCEGNRTAMASPQLLPLVVVLSSISLVTVGLNL
+                     LVLYAVHSERKLHTVGNLYIVSLSVADLIVGAVVMPMNILYLIMARWSLGRPLCLFWLS
+                     MDYVASTASIFSVFILCIDRYRSVQQPLRYLRYRTKTRASATILGAWFLSFLWVIPILG
+                     WHHFTLSPPVLREDKCETDFYNVTWFKVMTAIINFYLPTLLMLWFYVKIYKAVRQHCQH
+                     RQLTNGSLPSFLKIKSKSEDIKEGTKKPGKESPWGVLKRPSRDPSGGLNQKSTSEDPKM
+                     NSPTVFSQEEDREAVTRHCFHLDITQAMAEGGGRDSETNDQALSQLKMDEQNLNACRRI
+                     SETSEDQTLVDRQSFSRTTDSDPSTEPGPGRDKLRSGSNSGLDYIKITWKRLRSHSRQY
+                     VSGLHLNRERKAAKQLGFIMAAFILCWIPYFIFFMVIAFCTSCCSEPVHMFTIWLGYIN
+                     STLNPLIYPLCNENFKKTFKKILHIRP"
+                     /gene="Hrh1"
+                     /protein_id="XP_005365086.1"
+ORIGIN
+        1 gttgaaggct gcccttgtgc caatgagcct tctcaacacc tcaaccttcg aagacaagat
+       61 gtgtgagggg aacaggaccg ccatggccag ccctcagttg ctgcccctgg tggtggttct
+      121 aagtagcatc tccctggtca cagtgggtct caacctgctg gtgctctatg ctgtgcacag
+      181 tgagcgtaag ctgcacaccg tgggcaacct gtacattgtc agcctgtcgg tagcagacct
+      241 gatcgtaggt gcagtcgtca tgcccatgaa catcctttat ctcatcatgg ccaggtggtc
+      301 cctgggccgc cccctttgcc tcttttggct ctccatggat tatgtggcca gcacagcatc
+      361 catcttcagt gtcttcatcc tttgtattga tcgataccgt tccgtccagc aacccctccg
+      421 gtacctgagg tatcgcacca agacccgcgc atcagccacc atcctggggg cctggtttct
+      481 ctccttcctg tgggttatac ctattcttgg ctggcatcac ttcacactct cacccccagt
+      541 gcttcgggaa gacaagtgtg agacagactt ctacaatgtc acttggttca aggtcatgac
+      601 cgccatcatc aacttctacc tccccacttt gctcatgctg tggttctatg taaaaatcta
+      661 caaggccgtg cggcaacact gccagcaccg ccagctcacc aatggctccc tcccttcctt
+      721 cttaaagatc aagtcgaagt cagaggatat caaggagggt accaagaaac ctgggaaaga
+      781 gtctccctgg ggggtcctga aaaggccatc aagagaccct agtggaggcc tgaatcagaa
+      841 atcgacatcc gaagacccca agatgaactc tccgactgtc ttcagtcaag aggaggatag
+      901 agaagcagtc acgcgccact gttttcatct tgacatcaca caggctatgg ctgaaggggg
+      961 tggcagggac tcagagacca atgaccaggc cctgagccag ctcaaaatgg atgagcagaa
+     1021 cctgaatgct tgccggcgga tcagtgagac atcagaggac cagaccttgg tggatcgaca
+     1081 gtccttctca cggaccacag actctgaccc cagcacagag ccagggccgg gcagagacaa
+     1141 actgagaagt ggatctaaca gcggcctaga ttacatcaag atcacctgga agagactccg
+     1201 ctcacattcc agacagtatg tgtctgggct gcacttgaac cgagaacgga aggcagccaa
+     1261 gcagttgggt tttatcatgg cggccttcat cctttgctgg attccctact tcatcttctt
+     1321 catggtcatt gccttttgca cgagctgctg cagtgaaccc gtgcacatgt tcaccatctg
+     1381 gctgggctac atcaactcca cgctgaaccc cctcatctac cccctgtgca acgagaactt
+     1441 caagaagaca ttcaagaaaa ttctgcacat tcgcccctaa gggctcagca agaggatgcc
+     1501 acgtagtgga tggacagcat ctgatgtcca agaaggaacc agaggaagaa agcatgggtg
+     1561 tcactaggcc cctgggcgtt ggggaataga atctgagatc ctggactgag cagtacggag
+     1621 gtgttcccag ggaccgtcag aagaagagca gatggcggtg gttggcagaa agattgtact
+     1681 ttgggtagaa agcggagtat ttgaaagaag aaacctggca gagtatgcct gatcctcagg
+     1741 aactgtggaa gtctcaggtg ctcatgggaa gtctggctct ctgaccttga ggtccttagt
+     1801 aaccaaagcg ggatgtgtgg ctagagttct tctggaaggt tagcctggac tctgagactt
+     1861 cccacgcaag agctatgtga ctgcagagac atacacacag atgccgtccc ctcccaggag
+     1921 tcacctgaag aggcatggca gctattccat ggcaacacca cttctcagaa cacagtcctt
+     1981 ctgagcctct cctgtagctt tctccagagc tgtctgcccc accctggaac ctgccttacc
+     2041 tgtgtctcag agttgctagg aaattagaca gcttgcaagt ctgtcattct caactcctga
+     2101 ttccttttgg ctcttaaaac agtagcaaaa ccagtagcaa aaccagcaac aacaacacac
+     2161 agtgtcaaaa actgccctcg aaagtcagga ggagagagaa gtggtttttc aatgattgca
+     2221 tcttaaaagc aaagcaaaag
+//

@@ -1,0 +1,64 @@
+LOCUS       XP_006010360             486 aa                     VRT 05-NOV-2013
+DEFINITION  PREDICTED: alpha-1A adrenergic receptor-like [Latimeria chalumnae].
+ACCESSION   XP_006010360
+VERSION     XP_006010360.1  GI:557020053
+DBLINK      BioProject: PRJNA219830
+KEYWORDS    RefSeq.
+SOURCE      Latimeria chalumnae (coelacanth)
+  ORGANISM  Latimeria chalumnae
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Coelacanthiformes; Coelacanthidae; Latimeria.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005821299.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Latimeria chalumnae Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..486
+                     /country="South Africa"
+                     /isolate="SAIAB 97564"
+                     /note="Wild Caught"
+                     /db_xref="taxon:7897"
+                     /tissue_type="blood"
+                     /organism="Latimeria chalumnae"
+                     /chromosome="Unknown"
+     Protein         1..486
+                     /product="alpha-1A adrenergic receptor-like"
+                     /calculated_mol_wt="55537"
+     Region          43..>154
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          55..340
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..486
+                     /coded_by="XM_006010298.1:1..1461"
+                     /gene="LOC102348461"
+                     /db_xref="GeneID:102348461"
+ORIGIN
+        1 mssfwdnrtt vlqtnysnnf nqtqlqpgtk raillsltlg ifivcaivgn ilvilsvach
+       61 rhlrivtnyf ivnlavadll lsttvlpfsa tlevlgywvf grifcniwaa vdvlcctasi
+      121 lslcvisvdr ylgvsyplry ptimtkkrgl itltgvwals mvisigpllg wkepepadek
+      181 vckiteepgy vlfsalgsfy lplmiilsmy crvylaarke qrslyagvkr ersdskdkev
+      241 tlrihrksst tdslkkksvc qsksksmrss lalrihkfsk ekkaaktlgv vvgvfvlcwl
+      301 pffvalplgs lfpkcklpes lfkvifwlgy fnscinpiiy pcfnqefkra fkqilkgqft
+      361 rkrlqafpqy dfaycsttkk iktnletert keeirlntkp sltiykpyqq sdrewrflts
+      421 lekfnqagel tssisynrny myirgqemqs dcileekitt pgfendsiss rmhiftfsnh
+      481 cramem
+//

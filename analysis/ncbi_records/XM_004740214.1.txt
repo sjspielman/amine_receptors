@@ -1,0 +1,87 @@
+LOCUS       XM_004740214            1096 bp    DNA              MAM 13-JUN-2013
+DEFINITION  PREDICTED: Mustela putorius furo trace amine-associated receptor
+            3-like (LOC101671671), mRNA.
+ACCESSION   XM_004740214
+VERSION     XM_004740214.1  GI:511831184
+DBLINK      BioProject: PRJNA158527
+KEYWORDS    RefSeq.
+SOURCE      Mustela putorius furo (domestic ferret)
+  ORGANISM  Mustela putorius furo
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+            Mustelidae; Mustelinae; Mustela.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004569146.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Mustela putorius furo Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1096
+                     /sub_species="furo"
+                     /mol_type="mRNA"
+                     /breed="Sable"
+                     /isolate="ID#1420"
+                     /sex="female"
+                     /db_xref="taxon:9669"
+                     /organism="Mustela putorius furo"
+                     /chromosome="Unknown"
+     gene            1..1096
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 24 Proteins, and 11% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101671671"
+                     /gene="LOC101671671"
+     misc_feature    56..58
+                     /note="upstream in-frame stop codon"
+                     /gene="LOC101671671"
+     CDS             65..1096
+                     /product="trace amine-associated receptor 3-like"
+                     /codon_start="1"
+                     /db_xref="GI:511831185"
+                     /db_xref="GeneID:101671671"
+                     /translation="MDLTYIPEDLSSCPKFGNKSCPPISRSLHVRVIMYSIMTAAMFIT
+                     IFGNLVIMISISHFKQLHSPTNFLILSMATTDFLLGFVIMPYSMVRSVESCWYFGDGFC
+                     KFHASFDMMLSLTSIFHLCSIAIDRFYAVCYPLHYSATMTTSMIKRLLAFCWSAPALFS
+                     FSLVLSEANVAGMQSYEILVACFRFCALTFNKFWGTILFTTCFFTPGSIMVGIYGKIFI
+                     VSKRHARVISNMPENAKGEVKKNISKKKDRKAAKTLGIVMGVFLACWLPCFLAVLIDPY
+                     LDYSTPIIVLDLLVWLGYFNSTCNPLIHGFFYPWFRNALKYILSGKIFNSHSETANLFP
+                     EAH"
+                     /gene="LOC101671671"
+                     /protein_id="XP_004740271.1"
+     STS             86..977
+                     /db_xref="UniSTS:516837"
+                     /standard_name="Taar3"
+                     /gene="LOC101671671"
+ORIGIN
+        1 tttaagaaga gaagaaacat tgaatcatct ttctagagaa cggaattaga aatgataaag
+       61 caccatggat ctaacttata ttcctgaaga cttatccagt tgtccaaaat ttggaaataa
+      121 atcttgccct cccatcagcc gttctttgca tgtccgagtg ataatgtatt ctattatgac
+      181 cgcagccatg tttatcacta tctttggaaa cttggttata atgatctcca tatcacattt
+      241 caagcagctt cactctccca caaattttct gatcctctcc atggcaacca ctgacttcct
+      301 gctgggtttt gtcattatgc cgtatagcat ggtacgatca gtggagagct gctggtattt
+      361 tggggatggc ttttgtaaat tccatgcaag ctttgacatg atgctaagcc taacctccat
+      421 tttccacctc tgctccattg ctattgatcg attttatgcc gtgtgttacc ctttgcacta
+      481 ctcggccacc atgacaacct ctatgataaa gcgactgttg gcattttgct ggtcagcccc
+      541 tgctcttttc tcttttagtt tagttctgtc tgaggccaac gttgctggta tgcagagtta
+      601 tgagattctt gtcgcttgtt tccgtttctg tgcacttact ttcaacaaat tttgggggac
+      661 aatattgttc actacttgtt tctttactcc aggctccatc atggttggta tttatggcaa
+      721 aatctttatt gtttccaaac gacatgctag agttatcagc aacatgcctg aaaacgcaaa
+      781 gggggaagta aaaaaaaaca tatctaagaa aaaggacagg aaagcagcta agaccttagg
+      841 tatagtaatg ggggtctttc tagcttgctg gctgccttgc tttcttgctg ttttgataga
+      901 cccatattta gactattcca ctcccataat agtacttgat cttttagtgt ggcttggata
+      961 cttcaactct acctgcaatc cccttattca tggttttttt tatccgtggt ttcggaatgc
+     1021 tcttaagtac atattgtcag gcaaaatatt taactctcac tcagaaactg caaatctgtt
+     1081 tcctgaagca cattaa
+//

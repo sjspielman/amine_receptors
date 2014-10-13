@@ -1,0 +1,93 @@
+LOCUS       NP_999199                460 aa                     MAM 22-FEB-2014
+DEFINITION  muscarinic acetylcholine receptor M1 [Sus scrofa].
+ACCESSION   NP_999199
+VERSION     NP_999199.1  GI:47522888
+KEYWORDS    RefSeq.
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+REFERENCE   1  (residues 1 to 460)
+  AUTHORS   Kubo,T., Fukuda,K., Mikami,A., Maeda,A., Takahashi,H., Mishina,M.,
+            Haga,T., Haga,K., Ichiyama,A., Kangawa,K. et al.
+  TITLE     Cloning, sequencing and expression of complementary DNA encoding the
+            muscarinic acetylcholine receptor
+  JOURNAL   Nature 323 (6087), 411-416 (1986)
+   PUBMED   3762692
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from X04413.1.
+            ##Evidence-Data-START##
+            Transcript exon combination :: X04413.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+            ERS240759, ERS240763 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..460
+                     /db_xref="taxon:9823"
+                     /organism="Sus scrofa"
+                     /chromosome="2"
+                     /map="2"
+     Protein         1..460
+                     /product="muscarinic acetylcholine receptor M1"
+                     /calculated_mol_wt="51288"
+     Region          25..>166
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Site            25..47
+                     /note="propagated from UniProtKB/Swiss-Prot (P04761.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          50..418
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Site            62..82
+                     /note="propagated from UniProtKB/Swiss-Prot (P04761.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            100..121
+                     /note="propagated from UniProtKB/Swiss-Prot (P04761.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            142..164
+                     /note="propagated from UniProtKB/Swiss-Prot (P04761.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            187..209
+                     /note="propagated from UniProtKB/Swiss-Prot (P04761.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            367..387
+                     /note="propagated from UniProtKB/Swiss-Prot (P04761.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            402..421
+                     /note="propagated from UniProtKB/Swiss-Prot (P04761.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     CDS             1..460
+                     /coded_by="NM_214034.1:444..1826"
+                     /gene="CHRM1"
+                     /gene_synonym="mAChR"
+                     /db_xref="GeneID:397099"
+ORIGIN
+        1 mntsappavs pnitvlapgk gpwqvafigi ttgllslatv tgnllvlisf kvntelktvn
+       61 nyfllslaca dliigtfsmn lyttyllmgh walgtlacdl wlaldyvasn asvmnlllis
+      121 fdryfsvtrp lsyrakrtpr raalmiglaw lvsfvlwapa ilfwqylvge rtvlagqcyi
+      181 qflsqpiitf gtamaafylp vtvmctlywr iyretenrar elaalqgset pgkgggssss
+      241 sersqpgaeg spetppgrcc rccraprllq ayswkeeeee degsmeslts segeepgsev
+      301 vikmpmvdpe aqapakqppr sspntvkrpt rkgreragkg qkprgkeqla krktfslvke
+      361 kkaartlsai llafivtwtp ynimvlvstf ckdcvpetlw elgywlcyvn stinpmcyal
+      421 cnkafrdtfr llllcrwdkr rwrkipkrpg svhrtpsrqc
+//

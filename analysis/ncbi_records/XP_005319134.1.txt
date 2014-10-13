@@ -1,0 +1,62 @@
+LOCUS       XP_005319134             480 aa                     ROD 21-AUG-2013
+DEFINITION  PREDICTED: D(1B) dopamine receptor [Ictidomys tridecemlineatus].
+ACCESSION   XP_005319134
+VERSION     XP_005319134.1  GI:532066560
+DBLINK      BioProject: PRJNA210856
+KEYWORDS    RefSeq.
+SOURCE      Ictidomys tridecemlineatus (thirteen-lined ground squirrel)
+  ORGANISM  Ictidomys tridecemlineatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Sciuridae; Xerinae; Marmotini; Ictidomys.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004936477.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Ictidomys tridecemlineatus
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..480
+                     /isolate="#75"
+                     /sex="female"
+                     /organism="Ictidomys tridecemlineatus"
+                     /chromosome="Unknown"
+                     /db_xref="taxon:43179"
+     Protein         1..480
+                     /product="D(1B) dopamine receptor"
+                     /calculated_mol_wt="53024"
+     Region          63..355
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <123..>175
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     CDS             1..480
+                     /coded_by="XM_005319077.1:1..1443"
+                     /gene="Drd5"
+                     /db_xref="GeneID:101962448"
+ORIGIN
+        1 mlppgrngta ywarfrmqqq mvqggalggs agaaslgpvq vvtaglltll ivwtlfgnvl
+       61 vcaaivrsrh lrakmtnvfi vslavsdlfv allvmpwkav aevagywpfg afcdvwvafd
+      121 imcstasiln lciisvdryw aisrpfryer kmtqtvalvm vglawtlsil isfipvqfnw
+      181 hrdksssrgq edlpsnlang tpweeagepn vraencdssl nrvyaisssl isfyipvaim
+      241 ivtytriyri aqvqirriss leraaehaqs crsrapgepn tnlrasikke tkvlktlsvi
+      301 mgvfvccwlp ffilncmvpf cngdpqagfp cvsettfdvf vwfgwanssl npiiyafnad
+      361 frkvfaqllg cshlcsrtrv esvnisneli synqdtvfhk eivgpyihmi pnavapgdrq
+      421 vdneeeeeke egpldhlsgt fqtppdgdpa aesvwdldce geislgkitp ftpnglpeta
+//

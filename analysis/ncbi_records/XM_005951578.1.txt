@@ -1,0 +1,89 @@
+LOCUS       XM_005951578            1583 bp    DNA              VRT 30-OCT-2013
+DEFINITION  PREDICTED: Haplochromis burtoni D(5)-like dopamine receptor-like
+            (LOC102291339), mRNA.
+ACCESSION   XM_005951578
+VERSION     XM_005951578.1  GI:554883884
+DBLINK      BioProject: PRJNA220165
+KEYWORDS    RefSeq.
+SOURCE      Haplochromis burtoni (Burton's mouthbrooder)
+  ORGANISM  Haplochromis burtoni
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Haplochromini;
+            Haplochromis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005180513.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Haplochromis burtoni Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1583
+                     /mol_type="mRNA"
+                     /isolate="A. burtoni ID#24_Hofmann"
+                     /sex="female"
+                     /db_xref="taxon:8153"
+                     /organism="Haplochromis burtoni"
+                     /chromosome="Unknown"
+     gene            1..1583
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 29 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:102291339"
+                     /gene="LOC102291339"
+     CDS             198..1523
+                     /product="D(5)-like dopamine receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:554883885"
+                     /db_xref="GeneID:102291339"
+                     /translation="METFYNHTRNQRQDQSQHPVVTAAADSPAHGSDLSLRALTGCVLC
+                     VLIVSTLLGNALVCAAVIKFRHLRSKVTNAFVISLAVSDLFVAVLVMPWRAVSEVAGVW
+                     LFGRFCDTWVAFDIMCSTASILHLCIISMDRYWAISSPFRYERRMTRRFACVMIGVAWT
+                     LSVLISFIPVQLNWHRAGAQNATDPGDCNASLNRTYAISSSLISFYIPVLIMVGTYTRI
+                     FRIARTQIRRISSLERGCRAVHRRPRASAHEESSLKTSLRRETKVLKTLSVIMGVFVFC
+                     WLPFFVLNCMVPFCRLERLGAPPCVSDTTFSVFVWFGWANSSLNPVIYAFNADFRKAFS
+                     TILGCSRYCATSAVEAVDFSNELASHHDTTLQKEVCGAPAELERDFDKVSAISGDSRNH
+                     RNLLLPAILRHEWEAEISLDMMPFGHDTPADFYVIPGQVQDL"
+                     /gene="LOC102291339"
+                     /protein_id="XP_005951640.1"
+ORIGIN
+        1 tttccacact tcggttcaga tattttactt cagcctggag gtgattttgt ttcggggttg
+       61 ttgttttttt ggttgttctt ttacagaccg aaacatttga agtgtgcgtt tcacgtgcgc
+      121 tatatgtaag tgttgaagag ctctgagctc gcgtggattg agtataccgg agggagggag
+      181 ggacagtccg agtgtccatg gagactttct acaaccacac gcggaaccag cggcaggacc
+      241 agagccagca cccagtggtc acggcggcag cggacagccc cgcgcacggg agtgacctca
+      301 gcctccgcgc gctcaccgga tgcgtcctgt gcgtcctgat cgtgtccacg ctgctgggga
+      361 acgcgctggt gtgcgccgcc gtcatcaagt tccgccacct tcgctccaaa gtcaccaacg
+      421 ccttcgtcat ctctctggcc gtgtccgacc tgttcgtggc cgtgctagtg atgccgtgga
+      481 gggccgtgtc cgaggtggcc ggcgtctggc tgttcggccg cttctgcgac acgtgggtgg
+      541 cgttcgacat catgtgctcc acggcctcta tcctccacct gtgcatcatc agcatggacc
+      601 gctactgggc catctccagc ccgtttcgct acgagcgcag gatgacgcgc aggttcgcgt
+      661 gcgtgatgat cggtgtggcg tggacgctgt ctgtgctcat ctccttcatc cccgtgcagc
+      721 tcaactggca ccgcgcgggc gcgcagaacg ccacggaccc gggggactgc aacgcgagcc
+      781 tgaatcgcac ctatgccatc tcctcttccc tcatcagctt ctacatcccc gtgctcatca
+      841 tggtgggcac gtacacgcgc atcttccgca tcgcgcgcac gcagatccgg cggatctcgt
+      901 cgctagagag gggctgccgc gccgtgcacc ggcggccccg cgcctccgcg cacgaggaga
+      961 gctctctgaa aacttccttg cgccgcgaga ccaaagtgct gaagacgctg tcggtcatca
+     1021 tgggcgtgtt cgtgttctgc tggctgccgt tcttcgtgct caactgcatg gttcccttct
+     1081 gccgcctgga gcgcctgggc gcgccgccct gcgtcagcga caccacgttc agcgtgttcg
+     1141 tgtggttcgg ctgggccaac tcgtccctga acccggtcat ctacgccttc aacgcagact
+     1201 tccggaaggc cttctccacc atcctgggct gcagccgcta ctgcgccacc tcggcggtgg
+     1261 aggcggtgga cttcagtaac gagctggcgt cccaccacga caccaccctg cagaaggagg
+     1321 tgtgcggtgc gccggcggag ctcgagcgcg acttcgataa agtttcggcc atttccggtg
+     1381 attccaggaa ccaccggaac ttgctgctgc ccgccatcct gcggcacgag tgggaggccg
+     1441 agatctctct ggacatgatg ccctttggac acgatacacc ggcagacttt tacgtgatac
+     1501 ccggtcaagt ccaggacctg tgagcagacc gggattgacc tttgaccttc tgcttaaacg
+     1561 agaggagagg atttttttcc tgt
+//

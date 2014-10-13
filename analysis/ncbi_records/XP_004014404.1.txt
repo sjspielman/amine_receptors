@@ -1,0 +1,59 @@
+LOCUS       XP_004014404             564 aa                     MAM 02-DEC-2012
+DEFINITION  PREDICTED: alpha-1D adrenergic receptor [Ovis aries].
+ACCESSION   XP_004014404
+VERSION     XP_004014404.1  GI:426241048
+KEYWORDS    RefSeq.
+SOURCE      Ovis aries (sheep)
+  ORGANISM  Ovis aries
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Caprinae; Ovis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004080176) annotated using gene prediction method: GNOMON,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ovis aries Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..564
+                     /db_xref="taxon:9940"
+                     /breed="Texel"
+                     /organism="Ovis aries"
+                     /chromosome="13"
+     Protein         1..564
+                     /product="alpha-1D adrenergic receptor"
+                     /calculated_mol_wt="60220"
+     Region          116..400
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <341..>411
+                     /note="Protein of unknown function (DUF1385); cl01595"
+                     /db_xref="CDD:261010"
+                     /region_name="DUF1385"
+     CDS             1..564
+                     /coded_by="XM_004014355.1:46..1740"
+                     /gene="ADRA1D"
+                     /db_xref="GeneID:100170316"
+ORIGIN
+        1 mtfrdllsfs fegpgsdssa rgtgrgggag gaaasegqav dgvpgaaggg ggvvgagspe
+       61 dnrssagepg spgaggevng taaveglvvs aqgvgvgvfl aafiltavag nvlvilsvac
+      121 nrhlqtvtny fivnlavadl llsatvlpfs atmevlgfwa fgrafcdvwa avdvlcctas
+      181 ilslctisvd ryvgvrhslk ypsimterka aailallwav alvvsvgpll gwkepvppde
+      241 sfcgiteeag yavfsslcsf ylpmavivvm ycrvyvvars ttrnleagvk rergkasevv
+      301 lrihcrgast gsaethwgmh stkgrtfrss lsvrllkfsr ekkaaktlai vvgvfvlcwf
+      361 pfffvlplgs lfpqlkpseg vfkvifwlgy fnscvnpliy pcsskefkra ffrllrcqch
+      421 hsrqrhrplw riysrnwqas ngsphpdctp gpgaiptrap qaftvpsapg slgapkaqap
+      481 avpcrkmpct frewrllrpf qrpatqlhak vsspsqkiht reamcalhse vevvflgvph
+      541 daaegttcqa ykledyshlq etdi
+//

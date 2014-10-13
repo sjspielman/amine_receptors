@@ -1,0 +1,124 @@
+LOCUS       XM_004942276            3276 bp    DNA              VRT 19-JUN-2013
+DEFINITION  PREDICTED: Gallus gallus adrenergic, alpha-2A-, receptor (ADRA2A),
+            mRNA.
+ACCESSION   XM_004942276
+VERSION     XM_004942276.1  GI:513191949
+DBLINK      BioProject: PRJNA10808
+KEYWORDS    RefSeq.
+SOURCE      Gallus gallus (chicken)
+  ORGANISM  Gallus gallus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Galliformes;
+            Phasianidae; Phasianinae; Gallus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003763812.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Gallus gallus Annotation Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3276
+                     /mol_type="mRNA"
+                     /breed="Red Jungle fowl, inbred line UCD001"
+                     /isolate="#256"
+                     /sex="female"
+                     /db_xref="taxon:9031"
+                     /organism="Gallus gallus"
+                     /chromosome="6"
+     gene            1..3276
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 22 ESTs, 8 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="CGNC:53527"
+                     /db_xref="GeneID:428980"
+                     /gene="ADRA2A"
+     CDS             28..1311
+                     /product="alpha-2A adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:513191950"
+                     /db_xref="CGNC:53527"
+                     /db_xref="GeneID:428980"
+                     /translation="MEYQRQLEEEEGYPPSGANGTFNDSGAGLGWSMPYPLHTTVTLIS
+                     LVGLLMLFTVFGNVLVIIAVFTSRALKAPQNLFLVSLASADILVATLVIPFSLANEVMG
+                     YWYFGKVWCEIYLALDVLFCTSSIVHLCAISLDRYWSITQAIEYNLKRTPRRIKCIIFI
+                     VWVISAVISFPPLISIEKKSGQQVDQWAAGCKINDEKWYIISSSIGSFFTPCLIMILVY
+                     VRIYQIAKRRTRVPLNKRPERPEKKQNGLADKEDLPASAQLNGEKAAGAGDGQEGEVNG
+                     IDMEETSSSEHQENNQPKKSERPLRGKTKTKLSQIKPGDTLPRKTEEERNTKGSRWRGR
+                     QNREKRFTFVLAVVIGVFVICWFPFFFTYTLTAVCKSCSVPPTLFKFFFWFGYCNSSLN
+                     PVIYTIFNHDFRRAFKRILCRIERKRIV"
+                     /gene="ADRA2A"
+                     /protein_id="XP_004942333.1"
+     STS             446..570
+                     /db_xref="UniSTS:266590"
+                     /standard_name="ADRA2A"
+                     /gene="ADRA2A"
+ORIGIN
+        1 acggagaggg gccacttctt ctcctccatg gagtaccagc ggcagctgga ggaggaggag
+       61 ggctacccgc cttccggcgc caacgggact ttcaacgaca gcggggccgg gctgggatgg
+      121 agcatgccgt accccctgca caccaccgtc accctcatca gcctggtggg cttgctcatg
+      181 ctcttcaccg tcttcggcaa cgtcctggtc atcattgccg tcttcaccag ccgggcgctc
+      241 aaggcccccc agaacctctt cctggtgtcc ttagcatcgg ccgacatcct ggtggccacg
+      301 ctggtcatcc ccttctccct ggcgaacgag gtgatgggct actggtactt cggcaaagtc
+      361 tggtgcgaga tctacctggc cctggatgtg ctgttctgca cctcctccat cgtgcatctg
+      421 tgcgccatca gcctggaccg ctactggtcc atcacacaag ccatcgagta caacctcaag
+      481 cgcaccccgc gccgcatcaa gtgcatcatc ttcatcgtct gggtcatctc ggccgtcatc
+      541 tccttcccgc cgctcatctc catagagaag aagagtgggc agcaggtgga ccagtgggcg
+      601 gcagggtgca agatcaatga cgagaagtgg tacatcatct cgtcgagcat cggctccttc
+      661 ttcaccccgt gcctcatcat gatcctggtc tacgtgcgca tctatcagat agccaagagg
+      721 cgaaccaggg tcccgctgaa caaaaggcca gagcgcccgg agaaaaagca gaacggcctg
+      781 gccgacaagg aggacctgcc tgcctcagcc cagctcaacg gagagaaagc ggccggagct
+      841 ggtgatgggc aggagggaga ggtcaacggc atagacatgg aggaaacctc ctcctctgag
+      901 caccaggaga acaaccagcc caagaaatca gagagacccc tgcggggaaa gaccaagact
+      961 aagctgagcc agattaagcc tggggacact ttgcccagga agacggagga ggagaggaac
+     1021 accaaagggt cccggtggag gggcaggcag aaccgggaga aacgtttcac tttcgtgctg
+     1081 gcggtggtga ttggggtctt cgtcatctgc tggttcccat tcttcttcac ctacacgctg
+     1141 accgcggtct gcaagagctg ctctgtgcct cccaccctct tcaagttctt cttctggttc
+     1201 ggttactgca atagctcctt gaaccccgtc atctacacca ttttcaacca cgacttcaga
+     1261 cgggccttca aaaggatcct ctgcaggata gagaggaaaa ggatcgtttg aaggacccac
+     1321 tgggatgggc aggactaata actcaagact ttgcaagaga gtaaggcatg gctctcttgg
+     1381 gttgcgcttg catgggatgg tttccttcag cttgtgagca ggaagccttc caaacccgag
+     1441 atgagcccac tgaaatgccc aacagcggca gcgaggagcg gcaggcgagt ggaggtccga
+     1501 gcctggcact cggctcccag gggaggatgg ctttccattc gctcggttta ctttgtgagg
+     1561 tttttttttc cttttgtcac agagtctctc agtggatatt ttcatgactg ctcagtttga
+     1621 ctctttaaag acaaatggcg cacagctccg tgagatgaac agcaaagagg gagtatgccc
+     1681 cttcagaggt gttggctttt tattttgttg tatcttcccc ccctcccacc cccctatccc
+     1741 attgtatgtg taattaattt taaccccctt gtaaaatacg gtattgtatc tccgaatctg
+     1801 aacgtgttaa tttttgtaag gcaagcagct ttgaaactgt gaatgcttta agtatgtttg
+     1861 acacctgaaa actccctctc ttcccactcc ctgaaatccc ccttactcaa aaccaacaaa
+     1921 gagttacagc agtttcccct gcctggcaag tgggtaatat taccagcgtt cccatttcca
+     1981 atgtcctgtt gttgttcttt ttttctcttt ttttttcttt ttttctcttt ctggccataa
+     2041 agctgaggat catgctccct gccagactag cttttccttt tttctcattt ttctattttc
+     2101 ttttttcctt ttctctctgt cctacctgat tctgttgaat tcagtgctgc ccatgtatga
+     2161 taaggctgag ctgtaacttc cctgtcccta ccagcgggag cagagccgcg gggcggttgc
+     2221 tgtgtaggtg ggcacccaag ggctgctgag ggctctttct cacgccgtgc agagcttggg
+     2281 acccagccaa gctcccagca acttcccctt ggctgatatg acaccgtatc gaagcgccaa
+     2341 agcgtgctca atgcgaactc ggttccccca cccccgactg taaatagata acgtttcaaa
+     2401 gcaaacgtca gcgctccgtg tatcacgctg tcttgtttct attgattttc tgctgtttca
+     2461 actcccgctg cgtttcctgc gggctcgctg gggctgtgca cacggccgtt ccgagtgagg
+     2521 gagagttaag tttgcaatct gcctctctca tctgccctag gaaatgctga agcatccctc
+     2581 tttcagtctt acacagggca aagctctgga atggggaact tccccgcagg ttccccagta
+     2641 ttttatagtg taagcgagtg cttttttagt taaaaaaaac aaccacaaag tgtaaatatt
+     2701 gtgaggctgg agcaggagag ggagttaatg ctgcttttac actcctctcc tgagatgtct
+     2761 ttcagctttt tctgctcaca actaaaaaca tgaacagaac aaatgtcaca tccttctgcc
+     2821 atggggacat tcctggagaa cgctgaaaag aaaaccttcc tgatctctct taataaagga
+     2881 gtctgcaagc ctcccagtgc cacccatgca gctcttcagc gatgacagat cgtaggaact
+     2941 gcttggagaa ggcaacgttt aaggctcacg tatagcatgg atttgccttc tgtagggttg
+     3001 cgtggtgcgc aggaagagac tttaaagcag cgacttttta ctttgggatg tgctctgctg
+     3061 attttgctct cttctgactt tgcattcact cggagggtgc ccggatgcac cctgggacct
+     3121 ggagagcagt gtttacattc acttgcattt tcagagttga atcctcggaa ggtgaggaaa
+     3181 gcaaataaac tgtgctttac ttgtaaaaac aaagcagaaa acacaagcag aggttgctac
+     3241 aatggatgat tatttttaat aaataaaaga gtgttt
+//

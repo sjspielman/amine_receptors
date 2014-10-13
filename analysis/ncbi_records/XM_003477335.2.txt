@@ -1,0 +1,104 @@
+LOCUS       XM_003477335            1394 bp    DNA              ROD 25-JUN-2013
+DEFINITION  PREDICTED: Cavia porcellus adrenoceptor beta 2, surface (Adrb2),
+            mRNA.
+ACCESSION   XM_003477335
+VERSION     XM_003477335.2  GI:514475220
+DBLINK      BioProject: PRJNA73553
+KEYWORDS    RefSeq.
+SOURCE      Cavia porcellus (domestic guinea pig)
+  ORGANISM  Cavia porcellus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Caviidae; Cavia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NT_176413.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Jun 25, 2013 this sequence version replaced gi:348583244.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Cavia porcellus Annotation Release
+            101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1394
+                     /mol_type="mRNA"
+                     /db_xref="taxon:10141"
+                     /specimen_voucher="Broad:Sequencing.Sample:289.1, Broad
+                     Institute, Cambridge, MA"
+                     /sex="female"
+                     /strain="inbred line 2N"
+                     /organism="Cavia porcellus"
+                     /chromosome="Unknown"
+     gene            1..1394
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 EST, 39 Proteins, and 97%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:100722663"
+                     /gene="Adrb2"
+     misc_feature    33..35
+                     /note="upstream in-frame stop codon"
+                     /gene="Adrb2"
+     CDS             138..1394
+                     /product="beta-2 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:348583245"
+                     /db_xref="GeneID:100722663"
+                     /translation="MGHLGNGSDFLLAPNASHAPDHNVTRERDEAWVVGMAIVMSLIVL
+                     AIVFGNVLVITAIAKFERLQTVTNYFITSLACADLVMGLAVVPFGASHILMNMWTFGNF
+                     WCEFWTSIDVLCVTASIETLCVIAVDRYFAITSPFKYQSLLTKNKARVVILMVWVVSGL
+                     TSFLPIQMHWYRATHKDAINCYAEETCCDFFTNQAYAIASSIVSFYLPLVVMVFVYSRV
+                     FQVAKKQLQKIDRSEGRFHTQNLSQVEQDGRSGHGLRRSSKFYLKEHKALKTLGIIMGT
+                     FTLCWLPFFIVNIVHVIQDNLIPKEVYILLNWVGYVNSAFNPLIYCRSPDFRIAFQELL
+                     CLRRSALKAYGNDCSSNSNGKTDYTGEPNVCHQGQEKERELLCEDPPGTEDLVSCPGTV
+                     PSDSIDSQGRNYSTNDSLL"
+                     /gene="Adrb2"
+                     /protein_id="XP_003477383.1"
+     STS             264..1151
+                     /db_xref="UniSTS:265908"
+                     /standard_name="ADRB2"
+                     /gene="Adrb2"
+     STS             554..1008
+                     /db_xref="UniSTS:258478"
+                     /standard_name="ADRB2sts1"
+                     /gene="Adrb2"
+     STS             743..951
+                     /db_xref="UniSTS:504882"
+                     /standard_name="ADRB2"
+                     /gene="Adrb2"
+ORIGIN
+        1 caagcccctc cacagccgcc gaatgaggct tctaggcgtc caccccgggc ccgcagcgcc
+       61 ccgccggagg ggcgccccct gaggcgcggt ggctgcgcca gctgcagccg gtgcgctcac
+      121 ctgctccctt gcgcgccatg ggacaccttg ggaacggcag cgacttcttg ttggcaccca
+      181 acgcgagcca cgcgccggac cacaacgtca cgcgggaacg ggatgaggct tgggtggtgg
+      241 gcatggccat cgtcatgtcg ctcatcgtcc tggccatcgt gttcggcaac gtgctggtca
+      301 tcacagccat tgccaagttt gaacgactgc aaacggtcac caactacttc atcacctcgc
+      361 tggcctgtgc tgacctagtc atgggcctag cggtggtgcc atttggggcc agccacatcc
+      421 tcatgaacat gtggactttt ggcaacttct ggtgtgagtt ttggacttcc attgatgtgc
+      481 tgtgcgtcac tgccagcatt gagaccctgt gcgtgatcgc agtggatcga tacttcgcca
+      541 tcacgtcgcc tttcaagtac cagagcctac tgaccaagaa taaggctcgg gtggtcatct
+      601 tgatggtatg ggttgtgtcg ggccttacat ccttcttgcc cattcagatg cactggtacc
+      661 gggccaccca caaggacgcc atcaactgct atgcggagga gacctgttgt gacttcttca
+      721 cgaaccaagc ctatgccatt gcctcctcca tcgtgtcctt ctacttaccc ttggtggtta
+      781 tggtctttgt ctactccagg gtcttccagg tggccaaaaa gcagctccag aagattgaca
+      841 gatctgaggg ccgattccac acccaaaacc tcagccaggt ggagcaggat gggcggagtg
+      901 gacatggact tcgcaggtcc tccaagttct acttgaaaga acacaaagcc ctcaagacct
+      961 tgggcatcat catgggcact ttcaccctct gctggctgcc cttcttcatc gtcaacattg
+     1021 tgcacgtgat tcaggacaac ctcatcccca aggaggtgta catcctgctg aactgggtgg
+     1081 gctatgtcaa ttctgctttt aaccccctca tctactgccg gagcccagat ttcaggattg
+     1141 ctttccagga gctactgtgt cttcgcagat ctgctttgaa ggcttatggg aacgattgct
+     1201 ccagcaacag caacggcaaa acggactaca ccggggagcc caatgtttgt caccaggggc
+     1261 aggagaaaga gagggaactg ctgtgtgagg accccccggg cacagaagac ttggtgagct
+     1321 gtccaggtac tgtgcctagt gatagcattg attcacaagg gaggaactat agtacaaatg
+     1381 actcactgct ctaa
+//

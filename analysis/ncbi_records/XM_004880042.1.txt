@@ -1,0 +1,93 @@
+LOCUS       XM_004880042            1749 bp    DNA              ROD 18-JUN-2013
+DEFINITION  PREDICTED: Heterocephalus glaber 5-hydroxytryptamine (serotonin)
+            receptor 2B, G protein-coupled (Htr2b), mRNA.
+ACCESSION   XM_004880042
+VERSION     XM_004880042.1  GI:512823320
+DBLINK      BioProject: PRJNA167983
+KEYWORDS    RefSeq.
+SOURCE      Heterocephalus glaber (naked mole-rat)
+  ORGANISM  Heterocephalus glaber
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Bathyergidae; Heterocephalus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004630260.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Heterocephalus glaber Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1749
+                     /db_xref="taxon:10181"
+                     /mol_type="mRNA"
+                     /organism="Heterocephalus glaber"
+                     /chromosome="Unknown"
+                     /sex="male"
+     gene            1..1749
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 Proteins, and 93% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101699201"
+                     /gene="Htr2b"
+     misc_feature    192..194
+                     /note="upstream in-frame stop codon"
+                     /gene="Htr2b"
+     CDS             213..1655
+                     /product="5-hydroxytryptamine receptor 2B"
+                     /codon_start="1"
+                     /db_xref="GI:512823321"
+                     /db_xref="GeneID:101699201"
+                     /translation="MAFSYTMSEQNLIPKHVLQSTFDDLISSNWSGFQKELIPEEMKQI
+                     VEEQGNKPHWAALLILVVIIPTIGGNILVILAVSLEKKLQYATNYFLMSLAVADLLVGL
+                     FVMPIALLTIMFEAMWPLPLVLCPAWLFLDVLFSTASILHLCAISVDRYIAIKKPIQAN
+                     QYNSRATAFIKITVVWLISIGIAIPVPIKGIDTDVPNPNNITCELTKERFGNFMLFGSL
+                     AAFFTPLTVMIVTYFLTIHALRKKAYLVKNKAPQRLMWLNVSTVFQRDETPCSSPEKAA
+                     MLDGSRKDKTLPNSSDETLTRRMSTIGKKSVQTISNEQRASKVLGIVFFLFLLMWCPFF
+                     ITNITLALCDSCNQTTLKMLLEIFVWIGYISSGVNPLVYTLFNKTFRDAFGRYITCNYQ
+                     ATKSVKTLRKWSSKIYFRNPMAENSKFFTKHRMRNGINPAMYQSPVRLQNSTIQSSSII
+                     LLDTLLLTENEGDKTEDQASYV"
+                     /gene="Htr2b"
+                     /protein_id="XP_004880099.1"
+ORIGIN
+        1 cagtagcagc agcagcagca gtgagtccac tgaacggata gacaacagca tgctccgcaa
+       61 agtcacaagc aaatgagagg aaggagtcaa ctttggcttt gaatgcctgg cctggataca
+      121 atgccttaaa aaaggagatg accagcttag ctactgacca tggattgaaa caaagaaaac
+      181 tggaactgga ttgaatcaca gaaaaacggc gaatggcttt ctcttataca atgtctgaac
+      241 aaaacctaat tcccaagcat gttttgcaga gcacattcga tgacttaatc tcttctaact
+      301 ggtctggatt tcagaaggaa ttaataccag aggaaatgaa acagattgtt gaggaacagg
+      361 gaaataagcc acactgggca gctcttctga tacttgtggt gataataccc accattggtg
+      421 gaaacatcct tgttattctg gccgtgtcac tggagaaaaa gctgcagtac gctaccaatt
+      481 actttcttat gtccttggca gtggctgatt tgctggttgg attgtttgtg atgccaattg
+      541 cgctcttgac aataatgttt gaggccatgt ggcccctccc acttgttctg tgtcctgcct
+      601 ggttgtttct tgatgttctc ttttcaactg catccatctt acacctctgt gccatttcag
+      661 tggatcgcta catagccatc aaaaagccaa tccaggccaa tcaatataat tcccgagcta
+      721 ctgcattcat caagattaca gtggtgtggt taatttcaat aggcattgcc attccagtcc
+      781 ctattaaagg gatagatact gatgtgccta acccaaacaa catcacctgt gagctaacaa
+      841 aggagcgatt tggcaatttc atgctttttg gctctctggc tgccttcttc acacctctca
+      901 cagtcatgat tgtcacctac tttctcacta ttcatgctct aaggaagaaa gcttacttgg
+      961 tcaaaaacaa ggcgcctcaa cgcctaatgt ggctgaatgt gtccacagtt ttccaaagag
+     1021 acgaaactcc ttgctcatca cctgaaaagg cagcaatgct ggatggttct cgcaaggaca
+     1081 aaactctgcc caactcaagt gatgaaaccc ttacgcgacg aatgtccaca attggaaaaa
+     1141 agtctgtgca aaccatttcc aatgaacaga gggcctcaaa ggtccttgga attgtatttt
+     1201 tcctcttttt gcttatgtgg tgcccatttt ttattacaaa tataacttta gccttgtgtg
+     1261 attcctgcaa ccagactact ctcaaaatgc tcctggagat ttttgtgtgg ataggctaca
+     1321 tttcctcagg ggtgaatcct ttggtctata ctctcttcaa caagacattt cgggatgcat
+     1381 ttggccgata catcacctgt aattaccagg ctacaaagtc agtaaaaact cttagaaaat
+     1441 ggtccagtaa gatctacttc cggaatccga tggcagagaa ctccaaattt ttcacaaaac
+     1501 atagaatgcg aaatgggatt aatcccgcaa tgtaccagag cccagtgagg ctccaaaact
+     1561 caaccattca gtcttcatca atcattctac tagatacact tctcctcact gaaaatgaag
+     1621 gtgacaaaac tgaagatcaa gccagttatg tctagcacaa ctggtacagt tttcatctaa
+     1681 gctgatgaac aagattccag gtgcaccaag aatacgtaaa gaagaatttt aggtaacatg
+     1741 tcaatcatc
+//

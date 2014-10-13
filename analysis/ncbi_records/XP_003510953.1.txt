@@ -1,0 +1,59 @@
+LOCUS       XP_003510953             345 aa                     ROD 30-APR-2014
+DEFINITION  PREDICTED: trace amine-associated receptor 6 [Cricetulus griseus].
+ACCESSION   XP_003510953
+VERSION     XP_003510953.1  GI:354497693
+DBLINK      BioProject: PRJNA72741
+KEYWORDS    RefSeq.
+SOURCE      Cricetulus griseus (Chinese hamster)
+  ORGANISM  Cricetulus griseus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Cricetinae; Cricetulus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003614986.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Cricetulus griseus Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..345
+                     /cell_line="CHO-K1"
+                     /db_xref="taxon:10029"
+                     /organism="Cricetulus griseus"
+                     /chromosome="Unknown"
+     Protein         1..345
+                     /product="trace amine-associated receptor 6"
+                     /calculated_mol_wt="38278"
+     Region          43..>271
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          57..311
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..345
+                     /coded_by="XM_003510905.2:1..1038"
+                     /gene="Taar6"
+                     /db_xref="GeneID:100751776"
+ORIGIN
+        1 mgsnsspsaa lqlcyenvng scvktpyspa srvilyavfg cgavlavfgn llvmisilhf
+       61 kqlhsptnfl iaslacadfw vgvsvmpfsm vrsiescwyf grnfctfhtc cdvafcyssl
+      121 fhlcfisidr yiavtdplvy ptkftvsvsg icisiswilp lvysgavfyt gvyddgleel
+      181 ssalncvggc qvvvnqnwvl idflsffipt lvmiilygni flvarqqakk ienigsktes
+      241 ssenykdrva krerkaaktl gitvvafmvs wlpysidslv dafmgfitpa yiyeicvwca
+      301 yynsamnpli yalfypwfkk aikvivsgqv fknssatmnl fseqi
+//

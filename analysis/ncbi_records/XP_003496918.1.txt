@@ -1,0 +1,62 @@
+LOCUS       XP_003496918             489 aa                     ROD 30-APR-2014
+DEFINITION  PREDICTED: histamine H1 receptor [Cricetulus griseus].
+ACCESSION   XP_003496918
+VERSION     XP_003496918.1  GI:354468961
+DBLINK      BioProject: PRJNA72741
+KEYWORDS    RefSeq.
+SOURCE      Cricetulus griseus (Chinese hamster)
+  ORGANISM  Cricetulus griseus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Cricetinae; Cricetulus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003613637.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Cricetulus griseus Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..489
+                     /cell_line="CHO-K1"
+                     /db_xref="taxon:10029"
+                     /organism="Cricetulus griseus"
+                     /chromosome="Unknown"
+     Protein         1..489
+                     /product="histamine H1 receptor"
+                     /calculated_mol_wt="55863"
+     Region          37..>199
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          50..470
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..489
+                     /coded_by="XM_003496870.2:33..1502"
+                     /gene="Hrh1"
+                     /db_xref="GeneID:100760663"
+ORIGIN
+        1 mslpnvsstf edkmcegnrt amaspqllpl vvvlssislv tvglnllvly avhserklht
+       61 vgnlyivsls vadlivgavv mpmnilylim akwslgrplc lfwlsmdyva stasifsvfi
+      121 lcidryrsvq hplrylryrt ktrasttilg awflsflwvi pilgwhhfms paselredkc
+      181 etdfynvtwf kimtaiinfy lptllmlwfy vkiykavrqh cqhrqltngs lpsfleiklk
+      241 sedvkedtkk pgkespwgvl krpsrdtsge leqkstskdp knpnsptvfs qeedretvsr
+      301 hcfhldvtrt htvaegggrg seandqvlsq pkmdeqslnt crrisetsed qtlvdrqsfs
+      361 rttdsdtste pglgkdklrs gsnsgldyik vtwkrlrshs rqyvsglhln rerkaakqlg
+      421 fimaafilcw ipyfiffmvi afcksccsep vhmftiwlgy instlnpliy plcnenfkkt
+      481 fkkilhirs
+//

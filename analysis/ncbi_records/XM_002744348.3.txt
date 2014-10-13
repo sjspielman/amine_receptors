@@ -1,0 +1,97 @@
+LOCUS       XM_002744348            1871 bp    DNA              PRI 02-SEP-2014
+DEFINITION  PREDICTED: Callithrix jacchus 5-hydroxytryptamine (serotonin)
+            receptor 4, G protein-coupled (HTR4), transcript variant X2, mRNA.
+ACCESSION   XM_002744348
+VERSION     XM_002744348.3  GI:675643636
+DBLINK      BioProject: PRJNA46205
+KEYWORDS    RefSeq.
+SOURCE      Callithrix jacchus (white-tufted-ear marmoset)
+  ORGANISM  Callithrix jacchus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003183145.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 2, 2014 this sequence version replaced gi:390459405.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Callithrix jacchus Annotation
+            Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1871
+                     /db_xref="taxon:9483"
+                     /mol_type="mRNA"
+                     /organism="Callithrix jacchus"
+                     /chromosome="2"
+     gene            1..1871
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 mRNAs, 4 ESTs, 10 Proteins, and
+                     79% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 2 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:100413506"
+                     /gene="HTR4"
+     CDS             499..1662
+                     /product="5-hydroxytryptamine receptor 4 isoform X2"
+                     /codon_start="1"
+                     /db_xref="GI:296193187"
+                     /db_xref="GeneID:100413506"
+                     /translation="MDKLDANVSSKEGFGSVEKVVLLTFLSAVILMAILGNLLVMVAVC
+                     WDRQLRKIKTNYFIVSLAFADLLVSVLVMPFGAIELVQDIWIYGEMFCLVRTSLDVLLT
+                     TASIFHLCCISLDRYYAICCQPLVYRNKMTPLRIALMLGGCWVIPTFISFLPIMQGWNN
+                     IGIIDLIEKRKFNQNSNSTYCIFMVNKPYAITCSVVAFYIPFLLMVLAYYRIYVTAKEH
+                     AHQIQMLQRAGASSEGRPQPADQHSTHRMRTETKAAKTLCIIMGCFCLCWAPFFVTNIV
+                     DPFIDYTVPGQVWTAFLWLGYINSGLNPFLYAFLNKSFRRAFLIILCCDGERYRRPSIL
+                     GQTVPCSTTTINGSTHVLRYTVLHSGHHQELEKLPIHNDPESLESCF"
+                     /gene="HTR4"
+                     /protein_id="XP_002744394.1"
+     STS             1159..1297
+                     /db_xref="UniSTS:504885"
+                     /standard_name="HTR4"
+                     /gene="HTR4"
+ORIGIN
+        1 agatgggcag cgttcaggcc agggagggcg cgtgctggcc agcccggagc gggtgagatc
+       61 gctccagcct gcctctgcgc ccactcccct gtgcgccctg ctgccagaac ggcacccccg
+      121 ctgtccctgg cgcccagtgg gggcggcagc ggggaccgcc agggctgggg gcttgttgag
+      181 cccgcggagt tcggctcggt cgggaagacg atgcgcggcg agctcaggtg atccggggct
+      241 ggggtcctgc gccagcagcc cctggcccgc gcctcgcgcc cgccggctcc ccagcgcggg
+      301 ggctggagcc cgcacccgag ggggcggcgg ggagggcgca ggcagcggct gggagcgcag
+      361 cggcagcagc ggcggcagaa gctcggctca gcggctgggg gtggccgctc ggatctgcca
+      421 gggcgcctcg ctccctcgcc tccggcagcg ggaccctttg ggcactgaaa tccagctcac
+      481 tcatgcttat ttcctgtaat ggacaaactt gatgctaatg tgagttccaa ggagggtttc
+      541 gggtcagtgg agaaggtcgt gctgctcacg tttctctcgg cggttatcct gatggccatc
+      601 ttggggaact tgctggtgat ggtggctgtg tgctgggacc ggcagctcag gaaaataaaa
+      661 accaattatt tcattgtatc tcttgctttt gcggatctgc tggtttcggt gctcgtgatg
+      721 ccctttggtg ccattgagct ggttcaagac atctggattt atggggagat gttttgtctt
+      781 gttcggacat ctctggacgt tctgcttaca acagcatcga tttttcacct gtgctgcatt
+      841 tccctggata ggtattatgc catctgctgc cagcctttgg tctataggaa caagatgacc
+      901 cctctgcgca tcgcactaat gctgggaggc tgctgggtca tcccaacgtt tatttctttt
+      961 ctccctatta tgcaaggctg gaataacatt ggcataattg atttgataga aaagaggaag
+     1021 ttcaaccaga actctaactc tacgtactgt atcttcatgg tcaacaagcc ctacgccatt
+     1081 acctgctctg tggtggcgtt ctacatccca tttcttctca tggtgctggc ctattaccgc
+     1141 atctatgtca cagctaagga gcatgcccac cagatccaga tgttacaacg ggcaggagcc
+     1201 tcctccgagg gcaggcctca gccggcagac cagcatagca ctcatcgcat gaggacagag
+     1261 accaaagcag caaagaccct gtgcatcatc atgggttgct tctgcctctg ctgggcgcca
+     1321 ttctttgtta ccaatattgt ggatcctttc atagactaca ctgtccctgg gcaggtgtgg
+     1381 accgctttcc tctggctcgg ctatatcaat tccgggttga acccttttct ctacgccttc
+     1441 ttgaataagt cttttaggcg tgcctttctc atcatcctct gctgtgatgg tgagcgctac
+     1501 cgaagacctt ccattctggg ccagactgtc ccttgttcaa ccacaaccat taatggatcc
+     1561 acacatgtgc taaggtacac agttctgcac agtggacatc atcaggaact cgagaaactg
+     1621 cccatacata atgacccaga atccctggaa tcatgcttct gattgaggac atggctcaca
+     1681 acttagccat tcattcccat tcatgtttgt atgaacaggt caccctggca tcactcctga
+     1741 tcctcatcac caccagtgag gcacaaggca gtaggggctg agggcccatg gcaggtacac
+     1801 agaggatggt gttgggtggg acctgaggcc agagcatcaa ggatgtcaaa gttgtgaagg
+     1861 aacttcaggc a
+//

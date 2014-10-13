@@ -1,0 +1,132 @@
+LOCUS       XM_003829053            2028 bp    DNA              PRI 02-SEP-2014
+DEFINITION  PREDICTED: Pan paniscus adrenoceptor beta 2, surface (ADRB2), mRNA.
+ACCESSION   XM_003829053
+VERSION     XM_003829053.2  GI:675791546
+DBLINK      BioProject: PRJNA169343
+KEYWORDS    RefSeq.
+SOURCE      Pan paniscus (pygmy chimpanzee)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003870594.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 2, 2014 this sequence version replaced gi:397517814.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pan paniscus Annotation Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2028
+                     /mol_type="mRNA"
+                     /country="Germany"
+                     /isolate="Ulindi"
+                     /sex="female"
+                     /db_xref="taxon:9597"
+                     /organism="Pan paniscus"
+                     /chromosome="Unknown"
+     gene            1..2028
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 9 mRNAs, 98 ESTs, 20 Proteins, and
+                     99% coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:100983950"
+                     /gene="ADRB2"
+     STS             79..415
+                     /db_xref="UniSTS:270293"
+                     /standard_name="PMC115184P1"
+                     /gene="ADRB2"
+     CDS             234..1475
+                     /product="beta-2 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:397517815"
+                     /db_xref="GeneID:100983950"
+                     /translation="MGQPGNGSAFLLAPNGSHAPDHDVTQERDEVWVVGMGIVMSLIVL
+                     AIVFGNVLVITAIAKFERLQTVTNYFITSLACADLVMGLAVVPFGAAHILMKMWTFGNF
+                     WCEFWTSIDVLCVTASIETLCVIAVDRYFAITSPFKYQSLLTKNKARVIILMVWIVSGL
+                     TSFLPIQMHWYRATHQEAINCYANETCCDFFTNQAYAIASSIVSFYVPLVIMVFVYSRV
+                     FQEAKRQLQKIDKSEGRFHVQNLSQVEQDGRTGHGLRRSSKFCLKEHKALKTLGIIMGT
+                     FTLCWLPFFIVNIVHVIQDNLIRKEVYILLNWIGYVNSGFNPLIYCRSPDFRIAFQELL
+                     CLRRSSLKAYGNGYSSNGNTGEQSGYHVEQEKENKLLCEDLPGTEDFVGHQGTVPSDNI
+                     DSQGRNCSTNDSLL"
+                     /gene="ADRB2"
+                     /protein_id="XP_003829101.1"
+     STS             260..1172
+                     /db_xref="UniSTS:158215"
+                     /standard_name="GDB:606222"
+                     /gene="ADRB2"
+     STS             293..712
+                     /db_xref="UniSTS:158219"
+                     /standard_name="GDB:606238"
+                     /gene="ADRB2"
+     STS             360..1247
+                     /db_xref="UniSTS:265908"
+                     /standard_name="ADRB2"
+                     /gene="ADRB2"
+     STS             650..1104
+                     /db_xref="UniSTS:258478"
+                     /standard_name="ADRB2sts1"
+                     /gene="ADRB2"
+     STS             839..1046
+                     /db_xref="UniSTS:504882"
+                     /standard_name="ADRB2"
+                     /gene="ADRB2"
+     STS             884..1282
+                     /db_xref="UniSTS:270173"
+                     /standard_name="PMC109640P1"
+                     /gene="ADRB2"
+     STS             1514..1792
+                     /db_xref="UniSTS:156395"
+                     /standard_name="GDB:294209"
+                     /gene="ADRB2"
+     STS             1670..1932
+                     /db_xref="UniSTS:65272"
+                     /standard_name="WI-19151"
+                     /gene="ADRB2"
+ORIGIN
+        1 aacgggcaga acgcactgcg aggcggcttc ttcagagcac gggctggaac tggcaggcac
+       61 cgcgagcccc tagcacccga caagctgagt gtgcaggacg agtccccacc acacccacac
+      121 cacagccgct gaatgaggct tccaggcgtc cgctcgcggc ccgcagagcc ccgccgtggg
+      181 tccgcccgct gaggcgcccc cagccagtgc gctcgcctgc cagactgcga gccatggggc
+      241 aacccgggaa cggcagcgcc ttcttgctgg cacccaatgg aagccatgcg ccggaccacg
+      301 acgtcacgca ggaaagggac gaggtgtggg tggtgggcat gggcatcgtc atgtctctca
+      361 tcgtcctggc catcgtgttt ggcaatgtgc tggtcatcac agccattgcc aagttcgagc
+      421 gtctgcagac ggtcaccaac tacttcatca cttcactggc ctgtgctgat ctggtcatgg
+      481 gcctggcagt ggtgcccttt ggggccgccc atattcttat gaaaatgtgg acttttggca
+      541 acttctggtg cgagttttgg acttccattg atgtgctgtg cgtcacggcc agcattgaga
+      601 ccctgtgcgt gatcgcagtg gatcgctact ttgccattac ttcacctttc aagtaccaga
+      661 gcctgctgac caagaataag gcccgggtga tcattctgat ggtgtggatc gtgtcaggcc
+      721 ttacctcctt cttgcccatt cagatgcact ggtaccgggc cacccaccag gaagccatca
+      781 actgctatgc caatgagacc tgctgtgact tcttcacgaa ccaagcctat gccattgcct
+      841 cttccatcgt gtccttctac gttcccctgg tgatcatggt cttcgtctac tccagggtct
+      901 ttcaggaggc caaaaggcag ctccagaaga ttgacaaatc tgagggccgc ttccatgtcc
+      961 agaaccttag ccaggtggag caggatgggc ggacggggca tggactccgc agatcttcca
+     1021 agttctgctt gaaggagcac aaagccctca agacgttagg catcatcatg ggcactttca
+     1081 ccctctgctg gctgcccttc ttcatcgtta acattgtgca tgtgatccag gataacctca
+     1141 tccgtaagga agtttacatc ctcctaaatt ggataggcta tgtcaattct ggtttcaatc
+     1201 cccttatcta ctgccggagc ccagatttca ggattgcctt ccaggagctt ctgtgcctgc
+     1261 gcaggtcttc tttgaaggcc tatgggaatg gctactccag caacggcaac acaggggagc
+     1321 agagtggata tcacgtggaa caggagaaag aaaataaact gctgtgtgaa gacctcccag
+     1381 gcacggaaga ctttgtgggc catcaaggta ctgtgcctag cgataacatt gattcacaag
+     1441 ggaggaattg tagtacaaat gactcactgc tgtaaagcag tttttctact tttaaagacc
+     1501 ccccccccca taagaacact aaacagacta tttaacttga gggtaataca cttagaataa
+     1561 aattgtatag agatatgcag aaggaagggc atccttctgc cttttttatt tttttaagct
+     1621 gtaaaaagag agaaaactta tttgagtgat tatttgttat ttgtacagtt cagttcctct
+     1681 ttgcatggaa tttgtaagtt tttgtctaaa gagctttagt cctagaggac ctgagtctgc
+     1741 tatgttttca tgacttttcc atgtatctac ctcactattc aagtattagg ggtaatatat
+     1801 tgctgctggt aatttgtatc tgaaggagat tttccttcct acacccttgg acttgaggat
+     1861 tttgagtatc tcggaccttt cagctgtgaa catggactct tcccccactc ctcttatttg
+     1921 ctcacacggg gtattttagg cagggatttg aggagcagct tcagttgttt tcctgagcaa
+     1981 agtctaaagt ttacagtaaa taaattgttt gaccatgcct tcattgca
+//

@@ -1,0 +1,95 @@
+LOCUS       XM_005064774            1785 bp    DNA              ROD 17-JUL-2013
+DEFINITION  PREDICTED: Mesocricetus auratus cholinergic receptor, muscarinic 5
+            (Chrm5), mRNA.
+ACCESSION   XM_005064774
+VERSION     XM_005064774.1  GI:524921119
+DBLINK      BioProject: PRJNA210213
+KEYWORDS    RefSeq.
+SOURCE      Mesocricetus auratus (golden hamster)
+  ORGANISM  Mesocricetus auratus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Cricetinae; Mesocricetus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004801605.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Mesocricetus auratus Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1785
+                     /mol_type="mRNA"
+                     /isolate="Golden Hamster female 1"
+                     /sex="female"
+                     /db_xref="taxon:10036"
+                     /organism="Mesocricetus auratus"
+                     /chromosome="Unknown"
+     gene            1..1785
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 10 mRNAs, 14 Proteins"
+                     /db_xref="GeneID:101827372"
+                     /gene="Chrm5"
+     misc_feature    84..86
+                     /note="upstream in-frame stop codon"
+                     /gene="Chrm5"
+     CDS             93..1691
+                     /product="muscarinic acetylcholine receptor M5"
+                     /codon_start="1"
+                     /db_xref="GI:524921120"
+                     /db_xref="GeneID:101827372"
+                     /translation="MEGESYQNETTVNGTPVNHQALERHGLWEVITIAAVTAVVSLMTI
+                     VGNVLVMVSFKVNSQLKTVNNYYLLSLACADLIIGIFSMNLYTTYILMGRWVLGSLACD
+                     LWLALDYVASNASVMNLLVISFDRYFSITRPLTYRAKRTPKRAGIMIGLAWLISFLLWA
+                     PAILCWQYLVGKRTVPPDECQIQFLSEPTITFGTAIAAFYIPVSVMTILYCRIYRETEK
+                     RTKDLADLQGSDSVAEAKKRKPAHRTLLRSFFNCPRPNLAQRERNQASWSSSRRRTSTT
+                     GKPTQATDLSADWDKAEQVTTCSSYPSSEDEAKSTTDPVFQVVYKSQAKESPRKEFSTE
+                     EKKETFVSAQTENNDYDTPKYFLSPAAAHRLKSQKCVAYKFRLVVKADGTQETNNGCRK
+                     VKIMPCTFPVSKDPSPKDLDANLSHQMTKRKRMVLVKERKAAQTLSAILLAFIITWTPY
+                     NIMVLVSTFCDKCVPVTLWHLGYWLCYVNSTINPICYALCNRTFRKTFKMLLLCRWKKK
+                     KVEEKLYWQGNSKLL"
+                     /gene="Chrm5"
+                     /protein_id="XP_005064831.1"
+ORIGIN
+        1 aagggaaggg atgctggtca agaagagggg aggcagaaca gagagcagct ccaaacctca
+       61 gactagatcc gaatgtaact tcctgaacca ggatggaggg ggaatcttac caaaatgaaa
+      121 ccacggtcaa cggcacccca gtaaatcacc aggctttgga acgccatggg ctgtgggaag
+      181 tcatcactat tgcagctgtg acggctgtgg tcagcctgat gaccattgtg ggcaatgtct
+      241 tggtcatggt ctctttcaaa gtcaacagtc agctcaagac agttaacaac tattacctgc
+      301 tcagcttggc ctgtgcagac ctcatcattg gcatcttctc catgaacctg tacacgactt
+      361 acatcctcat gggtcgctgg gttctcggaa gtctggcttg cgacctttgg cttgcactgg
+      421 actatgtcgc cagcaacgct tctgtcatga accttctggt gattagcttt gaccgttact
+      481 tttccatcac aagaccactg acataccgag ccaagcgtac cccaaagagg gctggcatca
+      541 tgattggctt ggcctggctg atctccttcc tcctctgggc accagcaatc ctctgctggc
+      601 agtacttggt tgggaagcgg acagtaccac ccgatgagtg ccagatccag ttcctctccg
+      661 agcccaccat cactttcggc actgccatcg ctgccttcta catccctgtc tccgtcatga
+      721 ccatactcta ctgccggatc taccgggaaa cagagaagcg aaccaaggac ctggctgacc
+      781 tccaaggttc cgattctgtg gcagaagcca agaaaagaaa gccggctcac aggaccctgc
+      841 tcagatcttt ctttaactgc cctagaccca acctggccca gagggaaagg aatcaggcct
+      901 cctggtcatc ctcccgcaga agaacctcaa caacaggaaa gccaactcag gccactgacc
+      961 taagtgctga ctgggacaag gctgagcagg tcactacctg tagcagctac ccctcctcag
+     1021 aggatgaggc caagtccacc actgaccctg tcttccaagt ggtctacaag agccaagcta
+     1081 aggaaagccc aaggaaggaa ttcagtacgg aagagaagaa ggaaactttt gtgagcgctc
+     1141 agactgaaaa caatgactac gacactccca aatacttcct atctccggct gctgctcaca
+     1201 gactcaagag tcagaagtgt gttgcctata agtttcgatt ggtggtaaaa gctgacggga
+     1261 cccaggagac taacaatggc tgtcgcaagg tgaaaatcat gccctgtacc ttcccggtgt
+     1321 ccaaagatcc ttcaccaaaa gacctggatg ccaacctcag tcatcaaatg accaaacgaa
+     1381 agagaatggt cctagtcaaa gagaggaaag cagcccagac cttgagtgcc attctcctgg
+     1441 ccttcattat cacatggacc ccatacaaca tcatggtcct ggtttccacc ttctgtgaca
+     1501 agtgcgtccc tgtcaccctg tggcacctgg gttactggtt gtgctatgtc aacagtacca
+     1561 tcaaccccat ctgctatgct ctctgcaaca gaaccttcag gaagaccttt aagatgctgc
+     1621 tcctctgccg gtggaaaaag aaaaaagtgg aagagaaatt gtattggcaa gggaacagca
+     1681 agctactctg aatagtcagc aatgcccctc aaaagaataa cagccacagt ctggtttgct
+     1741 cgttctgaag aacatcatct gccatcccga gtccccaaag acttg
+//

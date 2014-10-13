@@ -1,0 +1,85 @@
+LOCUS       XM_004583735            1379 bp    DNA              MAM 18-MAY-2013
+DEFINITION  PREDICTED: Ochotona princeps 5-hydroxytryptamine (serotonin)
+            receptor 1A, G protein-coupled (HTR1A), mRNA.
+ACCESSION   XM_004583735
+VERSION     XM_004583735.1  GI:504142711
+DBLINK      BioProject: PRJNA193497
+KEYWORDS    RefSeq.
+SOURCE      Ochotona princeps (American pika)
+  ORGANISM  Ochotona princeps
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha;
+            Ochotonidae; Ochotona.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004535452.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ochotona princeps Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1379
+                     /mol_type="mRNA"
+                     /country="USA: Washington"
+                     /isolate="Ochotona princeps_07Jul2011"
+                     /sex="female"
+                     /db_xref="taxon:9978"
+                     /organism="Ochotona princeps"
+                     /chromosome="Unknown"
+     gene            1..1379
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 mRNAs, 11 Proteins"
+                     /db_xref="GeneID:101529679"
+                     /gene="HTR1A"
+     CDS             84..1361
+                     /product="5-hydroxytryptamine receptor 1A"
+                     /codon_start="1"
+                     /db_xref="GI:504142712"
+                     /db_xref="GeneID:101529679"
+                     /translation="MEVLDTGRGNNTTSSQDPLGTGSNATGISDVTFSYQVITSLLLGT
+                     LIFCAVLGNACVVAAIALERSLQNVANYLIGSLAVTDLMVSVLVLPMAALYQVLNKWTL
+                     GQVTCDLFIALDVLCCTSSILHLCAIALDRYWAITDPIDYVNKRTPRRAAALISLTWLI
+                     GFLISIPPMLGWRTPEDRSDPDACTISKDQGYTIYSTFGAFYIPLLLMLVLYGRIFRAA
+                     RFRIRKTVKKVEKKGADTHTRCAAASPAPPPRRSVNGEPGSTDWRRGVESKAAGAVCAN
+                     GAVRQGDEGAALEVIEVHRVGHSKEHLPLPSETGTAACAAASFERKNERNAEAKRKMAL
+                     ARERKTVKTLGIIMGTFILCWLPFFIVALVLPFCESSCHMPAQLGAIINWLGYSNSLLN
+                     PVIYAYFNKDFQNAFKKIIKCKFCRR"
+                     /gene="HTR1A"
+                     /protein_id="XP_004583792.1"
+     STS             1175..1306
+                     /db_xref="UniSTS:265885"
+                     /standard_name="HTR1A"
+                     /gene="HTR1A"
+ORIGIN
+        1 aagacattcg ggggaggggt gagggggacc cttgcacagc tccgtctccc ctccccctcc
+       61 ccccgctggg agcacctgca gggatggagg tgctggacac cggccggggt aacaacacca
+      121 catcgtccca ggatccgctc gggaccggca gtaacgctac tggcatctcc gacgtgacct
+      181 tcagctacca agtcatcacc tccctgctgc tgggcacgct catcttctgc gcggtgctgg
+      241 gcaatgcgtg tgtggtggct gccattgccc tggagcgctc cctccagaac gtggccaact
+      301 atctcatcgg ctcgctggcg gtcaccgacc tcatggtgtc cgtgctggtg ctccccatgg
+      361 ccgcgctgta ccaggtgctc aacaagtgga ctctgggcca ggtcacctgc gacctgttca
+      421 tcgcccttga cgtgttatgt tgcacctcgt ccatcctgca cctgtgtgcc atcgcgctgg
+      481 acaggtactg ggccatcacg gaccccatcg actacgtgaa caagagaacg ccccggcgcg
+      541 ccgctgcgct catctcgctc acttggctca ttggcttcct catctctatc ccgcccatgc
+      601 tgggctggcg cacccccgaa gaccgctccg accccgacgc gtgcactatc agtaaggacc
+      661 aaggctacac catctattcc acattcggcg ctttctatat tccgctgctg ctcatgctgg
+      721 tcctctatgg gcgcattttc cgagctgcgc gcttccgcat ccgcaagaca gtcaagaaag
+      781 tggagaagaa gggggccgac actcacaccc gctgtgctgc agcctctccg gccccaccgc
+      841 cccggaggag cgtgaatgga gagccaggga gcacagactg gaggcggggc gtggagagca
+      901 aagctgcggg ggctgtgtgc gccaatggcg cggtgaggca gggtgacgaa ggcgccgccc
+      961 tggaggtgat cgaggtgcac cgagtgggcc actccaagga gcacctgccg cttcccagcg
+     1021 agacaggtac ggccgcctgc gccgctgcct cctttgagag gaagaatgag cgcaacgccg
+     1081 aggcaaagcg caaaatggcc ctggcgcgcg agaggaagac ggtcaagacc cttggcatca
+     1141 tcatgggcac cttcatcctc tgctggctgc ccttcttcat cgtagccctg gtcctgccct
+     1201 tctgcgagag cagctgccac atgcccgccc agctgggcgc cattatcaac tggctgggct
+     1261 actccaactc cctgcttaac cctgtcattt atgcctactt caacaaggac tttcaaaacg
+     1321 cgtttaagaa gattatcaag tgcaagttct gccgccgatg atgctgtgag ggcgtggca
+//

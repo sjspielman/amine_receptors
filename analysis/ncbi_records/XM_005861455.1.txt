@@ -1,0 +1,99 @@
+LOCUS       XM_005861455            2210 bp    DNA              MAM 29-OCT-2013
+DEFINITION  PREDICTED: Myotis brandtii 5-hydroxytryptamine (serotonin) receptor
+            1B, G protein-coupled (HTR1B), mRNA.
+ACCESSION   XM_005861455
+VERSION     XM_005861455.1  GI:554533534
+DBLINK      BioProject: PRJNA218631
+KEYWORDS    RefSeq.
+SOURCE      Myotis brandtii (Brandt's bat)
+  ORGANISM  Myotis brandtii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Microchiroptera;
+            Vespertilionidae; Myotis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005355461.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Myotis brandtii Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2210
+                     /mol_type="mRNA"
+                     /collection_date="Dec-2011"
+                     /country="Russia: Perm poKrai"
+                     /sex="male"
+                     /note="collected at hibernation roost"
+                     /db_xref="taxon:109478"
+                     /lat_lon="58.8348 N 57.6119 E"
+                     /organism="Myotis brandtii"
+                     /chromosome="Unknown"
+     gene            1..2210
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 15 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:102246815"
+                     /gene="HTR1B"
+     CDS             538..1698
+                     /product="5-hydroxytryptamine receptor 1B"
+                     /codon_start="1"
+                     /db_xref="GI:554533535"
+                     /db_xref="GeneID:102246815"
+                     /translation="MEKNGAQCAPQLAGSQTGVSQANLSTAPSHNCSSPDYVYQDSVAL
+                     PWKVLLVLLLALITLATTFSNAFVIATVYRTRKLHTPANYLIASLAVTDLLVSILVMPI
+                     STLQTVAGRWTLGQVVCDFWLSSDITCCTASILHLCVIALDRYWAITDAVEYSAKRTPK
+                     RAAVMIVLVWVFSISISLPPFFWRQAKAEEECVVNTDHILYTVYSTVGAFYFPTLLLIA
+                     LYGRIYMEARSRILKQTPNKTGKRLTRAQLITDSPGSTSSVTSINSRAPDLPSESGSPV
+                     YVNQVKVRVSDALLEKKKLMAARERKATKTLGIILGAFIVCWLPFFIISLVMPICRNAC
+                     WFHQAIFDFFTWLGYLNSLINPIIYTMFNEDFKQAFHKLVRFKCTS"
+                     /gene="HTR1B"
+                     /protein_id="XP_005861517.1"
+ORIGIN
+        1 cgcaggaaac tgccacagcc tggggagggg gagcgggaat gcaggaccgg gactcctagc
+       61 gggcctgtcc gctctggtct ccacagctag gaaactcctg tgggccgatt ctgcagctca
+      121 aggagcgccc gggttaggta atgcccgagc atttggggta agagacccca cctggctcat
+      181 gctccctcct caaacaatac ctcgccctcc tccactagat gcccgggtgg aagccggagc
+      241 ggagcgccgc gcggtgggct agtccttagc aagcccggga gtggagaagc gcaagccaga
+      301 gacgcggagg cagcgccggg cgcactgcaa gtgcagggga cgcgctcgcc tagctcggct
+      361 gccgcgccct tgacctctag tttcaagctg gaaacctggg tggaagaata gctgaggagc
+      421 ctacgaaact aactagcaac caggggcagg actgcggtct cttccgcggt ccttccttct
+      481 ctcccacatc cgttccatgc ttcagagctg cgctccggag ccagggcgag gagaggcatg
+      541 gagaagaacg gcgctcagtg cgccccgcag ctcgcgggct cccaaacagg ggtttctcaa
+      601 gccaacctct ccactgctcc ctcccacaac tgcagctccc cggactatgt gtaccaggac
+      661 tccgtcgccc tgccctggaa agtcctactg gtcctgctgc tggcgctcat caccttggcc
+      721 accactttct ccaacgcgtt cgtgatcgcc actgtgtacc ggacgcggaa gctacatacc
+      781 ccggccaact atctgatcgc ctcgctggcg gtgacggacc tgctcgtctc catcctggtg
+      841 atgcccatca gcaccctgca aacggtcgcc ggccgctgga ccctgggcca ggtggtctgc
+      901 gacttctggc tctcgtcgga catcacctgt tgcactgctt ccatcctgca cctctgtgtc
+      961 atcgccctgg accgctactg ggccatcacg gacgccgtgg agtactcggc taaaaggact
+     1021 cccaagaggg cggcggtcat gatcgtgctg gtgtgggttt tctccatctc catctcgctg
+     1081 ccacccttct tctggcgcca ggccaaggcc gaggaggagt gcgtggtgaa caccgaccac
+     1141 atcctctaca cggtgtactc cacggtgggc gctttctact tccccacctt gctcctcatc
+     1201 gccctctacg gccgcatcta catggaagcc cgctcccgga ttttgaaaca gactcccaac
+     1261 aagaccggca aacgtttgac ccgagcccag ctgatcaccg actcccctgg gtccacgtct
+     1321 tctgtcacct ccattaactc gcgtgccccc gacctgccca gcgaatcggg gtctcctgtg
+     1381 tacgtgaacc aagtcaaagt gcgagtctcc gacgccctgc tggagaagaa gaaactcatg
+     1441 gccgctaggg agcgcaaagc caccaagacc ctgggcatca ttttgggagc gttcattgtg
+     1501 tgctggctgc ccttcttcat catctcccta gtgatgccta tctgcagaaa cgcatgctgg
+     1561 ttccaccagg ccatcttcga cttcttcacg tggctgggct atctcaactc cctcattaac
+     1621 cccattatct ataccatgtt caatgaggac ttcaaacaag cgttccataa actggtccgc
+     1681 tttaaatgca caagttgact tgtccattgc actgggggtc acccaagtgg cctttgggga
+     1741 ccatgttgtg tctggttcca caggtaggtc gactcttctt tcactgttac cgggtcggag
+     1801 cgaggcgcta tctactgggc aagggcaatg gatcccgaga agccaggaca gcccctggag
+     1861 agagagcacg gaaaggagaa ctgtgcaaac taaagataga gcttccctgc tgaggaggag
+     1921 gctgactttc taccctcaaa ccccaggttc agcactggcc ctgcggcagc cagtcacaag
+     1981 gcggggtttg cgacttttaa aaatctatga tggagaggtg acccctgccc tgctcgggcg
+     2041 taatggacga tgccctctag gagcggtgat acatgttagt tgttgtctgg atcctgtctg
+     2101 agacagatgc atacagcctg gcagtacttg aactagacac ttaatacctt gtgttttggg
+     2161 gagaactttg tgttacagcc tcatttaaga acagttacgt tggcatcctt
+//

@@ -1,0 +1,123 @@
+LOCUS       XM_003826782            2362 bp    DNA              PRI 02-SEP-2014
+DEFINITION  PREDICTED: Pan paniscus dopamine receptor D5 (DRD5), mRNA.
+ACCESSION   XM_003826782
+VERSION     XM_003826782.2  GI:675785555
+DBLINK      BioProject: PRJNA169343
+KEYWORDS    RefSeq.
+SOURCE      Pan paniscus (pygmy chimpanzee)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003870564.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 2, 2014 this sequence version replaced gi:397513026.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pan paniscus Annotation Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2362
+                     /mol_type="mRNA"
+                     /country="Germany"
+                     /isolate="Ulindi"
+                     /sex="female"
+                     /db_xref="taxon:9597"
+                     /organism="Pan paniscus"
+                     /chromosome="Unknown"
+     gene            1..2362
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 mRNAs, 7 ESTs, 30 Proteins, and
+                     81% coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:100994450"
+                     /gene="DRD5"
+     CDS             384..1817
+                     /product="D(1B) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:397513027"
+                     /db_xref="GeneID:100994450"
+                     /translation="MLPPGSNRTAYPGQFALYQQLAQGNAVGGSAGAPPLGPAQVVTAC
+                     LLTLLIIWTLLGNVLVCAAIVRSRHLRAKMTNVFIVSLAVSDLFVALLVMPWKAVAEVA
+                     GYWPFGAFCDVWVAFDIMCSTASILNLCVISVDRYWAISRPFRYERKMTQRMALVMVGL
+                     AWTLSILISFIPVQFNWHRDQAASWGGLDLPNNLANWTPWEEDFWEPDVNAENCDSSLN
+                     RTYAISSSLISFYIPVAIMIVTYTRIYRIAQVQIRRISSLERAAEHAQSCQSSAACAPD
+                     TSLRASIKKETKVLKTLSVIMGVFVCCWLPFFILNCMVPFCSGHPEGPPAGFPCVSETT
+                     FDVFVWFGWANSSLNPVIYAFNADFRKVFAQLLGCSHFCSRMPVETVNISNELISYNQD
+                     IVFHKEIAAAYIHMMPNAVTPGNREVDNDEEEGPFDRMSQIYQTSPDGDPAAESVWELD
+                     CEGEISLDKITPFTPNGFH"
+                     /gene="DRD5"
+                     /protein_id="XP_003826830.1"
+     STS             989..1374
+                     /db_xref="UniSTS:156411"
+                     /standard_name="GDB:305493"
+                     /gene="DRD5"
+     STS             1082..1948
+                     /db_xref="UniSTS:276178"
+                     /standard_name="DRD5_24"
+                     /gene="DRD5"
+     STS             1560..1804
+                     /db_xref="UniSTS:155749"
+                     /standard_name="GDB:193457"
+                     /gene="DRD5"
+     STS             1586..1852
+                     /db_xref="UniSTS:88022"
+                     /standard_name="RH69165"
+                     /gene="DRD5"
+     STS             1652..1752
+                     /db_xref="UniSTS:479852"
+                     /standard_name="DRD5"
+                     /gene="DRD5"
+ORIGIN
+        1 cgccagcgac tgcctgcccc agcccctcag tggcggcttg ctttcttctc tcgctccgaa
+       61 ccagacacag ccgctgccgc tgccgtccgg cgcgctgcag actccggaga acagccctgg
+      121 ctgtcagcga gcaccagccg cttcctgtcc ccatcgcaga gactgaaggg gcgcaccacg
+      181 gccatggagc cagaggcgct tcaggaggca agagaagtcc ccgcgtgctc aggagcccgg
+      241 cgcagctcat ggtgagcgcc ctctggggct cgagggtccc ttggctgagg gggcgcatcc
+      301 tcggggtgcc cgatggggct gcctgggggt cgcagggctg aagttgggac cgcgcacaga
+      361 ccgcccctgc agtccagccc gaaatgctgc cgccaggcag caaccgcacc gcgtacccgg
+      421 ggcagttcgc gctataccag cagctggcgc aagggaacgc cgtggggggc tcggcggggg
+      481 caccgccact ggggcccgca caggtggtca ccgcctgcct gctgacccta ctcatcatct
+      541 ggaccctgct gggcaacgtg ctggtgtgcg cagccatcgt gcggagccgc cacctgcgcg
+      601 ccaagatgac caacgtcttc atcgtgtctc tggccgtgtc agaccttttc gtggcgctgc
+      661 tggtcatgcc ctggaaggca gtcgccgagg tggccggtta ctggcccttt ggagcgttct
+      721 gcgacgtctg ggtggccttc gacatcatgt gctccaccgc ctccatcctg aacctgtgcg
+      781 tcatcagcgt ggaccgctac tgggccatct ccaggccctt ccgctacgag cgcaagatga
+      841 ctcagcgcat ggccttggtt atggtcggcc tggcatggac cttgtccatc ctcatctcct
+      901 tcattccggt ccagttcaac tggcacaggg accaggcggc ctcttggggc gggctggacc
+      961 tgccaaacaa cctggccaac tggacgccct gggaggagga cttttgggag cccgacgtga
+     1021 atgcagagaa ctgtgactcc agcctgaatc gaacctacgc catctcttcc tcgctcatta
+     1081 gcttctacat ccccgtggcc atcatgatcg tgacctacac gcgcatctac cgcatcgccc
+     1141 aggtgcagat ccgcaggatt tcctccctgg agagggccgc agagcacgcg cagagctgcc
+     1201 agagcagcgc agcctgcgcg cccgacacca gcctgcgcgc ttccatcaag aaggagacca
+     1261 aggttctcaa gaccctgtcg gtgatcatgg gggtcttcgt gtgttgctgg ctgcccttct
+     1321 tcatccttaa ctgcatggtc cctttctgca gtggacaccc cgaaggccct ccggccggct
+     1381 tcccctgcgt cagtgagacc accttcgacg tcttcgtctg gttcggctgg gctaactcct
+     1441 cactcaaccc cgtcatctat gccttcaacg ccgactttcg gaaggtgttt gcccagctgc
+     1501 tggggtgcag ccacttctgc tcccgcatgc cggtggagac ggtgaacatc agcaatgagc
+     1561 tcatctccta caatcaagac atcgtcttcc acaaggaaat cgcagctgcc tacatccaca
+     1621 tgatgcccaa cgccgttacc cccggcaacc gggaggtgga caacgacgag gaggagggtc
+     1681 ctttcgatcg catgtcccag atctatcaga cgtccccaga tggtgaccct gctgctgagt
+     1741 ctgtctggga gctggactgc gagggggaga tttctttaga caaaataaca cctttcaccc
+     1801 cgaatggatt ccattaaact gcattaagaa accccctcat ggatctgcat aaccgcatag
+     1861 acattgacaa gcacgcacac acacgcaaat acatgccttt ccagtgctgc tccctttatc
+     1921 atgtgtttct gtgtagtagc tcgtgtgctt agaaacctca ccccattgat tggtagttca
+     1981 aagaattggc agaagcagtt gcaataaact cagtcaaatg tacccagcct accagagatg
+     2041 gaccaacgat cctatgagag aagagagtat ggtgctgggt ccttaaaaaa aaaaaatgat
+     2101 acttggtcct taaaaaatat gctctgccct ccctttttaa acaaatggct tgttcagtca
+     2161 cttgtttgtg tttgaattga tttttaaaca gcaggttgtg tgtgtgcagt gatgcggtgg
+     2221 gagcacagct ttcctgggtc tggattcccg tggctttgtg cttatgtcat ttcttctctc
+     2281 tgtgctggtg ggggcctctt taccatagct taagaagact ccctgattta ttctggtgtc
+     2341 taataaacgc agattatttg ta
+//

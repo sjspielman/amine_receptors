@@ -1,0 +1,101 @@
+LOCUS       XM_005934188            2178 bp    DNA              VRT 30-OCT-2013
+DEFINITION  PREDICTED: Haplochromis burtoni muscarinic acetylcholine receptor
+            M2-like (LOC102302869), mRNA.
+ACCESSION   XM_005934188
+VERSION     XM_005934188.1  GI:554847892
+DBLINK      BioProject: PRJNA220165
+KEYWORDS    RefSeq.
+SOURCE      Haplochromis burtoni (Burton's mouthbrooder)
+  ORGANISM  Haplochromis burtoni
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Haplochromini;
+            Haplochromis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005179567.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Haplochromis burtoni Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2178
+                     /mol_type="mRNA"
+                     /isolate="A. burtoni ID#24_Hofmann"
+                     /sex="female"
+                     /db_xref="taxon:8153"
+                     /organism="Haplochromis burtoni"
+                     /chromosome="Unknown"
+     gene            1..2178
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 11 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 5 samples with support for all annotated introns"
+                     /db_xref="GeneID:102302869"
+                     /gene="LOC102302869"
+     CDS             138..1517
+                     /product="muscarinic acetylcholine receptor M2-like"
+                     /codon_start="1"
+                     /db_xref="GI:554847893"
+                     /db_xref="GeneID:102302869"
+                     /translation="MQRMLDSMEILNSSHASNISVSNGTGLFSQSPYTTLEIALIILVA
+                     GSLSLITVIGNILVMLSIKVNRNLQTVNNYFLFSLACADLIIGVCSMNLYTVYIVIGFW
+                     PLGAVVCDLWLAVDYVVSNASVMNLLIISFDRYFCVTKPLSYPVRRSTKIAGLMIAAAW
+                     VLSFILWAPAILFWQFIVGGRTVKPNECYIQFFSNPAVTFGTAIAAFYLPVAIMIYLYW
+                     RISKASRSRMRKDSRKTSGTSLGEAPSNSQEEGGENTTATKKVQEEAADGKEKEMLQQK
+                     QQQNGIGPCKEDRTNQVDSTSDSIQASTSKDAEIPPSSRKNSNIGKNEAQPSSRKNSAA
+                     DAQMLVTKTLFKVTMRAMSENAVAKWKKRGISSREKKVTRTIMAILVAFVVTWTPYNVM
+                     VLINTFCSICIPNTLWTIGYWLCYINSTINPACYALCNATFKNTFKQLLLCQYKNIRTS
+                     R"
+                     /gene="LOC102302869"
+                     /protein_id="XP_005934250.1"
+ORIGIN
+        1 tgtcaggtta ctttctgctt tgctctccgc tccagtgtgt cgggagaaga gagagtaaca
+       61 tggacgactt caaaacagtt cacctgtgtc gttctctgca gatgaggttt tgcacatatg
+      121 tgaatgaagc ttgaagcatg caaaggatgc tggacagcat ggagattctc aattcatccc
+      181 acgctagcaa catcagtgtc agcaatggca ctggcctctt ctctcaaagc ccgtacacga
+      241 ctttggagat agcgctcatc attctcgttg caggatctct gagtctgatc actgtcatcg
+      301 gaaacatcct ggtcatgctc tctataaagg taaacaggaa cctgcagacc gtcaacaact
+      361 acttcctgtt cagcctggct tgcgcagacc tgattattgg tgtctgctcc atgaacctct
+      421 acaccgtcta cattgtgatt gggttctggc ccctaggagc agtggtgtgt gacctatggc
+      481 tggctgtcga ctatgttgtg agcaatgcct cagtcatgaa cttgctcatc atcagttttg
+      541 accgttactt ttgtgtcacc aaaccgctta gctacccagt gcggcgcagc accaaaatag
+      601 cagggctgat gattgcagca gcatgggtct tgtccttcat cctgtgggct cctgcaattt
+      661 tattctggca gttcatagtt gggggaagga ctgtgaaacc caatgagtgc tacatccagt
+      721 tcttctccaa cccagcggtg acctttggga cggctatcgc ggctttctac ctacctgtgg
+      781 ccatcatgat ctacctttac tggcgcatct ccaaggccag tcgcagccgc atgaggaaag
+      841 acagcaggaa gacctcaggc actagtctgg gagaagctcc ttctaacagc caggaggaag
+      901 gaggtgagaa caccactgca acaaaaaagg ttcaggagga ggctgcagat ggcaaggaga
+      961 aggaaatgct ccagcagaaa cagcaacaga acggaatcgg tccgtgcaag gaagaccgaa
+     1021 ccaaccaggt ggactccaca tcagatagca ttcaggcttc gacatccaag gatgctgaga
+     1081 ttccaccttc gtcacggaaa aactcaaata ttgggaaaaa tgaagcccaa ccatcttctc
+     1141 ggaaaaactc agcagctgac gctcaaatgc tagtcacgaa aactctgttt aaggtaacaa
+     1201 tgcgcgcgat gagtgaaaac gctgtggcaa agtggaaaaa gaggggaatt tcttccaggg
+     1261 agaaaaaggt cacacgcacc atcatggcca tcctggttgc atttgtcgtc acgtggacgc
+     1321 cgtacaacgt gatggtgctt atcaacacat tctgctccat ctgcatcccc aacacgctgt
+     1381 ggaccattgg ctactggctg tgctacatca acagcaccat caacccagcc tgctatgccc
+     1441 tctgcaacgc caccttcaag aacaccttca agcagctgct tctgtgccag tacaagaaca
+     1501 tacgcacttc acgatgagca gggggtgcaa atgctttact gtgtttgtgg tggaatctga
+     1561 ataatgtgac aaatctttta aagaatgatt tcgaaagttg gaaacataga tacatagata
+     1621 aagtgtggtc ttgttgtgca attacttcat gttgcttttc ggtggtagaa tcccccccag
+     1681 cccccttctt ccactgaaaa taaaactgtg atttaactca taatcatact ataaagtcaa
+     1741 actttcaaag acttaaatgg aactaatttc aatgagcttt actgactctc tgaaaaatac
+     1801 ttttgcataa cagtcacttg gagttttatt tcttttttta tttcctcttt ttgctacttc
+     1861 tacacaaact tgtgcagttt gttgtttaaa atgtgcttgt tgtgatggtt ttgtgaaggt
+     1921 agtttaaaaa agatgtgatt gaaaattata ctattatgag agcattagag ctaagctcta
+     1981 aaaatgaagc atgtctttat actaaatcca cgggagaaaa gagaattagc agctgtgaag
+     2041 tgatgcgtgt cctgtgtgtc gtgctaaact tacatttcac attaatggaa cctgtaatct
+     2101 gtgatgttgt gagacgtgtg cgactattaa acgtgcctgt cttccctctt tttctctgat
+     2161 ttgtgtaaat aaaaagga
+//

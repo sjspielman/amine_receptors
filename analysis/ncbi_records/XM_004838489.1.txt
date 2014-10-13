@@ -1,0 +1,94 @@
+LOCUS       XM_004838489            1431 bp    DNA              ROD 18-JUN-2013
+DEFINITION  PREDICTED: Heterocephalus glaber 5-hydroxytryptamine (serotonin)
+            receptor 7, adenylate cyclase-coupled (Htr7), transcript variant X2,
+            mRNA.
+ACCESSION   XM_004838489
+VERSION     XM_004838489.1  GI:512952285
+DBLINK      BioProject: PRJNA197330
+KEYWORDS    RefSeq.
+SOURCE      Heterocephalus glaber (naked mole-rat)
+  ORGANISM  Heterocephalus glaber
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Bathyergidae; Heterocephalus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004624737.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Heterocephalus glaber Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1431
+                     /mol_type="mRNA"
+                     /isolate="NMR 29"
+                     /sex="female"
+                     /db_xref="taxon:10181"
+                     /organism="Heterocephalus glaber"
+                     /chromosome="Unknown"
+     gene            1..1431
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /db_xref="GeneID:101719078"
+                     /gene="Htr7"
+     STS             50..584
+                     /db_xref="UniSTS:511811"
+                     /standard_name="HTR7"
+                     /gene="Htr7"
+     CDS             52..1353
+                     /product="5-hydroxytryptamine receptor 7 isoform X2"
+                     /codon_start="1"
+                     /db_xref="GI:512952286"
+                     /db_xref="GeneID:101719078"
+                     /translation="MMDVNSSGRPDLYGHLRSILLPERGLPDLSPDGGADPVVSSWTPH
+                     LLNGVPEVTASPSPTWDGTPDNVSGCGEQINYGRAEKVVIGSILTLITLLTIAGNCLVV
+                     ISVCFVKKLRQPSNYLIVSLALADLSVAVAVMPFVSVTDLIGGKWIFGHFFCNVFIAMD
+                     VMCCTASIMTLCVISIDRYLGITRPLTYPVRQNGKCMAKMILSVWLLSASITLPPLFGW
+                     AQNVNDDKVCLISQDFGYTIYSTAVAFYIPMSVMLFMYYQIYKAARKSAAKHKFPGFPR
+                     VQPESVISLNGMVKLQKEVEECANLSRLLKHERKNISIFKREQKAATTLGIIVGAFTVC
+                     WLPFFLLSTARPFICGTACSCIPLWVERTCLWLGYANSLINPFIYAFFNRDLRTTYRSL
+                     LQCQYRNINRKLSAAGMHEALKLAERPERPEFVL"
+                     /gene="Htr7"
+                     /protein_id="XP_004838546.1"
+     STS             1141..1280
+                     /db_xref="UniSTS:39426"
+                     /standard_name="RH66814"
+                     /gene="Htr7"
+ORIGIN
+        1 gagcgcgtgg cgggggcgcc ggctccatgg gcatcggtgc acagcggcac gatgatggac
+       61 gttaacagca gcggccgccc ggacctgtac gggcacctcc gctccatcct cctgcctgag
+      121 cgcgggctgc cggacctgag ccccgacggt ggcgccgatc cggtagtcag ctcctggacg
+      181 ccgcacctgc tgaacggggt ccccgaggtg acggctagcc cctcgcccac ctgggacggg
+      241 accccggaca atgtctccgg ttgcggagag caaatcaact acggcagagc cgagaaagtt
+      301 gtgatcggct ccatcctgac gctgatcacg ctgctgacga tcgcgggcaa ctgcctggtg
+      361 gtgatctccg tgtgcttcgt caagaagctt cgccagccct ccaactacct gatcgtgtcc
+      421 ctggcgctgg ccgacctttc ggtggccgtg gcggtcatgc ccttcgtcag cgtcacggac
+      481 ctcatcgggg gcaagtggat ctttggccac ttcttctgca acgtcttcat cgccatggac
+      541 gtcatgtgct gcacggcctc gatcatgaca ctgtgcgtga tcagcattga caggtacctt
+      601 gggatcacca ggcctctcac ataccctgtg aggcagaatg ggaaatgcat ggcaaaaatg
+      661 atcctctcag tctggcttct ctcagcctcc atcactttac ccccgctctt cggatgggct
+      721 cagaatgtga atgacgacaa ggtgtgcttg attagccagg attttggcta cacgatttac
+      781 tccactgcag tggcatttta catccccatg tcggtcatgc tgttcatgta ctaccagatt
+      841 tacaaggctg ccaggaagag tgctgccaaa cacaagttcc ctggcttccc acgcgtgcag
+      901 ccagagagtg tcatctccct aaatggcatg gtgaagctac agaaggaagt agaagagtgt
+      961 gcaaaccttt caagactcct caaacatgaa aggaaaaaca tctccatctt taagagggaa
+     1021 cagaaagcag ctaccacctt gggcatcatt gttggagcct tcactgtgtg ctggctgcca
+     1081 tttttcctcc tctcgacagc caggcccttc atctgtggca ctgcctgcag ttgcatccca
+     1141 ctgtgggtgg agaggacatg cctgtggctg ggctatgcaa actctctcat taaccctttt
+     1201 atatatgcct tcttcaaccg ggacctgagg accacttacc gcagtctgct ccagtgccag
+     1261 taccggaata tcaatcggaa gctctcagct gcaggcatgc atgaggccct gaagcttgcg
+     1321 gagaggccag agagacccga gtttgtgctg taagacaaaa ctctgactac tgtagaaaaa
+     1381 aaggtcatga ttcatgatcc aaagcagaat aatggagatg aattaaacaa g
+//

@@ -1,0 +1,104 @@
+LOCUS       XM_005023600            1994 bp    DNA              VRT 26-JUN-2013
+DEFINITION  PREDICTED: Anas platyrhynchos cholinergic receptor, muscarinic 3
+            (CHRM3), transcript variant X2, mRNA.
+ACCESSION   XM_005023600
+VERSION     XM_005023600.1  GI:514763105
+DBLINK      BioProject: PRJNA208071
+KEYWORDS    RefSeq.
+SOURCE      Anas platyrhynchos (mallard)
+  ORGANISM  Anas platyrhynchos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Anseriformes; Anatidae;
+            Anas.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004677435.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Anas platyrhynchos Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1994
+                     /mol_type="mRNA"
+                     /country="China: Beijing"
+                     /breed="Pekin duck"
+                     /sex="female"
+                     /isolation_source="Gold Star Duck Production"
+                     /db_xref="taxon:8839"
+                     /organism="Anas platyrhynchos"
+                     /chromosome="Unknown"
+     gene            1..1994
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 11 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 5 samples with support for all annotated introns"
+                     /db_xref="GeneID:101791742"
+                     /gene="CHRM3"
+     misc_feature    3..5
+                     /note="upstream in-frame stop codon"
+                     /gene="CHRM3"
+     CDS             78..1922
+                     /product="muscarinic acetylcholine receptor M3 isoform X2"
+                     /codon_start="1"
+                     /db_xref="GI:514763106"
+                     /db_xref="GeneID:101791742"
+                     /translation="MFFTGPCRLCQRVTMIMHNTSSASSLFGNVSSFWKRDSHGPGLLD
+                     EAASLIGSYDFPQTTESFPFSTVESVNTSLNATSKDPLGGHTVWQVVLIAFLTGILALV
+                     TIIGNILVIVAFKVNKQLKTVNNYFLLSLACADLIIGIISMNLFTTYIIMGHWALGNLA
+                     CDLWLSIDYVASNASVMNLLVISFDRYFSITRPLTYRAKRTTKRAGVMIGLAWVISFVL
+                     WAPAILFWQYFVGKRTVPADECFIQFLSEPIITFGTAIAAFYLPVTIMSILYWRIYKET
+                     EKRTKELAGLQASGSEAEAARFVHQTGSSRSCSSYELQRQSMKRSTRRKYRRCHFWLTM
+                     KSWEPNTDQGDQEHSSSDSWNNNDAAASLENSASSDEEDIAAETRAIYSIVLKLPGHSA
+                     ILNSTKLPSSEDLNESGDELQKSDTESQEKKSKKLHPSKSIQDGGSFQKSFSKLPIQPG
+                     SAETATASDGISSVTKTSAALPLSFKEATLAKKFALKTRSQITKRKRMSLIKEKKAAQT
+                     LSAILFAFIITWTPYNIMVLVNTFCNCIPKTVWNLGYWLCYINSTVNPVCYALCNKTFR
+                     NTFKMLLLCQCDKRKRRKQQYQQRQSVIFHKRIPREAS"
+                     /gene="CHRM3"
+                     /protein_id="XP_005023657.1"
+ORIGIN
+        1 gctgacatac taccagtttt gtttccaaaa gaggagttca cagagctaca cagtgcctga
+       61 tccaagcagc tgcgttgatg ttctttactg gaccatgtag actatgtcag agagtcacaa
+      121 tgatcatgca caacaccagt tcagcctcgt ccctgtttgg aaatgtgagc tccttctgga
+      181 agagagattc ccatggacca ggactacttg atgaagcagc atcgctcatt ggcagctatg
+      241 atttccctca gaccacagag agttttccct tctccactgt ggaatcagta aacacatccc
+      301 taaatgccac gagtaaagac cctctgggtg gacatacagt ctggcaagta gttttgattg
+      361 ctttcctcac tgggatcctt gcactggtga ccatcatagg aaacatccta gtgatagttg
+      421 catttaaggt taacaaacaa ctgaaaacag tcaacaacta cttcttgttg agtcttgctt
+      481 gtgcggattt gatcattggt attatttcca tgaatctttt caccacatac atcatcatgg
+      541 gccactgggc tttgggaaac ttagcctgcg atctttggct ctccattgac tatgtcgcca
+      601 gtaatgcctc tgtcatgaat ctccttgtca taagttttga caggtatttt tccatcacta
+      661 ggccacttac gtacagagcc aaacgaacaa ctaaaagggc tggagtgatg attggtttag
+      721 catgggtcat atcttttgtt ctttgggccc ctgccatatt gttctggcag tattttgttg
+      781 ggaagaggac tgtgcctgct gatgaatgtt ttatccagtt tctaagtgaa cctatcatca
+      841 cttttggcac tgccatagct gccttttact tgccagtcac cattatgagt attttgtatt
+      901 ggcggatcta caaggagact gagaaacgca ccaaagagtt agcagggcta caggcttcag
+      961 gcagcgaagc agaggcagca cgctttgtgc accagacagg cagttcccgg agctgcagca
+     1021 gctatgagct gcaacggcag agcatgaaac gctcaacccg aaggaaatac agacgctgcc
+     1081 acttctggct cacaatgaag agctgggaac ccaacacgga ccagggggac caagagcaca
+     1141 gcagcagtga cagctggaac aacaatgatg ctgctgcctc ccttgaaaat tcagcctcct
+     1201 ctgatgaaga agacattgct gcagagacca gagccatcta ttcgattgtg ctgaagcttc
+     1261 ctggtcacag tgccatcctt aattccacaa aactgccatc ctcagaagat ttgaatgagt
+     1321 caggggatga actgcagaaa tccgacacag agtcacagga aaagaaatct aaaaaattgc
+     1381 acccttccaa aagcattcag gatggtggaa gtttccagaa gagcttttca aagcttccaa
+     1441 ttcagccagg gtcagcagag acagctacag cttctgatgg aatctcatcg gtgaccaaga
+     1501 catctgcagc cctgcccttg tccttcaagg aggcaaccct ggcaaaaaag tttgccttga
+     1561 aaaccagaag tcagatcaca aaacgaaaac gaatgtcact tatcaaagaa aagaaagcgg
+     1621 cacagacact cagtgccatt ttgtttgcct tcatcattac ctggacccca tataacatca
+     1681 tggttctggt gaacaccttt tgcaactgta tccccaaaac tgtctggaac ctggggtact
+     1741 ggctttgcta catcaatagc acggtgaacc ctgtttgcta tgcactgtgt aacaaaacat
+     1801 tcagaaacac tttcaagatg ttactgctgt gccagtgtga caaacgaaaa cgacgcaaac
+     1861 agcagtatca gcaaaggcag tctgtcattt ttcataagcg gatccctagg gaagcttcat
+     1921 agaatagtat tttttaaaca ccttaaaaat aatggaggat gggactggat gggatgagat
+     1981 ggaatgggaa ggga
+//

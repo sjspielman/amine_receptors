@@ -1,0 +1,61 @@
+LOCUS       NP_001116544             466 aa                     MAM 10-JAN-2014
+DEFINITION  alpha-1A adrenergic receptor [Sus scrofa].
+ACCESSION   NP_001116544
+VERSION     NP_001116544.1  GI:178057047
+KEYWORDS    RefSeq.
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+REFERENCE   1  (residues 1 to 466)
+  AUTHORS   Mills,K., Hausman,N. and Chess-Williams,R.
+  TITLE     Characterization of the alpha1-adrenoceptor subtype mediating
+            contractions of the pig internal anal sphincter
+  JOURNAL   Br. J. Pharmacol. 155 (1), 110-117 (2008)
+   PUBMED   18516067
+  REMARK    GeneRIF: Results suggest that contraction of circular smooth muscle
+            from the pig internal anal sphincter is mediated via
+            alpha1A/L-adrenoceptors.
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AJ251727.1.
+            ##Evidence-Data-START##
+            RNAseq introns :: single sample supports all introns ERS198671,
+            ERS198674 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..466
+                     /db_xref="taxon:9823"
+                     /organism="Sus scrofa"
+                     /chromosome="14"
+                     /map="14"
+     Protein         1..466
+                     /function="G-protein coupled receptor"
+                     /note="adrenergic, alpha-1A-, receptor"
+                     /product="alpha-1A adrenergic receptor"
+                     /calculated_mol_wt="51544"
+     Region          37..341
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          49..326
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..466
+                     /coded_by="NM_001123072.1:1..1401"
+                     /gene="ADRA1A"
+                     /gene_synonym="alpha-1A"
+                     /db_xref="GeneID:100144471"
+ORIGIN
+        1 mvflsgnasd ssncthpppp vniskaillg vilggliifg vlgnilvils vachrhlhsv
+       61 thyyivnlav adllltstvl pfsaifeilg ywafgrvfcn iwaavdvlcc tasimglcii
+      121 sidryigvsy plryptivtq krglmallcv walslvisig plfgwrqpap edeticqine
+      181 epgyvlfsal gsfyvpltii lvmycrvyvv akresrglks glktdksdse qvtlrihrkn
+      241 apvggsgvts aknkthfsvr llkfsrekka aktlgivvgc fvlcwlpffl vmpigsffpd
+      301 frpsetvfki afwlgylnsc inpiiypcss qefkkafqnv lriqclrrkq ssrhalgytl
+      361 hptshaleeq hkdlvripvg sgetfykisk tdgvcewkff ssmprasari tvpkdpsact
+      421 tarvrsknfl qvcccmgpst psrdenhpip tikihtisls engeev
+//

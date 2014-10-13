@@ -1,0 +1,83 @@
+LOCUS       XM_002188132            1392 bp    DNA              VRT 12-FEB-2013
+DEFINITION  PREDICTED: Taeniopygia guttata 5-hydroxytryptamine (serotonin)
+            receptor 7, adenylate cyclase-coupled (HTR7), mRNA.
+ACCESSION   XM_002188132
+VERSION     XM_002188132.2  GI:449501510
+DBLINK      BioProject: PRJNA32405
+KEYWORDS    RefSeq.
+SOURCE      Taeniopygia guttata (zebra finch)
+  ORGANISM  Taeniopygia guttata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Estrildidae; Estrildinae; Taeniopygia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_002198640.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Feb 12, 2013 this sequence version replaced gi:224050324.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Taeniopygia guttata Annotation Release 101
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1392
+                     /mol_type="mRNA"
+                     /isolate="Black17"
+                     /sex="male"
+                     /db_xref="taxon:59729"
+                     /organism="Taeniopygia guttata"
+                     /chromosome="4"
+     gene            1..1392
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 mRNAs, 3 ESTs, 10 Proteins"
+                     /db_xref="GeneID:752003"
+                     /gene="HTR7"
+     CDS             88..1368
+                     /product="5-hydroxytryptamine receptor 7"
+                     /codon_start="1"
+                     /db_xref="GI:449501511"
+                     /db_xref="GeneID:752003"
+                     /translation="MLLRAGPRRFLEQHLLLVESSEQQRPARDPLPNPFMTEEPPAPAE
+                     PELPPSNLTNATDCGEEILLYGDTEKVVIGAVLSIIILTTIAGNGLVIISVCIVKKLRQ
+                     PSNYLVVSLAAADLSVAFAVMPFVTITDLVGGEWLFGKVFCNVFIAMDVMCCTASIMTL
+                     CIISVDRYLGITRPLTYPVRQNGKLMAKMVFIVWLLSASITLPPLFGWAQNVTVERVCL
+                     ISQDFGYTVYSTGVAFYIPMAVMLVMYSRIYKAAKVSAEKHRFMNFPKHYEEEGVYCLE
+                     ASSRAHHSSRRTKAVEECATLSKLLRQDRKNISIFKREQKAARTLGIIVGAFTFCWLPF
+                     FLMSTARPFICGIRCSCMPLRLERTLLWLGYTNSLINPLIYAFFNRDLRTTFWNLLRCR
+                     YRNINRRLSAASMHEALKATERHECIL"
+                     /gene="HTR7"
+                     /protein_id="XP_002188168.2"
+ORIGIN
+        1 ggatattcga ttttcttcgc cctgtttgtg acaagatgtt ctggtttgcc actggaggtg
+       61 tcactgctgg gggagcgagc tcagagcatg ctgctgaggg ccggccccag gaggtttctg
+      121 gagcagcacc ttctcttggt ggagagctca gagcagcagc ggccggctcg ggatccgctc
+      181 ccgaatccat tcatgactga ggaacccccc gccccagccg agcccgagct gccgccctcc
+      241 aacctgacca acgccaccga ctgcggcgag gagatcctgc tctatgggga caccgagaag
+      301 gtcgtcatcg gggccgtgct ctccatcatc atcctcacga ccatcgccgg caacgggctg
+      361 gtcatcatct ccgtgtgcat cgtcaagaag ctccggcagc cctccaacta cctggtggtg
+      421 tccctggccg ccgcggacct gtcggtggcc ttcgccgtca tgcccttcgt caccatcacg
+      481 gacctggtgg ggggcgagtg gctctttggg aaggtgtttt gcaacgtgtt catcgccatg
+      541 gacgtgatgt gctgcaccgc ctccatcatg accttgtgca tcatcagcgt ggacaggtac
+      601 ctgggcatca cgcggccgct gacctacccc gtgaggcaga acgggaagct gatggccaag
+      661 atggtcttca tcgtgtggct cctgtcggcc tccatcaccc tccctccgct cttcggctgg
+      721 gcgcagaacg tgacggtgga gcgggtgtgc ctcatcagcc aggacttcgg ctacaccgtc
+      781 tactccacgg gcgtggcctt ctacatcccc atggccgtca tgctggtgat gtacagccgc
+      841 atctacaagg cggccaaggt cagtgccgag aagcaccgct tcatgaactt ccccaagcac
+      901 tacgaggagg agggcgtcta ctgcctcgag gcctccagcc gcgcccacca cagctcccgc
+      961 cgcaccaaag ccgtggagga atgcgccacg ctctccaagc tgctccggca agaccgcaag
+     1021 aacatttcca tcttcaagcg ggagcagaaa gccgccagga ccctcggcat catcgtgggg
+     1081 gccttcacgt tttgctggct gcccttcttc ctgatgtcca cggcgcggcc gttcatctgc
+     1141 ggcatccgct gcagctgcat gcccctgcgg ctggagagga ctcttctctg gctgggctac
+     1201 accaactccc tcatcaaccc cctcatctac gccttcttca accgggattt gaggactact
+     1261 ttctggaacc tgctgcgctg caggtacagg aacatcaaca ggaggctctc ggccgccagc
+     1321 atgcacgagg ccctgaaagc cacggagagg cacgagtgca tcctgtagtg cctgacccac
+     1381 cagctcctgc ct
+//

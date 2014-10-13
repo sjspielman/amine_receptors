@@ -1,0 +1,103 @@
+LOCUS       XM_005265818            1856 bp    DNA              PRI 03-FEB-2014
+DEFINITION  PREDICTED: Homo sapiens adrenoceptor alpha 1B (ADRA1B), transcript
+            variant X1, mRNA.
+ACCESSION   XM_005265818
+VERSION     XM_005265818.1  GI:530380858
+DBLINK      BioProject: PRJNA168
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NT_023133.14) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Homo sapiens Annotation Release 106
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1856
+                     /db_xref="taxon:9606"
+                     /mol_type="mRNA"
+                     /organism="Homo sapiens"
+                     /chromosome="5"
+     gene            1..1856
+                     /note="adrenoceptor alpha 1B; Derived by automated
+                     computational analysis using gene prediction method:
+                     Gnomon. Supporting evidence includes similarity to: 1 EST,
+                     3 Proteins, and 100% coverage of the annotated genomic
+                     feature by RNAseq alignments, including 2 samples with
+                     support for all annotated introns"
+                     /db_xref="GeneID:147"
+                     /db_xref="HGNC:HGNC:278"
+                     /db_xref="HPRD:00080"
+                     /db_xref="MIM:104220"
+                     /gene="ADRA1B"
+                     /gene_synonym="ADRA1; ALPHA1BAR"
+     CDS             71..1171
+                     /product="alpha-1B adrenergic receptor isoform X1"
+                     /codon_start="1"
+                     /gene_synonym="ADRA1; ALPHA1BAR"
+                     /db_xref="GI:530380859"
+                     /db_xref="GeneID:147"
+                     /db_xref="HGNC:HGNC:278"
+                     /db_xref="HPRD:00080"
+                     /db_xref="MIM:104220"
+                     /translation="MNPDLDTGHNTSAPAHWGELKNANFTGPNQTSSNSTLPQLDITRA
+                     ISVGLVLGAFILFAIVGNILVILSVACNRHLRTPTNYFIVNLAMADLLLSFTVLPFSAA
+                     LEVLGYWVLGRIFCDIWAAVDVLCCTASILSLCAISIDRYIGVRYSLQYPTLVTRRKAI
+                     LALLSVWVLSTVISIGPLLGWKEPAPNDDKECGVTEEPFYALFSSLGSFYIPLAVILVM
+                     YCRVYIVAKRTTKNLEAGVMKEMSNSKELTLRIHSKNFHEDTLSSTKAKGHNPRSSIAV
+                     KLFKFSREKKAAKTLGIVVGMFILCWLPFFIALPLESKGSLSLKTLNACCKSRKEMNEH
+                     NLNLSSLESGHVRDTGATLHHHIIRY"
+                     /gene="ADRA1B"
+                     /protein_id="XP_005265875.1"
+     STS             121..876
+                     /db_xref="UniSTS:271116"
+                     /standard_name="PMC150908P1"
+                     /gene="ADRA1B"
+                     /gene_synonym="ADRA1; ALPHA1BAR"
+ORIGIN
+        1 agctgaggag ccttcgccgc agcccttccg agcccaatca tccccctggc tatggagggc
+       61 ggactctaag atgaatcccg acctggacac cggccacaac acatcagcac ctgcccactg
+      121 gggagagttg aaaaatgcca acttcactgg ccccaaccag acctcgagca actccacact
+      181 gccccagctg gacatcacca gggccatctc tgtgggcctg gtgctgggcg ccttcatcct
+      241 ctttgccatc gtgggcaaca tcctagtcat cttgtctgtg gcctgcaacc ggcacctgcg
+      301 gacgcccacc aactacttca ttgtcaacct ggccatggcc gacctgctgt tgagcttcac
+      361 cgtcctgccc ttctcagcgg ccctagaggt gctcggctac tgggtgctgg ggcggatctt
+      421 ctgtgacatc tgggcagccg tggatgtcct gtgctgcaca gcgtccattc tgagcctgtg
+      481 cgccatctcc atcgatcgct acatcggggt gcgctactct ctgcagtatc ccacgctggt
+      541 cacccggagg aaggccatct tggcgctgct cagtgtctgg gtcttgtcca ccgtcatctc
+      601 catcgggcct ctccttgggt ggaaggagcc ggcacccaac gatgacaagg agtgcggggt
+      661 caccgaagaa cccttctatg ccctcttctc ctctctgggc tccttctaca tccctctggc
+      721 ggtcattcta gtcatgtact gccgtgtcta tatagtggcc aagagaacca ccaagaacct
+      781 agaggcagga gtcatgaagg agatgtccaa ctccaaggag ctgaccctga ggatccattc
+      841 caagaacttt cacgaggaca cccttagcag taccaaggcc aagggccaca accccaggag
+      901 ttccatagct gtcaaacttt ttaagttctc cagggaaaag aaagcagcta agacgttggg
+      961 cattgtggtc ggtatgttca tcttgtgctg gctacccttc ttcatcgctc taccgcttga
+     1021 aagcaaaggc tctttaagct tgaagacgtt gaatgcttgc tgtaaatcca ggaaagaaat
+     1081 gaatgagcac aatttaaatc tctccagcct agagtctggc cacgtgaggg acacgggagc
+     1141 tacattgcat caccatatta tccgttattg agaaaggagc cagcaattag cacaaaaatt
+     1201 tagcttaacc acgttaacat ctctgggaga gggattcaca ttctctggct ttctgcaagc
+     1261 tcttccaagc tccagctgtc cctggattct ttggctttgc gtcatgaagg gaattgattt
+     1321 gatcaattac attgctgctg tctaattagt aagcatggcc acactggccc atcggtttca
+     1381 cagagattaa acttggaatc ctgactgcag accgattttc atagctgaaa gtctctgtac
+     1441 cttcatcctc aatccatacc agttccctgg agttaatcat aacaggactt tgacccaggg
+     1501 ctggaggcat gttctctaag tccagacaac agggcttctg gagtcctcct gcattacagc
+     1561 acagattatt ttgtgaaagc tccgcaggtt aagaagctgg accttttcac acatgctatg
+     1621 cactgccctt caaagcactt tatgctcacc ctttcatttg agtttcctgg tatctcaaca
+     1681 aggaaagaaa atataactct catttcaaca tgaagaaagg aaccttcaca aaaatgatga
+     1741 ttcaaagcca caaagcgttt ttcaacagaa atcagtcatc atgttttcaa aaagtaactt
+     1801 ttactgggtt agttaacgtt ttattacaag aagttatatg cgtgttttca ttgtag
+//

@@ -1,0 +1,94 @@
+LOCUS       XM_005386412            1718 bp    DNA              ROD 27-AUG-2013
+DEFINITION  PREDICTED: Chinchilla lanigera dopamine receptor D3 (Drd3), mRNA.
+ACCESSION   XM_005386412
+VERSION     XM_005386412.1  GI:533143867
+DBLINK      BioProject: PRJNA210822
+KEYWORDS    RefSeq.
+SOURCE      Chinchilla lanigera (long-tailed chinchilla)
+  ORGANISM  Chinchilla lanigera
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Chinchillidae; Chinchilla.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004955427.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Chinchilla lanigera Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1718
+                     /mol_type="mRNA"
+                     /isolate="Chin_1"
+                     /sex="female"
+                     /db_xref="taxon:34839"
+                     /organism="Chinchilla lanigera"
+                     /chromosome="Unknown"
+     gene            1..1718
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 mRNAs, 1 Protein, and 17%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:102009301"
+                     /gene="Drd3"
+     CDS             416..1714
+                     /product="D(3) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:533143868"
+                     /db_xref="GeneID:102009301"
+                     /translation="MAARAEVLNSTISRNQKKFSGNSFGSDCSLWTMAPLSQLISHINS
+                     TCGPENSTGTNRARPYAYYALSYCVLILAIIFGNGLVCVAVLRERALQTTTNYLVVSLA
+                     VADLLVATLVMPWVVYLEVTGGIWNFSRICCDVFVTLDVMMCTASILNLCAISIDRYTA
+                     VVMPVHYQHGTGQGSCRRVALMITAVWVLAFAVSCPLLFGFNTTGDPNVCSISNPDFVI
+                     YSSVVSFYVPFGVTVLVYARIYMVLRQRRRKRILTRQNSQCISVRPDFPQQPLSPGQAH
+                     TELKRYYSICQGTTLRRPSFQVGEGELKRDERTRNSLSPTVAPKLSLEVRKLSNGRLST
+                     SLKLGSLQPRGMPLREKKATQMVAIVLGAFIVCWLPFFLTHVLNTHCQACHVSPELYRA
+                     TTWLGYVNSALNPVIYTTFNVEFRKAFLKILSC"
+                     /gene="Drd3"
+                     /protein_id="XP_005386469.1"
+     STS             1536..1713
+                     /db_xref="UniSTS:53374"
+                     /standard_name="RH71216"
+                     /gene="Drd3"
+ORIGIN
+        1 aaagagagtg gaaaattgag attaaaaaga gcactaaggg agaatacaca tgtactaaaa
+       61 agcacagtaa cgaagcagat agagacatag agggaaaaga ggagagcaag gtagaaaacg
+      121 gatcctgctt atgcctactc cgtctctctt tcagcaccaa ggacagagcc tctgaacggc
+      181 tgacccgaac aacgttcaat ttagggtcct tcctaaatcc tctagggaaa acggatgcat
+      241 tggaaagcag ctatggaacg tgcagtaagg tctaagagtg aagctggaag agcagcatac
+      301 aagtaatttc agtttagaga caaaaatgag tgattttact tctgttcatt tccatagttt
+      361 ctgggtcctg ggaaaagcta agtttgcttt gcttgggtac atctgttgtc agtaaatggc
+      421 tgcaagagct gaggtgctaa actccacaat ttccagaaat cagaagaaat tttcagggaa
+      481 ctcttttggg tcagactgct ccctgtggac tatggcacct ctgagccaac tgattagcca
+      541 catcaactcc acctgtgggc cagagaactc cacaggcacc aatcgcgccc gcccatatgc
+      601 ctactacgcc ttgtcctact gtgtgctcat cctagccatc atcttcggga acggcctcgt
+      661 gtgtgtggct gtgctgaggg agcgggccct gcagacgacc accaactacc tagtggtgag
+      721 cctggctgtg gcagacttgc tggtggccac cttggtgatg ccctgggtgg tctacctgga
+      781 ggtgacaggt ggaatctgga acttcagccg catttgctgt gatgtttttg tcaccctgga
+      841 tgtcatgatg tgtacagcca gcatcctgaa cctctgtgcc atcagcatag acaggtacac
+      901 tgcggtggtc atgccagttc actatcaaca tggcacgggc cagggctctt gccggcgtgt
+      961 ggccctcatg attacagctg tctgggtact ggcgtttgct gtgtcctgcc ctctcctctt
+     1021 tggctttaac acaacagggg accccaacgt ctgctccatc tccaaccctg attttgtcat
+     1081 ctactcctca gtagtgtctt tctatgtgcc ctttggagtg actgtcctcg tgtacgccag
+     1141 gatctacatg gtgctgagac agaggagaag gaaacggatc ctcactcgac agaacagtca
+     1201 gtgtatcagc gtcaggcctg acttccctca gcaacccctc tctcctggtc aagcacacac
+     1261 agagctgaaa cgctactaca gcatctgcca agggaccacc ttgaggcgac caagcttcca
+     1321 agtaggagaa ggagaactga aaagggacga gaggactcgg aactccctga gccccaccgt
+     1381 ggcacccaaa ctcagtttag aagttcgaaa actcagtaat ggcaggttat ctacatccct
+     1441 gaaactgggt tccttacagc ctcgggggat gccacttcga gagaagaagg caacccagat
+     1501 ggtggccatt gtacttgggg ccttcattgt ctgctggctt cccttcttct tgacccacgt
+     1561 tcttaatacc cactgccaag catgccacgt atcaccagag ctttacagag ccaccacgtg
+     1621 gctgggctat gtgaacagtg ccctcaaccc cgtgatctat accaccttca atgtagagtt
+     1681 ccgcaaagcc ttcctcaaga tcctgtcttg ctgatgga
+//

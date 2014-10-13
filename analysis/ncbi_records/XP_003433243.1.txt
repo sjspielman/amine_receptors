@@ -1,0 +1,57 @@
+LOCUS       XP_003433243             372 aa                     MAM 24-SEP-2013
+DEFINITION  PREDICTED: alpha-1D adrenergic receptor [Canis lupus familiaris].
+ACCESSION   XP_003433243
+VERSION     XP_003433243.1  GI:345789532
+DBLINK      BioProject: PRJNA12384
+KEYWORDS    RefSeq.
+SOURCE      Canis lupus familiaris (dog)
+  ORGANISM  Canis lupus familiaris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae;
+            Canis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003726101.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Canis lupus familiaris Annotation
+            Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..372
+                     /sub_species="familiaris"
+                     /breed="boxer"
+                     /sex="female"
+                     /db_xref="taxon:9615"
+                     /organism="Canis lupus familiaris"
+                     /chromosome="24"
+     Protein         1..372
+                     /product="alpha-1D adrenergic receptor"
+                     /calculated_mol_wt="38153"
+     Region          120..370
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..372
+                     /coded_by="XM_003433195.2:29..1147"
+                     /gene="ADRA1D"
+                     /db_xref="GeneID:552897"
+ORIGIN
+        1 mtfrdllivs fegprpdgsa ggssaggcgg gaggaaaseg pavggvpgaa lgggggvmga
+       61 cvgqdnrssa gepggagtgg evngtaavwg lvvsaqgvgv gvflaafilt avagnllvil
+      121 svacnrhlqt vtnyfivnla vadlllsatv lpfsatmevl gfwafgrafc dvwaavdvlc
+      181 ctasilslct isvdryvgvr hslkypaimt erkaaailal lwavalvvsv gpllgwkepv
+      241 ppderfcgit eeagyavfss vcsfylpmav ivvmycrvyv varsttrsle agvkrergka
+      301 sevvlrihcr gasaadgahg prsakghtfr sslsvrllkf srekkaaktl aivvgvfvlc
+      361 wfpfffvlpl ge
+//

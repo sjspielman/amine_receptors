@@ -1,0 +1,101 @@
+LOCUS       XM_004436563            1781 bp    DNA              MAM 11-APR-2013
+DEFINITION  PREDICTED: Ceratotherium simum simum dopamine receptor D3,
+            transcript variant 1 (DRD3), mRNA.
+ACCESSION   XM_004436563
+VERSION     XM_004436563.1  GI:478524849
+DBLINK      BioProject: PRJNA191537
+KEYWORDS    RefSeq.
+SOURCE      Ceratotherium simum simum (southern white rhinoceros)
+  ORGANISM  Ceratotherium simum simum
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Perissodactyla; Rhinocerotidae;
+            Ceratotherium.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004454216.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ceratotherium simum simum Annotation Release
+            100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1781
+                     /sub_species="simum"
+                     /mol_type="mRNA"
+                     /country="USA: San Diego Zoo, California"
+                     /isolate="SDZICR_KB13650"
+                     /sex="female"
+                     /db_xref="taxon:73337"
+                     /organism="Ceratotherium simum simum"
+                     /chromosome="Unknown"
+     gene            1..1781
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 10 mRNAs, 22 Proteins"
+                     /db_xref="GeneID:101388007"
+                     /gene="DRD3"
+     misc_feature    440..442
+                     /note="upstream in-frame stop codon"
+                     /gene="DRD3"
+     CDS             515..1717
+                     /product="D(3) dopamine receptor isoform 1"
+                     /codon_start="1"
+                     /db_xref="GI:478524850"
+                     /db_xref="GeneID:101388007"
+                     /translation="MAPLSQLSGHINSTCWAENSTGDSRAGPHSYYALSYCVLILAIIF
+                     GNGLVCVAVLRERALQTTTNYLVVSLAVADLLVATLVMPWVVYLEVTGGVWNFSRVCCD
+                     VFVTLDVMMCTASILNLCAISIDRYTAVVMPVHYQHGTGQSSCRRVALMITAVWVLAFA
+                     VSCPLLFGFNTTGDPSVCSISNPDFVIYSSVVSFYLPFGVTVLVYARIYVVLRQRRRKR
+                     ILTRQNSQCISVRPGFPQQPLSPGQAHMELKRYYSICQDTALGRPGFQEAGGELKREGR
+                     TQNSLSPTMAPKLSLEVRKLSNGRLSTSLKLGPLQPRGVPLREKKATQMLVIVLGTFIV
+                     CWLPFFLTHILNAHCQACHVSPKLYSATTWLGYVNSALNPVIYTTFNVEFRKAFLKILS
+                     C"
+                     /gene="DRD3"
+                     /protein_id="XP_004436620.1"
+     STS             1090..1169
+                     /db_xref="UniSTS:266442"
+                     /standard_name="DRD3"
+                     /gene="DRD3"
+     STS             1539..1716
+                     /db_xref="UniSTS:53374"
+                     /standard_name="RH71216"
+                     /gene="DRD3"
+ORIGIN
+        1 gtaaagacag tgggaaaact gggattaaaa agagtactga gggaaaaata cacatgcact
+       61 aaaaagcgaa gcacagagca gatagaggca cagagggaaa agaggagagc aaggtagaaa
+      121 acaatccagc ttctgcccac acgctctctc tttcagcacc aaggacagag cctctgaagg
+      181 gctgacccaa gcaacattca gtttagggtt cctcccaaat cctctaggaa aaacggatgc
+      241 atttgaaagc agctaggaaa catgcagtaa ggtctaatag ggaagctaga agagcagcac
+      301 acaagtgatt tcaccttaga ggcaaaaatg ggtggttttc tttctgttca tttccacagt
+      361 ttctgtgtcc tgggaaaggc aaagtttgct ttgcttgggt atgtcttccg tcagtaaaag
+      421 gctgcaggag cggaggtgct aaactccaca gtctccagaa atcagaagaa attttcaggg
+      481 aaacctcttg gggtcacacc tctccctctg ggctatggca cctctgagcc agctgagtgg
+      541 ccacatcaac tccacctgct gggcagagaa ttccacggga gacagccggg ctggcccaca
+      601 ctcctactac gccctctctt actgtgtgct catcctggct atcatcttcg gcaatggcct
+      661 ggtgtgtgtg gccgtgctga gggaacgggc cctgcagacc accaccaact acctggtggt
+      721 gagcctggcc gtggcggacc tgctggtggc caccttggtg atgccctggg tggtgtacct
+      781 ggaggtgaca ggtggagtct ggaatttcag ccgagtttgc tgcgatgttt tcgtcaccct
+      841 ggatgtcatg atgtgtacag ccagcatcct gaacctctgt gccatcagca tcgacaggta
+      901 caccgcggtg gtcatgccag ttcactatca acatggcact ggacagagct cctgtcggcg
+      961 agtggccctc atgattacag ccgtctgggt actggccttt gctgtgtctt gccctctcct
+     1021 ctttggcttc aacaccacag gggaccccag cgtctgctcc atctccaacc ctgattttgt
+     1081 catctactct tcagtagtgt ccttctacct gccctttgga gtcactgtcc tcgtctacgc
+     1141 caggatctat gtggtgttga gacagaggag acggaaacgg atcctgactc gacagaacag
+     1201 ccagtgcatc agtgtcagac ctggcttccc ccaacaaccc ctctcccctg gccaggcaca
+     1261 catggagctg aagcgctact acagcatctg ccaagatact gccttgggac gaccaggctt
+     1321 ccaagaagcg ggaggagagt tgaaaaggga ggggaggact cagaactccc tcagccccac
+     1381 catggccccc aagctcagct tagaggttcg aaaacttagt aatggcaggt tgtcgacatc
+     1441 cctgaagctg gggcccctgc aacctcgggg agtgcccctt cgggagaaga aggcaaccca
+     1501 gatgctggtc attgtgctcg ggaccttcat tgtctgctgg ctgccattct tcttgaccca
+     1561 cattctcaat gcccactgcc aagcatgcca cgtgtccccg aagctttaca gtgccacgac
+     1621 atggctgggc tacgtgaaca gcgccctcaa ccccgtgatc tataccacct tcaatgttga
+     1681 gttccgcaaa gcctttctca agatcctgtc ttgctgaagg agaaaaaaga atgctctctg
+     1741 tgcccaccgt cagctgcaag gccactgagc cactggccag a
+//

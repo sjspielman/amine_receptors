@@ -1,0 +1,79 @@
+LOCUS       XM_004044692            1146 bp    DNA              PRI 03-DEC-2012
+DEFINITION  PREDICTED: Gorilla gorilla gorilla trace amine associated receptor 5
+            (TAAR5), mRNA.
+ACCESSION   XM_004044692
+VERSION     XM_004044692.1  GI:426354593
+KEYWORDS    RefSeq.
+SOURCE      Gorilla gorilla gorilla (western lowland gorilla)
+  ORGANISM  Gorilla gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004003340) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Gorilla gorilla Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1146
+                     /db_xref="taxon:9595"
+                     /sub_species="gorilla"
+                     /mol_type="mRNA"
+                     /organism="Gorilla gorilla gorilla"
+                     /chromosome="6"
+     gene            1..1146
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 6 mRNAs, 3 ESTs, 21 Proteins"
+                     /db_xref="GeneID:101154095"
+                     /gene="TAAR5"
+     misc_feature    49..51
+                     /note="upstream in-frame stop codon"
+                     /gene="TAAR5"
+     CDS             52..1065
+                     /product="trace amine-associated receptor 5"
+                     /codon_start="1"
+                     /db_xref="GI:426354594"
+                     /db_xref="GeneID:101154095"
+                     /translation="MRAVFVQGAEEHPAAFCYQVNGSCPRTVHTLGIQLVIYLACAAGM
+                     LIIVLGNLFVAFAVSYFKALHTPTNFLLLSLALADVFLGLLVLPLSTIRSVESCWFFGD
+                     FLCRLHTYLDTLFCLTSIFHLCFISIDRHCAICDPLLYPSKFTVRVALRYILAGWGVPA
+                     AYTSLFLYTDVVETRLNQWLEEMPCVGSCQLLLNKFWGWLNFPLFFVPCLIMISLYVKI
+                     FVVATRQAQQITTLSKSLAGAAKHERKAAKTLGIAVGIYLLCWLPFTIDTMVDSFLHFI
+                     TPPLVFDIFIWFAYFNSACNPIIYVFSYQWFRKALKLTLSQKVFLPQKRTVDLYQE"
+                     /gene="TAAR5"
+                     /protein_id="XP_004044740.1"
+     STS             52..1065
+                     /db_xref="UniSTS:481448"
+                     /gene="TAAR5"
+ORIGIN
+        1 ccagtggaga aggtggccag ttctcagaca gaggaagagt agaaaccata aatgagagct
+       61 gtcttcgtcc aaggtgctga agagcaccct gcggcattct gctaccaggt gaatgggtct
+      121 tgccccagga cagtacatac tctgggcatc cagttggtca tctacctggc ctgtgcagca
+      181 ggcatgctga ttatcgtgct agggaattta tttgtggcat ttgctgtgtc ctacttcaaa
+      241 gcgcttcaca cgcccaccaa cttcttgctg ctctccctgg ccctggctga cgtgtttctg
+      301 ggtctgctgg tgctgcccct cagcaccatt cgctcagtgg agagctgctg gttcttcggg
+      361 gacttcctct gccgcctgca cacctacttg gacaccctct tctgcctcac ctccatcttc
+      421 catctctgtt tcatttccat tgaccgccac tgtgccatct gtgaccccct gctctatccc
+      481 tccaagttca cagtgagggt ggctctcagg tacatcctgg caggatgggg ggtgcccgca
+      541 gcatacactt ccttattcct ctacacagat gtggtagaga caaggctcaa ccagtggctg
+      601 gaagagatgc cttgtgtggg cagttgccag ctgctgctca ataaattttg gggctggtta
+      661 aacttccctt tgttctttgt cccctgcctc attatgatca gcttgtatgt gaagatcttt
+      721 gtggttgcta ccagacaggc tcagcagatt accacattga gcaaaagcct ggctggggct
+      781 gccaagcatg agagaaaagc tgccaagacc ctgggcattg ctgtgggcat atacctcttg
+      841 tgctggctgc ccttcaccat agacacgatg gtcgacagct tccttcactt tatcacaccc
+      901 ccactggtct ttgacatctt tatctggttt gcttacttca actcagcctg caaccccatc
+      961 atctatgtct tttcctacca gtggtttcgg aaggcactga aactcacgct gagccagaag
+     1021 gtcttcttac cgcagaaacg cactgttgat ttgtaccaag aatgattcct tctactaaat
+     1081 gcaggcaagg agtaggacct cacaggaaag atgagtggca ctgtgaccat gggctgtgtg
+     1141 gtgttg
+//

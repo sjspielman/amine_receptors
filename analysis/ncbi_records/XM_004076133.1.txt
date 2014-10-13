@@ -1,0 +1,98 @@
+LOCUS       XM_004076133            2262 bp    DNA              VRT 21-DEC-2012
+DEFINITION  PREDICTED: Oryzias latipes D(1)-like dopamine receptor-like
+            (LOC101172264), mRNA.
+ACCESSION   XM_004076133
+VERSION     XM_004076133.1  GI:432895826
+KEYWORDS    RefSeq.
+SOURCE      Oryzias latipes (Japanese medaka)
+  ORGANISM  Oryzias latipes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Atherinomorphae; Beloniformes;
+            Adrianichthyidae; Oryziinae; Oryzias.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004088002) annotated using gene prediction method: GNOMON,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Oryzias latipes Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2262
+                     /note="ultracontig161"
+                     /db_xref="taxon:8090"
+                     /mol_type="mRNA"
+                     /organism="Oryzias latipes"
+                     /chromosome="14"
+     gene            1..2262
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 2 ESTs, 26 Proteins"
+                     /db_xref="GeneID:101172264"
+                     /gene="LOC101172264"
+     misc_feature    399..401
+                     /note="upstream in-frame stop codon"
+                     /gene="LOC101172264"
+     CDS             405..1796
+                     /product="D(1)-like dopamine receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:432895827"
+                     /db_xref="GeneID:101172264"
+                     /translation="MDQNFSTVRDGRQLTAERDSSKRVLTGCFLSLLIFTTLLGNTLVC
+                     AAVTKFRHLRTKVTNYFVISLAISDLLVAILVMPWKAATEIMGFWPFGAFCNVWVAFDI
+                     MCSTASILNLCVISVDRYWAISSPFRYERKMTPKVACLMISAAWTLSVLISFIPVQLNW
+                     HKAQTTTYAELNGTYLLDLPPDNCDSSLNRTYAISSSLISFYIPVAIMLVTYTRIYRIA
+                     QKQIRRISALERAAESAKNRHSSMGNSSSMESESSFKMSFKRETKVLKTLSVIMGVFVC
+                     CWLPFFILNCMVPFCETNMPDGSTDFPCISSTTFDVFVWFGWANSSLNPIIYAFNADFR
+                     KAFSILLGCHRLCPGSNSIEIVSINNNMGGATSNPNCLYQPKSHIPKEGNNSASYVIPH
+                     SILCQEEELQKKEGCRGENEVGMVSNTLEKPSPAISGNLDSDAEVTLEKINPITQNGQH
+                     KAVSC"
+                     /gene="LOC101172264"
+                     /protein_id="XP_004076181.1"
+ORIGIN
+        1 aagagaggaa actttataag gaatgagctg accagaagag caaatgcaaa caacagctgg
+       61 aacctttttg tccctcaaca aagtagaatg tcggccgtct gtgttgctgc tgcaggaatc
+      121 aacgactatt tttggggagg aattcttgag ggcaaggttt tgaaacactt ttaacatcat
+      181 ttgtgcaaac atggtgtttg tgccgaggag cctgcggatg acccagactg tgggagagct
+      241 ggtgccaaga cagtttagct ctccagcagc agcgctgttt gtctgatgct ctctctcaca
+      301 gcggcacatc agcgactgcg ggctggagat gtgatggggt gagtgctgac aaccccctca
+      361 cccaaccccc tgtctctcac gttgttagca caataatata aacaatggat cagaatttct
+      421 caacagtacg agatggcagg cagctcacgg cagagagaga ctcgtcaaag cgggttctga
+      481 caggatgctt cctgtccctg ctcattttca caacgctact aggcaacacc ctcgtgtgtg
+      541 ctgccgtcac caagttccga cacctgagga cgaaggtcac caactacttt gtcatctcgc
+      601 tggccatctc tgaccttctg gttgctattt tagtgatgcc gtggaaggca gccacagaga
+      661 tcatggggtt ttggccgttt ggagctttct gcaatgtctg ggtggccttt gacatcatgt
+      721 gctccacagc ctccatcctg aatctttgtg tgatcagcgt tgatcgttac tgggccatct
+      781 ccagtccgtt ccgctatgaa cgcaagatga ctcctaaggt ggcatgtcta atgataagtg
+      841 cagcctggac tttatctgta ctcatctcct tcattcctgt ccagcttaac tggcacaaag
+      901 ctcagaccac cacctatgca gaactaaacg ggacatacct cttagatctg ccccctgaca
+      961 actgcgactc cagccttaac aggacatatg ccatctcatc ctccctcatc agcttctaca
+     1021 tccctgtggc gattatgctg gtcacctaca cgcgaattta ccgcattgcc cagaaacaga
+     1081 tccgaaggat atctgccttg gaaagagctg cagagagtgc caaaaaccgc cacagtagca
+     1141 tggggaatag ttcaagcatg gaaagcgaga gctccttcaa aatgtctttt aaacgagaaa
+     1201 ccaaagtgtt aaagacgctc tcagtcatca tgggcgtgtt tgtgtgttgc tggttgccct
+     1261 tcttcatcct gaactgcatg gttccgttct gcgaaacaaa catgccggat ggatccacgg
+     1321 acttcccctg catcagctcc accacttttg atgtgtttgt gtggtttggc tgggcaaact
+     1381 cctcactgaa ccccatcatc tatgccttca atgctgactt ccgcaaggcc ttctccatcc
+     1441 tcttgggttg ccacagactc tgtccgggga gcaactccat cgagatcgtc agcatcaaca
+     1501 acaacatggg cggcgctacc tcgaacccca actgcctgta tcaacccaag agccacatcc
+     1561 cgaaggaggg caacaattca gccagctatg tgattcccca cagcatctta tgtcaggagg
+     1621 aggagttaca aaagaaagaa ggatgtagag gggagaatga ggtgggaatg gtaagcaaca
+     1681 ccctagagaa accctcccca gcgatctctg ggaatttaga cagtgatgca gaggtcacgc
+     1741 tggaaaagat caatcccata acccagaatg ggcaacataa agctgtgtca tgttgagaga
+     1801 atgtcagcaa aaatggatat aaatgcagca atgcttctgt gtgtggacca cagcaggcaa
+     1861 gactcacaca ggggagcaga aaaggaaaca ttagagacaa acatctctga caggaaccca
+     1921 gtggcaggac gagcagacgt ggaaaaaaac ctacagaatg ttttaatgta aaggcacttt
+     1981 atcttgaaaa taactatctg caaaatacag tcaacattta ttgatgaaat tacttcattt
+     2041 gatgataaat gttgatgata tgtatgataa aacagaacac cagtgcagac gtatgatgca
+     2101 tacatctgca tatgtatgat gtacagcaat gtcactcatt tggaaagagt atatacagtg
+     2161 gggggaaaat gtagcattag tgaaatatca tgtaggtaca gtaggtgctt gtttgtgtta
+     2221 aatgaaagga caacgtggct gaatcaatgc agtaaaaata gt
+//

@@ -1,0 +1,58 @@
+LOCUS       XP_004050150             465 aa                     PRI 03-DEC-2012
+DEFINITION  PREDICTED: alpha-2A adrenergic receptor [Gorilla gorilla gorilla].
+ACCESSION   XP_004050150
+VERSION     XP_004050150.1  GI:426366201
+KEYWORDS    RefSeq.
+SOURCE      Gorilla gorilla gorilla (western lowland gorilla)
+  ORGANISM  Gorilla gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004004856) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Gorilla gorilla Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..465
+                     /db_xref="taxon:9595"
+                     /sub_species="gorilla"
+                     /organism="Gorilla gorilla gorilla"
+                     /chromosome="10"
+     Protein         1..465
+                     /product="alpha-2A adrenergic receptor"
+                     /calculated_mol_wt="50456"
+     Region          57..>185
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          71..441
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..465
+                     /coded_by="XM_004050102.1:975..2372"
+                     /gene="ADRA2A"
+                     /db_xref="GeneID:101137632"
+ORIGIN
+        1 mfrqeqplae gsfapmgslq pdagnaswng teapgggara tpyslqvtlt lvclagllml
+       61 ltvfgnvlvi iavftsralk apqnlflvsl asadilvatl vipfslanev mgywyfgkaw
+      121 ceiylaldvl fctssivhlc aisldrywsi tqaieynlkr tprrikaiii tvwvisavis
+      181 fpplisiekk gggggpqpae prceindqkw yvisscigsf fapclimilv yvriyqiakr
+      241 rtrvppsrrg pdavaappgg aerrpnglgp ersagpggae aeplptqlng apgepapagp
+      301 rdadaldlee ssssdhaerp pgprrpergp rgkgkarasq vkpgdslprr gpgatgigtp
+      361 aagpgeervg aakasrwrgr qnrekrftfv lavvigvfvv cwfpffftyt ltavgcsvpr
+      421 tlfkfffwfg ycnsslnpvi ytifnhdfrr afkkilcrgd rkriv
+//

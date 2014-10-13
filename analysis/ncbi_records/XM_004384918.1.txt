@@ -1,0 +1,108 @@
+LOCUS       XM_004384918            2063 bp    DNA              MAM 27-MAR-2013
+DEFINITION  PREDICTED: Trichechus manatus latirostris adrenoceptor beta 2,
+            surface (ADRB2), mRNA.
+ACCESSION   XM_004384918
+VERSION     XM_004384918.1  GI:471406594
+DBLINK      BioProject: PRJNA189960
+KEYWORDS    RefSeq.
+SOURCE      Trichechus manatus latirostris (Florida manatee)
+  ORGANISM  Trichechus manatus latirostris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Afrotheria; Sirenia; Trichechidae; Trichechus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004444066.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Trichechus manatus latirostris Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2063
+                     /sub_species="latirostris"
+                     /mol_type="mRNA"
+                     /isolate="Lorelei"
+                     /sex="female"
+                     /db_xref="taxon:127582"
+                     /organism="Trichechus manatus latirostris"
+                     /chromosome="Unknown"
+     gene            1..2063
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 mRNAs, 41 Proteins"
+                     /db_xref="GeneID:101343539"
+                     /gene="ADRB2"
+     misc_feature    140..142
+                     /note="upstream in-frame stop codon"
+                     /gene="ADRB2"
+     CDS             251..1507
+                     /product="beta-2 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:471406595"
+                     /db_xref="GeneID:101343539"
+                     /translation="MGQPGNSSVFLLAPNGSHEPDHNVTQERDEAWVVGMGIVMSLIIL
+                     AIVFGNVLVITAIAKFERLQTVTNYFITSLACADLVMGLAVVPFGASHILMKMWTFGNF
+                     WCEFWTSIDVLCVTASIETLCVIAVDRYFAITSPFKYQSLLTKNKARVVILMVWIVSGL
+                     TSFLPIQMHWYRATHQEAINCYAKETCCDFFTNQAYAIASSVVSFYLPLVVMVFVYSRV
+                     FQVAKRQLQKIDKSEGRFHTQNLNQMEQDGRSGHGHRRSSKFCLKEHKALKTLGIIMGT
+                     FTLCWLPFFIVNIVHVIQDNLISKEVYILLNWVGYVNSAFNPLIYCRSPDFRIAFQELL
+                     CLHRSSLKAYGNGYSNNSNSKTDYTGEHSGYHLGQEKESELLCEDPPGMQDFVNCQGIV
+                     PNDSIDSRGRNCSTNDSLL"
+                     /gene="ADRB2"
+                     /protein_id="XP_004384975.1"
+     STS             377..1264
+                     /db_xref="UniSTS:265908"
+                     /standard_name="ADRB2"
+                     /gene="ADRB2"
+     STS             667..1121
+                     /db_xref="UniSTS:258478"
+                     /standard_name="ADRB2sts1"
+                     /gene="ADRB2"
+     STS             1707..1967
+                     /db_xref="UniSTS:65272"
+                     /standard_name="WI-19151"
+                     /gene="ADRB2"
+ORIGIN
+        1 gcacataacg ggcagggcgc actcagaggc ggcttctcca gagcgcaggc tgcaactgac
+       61 aggcacggcg agcccagggc accccacaaa gctgagtatg caggacgcac cccaccacac
+      121 ccaccccatg gccgctgaat gaggcttcca ggcgtccgct cgcctcccgc agcgccccgc
+      181 cggaggtctg ccagctgaga cgccgctagt gcgcctgcag ccagtgcgct cacctgccag
+      241 cctgcgcgcc atggggcaac ccgggaacag cagcgtcttc ttgctggcgc ccaacggaag
+      301 ccacgagccg gaccacaacg tcacgcaaga acgggacgag gcgtgggtag tgggcatggg
+      361 catcgtcatg tcgctcatca tcctggccat cgtgtttggt aacgtgctgg tcatcacggc
+      421 catcgccaag tttgagcgtc tgcaaacggt caccaactac tttatcacct cgctggcctg
+      481 tgctgacttg gtcatgggcc tggcggtggt gccctttggg gccagccaca tcctcatgaa
+      541 aatgtggact tttggcaact tctggtgtga gttttggacc tccattgacg tgttatgcgt
+      601 cactgccagc atcgaaaccc tgtgtgtgat cgcagtggat cgttattttg ccatcacatc
+      661 acccttcaag taccagagcc tgctgaccaa gaataaggcc agggtggtca ttttgatggt
+      721 atggatcgtg tcaggcctta cttccttctt gcccatccag atgcactggt accgggccac
+      781 ccatcaggaa gctatcaact gctatgccaa agaaacctgc tgtgacttct tcacgaacca
+      841 agcctatgcc attgcctcct ccgttgtgtc cttctacttg cccctggtgg tcatggtctt
+      901 tgtctactcc agggtcttcc aagtggccaa aagacagctc cagaagattg ataaatctga
+      961 gggccgcttc cacactcaaa acctgaacca gatggagcag gacgggcgga gcggccatgg
+     1021 acatcgcagg tcctccaagt tctgcttgaa ggaacacaaa gccctcaaga ctttaggcat
+     1081 catcatgggc acgttcaccc tctgctggct gcccttcttc attgtcaaca ttgtgcatgt
+     1141 gatccaggac aacctcatct ctaaggaagt ttatatcctc ctaaactggg tgggctatgt
+     1201 caattctgct ttcaatcccc ttatttactg ccgaagccca gattttagga ttgccttcca
+     1261 ggagcttctg tgcctgcaca ggtcttctct gaaggcctat gggaacggct actccaacaa
+     1321 cagcaacagc aaaaccgact acacagggga gcacagtgga tatcacctgg ggcaggagaa
+     1381 ggaaagtgaa ctgctgtgtg aggatccccc aggcatgcaa gactttgtga actgtcaagg
+     1441 tattgtgcct aacgatagca ttgattcacg agggaggaat tgtagcacaa atgactcact
+     1501 gctgtagtgc agtttttcta ctttttaaga ctcccccctc cccaaggaac actaaacaga
+     1561 ctatttaact tgagtgtaat aaatttagaa taaaattgta tagagatgtg caggaggaag
+     1621 caaatccttc tgcctttttt tattattatt tttttaagct gtaaaaaaag agaaagcata
+     1681 tttgagtgat ttgtttcttg tacagttcag ttcctctttg catggaactt ttaagtttat
+     1741 atctgaaggg cttttgtcct agaggacctg ggtctgctat gttttgacga ctcttccgtg
+     1801 tatctacctc attggtcaag tattaggggt aatatattgc tgctggtaat ttgcatctga
+     1861 aggagatgtt ccttcctgca ctcttggact tgaggatctt gagtatctcg gacctttcag
+     1921 ctgtgaacat ggactctccc tgctcctctt atttgctcaa acggggtgtt gtaggcaggg
+     1981 atttgagggg cagcttcagt tgttttcctg agcaaagtct aaagtttaca gtaaataaat
+     2041 tgtttaacca tgacttcatt gca
+//

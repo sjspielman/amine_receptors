@@ -1,0 +1,93 @@
+LOCUS       XM_006165110            1799 bp    DNA              MAM 03-DEC-2013
+DEFINITION  PREDICTED: Tupaia chinensis adrenoceptor alpha 1B (ADRA1B), mRNA.
+ACCESSION   XM_006165110
+VERSION     XM_006165110.1  GI:562874650
+DBLINK      BioProject: PRJNA221634
+KEYWORDS    RefSeq.
+SOURCE      Tupaia chinensis (Chinese tree shrew)
+  ORGANISM  Tupaia chinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Scandentia; Tupaiidae; Tupaia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006203646.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Tupaia chinensis Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1799
+                     /mol_type="mRNA"
+                     /country="China"
+                     /sex="male"
+                     /db_xref="taxon:246437"
+                     /organism="Tupaia chinensis"
+                     /chromosome="Unknown"
+     gene            1..1799
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 20 Proteins, and 78% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:102486850"
+                     /gene="ADRA1B"
+     CDS             285..1799
+                     /product="alpha-1B adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:562874651"
+                     /db_xref="GeneID:102486850"
+                     /translation="MNPHLDSGHNTSAPAHWGELKNANFTGPNQTSSNSTLPQLDITRA
+                     ISVGLVLGTFILFAIVGNILVILSVACNRHLRTPTNYFIVNLAIADLLLSFTVLPFSAA
+                     LEVLGYWVLGRIFCDIWAAVDVLCCTASILSLCAISIDRYIGVRYSLQYPTLVTRRKAI
+                     LALLSVWVLSTVISIGPLLGWKEPAPNDDKECGVTEEPFYALFSSLGSFYIPLAVILVM
+                     YCRVYIVAKRTTKNLEAGVMKEMSNSKELTLRIHSKNFHEDTLSSTKAKGHNPRSSIAV
+                     KLFKFSREKKAAKTLGIVVGMFILCWLPFFIALPLGSLFSTLKPPDAVFKVVFWLGYFN
+                     SCLNPIIYPCSSKEFKRAFVRILGCQCRGRRRRRRRRRRGGGLAQTGSDWLRPVYTGSY
+                     RFRLAQTGSNRFRLAQTGSDWLRPVYTGSYRFRLAQTGSNRFRLAQTGSDWLRPVYTGS
+                     YRFRLAQTGSNRFRPVYTSSYRFRLAHTGSNRFRPAHAGSDQFRPV"
+                     /gene="ADRA1B"
+                     /protein_id="XP_006165172.1"
+     STS             335..1090
+                     /db_xref="UniSTS:271116"
+                     /standard_name="PMC150908P1"
+                     /gene="ADRA1B"
+ORIGIN
+        1 cgagctcccc agagagccct gccggcgcgc ctgacgtgga ccattaaact tggagctgcc
+       61 gcctcgtcct ctctcctcct ccctgtgaca ggcgagcgag cggctcggtg caggcaggag
+      121 ccgtgctgcc gggctgggct gcccggggga gatgacttct cgccaggagg gcgcctctgg
+      181 gaagaagacc acggaggaag caaagtttca gggcagctga ggagccttcg ccgcagccct
+      241 tccgagccca atcacccccc tggctatgga gggcggactc taaaatgaat ccccatctgg
+      301 acagcggcca caacacatca gcacctgccc actggggaga gttgaaaaat gccaacttca
+      361 ctggccccaa ccagacctcg agcaactcca cactgcccca gctggacatc accagggcca
+      421 tctctgtggg cctggtcctg ggcaccttca tcctctttgc catcgtgggt aacatcctcg
+      481 tcatcttgtc tgtggcctgc aaccggcacc tgcggacgcc caccaactac ttcatcgtca
+      541 acctggccat cgccgacctg ctgctgagct tcaccgtcct gccgttctcc gctgccctgg
+      601 aggtgctcgg ctactgggtg ctggggcgga tcttctgtga catctgggcg gccgtggacg
+      661 tcctgtgctg cacggcctcc attctgagcc tgtgcgccat ctccatcgat cgctacatcg
+      721 gggtccgcta ctctctgcag taccccacgc tggtcacccg gaggaaggcc atcttggcgc
+      781 tcttaagtgt ctgggtgttg tccacagtca tctccattgg gcctctcctt gggtggaagg
+      841 agcctgcacc caacgatgac aaagaatgtg gggtcacgga agaacccttc tacgccctgt
+      901 tctcctccct gggctccttc tacatccctt tggcggtcat tctggtcatg tactgccgcg
+      961 tctacatcgt tgccaagagg accaccaaga acctggaggc gggtgtcatg aaggagatgt
+     1021 ccaactccaa ggagttgacc ctgagaatcc actccaagaa ctttcatgag gacaccctca
+     1081 gcagtaccaa ggccaagggc cacaaccccc ggagttccat agctgtcaaa ctttttaagt
+     1141 tctccaggga aaagaaagca gccaagacct tgggcattgt ggtcggtatg ttcatcttgt
+     1201 gttggctccc cttcttcatt gctctaccac ttggctccct gttctccacc ctgaagcccc
+     1261 cggacgccgt gttcaaggtg gtgttctggc tgggctactt caacagctgc ctcaacccca
+     1321 tcatctaccc gtgctccagc aaggagttca agcgcgcctt tgtgcgcatc ctcgggtgcc
+     1381 agtgtcgcgg ccgccgccgc cgccgccgcc gtcgccgccg gggcggggga ctggctcaga
+     1441 ccggttcaga ctggctcagg ccggtttata ccggctcata ccggttcaga ctggctcaga
+     1501 ccggttcaaa ccggtttaga ctggctcaga ccggttcaga ctggctcagg ccggtttata
+     1561 ccggctcata ccggttcaga ctggctcaga ccggttcaaa ccggtttaga ctggctcaga
+     1621 ccggttcaga ctggctcagg ccggtttata ccggctcata ccggttcaga ctggctcaga
+     1681 ccggttcaaa ccggttcagg ccagtttata ccagctcata ccggttcaga ctggctcata
+     1741 ccggttcaaa ccggtttaga ccggctcatg ccggttcaga ccagttcaga ccagtttaa
+//

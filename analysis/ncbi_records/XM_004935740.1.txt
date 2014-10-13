@@ -1,0 +1,143 @@
+LOCUS       XM_004935740            4521 bp    DNA              VRT 19-JUN-2013
+DEFINITION  PREDICTED: Gallus gallus trace amine associated receptor 1 (TAAR1),
+            mRNA.
+ACCESSION   XM_004935740
+VERSION     XM_004935740.1  GI:513177022
+DBLINK      BioProject: PRJNA10808
+KEYWORDS    RefSeq.
+SOURCE      Gallus gallus (chicken)
+  ORGANISM  Gallus gallus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Galliformes;
+            Phasianidae; Phasianinae; Gallus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001471668.2) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Gallus gallus Annotation Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4521
+                     /mol_type="mRNA"
+                     /breed="Red Jungle fowl, inbred line UCD001"
+                     /isolate="#256"
+                     /sex="female"
+                     /db_xref="taxon:9031"
+                     /organism="Gallus gallus"
+                     /chromosome="3"
+     gene            1..4521
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 5 ESTs, 13 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 8 samples with support for all
+                     annotated introns"
+                     /db_xref="CGNC:10460"
+                     /db_xref="GeneID:768536"
+                     /gene="TAAR1"
+     misc_feature    1876..1878
+                     /note="upstream in-frame stop codon"
+                     /gene="TAAR1"
+     CDS             1906..2904
+                     /product="trace amine-associated receptor 1"
+                     /codon_start="1"
+                     /db_xref="GI:513177023"
+                     /db_xref="CGNC:10460"
+                     /db_xref="GeneID:768536"
+                     /translation="MQLCCESVNGSCVKSNWSNSIRISMYIFMVCVILTTVIGNLMVII
+                     SISHFKQLHTPTNFLIISMATADFLLGFLIMPCSMVRSVEHCWYFGDFFCKIHTSTDIM
+                     LSTTSIFHLSFISIDRYYAVCDPLRYKSKINAFVILVMILVSWTVPAAFAFGMIFLELN
+                     LLGAKEIYNHTHCAGGCLVFFSETSGVVTSVVSFYIPGLVMLFIYRKIYSIAKRQARSI
+                     DAVSKKKKRYETKHISFCRERKAAKTLCIVMGVFLICWSPFFFFTATDPFMNYAAPPVL
+                     TDTLVWFGYLNSAFNPIVYAFFYMWFRRALKTILFGNIFQQDSSRTQLFLE"
+                     /gene="TAAR1"
+                     /protein_id="XP_004935797.1"
+ORIGIN
+        1 atctaccacc tctctgggtt tgttccattg cctcaccacc cttactgtaa aaaattttct
+       61 ccaacataaa tctcccgccc tttagtttga ggccgtttcc ccttgtcctt ttacaagaga
+      121 ccctgctgaa gagtctgtcc ccttctttct tacagccccc ctttatatcc tgagaggcca
+      181 ctatttggtc tttctggagc cttctcttct ccaggctgaa cggccccacc tctctcagtc
+      241 tgtcctcata ggagaggttt ccgtccctca gatcatcttt gcagccctcc tctggatgtg
+      301 ctacaacagg cctatgtcta tcctgtacag aggactccac atctgaatgc gatactctag
+      361 gtgaggcctc accagtgcag agtagagggg caggatcacc tctctcaccc tgttggccat
+      421 gattcttttg atgcagctca ggatatggtt agctttctag gctgtgagga cactttgctg
+      481 gctcatgtcc agctacctat ccaccagtaa aaatagccta tagtacaatg cagacttttg
+      541 ggcttgcaca tgggctatta gaaatattca aatgtactta tttttttcta ggcaaacagc
+      601 atgcaccaat catagtcaaa tccagcattt gagaaaggca acagagacta ctctgtgtga
+      661 gaacagaggc tccccatgat ttgcttattg atgtgtatgc ccttatgggc aattttattt
+      721 tttagtggct tcagttagag tagccacctt cagaccagaa ttcatggaga gttgtcccgt
+      781 ctgttcagcc tcatgtcctc tctgccactt tgccaggccc acactctcct acctcctaac
+      841 ccaagtgagc atgtggatgt tgtgacctga gccgtacacg tcctgctcag gactcagaga
+      901 aacctcagag gagcaggagc tgactttcca tcggtgcaac ccactagctg acacatggaa
+      961 actaacccaa aaatgtgtcc tctcacttgg aattacttcc tactgaaagg actctctttc
+     1021 ttgggctcca cagcaatact gaaacttgct gttagaagat gcagatgctt ataaatgggc
+     1081 tttaaaaatg agcaagttgt gatctgatca ctgatgattt atagtttgtc catacttagc
+     1141 tatagttcct ctgggatgat aaaagagata caaataggca atcaacatct attaagtctc
+     1201 tgctacaaag catattgaaa ccggatcatt gtaaatagag gataagcaga agttttcaat
+     1261 cagaaagaaa caacatcttt ttttgtttgt cttgttctca ggtactgtag aagtatcaaa
+     1321 actgaatttt cttgaaaata cccagtctgg gatagacagg tcacatttcc cgagataact
+     1381 ccaattgcta aagtttgaca aagtttaaca aaactgaaag tagggccctg aaatggaaaa
+     1441 catcaggcta tcaaaatgac agtttagtgc cgttaagcta gactttgaac ataacaaatg
+     1501 tgggtttttt tgttgttgtt gttgtttttt ttctgtatgc atctttacat gagcctgact
+     1561 tacttcagat gggttcatct ttgcatatgc aactggctgg tgacagacaa gatgtattgt
+     1621 ctgcttatct tttctgaata gcaagtatct acgtcattct ctagatgaga ttttcccacc
+     1681 aggctgtaat ccagaagcag actgaagcag acagctgcca agctgtgggc tctgcatggg
+     1741 atgagtcact attgtgctgt atctgcaggc tgcaccagtt tgtcatgagg aagtagctcc
+     1801 tgagcagctt ccttcacaac aaaaagagga aacagctgta agtgcacctc agcattagga
+     1861 caagtctgta tcacatagca gtgtggattt gatacctcag taaggatgca gctgtgctgt
+     1921 gaatcggtaa atggctcttg tgtaaagagc aattggtcaa acagtatccg tatttccatg
+     1981 tatatcttca tggtttgcgt tattctgacc acagtgattg gaaatctaat ggttatcatc
+     2041 tcaatatcac attttaagca gctccacact cctaccaact tcctgataat ttccatggct
+     2101 acagctgact ttttgctggg attcctcatc atgccttgca gcatggtgcg ctctgttgag
+     2161 cactgctggt attttgggga cttcttctgc aagatccaca caagcacaga catcatgctg
+     2221 agcacgactt ccatcttcca tctttccttc atatccattg atcgttacta tgctgtgtgt
+     2281 gaccctctca ggtacaaatc aaagataaat gcttttgtta tcctggtcat gatattggta
+     2341 agttggactg tccctgcagc ttttgctttt gggatgatct ttctagaact aaatttgcta
+     2401 ggggcaaaag agatttataa tcacacccat tgtgcaggag gatgcttggt cttctttagt
+     2461 gaaacttcag gtgtcgttac ctccgtagtg tctttttaca tccctggatt agttatgctg
+     2521 ttcatctaca ggaaaatata ctctatagcc aaaaggcagg caagatccat tgatgcagtt
+     2581 agcaaaaaga agaaaagata tgaaacgaag cacatttcat tctgcagaga aagaaaagct
+     2641 gcaaagacat tatgcatagt aatgggagta tttctcatat gctggagccc attcttcttc
+     2701 tttacagcaa ctgatccatt tatgaattat gcagcacctc ctgttctcac tgacactttg
+     2761 gtttggtttg gttatttaaa ttctgcattt aatcccattg tttacgcatt cttttacatg
+     2821 tggtttcgca gggcattaaa gactattctg tttggaaata tttttcaaca ggactcatca
+     2881 agaactcagt tatttttaga gtaacatcct ttacggggct gggtccatgg cattgagatt
+     2941 tgcctgcaac tctgggaggc aagagctgaa aatgacagaa aaaacactta tttatttgct
+     3001 tacttatcaa atttggttca agcagataag tgactatttt gttttatgtc ttctctcact
+     3061 ctagactggg aatggtaggt atgtagtgtt ttggttatag ctattcgtat gacatataca
+     3121 ggaaagcaat gttggagcaa tttataaact gcatttctcc attaagaagt gattcctaaa
+     3181 caacagatta atatatatat atatatatct gtatatttgc catcctctgg aactaacaga
+     3241 aaagcctttt cttttgaatt ttttagatga ctttgagtaa aatcccaaag ctttattgtt
+     3301 ttgcccctcc ccttcagtat gtgtgcggaa gttggaatat cctaatacac agccatgtca
+     3361 gtacactcca aggagggagg atgggacaag gagaagtcat gctgttcctt ctctttacat
+     3421 ttcaattagt gcttctcact tttgtgtttg tcagttacag gttttgctgc ttaatgaggt
+     3481 caaaaacatt tttaatgaaa tccaagatat ggaaaatatg tcataagaaa tgaaaagcaa
+     3541 ttgagaaaag tggttctgaa tctgacatta cctgaaaatg atactttcac aatgaaaatt
+     3601 caatgttaaa tatgctcaaa tttgcctctt tcaacgcttt tctttccttg agcatattgt
+     3661 tattttgtct gatagcaatg ctgtgacagc cagtgaagaa tctatatgca gaactgttgt
+     3721 agaaatgttg catctggccc aaacgtaggg tgagcggggc agggtggatg tgggagcact
+     3781 gtgaggagtg gcagaagaag ggccatagaa atgtctcggg gtgatgatgc ctgggctggc
+     3841 aagctctcaa gattacgtct gtgtgtggct tctttggaca tccaccaacc acatcgggac
+     3901 tcaaaggaca gacaaataag tcaaaaacta taacaaggtc accagttgaa gaaggcccac
+     3961 aggctgtaat tttctctaat ttttttgcct atgacctggc tttgctagaa ttaatgtatc
+     4021 atcaaacaga aggaaataac acctctggcc tgatcctgtg acatctggtt ggagcacgga
+     4081 ctagttctgg aaatggacag taaaaaatta gtacctgaga agtgctatgg tgtaactgat
+     4141 gatttgatgt tgacgtaaga gctatgctga gctgtaaatg ttgtcctcca tttgtgttgc
+     4201 tgggataagc acacactcta tgtgtatctt cttcttttgt gctcctggag cactgatgca
+     4261 ctctgcactg tagagcgtaa gagttcgatg atactgcatt tcagcagagc aaataaaaaa
+     4321 acaggatctg agactctttt acaatgctat tgtgaagtta gcacactcca aaatgacaaa
+     4381 aaaaaaaaaa aaaaaggaac agtgactgaa atatgcaaca cttcagcttt gtactgtgga
+     4441 agataatcct taattgtgac aacatgacta ctttaatact ttatctcaga gaaataaagt
+     4501 aatttgagat ttaaaaatct a
+//

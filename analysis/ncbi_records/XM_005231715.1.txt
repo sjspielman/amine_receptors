@@ -1,0 +1,88 @@
+LOCUS       XM_005231715            1378 bp    DNA              VRT 08-AUG-2013
+DEFINITION  PREDICTED: Falco peregrinus adrenoceptor beta 2, surface (ADRB2),
+            mRNA.
+ACCESSION   XM_005231715
+VERSION     XM_005231715.1  GI:529423855
+DBLINK      BioProject: PRJNA198010
+KEYWORDS    RefSeq.
+SOURCE      Falco peregrinus (peregrine falcon)
+  ORGANISM  Falco peregrinus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Falconiformes;
+            Falconidae; Falco.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004929828.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Falco peregrinus Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1378
+                     /mol_type="mRNA"
+                     /collection_date="Oct-2010"
+                     /country="United Arab Emirates: Abu Dhabi Falcon Hospital"
+                     /sex="male"
+                     /db_xref="taxon:8954"
+                     /organism="Falco peregrinus"
+                     /chromosome="Unknown"
+     gene            1..1378
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 ESTs, 37 Proteins"
+                     /db_xref="GeneID:101919810"
+                     /gene="ADRB2"
+     CDS             1..1194
+                     /product="beta-2 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:529423856"
+                     /db_xref="GeneID:101919810"
+                     /translation="MGVAGTELPSGNVSANQSAADPTLSRDVWMVGMGILMSVIVLAIV
+                     FGNVLVITAIARFQRLQTVTNYFITSLACADLVMGLAVVPFGASHIIMEMWKFGNFWCE
+                     FWTSLDVLCVTASIETLCVIAVDRYFAITSPFKYQSLLTKSKARVVILVVWVVSALTSF
+                     LPIQMHWYRADRDEAILCYEKDTCCDFFTNQAYAIASSIISFYLPLVVMVFVYARVFQV
+                     AKKQLQKIDRSEGRFHTQNKEQEQKGGAGHRRSSKFFLKEHKALKTLGIIMGTFTLCWL
+                     PFFIVNIVHVIQDDIIPKYVYILLNWLGYVNSAFNPLIYCRSPDFRYAFQELLCLRRSA
+                     LKMYANGYSNSNGKSDYNEEDNGYPLASDKACELLCEEGSFPHPEDLLHCKGTVPSG"
+                     /gene="ADRB2"
+                     /protein_id="XP_005231772.1"
+     STS             408..853
+                     /db_xref="UniSTS:258478"
+                     /standard_name="ADRB2sts1"
+                     /gene="ADRB2"
+ORIGIN
+        1 atgggggtgg caggcaccga gctgcccagc ggcaacgtca gtgccaacca gagcgccgct
+       61 gaccccacgc tgtcgcggga cgtgtggatg gtgggcatgg ggatcctcat gtcagtgatc
+      121 gtgctggcca tcgtcttcgg caacgtgctg gtgatcaccg ccatcgcccg gttccagcgc
+      181 ctgcagaccg tcaccaacta cttcatcacc tcgctggcct gcgccgacct ggtgatgggg
+      241 ctggccgtgg tgcccttcgg cgccagccac atcatcatgg agatgtggaa attcgggaac
+      301 ttctggtgtg agttctggac ctccttggat gtgctctgcg tcacagccag cattgagacc
+      361 ctctgcgtca ttgccgtgga ccggtacttc gccatcacct cccctttcaa gtaccagagc
+      421 ctgctgacca agagcaaggc acgcgtggtc atcctcgtgg tgtgggtggt ctcagccctc
+      481 acctccttct tgcccatcca gatgcactgg taccgggcgg accgcgacga ggccatcctg
+      541 tgctacgaga aggacacgtg ttgcgacttc ttcaccaacc aagcctatgc cattgcctcc
+      601 tccatcatct ccttctacct gccgcttgtg gtcatggtat tcgtctacgc cagggtcttc
+      661 caggtggcca agaagcaatt gcagaagata gacaggagcg aggggaggtt tcacacccag
+      721 aacaaggagc aggagcagaa agggggtgct gggcaccgcc gatcctccaa gttcttcttg
+      781 aaggagcaca aggccctcaa gaccctgggc atcatcatgg gcaccttcac gctgtgctgg
+      841 ctgcccttct tcattgtcaa cattgtgcac gtcatccagg acgacatcat acccaagtat
+      901 gtgtacatcc tcttgaactg gctgggctat gttaactctg ccttcaaccc tttgatctac
+      961 tgccggagcc cggacttcag gtatgccttc caggagctcc tgtgcctccg caggtccgcc
+     1021 ctgaagatgt atgccaacgg ctactcaaac agcaacggca agagcgacta caacgaggag
+     1081 gacaacggct accccctggc ctcggataaa gcctgcgagc tgctctgcga ggagggctcc
+     1141 ttccctcacc ccgaggactt gttgcactgc aaaggtactg tgcctagcgg gtagcgtcga
+     1201 ggcgcgacgg gctctggcgt ggcacacgtc ggttgtaaag aggagccttt ctctcgtaag
+     1261 gaaaaacaaa ccccccgtta ataatagcag tgatcctctt ctagggtgca cctagaacct
+     1321 accggctgca agaaacacaa aaactcagca aaccttctgc aaacaggtgg ggggttgc
+//

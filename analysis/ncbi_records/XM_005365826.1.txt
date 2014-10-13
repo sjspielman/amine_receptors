@@ -1,0 +1,109 @@
+LOCUS       XM_005365826            2462 bp    DNA              ROD 21-AUG-2013
+DEFINITION  PREDICTED: Microtus ochrogaster cholinergic receptor, muscarinic 2
+            (Chrm2), mRNA.
+ACCESSION   XM_005365826
+VERSION     XM_005365826.1  GI:532046169
+DBLINK      BioProject: PRJNA210839
+KEYWORDS    RefSeq.
+SOURCE      Microtus ochrogaster (prairie vole)
+  ORGANISM  Microtus ochrogaster
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Arvicolinae; Microtus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004949102.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Microtus ochrogaster Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2462
+                     /mol_type="mRNA"
+                     /isolate="Prairie Vole_2"
+                     /sex="female"
+                     /db_xref="taxon:79684"
+                     /organism="Microtus ochrogaster"
+                     /chromosome="Unknown"
+     gene            1..2462
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 mRNAs, 115 long SRA reads, 26
+                     Proteins, and 91% coverage of the annotated genomic feature
+                     by RNAseq alignments"
+                     /db_xref="GeneID:101982336"
+                     /gene="Chrm2"
+     CDS             497..1897
+                     /product="muscarinic acetylcholine receptor M2"
+                     /codon_start="1"
+                     /db_xref="GI:532046170"
+                     /db_xref="GeneID:101982336"
+                     /translation="MNNSTNSTNNGLAITSPYKTFEVVFIVLVAGSLSLVTIIGNILVM
+                     VSIKVNRHLQTVNNYFLFSLACADLIIGVFSMNLYTLYTVIGYWPLGPVVCDLWLALDY
+                     VVSNASVMNLLIISFDRYFCVTKPLTYPVKRTTKMAGMMIAAAWVLSFILWAPAILFWQ
+                     FIVGVRTVEDGECYIQFFSNAAVTFGTAIAAFYLPVIIMTVLYWHISRASKSRIKKEKK
+                     EPVANQDPVSPSLVQGRIVKPNNNNMPGGDSGLEHNKIQNGKAPRDGVTENCVQGEEKE
+                     SSNDSTSVSAVASNTREDEITQDENTVSTSVGHSKDDNSKQMCIKIVTKTQKGDSCTPA
+                     STTVELVGSSGQHGDEKQNIVARKIVKMTKQPAKKKPPPSREKKVTRTILAILLAFIIT
+                     WAPYNVMVLINTFCTPCIPNTVWTIGYWLCYINSTINPACYALCNATFKKTFKHLLMCH
+                     YKNIGATR"
+                     /gene="Chrm2"
+                     /protein_id="XP_005365883.1"
+     STS             830..1424
+                     /db_xref="UniSTS:265990"
+                     /standard_name="CHRM2"
+                     /gene="Chrm2"
+ORIGIN
+        1 cgcagagacc ctttctgggg aggaggcacg cgggagcaca cacacacgca cacgcgcgcg
+       61 cgcacacaca aacacttact tgctcgcaca cacgcacacg acagcctgcg ggcttggcca
+      121 gagccctgaa gtcgcagatc ctactaggaa atcgccagag gcgctgggag aagtggaaga
+      181 gcgcggctca cagactctaa ttactacttc cccgacactc gggtgaagaa atgaagcccg
+      241 cccagctctt cgccatatcc aagtctcctt tctgtttcgg tgtccacagt catctccctg
+      301 aaagccagat ccagggagaa ggagagcgtg tggccagctg cggactctaa gctgtgcagc
+      361 tcgcgccgga gcgggtccaa cttgagcccg ccaaaggctc ctcgctccgg ccagactcca
+      421 ccagatcgca gccacgggcg actaagtcag ctacaggttt aaatgtttat ttggacactt
+      481 ggttactgaa cacaaaatga ataactcaac aaactcaact aacaatggct tggctattac
+      541 cagtccttac aagacatttg aagtggtatt tattgtcctt gtggctggat ccctcagtct
+      601 ggtgaccatc attgggaaca tcctggtcat ggtttccatt aaagtcaacc gacaccttca
+      661 gacagtcaac aattacttct tgttcagcct tgcctgtgct gacctcatca taggtgtttt
+      721 ctccatgaac ttgtacactc tctacactgt gattggctac tggcctttgg gacctgtcgt
+      781 atgtgacctt tggctagcct tggactatgt ggtcagcaac gcctctgtta tgaatttgct
+      841 catcatcagc tttgataggt acttctgcgt cacaaaacct ctgacctacc cagttaagcg
+      901 gaccaccaag atggcaggca tgatgattgc agcagcctgg gtcctctcct tcatcctctg
+      961 ggctccagct attctcttct ggcagttcat cgtaggagtg aggactgtgg aggatgggga
+     1021 atgttacatc cagttctttt ccaatgccgc tgtcaccttt ggcactgcca ttgcagcctt
+     1081 ctatctgcct gtcatcatca tgactgtgct gtattggcat atatcccggg caagtaagag
+     1141 caggataaag aaggaaaaga aggaacctgt ggccaaccaa gatccagtgt ctccaagtct
+     1201 ggtgcaagga agaattgtaa aaccaaacaa caacaacatg cccggtggtg acagtggtct
+     1261 ggagcacaac aaaattcaga acggcaaggc tccccgggat ggtgtgactg agaactgcgt
+     1321 tcagggagag gaaaaggaga gctcaaatga ctccacctcg gtcagtgctg tggcctccaa
+     1381 tacgagggag gacgaaataa cccaggatga aaacacagtt tctacttctg tgggccattc
+     1441 caaagatgac aactctaagc aaatgtgcat caaaattgtc accaagaccc aaaaaggtga
+     1501 ttcgtgcacc cctgcgagta ccactgtaga gctagtgggg tcatcaggtc aacacgggga
+     1561 tgagaagcag aacattgtgg ctcgaaagat tgtgaagatg accaagcaac ctgccaaaaa
+     1621 gaagcctcct ccgtcccggg aaaagaaggt aaccaggaca atcttggcta ttctgttggc
+     1681 tttcatcatc acctgggcgc catacaatgt catggtgctc atcaatacct tctgtacacc
+     1741 ctgtatcccc aatacggtgt ggacaattgg ctactggctc tgttacatca atagcaccat
+     1801 caaccctgcc tgctatgcac tttgtaatgc caccttcaaa aagactttta agcacctcct
+     1861 tatgtgtcac tacaagaaca taggcgctac acggtaaaag acctttaaga aagaactgct
+     1921 ttcaagtggg acttgggatg aggaacagag acaagaaagc tgtctgttta tagtgatcta
+     1981 tcattgcact ttacaggctc actgcaaatg tgcagttaag gagctctaca gtgacacttt
+     2041 taccgtgccc atgctccagt ttgaagaaaa aaaaataagt aagcttgtac cttataaacg
+     2101 ctgccagttt aggagacaat gaaagaggca caatgacatc gtgggtctga gaaacaatct
+     2161 acgctatctc ctactctctt gaagaagggc tgctgaatct gcaatcatgt ctctgcacaa
+     2221 gaagagtgac cttgtttgtt cttcctgttg tccctacgtg tctagtgagg aagaaatgac
+     2281 atgctaacgc agagacctag acacaaggaa gcagacacta tacaatgagt gatatgaaga
+     2341 aagaaaatca aagaggaagc ggagacgatc tgcagagcat tgagcacatt ctaggctatg
+     2401 ctgtgctctc tgatgagttt cagtgtaatc gctgcttatt tcttctctcc tcccctttcc
+     2461 ca
+//

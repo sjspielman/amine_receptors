@@ -1,0 +1,61 @@
+LOCUS       XP_005518209             377 aa                     VRT 13-SEP-2013
+DEFINITION  PREDICTED: 5-hydroxytryptamine receptor 1B [Pseudopodoces humilis].
+ACCESSION   XP_005518209
+VERSION     XP_005518209.1  GI:543344378
+DBLINK      BioProject: PRJNA217046
+KEYWORDS    RefSeq.
+SOURCE      Pseudopodoces humilis (Tibetan ground-tit)
+  ORGANISM  Pseudopodoces humilis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes; Paridae;
+            Pseudopodoces.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005087557.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pseudopodoces humilis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..377
+                     /db_xref="taxon:181119"
+                     /organism="Pseudopodoces humilis"
+                     /chromosome="Unknown"
+     Protein         1..377
+                     /product="5-hydroxytryptamine receptor 1B"
+                     /calculated_mol_wt="41648"
+     Region          52..>169
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          60..356
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..377
+                     /coded_by="XM_005518152.1:511..1644"
+                     /gene="HTR1B"
+                     /db_xref="GeneID:102113168"
+ORIGIN
+        1 mepagpcraq lgsandsyrn csaeeviyqd atplsgkivl avvlalvtla tvlsnafvia
+       61 tvyqtrklht panyliasla vtdllvsilv mpistmytvt gkwtlgqivc diwlssditc
+      121 ctasilhlcv ialdrywait daveystkrt pkraagmial vwifsicism pplfwrqaka
+      181 eevsncvvnt dhvlytvyst vgafyfptll lialygriyv earsrilkqt pkkagkrltr
+      241 aqlitdspgs tssvtsinsk apegssetgs pvymnqvkvk vsdallekkk ltaarerkat
+      301 ktlgiilgaf ivcwlpffii slvmpickda cwfhmaifdf ftwlgylnsl inpviytmsn
+      361 edfkqafhkl irfrctg
+//

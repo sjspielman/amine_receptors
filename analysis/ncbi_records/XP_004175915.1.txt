@@ -1,0 +1,59 @@
+LOCUS       XP_004175915             367 aa                     VRT 12-FEB-2013
+DEFINITION  PREDICTED: histamine H2 receptor-like [Taeniopygia guttata].
+ACCESSION   XP_004175915
+VERSION     XP_004175915.1  GI:449474873
+DBLINK      BioProject: PRJNA32405
+KEYWORDS    RefSeq.
+SOURCE      Taeniopygia guttata (zebra finch)
+  ORGANISM  Taeniopygia guttata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Estrildidae; Estrildinae; Taeniopygia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_002197294.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Taeniopygia guttata Annotation Release 101
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..367
+                     /isolate="Black17"
+                     /sex="male"
+                     /organism="Taeniopygia guttata"
+                     /chromosome="13"
+                     /db_xref="taxon:59729"
+     Protein         1..367
+                     /product="histamine H2 receptor-like"
+                     /calculated_mol_wt="41115"
+     Region          35..>135
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          47..298
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..367
+                     /coded_by="XM_004175867.1:1..1104"
+                     /gene="LOC101233241"
+                     /db_xref="GeneID:101233241"
+ORIGIN
+        1 mdpcynhtss qksnhtsfqv fplqvlvgfc lftlivitlc gniivclavt mdrrlrsltn
+       61 ciivslaitd lllgllvlpf salyeltkew pfgsvlcniy tsldvmlcta silnllmisl
+      121 dryfavttpl ryrqvvtpsr vavglaviwt vslmvsflpi hlgwntngta vqntgpscsk
+      181 ectlavnlvy glvdglltfy iplgimcity yrilriareq akrinhtwgn apvppmvkeh
+      241 katvtlavvl gafvvcwfpy ftmftyrgvw gdsrvkgtpm sivlwlgyan salnpilygt
+      301 lnrdfrvayq hllrcwrtrr prnshlpplq kaqprgrqgq grqegkplkl evrnekgtll
+      361 tdgalkr
+//

@@ -1,0 +1,63 @@
+LOCUS       XP_005231803             363 aa                     VRT 08-AUG-2013
+DEFINITION  PREDICTED: 5-hydroxytryptamine receptor 4 [Falco peregrinus].
+ACCESSION   XP_005231803
+VERSION     XP_005231803.1  GI:529423918
+DBLINK      BioProject: PRJNA198010
+KEYWORDS    RefSeq.
+SOURCE      Falco peregrinus (peregrine falcon)
+  ORGANISM  Falco peregrinus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Falconiformes;
+            Falconidae; Falco.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004929828.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Falco peregrinus Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..363
+                     /collection_date="Oct-2010"
+                     /country="United Arab Emirates: Abu Dhabi Falcon Hospital"
+                     /sex="male"
+                     /db_xref="taxon:8954"
+                     /organism="Falco peregrinus"
+                     /chromosome="Unknown"
+     Protein         1..363
+                     /product="5-hydroxytryptamine receptor 4"
+                     /calculated_mol_wt="41285"
+     Region          46..316
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <142..333
+                     /note="Mammalian taste receptor protein (TAS2R); pfam05296"
+                     /db_xref="CDD:253139"
+                     /region_name="TAS2R"
+     CDS             1..363
+                     /coded_by="XM_005231746.1:1..1092"
+                     /gene="HTR4"
+                     /db_xref="GeneID:101910278"
+ORIGIN
+        1 mraneerqpr ersssegfgi aekivlltfi savilmailg nllvmvavcr drqlrkiktn
+       61 yfivslafad llvsvlvmpf gaielvqdnw iygemfclvr tsldvlltta silhlccisl
+      121 dryyaiccqp lvyrnkmtpl riavmlggcw viptfisflp imqgwnsigi idliqqrqfn
+      181 kasnstycif mvnkpyaitc svvafyipff lmvlayyriy vtareharqi rvlqragapt
+      241 dgrqhhpdqh sthrmktetk aaktlciimg cfclcwapff itnivdpfin ytvpgklwta
+      301 flwlgyinsg lnpflyafln ksfrraflii lccgderyrr psilgqtvpc stttingsth
+      361 vlr
+//

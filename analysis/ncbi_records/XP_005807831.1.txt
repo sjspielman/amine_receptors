@@ -1,0 +1,64 @@
+LOCUS       XP_005807831             436 aa                     VRT 23-OCT-2013
+DEFINITION  PREDICTED: D(1B) dopamine receptor-like [Xiphophorus maculatus].
+ACCESSION   XP_005807831
+VERSION     XP_005807831.1  GI:551512634
+DBLINK      BioProject: PRJNA220265
+KEYWORDS    RefSeq.
+SOURCE      Xiphophorus maculatus (southern platyfish)
+  ORGANISM  Xiphophorus maculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Atherinomorphae; Cyprinodontiformes;
+            Poeciliidae; Poeciliinae; Xiphophorus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005372381.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Xiphophorus maculatus Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..436
+                     /db_xref="taxon:8083"
+                     /isolate="XMAC-090115_JP163A"
+                     /sex="female"
+                     /strain="JP 163 A"
+                     /organism="Xiphophorus maculatus"
+                     /chromosome="Unknown"
+     Protein         1..436
+                     /product="D(1B) dopamine receptor-like"
+                     /calculated_mol_wt="48108"
+     Region          45..338
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <105..>157
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     CDS             1..436
+                     /coded_by="XM_005807774.1:1..1311"
+                     /gene="LOC102220102"
+                     /db_xref="GeneID:102220102"
+ORIGIN
+        1 mnnttglalv gagsredppa hraltgcvlv lliiwtlvgn mtvcaavyry rhlrakvtni
+       61 fivslalsdl lvavlvmpwk aaaevagfwp fggfcktwla cdimcstasi lnlcvisvdr
+      121 ywaisspfcy ersmnkrvaf vmigvtwtvs vvisfvpvql dwhraeisdp ggrvvphles
+      181 tegscdssls rtyaisssli sfyipvvimi vtytriyria qtqirvissl eraaehaqsc
+      241 rshsrisihp dsqcpnkshr elrvsirket kvlktlsiim gvfvccwlpf filncalpfc
+      301 pgpgapgahr gpccvsektf dvfvwigwsn sslnpiiyaf nadfrdaflr llrcrgggfl
+      361 savstavetm lanneagqqr rdstlkakls vstntrgsqd sgnttvavfy hrgatmeqgt
+      421 dteerfdkdr ltqipr
+//

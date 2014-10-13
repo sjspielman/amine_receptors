@@ -1,0 +1,133 @@
+LOCUS       XM_004024873            2607 bp    DNA              PRI 03-DEC-2012
+DEFINITION  PREDICTED: Gorilla gorilla gorilla 5-hydroxytryptamine (serotonin)
+            receptor 1D, G protein-coupled (HTR1D), mRNA.
+ACCESSION   XM_004024873
+VERSION     XM_004024873.1  GI:426328270
+KEYWORDS    RefSeq.
+SOURCE      Gorilla gorilla gorilla (western lowland gorilla)
+  ORGANISM  Gorilla gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004000771) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Gorilla gorilla Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2607
+                     /db_xref="taxon:9595"
+                     /sub_species="gorilla"
+                     /mol_type="mRNA"
+                     /organism="Gorilla gorilla gorilla"
+                     /chromosome="1"
+     gene            1..2607
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 4 mRNAs, 6 ESTs, 11 Proteins"
+                     /db_xref="GeneID:101145469"
+                     /gene="HTR1D"
+     misc_feature    430..432
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR1D"
+     STS             460..921
+                     /db_xref="UniSTS:158017"
+                     /standard_name="GDB:595218"
+                     /gene="HTR1D"
+     CDS             511..1644
+                     /product="5-hydroxytryptamine receptor 1D"
+                     /codon_start="1"
+                     /db_xref="GI:426328271"
+                     /db_xref="GeneID:101145469"
+                     /translation="MSPLNQSAEGLPQEASNRSLNATETSEAWDPRTLQALKISLAVVL
+                     SIITLATVLSNAFVLTTILLTRKLHTPANYLIGSLATTDLLVSILVMPISIAYTITHTW
+                     NFGQILCDIWLSSDITCCTASILHLCVIALDRYWAITDALEYSKRRTAGHAATMIAIVW
+                     VISICISIPPLFWRQAKAQEEMSDCLVNTSQISYTIYSTCGAFYIPSVLLIILYGRIYR
+                     AARNRILNPPSLYGKRFTTAHLITGSAGSSLCSLNSSLHEGHSHSAGSPLFFNHVKIKL
+                     ADSALERKRISAARERKATKTLGIILGAFIICWLPFFVVSLVLPICRDSCWIHPVLFDF
+                     FTWLGYLNSLINPIIYTVFNEEFRQAFQKIVPFRKAS"
+                     /gene="HTR1D"
+                     /protein_id="XP_004024922.1"
+     STS             706..1052
+                     /db_xref="UniSTS:156842"
+                     /standard_name="GDB:371366"
+                     /gene="HTR1D"
+     STS             944..1807
+                     /db_xref="UniSTS:277338"
+                     /standard_name="HTR1D_994"
+                     /gene="HTR1D"
+     STS             1155..1303
+                     /db_xref="UniSTS:32807"
+                     /standard_name="SHGC-74364"
+                     /gene="HTR1D"
+     STS             1366..1664
+                     /db_xref="UniSTS:158102"
+                     /standard_name="GDB:597566"
+                     /gene="HTR1D"
+     STS             1528..1653
+                     /db_xref="UniSTS:158524"
+                     /standard_name="GDB:636095"
+                     /gene="HTR1D"
+     STS             1567..1706
+                     /db_xref="UniSTS:158103"
+                     /standard_name="GDB:597572"
+                     /gene="HTR1D"
+     STS             2364..2492
+                     /db_xref="UniSTS:91993"
+                     /standard_name="RH98554"
+                     /gene="HTR1D"
+ORIGIN
+        1 ctaaatccag aatcgtttca attactgtga ggggaattct gaagttctca ttaaacacac
+       61 gaatgtctca agctttgaaa agagccagat gccaaaggca agaatcccag ggcattgccc
+      121 acctgggtgt gatcccctga taattgtcta acaaattcag catgtgtccc ctgggcatga
+      181 ccatctgctg ggaaaagttc caggaccctg agacatcttg ggattcctgt ggtttaggaa
+      241 agacctttaa ctaccagctg gtagttgtct cagcattctt caaatagtct ggtcttgttt
+      301 aatattatta ttattattgt tatttaattt tattttattg cagctgtact tagagaatag
+      361 tctggtcttg agaccttttc actgtggtct gttctggtgt acggctccca ccagtgcgaa
+      421 gcagaaggat gactttgctt tgttgtcagg acaaccttga aggaaggagc caaatgtgtg
+      481 gaggtctgtg ggaagagaga gccacctagc atgtccccac tgaaccagtc agcagaaggc
+      541 cttccccagg aggcctccaa cagatccctg aatgccacag aaacctcaga ggcttgggat
+      601 cccaggaccc tccaggcgct caagatctcc cttgccgtgg tcctttccat catcacactg
+      661 gccacagtcc tctccaatgc ctttgtactc accaccatct tactcaccag gaagctccac
+      721 acccctgcca actacctgat tggctccctg gccaccaccg acctcttggt ttccatcttg
+      781 gtcatgccca tcagcatcgc ctataccatc acccacacct ggaactttgg ccaaatcttg
+      841 tgtgacatct ggctgtcttc tgacatcacg tgctgcacag cctccatcct gcatctctgt
+      901 gtcattgctc tggacaggta ctgggcaatc acagatgccc tggaatacag taaacgcagg
+      961 acggctggcc acgcggccac catgatcgcc attgtctggg tcatctccat ctgcatctcc
+     1021 atccccccgc tcttctggcg gcaggccaag gcccaggagg agatgtcgga ctgtctggtg
+     1081 aacacctctc agatctccta caccatctac tccacctgtg gggccttcta cattccctcg
+     1141 gtgttgctca tcatcctata tggccggatc taccgggctg cccggaaccg catcctgaat
+     1201 ccaccctcac tctatgggaa gcgcttcacc acggcccacc tcatcacagg ctctgccggg
+     1261 tcctcgctct gctcgctcaa ctccagcctc catgaggggc actcgcactc ggctggctcc
+     1321 ccactctttt tcaaccacgt gaaaatcaag cttgctgaca gtgccctgga acgcaagagg
+     1381 atttctgctg ctcgagaaag gaaagccact aaaaccctgg gcatcattct gggggccttt
+     1441 atcatctgct ggctgccctt cttcgtggtg tctctggtcc tccccatctg ccgggactcc
+     1501 tgctggatcc acccggtgct ctttgacttc ttcacctggc taggctattt aaactccctc
+     1561 atcaatccaa taatctacac tgtgtttaat gaagagtttc ggcaagcttt tcagaaaatt
+     1621 gtccctttcc ggaaggcctc ctagtcttat tcggtgatga ctcttgttat cttttgtgtc
+     1681 ctgtaacctc atcgggattg tctttttttt tttaaattat tttctgagac ttggatgaat
+     1741 tcatgatatc ttgagtcttg gttcaatcaa cagaattgtt ctttttcctg ttgttttctt
+     1801 aacttctgaa agagctgcgg gtggtggggg gcgggggcag gactgaagat ttcactactt
+     1861 agcataatat tttctttctt tttttttttt tgagacggag tctnnnnnnn nnnattacag
+     1921 gcatgagcca ctgtgcctgg ccaacataat gttttcacag ttcctctttg ttggaagaag
+     1981 tgtgtgacct atgagattcc tggttgatac agttcaggtg agaaactgtt tgattataga
+     2041 aaagacccca gactcaaagg gaaggctctc tggtctacct gagatctata cggagcttaa
+     2101 aggagggtgg ataagattaa tgacctgaat tgaaagagaa tttggagcca ggatgggtct
+     2161 ccattctgtg tggcaccttg attggaaaat aatatccatg ggtttcttcc actgagtctt
+     2221 tcttagatta aatctctccc agttgtccat gaagagaaag tcagtatttg cagtgccgat
+     2281 gatatagagt gacttggaga gagattcaga agttaggggt agcgggggta ggatggttgg
+     2341 gaccagattg actaccctgt actcttcctt cttccccaat atgcctgcgc catcttcaca
+     2401 ttctgaagtt gaaacccatg atcacccctt tgaggtagat tgaccagctt taggcgccca
+     2461 ccccccaccc cccgcaagct ttgagtggga caccattctg aatttttttt ctgaattttt
+     2521 ttttaacatc tctttctcat tagagatctg aaaactcatt agagatgttg agtcttatca
+     2581 aataaaaagc gtgagacatc atggcca
+//

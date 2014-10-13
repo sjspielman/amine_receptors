@@ -1,0 +1,89 @@
+LOCUS       XM_001343935            1693 bp    DNA              VRT 01-AUG-2013
+DEFINITION  PREDICTED: Danio rerio muscarinic acetylcholine receptor M4-like
+            (LOC100004742), mRNA.
+ACCESSION   XM_001343935
+VERSION     XM_001343935.2  GI:528521050
+DBLINK      BioProject: PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003336217.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Aug 1, 2013 this sequence version replaced gi:125854539.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1693
+                     /strain="Tuebingen"
+                     /mol_type="mRNA"
+                     /organism="Danio rerio"
+                     /chromosome="25"
+                     /db_xref="taxon:7955"
+     gene            1..1693
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 33 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 3 samples with support for all annotated introns"
+                     /db_xref="GeneID:100004742"
+                     /gene="LOC100004742"
+     CDS             60..1415
+                     /product="muscarinic acetylcholine receptor M4-like"
+                     /codon_start="1"
+                     /db_xref="GI:528521051"
+                     /db_xref="GeneID:100004742"
+                     /translation="MEAGSVVFSRDSQWFVFNGSSNSSTHTPLLEESLSVSGSPRRVLG
+                     SVGMVLIILLTGSISLLTVLGNVLVLLSIKVNRNLRTINNYFLFSLACSDLIVGVFSMN
+                     LYIVYVVKGYWPLGPQMCDLWLVVDYVVSNASVMNLLLICFDRYFCVTRPLSYPTKRTA
+                     RWAGAMITVAWLQSLLLWAPAILLWQAGRDRSKVPEGQCYILLLANPAVTLATTIPAFY
+                     IPVIIMTVLYTRISLASQRQVHKLKPESANLLYPSKTSRVKSLANPDLVNDIKPCSCKQ
+                     ELDLGRTKQLFSLPSVEFSKTEYSMDSSPDVSAEHRGLDAEASRLKNSTETNRKTQADC
+                     LQTNSGVQVQRQTSNMVSKNAKRKALRERKVTKTVLAVLLAFIITWTPYSVMVLIGTFC
+                     RWCVPEVLWMVGYFLCYVNSTVNPVCYALCNATFKRTFKRLLRCKFKNLALK"
+                     /gene="LOC100004742"
+                     /protein_id="XP_001343971.2"
+ORIGIN
+        1 ctgtgtgagg aattaaagat cctcccagtg tttctttcct tcagactgag ctggagatca
+       61 tggaggctgg atctgtggtt ttctcaaggg actctcagtg gttcgttttc aatggttctt
+      121 ccaacagcag cacacacacc cctttgcttg aagaatcgct ctctgtgtcg ggaagtcctc
+      181 gtcgtgtgtt ggggagtgtt ggaatggtct taatcatact tctcactggc tcaataagtc
+      241 tacttacggt cctgggcaac gtcctggttc tgctttcaat caaagtcaac cgcaatctcc
+      301 gaaccatcaa caactatttc ctttttagtc tcgcttgctc ggatcttatc gtcggtgtgt
+      361 tctctatgaa tctctacatt gtttacgtgg tgaaaggata ttggcctttg gggccgcaaa
+      421 tgtgcgactt gtggttggtt gtggattacg tggtgagtaa cgcctctgtg atgaacctcc
+      481 tgttgatctg ctttgatcgc tacttctgcg tgacccggcc tttgagttac cctaccaaac
+      541 gcaccgcgag atgggctggg gcaatgatta ccgtggcttg gttacagtct ctgcttctgt
+      601 gggctccggc catcctgctt tggcaggctg ggagggaccg aagtaaagtt cctgagggac
+      661 agtgttacat cctgctactt gctaacccag ctgtaaccct cgctacgacc atcccggcgt
+      721 tctacattcc cgttataatt atgacagtac tgtacacgcg gatatccctg gcaagccaga
+      781 ggcaggttca caagttgaaa cctgaatccg caaaccttct ttatccatcc aaaacaagca
+      841 gagttaagtc tcttgcaaac cctgacctag tgaatgacat taagccatgc tcctgcaaac
+      901 aagagttgga tctcggtaga accaaacaac tcttcagcct cccttctgtt gagttcagca
+      961 aaacagagta ctccatggat tcaagtcccg atgtttctgc tgaacaccga ggactggatg
+     1021 cggaagcttc aagactgaag aactcgactg aaacgaacag gaaaacacaa gctgactgtc
+     1081 ttcaaaccaa tagtggcgtt caggttcaaa ggcaaacatc caatatggtc tccaagaatg
+     1141 ccaaacgtaa ggctttgagg gagaggaagg tgaccaagac tgtcctcgct gttcttctgg
+     1201 ccttcatcat cacttggacg ccctacagtg tcatggttct gattggtacc ttctgtcgtt
+     1261 ggtgtgtccc tgaggttttg tggatggtgg gatactttct gtgctatgtc aacagcacgg
+     1321 taaatcctgt atgctacgcg ctttgtaatg ccaccttcaa gagaacattc aaacgactgt
+     1381 taaggtgcaa gttcaagaat ctggcgttga aataactctt gatcaatgag gaaccagatt
+     1441 tttttctgac tttaaagaag acttgctaag actgttcttt ttatcatgtt gccaataatc
+     1501 tatgtgtgcc tgcataatgg tttgtacagt ttttaaagtg gtagtgcacc caaaaagtaa
+     1561 aatttgtcat catttgctta cccttcactt ttcaaaacct ttgattttct ttcttatgtt
+     1621 gaacacaaaa gaagatattt tgaaaaatcc tgggcttttt ttcttacttt ggaagttgat
+     1681 gtgggtacca ggc
+//

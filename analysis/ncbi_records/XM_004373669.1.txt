@@ -1,0 +1,97 @@
+LOCUS       XM_004373669            1643 bp    DNA              MAM 27-MAR-2013
+DEFINITION  PREDICTED: Trichechus manatus latirostris dopamine receptor D3
+            (DRD3), mRNA.
+ACCESSION   XM_004373669
+VERSION     XM_004373669.1  GI:471366383
+DBLINK      BioProject: PRJNA189960
+KEYWORDS    RefSeq.
+SOURCE      Trichechus manatus latirostris (Florida manatee)
+  ORGANISM  Trichechus manatus latirostris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Afrotheria; Sirenia; Trichechidae; Trichechus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004443962.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Trichechus manatus latirostris Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1643
+                     /sub_species="latirostris"
+                     /mol_type="mRNA"
+                     /isolate="Lorelei"
+                     /sex="female"
+                     /db_xref="taxon:127582"
+                     /organism="Trichechus manatus latirostris"
+                     /chromosome="Unknown"
+     gene            1..1643
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 mRNAs, 22 Proteins"
+                     /db_xref="GeneID:101353801"
+                     /gene="DRD3"
+     misc_feature    307..309
+                     /note="upstream in-frame stop codon"
+                     /gene="DRD3"
+     CDS             382..1584
+                     /product="D(3) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:471366384"
+                     /db_xref="GeneID:101353801"
+                     /translation="MAPLSQLSGHINSTCGAENSTGTSRARPHAYYALSYCALILAIVF
+                     GNGLVCVAVLRERALQTTTNYLVVSLAVADLLVATLVMPWVVYLEVTGGVWNFSRFCCD
+                     VFVTLDVMMCTASILNLCAISIDRYTAVVMPVHYQHGTGQSSCRRVALMITAVWVLAFA
+                     VSCPLLFGFNTTGDPSVCSISNPDFVIYSSVVSFYLPFGVTVLVYARIYVVLRQRRRKR
+                     ILTRQNSQCISVRPSFSQQPLSPGQAHKELKHYYSICQDTALGQPGFQEGEGDLKREER
+                     TGNSLSPTMAPKLSLEVRKLSNGRLSTSLKLGPLQPRAVPLREKKATQMLVIVLGTFIV
+                     CWLPFFLTHVLNTHCQACHVSPELYSATTWLGYVNSALNPVIYTTFNVEFRKAFLKILS
+                     R"
+                     /gene="DRD3"
+                     /protein_id="XP_004373726.1"
+     STS             957..1036
+                     /db_xref="UniSTS:266442"
+                     /standard_name="DRD3"
+                     /gene="DRD3"
+     STS             1276..1475
+                     /db_xref="UniSTS:34219"
+                     /standard_name="DRD3-556F"
+                     /gene="DRD3"
+ORIGIN
+        1 tgcctcctcc acctctattt cagaaccaag gacagagcct ctgcacagct gacccgagca
+       61 acgttcgttt agggtctctc ccaaatcctc tagagaaaac agatgcattt caaagcagct
+      121 atgaaacatg cagtaaggtg taatagggaa actggaatag cagcacacaa gtggtttcac
+      181 cttagaggct aaaatgtgtt atttctcttt ctgttcattt ccacagtttc tgtgtcctgg
+      241 gaaatgcaaa gtttcccttg ctttggtatg tctgctgtca gtaaacggct gcaggagctg
+      301 agttgctaaa ctccccggta tacagaaatc agaagaaatt ttcaggggaa cccctgggag
+      361 ccacacccat ccctcagggc catggcacct ctgagtcagc tgagtggcca catcaactcc
+      421 acttgcgggg cagagaactc gacaggcacc agccgagctc gcccacatgc ctactacgcc
+      481 ctgtcctact gcgccctcat cctggccatc gtcttcggca atggactggt gtgtgtagcg
+      541 gtgctgagag agcgggccct gcagaccacc accaactacc tagtggtgag cctggcggtg
+      601 gcagaccttc tggtggccac cttggtgatg ccgtgggtgg tgtacctgga ggtgacaggc
+      661 ggagtctgga atttcagccg cttttgctgt gatgtttttg tcaccctgga cgtcatgatg
+      721 tgtacagcga gcatcctgaa cctctgtgcc atcagcattg acaggtatac tgcagtggtc
+      781 atgcccgttc actaccagca cggcacagga cagagctcct gccggcgtgt ggcccttatg
+      841 atcacagccg tctgggtact ggcctttgct gtgtcctgcc ctctcctctt tggcttcaac
+      901 accacagggg accccagtgt ctgctccatc tccaaccctg attttgtcat ctactcttca
+      961 gtggtgtcct tctacctgcc ctttggagtg accgtcctcg tctacgcaag gatctatgtg
+     1021 gtgttaagac agaggagacg aaaaaggatc ctcactcggc agaatagcca atgcatcagt
+     1081 gtcaggccca gcttctccca acaacccctc tcccctggcc aggcacacaa ggagctaaag
+     1141 cactattaca gcatctgtca agatactgcc ttggggcagc caggtttcca agaaggggaa
+     1201 ggcgatttga aaagagagga gaggactggg aactccctca gcccaaccat ggcacccaag
+     1261 ctcagcttag aggttcgaaa actcagcaat ggccggttgt caacatccct gaaactgggg
+     1321 cccctgcaac ctcgggcagt gccactcagg gagaagaagg caacccagat gctagtcatt
+     1381 gtacttggga ccttcattgt ctgttggctg cctttcttcc tgacccacgt tctcaatacc
+     1441 cactgccaag catgccatgt gtccccagag ctttacagtg ccacaacgtg gcttggctac
+     1501 gtgaacagcg ccctcaaccc cgtgatctat accaccttca atgtcgagtt ccgcaaagcc
+     1561 ttcctcaaga tcctgtctcg ctaaaggcgg agagaaagga ttactccctg tgcccacctg
+     1621 tagctgccga gccattgggc cac
+//

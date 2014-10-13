@@ -1,0 +1,85 @@
+LOCUS       XM_005811602            1344 bp    DNA              VRT 23-OCT-2013
+DEFINITION  PREDICTED: Xiphophorus maculatus alpha-1B adrenergic receptor-like
+            (LOC102232317), mRNA.
+ACCESSION   XM_005811602
+VERSION     XM_005811602.1  GI:551520334
+DBLINK      BioProject: PRJNA220265
+KEYWORDS    RefSeq.
+SOURCE      Xiphophorus maculatus (southern platyfish)
+  ORGANISM  Xiphophorus maculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Atherinomorphae; Cyprinodontiformes;
+            Poeciliidae; Poeciliinae; Xiphophorus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005372565.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Xiphophorus maculatus Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1344
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8083"
+                     /isolate="XMAC-090115_JP163A"
+                     /sex="female"
+                     /strain="JP 163 A"
+                     /organism="Xiphophorus maculatus"
+                     /chromosome="Unknown"
+     gene            1..1344
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 Proteins, and 26% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:102232317"
+                     /gene="LOC102232317"
+     CDS             1..1344
+                     /product="alpha-1B adrenergic receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:551520335"
+                     /db_xref="GeneID:102232317"
+                     /translation="MSLRTNGSLPDLFHQNSSSNRTGPPDPAAPLDLSRAVPVGMVLAS
+                     FIMFAIVGNILVILSVVCNRHLRTPTNYFIINLAMADLLLGTTVLPVSATLEVLGYWVF
+                     GRIFCDIWAAVDVLCCTASIMSLCVISIDRYVGVRYPLQYPMVVTRRRALLAMLGVWIL
+                     ALVISIGPLLGWKQPPSQDDTVCVITEEPFYALFSSLGSFYIPLAVILAMYCRVYVVAK
+                     RTTRNLEAGMMRDRAEDSNELTLRIHCRNQQIHDLCPPAKAAGGGASAGRGALTVKLLK
+                     FSREKKAAKTLGVVVGMFILCWLPFFLVLPISSFNSSLRPPETLFKVIFWLGYFNSCLN
+                     PIIYPCYSREFKQAFIRILRCRWKSKRQGWQAYYNYRCQQGSNASSFLNGSQQTLSSAG
+                     HSPCCVSTKLRPPPWPSAAKRPLPGSAPRPGPFPLAKDAGRPGTGPTA"
+                     /gene="LOC102232317"
+                     /protein_id="XP_005811659.1"
+ORIGIN
+        1 atgagtctgc ggactaacgg ctccctgccg gacctgttcc accagaactc ctcctccaat
+       61 cggaccgggc cgccggaccc cgccgctcca ctggacctga gccgggcggt gccggtcgga
+      121 atggtgctgg cctccttcat catgttcgcc atcgtgggga acatcctggt catcctgtcg
+      181 gtggtctgca accggcacct gcggaccccc accaactact tcatcatcaa cctggccatg
+      241 gcggacctgc tgctgggcac caccgtgctg cccgtgtccg ccaccctgga ggttcttggc
+      301 tactgggtgt ttggtcggat cttctgtgac atctgggcgg cggtggacgt gctgtgctgc
+      361 acggcctcca tcatgtcgct ctgcgtcatc tccatcgacc gctacgtggg cgtgcgctac
+      421 ccactgcagt accccatggt ggtcaccagg aggcgcgcgc tgctggccat gctgggagtc
+      481 tggatcctgg cgctggtcat ctccatcggg ccgctgctgg gctggaagca gccgccgtca
+      541 caggatgaca cggtgtgtgt gatcacagag gagcctttct acgccctgtt ctcgtcgctg
+      601 gggtccttct acatcccgct ggccgtcatc ctggccatgt actgccgcgt ctacgtggtg
+      661 gccaagcgca ccaccaggaa cctggaggcc ggcatgatga gggaccgcgc cgaggactcc
+      721 aacgagctca ccctcaggat ccactgccgg aaccagcaga tccacgacct ctgccctccc
+      781 gccaaggccg cagggggcgg agcctcggcc ggccggggcg ctctcaccgt caagctgctc
+      841 aagttctcac gagagaagaa agctgccaag acgctgggcg tggtggtggg catgttcatc
+      901 ctctgctggc tgcccttctt cctggttctg cccatcagct cgttcaacag cagcctacga
+      961 cctccagaaa cgctcttcaa ggtcatcttc tggttgggat acttcaacag ctgcctgaac
+     1021 cccatcatct acccctgcta cagccgcgag ttcaaacagg ccttcatccg catcctgcgc
+     1081 tgccgctgga agagcaagcg gcagggctgg caggcgtact acaactaccg ctgccagcaa
+     1141 gggtcaaacg cctcgtcctt cctgaacggc agccagcaga cgctgtcctc cgccggccat
+     1201 agcccctgct gcgtctccac caagctccgc ccaccgcctt ggccctccgc cgccaagcgc
+     1261 ccgctgcccg ggtcggcgcc aaggcccggt ccgttcccgc tcgcaaagga tgctgggagg
+     1321 ccggggacgg ggccaacggc atga
+//

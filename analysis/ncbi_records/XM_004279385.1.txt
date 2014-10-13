@@ -1,0 +1,92 @@
+LOCUS       XM_004279385            1390 bp    DNA              MAM 18-MAR-2013
+DEFINITION  PREDICTED: Orcinus orca 5-hydroxytryptamine (serotonin) receptor 7,
+            adenylate cyclase-coupled (HTR7), mRNA.
+ACCESSION   XM_004279385
+VERSION     XM_004279385.1  GI:466056434
+DBLINK      BioProject: PRJNA189949
+KEYWORDS    RefSeq.
+SOURCE      Orcinus orca (killer whale)
+  ORGANISM  Orcinus orca
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Cetacea;
+            Odontoceti; Delphinidae; Orcinus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004438524.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Orcinus orca Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1390
+                     /mol_type="mRNA"
+                     /collection_date="06-Sep-2011"
+                     /isolate="Morgan"
+                     /sex="male"
+                     /note="Norwegian herring-eating population"
+                     /db_xref="taxon:9733"
+                     /tissue_type="blood"
+                     /organism="Orcinus orca"
+                     /chromosome="Unknown"
+     gene            1..1390
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 mRNAs, 4 Proteins"
+                     /db_xref="GeneID:101272540"
+                     /gene="HTR7"
+     STS             20..554
+                     /db_xref="UniSTS:511811"
+                     /standard_name="HTR7"
+                     /gene="HTR7"
+     CDS             22..1365
+                     /product="5-hydroxytryptamine receptor 7"
+                     /codon_start="1"
+                     /db_xref="GI:466056435"
+                     /db_xref="GeneID:101272540"
+                     /translation="MMDVNSSGRPDLYGHLRSFLPEVGRGLPDLSPDGAGPVAGSWAPH
+                     LLHGVPEVTASPVPTWDALPDNASGCGEQINYGSAEKVVIGSILTLITLLTIAGNCLVV
+                     ISVCFVKKLRQPSNYLIVSLALADLSVAVAVMPFVSVTDLIGGKWIFGHFFCNVFIAMD
+                     VMCCTASIMTLCVISIDRYLGITRPLTYPVRQNGKCMAKMILSVWLLSASITLPPLFGW
+                     AQNVNDDKVCLISQDFGYTIYSTAVAFYIPMSVMLFMYYQIYKAARKSAAKHKFPGFPR
+                     PVEPDSVVSLNGMVKLQKEVEECANLSRLLKHERKNISIFKREQKAATTLGIIVGAFTV
+                     CWLPFFLLSTARPFICGTACSCIPLWVERTFLWLGYANSLINPFIYAFFNRDLRTTYRS
+                     LLQCQYRNINRKLSAAGMHEALKLAERPERPELVLQNSDYCRKKSHDS"
+                     /gene="HTR7"
+                     /protein_id="XP_004279433.1"
+     STS             1114..1253
+                     /db_xref="UniSTS:39426"
+                     /standard_name="RH66814"
+                     /gene="HTR7"
+ORIGIN
+        1 gcagcgacgc acagcggcac gatgatggac gttaacagca gcggccgccc ggacctctac
+       61 gggcacctcc gctcttttct gccagaggtg ggacgcgggc tgcccgacct gagccccgac
+      121 ggcgccggcc cggtcgcggg ctcctgggcg ccgcacctgc tgcacggggt ccctgaggtg
+      181 acggccagcc ccgtgcccac ctgggacgca ctcccggaca atgcctccgg ctgcggggag
+      241 cagatcaact acggcagcgc cgagaaagtt gtgatcggct ccatcctgac gctcatcacg
+      301 ctgctgacga tcgccggcaa ctgcctggtg gtgatctctg tgtgcttcgt caagaagctc
+      361 cgccagccct ccaactacct gatcgtgtcc ctggcgctgg ccgacctctc ggtggccgtg
+      421 gcggtcatgc ccttcgtcag cgtcaccgac cttatcgggg gcaagtggat ctttggccac
+      481 ttcttctgca acgtctttat cgccatggac gtcatgtgct gcacggcctc gatcatgacc
+      541 ctgtgcgtga tcagcatcga caggtacctt gggatcacga ggccgctgac gtaccccgtg
+      601 agacagaacg ggaagtgcat ggccaagatg atcctctctg tctggcttct gtccgcctcc
+      661 atcactttac caccgctctt cggctgggct cagaacgtaa atgatgacaa ggtgtgcttg
+      721 atcagccagg attttggcta cacgatctac tccaccgcag tggcgtttta catccccatg
+      781 tccgtcatgc ttttcatgta ctaccagatt tacaaggccg ccaggaagag cgccgccaaa
+      841 cacaagttcc ccggcttccc gcgtcccgtg gagcccgaca gcgtcgtctc cctgaacggc
+      901 atggtgaagc tccagaagga ggtggaggag tgtgcaaacc tttcgagact cctcaaacat
+      961 gaacggaaaa acatctccat ctttaagagg gaacagaagg cagccaccac cttggggatc
+     1021 atcgtcgggg cattcactgt gtgctggttg ccgtttttcc tcctctcgac ggccagaccc
+     1081 ttcatctgtg gcaccgcatg cagttgcatc ccgctgtggg tggagaggac atttctgtgg
+     1141 ctgggctatg caaactctct cattaacccc tttatatatg ccttcttcaa ccgggacctg
+     1201 aggaccacct accgcagcct gctccagtgc cagtaccgga atattaaccg gaagctctcg
+     1261 gctgcaggca tgcacgaggc cctgaagctt gccgagaggc ctgagagacc tgagcttgtg
+     1321 ctacaaaact ctgactactg tagaaaaaaa agtcatgatt catgatcaaa agcagaataa
+     1381 tggagatgaa
+//

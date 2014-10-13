@@ -1,0 +1,90 @@
+LOCUS       XM_005508202            1443 bp    DNA              VRT 15-SEP-2013
+DEFINITION  PREDICTED: Columba livia adrenoceptor beta 1 (ADRB1), mRNA.
+ACCESSION   XM_005508202
+VERSION     XM_005508202.1  GI:543734522
+DBLINK      BioProject: PRJNA217047
+KEYWORDS    RefSeq.
+SOURCE      Columba livia (rock pigeon)
+  ORGANISM  Columba livia
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Columbiformes;
+            Columbidae; Columba.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004973483.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Columba livia Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1443
+                     /mol_type="mRNA"
+                     /collection_date="13-Jun-2010"
+                     /country="Denmark: Vordingborg"
+                     /breed="Danish Tumbler"
+                     /sex="male"
+                     /note="bred by Anders Christiansen, Hans Ove Christiansen,
+                     and certified by Danmarks Racedueforeninger"
+                     /db_xref="taxon:8932"
+                     /tissue_type="blood"
+                     /organism="Columba livia"
+                     /chromosome="Unknown"
+     gene            1..1443
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 16 Proteins, and 84% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:102087468"
+                     /gene="ADRB1"
+     CDS             1..1431
+                     /product="beta-1 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:543734523"
+                     /db_xref="GeneID:102087468"
+                     /translation="MGRSHSRRACTELVALSLKPEGFTLGSSQGGCGGAQAGAGGTGDR
+                     ELCKEGEHLLQQLTEVCLAMEVCEQWAVGMSLLMVLVVLLIVAGNVLVIAAIGRTHWLQ
+                     TLTNLFITSLACADLVMGLLVVPFGATLVVRGTWLWGSFLCECWTSLDVLCVTASIETL
+                     CVIAIDRYLAITSPFRYQSLMTKGRAKGIICTVWAISALVSFLPIMMHWWRDEDPQALE
+                     CYQDPGCCDFVTNRAYAIASSIISFYIPLLIMIFVYLRVYREAKEQIRKIDRCEGRFYG
+                     SHEQPQPPPPPHHQPMLGNGRASKRKTSRIMAMKEQKALKTLGIIMGVFTLCWLPFFLV
+                     NIVNVFNRDLVPDWLFVFFNWLGYANSAFNPIIYCRSPDFRKAFKRLLSCPRKAGRRGG
+                     NPAHLPGGFISTVGSPERSLGGTWSDCNGGTRGGSESSLEERNSKTSDSESKGTVSLVD
+                     LHCLLLLFINLAFCLSKM"
+                     /gene="ADRB1"
+                     /protein_id="XP_005508259.1"
+ORIGIN
+        1 atggggagaa gccacagccg cagagcctgc acggagctgg tagcactatc ccttaagcca
+       61 gaaggtttta cactgggttc tagccaaggg ggctgtggcg gtgcccaggc tggggcagga
+      121 ggcactggtg acagggagct gtgtaaagaa ggggagcatc tgctccagca gctcacagag
+      181 gtgtgcctgg caatggaggt gtgtgagcag tgggctgtgg ggatgagcct gctgatggtc
+      241 ctggtggtgc tgctcatcgt ggcggggaac gtgctggtga tcgcggccat cgggcgcacg
+      301 cactggttgc agacgctcac caacctcttc atcacctcgc tggcctgcgc tgacctggtg
+      361 atggggctgc tggtggtgcc cttcggggcc acgctggtgg tgcggggcac ctggctctgg
+      421 ggatctttcc tctgcgagtg ctggacctcg ctggacgtgc tctgcgtgac agccagcatc
+      481 gagaccttgt gcgtcattgc catcgaccgc tacctggcca tcacctcacc tttccgctac
+      541 cagagcctca tgaccaaggg tcgggccaag ggcatcatct gcaccgtctg ggccatctct
+      601 gccctggtct ccttcttgcc catcatgatg cattggtggc gggatgagga cccccaggct
+      661 ctggagtgct accaggaccc gggctgctgt gacttcgtca ccaacagggc ttacgccatc
+      721 gcctcgtcca tcatttcttt ctacatcccc cttctcatca tgatctttgt gtacctccgg
+      781 gtgtacagag aggccaagga gcagatcagg aagatcgatc ggtgcgaggg ccggttctac
+      841 ggcagccacg agcagccaca gccgccccca cctcctcacc accagcccat gctcggcaat
+      901 ggccgagcca gcaagcggaa gacctcccgg atcatggcta tgaaggagca gaaagccctc
+      961 aagactttgg gcatcatcat gggggtgttc accctctgct ggctcccttt cttcctggtg
+     1021 aacatcgtca acgtcttcaa ccgggacctg gtgccagact ggctcttcgt tttcttcaac
+     1081 tggctgggct acgccaactc tgctttcaac cccatcatct actgccgcag ccctgacttt
+     1141 cgtaaagcct tcaagaggct gctcagctgc ccccggaaag ctggtcggcg tggcgggaac
+     1201 ccggcccacc tgccgggggg cttcatcagc accgtgggct cccccgagcg cagcctggga
+     1261 gggacctggt ctgactgcaa cgggggtacg cggggcggca gcgagtccag cctggaggag
+     1321 agaaatagca aaacatccga ttcggagtcc aagggaacag tcagcctagt ggatttgcat
+     1381 tgccttctgc ttctgttcat caacctagct ttctgtttga gcaagatgta gtgtcctggt
+     1441 gct
+//

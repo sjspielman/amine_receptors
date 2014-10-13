@@ -1,0 +1,79 @@
+LOCUS       XM_003122390            1116 bp    DNA              MAM 26-SEP-2013
+DEFINITION  PREDICTED: Sus scrofa dopamine receptor D4 (DRD4), mRNA.
+ACCESSION   XM_003122390
+VERSION     XM_003122390.1  GI:311247017
+DBLINK      BioProject: PRJNA28993
+KEYWORDS    RefSeq.
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003299443.3) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Sus scrofa Annotation Release 104
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1116
+                     /breed="mixed"
+                     /db_xref="taxon:9823"
+                     /mol_type="mRNA"
+                     /organism="Sus scrofa"
+                     /chromosome="2"
+     gene            1..1116
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 9 Proteins, and 10% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:100512329"
+                     /gene="DRD4"
+     CDS             1..1116
+                     /product="D(4) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:311247018"
+                     /db_xref="GeneID:100512329"
+                     /translation="MGNRSVADADGLLAGREPATGGGAGDPGAAAALAGGVLLIGAVLA
+                     GNSLVCVSVAAERALQTPTNYFIVSLAAADLLLALLVLPLFVYSEVHGGVWLLSPGLCD
+                     ALMAMDVMLCTASIFNLCAISVDRFVAVAVPLHYNRQSRRQLLLIGATWLLSAAVAAPV
+                     LCGLNDARGRDPAVCRLENRDYVVYSSVCSFFLPCPLMLLLYWATFRGLRRWEAARRAK
+                     LHGRAPRRPSGPGPPPPDAILAPDTTPPPDAIPPAPDTRPPPDAPPPLDAAVAAEAPLQ
+                     ARRRRAKITGRERKAMRVLPVVVGAFLLCWTPFFVVHITRALCPTCAVPPRLVSAVTWL
+                     GYVNSALNPVIYTAFNAEFRSVFRKALRLCC"
+                     /gene="DRD4"
+                     /protein_id="XP_003122438.1"
+     STS             182..343
+                     /db_xref="UniSTS:508533"
+                     /standard_name="Drd4"
+                     /gene="DRD4"
+ORIGIN
+        1 atggggaacc gcagcgtcgc ggacgccgac gggctgctgg cggggcgcga gccggcgaca
+       61 ggcggcggcg caggggaccc cggggcagcg gcggcgctgg cggggggcgt gctgctcatc
+      121 ggcgcggtgc tcgcggggaa ctcactcgtg tgcgtgagcg tggcggccga gcgcgccctg
+      181 cagacgccca ccaactactt catcgtgagc ctggcggcgg ccgacctcct actcgccctg
+      241 cttgtgctgc ctctcttcgt ctattccgag gtgcacggcg gcgtgtggct gctgagcccg
+      301 ggtctctgcg acgcgctcat ggccatggac gtcatgctgt gcaccgcctc catcttcaac
+      361 ctgtgcgcca tcagcgtgga caggttcgtg gcagtggccg tgcccctgca ctacaaccgc
+      421 cagagccgcc gtcagctgct gctcatcggc gccacgtggc tgctgtcggc ggcggtggcg
+      481 gcgccggtgc tctgcggcct caacgatgcg cgcggccgcg atcccgccgt gtgccgcctg
+      541 gagaaccgcg actacgtggt ctactcgtcc gtgtgctcct tcttcctgcc ctgcccactc
+      601 atgctgctgc tctactgggc tacgttccgg ggcctgcggc gctgggaggc cgcccgccgc
+      661 gccaagctgc acggccgtgc gccccgccgg cccagcggcc ctggcccgcc gccgcccgac
+      721 gccatcctgg cccccgacac caccccaccc cccgacgcca tcccgccggc ccccgacacc
+      781 cgcccgcccc ccgatgcccc tccgcccctc gacgccgctg tagccgccga agccccgctg
+      841 caggcccgca ggagacgcgc caagatcacc ggccgcgagc gcaaagctat gagggtgctg
+      901 cccgtggtgg ttggggcctt cctgctgtgc tggacgccct tctttgtcgt gcacatcacc
+      961 cgggcgctgt gtcccacgtg cgccgtgccc ccgcggctgg tcagcgcggt cacctggctg
+     1021 ggctatgtca acagcgccct gaaccccgtc atctacaccg ccttcaacgc cgagttccgc
+     1081 tctgttttcc gcaaggctct gcgcctctgc tgctga
+//

@@ -1,0 +1,98 @@
+LOCUS       XM_001365625            2144 bp    DNA              MAM 14-APR-2014
+DEFINITION  PREDICTED: Monodelphis domestica 5-hydroxytryptamine (serotonin)
+            receptor 2B, G protein-coupled (HTR2B), mRNA.
+ACCESSION   XM_001365625
+VERSION     XM_001365625.2  GI:612001964
+DBLINK      BioProject: PRJNA15683
+KEYWORDS    RefSeq.
+SOURCE      Monodelphis domestica (gray short-tailed opossum)
+  ORGANISM  Monodelphis domestica
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Metatheria; Didelphimorphia; Didelphidae; Monodelphis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001581884.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Apr 14, 2014 this sequence version replaced gi:126314288.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Monodelphis domestica Annotation
+            Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2144
+                     /pop_variant="pop1"
+                     /db_xref="taxon:13616"
+                     /mol_type="mRNA"
+                     /organism="Monodelphis domestica"
+                     /chromosome="2"
+     gene            1..2144
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 10 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 42 samples with support for all annotated
+                     introns"
+                     /db_xref="GeneID:100014874"
+                     /gene="HTR2B"
+     CDS             443..1864
+                     /product="5-hydroxytryptamine receptor 2B"
+                     /codon_start="1"
+                     /db_xref="GI:126314289"
+                     /db_xref="GeneID:100014874"
+                     /translation="MAISYRLCEQGTIPGYLLQGSKMSDRLLASNGSGLPTEATPGEKK
+                     LRWAALLIFLVIIPTIGGNILVILAVSLEKKLQYATNYFLMSLAVADLLVGLFVMPIAL
+                     LTIMFEPVWPLPLVLCPAWLFLDVLFSTASIMHLCAISVDRYIAIKKPIQASQYNSRAT
+                     ALIKITVVWLISIGIAIPIPIKGIEAGVGDPNNITCVITKDRFSSFMLFGSLASFFTPL
+                     AIMIVTYFLTIQALRKKAYLIKNKPLQRFTWSTVSTVFQRDETPSSSPEKVAMLDFSPK
+                     NKMVPNSSDEMLIRRMSSIGKKSVQTITNEQRASKVLGIVFFLFLFMWCPFFITNVTLA
+                     SCDSCSQTTLQKLMEIFVWIGYVSSGVNPLVYTLFNKTFREAFGRYITCNYRASKAVKP
+                     LRKCSSKASFRNSVAENSKFFVRQGVRNGINPVMYQSPMRLCSSPIQSQSTILLDTLLL
+                     TENEADKTDEQVSYV"
+                     /gene="HTR2B"
+                     /protein_id="XP_001365662.1"
+ORIGIN
+        1 cagctctcga agttctcaat gcagaccaga gctcagggag aagggagggg ctggggctgc
+       61 tgttctggtc tctgtaaatt aaatgatgtc atctgcatat tttgtattga gggggaaccc
+      121 tttggcattc cagtgccccg accactctga tgctacaaga agcgagctga ctgcctccat
+      181 gtccacagtg ctggttcctc tcctaaagcc ttgtgaaatc tgcggctctt agagcagcaa
+      241 ccagcccaaa ggaccttcct taccaagcag ggatggccaa gagctggtga aagagatttt
+      301 ttttttaaaa gaagggggtc caccttggct tggattgtct ggcatgggta caatgtctta
+      361 aaaaaaaaaa cagatgacta gctgagctac tgaccatgtt gaccactctc cagaagcaga
+      421 ctggaccaca ggaaaacagc gaatggctat ttcttacaga ctttgtgagc aaggcacaat
+      481 cccaggatac cttctgcagg gctctaaaat gtctgatcgc ttactcgcct ccaatgggtc
+      541 gggcctgccc accgaagcga caccagggga aaagaagctg cgctgggcag ctctcctgat
+      601 attcctggtg ataatcccaa caatcggggg aaatattctt gtcatcctcg ccgtgtcctt
+      661 ggagaaaaag ctgcagtatg ctaccaatta ctttctgatg tcactggcag tggctgatct
+      721 gctggtcggg ctgtttgtga tgccgattgc cctccttacg atcatgtttg agcccgtgtg
+      781 gccccttccg cttgtcctct gccctgcctg gttgtttctg gacgtgcttt tctcgacggc
+      841 ttccatcatg catctctgcg ctatctccgt ggaccgttac atcgctatca aaaagcccat
+      901 ccaggccagt cagtacaact cgcgagcaac agccctcatc aagataacag tggtgtggct
+      961 catttctata ggtatcgcca tcccgatccc aattaaaggc atagaagctg gcgtggggga
+     1021 ccccaacaac atcacgtgtg tgatcacaaa ggaccgcttc agcagcttca tgctcttcgg
+     1081 ctcgctggcc tccttcttca cgcccctcgc catcatgatc gtcacgtatt ttctcactat
+     1141 ccaggcactt cggaagaagg cgtacttgat caaaaacaag cccctgcagc gtttcacctg
+     1201 gtccactgtg tccaccgttt tccaaaggga tgaaacaccc agctcatctc ctgaaaaggt
+     1261 ggccatgctg gatttttctc ccaagaataa aatggtgcca aactcgagcg acgagatgct
+     1321 tattcggcgg atgtccagca ttgggaaaaa gtctgttcaa acgattacca atgagcagag
+     1381 ggcttccaag gtgctgggga ttgtgttttt cctctttctc tttatgtggt gtcctttctt
+     1441 tatcaccaat gtgacattag catcctgtga ttcctgtagc cagaccacgc tccaaaagct
+     1501 tatggagata tttgtctgga tcggttacgt ttcctcgggg gtgaaccctc tggtttacac
+     1561 gctttttaat aagacctttc gggaagcgtt tgggcgatac atcacatgca actatcgggc
+     1621 cagcaaggca gtgaagcccc ttcggaaatg ctcaagcaag gcatccttca ggaattctgt
+     1681 ggcagagaac tccaaattct ttgtgagaca aggagtgagg aatgggatta accctgtcat
+     1741 gtaccagagc ccaatgagac tctgtagttc tcccatacaa tcccaatcca ccattttact
+     1801 agacacacta ctactcactg aaaacgaagc ggataaaacc gatgagcaag tcagctatgt
+     1861 gtagcagagt tcacgtgccc ttcaaacaaa tcctgtgata agcagaacca agcacaggta
+     1921 gagggactat ttggggccac tgctgatcag aagaatggca gaatacatgt tactgcatct
+     1981 tcttacagac caagagtcgg tattatcagt attgtttagt tttctttaat ttgaccaaga
+     2041 gattccatga aaatagatat attgcacgaa aataaagaac atctagcact ctttctgtaa
+     2101 ttaagatgcc aaaagattca aataaagttt aatcaactat ttaa
+//

@@ -1,0 +1,83 @@
+LOCUS       XM_005009570            1082 bp    DNA              VRT 26-JUN-2013
+DEFINITION  PREDICTED: Anas platyrhynchos trace amine associated receptor 1
+            (TAAR1), mRNA.
+ACCESSION   XM_005009570
+VERSION     XM_005009570.1  GI:514705012
+DBLINK      BioProject: PRJNA208071
+KEYWORDS    RefSeq.
+SOURCE      Anas platyrhynchos (mallard)
+  ORGANISM  Anas platyrhynchos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Anseriformes; Anatidae;
+            Anas.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004676347.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Anas platyrhynchos Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1082
+                     /mol_type="mRNA"
+                     /country="China: Beijing"
+                     /breed="Pekin duck"
+                     /sex="female"
+                     /isolation_source="Gold Star Duck Production"
+                     /db_xref="taxon:8839"
+                     /organism="Anas platyrhynchos"
+                     /chromosome="Unknown"
+     gene            1..1082
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 14 Proteins, and 56% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101798840"
+                     /gene="TAAR1"
+     misc_feature    9..11
+                     /note="upstream in-frame stop codon"
+                     /gene="TAAR1"
+     CDS             84..1082
+                     /product="trace amine-associated receptor 1"
+                     /codon_start="1"
+                     /db_xref="GI:514705013"
+                     /db_xref="GeneID:101798840"
+                     /translation="MQLCCESVNGSCIKSSWSNSIRISMYIFMVCIILATVFGNLMVII
+                     SISHFKQLHTPTNFLILSMATADFLLGFLVMPCSMVRSVEHCWYFGDFFCKIHTSMDIM
+                     LSTASIFHLSFISIDRYYAVCDPLRYKSKINTFVILVMIFISWTVPAGFAFGMIFLELN
+                     LLGAEEIYNHIHCAGGCFLFFSETSGVVASVVSFYIPGFVMLYVYRKIYSIAKRHARSI
+                     EAISQKKRCEMKHHISCCRERKAARTLCIIMGVFFICWSPFFFLTATDPFMNYMAPPIL
+                     IDALVWFGYLNSAFNPIVYAFFYMWFRKALKIILFGNIFQRDSSRIQLFLE"
+                     /gene="TAAR1"
+                     /protein_id="XP_005009627.1"
+ORIGIN
+        1 aatggctgta aacgtccctc agcattaaga cgtgccatat aagctgtgcc ctatcgctgc
+       61 atggatttgg tacctcagta aggatgcaac tgtgttgtga atctgtaaat ggctcttgca
+      121 taaagagcag ctggtcaaac agtatccgca tttccatgta tatcttcatg gtttgcatta
+      181 ttctggccac agtgtttgga aatcttatgg ttatcatctc aatatcacat tttaagcagc
+      241 tccacacgcc taccaacttc ttgatacttt ccatggccac agctgacttt ttgctgggat
+      301 tcctcgtcat gccttgcagc atggtgcgct ctgttgagca ctgctggtat tttggcgact
+      361 tcttctgcaa gatccacaca agcatggaca ttatgctgag cacagcttcc atcttccatc
+      421 tttctttcat atccattgat cgttactatg ctgtgtgtga ccctctaaga tacaaatcaa
+      481 agataaatac ttttgttatc ctggtcatga tattcataag ttggactgtc cctgctggtt
+      541 ttgcttttgg gatgatcttt ctagaactaa atctgctagg agcagaagag atttataatc
+      601 acatccattg tgcaggagga tgctttctct tctttagtga aacttcaggt gttgtggcct
+      661 ccgtagtgtc tttttacatc cctggatttg ttatgctgta tgtctatagg aagatatact
+      721 ctatagccaa gaggcatgca agatccattg aagcaattag ccaaaagaag agatgtgaaa
+      781 tgaagcacca catttcatgc tgcagagaaa ggaaagctgc aaggacatta tgtataataa
+      841 tgggagtatt ttttatatgc tggagcccat tcttcttcct tacagcaact gatccattta
+      901 tgaattatat ggctcctcct attctcattg atgctttggt ttggtttggt tatttaaatt
+      961 ctgcatttaa tccaattgtt tatgcatttt tttacatgtg gtttcgcaaa gcattaaaga
+     1021 ttattctttt tggaaacatt tttcaaaggg actcttcaag gattcaatta tttttagagt
+     1081 ga
+//

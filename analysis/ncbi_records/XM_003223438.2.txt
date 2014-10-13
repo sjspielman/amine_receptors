@@ -1,0 +1,100 @@
+LOCUS       XM_003223438            2106 bp    DNA              VRT 22-MAY-2014
+DEFINITION  PREDICTED: Anolis carolinensis adrenoceptor beta 1 (adrb1),
+            transcript variant X1, mRNA.
+ACCESSION   XM_003223438
+VERSION     XM_003223438.2  GI:637321887
+DBLINK      BioProject: PRJNA60547
+KEYWORDS    RefSeq.
+SOURCE      Anolis carolinensis (green anole)
+  ORGANISM  Anolis carolinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata;
+            Toxicofera; Iguania; Iguanidae; Polychrotinae; Anolis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003338751.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On May 22, 2014 this sequence version replaced gi:327277467.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Anolis carolinensis Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2106
+                     /db_xref="taxon:28377"
+                     /mol_type="mRNA"
+                     /organism="Anolis carolinensis"
+                     /chromosome="Unknown"
+                     /country="USA"
+     gene            1..2106
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 37 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:100563228"
+                     /gene="adrb1"
+     STS             315..1685
+                     /db_xref="UniSTS:515610"
+                     /standard_name="ha2919"
+                     /gene="adrb1"
+     CDS             649..1947
+                     /product="beta-1 adrenergic receptor isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:327277468"
+                     /db_xref="GeneID:100563228"
+                     /translation="MGDGWVFLSDSLQNRTNSSSSNTSSLPSPGALPLAPKELSQQWVV
+                     GMSLLMSLMVAFIVVGNGLVIAAIGRTQRLQTLTNVFITSLACADLVMGSVVVPFGATL
+                     VVRDTWLWGSFLCECWTSVDVLCVTASIETLCVIAIDRYLAITSPFRYQSLMTKKRAKI
+                     IVCVVWAISALVSFLPIMMQWWRDDDPEALLCYDDPGCCDFVTNRAYAIASSIISFYVP
+                     LFVMIFVYIRVYREAKEQMKKIDKCEGRFYNNHHQQQQHQHPPTHQQLPILGNGPATRR
+                     KTSRILAVREQKALKTLGIIMGVFTLCWLPFFLVNVVKVFNRGLVPDQLFVFFNWLGYA
+                     NSAFNPIIYCRSPDFRKAFKRMLCCPRKADRRLHASAGELSRYPGGFISTLGDTAPCTL
+                     GGTWSDYNGGARDGSDSSLEDRNSKTSHSESKV"
+                     /gene="adrb1"
+                     /protein_id="XP_003223486.1"
+ORIGIN
+        1 gcgggaggag gacagaaaag ggcgcattca agggcattca ttcggccacc ggagctgaaa
+       61 gcgaaaggct tccagagaga gaggggagga ggtgaaggag agagtgtgag agaagaaggg
+      121 agggagaggg acaggaaaag aggagagaga cagagagggc aaagagggac ctagagatag
+      181 ggagacggcc aggcgcaggg agataacgcg aagttcagag ataaccgcgt cttccagggc
+      241 gagagctgtg caagaaggca gagcgtcagt ggagccctgg tgggcgccgt gagcgagcct
+      301 tttccctgct cttcctcctc ctcctcctcc tccctccgcc cgccttcttc cagagcagcc
+      361 ccgtcggtcc tgcctccccc ccaccccttc cccgagttct ccggaggctc ggcattggct
+      421 gcccgggcgg cgacgtcacg gggacggggc gggaggcgtc gtcggaggcg cgggagaggc
+      481 tcaccgccgg agaggctggc tggcgcaaac catgctggag ccccggagca agtggcggcg
+      541 ttggcggcgg cggcggcggc gcttccagga gctacaaaga gtcccggtct cttccttctc
+      601 gttgacgctc cgctcggcct ggatgatgcc ctgagcggct ggacagccat gggagatggc
+      661 tgggtcttcc taagcgacag cctccagaac cggaccaact ccagcagcag caacacctcg
+      721 tccctgccca gcccgggcgc cttgcccctg gcccccaagg agctgtccca gcagtgggtg
+      781 gtgggcatga gcctcctgat gtccctgatg gtggccttca tcgtggtggg caatggatta
+      841 gtcatcgctg ctattgggcg cacacagcgc ctccagaccc tcaccaacgt cttcatcacc
+      901 tccttggcct gcgccgacct ggttatgggc tctgtggtgg ttccctttgg ggccacgctg
+      961 gtggtgcgcg acacctggct ctggggctcc tttctgtgcg agtgctggac ctcggtggac
+     1021 gtcctctgcg tcacggcgag catcgagacc ctctgcgtca tcgccatcga ccgctacctc
+     1081 gccatcacct ctcccttccg ctaccagagc ctcatgacca agaagcgggc caaaatcatt
+     1141 gtctgcgtgg tgtgggccat ctcggctttg gtctccttcc tgcccattat gatgcagtgg
+     1201 tggagggacg acgaccccga ggccttattg tgctacgatg atcccggctg ctgcgacttt
+     1261 gtcaccaaca gggcctacgc catcgcctcc tccatcatct ccttctacgt ccccctcttt
+     1321 gtgatgattt ttgtctacat ccgtgtctac cgagaagcga aggagcagat gaagaagatc
+     1381 gacaagtgtg agggccgttt ctacaacaac catcaccaac agcagcagca ccaacacccg
+     1441 ccgacccacc aacaactgcc gatcctgggc aacggtccgg ccaccaggag gaaaacctcc
+     1501 cgcatcttgg ccgtacggga gcagaaggcc ctcaagactt tgggcatcat catgggggtc
+     1561 ttcacattgt gctggctgcc tttcttcttg gtcaatgtgg tcaaggtctt caaccgaggg
+     1621 ctggttccag atcaactctt tgtcttcttc aactggttgg gctacgccaa ctccgccttc
+     1681 aaccccatca tctactgcag gagccctgat ttccggaagg ccttcaagag gatgctgtgc
+     1741 tgtccaagga aagcggaccg gaggctacac gccagcgctg gggagctctc tcggtacccg
+     1801 gggggcttca ttagtactct aggagatact gccccatgca ctcttggagg gacgtggtcc
+     1861 gattacaatg gtggtgcccg ggatggaagt gactccagct tagaggacag gaacagtaaa
+     1921 acctctcatt cagaatccaa ggtataaggg cagtttggtg ggaaggatca gagttcatgg
+     1981 tcagtcctgt ggaacaggaa agggagccaa agggagctga aggaataggc cagtggtttc
+     2041 caaccttagg gcctccaagt gttttggact tcagctccca cagttcctaa caggctggga
+     2101 tttcct
+//

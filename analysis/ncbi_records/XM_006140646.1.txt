@@ -1,0 +1,93 @@
+LOCUS       XM_006140646            1710 bp    DNA              MAM 03-DEC-2013
+DEFINITION  PREDICTED: Tupaia chinensis 5-hydroxytryptamine (serotonin) receptor
+            2A, G protein-coupled (HTR2A), mRNA.
+ACCESSION   XM_006140646
+VERSION     XM_006140646.1  GI:562821612
+DBLINK      BioProject: PRJNA221634
+KEYWORDS    RefSeq.
+SOURCE      Tupaia chinensis (Chinese tree shrew)
+  ORGANISM  Tupaia chinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Scandentia; Tupaiidae; Tupaia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006159488.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Tupaia chinensis Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1710
+                     /mol_type="mRNA"
+                     /country="China"
+                     /sex="male"
+                     /db_xref="taxon:246437"
+                     /organism="Tupaia chinensis"
+                     /chromosome="Unknown"
+     gene            1..1710
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 13 Proteins, and 97% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:102487731"
+                     /gene="HTR2A"
+     CDS             10..1425
+                     /product="5-hydroxytryptamine receptor 2A"
+                     /codon_start="1"
+                     /db_xref="GI:562821613"
+                     /db_xref="GeneID:102487731"
+                     /translation="MDILCEENNSLSSIPNSLMQLSDDTRLYNNDFNSREANTSDVFNW
+                     TVDSDNRTNLSCEGCLSPPCVSLLHLQEKNWSALLTAVVIILTIAGNILVIMAVSLEKK
+                     LQNATNYFLMSLAIADMLLGFLVMPVSMLTILYGYRWPLPSKLCAVWIYLDVLFSTASI
+                     MHLCAISLDRYVAIQNPIHHSRFNSRTKAFLKIIAVWTISVGISMPIPVFGLQDDSKVF
+                     KEGSCLLADDNFVLIGSFVSFFIPLTIMVITYFLTIKSLQKEATLCVSDVSTRAKLASF
+                     SFLPQSSLSSEKLFQRSIHREPGSYAGRRTMQSISNEQKACKVLGIVFFLFVVMWCPFF
+                     ITNIMAVICKESCNEDVIGALLNVFVWIGYLSSAVNPLVYTLFNKTYRSAFSRYIQCQY
+                     KENKKPLQLILVNTIPALAYKSSQLQMGQKKNSKKDAKMADNDCSMVALEKQHSENAST
+                     DNIDTVNEKVSCV"
+                     /gene="HTR2A"
+                     /protein_id="XP_006140708.1"
+     STS             308..440
+                     /db_xref="UniSTS:31941"
+                     /standard_name="HTR2A-112F"
+                     /gene="HTR2A"
+ORIGIN
+        1 agtttagaaa tggatattct ctgtgaagaa aacaattctc tgagctccat tccgaactcc
+       61 ctaatgcaat taagtgatga cacaagactc tacaacaatg actttaactc cagagaagcc
+      121 aacacttctg atgtgtttaa ctggaccgtg gactctgata atcgaaccaa cctttcctgt
+      181 gaagggtgcc tctcaccacc atgtgtctcc ctacttcatc tccaggaaaa aaactggtct
+      241 gctttattga cagctgtagt gattattcta accattgccg gaaacatact cgtcatcatg
+      301 gcagtgtccc tagagaaaaa gctgcagaat gccaccaact atttcctgat gtcacttgcc
+      361 atagctgata tgctgctggg tttccttgtc atgcccgtgt ccatgttaac catcctgtac
+      421 gggtaccggt ggcctctgcc tagcaagctc tgtgcagtct ggatttatct ggatgtgctc
+      481 ttctccacgg cctccatcat gcacctctgc gccatctctc tggaccgcta cgtcgccatc
+      541 cagaatccca tccaccacag tcgtttcaac tccagaacca aggcatttct gaaaataatt
+      601 gctgtttgga ctatatcagt aggtatatcc atgccaatac cagtctttgg actgcaggat
+      661 gattccaagg tctttaagga gggaagctgc ttactcgccg atgataactt cgtcctgatt
+      721 ggctcttttg tgtcattttt cattccctta accatcatgg tgatcaccta ctttctaact
+      781 atcaagtcac tccagaaaga agctactttg tgtgtgagtg atgtcagtac ccgggccaaa
+      841 ttagcctctt tcagcttcct tcctcagagt tccttgtctt cagaaaagct ctttcagcgg
+      901 tccatccaca gggagccagg ctcctatgcg ggcagaagga ctatgcagtc catcagcaat
+      961 gagcaaaaag cgtgcaaggt gctgggcatt gtcttctttc tatttgtggt gatgtggtgc
+     1021 ccgttcttca tcacaaacat catggctgtc atctgtaaag agtcctgcaa tgaggatgtt
+     1081 atcggagccc tacttaatgt gtttgtttgg ataggttacc tctcctcagc cgtcaaccca
+     1141 ctagtctaca cactgttcaa taagacctat aggtcagcct tttcacgtta tattcagtgt
+     1201 cagtacaaag aaaacaaaaa accattgcag ttaattttag tgaacactat accagcattg
+     1261 gcctataagt ctagtcaact tcaaatggga caaaaaaaaa attcaaagaa agatgcgaag
+     1321 atggcagata atgactgctc tatggttgct ctagaaaaac aacattcaga aaatgcttct
+     1381 acagacaata tcgacacagt gaatgaaaag gttagctgtg tgtgataagc tagttgccat
+     1441 ggcaactgta gagggcatat tgagaaaatt ttcacctctc tgggaaaaaa aaatagggag
+     1501 actggaaaac attaggccaa tctagtggaa ccaacaataa tatctatatg cctcatttta
+     1561 tcctgtcaat gaaaagcagg gttaaatgcc acaaaatgtg cacttcagaa ttgtcctgac
+     1621 agcacttcag ttgtgagctt tatgatactt atttttaaca ttgtaaatga tgtgtcttca
+     1681 aaatcactag tttttattgt ataattataa
+//

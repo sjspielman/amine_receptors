@@ -1,0 +1,63 @@
+LOCUS       XP_005381190             518 aa                     ROD 27-AUG-2013
+DEFINITION  PREDICTED: alpha-1D adrenergic receptor [Chinchilla lanigera].
+ACCESSION   XP_005381190
+VERSION     XP_005381190.1  GI:533132349
+DBLINK      BioProject: PRJNA210822
+KEYWORDS    RefSeq.
+SOURCE      Chinchilla lanigera (long-tailed chinchilla)
+  ORGANISM  Chinchilla lanigera
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Chinchillidae; Chinchilla.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004955415.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Chinchilla lanigera Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..518
+                     /isolate="Chin_1"
+                     /sex="female"
+                     /organism="Chinchilla lanigera"
+                     /chromosome="Unknown"
+                     /db_xref="taxon:34839"
+     Protein         1..518
+                     /product="alpha-1D adrenergic receptor"
+                     /calculated_mol_wt="55809"
+     Region          69..353
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <246..>327
+                     /note="NAD(P)-binding Rossmann-like domain; cl19134"
+                     /db_xref="CDD:267487"
+                     /region_name="NAD_binding_8"
+     CDS             1..518
+                     /coded_by="XM_005381133.1:626..2182"
+                     /gene="Adra1d"
+                     /db_xref="GeneID:102006451"
+ORIGIN
+        1 mtfhdllsvt fegprpdssa gasgagagge vngtaavggl vvsaqgvgvg vflaafilta
+       61 vagnllvils vacnrhlqtv tnyfivnlav adlllsttvl pfsatmevlg fwafgrafcd
+      121 vwaavdvlcc tasilslcti svdryvgvrh slkypaimte rkaaailall wavalvvsvg
+      181 pllgwkepvp pderfcgite eagyavfssv csfylpmavi vvmycrvyvv arsttrslea
+      241 gvkrergkas evvlrihcrg aatgadgars gtrstkghtf rsslsvrllk fsrekkaakt
+      301 laivvgvfvl cwfpfffvlp lgslfpqlkp segvfkvifw lgyfnscvnp liypcssref
+      361 kraflrllrc qcrrrrrrrp lwrvyghhwr astsglhpdc apspgaappg aplaltapla
+      421 pgtpevraai pgrrklpstf rewrllgpfr rpttqlrakv sslshkirag gaqraeaaca
+      481 lraeveavsl gvpqdvaega tcqgydeady tnlretdi
+//

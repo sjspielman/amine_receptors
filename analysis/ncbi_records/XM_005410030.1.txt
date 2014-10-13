@@ -1,0 +1,87 @@
+LOCUS       XM_005410030            1481 bp    DNA              ROD 27-AUG-2013
+DEFINITION  PREDICTED: Chinchilla lanigera histamine receptor H3 (Hrh3), mRNA.
+ACCESSION   XM_005410030
+VERSION     XM_005410030.1  GI:533194702
+DBLINK      BioProject: PRJNA210822
+KEYWORDS    RefSeq.
+SOURCE      Chinchilla lanigera (long-tailed chinchilla)
+  ORGANISM  Chinchilla lanigera
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Chinchillidae; Chinchilla.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004955528.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Chinchilla lanigera Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1481
+                     /mol_type="mRNA"
+                     /isolate="Chin_1"
+                     /sex="female"
+                     /db_xref="taxon:34839"
+                     /organism="Chinchilla lanigera"
+                     /chromosome="Unknown"
+     gene            1..1481
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 3 Proteins, and 94%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 1 sample with support for all
+                     annotated introns"
+                     /db_xref="GeneID:102003480"
+                     /gene="Hrh3"
+     CDS             75..1319
+                     /product="histamine H3 receptor"
+                     /codon_start="1"
+                     /db_xref="GI:533194703"
+                     /db_xref="GeneID:102003480"
+                     /translation="MALLIVATVLGNALVMLAFVADSSLRTQNNFFLLNLAISDFLVGA
+                     FCIPLYVPYVLTGRWTFGRGLCKLWLVVDYLLCTSSVFNIVLISYDRFLSVTRAVSYRA
+                     QQGDTRRAVQKMALVWVLAFLLYGPAILSWEYLSGGSSIPEGHCYAEFFYNWYFLITAS
+                     TLEFFTPFLSVTFFNLSIYLNIQRRTRLRLDGPREAGPEPPPEAQPSPPPPPPGCWGCW
+                     PKGQGEATPLHRYGVGEAGPGAEAGEAALGGGSGGGAAASPTSSSGSSSRGTERPRSLK
+                     RGSKPSASSASLEKRMKMVSQSITQRFRLSRDKKVAKSLAIIVSIFGLCWAPYTLLMII
+                     RAACHGHCVPDYWYETSFWLLWANSAVNPVLYPLCHYSFRRAFTKLLCPQKLKVQPHGS
+                     LEQCWKKMKKKKARL"
+                     /gene="Hrh3"
+                     /protein_id="XP_005410087.1"
+ORIGIN
+        1 ctcgcaggct ccgggcggct gcgggcgggg cgcgcggctt ctccgccgcc tggaccgcgg
+       61 tgctggccgc gctcatggcg ctgctcatcg tggccacggt gctgggcaac gcgctggtca
+      121 tgctcgcctt cgtggccgac tcgagcctcc gcacccagaa caacttcttt ctgctcaacc
+      181 ttgccatctc cgacttcctc gtgggggcct tctgcatccc gctgtatgtg ccctatgtgc
+      241 tcacgggccg ctggaccttc ggccggggcc tctgcaagct gtggctggtg gtggactacc
+      301 tgctgtgcac ctcttccgtc ttcaacatcg tcctcatcag ctatgaccgc ttcctgtccg
+      361 tcaccagggc ggtgtcctac cgggcccagc agggcgacac gcggcgggca gtgcagaaga
+      421 tggcactggt gtgggtgctg gccttcctgc tgtacgggcc ggccatcctg agctgggagt
+      481 atctgtctgg aggcagctcc atccccgagg gccactgcta tgctgagttc ttctacaact
+      541 ggtacttcct catcacagcc tccaccctgg agttcttcac gcccttcctc agcgtcactt
+      601 tcttcaacct cagcatctac ctgaacatcc agaggcgcac ccgccttcgt ctggacgggc
+      661 cccgagaggc tggcccagag cccccgccgg aggcccagcc ctccccgccc ccaccacctc
+      721 cgggctgctg gggctgctgg ccaaaagggc agggggaggc cacgccgctg cacaggtatg
+      781 gggtgggcga ggccggcccc ggcgctgagg ctggagaggc ggccctcggg ggtggcagcg
+      841 gtgggggcgc tgcagcctcg cccacctcca gctccggcag ctcctcgagg ggcacggaaa
+      901 ggccgcgctc cctcaagagg ggctctaagc cctccgcatc ctcggcatct ctggagaagc
+      961 gcatgaagat ggtttcccag agcatcacgc agcgcttccg cctgtcacgg gacaagaagg
+     1021 tggccaagtc cctggccatc attgtgagca tcttcgggct ctgctgggcc ccgtacacgc
+     1081 tgctgatgat catccgagct gcctgccacg gccactgcgt ccccgactac tggtacgaga
+     1141 cgtccttctg gcttctgtgg gccaactcgg ctgtcaaccc ggtcctctac cccctgtgcc
+     1201 actacagctt ccgccgggcc ttcaccaagc tgctctgtcc tcagaagctc aaggtccagc
+     1261 cccacggctc cctggagcag tgctggaaga agatgaagaa gaagaaagca cgtctgtgaa
+     1321 cttgatgttc cttggatgtt taatcaagag agacaaaatt gccgaggagc tcagggctgg
+     1381 attggcaggt gtgggctccc acgccctcct ccctctgtgc tgcggcttcc ggctgagctg
+     1441 tgccagctgc ttctgcccgc cccgcccccg ggctcgggac a
+//

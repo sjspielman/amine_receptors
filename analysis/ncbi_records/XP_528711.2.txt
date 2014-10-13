@@ -1,0 +1,60 @@
+LOCUS       XP_528711                477 aa                     PRI 25-OCT-2012
+DEFINITION  PREDICTED: D(1B) dopamine receptor [Pan troglodytes].
+ACCESSION   XP_528711
+VERSION     XP_528711.2  GI:114593191
+KEYWORDS    RefSeq.
+SOURCE      Pan troglodytes (chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003456956) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 15, 2006 this sequence version replaced gi:55666937.
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Pan troglodytes Annotation Release 102
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..477
+                     /isolate="Yerkes chimp pedigree #C0471 (Clint)"
+                     /sex="male"
+                     /organism="Pan troglodytes"
+                     /chromosome="4"
+                     /db_xref="taxon:9598"
+     Protein         1..477
+                     /product="D(1B) dopamine receptor"
+                     /calculated_mol_wt="52890"
+     Region          63..359
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <123..>175
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     CDS             1..477
+                     /coded_by="XM_528711.3:397..1830"
+                     /gene="DRD5"
+                     /db_xref="GeneID:473340"
+ORIGIN
+        1 mlppgsnrta ypgqfalyqq laqgnavggs agapplgpaq vvtaclltll iiwtllgnvl
+       61 vcaaivrsrh lrakmtnvfi vslavsdlfv allvmpwkav aevagywpfg afcdvwvafd
+      121 imcstasiln lcvisvdryw aisrpfryvr kmtqrmalvm vglawtlsil isfipvqfnw
+      181 hrdqaaswgg ldlpnnlanw tpweedfwep dvnaencdss lnrtyaisss lisfyipvai
+      241 mivtytriyr iaqvqirris sleraaehaq scrssaacap dtslrasikk etkvlktlsv
+      301 imgvfvccwl pffilncmvp fcsghpegpp agfpcvsett fdvfvwfgwa nsslnpviya
+      361 fnadfrkvfa qllgcshfcs rtpvetvnis nelisynqdi vfhkeiaaay ihmmpnavtp
+      421 gnrevdndee egpfdrmsqi yqtspdgdpv aesvweldce geisldkitp ftpngfh
+//

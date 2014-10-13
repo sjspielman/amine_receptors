@@ -1,0 +1,63 @@
+LOCUS       XP_005803677             367 aa                     VRT 23-OCT-2013
+DEFINITION  PREDICTED: histamine H2 receptor-like [Xiphophorus maculatus].
+ACCESSION   XP_005803677
+VERSION     XP_005803677.1  GI:551504281
+DBLINK      BioProject: PRJNA220265
+KEYWORDS    RefSeq.
+SOURCE      Xiphophorus maculatus (southern platyfish)
+  ORGANISM  Xiphophorus maculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Atherinomorphae; Cyprinodontiformes;
+            Poeciliidae; Poeciliinae; Xiphophorus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005372276.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Xiphophorus maculatus Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..367
+                     /db_xref="taxon:8083"
+                     /isolate="XMAC-090115_JP163A"
+                     /sex="female"
+                     /strain="JP 163 A"
+                     /organism="Xiphophorus maculatus"
+                     /chromosome="Unknown"
+     Protein         1..367
+                     /product="histamine H2 receptor-like"
+                     /calculated_mol_wt="41459"
+     Region          28..290
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <93..>139
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     CDS             1..367
+                     /coded_by="XM_005803620.1:1..1104"
+                     /gene="LOC102221053"
+                     /db_xref="GeneID:102221053"
+ORIGIN
+        1 mtvttvlrwl flvsvillti ggnilvclav glsrrlwrta ncfvvslaia dlllgvlvlp
+       61 lsatlelrns kwpfggtlcn iyisvdvmlc tcsiltllai svnrylaiss plshsqrvtp
+      121 rrvslaiifi wllslavaff pihlgwntad yrvqnldwef gdegtdkghy cqfefnnnyv
+      181 liyafgsfyl plmvmcgmyl cifrvareqv rrirattpsf arsataaiar ehkatvtlaa
+      241 vlgafiicwf pyfsyftcmg vkekrnppnt lhsvvlwlgy lnstlnpily pafnrdfrra
+      301 ygellrcrgs srrtlqltpv tlykrlnffk lfrvsqnskk staavmverq kslslpcegr
+      361 hgaddsw
+//

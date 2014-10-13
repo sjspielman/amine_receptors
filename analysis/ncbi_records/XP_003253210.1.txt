@@ -1,0 +1,61 @@
+LOCUS       XP_003253210             443 aa                     PRI 14-JAN-2013
+DEFINITION  PREDICTED: D(2) dopamine receptor [Nomascus leucogenys].
+ACCESSION   XP_003253210
+VERSION     XP_003253210.1  GI:332208243
+DBLINK      BioProject: PRJNA62133
+KEYWORDS    RefSeq.
+SOURCE      Nomascus leucogenys (northern white-cheeked gibbon)
+  ORGANISM  Nomascus leucogenys
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hylobatidae; Nomascus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004087901.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Nomascus leucogenys Annotation Release 101
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..443
+                     /isolate="Asia; international studbook 0098"
+                     /sex="female"
+                     /db_xref="taxon:61853"
+                     /tissue_type="blood"
+                     /organism="Nomascus leucogenys"
+                     /chromosome="15"
+     Protein         1..443
+                     /product="D(2) dopamine receptor"
+                     /calculated_mol_wt="50466"
+     Region          49..>234
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          57..426
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..443
+                     /coded_by="XM_003253162.2:34..1365"
+                     /gene="DRD2"
+                     /db_xref="GeneID:100589985"
+ORIGIN
+        1 mdplnlswyd ddlerqnwsr sfngsdgkad rphynyyatl ltlliavivf gnvlvcmavs
+       61 rekalqtttn ylivslavad llvatlvmpw vvylevvgew kfsrihcdif vtldvmmcta
+      121 silnlcaisi drytavampm lyntrysskr rvtvmisivw vlsftiscpl lfglnntdqn
+      181 eciianpafv vyssivsfyv pfivtllvyi kiyivlrrrr krvntkrssr afrshlrapl
+      241 kgncthpedm klctvimksn gsfpvnrrrv eaarraqele memlsstspp ertryspipp
+      301 shhqltlpdp shhglhstpd spakpekngh akghpkiaki feiqtmpngk trtslktmsr
+      361 rklsqqkekk atqmlaivlg vfiicwlpff ithilnihcd cnippvlysa ftwlgyvnsa
+      421 vnpiiyttfn iefrkaflki lhc
+//

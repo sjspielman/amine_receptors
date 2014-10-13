@@ -1,0 +1,96 @@
+LOCUS       XM_003827739            1038 bp    DNA              PRI 02-SEP-2014
+DEFINITION  PREDICTED: Pan paniscus trace amine associated receptor 6 (TAAR6),
+            mRNA.
+ACCESSION   XM_003827739
+VERSION     XM_003827739.1  GI:397515074
+DBLINK      BioProject: PRJNA169343
+KEYWORDS    RefSeq; corrected model.
+SOURCE      Pan paniscus (pygmy chimpanzee)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003870568.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##RefSeq-Attributes-START##
+            internal stop codons :: corrected 1 genomic stop codon
+            ##RefSeq-Attributes-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pan paniscus Annotation Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1038
+                     /mol_type="mRNA"
+                     /country="Germany"
+                     /isolate="Ulindi"
+                     /sex="female"
+                     /db_xref="taxon:9597"
+                     /organism="Pan paniscus"
+                     /chromosome="Unknown"
+     gene            1..1038
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 24 Proteins"
+                     /db_xref="GeneID:100990691"
+                     /gene="TAAR6"
+     CDS             1..1038
+                     /product="LOW QUALITY PROTEIN: trace amine-associated
+                     receptor 6"
+                     /transl_except="(pos:949..951,aa:OTHER)"
+                     /codon_start="1"
+                     /note="The sequence of the model RefSeq protein was
+                     modified relative to its source genomic sequence to
+                     represent the inferred CDS: substituted 1 base at 1 genomic
+                     stop codon"
+                     /db_xref="GI:675787860"
+                     /db_xref="GeneID:100990691"
+                     /translation="MSSNSSLLVAVQLCYANVNGSCVETLYSPGSRVILYIVFGFGAVL
+                     AVFGNLLVMISILHFKQLHSPTNLLVASLACADFLVGVTVMPFSMVRTVESCWYFGRSF
+                     CTFHTCCDVAFCYSSLFHLCFISIDRYIAVTDPLVYPTKFTVSVSGICISVSWILPLMY
+                     SGAVFYTGVYDDGLEELSDALNCIGGCQTVVNQNWVLIDFLSFFIPTFIMIILYGNIFL
+                     VARRQAKKMENTGSKTESSSESYKARVARRERKAAKTLGVTVVAFMISWLPYSIDSLID
+                     AFMGFITPAYIYEICCWCAYYNSAMNPLIYALFYPXFRKAIKVIVTGQVLKNSSATMNL
+                     FSEHI"
+                     /gene="TAAR6"
+                     /protein_id="XP_003827787.2"
+     STS             1..1038
+                     /db_xref="UniSTS:481477"
+                     /gene="TAAR6"
+     STS             175..845
+                     /db_xref="UniSTS:516840"
+                     /standard_name="Taar6"
+                     /gene="TAAR6"
+     STS             447..1024
+                     /db_xref="UniSTS:305524"
+                     /standard_name="TA4-seq4-SNP1"
+                     /gene="TAAR6"
+ORIGIN
+        1 atgagcagca actcatccct gctggtggct gtgcagctgt gctacgcgaa cgtgaatggg
+       61 tcctgtgtgg aaaccctcta ctcgcctgga tcccgggtga ttctgtacat agtgtttggc
+      121 tttggggctg tgttggctgt gtttggaaac ctcctggtga tgatttcaat cctccatttc
+      181 aagcagctgc actctccgac caatttgctc gttgcctctc tggcctgcgc tgatttctta
+      241 gtgggtgtga ctgtgatgcc cttcagcatg gtcaggaccg tggagagctg ctggtatttt
+      301 gggagaagtt tttgtacttt ccacacctgc tgtgatgtgg cattttgtta ctcttctctc
+      361 tttcacttgt gcttcatctc catcgacagg tacattgcgg ttactgaccc cctggtctat
+      421 cctaccaagt tcaccgtatc tgtgtcagga atttgcatca gcgtgtcctg gatcctgccc
+      481 ctcatgtaca gcggtgctgt gttctacaca ggtgtctatg acgatgggct ggaggaatta
+      541 tctgatgccc taaactgtat aggaggttgt cagaccgttg taaatcaaaa ctgggtgttg
+      601 atagattttc tatccttctt tatacctacc tttattatga taattctgta tggtaacata
+      661 tttcttgtgg ctagacgaca ggcgaaaaag atggaaaata ctggtagcaa gacagaatca
+      721 tcctcagaga gttacaaagc cagagtggcc aggagagaga gaaaagcagc taaaaccctg
+      781 ggggtcacag tggtagcatt tatgatttca tggttaccat atagcattga ttcattaatt
+      841 gatgccttta tgggctttat aacccctgcc tatatttatg agatttgctg ttggtgtgct
+      901 tattataact cagccatgaa tcctttgatt tatgctttat tttacccatg atttaggaaa
+      961 gcaataaaag ttattgtaac tggtcaggtt ttaaagaaca gttcagcaac catgaatttg
+     1021 ttttctgaac atatataa
+//

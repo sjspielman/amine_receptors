@@ -1,0 +1,59 @@
+LOCUS       XP_006162849             326 aa                     MAM 03-DEC-2013
+DEFINITION  PREDICTED: beta-1 adrenergic receptor [Tupaia chinensis].
+ACCESSION   XP_006162849
+VERSION     XP_006162849.1  GI:562869663
+DBLINK      BioProject: PRJNA221634
+KEYWORDS    RefSeq.
+SOURCE      Tupaia chinensis (Chinese tree shrew)
+  ORGANISM  Tupaia chinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Scandentia; Tupaiidae; Tupaia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006200409.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Tupaia chinensis Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..326
+                     /db_xref="taxon:246437"
+                     /country="China"
+                     /organism="Tupaia chinensis"
+                     /chromosome="Unknown"
+                     /sex="male"
+     Protein         1..326
+                     /product="beta-1 adrenergic receptor"
+                     /calculated_mol_wt="36465"
+     Region          13..>112
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          21..>204
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..326
+                     /coded_by="XM_006162787.1:59..1039"
+                     /gene="ADRB1"
+                     /db_xref="GeneID:102478713"
+ORIGIN
+        1 mgllmalivl livagnvlvi vaiaktprlq tltnlfimsl asadlvmgll vvpfgativv
+       61 wgrweygsff celwtsvdvl cvtasietlc vialdrylai tspfryqsll trararalvc
+      121 tvwaisalvs flpilmhwwr adgdearrcy ndpkccdfvt nrayaiassv vsfyvplcim
+      181 afvylrvfre aqkqvkkids cerrfhcged yedsetdhvs dskypiivrk klsvetsdse
+      241 atcvffpmty dtimdntvei sssshsssiw nvfgtkdlvs grqhisyfrs atgrikslrt
+      301 gttarnssns ptskkvtqfq nrvqad
+//

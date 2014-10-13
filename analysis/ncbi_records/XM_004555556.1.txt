@@ -1,0 +1,99 @@
+LOCUS       XM_004555556            2126 bp    DNA              VRT 14-MAY-2013
+DEFINITION  PREDICTED: Maylandia zebra 5-hydroxytryptamine receptor 1F-like
+            (LOC101487088), mRNA.
+ACCESSION   XM_004555556
+VERSION     XM_004555556.1  GI:499003981
+DBLINK      BioProject: PRJNA198780
+KEYWORDS    RefSeq.
+SOURCE      Maylandia zebra (zebra mbuna)
+  ORGANISM  Maylandia zebra
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Haplochromini;
+            Maylandia; Maylandia zebra complex.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004531753.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Maylandia zebra Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2126
+                     /mol_type="mRNA"
+                     /isolate="#2_Kocher"
+                     /sex="female"
+                     /db_xref="taxon:106582"
+                     /organism="Maylandia zebra"
+                     /chromosome="Unknown"
+     gene            1..2126
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 24 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /db_xref="GeneID:101487088"
+                     /gene="LOC101487088"
+     misc_feature    140..142
+                     /note="upstream in-frame stop codon"
+                     /gene="LOC101487088"
+     CDS             236..1435
+                     /product="5-hydroxytryptamine receptor 1F-like"
+                     /codon_start="1"
+                     /db_xref="GI:499003982"
+                     /db_xref="GeneID:101487088"
+                     /translation="MDFPNYTEGVFATSNVSRNDSLETTELPPSEILLTITLSVLAILT
+                     TFFNCLVITAIAVTRKLHHPANYLICSLAVTDLLVAVLVMPFSIIYIQKKSWVMGQVVC
+                     TFWLSVDVTCCTCSILHLAAIAIDRYRAITDAVEYSRKRTGARAGAMVAVVWLLSILIS
+                     LPPLLWQHYSGNNDHENECIIIHPHMAFTLYSTLGAFYIPLLLILILYYKIYLAAQTLY
+                     MRREASRASRHSCMTNGSMIPSTYPAGDGDADGGPRSPEPVSPPEKSFSEPSTEETPRE
+                     RVRVSVKAFKCKSRRHESRSESRRSQLYQGPRISGSRERKAASTLGLIIGAFVVCWLPF
+                     FVKELIVNTCGSCSTSGEMADFLTWLGYLNSLINPLIYTIFNEDFKKAFQKLVRCSHYL
+                     "
+                     /gene="LOC101487088"
+                     /protein_id="XP_004555613.1"
+ORIGIN
+        1 ggtgtcggcg tgagcgtcgt tgagctgtga atggacatta atggggaatg taatacactt
+       61 ctctcagtga ctggtttcgt ctgttattta atcgctgcag cggaagagtg ggtgttgatg
+      121 agttgatgac tgacagaagt gatgtgatag caggtctgcc aggttagaca gatcagagca
+      181 gaccgtctgc tgcacagtga accacctgga tgcaacacgt tacagcatag acagaatgga
+      241 tttccccaat tacactgaag gggtgtttgc cacaagcaac gttagcagga atgactcact
+      301 ggagaccact gaacttcccc ctagtgaaat cctgcttact ataactctgt ctgtgctggc
+      361 catcctcacc acatttttca actgcctggt gataacagct attgcagtca ctcgcaagtt
+      421 gcaccaccca gccaactacc tcatctgctc attagcagtg accgacttac tggtggctgt
+      481 gctggtcatg cccttcagta tcatctacat ccaaaagaag agctgggtca tgggtcaggt
+      541 ggtgtgtacc ttctggttaa gtgtggatgt cacctgctgc acatgctcca ttctgcatct
+      601 tgctgcaata gccattgacc gttaccgggc tatcacagac gcagtggagt actctcgcaa
+      661 acgtacagga gccagagctg gtgcaatggt ggcagtggtg tggctcctgt ccatcctcat
+      721 ctcactccct cctctactgt ggcaacacta cagtggcaat aatgaccatg aaaatgagtg
+      781 catcatcatc catcctcaca tggccttcac cctttattca acactcggag cattttatat
+      841 tccactgctg ctcatcctca tcctctacta taaaatctac ctggccgctc agaccctata
+      901 tatgcggagg gaggctagcc gggctagccg tcactcatgc atgaccaatg gcagcatgat
+      961 cccctctacc tatcctgctg gagatggtga tgccgatggc gggcctcgaa gtcctgagcc
+     1021 tgtaagccca ccggaaaagt ctttctctga accctcaaca gaggaaactc cacgtgaacg
+     1081 ggtccgtgtg tctgtaaagg cctttaagtg caagtcacga cggcacgagt cacgcagtga
+     1141 atcacgtcgt agtcagttat accaaggacc tcgaatctcg ggctcacgag agcgcaaagc
+     1201 ggcatccacg ctggggttga taataggggc ctttgtcgtc tgttggttgc cgttttttgt
+     1261 caaggaattg attgtcaaca cctgcggttc ttgcagtact tcaggggaaa tggctgactt
+     1321 cctgacatgg ttgggctacc ttaattctct gatcaaccct ctgatctaca ccatcttcaa
+     1381 tgaagacttc aaaaaagcct tccaaaaact tgtgaggtgc agtcattacc tctgatgatt
+     1441 atttatgcat gatcaaacct gtacaccatc tatatatgag aggaaacaaa attaatggct
+     1501 tcaggtcaaa aatactgact gaataactga gttattatgt ctgaaaaaga ataatttaaa
+     1561 agagcaaaag gattgatact ggaaaagaaa cttcatcagc cacttcagca gcctaaatgg
+     1621 caccgactca gcaatgagat ggtgcgagtt cccaattgaa aatcaagtcc tgctatttat
+     1681 agaagagcct gagacctcat tgatgttaat tggagtatgt aaagggacac tgagaaaatg
+     1741 tgccatcact gacctttttt gaggcctgag ttctgagcat tagtgatcag ccccatttat
+     1801 acgtcttgaa atagctgacc attatgtctg tttcatctaa tgacctccct tctgccgagt
+     1861 ccacgctgct ggcttaaata ttggacatgt gtaaaatacc acagtatacc aagttgttgc
+     1921 tttttgtggc tgtgatgtta tgaaaggtga cttgttttct gactgttgca atgattgtta
+     1981 gcagaactag tatatattta gccctgcaaa acattccaaa aatattaaac ctccattgat
+     2041 tgatggtttg accttcttgt aagttaatgg tacaggtact ggcttcattt acttgacagt
+     2101 ctaaaaagac atgggaagat atggtc
+//

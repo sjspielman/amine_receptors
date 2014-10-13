@@ -1,0 +1,101 @@
+LOCUS       XM_004262604            2214 bp    DNA              MAM 18-MAR-2013
+DEFINITION  PREDICTED: Orcinus orca 5-hydroxytryptamine (serotonin) receptor 2B,
+            G protein-coupled (HTR2B), mRNA.
+ACCESSION   XM_004262604
+VERSION     XM_004262604.1  GI:465965946
+DBLINK      BioProject: PRJNA189949
+KEYWORDS    RefSeq.
+SOURCE      Orcinus orca (killer whale)
+  ORGANISM  Orcinus orca
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Cetacea;
+            Odontoceti; Delphinidae; Orcinus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004438416.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Orcinus orca Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2214
+                     /mol_type="mRNA"
+                     /collection_date="06-Sep-2011"
+                     /isolate="Morgan"
+                     /sex="male"
+                     /note="Norwegian herring-eating population"
+                     /db_xref="taxon:9733"
+                     /tissue_type="blood"
+                     /organism="Orcinus orca"
+                     /chromosome="Unknown"
+     gene            1..2214
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 10 mRNAs, 17 Proteins"
+                     /db_xref="GeneID:101286066"
+                     /gene="HTR2B"
+     misc_feature    492..494
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR2B"
+     CDS             495..1934
+                     /product="5-hydroxytryptamine receptor 2B"
+                     /codon_start="1"
+                     /db_xref="GI:465965947"
+                     /db_xref="GeneID:101286066"
+                     /translation="MALSYRIFERRTIPEHILQSSFDHLISSNWSGLQTESIPDEMKQI
+                     VEEQGNKLHWAALLILMVIIPTIGGNILVILAVALEKKLQYATNYFLMSLAVADLLVGL
+                     FVMPIALLTIMFEAMWPLPLVLCPAWLFLDVLFSTASIMHLCAISVDRYIAIKKPIQAN
+                     QYNSRATAFIKITVVWLISIGIAIPIPIKGIDTDVGNPNNITCGLTKDRFGNFMLFGSL
+                     ASFFTPLAIMIVTYFLTIHALQKKAYLVKNKPPQRLMWLTVSTVFQRDETPCSTPEKVA
+                     MLDGSHKDKTLPNASDNILMRRTSTVGKKSVHTISNEQRASKVLGIVFFLFLLMWCPFF
+                     ITNITLALCDSCNQTTLKMLLEIFVWIGYVSSGVNPLVYTLFNKTFRDAFGRYITCNYW
+                     ATKSVKTLRKCSGNVYFQNPMAENSKYFMKHRMRNGINPAMYQSPMRLRSSTIQFSSII
+                     LLDTLLTENEGDKTEEQISYV"
+                     /gene="HTR2B"
+                     /protein_id="XP_004262652.1"
+ORIGIN
+        1 atttgtttca ttgctttcaa gcaccagtgc tggaggctca gaataagtca atgggaggag
+       61 gacttcagtc acagcagcat ctggtctact gagcagataa gatgacatgc ttgggagagt
+      121 aaagagcaag caagagggga agctctctgg cattcaaatt caaactcgac tccaccacta
+      181 caagaaaaaa aaagagggag agagagaaac caaaaatata gtcttttttt cacagctatc
+      241 agtttctttc actaagcctt cggaaaccgg aacctctgca gaatactaaa cactcgggcc
+      301 ttacctacag acatggacaa atgtatgtat gctctcattt tatagaactt gaaattcttt
+      361 ttttaaggaa ggagtcaact ttggccttga gtatttggca tgggtacaaa ggcttaaaaa
+      421 tgcagatgac cagcttagct actgaccatg ctgaccactg tctggaatcg gaaaaaatta
+      481 aagaaaaaca atgaatggct ctctcttata gaatattcga acgacgcaca attcctgagc
+      541 acattttgca gagctcattt gaccatttaa tctcttctaa ctggtctgga ttacagacag
+      601 aatcgatacc agacgaaatg aaacagattg ttgaggaaca gggaaataag ctgcactggg
+      661 cagctcttct gatactcatg gtgataatac ccacaattgg tggaaacatc ctcgttattc
+      721 tggctgttgc actggagaaa aagttacagt atgctaccaa ttatttccta atgtccctgg
+      781 cagtggctga tttgctggtt ggattatttg tgatgccgat tgccctcttg acaataatgt
+      841 ttgaggctat gtggcccctc ccactcgttc tatgccctgc ctggttattt cttgacgttc
+      901 ttttttctac tgcatccatc atgcatctct gcgccatttc agtggatcgt tacatagcca
+      961 tcaaaaagcc aatccaggcc aatcaatata actcacgagc tacagcattc atcaagatta
+     1021 cagtggtgtg gttaatttca ataggcattg ccattccaat ccctattaaa ggtatagaca
+     1081 ctgatgtggg taacccaaac aacatcactt gtgggctgac aaaggatcgt tttggcaatt
+     1141 tcatgctctt tggctcactg gcttccttct ttacacctct ggcgatcatg attgtcacct
+     1201 actttctcac tatccatgct ttacagaaga aagcttactt ggtcaaaaac aagccacctc
+     1261 aacgcctaat gtggttgact gtgtccacag ttttccaaag ggatgaaaca ccttgctcaa
+     1321 caccagaaaa agtggcaatg ctggatggtt ctcacaagga caaaaccctg cctaatgcaa
+     1381 gtgataacat acttatgcga agaacgtcca cagtaggaaa aaagtcagtg cataccattt
+     1441 ccaatgaaca gagagcctca aaggttctag ggattgtgtt tttcctcttt ttgcttatgt
+     1501 ggtgcccctt ttttattaca aatataactt tagctttatg tgattcctgc aaccagacga
+     1561 ctctcaaaat gctcctggag atatttgtgt ggataggcta tgtttcctca ggggtgaatc
+     1621 ctctggtcta caccctcttc aacaagacat ttcgggatgc atttggccgg tacatcacct
+     1681 gcaattactg ggccacaaaa tcagtaaaaa ctctcagaaa atgctccggt aatgtgtact
+     1741 tccagaatcc aatggcagag aactctaaat attttatgaa acatagaatg cgaaatggca
+     1801 ttaatcctgc catgtaccag agtccaatga ggctccgaag ttcaaccatt cagttttcat
+     1861 caatcatttt actagataca cttctcaccg aaaatgaagg tgacaaaact gaagagcaaa
+     1921 tcagttatgt atagagtaat ggcacagttt ttatgtaact aatacaatga tgagtaagat
+     1981 aaagaagata taaatatacc aagaattaca taaaaaatta catcatgtat caaaaatcat
+     2041 ctctttaaat taagaattat gtattaagat tacccaattt tatttgggca aaattattct
+     2101 aacgaaaaaa atcatttttg tatagttgca aattaaaaaa caatccagca cactagttaa
+     2161 atgctaagat agtcaaatga aataaaatta aataaatcaa taaacttctg gctt
+//

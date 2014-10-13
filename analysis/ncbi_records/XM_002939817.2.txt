@@ -1,0 +1,105 @@
+LOCUS       XM_002939817            2277 bp    DNA              VRT 18-JUN-2013
+DEFINITION  PREDICTED: Xenopus (Silurana) tropicalis histamine receptor H3
+            (hrh3), mRNA.
+ACCESSION   XM_002939817
+VERSION     XM_002939817.2  GI:512874445
+DBLINK      BioProject: PRJNA205740
+KEYWORDS    RefSeq.
+SOURCE      Xenopus (Silurana) tropicalis (western clawed frog)
+  ORGANISM  Xenopus (Silurana) tropicalis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Amphibia; Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae; Xenopus;
+            Silurana.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004668245.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Jun 18, 2013 this sequence version replaced gi:301621021.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Xenopus (Silurana) tropicalis
+            Annotation Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2277
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8364"
+                     /sex="female"
+                     /note="partially inbred F6; sterile"
+                     /strain="Nigerian"
+                     /organism="Xenopus (Silurana) tropicalis"
+                     /chromosome="Unknown"
+     gene            1..2277
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 13 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 17 samples with support for all annotated
+                     introns"
+                     /db_xref="GeneID:100497857"
+                     /gene="hrh3"
+     misc_feature    157..159
+                     /note="upstream in-frame stop codon"
+                     /gene="hrh3"
+     CDS             193..1488
+                     /product="histamine H3 receptor"
+                     /codon_start="1"
+                     /db_xref="GI:512874446"
+                     /db_xref="GeneID:100497857"
+                     /translation="MDSSLQLNGSWRSGDNVPGVPDFSWTVFLAVLMGVLIVSTVLGNA
+                     LVMLAFVVDSSLRTQNNYFLLNLAISDFFVGALCIPLYVPYVLTGRWGFGRSVCKLWLV
+                     LDYLLCTSSVFNIVLISYDRFISVTRAVSYRAQQSNSRHAVLKMTMVWILAFLLYGPAI
+                     ITWEYIAGGSIIPDGECFAEFFYNWYFLMTASTLEFFTPFISVTYFNVSIYMNIQKRTK
+                     ARLDLLQEAQSHTNTDNIKAPPEKARSSSLKCWKLHQKMARFGGSDHQKTIKLTESEMM
+                     ERVRGMKRNSLNGSTVTAMGKSRSARRSFNESSSTPSLEKKMRVVSQGIAQRFRLSRDK
+                     KVAKSLAVIVCAFGLCWAPYTLLMIIRAACRGHCVPNYWYEASFWLLWVNSAVNPILYP
+                     LCHNSFKRAFRKILCPQKLKLKANGKFHYCWK"
+                     /gene="hrh3"
+                     /protein_id="XP_002939863.2"
+ORIGIN
+        1 aaaaggtggc aaaaccagac aatgagactg agggataagg aggcagaaag cggggcactt
+       61 accttgccca gaccatgaca ggacagagga gcttacactt tgcccccccc agtaacctgt
+      121 gaatctgttg cccccgctgg gaggcagatc gggcgatgat tctctgcttg ggctccgggc
+      181 tgtggtgctg aaatggacag ttccctgcag ctcaacggct cctggagatc cggggacaac
+      241 gttccggggg tgcccgactt ctcctggacc gtcttcctgg ctgttctgat gggggttctg
+      301 atagtcagca ccgtgctggg gaatgctctg gtcatgctgg cttttgtagt ggactccagc
+      361 ctccgaaccc agaacaacta cttcctcctc aacctggcga tctccgactt ctttgtaggg
+      421 gccctgtgca tccctctgta cgtcccctac gtgctgaccg gccgatgggg cttcggcagg
+      481 agtgtgtgca agctgtggct agtgctggac tacctgctct gcacctcgtc cgtcttcaac
+      541 atcgtactca tcagctacga caggttcatc tctgtgaccc gggcagtcag ttaccgagct
+      601 cagcagagca acagccgaca cgcggtcctg aagatgacca tggtgtggat cttggccttt
+      661 ctcctgtatg gaccagccat tatcacgtgg gaatatatcg ccgggggaag catcatccca
+      721 gacggggaat gctttgccga attcttctac aactggtact tcctcatgac ggcttccacc
+      781 ctggagttct tcacaccatt catcagtgtg acctacttca acgtcagcat ctacatgaac
+      841 atccagaagc ggaccaaggc gcggctggat cttctacagg aagcgcaaag tcacaccaat
+      901 accgacaaca tcaaggcgcc tcctgagaaa gccaggtcca gctccttgaa atgttggaag
+      961 ctgcatcaga agatggccag attcggtggg tctgatcacc agaagaccat taagttaacg
+     1021 gaatcagaaa tgatggaacg ggtgcgggga atgaaaagaa actctctaaa tgggagcaca
+     1081 gtgactgcca tgggtaaatc aaggtctgcc aggaggagtt ttaacgagtc tagctccacc
+     1141 ccatctctgg agaaaaagat gagggtggtt tctcaaggaa ttgctcaacg gttccgccta
+     1201 tcaagggaca aaaaagttgc aaagtcacta gcagttatag tgtgtgcatt tggactctgt
+     1261 tgggcaccat acactcttct gatgattatt agggctgcct gtagggggca ctgtgttccc
+     1321 aattactggt acgaagcttc cttctggctc ctgtgggtca actctgccgt caaccccatc
+     1381 ctttacccgt tgtgccacaa cagcttcaaa agggcattta ggaagatcct ttgcccccaa
+     1441 aaactcaaac tcaaagccaa cggtaagttc cattactgct ggaagtgagc gtgtgcgtat
+     1501 tttagaaaca cagatggaga ttccaggagt catgtggggg tttttggggg ggaattctcc
+     1561 taaaaacgag cagcgagtaa tggaaacagc cccgtcggtt ccgcagttgg ttccatcgca
+     1621 acgcttgcaa cacaagactc tcctactttt catcgtccgt ggccaataag gttcctccgc
+     1681 ctgctgtgat ggtcagtacg ggaggtggtg cttgagtatt ttgtgccaat aggaaaagac
+     1741 gatgcctacc tactgtgacc tcatggatat aggattggac tggtcctaca ccaccaccac
+     1801 catcatcatc aaccccctcc ctgcatacct tctccttgtt agttcagcac tatggaaaat
+     1861 tccaggcact ttattaatag ataattattt gatttcgtga ttggaaggca aatatcgaac
+     1921 tggtaaacaa gcgtcaatca gccactgata atgcccctgc cgactgcagg ttgaaatatg
+     1981 tgtgatggcc ggaggggggg gggcatttct ctgataggac gagctgcctc ctaccgtccc
+     2041 atgtcattac tcgtcagcgg caaatgcaat cagtgccaaa gtagcaaacg agacgggcct
+     2101 cgatgtacta catggttgta tcaaaccacg gccaaggcag ggctcgttag cttgtgttcc
+     2161 gatacaactt gccaacattg gaattacagg aatattttta cagcatggga gccacattca
+     2221 tctatatggt attttgtact aagcacaatt cagcaggaac agcccctcta cagcctg
+//

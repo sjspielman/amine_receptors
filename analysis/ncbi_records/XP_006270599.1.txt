@@ -1,0 +1,61 @@
+LOCUS       XP_006270599             335 aa                     VRT 09-DEC-2013
+DEFINITION  PREDICTED: trace amine-associated receptor 1 [Alligator
+            mississippiensis].
+ACCESSION   XP_006270599
+VERSION     XP_006270599.1  GI:564263474
+DBLINK      BioProject: PRJNA221578
+KEYWORDS    RefSeq.
+SOURCE      Alligator mississippiensis (American alligator)
+  ORGANISM  Alligator mississippiensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Crocodylia;
+            Alligatoridae; Alligatorinae; Alligator.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006231073.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Alligator mississippiensis
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..335
+                     /note="assembly comes from two alligators"
+                     /db_xref="taxon:8496"
+                     /organism="Alligator mississippiensis"
+                     /chromosome="Unknown"
+                     /country="USA: Florida"
+     Protein         1..335
+                     /product="trace amine-associated receptor 1"
+                     /calculated_mol_wt="38414"
+     Region          37..>264
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          47..303
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..335
+                     /coded_by="XM_006270537.1:1..1008"
+                     /gene="TAAR1"
+                     /db_xref="GeneID:102560855"
+ORIGIN
+        1 mqfccesvng sciksswsns irismyilmv wiilatvagn ltviisishf kqlhtptnfl
+       61 ilsmaavdfs lgcfvmpysm vrsvehcwyf gelfckihts tdimlstasi fhlsfisvdr
+      121 yyavcdplry kskintfiil vmifiswtip aifafvmifl elnvrgaeei fynhihcvgg
+      181 cfvffsetsg viasmfsfyi pgfvmlcvyg kiyaiakrqa rsikdtssqt qirlemkhhi
+      241 srsrerkaak tlgivmgvfl lcwtpfffct atdpfmnyvt ppvlidalvw fgylnstfnp
+      301 ivyaffytwf rralkmillg kifqkdssrt qlfse
+//

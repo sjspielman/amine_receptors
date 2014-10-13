@@ -1,0 +1,95 @@
+LOCUS       XM_005063423            1396 bp    DNA              ROD 17-JUL-2013
+DEFINITION  PREDICTED: Mesocricetus auratus adrenoceptor beta 1 (Adrb1), mRNA.
+ACCESSION   XM_005063423
+VERSION     XM_005063423.1  GI:524918385
+DBLINK      BioProject: PRJNA210213
+KEYWORDS    RefSeq.
+SOURCE      Mesocricetus auratus (golden hamster)
+  ORGANISM  Mesocricetus auratus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Cricetinae; Mesocricetus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004801604.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Mesocricetus auratus Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1396
+                     /mol_type="mRNA"
+                     /isolate="Golden Hamster female 1"
+                     /sex="female"
+                     /db_xref="taxon:10036"
+                     /organism="Mesocricetus auratus"
+                     /chromosome="Unknown"
+     gene            1..1396
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 12 Proteins"
+                     /db_xref="GeneID:101830640"
+                     /gene="Adrb1"
+     CDS             148..1368
+                     /product="beta-1 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:524918386"
+                     /db_xref="GeneID:101830640"
+                     /translation="MGLLLALIVLLIVVGNVLVIVAIAKTPRLQTLTNLFIMSLASADL
+                     VMGLLVVPFGATIVVWGRWEYGSFFCELWTSVDVLCVTASIETLCVIALDRYLAITSPF
+                     RYQSLLTRARARALVCTVWAISALVSFLPILMHWWRAESDEARRCYNDPKCCDFVTNRA
+                     YAIASSVVSFYVPLCIMAFVYLRVFREAQKQVKKIDSCERRFLGGPARPPSPAPSPSPG
+                     PPRPADSLANGRTSKRRPSRLVALREQKALKTLGIIMGVFTLCWLPFFLANVVKAFHRD
+                     LVPDRLFVFFNWLGYANSAFNPIIYCRSPDFRKAFQRLLCCARRVARRRRASHGDRPRA
+                     SGCLAGAGPPPSPGAPSDDDDDDAGVTAPARLLEPWAGCNGGATTVDSDSSLDEPGRRD
+                     FSSESKV"
+                     /gene="Adrb1"
+                     /protein_id="XP_005063480.1"
+     STS             241..762
+                     /db_xref="UniSTS:256461"
+                     /standard_name="Adrb1"
+                     /gene="Adrb1"
+     STS             1207..1379
+                     /db_xref="UniSTS:471068"
+                     /standard_name="Adrb1"
+                     /gene="Adrb1"
+     STS             1219..1318
+                     /db_xref="UniSTS:141043"
+                     /standard_name="Adrb1"
+                     /gene="Adrb1"
+ORIGIN
+        1 gaaccctgca acctgtcgtc ggccgcgccg ctgcccgacg gcgcggccac cgcggcgcgc
+       61 ctgctggtgc tcgcgtcgcc gcccgcctcg ctgctgcctc ccatcagcga gggctcagcg
+      121 ccgctgtcgc agcagtggac tgcgggcatg ggcctcctgc tggcgcttat cgtgttgctc
+      181 atcgtggtgg gcaacgtgct ggtgatcgtg gccatcgcca agaccccgcg gctgcagacg
+      241 ctcaccaacc tcttcatcat gtccctggcc agcgctgacc tggtcatggg gctgctggtg
+      301 gtgcctttcg gggccaccat cgtggtgtgg ggccgctggg agtacggctc cttcttctgc
+      361 gagctctgga cttcggtgga cgtgctgtgt gtgacggcca gcatcgagac cctgtgtgtc
+      421 atcgccctgg accgctacct cgccatcacg tcgcccttcc gctaccagag tctgctgacg
+      481 cgcgcgcgag cgcgggccct cgtgtgcacg gtgtgggcca tctcggctct ggtgtccttc
+      541 ctgcccatcc tcatgcactg gtggcgggcc gagagcgacg aggcgcgccg ctgctacaac
+      601 gaccccaagt gctgcgattt cgtcaccaac cgggcctacg ccatcgcctc gtccgtcgtc
+      661 tccttctacg tgcccctgtg catcatggcc ttcgtgtacc tgcgggtgtt ccgcgaggcc
+      721 cagaagcagg tgaagaagat cgacagttgc gagcgccgct tcctcggcgg cccggctcgg
+      781 ccgccgtcac cggcgccctc gccgtcgcca gggccaccgc gccccgcaga ctcgctggcc
+      841 aacgggcgca ccagcaagcg gcggccgtcg cgcctcgtgg ccctgcggga gcagaaggcg
+      901 ctcaagaccc tgggcatcat catgggtgtg ttcactctct gctggctgcc cttcttcctg
+      961 gccaacgtgg tgaaggcctt ccaccgcgac ctggtgcccg atcgcctctt cgtcttcttt
+     1021 aactggctgg gctacgccaa ctcggccttc aaccccatca tctactgccg cagccccgac
+     1081 ttccgcaagg ccttccagcg cctgctctgc tgcgcgcgcc gggtcgcccg cagacgccgc
+     1141 gcatcccacg gggaccggcc gcgcgcctcg ggctgcctgg ctggagctgg gccgccgccg
+     1201 tcccctggag ctccctcgga cgacgacgac gacgatgcag gggtcacagc acccgcgcgc
+     1261 ctgctggagc cctgggctgg ctgcaacggc ggggcgacga ctgtggacag cgattcgagc
+     1321 ctggacgagc cggggcgccg ggacttctcc tcggaatcca aggtgtagag agccaggctc
+     1381 tcccggcgca cggaca
+//

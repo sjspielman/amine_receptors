@@ -1,0 +1,63 @@
+LOCUS       XP_005419027             463 aa                     VRT 13-SEP-2013
+DEFINITION  PREDICTED: 5-hydroxytryptamine receptor 2B [Geospiza fortis].
+ACCESSION   XP_005419027
+VERSION     XP_005419027.1  GI:543254336
+DBLINK      BioProject: PRJNA217051
+KEYWORDS    RefSeq.
+SOURCE      Geospiza fortis (medium ground-finch)
+  ORGANISM  Geospiza fortis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Fringillidae; Emberizinae; Thraupini; Geospiza.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005054309.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Geospiza fortis Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..463
+                     /db_xref="taxon:48883"
+                     /organism="Geospiza fortis"
+                     /chromosome="Unknown"
+                     /sex="female"
+     Protein         1..463
+                     /product="5-hydroxytryptamine receptor 2B"
+                     /calculated_mol_wt="51638"
+     Region          57..>233
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          63..362
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..463
+                     /coded_by="XM_005418970.1:458..1849"
+                     /gene="HTR2B"
+                     /db_xref="GeneID:102042340"
+ORIGIN
+        1 mshplhslng pgagngslsp lsvtgapkqd yqseeqgnkv hwaallilll iiptiggnil
+       61 vilavslekk lqyatnyflt slavadllvg lfvmpiallm ilfdntwplp talcpiwlfl
+      121 dvlfstasim hlcaisldry iaikkpiqas qynswattii kiivvwlisi giaipvpirg
+      181 iedgngtstn itcfltpdrf hyfilygsva sffiplaimi vtylltiqvl rkkaylinkp
+      241 pqrftwstvs tvfqrdttpa sspekvamln gsrkdqtlss dmpigrtsti grksmqtitn
+      301 eqraskvlgi vfflfllmwc pffitnissv lcnscnkevf qklleifvwi gyvssgvnpl
+      361 vytlfnktfr eafsryitcn yrttkpikal rqrssrisfr nsvaensklf vmngmrngin
+      421 pimyqspmrl rsspiqassa isldtllltk nevdkteeqv syv
+//

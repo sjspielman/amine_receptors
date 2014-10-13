@@ -1,0 +1,89 @@
+LOCUS       XM_006186091            1564 bp    DNA              MAM 29-NOV-2013
+DEFINITION  PREDICTED: Camelus ferus 5-hydroxytryptamine (serotonin) receptor
+            1A, G protein-coupled (HTR1A), mRNA.
+ACCESSION   XM_006186091
+VERSION     XM_006186091.1  GI:560919866
+DBLINK      BioProject: PRJNA183928
+KEYWORDS    RefSeq.
+SOURCE      Camelus ferus (Wild Bactrian camel)
+  ORGANISM  Camelus ferus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Tylopoda;
+            Camelidae; Camelus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006211047.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Camelus ferus Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1564
+                     /mol_type="mRNA"
+                     /collection_date="18-Feb-2010"
+                     /country="Mongolia: Mongolian wild camel protection area,
+                     Bayan Tooree, Altai province"
+                     /isolate="Naran"
+                     /sex="male"
+                     /db_xref="taxon:419612"
+                     /organism="Camelus ferus"
+                     /chromosome="Unknown"
+     gene            1..1564
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 mRNAs, 18 Proteins"
+                     /db_xref="GeneID:102520041"
+                     /gene="HTR1A"
+     CDS             232..1500
+                     /product="5-hydroxytryptamine receptor 1A"
+                     /codon_start="1"
+                     /db_xref="GI:560919867"
+                     /db_xref="GeneID:102520041"
+                     /translation="MDLLSFGQGNNTTSSQGPFGTRGNATNISDVTFSYQVITSLLLGT
+                     LIFCAVLGNACVVAAIALERSLQNVANYLIGSLAVTDLMVSVLVLPMAALYQVLNKWTL
+                     GQVTCDLFIALDVLCCTSSILHLCAIALDRYWAITDPIDYVNKRTPRRAAALISLTWLI
+                     GFLISIPPMLGWRTPEDRSDPDACTISKDHGYTIYSTFGAFYIPLLLMLVLYGRIFRAA
+                     RFRIRKTVKKVEKKGANTRLGASRTPQPKKSVNGEPGNRDWRQGIENKAAGPLCANGAV
+                     RQGEDGAALEVIEVHRVGNSKEHLPLPSEAGTVPCVPASFEKKNERNAEAKRKMALARE
+                     RKTVKTLGIIMGTFILCWLPFFIVALVLPFCESRCHMPTLLGAIINWLGYSNSLLNPVI
+                     YAYFNKDFQNAFKKIIRCKFCRR"
+                     /gene="HTR1A"
+                     /protein_id="XP_006186153.1"
+ORIGIN
+        1 cagctggagt ctatgagcgc gctggactac gagagcccag ggagcgacta gaagctcgct
+       61 gccccgcgga gatgccttcg cctgagcagt aagaacttcc tgcttgagtc cctgcatccg
+      121 ctccctcctg aaactcccca ggacagaggg gaggaagacc ccagggggag gggagagggg
+      181 gatcctggcg cagctctttc tcccctcccc ttccccgccc ggcacgcagg catggatctg
+      241 ctcagctttg gacagggcaa caacaccacg tcgtcccagg gtcccttcgg gacacgcggc
+      301 aacgctacta acatctccga cgtgaccttc agctaccaag tgatcacttc tctgctgctg
+      361 ggcacgctca tcttctgcgc ggtgctgggc aatgcgtgcg tggtggccgc catcgccctg
+      421 gagcgctccc tgcagaacgt ggcgaattat ctcataggct cactggcagt caccgacctc
+      481 atggtgtcgg tgctggtgct gcccatggcc gcattatacc aggtgctcaa caagtggact
+      541 ctgggacagg tcacctgtga cctgttcatc gccctcgacg tgctgtgttg cacctcgtcc
+      601 attctgcacc tgtgcgccat cgcgctggac aggtactggg ctatcacgga ccccatcgac
+      661 tacgtgaaca agaggacgcc gcggcgcgcc gctgcgctca tctcgctcac ttggctcatt
+      721 ggctttctca tctccattcc gcccatgctg ggctggcgca ctcctgaaga ccgctcggac
+      781 ccggacgcat gcaccatcag caaggaccat ggttatacta tttactccac ctttggcgcc
+      841 ttctacatcc ctctgctgct catgctggtt ctctacgggc gcatcttccg agccgcgcgc
+      901 ttccgcatcc gcaagacagt caagaaggtg gagaagaaag gagccaacac ccgccttggg
+      961 gcgtcacgga ccccgcagcc caagaagagt gtaaatggcg agccggggaa cagagactgg
+     1021 aggcagggca tagagaacaa ggcagcaggg cctctgtgcg ccaacggcgc cgtgaggcag
+     1081 ggcgaagacg gcgccgccct ggaggtgatc gaagtgcacc gggtgggcaa ctccaaagag
+     1141 cacctgccgc tgcctagcga ggcgggtact gtcccctgcg tccccgcctc cttcgagaag
+     1201 aaaaatgagc gcaacgcaga ggccaagcgc aagatggccc tggcccgcga gaggaagacg
+     1261 gtgaagacgc tgggcattat tatgggcacc ttcatcctct gctggttgcc cttcttcatc
+     1321 gtggccctag ttctgccctt ctgcgagagc aggtgccaca tgcccaccct gttgggcgcc
+     1381 ataatcaact ggctgggcta ctccaactct cttctcaacc cggtcattta cgcctacttc
+     1441 aacaaggact tccaaaacgc gtttaagaag atcatcaggt gcaagttctg ccgccgatga
+     1501 tgacggagta gctggcgagt aggcccaccc catccagtcg gcctccctca gccctctgca
+     1561 atca
+//

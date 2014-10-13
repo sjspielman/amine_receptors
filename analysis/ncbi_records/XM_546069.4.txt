@@ -1,0 +1,107 @@
+LOCUS       XM_546069               2084 bp    DNA              MAM 24-SEP-2013
+DEFINITION  PREDICTED: Canis lupus familiaris cholinergic receptor, muscarinic 3
+            (CHRM3), transcript variant X13, mRNA.
+ACCESSION   XM_546069
+VERSION     XM_546069.4  GI:545494544
+DBLINK      BioProject: PRJNA12384
+KEYWORDS    RefSeq.
+SOURCE      Canis lupus familiaris (dog)
+  ORGANISM  Canis lupus familiaris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae;
+            Canis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003726055.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 24, 2013 this sequence version replaced gi:345798820.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Canis lupus familiaris Annotation
+            Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2084
+                     /sub_species="familiaris"
+                     /mol_type="mRNA"
+                     /breed="boxer"
+                     /sex="female"
+                     /db_xref="taxon:9615"
+                     /organism="Canis lupus familiaris"
+                     /chromosome="4"
+     gene            1..2084
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 1 EST, 14 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 3 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:403827"
+                     /gene="CHRM3"
+     CDS             26..1831
+                     /product="muscarinic acetylcholine receptor M3 isoform X13"
+                     /codon_start="1"
+                     /db_xref="GI:545494545"
+                     /db_xref="GeneID:403827"
+                     /translation="MVVQRLCPRITMTLHTNSTTSPLFPNISLSWVHGPLDAGLPPGTV
+                     THFGSYNISQAAGNLSSSNDTTSDPLGGHTIWQVVFIAFLTGILALVTIIGNILVIVAF
+                     KVNKQLKTVNNYFLLSLACADLIIGVISMNLFTTYIIMNRWALGNLACDLWLSIDYVAS
+                     NASVMNLLVISFDRYFSITRPLTYRAKRTTKRAGVMIGLAWVISFILWAPAILFWQYFV
+                     GKRTVPPGECFIQFLSEPTITFGTAIAAFYMPVTIMTILYWRIYKETEKRTKELAGLQA
+                     SGTEAEAENFVHPTGSSRSCSSYELQQQSLKRSARKKYGRCHFWFATKSWKPSTEQMDP
+                     DHSSSDSWNNNDAAASLENSASSDEEDIGSETRAIYSIVLKLPGHSTILNATKLPSADN
+                     LQVPDEELGLGDLDRKGSKLQAQKSLDDGGSFQKSFSKLPIQLESAVDPTKMSEVNSSA
+                     GKTTATLPLSFKEATLAKRFALKTRSQITKRKRMSLIKEKKAAQTLSAILLAFIITWTP
+                     YNIMVLVNTFCDSCIPKTYWNLGYWLCYINSTVNPVCYALCNKTFRTTFKMLLLCQCDK
+                     RKRRKQQYQQRQSVIFHKRMPEQAS"
+                     /gene="CHRM3"
+                     /protein_id="XP_546069.4"
+     STS             475..648
+                     /db_xref="UniSTS:262901"
+                     /standard_name="CHRM3"
+                     /gene="CHRM3"
+ORIGIN
+        1 caattagctg atcttaggaa aaagcatggt tgtgcaaaga ctatgtccga gaatcacaat
+       61 gaccttgcac actaacagta caacctcgcc tttgtttcca aacatcagct tgtcctgggt
+      121 gcatggcccc ttggacgcag ggctgcctcc aggcacggtc actcacttcg gcagctacaa
+      181 catttctcag gcagctggaa atttgtcctc ctcaaatgac accaccagtg acccgctggg
+      241 aggtcacacc atctggcagg tggtcttcat tgcattccta acaggcatcc tggccttggt
+      301 gaccatcatc ggcaacatcc tggtgatcgt ggccttcaag gtcaacaagc agctgaagac
+      361 agtcaataac tacttcctct taagtctggc ctgtgcggat ctgatcattg gggtcatctc
+      421 catgaacctg tttaccacct acatcatcat gaatcgatgg gctttgggaa acctggcctg
+      481 tgacctgtgg ctctccatcg actacgtggc tagcaacgcc tccgttatga atctcctggt
+      541 cattagcttt gacaggtact tttccattac gcggccactc acctaccgag ccaaaagaac
+      601 cacaaaaaga gctggagtga tgataggcct ggcatgggtc atctctttca tcctctgggc
+      661 tcctgccatc ttgttctggc agtactttgt cgggaagaga actgtgccgc ccggagagtg
+      721 cttcattcag ttcctcagcg agcccaccat cacgttcggc acggccatcg ctgccttcta
+      781 tatgcccgtc accatcatga ctattttata ctggaggatc tataaggaga ccgagaaacg
+      841 taccaaagag cttgccgggc tgcaggcgtc tgggacggaa gcagaggccg agaacttcgt
+      901 ccaccccaca ggcagctctc gaagctgcag cagctatgag ctccagcagc agagcctgaa
+      961 acgctcggcc aggaagaagt acggccgctg ccacttctgg tttgccacca agagctggaa
+     1021 gcccagcacc gagcagatgg acccagacca cagcagcagt gacagctgga ataacaacga
+     1081 tgccgctgcc tccctggaaa actctgcctc ctccgatgag gaagacatcg gctctgagac
+     1141 aagagccatc tattcgatcg tgctcaagct gcccggtcac agcaccatcc tcaatgccac
+     1201 caaattaccc tcagcagaca acctgcaggt gcctgatgag gagctggggc tgggagactt
+     1261 ggacaggaaa ggcagcaagc tgcaggccca gaagagccta gacgatggag gcagtttcca
+     1321 gaagagcttc tccaagcttc ccatccaatt agagtcagcc gtggacccga ccaagatgtc
+     1381 tgaggtcaac tcctcagcag ggaagaccac ggccactcta cctctgtcct tcaaggaagc
+     1441 caccctggcc aagagatttg ctctcaagac cagaagtcag atcaccaagc ggaaacggat
+     1501 gtccctcatc aaggagaaga aggcggctca gaccctcagt gccatcctgc tagccttcat
+     1561 catcacctgg accccctaca atatcatggt tctggtgaac accttttgtg acagctgcat
+     1621 acccaaaacc tattggaatc tgggctactg gctgtgctac atcaacagca cggtgaaccc
+     1681 cgtgtgctat gcgctgtgta acaaaacatt cagaaccact ttcaagatgc tgctgctgtg
+     1741 tcagtgtgac aaacgcaagc ggcgcaagca gcagtaccag cagagacagt cagtcatttt
+     1801 tcacaagcgc atgcccgagc aggcctcgta gagggaggct ctgtccatca cagtgaccaa
+     1861 acgcacacat caacccacaa accttagggg agtgtgagct gagggtgggg gtgatttcca
+     1921 agggtgataa aaatggattg ttttttttaa tcacccagat ataaaggaag ctgcctgttt
+     1981 actgacccat tgaataaatc catcttaata tagaaagtca aataccaatt cagcaaaaaa
+     2041 gaaaataaag cgtcttaccg aatacaaaga aatttatcct gaaa
+//

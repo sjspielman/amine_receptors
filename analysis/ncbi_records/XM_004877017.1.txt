@@ -1,0 +1,101 @@
+LOCUS       XM_004877017            1969 bp    DNA              ROD 18-JUN-2013
+DEFINITION  PREDICTED: Heterocephalus glaber cholinergic receptor, muscarinic 2
+            (Chrm2), mRNA.
+ACCESSION   XM_004877017
+VERSION     XM_004877017.1  GI:512811729
+DBLINK      BioProject: PRJNA167983
+KEYWORDS    RefSeq.
+SOURCE      Heterocephalus glaber (naked mole-rat)
+  ORGANISM  Heterocephalus glaber
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Bathyergidae; Heterocephalus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004629425.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Heterocephalus glaber Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1969
+                     /db_xref="taxon:10181"
+                     /mol_type="mRNA"
+                     /organism="Heterocephalus glaber"
+                     /chromosome="Unknown"
+                     /sex="male"
+     gene            1..1969
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 22 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /db_xref="GeneID:101714286"
+                     /gene="Chrm2"
+     misc_feature    99..101
+                     /note="upstream in-frame stop codon"
+                     /gene="Chrm2"
+     CDS             102..1559
+                     /product="muscarinic acetylcholine receptor M2-like"
+                     /codon_start="1"
+                     /db_xref="GI:512811730"
+                     /db_xref="GeneID:101714286"
+                     /translation="MKWLHGFKCLFDHLSTECKMNNSTNSSNNSLAISSPYKTFEVVFI
+                     VLVAGSLSLVTIIGNILVMVSIKVNRHLQTVNNYFLFSLACADLIIGVFSMNLYTLYTV
+                     IGYWPLGPVVCDLWLALDYVVSNASVMNLLIISFDRYFCVTKPLTYPVKRTTKMAGMMI
+                     AAAWVLSFILWAPAILFWQFIVGVRTVEDGECYIQFFSNAAVTFGTAIAAFYLPVIIMT
+                     VLYWHISRASKSRIKKEKKEPVANQDPVSPSLVQGRIVKPNNNNMPSSDGGLEHNKIQN
+                     GKALRGAVTENCVQGEEKESSNDSTSVSAVASNMKDDEITQDENTISTSLGHSKDENSK
+                     QTCIKIVTKTQKGDSCTPSHTTVELVGSSGQNGDEKQNIVARKIVKMTKQPAKKKPPPS
+                     REKKVTRTILAILLAFIITWAPYNVMVLINTFCAPCIPNTVWTIGYWLCYINSTINPAC
+                     YALCNATFKKTFKHLLMCHYKNIGATR"
+                     /gene="Chrm2"
+                     /protein_id="XP_004877074.1"
+     STS             1244..1307
+                     /db_xref="UniSTS:479807"
+                     /standard_name="CHRM2"
+                     /gene="Chrm2"
+ORIGIN
+        1 ggaaaaggaa tggccctgag tcctgagtcc tccctgcatc accctggcag ggacttcatc
+       61 ttaatcaaca ctgagagctc agaatgaatc atgatgcctg aatgaagtgg ctccatgggt
+      121 ttaaatgctt atttgaccac ttgtctactg aatgcaaaat gaataattca acaaactcct
+      181 ccaataatag cctggctatt agcagtcctt ataagacatt tgaagtggta tttattgtcc
+      241 ttgtggctgg atccctcagt ctggtgacta ttattgggaa catcctggtc atggtttcca
+      301 ttaaagtcaa ccgccacctg cagactgtca acaattactt tttgttcagc ttggcctgtg
+      361 ctgacctcat cataggtgtt ttctccatga acttgtacac cctctacact gtgattggct
+      421 actggcctct gggacctgtg gtgtgtgacc tttggttagc tttggactat gtggtcagca
+      481 atgcctcagt catgaacctg ctcatcatca gctttgacag atacttctgt gtcacaaaac
+      541 ctttgaccta cccagttaag cggaccacga aaatggcagg catgatgatt gcagctgcct
+      601 gggtcctctc cttcattctc tgggctccag ccattctctt ctggcagttc attgtagggg
+      661 tgagaactgt ggaggacggg gaatgctaca ttcagttctt ttccaatgct gctgtcacct
+      721 ttggcactgc cattgcagcc ttctacttgc cagtaatcat catgactgtg ctatattggc
+      781 atatatcccg agccagcaag agcaggataa agaaggaaaa gaaggagccc gtggccaacc
+      841 aagatccagt gtctccaagt ctggtgcaag gaagaatagt aaagccaaac aacaacaaca
+      901 tgcccagcag tgatggtggc ctagaacaca acaaaatcca gaatggcaag gccctcagag
+      961 gtgctgtgac agaaaactgt gtccaggggg aggagaaaga gagctccaat gactccacct
+     1021 cagtcagtgc tgttgcctct aatatgaaag atgatgaaat aacccaggat gagaacacaa
+     1081 tatccacttc cctaggccat tctaaagatg aaaattctaa gcaaacatgc atcaaaatcg
+     1141 tcaccaagac acaaaaaggt gactcatgca ccccgagtca taccactgtg gagctagttg
+     1201 gatcttcagg tcagaatgga gatgaaaaac agaacattgt agcccgcaag attgtgaaga
+     1261 tgactaagca acctgcaaaa aagaaacctc ctccttcccg ggaaaagaaa gtgaccagga
+     1321 caatcttggc tattctgttg gctttcatca tcacctgggc cccatacaat gtcatggtgc
+     1381 tcattaacac cttctgtgca ccctgcatcc ctaacacagt gtggacaatt ggttattggc
+     1441 tctgttacat caacagcacc atcaaccctg cctgctatgc actttgcaat gccaccttta
+     1501 agaagacctt taaacacctc cttatgtgtc attacaagaa tataggcgct acaaggtaaa
+     1561 agagtctgga aaagaaggaa ggaggtcaaa gggagcttga gaagaataaa aaggatgaaa
+     1621 gagcctccac gtttaagatc tctgccattg cactttatag tctcattatg gaatgtgcaa
+     1681 ttaaggagct caactgtgac acttcgctcg tgcccatgtt ttagtctgat aaaacttgta
+     1741 tcttatcaag ccagtcagtt aggagcaagg ggacaatgag acatgttggc attgctgatt
+     1801 taaggggcaa tttctgctgt ctcgtacttt tctgagaagt acttctgaat ctacagttgt
+     1861 accagtctct gcacaagaag aataacgttg atcccttttt gtttctttgt tgttgttctc
+     1921 atgggtctgt gcataaggat gaaatggcac agctgcaagc tgacatgga
+//

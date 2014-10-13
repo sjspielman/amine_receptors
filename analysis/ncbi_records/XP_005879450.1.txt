@@ -1,0 +1,64 @@
+LOCUS       XP_005879450             405 aa                     MAM 29-OCT-2013
+DEFINITION  PREDICTED: histamine H2 receptor isoform X1 [Myotis brandtii].
+ACCESSION   XP_005879450
+VERSION     XP_005879450.1  GI:554570407
+DBLINK      BioProject: PRJNA218631
+KEYWORDS    RefSeq.
+SOURCE      Myotis brandtii (Brandt's bat)
+  ORGANISM  Myotis brandtii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Microchiroptera;
+            Vespertilionidae; Myotis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005370271.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Myotis brandtii Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..405
+                     /collection_date="Dec-2011"
+                     /country="Russia: Perm poKrai"
+                     /sex="male"
+                     /note="collected at hibernation roost"
+                     /db_xref="taxon:109478"
+                     /chromosome="Unknown"
+                     /organism="Myotis brandtii"
+                     /lat_lon="58.8348 N 57.6119 E"
+     Protein         1..405
+                     /product="histamine H2 receptor isoform X1"
+                     /calculated_mol_wt="45143"
+     Region          29..303
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          41..288
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..405
+                     /coded_by="XM_005879388.1:660..1877"
+                     /gene="HRH2"
+                     /db_xref="GeneID:102249874"
+ORIGIN
+        1 mesndtaass cldsaafkvt vsvvltilil itiagnvvvc lavslnrqlr sltncfivsl
+       61 aitdlllgll vmpfsafyql scrwsfgkvf cniytsldvm lctasilnlf misldrycav
+      121 tvplrypvli tpvrvgislv liwavsitls flsihlgwns rdetsrvnht ilpckvqvnl
+      181 vyglvdglvt fyvpllvmci tyfrifkiar eqakrihhig swkavtireh katvtlatvm
+      241 gafivcwfpy ftvfvyrglr gddavnktfe avvlwlgyan salnpilyaa lnrdfrtayq
+      301 qllrcryagw nahnaslryd ssrlprtrsq gprqqeekpl klqvwsgrev maprgatdrk
+      361 palsctmsss nllscckslw gcrflqrrgg gpseqplktp psqaa
+//

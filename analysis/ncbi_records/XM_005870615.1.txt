@@ -1,0 +1,100 @@
+LOCUS       XM_005870615            1931 bp    DNA              MAM 29-OCT-2013
+DEFINITION  PREDICTED: Myotis brandtii adrenoceptor alpha 1B (ADRA1B), mRNA.
+ACCESSION   XM_005870615
+VERSION     XM_005870615.1  GI:554552373
+DBLINK      BioProject: PRJNA218631
+KEYWORDS    RefSeq.
+SOURCE      Myotis brandtii (Brandt's bat)
+  ORGANISM  Myotis brandtii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Microchiroptera;
+            Vespertilionidae; Myotis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005362269.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Myotis brandtii Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1931
+                     /mol_type="mRNA"
+                     /collection_date="Dec-2011"
+                     /country="Russia: Perm poKrai"
+                     /sex="male"
+                     /note="collected at hibernation roost"
+                     /db_xref="taxon:109478"
+                     /lat_lon="58.8348 N 57.6119 E"
+                     /organism="Myotis brandtii"
+                     /chromosome="Unknown"
+     gene            1..1931
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 17 Proteins, and 80% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:102248047"
+                     /gene="ADRA1B"
+     CDS             474..1931
+                     /product="alpha-1B adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:554552374"
+                     /db_xref="GeneID:102248047"
+                     /translation="MNPDLDTGHNTSAPAHWGELKNANFTGPNQTSNNSRLPQLDITRA
+                     ISVGMVLGAFIIFAIVGNILVILSVACNRHLRTPTNYFIVNLAIADLLLSFTVLPFSAA
+                     LEVLGYWVLGRIFCDIWAAVDVLCCTASILSLCAISIDRYIGVRHSLQYPTLVTRRKAI
+                     LALLSVWVLSTVISIGPLLGWKEPAPNDDKECGVTEEPFYALFSSLGSFYIPLAVILVM
+                     YCRVYIVAKRTTKNLEAGVMREMSNSKELTLRIHSKNFHEDTLSSTKAKGHNPRSSIAV
+                     KLFKFSREKKAAKTLGIVVGMFILCWLPFFIALPLGSLFSTLKPPDTVFKVVFWLGYFN
+                     SCLNPIIYPCSSKEFKRAFLRILGFCFLPPPEALIAGPAKKMQQRRRSLSELLLASGSG
+                     AWRPSSVRAETGKQFFRHRSDRDGSTPPSLRRCSERDRLGLQADPGATCCPARLGDSEQ
+                     SCFAIQLALLCPLPPSPHGRFSCSQTF"
+                     /gene="ADRA1B"
+                     /protein_id="XP_005870677.1"
+     STS             524..1279
+                     /db_xref="UniSTS:271116"
+                     /standard_name="PMC150908P1"
+                     /gene="ADRA1B"
+ORIGIN
+        1 aatcagggca gttggacatt ccaggacttc actgggggcc aaacgtgaag ttgatggtag
+       61 agtgccggca acagagaaag gaaatcaggg ggatcctcgc agaaatgggg tgcattttgg
+      121 aatgaggaag cactttcgcc tcccatggga gcagcaccaa gaagggggaa cgtgggcagt
+      181 cccccagaca gagcaaagga acattctaaa gttttcaggt gccacacaag ttgcatatcc
+      241 ccctaattct gggggttgac tccagacgcc atcctattag aggcacaggc gagcgaacga
+      301 gcgcggtgca ggagacgcac tgccggctgc tgggggagat gcctcctcgc caggagggcg
+      361 cctctgggaa gaagcccacc gtgggggagg caaagtttca gggcagctga ggagccttcc
+      421 ccgcagccct tccagccctg tccacccgct ggctatggag ggcggactct aagatgaatc
+      481 ccgacctgga caccggccac aacacatcag cacctgccca ctggggagag ttgaaaaatg
+      541 ccaacttcac tggccccaac cagacctcca acaactccag actgccccag ctggacatca
+      601 ccagggccat ctccgtgggc atggtgctgg gcgccttcat catctttgcc atcgtaggca
+      661 acatcttagt catcttgtct gtggcctgca accgtcacct gcggacaccc accaactact
+      721 tcatcgtcaa cctggccatc gccgacctgc tgctaagctt caccgtgctg cccttctcgg
+      781 ctgccctgga ggtgctgggc tactgggtgc tgggccggat cttctgcgac atctgggccg
+      841 ccgtggacgt cctgtgctgc accgcctcca tcctgagcct gtgcgccatc tccatcgatc
+      901 gctacatcgg ggtgcgccat tctctgcagt accccacgct tgtcacccgg aggaaggcca
+      961 tcttggcgct cctcagtgtc tgggtcttgt ccacagtcat ctccattggg cctctccttg
+     1021 ggtggaagga gccagcaccc aacgatgaca aggaatgcgg ggtcaccgaa gaacccttct
+     1081 acgccctctt ctcctcgctg ggctccttct acatccctct ggctgtcatt ctggtcatgt
+     1141 actgccgggt ctacatagtt gccaagagga ccaccaagaa cctggaggcc ggagtcatga
+     1201 gggagatgtc caactccaag gagctgaccc tgaggatcca ctccaagaac tttcatgagg
+     1261 acaccctcag cagtaccaag gccaagggcc acaaccccag gagttccata gctgtcaaac
+     1321 tgtttaagtt ctccagggaa aagaaagcag ccaagacctt gggcatagtg gtcgggatgt
+     1381 tcatcttgtg ttggctaccc ttcttcatcg ctctaccact tggctccctg ttctccaccc
+     1441 tgaagccccc cgacaccgtg ttcaaggtgg tgttctggct gggctacttc aacagctgcc
+     1501 tcaaccccat catctacccg tgctccagca aggagttcaa gcgcgccttc ctgcgcatcc
+     1561 tcggcttttg ttttcttcca ccgccagaag ctctgatcgc gggtccggca aagaagatgc
+     1621 agcaaagacg acgaagcctc tcggagctgc tcctcgcctc cgggagcgga gcgtggcgtc
+     1681 cttcctcggt acgtgcggag actgggaaac agttctttag acaccgcagt gaccgagacg
+     1741 gctccacgcc cccttccctc cgcaggtgct cggagcggga cagactcggc cttcaggcgg
+     1801 acccaggcgc cacctgctgt ccggcgcgcc taggcgactc ggaacaaagt tgctttgcaa
+     1861 ttcagcttgc gctgctctgt ccacttcctc cgagccccca tgggcgtttc agttgcagcc
+     1921 agacattcta g
+//

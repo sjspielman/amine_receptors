@@ -1,0 +1,96 @@
+LOCUS       XM_002932497            1707 bp    DNA              VRT 18-JUN-2013
+DEFINITION  PREDICTED: Xenopus (Silurana) tropicalis 5-hydroxytryptamine
+            (serotonin) receptor 5A, G protein-coupled (htr5a), mRNA.
+ACCESSION   XM_002932497
+VERSION     XM_002932497.2  GI:512849341
+DBLINK      BioProject: PRJNA205740
+KEYWORDS    RefSeq.
+SOURCE      Xenopus (Silurana) tropicalis (western clawed frog)
+  ORGANISM  Xenopus (Silurana) tropicalis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Amphibia; Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae; Xenopus;
+            Silurana.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004668239.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Jun 18, 2013 this sequence version replaced gi:301605827.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Xenopus (Silurana) tropicalis
+            Annotation Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1707
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8364"
+                     /sex="female"
+                     /note="partially inbred F6; sterile"
+                     /strain="Nigerian"
+                     /organism="Xenopus (Silurana) tropicalis"
+                     /chromosome="Unknown"
+     gene            1..1707
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 ESTs, 2 Proteins, and 97%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 33 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:100487444"
+                     /gene="htr5a"
+     misc_feature    86..88
+                     /note="upstream in-frame stop codon"
+                     /gene="htr5a"
+     CDS             107..1162
+                     /product="5-hydroxytryptamine receptor 5A"
+                     /codon_start="1"
+                     /db_xref="GI:512849342"
+                     /db_xref="GeneID:100487444"
+                     /translation="MPMLPDSRMEWNITVSANGSAGADSWGKHRFSVFSVLILTLLAML
+                     VIATFLWNVLVLVTILRVRTFHRVPHNLVASMAISDVMVAALVMPLSLVHELNDRRWRL
+                     GRVLCHIWISFDVLCCTASIWNVTAIALDRYWSITRHLEYTLKTRKRISNIMILLTWLL
+                     SAVISLSPLFGWGETYSEVNEECQVSQEPSYTIFSTFGAFYLPLCVVLFVYWKIYKAAK
+                     FRIGSKKTNTITPMPEVIEVKEASHQPQMVFTVRHATVTFQTDGDTWREQKEKKAALMV
+                     GILIGVFVLCWIPFFITELINPLCSCDIPPIWKSIFLWLGYSNSFFNPLIYTAFNKNYN
+                     NAFRNLFSRQR"
+                     /gene="htr5a"
+                     /protein_id="XP_002932543.2"
+ORIGIN
+        1 aaactttgcg ccccatggtg gagcagggca ggggccagac ggaagatgaa gtgagtgggt
+       61 accgggatgc catgccttag ggctgtgagt gctgctgcct gtgctgatgc ccatgctgcc
+      121 ggacagtagg atggaatgga acattacagt gtccgctaat gggagcgcag gggcagactc
+      181 ctggggcaaa caccgcttct ctgtcttcag cgtcctcatc ttaactctgc tggccatgct
+      241 ggtgattgcc accttcctat ggaacgtcct agtgctggtc accatcctca gggtgagaac
+      301 cttccacagg gtgccccata atctggtggc ctccatggcc atatcagacg tgatggtggc
+      361 tgccttggtg atgcctttaa gcttggtaca tgagctgaat gacaggcgct ggaggctggg
+      421 cagggtgctg tgccacatct ggatctcctt tgatgtcctc tgttgcacgg ccagcatctg
+      481 gaatgtgacc gccatcgccc tggacaggta ttggtccatc accaggcacc tggaatacac
+      541 tctaaagacc agaaagagga tctccaatat catgatcctt ctcacttggc tcctttctgc
+      601 tgttatatcc ctgtcccctc tgtttggctg gggggagacc tattcagagg tgaatgaaga
+      661 gtgccaagtg agccaggagc cctcctacac catcttctcc acctttgggg cattttatct
+      721 cccgctttgc gttgttttat tcgtctactg gaaaatctac aaagctgcca aatttcgtat
+      781 cggctccaag aagacaaaca caataacgcc aatgcccgaa gtgatcgagg tgaaggaagc
+      841 ctcccaccaa cctcagatgg tcttcactgt ccgacatgcg actgtcactt tccagacaga
+      901 tggggacaca tggagggaac agaaagagaa aaaagctgcc ttgatggtcg ggatcctcat
+      961 tggggtcttt gtcctctgct ggatcccctt ctttataacg gaattaatca accctctatg
+     1021 ttcctgtgac atccccccta tctggaaaag tatattctta tggctggggt actcaaactc
+     1081 cttcttcaac cccttgatct acacagcctt taataagaat tacaacaatg ctttcagaaa
+     1141 cttgttctcc aggcagcggt gatggctcac ttactggtca gtatctagag gccttcaggt
+     1201 cttcgtggtc ttcatctcat ggacttttta gccatggaca atgtgcctat ctggccccga
+     1261 tggatgcaac gcaactgaat gatagttaat gagagttggt tcttctcaca caaggagtcg
+     1321 acatctattc caaggtcatc aaggtcaagg ttgtcccagc agctctgttc ctggagataa
+     1381 atcagttgga tatgcctaat gactggccat cacaagccca tatataaccc ctgcttgcct
+     1441 tccacttgcc ctgacatcgg tagaactctg ccatcagctg ctccctatcc tctcggagca
+     1501 tcaaagatgg aataaaaatt tctactatgg aattatggga cagaatggcc tccattgtat
+     1561 acttactttc caagagcttc tgaagcagct gttgactctc taatgtgtat gaataagtgt
+     1621 atcggcttga atgatcatgt atgaaaggca cagttcttgg gactttttca ctctttattg
+     1681 attaataaat agacagtgaa atatgga
+//

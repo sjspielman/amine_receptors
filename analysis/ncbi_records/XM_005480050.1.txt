@@ -1,0 +1,99 @@
+LOCUS       XM_005480050            1901 bp    DNA              VRT 12-SEP-2013
+DEFINITION  PREDICTED: Zonotrichia albicollis cholinergic receptor, muscarinic 4
+            (CHRM4), transcript variant X1, mRNA.
+ACCESSION   XM_005480050
+VERSION     XM_005480050.1  GI:542141993
+DBLINK      BioProject: PRJNA217032
+KEYWORDS    RefSeq.
+SOURCE      Zonotrichia albicollis (white-throated sparrow)
+  ORGANISM  Zonotrichia albicollis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Fringillidae; Emberizinae; Emberizini; Zonotrichia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005081537.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Zonotrichia albicollis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1901
+                     /mol_type="mRNA"
+                     /isolate="Tan morph"
+                     /sex="male"
+                     /db_xref="taxon:44394"
+                     /tissue_type="hematocrit"
+                     /organism="Zonotrichia albicollis"
+                     /chromosome="Unknown"
+     gene            1..1901
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 2 ESTs, 19 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 6 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:102065508"
+                     /gene="CHRM4"
+     CDS             184..1761
+                     /product="muscarinic acetylcholine receptor M4 isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:542141994"
+                     /db_xref="GeneID:102065508"
+                     /translation="MAAENRSAPGGGAPWAGLPDFIFQKELFAVRDTDPMHNLSAQPWQ
+                     AKMANLTYDNFTLGNHSEVAVQPPTNYKTVELVFIATVTGSLSLVTVVGNILVMLSIKV
+                     NRQLQTVNNYFLFSLACADLIIGVFSMNLYTVYIIKGYWPLGAVVCDLWLALDYVVSNA
+                     SVMNLLIISFDRYFCVTKPLTYPARRTTKMAGLMIAAAWILSFILWAPAILFWQFIVGK
+                     RTVPERECYIQFLSNPAVTFGTAIAAFYLPVVIMTVLYIHISLASRSRVRRHKPESRKE
+                     RKTKSLRFLKGPMVKQNNNNSPKRAVEVKEEVRNGKVDDQPSAQTEATGHQEEKETSNE
+                     SSTVSMTQTTKDKPTAEVLPAGQGQSPAIPRVNPTSKWSKIKIVTKQSGSECVTAIEIV
+                     PAKSGASNHNSLANSRPVNVARKFASIARSQVRKKRQMAAREKKVTRTIFAILLAFILT
+                     WAPYNVMVLINTFCETCVPETVWSIGYWLCYVNSTINPACYALCNATFKKTFKHLLMCQ
+                     YRNIGTAR"
+                     /gene="CHRM4"
+                     /protein_id="XP_005480107.1"
+ORIGIN
+        1 agcgggggag ggcgggggcg gggggaggag gccggggccg agccggcagc gccgggccct
+       61 cccctctccc ctctccccgc ccctccgccg cgcgcggcgc cgccgggacc gggagccggg
+      121 accggagccg ggaccggagc cgggccatgc cagccggagc ccccgcgggc gcggcgcggc
+      181 accatggccg ctgagaaccg ctcggcgccg ggcggcggcg cgccctgggc tgggctgccc
+      241 gatttcatct tccagaagga gctatttgct gtgagagaca cagatcccat gcacaacctc
+      301 tctgctcagc cctggcaggc aaagatggcc aacctgacct atgacaactt caccctgggc
+      361 aaccactccg aggtggctgt gcagcctccc accaactaca agacagtgga gctggttttc
+      421 attgccactg tcaccggctc actcagcctt gtcaccgtgg tggggaacat cctggtgatg
+      481 ctctccatca aggtgaaccg ccagctccag actgtcaaca actatttcct cttcagcctg
+      541 gcctgcgcag acctcatcat cggggtcttc tccatgaacc tctacacggt ctacatcatc
+      601 aaaggctact ggccactggg ggccgtggtg tgcgacctgt ggctggctct ggactatgtg
+      661 gtgagcaatg cctctgtcat gaacctgctc atcatcagct ttgaccggta cttctgtgtc
+      721 accaagcccc tgacgtaccc ggccaggagg accaccaaga tggcagggct aatgatcgcg
+      781 gccgcgtgga tattgtcctt cattctctgg gcccctgcca tcttgttctg gcagttcatt
+      841 gtaggcaaga ggacagtccc tgagagggaa tgttacatcc agttcctctc caacccagcg
+      901 gtgacatttg gcacagccat tgctgctttt tacctgcccg tggtcatcat gacggtgctg
+      961 tacatccata tctccctggc cagcagaagc agggtaagga ggcacaagcc tgagagcagg
+     1021 aaagagagga aaaccaagtc cctcagattc ctcaagggcc ccatggtcaa acagaacaac
+     1081 aataattctc ccaagagggc cgtggaggtg aaggaggagg tgaggaatgg gaaagtggat
+     1141 gaccagccat ctgcacagac agaggccact ggccatcagg aggagaagga gacatccaat
+     1201 gagtccagca ccgtcagcat gacccagacc acaaaagaca agcccacagc agaagtcttg
+     1261 ccagcagggc aaggacagag tccagccatc ccccgggtga acccaacttc caagtggtcc
+     1321 aagattaaga ttgtcaccaa gcagtctggg tctgaatgtg tcaccgccat tgagatcgtg
+     1381 ccagctaagt caggtgcctc taaccacaac tccctggcca acagccgccc agtcaatgtt
+     1441 gccaggaagt ttgccagcat cgccaggagc caggtacgga agaagcgcca gatggctgcc
+     1501 cgggagaaga aagtcacccg caccatattt gccatcctgc tggccttcat actcacgtgg
+     1561 gcaccctaca acgtgatggt cctcattaac accttctgtg agacctgcgt gcccgaaaca
+     1621 gtgtggtcca tcggctactg gctctgctat gtcaacagca ccatcaaccc agcctgctat
+     1681 gccctctgca atgctacttt caagaaaacc ttcaagcacc ttctcatgtg ccagtacagg
+     1741 aacattggca cagccagata aactggtact cagggaccac ttcagtatcc ttatggaaac
+     1801 ccttcccttt gcctcctttg ccagcagggg ttcttctgct caccactcac aacagtgcag
+     1861 actgtgcagt gattgcagag gatgcccttc atccaatgct g
+//

@@ -1,0 +1,63 @@
+LOCUS       XP_005416433             444 aa                     VRT 13-SEP-2013
+DEFINITION  PREDICTED: alpha-2A adrenergic receptor [Geospiza fortis].
+ACCESSION   XP_005416433
+VERSION     XP_005416433.1  GI:543246854
+DBLINK      BioProject: PRJNA217051
+KEYWORDS    RefSeq.
+SOURCE      Geospiza fortis (medium ground-finch)
+  ORGANISM  Geospiza fortis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Fringillidae; Emberizinae; Thraupini; Geospiza.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005054300.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Geospiza fortis Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..444
+                     /db_xref="taxon:48883"
+                     /organism="Geospiza fortis"
+                     /chromosome="Unknown"
+                     /sex="female"
+     Protein         1..444
+                     /product="alpha-2A adrenergic receptor"
+                     /calculated_mol_wt="50388"
+     Region          66..>194
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          80..420
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..444
+                     /coded_by="XM_005416376.1:37..1371"
+                     /gene="ADRA2A"
+                     /db_xref="GeneID:102033754"
+ORIGIN
+        1 mfnlerpfte rghffssmey qrqleeeegy pppgtngtfn dsgagpgwda pyplhttitl
+       61 islasllmlf tvfgnvlvii avftsralka pqnlflvsla sadilvatlv ipftlanevm
+      121 gywyfgkvwc eiylaldvlf ctssivhlca isldrywsit qaieynlkrt prrikciifi
+      181 vwvisavisf pplisiekks gqqadqgvav ckindekwyi isssigsffa pclimilvym
+      241 riyqiakrrt rvppnkraer pekkqnglad kedlpataql ngekaaggsg gqegevngid
+      301 meetsssehq ensqckksek psrgktktkl sqikpgdslp rkteeerntk gsrwrgrqnr
+      361 ekrftfvlav vigvfvicwf pffftytlma icescsvpdt lfkfffwfgy cnsslnpviy
+      421 tifnhdfrra fkrilcrier kmsv
+//

@@ -1,0 +1,92 @@
+LOCUS       XM_003920036            1795 bp    DNA              PRI 06-SEP-2012
+DEFINITION  PREDICTED: Saimiri boliviensis boliviensis cholinergic receptor,
+            muscarinic 4 (CHRM4), mRNA.
+ACCESSION   XM_003920036
+VERSION     XM_003920036.1  GI:403254672
+KEYWORDS    RefSeq.
+SOURCE      Saimiri boliviensis boliviensis (Bolivian squirrel monkey)
+  ORGANISM  Saimiri boliviensis boliviensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Saimiriinae; Saimiri.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003943604) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Saimiri boliviensis Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1795
+                     /sub_species="boliviensis"
+                     /mol_type="mRNA"
+                     /isolate="3227"
+                     /sex="female"
+                     /db_xref="taxon:39432"
+                     /organism="Saimiri boliviensis boliviensis"
+                     /chromosome="Unknown"
+     gene            1..1795
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 7 mRNAs, 10 ESTs, 23 Proteins"
+                     /db_xref="GeneID:101046353"
+                     /gene="CHRM4"
+     CDS             46..1485
+                     /product="muscarinic acetylcholine receptor M4"
+                     /codon_start="1"
+                     /db_xref="GI:403254673"
+                     /db_xref="GeneID:101046353"
+                     /translation="MANFTPVNASSGNQSVRLVTSSTHNRYETVEMVFIATVTGSLSLV
+                     TVVGNILVMLSIKVNRQLQTVNNYFLFSLACADLIIGAFSMNLYTVYIIKGYWPLGAVV
+                     CDLWLALDYVVSNASVMNLLIISFDRYFCVTKPLTYPARRTTKMAGLMIAAAWVLSFVL
+                     WAPAILFWQFVVGKRTVPDNQCFIQFLSNPAVTFGTAIAAFYLPVVIMTVLYIHISLAS
+                     RSRVHKHRPEGPKEKKAKTLAFLKSPLMKQSVKKPPPGEAAREELRNGKLEEAPPPALP
+                     PPPRPLADKDTSNESSSGSATQNTKERPATELSTTEATTPAMPAPPLQPRALNPASRWS
+                     KIQIVTKQTGNECVTAIEIVPATPAGMRPAANVARKFASIARNQVRKKRQMAARERKVT
+                     RTIFAILLAFILTWTPYNVMVLVNTFCQSCVPDTVWSIGYWLCYVNSTINPACYALCNA
+                     TFKKTFRHLLLCQYRNIGTAR"
+                     /gene="CHRM4"
+                     /protein_id="XP_003920085.1"
+     STS             1597..1766
+                     /db_xref="UniSTS:70478"
+                     /standard_name="RH78928"
+                     /gene="CHRM4"
+ORIGIN
+        1 tcctcttcct ccccagacac gggttaccca cccctgctaa ccagcatggc caacttcaca
+       61 cccgtcaatg ccagctcggg caatcagtcc gtacgcctgg tcacatcgtc aacccacaac
+      121 cgctacgaga cggtggaaat ggtcttcatc gccacggtga caggctccct gagcctggtg
+      181 actgtcgtgg gcaatatcct ggtgatgctg tccatcaagg tcaacaggca gctgcagacg
+      241 gtcaacaact acttcctctt cagcctggcg tgtgccgacc tcatcattgg cgccttctct
+      301 atgaacctct acaccgtgta catcatcaag ggctactggc ccctgggcgc cgtggtctgt
+      361 gacctgtggc tggccctgga ctacgtggtg agcaatgcct ccgtcatgaa ccttctcatc
+      421 atcagctttg accgctactt ctgcgtcacc aagcccctca cctaccctgc ccggcgcacc
+      481 accaagatgg caggcctcat gattgccgcc gcctgggtcc tgtccttcgt gctctgggcg
+      541 cctgccatct tgttctggca gtttgtggtg ggcaagcgga cggtgcccga caaccagtgc
+      601 ttcattcagt tcctgtccaa cccggcagtg accttcggca cagccatcgc tgccttctac
+      661 ctacctgtgg tcatcatgac ggtgctgtac atccacatct ccctagccag tcgcagccgg
+      721 gtccacaagc accggcccga aggcccgaag gagaagaagg ccaagacact ggccttcctc
+      781 aagagcccgc tgatgaagca gagcgttaag aagcccccgc ccggggaggc cgcccgggag
+      841 gagctgcgca atggcaagct ggaggaggcc cccccaccgg cgctgccacc accgccgcgt
+      901 cccctggctg acaaggacac ttccaacgag tccagctcag gcagtgccac acagaacacc
+      961 aaggaacgcc cagccacaga gctgtccacc acagaggcca ccacgcctgc catgcctgcc
+     1021 cctcccctgc agcctcgggc cctcaaccca gcctccagat ggtccaagat ccagattgtg
+     1081 acgaagcaga cgggcaatga gtgtgtgaca gccatcgaga ttgtgcctgc cacgccggcc
+     1141 ggcatgcgcc ccgcggccaa cgtggcccgc aagttcgcca gcatcgctcg caaccaggtg
+     1201 cgcaagaagc ggcagatggc ggcccgggag cgcaaggtga cacggaccat ctttgccatt
+     1261 ctgctagcct tcatcctcac ctggacgccc tacaacgtca tggtcctggt gaacaccttc
+     1321 tgccagagct gcgtccctga cacggtgtgg tccatcggct actggctctg ctacgtcaac
+     1381 agcaccatca accccgcctg ctacgctctc tgcaatgcca cctttaaaaa gaccttccgg
+     1441 cacctgctgt tgtgccagta tcggaacatc ggcactgcca ggtaggcagg caggagtgcc
+     1501 ctaggaggtg ctggggttgc gtgtgtgtgc tgggggccca cacggctcac ctgctgtggg
+     1561 gaagagttgc aggcaccatt ccgtgttcgc gtttgctgag gaggaagttc ggaagaggct
+     1621 ctggctgcat tcagagatca gatctctgct caggctgagg aggctcaccc cagggagtgt
+     1681 ctgtctgaac tggggctgcc tggcctacct ctgtggcctt ggcactggcc tgggtgggca
+     1741 cctgccccac tgtgaccaac catcagcaga gctggaagaa tggatatctg gacgg
+//

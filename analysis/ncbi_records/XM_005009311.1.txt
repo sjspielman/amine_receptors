@@ -1,0 +1,107 @@
+LOCUS       XM_005009311            2276 bp    DNA              VRT 26-JUN-2013
+DEFINITION  PREDICTED: Anas platyrhynchos adrenoceptor alpha 1B (ADRA1B), mRNA.
+ACCESSION   XM_005009311
+VERSION     XM_005009311.1  GI:514704476
+DBLINK      BioProject: PRJNA208071
+KEYWORDS    RefSeq.
+SOURCE      Anas platyrhynchos (mallard)
+  ORGANISM  Anas platyrhynchos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Anseriformes; Anatidae;
+            Anas.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004676329.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Anas platyrhynchos Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2276
+                     /mol_type="mRNA"
+                     /country="China: Beijing"
+                     /breed="Pekin duck"
+                     /sex="female"
+                     /isolation_source="Gold Star Duck Production"
+                     /db_xref="taxon:8839"
+                     /organism="Anas platyrhynchos"
+                     /chromosome="Unknown"
+     gene            1..2276
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 16 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 10 samples with support for all annotated
+                     introns"
+                     /db_xref="GeneID:101800019"
+                     /gene="ADRA1B"
+     misc_feature    366..368
+                     /note="upstream in-frame stop codon"
+                     /gene="ADRA1B"
+     CDS             411..1976
+                     /product="alpha-1B adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:514704477"
+                     /db_xref="GeneID:101800019"
+                     /translation="MGPNHTLLWRMILKMNTYFDEKSNSSIPGYLKVSALNSGNLSANN
+                     SNETTSNLDSPTLDISRAITVGLILGAFILFAIIGNILVILSVACNRHLRIPTNYFIIN
+                     LAIADLLLSFTVLPFSATLEILGYWILGRIFCDIWAAVDVLCCTASILSLCAISIDRYI
+                     GVRYSLQYPTLVTRRRAILALLGVWVLSMVISIGPLLGWKEPAPKDDKECRITEEPFYA
+                     LFSSLGSFYIPLIVILVMYCRVYIVAKRTTKNLEAGVMKEMSNSKELTLRIHYRNIHED
+                     TLNSTKSKGHNPRNSLAFKLFKFSREKKAAKTLGIVVGMFILCWLPFFIVLPLGSLFSA
+                     LKPPETIFKVIFWLGYFNSCLNPIIYPCSSKEFKRAFIQILKCQCHRRKQLGWWAYSYR
+                     NWNRCSFEHPRKDSLEDSGSFLSGSQRTLSSASPSPGYLSKITHPHMEMCTFQEWKNSS
+                     SFLSPLQESSRQKDPYQFFTFNLLPEHNGHIAASSQASSNGDPEAICDTLNGKTDCKAN
+                     RMLD"
+                     /gene="ADRA1B"
+                     /protein_id="XP_005009368.1"
+ORIGIN
+        1 cggctcatgc agagctgcct aagtgctgac aaacccttcc tggagacgca tgtcacagca
+       61 gctagacagg ggcatccttc cagcaggacc acggatgcac aagggagaac agtaaacctg
+      121 ttttttattt cagggacgtc atgatcaaag cagctacttt ggagctccag ccaagccttc
+      181 tgcctgctaa tttctgtttc aacgagttga gaggagaaat taagcaagtt tgaacagcct
+      241 attatttctg acaggcttca gaggacttca cgttgggcaa gttttacgtg ctcaaagctg
+      301 acactttgct ggagagatga gctctcaatc caaagctggc tggggcattt cagtaacttc
+      361 ttgggtagag aggtaacttt ccaccaaacc caaccatctg tgtgctgtgc atgggaccca
+      421 accatacctt gctatggagg atgattttaa agatgaatac ctactttgat gagaaatcca
+      481 attcatcaat acctggatat ttgaaagttt ctgcattaaa tagtggcaac ctttctgcga
+      541 acaactccaa tgagacaaca agcaacctgg attcacccac cctggatatc agtagggcga
+      601 taactgtggg gctcatccta ggtgccttta tactctttgc tattataggt aatattttgg
+      661 taattctctc tgttgcttgc aataggcatt taagaatccc tacaaattat ttcataatta
+      721 accttgcaat agcagatttg ttgctgagtt ttactgtcct tccattctct gctacattgg
+      781 aaatcctcgg ctactggatt ttggggagga tattttgtga tatctgggca gcagttgatg
+      841 tgctgtgctg tacagcttct attttaagtc tatgtgcgat ttcgatagac agatatatag
+      901 gagtacgtta ttctctccag tatccaactt tggtaacaag aagaagagca attctagctc
+      961 tactaggtgt ctgggtcctt tccatggtaa tttctattgg gcctcttttg ggctggaaag
+     1021 aaccagcacc caaggacgat aaggagtgcc gcatcactga agaaccattc tacgctttgt
+     1081 tctcttcctt ggggtccttt tacattccct taattgtcat tcttgtgatg tactgccggg
+     1141 tctacatagt ggccaaaagg actactaaaa acctggaagc tggggttatg aaagagatgt
+     1201 ccaactccaa ggagctgact ttacggatcc attacaggaa cattcatgag gatacattaa
+     1261 acagcaccaa atccaagggt cacaatccca ggaactcctt agctttcaaa ctttttaaat
+     1321 tctctagaga aaagaaggca gccaagacgc tgggaattgt ggtcggcatg tttatcttgt
+     1381 gctggctacc cttcttcatt gttctgccgc taggatctct gttttcagct ctgaagcccc
+     1441 ctgaaacaat cttcaaggtg attttttggc ttggctactt taacagctgc ttgaatccaa
+     1501 tcatctaccc ttgctcaagc aaagagttca agagggcgtt catacagatc ctaaaatgtc
+     1561 agtgccaccg tcgaaagcag ttggggtggt gggcctacag ctacagaaac tggaatcggt
+     1621 gctcctttga acaccctagg aaggactctc tggaagacag tgggagtttc ttaagtggca
+     1681 gccaaaggac attatcttca gcatctccca gccctggtta cctgagcaaa atcactcacc
+     1741 cacatatgga aatgtgcaca ttccaggaat ggaaaaactc cagctcgttc ctgagcccct
+     1801 tacaagaaag cagcagacaa aaggatccat accagttctt caccttcaat ctcttaccag
+     1861 agcacaatgg acacattgct gctagcagcc aagcttccag caacggggac cccgaggcca
+     1921 tttgtgacac actgaatggt aaaaccgact gcaaagcaaa caggatgctg gactgatcgg
+     1981 attctgaacc gtcttcgcag tctcaggtct cttcatatgc tatctgtttg acatttagcc
+     2041 ctggtgaaga aagagacctt tgcacaattt cccagcatgt tattagaagg aagccagcaa
+     2101 ggaacaggca gattaatgtc acaagagtgg caaagtgtag gggctaaccg tattcccagt
+     2161 taattgccaa agaggctact gaagcaagca cagaatgcat ggaaggagct ggataaaccc
+     2221 agggaagtgc acaggcaatt atttagctac tgtggaagtg ctgtagaaca gctgaa
+//

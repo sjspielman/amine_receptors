@@ -1,0 +1,98 @@
+LOCUS       XM_003893946            1722 bp    DNA              PRI 04-SEP-2012
+DEFINITION  PREDICTED: Papio anubis dopamine receptor D3, transcript variant 1
+            (DRD3), mRNA.
+ACCESSION   XM_003893946
+VERSION     XM_003893946.1  GI:402859068
+KEYWORDS    RefSeq.
+SOURCE      Papio anubis (olive baboon)
+  ORGANISM  Papio anubis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Papio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003871894) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Papio anubis Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1722
+                     /mol_type="mRNA"
+                     /country="USA: Southwest National Primate Research Center,
+                     San Antonio"
+                     /isolate="1X1155"
+                     /sex="female"
+                     /db_xref="taxon:9555"
+                     /organism="Papio anubis"
+                     /chromosome="2"
+     gene            1..1722
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 6 mRNAs, 13 ESTs, 14 Proteins"
+                     /db_xref="GeneID:101009027"
+                     /gene="DRD3"
+     misc_feature    477..479
+                     /note="upstream in-frame stop codon"
+                     /gene="DRD3"
+     CDS             516..1718
+                     /product="D(3) dopamine receptor isoform 1"
+                     /codon_start="1"
+                     /db_xref="GI:402859069"
+                     /db_xref="GeneID:101009027"
+                     /translation="MAPLSQLSGLLNYTCGVENSTGASQARPHAYYALSYCALILAIVF
+                     GNGLVCMAVLKERALQTTTNYLVVSLAVADLLVATLVMPWVVYLEVTGGVWNFSRVCCD
+                     VFVTLDVMMCTASILNLCAISIDRYTAVVMPVHYQHGTGQSSCRRVTLMITAVWVLAFA
+                     VSCPLLFGFNTTGDPTVCSISNPDFVIYSSVVSFYLPFGVTVLVYARIYVVLKQRRRKR
+                     ILTRQNSQCNSVRPGFPQQTLSPDRAHLELKRYYSICQDTALGGPGFQERGGELKREER
+                     TRNSLSPTIAPKLSLEVRKLSNGRLSTSLKLGPLQPRGVPLREKKATQMVAIVLGAFIV
+                     CWLPFFLTHVLNTHCQTCHVSPELYSATTWLGYVNSALNPVIYTTFNIEFRKAFLKILS
+                     C"
+                     /gene="DRD3"
+                     /protein_id="XP_003893995.1"
+     STS             1410..1609
+                     /db_xref="UniSTS:34219"
+                     /standard_name="DRD3-556F"
+                     /gene="DRD3"
+     STS             1540..1717
+                     /db_xref="UniSTS:53374"
+                     /standard_name="RH71216"
+                     /gene="DRD3"
+ORIGIN
+        1 aaaggtaaaa acagtggaaa aactaagatt aaaaagagca ctgaggagaa aatacacatg
+       61 tactaaaaag cacagtacca gagcagatag agacaaagag gaaaagagag cgaggtagaa
+      121 aacggatcct gcttgtgcct actccatctc tctttcagca ccaaggacag aacctctgag
+      181 cgcctgaccc aagcaatgct cagtttaggg tccctcccaa atcctctaca gaaaacggat
+      241 acattcgaaa gcagctatga aacgtgcact aaggtctaat agggaagctg gaagagcagc
+      301 actcaagtaa tttcacctta gaggcaaaaa atgggtgatt tctttctgtt catttcatag
+      361 tttctgagtc ctgagaaagg caaagtttgc tttgcttggg tatgtctgct gtcagtaaat
+      421 ggctgcagga gccgaagtgg taaactcctc ggtctccaga aatcagaaga aaattttagg
+      481 gaagccactt ggcatcacat acctccccct gggctatggc acctctgagc cagctgagtg
+      541 gcctcctgaa ctacacctgt ggggtggaga actccacagg tgccagccag gcccgcccac
+      601 atgcctacta tgccctctcc tactgcgcgc tcatcctggc catcgtcttc ggcaatggcc
+      661 tggtgtgcat ggctgtgttg aaggagcggg ccctgcagac taccaccaac tacctagtag
+      721 tgagcctggc tgtggcagac ttgctggtgg ccaccttggt gatgccctgg gtggtatacc
+      781 tggaggtgac aggtggagtc tggaatttca gccgcgtttg ctgcgatgtt tttgtcaccc
+      841 tggatgtcat gatgtgtaca gccagcatcc tgaacctctg tgccatcagc atagacaggt
+      901 acaccgcagt ggtcatgccc gttcactacc agcatggcac gggacagagc tcctgtcggc
+      961 gcgtgaccct catgatcacg gccgtctggg tactggcctt tgctgtgtcc tgccctcttc
+     1021 tgtttggctt taataccaca ggggacccca ctgtctgctc catctccaac cctgattttg
+     1081 tcatctactc ttcagtggtg tccttctact tgccctttgg agtgaccgtc cttgtctatg
+     1141 ccagaatcta tgtggtgtta aaacaaagga gacggaaaag gatcctcact cgacagaaca
+     1201 gtcagtgcaa cagtgtcagg cctggcttcc ctcaacaaac cctctctcct gaccgggcac
+     1261 atctggagct gaagcgttac tacagcatct gccaagacac tgccttgggt ggaccaggat
+     1321 tccaagaaag aggcggagag ttgaaaagag aggagaggac tcggaactcc ctgagtccca
+     1381 ccatagcacc caagctcagc ctagaggttc gaaaactcag caatggcaga ttatcaacat
+     1441 ctctgaagct ggggcccctg caacctcggg gggtgccact tcgggagaag aaggcaactc
+     1501 agatggtggc cattgtgctt ggggccttca ttgtctgctg gctgcctttc ttcttgaccc
+     1561 atgttctcaa tacccactgc cagacatgcc acgtgtcccc agagctttac agtgccacga
+     1621 catggctggg ctatgtgaat agcgccctca accccgtgat ctataccacc ttcaatatcg
+     1681 agttccggaa agccttcctc aagatcctgt cttgctgagg ga
+//

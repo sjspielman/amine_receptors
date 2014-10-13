@@ -1,0 +1,95 @@
+LOCUS       XM_006158896            1915 bp    DNA              MAM 03-DEC-2013
+DEFINITION  PREDICTED: Tupaia chinensis dopamine receptor D1 (DRD1), mRNA.
+ACCESSION   XM_006158896
+VERSION     XM_006158896.1  GI:562861190
+DBLINK      BioProject: PRJNA221634
+KEYWORDS    RefSeq.
+SOURCE      Tupaia chinensis (Chinese tree shrew)
+  ORGANISM  Tupaia chinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Scandentia; Tupaiidae; Tupaia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006160131.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Tupaia chinensis Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1915
+                     /mol_type="mRNA"
+                     /country="China"
+                     /sex="male"
+                     /db_xref="taxon:246437"
+                     /organism="Tupaia chinensis"
+                     /chromosome="Unknown"
+     gene            1..1915
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 28 Proteins, and 94% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /db_xref="GeneID:102488595"
+                     /gene="DRD1"
+     CDS             78..1418
+                     /product="D(1A) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:562861191"
+                     /db_xref="GeneID:102488595"
+                     /translation="MRTPNTSTMDGAGLVVERDFSFRILTACFLSLLILSTLLGNTLVC
+                     AAVIRFRHLRSKVTNFFVISLAVSDLLVAVLVMPWKAVAEIAGFWPFGSFCNIWVAFDI
+                     MCSTASILNLCVISVDRYWAISSPFRYERKMTPKAACILISVAWTLSVLISFIPVQLSW
+                     HKAKPTNPSEGNATSLGEATDNCDSSLSRTYAISSSLISFYIPVVIMIVTYTRIYRIAQ
+                     KQIRRISALERAAVHAKNCQTTTGNGKPAECSQPESSFKMSFKRETKVLKTLSVIMGVF
+                     VCCWLPFFILNCILPFCGAGETQPFCIDSITFDVFVWFGWANSSLNPIIYAFNADFRKA
+                     FSTLLGCYRLCPATNNAIETVSINNNGAVVFSSHHEPRGSISKECNLVYLIPHAVGSSE
+                     DLKKEEAGGIAKPLEKLSPALSVILDYDTDVSLEKIQPITQNGQHPT"
+                     /gene="DRD1"
+                     /protein_id="XP_006158958.1"
+     STS             675..778
+                     /db_xref="UniSTS:142863"
+                     /standard_name="Drd1a"
+                     /gene="DRD1"
+ORIGIN
+        1 ccatcctgcc cgagccctgc cttctgctta ggatcctgaa gggggtcgga gccccggatg
+       61 tgctttccct ccggaagatg aggactccca acacctccac catggatggt gccggactgg
+      121 tggtggagag ggacttctcc ttccgaatcc tcacagcctg tttcctgtcg ctgctcatcc
+      181 tgtccaccct cctggggaac acgctggtct gtgccgcagt gatcagattc cgacacctgc
+      241 ggtccaaggt gaccaacttc tttgtcatct ctttggctgt gtcagatctc ctggtggccg
+      301 tcttggtcat gccctggaaa gcggtggctg agatcgctgg cttctggccc ttcgggtcct
+      361 tctgtaacat ctgggtggcc tttgacatca tgtgctcgac cgcgtccatc ctcaacctct
+      421 gcgtgatcag cgtggacagg tactgggcta tctccagccc ctttcggtac gagaggaaga
+      481 tgacccccaa ggcggcctgc attctcatca gcgtggcgtg gaccttgtct gtcctcatct
+      541 ccttcatccc cgtgcagctc agctggcata aggcaaagcc cacaaacccc tccgaaggga
+      601 acgccacttc cctgggcgag gccacagaca actgtgactc cagcctgagc aggacgtacg
+      661 ccatctcgtc ctccctgata agcttttaca tccccgtggt catcatgatt gtcacctaca
+      721 ccaggatcta caggattgcc cagaagcaaa ttcggcggat ctcagccttg gagagggcag
+      781 ccgtccatgc caagaactgc cagaccacca cgggcaacgg gaagcccgct gagtgctcgc
+      841 agcccgaaag ctcctttaag atgtccttca aaagagagac caaagtcctg aagactctgt
+      901 cggtgatcat gggggtgttt gtgtgctgtt ggctcccttt cttcatcttg aactgcattt
+      961 tgcccttctg tggggccggg gagacccagc ccttttgcat cgattcgatc acctttgatg
+     1021 tgtttgtgtg gtttgggtgg gctaattcct ccttgaaccc catcatttat gcctttaatg
+     1081 ctgattttcg gaaggcattt tcaaccctct tgggatgcta cagactttgc cctgcaacca
+     1141 ataatgccat cgagacggtc agcatcaaca acaacggggc tgtggtgttt tccagccatc
+     1201 acgagccgcg aggctccatc tccaaggagt gcaatctggt ttacctgatc ccgcacgctg
+     1261 tgggctcctc cgaggacctg aagaaggagg aggcaggtgg aatagccaag cccttggaga
+     1321 agttgtcccc ggccttatcg gtcatattgg actatgacac cgatgtctct ctagagaaga
+     1381 tccaacccat cacgcaaaat ggacagcacc caacctgagc tccagaggaa tcctgcctgc
+     1441 cacacaggct gatcctgaaa gctggcgaag attgctctgg gctgctagtg agaaactagg
+     1501 ttacggtcag atgcaaggtg ttggcgagcc ctctgctgca tttccacaca cagctaacta
+     1561 gaatctccaa tacagcctgg tattctgtgt tgttcatagt caagcaaaca gggacacatg
+     1621 ggaagctaca agggacatat ctttggctcc aaaattgttt ttaggaactc atttttatct
+     1681 taggatttaa aaagtaagga aaagaatcaa caatgaacag ctttacttaa aacacacgca
+     1741 cacacacaca cacacacaca cacacacctc ttcccgggaa ggagatgaga agggttgatt
+     1801 tggctgtgta cagacagggg ctgacaccat tctaagcagt gttcagattg taaagtagct
+     1861 cacatggcat gccaaggagc tgagaagtaa ctattaatca caagaaaaaa gagaa
+//

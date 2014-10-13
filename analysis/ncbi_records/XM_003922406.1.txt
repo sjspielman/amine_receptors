@@ -1,0 +1,116 @@
+LOCUS       XM_003922406            2996 bp    DNA              PRI 06-SEP-2012
+DEFINITION  PREDICTED: Saimiri boliviensis boliviensis 5-hydroxytryptamine
+            (serotonin) receptor 7, adenylate cyclase-coupled, transcript
+            variant 1 (HTR7), mRNA.
+ACCESSION   XM_003922406
+VERSION     XM_003922406.1  GI:403259951
+KEYWORDS    RefSeq.
+SOURCE      Saimiri boliviensis boliviensis (Bolivian squirrel monkey)
+  ORGANISM  Saimiri boliviensis boliviensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Saimiriinae; Saimiri.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003943609) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Saimiri boliviensis Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2996
+                     /sub_species="boliviensis"
+                     /mol_type="mRNA"
+                     /isolate="3227"
+                     /sex="female"
+                     /db_xref="taxon:39432"
+                     /organism="Saimiri boliviensis boliviensis"
+                     /chromosome="Unknown"
+     gene            1..2996
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 8 mRNAs, 41 ESTs, 5 Proteins"
+                     /db_xref="GeneID:101029408"
+                     /gene="HTR7"
+     STS             16..547
+                     /db_xref="UniSTS:511811"
+                     /standard_name="HTR7"
+                     /gene="HTR7"
+     CDS             18..1355
+                     /product="5-hydroxytryptamine receptor 7 isoform 1"
+                     /codon_start="1"
+                     /db_xref="GI:403259952"
+                     /db_xref="GeneID:101029408"
+                     /translation="MMDVNSSGRPDLYGHLRSFLLPAVGRGLPDLSPDGGADPLAGSWA
+                     PHLLSEVTASPAPTWDAPPDNASGCGEQINYGRAEKVVIGSILTLITLLTIAGNCLVVI
+                     SVCFVKKLRQPSNYLIVSLALADLSVAVAVMPFVSVTDLIGGKWIFGHFFCNVFIAMDV
+                     MCCTASIMTLCVISIDRYLGITRPLTYPVRQNGKCMAKMILSVWLLSASITLPPLFGWA
+                     QNVNDDKVCLISQDFGYTIYSTAVAFYIPMSVMLFMYYQIYKAARKSAAKHKFPGFPRV
+                     EPDSVIALNGIVKLQKEVEECANLSRLLKHERKNISIFKREQKAATTLGIIVGAFTVCW
+                     LPFFLLSTARPFICGTACSCIPLWVERTFLWLGYANSLINPFIYAFFNRDLRTTYRSLL
+                     QCQYRNINRKLSAAGMHEALKLAERPERPEIVLQTTDYCRKKGHDS"
+                     /gene="HTR7"
+                     /protein_id="XP_003922455.1"
+     STS             1104..1243
+                     /db_xref="UniSTS:39426"
+                     /standard_name="RH66814"
+                     /gene="HTR7"
+ORIGIN
+        1 ctgcacacgg cggcgcgatg atggacgtta acagcagcgg ccgcccggac ctctacgggc
+       61 acctccgctc tttcctcctg ccagcggtgg ggcgcgggct gcccgacctg agccccgacg
+      121 gtggcgccga cccgctcgca ggctcctggg cgccgcacct gctgagcgag gtgacagcca
+      181 gccccgcgcc cacctgggac gcgcccccgg acaatgcctc cggctgtggg gagcagatca
+      241 actacggcag agccgagaaa gttgtgatcg gctccatcct gacgctcatc acgctgctga
+      301 cgatcgcggg caactgcctg gtggtgatct ccgtgtgctt cgtcaagaag ctccgccagc
+      361 cctccaacta cctgatcgtg tccctggcgc tggccgacct ctcggtggcc gtggcagtca
+      421 tgcccttcgt cagcgtcacc gacctcatcg ggggcaagtg gatctttggc cactttttct
+      481 gtaacgtctt catcgccatg gacgtcatgt gctgcacggc ctcgatcatg accctgtgcg
+      541 tgatcagcat cgacaggtac cttgggatca caaggcccct cacgtaccct gtgaggcaga
+      601 atgggaaatg catggcgaag atgattctct ccgtctggct tctctccgcc tccatcactt
+      661 tacctccgct cttcggatgg gcccagaatg taaatgatga taaggtgtgc ttgatcagcc
+      721 aggactttgg ctacaccatt tattctaccg cagtagcgtt ttatatcccc atgtccgtca
+      781 tgcttttcat gtactaccag atttacaagg ctgccaggaa gagcgctgcg aaacacaagt
+      841 tccctggctt ccctagagtg gagccagaca gtgtcatcgc cctgaatggc atagtgaagc
+      901 tccagaagga ggtggaagag tgtgcaaacc tttcgagact cctcaagcat gaaaggaaaa
+      961 acatctccat ctttaagcgg gaacagaaag cagccacaac cctggggatc attgtcgggg
+     1021 cctttaccgt gtgctggctg ccctttttcc tcctctcgac agccagaccc ttcatctgtg
+     1081 gcactgcctg cagctgcatc ccactgtggg tggagaggac atttctgtgg ctagggtatg
+     1141 caaactctct cattaaccct tttatatatg ccttcttcaa ccgggacctg aggaccacct
+     1201 atcgcagcct gctccagtgc cagtaccgga atatcaaccg gaagctctcg gctgcaggca
+     1261 tgcatgaagc cctgaaactt gctgagaggc cagagagacc tgagattgtg ctacaaacta
+     1321 ctgactactg tagaaaaaaa ggtcatgatt catgattgaa agctgaacaa tggaaatgaa
+     1381 ataaggcaaa atagagttgg aaacagaagg aagtcatttg ctgagactgc agaatggaat
+     1441 gcggcttctg tccttttttg cgatggctaa aacgtaacaa acagggtgat ctgttgtaca
+     1501 cactatcttt acaagggaga tggtgatctc tccttttttc tgtggatcag tgctattgtg
+     1561 tgttctcagt ttaagatagc agatcatctc agcagtaagc acaccgacag aactgagttc
+     1621 cagaaaggaa gcagtttctg gtgctttgca tatgtccaaa tccatgcaag tgggagaatg
+     1681 ttccaatgca cacttcccat gcttctgagt ctaggcgttg tggtgaatat gcaggaatca
+     1741 ttcatgagac agaatgtatt ttgttgtatg acagaagggt tttccaagca aactgcggtg
+     1801 agcatagtgt tgaatatgtt gcatgtccat gttaagaaaa cagaatccag tcatcagcta
+     1861 atacaaatga tttcccagag cagtgtttgt ttcaagcttt tgtcaaatag tttggctttt
+     1921 ctgcggggtc tctgtgatat ccccaccaat gtacttttct tgttaactca cttattatgg
+     1981 tataactcag gaacaagatg gagagacgca tacaacttga acaaagcttt ttcttgtgct
+     2041 ctgaagggtc ctgagaggtg aggggcatgt ctcctgggag gatttttatc ttagtgaagt
+     2101 gcaagtggta cccaactgca ttgtaattaa catgattatt ggcatgtttt tgactctcat
+     2161 ttctacaagg gtgcagtggg cccacccatg ggctgtccta taacgtatgt tatgtggaag
+     2221 aagtgtggga ataatgggtt tttccatgaa aggttgtgat gcctctggag atggggcata
+     2281 aacatgttca ttcttgttga gctgcattgt attaaaccaa attgtgtgaa gcgaggtcac
+     2341 cgggaccact cttgcgaaat gcttcagaac accagtctgt tccttctaga gaatttgttt
+     2401 ttgtgttctc tgtatcttaa atcaaatgtg tgcctaagca attctgtccc ctgattccca
+     2461 cccccaccca ccaaaaaatg gtagacatga aaggcaggta aagaaacaga aaaggtctct
+     2521 ttgtggatat atatattttt aaatggcact aaggagacag aaggacagta gaggagaata
+     2581 gatgagtacc tttacctaga aggggagaaa tgaatgcaat tctttatttg atgagagaga
+     2641 actgaaagag aatattattt tcctaccata aagcaagctg tcctctcaca ggataaagtg
+     2701 gaattctgac atggattatg gacttctaac tcctattgac attgcttctt accagacatg
+     2761 gggaagggct acctttcctg aaaggggagg agggcactgt cctttcagac aaagcttgta
+     2821 taaattcctg aaccgcaaat ttgctaaagt gaccgtatat acttatattc atactttaaa
+     2881 tgattattta tggtcaaata catattgtta aacttgaaaa tgttttatta cattacatca
+     2941 aataaagttt atttgtagct gaaataaagc aatgcaagta aagattttta attaaa
+//

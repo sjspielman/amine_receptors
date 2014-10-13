@@ -1,0 +1,89 @@
+LOCUS       XM_003122828            1564 bp    DNA              MAM 26-SEP-2013
+DEFINITION  PREDICTED: Sus scrofa cholinergic receptor, muscarinic 4 (CHRM4),
+            mRNA.
+ACCESSION   XM_003122828
+VERSION     XM_003122828.3  GI:545807783
+DBLINK      BioProject: PRJNA28993
+KEYWORDS    RefSeq.
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003609533.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 26, 2013 this sequence version replaced gi:335281959.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Sus scrofa Annotation Release 104
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1564
+                     /breed="mixed"
+                     /db_xref="taxon:9823"
+                     /mol_type="mRNA"
+                     /organism="Sus scrofa"
+                     /chromosome="2"
+     gene            1..1564
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 14 Proteins, and 99% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 18 samples with support for all annotated
+                     introns"
+                     /db_xref="GeneID:100516483"
+                     /gene="CHRM4"
+     CDS             124..1563
+                     /product="muscarinic acetylcholine receptor M4"
+                     /codon_start="1"
+                     /db_xref="GI:311247917"
+                     /db_xref="GeneID:100516483"
+                     /translation="MANVTPVNGSAGNQSVRLVTATHNRYETVEMVFIATVTGSLSLVT
+                     VVGNILVMLSIKVNRQLQTVNNYFLFSLACADLIIGAFSMNLYTVYIIKGYWPLGAVVC
+                     DLWLALDYVVSNASVMNLLIISFDRYFCVTKPLTYPARRTTKMAGLMIAAAWVLSFVLW
+                     APAILFWQFVVGKRTVPDNQCFIQFLSNPAVTFGTAIAAFYLPVVIMTVLYVHISLASR
+                     SRVHKHRPEGPKEKKAKPLAFLKSPLMKQSVKKPPPGEAAARGELRNGKLEEAPPPVLP
+                     PPPRPVADKDTSNESSSGSATQNTKERPPTELSTTEATTPAAPAPPLQPRTLNPASKWS
+                     KIQIVTKQTGNECVTAIEIVPATPAGMRPAANVARKFASIARNQVRKKRQMAARERKVT
+                     RTIFAILLAFILTWTPYNVMVLVNTFCQSCIPDTVWSIGYWLCYVNSTINPACYALCNA
+                     TFKKTFRHLLLCQYRNIGTAR"
+                     /gene="CHRM4"
+                     /protein_id="XP_003122876.1"
+ORIGIN
+        1 cccggccgcc cgccccgcct gctggcccgt ggggccaccc gccggtcccg ccgtctgtca
+       61 ggtgcgaggg gaacggggcg gaggtgtctg gacaccgtct gctgcccacg gccacggccc
+      121 gaaatggcca acgtcacacc cgtcaacggc agcgcgggca accagtctgt gcgcctggtc
+      181 acggcgaccc acaaccgcta cgagacggtg gagatggtgt tcatcgccac ggtgacgggc
+      241 tccctgagcc tggtgactgt cgtgggcaac atcctggtga tgctgtccat caaagtcaac
+      301 aggcagctgc agacggtcaa caactacttc ctcttcagcc tggcgtgcgc cgacctcatc
+      361 atcggcgctt tctccatgaa cctctacacc gtgtacatca tcaagggcta ctggcctctg
+      421 ggcgccgtgg tctgtgacct ctggctggcc ctggactacg tggtgagcaa cgcctccgtc
+      481 atgaacctgc tcatcatcag ctttgaccgc tacttctgcg tcaccaagcc gctcacctac
+      541 ccggcccgcc gcaccaccaa gatggccggc ctcatgatcg ccgccgcctg ggtcctgtcc
+      601 ttcgtgctct gggccccggc catcttgttc tggcagtttg tggtgggcaa gcggacggtg
+      661 ccggacaacc agtgcttcat ccagttcctg tccaacccgg cggtgacctt cggcacggcc
+      721 atcgccgcct tctacctgcc cgtggtcatc atgacggtgc tctacgtcca catctccctg
+      781 gccagtcgca gccgcgtcca caagcaccgg cccgaaggcc cgaaggagaa gaaggccaag
+      841 cccctggcct tcctcaagag ccccctgatg aagcagagcg tcaagaagcc acccccggga
+      901 gaggccgccg cccgggggga gctgcgcaac gggaagctgg aggaggcccc cccgccggtc
+      961 ctgccgcccc cgccgcgccc cgtggccgac aaggacacct ccaatgagtc cagctcgggc
+     1021 agtgccaccc agaacaccaa ggagcgccca cccacggagc tgtcgaccac agaggccacc
+     1081 acgccggcgg cgccggcgcc tcccctacag ccacggaccc tcaatccggc ctccaagtgg
+     1141 tccaagatcc agatcgtgac gaagcagacg ggcaatgagt gtgtgacggc catcgagatt
+     1201 gtgcctgcca cgccggctgg catgcgtccg gcggccaatg tggcccgcaa gtttgccagc
+     1261 atcgcccgca accaggtgcg caaaaagcgg cagatggcag cccgggagcg caaggtgact
+     1321 cggaccatct ttgccatcct gctggccttc atcctcacct ggacgcccta caacgtcatg
+     1381 gtcctggtga acaccttctg ccagagctgc atccctgaca ccgtgtggtc cattggctac
+     1441 tggctctgct acgtcaacag caccatcaac ccggcctgct acgccctctg caacgccacc
+     1501 tttaaaaaga cctttaggca cctgctgctg tgccagtatc ggaacattgg cactgccagg
+     1561 tagg
+//

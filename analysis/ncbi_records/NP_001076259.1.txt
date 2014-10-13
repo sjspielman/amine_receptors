@@ -1,0 +1,128 @@
+LOCUS       NP_001076259             390 aa                     MAM 26-JAN-2014
+DEFINITION  5-hydroxytryptamine receptor 1B [Oryctolagus cuniculus].
+ACCESSION   NP_001076259
+VERSION     NP_001076259.1  GI:130494010
+KEYWORDS    RefSeq.
+SOURCE      Oryctolagus cuniculus (rabbit)
+  ORGANISM  Oryctolagus cuniculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha; Leporidae;
+            Oryctolagus.
+REFERENCE   1  (residues 1 to 390)
+  AUTHORS   Bard JA, Kucharewicz SA, Zgombick JM, Weinshank RL, Branchek TA and
+            Cohen ML.
+  TITLE     Differences in ligand binding profiles between cloned rabbit and
+            human 5-HT1D alpha and 5-HT1D beta receptors: ketanserin and
+            methiothepin distinguish rabbit 5-HT1D receptor subtypes
+  JOURNAL   Naunyn Schmiedebergs Arch. Pharmacol. 354 (3), 237-244 (1996)
+   PUBMED   8878052
+REFERENCE   2  (residues 1 to 390)
+  AUTHORS   Harwood G, Lockyer M, Giles H and Fairweather N.
+  TITLE     Cloning and characterisation of the rabbit 5-HT1D alpha and 5-HT1D
+            beta receptors
+  JOURNAL   FEBS Lett. 377 (1), 73-76 (1995)
+   PUBMED   8543023
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from X89731.1.
+            ##Evidence-Data-START##
+            Transcript exon combination :: X89731.1 [ECO:0000332]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..390
+                     /db_xref="taxon:9986"
+                     /organism="Oryctolagus cuniculus"
+                     /chromosome="12"
+                     /map="12"
+     Protein         1..390
+                     /note="5-HT1D beta receptor; 5-HT1B; 5-HT-1B; 5-HT-1D-beta;
+                     serotonin receptor 1B; serotonin 1D beta receptor"
+                     /product="5-hydroxytryptamine receptor 1B"
+                     /calculated_mol_wt="43365"
+     Site            50..75
+                     /note="propagated from UniProtKB/Swiss-Prot (P49144.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          67..>186
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          72..369
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Site            85..110
+                     /note="propagated from UniProtKB/Swiss-Prot (P49144.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            124..145
+                     /note="propagated from UniProtKB/Swiss-Prot (P49144.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          125..134
+                     /note="propagated from UniProtKB/Swiss-Prot (P49144.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Agonist binding (By similarity)"
+     Region          146..148
+                     /note="propagated from UniProtKB/Swiss-Prot (P49144.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="DRY motif, important for ligand-induced
+                     conformation changes and signaling (By similarity)"
+     Site            166..187
+                     /note="propagated from UniProtKB/Swiss-Prot (P49144.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            206..228
+                     /note="propagated from UniProtKB/Swiss-Prot (P49144.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            316..336
+                     /note="propagated from UniProtKB/Swiss-Prot (P49144.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          327..331
+                     /note="propagated from UniProtKB/Swiss-Prot (P49144.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Agonist binding (By similarity)"
+     Site            350..371
+                     /note="propagated from UniProtKB/Swiss-Prot (P49144.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            355
+                     /note="Important for species-specific agonist sensitivity
+                     (By similarity); propagated from UniProtKB/Swiss-Prot
+                     (P49144.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="other"
+     Region          365..369
+                     /note="propagated from UniProtKB/Swiss-Prot (P49144.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="NPxxY motif, important for ligand-induced
+                     conformation changes and signaling (By similarity)"
+     CDS             1..390
+                     /coded_by="NM_001082790.1:1..1173"
+                     /gene="HTR1B"
+                     /gene_synonym="5-HT1-LIKE"
+                     /db_xref="GeneID:100009594"
+ORIGIN
+        1 meepgaqcap plaagsqiav pqanlsaahs hncsaegyiy qdsialpwkv llvlllalft
+       61 lattlsnafv vatvyrtrkl htpanylias lavtdllvsi lvmpistmyt vtgrwtlgqv
+      121 vcdlwlssdi tcctasimhl cvialdrywa itdaveysak rtpkraaimi rlvwvfsici
+      181 slppffwrqa kaeeevsecl vntdhvlytv ystvgafylp tlllialygr iyvearsril
+      241 kqtpnrtgkr ltraqlitds pgsttsvtsi nsrapdvpse sgspvyvnqv kvrvsdalle
+      301 kkklmaarer katktlgiil gvfivcwlpf fiislvmpic kdacwfhqai fdfftwlgyv
+      361 nslinpiiyt msnedfkqaf hklirfkcts
+//

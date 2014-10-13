@@ -1,0 +1,63 @@
+LOCUS       XP_004432405             479 aa                     MAM 11-APR-2013
+DEFINITION  PREDICTED: D(1B) dopamine receptor [Ceratotherium simum simum].
+ACCESSION   XP_004432405
+VERSION     XP_004432405.1  GI:478516340
+DBLINK      BioProject: PRJNA191537
+KEYWORDS    RefSeq.
+SOURCE      Ceratotherium simum simum (southern white rhinoceros)
+  ORGANISM  Ceratotherium simum simum
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Perissodactyla; Rhinocerotidae;
+            Ceratotherium.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004454196.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ceratotherium simum simum Annotation Release
+            100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..479
+                     /sub_species="simum"
+                     /country="USA: San Diego Zoo, California"
+                     /isolate="SDZICR_KB13650"
+                     /sex="female"
+                     /db_xref="taxon:73337"
+                     /organism="Ceratotherium simum simum"
+                     /chromosome="Unknown"
+     Protein         1..479
+                     /product="D(1B) dopamine receptor"
+                     /calculated_mol_wt="52690"
+     Region          62..358
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <122..>174
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     CDS             1..479
+                     /coded_by="XM_004432348.1:229..1668"
+                     /gene="DRD5"
+                     /db_xref="GeneID:101404826"
+ORIGIN
+        1 mlppgrngta yrarfgqqqr aqggavggse gagplgpaqv vtaglltlli vwtllgnvlv
+       61 caaivrsrhl rakmtnvfiv slavsdlfva llvmpwkava evagywpfga fcdvwvafdi
+      121 mcstasilnl cvisvdrywa isrpfryerk mtqrvalviv glawtlsili sfipvqlhwh
+      181 rdkagsswse mdppsylang tpweeagepe vrtencdssl nrtyaisssl isfyipvaim
+      241 ivtytriyri aqvqirriss leravehaqs crsraacapd aslrtsikke tkvlqtlsvi
+      301 mgvfvccwlp ffilncmvpf csghpegpra gfpcvsettf dvfvwfgwan sslnpiiyaf
+      361 nadfrnvfaq llgcshlcsr tpvetvnisn elisynqdtv fhkeiaaayi hmipnavtpg
+      421 dgevdkeere gpfdrmsqms qtsphgdpaa dsvweldceg eislgkitpf tpngfhsaa
+//

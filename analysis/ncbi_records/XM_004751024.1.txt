@@ -1,0 +1,93 @@
+LOCUS       XM_004751024            1697 bp    DNA              MAM 13-JUN-2013
+DEFINITION  PREDICTED: Mustela putorius furo cholinergic receptor, muscarinic 5
+            (CHRM5), mRNA.
+ACCESSION   XM_004751024
+VERSION     XM_004751024.1  GI:511854278
+DBLINK      BioProject: PRJNA158527
+KEYWORDS    RefSeq.
+SOURCE      Mustela putorius furo (domestic ferret)
+  ORGANISM  Mustela putorius furo
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+            Mustelidae; Mustelinae; Mustela.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004569170.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Mustela putorius furo Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1697
+                     /sub_species="furo"
+                     /mol_type="mRNA"
+                     /breed="Sable"
+                     /isolate="ID#1420"
+                     /sex="female"
+                     /db_xref="taxon:9669"
+                     /organism="Mustela putorius furo"
+                     /chromosome="Unknown"
+     gene            1..1697
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 12 Proteins, and 87% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101679448"
+                     /gene="CHRM5"
+     CDS             1..1599
+                     /product="muscarinic acetylcholine receptor M5"
+                     /codon_start="1"
+                     /db_xref="GI:511854279"
+                     /db_xref="GeneID:101679448"
+                     /translation="MEGESYHNTTTVNGTPVSHQPLERHRLWEVITIAAVTAVVSLITI
+                     VGNVLVMISFKVNSQLKTVNNYYLLSLACADLIIGIFSMNLYTTYILMGRWALGSLACD
+                     LWLALDYVASNASVMNLLVISFDRYFSITRPLTYRAKRTPKRAAIMIGLAWLISFILWA
+                     PAIICWQYLVGERTVPPDECQIQFLSEPTITFGTAIAAFYIPVSVMTILYCRIYRETEK
+                     RTKDLADLQGSDSMAEAEPRKPAHKSLLTSCFSCPQPTLAQRERNQASWSSSRRSTSTP
+                     GKPSQTTGPSTEWAQAEQLTTCSSYPSSEDEDKPATDPVFQVVYKSQAKESPREEFSAE
+                     ETKETFVKAQAEKNDYDTQKYFLSPGAAHRPKSQKCVAYKFRLVVKADGTQETNNGCHK
+                     VKIMPCSFPVSKDPSTKGLDPSLSHQMTKRKRMVLVKERKAAQTLSAILLAFIITWTPY
+                     NIMVLVSTFCDKCVPVTLWHLGYWLCYVNSTVNPICYALCNRTFRKTFKMLLLCRWKKK
+                     KAEEKLYWQGNSKFP"
+                     /gene="CHRM5"
+                     /protein_id="XP_004751081.1"
+ORIGIN
+        1 atggaagggg aatcttacca caatacaacc actgtcaatg gcaccccggt aagtcaccag
+       61 cctttggaac gccataggtt gtgggaagtc atcactattg cggctgtgac tgctgtggta
+      121 agcctgatca cgattgtggg caacgtctta gtcatgatct ccttcaaagt caatagtcag
+      181 ctgaagactg tgaacaacta ttacctgctc agcttagcct gtgcagatct catcattggg
+      241 atcttctcca tgaacctcta caccacctac atcctcatgg gacgctgggc gcttggcagt
+      301 ctggcttgtg acctctggct cgccctggac tacgtggcta gcaacgcttc cgtcatgaac
+      361 cttctggtga tcagttttga ccgttacttt tctatcacca gacctctgac atatcgggcc
+      421 aaacgtaccc caaaaagggc tgccatcatg attggcttgg cctggctgat ctccttcatc
+      481 ctttgggccc cagcgatcat ctgctggcag tacctggttg gagagcggac ggtaccacca
+      541 gatgagtgcc agatccagtt tctgtccgag cccaccatca ccttcggcac tgccattgct
+      601 gccttctaca tccccgtttc tgtcatgacg atcctctact gccgaatcta cagggagaca
+      661 gagaaacgga ccaaggacct ggctgacctc cagggctctg actccatggc ggaagcagag
+      721 ccaagaaagc cggctcataa gtctctgctg acatcctgct ttagctgccc tcaacccacc
+      781 ctggcccaga gggaaaggaa ccaagcctcc tggtcatcct cccgcaggag cacctccaca
+      841 cctgggaagc cgtcccaaac cacgggccca agcaccgagt gggcccaagc cgagcagctc
+      901 actacctgta gcagctaccc ttcctcggag gatgaggaca agcctgccac agaccctgtc
+      961 ttccaagtag tctacaagag tcaggccaag gaaagcccga gggaagaatt cagtgccgaa
+     1021 gagaccaagg agacgtttgt gaaagctcaa gctgaaaaaa atgactatga cacccaaaaa
+     1081 tacttcttgt cccccggtgc tgctcataga cccaagagtc agaaatgtgt ggcctataag
+     1141 ttccggctgg tggtgaaagc tgatgggacc caggagacca acaacggctg tcacaaagtg
+     1201 aaaatcatgc cctgctcctt cccagtgtcc aaggaccctt cgacgaaagg cctggatccc
+     1261 agcctcagcc atcaaatgac caaacgaaag agaatggtcc tcgtcaagga gaggaaagca
+     1321 gcccagacct tgagtgccat tctcctggcc ttcatcatca cctggacccc ttacaacatc
+     1381 atggtcctgg tttccacctt ctgtgacaag tgtgtcccgg tcaccctgtg gcacttgggc
+     1441 tactggttgt gctatgtcaa cagtaccgtc aaccccattt gctatgccct ctgcaacaga
+     1501 accttcagga agacctttaa gatgctgctc ctctgtcggt ggaaaaagaa aaaagcagag
+     1561 gagaagttgt actggcaagg gaatagcaag ttcccctgaa gagttaatga ctcccctcaa
+     1621 aagagtaacc gcagccaatt tcttctgagg atgggtgagc tcattcaggt gtatttattt
+     1681 tcaaaaaaag acatctg
+//

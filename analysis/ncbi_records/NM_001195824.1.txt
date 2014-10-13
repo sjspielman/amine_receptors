@@ -1,0 +1,92 @@
+LOCUS       NM_001195824            1248 bp    DNA              PRI 26-FEB-2014
+DEFINITION  Macaca mulatta 5-hydroxytryptamine (serotonin) receptor 5A, G
+            protein-coupled (HTR5A), mRNA.
+ACCESSION   NM_001195824
+VERSION     NM_001195824.1  GI:307938333
+KEYWORDS    RefSeq.
+SOURCE      Macaca mulatta (Rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1  (bases 1 to 1248)
+  AUTHORS   Yan,G., Zhang,G., Fang,X., Zhang,Y., Li,C., Ling,F., Cooper,D.N.,
+            Li,Q., Li,Y., van Gool,A.J., Du,H., Chen,J., Chen,R., Zhang,P.,
+            Huang,Z., Thompson,J.R., Meng,Y., Bai,Y., Wang,J., Zhuo,M., Wang,T.,
+            Huang,Y., Wei,L., Li,J., Wang,Z., Hu,H., Yang,P., Le,L.,
+            Stenson,P.D., Li,B., Liu,X., Ball,E.V., An,N., Huang,Q., Zhang,Y.,
+            Fan,W., Zhang,X., Li,Y., Wang,W., Katze,M.G., Su,B., Nielsen,R.,
+            Yang,H., Wang,J., Wang,X. and Wang,J.
+  TITLE     Genome sequencing and comparison of two nonhuman primate animal
+            models, the cynomolgus and Chinese rhesus macaques
+  JOURNAL   Nat. Biotechnol. 29 (11), 1019-1023 (2011)
+   PUBMED   22002653
+  REMARK    Publication Status: Online-Only
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            AANU01114872.1.
+            On Oct 2, 2010 this sequence version replaced gi:297289732.
+            Sequence Note: The RefSeq transcript and protein were derived from
+            genomic sequence to make the sequence consistent with the reference
+            genome assembly. The genomic coordinates used for the transcript
+            record were based on alignments to human HTR5A NM_024012.2.
+            ##Evidence-Data-START##
+            RNAseq introns :: single sample supports all introns SRS211172,
+            SRS214014 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1248
+                     /db_xref="taxon:9544"
+                     /mol_type="mRNA"
+                     /organism="Macaca mulatta"
+                     /chromosome="3"
+                     /map="3"
+     gene            1..1248
+                     /note="5-hydroxytryptamine (serotonin) receptor 5A, G
+                     protein-coupled"
+                     /db_xref="GeneID:716134"
+                     /gene="HTR5A"
+     misc_feature    8..10
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR5A"
+     CDS             65..1138
+                     /product="5-hydroxytryptamine (serotonin) receptor 5A"
+                     /codon_start="1"
+                     /db_xref="GI:307938334"
+                     /db_xref="GeneID:716134"
+                     /translation="MDLPVNLTSFSLSTPSPLETNRSLGKDDLRPSSPLLSVFGVLILT
+                     LLGFLVAATFAWNLLVLATILRVRTFHRVPHNLVASMAISDVLVAALVMPLSLVHELSG
+                     RRWQLGRRLCQLWIACDVLCCTASIWNVTAIALDRYWSITRHLEYTLRTRKCISNVMIA
+                     LTWALSAVISLAPLLFGWGETYSEGSEECQVSREPSYAVFSTVGAFYLPLCVVLFVYWK
+                     IYKAAKFRVGSRKTNSVSPISEAVEVKDSAQQPQMVFTVRHATVTFQTEGDTWREQKEQ
+                     RAALMVGILIGVFALCWIPFFLTELISPLCSCDIPAIWKSIFLWLGYSNSFFNPLIYTA
+                     FNKNYNSAFKNFFSRQH"
+                     /gene="HTR5A"
+                     /protein_id="NP_001182753.1"
+     STS             80..193
+                     /db_xref="UniSTS:3047"
+                     /standard_name="HTR5A"
+                     /gene="HTR5A"
+ORIGIN
+        1 gccaccttaa gttctcctga acaccccttc tgcaagtacc ccaggccggt ctcctgaccc
+       61 agagatggat ttacctgtga acctaacctc cttttccctc tccaccccct cccctttgga
+      121 gaccaaccgc agcctcggca aagacgatct gcgccccagc tcgcccctgc tctcggtctt
+      181 cggagtgctt attctcacct tgctgggctt tctggtggcg gcgacgttcg cctggaacct
+      241 gctggtgctg gcgaccatcc tccgtgtacg caccttccac cgcgtgcccc acaacctggt
+      301 ggcgtccatg gccatctcgg acgtcctggt ggctgcgcta gtcatgccgc tgagcctggt
+      361 gcacgagctg tctgggcgcc gctggcagct gggtcggcgg ctgtgccagc tgtggatcgc
+      421 gtgcgacgtg ctctgctgca cggccagcat ctggaacgtg acggccatag ccctggaccg
+      481 ctactggtcc atcacgcgcc acctggaata cacgctccgc acccgcaagt gcatctccaa
+      541 cgtcatgatc gcgctcacct gggcgctctc cgctgtcatc tctctggcac cgctgctttt
+      601 tggctgggga gagacgtact ctgagggcag cgaggagtgc caggtaagcc gcgagccttc
+      661 ctacgcagtg ttctccaccg taggcgcctt ctacctgccg ctctgtgtgg tgctcttcgt
+      721 gtactggaag atctataagg ctgccaagtt ccgcgtgggc tccaggaaga ccaatagcgt
+      781 ctcacccata tccgaagctg tggaggtgaa ggactctgcc caacagcccc agatggtgtt
+      841 cacggtccgc catgccaccg tcaccttcca gacagaaggg gacacgtggc gagagcagaa
+      901 ggagcagcgt gccgccctca tggtgggcat cctcattggt gtgttcgcac tctgctggat
+      961 ccccttcttt ctcacggagc tcatcagtcc tctttgctcc tgtgacatcc ccgccatctg
+     1021 gaaaagcatc ttcctgtggc ttggctactc caactccttc tttaaccccc tgatctatac
+     1081 ggctttcaac aagaactaca acagcgcctt caagaacttc ttttctaggc aacactgagg
+     1141 gagaggacca ggattgaaag aagtttcttc ccagaattca atggaattcc cagttcattc
+     1201 attttccatc cccacccaac agccatgtag acgagatgaa tcctcacc
+//

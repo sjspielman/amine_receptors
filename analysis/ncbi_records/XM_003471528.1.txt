@@ -1,0 +1,88 @@
+LOCUS       XM_003471528            1350 bp    DNA              ROD 25-JUN-2013
+DEFINITION  PREDICTED: Cavia porcellus adrenoceptor alpha 2B (Adra2b), mRNA.
+ACCESSION   XM_003471528
+VERSION     XM_003471528.1  GI:348571584
+DBLINK      BioProject: PRJNA73553
+KEYWORDS    RefSeq.
+SOURCE      Cavia porcellus (domestic guinea pig)
+  ORGANISM  Cavia porcellus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Caviidae; Cavia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NT_176395.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Cavia porcellus Annotation Release
+            101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1350
+                     /mol_type="mRNA"
+                     /db_xref="taxon:10141"
+                     /specimen_voucher="Broad:Sequencing.Sample:289.1, Broad
+                     Institute, Cambridge, MA"
+                     /sex="female"
+                     /strain="inbred line 2N"
+                     /organism="Cavia porcellus"
+                     /chromosome="Unknown"
+     gene            1..1350
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 22 Proteins, and 5% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:100727868"
+                     /gene="Adra2b"
+     CDS             1..1350
+                     /product="alpha-2B adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:348571585"
+                     /db_xref="GeneID:100727868"
+                     /translation="MDHQEPYSVQATAAIAAVITFLILFTIFGNALVILAVLTSRSLRA
+                     PQNLFLVSLAAADILVATLIIPFSLANELLGYWYFWRTWCEVYLALDVLFCTSSIVHLC
+                     AISLDRYWAVSRALEYNSKRTPRRIKCIILTVWLIAAVISLPPLIYKGDQGPQPRGLPQ
+                     CKINQEAWYILASSIGSFFAPCLIMILVYLRIYLIAKRSHRRGPRAKGGPGEGQSKESR
+                     PSPGGAPASAKVPPLASPLSSTGEANGHPKPTGEKEEGETSEDPGARTLPPSWAALPTS
+                     GQGQKKAVVLAPAEEEAEEEEEEEGDECEPQAAPGLPASMCSPSLQQPQGSRVLATLRG
+                     QVLLGRGVGAVDGQWWRRRTQMTREKRFTFVLAVVIGVFVLCWFPFFFTYSLGAICPQH
+                     CKVPHGLFQFFFWIGYCNSSLNPVIYTIFNQDFRRAFRRILCRQWTQTAW"
+                     /gene="Adra2b"
+                     /protein_id="XP_003471576.1"
+     STS             386..937
+                     /db_xref="UniSTS:505020"
+                     /standard_name="15STS02"
+                     /gene="Adra2b"
+ORIGIN
+        1 atggaccacc aggagcccta ctccgtgcag gccaccgctg ccatcgcggc ggtcatcacc
+       61 ttcctcatcc tcttcaccat cttcggcaac gcgctggtca tcctggctgt gctaaccagc
+      121 cgctccctgc gcgcaccgca gaacctgttc ctggtgtcgc tggccgccgc tgacatcttg
+      181 gtggccacgc tcattatccc cttctcgcta gccaacgagc tgctgggtta ctggtacttc
+      241 tggcgcacgt ggtgtgaggt gtacctcgca ctcgacgtgc tcttctgtac ctcgtcaatc
+      301 gtgcacctgt gcgccatcag cctggatcgc tactgggccg tgagccgcgc gctggagtac
+      361 aactccaagc gcaccccgcg ccgcatcaaa tgcatcatcc tcaccgtgtg gctcatagca
+      421 gccgtcatct cgctgccgcc tctcatctac aagggcgacc agggccccca gccccgcggg
+      481 ctcccccagt gcaagatcaa ccaagaggcg tggtacatct tggcctccag catcggaagt
+      541 ttctttgccc cctgcctcat catgatcctg gtgtacctgc gcatttacct gattgccaag
+      601 cgcagccacc gcaggggtcc cagggccaaa ggcggcccag gggaggggca gtcaaaggag
+      661 tctcgtccta gccccggagg ggctccagcc tctgccaagg tgccacccct ggcctcacct
+      721 ctgtcttcta ctggagaggc caatggacac cccaagccta ctggggagaa ggaggagggg
+      781 gagacctctg aagaccctgg ggccaggact ctgccaccca gctgggctgc actgcccacc
+      841 tcaggccagg gccagaagaa ggctgtggtc ctggcacctg cagaggagga agctgaggaa
+      901 gaggaggagg aggaagggga tgagtgtgag cctcaggcag cgccaggctt gcctgcctct
+      961 atgtgcagcc catccctgca gcagccacag gggtcccggg tgctcgccac cctgcgtggt
+     1021 caggtgctgc tgggcagggg cgtgggtgct gtggatgggc agtggtggcg tcggcggacc
+     1081 cagatgaccc gggagaagcg gttcaccttc gtgctggctg tggtcattgg tgtctttgtg
+     1141 ctgtgctggt tccccttctt cttcacctac agcctgggtg ccatctgtcc ccagcactgc
+     1201 aaggtgcccc atggcctctt ccagttcttc ttctggattg gctactgcaa cagctccttg
+     1261 aaccctgtca tctataccat cttcaaccag gactttcgcc gtgccttccg aaggatcttg
+     1321 tgccgccagt ggacccagac agcctggtga
+//

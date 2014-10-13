@@ -1,0 +1,93 @@
+LOCUS       XM_005966836            1919 bp    DNA              MAM 05-NOV-2013
+DEFINITION  PREDICTED: Pantholops hodgsonii cholinergic receptor, muscarinic 1
+            (CHRM1), mRNA.
+ACCESSION   XM_005966836
+VERSION     XM_005966836.1  GI:556742757
+DBLINK      BioProject: PRJNA221624
+KEYWORDS    RefSeq.
+SOURCE      Pantholops hodgsonii (chiru)
+  ORGANISM  Pantholops hodgsonii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Antilopinae; Pantholops.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005811253.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pantholops hodgsonii Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1919
+                     /mol_type="mRNA"
+                     /country="China: Qinghai-Tibetan Plateau, Kekexili National
+                     Nature Reserve"
+                     /sex="male"
+                     /db_xref="taxon:59538"
+                     /organism="Pantholops hodgsonii"
+                     /chromosome="Unknown"
+     gene            1..1919
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 6 ESTs, 12 Proteins"
+                     /db_xref="GeneID:102343879"
+                     /gene="CHRM1"
+     CDS             282..1598
+                     /product="muscarinic acetylcholine receptor M1"
+                     /codon_start="1"
+                     /db_xref="GI:556742758"
+                     /db_xref="GeneID:102343879"
+                     /translation="MNTSAPPAVSPNITVLAPGKGPWQVAFIGITTGLLSLATGTGLSL
+                     ACADLIIGTFSMNLYTTYLLMGHWALGTLACDLWLALDYVASNASVMNLLLISFDRYFS
+                     VTRPLSYRAKRTPRRAALMIGLAWLVSFVLWAPAILFWQYLVGERTVLAGQCYIQFLSQ
+                     PIITFGTAMAAFYLPVTVMCTLYWRIYRETENRARELAALQGSETPGKGGGSSSSSERS
+                     QPGAEGSPETPPGRCCRCCRTPRLLQAYSWKEEEEEDEGSMESLTSSEGEEPGSEVVIK
+                     MPMVDPEAQAPAKQPPRSSPNTVKRPTRKGRERAGKGQKPRGKEQLAKRKTFSLVKEKK
+                     AARTLSAILLAFILTWTPYNIMVLVSTFCKDCVPETLWELGYWLCYVNSTINPMCYALC
+                     NKAFRDTFRLLLLCRWDKRRWRKIPKRPGSVHRTPSRQC"
+                     /gene="CHRM1"
+                     /protein_id="XP_005966898.1"
+ORIGIN
+        1 cacagggcgc agctcccccc aggagccagg tgtttgggtc cctggagacg ccaccggccc
+       61 cccggagaga cagcggggct gaggaccctt cagacccctc tccagcccca tgggaaccct
+      121 gactcccacc atccccatcc accttcagcc cctccacggt ggactgaacc aggctgctgg
+      181 ccagatggac aagcgggatg ccaaggtgat gaccggcccc tgaggaagcc ccatcctgtg
+      241 attagaggaa ggggctgcct cccccactcc acccagccgc catgaatacc tcagcgccac
+      301 ctgccgtcag ccccaacatc actgtcctgg caccgggaaa gggtccctgg caagtggcct
+      361 tcatcgggat caccacgggc ctcctgtcac tggccacggg gacaggcctg agcctggcct
+      421 gtgctgacct catcatcggt accttctcca tgaacctcta caccacgtat ctgctcatgg
+      481 gccactgggc tctgggcacg ctggcctgcg acctctggct ggccctggac tatgtggcca
+      541 gcaacgcctc ggtcatgaac ctgctgctca tcagcttcga ccgctacttc tcggtgaccc
+      601 ggcccctgag ctaccgcgcc aagcgcacac cccgccgggc agccctgatg atcggcctgg
+      661 cttggctggt ctcgttcgtg ctctgggccc cggccatcct cttctggcag tacctggtag
+      721 gggagcggac ggtgctggcc gggcagtgct acatccagtt cctctcgcag cccatcatca
+      781 cctttggcac ggccatggct gccttctacc tccccgtcac ggtcatgtgc accctctact
+      841 ggcgcatcta ccgggagaca gagaaccggg cccgggagct ggcggccctg cagggctcgg
+      901 agacgccggg gaaggggggc ggcagcagca gcagctcaga gcggtcccag ccgggggccg
+      961 aaggctcccc agagacccct ccagggcgct gctgccgctg ctgccggacc ccccggctgc
+     1021 tccaggccta cagctggaag gaggaagagg aggaggatga aggctccatg gagtccctca
+     1081 cctcctcgga gggtgaggag cctggctccg aggtggtgat caagatgccc atggtggacc
+     1141 ccgaggcgca ggcccctgcc aagcagccgc cccggagctc cccaaatacg gtcaagaggc
+     1201 cgacccggaa ggggcgcgag cgggcgggca agggccagaa gccccgtggg aaggagcagc
+     1261 tggccaagcg gaagaccttc tcgctggtca aggagaagaa ggcggctcgg accctgagcg
+     1321 ccatcctgct ggccttcatc ctcacctgga cgccgtacaa catcatggtg ctggtgtcca
+     1381 ccttctgcaa ggactgtgtc cccgagaccc tgtgggagct gggctactgg ctgtgctatg
+     1441 tcaacagcac catcaacccc atgtgctacg cgctctgcaa caaagccttc cgggacacct
+     1501 tccgcctgct gctgctctgc cgctgggaca agcgtcgctg gcgcaagatc cccaagcgcc
+     1561 ccggctctgt gcaccgcacc ccctcccgcc agtgctgatg gccctcccgc ctgcatccct
+     1621 ccaccccggt gggcccccat agaaagcggg caggagcagt gacctcatac ccagggccct
+     1681 gctcagggag ggggccccgc ccaggcttcc ggggccccta ggtcaccttc ctgcacaacc
+     1741 agttggtgag aaaccccacc aactttccaa actggggaac tcgggtaact ggttcttgtg
+     1801 ttccttctgg gtgggactag gctcttcacc aggaagaaag cctgggaggg ggtatccggg
+     1861 ctttggattc cttgtttgtg ttcaggcagg aagtccatgc agagccagta gagcgggcc
+//

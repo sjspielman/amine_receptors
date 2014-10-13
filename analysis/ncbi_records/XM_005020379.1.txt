@@ -1,0 +1,91 @@
+LOCUS       XM_005020379            1682 bp    DNA              VRT 26-JUN-2013
+DEFINITION  PREDICTED: Anas platyrhynchos dopamine receptor D3 (DRD3), mRNA.
+ACCESSION   XM_005020379
+VERSION     XM_005020379.1  GI:514749614
+DBLINK      BioProject: PRJNA208071
+KEYWORDS    RefSeq.
+SOURCE      Anas platyrhynchos (mallard)
+  ORGANISM  Anas platyrhynchos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Anseriformes; Anatidae;
+            Anas.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004677082.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Anas platyrhynchos Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1682
+                     /mol_type="mRNA"
+                     /country="China: Beijing"
+                     /breed="Pekin duck"
+                     /sex="female"
+                     /isolation_source="Gold Star Duck Production"
+                     /db_xref="taxon:8839"
+                     /organism="Anas platyrhynchos"
+                     /chromosome="Unknown"
+     gene            1..1682
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 Proteins, and 34% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101799559"
+                     /gene="DRD3"
+     CDS             204..1505
+                     /product="D(3) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:514749615"
+                     /db_xref="GeneID:101799559"
+                     /translation="MCAWGWSNSHLLHSRSASSVRVASRMLLLSGSIPMALFTGTGGHL
+                     NGTDAVPCGAGNTTEPGLPRSHAYYALCYCLLILAIIFGNVLVCLAVLRERALQTTTNY
+                     LVVSLAVADLLVATLVMPWVVYLEVTGGVWTFSRICCDIFVTMDVMMCTASILNLCAIS
+                     IDRYTAVVKPVQYQYNTGQSSCRRVSLMIVIVWMLAFAVSCPLLFGFNTTGDPSVCSIS
+                     NPIFVIYSSLVSFYLPFMVTLLLYVRIYLVLRQRQKKRTLTRQGSHSASTKPCCAHEEL
+                     SPKRKLLTVFSLQRYRSFCQDASLSKTPGTAQHNRLEERRKSRSGPGLEVRRLSNGKTI
+                     SSLKLAHQQPRLIQLRERKATQMLAIVLGAFIVCWLPFFLIHILNAHCPACRVPPGLYS
+                     ASTWLGYVNSALNPIIYTTFNTDFRRAFLKILCC"
+                     /gene="DRD3"
+                     /protein_id="XP_005020436.1"
+ORIGIN
+        1 tgggagcctt aactttttgt cgggggcagg tggaagaaag agagaggaga ggcaagcgct
+       61 ggctcttcca agcaaaacac atccgtaaga ggttgcttca cccctgtcct aagggatccg
+      121 tgtttgcggg acggcttcca tctccttcaa cccttgccct cgcccgcctc cgaggcagca
+      181 ggggcagttt ggcatcagga tgcatgtgtg catggggctg gagcaattca cacctcctgc
+      241 acagccgctc cgccagcagc gtgcgcgtcg catcacggat gctcctcttg agcggcagca
+      301 tccccatggc gctcttcacg ggaaccggcg gccatcttaa tggcaccgac gccgttccct
+      361 gtggggcagg taacacgaca gagccgggcc tgccacgctc acacgcctac tacgccctct
+      421 gctactgcct cctgattttg gccatcatct tcgggaacgt gctggtctgc ctggccgtgc
+      481 tgagggagcg cgccctgcaa accaccacaa actaccttgt ggtaagcctg gcggtggcgg
+      541 acttgctggt ggctactttg gtgatgccgt gggtggtgta cctggaggtg accgggggcg
+      601 tctggacttt cagccgcatc tgttgcgata tcttcgtcac catggatgtc atgatgtgca
+      661 cggccagcat tttgaacctc tgcgctatca gcattgacag gtacaccgca gtggtgaaac
+      721 ctgtgcagta ccagtacaac accgggcaga gctcctgcag gagggtctct ctcatgattg
+      781 tgatagtctg gatgctggca ttcgcagtgt cgtgccctct cctctttggc ttcaatacta
+      841 caggggatcc cagtgtctgt tccatatcca accctatttt cgtcatctac tcctctttgg
+      901 tgtccttcta cctccccttc atggtgaccc tgctgctcta tgtccggatt tacctcgtgc
+      961 taagacaaag acaaaagaag cgaaccctca cccggcaggg cagccacagc gccagcacca
+     1021 aaccgtgctg tgcacacgaa gagctgtctc ccaaaaggaa actgctgaca gtcttcagcc
+     1081 tccagcggta ccgcagcttc tgccaagacg catccctcag caagacacca gggactgcac
+     1141 agcacaacag gctggaagag aggagaaaga gtaggagtgg accagggctg gaggtgcgga
+     1201 ggctcagcaa tggcaaaacc atcagctctc tgaagctagc acaccagcag ccccggctga
+     1261 tccagcttcg ggagaggaag gctacccaga tgctagctat cgtcctgggg gcgttcatag
+     1321 tctgctggct gcccttcttc ttgattcaca tcctcaacgc ccactgcccg gcctgccgcg
+     1381 tgcccccggg gctgtacagc gccagcacct ggctcggcta cgtcaacagc gccctcaacc
+     1441 ccatcatcta caccaccttc aacaccgatt tccgcagagc tttcctcaag atcctctgct
+     1501 gctgacggcg gggctggcac tgagccactc tcagcccccc tgcctccacc aggccgcggg
+     1561 tcacagctgg ggcctgggct ggggacgtgg cgtgggccct tccctcctcc tgctttatca
+     1621 cggggagagc aagagctacc ccacctgcat ggctggcttt gaagaacacg aggccttcaa
+     1681 ag
+//

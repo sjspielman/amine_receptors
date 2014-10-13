@@ -1,0 +1,90 @@
+LOCUS       XM_004374860            1392 bp    DNA              MAM 27-MAR-2013
+DEFINITION  PREDICTED: Trichechus manatus latirostris adrenoceptor beta 1
+            (ADRB1), mRNA.
+ACCESSION   XM_004374860
+VERSION     XM_004374860.1  GI:471368786
+DBLINK      BioProject: PRJNA189960
+KEYWORDS    RefSeq.
+SOURCE      Trichechus manatus latirostris (Florida manatee)
+  ORGANISM  Trichechus manatus latirostris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Afrotheria; Sirenia; Trichechidae; Trichechus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004443967.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Trichechus manatus latirostris Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1392
+                     /sub_species="latirostris"
+                     /mol_type="mRNA"
+                     /isolate="Lorelei"
+                     /sex="female"
+                     /db_xref="taxon:127582"
+                     /organism="Trichechus manatus latirostris"
+                     /chromosome="Unknown"
+     gene            1..1392
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 38 Proteins"
+                     /db_xref="GeneID:101347074"
+                     /gene="ADRB1"
+     CDS             1..1392
+                     /product="beta-1 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:471368787"
+                     /db_xref="GeneID:101347074"
+                     /translation="MGAGALALGASEPCNLSSAAQLPDGAATAARLLVPASPSPSLLPP
+                     VGDGPAPLSQQWTAGIGLLMALIVLLIVAGNVLVIVAIAKTPRLQTLTNLFIMSLASAD
+                     LVMGLLVVPFGATIVVWGRWEYGSFFCELWTSVDVLCVTASIETLCVIALDRYLAITSP
+                     FRYESLLTRARARALVCTVWAISALVSFLPILMHWWRADGDEARRCYNDPKCCDFVTNR
+                     AYAIASSVVSFYVPLCIMAFVYLRVFREAQKQVKKIDSCERRFLGDPARQPSPAPSPTP
+                     PRAAAPVANGRANKRRPSRLVALGEQKALKTLGIIMGVFTLCWLPFFLANVVKAFHRDL
+                     VPDRLFVFFNWLGYANSAFNPIIYCRSPDFRKAFQRLLCDARRNAQRLHAAAGDPPRAS
+                     ACLAVARRPPATGADDDDDDDDVGAAPPARLLEPWAGCNGGAVADSDSSLDEQNRPGSA
+                     SESKV"
+                     /gene="ADRB1"
+                     /protein_id="XP_004374917.1"
+     STS             177..393
+                     /db_xref="UniSTS:266589"
+                     /standard_name="ADRB1"
+                     /gene="ADRB1"
+     STS             274..795
+                     /db_xref="UniSTS:256461"
+                     /standard_name="Adrb1"
+                     /gene="ADRB1"
+ORIGIN
+        1 atgggcgcgg gggcgctcgc cctgggcgcc tccgagccct gcaacctgtc gtcggccgcg
+       61 cagctccccg acggcgcggc cacagcggcg cgtctgctgg tgcccgcgtc gccgtcccct
+      121 tcgctgctgc cccccgtggg cgacggcccc gcgccgctgt cgcagcagtg gacggctggc
+      181 ataggcctgc tgatggcgct catcgtgctg ctcatcgtgg cgggcaacgt gctggtgatc
+      241 gtggccatcg ccaagacgcc gcggctgcag acgctcacca acctcttcat catgtccctg
+      301 gccagcgccg acctggtcat ggggctgctg gtggtgccgt tcggagccac cattgtggtg
+      361 tggggccgct gggagtatgg ctccttcttc tgcgagctct ggacctcggt ggacgtgcta
+      421 tgtgtgacgg ccagcatcga gaccctgtgt gtcatcgccc tggaccgcta cctcgccata
+      481 acgtcgccct tccgctacga gagcctgcta acccgcgcgc gggcgcgggc cctcgtctgc
+      541 accgtgtggg ccatctcggc cctggtgtcc ttcctgccca tcctcatgca ctggtggcgg
+      601 gccgatggcg acgaggcgcg gcgctgctac aacgacccca agtgctgtga cttcgtcacc
+      661 aaccgggcct acgccatcgc ctcgtctgtc gtctccttct acgtgcctct gtgcatcatg
+      721 gccttcgtgt acctgcgggt gttccgcgag gcccagaagc aggtgaagaa gatcgacagc
+      781 tgcgagcgcc gcttcctcgg cgaccccgcg cgtcagccct cgcccgcgcc ctcgccaact
+      841 cctccgcgcg ccgccgcgcc agtggccaac gggcgcgcta acaagcggcg gccctcgcgc
+      901 ctcgtggccc taggcgagca gaaggcgctc aagacgctgg gcatcatcat gggcgtattc
+      961 acgctctgct ggctgccctt cttcctggcc aacgtggtga aggccttcca ccgcgacctg
+     1021 gtgcccgacc gcctcttcgt cttcttcaac tggctgggct acgccaattc ggccttcaac
+     1081 cccatcatct actgccgcag ccccgacttc cgcaaggcct tccagcgcct gctttgcgac
+     1141 gcgcgccgga acgcccagag gctccacgcg gccgccggcg acccgccgcg cgcctcagcc
+     1201 tgcctggctg tggccaggcg gccgccagcg accggggcgg acgacgacga cgacgacgac
+     1261 gacgtcgggg ccgcaccgcc cgcgcgcctg ctggagccct gggccggctg caacggcggg
+     1321 gcggtggcgg acagcgactc gagcctggac gagcagaacc gcccgggctc cgcctcggaa
+     1381 tccaaggtgt ag
+//

@@ -1,0 +1,90 @@
+LOCUS       XM_005009472            1352 bp    DNA              VRT 26-JUN-2013
+DEFINITION  PREDICTED: Anas platyrhynchos histamine H3 receptor-like
+            (LOC101795884), mRNA.
+ACCESSION   XM_005009472
+VERSION     XM_005009472.1  GI:514704810
+DBLINK      BioProject: PRJNA208071
+KEYWORDS    RefSeq.
+SOURCE      Anas platyrhynchos (mallard)
+  ORGANISM  Anas platyrhynchos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Anseriformes; Anatidae;
+            Anas.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004676339.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Anas platyrhynchos Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1352
+                     /mol_type="mRNA"
+                     /country="China: Beijing"
+                     /breed="Pekin duck"
+                     /sex="female"
+                     /isolation_source="Gold Star Duck Production"
+                     /db_xref="taxon:8839"
+                     /organism="Anas platyrhynchos"
+                     /chromosome="Unknown"
+     gene            1..1352
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 19 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 2 samples with support for all annotated introns"
+                     /db_xref="GeneID:101795884"
+                     /gene="LOC101795884"
+     misc_feature    10..12
+                     /note="upstream in-frame stop codon"
+                     /gene="LOC101795884"
+     CDS             73..1272
+                     /product="histamine H3 receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:514704811"
+                     /db_xref="GeneID:101795884"
+                     /translation="MQNSTAEADGNIMGPCNGTSSTQTETSEFSTGVLVLLALLMVLLA
+                     LVTVLGNVLVILAFIMDRNLRHRSNYFFLNLAISDFAVGVFCIPLYIPYALTGTWHLGR
+                     GLCKLWLVMDYLLCTASVFNIVLISYDRFLSVTKAVSYRVQRGIMSNPIVKMVAIWVFA
+                     FLLYCPAILLWEYVAGCSTVQEGQCHAEFFDNWYFLLCASTLEFFVPLISVTYFNVHIF
+                     NNIQRRQRRGSIQDSEPPRSSSSSWRSCFLPRSDVSSSLEMEDSVSSLTRSLRPSLGSA
+                     CPSPAPMSPTPLKKDFSASFRTNARSKLQRDKKIAKSLAIIVCVFAVCWAPYTLLMIIR
+                     GACQGRCIHSSLYEITFWLLWLNSSLNPFLYPLCHMRFRMAFLKILCPKRFAKLRSPSI
+                     "
+                     /gene="LOC101795884"
+                     /protein_id="XP_005009529.1"
+ORIGIN
+        1 tactctttat gaatctcaac tttttggatt acaagagttt ctttctggac tgaactgacc
+       61 tggatacaca atatgcagaa cagcactgct gaagctgatg gaaacataat gggaccatgt
+      121 aatgggactt catccacaca gacagagacc tcagagtttt ccacgggtgt gttggtgctc
+      181 ctggctctgc ttatggtgct gctagctctg gtcacagtcc ttggaaatgt cctggtgatc
+      241 cttgctttca ttatggacag aaatctcagg catcggagta actatttttt tctcaatctt
+      301 gctatttctg actttgcagt gggtgtgttc tgcataccac tgtacatccc ttatgccctg
+      361 acagggacct ggcacttggg aagaggcctg tgcaagctct ggctagttat ggactatctc
+      421 ctgtgcacag cttcagtgtt taacattgtc cttatcagct acgaccgttt cctgtcagtt
+      481 acaaaggctg tatcttacag agttcagcgg ggaataatgt ccaaccctat tgtcaagatg
+      541 gtggccatct gggtctttgc cttcctcctc tactgcccag caattctctt gtgggagtat
+      601 gtggccggct gcagcacggt gcaggaaggg cagtgccacg ctgagttctt cgacaactgg
+      661 tacttcctcc tttgtgcgtc caccctggag ttctttgtgc cgctgatctc ggtcacctac
+      721 ttcaacgtgc acatcttcaa caacatccag aggcgccaga ggcgtggcag cattcaggac
+      781 tctgagcctc caaggagcag cagctcatcc tggagatctt gcttcttgcc aagatctgat
+      841 gtgtcatctt cgttggaaat ggaggacagt gtttcatcat taacgaggtc attgagacca
+      901 tcactgggtt ctgcctgccc atctccagca ccaatgagtc ccacacctct caaaaaggac
+      961 ttctctgctt ctttccgcac aaatgctagg tcaaaactgc aaagagacaa gaaaattgct
+     1021 aaatcgcttg ccataattgt ttgtgtcttt gccgtttgct gggcaccata tactttacta
+     1081 atgattattc gtggggcctg ccaaggaagg tgcatccata gctcccttta tgaaatcacc
+     1141 ttttggcttt tgtggctcaa ttcctctctg aacccatttc tttacccact ctgtcacatg
+     1201 aggtttcgaa tggcttttct gaaaatatta tgtcccaaaa ggtttgcaaa gttgagatca
+     1261 ccttctattt agagagctga agtaaatgac ttacaaataa ggtttgtctc ttacttagtg
+     1321 attatttttt tttcataggt atcttcaaca ga
+//

@@ -1,0 +1,88 @@
+LOCUS       XM_001520458            1374 bp    DNA              MAM 29-APR-2014
+DEFINITION  PREDICTED: Ornithorhynchus anatinus histamine H3 receptor-like
+            (LOC100091703), mRNA.
+ACCESSION   XM_001520458
+VERSION     XM_001520458.3  GI:620949988
+DBLINK      BioProject: PRJNA19039
+KEYWORDS    RefSeq; includes ab initio.
+SOURCE      Ornithorhynchus anatinus (platypus)
+  ORGANISM  Ornithorhynchus anatinus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Monotremata; Ornithorhynchidae; Ornithorhynchus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001753679.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Apr 29, 2014 this sequence version replaced gi:345317947.
+            ##RefSeq-Attributes-START##
+            ab initio :: 6% of CDS bases
+            ##RefSeq-Attributes-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Ornithorhynchus anatinus Annotation
+            Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1374
+                     /mol_type="mRNA"
+                     /country="Australia: Upper Barnard River on Glen Rock
+                     Station, New South Wales"
+                     /isolate="Glennie"
+                     /sex="female"
+                     /db_xref="taxon:9258"
+                     /tissue_type="liver; lung; brain; spleen"
+                     /organism="Ornithorhynchus anatinus"
+                     /chromosome="Unknown"
+     gene            1..1374
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 17 Proteins, and 80% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:100091703"
+                     /gene="LOC100091703"
+     CDS             1..1161
+                     /product="histamine H3 receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:345317948"
+                     /db_xref="GeneID:100091703"
+                     /translation="MINDSSGGFPEEKSTCHQNLSSPGAERGFNFSVGTSVLLAVIILL
+                     ALVTVLGNALVAIAFAVDKNLRHRSNYLFLNLAISDFIVGAISIPLYIPYALTNRWVFG
+                     RGLCKFWLVIDYLSCSASVFNVVLISYDRYQCVSNAVLYRNQQGATARAVIQMAATWIL
+                     AFVVHGPAIVFWDYVTGVSAVEDGTCVAEFYSNWHFLMCVSVLDFAVPALSVAYFNTQI
+                     YRSIRKRSQRSQAEDAGPLPASSPANLRVPVRLARFLRSSLLVWRQRTLDSDRREDGLC
+                     RSPETHSRPFGARSLAPSQCDTRSRYKLLRDRKMARSLAIILVTFAICWAPYSLLTIIR
+                     AACEKHKGDPFYNFAFWLLWVNSSINPFLYPLCHKRFRKAFLKVLC"
+                     /gene="LOC100091703"
+                     /protein_id="XP_001520508.2"
+ORIGIN
+        1 atgatcaacg acagcagcgg cggttttcct gaagaaaaat caacgtgtca ccaaaatcta
+       61 agctcacctg gtgctgaacg ggggtttaat ttttcagtgg gaacttcagt gctcttagcg
+      121 gttatcattt tgctagctct tgttacggtg ctgggcaatg ctctggtagc tattgctttt
+      181 gcggtggaca aaaacctgag acatcggagt aattatttgt ttcttaatct ggcaatttct
+      241 gacttcattg tgggggccat cagcatccct ttgtacatcc cgtacgcctt gacaaacaga
+      301 tgggtgtttg gaagaggtct ctgtaaattc tggctggtta tcgactatct cagttgttct
+      361 gcatcagtgt tcaacgtcgt ccttatcagc tacgaccgct accagtgtgt ctctaatgct
+      421 gtgttgtacc ggaaccagca aggagcgacc gccagagctg tgatccagat ggctgctacg
+      481 tggatcctag cgtttgtcgt gcacggccca gccattgtgt tctgggacta cgtcacaggg
+      541 gtcagcgcgg ttgaggatgg gacctgcgtg gccgaattct actccaactg gcatttcctc
+      601 atgtgtgttt ccgtcttgga ctttgcagtc ccagccctct ctgtggctta cttcaacacg
+      661 cagatctacc ggagcatccg caagagaagc caaaggagcc aggccgaaga cgccggccct
+      721 ctccctgcct cctccccagc caacctcagg gtgccagtga ggctggctcg ttttttgagg
+      781 tcaagcctgc tagtgtggag acagaggacg ctggactctg acaggcgaga ggatggtctt
+      841 tgtcgttccc cggaaaccca ttcccgtcct tttggagccc gttctctggc cccttcccag
+      901 tgtgacacca gatcccgata taaactgctc cgggacagga agatggcccg gtccctggcc
+      961 ataattttgg tgacttttgc catctgctgg gctccctatt ccctgctgac catcatccgt
+     1021 gcagcctgtg agaagcacaa gggagaccct ttctacaatt ttgcgttttg gcttctgtgg
+     1081 gtcaattcct ctattaatcc cttcctgtat cccctttgtc acaagaggtt tcggaaagct
+     1141 ttcctcaaag tcctatgcta acagaaggat tactgacccc ctcaacccct tctgaaagat
+     1201 agtgaatttg ggaatctgga tcccactcct gtgacccctt gtgtatatca attggtgaac
+     1261 ggaattgatg gctcactttg tgcagaacac cgtattaagt gcttgggaga gtacgatgtc
+     1321 attgttaaac ataatccctg ccaggaagca gtttacagtc tccctgggag gaat
+//

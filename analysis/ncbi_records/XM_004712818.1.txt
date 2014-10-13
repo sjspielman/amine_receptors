@@ -1,0 +1,91 @@
+LOCUS       XM_004712818            1356 bp    DNA              MAM 29-MAY-2013
+DEFINITION  PREDICTED: Echinops telfairi dopamine receptor D2 (DRD2), transcript
+            variant X3, mRNA.
+ACCESSION   XM_004712818
+VERSION     XM_004712818.1  GI:507690304
+DBLINK      BioProject: PRJNA193504
+KEYWORDS    RefSeq.
+SOURCE      Echinops telfairi (small Madagascar hedgehog)
+  ORGANISM  Echinops telfairi
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Afrotheria; Tenrecidae; Tenrecinae; Echinops.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004558769.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Echinops telfairi Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1356
+                     /mol_type="mRNA"
+                     /country="Germany: Ludwig Maximilians University, Munich"
+                     /isolate="266"
+                     /sex="female"
+                     /db_xref="taxon:9371"
+                     /organism="Echinops telfairi"
+                     /chromosome="Unknown"
+     gene            1..1356
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 4 Proteins"
+                     /db_xref="GeneID:101646089"
+                     /gene="DRD2"
+     CDS             28..1356
+                     /product="D(2) dopamine receptor isoform X3"
+                     /codon_start="1"
+                     /db_xref="GI:507690305"
+                     /db_xref="GeneID:101646089"
+                     /translation="MDPLNLSWYDEDVGGQNWSRPLNGSEGKEDGPHYNYYAMLLTLLI
+                     FVIVFGNVLVCMAVSREKALQTTTNYLIVSLAVADLLVATLVMPWVVYLEVGEWKFSRI
+                     HCDIFVTLDVMMCTASILNLCAISIDRYTAVAMPMLYNTRYSSKRRVTVMIAIVWVLSF
+                     TISCPMLFGLNNTDQNECIIANPAFVVYSSIVSFYVPFIVTLLVYIKIYVVLRKRRKRV
+                     STKRSSRAFRANLKAPLKGSYPHPEDRRLCAVIMKSNGSFPVNRRRVDAARRAQELELE
+                     MLSSTSPPERTRYSPIPPSHHQLTLPDSSHHGLHTTPDSPAKPEKNGHAKDHPKIAKIF
+                     EIQTMPNGKTRTSLKTMSRRKLSQQKEKKATQMLAIVLGVFIICWLPFFITHILNIHCD
+                     CNIPPVLYSAFTWLGYVNSAVNPIIYTTFNIEFRKAFLKILHC"
+                     /gene="DRD2"
+                     /protein_id="XP_004712875.1"
+     STS             319..526
+                     /db_xref="UniSTS:266487"
+                     /standard_name="DRD2"
+                     /gene="DRD2"
+     STS             355..445
+                     /db_xref="UniSTS:262987"
+                     /standard_name="DRD2"
+                     /gene="DRD2"
+ORIGIN
+        1 tggccaccca gtggctgcac tgccctaatg gatcctctga acctgtcctg gtatgatgag
+       61 gacgtaggag gccagaactg gagccggccc ctcaatgggt ccgaggggaa ggaggacggg
+      121 ccccactaca actactacgc catgctgctc accctactca tcttcgtcat cgtcttcggc
+      181 aacgtgctgg tgtgcatggc cgtgtcccgt gagaaggcgc tgcagaccac caccaactac
+      241 ctgatcgtca gcctggctgt ggccgacctc ctggtcgcca ccctggtcat gccctgggtt
+      301 gtctacctgg aggtaggtga gtggaaattc agccggattc actgtgacat ctttgtcact
+      361 ctggatgtca tgatgtgcac agcaagcatc ctgaacctgt gtgccatcag cattgacagg
+      421 tacacagctg tggccatgcc catgctctac aacacacgct acagctccaa gcgccgggtc
+      481 accgtcatga tcgccatcgt ctgggtcctg tccttcacca tctcctgccc aatgctcttc
+      541 ggactcaaca acacagacca gaacgagtgc atcatcgcca accctgcgtt cgtggtctac
+      601 tcctccatcg tctccttcta cgtgcccttc atcgtcactc tgctcgtcta catcaagatc
+      661 tacgtcgtcc tccgcaagcg ccgcaagagg gtcagcacca agcgcagcag cagggctttc
+      721 cgggccaacc tgaaggcccc gctcaagggc agctaccctc accccgagga caggagactc
+      781 tgtgccgtta tcatgaagtc taatgggagt ttcccagtga acaggcggag agtggatgct
+      841 gcccgccgtg cccaggagct ggagctagag atgctctcca gtaccagccc ccccgagagg
+      901 acccggtata gccccatccc acccagccac caccagctga ccctccccga ctcgtcccac
+      961 cacggcctcc acaccactcc cgacagcccc gccaagccag agaagaacgg gcacgccaaa
+     1021 gaccacccca agatcgccaa aatctttgag atccagacca tgcccaacgg caaaacccgg
+     1081 acctctctca agaccatgag ccgcaggaag ctctcacagc agaaggagaa gaaagccacc
+     1141 cagatgctgg ccattgtgct gggcgtgttc atcatctgct ggctgccctt cttcatcacc
+     1201 cacatcctga acattcactg tgactgcaac atcccgccag tcctctacag cgccttcaca
+     1261 tggctgggct atgtcaacag cgctgtcaac cccatcatct acaccacctt caacattgag
+     1321 ttccgcaagg ccttcctgaa gatcctgcac tgctga
+//

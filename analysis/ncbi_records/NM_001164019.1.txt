@@ -1,0 +1,103 @@
+LOCUS       NM_001164019            1655 bp    DNA              MAM 09-FEB-2014
+DEFINITION  Sus scrofa 5-hydroxytryptamine (serotonin) receptor 2B, G
+            protein-coupled (HTR2B), mRNA.
+ACCESSION   NM_001164019
+VERSION     NM_001164019.1  GI:255683516
+KEYWORDS    RefSeq.
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+REFERENCE   1  (bases 1 to 1655)
+  AUTHORS   Zhang H, Zhang T, Wang L and Teng K.
+  TITLE     Immunohistochemical location of serotonin and serotonin 2B receptor
+            in the small intestine of pigs
+  JOURNAL   Acta Histochem. 111 (1), 35-41 (2009)
+   PUBMED   18550155
+  REMARK    GeneRIF: distribution of serotonin 2B receptor is species different
+            in the pig small intestine and the intensity of serotonin 2B
+            receptor becomes stronger as the small intestine matures
+REFERENCE   2  (bases 1 to 1655)
+  AUTHORS   Ullmer C, Schmuck K, Kalkman HO and Lubbert H.
+  TITLE     Expression of serotonin receptor mRNAs in blood vessels
+  JOURNAL   FEBS Lett. 370 (3), 215-221 (1995)
+   PUBMED   7656980
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from CU463148.2.
+            On Aug 10, 2009 this sequence version replaced gi:194043679.
+            Sequence Note: The RefSeq transcript and protein were derived from
+            genomic sequence to make the sequence consistent with the reference
+            genome assembly. The genomic coordinates used for the transcript
+            record were based on alignments.
+            ##Evidence-Data-START##
+            RNAseq introns :: mixed/partial sample support ERS198671, ERS198678
+            [ECO:0000350]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1655
+                     /map="15"
+                     /mol_type="mRNA"
+                     /breed="mixed"
+                     /db_xref="taxon:9823"
+                     /organism="Sus scrofa"
+                     /chromosome="15"
+     gene            1..1655
+                     /note="5-hydroxytryptamine (serotonin) receptor 2B, G
+                     protein-coupled"
+                     /db_xref="GeneID:396837"
+                     /gene="HTR2B"
+                     /gene_synonym="5-HT2B"
+     misc_feature    142..144
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR2B"
+                     /gene_synonym="5-HT2B"
+     CDS             187..1632
+                     /product="5-hydroxytryptamine receptor 2B"
+                     /codon_start="1"
+                     /gene_synonym="5-HT2B"
+                     /note="serotonin 2B receptor; 5-HT-2B; serotonin receptor
+                     2B"
+                     /db_xref="GI:255683517"
+                     /db_xref="GeneID:396837"
+                     /translation="MAFSYRIFEQSTIPEHILHSSFHHLISSNWSGLQTESTPEEMKQI
+                     GEEQENKPPRWAALLILMVIIPTIGGNILVILAVSLEKKLQYATNYFLMSLAVADLLVG
+                     LFVMPIALLTIMFEAMWPLPLVLCPAWLFLDVLFSTASIMHLCAISVDRYIAIKKPIQA
+                     NQYNSRATAFIKITVVWLISIGIAIPVPIKGVETNVGNPNNITCGLTKDRFGNFMLFGS
+                     LASFFIPLAIMIVTYFLTIHALQKKAYLVKNKPPQRLTWLTVSTVFQRDETPCSSPEKV
+                     AMLDGSHKDKTLPNANDDTLMRRMSTVGKKSVQTISNEKRASKVLGIVFFLFLLMWCPF
+                     FITNITLVLCDSCDQTTLQMLLEIFVWIGYVSSGVNPLVYTLFNKTFRNAFGRYITCNY
+                     RATKSVKTLRKCSSNIYFQNPMAENSKLFMKHGMRNGINPAMYQSPKRLRSSTIQSSSV
+                     ILLDTLLLTENEGDKTEEQISYV"
+                     /gene="HTR2B"
+                     /protein_id="NP_001157491.1"
+ORIGIN
+        1 acatggacag atgtatgtct gctctcattt tacagaactt gaaattctgt tttaaagaaa
+       61 gacgtcaact ttggccttga atgtttggca tgtgtacaat ggcttaaaaa agcagacgac
+      121 cagcttagct actgaccatg ctgaccactg tccggatctg gatcaaatca gagaaaaaca
+      181 cagcgaatgg ctttctctta tagaatattt gaacaaagca caattcctga gcacatttta
+      241 cacagctcat tccatcactt aatctcttct aactggtccg gattacagac agaatcgaca
+      301 ccagaggaaa tgaaacagat tggtgaggaa caagaaaata aaccaccgcg ctgggcagct
+      361 cttctgatac ttatggtgat aatacccaca attggtggaa acatccttgt tattctggct
+      421 gtttcactgg agaaaaagtt gcagtatgct accaattatt tcctaatgtc cctggcagtg
+      481 gctgatttgc tggttggatt gtttgtgatg ccgattgccc tcttgacaat aatgtttgag
+      541 gctatgtggc ccctcccact tgttctatgc cctgcctggt tatttcttga cgttcttttt
+      601 tctactgcat ccatcatgca tctttgtgcc atttcagtgg atcgttacat agccatcaaa
+      661 aagccaatcc aggccaatca atataactca cgagctacag cattcatcaa gattacagtg
+      721 gtatggttaa tttcaatagg cattgccatt ccagtcccta tcaaaggggt ggaaactaat
+      781 gtgggtaacc caaacaacat cacttgtggg ttgacaaagg atcgtttcgg caatttcatg
+      841 ctctttggct cactggcttc ctttttcata cctctggcca tcatgattgt cacctacttt
+      901 ctcactatcc atgctttaca gaagaaagct tatttggtca aaaataagcc acctcaacgc
+      961 ctaacatggt tgactgtgtc cacagttttc cagagagatg aaacaccctg ctcatcacca
+     1021 gaaaaagtgg caatgctgga cggttctcac aaggacaaaa ctctgcccaa tgcaaatgac
+     1081 gacacactta tgcgaagaat gtccacagta ggaaaaaagt cagtgcagac catttccaat
+     1141 gaaaagagag cttcgaaggt tctagggatt gtgtttttcc tctttttgct tatgtggtgc
+     1201 ccctttttta ttacaaatat aactttagtt ttatgtgatt cctgcgacca gactactctc
+     1261 caaatgctcc tggagatatt tgtgtggata ggctatgttt cctcaggggt gaatcctttg
+     1321 gtctacaccc tcttcaacaa gacatttcgg aatgcatttg gccgatatat cacctgcaat
+     1381 tacagggcca cgaaatcagt aaaaacgctt agaaaatgct ccagtaatat ctacttccag
+     1441 aatccaatgg cagagaactc taagttgttc atgaaacatg gaatgcgaaa cggcattaat
+     1501 cctgccatgt accagagccc aaagaggctc cgaagttcaa ccattcagtc ttcatcagtc
+     1561 attttactag acacacttct cctcactgaa aatgaaggtg acaaaactga agagcaaatc
+     1621 agttatgtat agtagtaatg gcagtttgta tctaa
+//

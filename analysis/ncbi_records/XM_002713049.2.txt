@@ -1,0 +1,92 @@
+LOCUS       XM_002713049            1588 bp    DNA              MAM 13-JUN-2014
+DEFINITION  PREDICTED: Oryctolagus cuniculus histamine receptor H1 (HRH1),
+            transcript variant X1, mRNA.
+ACCESSION   XM_002713049
+VERSION     XM_002713049.2  GI:655833803
+DBLINK      BioProject: PRJNA42933
+KEYWORDS    RefSeq.
+SOURCE      Oryctolagus cuniculus (rabbit)
+  ORGANISM  Oryctolagus cuniculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha; Leporidae;
+            Oryctolagus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003159269.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Jun 13, 2014 this sequence version replaced gi:291393522.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Oryctolagus cuniculus Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1588
+                     /mol_type="mRNA"
+                     /breed="Thorbecke inbred"
+                     /sex="female"
+                     /db_xref="taxon:9986"
+                     /organism="Oryctolagus cuniculus"
+                     /chromosome="9"
+     gene            1..1588
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 EST, 16 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 6 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:100348650"
+                     /gene="HRH1"
+     CDS             98..1564
+                     /product="histamine H1 receptor"
+                     /codon_start="1"
+                     /db_xref="GI:291393523"
+                     /db_xref="GeneID:100348650"
+                     /translation="MTLPNSSCISEDRMCEGNKTTMANVQLTPLVVVLSTISLVTVGLN
+                     LLVLCAVRSERKLHTVGNLYIVSLSAADLIVGAAVMPMNILYLLMTRWSLGRPLCLFWL
+                     SMDYVASTASIFSVFILCIDRYRSVQQPLRYLRYRTKTRASVTILGAWFLSCLWIIPIV
+                     GWRRFLPHSPRPRDDKCETDFYDVTWFKIMTAIINFYLPTVLMLWFYARIYRAVRQHCQ
+                     HRELISRSLPAFLEINLRPENPKVGGKKPGKESPWEVTKRRPKDAGGGPASKSPSQVPA
+                     ETKSPAGLSREEAGEEATLHCFPVNMVQTAMVAQGSSPGYAAIGQPRSQLAAGEQSLGA
+                     RHISELSEDQTLGDSQSLSRTMDSDATTEPAPARGTLRSGSSTGLDYIKFTWKRLRSHS
+                     RQYTSGLHMSRERKAAKQLGFIMAAFILCWIPYFIFFMVIAFCKSCCNEHVHMFTIWLG
+                     YINSTLNPLIYPLCNENFKKTFKRLLHIRS"
+                     /gene="HRH1"
+                     /protein_id="XP_002713095.1"
+ORIGIN
+        1 gcagaatggc atagctgagc tccgcaggag gaagtgtgat aagcatggaa cgtccagtag
+       61 tagggagtga gcacagctgg agagtcctct tgtgccaatg acccttccca attcctcctg
+      121 catctcagaa gacaggatgt gtgagggcaa caagaccacc atggccaacg tgcagctgac
+      181 gccgctcgtg gtggtcctga gcaccatctc cctggtcacc gtcggactca acctgctggt
+      241 gctgtgcgcc gtccgaagcg agcggaagct gcacaccgtg ggcaacctgt acatcgtcag
+      301 cctgtcggcg gcagacctga tcgtgggcgc cgccgtcatg cccatgaaca tcctctacct
+      361 tctcatgacc cggtggtccc tgggccggcc cctctgcctc ttctggcttt ccatggacta
+      421 cgtggccagc acggcgtcca ttttcagcgt cttcatcctg tgcattgacc gctaccgctc
+      481 tgtccagcag cccctccggt acctgaggta tcgaaccaag acccgggcgt cggtcaccat
+      541 cctgggagcc tggtttctct cctgcctgtg gatcattccc atcgtcggat ggcgtcgctt
+      601 tctgccgcac agcccaaggc cccgggatga caagtgcgag acagacttct atgacgtcac
+      661 ctggttcaag atcatgacgg ccatcatcaa cttctacctg cccaccgtgc ttatgctctg
+      721 gttttacgcc aggatctaca gggctgtgcg gcaacactgc cagcaccggg agctcatcag
+      781 caggtctctc ccagccttct tagagatcaa cctgcggccg gagaatccca aggtgggtgg
+      841 caagaagccc gggaaggagt ccccgtggga agttacgaag aggaggccaa aagatgcagg
+      901 tggtggccca gcctcgaagt caccgtccca agtccctgcg gagacgaaat ctccagctgg
+      961 gctcagccga gaggaggccg gagaggaggc cacgctccac tgcttcccag ttaacatggt
+     1021 gcagacagcg atggtggccc aggggagcag cccgggctat gccgccatcg gccagcccag
+     1081 gagccagctc gcagcagggg agcagagcct gggcgcgcgt cacatcagtg agctgtcgga
+     1141 ggaccagacg ctgggggaca gccagtccct ctcccggacg atggactccg acgccaccac
+     1201 ggagccggcg ccggccagag gcacgctgag aagtgggtct agcacgggcc tggattacat
+     1261 caagttcacc tggaagcgcc tgcgctccca ctcgagacag tacacgtcgg ggctgcacat
+     1321 gagccgggag cggaaggccg ccaagcagct gggcttcatc atggcggcct tcatcctctg
+     1381 ctggatcccc tacttcatct tcttcatggt cattgccttc tgcaagagct gttgcaacga
+     1441 gcacgtgcac atgttcacca tctggctggg ctacatcaac tccacgctga acccgctcat
+     1501 ctaccccctg tgcaacgaga actttaagaa gacgttcaag aggctcctgc acatccgttc
+     1561 ctaaacgggg cctccgcggg attgctcg
+//

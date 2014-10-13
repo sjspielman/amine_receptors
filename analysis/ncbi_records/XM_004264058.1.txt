@@ -1,0 +1,87 @@
+LOCUS       XM_004264058            1511 bp    DNA              MAM 18-MAR-2013
+DEFINITION  PREDICTED: Orcinus orca cholinergic receptor, muscarinic 4 (CHRM4),
+            mRNA.
+ACCESSION   XM_004264058
+VERSION     XM_004264058.1  GI:465975545
+DBLINK      BioProject: PRJNA189949
+KEYWORDS    RefSeq.
+SOURCE      Orcinus orca (killer whale)
+  ORGANISM  Orcinus orca
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Cetacea;
+            Odontoceti; Delphinidae; Orcinus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004438421.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Orcinus orca Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1511
+                     /mol_type="mRNA"
+                     /collection_date="06-Sep-2011"
+                     /isolate="Morgan"
+                     /sex="male"
+                     /note="Norwegian herring-eating population"
+                     /db_xref="taxon:9733"
+                     /tissue_type="blood"
+                     /organism="Orcinus orca"
+                     /chromosome="Unknown"
+     gene            1..1511
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 8 mRNAs, 23 Proteins"
+                     /db_xref="GeneID:101286932"
+                     /gene="CHRM4"
+     CDS             47..1483
+                     /product="muscarinic acetylcholine receptor M4"
+                     /codon_start="1"
+                     /db_xref="GI:465975546"
+                     /db_xref="GeneID:101286932"
+                     /translation="MANFTPVNGSLGNQSVRLVTSTHNRYETVEMVFIATVTGSLSLVT
+                     VVGNILVMLSIKVNRQLQTVNNYFLFSLACADLIIGAFSMNLYTVYIIKGYWPLGAVVC
+                     DLWLALDYVVSNASVMNLLIISFDRYFCVTKPLTYPARRTTKMAGLMIAAAWVLSFVLW
+                     APAILFWQFVVGKRTVPDNQCFIQFLSNPAVTFGTAIAAFYLPVVIMTVLYIHISLASR
+                     SRVHKHRPEGPKEKKAKTLAFLKSPLMKQSVKKPPPGEASRGELRNGKLEEAPPPVLPP
+                     PPRPVADKDTSNESSSGSATQNTKERPPTELSTTEATTPATPAHPLQPRTLNPASKWSK
+                     IQIVTKQTGNECVTAIEIVPATPAGMRPAANVARKFASIARNQVRKKRQMAARERKVTR
+                     TIFAILLAFILTWTPYNVMVLVNTFCQSCIPDTVWSIGYWLCYVNSTINPACYALCNAT
+                     FKKTFRHLLLCQYRNIGTAR"
+                     /gene="CHRM4"
+                     /protein_id="XP_004264106.1"
+ORIGIN
+        1 tctccttcct cctccagaca ctgcccgccc actgctgcta accaaaatgg cgaacttcac
+       61 accggtcaat ggcagcttgg gcaaccagtc tgtgcgcctg gtcacgtcaa cccataaccg
+      121 ctatgagaca gtggagatgg tgttcattgc cacggtgaca ggctcactga gcctcgtgac
+      181 tgtcgtgggc aacatcctgg tgatgctctc catcaaggtc aacaggcaac tgcagacggt
+      241 caacaactac ttcctcttca gcctggcatg tgctgatctc atcataggcg ctttctccat
+      301 gaacctctac accgtgtaca tcatcaaggg ctactggcct ctgggtgccg tggtgtgtga
+      361 cctgtggctg gccctggact atgtggtgag caatgcctct gtcatgaacc tgcttatcat
+      421 cagctttgac cggtacttct gcgtcaccaa gcccctcacc taccctgcgc ggcgaaccac
+      481 caagatggca ggcctcatga tcgccgctgc ctgggtcctg tccttcgtgc tctgggcacc
+      541 tgccatcttg ttctggcagt ttgtggtggg caagcggacg gtgccagaca accagtgctt
+      601 catccagttt ttgtccaacc cggcggtgac cttcggcacg gccatcgctg ccttctacct
+      661 gcctgtggtc atcatgacgg tgctctacat ccacatctcc ctggccagtc gcagccgagt
+      721 tcacaagcac cgacccgaag gccctaagga gaagaaggcc aagaccctgg ccttcctcaa
+      781 gagccccctg atgaagcaga gtgtcaagaa accgccccca ggagaagctt ctcgggggga
+      841 gctgcgcaac gggaagctag aggaggcccc tccaccggtc ctccccccgc cgccacgccc
+      901 agtggctgac aaggacacct ccaatgagtc cagctcgggc agcgccaccc agaacaccaa
+      961 ggaacgacca cccacagagc tgtcaaccac agaggccacc acgcccgcca cacctgcaca
+     1021 tcccctgcag ccacggaccc tcaatccggc ctccaaatgg tccaagatcc agattgtgac
+     1081 gaagcagaca ggcaacgagt gtgtgacagc catcgagatt gtgcctgcca cgccggctgg
+     1141 catgcgtccg gcggccaacg tggcccgcaa gtttgccagc attgcccgca accaggtgcg
+     1201 caagaagcgg cagatggccg cccgggagcg caaggtgact cggaccatct ttgccattct
+     1261 gctagccttc atcctcacct ggacgcccta caatgtcatg gtcctggtga acaccttctg
+     1321 ccagagctgc atccctgaca cggtgtggtc cattggctac tggctctgct acgtcaacag
+     1381 caccatcaac ccggcctgct atgccctctg caatgccacc tttaaaaaga ctttcagaca
+     1441 cctgctgcta tgccagtatc ggaacatcgg cactgccagg taggcaggta ggggtgccac
+     1501 tggaggtgct g
+//

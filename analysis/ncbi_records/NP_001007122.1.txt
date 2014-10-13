@@ -1,0 +1,62 @@
+LOCUS       NP_001007122             346 aa                     VRT 24-AUG-2013
+DEFINITION  5-hydroxytryptamine (serotonin) receptor 5A like [Danio rerio].
+ACCESSION   NP_001007122
+VERSION     NP_001007122.1  GI:55742138
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+REFERENCE   1  (residues 1 to 346)
+  AUTHORS   Song,H.D., Sun,X.J., Deng,M., Zhang,G.W., Zhou,Y., Wu,X.Y.,
+            Sheng,Y., Chen,Y., Ruan,Z., Jiang,C.L., Fan,H.Y., Zon,L.I.,
+            Kanki,J.P., Liu,T.X., Look,A.T. and Chen,Z.
+  TITLE     Hematopoietic gene expression profile in zebrafish kidney marrow
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 101 (46), 16240-16245 (2004)
+   PUBMED   15520368
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from BC129143.1.
+            ##Evidence-Data-START##
+            Transcript exon combination :: BC129143.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+            ERS000086, ERS000090 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..346
+                     /db_xref="taxon:7955"
+                     /organism="Danio rerio"
+                     /chromosome="7"
+                     /map="7"
+     Protein         1..346
+                     /product="5-hydroxytryptamine (serotonin) receptor 5A like"
+                     /calculated_mol_wt="39281"
+     Region          53..327
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..346
+                     /coded_by="NM_001007121.2:428..1468"
+                     /GO_component="GO:0016021 - integral to membrane [Evidence
+                     IEA]; GO:0016020 - membrane [Evidence IEA]; GO:0005579 -
+                     membrane attack complex [Evidence IEA]"
+                     /GO_function="GO:0004872 - receptor activity [Evidence
+                     IEA]; GO:0001584 - rhodopsin-like receptor activity
+                     [Evidence IEA]; GO:0004871 - signal transducer activity
+                     [Evidence IEA]"
+                     /gene_synonym="HTR5A; si:zc12p8.3"
+                     /db_xref="GeneID:368475"
+                     /db_xref="ZFIN:ZDB-GENE-030616-574"
+                     /GO_process="GO:0007186 - G-protein coupled receptor
+                     protein signaling pathway [Evidence IEA]; GO:0007165 -
+                     signal transduction [Evidence IEA]"
+                     /gene="htr5al"
+ORIGIN
+        1 mtqpnvtals anisggsesg nlyrpfsvfs vltltllaml vvatfvwnll vlvtilrvrt
+       61 fhrvphnlva smaisdvmva glvmplslvr elygrrwilg ralcqvwisc dvlcctasiw
+      121 nvtaialdry wsitrhleyt lktrkrisnv migltwllss vislsplfgw getysedsla
+      181 cqvsqepsyt vfstfgafyl plcvvlfvyw kiykaakfri gsrktntitp maevievkea
+      241 erqpqmaftv rhatvsfqtd getwreqker raalmvgili gvfvlcwipf flaeliiplc
+      301 scdippvwks vflwlgysns ffnpliytaf nknynnafrn lfsrqr
+//

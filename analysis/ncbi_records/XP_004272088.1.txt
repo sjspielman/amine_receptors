@@ -1,0 +1,62 @@
+LOCUS       XP_004272088             400 aa                     MAM 18-MAR-2013
+DEFINITION  PREDICTED: D(3) dopamine receptor isoform 1 [Orcinus orca].
+ACCESSION   XP_004272088
+VERSION     XP_004272088.1  GI:466020344
+DBLINK      BioProject: PRJNA189949
+KEYWORDS    RefSeq.
+SOURCE      Orcinus orca (killer whale)
+  ORGANISM  Orcinus orca
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Cetacea;
+            Odontoceti; Delphinidae; Orcinus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004438463.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Orcinus orca Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..400
+                     /collection_date="06-Sep-2011"
+                     /isolate="Morgan"
+                     /sex="male"
+                     /note="Norwegian herring-eating population"
+                     /db_xref="taxon:9733"
+                     /tissue_type="blood"
+                     /organism="Orcinus orca"
+                     /chromosome="Unknown"
+     Protein         1..400
+                     /product="D(3) dopamine receptor isoform 1"
+                     /calculated_mol_wt="44214"
+     Region          44..>234
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          52..383
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..400
+                     /coded_by="XM_004272040.1:2..1204"
+                     /gene="DRD3"
+                     /db_xref="GeneID:101290463"
+ORIGIN
+        1 maplsqlggh inttcaaens tgasrarpha yyalsycvli laiifgnglv cvavlkeral
+       61 qtttnylvvs lavadllvat lvmpwvvyle vtggvwnfsr vccdvfvtld vmmctasiln
+      121 lcaisidryt avvmpvhyqh gtgqsscrrv tlmitavwvl afavscpllf gfnttgdpsi
+      181 csisnpdfvl yssvvsfylp fgvtvlvyar iyvvlrqrrr kriltrqnsq cisvrpgfpq
+      241 qplspgqthm elkryysicq dtvlgrpgfq egegelkreg ktrnslsptm apklslevrk
+      301 lsngrlstsl klgplqprgv plrekkatqm lvmvlgtfiv cwlpfflthi lnthcqachv
+      361 spelysattw lgyvnsalnp viyttfnief rkaflkilsc
+//

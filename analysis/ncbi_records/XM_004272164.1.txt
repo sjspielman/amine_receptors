@@ -1,0 +1,115 @@
+LOCUS       XM_004272164            2391 bp    DNA              MAM 18-MAR-2013
+DEFINITION  PREDICTED: Orcinus orca cholinergic receptor, muscarinic 2 (CHRM2),
+            mRNA.
+ACCESSION   XM_004272164
+VERSION     XM_004272164.1  GI:466021003
+DBLINK      BioProject: PRJNA189949
+KEYWORDS    RefSeq.
+SOURCE      Orcinus orca (killer whale)
+  ORGANISM  Orcinus orca
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Cetacea;
+            Odontoceti; Delphinidae; Orcinus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004438464.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Orcinus orca Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2391
+                     /mol_type="mRNA"
+                     /collection_date="06-Sep-2011"
+                     /isolate="Morgan"
+                     /sex="male"
+                     /note="Norwegian herring-eating population"
+                     /db_xref="taxon:9733"
+                     /tissue_type="blood"
+                     /organism="Orcinus orca"
+                     /chromosome="Unknown"
+     gene            1..2391
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 13 mRNAs, 23 Proteins"
+                     /db_xref="GeneID:101284832"
+                     /gene="CHRM2"
+     misc_feature    94..96
+                     /note="upstream in-frame stop codon"
+                     /gene="CHRM2"
+     CDS             238..1638
+                     /product="muscarinic acetylcholine receptor M2"
+                     /codon_start="1"
+                     /db_xref="GI:466021004"
+                     /db_xref="GeneID:101284832"
+                     /translation="MNNSTNSSNNGLALTSPYKTFEVVFIVLVAGSLSLVTIIGNILVM
+                     VSIKVNRHLQTVNNYFLFSLACADLIIGVFSMNLYTLYTVIGYWPLGPVVCDLWLALDY
+                     VVSNASVMNLLIISFDRYFCVTKPLTYPVKRTTKMAGMMIAAAWVLSFILWAPAILFWQ
+                     FIVGVRTVEDGECYIQFFSNAAVTFGTAIAAFYLPVIIMTVLYWHISRASKSRIKKDKK
+                     EPVANQDPVSPSLVQGRIVKPNNNNMPGSDDGLEHNKIQNGKAPRDAVTENCVQGEEKE
+                     SSNDSTSVSAVASNMRDDEITQDENTVSTSLGHSKDENSKQTCIKIVTKTQKGDSCTPT
+                     NTTVEVVGSSGQNGNEKQNIVARKIVKMTKQPAKKKPPPSREKKVTRTILAILLAFIIT
+                     WAPYNVMVLINTFCAPCIPNTVWTIGYWLCYINSTINPACYALCNATFKKTFKHLLMCH
+                     YKNIGATR"
+                     /gene="CHRM2"
+                     /protein_id="XP_004272212.1"
+     STS             238..1638
+                     /db_xref="UniSTS:481709"
+                     /gene="CHRM2"
+     STS             571..1165
+                     /db_xref="UniSTS:265990"
+                     /standard_name="CHRM2"
+                     /gene="CHRM2"
+     STS             1103..1636
+                     /db_xref="UniSTS:253964"
+                     /standard_name="CHRM2"
+                     /gene="CHRM2"
+ORIGIN
+        1 aatcttttcc ttttcgcttg caagatcaag ggagaaagca agccggcgcc tggcctcgga
+       61 ctctgagcgc agcgcagttc gctccccggc cggtgagccc cgaacccgcg aagggctcct
+      121 ccacgatccc gccagcccgc accagggata ttgcagcccg gggaggcacc tggagctaat
+      181 ccggcggcag gtttaaatgt gtatttggct acttggctac tgattagaga acacaaaatg
+      241 aataactcaa caaactcctc taacaatggc ctggctctga ccagtcctta taagacattt
+      301 gaagtggttt ttattgtcct tgtggccggg tccctcagtt tggtgaccat tattgggaac
+      361 atcctggtca tggtctccat taaagtcaac cgccacctcc agaccgtcaa caattacttt
+      421 ttgttcagct tggcctgtgc tgacctcatc attggtgttt tctccatgaa cctgtacacc
+      481 ctttacactg tgattggcta ctggcctttg ggacctgtgg tgtgtgacct ttggctagcc
+      541 ctggactatg tggtcagcaa cgcctcagta atgaacctgc tcatcatcag ctttgacaga
+      601 tacttctgcg tcacaaaacc gctcacctat cccgtcaagc ggaccacaaa aatggcaggt
+      661 atgatgattg cagccgcctg ggttctctcc tttatcctct gggctccggc cattctcttc
+      721 tggcagttca ttgtaggggt gagaactgtg gaggatgggg aatgctacat tcagtttttt
+      781 tccaatgctg ctgtcacctt tggcactgcc attgcagctt tctatttgcc tgtgatcatc
+      841 atgactgtgt tatactggca catatcccga gccagtaaga gcaggataaa gaaggacaaa
+      901 aaggagcctg tggccaacca agatccagtt tctccaagtc tggtacaagg aaggatagtg
+      961 aagccaaaca acaacaacat gcctggcagt gatgatggcc tggagcacaa caaaatccag
+     1021 aacggcaaag ctcccagaga tgctgtgact gaaaactgtg tccaggggga ggaaaaggaa
+     1081 agctccaatg attccacctc agtcagtgct gtcgcctcta atatgagaga tgatgaaata
+     1141 acccaggatg aaaacacagt ttccacttcc ctgggccact ccaaagatga gaactcaaag
+     1201 caaacatgca tcaaaattgt caccaagacc caaaaaggtg actcatgtac cccaaccaat
+     1261 accaccgtgg aggtagttgg ttcttcaggt cagaatggaa atgaaaaaca gaacattgtt
+     1321 gctcgcaaga ttgtaaaaat gaccaagcag cctgcaaaaa agaagcctcc tccttcccgg
+     1381 gaaaagaaag tgaccaggac gatcttagcc attctgttgg ctttcatcat cacttgggcc
+     1441 ccatacaatg tcatggtgct cattaacacg ttctgtgcac cctgcatccc caacacagtg
+     1501 tggacaattg gttattggct ctgttacatc aacagcacta tcaaccctgc ctgctatgca
+     1561 ctttgtaatg ccaccttcaa gaagaccttt aaacaccttc tcatgtgtca ttataagaac
+     1621 ataggcgcca caaggtaaaa catctttgta aagaaagaag gtagtcaagg ggagcttggc
+     1681 gaaaagaaac agaataaaag agctcctagt tttcagatct ctgccattgc actttatagt
+     1741 cttatcatgg aatgtgcaat taaggagccc aacagtgaca ctcttatggt gcctatgctc
+     1801 cagtttgaaa cttgcacctt ataaaccctg tcagtttagg agcaaggaga ccattaagga
+     1861 gacatgttgg aactgtggat ttaagaaatg atctatgctt tctcatactc tcttgaagaa
+     1921 gggcttctga atctataatt ttatctctgc acaaaaagaa taataacctc actccttttt
+     1981 ttcatttttt tgttcccaag tgtccatatg aggatgaaat gccacagtta caaactaacc
+     2041 tggagagttt aagataaaga aagccattac acaatggcga agtgaacaaa gaagatcaaa
+     2101 aaaggatgta gaaatggcct ccggagtgtt taacatatat tattctcttg ttttggtttt
+     2161 atgtggagaa ttgcaacata ataaatgctt atcttttttt gcctttccct ttcccaccat
+     2221 caaaagagag caaacaaaca aaaacaaaca aaaaacttaa ttacattaca tcattatttt
+     2281 tctcatatgg cattggtttt tatacttccc tgttttacat tgtgtaaggg caaaatctgc
+     2341 aggactttca ctaaatacgg agacagccat gaaaaagggt atttcacccc t
+//

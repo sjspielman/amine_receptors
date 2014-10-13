@@ -1,0 +1,142 @@
+LOCUS       XM_004550333            4684 bp    DNA              VRT 14-MAY-2013
+DEFINITION  PREDICTED: Maylandia zebra D(1)-like dopamine receptor-like
+            (LOC101477361), mRNA.
+ACCESSION   XM_004550333
+VERSION     XM_004550333.1  GI:498982789
+DBLINK      BioProject: PRJNA198780
+KEYWORDS    RefSeq.
+SOURCE      Maylandia zebra (zebra mbuna)
+  ORGANISM  Maylandia zebra
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Haplochromini;
+            Maylandia; Maylandia zebra complex.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004531733.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Maylandia zebra Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4684
+                     /mol_type="mRNA"
+                     /isolate="#2_Kocher"
+                     /sex="female"
+                     /db_xref="taxon:106582"
+                     /organism="Maylandia zebra"
+                     /chromosome="Unknown"
+     gene            1..4684
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 25 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101477361"
+                     /gene="LOC101477361"
+     misc_feature    1456..1458
+                     /note="upstream in-frame stop codon"
+                     /gene="LOC101477361"
+     CDS             1462..2853
+                     /product="D(1)-like dopamine receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:498982790"
+                     /db_xref="GeneID:101477361"
+                     /translation="MDQNFSTVRDGKQLTPERDSSKRVLTGCFLSLLIFTTLLGNTLVC
+                     AAVTKFRHLRSKVTNFFVISLAISDLLVAILVMPWKAATEIVGFWPFGAFCNVWVAFDI
+                     MCSTASILNLCVISVDRYWAISSPFRYERKMTPKVACLMISVAWTLSVLISFIPVQLNW
+                     HKAQTTSYVELNGTYPDDLPPDNCDFSLNRTYAISSSLISFYIPVAIMIVTYTRIYRIA
+                     QTQIRRISALERAAESAKNRHSSMGNSSNMDSESSFKMSFKRETKVLKTLSVIMGVFVC
+                     CWLPFFILNCMVPFCETHMPDGSTEFPCISSTTFDVFVWFGWANSSLNPIIYAFNADFR
+                     KAFSILLGCHRLCPGSNAIEIVSINNNMGAPTSNPNCQYEPKSHIPKEGNSSANYVIPH
+                     SILCQEEELQKKDGSGGEAEVGVANNTLEKHSPAISGNLDSDAEVTLEKINPITQNGQH
+                     KAVTC"
+                     /gene="LOC101477361"
+                     /protein_id="XP_004550390.1"
+ORIGIN
+        1 cacaccgaag acacatcgca gtgtatctga atgttgcatc acaaaggatg gcccccaaaa
+       61 agaaaagcat aaagactcat ttaaacaccc aaggaaacgc cgcaaaaagg gagagcgtga
+      121 ctttcttggc atagaggagc gcgcagagag ggtgagctcc ttctccttca ctaccaagat
+      181 acaagttgga tgtataccga agaaatgtgg attcggaacg gaactttttt ttattagtta
+      241 aaaattaacg gatggtttca ttggttcgtt ttggattcag ttgttttcaa agctaaccca
+      301 agacgcttaa aacttgcccg gagctatcca catccaaaga gcgaagcaaa cgctgtctac
+      361 aaaaatcgat aataataata ataatgataa taaaataaat aaatgaagtg agcctttatt
+      421 tcaaatccag ggatttgggc tgatgtccgg atgaaaactc tgcactttaa aggatgaaag
+      481 gcttttggta aattgctaca aaattcagcc aaaaggaaac taaacgcgtt tgaattgaag
+      541 catcgtgtca gaatacaaag cgctgcgaga gtgatgcgtt ttttttctgg ttttctcgtt
+      601 taatctgcat ctctcttctt tgaaaacgca tcattaagac ttttgaatgc atttttattt
+      661 tatttatttc ttatttttcc tcaacactca ggtgttatgt ttagctgggg accgtgccat
+      721 ttactaggag agaggagcgt ttaaagagaa attaaaaaga ataacacaga ggacattacc
+      781 tagtagtcgg ttggatcagc gtcgatactg ggacaatcac agggacacgc ctcgcagatc
+      841 attaaacaaa tcagataaac gcggtgcgaa aaccatcaat agaagttatt gatgaggtgg
+      901 tatataaggc taatgattgg ctgagcctct gtttactcaa aagcttagca acagtatgtt
+      961 gtgaaacttt tcgctgaggg cttgacagct gaggcataca atgccaagag aaaagggacc
+     1021 aagaacttgt ctttaaaact catttttatt gctgctttac tcattttttt aggactcaat
+     1081 ttgcgattga aaaaaaagaa aacaattgcg aattgctgga atattcttct tcctctgcaa
+     1141 actagaatgt ctgccttctg tgctgctgct gcaggaattt atgaaccaga gatttttaag
+     1201 ggaaacattc ctgaggagag aattttgaaa tatttatagc atcccttgtg caagaatggt
+     1261 ggttgtgaca aggaacctat tgatgaccca gtcagtgaga gagctggtgc caagacaatt
+     1321 tacctctcca ccagctacgc tctccgtcta agagtcgtcc ttggaggaac acagctgctg
+     1381 caggctgggg atgtgatggg gtgactgctg acatccccct cacccatccc ctctctcttt
+     1441 attaaaactg taacataaac aatggatcag aatttctcaa cggttcgaga tggaaagcag
+     1501 cttacgccag agagagactc ctcgaaacgt gttctgacag gatgctttct ctccctgctc
+     1561 atcttcacca cgctgctagg caacaccctg gtgtgcgctg ccgtcaccaa gttccgacac
+     1621 ctgaggtcga aggtcaccaa tttctttgtc atctcgctgg ccatctctga cctcctggta
+     1681 gctattttgg taatgccatg gaaggcagcg acagagattg tggggttttg gccatttggt
+     1741 gcattctgca acgtgtgggt ggcatttgac ataatgtgct ccactgcctc catcttgaac
+     1801 ttgtgtgtga ttagtgtcga tcgttactgg gccatttcaa gcccattccg ctatgaacgc
+     1861 aagatgaccc ctaaagtagc gtgtctgatg atcagtgtgg catggacctt gtctgtcctc
+     1921 atctccttca ttcctgttca gcttaactgg cacaaagctc agaccaccag ctatgtcgag
+     1981 ctaaatggaa cctaccctga tgatttgccc cctgacaact gtgacttcag tcttaacagg
+     2041 acctatgcca tctcctcctc ccttatcagc ttctacatcc ccgtggcaat tatgatcgtc
+     2101 acctacaccc ggatctaccg catcgcccag acacagataa ggagaatatc tgctttggag
+     2161 cgagcagcag agagtgccaa aaaccgacac agcagcatgg gaaacagttc aaacatggac
+     2221 agtgagagct catttaaaat gtcattcaaa agagaaacca aagtcttaaa gacgctctct
+     2281 gtcattatgg gtgtgtttgt gtgctgctgg ttgcccttct tcatcctaaa ctgcatggtt
+     2341 ccattctgtg aaacacacat gccagatgga tccacagaat tcccctgcat cagctccacc
+     2401 acctttgatg tgtttgtgtg gtttggctgg gcaaactctt cgctcaaccc aatcatctat
+     2461 gccttcaatg ccgacttccg caaggccttc tccatcctcc tgggttgcca tcggctgtgc
+     2521 ccggggagca acgccattga gatcgtcagt attaacaaca atatgggtgc tcctacctcg
+     2581 aaccccaact gtcagtatga gcccaagagc cacatcccaa aggagggcaa cagctcagca
+     2641 aactatgtga ttcctcacag catcctgtgt caggaggagg aattacagaa gaaagacgga
+     2701 agtggagggg aggccgaggt gggcgtggca aacaacaccc ttgagaaaca ctcaccggcc
+     2761 atctctggga atttagacag cgatgctgaa gtcaccctgg aaaagatcaa ccccataaca
+     2821 cagaacggac agcacaaagc cgtgacatgt tgagaaaagg caaaggtgca ttgaaattca
+     2881 gtgaggcatg cacgtatgca caaaggcaag aaacgattac acaggaggac agcaaaaaca
+     2941 aacggcagag acacatgtct ataggaacaa gaaaccagtg agtgtgttat acaagtcctt
+     3001 aagactgtca aaaaaaccta catgaaaaac ctacagaatg ttttaaagta caggcacttt
+     3061 atcctggata taactatctg caaaatatat tcagcattta ttgatgacat tgacacattt
+     3121 gatgataaat gttgataatg tgaatattaa cagcagaata ctacctatgg gcacatgtat
+     3181 acattttttt tagtttttgc aaaaatgtat acatctgcat gtgtatactg tacagtgatg
+     3241 acactattct ggagggattc aaacacagta tatacagtgg gagaaaatat agtattagta
+     3301 aaatatcttg taggtaggtg ctttgtatgt gtttcatgaa aaagcaaaca aagtgggtaa
+     3361 attggttttg ctacagtatt gttagtcagc tattgcagtt ttttttcctt tagcacattt
+     3421 ctaatgacag cgaaagcaaa atcgctaaat tccagtggca gtttatttga agtaagaaca
+     3481 aaaaatactg ataccaaagt aacactgttc tgattacaac taaaaccaac aacagagttt
+     3541 gatgctgtaa gccaaattgt caaaaatttt tattcttaac tcatcctccc acctctgcat
+     3601 cacccactgt tatccaaatg aggtgtactt gagagagaaa gagacgagga aatggagaaa
+     3661 gttcctgcct tttctgatct ttcttcagcc agctgggact gacctgaagt ttcttccatt
+     3721 tctactcctt actccctgtt ttcattggct ttgcctgccg tcatccattc ttcagtgaaa
+     3781 cctctttgga gtttcttctc atccccttcc ccctttcacg ctgcccttat ttcttgagta
+     3841 atgccaagcg cctctctcct tcctccactc ttctccctgt tagtttagtc cttcacacct
+     3901 gcaccgtatc ttctttttaa tttcattttg tctgcaccat tgtttttggc agccctccgt
+     3961 tttaaccccc tccccccgcc accaccatcc atttaaagtg gtgcttgtga ttctattctt
+     4021 ggcaaatgcc gtcagcccat aattaaaaaa agattgtaaa tgtgtaaaac taaaaactgc
+     4081 acttggacag agagggtaga gcagcagcta ctaagtcgac tcagccgtaa tgcaagtgac
+     4141 ttttactgac cttttgtaag cttgcagata tatgattttg taaactgctc gttctgcagc
+     4201 ttgacagtat ctctctgtgc agagtcaagt ctgaacgcag ttaaatttga aaactaaaca
+     4261 ttaattataa tttatgtagg actgtggaag taagaaatct tataagacag ttttcattag
+     4321 tgagtgcttc tgatgtgctg ccatccattt cccgttgtca tgtttttgaa cagctctgct
+     4381 ttttgcacca gttagactga ctccataagg tccaatttag cactaaatca gtctgaactt
+     4441 tgctaatatc ttagttagcc ttagctacat taaaagatag tattgattat accagtgcat
+     4501 gccaatgcca acgatcactt aagagtgtag tagcaaaact aagcaaacaa aaagtaagaa
+     4561 attatgtatt tcaagcatac aactgaaact atagggagag aaggattaaa gcctattcat
+     4621 tggcttgact gacacagaac caatcgacta ctctgctacc ttaacctagg agacaacagg
+     4681 tgat
+//

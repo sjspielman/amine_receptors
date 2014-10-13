@@ -1,0 +1,87 @@
+LOCUS       XM_004620597            1427 bp    DNA              MAM 20-MAY-2013
+DEFINITION  PREDICTED: Sorex araneus adrenoceptor beta 2, surface (ADRB2), mRNA.
+ACCESSION   XM_004620597
+VERSION     XM_004620597.1  GI:505854463
+DBLINK      BioProject: PRJNA193513
+KEYWORDS    RefSeq.
+SOURCE      Sorex araneus (European shrew)
+  ORGANISM  Sorex araneus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Insectivora; Soricidae;
+            Soricinae; Sorex.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004546021.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Sorex araneus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1427
+                     /mol_type="mRNA"
+                     /country="United Kingdom: Piel Island"
+                     /isolate="GB8-d"
+                     /sex="female"
+                     /db_xref="taxon:42254"
+                     /organism="Sorex araneus"
+                     /chromosome="Unknown"
+     gene            1..1427
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 27 Proteins"
+                     /db_xref="GeneID:101542799"
+                     /gene="ADRB2"
+     misc_feature    72..74
+                     /note="upstream in-frame stop codon"
+                     /gene="ADRB2"
+     CDS             186..1427
+                     /product="beta-2 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:505854464"
+                     /db_xref="GeneID:101542799"
+                     /translation="MGQAGNRSVLMLTANSSHQNATQLREEAWVVGMGIVMSLIVLAIV
+                     FGNVLVITAIAKFERLQTVTNYFITSLACADLVMGLAVVPFGACHILMKMWTFGNFWCE
+                     FWTSIDVLCVTASIETLCVIAVDRYFAITSPFKYQSLLTKNKARGVILMVWIVSGLTSF
+                     LPIQMHWYRATHQTAIDCYAEETCCDFFTNQAYAIASSIVSFYLPLVVMVFVYSKVFQV
+                     AKRQLQKIDRAEGRFHAQNLSQVEQDGRGGQRRASKFCLKEHKALKTLGIIMGTFTLCW
+                     LPFFIVNIVHVIQDNLIPKDIYIFLNWVGYANSAFNPLIYCRSPDFRIAFQELLCLRRS
+                     SLKACGNGYSNNSNDRTEYTGEQSGYHLGQEKDSQLLCGDPPGMEDFVSRQGTVPNDSI
+                     DSQGRNCSTNDSLL"
+                     /gene="ADRB2"
+                     /protein_id="XP_004620654.1"
+     STS             593..1041
+                     /db_xref="UniSTS:258478"
+                     /standard_name="ADRB2sts1"
+                     /gene="ADRB2"
+ORIGIN
+        1 cgagcccgga gcacccccgg cgctgagtgt gcaggacgcg cccccaccac acccaccgca
+       61 cggcccctgg atgaggctgc caggcgcccg ctcgctgccc gcagcgcccc gccggaggtc
+      121 cgcccgctga ggcaggcgcg gccactgcgc cgcggccacc gcgctcacct gcccgcccgc
+      181 gcgccatggg acaagccggg aaccgtagcg tcttgatgct gacggccaac tcgtcccacc
+      241 agaacgccac gcagctccgg gaggaggcgt gggtggtggg catgggcatc gtcatgtcgc
+      301 tcattgtcct cgccatcgtc ttcggcaacg tgctggtcat cacggccatc gccaagttcg
+      361 agcggctgca gacggtcacc aactacttca tcacgtccct ggcctgtgcc gacctggtca
+      421 tgggcctggc cgtggtgccc ttcggcgcct gccacatcct catgaaaatg tggacctttg
+      481 gcaacttctg gtgcgagttt tggacctcca tcgacgtgct gtgcgtcacg gccagcatcg
+      541 agaccctgtg cgtcatcgcg gtggatcgct acttcgccat cacgtcaccg ttcaagtacc
+      601 agagcctgct gaccaagaac aaagcccgcg gggtcatcct gatggtgtgg atcgtgtcgg
+      661 gcctcacctc cttcttgccc atccagatgc actggtaccg ggcgacccac cagacggcca
+      721 tcgactgcta cgccgaggag acctgctgtg atttcttcac gaaccaggcc tacgccatcg
+      781 cctcctccat cgtctccttc tacttaccgc tggtggtcat ggtcttcgtc tactccaagg
+      841 tgtttcaggt ggccaaaagg cagctgcaga agatcgacag ggccgagggc cgcttccacg
+      901 cccagaacct cagccaggtc gagcaggatg ggcggggtgg gcaacgcagg gcctccaagt
+      961 tctgcctgaa ggaacataaa gccctcaaga cgctgggcat catcatgggc acgttcaccc
+     1021 tgtgctggct gcccttcttc atcgtcaaca tcgtgcacgt gatccaggac aacctcatcc
+     1081 ctaaggatat ctacatcttc ctgaactggg tgggctacgc caactccgcc ttcaaccccc
+     1141 tgatctactg tcgcagcccc gatttcagga ttgccttcca ggagctcctg tgtctgcgca
+     1201 ggtcttctct gaaggcctgt gggaacggct actccaacaa cagcaacgac aggactgagt
+     1261 acacggggga gcagagcgga tatcacctgg ggcaggagaa agacagccaa ctgctgtgtg
+     1321 gggacccccc aggcatggaa gactttgtga gccggcaagg tactgtgcct aatgatagca
+     1381 ttgattctca agggaggaat tgtagtacca atgactcact gctgtaa
+//

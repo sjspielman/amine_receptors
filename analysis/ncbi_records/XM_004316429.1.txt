@@ -1,0 +1,109 @@
+LOCUS       XM_004316429            2201 bp    DNA              MAM 25-MAR-2013
+DEFINITION  PREDICTED: Tursiops truncatus muscarinic acetylcholine receptor
+            M2-like (LOC101334908), mRNA.
+ACCESSION   XM_004316429
+VERSION     XM_004316429.1  GI:470613911
+DBLINK      BioProject: PRJNA189944
+KEYWORDS    RefSeq.
+SOURCE      Tursiops truncatus (bottlenosed dolphin)
+  ORGANISM  Tursiops truncatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Cetacea;
+            Odontoceti; Delphinidae; Tursiops.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004199313.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Tursiops truncatus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2201
+                     /db_xref="taxon:9739"
+                     /mol_type="mRNA"
+                     /organism="Tursiops truncatus"
+                     /chromosome="Unknown"
+                     /sex="female"
+     gene            1..2201
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 14 mRNAs, 23 Proteins"
+                     /db_xref="GeneID:101334908"
+                     /gene="LOC101334908"
+     CDS             48..1448
+                     /product="muscarinic acetylcholine receptor M2-like"
+                     /codon_start="1"
+                     /db_xref="GI:470613912"
+                     /db_xref="GeneID:101334908"
+                     /translation="MNNSTNSSNNGLALTSPYKTFEVVFIVLVAGSLSLVTIIGNILVM
+                     VSIKVNRHLQTVNNYFLFSLACADLIIGVFSMNLYTLYTVIGYWPLGPVVCDLWLALDY
+                     VVSNASVMNLLIISFDRYFCVTKPLTYPVKRTTKMAGMMIAAAWVLSFVLWAPAILFWQ
+                     FIVGVRTVEDGECYIQFFSNAAATFGTAIAAFYLPVIIMTVLYWHISRASKSRIKKDKK
+                     EPVASQDPVSPSLVQGRIVKPNNNNMPGSDDGLEHNKIQNGKAPRDAVTENCVQGEEKE
+                     SSNDSTSVSAVASNMRDDEITQDENTVSTSLGHSKDENSKQTCIKIVTKTQKGDSCTPT
+                     NTTVEVVGSSGQNGNEKQSIVARKIVKMTKQPAKKKPPPSREKKVTRTILAILLAFIIT
+                     WAPYNVMVLINTFCAPCIPNTVWTIGYWLCYINSTINPACYALCNATFKKTFKHLLMCH
+                     YKNIGATR"
+                     /gene="LOC101334908"
+                     /protein_id="XP_004316477.1"
+     STS             48..1448
+                     /db_xref="UniSTS:481709"
+                     /gene="LOC101334908"
+     STS             381..975
+                     /db_xref="UniSTS:265990"
+                     /standard_name="CHRM2"
+                     /gene="LOC101334908"
+     STS             913..1446
+                     /db_xref="UniSTS:253964"
+                     /standard_name="CHRM2"
+                     /gene="LOC101334908"
+     STS             1133..1196
+                     /db_xref="UniSTS:479807"
+                     /standard_name="CHRM2"
+                     /gene="LOC101334908"
+ORIGIN
+        1 gtttaaatgt gtatttggct acttggctac tgattagaga acacaaaatg aataactcaa
+       61 caaactcctc taacaatggc ctggctctga ccagtcctta taagacattt gaagtggttt
+      121 ttattgtcct tgtggctggg tccctcagtt tggtgaccat tattgggaac atcctggtca
+      181 tggtctccat taaagtcaac cgccacctcc agaccgtcaa caattacttt ttgttcagct
+      241 tggcctgtgc tgacctcatc attggtgttt tctccatgaa cctgtacacc ctttacactg
+      301 tgattggcta ctggcctttg ggacctgtgg tgtgtgacct ttggctagcc ctggactatg
+      361 tggtcagcaa cgcctcagta atgaacctgc tcatcatcag ctttgacaga tacttctgcg
+      421 tcacaaaacc gctcacctat cccgtcaagc ggaccacaaa aatggcaggt atgatgattg
+      481 cagccgcctg ggttctctcc tttgtcctct gggctccggc cattctcttc tggcagttca
+      541 ttgtaggggt gagaactgtg gaggatgggg agtgctacat tcagttcttc tccaatgctg
+      601 ctgccacctt tggcactgcc attgcagctt tctatctgcc tgtgatcatc atgactgtgc
+      661 tatactggca catatcccga gccagtaaga gcaggataaa gaaggacaaa aaggagcctg
+      721 tggccagcca agatccagtt tctccaagtc tggttcaagg aaggatagtg aagccaaaca
+      781 acaacaacat gcctggcagt gatgatggcc tggagcacaa caaaatccag aacggcaaag
+      841 ctcccagaga tgctgtgact gaaaactgtg tccaggggga ggaaaaggaa agctccaatg
+      901 attccacctc agtcagtgct gtcgcctcta atatgagaga tgatgaaata acccaggatg
+      961 aaaacacagt ttccacttcc ctgggccact ccaaagatga gaactcaaag caaacatgca
+     1021 tcaaaatcgt caccaagacc caaaaaggtg actcatgtac cccaactaat accaccgtgg
+     1081 aggtagttgg ttcttcaggt cagaatggaa atgaaaaaca gagcattgtt gctcgcaaga
+     1141 ttgtaaagat gaccaagcag cctgcaaaaa agaagcctcc tccttcccgg gaaaagaaag
+     1201 tgaccaggac gatcttggcc attctgttgg ctttcatcat cacttgggcc ccatacaatg
+     1261 tcatggtgct cattaacacc ttctgtgcac cctgcatccc caacacagtg tggacaattg
+     1321 gttattggct ctgttacatc aacagcacta tcaaccctgc ctgctatgca ctttgtaatg
+     1381 ccaccttcaa gaagaccttt aaacaccttc tcatgtgtca ttataagaac ataggcgcca
+     1441 caaggtaaaa catctttgta aagaaagaag gtagtcaagg ggagcttggc gaaaagaaac
+     1501 agaataaaag agctcctagt tttcagatct ctgccattgc actttatagt cttatcatgg
+     1561 aatgtgcaat taaggagccc aacagtgaca ctcttatggt gcctatgctc cagtttgaaa
+     1621 cttgcacctt ataaaccctg tcagtttagg agcaaggaga ccattaagga gacatgttgg
+     1681 aactgtggat ttaagaaatg atctatgctt tctcatactc tcttgaagaa gggcttctga
+     1741 atctataatt ttatctctgc acaaaaagaa taataacctc actccttttt ttcatttttt
+     1801 tgttcccaag tgtccatatg aggatgaaat gccacagtta caaactaacc tggagagtta
+     1861 aacataaaga aagccattac acaatggcga agtgaacaaa gaagatcaaa aaaggatgtg
+     1921 gaaatggcct ccggagtgtt taacatatat tattctcttg ttttggtttt atgtggagaa
+     1981 ttgcaacata ataaatgctt atcttttttt gcctttccct ttcccaccat caaaagagag
+     2041 caaacaaaca aaaacaaaca aaaaacttaa ttacattaca tcattatttt tctcatatgg
+     2101 cattggtttt tatacttccc tgttttacat tgtgtaaggg caaaatctgc aggactttca
+     2161 ctaaatacgg agacagccat gaaaaagggt atttcacccc t
+//

@@ -1,0 +1,100 @@
+LOCUS       XM_004785988            2400 bp    DNA              MAM 13-JUN-2013
+DEFINITION  PREDICTED: Mustela putorius furo histamine receptor H3 (HRH3), mRNA.
+ACCESSION   XM_004785988
+VERSION     XM_004785988.1  GI:511934171
+DBLINK      BioProject: PRJNA158523
+KEYWORDS    RefSeq.
+SOURCE      Mustela putorius furo (domestic ferret)
+  ORGANISM  Mustela putorius furo
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+            Mustelidae; Mustelinae; Mustela.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004577027.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Mustela putorius furo Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2400
+                     /sub_species="furo"
+                     /mol_type="mRNA"
+                     /breed="Sable"
+                     /isolate="ID#4666"
+                     /sex="male"
+                     /db_xref="taxon:9669"
+                     /organism="Mustela putorius furo"
+                     /chromosome="Unknown"
+     gene            1..2400
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 14 Proteins"
+                     /db_xref="GeneID:101687449"
+                     /gene="HRH3"
+     CDS             1..1263
+                     /product="histamine H3 receptor"
+                     /codon_start="1"
+                     /db_xref="GI:511934172"
+                     /db_xref="GeneID:101687449"
+                     /translation="MADISAAWTAVLAALMALLIVATVLGNALVMLAFVADSSLRTQNN
+                     FFLLNLAISDFLVGAFCIPLYVPYVLTGRWPFSRGLCKLWLVVDYLLCTSSVFNIVLIS
+                     YDRFLSVTRAVSYRAQQGDTRRAVQKMVLVWVLAFLLYGPAILSWEYLSGGSSIPEGHC
+                     YAEFFYNWYFLITASTLEFFTPFLSVTFFNLSIYLNIQRRTRVRLDGVRDPEPAPDAQS
+                     SPPAAAPGCWGCWHKGRGEAMPLHRYGVGVGEAAPGTEAGEVALGGGSGGGAAASPTSS
+                     SGSSSRGTERPRSLKRGSKPSASSASLEKRMKMVSQSITQRFRLSRDKKVAKSLAVIVS
+                     IFGLCWAPYTLLMIIRAACHGHCVPDYWYETSFWLLWANSAVNPVLYPLCHYSFRRAFT
+                     KLLCPQKLKVQPHSSLERCWK"
+                     /gene="HRH3"
+                     /protein_id="XP_004786045.1"
+ORIGIN
+        1 atggcggaca tctccgccgc ctggaccgcg gtgctggccg cgctcatggc gctgcttatc
+       61 gtggccacgg tgctcggcaa cgcgctggtc atgctcgcct tcgtggccga ctcgagcctc
+      121 cgcacccaga acaacttctt tctgctcaac ctcgccatct ccgacttcct cgtgggggcc
+      181 ttctgcatcc cactctatgt gccctacgtg ctgactggcc gctggccctt tagccggggt
+      241 ctctgcaaac tgtggctggt ggtggactat ctgctctgca cgtcctctgt cttcaacatc
+      301 gtgctcatca gctacgaccg cttcctgtcg gtcacccgcg ccgtgtccta ccgggcccag
+      361 cagggcgaca cacggcgggc ggtgcagaag atggtgctgg tgtgggtcct ggccttcctg
+      421 ctgtacgggc ctgccatcct gagctgggag tacctgtcgg gcggcagctc catcccagag
+      481 ggccactgct atgccgagtt cttctacaac tggtacttcc tcatcacggc ctccacactc
+      541 gagttcttca cgcccttcct cagcgtcact ttcttcaacc tgagcatcta cctgaacatc
+      601 cagaggcgca cccgcgtccg gctggatggc gtgcgggacc ccgagcccgc acctgatgcc
+      661 cagtcctcgc ccccagcggc tgcgccaggc tgctggggct gctggcacaa ggggcgaggg
+      721 gaggccatgc cgctgcatag gtacggggtc ggggtgggcg aggcagcccc tggcacggag
+      781 gccggggagg tggccctcgg gggtggtagc ggtgggggcg ccgcggcctc gcccacctcc
+      841 agctccggca gctcctcccg gggcacagag cggccgcgct cgctcaagcg gggctccaag
+      901 ccctcggcgt cctcggcgtc cctggagaag cgcatgaaga tggtgtccca aagcatcacc
+      961 cagcgcttcc ggctgtcgcg ggacaagaag gtggccaagt cgctggccgt catcgtgagc
+     1021 atctttgggc tctgctgggc cccatacaca ctcctgatga ttatccgggc cgcctgccat
+     1081 ggccactgcg tccccgacta ctggtatgag acctccttct ggctgctgtg ggccaactcc
+     1141 gccgtcaacc ctgtcctcta cccgctgtgc cactacagtt tccgacgagc cttcaccaag
+     1201 ctgctctgcc cccagaagct taaagtccag ccccatagct ccctggagcg ctgctggaag
+     1261 tgagcggcct tcctgggcac ctgggaggcc gggacagggc cctcccactg ccactcccct
+     1321 ttgaggctct gcttctcacc gcccaccacc cccccttggc agccgacccc accatctccc
+     1381 acctggctgc cctggctgtc ccccaggtgg gagctacacc ttgtcttcag cccatctgaa
+     1441 atgccacggc agcctctctt agaccacctg cccatggcgg ggcagctcgg tgggctggcc
+     1501 ggagaggccc gagaggccct cgctgccctg ccacccagac cctggctcca ccccaggagg
+     1561 ggccgtccca gccctgctgc ctccacagat ggtctgatgg ccagcggcgc ccaccctttg
+     1621 cacagttact gcttggtgtt cttcccaaag caagtgaccg gtgtgtgctc cgtgccccgt
+     1681 gacgctgcag tccgccccgc gcgtgcacgc acctgcacgc tccacccccc acccccgtca
+     1741 acgagcccgg gccgtcggct ctgctgctgt ctgtccccgc tgaagcccag gcgccggctc
+     1801 cgtcatccct catccttcca actccctctg ccccaacgtg tcaagcgccc cccgggaact
+     1861 tcgcggccgg tctccgctct tccattctgg gtgtttcagg aaaacgaaga agaaaacacg
+     1921 tccgtgaacc ccatgttcct tggctgttta atcaagagag acaaaattgc tgaggcgctc
+     1981 agggctggat tggcaggtgt gggctcccac gccctccttc ctcgtgctgc tgcttccggc
+     2041 tgagctgcgc cagctgcttc tgcccacccc gcccccgggc tcggggtgct gggccctgcc
+     2101 tggcagctct gagagcggcc ggagcgctgg acgtgtgctc gtccagaagg ccgcccctcc
+     2161 cgctccatct gctcaaccag cctcctgggg ctggcagctg ggtggggact ggccatgccc
+     2221 tgagggtccc gaggcttgca ggggcagccc gaagagacca gggtcccggg gcatgcccag
+     2281 gggaggggcc gttcgccatg tcccgtgcac ccgtcggcgc tctgcatgcc ccaccccctg
+     2341 cgtgtccacg cgctatcttg cagactctga ggtccacagt aaagcgtatt tttttattgg
+//

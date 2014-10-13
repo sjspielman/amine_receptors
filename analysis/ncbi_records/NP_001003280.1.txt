@@ -1,0 +1,128 @@
+LOCUS       NP_001003280             377 aa                     MAM 22-FEB-2014
+DEFINITION  5-hydroxytryptamine receptor 1D [Canis lupus familiaris].
+ACCESSION   NP_001003280
+VERSION     NP_001003280.1  GI:50979086
+KEYWORDS    RefSeq.
+SOURCE      Canis lupus familiaris (dog)
+  ORGANISM  Canis lupus familiaris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae;
+            Canis.
+REFERENCE   1  (residues 1 to 377)
+  AUTHORS   Zgombick JM, Weinshank RL, Macchi M, Schechter LE, Branchek TA and
+            Hartig PR.
+  TITLE     Expression and pharmacological characterization of a canine
+            5-hydroxytryptamine1D receptor subtype
+  JOURNAL   Mol. Pharmacol. 40 (6), 1036-1042 (1991)
+   PUBMED   1758439
+REFERENCE   2  (residues 1 to 377)
+  AUTHORS   Maenhaut C, Van Sande J, Massart C, Dinsart C, Libert F, Monferini
+            E, Giraldo E, Ladinsky H, Vassart G and Dumont JE.
+  TITLE     The orphan receptor cDNA RDC4 encodes a 5-HT1D serotonin receptor
+  JOURNAL   Biochem. Biophys. Res. Commun. 180 (3), 1460-1468 (1991)
+   PUBMED   1659418
+REFERENCE   3  (residues 1 to 377)
+  AUTHORS   Libert F, Parmentier M, Lefort A, Dumont JE and Vassart G.
+  TITLE     Complete nucleotide sequence of a putative G protein coupled
+            receptor: RDC4
+  JOURNAL   Nucleic Acids Res. 18 (7), 1916 (1990)
+   PUBMED   2159630
+REFERENCE   4  (residues 1 to 377)
+  AUTHORS   Libert F, Parmentier M, Lefort A, Dinsart C, Van Sande J, Maenhaut
+            C, Simons MJ, Dumont JE and Vassart G.
+  TITLE     Selective amplification and cloning of four new members of the G
+            protein-coupled receptor family
+  JOURNAL   Science 244 (4904), 569-572 (1989)
+   PUBMED   2541503
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from X14049.1.
+            ##Evidence-Data-START##
+            Transcript exon combination :: X14049.1 [ECO:0000332]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..377
+                     /db_xref="taxon:9615"
+                     /sub_species="familiaris"
+                     /organism="Canis lupus familiaris"
+                     /chromosome="2"
+                     /map="2"
+     Protein         1..377
+                     /note="5-HT1D; 5-HT-1D; serotonin receptor 1D"
+                     /product="5-hydroxytryptamine receptor 1D"
+                     /calculated_mol_wt="41752"
+     Site            39..64
+                     /note="propagated from UniProtKB/Swiss-Prot (P11614.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          62..356
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Site            76..98
+                     /note="propagated from UniProtKB/Swiss-Prot (P11614.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            113..134
+                     /note="propagated from UniProtKB/Swiss-Prot (P11614.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          114..123
+                     /note="propagated from UniProtKB/Swiss-Prot (P11614.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Agonist binding (By similarity)"
+     Region          135..137
+                     /note="propagated from UniProtKB/Swiss-Prot (P11614.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="DRY motif, important for ligand-induced
+                     conformation changes (By similarity)"
+     Site            155..176
+                     /note="propagated from UniProtKB/Swiss-Prot (P11614.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            195..217
+                     /note="propagated from UniProtKB/Swiss-Prot (P11614.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            303..326
+                     /note="propagated from UniProtKB/Swiss-Prot (P11614.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          314..318
+                     /note="propagated from UniProtKB/Swiss-Prot (P11614.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Agonist binding (By similarity)"
+     Site            336..360
+                     /note="propagated from UniProtKB/Swiss-Prot (P11614.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          352..356
+                     /note="propagated from UniProtKB/Swiss-Prot (P11614.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="NPxxY motif, important for ligand-induced
+                     conformation changes and signaling (By similarity)"
+     CDS             1..377
+                     /coded_by="NM_001003280.1:396..1529"
+                     /gene="HTR1D"
+                     /gene_synonym="RDC4"
+                     /db_xref="GeneID:403963"
+ORIGIN
+        1 msppnqsleg llqeasnrsl natetpeawg petlqalkis lalllsiitm atalsnafvl
+       61 ttifltrklh tpanyligsl amtdllvsil vmpisiaytt trtwsfgqil cdiwlssdit
+      121 cctasilhlc vialdrywai tdaleyskrr tagraavmia tvwvisicis ipplfwrqak
+      181 aqedmsdcqv ntsqisytiy stcgafyips vlliilygri yvaarnriln ppslygkrft
+      241 taqlitgsag sslcslspsl qeershaagp plffnhvqvk laegvlerkr isaarerkat
+      301 ktlgiilgaf ivcwlpffva slvlpicras cwlhpalfdf ftwlgylnsl inpiiytvfn
+      361 eefrqafqrv vhvrkas
+//

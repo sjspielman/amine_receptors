@@ -1,0 +1,97 @@
+LOCUS       XM_005558203            1539 bp    DNA              PRI 19-SEP-2013
+DEFINITION  PREDICTED: Macaca fascicularis 5-hydroxytryptamine (serotonin)
+            receptor 4, G protein-coupled (HTR4), transcript variant X5, mRNA.
+ACCESSION   XM_005558203
+VERSION     XM_005558203.1  GI:544440244
+DBLINK      BioProject: PRJNA215851
+KEYWORDS    RefSeq.
+SOURCE      Macaca fascicularis (crab-eating macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005092971.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Macaca fascicularis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1539
+                     /mol_type="mRNA"
+                     /country="Indonesia: Tinjil, Java South Coast"
+                     /dev_stage="5.8 year-old"
+                     /sex="female"
+                     /db_xref="taxon:9541"
+                     /organism="Macaca fascicularis"
+                     /chromosome="6"
+     gene            1..1539
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 4 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 2 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:102142641"
+                     /gene="HTR4"
+     CDS             347..1483
+                     /product="5-hydroxytryptamine receptor 4 isoform X5"
+                     /codon_start="1"
+                     /db_xref="GI:544440245"
+                     /db_xref="GeneID:102142641"
+                     /translation="MDKFDANVSSKEGFGSVEKVVLLTFLSAVILMAILGNLLVMVAVC
+                     WDRQLRKIKTNYFIVSLAFADLLVSVLVMPFGAIELVQDIWIYGEMFCLVRTSLDVLLT
+                     TASIFHLCCISLDRYYAICCQPLVYRNKMTPLRIALMLGGCWVIPTFISFLPIMQGWNN
+                     IGIIDLIEKRKFNQNSNSTYCVFMVNKPYAITCSVVAFYIPFLLMVLAYYRIYVTAKEH
+                     AHQIQMLQRAGASSESRPQSADQHSTHRMRTETKAAKTLCIIMGCFCLCWAPFFVTNIV
+                     DPFIDYSVPGQVWTAFLWLGYINSGLNPFLYAFLNKSFRRAFLIILCCDDERYRRPSIL
+                     GQTVPCSTTTINGSTHVLRKPILNIVAEKKINNLMIKH"
+                     /gene="HTR4"
+                     /protein_id="XP_005558260.1"
+     STS             941..1019
+                     /db_xref="UniSTS:495967"
+                     /standard_name="Htr4"
+                     /gene="HTR4"
+     STS             1007..1145
+                     /db_xref="UniSTS:504885"
+                     /standard_name="HTR4"
+                     /gene="HTR4"
+ORIGIN
+        1 tgtccaaggt cacccaggag cctgcaatca acccagggct cccgcctgac ctccatcaga
+       61 tgggcagcgc tcccgccagg gagggcgcgt gctggccagc ccggagcggg tgagatcgcc
+      121 ccagcccgcc tctgcgccca ctcccctgtg cgccgtgctg gcagagcggc acccccgctg
+      181 tccctggcgc ccagtggggg cggcagcggg cagggcagcg gggaccaccg gggctggggg
+      241 ctgttgatcc cgtggagtcc ggctcggttg gggagaagaa ccatgcgcag cgagcccagg
+      301 accctgtggg caccgaaatc cgactcactc atgcttattt cctgtaatgg acaaatttga
+      361 tgctaatgtg agttccaagg agggtttcgg gtcagtggag aaggtcgtgc tgctcacgtt
+      421 tctctcggca gttatcctga tggccatctt ggggaacctg ctggtgatgg tggctgtgtg
+      481 ctgggacagg cagctcagga aaataaaaac aaattatttc attgtatctc ttgcttttgc
+      541 ggatctgctg gtttcggtgc tggtgatgcc ctttggtgcc attgagctgg ttcaagacat
+      601 ctggatttat ggggagatgt tttgtcttgt tcggacatct ctggacgtcc tgctcacaac
+      661 agcatcgatt tttcacctgt gctgcatttc cctggatagg tattacgcca tctgctgcca
+      721 gcctttggtc tataggaaca agatgacccc tctgcgcatt gcattaatgc tgggaggctg
+      781 ctgggtcatc cccacgttta tttcttttct ccctataatg caaggctgga ataacattgg
+      841 cataattgat ttgatagaaa agaggaagtt caaccagaac tctaactcta cgtactgtgt
+      901 cttcatggtc aacaagccct atgccatcac ctgctctgtg gtggccttct acatcccatt
+      961 tctcctcatg gtgctggcct attaccgcat ctatgtcaca gctaaggagc atgcccacca
+     1021 gatccagatg ttacaacggg caggagcctc ctctgagagc aggcctcagt cggcagacca
+     1081 gcatagcact caccgcatga ggacagagac caaagcagcc aagaccctgt gcatcatcat
+     1141 gggctgcttc tgcctctgct gggcaccatt ctttgtcacc aatatcgtgg atcctttcat
+     1201 agactacagt gtccctgggc aggtgtggac cgctttcctc tggctcggct atatcaattc
+     1261 cgggttgaac ccttttctct atgccttctt gaataagtct tttagacgtg ccttcctcat
+     1321 catcctctgc tgtgatgatg agcgctaccg aagaccttcc attctgggcc agactgtccc
+     1381 ttgttcaacc acaaccatta acggatccac acatgtacta aggaaaccca tactgaacat
+     1441 agtggcagag aagaaaataa acaacctaat gataaaacat tagctgcgtt cctactaaag
+     1501 tcaggaataa gacaatgatg tcttatcatc tctcgtggt
+//

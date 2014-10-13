@@ -1,0 +1,102 @@
+LOCUS       XM_005016597            2028 bp    DNA              VRT 26-JUN-2013
+DEFINITION  PREDICTED: Anas platyrhynchos 5-hydroxytryptamine (serotonin)
+            receptor 2C, G protein-coupled (HTR2C), transcript variant X1, mRNA.
+ACCESSION   XM_005016597
+VERSION     XM_005016597.1  GI:514732667
+DBLINK      BioProject: PRJNA208071
+KEYWORDS    RefSeq.
+SOURCE      Anas platyrhynchos (mallard)
+  ORGANISM  Anas platyrhynchos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Anseriformes; Anatidae;
+            Anas.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004676770.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Anas platyrhynchos Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2028
+                     /mol_type="mRNA"
+                     /country="China: Beijing"
+                     /breed="Pekin duck"
+                     /sex="female"
+                     /isolation_source="Gold Star Duck Production"
+                     /db_xref="taxon:8839"
+                     /organism="Anas platyrhynchos"
+                     /chromosome="Unknown"
+     gene            1..2028
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 8 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 3 samples with support for all annotated introns"
+                     /db_xref="GeneID:101792508"
+                     /gene="HTR2C"
+     misc_feature    498..500
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR2C"
+     CDS             534..1955
+                     /product="5-hydroxytryptamine receptor 2C isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:514732668"
+                     /db_xref="GeneID:101792508"
+                     /translation="MMSTLSSTGILLSLTTVSVTLDFSLHGGLMAWSLSSNLTLNQSLP
+                     TSDPLNASEKGEVSRMSVREKNWPALLILVIILLTIGGNILVIMAVSLEKKLQNATNFF
+                     LMSLAVADMLVGILVMPVSLIAVLYDYAWPLPKQLCPIWISLDVLFSTASIMHLCAISL
+                     DRYVAIRNPIEHSRFNSRTKAIMKIAAVWTISIGISMPIPVIGLQDDSRVFINGTCVLN
+                     DENFVLIGSFMAFFIPLIIMVITYCLTVQVLQRQATVFMCGEVPKQRRSSVNCLKKENN
+                     TENISMLHNHEGASHLNSPVNKEAVLFRKGTMQSINNERRASKVLGIVFFLFLIMWCPF
+                     FITNVMSVLCKEACDKDLLSELLDVFVWVGYVCSGINPLVYTLFNKTYRRAFSNYIRCQ
+                     YKTSKKSALRQNQCLNVASTALYGKDLTLTSYRNGNELNSMELDEAEEGLVMQPGTSEL
+                     SINSCNVVSERVSCV"
+                     /gene="HTR2C"
+                     /protein_id="XP_005016654.1"
+ORIGIN
+        1 tgatactgaa gaatgggcaa accaacatga aatttgttca tcccaataat actattcata
+       61 gattcagctc tccttttgca gcctgtgctg ctgtcaccca ggattaaaag ctgcagatat
+      121 gccagggctg cattgagggt tttcagtgac ttggatgagg actgcactga tgcatcagaa
+      181 tgctgtgggc aatgacttct gggaagataa aaataaagta cagctaatgg acctgagttc
+      241 ctctgtttcc ttttggcagt cattcatgct aatgcaaaaa tggtggacct ggaaatcagc
+      301 tggagattgc gaagtctact ttccctgaag gttgctggtc agtggtcacc ttctgcttca
+      361 tacaaggaaa ctagaagagc tccacattaa cttctgtatg gtttgtttca caatggaaga
+      421 tcaaatgatt ttctggctca ggttttgtga agttcgacat ctaatttgga cccaaacttt
+      481 ggaaaaggga tcatctctga ggaagagtta agagacagat taagcagtac cagatgatga
+      541 gcactttaag tagcactgga atattactca gcttgacaac agtgtctgtt acactggatt
+      601 ttagtttgca tggtggtctc atggcttggt ctttaagcag caatttgact ctgaatcaga
+      661 gtttgcctac atctgatcct cttaatgcct ctgagaaggg cgaagtctct cggatgtcag
+      721 tgagagagaa gaactggcca gccctcttga tcttggtcat cattctgctt accattgggg
+      781 ggaacatact ggtaattatg gctgtgtcct tggagaagaa attgcagaac gccacaaact
+      841 tcttcctgat gtccttggca gtggcagaca tgctggtggg tatcctggtc atgcccgtgt
+      901 cgctcattgc agtcctgtac gattatgctt ggcctttgcc taaacagttg tgccctatat
+      961 ggatttccct agatgtgctc ttttcaactg catctattat gcatctctgt gccatctctc
+     1021 ttgatcggta tgtagcaata cgcaatccca ttgagcacag ccgcttcaat tcccgcacca
+     1081 aggctattat gaaaattgct gcagtttgga ccatatccat agggatatct atgcccattc
+     1141 cagtcattgg tttgcaggat gactccaggg tattcataaa tgggacttgc gtcctcaacg
+     1201 atgagaactt cgtcctcatt ggatccttca tggcattctt catccctctc atcatcatgg
+     1261 ttatcacata ttgcctgacc gtccaggtgc tgcagagaca ggcaacagtg ttcatgtgtg
+     1321 gagaggtgcc caagcagagg agaagcagtg tgaactgcct caaaaaagaa aacaacacag
+     1381 agaacatttc aatgcttcac aatcatgagg gggcatctca cttgaactct cctgtgaata
+     1441 aggaggcagt gctttttcgg aaaggaacca tgcagtccat caacaatgaa cgaagagcct
+     1501 ccaaggtcct gggcatcgtt ttctttttgt tcctcatcat gtggtgccca tttttcatca
+     1561 ctaacgtcat gtctgtcctt tgcaaggaag cctgcgataa agacctcttg agtgaactcc
+     1621 tcgatgtgtt tgtttgggtg gggtatgttt gttctgggat taatcccctt gtatacacac
+     1681 ttttcaataa aacataccgc agggcttttt ccaattatat ccgctgccaa tacaagacca
+     1741 gtaaaaaatc agcactgcga cagaatcagt gtctgaatgt tgcttcaaca gctttatatg
+     1801 ggaaggatct gactttaact agttatcgaa atggcaatga actcaacagc atggaactag
+     1861 atgaagctga ggagggcctt gtaatgcaac cagggacttc agagctctcc ataaacagct
+     1921 gtaatgttgt aagtgaaaga gtgagctgtg tgtaaaggtg gctcacacag ccttttgctg
+     1981 cagtatatct gtagccaaaa tatattgtat aaaaatgtac gtgttggt
+//

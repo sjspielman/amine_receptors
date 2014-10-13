@@ -1,0 +1,64 @@
+LOCUS       XP_002187301             606 aa                     VRT 12-FEB-2013
+DEFINITION  PREDICTED: octopamine receptor-like [Taeniopygia guttata].
+ACCESSION   XP_002187301
+VERSION     XP_002187301.2  GI:449501482
+DBLINK      BioProject: PRJNA32405
+KEYWORDS    RefSeq.
+SOURCE      Taeniopygia guttata (zebra finch)
+  ORGANISM  Taeniopygia guttata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Estrildidae; Estrildinae; Taeniopygia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_002198638.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Feb 12, 2013 this sequence version replaced gi:224050285.
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Taeniopygia guttata Annotation Release 101
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..606
+                     /isolate="Black17"
+                     /sex="male"
+                     /organism="Taeniopygia guttata"
+                     /chromosome="4"
+                     /db_xref="taxon:59729"
+     Protein         1..606
+                     /product="octopamine receptor-like"
+                     /calculated_mol_wt="68863"
+     Region          280..>503
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          296..547
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..606
+                     /coded_by="XM_002187265.2:1..1821"
+                     /gene="LOC100226355"
+                     /db_xref="GeneID:100226355"
+ORIGIN
+        1 mpcvrfppsq lpaaldkyks iyrkdfcwhg dyrspiqahl ptpsyppled lpkcclpefq
+       61 psdltpgrag kleilaepmh dlcccsplpa paltngteea lvptelpppk lityqqfaqd
+      121 lynevllnad kyktknqnss vllqddsdle wksiymqdfe pqrgicagly teeirpspvf
+      181 pednrynesr wvseyadsys iflkkldwss pisaqwlpfg kdvrwtprwk lvgfnsgkml
+      241 mdrnetwlsn fssaassfar ggvglqevlv gfvltlidlv tllgntvvfl cpvvekrlrt
+      301 vtymfimsla tadflvaclv mpfsiiyevt gmwlfgklfc kvwisfdvmf ctasivtlcf
+      361 isldrycsvv tpyhysrrms rgrcivmtct vwvysslisf lpvmqgwnei pgvdfdagre
+      421 cifvtnwvfa ivasalaffl pfvvmcsmyf fiyrasrlka trimsqtlei hyhpnskrqn
+      481 hlqlenkatr tisiiisvfv lcwlpyfvln vwlaargtds tstvllgtfk iitwlgycns
+      541 tinpllyafl nrdfqhalkk lllcrrrsqv dvgedmvsia tfsktapele ysvtvpngap
+      601 kgkaks
+//

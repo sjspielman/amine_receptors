@@ -1,0 +1,101 @@
+LOCUS       XM_005352952            2283 bp    DNA              ROD 21-AUG-2013
+DEFINITION  PREDICTED: Microtus ochrogaster 5-hydroxytryptamine (serotonin)
+            receptor 6, G protein-coupled (Htr6), mRNA.
+ACCESSION   XM_005352952
+VERSION     XM_005352952.1  GI:532018529
+DBLINK      BioProject: PRJNA210839
+KEYWORDS    RefSeq.
+SOURCE      Microtus ochrogaster (prairie vole)
+  ORGANISM  Microtus ochrogaster
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Arvicolinae; Microtus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004949004.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Microtus ochrogaster Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2283
+                     /mol_type="mRNA"
+                     /isolate="Prairie Vole_2"
+                     /sex="female"
+                     /db_xref="taxon:79684"
+                     /organism="Microtus ochrogaster"
+                     /chromosome="10"
+     gene            1..2283
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 mRNAs, 1 long SRA read, 3
+                     Proteins, and 79% coverage of the annotated genomic feature
+                     by RNAseq alignments"
+                     /db_xref="GeneID:101991178"
+                     /gene="Htr6"
+     CDS             356..1675
+                     /product="5-hydroxytryptamine receptor 6"
+                     /codon_start="1"
+                     /db_xref="GI:532018530"
+                     /db_xref="GeneID:101991178"
+                     /translation="MVPEPGPINNSTPVWGPGPPPAPGGSGWVAAALCVVIVLTAAANS
+                     LLIVLICTQSALRNTSNFFLVSLFTSDLMVGLVVMPPAMLNALYGRWVLARGLCLLWTA
+                     FDVMCCSASILNLCLISLDRYLLILSPLRYKLRMTTPRALALILGAWSLAALASFLPLL
+                     LGWHKLGNARTPAPGQCRLLASLPFVLVASGVTFFLPSGAICFTYCRILLAARKQAVQV
+                     ASLTTGMTGQALETLQVPRTPRPGMESTDSRRLATKHSRKALKASLTLGILLGMFFVTW
+                     LPFFVANIAQAVCDCISPGLFDVLTWLGYCNSTMNPIIYPLFMRDFKRALGRFLPCIHC
+                     PPEHRASPASPSVWTSHSGARPGLSLQQVLPLPLPTNSDSDSASGGTSGLQLTAAQLLL
+                     PGEATREPPPPTRATAVVNFFVADSVEPEIQQHPLSSPTN"
+                     /gene="Htr6"
+                     /protein_id="XP_005353009.1"
+ORIGIN
+        1 aggagcccca cccccatctt acgccatccc aggtggctct gttccactcc agggttctct
+       61 cattcaacgc caacctaact ttaattaact cggttcatca ggtacccctc cccaaacttc
+      121 ttacctgagt cctccaggtg gccccaccgt tggagacacc ccatacagcc ccttcccgtt
+      181 ggagacaccc ctacagccgc ttcccgatct cttgtaatcg ccgcttggtg acctaaggtc
+      241 cccgtgttgt tactcctccg gggcgcaatt tttacctagc ttccttcctc ttcctttggt
+      301 ttcatcctgt ccccgcgttc actatatccc gtcttggtcc tcaaccctag tccccatggt
+      361 cccagagccg ggccctatca acaatagcac cccagtctgg gggcctgggc cacctcctgc
+      421 cccaggggga agcggctggg tggccgcggc gctttgcgtg gtcatcgtgc tgacagcggc
+      481 cgccaattcg ttgctgatcg tactcatctg cacgcagtcc gcgctgcgca acacgtctaa
+      541 cttcttcctg gtgtcgctct tcacatcgga cctgatggtg gggttggtgg tgatgccccc
+      601 ggccatgctg aatgcactgt atgggcgctg ggtgctggcg cgcggcctct gcctactttg
+      661 gaccgccttc gacgtgatgt gctgcagcgc ctccatcctc aacctctgcc tcatcagcct
+      721 ggaccgctac ctgctcatcc tctccccgct gcgctacaag ctgcgcatga caaccccgcg
+      781 tgccttggcg ctcatcctgg gtgcctggag ccttgcggcg cttgcctcct tcctgcccct
+      841 gttgctgggc tggcacaaac tgggcaacgc tcggacacct gcccccggcc agtgccgctt
+      901 attggccagc ctgccttttg tcctcgtggc gtccggagtc acctttttcc tgccctcagg
+      961 tgccatctgc ttcacctact gcaggatcct gctggctgcc cgcaagcagg cggtgcaagt
+     1021 ggcctcacta accacgggca tgactggcca ggccctggag accttgcagg tgcccaggac
+     1081 cccacgccca gggatggagt ccactgacag caggcgtttg gccaccaagc atagcaggaa
+     1141 ggccttgaag gccagcttga ccctgggcat ccttctgggc atgttctttg tcacctggct
+     1201 gcccttcttt gtggccaaca tagctcaggc tgtgtgtgac tgcatctccc caggcctctt
+     1261 cgacgtcctc acctggctcg ggtattgtaa tagcaccatg aaccccatca tctacccact
+     1321 cttcatgcgg gacttcaaga gggccctggg caggttcctg ccatgcattc actgtccgcc
+     1381 ggagcaccgg gccagccctg cctccccctc cgtgtggact tcccacagcg gtgcacgacc
+     1441 aggcctcagc ctgcagcagg tgctgcctct gcctttgcca acgaattcag attcagactc
+     1501 agcgtcaggg ggcacctcgg gcctgcagct cacggcagct cagcttctgc tgcctggaga
+     1561 ggcaacccgg gaacccccgc cacccaccag ggccaccgct gtggtcaact tcttcgtcgc
+     1621 ggactctgtg gagcccgaga tacagcagca tccactgagt tcccccacga actgacccgg
+     1681 tcaagagctg gtcaatggag aaccacattc cagagaactc aacccactct ccctcagcct
+     1741 gggaagtgag ctccatgagg catccttggc taacccccat tgacatgagg agtgatcaga
+     1801 aacagctctg tatggagagt cacctgtggt ttgtgtagtg tggctggggg ccttggggag
+     1861 atgggtcatt tggttcaggc cagcaggaaa gcaacctgta cttggtcctt tttttcttgg
+     1921 taggtgggaa gaacgctcat ctagataccc cagttcttgt ctggcccaat cccctgctat
+     1981 ccaaagtgcc atccttggga tactggggct ctcataggcc ttggggagtt tattcaaagt
+     2041 gccccccttt ccactgaaga tacactcagt caaaattgta tgttcatgag ctttcccacg
+     2101 tatgcatttg ctggacactt tggacctgcc agcccctagg atgggaactg ccacactaaa
+     2161 aagcacctta ggctggaagc caggcagcca gaaacatgac cctttcctca actgtctatg
+     2221 gcagcttggg ggcttggcac aggtctcaag gggagagaca atgtaaatgg tgtgcccagc
+     2281 acc
+//

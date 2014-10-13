@@ -1,0 +1,61 @@
+LOCUS       XP_005147430             368 aa                     VRT 26-JUL-2013
+DEFINITION  PREDICTED: histamine H2 receptor [Melopsittacus undulatus].
+ACCESSION   XP_005147430
+VERSION     XP_005147430.1  GI:527258339
+DBLINK      BioProject: PRJNA197262
+KEYWORDS    RefSeq.
+SOURCE      Melopsittacus undulatus (budgerigar)
+  ORGANISM  Melopsittacus undulatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Psittaciformes;
+            Psittacidae; Melopsittacus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004848247.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Melopsittacus undulatus Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..368
+                     /db_xref="taxon:13146"
+                     /organism="Melopsittacus undulatus"
+                     /chromosome="Unknown"
+                     /sex="male"
+     Protein         1..368
+                     /product="histamine H2 receptor"
+                     /calculated_mol_wt="41272"
+     Region          30..311
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          42..296
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..368
+                     /coded_by="XM_005147373.1:1..1107"
+                     /gene="HRH2"
+                     /db_xref="GeneID:101880414"
+ORIGIN
+        1 mdpcynhtss qkrmdfplql lvgscltili vitlcgniiv clavtldrrl rsltnciivs
+       61 laitdlllgl lvlpfsafye lakewpfgst lcniytsldv mlctasilnl fmisldryfa
+      121 vttplrysql vtpsrvavgl aviwtvslmv sflpihlgwn tngtavqntv pncnrectle
+      181 vnpvyglvda lltfyiplvi mcityyrifk iareqakrin htwccssnth mppmvrehka
+      241 tvtlavvmga fivcwfpyft vftyrgmwgd srvkgtpmsi vlwlgyansa lnpilygtls
+      301 rdfraayqhl lhcwrtggpr ssdlppsqka hsrgrncrqs qgrqegkplr lemrngkgil
+      361 ltdgalkr
+//

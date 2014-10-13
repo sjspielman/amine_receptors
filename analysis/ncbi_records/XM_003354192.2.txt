@@ -1,0 +1,92 @@
+LOCUS       XM_003354192            1888 bp    DNA              MAM 26-SEP-2013
+DEFINITION  PREDICTED: Sus scrofa histamine receptor H2 (HRH2), transcript
+            variant X1, mRNA.
+ACCESSION   XM_003354192
+VERSION     XM_003354192.2  GI:545811445
+DBLINK      BioProject: PRJNA28993
+KEYWORDS    RefSeq.
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003534298.2) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 26, 2013 this sequence version replaced gi:335283113.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Sus scrofa Annotation Release 104
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1888
+                     /breed="mixed"
+                     /db_xref="taxon:9823"
+                     /mol_type="mRNA"
+                     /organism="Sus scrofa"
+                     /chromosome="2"
+     gene            1..1888
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 13 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 18 samples with support for all annotated
+                     introns"
+                     /db_xref="GeneID:100625720"
+                     /gene="HRH2"
+     CDS             806..1888
+                     /product="histamine H2 receptor isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:335283114"
+                     /db_xref="GeneID:100625720"
+                     /translation="MASNSTASSSCLDPLAFKVTVSLILILLIFITIAGNVVVCLAVGL
+                     NRRLRSLTNCFIVSLAVTDLLLGLLVLPFSAFYQLSCRWSFGKVFCNIYTSLDVMLCTA
+                     SILNLFMISLDRYCAVTDPLRYPVLITPARVAISLVLIWVISITLSFLSIHLEWNSSRM
+                     DPSGVNHTISKCKVQVNLVYGLVDGLVTFYLPLLVMCITYYRIFKIARDQAKRIHNISS
+                     WRAATIREHKATVTLAAVMGAFIICWFPYFSVFVYRGLKGDEAVDETVEAIVLWLGYAN
+                     SALNPILYAALNRDFRTAYQQLFRCSPTSHNAHRTPLRSNSSQLMRNQSQETRWQEERP
+                     LRLQVWSGAEVAAAQEATDR"
+                     /gene="HRH2"
+                     /protein_id="XP_003354240.1"
+ORIGIN
+        1 gagtgtggag agggagaaaa gccaaggcca agaatgtgag tgtgtgcgcg tcgcgcgcgg
+       61 agtgggggaa agagaggagg gagcgaggga gcgaaagagc cttggagagg gaaggaagag
+      121 aagcagcggc cgggagccag gaggagcgag ttgggggcgg agacgaggaa gtgggcgcga
+      181 ggcgcagggc gcgggcggag cgcgccgccc gctccatccc tgcccagagc ggagccggcg
+      241 cgcgcgcagg acctcagcga accgagcgga gccacctcag cggcagcagc tccagcccat
+      301 gctctcccgt ggaccgcaga tggagaggcc gtagtaattg acccccatca cgttgtggat
+      361 gggagcagcc gcctgctatg gaaaaggctg cagccatgtt tccacctgat gcctcccaca
+      421 gaaaaccaaa gccacctcca gactcctgcc ccagtgcctc agtctccacg cccaaactgg
+      481 agagtggaaa tctgccccgc cctgggagga aaccggctct gcaggaggct gtttgaagaa
+      541 ggggtttgaa ccaggaacct cacttcgagg actcgctgtc cctcattttt attcaaactc
+      601 atgcccgacg cctcctagga aacggcttta tttatttcta ggaaaatagc accgggtcga
+      661 tcactgcaga ctccccagat ttggacactt ctttggctct gcccgggagc ctggagccca
+      721 gaggttgacc tcactgacac actggagagc aggaagagaa tcatcgaggg gccttgggca
+      781 aaggaaggag ccatagggtc ccaggatggc atccaacagc acagcctctt cctcttgtct
+      841 ggaccctctt gcattcaagg tcactgtcag cttgatcctc atcctcctta tcttcatcac
+      901 catcgctggc aatgtggtgg tctgcctggc ggtgggcttg aaccgccggc tccgcagtct
+      961 gaccaactgc ttcatcgtgt ccttggctgt cactgacctg ctcctcggcc tcctggtgct
+     1021 gcccttctcg gccttctacc agctgtcttg caggtggagc ttcggcaagg tcttctgcaa
+     1081 tatctatacc agcctggatg tcatgctttg cacggcctcc atcctcaacc tcttcatgat
+     1141 cagcctcgac cggtactgcg cggtcacgga cccgctgcgc taccctgtgc tgatcactcc
+     1201 tgcccgggtc gccatctccc tggtcttaat ttgggtcatt tccatcaccc tgtccttctt
+     1261 gtctatccac ctggaatgga acagcagcag gatggatccc agcggggtca atcacaccat
+     1321 ctccaagtgc aaagttcagg tcaacttggt gtacggcctg gtggacgggc tggtcacctt
+     1381 ctacctgcct ctgctggtca tgtgcatcac ctactaccgc atcttcaaga ttgcccggga
+     1441 tcaggccaag aggatccata acatcagctc ctggcgggca gccaccatca gggagcacaa
+     1501 agccacagtg actctggccg ctgtgatggg ggccttcatc atctgctggt tcccctactt
+     1561 ctctgtgttt gtttaccgtg ggctgaaagg ggatgaagct gtcgacgaga ctgtcgaagc
+     1621 catcgttcta tggctgggct atgccaactc ggcactgaac cccatcctgt acgccgctct
+     1681 caacagagac ttccgcacgg cgtaccagca gctcttccgc tgcagcccca ccagccacaa
+     1741 tgcccacaga actcctctga ggtccaacag ctctcagctg atgaggaatc aaagccaaga
+     1801 aaccaggtgg caggaagaga ggcccctgag gctccaggtg tggagtggcg ccgaggtcgc
+     1861 cgccgcccag gaagccacag acaggtaa
+//

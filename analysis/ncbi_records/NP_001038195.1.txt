@@ -1,0 +1,130 @@
+LOCUS       NP_001038195             418 aa                     PRI 26-FEB-2014
+DEFINITION  beta-3 adrenergic receptor [Macaca mulatta].
+ACCESSION   NP_001038195
+VERSION     NP_001038195.1  GI:113461955
+KEYWORDS    RefSeq.
+SOURCE      Macaca mulatta (Rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1  (residues 1 to 418)
+  AUTHORS   Cheng HJ, Grant KA, Han QH, Daunais JB, Friedman DP, Masutani S,
+            Little WC and Cheng CP.
+  TITLE     Up-regulation and functional effect of cardiac beta3-adrenoreceptors
+            in alcoholic monkeys
+  JOURNAL   Alcohol. Clin. Exp. Res. 34 (7), 1171-1181 (2010)
+   PUBMED   20477780
+  REMARK    GeneRIF: Up-regulation of cardiac beta3-adrenoreceptor signaling
+            enhances inhibition of left ventricular myocyte contraction and
+            relaxation, exacerbates the dysfunctional calcium channels and may
+            precede the development of alcoholic cardiomyopathy.
+REFERENCE   2  (residues 1 to 418)
+  AUTHORS   Walston J, Lowe A, Silver K, Yang Y, Bodkin NL, Hansen BC and
+            Shuldiner AR.
+  TITLE     The beta3-adrenergic receptor in the obesity and diabetes prone
+            rhesus monkey is very similar to human and contains arginine at
+            codon 64
+  JOURNAL   Gene 188 (2), 207-213 (1997)
+   PUBMED   9133593
+REFERENCE   3  (residues 1 to 418)
+  AUTHORS   Candelore MR, Deng L, Tota LM, Kelly LJ, Cascieri MA and Strader CD.
+  TITLE     Pharmacological characterization of a recently described human beta
+            3-adrenergic receptor mutant
+  JOURNAL   Endocrinology 137 (6), 2638-2641 (1996)
+   PUBMED   8641219
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from U63592.1.
+            On Aug 31, 2006 this sequence version replaced gi:109086161.
+            ##Evidence-Data-START##
+            Transcript exon combination :: AF200596.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+            SRS211174, SRS257604 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..418
+                     /db_xref="taxon:9544"
+                     /organism="Macaca mulatta"
+                     /chromosome="8"
+                     /map="8"
+     Protein         1..418
+                     /note="adrenergic, beta-3-, receptor; beta-3 adrenoceptor;
+                     beta-3 adrenoreceptor; beta-3-adrenergic receptor"
+                     /product="beta-3 adrenergic receptor"
+                     /calculated_mol_wt="44527"
+     Site            37..63
+                     /note="propagated from UniProtKB/Swiss-Prot (Q28524.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          54..>145
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          60..346
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Site            73..91
+                     /note="propagated from UniProtKB/Swiss-Prot (Q28524.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            112..133
+                     /note="propagated from UniProtKB/Swiss-Prot (Q28524.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            156..178
+                     /note="propagated from UniProtKB/Swiss-Prot (Q28524.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          198..212
+                     /note="propagated from UniProtKB/Swiss-Prot (Q28524.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Agonist and antagonist binding (By
+                     similarity)"
+     Site            204..225
+                     /note="propagated from UniProtKB/Swiss-Prot (Q28524.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            293..314
+                     /note="propagated from UniProtKB/Swiss-Prot (Q28524.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          305..312
+                     /note="propagated from UniProtKB/Swiss-Prot (Q28524.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Agonist and antagonist binding (By
+                     similarity)"
+     Site            327..347
+                     /note="propagated from UniProtKB/Swiss-Prot (Q28524.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          332..336
+                     /note="propagated from UniProtKB/Swiss-Prot (Q28524.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /region_name="Agonist and antagonist binding (By
+                     similarity)"
+     CDS             1..418
+                     /coded_by="NM_001044730.1:1..1257"
+                     /gene="ADRB3"
+                     /db_xref="GeneID:699129"
+ORIGIN
+        1 mapwphgnss lvpwpdvptl apntantsgl pgvpwaaala gallalavla tvggnllviv
+       61 aitrtprlqt mtnvfvtsla aadlvmgllv vppaatlvlt ghwplgatgc elwtsvdvlc
+      121 vtasietlca lavdrylavt nplrygalvt krraraavvl vwvvsaavsf apimsqwwrv
+      181 gadaeaqrch snprccafas nmpyvllsss vsfylpllvm lfvyarvfvv atrqlrllrw
+      241 elgrfppees spalsrslap apagtcappe gvpaccrrpa rllplrehra lctlglimgt
+      301 ftlcwlpffl anvlralggp slvpdpafla lnwlgyansa fnpliycrsp dfrsafrrll
+      361 chcggrlpre pcaadrpass praplrpgpa prspgfasgs tgllgeflrp egqeatlr
+//

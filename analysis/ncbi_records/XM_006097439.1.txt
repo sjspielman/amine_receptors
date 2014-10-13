@@ -1,0 +1,108 @@
+LOCUS       XM_006097439            2031 bp    DNA              MAM 15-NOV-2013
+DEFINITION  PREDICTED: Myotis lucifugus adrenoceptor beta 2, surface (ADRB2),
+            mRNA.
+ACCESSION   XM_006097439
+VERSION     XM_006097439.1  GI:558164042
+DBLINK      BioProject: PRJNA208947
+KEYWORDS    RefSeq.
+SOURCE      Myotis lucifugus (little brown bat)
+  ORGANISM  Myotis lucifugus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Microchiroptera;
+            Vespertilionidae; Myotis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005871250.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Myotis lucifugus Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2031
+                     /mol_type="mRNA"
+                     /country="USA: Framingham, MA"
+                     /sex="female"
+                     /db_xref="taxon:59463"
+                     /organism="Myotis lucifugus"
+                     /chromosome="Unknown"
+     gene            1..2031
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 mRNAs, 26 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:102437112"
+                     /gene="ADRB2"
+     CDS             243..1493
+                     /product="beta-2 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:558164043"
+                     /db_xref="GeneID:102437112"
+                     /translation="MGQPGNRTVFLLAPNGSHALGQDVAQERDETWVVGMAILMSLIVL
+                     AIVFGNVLVITAIAKFERLQTVTNYFITSLACADLVMGLAVVPFGASHILMKMWTFGNF
+                     WCEFWTSIDVLCVTASIETLCVIALDRYFAITSPFKYQSLLTKNKARVVILLVWIVSGL
+                     TSFLPIKMHWYRATHEDAIKCYARETCCDFFTNQAYAIASSIVSFYLPLVVMVFVYSRV
+                     FQVAKRQLQRIDKFEGRFHAQNLSQVEDGRSGHGHRRSSKFCLKEHKALKTLGIIMGTF
+                     TLCWLPFFIVNIVHVIQDNLIPKNVYIFLNWVGYVNSAFNPLIYCRSPDFRSAFQELLC
+                     LRRSSLKAYGNGYSNSNDKTEYTGELSGYNLGQEKDSKLLCEDAQGREDFVNRQGTVPN
+                     DSIDAHGRNCSTNDSLL"
+                     /gene="ADRB2"
+                     /protein_id="XP_006097501.1"
+     STS             369..1253
+                     /db_xref="UniSTS:265908"
+                     /standard_name="ADRB2"
+                     /gene="ADRB2"
+     STS             659..1110
+                     /db_xref="UniSTS:258478"
+                     /standard_name="ADRB2sts1"
+                     /gene="ADRB2"
+     STS             893..1288
+                     /db_xref="UniSTS:270173"
+                     /standard_name="PMC109640P1"
+                     /gene="ADRB2"
+ORIGIN
+        1 aacgggcagc gcgcacttgg aggcggctgc tctagatctc aggctgagac tgacgggcac
+       61 cgcgagccct gggcacccca caagctgagt gcaggacggg ctcccaccac acccacccca
+      121 cggcggctga atgaggcttc taggcgtccc gtcgctggcc ccagcgccca gccgaaggtc
+      181 cgccctctga ggcgcggcca gtgcgcccgc agcccgtgcg ctcacctgcc agcctgcgcg
+      241 ccatggggca accggggaac cgcaccgtct tcttgctggc gcccaacgga agccatgcac
+      301 tgggccaaga cgtcgcgcag gaacgggacg agacgtgggt ggtgggcatg gccatcctca
+      361 tgtcgctcat cgtcctggcc atcgtgtttg gaaacgtgct ggtcatcaca gccattgcca
+      421 agttcgagcg tctgcagacg gtcaccaact acttcatcac ctccttggcc tgtgctgacc
+      481 tggtcatggg cctggcggtg gtgccctttg gggccagcca catccttatg aaaatgtgga
+      541 cttttggcaa tttctggtgc gagttttgga cttccattga cgtgctgtgc gtcacggcca
+      601 gcattgagac cctgtgcgtg atcgcgctgg atcgctactt tgccatcacg tcgcccttca
+      661 agtaccagag cctgctgacc aagaataagg cccgggtggt cattctgctg gtgtggatcg
+      721 tgtcaggcct cacctccttc ttgcccatca agatgcactg gtaccgggcc acccacgaag
+      781 acgccatcaa gtgctacgcc agagagacct gctgcgactt cttcacgaac caggcttacg
+      841 ccattgcctc ctccatcgtt tccttttacc tgcccctggt ggtcatggtc ttcgtctact
+      901 ccagggtctt ccaggtggcc aaaaggcaac tccaaaggat cgacaaattt gagggccgct
+      961 tccacgccca aaacctcagc caagtggagg acgggaggag cgggcacgga catcgcaggt
+     1021 cctccaagtt ctgcttgaag gaacacaaag ccctcaagac tttgggcatc atcatgggca
+     1081 cgttcaccct gtgctggctg ccctttttca tcgtcaacat tgtgcacgtg atccaggata
+     1141 acctcatccc caagaacgtt tacatcttcc taaactgggt gggctacgtc aactctgctt
+     1201 tcaaccccct catctactgc cggagccccg atttcaggag tgccttccag gagcttctgt
+     1261 gcctgcgcag gtcttctctg aaggcctatg ggaatggcta ctccaacagc aatgacaaga
+     1321 ctgaatacac aggggagctc agtggatata acctgggaca ggagaaagac agcaaactgc
+     1381 tgtgcgaaga tgcccagggc agggaagact ttgtgaaccg tcaaggtact gtgcctaatg
+     1441 atagcattga tgcacacggg aggaattgta gtacaaatga ctcactgctc taatgcagct
+     1501 tttctacttt ttcagacccc cttccctgac aagacactaa gcagactatt taacttaagt
+     1561 gtaataaatt tagaatgaaa ttgtatagag atgtgcagga ggaagaacat ctttctgcct
+     1621 ttttttattt ttgtaagctg taaaaaaaga gaacacttat tggagtgatt gtttcttgta
+     1681 cagttcagtt cctctttgca tggaacttgt ccgtgtgtgt gtctgaaggg cttcggtccc
+     1741 agacgacctg gggctgctat gttttgatga cttttctgcg tatctacctc atcagtccag
+     1801 tattaggggt aatctattgc tgctggtaat gtgtatctga aggagacctt ccttcctgcc
+     1861 ccctcggatg gaggatccgg agcagcctgg atctgacagc tgtgaacacg ttcctcttat
+     1921 ttgctgaaac agggtgttgt gggcaggcat ttcaggggta gcttcagttg ttttcctgag
+     1981 caaagtctaa agtttacagt aaataaattg tttgaccatg acttcattgc a
+//

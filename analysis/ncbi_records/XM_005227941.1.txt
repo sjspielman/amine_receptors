@@ -1,0 +1,90 @@
+LOCUS       XM_005227941            1553 bp    DNA              MAM 05-AUG-2013
+DEFINITION  PREDICTED: Bos taurus 5-hydroxytryptamine (serotonin) receptor 2C, G
+            protein-coupled (HTR2C), mRNA.
+ACCESSION   XM_005227941
+VERSION     XM_005227941.1  GI:529014790
+DBLINK      BioProject: PRJNA33843
+KEYWORDS    RefSeq.
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003104719.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Bos taurus Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1553
+                     /breed="Hereford"
+                     /db_xref="taxon:9913"
+                     /mol_type="mRNA"
+                     /organism="Bos taurus"
+                     /chromosome="X"
+     gene            1..1553
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 EST, 13 Proteins, and 71%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:538909"
+                     /gene="HTR2C"
+     CDS             1..1305
+                     /product="5-hydroxytryptamine receptor 2C"
+                     /codon_start="1"
+                     /db_xref="GI:529014791"
+                     /db_xref="GeneID:538909"
+                     /translation="MLPPIVKIIIMTIESAGQFCTPSGNLKRPPSEGLLEVFGEKMCIF
+                     LGDSSLEVDFLKNLHKKYCPVLVIELTLQLYGVELKMKYRTNTVNTVLDYVWPLPRYLC
+                     PVWISLDVLFSTASIMHLCAISLDRYVAIRNPIEHSRFNSRTKAIMKIAIVWAISLGVS
+                     VPIPVIGLRDEDKVFVNNNTCVLNDPNFVLIGSFVAFFIPLTIMVITYCLTIHVLRRQA
+                     LMLLHGHTEEPPGINLNFLKCCKTNTDEENSANPNQDLNPRRRKKKERRPRGTMQAINN
+                     ERKASKVLGIVFFVFLIMWCPFFITNILSVLCGKACNQKLMEKLLNVFVWIGYVCSGIN
+                     PLVYTLFNKVYRRAFSNYLRCNYKADRKPPIRQIPRVAATALSGRELNVNIYRHTNEPV
+                     IKKADDKEPDIEMQVENLELPVNPSNVISERISSV"
+                     /gene="HTR2C"
+                     /protein_id="XP_005227998.1"
+     STS             284..431
+                     /db_xref="UniSTS:498203"
+                     /standard_name="HTR2C"
+                     /gene="HTR2C"
+ORIGIN
+        1 atgttgccac caattgtcaa gattattatt atgacaattg aaagtgctgg ccagttttgt
+       61 accccgtctg ggaatttgaa gcgtccacca tcggagggac ttctagaggt atttggagag
+      121 aagatgtgta tctttctagg agattcaagt ttggaagtag acttcttgaa aaacctgcac
+      181 aagaaatatt gtcctgtatt ggtaatagag ttgacactac agctgtatgg agtagaacta
+      241 aaaatgaagt accgaactaa cactgttaac actgtgcttg attatgtctg gccactacct
+      301 agatatttgt gccccgtctg gatttcttta gatgttttat tttctacagc gtccatcatg
+      361 cacctctgcg ctatttcgct ggatcggtat gtagcaatac gtaatcctat tgagcatagc
+      421 cgtttcaatt cacggactaa ggccatcatg aagattgcta ttgtttgggc aatttcttta
+      481 ggtgtatcag ttcctatccc agtgattgga ctgagggatg aagacaaggt gttcgtcaac
+      541 aacaacacct gtgtgctgaa tgacccaaat ttcgttctta ttgggtcctt cgtagctttc
+      601 ttcataccgc tgacaatcat ggtgattacc tactgtctga cgattcacgt ccttcgccga
+      661 caagctctga tgttactgca cggccacact gaggaaccgc ctggaataaa cctgaatttc
+      721 ctgaaatgct gcaagacaaa cacagatgaa gagaactctg caaacccgaa ccaagatttg
+      781 aacccacgcc gaaggaagaa gaaagaaaga cggcctaggg gcaccatgca agctatcaac
+      841 aatgaacgga aagcctcgaa ggtccttggc attgttttct ttgtgtttct gatcatgtgg
+      901 tgcccgtttt ttattactaa tattttgtcg gttctttgtg ggaaggcttg taatcaaaag
+      961 ctcatggaaa agcttctgaa tgtgtttgtt tggattggct atgtttgttc aggaattaat
+     1021 cctctggtgt acactctttt caacaaagtt taccgaaggg ctttctccaa ctatttgcgc
+     1081 tgcaattata aggcagatag aaagcctcca atcagacaaa tcccgagagt tgctgccact
+     1141 gctttgtctg ggagggagct taatgttaac atttaccggc acaccaatga accagtaatt
+     1201 aagaaagctg atgacaagga gcctgatata gagatgcaag ttgagaattt ggagctaccg
+     1261 gttaatccct ccaatgtgat tagtgaaagg attagtagtg tgtaagaaag agcagcacag
+     1321 tcttttccta tggtaaagct acaaatgtag gaaattgttc tttaattctg ccagtcataa
+     1381 ctaatgtaaa tattgccgtc tgaaaagtgt gttttatata tagctttgca atcctgtact
+     1441 ttacaatcat gcttacaata gtgagattta gggttctgta tttactgttt ataacagatt
+     1501 gagaataact tattttgatt gatgcaaaaa tgttgatttt tccccccttc cat
+//

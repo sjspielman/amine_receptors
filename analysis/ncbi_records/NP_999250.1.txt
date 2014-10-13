@@ -1,0 +1,69 @@
+LOCUS       NP_999250                447 aa                     MAM 10-JAN-2014
+DEFINITION  5-hydroxytryptamine receptor 7 [Sus scrofa].
+ACCESSION   NP_999250
+VERSION     NP_999250.1  GI:47522982
+KEYWORDS    RefSeq.
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+REFERENCE   1  (residues 1 to 447)
+  AUTHORS   Nakamura,T., Kitazawa,T., Cao,J., Iwamoto,T., Teraoka,H., Kadota,K.
+            and Taneike,T.
+  TITLE     Excitatory and inhibitory 5-hydroxytryptamine (5-HT) receptors
+            expressed in the isolated porcine uterine muscles
+  JOURNAL   Eur. J. Pharmacol. 600 (1-3), 123-129 (2008)
+   PUBMED   18952076
+  REMARK    GeneRIF: excitatory 5-HT(2A) and inhibitory 5-HT(7) are present in
+            the uterus of non-pregnant pigs. Endogenous 5-HT containing cells
+            are mainly present in uterine glands of the pig
+REFERENCE   2  (residues 1 to 447)
+  AUTHORS   Ullmer,C., Schmuck,K., Kalkman,H.O. and Lubbert,H.
+  TITLE     Expression of serotonin receptor mRNAs in blood vessels
+  JOURNAL   FEBS Lett. 370 (3), 215-221 (1995)
+   PUBMED   7656980
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AF420595.1.
+            ##Evidence-Data-START##
+            Transcript exon combination :: AF420595.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+            ERS240759, ERS240769 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..447
+                     /db_xref="taxon:9823"
+                     /organism="Sus scrofa"
+                     /chromosome="14"
+                     /map="14"
+     Protein         1..447
+                     /note="serotonin 5-hydroxytryptamine 7-a receptor;
+                     5-hydroxytryptamine (serotonin) receptor 7 (adenylate
+                     cyclase-coupled)"
+                     /product="5-hydroxytryptamine receptor 7"
+                     /calculated_mol_wt="49546"
+     Region          100..>217
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          108..386
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..447
+                     /coded_by="NM_214085.1:1..1344"
+                     /gene="HTR7"
+                     /gene_synonym="5-HT7"
+                     /db_xref="GeneID:397158"
+ORIGIN
+        1 mmgvnssgrp dlyghlrsil lpevgrglpd lssdgagpva gswaphllhg vpevtaspvp
+       61 twdaprdnas gcgeqinygr aekvvigsil tlitlltiag nclvvisvcf vkklrqpsny
+      121 livslaladl svavavmpfv svtdliggkw ifghffcnvf iamdvmccta simtlcvisi
+      181 drylgitrpl typvrqngkc makmilsvwl lsasitlppl fgwaqnvndd kvclisqdfg
+      241 ytiystavaf yipmsvmlfm yyqiykaark saakhkfpgf preepdsvis lngmvklqke
+      301 veecanlsrl lkherknisi fkreqkaatt lgiivgaftv cwlpffllst arpficgtac
+      361 sciplwvert flwlgyansl inpfiyaffn rdlrttyrsl lqcqyrninr klsaagmhea
+      421 lklaerperp elvlqksdyc rkkghds
+//

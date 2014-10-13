@@ -1,0 +1,102 @@
+LOCUS       XM_005961502            1924 bp    DNA              MAM 05-NOV-2013
+DEFINITION  PREDICTED: Pantholops hodgsonii 5-hydroxytryptamine (serotonin)
+            receptor 1B, G protein-coupled (HTR1B), mRNA.
+ACCESSION   XM_005961502
+VERSION     XM_005961502.1  GI:556731765
+DBLINK      BioProject: PRJNA221624
+KEYWORDS    RefSeq.
+SOURCE      Pantholops hodgsonii (chiru)
+  ORGANISM  Pantholops hodgsonii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Antilopinae; Pantholops.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005810102.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pantholops hodgsonii Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1924
+                     /mol_type="mRNA"
+                     /country="China: Qinghai-Tibetan Plateau, Kekexili National
+                     Nature Reserve"
+                     /sex="male"
+                     /db_xref="taxon:59538"
+                     /organism="Pantholops hodgsonii"
+                     /chromosome="Unknown"
+     gene            1..1924
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 mRNAs, 2 ESTs, 23 Proteins"
+                     /db_xref="GeneID:102333994"
+                     /gene="HTR1B"
+     CDS             14..1225
+                     /product="5-hydroxytryptamine receptor 1B"
+                     /codon_start="1"
+                     /db_xref="GI:556731766"
+                     /db_xref="GeneID:102333994"
+                     /translation="MPQSCAPGPRARRDMEAVATQCPQPPSASSQTGLSQANLSAGSSH
+                     NCSAAEEYIYQDFIALPWKVVVVLLLALFTLATTLSNAFVIATVSRTRKLHTPANYLIA
+                     SLAVTDLLVSILVMPISTMYTVTGRWTLGQVVCDFWLSSDITCCTASILHLCVIALDRY
+                     WAITDAVEYSAKRTPTRAAVMIALVWVFSICISLPPFFWRQAKAEAMSNCVVNTDHVLY
+                     TVYSTVGAFYFPTLLLIALYGRIYVEARSRILKQTPNRTGKRLTRAQLITDSPGSTSSV
+                     TSINSRAPEVPSESGSPVYVNQVKVRVSDALLEKKKLMAARERKATKTLGIILGAFIVC
+                     WLPFFIISLVIPICTSCWFHQGIFDFFTWLGYLNSLINPIIYTMSNEDFKQAFHKLIGF
+                     KCTN"
+                     /gene="HTR1B"
+                     /protein_id="XP_005961564.1"
+     STS             390..825
+                     /db_xref="UniSTS:158177"
+                     /standard_name="GDB:603584"
+                     /gene="HTR1B"
+     STS             417..710
+                     /db_xref="UniSTS:157840"
+                     /standard_name="GDB:580611"
+                     /gene="HTR1B"
+ORIGIN
+        1 cttcgtgcgc tccatgcccc agagctgcgc tccggggcca cgggcgagga gagacatgga
+       61 ggcagtggcc actcagtgtc cccagccgcc gtccgcgagt tcccagactg ggctttctca
+      121 agccaacctt tcggctggtt cctcccacaa ctgcagcgcc gccgaggagt acatttacca
+      181 ggacttcatt gccctgccct ggaaagtggt cgtggtcctg ctgctggcgc tcttcacctt
+      241 ggcgaccacg ctctccaacg cctttgtgat cgccactgtg tcccggacgc ggaagctgca
+      301 taccccggcc aactacctga tcgcctcctt ggcggtcacc gacctgctcg tgtccatcct
+      361 ggtgatgccc atcagcacca tgtacacggt caccggccgc tggacgctgg gccaggtggt
+      421 ctgcgacttc tggctgtcgt cggatatcac ctgttgcaca gcctccatcc tgcacctctg
+      481 tgtcatcgcc ctggaccgct actgggccat tacggacgcc gtggagtact cggcgaaaag
+      541 gactcccacg agggccgcgg tcatgatcgc gctggtgtgg gtcttctcca tctgcatctc
+      601 gctgccgccc ttcttctggc ggcaggccaa agctgaggcg atgtcgaact gcgtggtgaa
+      661 caccgaccac gtcctgtaca ccgtctactc cacggtgggc gctttctact tccctaccct
+      721 gctcctcatc gccctctatg gccgcatcta cgtggaagcc cgctccagga ttttgaaaca
+      781 gacgcccaac agaaccggta agcgtctgac ccgagcccag ctgattaccg actcccccgg
+      841 gtccacgtct tcggtcacct cgattaactc gcgggctccg gaggtaccca gcgaatccgg
+      901 gtctcctgtg tacgtgaacc aagtcaaagt gcgcgtctcc gacgccctgc tggagaagaa
+      961 gaaactcatg gccgctaggg agcgcaaagc caccaagacc ctggggatca ttttgggcgc
+     1021 gttcatcgtg tgttggctgc ccttcttcat catctccctg gtcatcccga tctgcacatc
+     1081 ctgctggttc caccagggca tttttgactt cttcacgtgg ctgggctatc tcaactccct
+     1141 catcaatccc atcatctaca ccatgtccaa cgaggacttc aaacaagctt tccataaact
+     1201 cataggcttc aagtgcacga actgacttgt taattacagt ggagtcgcct aagccccctt
+     1261 caggggacca tgctgtgtct ggttccacag gtaggtcgac tcttctttca ctgttactgg
+     1321 gtcggaacga ggctgtctct tttgagcaag ggctgtggat cctgagtaaa ccaggacagc
+     1381 cctaagagag ctctaaagga gaaatgttca aactaaggat agagctgcct ggctgaggag
+     1441 aaggctcact tcctccctgc aaacccgttt cagcactgac tcttcagcag cccattgcaa
+     1501 gggggctgca acttttagaa aaccaacgat ggaaaaggga gccctgcact gctttggtat
+     1561 catggatgag gccctctaga actagaggta cttgtagttc ttgtctggag cctgtctgag
+     1621 acagagctgc atacaacctg gcagtacttg aactagacac taacaccctg tcttttgggg
+     1681 agaactctgt gttcagcttc ctttaagaac agttactttg gcatccttca atcttcattc
+     1741 actttttgtt tatttaaact tggttggaga aacttgcgga ttccggtgtg gcttggatag
+     1801 cacagagaaa ccttgaagag ttaacagcaa aattctgatg ttaagatctc tatttttatt
+     1861 ataattgaaa ctatatggga tgggtgggtg aaaatgggag atggggagta ttaaatggaa
+     1921 aacc
+//

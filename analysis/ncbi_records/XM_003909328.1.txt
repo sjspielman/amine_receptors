@@ -1,0 +1,100 @@
+LOCUS       XM_003909328            1406 bp    DNA              PRI 04-SEP-2012
+DEFINITION  PREDICTED: Papio anubis dopamine receptor D4 (DRD4), mRNA.
+ACCESSION   XM_003909328
+VERSION     XM_003909328.1  GI:402892346
+KEYWORDS    RefSeq.
+SOURCE      Papio anubis (olive baboon)
+  ORGANISM  Papio anubis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Papio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003877530) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Papio anubis Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1406
+                     /mol_type="mRNA"
+                     /country="USA: Southwest National Primate Research Center,
+                     San Antonio"
+                     /isolate="1X1155"
+                     /sex="female"
+                     /db_xref="taxon:9555"
+                     /organism="Papio anubis"
+                     /chromosome="14"
+     gene            1..1406
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 3 mRNAs, 4 ESTs, 4 Proteins"
+                     /db_xref="GeneID:101006821"
+                     /gene="DRD4"
+     STS             3..1389
+                     /db_xref="UniSTS:483806"
+                     /gene="DRD4"
+     CDS             3..1289
+                     /product="D(4) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:402892347"
+                     /db_xref="GeneID:101006821"
+                     /translation="MGNRSTADPDVLLAGRGPGAGAAAGLAGPGAAALVGGVLLIGAVL
+                     AGNSLVCVSVATERALQTPTNSFIVSLAAADLLLALLVLPLFVYSEVQGGAWLLSPRLC
+                     DALMAMDVMLCTASIFNLCAISVDRFVAVAVPLRYNRQGGSHRQLLLIGATWLLSAAVA
+                     APVLCGLNDVRGRDPAVCRLEDRDYVVYSSVCSFFLPCPLMLLLYWATFRGLRRWEVAR
+                     RAKLHGRAPRRPSGPGPPSLVPRLPQDPCGPDCAPPAPRLPQDPCGPDCAPPAPGPPQG
+                     PCGPDRAPPAPGLPQGLRGPNCAPPVPGLPPDSCDSNCAPPDAVRAAALPPQTPPQTRR
+                     RRRAKITGRERKAMRVLPVVVGAFLLCWTPFFVVHITQALCPACSVPPRLVSAVTWLGY
+                     VNSALNPVIYTVFNAEFRNVFRKALRACC"
+                     /gene="DRD4"
+                     /protein_id="XP_003909377.1"
+     STS             497..1146
+                     /db_xref="UniSTS:270336"
+                     /standard_name="PMC117557P1"
+                     /gene="DRD4"
+     STS             559..1072
+                     /db_xref="UniSTS:270608"
+                     /standard_name="PMC130047P1"
+                     /gene="DRD4"
+     STS             658..1014
+                     /db_xref="UniSTS:155903"
+                     /standard_name="GDB:196985"
+                     /gene="DRD4"
+     STS             1232..1385
+                     /db_xref="UniSTS:75104"
+                     /standard_name="RH71428"
+                     /gene="DRD4"
+ORIGIN
+        1 ccatggggaa ccgcagcacc gcggacccgg acgtgctgct ggctggacgc gggccgggcg
+       61 cgggggcggc tgcggggctg gcagggccgg gcgcggcggc gctggttggg ggcgtgctgc
+      121 tcatcggcgc ggtgctcgcg gggaactcgc tcgtgtgcgt gagcgtggcc accgagcgcg
+      181 ccttgcagac gcccaccaac tccttcatcg tgagcctggc ggccgccgac ctcctgctcg
+      241 ctctcctggt gctgccgctc ttcgtctact ccgaggtcca gggtggcgcg tggctgctga
+      301 gcccccgcct gtgcgacgcc ctcatggcca tggacgtcat gctgtgcacc gcctctatct
+      361 tcaacctgtg cgccatcagc gtggacaggt tcgtggctgt ggccgtgccg ctgcgctaca
+      421 accgccaggg cgggagccat cggcagctgc tgctcatcgg cgccacgtgg ctgctgtccg
+      481 cagcggtggc ggcgcccgtg ctgtgcggcc tcaacgacgt gcgcggccgt gaccccgccg
+      541 tgtgccgcct ggaggaccgc gactacgtgg tctactcgtc cgtgtgctcc ttcttcctac
+      601 cctgtccgct catgctgctg ctctactggg ccacgttccg cggcctgcgg cgctgggagg
+      661 tggcccgtcg cgccaagctg cacggccgcg cgccccgccg acccagcggc cccggccctc
+      721 cttcccttgt gccccgcctt ccccaggacc cctgcggccc tgactgtgcg cccccggcgc
+      781 cccgcctccc ccaggacccc tgcggccccg actgcgcgcc ccccgcgccc ggccctcccc
+      841 agggtccctg cggccccgac cgtgcgcccc cagcgcccgg ccttccccag ggtctccgcg
+      901 gccccaactg tgcgccgccc gtgcccggcc tccccccgga ctcctgcgac tccaactgtg
+      961 cgcccccaga cgccgtccga gccgctgcgc tcccacccca gaccccaccg cagacccgca
+     1021 ggaggcggcg tgccaagatc accggccggg agcgcaaggc catgagggtc ctgcctgtgg
+     1081 tagtcggggc cttcctgctg tgctggacgc ccttcttcgt ggtgcacatc acacaggcgc
+     1141 tgtgtcctgc ctgctccgtg cccccgcggc tggttagcgc ggtcacctgg ctgggctacg
+     1201 tcaacagcgc cctcaacccc gtcatctaca ctgtcttcaa cgccgagttc cgcaatgtct
+     1261 tccgcaaggc cctgcgtgcc tgctgctgag ccggaccccc acccccaccc cccgcggcct
+     1321 gggcaccggc ctggtggcca ggcctccggg accaaggata tggggagggc ggttttgtac
+     1381 gttaattaaa caaattcctt cccaaa
+//

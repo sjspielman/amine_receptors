@@ -1,0 +1,118 @@
+LOCUS       NM_001142849            3642 bp    DNA              VRT 27-AUG-2013
+DEFINITION  Gallus gallus dopamine receptor D4 (DRD4), mRNA.
+ACCESSION   NM_001142849
+VERSION     NM_001142849.1  GI:218664506
+KEYWORDS    RefSeq.
+SOURCE      Gallus gallus (chicken)
+  ORGANISM  Gallus gallus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Galliformes;
+            Phasianidae; Phasianinae; Gallus.
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from FJ217173.1.
+            On Dec 23, 2008 this sequence version replaced gi:118090997.
+            ##Evidence-Data-START##
+            Transcript exon combination :: BU373433.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+            SRS213967, SRS213968 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3642
+                     /db_xref="taxon:9031"
+                     /mol_type="mRNA"
+                     /organism="Gallus gallus"
+                     /chromosome="5"
+                     /map="5"
+     gene            1..3642
+                     /note="dopamine receptor D4"
+                     /db_xref="CGNC:3783"
+                     /db_xref="GeneID:423016"
+                     /gene="DRD4"
+     misc_feature    434..436
+                     /note="upstream in-frame stop codon"
+                     /gene="DRD4"
+     CDS             581..1717
+                     /product="D(4) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:218664507"
+                     /db_xref="CGNC:3783"
+                     /db_xref="GeneID:423016"
+                     /translation="MGNGSAGAAPCNGTAPPPPPPPPPAGHNIAALVLGIVLILLIVGG
+                     NGLVCLSVCTERALKTTTNYFIVSLAVADLLLALLVLPLYVYSEFQGGVWSLSTVLCDA
+                     LMTMDVMLCTASIFNLCAISVDRFIAVSVPLNYNRRQIDLRQLILISTTWIFAFAVASP
+                     VIFGLNNVPNRDPSLCQLEDDNYIVYSSICSFFIPCPVMLVLYCAMFQGLKRWEEARKA
+                     KLRGGIYGGNRMLYHPSPFIERERVGMEPEEYHPYAHPEHPLSGDYVMSNGLQTVSYPH
+                     LKYPHPAHGQKRAKINGRERKAMRVLPVVVGAFLFCWTPFFVVHITRALCKSCTIPTQV
+                     TSIVTWLGYVNSAVNPIIYTVFNAEFRNFFRKVLHLFC"
+                     /gene="DRD4"
+                     /protein_id="NP_001136321.1"
+     polyA_signal    1357..1362
+                     /note="predicted"
+                     /gene="DRD4"
+     polyA_signal    3621..3626
+                     /note="predicted"
+                     /gene="DRD4"
+ORIGIN
+        1 acttccagag tcttcacagt ccttcaaatg ctcttggaga tcagagcaat gatttctctc
+       61 atcacggttg gtatcactgc tttgaatctc ctgggtaaaa tcttcaggtc gggctgactt
+      121 gaaacaactt tctactcgaa aacctgtcgg tttgtgtggc tttttttttt ttttcctttc
+      181 ctcctctagc tttgtcaggg ctttgctaaa atccgacagc gctttgatcc accgctgtat
+      241 tcgcagcgca gcgctcgtgg gaccgatgcc tccgctattt cctaactccc atcagcgcgg
+      301 ccgggctcat gacaggggga cacggctgtg ttcaacgtac agaaagcaca caaccacggc
+      361 acggctgggc tggaacggac ctcaaagctc cccctcttcc ttcccacacc cccacccccc
+      421 cgccgcatcc cggtgagccg cttactgccc cggggcggcc cgggggaggc tcctcccatc
+      481 acctcgcaaa gttcggagcc ggcggagcgc cttcgcttct ccctcccgcg gggggctgag
+      541 gcggggaggc ggcggctcgg cggctccatg ccccggcgcc atggggaacg gcagcgccgg
+      601 ggccgccccg tgcaacggca ccgctccgcc gccgcctcct cctcctcctc cagccggcca
+      661 caacatcgcc gccctggtgc tgggcatcgt cctcatcctg ctcatcgtcg ggggcaacgg
+      721 gctggtgtgc ctcagcgtgt gcacggagcg ggcgctcaag accaccacca actatttcat
+      781 cgtcagcctc gccgtcgccg accttctgct cgccctcctc gtcctgcccc tctacgtcta
+      841 ctccgagttt cagggtggcg tgtggtccct cagcactgtg ctctgcgatg ccctgatgac
+      901 catggatgtg atgctgtgca cggcttccat cttcaacctc tgtgctatca gtgtggatcg
+      961 gtttatcgct gtttcagtcc cactgaacta caaccggcga cagatcgacc tgcggcagct
+     1021 gatcctcatc tccaccacgt ggatattcgc ctttgctgtg gcatccccag tcatatttgg
+     1081 cctcaacaac gtcccaaacc gggaccccag cttgtgccag ctggaggatg acaactacat
+     1141 cgtgtactcc tccatctgct ccttcttcat cccttgcccc gtcatgctgg tgctctactg
+     1201 cgccatgttc caaggactca agcgctggga agaagccagg aaggccaagc taaggggtgg
+     1261 catctacggg ggcaacagaa tgctctatca cccctcacct ttcattgaga gagagcgggt
+     1321 cggcatggaa ccggaggagt accaccctta tgcccaccct gagcaccccc tttctgggga
+     1381 ctatgtgatg agcaatgggc tccagactgt ctcttaccca cacctcaagt acccacaccc
+     1441 ggcacacggt cagaagcgag ccaagatcaa cggccgggaa cggaaggcca tgcgggtact
+     1501 gccggtggtt gttggtgctt tcctcttctg ctggacacca ttttttgtgg tccacattac
+     1561 aagggctctc tgcaagtcct gcaccattcc cactcaagtc accagcatcg tcacctggct
+     1621 gggttacgtc aacagcgctg tcaaccccat catttacact gttttcaacg ccgagttcag
+     1681 gaacttcttc cgcaaagtct tgcacctctt ctgctgagct cactggaact ggagggaatg
+     1741 accaggataa ctttttgtat agttcattaa agatctattt ctgcctaagg tttgctgtct
+     1801 ttgttgggga ggagggaagg agtaaagatt gttccaggat ggcagctcca ggatggtggt
+     1861 tcccagccct ctgtctccac tgtgaggagt tacaggtgag tgcagtggtt acggcttgga
+     1921 tactcccccc actggaagct gcaggcgtag ccacttcttt aacacttggt gcttgacgta
+     1981 gacatcaaga gaccccacaa gactgcggat attgcacaag tggcagactt ctgactaatg
+     2041 attttcatgc agggctgttg ctttccaagg ggcaatttgt ttgcttagaa ataaaagaag
+     2101 acttgctggg aggtcttgag attttcttcg actaaggata acattgcttc atcaatttat
+     2161 catcaacaaa taaacatgtt acgttgccac aacgattata ctgcagtctt acgagttcac
+     2221 tgtgctatag agagtagctc tcccagatgc cagggccctg atgagaagct tctagagaac
+     2281 tttattcaca catgagtcgt acctacacat cttcatttag gactgttgtc ccactcatgc
+     2341 tcttcagaat ctccttaatc agaagatgca ataaaaacaa aattcagact ataaccaaag
+     2401 cattggatat actcatccac aaactgcgta gcgacgatac tggagagctt tctgcattag
+     2461 tataaattgc cgctcagtta tctgtacaaa catgggtatg gctgagctca cgtctttgtg
+     2521 tagctgcagt catctctgaa ccaacacaga gctctactcc cagcctagca gtgctctgca
+     2581 gggatgttcc tctgggggga atacaagatg cagctgagaa caaatgggtg cttaaaccaa
+     2641 acagcacacg gtgttcagca cgacgcactg cttcctttag tcagaacctt aatgggcaat
+     2701 agatggaggc aagaaacctt gtaaattagt tgtattgttg tgggttcaat taagagcatc
+     2761 ttttccatta agtaattatc ttaaagattt agaaaactgg cactcatcgt gtaagaagaa
+     2821 atgactgtaa atactgaagg atgactttgg ggaagcttga agagcgggta tgttgctcgc
+     2881 gatgggattt tacagaattg cctatttccc tccccagagt tctccatgtg taatttctgt
+     2941 ctcagcccac taagctcatg cttggcttcc cactaaggaa tggtctcctt gaaaggaggg
+     3001 gggcacgttg ctgccttcct tccatccgta ctggtcctca ccctcagcac caagagggaa
+     3061 actcattcca gtgagcaact agaaagtaaa taacagcaat catagcctaa attattaaag
+     3121 cagcacacta ttaattaaag cattttggag tagcgaatga agccaataac ctcttaatgt
+     3181 tcaccactgc tttaattagg agctactaag cagcagcgag aggccagaac tctatctgtg
+     3241 cactcttatt tggaggttgc ccagattttg gcactgcagc cagggcatgc tgccgtggtg
+     3301 agagctgctc ctccccgctg ccacgttaca tccacgccga tgtcctgcaa agactaagag
+     3361 ccaacacctc tgtgcaaaac tccctgcaga cacacccctc gcatgctgca tttgtccatg
+     3421 tgccaaggtg ctgccatggg gttacactgt gctttcatcg cattttattg aacaagatgt
+     3481 gatctttcac tcatattcaa gtgcagaagc tccaatgtgt tccaaatttc cccagcacag
+     3541 agggaacaca gaaaaacaaa acaaaacaag aaagtccttt caaaggcaaa ttaagagttt
+     3601 gtactttttc aaggcaatta aataaaccaa atgagggatc at
+//

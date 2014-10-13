@@ -1,0 +1,57 @@
+LOCUS       XP_003971468             379 aa                     VRT 06-NOV-2012
+DEFINITION  PREDICTED: 5-hydroxytryptamine receptor 1B-like [Takifugu rubripes].
+ACCESSION   XP_003971468
+VERSION     XP_003971468.1  GI:410915987
+KEYWORDS    RefSeq.
+SOURCE      Takifugu rubripes (Fugu rubripes)
+  ORGANISM  Takifugu rubripes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Percomorpharia; Tetraodontiformes; Tetradontoidea;
+            Tetraodontidae; Takifugu.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004071097) annotated using gene prediction method: GNOMON.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Takifugu rubripes Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..379
+                     /note="scaffold_120"
+                     /db_xref="taxon:31033"
+                     /organism="Takifugu rubripes"
+                     /chromosome="16"
+     Protein         1..379
+                     /product="5-hydroxytryptamine receptor 1B-like"
+                     /calculated_mol_wt="41627"
+     Region          48..>176
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          62..357
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..379
+                     /coded_by="XM_003971419.1:1..1140"
+                     /gene="LOC101078030"
+                     /db_xref="GeneID:101078030"
+ORIGIN
+        1 medasqlrpa pellnisrny thanltpgaa gsdgnvavqa gvavtlalit fattlsnafv
+       61 iatiyqsrkl htpanflias lavtdllvsi lvmpisalyt vsqtwtlgqv mcdiwlssdi
+      121 tcctasilhl cvialdrywa itdaveyskk rtparaagmi atawviaisi slppffwrqv
+      181 kaeevtscnv nsdhifytiy stfgafyipt lllialygri yvearkrilk qshnkpgkrl
+      241 tsahlitnsp gsvasttsln ygtndssscd ttsspnigqv kvtvsdalle kkrisaarer
+      301 katktlgiil gayivcwlpf fiytllvpvc pscfypelfd sftwlgylns linpiiytms
+      361 nedfkqafhk lirfkccra
+//

@@ -1,0 +1,88 @@
+LOCUS       XM_005805193            1479 bp    DNA              VRT 23-OCT-2013
+DEFINITION  PREDICTED: Xiphophorus maculatus 5-hydroxytryptamine receptor
+            1B-like (LOC102219752), mRNA.
+ACCESSION   XM_005805193
+VERSION     XM_005805193.1  GI:551507439
+DBLINK      BioProject: PRJNA220265
+KEYWORDS    RefSeq.
+SOURCE      Xiphophorus maculatus (southern platyfish)
+  ORGANISM  Xiphophorus maculatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Atherinomorphae; Cyprinodontiformes;
+            Poeciliidae; Poeciliinae; Xiphophorus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005372311.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Xiphophorus maculatus Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1479
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8083"
+                     /isolate="XMAC-090115_JP163A"
+                     /sex="female"
+                     /strain="JP 163 A"
+                     /organism="Xiphophorus maculatus"
+                     /chromosome="Unknown"
+     gene            1..1479
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 26 Proteins, and 11% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:102219752"
+                     /gene="LOC102219752"
+     CDS             1..1395
+                     /product="5-hydroxytryptamine receptor 1B-like"
+                     /codon_start="1"
+                     /db_xref="GI:551507440"
+                     /db_xref="GeneID:102219752"
+                     /translation="MPPFYLLTNTLIIIIIIIIIIIIIIIIIIIIIIIIIFQIRRRRSE
+                     RRGASLGLQAGFRVSGCGTPDAALLCSCRDASGDQAPPRVTEEEGGGMEPPASYGGLLN
+                     FSTNDSDTSGSSSVGPQAALAVTLGLITCATTLSNAFVIATIYQSRKLHTPANFLIASL
+                     ALTDLLVSVLVMPISALYTVLQTWPLGQVMCDIWLSSDITCCTASILHLCVIALDRYWA
+                     ITDAVEYSKKRTAGRAAGMIATAWVIAISISLPPFFWRQVKAEEVTSCNVNTDHIFYTI
+                     YSTFGAFYIPTLLLLCLYGRIYVEARKRILKQAQYKQGKRLTSAHLISSSPGSVASTTS
+                     LNYGTNDASSCCDTTSSSPSVSQVKVTVSDALLEKKRISAARERKATKTLGIILGAYIV
+                     CWLPFFIYTLLVPLCQSCFHPGLFDIFTWLGYLNSLINPIIYTMSNEDFQQAFHKLMLR
+                     FRCCRA"
+                     /gene="LOC102219752"
+                     /protein_id="XP_005805250.1"
+ORIGIN
+        1 atgcccccgt tctatcttct gaccaacaca ttaataataa taataataat aataataata
+       61 ataataataa taataataat aataataata ataataataa taataatctt tcagattcgc
+      121 aggaggcgct cggagcgccg cggagcttct ctgggtctcc aggccgggtt ccgagtttca
+      181 ggctgcggga cgccggatgc cgcgcttctc tgcagctgtc gagatgcttc cggcgaccag
+      241 gcgccgccgc gggtgacgga ggaagaaggt ggagggatgg agccgcccgc cagctacgga
+      301 ggtctgctga acttctccac caatgactcc gacaccagcg gctcctccag tgtgggcccc
+      361 caggcggctc tggccgtgac tctggggctc atcacctgcg ccaccacgct ctccaacgcc
+      421 ttcgtcatcg ccaccatcta ccagtcccgg aagctgcaca ccccggccaa cttcctcatc
+      481 gcgtccctgg cgctcacgga cctgctggtg tccgtcctgg tgatgcccat cagcgcgctg
+      541 tacacggtgc tgcagacctg gccgctgggc caggtgatgt gcgacatctg gctgtcctcg
+      601 gacatcacct gctgcaccgc ctccatcctc cacctgtgcg tcattgcgct ggaccggtac
+      661 tgggccatca cggacgcggt ggagtactcc aagaagcgca cggcgggacg cgccgccggc
+      721 atgatcgcca ccgcctgggt catcgccatc tccatctccc taccgccatt cttctggcgc
+      781 caggtgaagg cggaggaggt gacgagctgc aacgtgaaca cggaccacat cttctacacc
+      841 atctactcca ccttcggcgc cttctacatc cccacgctgc tgctcctatg cctgtatggc
+      901 cggatctacg tggaggcgcg gaagcgcatc ctgaagcagg cgcagtacaa gcaggggaag
+      961 aggctgacct ctgcgcacct gatcagcagc tcccccggct ccgtggcgtc caccacctcc
+     1021 ctgaactacg ggacgaacga cgcctcctcc tgctgcgaca ctacctcgtc ctcccccagt
+     1081 gtgagccaag tcaaagtcac cgtgtcggat gcgctgctgg agaagaagcg catctctgcg
+     1141 gccagggagc ggaaggccac caagaccctg ggcatcatcc tgggagccta catcgtctgc
+     1201 tggctgccct tcttcatcta caccctccta gtgcctctct gccagtcctg cttccaccca
+     1261 gggctgttcg acatcttcac ctggctcggg tacctcaact ccctcatcaa ccccatcatc
+     1321 tacaccatgt ccaacgagga tttccagcag gccttccaca aactcatgct gcgtttcagg
+     1381 tgctgcaggg cgtgaggacc gcttcctcca aatggagccc aaaatcagcc cacatgtggg
+     1441 acccatactg ggattgtctg cagggtatgt aaccgtcca
+//

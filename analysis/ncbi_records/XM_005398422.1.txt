@@ -1,0 +1,91 @@
+LOCUS       XM_005398422            1751 bp    DNA              ROD 27-AUG-2013
+DEFINITION  PREDICTED: Chinchilla lanigera adrenoceptor beta 3 (Adrb3), mRNA.
+ACCESSION   XM_005398422
+VERSION     XM_005398422.1  GI:533169863
+DBLINK      BioProject: PRJNA210822
+KEYWORDS    RefSeq.
+SOURCE      Chinchilla lanigera (long-tailed chinchilla)
+  ORGANISM  Chinchilla lanigera
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Chinchillidae; Chinchilla.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004955463.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Chinchilla lanigera Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1751
+                     /mol_type="mRNA"
+                     /isolate="Chin_1"
+                     /sex="female"
+                     /db_xref="taxon:34839"
+                     /organism="Chinchilla lanigera"
+                     /chromosome="Unknown"
+     gene            1..1751
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 26 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 2 samples with support for all annotated introns"
+                     /db_xref="GeneID:102015487"
+                     /gene="Adrb3"
+     CDS             122..1519
+                     /product="beta-3 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:533169864"
+                     /db_xref="GeneID:102015487"
+                     /translation="MAMWPHGNHSLGSWPDAPTLAPNPSGLPGVPWAAALAGALLALAT
+                     VGGNLLVTVAIALTPRLQTITNVFVTSLATADLVVGLLVVPPGATLALTGHWPLGATGC
+                     ELWTSVDVLCVTASIDTLCVLAVDRYLAVTSPLRYRAMVTKRRARAAVVLVWAVAAAVS
+                     FAPIMSQWWRVGADAEAQLCHSNPRCCSFASNVPYALLSSSVSFYLPLLVMLFVYARVF
+                     VAARRQLRLLRRELGRFPPRGNPPPPSRSPSPAWASETQAAPEAGPPCGPRSPRLLPLR
+                     EHRALRTLGLIVGTFTLCWLPFFLANVLRALGGPSLVPNSVLLPLNWLGYVNSAFNPLI
+                     YCRSPDFRSAFRRLLCHCPGCRPQAPCAAASGGRPAPRGAPGGDGRRWRLGPGEQSEAP
+                     ALPLGLAEGGSWRGLAPGERREHTFQNQNAAGPCPLLDLITRVDAKEDRWGVLHSGLLH
+                     ATPPRVF"
+                     /gene="Adrb3"
+                     /protein_id="XP_005398479.1"
+ORIGIN
+        1 tgtgtcccat caactaggga agatggtggc ccaggccagg ggagtcgctc ccaagtccag
+       61 ctgtcccctc ccctgagtct ggggccctgg gagacccctc ccctccccgc gcggcacggg
+      121 gatggctatg tggcctcacg ggaaccactc tctgggctct tggccagatg cccccaccct
+      181 ggcacccaat ccgagtggac taccaggggt gccgtgggca gcagcgttgg ccggggcgct
+      241 gctggccctg gccacggtgg gaggcaacct gctggtgacc gtggccatcg ccctgacgcc
+      301 gagactccag accatcacca acgtgtttgt gacttcgctg gccacagccg acttggtggt
+      361 gggacttctg gtggtgccgc cgggggctac cctggcgctg actggccact ggcctttggg
+      421 cgcgaccggc tgtgagctgt ggacgtcggt ggacgtgctc tgcgtgactg ccagcatcga
+      481 taccttgtgc gtcctggcag tggaccgcta cctggccgtg accagcccgc tgcggtaccg
+      541 cgccatggtc accaagcgcc gtgcgcgggc ggccgtggtg ttggtgtggg cggtggcggc
+      601 tgcggtgtcc ttcgcgccca tcatgagcca gtggtggcgc gtgggcgccg acgccgaggc
+      661 gcagctctgc cactccaacc cgcgctgctg ctccttcgcc tccaacgtgc cctatgcgct
+      721 gctctcctcc tccgtgtcct tctacctgcc gctcctggtg atgctcttcg tgtacgcccg
+      781 cgtcttcgtt gcggccaggc gccaactgcg cttgctgcgc cgcgagctgg gtcgcttccc
+      841 gccccgggga aacccgcctc ccccgtctcg ctccccgtcc cccgcatggg cgtccgagac
+      901 gcaggctgcg cccgaggccg gtcccccctg cggtccgcga tccccgcgcc tcctgcccct
+      961 ccgggagcac cgggcgctgc gcaccctggg gctcatcgtg ggcaccttca ccctctgctg
+     1021 gctgcccttc ttcctggcga acgtgctgcg cgcccttggg gggccctcgc tcgttcccaa
+     1081 ctcggttctc ctccccctca actggctggg ctacgtcaac tccgccttca acccgctcat
+     1141 ctactgccgc agccccgact tccgcagcgc cttccgccgg cttctgtgcc actgcccagg
+     1201 ctgccgaccc caggcgccct gcgccgccgc ctccggaggc cggccagccc cgcggggcgc
+     1261 acccggaggt gatggcaggc gctggcggct cgggccagga gagcagtcgg aggctccagc
+     1321 tttgcctttg ggtttggcag agggtgggag ctggagaggt ttggcgcctg gagagaggag
+     1381 agagcacaca tttcagaacc aaaatgcggc tgggccctgt cctcttcttg acctgatcac
+     1441 cagggttgac gcgaaggagg acaggtgggg tgttcttcat tcgggcctct tacacgccac
+     1501 cccaccccga gttttctagt tcagtggttc agccgccccg tcctctggtc atcgatacac
+     1561 ttgtctcgga ctctcacagg agggtgtggc tctcccaacc cctgaattgg ttctgatttc
+     1621 tctcaaaggt aggatggcta tgaaagtgaa gatgactcca gatgcaaaca gcggcggtgg
+     1681 aggaactgtg cgtgggaatt gtgcgtcctc cttcggaggc cgaggcttcc agggagctct
+     1741 ttaggcttga a
+//

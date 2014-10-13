@@ -1,0 +1,100 @@
+LOCUS       XM_005071780            2009 bp    DNA              ROD 17-JUL-2013
+DEFINITION  PREDICTED: Mesocricetus auratus muscarinic acetylcholine receptor
+            M3-like (LOC101827236), mRNA.
+ACCESSION   XM_005071780
+VERSION     XM_005071780.1  GI:524939038
+DBLINK      BioProject: PRJNA210213
+KEYWORDS    RefSeq.
+SOURCE      Mesocricetus auratus (golden hamster)
+  ORGANISM  Mesocricetus auratus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Cricetinae; Mesocricetus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004801633.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Mesocricetus auratus Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2009
+                     /mol_type="mRNA"
+                     /isolate="Golden Hamster female 1"
+                     /sex="female"
+                     /db_xref="taxon:10036"
+                     /organism="Mesocricetus auratus"
+                     /chromosome="Unknown"
+     gene            1..2009
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 mRNAs, 21 Proteins"
+                     /db_xref="GeneID:101827236"
+                     /gene="LOC101827236"
+     misc_feature    12..14
+                     /note="upstream in-frame stop codon"
+                     /gene="LOC101827236"
+     CDS             60..1829
+                     /product="muscarinic acetylcholine receptor M3-like"
+                     /codon_start="1"
+                     /db_xref="GI:524939039"
+                     /db_xref="GeneID:101827236"
+                     /translation="MTLHSNSTTSALFPNISSSWVHSSSEAGLPLGTVTHLGSYNISQA
+                     AGNFSSNDTSSDPLGGHTVWQVVFIAFLTGFLALVTIIGNILVIVAFKVNKQLKTVNNY
+                     FLLSLACADLIIGVISMNLFTTYIIMNRWALGNLACDLWLSIDYVASNASVMNLLVISF
+                     DRYFSITRPLTYRAKRTTKRAGVMIGLAWVISFVLWAPAILFWQYFVGKRTVPPGECFI
+                     QFLSEPTITFGTAIAAFYMPVTIMTILYWRIYKETEKRTKELAGLQASGTEAEAENFVH
+                     PSGSSRSCSSYELQQQSMKRSSRRKYGRCHFWFTTKSWKPSVEQMDQDHSSSDSWNNND
+                     AAASLENSASSDEEDIGSETRAIYSIVLKLPGHSTILNSTKLPSSDNLQLPDEDLGTVD
+                     VERNANKLQVQKSMDDGDSCQKDFSKLPIQLESAVDTTKTSDTNSSVDKTTATLPLSFK
+                     EATLAKRFALKTRSQITKRKRMSLIKEKKAAQTLSAILLAFIITWTPYNIMVLVNTFCD
+                     SCIPKTYWNLGYWLCYINSTVNPVCYALCNKTFRTTFKMLLLCQCDNRKRRKQQYQQRQ
+                     SVIFHKRVPEQAL"
+                     /gene="LOC101827236"
+                     /protein_id="XP_005071837.1"
+ORIGIN
+        1 aagatctttc ctaacttcat cttttctctt ttttccccag actatgtcag agagtcacaa
+       61 tgaccttgca cagtaacagt acaacctcgg ctttgtttcc caacatcagc tcttcctggg
+      121 tgcacagttc ctcagaggca gggctgccct tggggacagt cactcacttg ggcagctata
+      181 acatttcaca agcagctggg aatttctcct caaacgacac ctccagtgac cctctggggg
+      241 gtcacactgt ctggcaagtg gtcttcattg cattcttaac aggcttcctg gcattggtga
+      301 ccatcattgg caacatcctt gtcattgtgg catttaaggt caacaaacag ctgaagacag
+      361 tcaacaacta cttcctctta agcctggcct gtgcagatct gatcatcggg gtcatttcca
+      421 tgaacctgtt cactacctac atcattatga atcgctgggc actggggaac ttagcctgtg
+      481 acctctggct ttccattgac tatgtggcca gcaatgcttc agtcatgaat ctgctggtta
+      541 tcagcttcga caggtacttc tccatcacaa ggccactcac ctaccgagcc aaacgaacaa
+      601 caaagcgagc tggtgtgatg attggtttgg cttgggtcat ctcttttgtc ctgtgggctc
+      661 ctgccatctt gttctggcaa tactttgtag ggaagagaac tgtgccccca ggagaatgtt
+      721 tcattcagtt cctgagtgag cccaccatca ccttcggcac agcgattgct gccttttata
+      781 tgccggtcac catcatgact attttatatt ggagaatcta taaggaaact gaaaaacgta
+      841 ccaaagagct ggctgggcta caggcctctg ggacagaagc tgaggcagaa aactttgtcc
+      901 acccctcagg tagttctcga agctgcagca gctatgaact acaacagcaa agcatgaagc
+      961 gctcatccag gaggaagtat ggtcgctgtc acttctggtt cacaaccaaa agctggaagc
+     1021 ccagtgttga gcagatggac caagaccaca gcagcagtga cagctggaat aacaacgacg
+     1081 ctgctgcctc cctggaaaac tctgcctcct ccgatgaaga ggacattggc tcagagacca
+     1141 gagccatcta ctctattgtg ctcaagcttc cagggcatag caccatcctc aattctacca
+     1201 agctaccctc ctcagacaac ctgcagttgc cagatgaaga cctggggact gttgatgtag
+     1261 agagaaatgc caataagctt caggttcaga agagcatgga tgatggtgac agttgtcaga
+     1321 aggacttctc caagcttccc atccagttag agtctgctgt ggatacaacc aagacctctg
+     1381 acaccaactc ctcggtggac aagaccacag ccactctacc actgtccttc aaggaagcca
+     1441 cactggctaa gaggtttgct ctgaagacca gaagtcagat caccaagcgg aaaagaatgt
+     1501 cgctcatcaa ggagaagaaa gcagcccaga ccctcagtgc catcttgctg gccttcatca
+     1561 tcacctggac cccctataac atcatggtcc tggtgaatac cttctgtgat agctgcatcc
+     1621 ccaaaaccta ttggaatctg ggctactggc tatgctatat caacagcacc gtgaaccccg
+     1681 tatgctatgc cctgtgcaac aaaacattca gaaccacctt caagatgctt ctcttgtgcc
+     1741 agtgtgacaa cagaaagaga cgcaaacagc agtaccagca aagacagtca gtcatttttc
+     1801 acaagcgagt gcccgagcag gccttgtaga aaaagggttt gtctggagca gtgaccacac
+     1861 tcgcacatca gcccacacag cctagcagga gtctggcgca ggtgggaggc cattcctgat
+     1921 ggtgataaaa ggggttttat caaccacaca ggagagaagc tgcctgttta ctgatccaat
+     1981 gaataaactg attttggcca aatgccaat
+//

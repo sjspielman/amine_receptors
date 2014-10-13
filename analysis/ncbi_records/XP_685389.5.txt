@@ -1,0 +1,65 @@
+LOCUS       XP_685389                431 aa                     VRT 01-AUG-2013
+DEFINITION  PREDICTED: alpha-1A adrenergic receptor [Danio rerio].
+ACCESSION   XP_685389
+VERSION     XP_685389.5  GI:528491898
+DBLINK      BioProject: PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001877118.3) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Aug 1, 2013 this sequence version replaced gi:326671147.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..431
+                     /strain="Tuebingen"
+                     /organism="Danio rerio"
+                     /chromosome="10"
+                     /db_xref="taxon:7955"
+     Protein         1..431
+                     /product="alpha-1A adrenergic receptor"
+                     /calculated_mol_wt="47863"
+     Region          48..>151
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          59..338
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <325..>414
+                     /note="CHAT domain; cl19248"
+                     /db_xref="CDD:267601"
+                     /region_name="CHAT"
+     CDS             1..431
+                     /coded_by="XM_680297.5:283..1578"
+                     /gene="LOC557259"
+                     /db_xref="GeneID:557259"
+ORIGIN
+        1 mtsmlpeedy instffpenc sncstipvle idvtktlvlg lvlvlflifg vmgnilvils
+       61 vachrnlrsv thyfignlai adlllssvvl pfsavsealg rwvfgrhlcn awtaldvlcc
+      121 tasilslcvi svdrcmavsy plqypsfatg rramtavaal walsaaisvg plfgwrepmp
+      181 edesvcrvne dpgyaifsaa csfyvplavi lamycrvyvv arhktramsk sretnglseq
+      241 gmtlrihcrk aqndtrkeda mrlknshfaf mrllkfsrek kaaktlgivv gcfvlcwlpf
+      301 flvlpissif pshrppdavf kitfwlgyfn sclnpiiypc fsqefkkafq nvlhgrclsr
+      361 thqtwsppan atqympkspq glssgftdsw rsdhasssav mlnensydep dtslslkvhq
+      421 vsickidgep v
+//

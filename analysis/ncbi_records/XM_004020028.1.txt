@@ -1,0 +1,103 @@
+LOCUS       XM_004020028            2175 bp    DNA              MAM 02-DEC-2012
+DEFINITION  PREDICTED: Ovis aries 5-hydroxytryptamine (serotonin) receptor 7,
+            adenylate cyclase-coupled (HTR7), mRNA.
+ACCESSION   XM_004020028
+VERSION     XM_004020028.1  GI:426252772
+KEYWORDS    RefSeq.
+SOURCE      Ovis aries (sheep)
+  ORGANISM  Ovis aries
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Caprinae; Ovis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004080185) annotated using gene prediction method: GNOMON,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ovis aries Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2175
+                     /breed="Texel"
+                     /db_xref="taxon:9940"
+                     /mol_type="mRNA"
+                     /organism="Ovis aries"
+                     /chromosome="22"
+     gene            1..2175
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 4 mRNAs, 9 Proteins"
+                     /db_xref="GeneID:101122994"
+                     /gene="HTR7"
+     misc_feature    63..65
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR7"
+     STS             136..673
+                     /db_xref="UniSTS:511811"
+                     /standard_name="HTR7"
+                     /gene="HTR7"
+     CDS             138..1445
+                     /product="5-hydroxytryptamine receptor 7"
+                     /codon_start="1"
+                     /db_xref="GI:426252773"
+                     /db_xref="GeneID:101122994"
+                     /translation="MMDVNSSGRPDLYGHLRSFFLPEVGRGLPDLSPDDAGPVAGSWAP
+                     HLLHGVVEVTASPGPIRDAPRDNPPGCWEQINYGRAEKVVIGSILTLITLLTIAGNCLV
+                     VISVCFVKKLRQPSNYLIVSLALADLSVAVAVMPFVSVTDLIGGEWIFGRFFCNVFIAM
+                     DVMCCTASIMTLCVISIDRYLGITRPLTYPVRQNGKCMAKMILSVWLLSASITLPPLFG
+                     WAQNVNDGKVCLISQDFGYTIYSTAVAFYIPMSVMLFMYYQIYKAARKSAAKHKFPGFP
+                     RPEEPDSVISLNGMVKLQKEVEECANLSRLLKHERKNISIFKREQKAATTLGIIVGAFT
+                     VCWLPFFLLSTARPFICGIACSCIPLWVERTCLWLGYANSLINPFIYAFFNRDLRTTYR
+                     SLLQCQYRNINRKLSAAGMHEALKLAERPERPELVP"
+                     /gene="HTR7"
+                     /protein_id="XP_004020077.1"
+     STS             1233..1372
+                     /db_xref="UniSTS:39426"
+                     /standard_name="RH66814"
+                     /gene="HTR7"
+ORIGIN
+        1 ggcgcccccc tgcggtcggc gcgggcctca tggctgggcc gagcggagcg gaaccggcga
+       61 ggtgaagccc ccgggccggc agccgcagcg cttggcgggg ggcgccggct ccatgggcag
+      121 cggcgcacag cggcacgatg atggacgtta atagcagcgg ccgcccggac ctctacgggc
+      181 acctccgctc tttcttcctg ccggaggtgg ggcgcgggct gcccgacctg agccccgacg
+      241 acgccggccc ggtcgcgggc tcctgggcgc cgcacctgct gcacggggtc gtggaggtga
+      301 cggctagccc cgggcccatc cgggacgcgc cgcgggacaa tccccccggc tgttgggagc
+      361 agatcaacta cggccgagcc gagaaagttg tgatcggctc catcctgacg ctcatcacgc
+      421 tgctgacgat cgccggcaac tgcctggtgg tgatttcggt gtgcttcgtc aaaaagctcc
+      481 ggcagccctc caactacctg atcgtgtccc tggcgctggc cgacctttcg gtggccgtgg
+      541 cggtcatgcc cttcgtcagc gtcaccgacc ttattggggg cgagtggatc tttggccgtt
+      601 tcttctgtaa cgtctttatc gccatggacg tcatgtgctg cacggcctcg atcatgaccc
+      661 tgtgcgtgat cagcatcgac aggtaccttg gtatcacgag gccgctgact taccctgtga
+      721 ggcagaacgg gaagtgcatg gccaagatga tcctctccgt ctggcttctg tccgcctcca
+      781 tcactttacc gccgctcttt ggctgggctc agaacgtcaa tgacggcaag gtgtgcttga
+      841 tcagccagga ctttggctac acgatttact ccactgcagt ggcattttat atccccatgt
+      901 ccgtcatgct tttcatgtac taccagattt acaaagccgc caggaagagc gccgccaaac
+      961 acaagttccc tggcttcccc cggccagagg agcccgacag cgtcatctcc ctcaatggca
+     1021 tggtgaagct ccagaaggag gtagaggagt gtgcaaacct ttcgaggctc ctcaaacacg
+     1081 aaaggaaaaa catctccatc tttaagaggg agcagaaagc agccaccacc ctgggcatca
+     1141 tcgtcggggc cttcaccgtg tgctggctgc cgtttttcct cctctcgact gccaggccct
+     1201 tcatctgcgg catcgcctgc agctgcatcc cgctgtgggt ggagaggaca tgtctgtggc
+     1261 tgggctatgc aaactctctc atcaacccct ttatatatgc cttcttcaac cgggacctga
+     1321 ggaccaccta ccgcagcctg ctccagtgcc agtaccggaa catcaaccgg aaactctcgg
+     1381 cagcaggcat gcacgaggcc ctgaagctcg ccgagaggcc ggagaggcct gagctcgtgc
+     1441 cgtaagacaa aactgtgact actgtagaaa aaaagtcatg attcatgatc aaaagcagaa
+     1501 taatggagat gaaataaaca aggcaagaca gaggtggaaa cagaatgcga tcatttgccg
+     1561 agacttcgga atggaatgcg gcgtctgtcc tttcttggga tggctaagac atgaccagca
+     1621 gagtatgtcc actgttgaga gtatgtcgtg agagggatgg tagcctctcc ttgttttctg
+     1681 tggatccgtg ctactgtatg cacgtgaaaa tggcctgatc ggctcagctg caagtgcaca
+     1741 cacagaactg agttccagaa agaacacagt ttctggtgct ttgcttctgt tcaagtctgt
+     1801 gcaagtgaag aagttccagt gcacacttcc catgcttttg agtctaggcc ttgtggtgaa
+     1861 tattcaggaa tcattcatga gacagatgta ttttgctgtg ggacagaggg tgttttcctc
+     1921 ggcccactgc ggtaagccta gtgatgaata cattgcatgt ccacattaga aaacagaacc
+     1981 cagtcatcag ctactacaaa tgatctccca gagcagtgtc cgttcaaagc ttctgtcaaa
+     2041 cagtttggct tttttgcagg gtccttgtga tgtccccacc agcctccttt cttttttaac
+     2101 tcgcttctcg ttctggagta actcaggaac agagctcagg atggagagaa ttttaaaacc
+     2161 tgaataaagc ttttt
+//

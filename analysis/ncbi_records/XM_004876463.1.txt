@@ -1,0 +1,95 @@
+LOCUS       XM_004876463            1548 bp    DNA              ROD 18-JUN-2013
+DEFINITION  PREDICTED: Heterocephalus glaber dopamine receptor D3 (Drd3), mRNA.
+ACCESSION   XM_004876463
+VERSION     XM_004876463.1  GI:512809605
+DBLINK      BioProject: PRJNA167983
+KEYWORDS    RefSeq.
+SOURCE      Heterocephalus glaber (naked mole-rat)
+  ORGANISM  Heterocephalus glaber
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Bathyergidae; Heterocephalus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004629204.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Heterocephalus glaber Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1548
+                     /db_xref="taxon:10181"
+                     /mol_type="mRNA"
+                     /organism="Heterocephalus glaber"
+                     /chromosome="Unknown"
+                     /sex="male"
+     gene            1..1548
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 Proteins, and 94% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101713857"
+                     /gene="Drd3"
+     misc_feature    37..39
+                     /note="upstream in-frame stop codon"
+                     /gene="Drd3"
+     CDS             109..1452
+                     /product="D(3) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:512809606"
+                     /db_xref="GeneID:101713857"
+                     /translation="MAPLSQWSGYINSTCGAENSTGANRARPYAYYALSYCALILAIIF
+                     GNGLVCVAVLRERALQTTTNYLVVSLAVADLLVATLVMPWVVYLEVTGGIWNFSRICCD
+                     VFVTLDVMMCTASILNLCAISIDRYTAVVMPVHYQHGTGQGSCRRVALMITAVWVLAFT
+                     VSCPLLFGFNTTGDPSICSISNPDFVIYSSVVSFYVPFGVTVLVYARIYMVLRQRRRKR
+                     ILTRQNSQCISIRPDFPQQSSCLRLHPIRQFSVRTRFPSDATGRMEHIGDKQYPQKCEN
+                     PPFSHPQPLSPGQAHTELKRYYSICQGTTLRRPSFQEEEGELKREERTQNSLSPTMAPK
+                     LSLEVRKLSNGRLSTSLKLGSLQPRGVPLREKKATQMVAIVLGAFIVCWMPFFLTHVLN
+                     THCQACHVSPELYRATTWLGYVNSALNPVIYTTFNVEFRKAFLKILSC"
+                     /gene="Drd3"
+                     /protein_id="XP_004876520.1"
+     STS             1144..1343
+                     /db_xref="UniSTS:34219"
+                     /standard_name="DRD3-556F"
+                     /gene="Drd3"
+     STS             1274..1451
+                     /db_xref="UniSTS:53374"
+                     /standard_name="RH71216"
+                     /gene="Drd3"
+ORIGIN
+        1 tctgttgtca ataaatggct gcaagagctg aggtgctaaa cttcaatctc cagaaatcag
+       61 aggaaatctt cagggaattc ttctgggtca gattgttccc tctggactat ggcacctctg
+      121 agccagtgga gtggctacat caactccact tgcggagcag agaactccac gggtgccaac
+      181 cgggcccgcc catatgccta ctatgccctg tcctactgtg cgctcatcct agccatcatc
+      241 ttcgggaatg gcctggtgtg tgtggctgta ctgagggagc gggccttgca gactaccacc
+      301 aactacctcg tagtgagcct ggctgtggca gacttgctgg tggccacctt ggtgatgcct
+      361 tgggtggtct acctggaggt gacaggtgga atctggaatt tcagccgcat ttgctgtgac
+      421 gtttttgtga ccctggatgt catgatgtgt acagccagca tcctgaacct ctgtgccatc
+      481 agcatagaca ggtacaccgc ggtggtcatg cctgttcact atcaacatgg cacaggccag
+      541 ggctcttgcc ggcgtgtggc cctcatgatt acagctgtgt gggtactcgc atttactgtg
+      601 tcctgccctc tcctctttgg cttcaacaca acaggagacc ccagcatctg ttccatctcc
+      661 aaccctgatt ttgtcatcta ctcttcggta gtgtctttct atgtgccctt tggagtgact
+      721 gtcctcgtct atgccaggat ctacatggtg ctgagacaaa ggagaaggaa acggatcctc
+      781 actcgacaga acagtcagtg catcagcatc aggcctgact tccctcagca atcttcctgc
+      841 cttcgactgc accctatccg acagttttca gtaaggacca gatttccatc agatgccaca
+      901 ggaagaatgg aacacatagg agataaacaa tacccccaga aatgtgagaa ccctcccttt
+      961 tcacacccgc agcccctttc tcctggccaa gcacacacag agctgaaacg ctactacagt
+     1021 atctgccaag gtaccacctt gaggcgacca agcttccaag aagaagaagg agaactgaaa
+     1081 agggaggaga gaactcaaaa ctccctgagc cccaccatgg cacccaagct cagtttagaa
+     1141 gttcgaaaac tcagtaatgg cagattatca acatccctga aactgggttc cttacagcct
+     1201 cggggagtgc cacttcgaga aaagaaggca acccagatgg tggccattgt acttggggcc
+     1261 ttcattgtct gctggatgcc cttcttcttg acccacgttc ttaataccca ctgccaagca
+     1321 tgccacgtgt ccccagagct ttacagagcc actacatggt tgggctatgt gaatagtgcc
+     1381 ctcaaccctg tgatctatac caccttcaat gtagagttcc gcaaagcctt cctcaagatc
+     1441 ctgtcttgct gaaggaagaa aggagaaccc acaccaacct ctaactgcca agctgttgag
+     1501 ccccctggcc agggcctgct cagaaagact gcaatgtcct ctggcatg
+//

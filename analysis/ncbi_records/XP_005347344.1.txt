@@ -1,0 +1,63 @@
+LOCUS       XP_005347344             444 aa                     ROD 21-AUG-2013
+DEFINITION  PREDICTED: D(2) dopamine receptor [Microtus ochrogaster].
+ACCESSION   XP_005347344
+VERSION     XP_005347344.1  GI:532007020
+DBLINK      BioProject: PRJNA210839
+KEYWORDS    RefSeq.
+SOURCE      Microtus ochrogaster (prairie vole)
+  ORGANISM  Microtus ochrogaster
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Arvicolinae; Microtus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004948978.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Microtus ochrogaster Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..444
+                     /isolate="Prairie Vole_2"
+                     /sex="female"
+                     /organism="Microtus ochrogaster"
+                     /chromosome="5"
+                     /db_xref="taxon:79684"
+     Protein         1..444
+                     /product="D(2) dopamine receptor"
+                     /calculated_mol_wt="50767"
+     Region          45..>233
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          57..427
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..444
+                     /coded_by="XM_005347287.1:237..1571"
+                     /gene="Drd2"
+                     /db_xref="GeneID:101987565"
+ORIGIN
+        1 mdplnlswyd ddlerqnwsr pfngsegkad rphynyyaml ltllifiivf gnvlvcmavs
+       61 rekalqtttn ylivslavad llvatlvmpw vvylevvgew kfsrihcdif vtldvmmcta
+      121 silnlcaisi drytavampm lyntrysskr rvtvmiaivw vlsftiscpl lfglnntdqn
+      181 eciianpafv vyssivsfyv pfivtllvyi kiyivlrkrr krvntkrssr afranlktpl
+      241 kgncthpedm klctvimksn gsfpvnrrrm daarraqele memlsstspp ertryspipp
+      301 shhqltlpdp shhglhsnpd spakpekngh ariinpriak ifeiqtmpng ktrtslksms
+      361 rrklsqqkek katqmlaivl gvfiicwlpf fithilnihc dcnippvlys aftwlgyvns
+      421 avnpiiyttf niefrkafmk ilhc
+//

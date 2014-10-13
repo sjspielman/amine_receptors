@@ -1,0 +1,86 @@
+LOCUS       XM_002690411            1543 bp    DNA              MAM 05-AUG-2013
+DEFINITION  PREDICTED: Bos taurus uncharacterized LOC521257 (LOC521257),
+            transcript variant X1, mRNA.
+ACCESSION   XM_002690411
+VERSION     XM_002690411.2  GI:528961787
+DBLINK      BioProject: PRJNA33843
+KEYWORDS    RefSeq.
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003104266.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Aug 5, 2013 this sequence version replaced gi:297478928.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Bos taurus Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1543
+                     /breed="Hereford"
+                     /db_xref="taxon:9913"
+                     /mol_type="mRNA"
+                     /organism="Bos taurus"
+                     /chromosome="10"
+     gene            1..1543
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 10 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="BGD:BT24591"
+                     /db_xref="GeneID:521257"
+                     /gene="LOC521257"
+     CDS             464..1543
+                     /product="histamine H2 receptor isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:297478929"
+                     /db_xref="BGD:BT24591"
+                     /db_xref="GeneID:521257"
+                     /translation="MAANGTASSSCLDPTAFKVTVTVVLILLILITIAGNVVVCLAVGL
+                     NRRLRSLTNCFIVSLAITDLLLGLLVLPFSAFYQLSCQWSFGKVFCNIYTSLDVMLCTA
+                     SILNLFMISLDRYCAVTDPLRYPVLVTPVRVAVSLVLIWVISITLSFLSIHLEWNSRPE
+                     NHSDSHTIPKCKVQVNLVYGLVDGLVTFYLPLLVMCITYYRIFRIAREQARRIHNVGPW
+                     RAATLREHKATVTLAAVMGAFIVCWLPYFTVFVYRGLRGDSAVDKTVEDVVLWLGYANS
+                     ALNPVLYAALNRDFRTAYQQLFRCSPAGQDARRTSLGSNSSQLVRHPGQGPRWPEERPL
+                     RLQVWSGTELTAPQGATDR"
+                     /gene="LOC521257"
+                     /protein_id="XP_002690457.1"
+ORIGIN
+        1 ccggacgccc ccccacccca tcacatggat gggggcagct gtccatcatg gagaaggctt
+       61 cagccatagc tccacatgaa acctccccaa taaaaccaaa gccacctcca gactcacgcc
+      121 cagtggagat gtgttcagtc ctgggaggaa gctggctctg ttggaggtga tttgaggact
+      181 gcagtttgaa ccaggaacct cgcttcgaga actagacgtc cctcatcctc cttcctactc
+      241 atgcccccca ccttcttgga gatcatttta tttattcaag aaaaaacagc actagctcgg
+      301 tccctggagc ctccccacat ttggatactt ctctcggctc tggtgggcag cctgaagccc
+      361 agtggtggac ataattgatc tgctggggag ctggaagagg aacaactgca ggcccggggt
+      421 gggggcgggg gggccacagg ggaaggagct gtagggaccc aggatggcgg ccaatggcac
+      481 agcctcatcc tcttgtctgg accccaccgc gttcaaggtc accgtcaccg tagtcctcat
+      541 cctcctcatc ctcatcacca tcgccggcaa tgtggtcgtc tgcctggcgg tgggcttgaa
+      601 ccgccggctc cgcagcctga ccaactgctt cattgtgtcc ctggccatta ctgacctgct
+      661 cctcggcctc ctggtgctgc ccttctctgc cttctaccag ctgtcctgcc agtggagctt
+      721 tggcaaggtc ttctgcaaca tctataccag cctggatgtc atgctctgca cggcctccat
+      781 cctcaacctc ttcatgatca gccttgacag gtactgcgcc gtcacagacc ccctgcgcta
+      841 ccccgtgctg gtcaccccgg tccgggtcgc cgtctccctg gtcttaatct gggtcatttc
+      901 catcaccctg tccttcctgt ccatccacct ggaatggaac agcaggcctg agaaccacag
+      961 tgacagtcac accatcccca agtgcaaagt ccaggtcaac ttggtgtacg gtctggtaga
+     1021 cgggctggtc accttctacc tgccgctgct cgtcatgtgc attacgtact accgcatctt
+     1081 caggatcgcc cgggaacagg ccaggaggat tcacaacgtc ggcccgtgga gggcagccac
+     1141 gctcagggag cacaaagcca cggtgacgct ggctgccgtc atgggggcct tcatcgtctg
+     1201 ctggctcccc tacttcaccg tgttcgttta ccgggggctg cgaggggaca gcgctgtcga
+     1261 caagaccgtg gaagacgtgg tcctgtggct gggctatgcc aactcggccc tgaaccccgt
+     1321 gctgtacgcc gcgctcaaca gagacttccg cacggcctac cagcagctct tccgctgcag
+     1381 ccccgccggc caggacgcgc gcaggacttc tctggggtcc aacagctctc agctggtgag
+     1441 gcatccgggc cagggaccca ggtggccgga agagaggccc ctgaggctcc aggtgtggag
+     1501 tgggactgag ctcacggccc cccagggagc cacagacagg taa
+//

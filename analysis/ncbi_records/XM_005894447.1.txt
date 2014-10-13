@@ -1,0 +1,91 @@
+LOCUS       XM_005894447            1551 bp    DNA              MAM 01-NOV-2013
+DEFINITION  PREDICTED: Bos mutus adrenoceptor alpha 2C (ADRA2C), mRNA.
+ACCESSION   XM_005894447
+VERSION     XM_005894447.1  GI:555964896
+DBLINK      BioProject: PRJNA221623
+KEYWORDS    RefSeq.
+SOURCE      Bos mutus
+  ORGANISM  Bos mutus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005393579.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Bos grunniens mutus Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1551
+                     /mol_type="mRNA"
+                     /country="China"
+                     /isolate="yakQH1"
+                     /sex="female"
+                     /db_xref="taxon:72004"
+                     /organism="Bos mutus"
+                     /chromosome="Unknown"
+     gene            1..1551
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 10 Proteins"
+                     /db_xref="GeneID:102285813"
+                     /gene="ADRA2C"
+     CDS             1..1551
+                     /product="alpha-2C adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:555964897"
+                     /db_xref="GeneID:102285813"
+                     /translation="MKCLAVLVTSGASGENRVSSSPPASASLSSWPSSHPSASASASES
+                     PSEAPPVTEASSQGGTEGPEPALEELSGAKSITVIDIAVKRPHQHPVWLGRMEVTRPFG
+                     PPIPPARFHRKLSLLPGAGLGPSVPQVTGDEGEERDRDPACRGSQGMKARALYPEDYLA
+                     RCRPLPLGPGPQERPFLLPPPSLASRALSAVVIAVLTSRALRAPQNLFLVSLASADILV
+                     ATLVMPFSLANELMAYWYFGQVWCGVYLALDVLFCTSSIVHLCAISLDRYWSVTQAVEY
+                     NLKRTPRRVKATIVAVWLISAVISFPPLVSLYRRPDGAAYPQCGLNDETWYILSSCIGS
+                     FFAPCLIMGLVYARIYRVAKLRTRTLSEKREPAGPDGASPTTENGLGAGENGHCVPARR
+                     PRADLEPEDIFLSRRRRARSSVCRRKVAQAREKRFTFVLAVVMGVFVLCWFPFFFTYSL
+                     YGICREACQVPGPLFKFFFWIGYCNSSLNPVIYTVFNQDFRRSFKHILFRRRRRGFRQ"
+                     /gene="ADRA2C"
+                     /protein_id="XP_005894509.1"
+     STS             1369..1489
+                     /db_xref="UniSTS:13513"
+                     /standard_name="STS-J03853"
+                     /gene="ADRA2C"
+ORIGIN
+        1 atgaagtgcc tggcagtgct ggttacctct ggagcctctg gggagaatcg tgtttcctcg
+       61 tctcctcctg cttctgcatc tctgagctcg tggccctcct cccatccctc tgcctccgcc
+      121 tctgcttcag agagcccttc cgaggccccc ccagtaaccg aggccagcag ccagggaggc
+      181 actgagggcc ccgagccagc cctggaggag ctcagcggtg ccaagtccat cactgtgatc
+      241 gatatcgcag tgaagcgacc gcaccagcat ccggtgtggc tggggaggat ggaggtcacc
+      301 aggcccttcg gaccacccat ccctcccgca cgcttccacc gcaagctatc cctcctccca
+      361 ggagcgggcc tgggacccag cgtgccgcag gtcacagggg atgaaggtga ggagcgggac
+      421 cgggacccag cgtgccgcgg gtcacagggg atgaaggcca gggctctcta ccccgaggac
+      481 tacctggccc gctgccgccc cttgcctctg ggccctggac cccaggagcg gcccttcctc
+      541 ctgcctcctc ccagtttggc cagccgggcg ctgtctgctg tggtgatcgc cgtgctgacc
+      601 agccgcgcgc tgcgtgcgcc gcagaacctc ttcctggtgt cgctggcctc cgctgacatc
+      661 ctggtggcca cactggtcat gcccttctcg ctggccaacg agctcatggc ctactggtac
+      721 ttcgggcagg tgtggtgcgg cgtgtacctg gcgctagacg tcctcttctg cacctcgtcc
+      781 atcgtgcacc tgtgcgccat cagcctggac cgctactggt ccgtgaccca ggccgtcgag
+      841 tacaacctga agcgcacgcc gcgccgcgtc aaggccacca tcgtggccgt gtggctcatc
+      901 tcggccgtca tctccttccc gccgctagtc tcgctctacc gccggcccga cggcgccgcc
+      961 tacccgcagt gtggcctcaa cgacgagacc tggtacatcc tgtcctcctg catcggctcc
+     1021 ttcttcgctc cctgcctcat catgggcctg gtctacgcgc gcatctaccg ggtggccaag
+     1081 ctgcgtacgc gcacgctcag cgagaagcgc gagcccgcgg gccccgacgg cgcgtccccg
+     1141 accacggaga acgggctggg cgccggcgag aacgggcact gcgtgcccgc gcgccgcccg
+     1201 cgcgccgacc tggagcccga ggacatcttc ctgtctcgcc ggcgccgggc gcgcagcagc
+     1261 gtgtgccgcc gcaaggtggc ccaggcgcgt gagaagcgct tcaccttcgt gctggcggtg
+     1321 gtcatgggcg tgttcgtgct ctgctggttc cccttcttct tcacctacag cctgtatggc
+     1381 atctgccgcg aggcctgcca ggtgcccggc cctctcttca agttcttctt ctggatcggc
+     1441 tactgcaaca gctcgctcaa cccggtcatc tacaccgtct tcaaccagga cttccggcgc
+     1501 tctttcaagc acatcctctt ccgacggagg agaaggggct tcaggcagtg a
+//

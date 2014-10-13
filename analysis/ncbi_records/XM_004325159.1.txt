@@ -1,0 +1,89 @@
+LOCUS       XM_004325159            1532 bp    DNA              MAM 25-MAR-2013
+DEFINITION  PREDICTED: Tursiops truncatus 5-hydroxytryptamine receptor 1A-like
+            (LOC101319989), mRNA.
+ACCESSION   XM_004325159
+VERSION     XM_004325159.1  GI:470640465
+DBLINK      BioProject: PRJNA189944
+KEYWORDS    RefSeq.
+SOURCE      Tursiops truncatus (bottlenosed dolphin)
+  ORGANISM  Tursiops truncatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Cetacea;
+            Odontoceti; Delphinidae; Tursiops.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004205980.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Tursiops truncatus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1532
+                     /db_xref="taxon:9739"
+                     /mol_type="mRNA"
+                     /organism="Tursiops truncatus"
+                     /chromosome="Unknown"
+                     /sex="female"
+     gene            1..1532
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 14 Proteins"
+                     /db_xref="GeneID:101319989"
+                     /gene="LOC101319989"
+     misc_feature    89..91
+                     /note="upstream in-frame stop codon"
+                     /gene="LOC101319989"
+     CDS             239..1507
+                     /product="5-hydroxytryptamine receptor 1A-like"
+                     /codon_start="1"
+                     /db_xref="GI:470640466"
+                     /db_xref="GeneID:101319989"
+                     /translation="MDVLSPLQGNNTTSSQGPFGTRANATGISDVTFSYQVITSLLLGT
+                     LIFCAVLGNACVVAAIALERSLQNVANYLIGSLAVTDLMVSVLVLPMAALYQVLNKWTL
+                     GQVTCDLFIALDVLCCTSSILHLCAIALDRYWAITDPIDYVNKRTPRRAAALISLTWLI
+                     GFLISIPPMLGWRTPEDRSDPDACTISKDHGYTIYSTFGAFYIPLLLMLVLYGRIFRAA
+                     RFRIRKTVKKEEKKVANNRLGASPAPQPRKSVNGEPGSKDWRQGMENKATGAPCANGAV
+                     RQGDEGAALEVIEVHRVGNSKEHLPLPSEAGAVPGVPASFEKKNERNAEAKRKMALARE
+                     RKTVKTLGIIMGTFILCWLPFFIVALVLPFCESSCHMPTLLGAIINWLGYSNSLLNPVI
+                     YAYFNKDFQNAFKKIIKCKFCRR"
+                     /gene="LOC101319989"
+                     /protein_id="XP_004325207.1"
+     STS             1321..1451
+                     /db_xref="UniSTS:265885"
+                     /standard_name="HTR1A"
+                     /gene="LOC101319989"
+ORIGIN
+        1 gtttcccagc tggagtctct gagcgcgctg gactacgaga gcccagggag cgcctagaag
+       61 ctagctgctc ctcggagatg ccttcgcctg agcagtaaga acttcctgct tgagtccctg
+      121 catcccctcc cccgttgaaa ctgcccagga aagaggggcg gaagacccca gggggagggg
+      181 cgaggggtat cctggcgcag ctctttctcc cctcccctcc cctgccgggc gcgcaggcat
+      241 ggatgtgctc agccccttac agggcaacaa cactacgtcg tcccagggtc ccttcgggac
+      301 acgcgccaac gctactggca tctccgacgt gaccttcagc taccaagtga tcacctctct
+      361 gctgctgggc actctcatct tctgcgcagt gctgggcaat gcgtgcgtgg tggccgccat
+      421 agccttggag cgctccctgc agaacgtggc gaactatctt ataggctcgt tggccgtcac
+      481 agacctcatg gtgtcggtgc tggtgctgcc catggccgcg ttgtaccagg tgctcaacaa
+      541 gtggactctg ggacaggtca cctgtgacct gttcatcgcc ctcgacgtgc tgtgctgcac
+      601 ctcgtccatc ctgcacctgt gcgctatcgc gctggacagg tactgggcca tcacagaccc
+      661 catcgactac gtgaacaaga ggacgccccg gcgcgcagct gcactcatct cgctcacctg
+      721 gctcattggc ttcctcatct ccatcccgcc catgctgggc tggcgtaccc cggaagaccg
+      781 ctcggacccc gacgcgtgca ccatcagcaa ggaccatggc tacactattt actccacctt
+      841 tggcgctttc tacatcccgc tgctgctcat gctggttctc tacgggcgca tcttccgagc
+      901 cgcgcgattc cgcatccgca agacagtcaa gaaggaggag aagaaggtag ccaacaaccg
+      961 ccttggggcg tcgccagccc cgcagcccag aaagagcgta aatggtgagc cgggtagcaa
+     1021 agactggagg cagggcatgg agaacaaggc aacaggggct ccgtgcgcca atggagccgt
+     1081 gaggcagggc gacgaaggag ccgccctgga agtgatcgaa gtgcaccggg tgggcaactc
+     1141 caaagagcac ctgccgctgc ccagcgaggc cggtgctgtc cccggcgtcc ccgcctcctt
+     1201 cgagaagaaa aatgagcgca acgccgaggc caagcgtaag atggccctgg cccgcgagag
+     1261 gaagacggtg aagacgctgg gcatcatcat gggcaccttc atcctctgct ggttgccctt
+     1321 cttcatcgtg gccctggtcc tgcccttctg cgaaagcagc tgccacatgc ccaccctgtt
+     1381 gggcgccata atcaactggc tgggctactc caactctctg ctcaaccctg tcatttacgc
+     1441 ctacttcaac aaggacttcc aaaacgcatt taagaagatc ataaagtgca agttctgccg
+     1501 ccgatgatga tggaggcgta gctggcgcgt ag
+//

@@ -1,0 +1,93 @@
+LOCUS       XM_003893809            1727 bp    DNA              PRI 04-SEP-2012
+DEFINITION  PREDICTED: Papio anubis 5-hydroxytryptamine (serotonin) receptor 1F,
+            G protein-coupled (HTR1F), mRNA.
+ACCESSION   XM_003893809
+VERSION     XM_003893809.1  GI:402858765
+KEYWORDS    RefSeq.
+SOURCE      Papio anubis (olive baboon)
+  ORGANISM  Papio anubis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Papio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003871835) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Papio anubis Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1727
+                     /mol_type="mRNA"
+                     /country="USA: Southwest National Primate Research Center,
+                     San Antonio"
+                     /isolate="1X1155"
+                     /sex="female"
+                     /db_xref="taxon:9555"
+                     /organism="Papio anubis"
+                     /chromosome="2"
+     gene            1..1727
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 3 mRNAs, 3 ESTs, 10 Proteins"
+                     /db_xref="GeneID:101001948"
+                     /gene="HTR1F"
+     misc_feature    139..141
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR1F"
+     CDS             160..1260
+                     /product="5-hydroxytryptamine receptor 1F"
+                     /codon_start="1"
+                     /db_xref="GI:402858766"
+                     /db_xref="GeneID:101001948"
+                     /translation="MDFLNSSDQNLTSEELLNRMPSKILVSLTLSGLALMTTTINSLVI
+                     AAIIVTRKLHHPANYLICSLAVTDFLVAVLVMPFSIVYIVRESWIMGQVVCDIWLSVDI
+                     TCCTCSILHLSAIALDRYRAITDAVEYARKRTPKHAGIMITVVWIISVFISMPPLFWRH
+                     QGTSRDDECIIKHDHIVSTIYSTFGAFYIPLALILILYYKIYRAAKTLYHKRQASRISK
+                     EEVNGQVLLESGEKSTKSVSTPYAPEKSLTDPSTDFDKIHSTVRSLRSEFKHEKSWRRQ
+                     KISGTRERKAATTLGLILGAFVICWLPFFVKELVVNVCEKCKISEEMSNFLTWLGYLNS
+                     LINPLIYTIFNEDFKKAFQKLVRCRC"
+                     /gene="HTR1F"
+                     /protein_id="XP_003893858.1"
+     STS             618..1322
+                     /db_xref="UniSTS:277339"
+                     /standard_name="HTR1F_996"
+                     /gene="HTR1F"
+ORIGIN
+        1 gagaccagac aggatctctt caagagcagc gtcaagagcc tggagagggt ttcaagagcc
+       61 gtggagtgca gtgaattaga gaaccaaatc aggaagcaga agtggacact aatgacggta
+      121 tccatttttc cgctatatta atcttttaaa acaaagaaaa tggatttctt aaattcatcg
+      181 gatcaaaact tgacgtcaga ggaactgtta aacagaatgc cgtccaaaat tctggtgtcc
+      241 ctcactctct ctgggctggc actgatgaca accactatca actcccttgt gattgctgca
+      301 attattgtaa cccggaagct gcaccatcca gccaattatt taatttgctc ccttgcagtc
+      361 acagattttc ttgtggctgt cctggtgatg cccttcagca ttgtgtacat tgtgagagag
+      421 agctggatta tggggcaagt ggtctgtgac atctggttga gtgttgacat tacctgctgc
+      481 acatgctcca tcttgcatct ctcagctata gctttggatc ggtatcgagc aatcacagat
+      541 gctgtcgagt atgccaggaa aaggactccg aagcatgctg gcattatgat tacagtagtt
+      601 tggattatat ctgtttttat ctctatgcct cctctattct ggaggcacca aggaactagc
+      661 agagatgatg aatgtatcat caagcacgac cacattgttt ccaccattta ctcaacattt
+      721 ggagctttct acatcccact ggcattgatt ttgatccttt actacaaaat atatcgagca
+      781 gcaaagacat tataccacaa gagacaagca agtaggattt caaaggagga ggtgaatggc
+      841 caagtccttt tggagagtgg tgagaaaagc actaaatcag tttccacacc gtatgcacca
+      901 gaaaagtctt taactgaccc atcaacagac tttgataaaa ttcatagcac agtgaggagt
+      961 ctcaggtctg aattcaagca tgagaaatct tggagaaggc aaaagatctc aggtacaaga
+     1021 gaacggaaag cagccactac cctgggatta atcttgggtg catttgtaat atgttggctt
+     1081 cctttttttg taaaagaatt agttgttaat gtttgtgaaa aatgcaaaat ttctgaagaa
+     1141 atgtccaatt ttttgacatg gcttggatat ctcaattcgc ttataaatcc actgatttac
+     1201 acaatcttta atgaagactt caagaaagca ttccaaaaac ttgtgcgatg tcgatgctag
+     1261 ttttaaaaat gtttattatt gaaggatggg ggtttttgag gggaggagta actagatgaa
+     1321 tgctgaataa taaaacactt aagcttttag agggaagtac ctgaatactg ctaaaatgac
+     1381 aaggctataa tttatatttt aatagcaatg tgaatataaa atttattgat cattattcta
+     1441 gggtactcaa aattagaaaa taatttatgt aggttataaa caatattttg cctatgcaat
+     1501 gttcctaaaa agctgactgg aaaaaaatga tacatatata tacaatatta atgacagtga
+     1561 ttttccatgt ttatgtctca caataattat agaggagttt tcaattaaca acatacctcc
+     1621 ctccataatt tctatctagt cctattgttt tataatataa ttctattatt ttgtagaaga
+     1681 aaatataatt caccacaaag cacacatttc acctatctcc attcttg
+//

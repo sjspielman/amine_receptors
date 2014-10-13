@@ -1,0 +1,94 @@
+LOCUS       XM_006161828            1633 bp    DNA              MAM 03-DEC-2013
+DEFINITION  PREDICTED: Tupaia chinensis dopamine receptor D3 (DRD3), mRNA.
+ACCESSION   XM_006161828
+VERSION     XM_006161828.1  GI:562867563
+DBLINK      BioProject: PRJNA221634
+KEYWORDS    RefSeq.
+SOURCE      Tupaia chinensis (Chinese tree shrew)
+  ORGANISM  Tupaia chinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Scandentia; Tupaiidae; Tupaia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006199107.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Tupaia chinensis Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1633
+                     /mol_type="mRNA"
+                     /country="China"
+                     /sex="male"
+                     /db_xref="taxon:246437"
+                     /organism="Tupaia chinensis"
+                     /chromosome="Unknown"
+     gene            1..1633
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 Proteins, and 69% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:102483861"
+                     /gene="DRD3"
+     CDS             1..1344
+                     /product="D(3) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:562867564"
+                     /db_xref="GeneID:102483861"
+                     /translation="MAPLSLLSDDINSTCGPDNFTGASLARPHAYYALSYCALILAIVF
+                     GNGLVCVAVLREKALQTTTNYLVVSLAVADLLVATLVMPWVVYLEVTGGVWTFSRVCCD
+                     VFVTLDVMMCTASILNLCAISIDRYTAVVMPVHYQQSTGQSSCRRVALMITAVWVLAFA
+                     VSCPLLFGFNTTGDPSVCSISNPDFVIYSSVVSFYLPFGVTVLVYARIYVVLRQRRRKR
+                     ILTRQNSQCLSVRPGFPQQSSCLRLHPIRQFSIRARFSSDDTGKMEHSEDKQYPQKCQD
+                     PLLSHLQPLSTGRTHLELKRYYSICQDTAFRRPGFQEGEGELKREKRTRNSLSPNMAPK
+                     LSLEVRKLSNGRLSTSLKLGPLQPRAVPLREKKATHMVVIVLGAFIICWLPFFLTHILN
+                     THCQACHVSPELYSATTWLGYVNSALNPMIYTIFNVEFRKAFLKILSC"
+                     /gene="DRD3"
+                     /protein_id="XP_006161890.1"
+     STS             1036..1235
+                     /db_xref="UniSTS:34219"
+                     /standard_name="DRD3-556F"
+                     /gene="DRD3"
+     STS             1166..1343
+                     /db_xref="UniSTS:53374"
+                     /standard_name="RH71216"
+                     /gene="DRD3"
+ORIGIN
+        1 atggcaccac taagcctgct gagtgatgac atcaactcca cctgtgggcc ggacaacttc
+       61 acaggtgcca gcctggcccg cccacatgcc tactatgccc tgtcctactg tgcgctgatc
+      121 ctggccatcg tctttggcaa cggcctggtg tgtgtggccg tgctgcgaga gaaagccctg
+      181 cagactacta ccaactacct agtggtgagc ctggctgtgg cagacttgct ggtggccacc
+      241 ttggtgatgc cctgggtggt gtacctggag gtgacaggtg gagtctggac tttcagccgt
+      301 gtatgctgcg atgtttttgt caccttggat gtcatgatgt gtacagccag catcctgaac
+      361 ctctgtgcca tcagcataga cagatacact gccgtggtca tgccggtgca ctaccagcag
+      421 agcacagggc agagctcctg ccggcgggtg gccctcatga ttacagccgt ctgggtactg
+      481 gccttcgctg tctcctgtcc gctccttttt ggcttcaaca ccacagggga ccccagtgtc
+      541 tgttctatct ccaatcctga ttttgtcatc tactcttctg tggtgtcctt ctacctgccc
+      601 tttggagtga ctgttctggt ctacgccagg atctatgtgg tgctgagaca gagaagacgg
+      661 aaacggatcc tcactcgaca gaacagtcag tgcctcagtg tcaggcctgg cttcccccag
+      721 caatcttcct gtctgcggct gcaccccatt cggcagtttt caataagggc cagattttca
+      781 tcagatgaca caggaaaaat ggaacattca gaagataagc aatatcccca gaaatgtcag
+      841 gacccgctct tgtcacatct gcagcccctt tctactggcc ggacacacct ggagctcaag
+      901 cgctattaca gcatctgcca ggatactgcc ttcaggcgac caggcttcca agaaggagaa
+      961 ggagagttga aaagggagaa gaggactcgg aactccctga gcccaaacat ggcacccaag
+     1021 cttagcttag aagttcgaaa actcagtaat ggcaggttgt caacctccct gaagctgggg
+     1081 cccctgcaac ctcgggcagt gccacttcgg gaaaagaagg caacccatat ggtagtcatt
+     1141 gtactgggag ccttcattat ctgctggctg cctttcttct tgacccacat tctcaatacc
+     1201 cactgccaag catgccacgt gtccccagag ctttacagtg ccacaacgtg gctgggctat
+     1261 gtaaacagcg ccctcaaccc catgatctac accatcttca atgttgagtt ccgcaaagcc
+     1321 ttcctcaaga tcctgtcttg ctgaaggagg agaggaggga acacccctgt acctctagct
+     1381 gccacgctgt tgggccactg gccaagacct gctcagaaag actgcacaat gtcctctggc
+     1441 atatgacaga aagaagcttc tggagccagg atgcctctgt gtggcaggtg taaccaacta
+     1501 catcttccaa gacagaatgt tctacttccc cagctaaagt ctgactttat ttgacagtct
+     1561 tcaaatggtt gggggggatg ccaaatgaca agcaataact caaaaggaaa ctgattaaaa
+     1621 catgactcta cac
+//

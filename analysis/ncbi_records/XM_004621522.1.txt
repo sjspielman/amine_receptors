@@ -1,0 +1,92 @@
+LOCUS       XM_004621522            1539 bp    DNA              MAM 20-MAY-2013
+DEFINITION  PREDICTED: Sorex araneus cholinergic receptor, muscarinic 1 (CHRM1),
+            mRNA.
+ACCESSION   XM_004621522
+VERSION     XM_004621522.1  GI:505856346
+DBLINK      BioProject: PRJNA193513
+KEYWORDS    RefSeq.
+SOURCE      Sorex araneus (European shrew)
+  ORGANISM  Sorex araneus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Insectivora; Soricidae;
+            Soricinae; Sorex.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004546051.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Sorex araneus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1539
+                     /mol_type="mRNA"
+                     /country="United Kingdom: Piel Island"
+                     /isolate="GB8-d"
+                     /sex="female"
+                     /db_xref="taxon:42254"
+                     /organism="Sorex araneus"
+                     /chromosome="Unknown"
+     gene            1..1539
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 mRNAs, 25 Proteins"
+                     /db_xref="GeneID:101541752"
+                     /gene="CHRM1"
+     misc_feature    100..102
+                     /note="upstream in-frame stop codon"
+                     /gene="CHRM1"
+     CDS             157..1539
+                     /product="muscarinic acetylcholine receptor M1"
+                     /codon_start="1"
+                     /db_xref="GI:505856347"
+                     /db_xref="GeneID:101541752"
+                     /translation="MNTSAPPAVSPNITILAPGKGPWQMAFIGITTGLLSLATVTGNLL
+                     VLISFKVNTELKTVNNYFLLSLACADLIIGTFSMNLYTTYLLMGHWALGTLACDLWLAL
+                     DYVASNASVMNLLLISFDRYFSVTRPLSYRAKRTPRRAALMIGLAWLVSFILWAPAILF
+                     WQYLVGERTVLAGQCYIQFLSQPIITFGTAMAAFYLPVTVMCTLYWRIYQETENRAREL
+                     AALQGSETPGKGGGSSSSSERSQPGAEGSPESPPGRCCRCCRAPRLLQAYSWKEEEEEE
+                     EGSMESLTSSEGEEPGSEVVIKMPMVDPEAQAPAKQPPRSSPNTVKRPTRKGRERAGKG
+                     QKPRGKEQLAKRKTFSLVKEKKAARTLSAILLAFILTWTPYNIMVLVSTFCKDCVPETL
+                     WELGYWLCYVNSTINPMCYALCNKAFRDTFRLLLLCRWDKRRWRKIPKRPGSVHRTPSR
+                     QC"
+                     /gene="CHRM1"
+                     /protein_id="XP_004621579.1"
+     STS             236..538
+                     /db_xref="UniSTS:253963"
+                     /standard_name="CHRM1"
+                     /gene="CHRM1"
+ORIGIN
+        1 ggtgtttggg tccctggaga caccgtcggc ccctggggag gcagcgacac tgaggacccc
+       61 cacgtacctc tctccacacc catggtgatg agtcttcgct gagaaagccc ggccgtgtgc
+      121 ctccgggaac gggctgcccg gcccccccac tccaccatga acacctcggc tccacccgcc
+      181 gtcagcccca acatcaccat cttagcaccg ggcaaggggc cctggcagat ggccttcatc
+      241 gggatcacca cgggcctcct gtccctcgcc actgtcaccg gcaacctgct ggtcctgatc
+      301 tccttcaagg tcaacacgga gctcaagacg gtcaacaact acttcctgct gagcctggcc
+      361 tgcgccgacc tcatcatcgg caccttctcc atgaacctct acaccacgta cctgctcatg
+      421 ggccactggg ccctgggcac gctggcctgc gatctctggc tggccctgga ctacgtggcc
+      481 agcaacgcgt ccgtcatgaa ccttctgctc atcagcttcg accgctactt ctccgtgacc
+      541 cggcccttga gctaccgggc caagcgtacg ccccgccggg cggccctgat gatcggcctg
+      601 gcctggttgg tctccttcat cctctgggcg ccggccattc tcttctggca gtacctggtt
+      661 ggggagcgga ctgtcctggc tgggcagtgc tacattcagt tcctctccca gcccatcatc
+      721 accttcggca cggccatggc cgccttctac ctcccggtca ccgtcatgtg tactctctac
+      781 tggcgtatct accaggagac ggagaaccgg gcccgggagc tggcggccct gcagggctcc
+      841 gagaccccgg ggaagggggg aggcagcagc agcagctcgg agcggtccca gccgggggcc
+      901 gagggctccc ccgagagccc cccagggcgc tgctgtcgct gctgccgggc gcccaggctg
+      961 ctgcaggcct acagctggaa ggaggaagag gaggaggagg agggctccat ggagtccctc
+     1021 acgtcctctg agggcgagga gcctggctcc gaggtggtga tcaagatgcc catggtggac
+     1081 cccgaggcgc aggcgcccgc caagcagccc ccccggagct cccccaatac ggtcaagcgg
+     1141 cccacccgga aggggcgcga gcgagcgggc aagggccaga agccccgcgg gaaggagcag
+     1201 ctggccaagc gcaagacctt ctcgctggtc aaggagaaga aggcggcgcg gaccctgagc
+     1261 gccatcctgc tggccttcat cctcacctgg accccgtaca acatcatggt gctggtgtcc
+     1321 accttctgca aggactgcgt ccccgagacc ctgtgggagc tgggctactg gctgtgctac
+     1381 gtcaacagca ccatcaaccc catgtgctat gcgctctgca acaaggcctt ccgggacacc
+     1441 ttccgcctgc tgctgctctg ccgctgggac aagcgacgct ggcgcaagat ccccaagcgc
+     1501 cccggctctg tgcaccgcac gccctcccgc cagtgctga
+//

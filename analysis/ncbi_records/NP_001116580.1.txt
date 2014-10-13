@@ -1,0 +1,100 @@
+LOCUS       NP_001116580             446 aa                     MAM 03-MAR-2014
+DEFINITION  D(1A) dopamine receptor [Sus scrofa].
+ACCESSION   NP_001116580
+VERSION     NP_001116580.1  GI:178057298
+KEYWORDS    RefSeq.
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+REFERENCE   1  (residues 1 to 446)
+  AUTHORS   Brismar H, Hua X, Adachi S and Holtback U.
+  TITLE     The role of endocytosis in renal dopamine D1 receptor signaling
+  JOURNAL   Pflugers Arch. 451 (6), 793-802 (2006)
+   PUBMED   16217657
+  REMARK    GeneRIF: The results suggest that endocytosis of
+            beta(1)-adrenoceptor in renal proximal tubular cells is an important
+            step in signal generation, while endocytosis of proximal tubular D1
+            receptor is not.
+REFERENCE   2  (residues 1 to 446)
+  AUTHORS   Grenader AC, O'Rourke DA and Healy DP.
+  TITLE     Cloning of the porcine D1A dopamine receptor gene expressed in renal
+            epithelial LLC-PK1 cells
+  JOURNAL   Am. J. Physiol. 268 (3 PT 2), F423-F434 (1995)
+   PUBMED   7900842
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from U25681.1.
+            ##Evidence-Data-START##
+            RNAseq introns :: single sample supports all introns ERS198692,
+            ERS240717 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..446
+                     /db_xref="taxon:9823"
+                     /organism="Sus scrofa"
+                     /chromosome="16"
+                     /map="16"
+     Protein         1..446
+                     /note="dopamine D1 receptor"
+                     /product="D(1A) dopamine receptor"
+                     /calculated_mol_wt="49126"
+     Site            24..49
+                     /note="propagated from UniProtKB/Swiss-Prot (P50130.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Region          41..>158
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          46..331
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Site            61..87
+                     /note="propagated from UniProtKB/Swiss-Prot (P50130.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            97..119
+                     /note="propagated from UniProtKB/Swiss-Prot (P50130.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            139..163
+                     /note="propagated from UniProtKB/Swiss-Prot (P50130.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            193..218
+                     /note="propagated from UniProtKB/Swiss-Prot (P50130.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            273..299
+                     /note="propagated from UniProtKB/Swiss-Prot (P50130.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     Site            313..337
+                     /note="propagated from UniProtKB/Swiss-Prot (P50130.1)"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /site_type="transmembrane region"
+     CDS             1..446
+                     /coded_by="NM_001123108.1:937..2277"
+                     /gene="DRD1"
+                     /db_xref="GeneID:100144487"
+ORIGIN
+        1 mrtlntstmd gtglvverdf sfriltacfl sllilstllg ntlvcaavir frhlrskvtn
+       61 ffvislavsd llvavlvmpw kavaeiagfw pfgsfcniwv afdimcstas ilnlcvisvd
+      121 rywaisspfr yerkmtpkaa filisvawtl svlisfipvq lswhkakpts psdgnvtslg
+      181 ktthncdssl srtyaisssl isfyipvaim ivtytriyri aqkqirrisa leraavhakn
+      241 cqttagngnp aecsqpessf kmsfkretkv lktlsvimgv fvccwlpffi lncmvpfcgs
+      301 getkpfcids itfdvfvwfg wansslnpii yafnadfrka fstllgcyrl cptstnaiet
+      361 vsinnngavv fsshheprgs iskdcnlvyl iphavgssed lkkeeaggia spleklspal
+      421 svildydtdv slekiqpitq ngqhpt
+//

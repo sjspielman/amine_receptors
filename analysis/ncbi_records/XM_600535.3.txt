@@ -1,0 +1,91 @@
+LOCUS       XM_600535               1638 bp    DNA              MAM 05-AUG-2013
+DEFINITION  PREDICTED: Bos taurus 5-hydroxytryptamine (serotonin) receptor 1A
+            (HTR1A), mRNA.
+ACCESSION   XM_600535
+VERSION     XM_600535.3  GI:528922120
+DBLINK      BioProject: PRJNA13366
+KEYWORDS    RefSeq.
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001493933.3) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Aug 5, 2013 this sequence version replaced gi:76674388.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Bos taurus Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1638
+                     /breed="Hereford"
+                     /db_xref="taxon:9913"
+                     /mol_type="mRNA"
+                     /organism="Bos taurus"
+                     /chromosome="20"
+     gene            1..1638
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 13 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="BGD:BT12229"
+                     /db_xref="GeneID:407137"
+                     /gene="HTR1A"
+     CDS             6..1274
+                     /product="5-hydroxytryptamine receptor 1A"
+                     /codon_start="1"
+                     /db_xref="GI:76674389"
+                     /db_xref="BGD:BT12229"
+                     /db_xref="GeneID:407137"
+                     /translation="MDVLSPGQGNNTTSSQGPFGTRGNATGISDVTFSYQVITSLVLGT
+                     LIFCAVLGNACVVAAIALERSLQNVANYLIGSLAITDLMVSVLVLPMAALYQVLNKWTL
+                     GQVTCDLFIALDVLCCTSSILHLCAIALDRYWAITDPIDYVNKRTPRRAAALISLTWLI
+                     GFLISIPPMLGWRTPEDRSDPDACTISKDHGYTIYSTFGAFYIPLLLMLVLYGRIFRAA
+                     RFRIRKTVKKVDKKAANHRLAASPAPQPRKSVSGESDSRDWRQGTENKVTGAPCANGAV
+                     RQGEEGAALEVIEVHRVGNSKEHLPLPSEGGAVPYVPASFEKKNERNAEAKRKMALARE
+                     RKTVKTLGIIMGTFILCWLPFFIVALVLPFCESSCHMPTLLGAIINWLGYSNSLLNPVI
+                     YAYFNKDFQNAFKKIIKCKFCRR"
+                     /gene="HTR1A"
+                     /protein_id="XP_600535.2"
+ORIGIN
+        1 caagcatgga tgtgctcagc cccggacagg gcaataacac cacgtcgtcc cagggtccct
+       61 tcgggacacg cggcaacgct actggcatct ccgacgtgac cttcagctat caagtaatca
+      121 cctctctagt gctgggcacg ctcatcttct gcgcggtgct gggcaatgcg tgtgtagtgg
+      181 cggccatcgc cctggagcgc tccctgcaga acgtggcgaa ctatctcata ggctcgctgg
+      241 ccatcaccga cctcatggtg tcggtgctgg ttctgcccat ggccgcgttg taccaggtgc
+      301 tcaacaagtg gactctggga caggtcacct gtgacctgtt catcgccctc gacgtactgt
+      361 gctgcacctc gtccattctg cacctgtgcg ctatcgctct ggatagatac tgggccatca
+      421 ccgaccccat cgactacgtg aacaagagga cgccccggcg cgccgctgcg ctcatctcgc
+      481 tcacctggct cattggcttc ctcatctcca tcccgcccat gctgggctgg cgcaccccgg
+      541 aagaccgctc ggacccggac gcgtgcacta tcagcaagga ccacggctac actatttact
+      601 ccaccttcgg cgctttctac atccctctgc tgctcatgct ggttctctac gggcgcatct
+      661 ttcgagccgc gcgattccgc attcgcaaga cagttaagaa ggtggacaag aaggcagcca
+      721 accaccgtct tgcggcatcg ccggccccgc agcccagaaa gagcgtgagt ggtgagtcgg
+      781 atagcagaga ctggaggcag ggcacggaga acaaggtaac aggggctccg tgcgccaatg
+      841 gagccgtgag gcagggcgaa gaaggcgccg ccctggaggt gatcgaagtg caccgggtgg
+      901 gcaactccaa agagcacctt ccgctgccca gcgaaggcgg tgctgtcccc tacgtccccg
+      961 cctccttcga gaagaaaaat gagcgcaacg ccgaggccaa gcgcaagatg gccctggccc
+     1021 gcgagaggaa gacggtgaag actctgggca tcatcatggg caccttcatc ctctgctggt
+     1081 tgcccttctt catcgtggcc ctagtcctgc ccttctgcga aagcagctgc cacatgccta
+     1141 ccctgttggg ggccataatc aactggctgg gctactccaa ctctctgctt aaccctgtca
+     1201 tttacgccta cttcaacaag gacttccaaa acgcgtttaa gaagatcatc aagtgcaagt
+     1261 tctgccgccg atgatgatgg agtagcggcg agtaggccca tcccattcat tctgcctccc
+     1321 ctagtcctct ggaatcaaag cctttgctac tttccctctg acattcacag ctgctaggcg
+     1381 cgctgcttcc agacctcatc cacccaagcc tctcccaagc ctcagtcccc agcggggaag
+     1441 gatggcgctc ttcgtaaaga ggctctagcc tccgggcaag agagaaactc ctccgctctg
+     1501 tgagaggaga ccttggctca aactggcttc agaatccgtt tgattccagc aattgcctcc
+     1561 tgcttcttct gccccgtaat cttcgcggcg gaactttaag cttcagccgt taaaggcaaa
+     1621 aaaaaaaaaa aaaaaaaa
+//

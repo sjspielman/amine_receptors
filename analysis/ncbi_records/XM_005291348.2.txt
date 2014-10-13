@@ -1,0 +1,120 @@
+LOCUS       XM_005291348            3186 bp    DNA              VRT 30-MAY-2014
+DEFINITION  PREDICTED: Chrysemys picta bellii dopamine receptor D2 (DRD2),
+            transcript variant X2, mRNA.
+ACCESSION   XM_005291348
+VERSION     XM_005291348.2  GI:641773795
+DBLINK      BioProject: PRJNA210179
+KEYWORDS    RefSeq.
+SOURCE      Chrysemys picta bellii (western painted turtle)
+  ORGANISM  Chrysemys picta bellii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Testudines; Cryptodira;
+            Testudinoidea; Emydidae; Chrysemys.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_007281441.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On May 30, 2014 this sequence version replaced gi:530595694.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Chrysemys picta Annotation Release
+            101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3186
+                     /sub_species="bellii"
+                     /mol_type="mRNA"
+                     /country="USA: Grant Co., WA"
+                     /isolate="RCT428"
+                     /sex="female"
+                     /isolation_source="small lake 1.3 miles south of Potholes
+                     Reservoir"
+                     /db_xref="taxon:8478"
+                     /organism="Chrysemys picta bellii"
+                     /chromosome="Unknown"
+     gene            1..3186
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 25 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 6 samples with support for all annotated introns"
+                     /db_xref="GeneID:101949559"
+                     /gene="DRD2"
+     CDS             373..1713
+                     /product="D(2) dopamine receptor isoform X2"
+                     /codon_start="1"
+                     /db_xref="GI:530595695"
+                     /db_xref="GeneID:101949559"
+                     /translation="MDPLNVSWYNDDIGNRNWSKPLNGSTEDQKPHYNYYAMLLTLLIF
+                     VIVFGNVLVCMAVSREKALQTTTNYLIVSLAVADLLVATLVMPWVVYLEVVGEWRFSRI
+                     HCDIFVTLDVMMCTASILNLCAISIDRYTAVAMPMLYNTRYSSRRRVTVMISVVWVLSF
+                     AISCPLLFGLNNTAKNECIIANPAFVVYSSIVSFYVPFIVTLLVYVQIYVVLRKRRKRV
+                     NTKRNIHGLDSDTQAPLKDKCTHPEDVKLCTVIVKSNGSFPVNKRKVEAVNHVEEMEME
+                     MVSSTSPPEKTKHKPALLSNHQLVMPATSNQCINSTLDLPLDSPTKTEKNGHAKDNPKT
+                     AKAFEIQSMPNGKTRTSLKTLSRRKLSQQKEKKATQMLAIVLGVFIICWLPFFITHILN
+                     MHCNCIIPPAMYSAFTWLGYVNSAVNPIIYTTFNIEFRKAFMKILHC"
+                     /gene="DRD2"
+                     /protein_id="XP_005291405.1"
+ORIGIN
+        1 gcgcttcact gagccctgga cagcgaccga gctgcagaaa aaaatctttg ctccgaagtc
+       61 agattcctta caaaaaacct gacacacccc agcgcgcgaa gctctggcaa ttgctgactc
+      121 aagtttcggt gggcaataac agcgcgtttc ccaccagcgg ttcctggttt gttggggtta
+      181 cactgctgcg cgttcaggga aagtgccaag gaacatggga aagtctggtg gaaagctctg
+      241 aaaagggtgg gagaagcccc ggtgaagggt ggtgctgttg tggatataca ggacaagaag
+      301 tgttgccagc tctctgctcc agtgaggcgt atggcttgaa gggtggagct ggaacctggc
+      361 attgttacct tcatggatcc cctgaacgtg tcctggtaca atgacgacat tggcaacagg
+      421 aactggagca agcctctcaa tgggtccact gaagaccaga agccacacta caactactac
+      481 gccatgcttc tcacccttct catcttcgtc attgtcttcg gcaacgtgtt ggtgtgcatg
+      541 gccgtgtcca gggaaaaagc ccttcagacc accactaact acctgatcgt gagcctggcc
+      601 gtggcagatc tcttggtggc aaccctggtg atgccctggg tagtctacct agaggtggtc
+      661 ggtgagtgga gatttagccg gatccactgt gacatctttg tcaccctgga cgttatgatg
+      721 tgtactgcca gcatcctcaa cctctgtgcc atcagcattg acaggtacac cgcagtagca
+      781 atgcccatgc tttataacac acgctacagc tccaggcgca gagtcactgt catgatctcc
+      841 gtggtctggg tcctgtcctt cgccatctcc tgcccacttc tgtttggtct caacaacaca
+      901 gccaagaatg agtgtatcat tgccaatcct gcctttgttg tgtattcctc tatcgtctcc
+      961 ttctacgttc ccttcattgt caccctgctg gtatacgtac agatttacgt agtgctccgg
+     1021 aaacgcagga agcgcgtcaa caccaagcgc aacatccacg gcctggactc tgacacgcag
+     1081 gcacctctga aggacaaatg cactcatcca gaagatgtga agctctgcac tgtcattgtc
+     1141 aagtccaacg ggagtttccc agttaataag cggaaagtgg aggcagtgaa tcacgtggag
+     1201 gagatggaga tggagatggt gtccagtacc agcccccctg aaaaaaccaa acacaaacca
+     1261 gccctgctga gtaaccacca attggttatg ccagccactt ccaaccagtg catcaattcc
+     1321 accctggatt tgcccttgga cagccccacg aaaacggaga agaatgggca cgccaaagac
+     1381 aacccaaaga cggccaaggc ctttgagatc cagtccatgc ccaatggcaa gacaaggact
+     1441 tccctcaaga ccctgagcag gaggaaactc tcgcagcaga aggaaaagaa agccacccag
+     1501 atgctagcca ttgtacttgg tgttttcatc atatgctggc tccccttttt catcacccac
+     1561 atcctgaaca tgcattgcaa ctgcatcatt ccaccggcga tgtacagtgc cttcacatgg
+     1621 ctcgggtatg tcaacagcgc cgtcaaccca attatttaca ccaccttcaa cattgagttc
+     1681 cgcaaggcct tcatgaagat cctccattgc taaataaagc ctgagagcaa gatgatgcca
+     1741 tgcacacacc acatacacac acacaggcga ctagggagtc atgaggaggc ctatggtgtt
+     1801 aagacagtgc catgcctacg cacccttata gctgggacgt aatgggtggc ttcaagtggg
+     1861 atgctctctc ttattcttaa ggtgaccttg gactccgaga tcaacccaaa gggcagtttt
+     1921 aagaggtact ctcacactgt gtttgaagat acagaagcaa aaactaagac acactcattt
+     1981 gatacctgcc tgtggccaac tgacctccag tgcattaatt gtggacatta gcagagccag
+     2041 cggtggacag tgattggtca ctgtgctggt tgctcacacg ttaacatcat tgatacaatt
+     2101 ctcaccaaag acaccgacat cttttctgct ttgcaatagg agccagaaag ccagagctca
+     2161 caggaactcc atgcaatggc tttgccatca cctccagctg accagtccag tatcaaatgg
+     2221 ctgaagcctt cagacaaaga cttagagagg tgccaactgg gctaagaagg ttctgccatc
+     2281 atacaagatc cgatatctac agacatatgg gtccagggga agtgggtgca ggaggagaat
+     2341 ggaaacctgt atcacatatg gtgtcataac acaaatgtaa atatgaaaaa ataggatgaa
+     2401 ttgaacagaa gcccaagcca aaaaaaaaac cataaataaa gagagagaaa aaaataacac
+     2461 cttgtcttgc atggtacgtg cgtgctatga ttcaaagggt acccatcgtc accattcaaa
+     2521 gccatgtcca cctgccagga ttttcatctc caagttacaa gttattgtac aaagttagct
+     2581 gcagtgtgat ggtgtcattc atatagtggc acaaggacaa ggtgaaagag aaggccgctg
+     2641 gagccatgtc catccctggt ataactccag tgaagtcatc agagttagac cttcaggttg
+     2701 aatttggccc ctgtagcatg ggtttaacca aacagggagg gaaactactt ttcattggcc
+     2761 atcctggctt cccccttccc ttatgactct gcattgaggc agagttgtgt attaggttct
+     2821 aagtctcagc catcactcta aaggacaata acttcactat aagcaagatc ttaagccact
+     2881 gactcacact aataagctgt agttgctttc atgaacaatc ccactgtctt cagaggaact
+     2941 actcctgaga gtaaccattc accaccgtga gttaagggcc tttgcaatct gaccttggtg
+     3001 ggtttgggag ggaaactgaa aggttctgaa agtgtctcta gctacacatc tcctgggttc
+     3061 agtgtggacc ctggtctgga aaatgagaga ttttttcccc tctttgtttc cagcacctcc
+     3121 cccaccccct tgtctctgtg cttcatggtt taaccacttg agaagccatc accaacacca
+     3181 tctcac
+//

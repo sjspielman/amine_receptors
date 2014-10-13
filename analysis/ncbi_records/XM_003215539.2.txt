@@ -1,0 +1,99 @@
+LOCUS       XM_003215539            2333 bp    DNA              VRT 22-MAY-2014
+DEFINITION  PREDICTED: Anolis carolinensis 5-hydroxytryptamine (serotonin)
+            receptor 1E, G protein-coupled (htr1e), transcript variant X2, mRNA.
+ACCESSION   XM_003215539
+VERSION     XM_003215539.2  GI:637253297
+DBLINK      BioProject: PRJNA60547
+KEYWORDS    RefSeq.
+SOURCE      Anolis carolinensis (green anole)
+  ORGANISM  Anolis carolinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata;
+            Toxicofera; Iguania; Iguanidae; Polychrotinae; Anolis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003338573.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On May 22, 2014 this sequence version replaced gi:327261538.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Anolis carolinensis Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2333
+                     /db_xref="taxon:28377"
+                     /mol_type="mRNA"
+                     /organism="Anolis carolinensis"
+                     /chromosome="1"
+                     /country="USA"
+     gene            1..2333
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 25 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 3 samples with support for all annotated introns"
+                     /db_xref="GeneID:100557862"
+                     /gene="htr1e"
+     CDS             648..1742
+                     /product="5-hydroxytryptamine receptor 1E"
+                     /codon_start="1"
+                     /db_xref="GI:327261539"
+                     /db_xref="GeneID:100557862"
+                     /translation="MNQTNLTTETNVTVQSKTATENMLIALTLSVITTLTMLLNSSVIS
+                     AICTTKKLHQPANYLICSLAVTDLLVAVLVMPLSITYIVMERWTLGYFLCEIWLSIDMT
+                     CCTCSILHLCVIALDRYWAITDAIEYARKRTAKRAAVMIGTVWTLSTFISMPPLFWRNH
+                     SVNIDSSECQIQHNHVIYTIYSTFGAFYIPLTLILIVYYRIYHAAKSLYQKRGSSRHLS
+                     SRSTDSQNSFTSCKITQTFCVSDFSTSDPTTEFDRMHASMKSPTFDNDLDLVGDRQQIS
+                     SVRERKAARILGLILSAFILSWLPFFIKELIVGLGLGTVSTEVAHLLTWLGYVNSLINP
+                     LLYTSFNEDFKLAFKKLIKCWEHS"
+                     /gene="htr1e"
+                     /protein_id="XP_003215587.1"
+ORIGIN
+        1 tatggacttt ttaaactttt accttcttta gaagatgaga tttagtaagc tagttagctt
+       61 caagactttt atatcaataa tgtatttctt tttcctttaa taaatctctt gaacctaaag
+      121 atcgactctg caatcctcag acatcttaaa ggttaaaggg ctattcctgc tcaccacaca
+      181 taagtttctg ctggttttgg agtttactcc tggcactctg ctacattttg gtggaattac
+      241 cctaactgaa agttattttt tgagcctaac aagttcagtt tccccaacac agaccattgt
+      301 gggtcattgc tacctatgta ttcttcctct ttgtccagat ggactgtctt gcctgcagaa
+      361 gatgtgggac attatcctga tctattctgg tgcacagctg cacagatgaa aacccccatg
+      421 gtgtgaattt tctccctgga gttcctaggg tgatggggac ttgactgggt attcaggcaa
+      481 aaaccaacag tgagtaagtg gaaggaaggt gactaaacgt gaaaataaga tggagcataa
+      541 agatcagccc tgacatatct ttgattatct tctggaatgg aggggttttc aacctgattt
+      601 ttgtctattc actgaaggca ataagcagtt tgtgtagctc agataagatg aatcagacaa
+      661 acctcacaac agaaactaat gtgactgtcc aatccaagac agctactgaa aacatgctta
+      721 ttgccctgac tctgtctgtc attaccacgc taacaatgct gctgaactct tcggtcattt
+      781 cagcaatttg tacaacaaag aagcttcacc agccagcaaa ctatttaata tgctcactgg
+      841 ctgttacaga cttacttgtt gctgttctgg tcatgccctt gagcattacc tacatagtta
+      901 tggaaagatg gacgcttgga tacttcctct gcgagatatg gctaagcata gacatgactt
+      961 gttgcacatg ttcaatactt cacctttgtg tcattgcact ggaccgatat tgggccatta
+     1021 cggatgccat tgaatatgcc aggaagagga ctgccaagag agctgcggtt atgattggca
+     1081 ccgtatggac cctttccact ttcatctcca tgcctccttt gttttggaga aaccacagcg
+     1141 ttaacatcga ttccagtgaa tgtcagattc agcacaacca tgtgatctat actatttact
+     1201 ccacatttgg agcattttat atccccttga cccttatact tatcgtctat tatcggattt
+     1261 atcatgctgc aaagagtctt tatcaaaagc gtggctcaag ccgacacctc agcagcagga
+     1321 gtacagacag ccaaaactct tttaccagtt gtaagatcac acagacattc tgtgtgtctg
+     1381 atttctccac atcggatccc accacggagt ttgacagaat gcatgcctca atgaagagcc
+     1441 ctacttttga caacgacctg gatttggttg gagatcgcca acagatttcc agcgtacgag
+     1501 agcgcaaggc tgcacgcatc cttggcctta ttttaagtgc gttcattttg tcttggttac
+     1561 cattttttat taaagaactc attgtaggcc ttggacttgg cactgtgtct acagaagtgg
+     1621 ctcacctttt gacatggttg ggttacgtga attccctgat caatccactg ctgtacacta
+     1681 gttttaatga agattttaaa cttgccttta aaaagctcat taagtgttgg gaacactctt
+     1741 aaaacaacac cagatggttt caatgtgact tcctggcctt aaataagaga gagagaaaaa
+     1801 ataacttaac ctagcaaccc atttggattc ttttgttttt aggctggaga gcacatatta
+     1861 aaaaagatta atttagcttg tctttctgct taatatctct ttaacctgtg aacttatcat
+     1921 gctgcttttt acttctttct attatgagta catgtatttc tatatcatga gattcaaata
+     1981 cattttatta cacaggttct ctcagttccc tttccctccc tccctcctcc tcttcctcct
+     2041 cctcctctct ctaacataga gcacatgcag cataaagagt ccaattcaat acttgtcttt
+     2101 agaccacttc taataaatta tgaaccgtca tcctactgtg tcagtgttaa cccaaccctc
+     2161 catcctactt cctcactgag tctcatgcaa acgtttcttt cagtgcacaa tccatgaaaa
+     2221 agataaaatg acccatgctg gaccaaagac ctgtctgatc cagccttctg ttttcaaacc
+     2281 cagagaggta tttttaaaaa acctacacac aagctacacg ttcagtgact tgt
+//

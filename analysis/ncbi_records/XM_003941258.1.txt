@@ -1,0 +1,126 @@
+LOCUS       XM_003941258            3706 bp    DNA              PRI 06-SEP-2012
+DEFINITION  PREDICTED: Saimiri boliviensis boliviensis adrenoceptor alpha 2B
+            (ADRA2B), mRNA.
+ACCESSION   XM_003941258
+VERSION     XM_003941258.1  GI:403301245
+KEYWORDS    RefSeq.
+SOURCE      Saimiri boliviensis boliviensis (Bolivian squirrel monkey)
+  ORGANISM  Saimiri boliviensis boliviensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Saimiriinae; Saimiri.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003943747) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Saimiri boliviensis Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3706
+                     /sub_species="boliviensis"
+                     /mol_type="mRNA"
+                     /isolate="3227"
+                     /sex="female"
+                     /db_xref="taxon:39432"
+                     /organism="Saimiri boliviensis boliviensis"
+                     /chromosome="Unknown"
+     gene            1..3706
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 3 mRNAs, 6 ESTs, 8 Proteins"
+                     /db_xref="GeneID:101054037"
+                     /gene="ADRA2B"
+     misc_feature    313..315
+                     /note="upstream in-frame stop codon"
+                     /gene="ADRA2B"
+     CDS             391..1737
+                     /product="alpha-2B adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:403301246"
+                     /db_xref="GeneID:101054037"
+                     /translation="MDHQEPYSVQATAAIAAAITFLILFTIFGNALVILAVLTSHSLRA
+                     PQNLFLVSLAAADILVATLIIPFSLANELLGYWYFRRTWCEVYLALDVLFCTSSIVHLC
+                     AISLDRYWAVSRALEYNSKRTPRRIKCIILTVWLIAAIISLPPLIYKGDQGPQPRGRPQ
+                     CKLNQEAWYILASSIGSFFAPCLIMILVYLRIYLIAKRSNRRGPRAKQGPGQGESKQPR
+                     PDRGGALASAKLPALASLASARETDVQSKSNGEKEEGETPEDTGNQALPPALPKSGQGQ
+                     KEGVYGASPEDEAEEEEEEEEEEEEECEPQAVSASPASACSPPLQQPQGSRVLATLRGQ
+                     VLLGRGVGAMGGQWWRRRAQLTREKRFTFVLAVVIGVFVLCWFPFFFSYSLGAICPKHC
+                     KVPHGLFQFFFWIGYCNSSLNPVIYTIFNQDFRRAFRRILCRPWTQTAW"
+                     /gene="ADRA2B"
+                     /protein_id="XP_003941307.1"
+     STS             947..1861
+                     /db_xref="UniSTS:462717"
+                     /standard_name="ADRA2B__4260"
+                     /gene="ADRA2B"
+ORIGIN
+        1 gcaagctgag cgggcacagg ggcctccgcg cctcctctga gaaccggccc cgcccagccc
+       61 gcgccccggg tgcagccggc atccgcgtgg caggagggcg cgactttctc gggtcccggg
+      121 cgggacgcgg acggcagcgg gacaaactcg aaaaacttct ctgggtctga ccgctgggat
+      181 cccgggcgcc ggcagaggag gatgtacgag ggcggtggct ggtcctgggt gtttccgacc
+      241 tcctaagccc cgctcgccca ggccatgggg ctccagcgcc ttcggtgccg ccggaggggc
+      301 gacgctctcg tctagccgag ctgggcagcg ctgtcgccca cggtgtgcac cgggctgcca
+      361 gcgctccccc tgcccacatc ccgcccagcc atggaccacc aggagcccta ctcagtgcag
+      421 gccacggcgg ccatcgcggc ggccatcacc ttcctcatcc tcttcaccat ctttggcaac
+      481 gcgctggtca tcctggctgt gttgaccagc cactcgctgc gtgccccgca gaacctgttt
+      541 ctggtgtcgc tggctgctgc cgacatcctg gtggccacgc tcatcatccc tttctcgctg
+      601 gccaacgagc tgctgggcta ctggtacttc cggcgcacgt ggtgtgaggt gtacctggcg
+      661 ctcgacgtgc tcttctgcac ctcatccatc gtgcatctgt gcgccatcag cctggaccgc
+      721 tactgggcgg tgagccgcgc gctggagtac aactccaagc gcaccccgcg gcgcatcaag
+      781 tgcatcatcc tcacagtgtg gctcatcgct gccatcatct cgctgccgcc cctcatctac
+      841 aagggcgacc agggccccca gccgcgcggg cgcccccagt gcaagctcaa ccaggaggcc
+      901 tggtacatcc tggcgtccag catcggatct ttctttgctc cttgcctcat catgatcctg
+      961 gtctacctgc gcatctacct gatcgccaaa cgcagtaacc gcagaggtcc cagggccaag
+     1021 caggggcctg ggcagggtga gtccaagcag ccccgacctg accgtggggg ggctttggcc
+     1081 tcagccaagc tgccagccct ggcctctctg gcttctgcca gagagaccga cgtacagtcg
+     1141 aagtctaatg gggagaagga ggagggggag acccctgaag atactgggaa ccaggccttg
+     1201 ccacctgccc ttcccaaatc aggccagggc cagaaggaag gtgtctatgg ggcatctcca
+     1261 gaggatgaag ctgaagaaga ggaagaggaa gaggaggagg aggaggaaga gtgtgaaccc
+     1321 caggcagtgt cagcatctcc agcctcagct tgcagccccc ctctgcagca gccacagggc
+     1381 tcccgggtgc tggccacgct acgtggccag gtgctcctgg gcaggggtgt gggtgctatg
+     1441 ggtgggcagt ggtggcgtcg acgggcacag ctgacccggg agaagcgctt caccttcgtg
+     1501 ctggccgtgg tcatcggcgt ctttgtgctc tgctggttcc ccttcttctt cagctacagc
+     1561 ctgggcgcca tctgcccaaa gcactgcaaa gtgccccatg gcctcttcca gttcttcttc
+     1621 tggattggct actgcaacag ctcgctgaac cctgttatct acaccatctt caaccaggac
+     1681 ttccgccgtg ccttccggag gatcctgtgc cgcccatgga cccagacggc ctggtgagcc
+     1741 cgactgcact gcccttgtgg ggttggtgcg gtggcgtcgg ggccgccttg cttcttgcct
+     1801 tgctgggtgt ggctgcctct ctggggcttt ctgctccctg cccagatcct gcaggcctca
+     1861 tcttaggagc tccttggaag gggtgttcgg tggtgtgggg gggtgctgtt cgcaagggtc
+     1921 ccagtgaagc cttcctttgc tggctcagct tgatggggac ccattctcta ccctcctcct
+     1981 gagcacaggc cgatggaggt ggttcaaagc ctccagaaca tagccaagat cagaagagag
+     2041 agcacttcct tcccagagcc ccatgctctc caggccaatg tcagggcttc ccgttcttga
+     2101 ggaccctgtg ttcctggtag gtcacttgct tacggtgttt ttgtttttgt ttttgatctc
+     2161 cttctaccca caaagagcac aaagccagcc ttccactttt cccagtgggg cctgctgctg
+     2221 aggaggagga agaaacgaag actgatcacc catgctgggc actcttggtc cctggcagat
+     2281 gctgggatgg gggctttggg gtggcaccat ctctgggccc ttctttcccc cttttgtctg
+     2341 gttttggatc tatggttcct ttaaaggcca gaactgtgga tcggtttcct cacccagcac
+     2401 ccctcctgca ggtgggtgtg gtcacgtgga tgcctcgctg gggtgatctt agaggcttgg
+     2461 tctctgcctc gacaggagat ccccgatcac tggcattcac cccctgcaaa aatcggggcg
+     2521 acaatagctt accgcctact tgctgcaggg agatgaaagg ctttgcagaa agctttgagc
+     2581 tccgtggggg aacacactgg agaaccaaaa atgtgattat ccggtgatat aaaaatccct
+     2641 ttcttctgtg tttaccacca cctgtcttcc tgtagacttt tgttctgtgc ctggggtgtg
+     2701 tgaattccta ccccaaactg gaagcgggga gtggcagaca gaatcactat ttcaagttaa
+     2761 aggatctctt tgagaatgtg ttcttgtggc tgcaaaggtc tggtttatca tgctgcatga
+     2821 cagcttctca acatttcgtg tataacacca aaagggtttt tagtggcttg agcatcccct
+     2881 gtggggggca ggtcttttgt catcaagagg gcaaattgtt tctccaagac agcccaaaac
+     2941 atccacaccg tgggaacagt ctaagaagag agcctctaac aggtggcaga gcccccaggt
+     3001 ggggtgctgg catgaaagcc cagtggaccc ctaggggagc ctcccactgg agtgcccagc
+     3061 caggtctcca agccccaaat gtgtccttgt gaaacataac tgatccccac aggtgggtgc
+     3121 ttgtggactg cctcagaccc agctacactg ctccccctac gctgatcgga ctgtgcattc
+     3181 aggagcctct cctttctggt tcttggtccc acccccaaac ctggcaccca gaacattgga
+     3241 agtgtggaaa ggaggtttcg gggccttccc ttggggaggg catggcttca gcattggacc
+     3301 aacaggtatc ttagcttggc gggtacaggg ggaatggggt gagcagtgca gacactgttg
+     3361 gcaccagatg gacctgtgag atttggaagg gcactgaggg agtttttggg atgtagagag
+     3421 aatggagggg accaaaaaga gttcctcctg gggagtggga ggcttcccag tccaggcctc
+     3481 agtgggttgt cattgtgagg ctagagcatc gccctcgggt gtggtgggga gctgggccag
+     3541 gggagggact gactgtgacc ctctgccggc cggtcttgtg tgcaccccat gggaccccca
+     3601 agtgttcttg cctgtgatct cttattgtga catgtaggtg tttttttttt tttttttttt
+     3661 ttttaagtct gagctatttt atcaataaag gatattttgt aataag
+//

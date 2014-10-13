@@ -1,0 +1,87 @@
+LOCUS       XM_005520758            1687 bp    DNA              VRT 13-SEP-2013
+DEFINITION  PREDICTED: Pseudopodoces humilis adrenoceptor beta 1 (ADRB1), mRNA.
+ACCESSION   XM_005520758
+VERSION     XM_005520758.1  GI:543351828
+DBLINK      BioProject: PRJNA217046
+KEYWORDS    RefSeq.
+SOURCE      Pseudopodoces humilis (Tibetan ground-tit)
+  ORGANISM  Pseudopodoces humilis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes; Paridae;
+            Pseudopodoces.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005087562.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pseudopodoces humilis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1687
+                     /db_xref="taxon:181119"
+                     /mol_type="mRNA"
+                     /organism="Pseudopodoces humilis"
+                     /chromosome="Unknown"
+     gene            1..1687
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 EST, 17 Proteins"
+                     /db_xref="GeneID:102113245"
+                     /gene="ADRB1"
+     CDS             1..1284
+                     /product="beta-1 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:543351829"
+                     /db_xref="GeneID:102113245"
+                     /translation="MGDGWLPPDCGPQNRSVAGVTAVPPGSRQLPAAELLSQQWAVGMS
+                     LLMALVVLLIVAGNVLVIAAIGRTQRLQTLTNLFITSLACADLVMGLLVVPFGATLVVR
+                     GTWLWGSFLCECWTSLDVLCVTASIETLCVIAIDRYLAITSPFRYQSLMTKGRAKGIIC
+                     TVWAISALVSFLPIMMHWWRDDDPQALECYQDPGCCDFVTNRAYAIASSIISFYIPLLI
+                     MIFVYLRVYREAKEQMRKIDRCEGRFYGSQEQPQTPLPAHPHHQPILGNGRASKRKSSR
+                     IMAMREQKALKTLGIIMGVFTLCWLPFFLVNIVNVFNRDLVPDWLFVFFNWLGYANSAF
+                     NPIIYCRSPDFRKAFKRLLCCRRKADRWLHGGGGELARLPGGFISTVGSPERSLAGTWS
+                     DCNGGTRGGSESSLEERHSKASDSESKV"
+                     /gene="ADRB1"
+                     /protein_id="XP_005520815.1"
+ORIGIN
+        1 atgggcgatg ggtggctgcc tccggactgc ggcccccaga accgctccgt ggccggggtg
+       61 acggccgtgc cgcccgggag caggcagctg cccgccgccg agctgctgtc gcagcagtgg
+      121 gctgtgggca tgagcctgct gatggccctg gtggtgctgc tcatcgtggc cgggaacgtg
+      181 ctggtgatcg cggccatcgg gaggacgcag cggctgcaga ccctcaccaa cctgttcatc
+      241 acctcgctgg cctgcgccga cctggtgatg gggctgctgg tggtgccctt cggggccacg
+      301 ctggtggtgc ggggcacctg gctctgggga tccttcctct gcgagtgctg gacctcgctg
+      361 gacgtgctct gcgtgacggc cagcatcgag accctgtgcg tcatcgccat cgaccgctac
+      421 ctggccatca cctcgccttt ccgctaccag agcctcatga ccaagggtcg ggccaagggc
+      481 atcatctgca ccgtctgggc catctctgcc ctggtctcct tcttgcccat catgatgcac
+      541 tggtggcggg atgacgaccc ccaggcgctg gagtgctacc aggatccggg ctgctgcgac
+      601 ttcgtcacca acagggctta cgccatcgcc tcgtccatca tttctttcta catccccctt
+      661 ctcatcatga tctttgtgta tctgcgggtg tacagagagg ccaaggagca gatgaggaag
+      721 atcgataggt gcgagggccg attctacggc agccaggagc agccgcagac gcccctgccc
+      781 gctcaccctc accaccagcc catcctcggc aacggccgag ccagcaagcg aaagagctcc
+      841 cgcatcatgg ccatgaggga gcagaaagcc ctcaagactt tgggcatcat catgggggtg
+      901 ttcaccctct gctggcttcc cttcttcctg gtgaacatcg tcaacgtctt caacagggac
+      961 ctggtgccgg actggctctt cgttttcttc aactggctgg gctacgccaa ctccgcgttc
+     1021 aaccccatca tctactgccg cagccccgac tttcgtaagg ccttcaagag gctgctgtgc
+     1081 tgccgccgga aagccgaccg gtggctgcac ggcggcggcg gggagctggc ccggctgccc
+     1141 gggggcttca tcagcaccgt gggctccccc gagcgcagcc tggccgggac ctggtccgac
+     1201 tgcaacgggg gcacgcgggg cggcagcgag tccagcctgg aggagagaca tagcaaagcc
+     1261 tccgactcgg agtccaaggt ataggggggc gtggggggcc gcgtcggagc cgggacaggg
+     1321 gggaaaggca ggcagggaga cgcgcaggag cagagaaatc cccggcagct gctgatggta
+     1381 atgctgttgc ccagcaaagc gatccctgcc ttggcagggg gagtgcgggt gtttacttag
+     1441 gaataaaagc aggtgaactg gtgtacgaca tacctcatcc gaaactacag aaaacaggaa
+     1501 acccactgac cggagaacaa aggaaataaa gagcccatcc cggagacagc cacctcgtct
+     1561 ttaggagacg cgctgtcgcg gggactgtgg cggcagcggc cgcgctcggg tgactgtccc
+     1621 aggaccgtgc tggtggccga accagcgggt ggtgctggcc cttgcggccg agttcggctg
+     1681 cagctgg
+//

@@ -1,0 +1,85 @@
+LOCUS       XM_005074742            1204 bp    DNA              ROD 17-JUL-2013
+DEFINITION  PREDICTED: Mesocricetus auratus dopamine receptor D3 (Drd3),
+            transcript variant X2, mRNA.
+ACCESSION   XM_005074742
+VERSION     XM_005074742.1  GI:524949564
+DBLINK      BioProject: PRJNA210213
+KEYWORDS    RefSeq.
+SOURCE      Mesocricetus auratus (golden hamster)
+  ORGANISM  Mesocricetus auratus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Cricetidae; Cricetinae; Mesocricetus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004801653.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Mesocricetus auratus Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1204
+                     /mol_type="mRNA"
+                     /isolate="Golden Hamster female 1"
+                     /sex="female"
+                     /db_xref="taxon:10036"
+                     /organism="Mesocricetus auratus"
+                     /chromosome="Unknown"
+     gene            1..1204
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 8 Proteins"
+                     /db_xref="GeneID:101836535"
+                     /gene="Drd3"
+     CDS             2..1204
+                     /product="D(3) dopamine receptor isoform X2"
+                     /codon_start="1"
+                     /db_xref="GI:524949565"
+                     /db_xref="GeneID:101836535"
+                     /translation="MAPLSQISNHINSTCGAENITGANRARPHAYYALSYCALILAIIF
+                     GNALVCAAVLRERALQTTTNYLVVSLAVADLLVATLVMPWVVYLEVTGGVWNFSRICCD
+                     VFVTLDVMMCTASILNLCAISIDRYTAVVMPVQYQHGTGQSSCRRVTLMITAVWVLAFA
+                     VSCPLLFGFNTTGDPSICSISNPDFVIYSSVVSFYVPFGVTVLVYARIYMVLRQRRRKR
+                     ILTRQNSQCVSIRPGFPQQPLSPGQTHGELKRYYSICQDTALRHPSFQGGGGGMSRVER
+                     TRNSLSPTMAPKLSLEVRKLSNGRLSTSLKLGPLQPRGVPLREKKATQMVAIVLGAFIV
+                     CWLPFFLTHVLNTHCQACHVSPELYRATTWLGYVNSALNPVIYTTFNVEFRKAFLKILS
+                     C"
+                     /gene="Drd3"
+                     /protein_id="XP_005074799.1"
+     STS             896..1095
+                     /db_xref="UniSTS:34219"
+                     /standard_name="DRD3-556F"
+                     /gene="Drd3"
+ORIGIN
+        1 tatggcacct ctgagccaga taagcaacca catcaactcc acctgtgggg cagagaatat
+       61 cacaggtgcc aaccgggccc gtccacatgc ctactatgcc ctgtcctact gtgcactcat
+      121 cttagctatc atctttggca atgctctggt atgtgcagct gtgctgaggg agcgtgccct
+      181 acagaccacc accaactacc tggtggtgag cctggctgtt gcagacctgc tggtggccac
+      241 gttggtgatg ccttgggtag tgtacctgga ggtgacaggt ggagtctgga atttcagccg
+      301 catttgctgt gatgtttttg tcaccctgga tgtcatgatg tgtacagcca gcatcctgaa
+      361 cctctgtgcc atcagcatag acaggtacac agcagtggtc atgccagtcc agtatcagca
+      421 tggcaccgga cagagctcct gtcggcgtgt gacactcatg attacagccg tgtgggtgct
+      481 ggcctttgct gtatcctgcc ctcttctttt tggcttcaac acaacagggg accccagcat
+      541 ctgctccatc tccaaccctg attttgtcat ctactcttca gtggtgtcct tctacgttcc
+      601 cttcggagtg actgtcctgg tctacgccag gatctacatg gtgctgagac aaaggagacg
+      661 gaaacggatc ctcactcgac agaacagtca gtgtgttagc atcagacctg gattcccgca
+      721 gcagccccta tctcctggcc agacacatgg ggagctgaag cgctactaca gcatctgcca
+      781 agacactgcc ttgaggcacc cgagcttcca aggaggagga ggagggatga gtcgagtgga
+      841 gaggactcgg aactccttga gccccaccat ggcacccaag ctcagcttag aggttcgaaa
+      901 actcagcaat ggcaggttat ccacatccct aaagctgggg cccctgcaac ctaggggagt
+      961 gccacttcga gagaagaagg ccacccagat ggtggccatt gtgcttggag ccttcattgt
+     1021 ctgctggctg cccttcttcc tgacccatgt tcttaatact cactgccagg catgccatgt
+     1081 gtccccagag ctttacagag ccacaacatg gctaggctat gtcaacagtg cccttaaccc
+     1141 tgtgatctac accaccttca acgtggagtt ccgcaaagcc tttctcaaga tcctgtcctg
+     1201 ctga
+//

@@ -1,0 +1,95 @@
+LOCUS       XM_005014469            1654 bp    DNA              VRT 26-JUN-2013
+DEFINITION  PREDICTED: Anas platyrhynchos adrenoceptor alpha 2A (ADRA2A), mRNA.
+ACCESSION   XM_005014469
+VERSION     XM_005014469.1  GI:514723745
+DBLINK      BioProject: PRJNA208071
+KEYWORDS    RefSeq.
+SOURCE      Anas platyrhynchos (mallard)
+  ORGANISM  Anas platyrhynchos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Anseriformes; Anatidae;
+            Anas.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004676629.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Anas platyrhynchos Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1654
+                     /mol_type="mRNA"
+                     /country="China: Beijing"
+                     /breed="Pekin duck"
+                     /sex="female"
+                     /isolation_source="Gold Star Duck Production"
+                     /db_xref="taxon:8839"
+                     /organism="Anas platyrhynchos"
+                     /chromosome="Unknown"
+     gene            1..1654
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 5 samples with support for all annotated introns"
+                     /db_xref="GeneID:101803955"
+                     /gene="ADRA2A"
+     CDS             44..1327
+                     /product="alpha-2A adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:514723746"
+                     /db_xref="GeneID:101803955"
+                     /translation="MEYQRQLGEEEGYPPPAANGSFNDSRVGPGWGTPYPLHATVTLIS
+                     LAGLLMLFTVFGNVLVIIAVFTSRALKAPQNLFLVSLASADILVATLVIPFSLANEVMG
+                     YWYFGKVWCEIYLALDVLFCTSSIVHLCAISLDRYWSITQAIEYNLKRTPRRIKCIIFI
+                     VWVISAVISFPPLISIEKKSGQQTDQGVALCKINDEKWYIISSSIGSFFAPCLIMILVY
+                     VRIYQIAKRRTRVPPNKRAERPEKKQNGLADKEDLPATAQLNGEKAAGGGDGQEGEVNG
+                     IDMEETSSSEHQDNNQSKKSERPSRGKAKTKLSQIKPGDSLPRKVEEERTTKGSRWRGR
+                     QNREKRFTFVLAVVIGVFVICWFPFFFTYTLTAVCMSCSVPETLFKFFFWFGYCNSSLN
+                     PVIYTIFNHDFRRAFKRILCRIERKRIV"
+                     /gene="ADRA2A"
+                     /protein_id="XP_005014526.1"
+     STS             462..586
+                     /db_xref="UniSTS:266590"
+                     /standard_name="ADRA2A"
+                     /gene="ADRA2A"
+ORIGIN
+        1 ccgggagcgc ccgttcacgg agaggggcca cttcttctcc tccatggagt accagcggca
+       61 gctgggggag gaggagggct acccgcctcc cgcggccaac gggagcttca acgacagcag
+      121 ggtcgggccg ggatggggca cgccgtaccc cctgcacgcc accgtcaccc tcatcagcct
+      181 ggcgggcttg ctcatgctct tcaccgtctt cgggaacgtc ctggtcatca tcgccgtctt
+      241 caccagccgg gcgctcaagg cgccccagaa cctcttcctg gtgtccttag cctcggccga
+      301 catcctggtg gccacgctgg tcatcccctt ctccctggcg aacgaggtga tggggtactg
+      361 gtacttcggc aaggtgtggt gcgagatcta cctggccttg gacgtgctct tctgcacctc
+      421 ctccatcgtg catttgtgtg ccatcagcct ggaccgctac tggtccatca cgcaagccat
+      481 cgagtacaac ctcaagcgca ccccgcgccg catcaagtgc atcatcttca tcgtctgggt
+      541 catctcggcc gtcatctcct tcccgccgct catctccatc gagaagaaga gtgggcagca
+      601 gacagaccag ggggtcgcgc tgtgcaagat caacgacgag aagtggtaca tcatctcctc
+      661 tagcatcggc tccttctttg ccccctgcct catcatgatc ctggtctacg tgcgcatcta
+      721 tcagatagcc aagaggcgca ccagggtgcc tccgaacaag cgggcggagc gccccgagaa
+      781 gaagcagaac ggcttggccg acaaggagga cctgccggcc acagcccagc tcaatgggga
+      841 gaaagcggcg ggaggaggcg acgggcagga gggagaggtc aacggcatcg acatggagga
+      901 aacctcctcc tccgagcacc aggacaacaa ccagtccaag aagtcagaga gaccgtcgag
+      961 gggaaaggcc aagactaagc tgagccagat taagcctggg gacagtttgc ccaggaaggt
+     1021 ggaggaggag aggaccacca aagggtcccg gtggaggggc aggcagaacc gggagaagcg
+     1081 cttcaccttt gtgctggcgg tggtgattgg tgtctttgtc atctgctggt tccccttctt
+     1141 ctttacctac acactgactg ccgtctgcat gagctgctcc gtgcccgaaa ccctcttcaa
+     1201 gttcttcttc tggttcggtt actgcaatag ctccttgaac cccgtcatct atacaatttt
+     1261 caaccacgac ttcaggcggg ccttcaaaag gatcctctgt aggatagaga ggaaaaggat
+     1321 tgtttgaagg accccctggg ttgggcagga ctaatcgttc aagactttgt aggagagtaa
+     1381 cacatggctc ccttgggctg tgcttgcatg ggatggtttc cttcagcctg tgagcaggaa
+     1441 accctcaaaa cccgagacga gcctatcgac acgccaggca gcagcagcga ggagcagcag
+     1501 agtctctcag tggatatttt catgactgct cagtttgact ctttaaagac aagctccgtg
+     1561 cagctccgtg agatgaacaa caaagaggga gtatgccacc tcagaggtgt cggctttttt
+     1621 attttgttgt attgtatatg taattaatat tccc
+//

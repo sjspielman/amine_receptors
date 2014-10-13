@@ -1,0 +1,101 @@
+LOCUS       XM_003261832            1726 bp    DNA              PRI 14-JAN-2013
+DEFINITION  PREDICTED: Nomascus leucogenys dopamine receptor D3, transcript
+            variant 1 (DRD3), mRNA.
+ACCESSION   XM_003261832
+VERSION     XM_003261832.1  GI:332225425
+DBLINK      BioProject: PRJNA62133
+KEYWORDS    RefSeq.
+SOURCE      Nomascus leucogenys (northern white-cheeked gibbon)
+  ORGANISM  Nomascus leucogenys
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hylobatidae; Nomascus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003501393.2) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Nomascus leucogenys Annotation Release 101
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1726
+                     /mol_type="mRNA"
+                     /isolate="Asia; international studbook 0098"
+                     /sex="female"
+                     /db_xref="taxon:61853"
+                     /tissue_type="blood"
+                     /organism="Nomascus leucogenys"
+                     /chromosome="21"
+     gene            1..1726
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 9 mRNAs, 14 ESTs, 14 Proteins"
+                     /db_xref="GeneID:100594342"
+                     /gene="DRD3"
+     STS             441..1726
+                     /db_xref="UniSTS:480916"
+                     /gene="DRD3"
+     misc_feature    479..481
+                     /note="upstream in-frame stop codon"
+                     /gene="DRD3"
+     CDS             518..1720
+                     /product="D(3) dopamine receptor isoform 1"
+                     /codon_start="1"
+                     /db_xref="GI:332225426"
+                     /db_xref="GeneID:100594342"
+                     /translation="MAPLSQLSGHLNYTCGAENSTGASQARPHAYYALSYCALILAIVF
+                     GNGLVCMAVLKERALQTTTNYLVVSLAVADLLVATLVMPWVVYLEVTGGVWNFSRVCCD
+                     VFVTLDVMMCTASILNLCAISIDRYTAVVMPVHYQHGTGQSSCRRVALMITAVWVLAFA
+                     VSCPLLFGFNTTGDPTVCSISNPDFVIYSSVVSFYLPFGVTVLVYARIYVVLKQRRRRR
+                     ILTRQNSQCNSVRPGFPQQTLSPDRAHLELKRYYSICQDTALGGPGFQERGGELKREEK
+                     TWNSLSPTIAPKLSLEVRKLSNGRLSTSLKLGPLQPRGVPLREKKATQMVAIVLGAFIV
+                     CWLPFFLTHVLNTHCQTCHVSPELYSATTWLGYVNSALNPVIYTTFNIEFRKAFLKILS
+                     C"
+                     /gene="DRD3"
+                     /protein_id="XP_003261880.1"
+     STS             1412..1611
+                     /db_xref="UniSTS:34219"
+                     /standard_name="DRD3-556F"
+                     /gene="DRD3"
+     STS             1542..1719
+                     /db_xref="UniSTS:53374"
+                     /standard_name="RH71216"
+                     /gene="DRD3"
+ORIGIN
+        1 aaaggtaaaa acagtggaaa aactaagatt taaaagagca ctgaggagaa aatatacatg
+       61 tactaaaaag cacagtaccc gagcagatag agacaaagag gaaaagagga gagcgaggta
+      121 gaaaacggat cgtgcttatg cctactccat ctctctttca gcaccaagga cagaacctct
+      181 gagcggctga cccaagcaat gctcagttta gggtccctcc caaatcctct acagaaaacg
+      241 gatacattcg aaagcagcta tgaaacatgc actaaggtct aatagggaaa ctggaaaagc
+      301 agcactcaag taatttcacc ttagaggcaa aaatgggtga tttctttctg ttcatttcat
+      361 agtttctgag tcctgagaaa gggaaagttt gctttgcttg ggtatgtctg ctgtcagtaa
+      421 atggctgcag gagccgaagt ggtaaactcc tcggtctcca gaaatcagaa gaaaatttta
+      481 gggaagcccc ttggcatcac gcacctccct ctgggctatg gcacctctga gccagctgag
+      541 tggccacctg aactacacct gtggggcaga gaactcaaca ggtgccagcc aggcccgccc
+      601 acatgcctac tatgccctct cctactgtgc gctcatcctg gccatcgtct ttggcaatgg
+      661 cctggtgtgc atggctgtac tgaaggagcg ggccctgcag actaccacca actacttagt
+      721 agtgagcctg gctgtggcag acttgctggt ggccaccttg gtgatgccct gggtggtata
+      781 cctggaggtg acaggtggag tctggaattt cagccgcgtt tgctgcgatg tttttgtcac
+      841 cctggatgtc atgatgtgta cagccagcat ccttaacctc tgtgccatca gcatagacag
+      901 gtacaccgca gtggtcatgc ccgttcacta ccagcatggc acgggacaga gctcctgtcg
+      961 gcgcgtggcc ctcatgatca cggccgtctg ggtactggcc tttgctgtgt cctgccctct
+     1021 tctgtttggc tttaatacca caggggaccc cactgtctgc tccatctcca accctgattt
+     1081 tgtcatctac tcttcagtgg tgtccttcta cctgcccttt ggagtgaccg tccttgtcta
+     1141 tgccagaatc tatgtggtgt tgaaacaaag gagacggaga aggatcctca ctcgacagaa
+     1201 cagtcagtgc aacagtgtca ggcctggctt cccccaacaa accctctctc ctgaccgggc
+     1261 acatctggag ctgaagcgtt actacagcat ctgccaagac actgccttgg gtggaccagg
+     1321 cttccaagaa agaggaggag agttgaaaag agaggagaag acttggaatt ccctgagtcc
+     1381 caccatagca cccaagctca gcttagaagt tcgaaaactc agcaatggca gattatcgac
+     1441 atctttgaag ctggggcccc tgcaacctcg gggagtgcca cttcgggaga agaaggcaac
+     1501 ccagatggtg gccattgtgc ttggggcctt catcgtctgc tggctgccct tcttcttgac
+     1561 ccatgttctc aatacccact gccagacatg ccacgtgtcc ccagagcttt acagtgccac
+     1621 aacatggctg ggctacgtga atagcgccct caaccccgtg atctacacca ccttcaatat
+     1681 cgagttccgg aaagccttcc tcaagatcct gtcttgctga gggagc
+//

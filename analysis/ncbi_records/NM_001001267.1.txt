@@ -1,0 +1,100 @@
+LOCUS       NM_001001267            1209 bp    DNA              MAM 22-FEB-2014
+DEFINITION  Sus scrofa 5-hydroxytryptamine (serotonin) receptor 4, G
+            protein-coupled (HTR4), mRNA.
+ACCESSION   NM_001001267
+VERSION     NM_001001267.1  GI:47575844
+KEYWORDS    RefSeq.
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+REFERENCE   1  (bases 1 to 1209)
+  AUTHORS   Priem EK and Lefebvre RA.
+  TITLE     Investigation of neurogenic excitatory and inhibitory motor
+            responses and their control by 5-HT(4) receptors in circular smooth
+            muscle of pig descending colon
+  JOURNAL   Eur. J. Pharmacol. 667 (1-3), 365-374 (2011)
+   PUBMED   21723862
+  REMARK    GeneRIF: neurogenic excitatory and inhibitory motor responses and
+            role of 5-HT(4) receptors in circular smooth muscle
+REFERENCE   2  (bases 1 to 1209)
+  AUTHORS   De Maeyer JH, Aerssens J, Verhasselt P and Lefebvre RA.
+  TITLE     Alternative splicing and exon duplication generates 10 unique
+            porcine 5-HT 4 receptor splice variants including a functional
+            homofusion variant
+  JOURNAL   Physiol. Genomics 34 (1), 22-33 (2008)
+   PUBMED   18430808
+  REMARK    GeneRIF: The identification of nine novel COOH-terminal splice
+            variants of the porcine 5-HT(4) receptor, is reported.
+REFERENCE   3  (bases 1 to 1209)
+  AUTHORS   Ullmer C, Schmuck K, Kalkman HO and Lubbert H.
+  TITLE     Expression of serotonin receptor mRNAs in blood vessels
+  JOURNAL   FEBS Lett. 370 (3), 215-221 (1995)
+   PUBMED   7656980
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AY566638.1.
+            ##Evidence-Data-START##
+            Transcript exon combination :: AY566638.1, AY496868.2 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+            SRS386920, SRS386923 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1209
+                     /db_xref="taxon:9823"
+                     /mol_type="mRNA"
+                     /organism="Sus scrofa"
+                     /chromosome="2"
+                     /map="2"
+     gene            1..1209
+                     /note="5-hydroxytryptamine (serotonin) receptor 4, G
+                     protein-coupled"
+                     /db_xref="GeneID:397431"
+                     /gene="HTR4"
+                     /gene_synonym="5-HT4; 5-HT4R"
+     CDS             1..1209
+                     /product="5-hydroxytryptamine receptor 4"
+                     /codon_start="1"
+                     /gene_synonym="5-HT4; 5-HT4R"
+                     /note="serotonin 4A receptor (5-HT4A); 5-HT-4; serotonin
+                     receptor 4"
+                     /db_xref="GI:47575845"
+                     /db_xref="GeneID:397431"
+                     /translation="MDKLDANGSSKEGFGSVEKVVLLTFVSAVILMAVLGNLLVMVAVC
+                     RDRQLRKIKTNYFIVSLAFADLLVSVLVMPFGAIELVQDVWIYGEMFCLVRTSLDVLLT
+                     TASIFHLCCISLDRYYAICCQPLVYRNKMTPLRVAVLLAGCWAIPVLISFLPIMQGWNN
+                     IGITDLERTSKPRLGQDLHVIEKRKFHQNSNSTYCIFMVNKPYAITCSVVAFYIPFLLM
+                     VLAYWRIYVTAKEHAHQIQMLQRAGAPAEGRPPSADQHSTHRMRTETKAAKTLCVIMGC
+                     FCLCWAPFFVTNVVDPFADYSVPGQVWTAFLWLGYINSGLNPFLYAFLNKSFRRAFLII
+                     LCCDDERYRRPCVAGQTVPCSTTTVNGSTHVLRDAVECGGQWESQCHPPATSPLVAAQP
+                     SDT"
+                     /gene="HTR4"
+                     /protein_id="NP_001001267.1"
+     STS             703..841
+                     /db_xref="UniSTS:504885"
+                     /standard_name="HTR4"
+                     /gene="HTR4"
+                     /gene_synonym="5-HT4; 5-HT4R"
+ORIGIN
+        1 atggacaaac ttgatgctaa tgggagttcc aaggagggtt tcgggtccgt ggagaaggtc
+       61 gtgttgctca cgtttgtctc ggcggttatc ctcatggctg tcttggggaa cctgctggtg
+      121 atggtggctg tgtgcaggga ccggcagctc aggaaaatca aaaccaatta cttcattgtg
+      181 tctcttgcct ttgcggatct gctggtgtcc gtgctggtga tgccctttgg agccattgag
+      241 ctggtccagg acgtctggat ttatggggag atgttctgcc tcgtccggac gtctctggat
+      301 gtcctgctca cgacggcatc gatttttcac ctgtgctgca tctctctgga caggtactac
+      361 gccatctgct gccagcctct ggtctacagg aacaagatga cccctctgcg cgtggcggtg
+      421 ctgctcgcag gctgctgggc catccccgtg ctgatctcct ttctccccat aatgcaaggc
+      481 tggaataaca tcggcataac tgacctggaa aggacatcca aaccaagact gggccaggat
+      541 ttgcatgtga tagaaaaaag gaagttccac cagaattcga actctacgta ctgtatcttc
+      601 atggtcaaca agccctacgc catcacctgc tctgtggtgg ccttctacat cccgttcctc
+      661 ctcatggtgc tggcctattg gcgcatctac gtgacagcta aggagcacgc ccaccagatc
+      721 cagatgttgc aacgggcagg ggcccccgca gagggcaggc ctccgtccgc agaccagcac
+      781 agcacccatc gcatgaggac agagaccaaa gcagccaaga ccctgtgcgt catcatgggt
+      841 tgcttctgcc tctgctgggc tccgttcttc gtcaccaatg tcgtggaccc tttcgcagac
+      901 tactctgtcc ccgggcaggt gtggaccgct ttcctctggc tcggctacat caattccggg
+      961 ttgaacccct ttctctacgc cttcctgaat aagtctttca gacgtgcctt cctcatcatc
+     1021 ctctgctgcg atgatgagcg ctaccgaaga ccttgcgtgg cgggccagac ggtcccctgt
+     1081 tcaaccacaa ccgtcaacgg atccactcat gtgctaaggg atgcagtgga gtgtggtggc
+     1141 cagtgggaga gtcagtgcca cccgccagca acttctcctt tggtggctgc tcagcccagt
+     1201 gacacttag
+//

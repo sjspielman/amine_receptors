@@ -1,0 +1,62 @@
+LOCUS       XP_002758679             487 aa                     PRI 02-SEP-2014
+DEFINITION  PREDICTED: histamine H1 receptor [Callithrix jacchus].
+ACCESSION   XP_002758679
+VERSION     XP_002758679.1  GI:296225854
+DBLINK      BioProject: PRJNA46205
+KEYWORDS    RefSeq.
+SOURCE      Callithrix jacchus (white-tufted-ear marmoset)
+  ORGANISM  Callithrix jacchus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003184446.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Callithrix jacchus Annotation
+            Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..487
+                     /db_xref="taxon:9483"
+                     /organism="Callithrix jacchus"
+                     /chromosome="15"
+     Protein         1..487
+                     /product="histamine H1 receptor"
+                     /calculated_mol_wt="55476"
+     Region          36..>199
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          50..468
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..487
+                     /coded_by="XM_002758633.2:58..1521"
+                     /gene="HRH1"
+                     /db_xref="GeneID:100411714"
+ORIGIN
+        1 mtfpnsscll edkmcegnkt tmaspqlmpl vvvlstislv tvglnllvly avrserklht
+       61 vgnlyivsls vadlivgavv mpmnilyllm srwslgrplc lfwlsmdyva stasifsvfi
+      121 lcidryrsvq qplrylkyrt ktrasatilg awflsflwvi pilgwnhfmr qtsvrredkc
+      181 etdfydvtwf kvmtaiinfy lptllmlwfy akiykavrqh cqhrelings lpsfseiklr
+      241 penpkggvkk pgkespwevl krkpkdaggg svlkspsqtp eemkspvvfs qeddgevdkl
+      301 hclpldivqm qtvaegssrd yaasnqshgq lkmeeqglnt hgasetsedh mlgdsqsfsr
+      361 tdsdttteta pgkgklrsgs ntgldyikft wkrlrshsrq yvsglhmnre rkaakqlgfi
+      421 maafilcwip yfiffmviaf cknccnehlh mftiwlgyin stlnpliypl cnenfrktfk
+      481 kilhirs
+//

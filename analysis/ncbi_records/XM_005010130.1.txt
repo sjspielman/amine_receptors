@@ -1,0 +1,89 @@
+LOCUS       XM_005010130            1518 bp    DNA              VRT 26-JUN-2013
+DEFINITION  PREDICTED: Anas platyrhynchos 5-hydroxytryptamine receptor 7-like
+            (LOC101791695), mRNA.
+ACCESSION   XM_005010130
+VERSION     XM_005010130.1  GI:514706199
+DBLINK      BioProject: PRJNA208071
+KEYWORDS    RefSeq.
+SOURCE      Anas platyrhynchos (mallard)
+  ORGANISM  Anas platyrhynchos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Anseriformes; Anatidae;
+            Anas.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004676379.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Anas platyrhynchos Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1518
+                     /mol_type="mRNA"
+                     /country="China: Beijing"
+                     /breed="Pekin duck"
+                     /sex="female"
+                     /isolation_source="Gold Star Duck Production"
+                     /db_xref="taxon:8839"
+                     /organism="Anas platyrhynchos"
+                     /chromosome="Unknown"
+     gene            1..1518
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 Proteins, and 22% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101791695"
+                     /gene="LOC101791695"
+     CDS             24..1301
+                     /product="5-hydroxytryptamine receptor 7-like"
+                     /codon_start="1"
+                     /db_xref="GI:514706200"
+                     /db_xref="GeneID:101791695"
+                     /translation="MLLRAGPRRFLEQHLLFVGNAEQQHPARKALPNPFMPEEPSSAEP
+                     ELPSSNLTNATDCGEEILLYGDTEKIVIGAVLSIIILTTIAGNGLVIISVCIVKKLRQP
+                     SNYLVVSLAAADLSVAFAVMPFVTITDLLGGEWLFGKVFCNVFIAMDVMCCTASIMTLC
+                     IISVDRYLGITRPLTYPVRQNGKLMAKMVFIVWLLSASITLPPLFGWAKNVTVERVCLI
+                     SQDFGYTVYSTGVAFYIPMAVMLVMYSRIYKAAKVSAEKHRFMNFPKHYEEEGVYCLEA
+                     SSRGHHSSKRTKAVEECATLSKLLRQDRKNISIFKREQKAARTLGIIVGAFTFCWLPFF
+                     LMSTARPFICGIHCSCMPLRLERTLLWLGYTNSLINPLIYAFFNRDLRTTFWNLLRCRY
+                     RNINRRLSAASMHEALKATERHECIL"
+                     /gene="LOC101791695"
+                     /protein_id="XP_005010187.1"
+ORIGIN
+        1 gcccgccgcg gggagctcgg agcatgctgc tgagggctgg ccccaggagg tttctggagc
+       61 agcaccttct cttcgtgggg aacgcagagc agcagcaccc ggctcggaaa gctctcccga
+      121 atcccttcat gcctgaggaa ccctcctcag ccgagccaga gctgccctcc tccaacctca
+      181 ccaacgccac ggactgcggc gaggagatcc tgctctatgg ggacaccgag aagatcgtca
+      241 tcggagccgt gctctccatc atcatcctca ccaccatcgc gggcaacggg ctggtcatca
+      301 tctccgtctg catcgtcaag aagctccggc agccctccaa ctacctggtg gtgtccctgg
+      361 cggccgccga cctgtcggtg gccttcgctg tcatgccttt cgtgaccatc accgacctgc
+      421 tggggggaga gtggctcttc gggaaggttt tctgcaacgt cttcatcgcc atggacgtga
+      481 tgtgctgcac cgcctccatc atgaccttgt gcatcatcag cgtggacagg tatctgggga
+      541 tcacccggcc gctgacgtac cccgtgagac aaaacgggaa gctgatggcc aagatggtct
+      601 tcatcgtttg gctcctgtcc gcctccatca cccttcctcc cctcttcggc tgggccaaga
+      661 acgtcacggt ggagagggtc tgcctcatca gccaggactt cgggtacacg gtctactcca
+      721 cgggggttgc cttctacatc cccatggccg tcatgctcgt catgtacagc cggatctaca
+      781 aggctgccaa ggtgagcgcc gagaagcacc gcttcatgaa tttccccaag cactacgaag
+      841 aggagggcgt ctactgcctg gaggcctcca gccggggcca ccacagctcc aagcgcacca
+      901 aggcggtgga ggagtgcgcc accctctcca aactgctgcg gcaagaccga aagaacattt
+      961 ccatcttcaa acgggagcag aaggcggcca ggaccctcgg gatcatcgtt ggggccttca
+     1021 cgttttgctg gctcccgttc ttcctgatgt cgacagctcg gccttttatc tgcggcatcc
+     1081 actgcagctg catgccgctg cggctggaga ggactctgct ctggctgggg tacaccaact
+     1141 ccctcatcaa ccccttgatt tatgctttct ttaaccgaga cttgaggact actttctgga
+     1201 acctcctgag gtgtaggtac aggaacatca acaggaggct ctccgccgcc agcatgcacg
+     1261 aggccctgaa agccacagag aggcacgaat gcatcctgta gagccgtgtc ctctagctca
+     1321 gtgcctgacc gacaaactcc tgcccctcca tttcaggttc cttgcttctc cttcccctcg
+     1381 gggctggaag aaaccacgcg tgccgttgcc ccctgtcaga tgtcattgca gagagcagcc
+     1441 cccttccctc accccaggag gagatgctgc tctccttgcc ctgaggggga acgagcgggc
+     1501 acccttccct tctcacca
+//

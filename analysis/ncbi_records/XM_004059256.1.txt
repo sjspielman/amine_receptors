@@ -1,0 +1,92 @@
+LOCUS       XM_004059256            1889 bp    DNA              PRI 03-DEC-2012
+DEFINITION  PREDICTED: Gorilla gorilla gorilla histamine receptor H4, transcript
+            variant 1 (HRH4), mRNA.
+ACCESSION   XM_004059256
+VERSION     XM_004059256.1  GI:426385622
+KEYWORDS    RefSeq.
+SOURCE      Gorilla gorilla gorilla (western lowland gorilla)
+  ORGANISM  Gorilla gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004006644) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Gorilla gorilla Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1889
+                     /db_xref="taxon:9595"
+                     /sub_species="gorilla"
+                     /mol_type="mRNA"
+                     /organism="Gorilla gorilla gorilla"
+                     /chromosome="18"
+     gene            1..1889
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 10 mRNAs, 2 ESTs, 9 Proteins"
+                     /db_xref="GeneID:101136989"
+                     /gene="HRH4"
+     STS             51..1492
+                     /db_xref="UniSTS:480942"
+                     /gene="HRH4"
+     misc_feature    77..79
+                     /note="upstream in-frame stop codon"
+                     /gene="HRH4"
+     CDS             101..1273
+                     /product="histamine H4 receptor isoform 1"
+                     /codon_start="1"
+                     /db_xref="GI:426385623"
+                     /db_xref="GeneID:101136989"
+                     /translation="MPDTNSTINLSLSTRVTLAFFMSLVAFAIMLGNALVILAFVVDKN
+                     LRHRSSYFFLNLAISDFFVGVISIPLYIPHTLFEWDFGKEICVFWLTADYLLCTASVYN
+                     IVLISYDRYLSVSNAVSYRTQHTGVLKIVTLMVAVWVLAFLVNGPMILVSESWKDEGSE
+                     CEPGFFSEWYILAITSFLEFVIPVILVAYFNMNIYWSLWKRDHLSRCQSHPGLTGVSSN
+                     ICGHSFRGRLSSRRSLSASAEVPASLHSERQRRKSSLMFSSRTKMSSNTIAAKMGSFSQ
+                     SDSVALHQREHVELLRARRLAKSLAILLGVFAVCWAPYSLFTIVLSFYSSATGPKSVWY
+                     RIAFWLQWFNSFVNPLLYPLCHKRFQKAFLKIFCIKKQPLPSQHSRSVSS"
+                     /gene="HRH4"
+                     /protein_id="XP_004059304.1"
+ORIGIN
+        1 ggaagactac acattttagg tatgtgatta gaaaacacac ttgtcagaat tgtctggctg
+       61 gattaatttg ctaatttgac cttcttcatc atttgatgtg atgccagata ctaatagcac
+      121 tatcaattta tcactaagca ctcgtgttac tttagcattt tttatgtcct tagtagcttt
+      181 tgctataatg ctaggaaatg ctttggtcat tttagctttt gtggtggaca aaaaccttag
+      241 acatcgaagt agttattttt ttcttaactt ggccatctct gacttctttg tgggtgtgat
+      301 ctccattcct ttgtacatcc ctcacacgct gttcgaatgg gattttggaa aggaaatctg
+      361 tgtattttgg ctcactgctg actatctgtt atgtacagca tctgtatata acattgtcct
+      421 catcagctat gatcgatacc tgtcagtctc aaatgctgtg tcttatagaa ctcaacatac
+      481 tggggtcttg aagattgtta ctctgatggt ggccgtttgg gtgctggcct tcttagtgaa
+      541 cgggccaatg attctagttt cagagtcttg gaaggatgaa ggtagtgaat gtgaacctgg
+      601 atttttttcg gaatggtaca tccttgccat cacatcattc ttggaattcg tgatcccagt
+      661 catcttagtc gcttatttca acatgaatat ttattggagc ctgtggaagc gtgatcatct
+      721 cagtaggtgc caaagccatc ctggactgac tggtgtctcc tccaacatct gtggacactc
+      781 attcagaggt agactatctt caaggagatc tctttctgcg tcggcagaag ttcctgcatc
+      841 ccttcattca gagagacaga ggagaaagag tagtctcatg ttttcctcaa gaaccaagat
+      901 gagtagcaat acaattgctg ccaaaatggg ttccttctcc caatcagatt ctgtagctct
+      961 tcaccaaagg gaacatgttg aactgcttag agccaggaga ttagccaagt cactggccat
+     1021 tctcttaggg gtttttgctg tttgctgggc tccatattct ctgttcacaa ttgtcctttc
+     1081 attttattcc tcagcaacag gtcctaaatc agtttggtat agaattgcat tttggcttca
+     1141 gtggttcaat tcctttgtca atcctctttt gtatccattg tgtcacaagc gctttcaaaa
+     1201 ggctttcttg aaaatatttt gtataaaaaa gcaacctcta ccatcacaac acagtcggtc
+     1261 agtatcttct taaagacaat tttctcactt ctgtaaattt tagtctcaac ctcacctaaa
+     1321 tgaatcaggt ctgcccttta tcttgccctt ttcattctac caacagatct gcactttgaa
+     1381 gtcaatggaa aattactcca gtgaataata gcagtataat attatgactt gataatattt
+     1441 ttgtaaactt gtagtcataa tagtactata ttcttcttag tcctcacctc ttccttgtct
+     1501 tttagatctt aatttcatgc tgattacaaa aatccagttt tattttcttt ctatgttcca
+     1561 tgcataatac agtcttaagt gaatttctct ttttttattt tatcataata gaaacttatc
+     1621 cagtttgaga atcattccct aaagcatgca ataggaaaaa gaacctcctg gctgggactg
+     1681 cccaactctg ttctgatcag tgggtgggtg aggtagattt gagttggcaa gagcagggaa
+     1741 cgggcatgtg cccaggtgag cgcctgtgtg tgtccagatt ttatattcct aatcccagta
+     1801 aggaagaaag cgtagtgtgg gagaggagag agctgatgac tgcagttctc aaaggtcctc
+     1861 agtgaagtta ttttggaggc cctggtggt
+//

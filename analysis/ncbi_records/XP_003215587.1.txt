@@ -1,0 +1,60 @@
+LOCUS       XP_003215587             364 aa                     VRT 22-MAY-2014
+DEFINITION  PREDICTED: 5-hydroxytryptamine receptor 1E [Anolis carolinensis].
+ACCESSION   XP_003215587
+VERSION     XP_003215587.1  GI:327261539
+DBLINK      BioProject: PRJNA60547
+KEYWORDS    RefSeq.
+SOURCE      Anolis carolinensis (green anole)
+  ORGANISM  Anolis carolinensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata;
+            Toxicofera; Iguania; Iguanidae; Polychrotinae; Anolis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003338573.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Anolis carolinensis Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..364
+                     /db_xref="taxon:28377"
+                     /organism="Anolis carolinensis"
+                     /chromosome="1"
+                     /country="USA"
+     Protein         1..364
+                     /product="5-hydroxytryptamine receptor 1E"
+                     /calculated_mol_wt="41105"
+     Region          31..>154
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          46..343
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..364
+                     /coded_by="XM_003215539.2:648..1742"
+                     /gene="htr1e"
+                     /db_xref="GeneID:100557862"
+ORIGIN
+        1 mnqtnlttet nvtvqsktat enmlialtls vittltmlln ssvisaictt kklhqpanyl
+       61 icslavtdll vavlvmplsi tyivmerwtl gyflceiwls idmtcctcsi lhlcvialdr
+      121 ywaitdaiey arkrtakraa vmigtvwtls tfismpplfw rnhsvnidss ecqiqhnhvi
+      181 ytiystfgaf yipltliliv yyriyhaaks lyqkrgssrh lssrstdsqn sftsckitqt
+      241 fcvsdfstsd pttefdrmha smksptfdnd ldlvgdrqqi ssvrerkaar ilglilsafi
+      301 lswlpffike livglglgtv stevahlltw lgyvnslinp llytsfnedf klafkklikc
+      361 wehs
+//

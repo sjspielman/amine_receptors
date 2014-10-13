@@ -1,0 +1,62 @@
+LOCUS       XP_004176679             519 aa                     VRT 12-FEB-2013
+DEFINITION  PREDICTED: alpha-2C adrenergic receptor [Taeniopygia guttata].
+ACCESSION   XP_004176679
+VERSION     XP_004176679.1  GI:449501338
+DBLINK      BioProject: PRJNA32405
+KEYWORDS    RefSeq.
+SOURCE      Taeniopygia guttata (zebra finch)
+  ORGANISM  Taeniopygia guttata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Estrildidae; Estrildinae; Taeniopygia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_002198637.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Taeniopygia guttata Annotation Release 101
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..519
+                     /isolate="Black17"
+                     /sex="male"
+                     /organism="Taeniopygia guttata"
+                     /chromosome="4"
+                     /db_xref="taxon:59729"
+     Protein         1..519
+                     /product="alpha-2C adrenergic receptor"
+                     /calculated_mol_wt="59170"
+     Region          126..>304
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          140..494
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..519
+                     /coded_by="XM_004176631.1:1..1560"
+                     /gene="ADRA2C"
+                     /db_xref="GeneID:101233463"
+ORIGIN
+        1 mertshsaga shtptgleql dggwhswiga vtagwgchsw tgadtagsdr diplqlrdpy
+       61 ecfiivkvlq rksrcpgcsc lhhtqvrtiq ndpgskanap qaafcwhpts pysraavast
+      121 apevgflmvf tfvgnvevvi avltsralra pqnlflvsla sadilvgtlv mpfsianelm
+      181 nywyfgkawc niylaldvlf ctssivhlca isldrywsvt qaveynlkrt prrikaiilt
+      241 vwlisaiisf pplisvyrdp egdvfpqckl ndetwyilss cigsffapcl imvlvyiriy
+      301 rvaklrtrtl sekrtmpegs sqtenglsra aggctslrtq lgenghysvh hwrkaseled
+      361 ieleesstse srrrrsreeh rrksksqsfs ysysskhsss rlsrasnrsm qffsyrrrrk
+      421 rssicrkkva qarekrftfv lavvmgvfvv cwfpfffsys lygicreace vpetlfkfff
+      481 wigycnssln pviytifnqd frrsfkhilf kkkkknfrh
+//

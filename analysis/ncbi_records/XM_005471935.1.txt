@@ -1,0 +1,100 @@
+LOCUS       XM_005471935            2234 bp    DNA              VRT 12-SEP-2013
+DEFINITION  PREDICTED: Oreochromis niloticus histamine H2 receptor-like
+            (LOC100700659), mRNA.
+ACCESSION   XM_005471935
+VERSION     XM_005471935.1  GI:542194004
+DBLINK      BioProject: PRJNA72943
+KEYWORDS    RefSeq.
+SOURCE      Oreochromis niloticus (Nile tilapia)
+  ORGANISM  Oreochromis niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NT_167467.2) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Oreochromis niloticus Annotation
+            Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2234
+                     /mol_type="mRNA"
+                     /linkage_group="LG10"
+                     /isolate="000638D3DF"
+                     /sex="female"
+                     /db_xref="taxon:8128"
+                     /organism="Oreochromis niloticus"
+     gene            1..2234
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 3 samples with support for all annotated introns"
+                     /db_xref="GeneID:100700659"
+                     /gene="LOC100700659"
+     CDS             351..1376
+                     /product="histamine H2 receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:542194005"
+                     /db_xref="GeneID:100700659"
+                     /translation="MIATALRWLILVFFIILTIGGNVLVCLAVGMSRRLWRIANCFVVS
+                     LAVTDLLLGLLVLPLSATVELRSGEWPFGGVLCNIYISLDVMLCTASILTLLAISVDRY
+                     LAISAPLSHSRRVTPLRVTLAIIAIWAMSLAVSVLPIHLGWNTPDYRVQNLDWATGGNE
+                     KEGYYCQFGWNNNYVLLYAFGSFYLPLLVMCGMYLCIFRMAREQARRIRATMPSFARTA
+                     TAVVAREHKATVTLAAVLGAFVICWFPYFTYFTWIGMKEKTNPPNTLHSVVLWLGYFNS
+                     TLNPILYPAFNRDFRRAYGELLHCKRLYRRKLHLNGVNKRLTFTNGQRLSQQCEGQIDI
+                     H"
+                     /gene="LOC100700659"
+                     /protein_id="XP_005471992.1"
+ORIGIN
+        1 gcaagagaga gagagggata agtttacaca gccaggcctg aggaatcaga agtccatgtt
+       61 caaggaagaa gtgttggatc tgacaggtgt ttacgacaaa ccacgtgagg gtcatgttta
+      121 cttcagaggc tgtggcaatg tgaaacaaga aaagactatg aagggctttc catacagaga
+      181 tatactttta aaccagactg ctgctataca catagatacc atggaaaaga cagtctgagg
+      241 gaactgacag cagctgagaa actttggaga taagtgaatg aggcattttc aatatttact
+      301 actgaggtac cggcagcagc actgttccag tgccagagaa ggagtgcatc atgattgcca
+      361 cagcactgcg ctggctcatc ctggtttttt ttatcattct taccattggt ggtaacgtgc
+      421 tggtgtgttt ggctgtagga atgagccgtc gactatggag aattgctaac tgcttcgtgg
+      481 tttcgctggc agtgacagat ctcctccttg gcctactggt gcttcccttg tccgccactg
+      541 tggagctgcg cagcggggaa tggccatttg gaggagtcct gtgcaacatc tacatttcat
+      601 tagatgtcat gctgtgcaca gcctccatcc tgaccctcct ggcaatcagt gtggaccgat
+      661 accttgccat ttcagcaccc cttagccact cccggagagt tacaccacta agggtgacac
+      721 tggctatcat tgccatctgg gccatgtcac tagctgtgtc tgttctgcct atacacttgg
+      781 gatggaacac accagactac agggttcaaa acttagactg ggccacggga ggaaatgaga
+      841 aagagggcta ctactgtcag tttggatgga ataacaacta tgttcttctt tatgcctttg
+      901 gctcatttta cctgcctctg ctggttatgt gtggaatgta tctttgcata ttcaggatgg
+      961 cacgagaaca ggcaaggcga attcgtgcta ccatgccatc atttgcacgt acagcaactg
+     1021 cagtggtagc ccgagagcac aaagctacag tgaccctggc tgcagtactc ggggcttttg
+     1081 tcatctgttg gttcccttac ttcacctact tcacctggat tggaatgaag gaaaaaacaa
+     1141 acccacctaa tacacttcac tccgtagtcc tgtggttggg ttattttaac tctaccctta
+     1201 atccaatcct ttatccagcc tttaacaggg atttccgcag agcctacgga gagctgcttc
+     1261 actgcaaaag attatatcgg agaaaactgc atcttaacgg tgtaaataag cgattgacct
+     1321 ttactaatgg acaaagactc tctcaacagt gtgagggaca gatagacata cattaaaaaa
+     1381 acacagagga gaagaacctc acgctacaaa tgggaaatgg tattcctgat gagccaagat
+     1441 gaaatgctat ggatgttgtc tcaccaatag actctagagt ggcagcgaaa tattgcttac
+     1501 tactactcac ttactcaaag taccagatta gccaataatt tacactgtcg ctcatttgta
+     1561 gatagtgcca aagtttgtgc aattccaggc acagtacaat aaatgttaca taaaagtttt
+     1621 attaatgatt aataacactg ttattggaaa ataacagaaa tctttacatg tttatttcaa
+     1681 ggtgcacatt tttctttgat tataatagtg ttgaactaag agagaagtat tgaaatgtaa
+     1741 gttttttaca gtaggcttca gtgtagaaaa gtggatctga atagaataaa tagatgactc
+     1801 agtaagcttc ccagaaagct ccacggagac aagtgtagtt aaaagtttgc aagttgttta
+     1861 tttttaaacc ctccagccct gctattcaaa gtaaataagt caccagcaag ttcatttgat
+     1921 atgtacaata tgtgtatgaa cccaaaaagg acaaacagaa ggacttcctg gacactttta
+     1981 cagattaact gcagttgaac aagatatcct tttttttaaa taaataaatt atcagttaag
+     2041 ctatgataaa gaccagctct tttctattat cccagtggac atgcgcttca tcattatagc
+     2101 tatgctgcct ttatgtattg taaatagatc aacagccatt ataaccagat gtgaaacttg
+     2161 tgcacagtga tgatatagac tactgtgaaa gtcaaatcta agtaaatcta agcaaacttt
+     2221 atcatttttg ctta
+//

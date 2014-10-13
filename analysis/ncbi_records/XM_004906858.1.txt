@@ -1,0 +1,129 @@
+LOCUS       XM_004906858            3766 bp    DNA              ROD 18-JUN-2013
+DEFINITION  PREDICTED: Heterocephalus glaber muscarinic acetylcholine receptor
+            M3-like (LOC101718361), mRNA.
+ACCESSION   XM_004906858
+VERSION     XM_004906858.1  GI:512931404
+DBLINK      BioProject: PRJNA167983
+KEYWORDS    RefSeq.
+SOURCE      Heterocephalus glaber (naked mole-rat)
+  ORGANISM  Heterocephalus glaber
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Bathyergidae; Heterocephalus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004636904.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Heterocephalus glaber Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3766
+                     /db_xref="taxon:10181"
+                     /mol_type="mRNA"
+                     /organism="Heterocephalus glaber"
+                     /chromosome="Unknown"
+                     /sex="male"
+     gene            1..3766
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 20 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 3 samples with support for all annotated introns"
+                     /db_xref="GeneID:101718361"
+                     /gene="LOC101718361"
+     misc_feature    211..213
+                     /note="upstream in-frame stop codon"
+                     /gene="LOC101718361"
+     CDS             244..2016
+                     /product="muscarinic acetylcholine receptor M3-like"
+                     /codon_start="1"
+                     /db_xref="GI:512931405"
+                     /db_xref="GeneID:101718361"
+                     /translation="MTLHNSSTILPLFPNISTSWIHSPSEAGLPPGTVTHFGSYNIAQA
+                     AGNFSSPNGTTSDPLGGHTIWQVVFIAFLTGFLALVTIIGNILVIVAFKVNKQLKTVNN
+                     YFLLSLACADLIIGVISMNLFTTYIIMNRWALGNLACDLWLSIDYVASNASVMNLLVIS
+                     FDRYFSITRPLTYRAKRTTKRAGVMIGLAWVISFVLWAPAILFWQYFVGKRTVPPGECF
+                     IQFLSEPTITFGTAIAAFYMPVTIMTILYWRIYKETEKRTKELAGLQASGTEAETENFV
+                     HPTGSSRSCSSYELQQQSLKRSSRRKYGRCHFWFTTKNWKPSAEQMDQDHSSSDSWNNN
+                     DAAASLENSASSDEEDIGSETRAIYSIVLKLPGHSTILNSTKLPSSDNLQGPEEELGSV
+                     DMERNANKLQTRKSMDDGGSFQKSFSKLPIQLESTMDTAKTSDANSSVGKTTATLPLSF
+                     KEATLAKRFAVKTRSQITKRKRMSLIKEKKAAQTLSAILLAFIITWTPYNIMVLVNTFC
+                     DSCIPKTYWNLGYWLCYINSTVNPVCYALCNKTFRNTFKMLLLCQCDKRKRRKQQYQQR
+                     QSVIFHKRVPEQAV"
+                     /gene="LOC101718361"
+                     /protein_id="XP_004906915.1"
+ORIGIN
+        1 cggcaggcgc tgaggagcgg cgtgggacgc cacctggagc gcagttgccc aggtatgaac
+       61 agtaatggca cctatttcac ttccaagttc cccagtagac tgtggattga atgaactgca
+      121 tccatctcca tcatgatgtg caacaccaag tcttgttact acatctgtgt tctgattagt
+      181 ggccaaataa atgacattca gaagttcagc taaggtacag taagactatg tcagagagtc
+      241 acaatgacct tgcacaatag cagtacaatc ttgcctttgt ttccaaacat cagcacctcc
+      301 tggatacaca gcccatcaga agcagggcta cccccaggga cagtcactca tttcggcagc
+      361 tacaacattg cacaagcagc tgggaatttc tcctccccaa atggtaccac cagtgaccct
+      421 ctaggaggtc atactatctg gcaagtggtc tttattgcat ttttaacggg cttcctggcc
+      481 ctggtgacca tcattggcaa catcttagtc atagtggcat ttaaggtcaa caaacagctg
+      541 aagacagtca acaactactt cctcctaagc ctggcttgtg ctgatctgat cattggggtc
+      601 atttccatga atctgtttac tacctacatc atcatgaacc gatgggcttt ggggaactta
+      661 gcctgtgacc tctggctttc cattgactat gtggccagca atgcctctgt catgaacctt
+      721 ctggtcatta gctttgacag gtacttttcc atcacaaggc cactcaccta tcgagccaaa
+      781 agaacaacaa agagagccgg tgtgatgata ggtctggctt gggtcatctc cttcgtcctt
+      841 tgggctcctg ccattttgtt ctggcagtac tttgtgggga agagaactgt gcctccaggg
+      901 gagtgcttca ttcaattcct cagcgagccc accatcacct tcggcacggc catcgctgcc
+      961 ttttatatgc ctgtcaccat tatgactatt ttgtactgga ggatctataa ggaaactgaa
+     1021 aaacgtacca aagagctcgc tggcctgcag gcctctggga cagaagcaga gacagaaaac
+     1081 ttcgtccacc ccacaggtag ttctcgaagc tgtagcagct atgagctgca gcagcaaagc
+     1141 ctgaagcgct catccagaag aaagtacggc cgctgccact tctggttcac aaccaagaac
+     1201 tggaagccca gtgccgagca gatggaccaa gaccacagca gcagtgacag ctggaacaac
+     1261 aatgatgctg ctgcctccct ggaaaactcc gcctcctccg atgaagagga cattggctca
+     1321 gagacaagag ccatctactc tattgtgctc aagcttccag ggcacagcac catcctcaac
+     1381 tccaccaaac tgccctcctc tgacaacctg caggggcctg aggaggagct ggggtcagtg
+     1441 gacatggaga gaaatgccaa taagcttcag acccggaaga gtatggacga tggtggcagt
+     1501 tttcaaaaga gcttctccaa acttcccatc cagttggaat ccaccatgga cacagccaag
+     1561 acttccgatg ccaactcgtc agtgggtaag accacggcca ctctacctct gtccttcaag
+     1621 gaagccacac tggctaagag gtttgctgtg aaaaccagaa gtcagatcac aaagcggaag
+     1681 aggatgtcgc tcatcaagga gaagaaggca gcacagaccc tcagcgccat cttactcgct
+     1741 ttcatcatca cctggacccc ctacaacatc atggttctgg tgaatacttt ctgtgacagc
+     1801 tgcataccca aaacctattg gaacctgggc tactggctgt gctacatcaa cagcaccgtg
+     1861 aacccagtgt gctatgccct gtgcaacaaa accttcagaa acaccttcaa gatgctactg
+     1921 ctgtgccaat gtgacaagag gaagagacgc aagcagcagt accagcagag acagtcggtc
+     1981 atcttccaca agcgtgtgcc cgagcaggct gtatagaagg aggttggacc catagcagtg
+     2041 acaaaaatgc acacatcaac ccacagacct taggaggaat aaggtgaggg tgggggtggc
+     2101 tcctggtgat gataaaaatg gtttttttat cacccaggta tgaaagaagc tgcctgttta
+     2161 cggatccatt gaataaactg attttaacat aaaaagtcaa ataccaattc agcaaaaaaa
+     2221 aaaatcctac tactgaatat aaagaaattt attctgaact agactttaat tctttttttt
+     2281 tttcttaaag aggaaaaaaa atattgcttc acagcaaatt gatttgcctg ggtcttttaa
+     2341 ttcccattag ctctggaatc ccagataagc ctagctggcc cgattgtgct gttcttccca
+     2401 aggattccaa gtgccgatgc agaccacatg tggaatacag caggctcgtg aatctgtggt
+     2461 tctgaaatta tgccgtccat tgcaaagctg aaccttcttg tcccaataga gcttccgtcc
+     2521 tctcttcagt gtgttgttga actctatttg tggacttgat tcctgattct tgcaaaatat
+     2581 tgttttgtga gttgaagttt catacaaata aaaatataag tatatatatg tgtgagttcc
+     2641 acacatgcac atagtgtata taatataatg ggaaacactg aactggcaaa ttattcctgc
+     2701 aatatatgct ttcagtactt tggtaactga agttctctag gatcctatac aatataaaag
+     2761 tgaaattaac ccagtttaac gttttggaca ctgggtctgt tttccacaaa ccactctgaa
+     2821 gaatattcag cagagatcag cgaggccgtc ccagcagatc tgtgcagagt ggacagcctc
+     2881 aagagtcagt cgccagtgtg gctggctgga ccctgggcat aagcagtctc ctttactgac
+     2941 ctctccatcc acagagctaa gtcggggccc ctctgagcta aggaatgaac cacatccaca
+     3001 cgtttggatt tagtcatcca aatctgaatg tttcaaaaca aaatgtctgc aacctaaact
+     3061 gctttgaaac tcaatcacag tgtcacgttt gaatgtcaca ctcagcaata tatatggcaa
+     3121 agcaaaagga acactggggt ggggaggggt ggagagaaat gttgtgtttg atttcttgct
+     3181 acctggcacc ttctaaagga aattagggct gacccctgtg gcttagcggt ggccagggct
+     3241 ttctggcctt ctggcctttc atgtgtaacc ttcacccagg agtaggtggg gtaggaagtg
+     3301 acctggcctc tgaagaaaga attacgcttg gaaagtattg cttcaagttg atttctgtac
+     3361 cttttgaaaa ctaattttgt cttatccttt ggatggcccc cagtgctcga agttttctcc
+     3421 aggggagggg aggggtgctg ctgctttctg tcttctcact gctgctgtcc ttgtcgggtt
+     3481 ccttcttttc ctttcgctgg ggccgtgtgg ggagcgggag gacgggtggg ggggggaagg
+     3541 cctcttccct gagtcccagc atctgtgcca cagacccaga gctgggaccc aagctgcttt
+     3601 tgtattcagc gtgaggtggt gtttacagac aactttgagc agtggaagtg tactcagtgg
+     3661 tgtgtgtgta tctgatctat ttaatgtcgt gttatgttta tatgaagaaa tatttatgca
+     3721 tacttcacca agtgtttatt taatgttgat aaatatgact tcttca
+//

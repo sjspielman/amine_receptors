@@ -1,0 +1,96 @@
+LOCUS       XM_005418970            2091 bp    DNA              VRT 13-SEP-2013
+DEFINITION  PREDICTED: Geospiza fortis 5-hydroxytryptamine (serotonin) receptor
+            2B, G protein-coupled (HTR2B), mRNA.
+ACCESSION   XM_005418970
+VERSION     XM_005418970.1  GI:543254335
+DBLINK      BioProject: PRJNA217051
+KEYWORDS    RefSeq.
+SOURCE      Geospiza fortis (medium ground-finch)
+  ORGANISM  Geospiza fortis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Passeroidea; Fringillidae; Emberizinae; Thraupini; Geospiza.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005054309.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Geospiza fortis Annotation Release
+            100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2091
+                     /db_xref="taxon:48883"
+                     /mol_type="mRNA"
+                     /organism="Geospiza fortis"
+                     /chromosome="Unknown"
+                     /sex="female"
+     gene            1..2091
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 mRNAs, 4 ESTs, 11 Proteins"
+                     /db_xref="GeneID:102042340"
+                     /gene="HTR2B"
+     CDS             458..1849
+                     /product="5-hydroxytryptamine receptor 2B"
+                     /codon_start="1"
+                     /db_xref="GI:543254336"
+                     /db_xref="GeneID:102042340"
+                     /translation="MSHPLHSLNGPGAGNGSLSPLSVTGAPKQDYQSEEQGNKVHWAAL
+                     LILLLIIPTIGGNILVILAVSLEKKLQYATNYFLTSLAVADLLVGLFVMPIALLMILFD
+                     NTWPLPTALCPIWLFLDVLFSTASIMHLCAISLDRYIAIKKPIQASQYNSWATTIIKII
+                     VVWLISIGIAIPVPIRGIEDGNGTSTNITCFLTPDRFHYFILYGSVASFFIPLAIMIVT
+                     YLLTIQVLRKKAYLINKPPQRFTWSTVSTVFQRDTTPASSPEKVAMLNGSRKDQTLSSD
+                     MPIGRTSTIGRKSMQTITNEQRASKVLGIVFFLFLLMWCPFFITNISSVLCNSCNKEVF
+                     QKLLEIFVWIGYVSSGVNPLVYTLFNKTFREAFSRYITCNYRTTKPIKALRQRSSRISF
+                     RNSVAENSKLFVMNGMRNGINPIMYQSPMRLRSSPIQASSAISLDTLLLTKNEVDKTEE
+                     QVSYV"
+                     /gene="HTR2B"
+                     /protein_id="XP_005419027.1"
+ORIGIN
+        1 agaaggagca aatctacata gactgcacct aaagggaatt gttttgcatt cagattcatc
+       61 tatcactctt tactgctgca gaaaaaaaaa aaaaaaggaa gctaatgcac tgcttatttt
+      121 tgacagctac tgattttttc cttttagtct tctgaaatct gaacattgct ataaagggga
+      181 gaccagaccc ctgaacctca ccgaccagag atggacacaa gacaggactt gcatttttaa
+      241 aactcttttg cgcccagcaa ggcacagaat aaaagaagtg gataccagct tggacatggt
+      301 tacagtacct cgaaatagca gatgaccagt tcactatact gaccatgctg gcctatcttc
+      361 aggaccatcc tggaccagag aggaacagag aactcttaca tcgtacgcaa ctcctgcgca
+      421 aaagacagcc cctgaagaca ttcctctgcg cacaaaaatg tcccatcctt tacactcctt
+      481 gaacggacct ggagctggca atggatctct gtcgcctctc tcagtaacag gagcacccaa
+      541 gcaggactac caaagtgagg aacaaggaaa caaagtgcac tgggcagcac tgctgatcct
+      601 cctgctgata atccccacca tcggggggaa catacttgtc attctggcgg tgtccctgga
+      661 gaagaagttg caatatgcta ccaactactt tctgacgtcc ttggcggtgg cagatttgct
+      721 cgtgggtctg tttgtgatgc caattgccct tctcatgata ttatttgaca atacctggcc
+      781 tttaccaact gccttgtgtc ctatctggct gttccttgat gtcctctttt ccacagcttc
+      841 catcatgcac ctctgtgcca tctccctgga ccgctacatt gccataaaaa agccaatcca
+      901 ggccagccag tacaattcat gggctacaac aatcatcaaa atcatcgtgg tttggctcat
+      961 ttcaataggc attgcaattc cagtccctat cagaggcatt gaggatggaa atggcacctc
+     1021 tacaaacatc acgtgtttcc tgacgcctga tcgttttcat tacttcattc tgtacggatc
+     1081 agtggcttcc ttcttcattc ccctcgctat catgatcgtc acttatttac tgacaatcca
+     1141 agtgctgcgc aaaaaggcct atttgatcaa caagccgcct cagcgcttca cctggtcaac
+     1201 agtgtccaca gtttttcagc gtgacacaac acctgcctcc tcaccagaaa aggtggccat
+     1261 gctaaatggc tccagaaagg accagacttt gtccagtgac atgcctatcg gcaggacatc
+     1321 caccattggg aggaagtcca tgcaaacgat aaccaatgaa caaagggcgt caaaagttct
+     1381 ggggattgtg ttttttcttt tcttgctgat gtggtgccca ttcttcataa caaacatcag
+     1441 ctcagttctg tgcaactcct gcaacaagga ggtttttcaa aagcttttgg agatatttgt
+     1501 ttggataggg tatgtatcct caggagtgaa ccctcttgta tatacactct tcaacaaaac
+     1561 atttagggag gctttcagca gatacatcac ttgcaactat cggaccacaa agcctatcaa
+     1621 ggcccttcgg cagcgctcca gcaggatctc tttcagaaac tctgtagcag aaaattccaa
+     1681 gctctttgtc atgaatggga tgagaaatgg gattaacccc attatgtacc agagcccaat
+     1741 gaggctgagg agctcaccca tccaagcatc atcggccatt tcgctggata cgttgctgct
+     1801 caccaagaat gaggttgata aaacagaaga acaagtcagc tatgtatagt ggaatggcag
+     1861 ccatgcccct acagcattac tgtatgtatt attctagata actgcactgt aagagggtat
+     1921 aaatactatt gttttctgtt atttatgcaa gcaatatctt ataaatttat attaattcct
+     1981 ctccttcaaa gtctcctcta ctttaacccc aaccccatgg tggcaaccac aacttcattc
+     2041 catgacaaat gactcatgca gaactgtagc ctaaggaaga gggaaataaa t
+//

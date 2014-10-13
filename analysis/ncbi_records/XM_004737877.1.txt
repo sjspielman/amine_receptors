@@ -1,0 +1,108 @@
+LOCUS       XM_004737877            1620 bp    DNA              MAM 13-JUN-2013
+DEFINITION  PREDICTED: Mustela putorius furo adrenoceptor beta 2, surface
+            (ADRB2), mRNA.
+ACCESSION   XM_004737877
+VERSION     XM_004737877.1  GI:511826312
+DBLINK      BioProject: PRJNA158527
+KEYWORDS    RefSeq.
+SOURCE      Mustela putorius furo (domestic ferret)
+  ORGANISM  Mustela putorius furo
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+            Mustelidae; Mustelinae; Mustela.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004569142.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Mustela putorius furo Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1620
+                     /sub_species="furo"
+                     /mol_type="mRNA"
+                     /breed="Sable"
+                     /isolate="ID#1420"
+                     /sex="female"
+                     /db_xref="taxon:9669"
+                     /organism="Mustela putorius furo"
+                     /chromosome="Unknown"
+     gene            1..1620
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 17 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101694145"
+                     /gene="ADRB2"
+     misc_feature    143..145
+                     /note="upstream in-frame stop codon"
+                     /gene="ADRB2"
+     CDS             254..1510
+                     /product="beta-2 adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:511826313"
+                     /db_xref="GeneID:101694145"
+                     /translation="MGQPGNRSVFLLAPNGSHAPDQDGTEERNEAWVVGMGIVMSLIVL
+                     AIVFGNVLVITAIAKFERLQTVTNYFITSLACADLVMGLAVVPFGASHILMKMWTFGNF
+                     WCEFWTSIDVLCVTASIETLCVIAVDRYFAITSPFKYQSLLTKNKARVVILMVWIVSGL
+                     TSFLPIQMHWYRATHQEAINCYAKETCCDFFTNQAYAIASSIVSFYLPLVVMVFVYSRV
+                     FQVAQRQLQKIDRSEGRFHAQNLSQVEQDGRSGHGHRRASKFCLKEHKALKTLGIIMGT
+                     FTLCWLPFFIVNIVHVIQDNLIPKEVYILLNWVGYVNSAFNPLIYCRSPDFRIAFQELL
+                     CLRRSSLKAYGNGYSNNSNSRTDYTGEHSGCHLGQEKDSELLCEDPPGTEGLANRQGTV
+                     PNDSIDSQGRNCSTNDSLL"
+                     /gene="ADRB2"
+                     /protein_id="XP_004737934.1"
+     STS             380..1267
+                     /db_xref="UniSTS:265908"
+                     /standard_name="ADRB2"
+                     /gene="ADRB2"
+     STS             670..1124
+                     /db_xref="UniSTS:258478"
+                     /standard_name="ADRB2sts1"
+                     /gene="ADRB2"
+     STS             850..1009
+                     /db_xref="UniSTS:475538"
+                     /standard_name="CC483684"
+                     /gene="ADRB2"
+     STS             859..1066
+                     /db_xref="UniSTS:504882"
+                     /standard_name="ADRB2"
+                     /gene="ADRB2"
+ORIGIN
+        1 cctgtgcaca taacgggcag cgcgcactcc ggggcggttt ctccagagcg ccagctggtt
+       61 ccaacgctca cggggagccc ggagcacccc gcaagctgag tgcaggacgc atccccacca
+      121 cagccatccc ccggccgctg aatgaggctt cccggcgtcc gctcgctgcc cgcagcgccg
+      181 cgccggaggt ccgcccgctg aggcgcggcc ggtgcgccgg cagcctgtgc gctcacctgc
+      241 cagcctgcgc gccatggggc agcccgggaa ccgcagcgtc ttcttgctgg cgcccaacgg
+      301 cagccacgcg ccggaccaag atggcacgga ggaacgtaac gaggcgtggg tggtgggcat
+      361 gggcatagtc atgtcgctca tcgtcctggc catcgtgttt ggaaacgtgc tggtcatcac
+      421 agccatcgcc aagttcgagc gtctgcagac ggtcaccaac tacttcatca cctccctggc
+      481 ctgtgctgac ctggtcatgg gcctggcggt ggtgcccttt ggggccagcc acatcctcat
+      541 gaaaatgtgg acctttggca acttctggtg tgagttttgg acttccattg acgtgctgtg
+      601 cgtcacggcc agcatcgaga ccctgtgcgt gattgcagtg gatcgctact ttgctatcac
+      661 atcacccttc aagtaccaga gcctgctgac caagaataag gcccgggtgg tcattttgat
+      721 ggtgtggatc gtgtcgggcc ttacctcctt cttgcccatc cagatgcact ggtaccgggc
+      781 cacccaccag gaagccatca actgctatgc caaggagaca tgctgtgact tcttcacgaa
+      841 ccaagcttat gccattgcct cctccatcgt gtccttctac ttacccctgg tggtcatggt
+      901 cttcgtctac tccagggtct tccaggtggc ccagaggcag ctccagaaga tcgacagatc
+      961 tgagggccgc ttccatgccc aaaacctcag ccaagtggag caggatgggc ggagtgggca
+     1021 cggacatcgc agggcctcca agttctgcct gaaggaacac aaagccctca aaactctggg
+     1081 catcatcatg ggcactttca ccctgtgctg gctgcccttc ttcattgtca acatagtgca
+     1141 cgtgatccag gataacctca tccccaagga agtttacatc ctcctaaact gggtgggcta
+     1201 tgtcaactct gctttcaatc cccttatcta ctgccggagc ccggatttca ggattgcctt
+     1261 ccaggagctt ctctgcctgc gcaggtcttc cctgaaggcc tatgggaatg gctactccaa
+     1321 caacagtaac agcaggaccg actacactgg ggagcacagt ggatgtcacc tggggcagga
+     1381 gaaagacagc gaactgctgt gtgaggaccc cccaggcacg gaaggccttg cgaaccgtca
+     1441 aggtactgtg cctaacgata gcattgattc acaagggagg aattgtagta caaacgactc
+     1501 actgctctaa ggcagttttt ctacttttta tgaaaccccc ctctcccaac aaaacactac
+     1561 acagactatt taacttgagt gtaatacatt tagaataaaa ttgtatagag atgtgcagaa
+//

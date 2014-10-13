@@ -1,0 +1,92 @@
+LOCUS       XM_004440506            1377 bp    DNA              MAM 11-APR-2013
+DEFINITION  PREDICTED: Ceratotherium simum simum 5-hydroxytryptamine (serotonin)
+            receptor 2C, G protein-coupled (HTR2C), mRNA.
+ACCESSION   XM_004440506
+VERSION     XM_004440506.1  GI:478532834
+DBLINK      BioProject: PRJNA191537
+KEYWORDS    RefSeq.
+SOURCE      Ceratotherium simum simum (southern white rhinoceros)
+  ORGANISM  Ceratotherium simum simum
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Perissodactyla; Rhinocerotidae;
+            Ceratotherium.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004454246.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ceratotherium simum simum Annotation Release
+            100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1377
+                     /sub_species="simum"
+                     /mol_type="mRNA"
+                     /country="USA: San Diego Zoo, California"
+                     /isolate="SDZICR_KB13650"
+                     /sex="female"
+                     /db_xref="taxon:73337"
+                     /organism="Ceratotherium simum simum"
+                     /chromosome="Unknown"
+     gene            1..1377
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 mRNAs, 24 Proteins"
+                     /db_xref="GeneID:101401098"
+                     /gene="HTR2C"
+     CDS             1..1377
+                     /product="5-hydroxytryptamine receptor 2C"
+                     /codon_start="1"
+                     /db_xref="GI:478532835"
+                     /db_xref="GeneID:101401098"
+                     /translation="MVNLRKAVHSFLVHLIGLLVWQCDISVSPVAAIVTDIFNTSDGGR
+                     FKFPDGVQNWPALSIVIIIILTIGGNILVIMAVSLEKKLHNATNYFLMSLAIADMLVGL
+                     LVMPLSLLAILYDYVWPLPRYLCPVWISLDVLFSTASIMHLCAISLDRYVAIRNPIEHS
+                     RFNSRTKAIMKIAIVWAISIGVSVPIPVIGLRDEDKVFVNNTTCVLNDPNFVLIGSFVA
+                     FFIPLTIMVITYCLTIHVLRRQALMLLRGHTEEPPGISLDFLKCCKRNTTDEENSANPN
+                     QDLNPRRRKKKERRPRGTMQAINNERKASKVLGIVFFVFLIMWCPFFITNILSVLCGKA
+                     CNQKLMEKLLNVFVWIGYVCSGINPLVYTLFNKIYRRAFSNYLRCNYKAEKKPPVRQIP
+                     RVAATALSGRELNVNIYRHSNEPVTKKASDNEPAIEMQIENLELPVNPSNVVSERISSV
+                     "
+                     /gene="HTR2C"
+                     /protein_id="XP_004440563.1"
+     STS             47..150
+                     /db_xref="UniSTS:158200"
+                     /standard_name="GDB:603978"
+                     /gene="HTR2C"
+     STS             353..500
+                     /db_xref="UniSTS:498203"
+                     /standard_name="HTR2C"
+                     /gene="HTR2C"
+ORIGIN
+        1 atggtgaacc tgaggaaagc ggtgcattcg ttccttgtgc acctaattgg cctattggtt
+       61 tggcaatgcg atatttctgt gagcccagtt gcagctatag taactgacat tttcaatacc
+      121 tccgatggtg gacgcttcaa attcccagac ggggtacaaa actggccagc actttcaatc
+      181 gtcataataa taatcctgac aataggtggc aacattctcg ttatcatggc agtaagcttg
+      241 gaaaagaaac tgcacaatgc caccaactac ttcttaatgt ccctagccat tgctgatatg
+      301 ctggtgggac tacttgtcat gccactgtct ctgcttgcaa tcctttatga ttatgtctgg
+      361 ccactaccta gatatttgtg ccccgtctgg atttctttgg atgttttatt ttctacagcg
+      421 tccatcatgc acctctgcgc tatctcgctg gatcggtatg tagcaatacg taatcctatt
+      481 gagcatagcc gtttcaattc gcggactaag gccatcatga agattgctat agtttgggca
+      541 atttctatag gtgtatcagt tcctattcca gtgattggac tgagagatga agacaaagta
+      601 ttcgtcaaca acaccacctg cgtgctgaat gacccaaatt tcgttcttat tgggtccttc
+      661 gtagcgttct tcataccact gacgatcatg gtgattacgt actgcctgac gattcacgtt
+      721 cttcgcagac aagctctgat gttactgcgc ggccacaccg aggagccacc tggaataagc
+      781 ctggatttcc tgaaatgctg caagaggaat acaactgacg aagagaactc tgcaaaccct
+      841 aaccaagatt tgaacccacg ccgaagaaag aagaaagaaa gacgtcctag gggcaccatg
+      901 caagctatca acaatgaacg gaaagcctcg aaagtccttg gcattgtttt ctttgtgttt
+      961 ctgatcatgt ggtgcccgtt ttttattacc aatattctgt cagttctttg tgggaaggcg
+     1021 tgtaatcaaa agctcatgga aaagcttctg aatgtgtttg tttggattgg ctatgtttgt
+     1081 tcaggtatta atcctctggt gtacactctt ttcaacaaaa tttaccgaag ggcattctcg
+     1141 aactacttgc gctgtaatta taaggcagaa aaaaagcctc ccgtcagaca aatcccgaga
+     1201 gttgctgcca ctgctttgtc ggggagggag cttaatgtta acatttaccg gcattccaat
+     1261 gaaccggtga ctaagaaagc tagtgacaat gagcccgcta tagagatgca aattgagaat
+     1321 ttggagctac cagttaatcc ctccaatgtg gttagtgaaa ggattagtag tgtgtaa
+//

@@ -1,0 +1,65 @@
+LOCUS       XP_004050178             546 aa                     PRI 03-DEC-2012
+DEFINITION  PREDICTED: 5-hydroxytryptamine receptor 1B-like [Gorilla gorilla
+            gorilla].
+ACCESSION   XP_004050178
+VERSION     XP_004050178.1  GI:426366259
+KEYWORDS    RefSeq.
+SOURCE      Gorilla gorilla gorilla (western lowland gorilla)
+  ORGANISM  Gorilla gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004004860) annotated using gene prediction method: GNOMON,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Gorilla gorilla Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..546
+                     /db_xref="taxon:9595"
+                     /sub_species="gorilla"
+                     /organism="Gorilla gorilla gorilla"
+                     /chromosome="10"
+     Protein         1..546
+                     /product="5-hydroxytryptamine receptor 1B-like"
+                     /calculated_mol_wt="59465"
+     Region          <11..>52
+                     /note="DEC-1 protein, N-terminal region; pfam04625"
+                     /db_xref="CDD:113398"
+                     /region_name="DEC-1_N"
+     Region          67..>266
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          81..>270
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..546
+                     /coded_by="XM_004050130.1:1..1641"
+                     /gene="LOC101149664"
+                     /db_xref="GeneID:101149664"
+ORIGIN
+        1 mgagalvlga sqpgnlssaa plpdgaataa rllvpasppa sllppasegp eplsqqwtag
+       61 mgllmalivl livagnvlvi vaiaktprlq tltnlfimsl asadlvmgll vvpfgativv
+      121 wgrweygsff celwtsvdvl cvtasietlc vialdrylai tspfryqsll trararglvc
+      181 tvwaisalvs flpilmhwwr aesdearrcy ndpkccdfvt nrayaiassv vsfyvplcim
+      241 afvylrvfre aqkqvkkids cerrflgatr awtsraapas prnprcrarr gartpgtasq
+      301 gneeicvylr piageleahn prlnhprqre kprtvaqkgk nilancasen atllgldsgq
+      361 mskrisrdkv nkcflefisq kseltcrmsv qlgkvekdea flfcfhlfpv ipyllggpgl
+      421 qlpghdpils cgilgptcse aecgiswdks vfqsscaqap eagilhvlcp vgavqdehhl
+      481 lviifaewyg qilsdrkhme drspkrekkh dsdekktrsv agdnqtlpta asggfcsmnd
+      541 sfsskn
+//

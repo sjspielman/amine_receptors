@@ -1,0 +1,71 @@
+LOCUS       NP_001178068             515 aa                     MAM 11-SEP-2013
+DEFINITION  alpha-1B adrenergic receptor [Bos taurus].
+ACCESSION   NP_001178068
+VERSION     NP_001178068.1  GI:300798649
+KEYWORDS    RefSeq.
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (residues 1 to 515)
+  AUTHORS   Zimin,A.V., Delcher,A.L., Florea,L., Kelley,D.R., Schatz,M.C.,
+            Puiu,D., Hanrahan,F., Pertea,G., Van Tassell,C.P., Sonstegard,T.S.,
+            Marcais,G., Roberts,M., Subramanian,P., Yorke,J.A. and Salzberg,S.L.
+  TITLE     A whole-genome assembly of the domestic cow, Bos taurus
+  JOURNAL   Genome Biol. 10 (4), R42 (2009)
+   PUBMED   19393038
+REFERENCE   2  (residues 1 to 515)
+  AUTHORS   Inderwies,T., Pfaffl,M.W., Meyer,H.H., Blum,J.W. and Bruckmaier,R.M.
+  TITLE     Detection and quantification of mRNA expression of alpha- and
+            beta-adrenergic receptor subtypes in the mammary gland of dairy cows
+  JOURNAL   Domest. Anim. Endocrinol. 24 (2), 123-135 (2003)
+   PUBMED   12586313
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from
+            AAFC03048598.1.
+            On Jul 17, 2010 this sequence version replaced gi:119895828.
+            Sequence Note: The RefSeq transcript and protein were derived from
+            genomic sequence to make the sequence consistent with the reference
+            genome assembly. The genomic coordinates used for the transcript
+            record were based on alignments.
+            ##Evidence-Data-START##
+            RNAseq introns :: single sample supports all introns SRS369781,
+            SRS369783 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..515
+                     /db_xref="taxon:9913"
+                     /breed="Hereford"
+                     /organism="Bos taurus"
+                     /chromosome="7"
+                     /map="7"
+     Protein         1..515
+                     /product="alpha-1B adrenergic receptor"
+                     /calculated_mol_wt="56255"
+     Region          56..363
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          68..348
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..515
+                     /coded_by="NM_001191139.1:129..1676"
+                     /gene="ADRA1B"
+                     /db_xref="BGD:BT22677"
+                     /db_xref="GeneID:407140"
+ORIGIN
+        1 mnpdldtghn tsapahwgel knanftgpnq tstnstlpql ditraisvgl vlgafilfai
+       61 vgnilvilsv acnrhlrtpt nyfivnlaia dlllsftvlp fsaalevlgy wvlgrifcdi
+      121 waavdvlcct asilslcais idryigvrys lqypslvtrr kailallgvw vlstvisigp
+      181 llgwkepapn ddrecgvtee pfyalfsslg sfyiplavil vmycrvyiva krttknleag
+      241 vmkemsnske ltlrihsknf hedtlsstka kghnprssia vklfkfsrek kaaktlgivv
+      301 gmfilcwlpf fialplgslf stlkapdavf kvvfwlgyfn sclnpiiypc sskefkrafv
+      361 rilgcqcrgr rrrrrrrrlg gcgytyrpwt rggslersqs rkdslddsgs clsgsqrtlp
+      421 saspspgylg rgapppvelc afpewkapga llslpapepp grrgrrdsgp lftfkllaep
+      481 espgtdgdag heaaadvang qpgfksnmpl apgqf
+//

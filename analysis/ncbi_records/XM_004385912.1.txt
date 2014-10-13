@@ -1,0 +1,90 @@
+LOCUS       XM_004385912            1678 bp    DNA              MAM 27-MAR-2013
+DEFINITION  PREDICTED: Trichechus manatus latirostris dopamine receptor D5
+            (DRD5), mRNA.
+ACCESSION   XM_004385912
+VERSION     XM_004385912.1  GI:471408775
+DBLINK      BioProject: PRJNA189960
+KEYWORDS    RefSeq.
+SOURCE      Trichechus manatus latirostris (Florida manatee)
+  ORGANISM  Trichechus manatus latirostris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Afrotheria; Sirenia; Trichechidae; Trichechus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004444086.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Trichechus manatus latirostris Annotation
+            Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1678
+                     /sub_species="latirostris"
+                     /mol_type="mRNA"
+                     /isolate="Lorelei"
+                     /sex="female"
+                     /db_xref="taxon:127582"
+                     /organism="Trichechus manatus latirostris"
+                     /chromosome="Unknown"
+     gene            1..1678
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 9 Proteins"
+                     /db_xref="GeneID:101357326"
+                     /gene="DRD5"
+     misc_feature    128..130
+                     /note="upstream in-frame stop codon"
+                     /gene="DRD5"
+     CDS             173..1603
+                     /product="D(1B) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:471408776"
+                     /db_xref="GeneID:101357326"
+                     /translation="MLPPGRNGSVDSERFRRQPRLVQEGALGGSAGAAPLGPAQVVTAG
+                     LLTLLILWTLLGNVLVCAAIVRSSHLRAKMTNVFIVSLALSDLCVALLVMPWKAVAEVA
+                     GYWPFGAFCNVWVAFDITCSTASILNLCVISVDRYWAISRPFRYEHKMTQRVALVMVGL
+                     AWALSILIAFIPVQLNWHRDKAGTWGGVDPPSNLANVTAWDEAGEPEARTENCDSSLNR
+                     TYAISSSLISFYIPVAIMIATYTRIYRIAQVQIRRISSLERAAEHAQSCRSRVACPPDA
+                     SLRVSIKKETKVLKTLSVIMGVFVCCWLPFFILNCMVPFCIGHPESPRAGFPCVSETTF
+                     DVFVWFGWANSSLNPIIYAFNADFRKVFAQLLGCRHLCSRTPVETVNISNELISYNQDT
+                     VLHKEIAATYIHMIPNAVTPGAGEGDKKEEGGPFDRMSQISQTSPDRDPAAESAWELDC
+                     EGEISLGKITPFTPNGFH"
+                     /gene="DRD5"
+                     /protein_id="XP_004385969.1"
+ORIGIN
+        1 gtcccccgcg ctcccgggct gcggcgcagc gcacggtgag cgcctcccgg ggatcagggg
+       61 tcccttcgcc gcgggtcctg gcgcgccccc tggggtgcct gatggggccg cccggggggc
+      121 gcagggctga agttgggacc gcacgcagcc tgcccctgcc gcccagccag acatgctgcc
+      181 gccggggcgc aacggcagcg tggactcaga gcggttcagg cggcagccgc ggctggtgca
+      241 ggagggcgcc ctggggggct cggcaggggc ggcgccgcta gggcccgcgc aggtggtcac
+      301 cgccggcctc ctgaccctgc tcatcctctg gaccctgctg ggcaacgtgc tggtctgcgc
+      361 agccatcgtg cgcagcagcc acctgcgcgc caagatgacc aacgtcttca tcgtgtccct
+      421 ggctttgtcg gacctctgcg tggcgctgct ggtcatgccc tggaaggcag tcgccgaggt
+      481 ggccgggtac tggccctttg gggcgttctg caacgtctgg gtggccttcg acatcacgtg
+      541 ctccaccgcc tccatcctga acctgtgcgt catcagcgtg gaccgctact gggccatctc
+      601 caggcccttc cgctatgaac acaagatgac ccagcgtgtg gccttggtca tggtcggact
+      661 ggcctgggcc ttgtccatcc tcatcgcctt catcccggtc cagcttaact ggcacaggga
+      721 caaggcgggc acctggggcg gggtggatcc tccatccaac ctggccaacg tgacggcctg
+      781 ggacgaggca ggggagccgg aggccaggac ggagaattgt gactccagcc tgaaccgaac
+      841 ttacgctatc tcctcctccc tcatcagctt ctacatcccg gtagccatca tgatcgcgac
+      901 ctacacgcgc atctaccgca tcgcccaggt gcagatccgt cgcatttcct ccctggagag
+      961 ggcggcggag cacgcgcaga gctgccggag ccgcgtggcc tgcccgccgg acgccagcct
+     1021 gcgggtgtcc atcaagaagg agaccaaggt tctcaagacg ctgtcggtga ttatgggcgt
+     1081 cttcgtgtgc tgctggctgc ccttcttcat ccttaactgt atggtcccct tctgcatcgg
+     1141 ccacccggag agccccaggg ccggcttccc ctgcgtcagc gagaccacct tcgacgtctt
+     1201 cgtctggttc ggctgggcca actcctcgct caaccccatc atctacgcct tcaacgccga
+     1261 cttccggaag gtgtttgccc agttgcttgg gtgcagacac ctctgctcgc gcaccccggt
+     1321 ggagacggtg aacatcagca acgagctcat ttcctacaac caggacaccg tcctccacaa
+     1381 ggagatcgcg gccacctaca tccacatgat ccccaacgcg gtgacccccg gggccgggga
+     1441 gggggacaag aaggaggagg ggggcccctt cgatcgcatg tcccagatat ctcagacgtc
+     1501 cccagacagg gaccctgccg ccgaatctgc ctgggagctg gactgtgagg gggagatttc
+     1561 attaggcaaa attacacctt tcacccctaa tggattccat taaactgcgt aagaaacacc
+     1621 cttgtgaatc tgtgtaacca actggccaca cactggcaag catgaacacg cacataca
+//

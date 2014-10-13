@@ -1,0 +1,92 @@
+LOCUS       XM_004425703            1526 bp    DNA              MAM 11-APR-2013
+DEFINITION  PREDICTED: Ceratotherium simum simum 5-hydroxytryptamine (serotonin)
+            receptor 1D, G protein-coupled (HTR1D), mRNA.
+ACCESSION   XM_004425703
+VERSION     XM_004425703.1  GI:478502903
+DBLINK      BioProject: PRJNA191537
+KEYWORDS    RefSeq.
+SOURCE      Ceratotherium simum simum (southern white rhinoceros)
+  ORGANISM  Ceratotherium simum simum
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Perissodactyla; Rhinocerotidae;
+            Ceratotherium.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004454172.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ceratotherium simum simum Annotation Release
+            100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1526
+                     /sub_species="simum"
+                     /mol_type="mRNA"
+                     /country="USA: San Diego Zoo, California"
+                     /isolate="SDZICR_KB13650"
+                     /sex="female"
+                     /db_xref="taxon:73337"
+                     /organism="Ceratotherium simum simum"
+                     /chromosome="Unknown"
+     gene            1..1526
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 9 mRNAs, 25 Proteins"
+                     /db_xref="GeneID:101400429"
+                     /gene="HTR1D"
+     misc_feature    185..187
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR1D"
+     CDS             266..1399
+                     /product="5-hydroxytryptamine receptor 1D"
+                     /codon_start="1"
+                     /db_xref="GI:478502904"
+                     /db_xref="GeneID:101400429"
+                     /translation="MSPPNQSVEGLLQEASNRPLNATESPEAWDPGTLQALKISLAVGL
+                     SIITLATVLSNAFVLTTIFLTRKLHTPANYLIGSLAMTDLLVSILVMPISIAYTTTRTW
+                     SFGQILCDIWLSSDVTCCTASILHLFVIALDRYWAITDALEYSKRRTAGHAAAMIAVVW
+                     VISICISIPPLFWRQAKAHEEMSDCLVNTSQISYTVYSTCGAFYIPSVLLVILYSRIYR
+                     AARNRILNPPSLYGKRFTTAHLIMGSAGSSLCSLNPCLHEGHSPSAGSPLFFSHVKIKL
+                     ADSILERKRISAARERKATKTLGVILGAFIICWLPFFAASLVLPICRDSCWIHPALFDF
+                     FTWLGYLNSLINPIIYTVFNEEFRQAFQKVVHFRKAS"
+                     /gene="HTR1D"
+                     /protein_id="XP_004425760.1"
+     STS             461..807
+                     /db_xref="UniSTS:156842"
+                     /standard_name="GDB:371366"
+                     /gene="HTR1D"
+ORIGIN
+        1 ttgtaacatt tgctgggtaa agttccagaa cagtgagaca tcttggggtt cacctggttt
+       61 aggaaagacc ttaactaact accagctggt cgtcacctcc atgttcttta aatagtcgag
+      121 tcttgaggtc ttttcactgt ggtctgttct gatggatggc tcccaccagc gtgaatcaga
+      181 aggatgacct tgttctgtga gcaggacacc tgtgagagaa ggagctgtgt gtgtggaagt
+      241 ctgtgggaag agagagcccc ctagaatgtc cccaccaaac cagtcagtgg aaggccttct
+      301 ccaggaggcc tccaacagac ccctgaacgc tacagaaagc ccagaggctt gggatccggg
+      361 gaccctccag gccctcaaga tttctcttgc tgtgggcctg tccatcatca cactggccac
+      421 agtcctttcc aatgcctttg tgcttaccac catcttcctc accaggaagc tccacacccc
+      481 agccaactat ctcatcggct ccctggccat gactgacctc ttagtttcca tcttggtcat
+      541 gcccatcagc atcgcatata ccaccacccg cacctggagc tttggccaaa tcctgtgtga
+      601 catctggctg tcttctgacg tcacgtgctg cacggcctcc atcctgcacc tctttgtcat
+      661 cgctctggac aggtactggg ccatcactga tgccctggag tacagcaaac gccggacagc
+      721 aggccatgct gccgccatga ttgccgtcgt ctgggtcatc tccatctgta tctccatccc
+      781 accgctcttc tggcggcagg ccaaagctca cgaggagatg tcggactgcc tggtgaacac
+      841 ttctcagatc tcctacaccg tctactccac atgtggggcc ttctacatcc cgtctgtgtt
+      901 gctcgtcatc ctctacagcc ggatctacag ggctgcccgg aaccgcatcc tgaatccacc
+      961 atcactctac gggaaacgct tcaccaccgc ccacctcatc atgggctctg cgggatcctc
+     1021 gctctgctct ctcaacccct gcctccatga agggcactct ccttcggccg gctccccact
+     1081 ctttttcagc cacgtgaaaa tcaagcttgc tgacagtatc ctggagcgca agagaatttc
+     1141 cgctgctcga gaaaggaaag ccactaaaac cctgggggtc attctggggg ccttcatcat
+     1201 ctgttggctg ccattctttg ctgcatctct ggtcctcccc atctgccggg actcctgctg
+     1261 gatccaccca gccctctttg actttttcac ctggcttggc tatttaaact ccctcatcaa
+     1321 tccaataatc tatactgtat ttaatgaaga gtttaggcaa gcgtttcaga aagttgtcca
+     1381 tttccggaaa gcctcctagt cttatttggt agtgactcct gttctctttt gtgtcttgta
+     1441 acccaattga ggttgtcttt tttgtttttc ctgagatttg agtgaatctt gatatcttgg
+     1501 gtttcggttc aagcaataga attgtt
+//

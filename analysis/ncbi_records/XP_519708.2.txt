@@ -1,0 +1,59 @@
+LOCUS       XP_519708                408 aa                     PRI 25-OCT-2012
+DEFINITION  PREDICTED: beta-3 adrenergic receptor [Pan troglodytes].
+ACCESSION   XP_519708
+VERSION     XP_519708.2  GI:114619675
+KEYWORDS    RefSeq.
+SOURCE      Pan troglodytes (chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003457217) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Sep 15, 2006 this sequence version replaced gi:55630516.
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Pan troglodytes Annotation Release 102
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..408
+                     /isolate="Yerkes chimp pedigree #C0471 (Clint)"
+                     /sex="male"
+                     /organism="Pan troglodytes"
+                     /chromosome="8"
+                     /db_xref="taxon:9598"
+     Protein         1..408
+                     /product="beta-3 adrenergic receptor"
+                     /calculated_mol_wt="43373"
+     Region          54..>145
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          60..346
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..408
+                     /coded_by="XM_519708.2:497..1723"
+                     /gene="ADRB3"
+                     /db_xref="GeneID:464113"
+ORIGIN
+        1 mapwphenss lapwpdlptl apntantsgl pgvpwaaala gallalavla tvggnllviv
+       61 aiartprlqt mtnvfvtsla aadlvmgllv vppaatlalt ghwplgatgc elwtsvdvlc
+      121 vtasietlca lavdrylavt nplrygalvt krrartgvvl vwvvsaavsf apimsqwwrv
+      181 gadaeaqrch snprccafas nmpyvllsss vsfylpllvm lfvyarvfvv atrqlrllrg
+      241 elgrfppees ppapsrslap apvgtcappe gvpacsrrpa rllplrehra lctlglimgt
+      301 ftlcwlpffl anvlralggp slvpgpafla lnwlgyansa fnpliycrsp dfrsafrrll
+      361 crcgrrlspe pcaaarpalf psgvpaarts paqprlcqrl dgaswgvs
+//

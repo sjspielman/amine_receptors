@@ -1,0 +1,124 @@
+LOCUS       XM_004051387            3166 bp    DNA              PRI 03-DEC-2012
+DEFINITION  PREDICTED: Gorilla gorilla gorilla cholinergic receptor, muscarinic
+            1, transcript variant 1 (CHRM1), mRNA.
+ACCESSION   XM_004051387
+VERSION     XM_004051387.1  GI:426368892
+KEYWORDS    RefSeq.
+SOURCE      Gorilla gorilla gorilla (western lowland gorilla)
+  ORGANISM  Gorilla gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004005072) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Gorilla gorilla Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3166
+                     /db_xref="taxon:9595"
+                     /sub_species="gorilla"
+                     /mol_type="mRNA"
+                     /organism="Gorilla gorilla gorilla"
+                     /chromosome="11"
+     gene            1..3166
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 7 mRNAs, 175 ESTs, 28 Proteins"
+                     /db_xref="GeneID:101131622"
+                     /gene="CHRM1"
+     misc_feature    677..679
+                     /note="upstream in-frame stop codon"
+                     /gene="CHRM1"
+     CDS             740..2122
+                     /product="muscarinic acetylcholine receptor M1 isoform 1"
+                     /codon_start="1"
+                     /db_xref="GI:426368893"
+                     /db_xref="GeneID:101131622"
+                     /translation="MNTSAPPAVSPNITVLAPGKGPWQVAFIGITTGLLSLATVTGNLL
+                     VLISFKVNTELKTVNNYFLLSLACADLIIGTFSMNLYTTYLLMGHWALGTLACDLWLAL
+                     DYVASNASVMNLLLISFDRYFSVTRPLSYRAKRTPRRAALMIGLAWLVSFVLWAPAILF
+                     WQYLVGERTVLAGQCYIQFLSQPIITFGTAMAAFYLPVTVMCTLYWRIYRETENRAREL
+                     AALQGSETPGKGGGSSSSSERSQPGAEGSPETPPGHCCRCCRAPRLLQAYSWKEEEEED
+                     EGSMESLTSSEGEEPGSEVVIKMPMVDPEAQAPTKQPPRSSPNTVKRPTKKGRDRAGKG
+                     QKPRGKEQLAKRKTFSLVKEKKAARTLSAILLAFILTWTPYNIMVLVSTFCKDCVPETL
+                     WELGYWLCYVNSTINPMCYALCNKAFRDTFRLLLLCRWDKRRWRKIPKRPGSVHRTPSR
+                     QC"
+                     /gene="CHRM1"
+                     /protein_id="XP_004051435.1"
+     STS             819..1121
+                     /db_xref="UniSTS:253963"
+                     /standard_name="CHRM1"
+                     /gene="CHRM1"
+     STS             855..1397
+                     /db_xref="UniSTS:155985"
+                     /standard_name="GDB:197880"
+                     /gene="CHRM1"
+     STS             2037..2142
+                     /db_xref="UniSTS:72656"
+                     /standard_name="CHRM1"
+                     /gene="CHRM1"
+ORIGIN
+        1 agaaggaatc tagctctctc gcagcaggga ggaagagcag ggtgtgtagt tgggtgggtg
+       61 ggtgcgtggg catgtgcagg ggggagggcg tgtgtgcgag ggaagcaggc atgtgaatac
+      121 cagggcatgt gtgttggggc atggtgcaca tgggctgggg gctctaaggt tgggtggggg
+      181 gaggagccca aggaaacagt gtgcctttgt gagggtgtgt gtgccgccgg gtctgtgcag
+      241 tgggtgtggg tgtttgtctc cctgtatccg ccttctctcc cgtccgggac ttttagcctt
+      301 cctgggctcg ccttcctcat gtcctttctc ctccctcttg gggctcaaat tgggtgccct
+      361 ggtgaaggag gggggcacac tccagaacct agtccaaccc cagacgctgc ctgaggcttc
+      421 cctccagctc ccctcccttc cttttctccc tttcctccct ccctctcttt ccctttctcc
+      481 ctccccccta aggctggcgt gccagggggt gggacatgcc aatcactggc tgtgcctctc
+      541 ccgctgccag cacagggcgc agctccccct gggagccagg tgtttgggtc cctggagacg
+      601 ctgccggccc ccagggaggc agtggggcta aggaccctac agacccctct tcagccccgt
+      661 ggtgatgact ttcctctgag gaagccctgt agcgtgcctg gaggaagggg ctctccaacc
+      721 ccagccccac ctagccacca tgaacacttc agccccacct gctgtcagcc ccaacatcac
+      781 cgtcctggca ccaggaaagg gtccctggca agtggccttc attgggatca ccacgggcct
+      841 cctgtcgcta gccacagtga caggcaacct gctggtactc atctctttca aggtcaacac
+      901 ggagctcaag acagtcaata actacttcct gctgagcctg gcctgtgctg acctcatcat
+      961 cggtaccttc tccatgaacc tctataccac gtacctgctc atgggccact gggctctggg
+     1021 cacgctggct tgtgacctct ggctggccct ggactatgtg gccagcaatg cctccgtcat
+     1081 gaatctgctg ctcatcagct ttgaccgcta cttctccgtg actcggcccc tgagctaccg
+     1141 tgccaagcgc acaccccgcc gggcagctct gatgattggc ctggcctggc tggtttcctt
+     1201 tgtgctctgg gccccagcca tcctcttctg gcagtacctg gtaggggagc ggacagtgct
+     1261 agctgggcag tgctacatcc agttcctctc ccagcccatc atcacctttg gcacagccat
+     1321 ggctgccttc tacctccctg tcacagtcat gtgcacgctc tactggcgca tctaccggga
+     1381 gacagagaac agagcacggg agctggcagc ccttcagggc tccgagacgc caggcaaagg
+     1441 gggtggcagc agcagcagct cagagaggtc tcagccaggg gctgagggct caccagagac
+     1501 tcctccaggc cactgctgtc gctgctgccg ggcccccagg ctgctgcagg cctacagctg
+     1561 gaaggaagaa gaggaagagg acgaaggctc catggagtcc ctcacatcct cagagggaga
+     1621 ggagcctggc tccgaagtgg tgatcaagat gccaatggtg gaccccgagg cacaggcccc
+     1681 caccaagcag cccccacgga gctccccaaa tacagtcaag aggccgacta agaaagggcg
+     1741 tgatcgagct ggcaagggcc agaagccccg tggaaaggag cagctggcca agcggaagac
+     1801 cttctcgctg gtcaaggaga agaaggcggc tcggaccctg agtgccatcc tcctggcctt
+     1861 catcctcacc tggacaccgt acaacatcat ggtgctggtg tccaccttct gcaaggactg
+     1921 tgttcccgag accctgtggg agctgggcta ctggctgtgc tacgtcaaca gcaccatcaa
+     1981 ccccatgtgc tacgcactct gcaacaaagc cttccgggac acctttcgcc tgctgctgct
+     2041 ttgccgctgg gacaagagac gctggcgcaa gatccccaag cgccctggct ccgtgcaccg
+     2101 cactccctcc cgccaatgct gatggtcccc tctcctgcat ccctccaccc cagtccccgg
+     2161 gaaaggccgg tgggaagagg gcaggggctg catcctcagc cccagggccc tgctcaggcc
+     2221 tcacctggct tcccaggacc ctgggtcacc ttcctgggca gcccagagag accctgccaa
+     2281 ctttccagac ttcgctattc ccaggcaggg agggaaaccc ggggaactgg tttttctgtt
+     2341 ccctgctggg tgggaatgcg ctcttcacca ggaagaaggc ccgggaggag gatccgggct
+     2401 ttggactcct tgtttgcctt taggcaggaa gtcaggagcc agcagggcgg gccaggagaa
+     2461 agaaggctta acattaagta ttccttggcc cagtggcggc ccggattgcg gtgtgagatg
+     2521 gtgccccctg gggggcacag ccagaaactg aactggccgc tgggagaaaa gccagatgac
+     2581 agggagctgg ggaatcccct cgcttcatag gcagagcccg cccacctggg ccctaggcat
+     2641 actctccagg attgtccaca aatgtcctca gagggtccct aggtggggtc aactccaagg
+     2701 caaatgtcca agcatcagca agacaatgac actggaaggg tctggcttgg ctagtcacat
+     2761 atcaagtccc gaggcagcaa caggaccagg agccaggtgt cctgactgtc ctacaatatc
+     2821 attttcctgg gagtgggagt caagtgtgcc tgctatccag ccccaaatcc atactccctg
+     2881 ccccagagaa gcctcagtcc ctccctcctg gctcacagcc accacctgga tggatctgct
+     2941 ccatgcagat ctagccaggc ctcccgcatg ctgcctgcct ccggccctgc cccacacagg
+     3001 cctggcccag ccagcaggtt ctctcctgtg agctccccaa tccaacccat gcatggcctc
+     3061 ccagccaccc agatctccag gcccagcctg gccccaaatg ttctttcctt tcatcctcag
+     3121 caagtgctga gtctgtgaat aaagccacat aaccagcggg cactaa
+//

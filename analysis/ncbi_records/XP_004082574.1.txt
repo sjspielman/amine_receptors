@@ -1,0 +1,57 @@
+LOCUS       XP_004082574             377 aa                     VRT 21-DEC-2012
+DEFINITION  PREDICTED: 5-hydroxytryptamine receptor 1B-like [Oryzias latipes].
+ACCESSION   XP_004082574
+VERSION     XP_004082574.1  GI:432939015
+KEYWORDS    RefSeq.
+SOURCE      Oryzias latipes (Japanese medaka)
+  ORGANISM  Oryzias latipes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Atherinomorphae; Beloniformes;
+            Adrianichthyidae; Oryziinae; Oryzias.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004088047) annotated using gene prediction method: GNOMON.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Oryzias latipes Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..377
+                     /note="ultracontig254"
+                     /db_xref="taxon:8090"
+                     /organism="Oryzias latipes"
+                     /chromosome="22"
+     Protein         1..377
+                     /product="5-hydroxytryptamine receptor 1B-like"
+                     /calculated_mol_wt="41633"
+     Region          46..>174
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          60..355
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..377
+                     /coded_by="XM_004082526.1:1..1134"
+                     /gene="LOC101174789"
+                     /db_xref="GeneID:101174789"
+ORIGIN
+        1 melpgqvept qstnstndsl vldsstgees aeslwyqisl avilslitla ttlsnafvia
+       61 tisqskklqt panfliasla itdllvsilv mpicvlytvi htwtlgqivc diwlssditc
+      121 ctasilhlcv ialdrywait daveyskkrt paraagmvat awviaisisl pplfwrqvka
+      181 eeltscsvnt dhifytiyst fgafyiptll livlygriyv earkrilkqs prkvgkrlts
+      241 ahlvtnspgs vasttslqcg rhdtpssdtg sstsdnqvkv tvsdallekk risaarerka
+      301 tktlgiilga yivcwlpffi ytllvatcva cfnqelfdff twlgylnsli npiiytmsne
+      361 dfkkafqklv rfrccra
+//

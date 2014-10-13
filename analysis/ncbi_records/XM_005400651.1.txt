@@ -1,0 +1,113 @@
+LOCUS       XM_005400651            2833 bp    DNA              ROD 27-AUG-2013
+DEFINITION  PREDICTED: Chinchilla lanigera adrenoceptor alpha 2B (Adra2b),
+            transcript variant X1, mRNA.
+ACCESSION   XM_005400651
+VERSION     XM_005400651.1  GI:533174627
+DBLINK      BioProject: PRJNA210822
+KEYWORDS    RefSeq.
+SOURCE      Chinchilla lanigera (long-tailed chinchilla)
+  ORGANISM  Chinchilla lanigera
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Chinchillidae; Chinchilla.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004955470.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Chinchilla lanigera Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2833
+                     /mol_type="mRNA"
+                     /isolate="Chin_1"
+                     /sex="female"
+                     /db_xref="taxon:34839"
+                     /organism="Chinchilla lanigera"
+                     /chromosome="Unknown"
+     gene            1..2833
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 11 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 6 samples with support for all annotated introns"
+                     /db_xref="GeneID:102014443"
+                     /gene="Adra2b"
+     CDS             90..1421
+                     /product="alpha-2B adrenergic receptor isoform X1"
+                     /codon_start="1"
+                     /db_xref="GI:533174628"
+                     /db_xref="GeneID:102014443"
+                     /translation="MDHQEPYSVQATAAIAAVITFLILFTIFGNALVILAVLTSRSLRA
+                     PQNLFLVSLAAADILVATLIIPFSLANELLGYWYFRRTWCEVYLALDVLFCTSSIVHLC
+                     AISLDRYWAVSRALEYNSKRTPRRIKCIILTVWLIAAVISLPPLIYKGDQGPQPHGRPQ
+                     CKLNQEAWYILASSIGSFFAPCLIMILVYLRIYLIAKRSHRRGPRAKGGPGEGESNQSR
+                     PVPGGAPVSAKVPPLASPPSSAGEANGHPTPTGEKEEEETPEDLGTVTLPPRWAALPTS
+                     GQGQEKGVRLAPEEEAEEEEEECEPQAAPVSPASVCSPPPQQPQGSRVLATLRGQVLLG
+                     RGMGAVGGQWWRRRTQMTREKRFTFVLAVVIGVFVLCWFPFFFSYSLGAICPQHCKVPH
+                     GLFQFFFWIGYCNSSLNPVIYTIFNQDFRRAFRRILCRQWTQTG"
+                     /gene="Adra2b"
+                     /protein_id="XP_005400708.1"
+     STS             475..1011
+                     /db_xref="UniSTS:505020"
+                     /standard_name="15STS02"
+                     /gene="Adra2b"
+ORIGIN
+        1 ccccggggcg acactcgagc gtagctgagc cggggggcgc gctgtcccgc ggtgcgcgct
+       61 tggcgagccg cgctctctcc ggccccgtca tggaccacca ggagccctac tccgtacagg
+      121 ccaccgccgc catcgcggca gtcatcacct tcctcatcct cttcaccatc ttcggcaacg
+      181 cgctggtcat cctggctgtg ctgaccagcc gctccctgcg tgcgccgcag aacctgttcc
+      241 tggtgtcgct ggctgccgct gacatcctgg tggccacgct tattatccct ttctcgctgg
+      301 ccaacgagct gctgggctac tggtacttcc ggcgcacgtg gtgcgaggtg taccttgcgc
+      361 tcgacgtgct cttctgtacg tcgtccatcg tgcatctgtg cgccatcagc ctggaccgct
+      421 actgggcggt gagccgcgcg ctggagtaca actccaagcg caccccgcgc cgcatcaagt
+      481 gcatcatcct caccgtgtgg ctcatagcgg ccgtcatctc gctgccgccc ctcatctaca
+      541 agggcgacca gggcccccag ccccacgggc gtccccagtg caagctcaac caagaagcgt
+      601 ggtacatcct ggcctccagc atcggatctt tctttgctcc ctgcctcatc atgatcctgg
+      661 tttacctgcg catctacctg attgccaagc gcagccaccg cagaggtccc agggccaagg
+      721 gtggccctgg ggagggtgag tcaaaccagt ctcgtcctgt ccctgggggg gctccagtct
+      781 cagccaaggt gccacccctg gcctcacctc cgtcttctgc tggagaggcc aacggacacc
+      841 ccacgcccac tggggagaag gaggaggagg agacccctga agatcttggg accgtgactc
+      901 tgccaccccg ctgggctgca ctgcccacct caggccaggg ccaggagaag ggtgtccgct
+      961 tggcacctga ggaggaagct gaagaggagg aggaggagtg tgagcctcag gccgcgccag
+     1021 tctctcctgc ctccgtgtgc agcccacccc cgcagcagcc acagggctcc cgggtgctgg
+     1081 ccaccctgcg tggccaggtg ctgctgggca ggggcatggg tgctgtgggt gggcagtggt
+     1141 ggcgtcggcg gacccagatg acccgggaga agcggttcac cttcgtgctg gcagtggtca
+     1201 tcggtgtctt tgtgctgtgc tggttcccct tcttcttcag ctacagcctg ggtgccatct
+     1261 gcccccagca ctgcaaggtg ccccacggcc tcttccagtt cttcttctgg attggctact
+     1321 gcaacagctc gctgaaccct gtcatctaca ccatcttcaa ccaggacttt cgccgtgcct
+     1381 tccggaggat cttgtgccgc cagtggaccc agacaggctg agcaggatgc cagtttcccc
+     1441 atttcccaag agggcctgct gctgctgagg agaaggaaga gtgaagactg ttcacccatg
+     1501 ctgggcacca ggggctcatg gggtgccagg gaggggttta taggacggga ctgtctctgg
+     1561 acccttctcg ctcccttctg ctttgggatc tgaggctcct ttaaagaaca gaaccatgca
+     1621 tcagttttct cagctggccc cctctgggag gcggtgggca tgtggatgcc tcgatggcag
+     1681 ctccccgatc gctggcattc accccctgaa aaaatcaggg cgacaatagc tcaccgccta
+     1741 cctgccacag ggagatgaaa ggctttgcag aaagctttga gctccatggg agaaagcact
+     1801 ggagaaccag cagatgtgat tatccagtga tataaaaatc cctttttctg tgtgtttacc
+     1861 accacccgcc ttcctggaga cttgttctgt ttccggggtg tgtgaattcc tgccccagct
+     1921 tggaagtggg gaatggcaca cagaatcact atttcgagtt gcagaaattc tttgagaagg
+     1981 tgttcttgtg cccacaaagg tttggggtta ttgtgttggg tgacagcttc ttgacatgtc
+     2041 acctgcgaca ccaagagggt tttttgatga ctttggctcc cacctcaacg gggggatatg
+     2101 tcttttgtat tcagtgggca aattgttttc ctgagacagc tcaaaatccc aacaccatga
+     2161 aagcagtctg tgctgagagc ccaggaaggt ggcagagtcc cttggcaggg tgttcggcag
+     2221 gccccataga ctccccgaga gcctcctgcg cagggcccag gcaaggcttt tgggccagcg
+     2281 gggtccttgt gcagcgtaac tgatcccatt tgggtgggtc ccttgcccat gcctagagct
+     2341 ttgcgatgat atgtgccgtg gcaaaggggc ctcaccttcc tggttctctc cctgccccca
+     2401 aacctggtgt ctggaacaat tggacatctg tacaggacac ttcccagcct ccccatggcc
+     2461 tgtctggttg cacactgggc tagcaggcct ccaagcgtgg ggggcagggg tgggctgagt
+     2521 ggcagaggct cttggcactc tgaagggcct gtcagactgg gaaagatgct gggtagagag
+     2581 aatggtgggg accaaagaga gctgcccctc caggaggagg actgccccac ctgatcctcc
+     2641 cttgagtgca gttgtgagcc aggtcattgc cctgtgctgt ggtggggagg ctgggctcag
+     2701 gggaccaact gacttgtgcc catcgctggc taatcttgtg tgccctgtgg gaccttggta
+     2761 gtatggcctg taacatgcaa atgtttttta aatgtctgag ctattttatc aataaaggat
+     2821 attttgtaat aag
+//

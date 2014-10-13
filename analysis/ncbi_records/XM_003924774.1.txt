@@ -1,0 +1,91 @@
+LOCUS       XM_003924774            1901 bp    DNA              PRI 06-SEP-2012
+DEFINITION  PREDICTED: Saimiri boliviensis boliviensis histamine receptor H4
+            (HRH4), mRNA.
+ACCESSION   XM_003924774
+VERSION     XM_003924774.1  GI:403265169
+KEYWORDS    RefSeq.
+SOURCE      Saimiri boliviensis boliviensis (Bolivian squirrel monkey)
+  ORGANISM  Saimiri boliviensis boliviensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Saimiriinae; Saimiri.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003943615) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Saimiri boliviensis Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1901
+                     /sub_species="boliviensis"
+                     /mol_type="mRNA"
+                     /isolate="3227"
+                     /sex="female"
+                     /db_xref="taxon:39432"
+                     /organism="Saimiri boliviensis boliviensis"
+                     /chromosome="Unknown"
+     gene            1..1901
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 9 mRNAs, 2 ESTs, 5 Proteins"
+                     /db_xref="GeneID:101043076"
+                     /gene="HRH4"
+     misc_feature    76..78
+                     /note="upstream in-frame stop codon"
+                     /gene="HRH4"
+     CDS             100..1269
+                     /product="histamine H4 receptor"
+                     /codon_start="1"
+                     /db_xref="GI:403265170"
+                     /db_xref="GeneID:101043076"
+                     /translation="MSNTNSTTNSSLSAHITLAFFMSLLAFAIMLGNAVVILAFVVDKN
+                     LRHRSSYFFLNLAISDFFVGVISIPLYIPHTVFEWDFGKEICVFWLTTDYLLCTASVYN
+                     IVLISYDRYLSVSNAVSYRTQHTGISKIVTLMVAVWVLAFLVNGPVILVSESWKNKDNE
+                     CEPGFFSKWYILAITSFLEFLIPVTLVAYFYVSIYWSLWKRDHLSRCQSHPGLTTVSSN
+                     TCGHSFRGRLSSRTSLPAVTEVSASLHSERPRRKSSLMFSLRTKMNKNRIASKMGSFSQ
+                     SDSVALHQREHVDLLRARGLAKSLAILLGVFAVCWAPHSLFTIVLSFYSSATGPKSVWY
+                     KIAFWLQWFNSFLNPLLYPLCHKRFQKAFLKIFCIKKQLPPSPHQSLSS"
+                     /gene="HRH4"
+                     /protein_id="XP_003924823.1"
+ORIGIN
+        1 gaagactata tattttaggt atctgattca aaaacatact tgtcagaatt gtctggctgg
+       61 attaatttgc taatttgatc ttcttcatca tttgatgtga tgtcaaatac taatagcaca
+      121 actaactcat ccctaagtgc tcatattact ttagcatttt ttatgtcctt actagctttt
+      181 gctataatgc taggaaatgc tgtggtcatt ttagcttttg tggtggacaa aaaccttaga
+      241 catcgaagta gttacttttt tcttaacttg gccatctctg acttctttgt gggtgtgatc
+      301 tccattcctt tgtacatccc tcacacagtg tttgaatggg attttggaaa ggaaatctgt
+      361 gtattctggc tcacgactga ctatctttta tgtacagcat ctgtatataa cattgtcctc
+      421 atcagctatg atcgatacct gtcagtctca aacgctgtgt cttatagaac tcaacacact
+      481 gggatctcga agattgtcac tctgatggtg gctgtttggg tgctggcctt cttagtgaat
+      541 gggccagtga ttctagtttc agagtcttgg aagaacaaag ataatgaatg tgaacctgga
+      601 tttttttcaa aatggtacat ccttgccatc acatcattct tggaattcct gatcccagtc
+      661 accttagtcg cttatttcta cgtgagtatt tattggagcc tgtggaagcg tgatcatctc
+      721 agtaggtgcc aaagccatcc tggactgacc actgtctctt ccaacacctg tggacactca
+      781 ttcagaggta gactatcttc aaggacatct cttcctgcag tgacagaagt gtctgcatcc
+      841 cttcattcag agagaccgag gagaaagagc agtctcatgt tttccttaag aaccaagatg
+      901 aataaaaata gaattgcttc caaaatgggt tccttctccc aatcagattc tgtagctctt
+      961 caccaaaggg aacatgttga cctgcttaga gccaggggat tagccaagtc actggccatt
+     1021 ctcttagggg tttttgctgt ttgctgggct ccgcactctc tgttcacaat tgttctttca
+     1081 ttttactcct cagcaacagg tcctaaatca gtttggtaca aaatcgcatt ttggcttcag
+     1141 tggttcaatt cctttctcaa tcctcttttg tatccattgt gtcacaagcg ctttcaaaag
+     1201 gctttcttga aaatattttg tataaaaaag caacttccac catcaccaca tcagtcatta
+     1261 tcttcttaaa agacagtttt ctcacttctg taaattttag tctcaatctc acctaaagga
+     1321 attggatcta gcctttatct taccctttcc attctaccaa caaatctgta ctttgaagtc
+     1381 aatggaaaat tactccagtg aataatagca gtataatgaa tcgataatat ttttgtaaac
+     1441 ttggggccat aatagtaata cgtcattctt agtcattacc tcttccttat cttttagatg
+     1501 ttaatatcat gttgattaca aaaacaacaa caacaacaaa aacccaaaat ccagtttttg
+     1561 ttttctatgt tccatgtata atagtcttag gtgaatttct cttttttatt ttgtagtaat
+     1621 agaaacttat tcagtttgaa aatcattccc taaagcatgc actaggaaaa agagcctcct
+     1681 ggctgggact gccccactct cttctggtca gtgggtgggc aaggtggggt ttgagctggc
+     1741 aagagcaggg aacaggaatg tgcccaggtg agctcctgtg ggcttccaaa ttttgtattc
+     1801 cctatcccag gaagggagaa agcatagtgt gggagaggaa agagctgatg actgccactc
+     1861 tcaaaggtcc tcagtaaagt tattttggag gtgctggtag t
+//

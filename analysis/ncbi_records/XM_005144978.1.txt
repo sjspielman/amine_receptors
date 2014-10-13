@@ -1,0 +1,95 @@
+LOCUS       XM_005144978            1986 bp    DNA              VRT 26-JUL-2013
+DEFINITION  PREDICTED: Melopsittacus undulatus adrenoceptor alpha 1B (ADRA1B),
+            mRNA.
+ACCESSION   XM_005144978
+VERSION     XM_005144978.1  GI:527253487
+DBLINK      BioProject: PRJNA197262
+KEYWORDS    RefSeq.
+SOURCE      Melopsittacus undulatus (budgerigar)
+  ORGANISM  Melopsittacus undulatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Psittaciformes;
+            Psittacidae; Melopsittacus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004848213.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Melopsittacus undulatus Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1986
+                     /db_xref="taxon:13146"
+                     /mol_type="mRNA"
+                     /organism="Melopsittacus undulatus"
+                     /chromosome="Unknown"
+                     /sex="male"
+     gene            1..1986
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 6 ESTs, 27 Proteins"
+                     /db_xref="GeneID:101881628"
+                     /gene="ADRA1B"
+     CDS             379..1914
+                     /product="alpha-1B adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:527253488"
+                     /db_xref="GeneID:101881628"
+                     /translation="MIFKMNTYLGNKFNSSIPGYLKGSAVNSGNFSANNSNETASNLDS
+                     PALDVHRAIIVGLILGAFILFAIVGNILVILSVACNRHLRIPTNYFIINLAIADLLLSF
+                     TVLPFSATLEILGYWVLGRIFCDIWAAVDVLCCTASILSLCAISIDRYIGVRYSLQYPT
+                     LVTRRRAILALIGVWVLSMVISIGPLLGWKEPAPKDDKECRITEEPFYALFSSLGSFYI
+                     PLIVILVMYCRVYIVAKRTTKNLEAGVMKEMSNSKELTLRIHYKNIHEDTLNTTKPKGH
+                     NPRNSVAFKLFKFSREKKAAKTLGIVVGMFILCWLPFFIVLPLGSLFSALKPPETIFKV
+                     IFWLGYFNSCLNPIIYPCSSKEFKRAFIQILKCQCHRRKQLGWWAYSYRNWNRCSFEHP
+                     RKDSLEDSGSFLSGSQRTLSSSSPSPGYLSKITHPHMEMCTFQEWKNSSSFLSPLQEGS
+                     RQKDPCQFFTFNLLTERNGYVPAGSQASSNGDHEAICDTLNGKTDCRVNTTLE"
+                     /gene="ADRA1B"
+                     /protein_id="XP_005145035.1"
+ORIGIN
+        1 agcaaggcag gggcatcctt ccaacagcac cacaaatgcg caaggggagt cagtaaacct
+       61 gtcttttatt tcagggacgt catgattgaa aaggctactt tggagctcca gccaagactt
+      121 gtgcctgcta atttctgttc aaacgagttc gtaggagaaa ttaagcaagt ttgaacagcc
+      181 tattatttct gacgggcttc agaggacttc acgctgtgca agttttacat gcttatagct
+      241 ggcagctggg gagatgagtt ctcaacctaa acctggccgg ggctctgcag caacttcttg
+      301 ggtagagaga taacttctaa ctgagctcaa atcatctgtg tatcgtgcaa gggatccaat
+      361 cataacttgc tatggagcat gatttttaag atgaatacct accttggcaa taaattcaat
+      421 tcatcgatac ctggatattt gaaaggatct gcagtgaata gtggcaattt ttctgcaaac
+      481 aactccaatg agacagcaag taacctggat tcacctgcct tggatgtcca tagggcaata
+      541 attgtggggc ttatcctcgg tgcctttata ctctttgcta ttgtaggtaa tatcctcgtc
+      601 attctctctg ttgcttgcaa tagacattta agaatcccta cgaactattt cataattaac
+      661 ctcgcaatag cagatttgtt gctgagtttt actgtccttc cattctctgc tacactggaa
+      721 atccttggct actgggtttt ggggaggata ttttgtgata tctgggcagc agtagatgtg
+      781 ctatgctgta cagcttctat tttaagtcta tgtgcaattt ctatagatag atatatagga
+      841 gtacgttatt ctctccaata tccaactttg gtgacaagaa gaagggcaat tttagctctc
+      901 ataggtgtct gggtcctttc catggtgatt tctattgggc ctcttttggg ctggaaagaa
+      961 ccagcaccca aggacgacaa agagtgccgt atcactgaag aaccattcta tgctttgttt
+     1021 tcttccttgg ggtcatttta cattccttta atcgtcatcc ttgtgatgta ctgtcgggtc
+     1081 tacatagtgg caaaaaggac tactaaaaac ctggaagctg gggtgatgaa agaaatgtcc
+     1141 aactctaagg agctgacttt acggattcac tacaagaaca ttcatgagga cactttaaac
+     1201 accaccaaac ctaagggtca caatcccagg aactccgtag ctttcaaact ttttaaattc
+     1261 tctagagaaa agaaggcagc caagacgttg ggaattgtgg ttggcatgtt tatcttgtgc
+     1321 tggctacctt tcttcattgt tctgccacta ggatctctgt tttcagctct gaagccccct
+     1381 gaaacgatct tcaaggtgat tttttggctt ggctacttta acagctgctt gaatccaatc
+     1441 atctaccctt gctcaagcaa agagttcaag agggctttta tacagatcct aaaatgccag
+     1501 tgtcatcgtc gaaagcagtt ggggtggtgg gcctacagct acagaaactg gaaccggtgc
+     1561 tcctttgaac accccagaaa agactctctg gaagacagcg ggagtttcct gagtggcagc
+     1621 cagaggacat tatcttcatc atctcccagt cccggctacc tgagcaaaat cacccaccca
+     1681 catatggaga tgtgcacatt ccaggaatgg aaaaactcca gctctttcct gagcccctta
+     1741 caggaaggca gcagacaaaa ggacccatgc cagttcttta ccttcaatct cttaacagag
+     1801 cgcaatggat atgttcctgc tggcagccaa gcttccagca atggggacca tgaggccatc
+     1861 tgtgacacac tgaatggcaa aactgattgt agagtaaaca caacactgga atgaacagat
+     1921 tctaaatggt ctgttttctt tgtacactaa cctgcttgac atttaaccca ggtgaagaaa
+     1981 tggacc
+//

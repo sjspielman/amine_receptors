@@ -1,0 +1,84 @@
+LOCUS       XM_006206810            1490 bp    DNA              MAM 29-NOV-2013
+DEFINITION  PREDICTED: Vicugna pacos histamine receptor H1 (HRH1), mRNA.
+ACCESSION   XM_006206810
+VERSION     XM_006206810.1  GI:560969005
+DBLINK      BioProject: PRJNA221631
+KEYWORDS    RefSeq.
+SOURCE      Vicugna pacos (alpaca)
+  ORGANISM  Vicugna pacos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Tylopoda;
+            Camelidae; Vicugna.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005882765.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Vicugna pacos Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1490
+                     /mol_type="mRNA"
+                     /isolate="Carlotta (AHFN-0088)"
+                     /sex="female"
+                     /db_xref="taxon:30538"
+                     /organism="Vicugna pacos"
+                     /chromosome="Unknown"
+     gene            1..1490
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 11 Proteins"
+                     /db_xref="GeneID:102525124"
+                     /gene="HRH1"
+     CDS             30..1490
+                     /product="histamine H1 receptor"
+                     /codon_start="1"
+                     /db_xref="GI:560969006"
+                     /db_xref="GeneID:102525124"
+                     /translation="MTFPNSSSVSEDTMNDRNKTATADPQLMPLVVVLSAVSLVTVGLN
+                     LLVLYAVRSERKLHTVGNLYIVSLSVADLIVGAIVMPMNILYLLMSRWSLGHPLCLFWL
+                     SMDYVASTASIFSVFILCIDRYRSVRQPLKYLKYRTKTRASATILAAWFLSFLWVIPIL
+                     GWHRFISKPLQHREGKCETDFYDVTWFKVMTAIINFYLPTLLMLWFYAKIYKTVRRHCQ
+                     HRELVNGSLPSFSEIKPKPENPKVGTKKQRKESPWEVLKRKPKDAGGGPVLKPPSQDPK
+                     EIKSLGVSSPEDGELDKFHCLSLNVVQPQTEAEGSGEGRAAVNQSQSQLETDEQGLNMH
+                     GVTEILEGQILGDSQSFSRTDSDTPTEPTPGKSKSRSGSNTGLDYIKFTWKRLRSQSRQ
+                     YVSGLHMNRERKAAKQLGFIMAAFILCWIPYFIFFMVIAFCESCSNQHVHMFTIWLGYL
+                     NSTLNPLIYPLCNENFKKTFKKILHIRS"
+                     /gene="HRH1"
+                     /protein_id="XP_006206872.1"
+ORIGIN
+        1 aaccctagct ggaggctact cttgtgccaa tgacttttcc caactcctcc agcgtctcgg
+       61 aagacacgat gaatgacagg aacaagactg ccacggccga cccccagctg atgcccctgg
+      121 tggtggtcct gagcgccgtc tccttggtca cagtgggact caacctgctg gtcctgtacg
+      181 ctgtgcggag cgagcggaag ctgcacacgg tggggaacct gtacatcgtc agcctctcgg
+      241 tagcagatct gatcgtggga gccatcgtca tgcccatgaa catcctctac ctcctcatgt
+      301 ccaggtggtc cctagggcac cctctctgcc tcttctggct ttccatggac tacgtggcca
+      361 gcacagcatc cattttcagc gtcttcatct tgtgcatcga tcgctaccgc tctgtccggc
+      421 agcccctcaa gtacctgaag taccgcacca agacccgagc atcggccacc atcctggcag
+      481 cctggtttct ctccttccta tgggtcattc ccatcctggg ctggcatcgc ttcatatcga
+      541 agcccttgca gcaccgagag ggaaagtgcg agacagactt ctacgatgtc acctggttca
+      601 aggtcatgac cgccatcatc aacttctacc tgcccacctt gctcatgctc tggttctatg
+      661 ccaagatcta caagactgtg cggcggcact gtcagcatcg ggagctcgtc aacggctccc
+      721 tcccttcctt ttctgaaatt aagccaaagc cagagaaccc caaggtgggg actaagaagc
+      781 agaggaaaga gtctccctgg gaggttctga aaaggaagcc aaaagatgcc ggtggtggac
+      841 ctgttttgaa gccaccatcc caagacccaa aggagataaa atctctaggt gtctccagcc
+      901 cagaggatgg agaactggac aaattccatt gcctctctct taacgttgtg cagccgcaga
+      961 ctgaggcaga ggggagtggt gagggccgtg cagccgtcaa tcagagccag agccagctcg
+     1021 agacagatga gcagggcctg aacatgcacg gggtcactga gatcttagag ggtcagatcc
+     1081 tgggtgacag ccagtccttc tcccggacag actcagacac gcccacagag ccaacacccg
+     1141 ggaaaagcaa atcgagaagt gggtctaaca caggcctgga ttatatcaag ttcacttgga
+     1201 agaggctccg ctcgcaatcg agacagtatg tgtctgggtt gcacatgaac cgggaacgga
+     1261 aggccgccaa acaactgggc ttcatcatgg cagccttcat cctttgctgg attccttact
+     1321 tcatcttctt catggtcatt gccttctgcg agagctgttc taaccagcat gtgcacatgt
+     1381 tcaccatctg gctgggctac ctcaactcca cgctgaaccc cctcatctac cctttgtgca
+     1441 atgagaactt caagaagacg ttcaagaaaa ttctgcacat tcgctcctaa
+//

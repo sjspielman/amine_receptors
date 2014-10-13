@@ -1,0 +1,102 @@
+LOCUS       XM_003467625            1732 bp    DNA              ROD 25-JUN-2013
+DEFINITION  PREDICTED: Cavia porcellus serotonin receptor 2C (5ht2c), mRNA.
+ACCESSION   XM_003467625
+VERSION     XM_003467625.2  GI:514456820
+DBLINK      BioProject: PRJNA73553
+KEYWORDS    RefSeq.
+SOURCE      Cavia porcellus (domestic guinea pig)
+  ORGANISM  Cavia porcellus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricognathi; Caviidae; Cavia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NT_176373.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Jun 25, 2013 this sequence version replaced gi:348563756.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Cavia porcellus Annotation Release
+            101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1732
+                     /mol_type="mRNA"
+                     /db_xref="taxon:10141"
+                     /specimen_voucher="Broad:Sequencing.Sample:289.1, Broad
+                     Institute, Cambridge, MA"
+                     /sex="female"
+                     /strain="inbred line 2N"
+                     /organism="Cavia porcellus"
+                     /chromosome="Unknown"
+     gene            1..1732
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 20 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 5 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:100169693"
+                     /gene="5ht2c"
+     misc_feature    19..21
+                     /note="upstream in-frame stop codon"
+                     /gene="5ht2c"
+     CDS             70..1446
+                     /product="5-hydroxytryptamine receptor 2C"
+                     /codon_start="1"
+                     /db_xref="GI:348563757"
+                     /db_xref="GeneID:100169693"
+                     /translation="MVNLKNVVHSFLVHLIGLLVWQFDISVSPVAAMVTDIFNTSNGGR
+                     FKFPDGVQNWPALSIVVIIIMTIGGNILVIMAVSMEKKLHNATNYFLMSLAIADMLVGL
+                     LVMPISLLAILYDYVWPLPRYLCPVWISLDVLFSTASIMHLCAISLDRYVAIRNPIEHS
+                     RFNSRTKAIMKIAIVWAISIGVSVPIPVIGLRDEDKVFVSNTTCVLNDPNFVLIGSFVA
+                     FFIPLTIMVITYFLTIYVLRRQALMLLRGHAVEPLGPSLNFLKCCKRNTEEEENSANPN
+                     QDGNPRRRKKKERRPRGTMQAINNEKKASKVLGIVFFVFLVMWCPFFITNILSVLCGKA
+                     CNQKLMEKLLNVFVWIGYVCSGINPLVYTLFNKVYRRAFSNYLRCNYKADKKPPVRQLP
+                     RVAATALSGRELNVNIYRHTNEPVIRKAEEREPGIEMQVENLELPVNPSNVVSERISSV
+                     "
+                     /gene="5ht2c"
+                     /protein_id="XP_003467673.1"
+     STS             422..569
+                     /db_xref="UniSTS:498203"
+                     /standard_name="HTR2C"
+                     /gene="5ht2c"
+ORIGIN
+        1 atgataaatt caatctgcta attttctcat ctcaatttta aacgttggtt gcttaagact
+       61 gaagtaatca tggtgaacct aaagaatgtg gtgcattcgt tccttgtgca cctaattggc
+      121 ctgttggttt ggcagttcga tatttctgtg agtccagtag cagctatggt aactgacatt
+      181 ttcaacacct ccaatggtgg acgctttaaa ttcccagacg gggtacaaaa ttggccagca
+      241 ctttcaattg tcgttataat catcatgaca ataggtggca acattctcgt tatcatggca
+      301 gtaagcatgg aaaagaaact gcacaatgcc accaattact tcttaatgtc cctagccatt
+      361 gctgatatgc tagtgggact acttgtcatg ccaatttctc tgcttgcaat cctgtatgat
+      421 tatgtctggc cactacctag atatttgtgc cccgtctgga tttctttaga tgttttattt
+      481 tcaacggcgt ccatcatgca cctctgtgcc atatcgctgg atcggtatgt agcaatacgt
+      541 aatcctattg agcatagccg tttcaattcg cggactaagg ccatcatgaa gattgctatc
+      601 gtttgggcaa tttctatagg tgtgtcagtg cccatcccag tgattggact gagggatgaa
+      661 gacaaagtgt tcgtgagcaa caccacgtgc gtgctcaatg acccgaattt cgtgctgatc
+      721 ggatccttcg tggcattctt catccctctg acgatcatgg tgatcacgta tttcctgacc
+      781 atctatgtcc tacgcagaca agccttgatg ttgctgcgcg gccacgcggt ggaaccactg
+      841 ggcccaagcc tgaactttct gaagtgctgc aagaggaaca ctgaggagga agagaattcg
+      901 gcaaacccca accaagatgg gaacccgcgc cggaggaaga agaaggaaag acgtcctcgg
+      961 ggcaccatgc aggctatcaa caatgagaag aaagcgtcaa aagtccttgg cattgtgttc
+     1021 tttgtgtttc tggtcatgtg gtgcccattt ttcattacca atattctgtc ggttctgtgt
+     1081 gggaaagctt gtaatcaaaa gctcatggaa aagcttctga atgtgtttgt ttggattggc
+     1141 tatgtctgtt caggaattaa tcctcttgtg tacacgctct tcaacaaagt ttaccgcagg
+     1201 gctttctcca actatttgcg ctgcaactat aaggcagaca aaaagccgcc tgtcagacag
+     1261 ctgccaagag ttgctgccac tgctttgtct gggagggagc ttaatgttaa catttatcgg
+     1321 cataccaatg agcctgtgat taggaaagct gaggagaggg agccaggcat agagatgcag
+     1381 gtggaaaatc tggagctacc ggtaaaccct tccaatgtgg ttagtgaaag gattagcagt
+     1441 gtgtaagaca gagcagcata gccttcttgc agggaagcca cactgattgg aaaatcttta
+     1501 acttttctct tggtcataac tactgtaaat actgctgtca gaaacagtgt tttttatata
+     1561 gctttgcaat cctgtacttt ataatcatgc ttaaaatagt gagatttaga gttctatatt
+     1621 tactgtttat aatagatgga gactatgtta ttttgaatat ttgatggata aagtctatat
+     1681 gcttttattc ccattcttcc ctccccgatc ttcctctccc tctctctctc ct
+//

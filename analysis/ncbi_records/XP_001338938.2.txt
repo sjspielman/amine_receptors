@@ -1,0 +1,67 @@
+LOCUS       XP_001338938             485 aa                     VRT 01-AUG-2013
+DEFINITION  PREDICTED: alpha-1A adrenergic receptor-like [Danio rerio].
+ACCESSION   XP_001338938
+VERSION     XP_001338938.2  GI:528486805
+DBLINK      BioProject: PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+            Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003334698.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Aug 1, 2013 this sequence version replaced gi:125823286.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..485
+                     /strain="Tuebingen"
+                     /organism="Danio rerio"
+                     /chromosome="8"
+                     /db_xref="taxon:7955"
+     Protein         1..485
+                     /product="alpha-1A adrenergic receptor-like"
+                     /calculated_mol_wt="53344"
+     Region          52..>173
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          63..339
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          262..>404
+                     /note="Herpesvirus UL87 family; pfam03043"
+                     /db_xref="CDD:145929"
+                     /region_name="Herpes_UL87"
+     CDS             1..485
+                     /coded_by="XM_001338902.4:871..2328"
+                     /gene="LOC798498"
+                     /db_xref="GeneID:798498"
+ORIGIN
+        1 mpgrleqmvp fkdnmtpesf pencsncsqv lvpelnvmka valgvvlaif ivfgvlgnil
+       61 vilsvachrn lrtvthyfiv nlavadllls stvlpfstvf emlgrwifgr pfcdvwaamd
+      121 vlcctasims lcvisvdryi gvsyplqyps ivterralla lialwvlsit isigplfgwk
+      181 epapddesic kiteepgyai fsalgsfylp lvvilsmycr vyvvarretr glisgqktek
+      241 sdhaetvtlr ihrgnmtvse dealrnrthf alrllkfsre kkaaktlgiv vgcfvlcwlp
+      301 fflvlpigsi fptyrpsdtv fkitfwlgyf nscinpiiyp cssqefkkaf lsvlgarclr
+      361 krstpshtly qshsprhgqs qilglssrdn psrlspsssi alsrspssrd grdwqapsrt
+      421 ssvgttgvst gvsvgakmag mcgknllrtc ccvradspqp eppaqnslpv ikihqlslce
+      481 dgdav
+//

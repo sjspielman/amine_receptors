@@ -1,0 +1,105 @@
+LOCUS       XM_004689823            2200 bp    DNA              MAM 30-MAY-2013
+DEFINITION  PREDICTED: Condylura cristata adrenoceptor alpha 1B (ADRA1B), mRNA.
+ACCESSION   XM_004689823
+VERSION     XM_004689823.1  GI:507968988
+DBLINK      BioProject: PRJNA193510
+KEYWORDS    RefSeq.
+SOURCE      Condylura cristata (star-nosed mole)
+  ORGANISM  Condylura cristata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Insectivora; Talpidae;
+            Condylura.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004567127.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Condylura cristata Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2200
+                     /mol_type="mRNA"
+                     /isolate="star-nosed mole 26May11"
+                     /sex="female"
+                     /db_xref="taxon:143302"
+                     /organism="Condylura cristata"
+                     /chromosome="Unknown"
+     gene            1..2200
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 36 Proteins"
+                     /db_xref="GeneID:101627127"
+                     /gene="ADRA1B"
+     misc_feature    106..108
+                     /note="upstream in-frame stop codon"
+                     /gene="ADRA1B"
+     CDS             172..1728
+                     /product="alpha-1B adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:507968989"
+                     /db_xref="GeneID:101627127"
+                     /translation="MNPDLDPGHNTSAPAHWGELKDANFTGPNQTSSNSTLPQLDITRA
+                     ISVGLVLGAFILFAIVGNILVILSVACNRHLRTPTNYFIVNLAIADLLLSFTVLPFSAT
+                     LEVLGYWVLGRVFCDIWAAVDVLCCTASILSLCAISIDRYIGVRYSLQYPTLVTRRKAI
+                     LALLSVWVLSTVISIGPLLGWKEPAPNDDKECGVTEEPFYALFSSLGSFYIPLAVILVM
+                     YCRVYVVAKRTTKNLEAGVMKEMSNSKELTLRIHSKNFHEDTLSSTKAKGHNPRSSIAV
+                     KLFKFSREKKAAKTLGIVVGMFILCWLPFFIALPLGSLFSTLKPPDAVFKVVFWLGYFN
+                     SCLNPIIYPCSSKEFKRAFLRILGCQCRGGRRRRRRRRLGGCAYTYRPWTRGGSLERSQ
+                     SRKDSLDDNGSCLSGSQRTLPSASPSPGYLGRGAPPPVELCAFPEWRAPGALLSLPAPE
+                     PLGRRGRHDSGPLFTFQLLADPESPGTDGDAGHGDCEVAADVANGQPGFKSNMPLAPGH
+                     F"
+                     /gene="ADRA1B"
+                     /protein_id="XP_004689880.1"
+     STS             222..977
+                     /db_xref="UniSTS:271116"
+                     /standard_name="PMC150908P1"
+                     /gene="ADRA1B"
+ORIGIN
+        1 agacaggaga cgtgctgccg ggctgagcgg cccgcggaga tgacttctgg ccaggaaggc
+       61 gcctcgggaa agccgaccac gggggcagca aagtttcggg gcagctgaag agccttagcc
+      121 gcagcccttc cagcccaatc acccccctgg ctatggaggg cggactctaa gatgaatccc
+      181 gacctggacc ccggccacaa cacatcagca cctgcccact ggggagagtt gaaagatgcc
+      241 aacttcactg gccctaacca gacctcgagc aactccacgc tgccccaact ggacatcacc
+      301 agggccatct ccgtgggcct ggtgctgggc gccttcatcc tctttgccat cgtgggcaac
+      361 atcctagtca tcctgtctgt ggcctgcaac cggcacctgc ggacgcccac caactacttc
+      421 atcgtcaacc tggccatcgc cgacctgctg ctgagcttca ctgtgctgcc cttctctgct
+      481 accctggagg tgctgggcta ctgggtgctg ggacgggtct tctgtgacat ctgggcggcc
+      541 gtggacgtcc tctgctgcac agcttccatc ctgagcctgt gcgccatctc catcgatcgc
+      601 tacatcgggg tacgctactc cctacagtat cccacgctgg tgacccgcag gaaggccatc
+      661 ttggcgctcc tcagtgtctg ggtcttgtcc acggtcatct ccatcgggcc cctcctgggg
+      721 tggaaggagc cagcacccaa cgatgacaag gaatgcgggg tcaccgaaga acccttctac
+      781 gccctcttct cctccctggg ctccttctac atcccgctgg cggtcattct ggtcatgtac
+      841 tgccgcgtct acgtcgtggc caagagaacc accaagaacc tggaggccgg agtcatgaag
+      901 gaaatgtcca actccaagga gctgaccctg aggatccact ccaagaactt tcatgaggac
+      961 acgctcagca gtaccaaggc taagggccac aaccccagga gttccatagc tgtcaaactt
+     1021 tttaagttct ccagggagaa gaaagcagcc aagaccttgg gcattgtggt cggtatgttc
+     1081 atcctctgct ggctcccctt cttcatcgcg ctcccactgg gctccctgtt ctccaccctg
+     1141 aagccccccg acgccgtgtt caaggtggtg ttctggctgg gttacttcaa cagctgcctc
+     1201 aaccccatca tctacccgtg ctccagcaag gagttcaagc gcgccttcct gcgcatcctg
+     1261 gggtgccagt gccgcggcgg ccgccgccgc cgccgccgcc gccgcctggg cggctgcgcc
+     1321 tacacctacc gtccgtggac gcgcggcggc tcgctggagc gctcgcagtc gcgcaaggac
+     1381 tcgctggacg acaacggcag ctgcctgagc ggcagccagc ggaccctgcc ctccgcctcg
+     1441 cccagcccgg gctacctggg ccgcggggcg ccgccgccgg tcgagctgtg cgccttcccg
+     1501 gagtggcgag cgccgggcgc gctcctgagc ctgcccgcgc ccgagcccct cggccgccgc
+     1561 ggccgccacg actcaggccc gctcttcacc ttccagctcc tggccgaccc ggagagcccg
+     1621 ggcaccgacg gcgacgccgg ccacggggac tgcgaggtgg cggccgacgt ggccaacggg
+     1681 cagccgggct tcaagagcaa catgcccctg gcccccgggc acttctagga ccccctgcgc
+     1741 gcctgccgga ccggggagga ctgcagcccc gtgggggcgg cggggagggg cgtggtggcg
+     1801 cccgcgaggc tcgggccccg ggatgggggg aggggggcgg ggagagggac agctgctttt
+     1861 ctggcagggg catgggtgcc aggtacagcg cagagagctg ggccgagcat gctgagagcc
+     1921 tggggcgccc gcccggccgg ggtttccgtc tctctctgta catagctaca cgagttcctc
+     1981 tgtacttgta tttaaccgtg ggtacgcgtg cgtgtgtctg tgcggtgtac gtgtgtgctg
+     2041 catgtgcgcg tgtgtgggca gagcgagtgc gcggccctag ccggtgggcg ggcgtggtcc
+     2101 cgggacttcg gacctctcca gctcctcctg ggacttctct aaccggtgac acgtgggtgg
+     2161 ggctggaatc caaattggac attaaaagtc acttctcctg
+//

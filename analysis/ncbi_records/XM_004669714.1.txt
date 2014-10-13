@@ -1,0 +1,92 @@
+LOCUS       XM_004669714            1717 bp    DNA              ROD 28-MAY-2013
+DEFINITION  PREDICTED: Jaculus jaculus cholinergic receptor, muscarinic 5
+            (Chrm5), mRNA.
+ACCESSION   XM_004669714
+VERSION     XM_004669714.1  GI:507572353
+DBLINK      BioProject: PRJNA193488
+KEYWORDS    RefSeq.
+SOURCE      Jaculus jaculus (lesser Egyptian jerboa)
+  ORGANISM  Jaculus jaculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Dipodidae; Dipodinae; Jaculus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004504448.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Jaculus jaculus Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1717
+                     /mol_type="mRNA"
+                     /collection_date="May-2011"
+                     /country="USA"
+                     /isolate="JJ0015"
+                     /sex="female"
+                     /note="the animal was collected near Giza City, Egypt in
+                     2009 and now lives in a colony in the USA"
+                     /db_xref="taxon:51337"
+                     /organism="Jaculus jaculus"
+                     /chromosome="Unknown"
+     gene            1..1717
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 mRNAs, 28 Proteins"
+                     /db_xref="GeneID:101599428"
+                     /gene="Chrm5"
+     CDS             34..1632
+                     /product="muscarinic acetylcholine receptor M5"
+                     /codon_start="1"
+                     /db_xref="GI:507572354"
+                     /db_xref="GeneID:101599428"
+                     /translation="MEGESYHNATTVNGTPVNHQPLARHGLWEVITIAAVTAVVSVVTI
+                     VGNVLVMIAFKVNSQLKTVNNYYLLSLACADLIIGVFSMNLYTTYILMGRWVLGSLACD
+                     LWLALDYVASNASVMNLLVISFDRYFSITRPLTYRAKRTPKRAGIMIGLAWLISFILWA
+                     PAILCWQYLVGKRTVPLDECQIQFLSEPTITFGTAIAAFYIPVSVMTILYCRIYRETER
+                     RTKDLADLQGSEYVAETRKKKPAHTALLRSCFSCPPPTLAQREGNQASWSSSHRSTSTT
+                     GKSSQTTGPSSDWPKAEQVTTCSSYPSSEDEDKSTTDPVFQVVYKTQANENPKEEFSTE
+                     ETKETFVNAQTEKIDYGTPKYFLSPAAAQRFKTQKCVAYKFRLVVKADGTQETSNGCHK
+                     VKIMPCSFPVSKDPSTKGLDPNVNHQMTKRKRMVLVKERKAAQTLSAILLAFIITWTPY
+                     NIMVLVSTFCDKCVPVTLWHLGYWLCYVNSTVNPICYALCNRTFRKTFKMLLLCRWKKK
+                     KVDEKLYWQGNSKLP"
+                     /gene="Chrm5"
+                     /protein_id="XP_004669771.1"
+ORIGIN
+        1 ggacttaacc ctcatgtaag tttttgcacc agaatggaag gggaatctta ccataatgca
+       61 accacagtca acgggacccc agtaaatcac cagcctttgg ctcgccatgg gctgtgggaa
+      121 gtcattacca tcgcagctgt cacagctgtg gtcagcgtgg tcaccattgt gggcaacgtc
+      181 ttggtcatga tcgccttcaa agtcaacagt cagctcaaga cagtcaacaa ctattaccta
+      241 ctcagcttgg cctgtgcaga tcttatcatt ggagtcttct ccatgaacct ttacactacc
+      301 tacatcctca tgggacgctg ggtgctcggg agtctggcat gtgatctctg gcttgcactg
+      361 gactacgtgg ccagcaatgc ttctgtcatg aaccttctgg tgatcagttt tgacaggtac
+      421 ttttccatca caagacccct aacatacaga gctaagcgta ccccgaagag ggctggcatc
+      481 atgattggct tggcctggct gatctccttc atcctttggg ccccggctat cctctgctgg
+      541 cagtacttgg ttgggaagcg gacggtacca ctggatgagt gccagatcca gttcctgtct
+      601 gagcctacca tcacattcgg cactgccatt gcagccttct acatccctgt ttctgtcatg
+      661 accatcctct actgccggat ctaccgggaa acagagaggc gaaccaagga cctggctgac
+      721 ctccagggct ctgaatacgt ggctgaaact aggaagaaaa agccagctca cacagccctg
+      781 ctcagatcct gcttcagctg ccctccaccc actctggccc aaagggaagg aaaccaggcc
+      841 tcctggtcat cctcccacag gagcacctcc accacaggga agtcatccca aaccactggc
+      901 ccaagctctg actggcccaa agctgagcag gtaacaacct gtagcagcta cccatcctca
+      961 gaagacgagg acaagtccac cactgaccct gtcttccaag tggtctacaa gacccaggcc
+     1021 aacgaaaacc caaaggaaga attcagtact gaagagacca aggaaacttt tgtgaatgct
+     1081 caaactgaaa aaattgacta tggcacgcct aaatacttcc tttctccagc agcagctcag
+     1141 agattcaaga ctcagaaatg tgtagcctat aagttccgat tggtggtaaa ggctgatggg
+     1201 acccaagaga ccagcaatgg ctgtcacaag gtgaaaatca tgccctgctc ctttccagtg
+     1261 tccaaggacc cttcaacaaa gggcctggat cccaatgtca accatcaaat gaccaaacga
+     1321 aagagaatgg tgctggtgaa agagagaaaa gcagctcaga ccttgagtgc cattctcttg
+     1381 gccttcatca tcacatggac cccttacaac atcatggtcc tggtttccac cttttgtgac
+     1441 aagtgtgttc ctgtcactct gtggcacttg ggctattggc tgtgctacgt caacagcact
+     1501 gtcaacccca tctgctatgc cctgtgcaac agaaccttca ggaagacctt taagatgctg
+     1561 ctactctgcc ggtggaaaaa aaaaaaggta gacgagaaat tgtactggca ggggaacagc
+     1621 aagctaccct gaagagttca caattgtcct caaaagagta atgccaaaaa agcttttgct
+     1681 tgtttcaaag gatgtcatct gtcattctga agacttg
+//

@@ -1,0 +1,94 @@
+LOCUS       XM_004042922            1749 bp    DNA              PRI 03-DEC-2012
+DEFINITION  PREDICTED: Gorilla gorilla gorilla adrenoceptor alpha 1B (ADRA1B),
+            mRNA.
+ACCESSION   XM_004042922
+VERSION     XM_004042922.1  GI:426350833
+KEYWORDS    RefSeq.
+SOURCE      Gorilla gorilla gorilla (western lowland gorilla)
+  ORGANISM  Gorilla gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004002989) annotated using gene prediction method: GNOMON,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Gorilla gorilla Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1749
+                     /db_xref="taxon:9595"
+                     /sub_species="gorilla"
+                     /mol_type="mRNA"
+                     /organism="Gorilla gorilla gorilla"
+                     /chromosome="5"
+     gene            1..1749
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 4 mRNAs, 7 ESTs, 11 Proteins"
+                     /db_xref="GeneID:101142001"
+                     /gene="ADRA1B"
+     misc_feature    47..49
+                     /note="upstream in-frame stop codon"
+                     /gene="ADRA1B"
+     CDS             179..1735
+                     /product="alpha-1B adrenergic receptor"
+                     /codon_start="1"
+                     /db_xref="GI:426350834"
+                     /db_xref="GeneID:101142001"
+                     /translation="MNPDLDTGHNTSTPAHWGELKNANFTGPNQTSSNSTLPQLDITRA
+                     ISVGLVLGAFILFAIVGNILVILSVACNRHLRTPTNYFIVNLAMADLLLSFTVLPFSAA
+                     LEVLGYWVLGRIFCDVWAAVDVLCCTASILSLCAISIDRYIGVRYSLQYPTLVTRRKAI
+                     LALLSVWVLSTVISIGPLLGWKEPAPNDDKECGVTEEPFYALFSSLGSFYIPLAVILVM
+                     YCRVYIVAKRTTKNLEAGVMKEMSNSKELTLRIHSKNFHEDTLSSTKAKGHNPRSSIAV
+                     KLFKFSREKKAAKTLGIVVGMFILCWLPFFIALPLGSLFSTLKPPDAVFKVVFWLGYFN
+                     SCLNPIIYPCSSKEFKRAFMRILGCQCRGRRRRRRRRRLGGCAYTYRPWTRGGSLERSQ
+                     SRKDSLDDSGSCLSGSQRTLPSASPSPGYLGRGAPPPVELCAFPEWKAPGALLSLPAPE
+                     PPGRRGRHDSGPLFTFKLLTEPESPGTDGGASNGGCEAAADVANGQPGFKSNMPLAPGQ
+                     F"
+                     /gene="ADRA1B"
+                     /protein_id="XP_004042970.1"
+     STS             229..984
+                     /db_xref="UniSTS:271116"
+                     /standard_name="PMC150908P1"
+                     /gene="ADRA1B"
+ORIGIN
+        1 ggtgcaggca ggagacgtgc tgccgggctg ggctgcccgg gggagatgac tcctcgccag
+       61 gagggcgcct ctgggaagaa gaccacgggg gaagcaaagt ttcagggcag ctgaggagcc
+      121 ttcgccgcag cccttccgag cccaatcatc cccctggcta tggagggcgg actctaagat
+      181 gaatcccgac ctggacaccg gccacaacac atcaacacct gcccactggg gagagttgaa
+      241 aaatgccaac ttcactggcc ccaaccagac ctcgagtaac tccacactgc cccagctgga
+      301 catcaccagg gccatctctg tgggcctggt gctgggcgcc ttcatcctct ttgccatcgt
+      361 gggcaacatc ctagtcatct tgtctgtggc ctgcaaccgg cacctgcgga cgcccaccaa
+      421 ctacttcatc gtcaacctgg ccatggccga cctgctgttg agcttcaccg tcctgccctt
+      481 ctcagcggcc ctagaggtgc tcggctactg ggtgctgggg cggatcttct gtgacgtctg
+      541 ggcagccgtg gatgtcctgt gctgcacagc gtccattctg agcctgtgcg ccatctccat
+      601 cgatcgctac atcggggtgc gctactctct gcagtatccc acgctggtca cccggaggaa
+      661 ggccatcttg gcgctgctca gtgtctgggt cttgtccact gtcatctcca tcgggcctct
+      721 ccttgggtgg aaggagcccg ctcccaacga tgacaaggag tgcggggtca ccgaagaacc
+      781 cttctatgcc ctcttctcct ctctgggctc cttctacatc cctctggcgg tcattctagt
+      841 catgtactgc cgtgtctata tagtggccaa gagaaccacc aagaacctag aggcaggagt
+      901 catgaaggag atgtccaact ccaaggagct gaccctgagg atccactcca agaactttca
+      961 cgaggacacc cttagcagta ccaaggccaa gggccacaac cccaggagtt ccatagctgt
+     1021 caaacttttt aagttctcca gggaaaagaa agcagctaag acattgggca ttgtggtcgg
+     1081 tatgttcatc ttgtgctggc tacccttctt catcgctcta ccgcttggct ccttgttctc
+     1141 caccctgaag ccccccgacg ccgtgttcaa ggtggtgttc tggctgggct acttcaacag
+     1201 ctgcctcaac cccatcatct acccatgctc cagcaaggag ttcaagcgcg ctttcatgcg
+     1261 catcctcggg tgccagtgcc gcggccgccg cagacgccgc cgccgccgtc gcctgggcgg
+     1321 ctgcgcctac acctaccggc cgtggacgcg cggcggctcg ctggagcgct cgcagtcgcg
+     1381 caaggactct ctggacgaca gcggcagctg cctgagcggc agccagcgga ccctgccctc
+     1441 ggcctcgccg agcccgggct acctgggccg cggcgcgccg ccgccagtcg agctgtgcgc
+     1501 cttccccgag tggaaggcgc ccggcgccct cctgagcctg cccgcgcctg agccccccgg
+     1561 ccgccgcggc cgccacgact cgggcccgct cttcaccttc aagctcctga ccgagcccga
+     1621 gagccccggg accgacggcg gcgccagcaa cggaggctgc gaggccgcgg ccgacgtggc
+     1681 caacgggcag ccgggcttca aaagcaacat gcccctggcg cccgggcagt tttagggccc
+     1741 ccgtgcgca
+//

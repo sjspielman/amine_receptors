@@ -1,0 +1,62 @@
+LOCUS       XP_004428914             405 aa                     MAM 11-APR-2013
+DEFINITION  PREDICTED: beta-3 adrenergic receptor [Ceratotherium simum simum].
+ACCESSION   XP_004428914
+VERSION     XP_004428914.1  GI:478509272
+DBLINK      BioProject: PRJNA191537
+KEYWORDS    RefSeq.
+SOURCE      Ceratotherium simum simum (southern white rhinoceros)
+  ORGANISM  Ceratotherium simum simum
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Perissodactyla; Rhinocerotidae;
+            Ceratotherium.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004454182.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            COMPLETENESS: full length.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ceratotherium simum simum Annotation Release
+            100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..405
+                     /sub_species="simum"
+                     /country="USA: San Diego Zoo, California"
+                     /isolate="SDZICR_KB13650"
+                     /sex="female"
+                     /db_xref="taxon:73337"
+                     /organism="Ceratotherium simum simum"
+                     /chromosome="Unknown"
+     Protein         1..405
+                     /product="beta-3 adrenergic receptor"
+                     /calculated_mol_wt="42911"
+     Region          51..>142
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          57..343
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..405
+                     /coded_by="XM_004428857.1:205..1422"
+                     /gene="ADRB3"
+                     /db_xref="GeneID:101389882"
+ORIGIN
+        1 mtpwpqgnss laswpgtptl apntantsgl pgmpwaaala gallvlatvg gnllvivaia
+       61 rtprlqtmtn vfvtslaaad lvvgllvvpp gatlaltghw plgatgcelw tsvdvlcvta
+      121 sietlcalav drylavtnpl rygslvtkrr araavvlvwv vsaavsfapi mskwwrvgad
+      181 aeaqrchsnp sccafasnip yallsssvsf ylpllvmlfv yarvfvvatr qlcllrrelg
+      241 rfppeesppa rsrslssapa gpsaapagvp sygrrparll plrehralrt lglivgtftl
+      301 cwlpffvanv vralggpslv pnpaflalnw lgyansafnp liycrspdfr safrrllcrc
+      361 grcwpeehla aasrphdpsg apaaltspae srqcppldga swgis
+//

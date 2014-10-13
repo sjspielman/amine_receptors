@@ -1,0 +1,56 @@
+LOCUS       XP_006263480             375 aa                     VRT 09-DEC-2013
+DEFINITION  PREDICTED: D(4) dopamine receptor [Alligator mississippiensis].
+ACCESSION   XP_006263480
+VERSION     XP_006263480.1  GI:564248795
+DBLINK      BioProject: PRJNA221578
+KEYWORDS    RefSeq.
+SOURCE      Alligator mississippiensis (American alligator)
+  ORGANISM  Alligator mississippiensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Crocodylia;
+            Alligatoridae; Alligatorinae; Alligator.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006226729.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Alligator mississippiensis
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..375
+                     /note="assembly comes from two alligators"
+                     /db_xref="taxon:8496"
+                     /organism="Alligator mississippiensis"
+                     /chromosome="Unknown"
+                     /country="USA: Florida"
+     Protein         1..375
+                     /product="D(4) dopamine receptor"
+                     /calculated_mol_wt="42230"
+     Region          48..356
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..375
+                     /coded_by="XM_006263418.1:56..1183"
+                     /gene="DRD4"
+                     /db_xref="GeneID:102563488"
+ORIGIN
+        1 mqsngteedp snatvqvpgg qpghnvaalv lgillilfii cgnllvclsv cmeralkttt
+       61 nyfivslava dlllailvlp lyvysefqgg vwslstvlcd almtmdvmlc tasifnlcai
+      121 svdrfiavsi plnynrrqid lrqiilistt wifafavasp vifglnnvpn rdptscrled
+      181 nnyiiyssic sffipcpvml vlycamfqgl khweetrkak lrssmcagnr tlycpsplfe
+      241 rnhmdirlee rnlynhsecs lpkgymmnng iqtvsyphlk ythpehkrkq akingrerka
+      301 mkvlpvvvgv flfcwtpffv vhitgaictt cniptkvtsi vtwlgyvnsa lnpiiytifn
+      361 aefrnffrkv lhffc
+//

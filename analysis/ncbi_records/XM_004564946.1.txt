@@ -1,0 +1,95 @@
+LOCUS       XM_004564946            1887 bp    DNA              VRT 14-MAY-2013
+DEFINITION  PREDICTED: Maylandia zebra D(4) dopamine receptor-like
+            (LOC101473075), mRNA.
+ACCESSION   XM_004564946
+VERSION     XM_004564946.1  GI:499028555
+DBLINK      BioProject: PRJNA198780
+KEYWORDS    RefSeq.
+SOURCE      Maylandia zebra (zebra mbuna)
+  ORGANISM  Maylandia zebra
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Haplochromini;
+            Maylandia; Maylandia zebra complex.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004531813.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Maylandia zebra Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1887
+                     /mol_type="mRNA"
+                     /isolate="#2_Kocher"
+                     /sex="female"
+                     /db_xref="taxon:106582"
+                     /organism="Maylandia zebra"
+                     /chromosome="Unknown"
+     gene            1..1887
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 11 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 2 samples with support for all annotated introns"
+                     /db_xref="GeneID:101473075"
+                     /gene="LOC101473075"
+     misc_feature    173..175
+                     /note="upstream in-frame stop codon"
+                     /gene="LOC101473075"
+     CDS             245..1489
+                     /product="D(4) dopamine receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:499028556"
+                     /db_xref="GeneID:101473075"
+                     /translation="MDNVTPGALPGEPDLKEYNYLALVLGVPLILVIILGNVLVCLSVL
+                     TERSLKTATNYFIISLAVADLLLAVLVLPLYVYSEFLGGIWTLSTYICDALMTMDVMLC
+                     TASILNLCAISVDRYIAVVVPLKYNRNQFSVRQLALITATWVLSLGVASPVIFGLNQVP
+                     DRDPSVCKLEDDRFVVYSSVCSFFVPCPVMLFLYYWMFRGLRRWSGRSRSQAGRAGRQV
+                     FSLQLSSALRRAKATTAGSQEKVVYTAPPGLSPTSPSTVSMATPSVTPVMEEHQDGIAV
+                     VADSDPMTTQMDSLSDGDPTDRREGGSRRENGLKGSAAKKKGRRQSKTSRVSGRERKAM
+                     KVLPVVVGVFLACWTPFFVVHVTKVLCQSCNIGPTLISVVTWLGYVNSAVNPIIYTAFN
+                     AEFRNVFHKLLCCQT"
+                     /gene="LOC101473075"
+                     /protein_id="XP_004565003.1"
+ORIGIN
+        1 aggaggagga tgatgaccaa actctggatc atagacaaaa caaagagact cacagaagtg
+       61 gaagaggagg aacagacgat gctgcttcag ctctgaaact tgcagaagaa aacaacaatg
+      121 atgaacaaag agaaagacct gaagcaaata ggtgctgaca ctgaaactca cctgaaacca
+      181 cggacggtac aggaagcagc aagatgttga gcaaagccct gcagctgtgc ttagggcctc
+      241 catcatggac aatgtgacac ctggtgccct tccaggtgag ccagacttga aggaatacaa
+      301 ctacctggcc ttggttctcg gggtgccact gatcctggta atcatcctgg ggaatgtgct
+      361 ggtgtgtctg agcgtgctca ctgagcgctc tctgaaaacc gccaccaact acttcatcat
+      421 cagcctggcg gtggctgacc tgctgctggc cgtgctcgtg ctgccgctct acgtctattc
+      481 agagttcttg ggggggatct ggacattgag cacctacatc tgtgatgctc tgatgaccat
+      541 ggacgtgatg ctgtgcactg cctccatcct aaacctgtgt gccatcagcg tagacaggta
+      601 catcgcagtg gtggtccccc tgaagtacaa caggaaccag ttcagtgttc gtcagctggc
+      661 tctcatcaca gcgacctggg tgctgtcact gggtgtggcc agtcctgtca tctttggtct
+      721 gaatcaggtg ccagatcgtg acccgagtgt gtgtaaatta gaggacgatc gctttgtggt
+      781 gtactcgtct gtttgctcct tctttgtgcc ttgtcctgtc atgctcttcc tctattactg
+      841 gatgtttaga ggcctgcggc gttggagtgg gcgaagccgc tcccaagcag gccgggctgg
+      901 tcggcaagtt ttctctttac agctcagctc agctctacgg cgagctaaag ccacgacagc
+      961 tggcagtcaa gaaaaagtgg tatatacagc gccccccggg ctcagcccca cgtctccctc
+     1021 caccgtgtct atggcaacac cctcagtgac accggtaatg gaggaacacc aggatggtat
+     1081 agcagtggtg gcggacagtg acccaatgac gactcaaatg gacagcctgt cggatggtga
+     1141 ccccacggat aggagggagg gtggcagccg tcgagagaat ggcctgaaag gcagcgctgc
+     1201 aaaaaagaag gggaggaggc agagcaagac cagcagggtc agcggccgtg agcgcaaggc
+     1261 aatgaaggtc ctgcccgtgg ttgtaggtgt gtttctggcc tgctggactc cgttctttgt
+     1321 tgtccatgtc accaaagttt tgtgccagtc atgcaacatt ggtcccacac tcatctccgt
+     1381 ggtaacttgg cttggctatg tgaacagcgc tgtcaacccg attatctaca cggccttcaa
+     1441 tgcagagttc aggaacgtct ttcacaaact gctctgctgt cagacgtgaa agcagatcaa
+     1501 catccaacag gaagaagccc cagcatggaa ctcaactcga ctcaaacact ctcagacttc
+     1561 ttaaggtttt aatgtgtgcg tgctcttatt ttaaaagttt ggagatgtta cagcccagag
+     1621 gcataaaacc tgcaaacatg tttctgatat ctgactgttt ccgtgtttaa agtttgcagc
+     1681 tcataagaat ttactttgac tgtttgtaca gtgtttttgt gactgaagca gagagcttca
+     1741 tgtggacctg gatgtttccg tcagttttgt ggtgaagctc gttgaggaca gatggtgttt
+     1801 gtagtattct gatctgtggc atgaaggtga tgaaatgtag ctgagcaaac ttctgtgtca
+     1861 tttgaacaaa cacaataaag agattaa
+//

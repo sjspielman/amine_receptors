@@ -1,0 +1,90 @@
+LOCUS       XM_004686867            1438 bp    DNA              MAM 30-MAY-2013
+DEFINITION  PREDICTED: Condylura cristata 5-hydroxytryptamine (serotonin)
+            receptor 4, G protein-coupled (HTR4), transcript variant X3, mRNA.
+ACCESSION   XM_004686867
+VERSION     XM_004686867.1  GI:507960264
+DBLINK      BioProject: PRJNA193510
+KEYWORDS    RefSeq.
+SOURCE      Condylura cristata (star-nosed mole)
+  ORGANISM  Condylura cristata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Insectivora; Talpidae;
+            Condylura.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004567122.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Condylura cristata Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1438
+                     /mol_type="mRNA"
+                     /isolate="star-nosed mole 26May11"
+                     /sex="female"
+                     /db_xref="taxon:143302"
+                     /organism="Condylura cristata"
+                     /chromosome="Unknown"
+     gene            1..1438
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 6 Proteins"
+                     /db_xref="GeneID:101637464"
+                     /gene="HTR4"
+     misc_feature    36..38
+                     /note="upstream in-frame stop codon"
+                     /gene="HTR4"
+     CDS             48..1184
+                     /product="5-hydroxytryptamine receptor 4 isoform X3"
+                     /codon_start="1"
+                     /db_xref="GI:507960265"
+                     /db_xref="GeneID:101637464"
+                     /translation="MDKLDANVSSKEGFGSVEKVVLLTFLSAVILMTILGNLLVMVAVC
+                     RDRQLRKIKTNYFIVSLAFADLLVSVLVMPFGAIELVQDIWVYGEMFCLVRTSLDVLLT
+                     TASIFHLCCISLDRYYAICCQPLVYRNKMTPLRIALMLGGCWVIPMFISFLPIMQGWNN
+                     IGIIDLIEKRKFNHNSNSTYCIFMVNKPYAITCSVVAFYIPFLLMVLAYYRIYVTAKEH
+                     AHQIQMLQRAGAPSQGRPQPSDQHSSHRMRTETKAAKTLCIIMGCFCLCWAPFFITNIV
+                     DPFIDYTVPGKVWTAFLWLGYINSGLNPFLYAFLNKSFRRAFLIILCCDDERYRRPSIL
+                     GQTVPCSTTTINGSTHVLSGCSFVSSFLLLFCNRPVPV"
+                     /gene="HTR4"
+                     /protein_id="XP_004686924.1"
+     STS             708..846
+                     /db_xref="UniSTS:504885"
+                     /standard_name="HTR4"
+                     /gene="HTR4"
+ORIGIN
+        1 gaccccgtgg gcactgaaat cctactcatc catgctgatt tcttgtaatg gacaaacttg
+       61 atgctaatgt cagttccaag gagggtttcg ggtcagtgga gaaggtcgta ctgctcacgt
+      121 tcctctcggc ggttatcctg atgaccatcc tggggaacct gctggtgatg gtggctgtgt
+      181 gcagggacag gcagcttagg aaaataaaaa ccaattattt cattgtgtct cttgcctttg
+      241 cggatctgct ggtctctgtg ctggtcatgc cctttggcgc cattgagctg gttcaagaca
+      301 tctgggttta cggcgagatg ttttgcctgg tcaggacatc gctagatgtg ctgctcacaa
+      361 cagcatcaat ttttcacctg tgctgcattt ctctggatag gtactatgcc atctgctgcc
+      421 aacctttggt ctacaggaac aagatgaccc ctctgcgcat tgcactgatg ctgggtggct
+      481 gctgggtcat ccccatgttt atctcttttc tccccatcat gcaaggctgg aataacatcg
+      541 gcatcattga tctgatagaa aagaggaagt tcaaccacaa ctctaactcg acgtactgca
+      601 tcttcatggt caacaagccg tatgccatca cctgctctgt ggtggccttc tacattcctt
+      661 tccttcttat ggtgctggct tattatcgca tctacgtcac ggcaaaggag catgcccacc
+      721 agatccagat gttacagcgg gcaggagccc cctcccaggg cagacctcag ccctcagacc
+      781 agcacagctc tcaccgcatg aggacagaga ccaaggcagc caagaccctg tgcatcatca
+      841 tgggctgctt ctgcctctgt tgggccccat tcttcatcac caacattgtg gatccgttca
+      901 tagactacac tgtgcccggg aaggtgtgga cagctttcct ctggcttggt tacatcaatt
+      961 ctgggttgaa cccctttctc tacgccttct tgaataagtc cttcagacgt gccttcctca
+     1021 tcatcctctg ctgtgatgat gagcgctacc gaagaccttc cattttgggc cagactgtcc
+     1081 cctgttcaac cacaactatt aatggatcca cacatgtgct aagtggctgt tcctttgtct
+     1141 ccagcttcct cctgctcttc tgcaatagac cggttcctgt gtaactctga gcgtgctctg
+     1201 tacaccgttc tgcatagtgg acatcaccag gaactcgaga aactgcccat acacaatgac
+     1261 ccagaatccc tggaatcatg cttctgatgg aggacatggc tcaaggcgaa gtcattcatt
+     1321 cccattcatg tctgcatgag caggatcccc tggcatctcc cctgaccctc atcatggcta
+     1381 gtgaggagcc aggaagtggg gccaaggcct gggcgaaggt ccgcggaagc catgttgg
+//

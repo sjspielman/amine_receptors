@@ -1,0 +1,67 @@
+LOCUS       XP_006276278             439 aa                     VRT 09-DEC-2013
+DEFINITION  PREDICTED: alpha-2B adrenergic receptor [Alligator
+            mississippiensis].
+ACCESSION   XP_006276278
+VERSION     XP_006276278.1  GI:564238838
+DBLINK      BioProject: PRJNA221578
+KEYWORDS    RefSeq.
+SOURCE      Alligator mississippiensis (American alligator)
+  ORGANISM  Alligator mississippiensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Crocodylia;
+            Alligatoridae; Alligatorinae; Alligator.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_006235533.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Alligator mississippiensis
+            Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..439
+                     /note="assembly comes from two alligators"
+                     /db_xref="taxon:8496"
+                     /organism="Alligator mississippiensis"
+                     /chromosome="Unknown"
+                     /country="USA: Florida"
+     Protein         1..439
+                     /product="alpha-2B adrenergic receptor"
+                     /calculated_mol_wt="49349"
+     Region          21..>152
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srx;
+                     pfam10328"
+                     /db_xref="CDD:255910"
+                     /region_name="7TM_GPCR_Srx"
+     Region          35..415
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <109..203
+                     /note="CEO family (DUF1632); pfam07857"
+                     /db_xref="CDD:254473"
+                     /region_name="DUF1632"
+     CDS             1..439
+                     /coded_by="XM_006276216.1:437..1756"
+                     /gene="ADRA2B"
+                     /db_xref="GeneID:102576495"
+ORIGIN
+        1 mdspegysvq ataaiaaiit flilftifgn ilviiavlts rslrapqnlf lvslaaadil
+       61 vatliipfsl anelmgywyf kktwceiyla ldvlfctssi vhlcaisldr ywsvsqaiey
+      121 nskrtpkrik ciilivwmia afislppliy kgnkkdsppg rpqcklneea wyilsssigs
+      181 ffapciimil vylriyliak rrnkkptskk kesskkmtgp tletsiqekl skqldteeln
+      241 ghqvaikegd qvgtppppad rtsllrlqee qqqsplpaii spgpsqsqpe kkessgsspl
+      301 eqsphcshkq rnghpqsspk gmdtlatakg evllvrrvkt lsanpgkrkt hlnrekrftf
+      361 vlavvigvfv lcwfpfffly slgaicpelc kvpnsvfqff fwigycnssl npviytifnq
+      421 dfrkafrkil crqwtqtaw
+//

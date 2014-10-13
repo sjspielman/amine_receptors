@@ -1,0 +1,73 @@
+LOCUS       NP_001192377             480 aa                     MAM 11-SEP-2013
+DEFINITION  5-hydroxytryptamine receptor 2B [Bos taurus].
+ACCESSION   NP_001192377
+VERSION     NP_001192377.1  GI:329664316
+KEYWORDS    RefSeq.
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (residues 1 to 480)
+  AUTHORS   Zimin,A.V., Delcher,A.L., Florea,L., Kelley,D.R., Schatz,M.C.,
+            Puiu,D., Hanrahan,F., Pertea,G., Van Tassell,C.P., Sonstegard,T.S.,
+            Marcais,G., Roberts,M., Subramanian,P., Yorke,J.A. and Salzberg,S.L.
+  TITLE     A whole-genome assembly of the domestic cow, Bos taurus
+  JOURNAL   Genome Biol. 10 (4), R42 (2009)
+   PUBMED   19393038
+REFERENCE   2  (residues 1 to 480)
+  AUTHORS   Inoue-Matsuhisa,E., Moroi,S.E., Takenaka,H., Sogo,S. and Mano,T.
+  TITLE     5-HT(2) receptor-mediated phosphoinositide hydrolysis in bovine
+            ciliary epithelium
+  JOURNAL   J Ocul Pharmacol Ther 19 (1), 55-62 (2003)
+   PUBMED   12648304
+  REMARK    GeneRIF: 5-HT(2) receptors are coupled to phospholipase C in bovine
+            ciliary epithelium.
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from
+            AAFC03045910.1.
+            On Apr 20, 2011 this sequence version replaced gi:119888573.
+            Sequence Note: The RefSeq transcript and protein were derived from
+            genomic sequence to make the sequence consistent with the reference
+            genome assembly. The genomic coordinates used for the transcript
+            record were based on alignments.
+            ##Evidence-Data-START##
+            RNAseq introns :: single sample supports all introns SRS369781,
+            SRS369782 [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..480
+                     /db_xref="taxon:9913"
+                     /breed="Hereford"
+                     /organism="Bos taurus"
+                     /chromosome="2"
+                     /map="2"
+     Protein         1..480
+                     /product="5-hydroxytryptamine receptor 2B"
+                     /calculated_mol_wt="53698"
+     Region          70..>246
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          76..379
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..480
+                     /coded_by="NM_001205448.1:1..1443"
+                     /gene="HTR2B"
+                     /gene_synonym="5-HT2B; 5HT2B; 5htr2b"
+                     /db_xref="BGD:BT11519"
+                     /db_xref="GeneID:407135"
+ORIGIN
+        1 mafsfrifeq rtspghvlls sfdhlissnw sglqtesite kmkqtgeeqg nkprwaalli
+       61 lmviiptigg nilvilavsl ekklqyatny flmslavadl lvglfvmpia lltimfeamw
+      121 plplvlcpaw lfldvlfsta silhlcaisv dryiaikkpi qanqynsrat afikiivvwl
+      181 isigialpvp ikgietdvan pnnitcgltk drfgsfmlfg slasfftpla imivtyflti
+      241 halqkkaylv knkppqrltw ltvstvfqrd etpcsspekv amldgfhkdk tlpnasadil
+      301 mrrmstvgkk svqtisneqr askvlgivff lfllmwcpff itnvtlvlcd scnqttlnml
+      361 leifvwigyv ssgvnplvyt lfnktfrdaf gryltcnyra ptsvkalgkc ssniyfqnpm
+      421 aensiffmkh gmrnginpam yqspmrlrgs tvqsssiill dtlllteneg dkteeqisyv
+//

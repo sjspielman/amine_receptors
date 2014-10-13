@@ -1,0 +1,95 @@
+LOCUS       XM_005053561            1757 bp    DNA              VRT 17-JUL-2013
+DEFINITION  PREDICTED: Ficedula albicollis histamine receptor H2 (HRH2), mRNA.
+ACCESSION   XM_005053561
+VERSION     XM_005053561.1  GI:525012010
+DBLINK      BioProject: PRJNA208061
+KEYWORDS    RefSeq.
+SOURCE      Ficedula albicollis (collared flycatcher)
+  ORGANISM  Ficedula albicollis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Muscicapidae; Ficedula.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004775704.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Ficedula albicollis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1757
+                     /mol_type="mRNA"
+                     /collection_date="2009"
+                     /country="Sweden: Oland"
+                     /isolate="OC2"
+                     /sex="male"
+                     /db_xref="taxon:59894"
+                     /organism="Ficedula albicollis"
+                     /chromosome="13"
+     gene            1..1757
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 17 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 5 samples with support for all annotated introns"
+                     /db_xref="GeneID:101810256"
+                     /gene="HRH2"
+     misc_feature    286..288
+                     /note="upstream in-frame stop codon"
+                     /gene="HRH2"
+     CDS             391..1530
+                     /product="histamine H2 receptor"
+                     /codon_start="1"
+                     /db_xref="GI:525012011"
+                     /db_xref="GeneID:101810256"
+                     /translation="MRAELLHPCSDTMDPCYNHTSSQKSMDSHLQLVVGFFLVILIVVT
+                     LCGNIIVCLAVTLDRRLRSLTNCFIVSLAITDLLLGLLVLPFSAYYELARKWPFGSILC
+                     NVYTSLDVMLCTASILNLFMISLDRYFAVTTPLRYCQVVTPSRVAVGLVVIWAVSLMVS
+                     FLPIHLGWNTNGTAVQNTEPTCSTECTLAVNPVYGLVVALLTFYSPLLIMCITYYRILK
+                     IAREQAKRINHTWGSSPMPPMVKEHKATVTLAVVLGAFVVCWFPYFTVFTYRGVWGDSG
+                     VKGTLMSIVLWLGYANSALNPILYGTFNRDFRLAYQHLLRCCRTGRPRNSHLPPLQKAQ
+                     PRGRQGQGRQEGKPLKLEVRNEKGTLLTDGVLKSTGAFL"
+                     /gene="HRH2"
+                     /protein_id="XP_005053618.1"
+ORIGIN
+        1 atccttggga ggtggcaaag ctctgtccct gctggagcac tgctgaccac tgtcatcaaa
+       61 aacatgcaga gggcatgaga gcccacagga cctgacccag tggtcactca gaggaaagta
+      121 gaaggcaaga aatgaaaaga agcatttgag atcctccagc agctgccaca gggcatcggc
+      181 tccagcactg agctcccaga ggggaccaac aggcacaaat gagttgcagt gccacatctt
+      241 tcctagacca tgtcattccc agcacacaag gctgaacatg taaagtgact ctgcaatgtt
+      301 ctccaaggtc actgtagagc aggggtcacc actttggcaa aggctctagg cctgtctggt
+      361 acaggctcac tccaagcagc tttggagctg atgagagcag aactgctcca tccttgcagt
+      421 gacaccatgg atccctgtta caaccacaca agctctcaga aaagtatgga ctctcacctg
+      481 cagctggtgg ttgggttctt cctcgtcatc ctcatcgtgg tgactctctg tggtaacatc
+      541 atcgtgtgcc tggccgtcac cctggaccgc cggctgcgga gcctgacaaa ctgcttcatc
+      601 gtctccttgg ccatcacaga cctgctgctg ggcctgctgg tgctgccatt ctctgcttac
+      661 tacgaactgg ccaggaagtg gccctttggc agcattttgt gcaacgtcta caccagcctg
+      721 gacgtcatgc tgtgcacggc ctccatcctc aacctgttca tgatcagcct ggaccgctac
+      781 tttgccgtca ccacgccgct gcgctactgc caggtggtca ctccctcccg ggtggccgtg
+      841 ggtttggttg ttatttgggc cgtttcactg atggtctcct tcctccccat ccacctgggc
+      901 tggaacacca acgggacggc ggtgcaaaac acggagccca cctgcagcac ggagtgcacg
+      961 ctggccgtga accctgtgta cggcttggtg gtcgccctgc tcaccttcta cagccctttg
+     1021 ctcatcatgt gcatcaccta ctacaggata ctcaagatag cgagggagca ggccaagagg
+     1081 ataaaccaca cgtggggcag ctcgcccatg ccgcccatgg tgaaggagca caaagccacc
+     1141 gtgacgctgg cagtggtgct gggagcgttc gtcgtctgct ggttccccta tttcaccgtc
+     1201 ttcacctacc gcggcgtgtg gggggacagc ggggtcaaag gcaccctcat gtccattgtt
+     1261 ctctggctgg gctatgccaa ctcagccctg aaccccatcc tctacgggac gttcaacagg
+     1321 gatttccgac tggcatacca gcacctgctg cgctgctgca ggacgggacg ccccaggaac
+     1381 tcccacctgc ctcccctcca gaaggcccag cccaggggca ggcagggcca gggcaggcag
+     1441 gaggggaagc ccttgaaact ggaggtgagg aatgagaagg ggaccctgct cactgatgga
+     1501 gtcctcaaga gcactggagc ttttctgtga gtctcagcca gcctgctctc caagaaccca
+     1561 catctcccag ccttcaactc ctggctgccc tcttccaaaa tcctgtgtgt gaggttgaaa
+     1621 ggacaacact cagctttcct cagcgtgaaa ctcaacagca gaggcgagag ctgcagggac
+     1681 ccctgctctg gcacatggca ttcactccat ccccaaacgc tgctggagag gcctctgccc
+     1741 acccaggtgt cttgcca
+//

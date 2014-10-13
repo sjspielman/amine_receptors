@@ -1,0 +1,61 @@
+LOCUS       XP_005655037             423 aa                     MAM 26-SEP-2013
+DEFINITION  PREDICTED: histamine H2 receptor isoform X2 [Sus scrofa].
+ACCESSION   XP_005655037
+VERSION     XP_005655037.1  GI:545811440
+DBLINK      BioProject: PRJNA28993
+KEYWORDS    RefSeq.
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003534298.2) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Sus scrofa Annotation Release 104
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..423
+                     /db_xref="taxon:9823"
+                     /breed="mixed"
+                     /organism="Sus scrofa"
+                     /chromosome="2"
+     Protein         1..423
+                     /product="histamine H2 receptor isoform X2"
+                     /calculated_mol_wt="47106"
+     Region          35..304
+                     /note="Serpentine type 7TM GPCR chemoreceptor Srsx;
+                     pfam10320"
+                     /db_xref="CDD:255903"
+                     /region_name="7TM_GPCR_Srsx"
+     Region          41..289
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     CDS             1..423
+                     /coded_by="XM_005654980.1:806..2077"
+                     /gene="HRH2"
+                     /db_xref="GeneID:100625720"
+ORIGIN
+        1 masnstasss cldplafkvt vslilillif itiagnvvvc lavglnrrlr sltncfivsl
+       61 avtdlllgll vlpfsafyql scrwsfgkvf cniytsldvm lctasilnlf misldrycav
+      121 tdplrypvli tparvaislv liwvisitls flsihlewns srmdpsgvnh tiskckvqvn
+      181 lvyglvdglv tfylpllvmc ityyrifkia rdqakrihni sswraatire hkatvtlaav
+      241 mgafiicwfp yfsvfvyrgl kgdeavdetv eaivlwlgya nsalnpilya alnrdfrtay
+      301 qqlfrcspts hnahrtplrs nssqlmrnqs qetrwqeerp lrlqvwsgae vaaaqeatdr
+      361 kpalsctvcs nnllsccksl walrflqrhv ggpseeqpge plaeeppktp pqeavrtlps
+      421 eav
+//

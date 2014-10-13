@@ -1,0 +1,93 @@
+LOCUS       XM_005503321            1604 bp    DNA              VRT 15-SEP-2013
+DEFINITION  PREDICTED: Columba livia dopamine receptor D1 (DRD1), mRNA.
+ACCESSION   XM_005503321
+VERSION     XM_005503321.1  GI:543724462
+DBLINK      BioProject: PRJNA217047
+KEYWORDS    RefSeq.
+SOURCE      Columba livia (rock pigeon)
+  ORGANISM  Columba livia
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Columbiformes;
+            Columbidae; Columba.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004973290.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Columba livia Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1604
+                     /mol_type="mRNA"
+                     /collection_date="13-Jun-2010"
+                     /country="Denmark: Vordingborg"
+                     /breed="Danish Tumbler"
+                     /sex="male"
+                     /note="bred by Anders Christiansen, Hans Ove Christiansen,
+                     and certified by Danmarks Racedueforeninger"
+                     /db_xref="taxon:8932"
+                     /tissue_type="blood"
+                     /organism="Columba livia"
+                     /chromosome="Unknown"
+     gene            1..1604
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 mRNAs, 1 EST, 18 Proteins, and
+                     23% coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:102098705"
+                     /gene="DRD1"
+     CDS             214..1569
+                     /product="D(1A) dopamine receptor"
+                     /codon_start="1"
+                     /db_xref="GI:543724463"
+                     /db_xref="GeneID:102098705"
+                     /translation="MTWNDTTMDGEGLLVERDSSFRILTGCFLSLLILSTLLGNTLVCA
+                     AVIRFRHLRSKVTNFFVISLAVSDLLVAVLVMPWKAVAEIAGFWPFGSFCNIWVAFDIM
+                     CSTASILNLCVISVDRYWAISSPFRYERKMTPKAAFIMISVAWTLSVLISFIPVQLNWH
+                     KATTTSFLDLNATLQGISMDNCDSSLNRMYAISSSLISFYIPVAIMIVTYTRIYRIAQK
+                     QIRRISALERAAVHAKNCQNTTGNRSSMDCQQPESNFKMSFKRETKVLKTLSVIMGVFV
+                     CCWLPFFVLNCMIPFCEPTQPSKGAEAFCINSTTFDVFIWFGWANSSLNPIIYAFNADF
+                     RKAFSTLLGCYRLCPLSSNAIETVSINNNGAVVFSSQHEPKGSSPKESNLVYLIPHAIM
+                     CPEEEPLKKEEEGELSKTLEKMSPALSSILDYEADVSLEKINPITQNGQHKT"
+                     /gene="DRD1"
+                     /protein_id="XP_005503378.1"
+ORIGIN
+        1 ttgtgcattt tctgttcctg ctcataaacc tttcagtgtg caggatgatt caaagtgggt
+       61 gaagtccatt tggggatgaa aggaccataa aaaaggaccc ttggtctgtt tggcggtgag
+      121 taattaatgg atgtctgatg tctctgatct ctgcaaggaa aggagctgat gtcgtcatga
+      181 aaatcatgat atgattttcc ctcaggagaa actatgactt ggaacgacac cactatggat
+      241 ggggaagggt tgctggtgga aagggactct tcctttcgga tcctcacggg ctgcttcctc
+      301 tcgctgctga tcctctccac gctgctggga aacacgctgg tctgtgcagc tgtcattagg
+      361 tttcgccacc tcaggtccaa ggtgaccaac ttctttgtca tctccttggc tgtgtccgat
+      421 ctcttagtgg cagttctggt catgccgtgg aaagctgtgg ctgagattgc tggtttctgg
+      481 ccttttggtt cattttgcaa catctgggtg gcctttgata ttatgtgctc aacagcatcc
+      541 atcctaaatc tctgtgtcat tagtgtggac agatactggg ccatctccag cccatttagg
+      601 tatgagcgga aaatgacccc caaggcagcc ttcatcatga tcagcgtggc gtggactttg
+      661 tctgtgttga tttccttcat ccctgtgcag ctgaactggc acaaggctac aaccacaagc
+      721 tttttggacc taaatgccac cttacaaggc ataagcatgg acaactgtga ttctagcctg
+      781 aacaggatgt atgccatctc ctcttctcta attagcttct atatacccgt ggccatcatg
+      841 atagtaactt atacaaggat ataccggatt gctcagaagc aaatacgccg catctcagcc
+      901 ttggagagag cagcagtgca cgccaagaac tgccagaaca cgaccggcaa cagaagcagt
+      961 atggactgcc agcaaccaga gagcaacttc aaaatgtcct tcaagaggga aacgaaggtc
+     1021 ttaaagactt tgtcagtgat catgggggtg tttgtgtgct gctggttgcc gttttttgta
+     1081 ttgaactgca tgattccctt ttgtgagccc acccaaccat ccaagggagc agaagctttc
+     1141 tgcattaatt ccacgacctt cgacgttttt atttggtttg gatgggccaa ttcttccctc
+     1201 aatcccataa tttatgcctt caatgctgat ttccgcaagg cgttttcaac cctgctagga
+     1261 tgctacaggc tctgcccttt gtccagcaat gctatagaga ctgttagtat caacaataac
+     1321 ggagctgttg ttttttcaag tcaacatgag cccaaaggct ccagccccaa agagtctaat
+     1381 ctggtttatc tgattccaca tgcaattatg tgtccggaag aagaacctct taaaaaggaa
+     1441 gaagagggtg aactatctaa aaccttggag aaaatgtctc cagcactgtc gagtatcttg
+     1501 gattatgaag ctgatgtttc tttggaaaag atcaatccca ttacacaaaa tgggcagcat
+     1561 aaaacctgaa cagtaaggtt tacccagcaa gacctaatag tgtt
+//

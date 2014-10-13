@@ -1,0 +1,105 @@
+LOCUS       XM_005611574            1627 bp    DNA              MAM 22-SEP-2013
+DEFINITION  PREDICTED: Equus caballus dopamine receptor D2 (DRD2), transcript
+            variant X3, mRNA.
+ACCESSION   XM_005611574
+VERSION     XM_005611574.1  GI:545221209
+DBLINK      BioProject: PRJNA19129
+KEYWORDS    RefSeq.
+SOURCE      Equus caballus (horse)
+  ORGANISM  Equus caballus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Perissodactyla; Equidae; Equus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001867425.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Equus caballus Annotation Release
+            101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1627
+                     /mol_type="mRNA"
+                     /breed="thoroughbred"
+                     /isolate="Twilight"
+                     /sex="female"
+                     /db_xref="taxon:9796"
+                     /organism="Equus caballus"
+                     /chromosome="7"
+     gene            1..1627
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 13 Proteins, and 95% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 1 sample with support for all annotated introns"
+                     /db_xref="GeneID:100062195"
+                     /gene="DRD2"
+     CDS             1..1332
+                     /product="D(2) dopamine receptor isoform X3"
+                     /codon_start="1"
+                     /db_xref="GI:545221210"
+                     /db_xref="GeneID:100062195"
+                     /translation="MDPLNLSWYDDDLESQNWSRPFNGSEGKADRPHYNYYAMLLTLLI
+                     FVIVFGNVLVCMAVSREKALQTTTNYLIVSLAVADLLVATLVMPWVVYLEVVGEWKFSR
+                     IHCDIFVTLDVMMCTASILNLCAISIDRYTAVAMPMLYNTRYSSKRRVTVMIAIVWVLS
+                     FTISCPLLFGLNNTDQNECIIANPAFVVYSSIVSFYVPFIVTLLVYIKIYIVLRRRRKR
+                     VNTKRSSRAFRANLKAPLKGNCTHPEDMKLCTVIMKSNGSFPVNRRRLDAARRAQELEM
+                     EMLSSTSPPERTRYSPIPPSHHQLTLPDPSHHGLHSTPDSPAKPEKNGHAKDHPKIAKI
+                     FEIQSMPNGKTRTSLKTMSRRKLSQQKEKKATQMLAIVLGVFIICWLPFFITHILNIHC
+                     DCNIPPVLYSAFTWLGYVNSAVNPIIYTTFNIEFRKAFLKILHC"
+                     /gene="DRD2"
+                     /protein_id="XP_005611631.1"
+     STS             295..502
+                     /db_xref="UniSTS:266487"
+                     /standard_name="DRD2"
+                     /gene="DRD2"
+     STS             331..421
+                     /db_xref="UniSTS:262987"
+                     /standard_name="DRD2"
+                     /gene="DRD2"
+     STS             590..762
+                     /db_xref="UniSTS:267588"
+                     /standard_name="MARC_13871-13872:1007494510:1"
+                     /gene="DRD2"
+     STS             832..1012
+                     /db_xref="UniSTS:272844"
+                     /standard_name="PMC311033P6"
+                     /gene="DRD2"
+ORIGIN
+        1 atggatccac tgaacctgtc ctggtacgat gacgatctgg agagccagaa ctggagccgg
+       61 cccttcaatg ggtccgaagg aaaggccgac aggccccact acaactacta tgccatgctg
+      121 ctcaccctgc tcatctttgt catcgtcttt ggcaacgtgc tggtatgcat ggccgtgtcc
+      181 cgtgagaagg cgctgcagac caccaccaac tacctgattg tcagccttgc ggtggccgac
+      241 ctccttgtgg ccacgcttgt catgccctgg gttgtctacc tggaggtggt gggcgagtgg
+      301 aaattcagca ggattcactg tgacatcttc gtcactctgg atgtcatgat gtgcacagca
+      361 agcattttga atctgtgtgc catcagcatc gacaggtaca cagccgtggc catgcccatg
+      421 ctgtacaaca cgcgctacag ctccaagcgc cgagtcaccg tcatgatcgc catcgtctgg
+      481 gtcctgtcct tcaccatctc ctgcccgctg ctcttcggac tcaacaacac agaccagaac
+      541 gagtgcatca tcgccaaccc cgccttcgtg gtctactcct ccatcgtctc cttctacgtg
+      601 cccttcatcg tcacccttct ggtctacatc aagatctaca tcgtcctccg caggcgtcgc
+      661 aagcgggtca acacaaagcg cagcagccgg gctttccggg ccaatctgaa ggccccgctc
+      721 aagggcaact gcactcaccc cgaggacatg aaactctgca ccgttatcat gaagtctaat
+      781 gggagtttcc cagtgaacag gcggagactg gatgctgccc gccgagccca ggagctggag
+      841 atggagatgc tgtccagcac aagcccaccc gagaggaccc ggtacagccc catcccaccc
+      901 agccaccacc agctgaccct ccccgaccca tcccaccatg gcctccacag cactcctgac
+      961 agccctgcca aaccagagaa gaacgggcat gccaaagacc accccaagat tgccaagatc
+     1021 tttgagatcc agtccatgcc caatggcaaa acccggacct cgctcaagac catgagccgt
+     1081 aggaagctct cccagcagaa ggagaagaaa gccacccaga tgctcgccat tgttctcggc
+     1141 gtgttcatca tctgctggct gcccttcttc atcacccaca tcctgaacat acactgtgac
+     1201 tgcaacatcc cgcccgtcct gtacagcgcc ttcacgtggc tgggctatgt caacagcgcc
+     1261 gtgaacccca tcatctacac gaccttcaac atcgagttcc gcaaggcctt cctgaagatc
+     1321 ctacactgct gatcctgctg cccacctgca cagcagcctg cttccacctc cctgcccagg
+     1381 ctggcccggc ctccatccct gggagctgcg ggcaggaggg cacagagcgg acttgccttc
+     1441 tcttcgcccc ggcaggccct gcagtgttag cttggcgcca cgcccctccc tgcccgcaca
+     1501 ccctcactct accaggggag tgctagagag ccaggcatgg tgcagccttg cgctggaccc
+     1561 cctggctcag gagcagctca cagagccgcc ccctcccact tccaggcccc ctctccttgg
+     1621 caccaaa
+//

@@ -1,0 +1,61 @@
+LOCUS       XP_001380260             555 aa                     MAM 14-APR-2014
+DEFINITION  PREDICTED: alpha-1D adrenergic receptor [Monodelphis domestica].
+ACCESSION   XP_001380260
+VERSION     XP_001380260.1  GI:126305404
+DBLINK      BioProject: PRJNA15683
+KEYWORDS    RefSeq.
+SOURCE      Monodelphis domestica (gray short-tailed opossum)
+  ORGANISM  Monodelphis domestica
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Metatheria; Didelphimorphia; Didelphidae; Monodelphis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001581847.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Monodelphis domestica Annotation
+            Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..555
+                     /pop_variant="pop1"
+                     /db_xref="taxon:13616"
+                     /organism="Monodelphis domestica"
+                     /chromosome="1"
+     Protein         1..555
+                     /product="alpha-1D adrenergic receptor"
+                     /calculated_mol_wt="57891"
+     Region          128..406
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:249497"
+                     /region_name="7tm_1"
+     Region          <347..>417
+                     /note="Protein of unknown function (DUF1385); cl01595"
+                     /db_xref="CDD:261010"
+                     /region_name="DUF1385"
+     CDS             1..555
+                     /coded_by="XM_001380223.2:83..1750"
+                     /gene="ADRA1D"
+                     /db_xref="GeneID:100030860"
+ORIGIN
+        1 mpfpallqvg fdgrgpdsgp ggggagggas ggaggggggs dgsavvvagv sagaggaavv
+       61 gagggegnrs faggpgvacp agspggagdv ngtaavggvv vsaqalgvgv flaafilaai
+      121 agnllvilsv acnrhlqtvt nyfivnlava dlllsatvlp fsatmevlgf wafgrafcdv
+      181 waavdvlcct asilslctis vdryvgvrhs lkypaimter kaaailallw avalvvsvgp
+      241 llgwkepvpp ddrfcgitee agyavfssvc sfylpmavil vmyfrvyvva rrttrsleag
+      301 vkrerskstd ivlrihcrss gpedsrvakg hnfrsslsvr llkfsrekka aktlaivvgv
+      361 fvlcwfpfff vlplgslfpq lkpsegvfkv ifwlgyfnsc vnpliypcss kefkrafvrl
+      421 lrcqcrrrrr rplwrvyghh wrasggsrrd caasgaaplg pparavsllp gspapaalre
+      481 wklfkkptts qlrakvssls hklraagpsg sspaatpsrs eveaiclsvp qdgpdaaahr
+      541 aydlddycgl retdi
+//

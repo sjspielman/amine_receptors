@@ -1,0 +1,104 @@
+LOCUS       XM_004021375            2094 bp    DNA              MAM 02-DEC-2012
+DEFINITION  PREDICTED: Ovis aries cholinergic receptor, muscarinic 3, transcript
+            variant 2 (CHRM3), mRNA.
+ACCESSION   XM_004021375
+VERSION     XM_004021375.1  GI:426255575
+KEYWORDS    RefSeq.
+SOURCE      Ovis aries (sheep)
+  ORGANISM  Ovis aries
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Caprinae; Ovis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004080188) annotated using gene prediction method: GNOMON,
+            supported by mRNA evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: NCBI
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Ovis aries Annotation Release 100
+            Annotation Pipeline :: NCBI eukaryotic genome annotation pipeline
+            Annotation Method   :: Best-placed RefSeq; Gnomon
+            Features Annotated  :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2094
+                     /breed="Texel"
+                     /db_xref="taxon:9940"
+                     /mol_type="mRNA"
+                     /organism="Ovis aries"
+                     /chromosome="25"
+     gene            1..2094
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GNOMON. Supporting evidence
+                     includes similarity to: 9 mRNAs, 19 Proteins"
+                     /db_xref="GeneID:443189"
+                     /gene="CHRM3"
+     misc_feature    80..82
+                     /note="upstream in-frame stop codon"
+                     /gene="CHRM3"
+     CDS             128..1900
+                     /product="muscarinic acetylcholine receptor M3 isoform 2"
+                     /codon_start="1"
+                     /db_xref="GI:426255576"
+                     /db_xref="GeneID:443189"
+                     /translation="MTLRNNNTTSPLFLNISSSWIHGPSDTGLPPGTVTHFGSYNISRA
+                     AGNLSSPNGTTSDPLGGHTIWQVVFIAFLTGVLALVTIIGNILVIVAFKVNKQLKTVNN
+                     YFLLSLACADLIIGVISMNLFTTYIIMNRWALGNLACDLWLSIDYVASNASVMNLLVIS
+                     FDRYFSITRPLTYRAKRTTKRAGVMIGLAWVISFILWAPAILFWQYFVGKRTVPPGECF
+                     IQFLSEPTITFGTAIAAFYMPVTIMTILYWRIYKETEKRTKELAGLQASGTEAEAENFV
+                     HPTGSSRSCSSYELQQQSMKRSARRKYGRCHFWFTTKSWKPSAEQMDQDHSSSDSWNNN
+                     DAAASLENSASSDEEDIGSETRAIYSIVLKLPGHSTILNSTKLPSSDNLQVPEEELGTV
+                     GLERKPSKLQAQQSMDDGGSFQKSFSKLPIQLESAVDTAKASDVSSSVGKTTATLPLSF
+                     KEATLAKRFALKTRSQITKRKRMSLIKEKKAAQTLSAILLAFIITWTPYNIMVLVNTFC
+                     DSCIPKTYWNLGYWLCYINSTVNPVCYALCNKTFRNTFKMLLLCQCDKRKRRKQQYQQR
+                     QSVIFHKRVPEQAL"
+                     /gene="CHRM3"
+                     /protein_id="XP_004021424.1"
+     STS             480..759
+                     /db_xref="UniSTS:253965"
+                     /standard_name="CHRM3"
+                     /gene="CHRM3"
+     STS             1834..1935
+                     /db_xref="UniSTS:278201"
+                     /standard_name="CHRM3"
+                     /gene="CHRM3"
+ORIGIN
+        1 catcatccag tgatatgtct tccatgtctt ttagaggatg caatgcagaa aacaaatcca
+       61 gtgagggcag taatggtcct gactccatct tttctctttt ctccccagac tatgtcagag
+      121 agtcaccatg accttgcgca ataacaatac aacctcaccc ttgtttctga acatcagctc
+      181 ttcctggatt cacggccctt cggatacagg gctgccccca ggaacggtta ctcactttgg
+      241 cagctacaac atttctcggg cagctgggaa tctctcctct ccaaatggca ccaccagtga
+      301 ccctctcgga ggtcatacca tctggcaggt ggtcttcatt gcattcttaa cgggcgtcct
+      361 ggccttggtg accatcattg gcaacatcct ggtgatagtg gcattcaagg tcaacaagca
+      421 gctgaagaca gtcaacaact acttcctctt aagtctggcc tgtgccgacc tgattattgg
+      481 ggtcatttcg atgaatctgt ttactaccta catcatcatg aaccgatggg cgttagggaa
+      541 cctggcctgt gacctctggc tatccattga ctacgtggct agcaatgcct ccgtcatgaa
+      601 ccttctggtc atcagctttg acagatactt ttccatcaca aggccgctca cgtaccgagc
+      661 caaacgaaca acaaagcgag ctggtgtgat gataggtttg gcctgggtca tctccttcat
+      721 cctttgggct cccgccatct tgttctggca gtactttgtt gggaagagaa ctgtgcctcc
+      781 aggggagtgt ttcatccagt tcctcagcga gcccaccatc accttcggta cggccatcgc
+      841 tgccttttat atgcctgtca ccatcatgac tattttatac tggaggatct ataaggaaac
+      901 tgaaaaacgt accaaagaac ttgctgggct acaagcctct ggaacagagg ccgaggcgga
+      961 gaactttgtc caccccacgg gcagttctcg aagctgcagc agctatgagc tccagcagca
+     1021 gagcatgaaa cgctcagcca ggaggaagta tggacgctgc cacttctggt tcacgaccaa
+     1081 gagctggaag ccaagcgctg agcagatgga ccaagaccac agcagcagtg acagctggaa
+     1141 taacaacgat gctgccgcct ccctggagaa ctccgcctcc tccgacgagg aggacattgg
+     1201 ctcagagacc agagccatct actccatcgt gctcaagctc ccaggtcaca gcaccatcct
+     1261 caactccacc aaactacctt catcagacaa cctgcaggtg ccggaggagg agctggggac
+     1321 ggtgggcttg gagaggaaac ccagcaaact tcaggcccag cagagcatgg atgatggagg
+     1381 cagctttcag aaaagcttct ccaagcttcc catccagtta gagtctgccg tggacacagc
+     1441 caaggcctct gatgtcagct cctcagtggg gaagaccacg gccactctac ctctgtcctt
+     1501 caaggaagct acactggcca agaggtttgc tctgaagacc agaagccaga tcactaagcg
+     1561 gaaacggatg tctctcatca aggagaagaa agcggcccag accctcagtg ccatcctgct
+     1621 tgccttcatc atcacctgga ccccctacaa tatcatggtt ctggtgaaca ccttttgtga
+     1681 cagctgcatc cccaaaacct attggaatct gggctactgg ctgtgctaca tcaacagcac
+     1741 cgtgaacccc gtgtgctatg ccctgtgcaa caaaacattc agaaacactt tcaagatgct
+     1801 gctgttgtgt cagtgtgaca agaggaagag acgcaagcag cagtaccagc agagacagtc
+     1861 ggtcattttc cacaagcggg tgcctgagca ggccttgtag aatggggtgc gttcaatagc
+     1921 cgtcaccata cgcacacatc aacccacaaa ccttaggagg gagtaaggcg agggtggggg
+     1981 tcatctctgg cactgataaa catgttttta tcacccagac gtgaaagaag ctgcctgttt
+     2041 cccggtccat taaataaacc cattttaata tcaaaagtca aatacctgtt cagc
+//

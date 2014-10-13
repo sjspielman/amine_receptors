@@ -1,0 +1,152 @@
+LOCUS       XM_006231307            2953 bp    DNA              ROD 07-AUG-2014
+DEFINITION  PREDICTED: Rattus norvegicus 5-hydroxytryptamine (serotonin)
+            receptor 7, adenylate cyclase-coupled (Htr7), transcript variant X1,
+            mRNA.
+ACCESSION   XM_006231307
+VERSION     XM_006231307.2  GI:672040255
+DBLINK      BioProject: PRJNA12455
+KEYWORDS    RefSeq.
+SOURCE      Rattus norvegicus (Norway rat)
+  ORGANISM  Rattus norvegicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Rattus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_007905676.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            On Aug 7, 2014 this sequence version replaced gi:564333543.
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Rattus norvegicus Annotation Release
+            105
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 6.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2953
+                     /mol_type="mRNA"
+                     /db_xref="taxon:10116"
+                     /sex="pooled males and females"
+                     /note="pooled female animals of strain BN/SsNHsdMCW plus
+                     one male of strain SHR (also known as SHR-Akr)"
+                     /strain="mixed"
+                     /organism="Rattus norvegicus"
+                     /chromosome="1"
+     gene            1..2953
+                     /note="5-hydroxytryptamine (serotonin) receptor 7,
+                     adenylate cyclase-coupled; Derived by automated
+                     computational analysis using gene prediction method:
+                     Gnomon. Supporting evidence includes similarity to: 3 ESTs,
+                     7 Proteins, and 100% coverage of the annotated genomic
+                     feature by RNAseq alignments, including 10 samples with
+                     support for all annotated introns"
+                     /db_xref="GeneID:65032"
+                     /db_xref="RGD:71034"
+                     /gene="Htr7"
+                     /gene_synonym="5Ht7"
+     STS             329..869
+                     /db_xref="UniSTS:511811"
+                     /standard_name="Htr7"
+                     /gene="Htr7"
+                     /gene_synonym="5Ht7"
+     CDS             331..1677
+                     /product="5-hydroxytryptamine receptor 7 isoform X1"
+                     /codon_start="1"
+                     /gene_synonym="5Ht7"
+                     /db_xref="GI:564333544"
+                     /db_xref="GeneID:65032"
+                     /db_xref="RGD:71034"
+                     /translation="MMDVNSSGRPDLYGHLRSLILPEVGRGLQDLSPDGGAHPVVSSWM
+                     PHLLSGFLEVTASPAPTWDAPPDNVSGCGEQINYGRVEKVVIGSILTLITLLTIAGNCL
+                     VVISVCFVKKLRQPSNYLIVSLALADLSVAVAVMPFVSVTDLIGGKWIFGHFFCNVFIA
+                     MDVMCCTASIMTLCVISIDRYLGITRPLTYPVRQNGKCMAKMILSVWLLSASITLPPLF
+                     GWAQNVNDDKVCLISQDFGYTIYSTAVAFYIPMSVMLFMYYQIYKAARKSAAKHKFPGF
+                     PRVQPESVISLNGVVKLQKEVEECANLSRLLKHERKNISIFKREQKAATTLGIIVGAFT
+                     VCWLPFFLLSTARPFICGTSCSCIPLWVERTCLWLGYANSLINPFIYAFFNRDLRTTYR
+                     SLLQCQYRNINRKLSAAGMHEALKLAERPERSEFVLQNSDHCGKKGHDT"
+                     /gene="Htr7"
+                     /protein_id="XP_006231369.1"
+     STS             679..769
+                     /db_xref="UniSTS:495969"
+                     /standard_name="UniSTS:495969"
+                     /gene="Htr7"
+                     /gene_synonym="5Ht7"
+     STS             740..1655
+                     /db_xref="UniSTS:527392"
+                     /standard_name="Htr7"
+                     /gene="Htr7"
+                     /gene_synonym="5Ht7"
+     STS             1426..1565
+                     /db_xref="UniSTS:39426"
+                     /standard_name="RH66814"
+                     /gene="Htr7"
+                     /gene_synonym="5Ht7"
+     STS             1642..1748
+                     /db_xref="UniSTS:143431"
+                     /standard_name="Htr7"
+                     /gene="Htr7"
+                     /gene_synonym="5Ht7"
+     STS             2769..2887
+                     /db_xref="UniSTS:233089"
+                     /standard_name="RH143843"
+                     /gene="Htr7"
+                     /gene_synonym="5Ht7"
+ORIGIN
+        1 cggcgctccc ggccccggcg cgcatcgctg cggggctgcg gtgcggccaa cccggccagg
+       61 ctcggctcgc caccctgctc ctctcgcgtg cccgtcgggg accgctggtg cctcccgcgg
+      121 ggagtcctcg cccacgcgtc atccgcagag gctgggggac cctgggacgt gcggggtcgc
+      181 gaggccgagc cgggcgcccc ccagtggcca gccccggacc ccatggctgg gccgcgcgga
+      241 gccgagcggg caaggtgaat ccagccccgg ggccggctgc cggagcgctt ggcggggtcg
+      301 ccggctccat gggcagcggc gctcggcacg atgatggacg ttaacagcag cggccgcccc
+      361 gacctctacg gccatctccg ttcactcatc ctgccggagg tggggcgcgg gctgcaggac
+      421 ctgagccccg acggtggcgc ccaccctgtg gtgagctcct ggatgccgca cctgctgagt
+      481 ggcttcctag aggtgacggc tagcccggcg cccacctggg acgcgccacc ggacaatgtc
+      541 tcaggctgcg gggagcagat caactatggc agagtggaga aagttgtgat cggctccatc
+      601 ctgacgctca tcacgctgct gacgatcgca ggcaactgcc tggtggtgat ctcggtgtgc
+      661 ttcgtcaaga agctccgcca gccctccaac tacctgattg tgtccctggc gctggctgac
+      721 ctctcggtgg ccgtggcggt catgcctttc gttagtgtca ccgacctcat cgggggcaag
+      781 tggatcttcg gccacttctt ctgcaacgtc ttcatcgcca tggacgtcat gtgctgcacg
+      841 gcctcgatca tgaccctgtg cgtgatcagc atcgacaggt accttgggat cacgagaccc
+      901 ctcacgtacc cggtgaggca aaatgggaaa tgtatggcca aaatgattct gtcggtctgg
+      961 ctgctctctg cctccatcac cttacctcct ctcttcggat gggctcagaa tgtgaacgat
+     1021 gacaaagtgt gcttgatcag ccaggatttt ggctacacga tctactccac tgcggtggcg
+     1081 ttttatatcc ccatgtcggt catgctgttc atgtactatc agatttacaa ggccgccagg
+     1141 aagagtgcag ccaaacacaa gttcccaggc ttcccacgcg tgcagccgga gagtgtcatc
+     1201 tccctgaatg gtgtggtgaa gctccagaag gaggtggaag agtgtgcgaa cctttcgaga
+     1261 ctgctcaaac acgaaaggaa aaacatctcc atcttcaagc gggaacagaa agcagccact
+     1321 accttgggga tcatcgtggg agccttcact gtgtgctggc tgccgttttt cctcttgtcc
+     1381 acagcccgcc cctttatctg tggcacctcc tgtagctgca ttcctctgtg ggtggagagg
+     1441 acatgtctgt ggctgggcta tgcaaactct ctcattaatc cttttatata tgccttcttc
+     1501 aaccgggacc tgaggaccac ctatcgtagc ctactccagt gccagtaccg gaatatcaac
+     1561 cggaagctct ctgctgcagg catgcatgaa gccctgaaac ttgctgagag gcccgagaga
+     1621 tccgagtttg tgctacaaaa ctctgaccac tgtgggaaaa agggtcatga tacatgatcc
+     1681 agagtggaac cctggatgaa ttcatgcaga acaggtggac acaacacaac gaaatcattg
+     1741 gctgagactg cacaatggaa catggcttct gtcttcttgg catggcttga aatgtcacga
+     1801 ggggtgatct gttgtacaaa gtgtatcatg gggagatggc aacctctccc ttttttcctg
+     1861 tggatcagtg atattgtgtt taaatgaaaa tagtgctcag tgtcagacag ccagtcatct
+     1921 ctgcagtaag cacactacag agctgggttt cgggagggga gggaagcagt ttctggtgct
+     1981 ttccacaagt ccacatccac aagagtgggg ggaaatccta acgcacaatt cccatgcttc
+     2041 cagtctaggc tttgtggtaa ctcttcagga accattcatg agacagagta cattttgtgg
+     2101 tatgacagaa gggtgtcttt tcaagcaagc tacagtaagc attgtgctga acgtgttgca
+     2161 tgtccgtgtt agaaaacaga aacccagtca tcagctaatt caagcaattc cccagagcag
+     2221 tgtttgttca aagcttctgt taaatattgt ggctttcctg cagggtcctt gtgactttcc
+     2281 accagtgtgt gtccactgtc aaatccttta tcattatggt gtaactcagg aacagatctc
+     2341 aggttggaga gaggcagaaa acctgaatca agcttttcct tgcactcaca cttctgaagg
+     2401 ctcctgagag aggacggtaa ctggagatga gtgagtgcca cctcaccgca ttgtatatta
+     2461 acatgattct cggcatgttg ttcactccca tcttccacaa gggtgcaagg agcccacagg
+     2521 gctggtccat gactgtgtgt tatgaggaga gagtgtgaca atagcaaatc catgaatagt
+     2581 tgcggttgtt tctggagaca gcgtaaacat ggtcacccaa ctggactgtt tgaatcgtgt
+     2641 gagctagcgg ccacttgaac ccccattgtt aatactctag aacaccgttc tgtttcatgt
+     2701 agagaatttg tttctgtgtt ctctgtatct taaatcaaat gtgtgcctga tgaattctgt
+     2761 cctctaaccc cctcccacca ataaaaatgg tcaatgttaa ggacaggtaa ggaagcagaa
+     2821 agggttcctt tgtggatagt atcctttaaa tgttgctatg tagtagtctg ggtgaaggag
+     2881 atggaaagcc acagttcaga agagtacccg tgtctataag ggggacatga atgaaaacct
+     2941 ttatttgaaa aaa
+//

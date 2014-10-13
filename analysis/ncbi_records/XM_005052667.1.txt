@@ -1,0 +1,130 @@
+LOCUS       XM_005052667            3963 bp    DNA              VRT 17-JUL-2013
+DEFINITION  PREDICTED: Ficedula albicollis histamine H3 receptor-like
+            (LOC101819053), mRNA.
+ACCESSION   XM_005052667
+VERSION     XM_005052667.1  GI:525010188
+DBLINK      BioProject: PRJNA208061
+KEYWORDS    RefSeq.
+SOURCE      Ficedula albicollis (collared flycatcher)
+  ORGANISM  Ficedula albicollis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Testudines + Archosauria group; Archosauria; Dinosauria; Saurischia;
+            Theropoda; Coelurosauria; Aves; Neognathae; Passeriformes;
+            Muscicapidae; Ficedula.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_004775690.1) annotated using gene prediction method: Gnomon.
+            Also see:
+            Documentation of NCBI's Annotation Process
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Ficedula albicollis Annotation
+            Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+            pipeline
+            Annotation Software Version :: 5.0
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3963
+                     /mol_type="mRNA"
+                     /collection_date="2009"
+                     /country="Sweden: Oland"
+                     /isolate="OC2"
+                     /sex="male"
+                     /db_xref="taxon:59894"
+                     /organism="Ficedula albicollis"
+                     /chromosome="11"
+     gene            1..3963
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 3 samples with support for all annotated introns"
+                     /db_xref="GeneID:101819053"
+                     /gene="LOC101819053"
+     CDS             5..1189
+                     /product="histamine H3 receptor-like"
+                     /codon_start="1"
+                     /db_xref="GI:525010189"
+                     /db_xref="GeneID:101819053"
+                     /translation="MGLLVLATVLGNALVILAFVVDRSLRTQGNFFFLNLAVADLLVGG
+                     FCIPLYIPYVLTGEWRLGRGLCKLWLVVDYLVCTASVFNIVLISFDRFICVTRAVSYRA
+                     QQGMTRNAVLKMMTVWIAAFLLYGPAILSWEHIAQKSILPEGECHAEFFYNWYFLMIAS
+                     TVEFFTPFITVMYFNLSIYLNIRKRTLLRNENLSPCQEDCEMNFQGGKREQTVFFVKPS
+                     NRDKHEKRASSLLPPKKAPGLQASAELGNQPSNLSVSHDLPPLQVEVKTRPPRNGFFKA
+                     TESLCQPSSKVDVANIMANRFRLSRDKRVAKSLAVIVCVFGLCWAPYTLLMIIRAACHG
+                     HCVHYSLYEISFWLLWVNSAINPVLYPLCHMSFRKAFIKLLCPRKAKIHPDILM"
+                     /gene="LOC101819053"
+                     /protein_id="XP_005052724.1"
+ORIGIN
+        1 gctcatgggg ctgctggtgc tggccacggt gctgggcaat gccctggtca ttctggcgtt
+       61 cgtggtggac cggagcctcc gcacgcaggg aaacttcttc ttcctgaacc tggccgtcgc
+      121 cgacctgctg gtgggcggct tctgcatccc cctctacatc ccctacgtgc tgacgggcga
+      181 gtggaggctc ggcaggggct tgtgtaagct gtggctagtg gtggactacc tggtgtgcac
+      241 cgcctccgtc ttcaacatcg tcctgatcag cttcgacagg ttcatctgtg tcaccagagc
+      301 ggtcagctac agggcccagc aagggatgac cagaaatgca gtactgaaga tgatgactgt
+      361 atggattgct gcttttctcc tctatgggcc agccattctc agttgggagc acattgccca
+      421 aaagagcatc ctccctgaag gagaatgtca tgcagaattc ttctacaact ggtatttcct
+      481 aatgattgcc tctactgttg aattctttac acctttcatc actgttatgt actttaattt
+      541 aagtatttac cttaacatca ggaaacgcac attgctgcga aatgaaaacc tctcaccttg
+      601 tcaagaggac tgtgaaatga atttccaggg gggaaaaagg gaacagactg tgttttttgt
+      661 aaagccatct aacagagaca aacatgagaa gagagcaagc agccttcttc ccccaaagaa
+      721 ggctccaggg cttcaggcct cagctgagct tggcaatcag ccttcaaatc tgagtgtcag
+      781 tcatgacctt ccacccctgc aggtggaggt aaagaccagg cctcccagga atggcttctt
+      841 caaagcaaca gaaagtcttt gccagcccag cagcaaagtg gatgttgcta acattatggc
+      901 aaacagattt agactttccc gggataaacg agtagcaaag tctttagcag ttattgtgtg
+      961 tgtgtttggg ttgtgctggg ctccatacac actcctgatg atcatcaggg cagcctgcca
+     1021 cgggcactgt gtgcactatt ccctctatga gatttcattc tggcttctgt gggtgaattc
+     1081 agccattaac cctgttctct acccattgtg tcacatgagc tttaggaaag ccttcattaa
+     1141 actcctgtgt ccacgaaagg ccaaaattca tcctgatatt ttgatgtgaa aagtaggaag
+     1201 gctgaaaatt agtacatctt ttatttggtg ggagcaccaa aaagctagta ttgcaatacc
+     1261 tgcaaatatt tatggaatac tggtaggtag gcacaagtgt agatatttat gagtatgtgg
+     1321 aaatgcagtc atcaacgtag ctgggaaaat cacagcagtg aaaagagagg tcatttttca
+     1381 aagctcttta gaaaattaca ccaacagtgt attttctggt aatggtacac tagtgttgaa
+     1441 gtgctgaaaa caaaaaacag cattcatagc taataattag agttcaggct ctgtcacttt
+     1501 taatacctaa atattgctgg aatttcagaa agcattaatc ttgggtctgt catatcttac
+     1561 cccaaatcca cttcaagaca tcagctgaag ttgttaagcc caggatgttt tccccccctc
+     1621 cacttagtgg caagccaggc aagacatgac caacaataaa acaggaaaag catgggacag
+     1681 gaggcagcac aacagtgatg ttaccagaga agctgagcaa ctgtagcagg taagggacca
+     1741 ctgacttgag tggaaaaggt gatggaaata gaagagagtg gaatatttag tagaacaaag
+     1801 tccaggaaca gaagtataga agggttttga gctttgtaat aggagataca aaaattggtt
+     1861 acttacacac tggaagagtt tcactaagag ttccctccct cagcagtgac ttcctgcccc
+     1921 ccacccaaat cctgcatggg caggaatcta ctgaggtcaa aactctattc cttacagggc
+     1981 tgagggcatt actctgtgct ttgctgtaag gacagagtaa gcctaagtag tctatgagat
+     2041 ccatgacaga gctttaggta aacttccctt ccagtaattt tttaagacat ttacaattgg
+     2101 acctttacta cttctggcta gattacaaaa aaaagtgttg ttttccccta ccctacccat
+     2161 tgaatcttgc catccatcaa gtcattagtg ggcaataaag tatcacttga agtcttgaga
+     2221 tatttcccag gttatacatc ataactggca tgacacgaag tctgttacaa gttacagcct
+     2281 tgctactgcc caagagtgtc tccgtcattg tgcctgtgcc acaggagcag ctcatacaac
+     2341 tgatcctgag tttggagtag atttatcccc caaggtgtca cactgagcat cgctaacgat
+     2401 ccaagtttgt tccaccatca ccagcattta ctacataatc taacagatgc tttcctttgc
+     2461 tgaaaagtga tagttactga acagctctag ttgtccactg ccacagtcaa aatgcatggt
+     2521 aatacaatct taaagtttac aggtagtaaa attgtttata ttgtaaaatt tcaataaaag
+     2581 taattaagag ctgtggaaga gttgtaactg tgtagcccta acaagtggga gagggtagaa
+     2641 aagcaccagt ctacaacatt tgggtgactg cagttgaaac tgcaaaactg gtatttcaaa
+     2701 aacacttcct aagttacaag gactgacact gaggactaaa acagggttag caaatactgg
+     2761 aaatgaggag gacatatccc tacactatga atgtatccac atgaacatca tcaccacatt
+     2821 ctgctatgga tgtgctacaa caaaacagct taacagttct atgaggaaca gtttcaacag
+     2881 atacggagca acacaaagat tcttgaatta ggatcaatta taaacttggg gaagtaaagt
+     2941 ctttaaatta tctccccatt tatttctcct cccttccaag ccagactaat tcatcagtat
+     3001 attaataatc tatttgttgt atactctgca attgtttcct aggattgcat gtgccttttt
+     3061 cagaaaaaaa gtagcactaa attactgaac aatcccacca aagtctcatg tactatccaa
+     3121 tcaagccagg acacattttc agaaaacgat ggtcactcaa ggagaaaagt aattcaatca
+     3181 gttatcttta gaacaccatg ttcagtaaaa gcaaaccaga caagtcaaaa ctttcagcaa
+     3241 ctggcattaa cccatggact ggaccagctt cccaggagct gccactggcc ctgctctact
+     3301 gctcggtttc ctacagcact ggaattcaat tgccatcagc tctctggcac agaatccagt
+     3361 aggattcttc ctcactccag gtatgtcata aagacattct gaaatgtgag cacacaccat
+     3421 ctcagcacca tgtggagaaa cactgggtct gtatcacaaa ctcctacact agaaatgcca
+     3481 acagccgccc agctcagcca gggtaactat gccttgattt ttctgtccct acaaaacaaa
+     3541 gctcttcact tttatcagaa ggttcaacac tgggctctga agagacatga aacaacaggt
+     3601 gttaatagca actttattgt ttcaccggtg caaaatcatg atactgaata aacttgtgta
+     3661 atgcattttc ccctaaattt acagtaatga aggttataca tatctatata gattgcaatt
+     3721 tctctatttt ttatactatt tggaacaaaa ttatcttgat aaatatgccc tgtgcacagt
+     3781 actggccctc actgaatgtc acagagcctt aatatgcaaa atataacttc tgtttttttg
+     3841 aacatggtac tttaaaactc tccaaacatg cattaatata ttctagtttt agggaaaaat
+     3901 attacactta agtcttaact cgcattaaaa gaaaagcaca agcagaattt gacatacaat
+     3961 aat
+//
