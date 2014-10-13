@@ -1,4 +1,7 @@
-AmineReceptors
+amine_receptors
 ==============
 
-Project on Amine Receptor Phylogeny
+Project on Vertebrate bioamine receptor alignment and phylogeny. 
+Contact Stephanie at stephanie.spielman@gmail.com.
+
+
