@@ -13,8 +13,10 @@
 
 \keywords{biogenic amine receptors, phylogenetics, multiple sequence alignment, G-protein coupled receptors}
 
+
 \begin{abstract}
-Amine receptors are important, and alignments are really hard. Here, we make a really large and structurally aware alignment of these receptors and demonstrate its use in phylogenetic reconstruction. Phylogeny made with structural information is dramatically superior to alignment not specifically curated for structural consensus. We are also able to identify both misclassified and previously unclassified receptors. You should use our alignment to do whatever studies you want. 
+
+
 \end{abstract}
 
 \begin{document}
@@ -23,64 +25,66 @@ Amine receptors are important, and alignments are really hard. Here, we make a r
 \maketitle
 \thispagestyle{empty}
 
+\large{\textbf{TO DO FOR MS: COME UP WITH ALIGNMENT ACRONYMS!!!!!!}}
+
 \section*{Introduction}
 
-In spite of these receptors’ biological and clinical importance, studies on their evolution are limited. A broad phylogeny of all human GPCR paralogs has shown that HRHs belong to the clade of Rhodopsin family GPCRs, along with the other bioamine GPCRs (e.g. receptors for dopamine, serotonin, or adrenaline) (Fredriksson, Lagerstrom et al. 2003)
-Like all members of the GPCR family, HRHs contain seven transmembrane domains separated by three extracellular (ECL) and three intracellular (ICL) loops, and propagate intracellular signaling through a G protein-mediated pathway.  
+Biogenic amines, such as the molecules serotonin and dopamine, play critical roles in virtually all Metazoa taxa, exerting significant influence on both behavior and physiology particularly within the central nervous system. In Vertebrate species, their actions are mediated primarily through the biogenic amine receptor family, which includes dopamine (DRD), histamine (HRH), trace (TAAR), adrenergic (ADR), muscarinic cholinergic (mAChR), and most serotonin receptors (5HTR).  Biogenic amine receptors belong to the broad family of G protein-coupled receptors (GPCR), one of the largest and most diverse receptor families in eukaryota, and indeed Metazoa. Indeed, due to the extensive diversity of biological functions they direct and the ongoing expansion of their ligand repertoire, GPCRs are considered one of the most evolutionarily innovative and successful gene families \citep{BockaertPhillipe1999,Lagerstrom2008}.
 
-one of the most diverse membrane protein gene families in Metazoa, the G protein-coupled receptor (GPCR) family. GPCRs are the frequent targets of structural and biochemical studies; over 40\% of pharmaceuticals target GPCRs, and a multitude of diseases are caused by mutant GPCRs \citep{Dorsam2007,Schoneberg2004,Kristiansen2004,Fredriksson2003}. Phylogenetic analyses have shown that GPCRs form five main families, with the vast majority of human receptors belonging to the Rhodopsin-like (Family A) clade \citep{Fredriksson2003,Fredriksson2005}. Owing to their enormous diversity of biological functions and the ongoing expansion of their ligand repertoire, GPCRs have been described as one of the most evolutionarily successful gene families \citep{Bockaert1999,Lagerstrom2008}. Although protein sequences among, and indeed within, GPCR families are widely divergent, all GPCRs share a common structure characterized by a N-outside C-inside orientation with seven TM alpha helices spanning the plasma membrane, separated by three intracellular and three extracellular loops. 
+Biogenic amine receptors fall in to the Rhodopsin-like (family ``A'') GPCR family, which emerged as a distinct GPCR clade with the origins of the Opisthokont (Fungi and Metazoa) lineage \citep{Krishnan2012}. Subsequently, the Rhodopsin-like family underwent substantial expansion in Metazoa, most notably in Vertebrate lineages \citep{Rompleretal2007,Staubert2013}. Like all GPCRs, these receptors are highly structurally conserved, containing seven transmembrane (TM) domains separated by three extracellular (ECL) and three intracellular (ICL) loops with an N-outside C-inside orientation, and they propagate intracellular signaling through a G protein-mediated pathway. Biogenic amine receptors are frequent targets for a wide array of pharmaceuticals aimed to treat diseases such as schizophrenia, migraines, hypertension, allergies and asthma, and stomach ulcers \cite{Schoneberg2004,Everstal2005,Masonetal2012}.
 
-Here, we focus on one of the most pharmaceutically-relevant GPCR groups: the bioamine receptors. These receptors include dopaminergic, serotonin, histamine, trace, adrenergic, and cholinergic, and their various subtypes.
+In spite of these receptors' biological and clinical importance, studies on their evolution are relatively limited. Evolutionary studies which have focused on a biogenic amine receptors have predominantly been limited to single receptor subtypes, namely TAAR \citep{Gloriametal2005,Lindemann2005,Hashiguchi2007}, DRD \citep{Callieretal2012,Yamamotoetal2013}, and 5HTR \cite{Anbazhagan2010}. Moreover, many of these studies, and indeed larger-scale studies on the general evolution of the broad Rhodopsin-like GPCR family, have examined very narrow species distributions, for instance specifically teleosts \citep{Gloriametal2005}, primates \citep{Anbazhagan2010}, humans and mice \citep{Vassilatis2003,KakaralaJamil2014}, or even strictly humans \cite{Fredrikssonetal2003}. Therefore, studies which account for the full breadth of known bioamine receptor sequences as well as their broad species distributions 
 
-GPCRs accept a wide variety of ligands, both endogenous (e.g.\ hormones, amines, or ions) and exogenous (e.g.\ odorants), and facilitate signal transduction through a G protein mediated pathway \citep{Kristiansen2004,Lagerstrom2008,Rosenbaum2009}.
-Although some larger ligands do bind the extracellular portion of GPCRs, nearly all family A GPCRs, as well as many members of other GPCR families, bind ligands within their TM \citep{Vaidehi2002,Kristiansen2004,Bywater2005,Surgand2006,May2006,Park2008}. The notable expections to this trend are family C GPCRs, whose ligand-binding domains lie primarily in their extensive and diverse N-termini \citep{May2006,Park2008,Lagerstrom2008}. However, allosteric  modulators acting on all GPCR families bind within the TM. This commonality highlights the key role that the TM plays in the regulation of protein activity \citep{May2006,Lagerstrom2008}.
+This dearth of biogenic amine receptor-specific evolutionary understanding is underscored by the difficulties in establishing a robust multiple sequence alignment (MSA). Commonly used to identify conserved sequence motifs and functionally important residues as well as investigate the sequences' evolutionary history, MSAs provide the foundation for nearly all comparative sequence analyses. As MSA errors readily introduce bias these downstream analyses \citep{Ogden2006, Wong2008, Jordan2012}, it is crucial to ensure accuracy in the alignment to the extent possible. For GPCR sequences, in particular, any alignment should recapitulate their canonical 7TM structure, which a naive alignment of sequences cannot necessarily accomplish. While there are certain MSA software platforms which explicitly incorporate structural information into the alignment algorithm (e.g.\ 3DCoffe \citep{3dcoffee} and PROMALS3D \citep{promals3d}), these programs are fairly computationally-intensive and thus unwieldy (ill-suited?) for large-scale (over 1000 sequences) applications. Moreover, such programs require the use of a single crystal structure to guide sequence alignment. While all GPCRs have the same conserved 7TM domains, different GPCRs, and indeed the biogenic amine receptors, feature a wide variety of ICL and ECL sizes. For instance, the ECL3 lengths for human HRH1 and DRD3, respectively, are roughly 27 and 117, and their respective ICL3 lengths are 68 and 14 (as predicted by GPCRHMM \citep{Wistrand2006}). Thus, aligning with a single crystral structure will not effectively represent the domain variability across biogenic amine receptor subtypes. A desirable alignment strategy would ensure that all sequences are anchored by their conserved 7TM domains without inappropriately constraining the heterogeneous ECL and ICL domains.
 
-The TM domain is also a critical determinant of a GPCR's conformational state. Mutational studies have shown that altering specific residues in GPCR TM spans results in structural modifications that induce constitutive activity, regardless of ligand presence \citep{Spalding1998,Lu2000}. Maintaining the integrity of TM structure and sequence, then, is necessary for GPCRs to function properly.
+We therefore have adopted a novel iterative alignment strategy to create a large (3064 sequences), structurally-curated alignment of vertebrate biogenic amine receptors. In order to ensure proper structural alignment, we employed the software GPCRHMM \citep{Wistrand2006}, which uses a hidden markov model approach to assign each residue in a given GPCR sequence to its respective domain, either extracellular, transmembrane, or intracellular. Previously validated with real GPCR crystal structures \citep{SpielmanWilke2013}, GPCRHMM relies on the remarkably-conserved GPCR 7TM structure to predict GPCR domains with exceptional accuracy and without the use of a crystal structure. Our alignment strategy therefore ensured that all predicted 7TM domains aligned appropriately across all sequences. Importantly, this strategy did not require any manual or visual data inspection, thus removing any potentially confounding subjectivity. 
 
-
+We present this biogenic amine receptor MSA as a resource for any group interested in studying the dynamic evolutionary processes, structural, and/or functional constraints operating on this exceptionally important GPCR clade. Moreover, to demonstrate the utility of our alignment, we constructed a phylogeny of our receptors with this alignment as well as a naive alignment which did not undergo this iterative process. We found that our structurally-curated alignment offered dramatic improvements over a standard alignment, and thus we additionally report the most comprehensive and supported vertebrate biogenic amine receptor phylogeny to date. From this phylogeny, we are able to discern the relationships among receptor types with a far increased sensitivity than previous analyses. Even so, we are unable to fully resolve the deeper nodes in the phylogeny, revealing the capabilities and limitations of current-day phylogenetic methods.
 
 
-Alignments are really hard sometimes, and amine receptors are really important. Previous attempts to examine evolution of this family have fallen somewhat short. Efforts to make a phylogeny have been hampered by poor alignment quality and confounding signals of gene duplication. Some have tried to do syntenic analysis, but this sort of analysis can be misled by gene conversion and/or gene relocation. 
-Amine receptors are members of the Rhodopsin (A) family of GPCRs. Like all GPCRs, 7TMs. Loop sizes typically vary among GPCRs, but the 7TM anchors it in the membrane. This unique and highly conserved property allows us to align properly! If we can determine which domain each position is in, we can generate far more robust alignments which pay specific attention to structure. As GPCR structures are so deeply conserved, we don't even need a crystal structure, but we have a really good HMM program which has been validated on real structures (spielman2013). This strategy does not require time-consuming alignment softwares which make use of actual crystal structure data. these programs are very computationally intensive and, for an alignemnt of over 3000 sequences, are rather unwieldy. 
-
-
-We therefore provide a comprehensive, structurally-curated alignment of vertebrate amine receptors. All sequences in this alignment have been robustly verified as gpcrs. We present three versions of the alignment: naive (more sequences), an alignment for which sequences not properly aligned with domains have been culled (unreliable), and that last alignment, but where residues which do not agree with column consensus have been masked. Using these three MSAs, we create ML phylogenies, and show that ...
-
-Alignments and phylogenies are available at claus wilke's website, and we make all code available at github.
+Any large-scale study requires a robust sequence alignment to identify protein homology, and then can examine the overlap between receptor-specific trends and broader patterns which fall across all of these things. Furthermore, although biogenic amine receptors are relatively more straightforward to generate pharms for than other GPCRs, their therapeutics still suffer from a lack of complete specificty. Having a thorough understanding of the general patterns and rules governing this clade's sequence evolution, and indeed understanding the permissible amino acids at structurally important positions, may enable substantial progress in homology modeling and pharm development for these important receptors.
 
 
 \section*{Results}
 
-\subsection*{Sequence Collection and Processing}
-We collected sequences using PSIBLAST using 42 distinct human bioamine receptor seed sequences. Parameters for the PSIBLAST search were set as an e-value of $10^{-20}$, 5 iterations, and returned only sequences belonging to the refseq database. We discarded sequences with less than 25\% sequence identity to and/or a length difference above 50\% from the starting seed sequence. We additionally discarded sequences in which more than 1\% positions were ambiguous or which were annotated as either low-quality, pseudogene, and/or partial. Next, we employed the software GPCRHMM to determine more robustly whether each sequences was indeed a G-protein coupled receptor, and we discarded all sequences which were not unambiguously GPCRs, ultimately resulting in a final data set of 3464 sequences.
+\subsection*{Constructing MSAs for biogenic amine receptors}
+We collected all sequences using PSI-BLAST and filtered data to ensure a high-quality data set (see \emph{Methods} for details). We additionally retained only sequences which the program GPCRHMM unequivocally classified as a true GPCR sequence, leaving a total dataset of 3464 receptor sequences to align.
+
+Using the protein sequences for these 3464 receptors, we built an MSA according to the iterative strategy outlined in Figure~\ref{flowchart}. The resulting alignment, obtained after four iterations of this algorithm, contained a total of 3039 sequences. However, according to this algorithm, sequences in which up to 5\% of positions do not match the consensus domain are retained. Therefore, certain residues which lie at domain boundaries may be improperly aligned with regards to structure. Thus, we created a modified version of this structural alignment in which all residues whose GPCRHMM-assigned domain did not agree with its respective column's consensus domain were masked. In total, 2.69\% of all positions in the alignment were masked. We refer to the former MSA as the ``structural unmasked'' MSA and the latter as the ``structural masked'' MSA.
 
 
-\subsection*{Sequence Alignment}
- 
-At this stage, we adopted an alignment strategy to ensure that the overarching GPCR 7TM structure was maintained in the aligned sequences. We began by assigning, for each protein sequence, each protein residue to a particular domain: extracellular, intracellular, and transmembrane. In previous works, we predicted GPCR structures using GPCRHMM, and we found that, for Rhodopsin-type GPCRs, these predictions were completely accurate. Therefore, we again used it here to determine each residue's domain using a cutoff of 0.5 posterior probability. We then used the strategy shown in FigX to iteratively align and cull any sequences which did not conform to the overall structure. We ended up with 3039 total sequences. In addition to this alignment, we additionally created a domain-masked alignment, wherein any residues which did not match the column's consensus domain were masked with a '?'. This resulting alignment represents the largest and most well-curated vertebrate bioamine receptor, and indeed GCPR, alignment of ever.
+\subsection*{Masked structural alignment greatly improves phylogenetic inference}
+
+To demonstrate the utility of our bioamine receptor MSA, we constructed five distinct maximum likelihood (ML) bioamine receptor phylogenetic trees, as detailed in Table~\ref{tab:phylo_AIC}. 
+First, we built a phylogeny using an MSA, again built with MAFFT \citep{mafftv7}, comprised of the full set of 3464 receptors; in other words, this MSA was not subjected to the iterative process shown in Figure~\ref{flowchart} and was therefore not explicitly structurally-curated. We refer to this MSA as the ``naive'' MSA. We additionally constructed two phylogenies each from the structural masked and structural unmasked MSAs, such that one phylogeny contained two distinct partitions, and hence evolutionary models, for the TM and EM domains, whereas the other phylogeny had a single partition representing the whole sequence. As we have the structural info and we know that TM and EM evolve very differently with distinct base frequencies, we can get a way better tree. Typically, alignments are partitioned for phylogenetic analysis when multiple genes have been concatenated, or to allow for different evolutionary regimes at different codon positions. Here, we can partition based on structure!
+
+In general, having partitions was far superior to not having partitions, and the best tree based on AIC was clearly the SM tree, ultimately revealing the dramatic improvement that structurally-aware analyses provide.
 
 
-\subsection*{Phylogeny}
+\subsection*{Phylogeny allows insight into some, but not all, of the relationships}
+Here I should have a little paragraph for each clade. I should then have a final paragraph addressing what phylogenetics can and cannot accomplish. Cite that Morrison paper, and cite the
 
-
-To demonstrate the utility of this alignment, we created several phylogenies. 
-1. Regular alignment, no structurally curated (contains 3463 sequences)
-2. Curated alignment, unmasked. Two partitions.
-3. Curated alignment, unmaked. No parititions.
-4. Curated alignment, masked. Two parititions.
-5. Curated alignment, masked. No parititions.
-All were done with the LG+F AA exchangeability matrix.
+Missing data vs evolutionary event. Current phylo methods treat gaps simply as missing data and assume complete homology in columns. However, these are not missing data. The alignment was XXX long, but the longest GPCR is only YYY long. In reality, esp.\ given the duplication and neo/subfunctionalization inherent to GPCR evolution, domain sizes changes are key, and hence gaps should be evolutionarily meaningful and in fact understanding indel evolution is critical to understanding this gene family's evol. Other studies have attempted syntenic analyses based on hypothetical ancestral genomes, which has shown some promise. However, a more promising future avenue of research would carefully parse out how to treat gaps evolutionarily. Also can mention PRANK which using this indel info to construct far superior alignments relative to other methods, but that more development is clearly needed since PRANK incurs very ong runtimes and is thus ill-suited for an analysis of this scope. Also it's not a phylogenetic method.
 
 \section*{Conclusions}
 Please feel free to use our alignment for evolutionary analysis of amine receptors, GPCRs, transmembrane domains. Also have great use for identifying motifs, possible pharmaceutical application.
 
 
 
+\section*{Methods}
+
+\subsection*{Sequence Collection and Processing}
+We collected protein sequences using PSI-BLAST \citep{psiblast}, specifically from the RefSeq (v2\.2\.29+) database \citep{refseq}, for 42 distinct human biogenic amine receptor sequences representing the full range of known receptors in the human genome. PSI-BLAST parameters included 5 iterations, an e-value of $10^{-20}$, a sequence identity threshold of 25\%, and a length difference of 50\%. After combining all sequences recovered from the individual PSI-BLAST searches, we discarded duplicate sequences, leaving a total of 4232 PSI-BLAST results. We then filtered this sequence set by removing sequences from non-vertebrate taxa, sequences annotated as low-quality, pseudogene, and/or partial, and sequences which contained more than 1\% ambiguous (i.e.\ B, X, or Z) residues. We additionally removed any sequences that could not be robustly considered GPCRs. We used the program GPCRHMM \citep{Wistrand2006} to determine whether a given sequence was indeed a GPCR, and we discarded sequences which had either a local or global GPCRHMM score less than 10. Both of these thresholds are extremely conservative. Thus, while it is possible that some true GPCRs were discarded, these high thresholds for both local and global scores provide a very high confidence that all retained sequences were true GPCRs. Taken together, these filters left a total of 3464 receptor sequences.
 
 
+\subsection*{Sequence Alignment}
+Before aligning sequences, we used the program GPCRHMM \citep{Wistrand2006} to assign each residue in all protein sequences to its respective structural domain, extracellular, transmembrane, or intracellular. To ensure that all residues were assigned to a particular domain, we used a GPCRHMM posterior probability threshold of $0.5$ to determine each residue's domain. 
 
+As all GPCRs are comprised of precise and highly conserved structural domains, it is critical that any sequence alignment of GPCRs maintains this overall homologous structure. In particular, the 7 TM domains should properly align with one another, across all sequences. Unfortunately, current alignment methods which consider structural information, such as 3DCoffee \citep{3dcoffee} and PROMALS3D \citep{promals3d} are ill-suited for such large datasets. Therefore, we adopted a novel alignment strategy to ensure that the resulting alignment accuractely reflected the highly conserved overarching GPCR structure. We began by assigning, again using GPCRHMM \citep{Wistrand2006}, 
 
+Our alignment strategy, outlined in Figure~\ref{flowchart}, consisted of a series of alignment iterations. Within each iteration, we first obtained an alignment using MAFFT ( v7.149b) \cite{mafftv7}. Next, using the GPCRHMM-determined residue domains, we determined the consensus structural domain for each alignment column, and we discarded all sequences in which 5\% of columns did not match this consensus structure. We then realigned the remaining sequences, performing this strategy until no sequences were discarded.
 
+It took four iterations to achieve a stable alignment, consisting of a total of 3039 sequences. In addition to this final alignment, we additionally created a ``masked'' alignment, in which protein residues which did not conform to their respective consensus domains were replaced with a ``?'', thus effectively replacing these positions with an ambiguous character. Therefore, while the final alignment might contain a few improperly aligned residues, this issue is avoided in the masked alignment as each column contains strictly properly-aligned residues.  
 
 
 
@@ -94,22 +98,47 @@ Please feel free to use our alignment for evolutionary analysis of amine recepto
 
 Funded by NIH, army, probably.
 
-%\bibliography{sample}
+\bibliography{bibliography}
+
+
+\newpage
 
 
 \section*{Figures and Tables}
 
+\vspace{3cm}
 
 \begin{figure}[htbp]
-	\centerline{\includegraphics[width=18cm]{figures/masked_part_idraw.pdf}}
-	\caption{\label{phylogeny} Maximum likelihood phylogeny of Vertebrate bioamine receptors built using the ``masked partitions'' alignment in RAxML. Nodes with open circles indicate $\geq 50\%$ bootstrap support, and nodes with closed circles and thick lines indicate $\geq 90\%$ bootstrap support. Bioamine receptors are abbreciated as 5HTR, serotonin receptors; TAAR, trace amine-associated receptors; HRH, histamine receptors; mAChr, muscarinic acetylcholine receptors; ADR, adreneric receptors; and DRD, dopamine receptors.}
+	\centerline{\includegraphics[width=18cm]{figures/alignment_flowchart.pdf}}
+	\caption{\label{flowchart} Iterative alignment strategy to create a structurally-curated multiple sequence alignment. Starred sequence is consensus structure. I=inner, M=membrane, O=outer. Sequences were removed if $\geq 5\%$ of columns belonged to a different structural domain than the respective consensus domain.}
 \end{figure}
 
 
+\newpage
 
 
+\begin{figure}[htbp]
+	\centerline{\includegraphics[width=18cm]{figures/masked_part_phylogeny.pdf}}
+	\caption{\label{phylogeny} Maximum likelihood phylogeny of Vertebrate bioamine receptors built using the masked structural protein MSA alignment in RAxML. Nodes with open circles indicate $\geq 50\%$ bootstrap support, and nodes with closed circles and thick lines indicate $\geq 90\%$ bootstrap support. Bioaminergic receptors are abbreviated as 5HTR, serotonin receptors; TAAR, trace amine-associated receptors; HRH, histamine receptors; mAChr, muscarinic acetylcholine receptors; ADR, adreneric receptors; and DRD, dopamine receptors. The clade labeled ``Unknown'' could not be clearly identified as one of the major receptor types. Likely, this is a herp-specific gene...}
+\end{figure}
 
+\newpage
 
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{l c l l c}
+		\hline\noalign{\smallskip}
+		\multicolumn{1}{c}{Alignment} & \multicolumn{1}{c}{Partitions?} & \multicolumn{1}{c}{$\ln L$} & \multicolumn{1}{c}{k} & \multicolumn{1}{l}{$\Delta$AIC} \\
+		\hline\noalign{\smallskip}
+		Structural Masked & Yes & -505500.8 & 6115 & 0 \\
+		Structural Masked & No & -515991.7 & 6095 & 1752 \\  
+		Structural Unmasked & Yes & -515343.6 & 6115 & 19685 \\
+		Structural Unmasked & No & -515991.7 & 6095 & 20941 \\ 
+		Naive & No &  -589703.7 & 6945 & 170047 \\
+		\noalign{\smallskip}\hline\noalign{\smallskip} 
+	\end{tabular}
+	\caption{\label{tab:phylo_AIC} $\Delta$AIC scores relative to the best performing for phylogenies.  AIC is computed as AIC $= 2(k - \ln L)$, where $k$ is the number of free parameters of the model, and $\ln L$ is the log-likelihood \citep{Akaike1974,BurnhamAnderson2004}.}
+\end{table}
 
 
 \end{document}
