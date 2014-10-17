@@ -6,7 +6,7 @@ import os
 import re
 import sys
 from Bio import SeqIO
-base_directory = "/Users/sjspielman/Dropbox/GPCRs/Amine/"
+base_directory = "..."
 ncbi_directory = base_directory + "ncbi_records/"
 tree_directory = base_directory + "phylogenies/"
 
