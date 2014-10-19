@@ -6,9 +6,10 @@ import os
 import re
 import sys
 from Bio import SeqIO
-base_directory = "..."
+base_directory = "/Users/sjspielman/Research/amine_receptors/analysis/"
 ncbi_directory = base_directory + "ncbi_records/"
 tree_directory = base_directory + "phylogenies/"
+pred_directory = base_directory + "/predcouple_records/"
 
 
 amine_subtypes = {'DOPAMINE':             re.compile('.+(D\d|\dD).+'),
@@ -35,7 +36,28 @@ final_amine_names = {'DOPAMINE':            'dopa',
                      'unknown':             'unknown'
                     }
                  
-                
+  
+
+def get_gproteins(protid): 
+    with open(pred_directory + protid + ".txt", 'r') as file:
+            pred = file.read()
+
+    gprots = ""
+    num = 0
+    regexp = "<i>(G[\w//]+) - </i>\s+<strong><font color=\w+>(\d\.\d+)"
+    find_binding = re.findall(regexp, pred)
+    if len(find_binding) == 4:
+        for entry in find_binding:
+            if float(entry[1]) >= 0.75:
+                num += 1
+                gprots += str(entry[0]) + "_"
+    gprots = gprots[:-1]
+    if num > 1:
+        gprots += "!!!!"
+    if gprots == "":
+        gprots = "NONE"
+    return gprots
+              
 
 
 def rename_taxon(tree_string, index):
@@ -55,7 +77,7 @@ def rename_taxon(tree_string, index):
                 break
             except:
                 pass
-    new_name = fullid + '_' + final_amine_names[key] + '_' + subtype
+    new_name = fullid + '_' + final_amine_names[key] + '_' + subtype + '_' + get_gproteins(protid)
     new_index = index + len(fullid)
     return new_name, new_index
     
@@ -81,13 +103,14 @@ def rename_tree(infile, outfile):
     outf = open(outfile, 'w')
     outf.write(out_tree)
     outf.close()
+    
             
             
 def main():
-    assert(len(sys.argv) == 3), "Usage: python rename_tree.py <input_tree> <output_tree> . \nTree files are *assumed* to be in directory ~/Dropbox/Amine/GPCRs/phylogenies/ . "
+    assert(len(sys.argv) == 3), "Usage: python rename_tree.py <input_tree> <output_tree> . \nTree files are *assumed* to be in directory phylogenies/ . "
     in_tree_file  = tree_directory + sys.argv[1]
     out_tree_file = tree_directory + sys.argv[2]
-    assert(os.path.exists(in_tree_file)), "Your input tree file does not exist in ~/Dropbox/Amine/GPCRs/phylogenies/. Quitting."      
+    assert(os.path.exists(in_tree_file)), "Your input tree file does not exist. Quitting."      
     rename_tree(in_tree_file, out_tree_file)
 
 main()
