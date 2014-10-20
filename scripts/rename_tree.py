@@ -36,7 +36,8 @@ final_amine_names = {'DOPAMINE':            'dopa',
                      'unknown':             'unknown'
                     }
                  
-  
+
+ 
 
 def get_gproteins(protid): 
     with open(pred_directory + protid + ".txt", 'r') as file:
@@ -67,6 +68,7 @@ def rename_taxon(tree_string, index):
     fullid = find.group(1) + find.group(2)
     
     ncbi = SeqIO.read(ncbi_directory + protid + ".txt", "gb")
+    tax = "".join(ncbi.annotations["taxonomy"])
     desc = "fudgetext " + str(ncbi.description).upper().replace('(', '').replace(')','')
     subtype = 'unknown'; key = 'unknown';
     for type in amine_subtypes:
@@ -77,7 +79,9 @@ def rename_taxon(tree_string, index):
                 break
             except:
                 pass
-    new_name = fullid + '_' + final_amine_names[key] + '_' + subtype + '_' + get_gproteins(protid)
+    new_name = fullid + '_' + final_amine_names[key] + '_' + subtype + '_' + tax
+    if "CypriniformesCyprinidaeDanio" in tax:
+        print fullid, final_amine_names[key], subtype 
     new_index = index + len(fullid)
     return new_name, new_index
     
@@ -92,14 +96,14 @@ def rename_tree(infile, outfile):
     
     index = 0
     while index < treelen:
-        print index  #, out_tree
+        #print index  #, out_tree
         if tree_string[index] == 'X' or tree_string[index] == 'N':
             add_string, index = rename_taxon(tree_string[index:], index)
             out_tree += add_string
         else:
             out_tree += tree_string[index]
             index += 1    
-    
+    assert 1==4
     outf = open(outfile, 'w')
     outf.write(out_tree)
     outf.close()
