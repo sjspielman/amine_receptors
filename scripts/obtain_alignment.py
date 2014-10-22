@@ -124,10 +124,8 @@ def build_keep_list(struc_aln, numseq, num_aa):
     domain_index = 0
     consensus_domain = 0
     keep_list = np.zeros(numseq) # Each element is a row in the alignment. The resulting numbers represent how many columns in that sequence violate consensus.
-    count = 0
     for column in struc_aln.T:
-        count += 1
-        
+            
         # Determine the column consensus
         domain_index, consensus_domain = determine_consensus(numseq, column, domain_index, consensus_domain)
 
