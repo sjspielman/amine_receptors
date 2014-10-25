@@ -1,6 +1,6 @@
 README for amine_receptors/analysis/alignments subdirectory. 
 Contact Stephanie at stephanie.spielman@gmail.com with questions.
-----
+---
 
 ## Description of Contents
 _[NOTE: all MSAs were created using protein sequences and then back-translated with the raw nucleotide sequences to create nucleotide MSAs]_
