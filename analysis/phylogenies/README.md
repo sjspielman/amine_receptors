@@ -9,30 +9,51 @@ Contact Stephanie at stephanie.spielman@gmail.com with questions.
 _[NOTE: All phylogenies were created with RAxMLv8.1.1]_
 
 
-inferences/
-    1. RAxML_bestTree.inference_aln_part       ->  raxmlHPC-PTHREADS-SSE3 -T 16 -D -p 8561 -s protein_aln_consecpart.fasta -q partitions.txt -m PROTCATLGF -n inference_aln_part 
-    2. RAxML_bestTree.inference_aln_nopart     ->  raxmlHPC-PTHREADS-SSE3 -T 16 -D -p 32495 -s protein_aln_consecpart.fasta -m PROTCATLGF -n inference_aln_nopart 
-    3. RAxML_bestTree.inference_masked_part    ->  raxmlHPC-PTHREADS-SSE3 -T 16 -D -p 9419 -s protein_aln_masked_consecpart.fasta -q partitions.txt -m PROTCATLGF -n inference_masked_part
-    4. RAxML_bestTree.inference_masked_nopart  ->  raxmlHPC-PTHREADS-SSE3 -T 16 -D -p 15267 -s protein_aln_masked_consecpart.fasta -m PROTCATLGF -n inference_masked_nopart
-    5. RAxML_bestTree.inference_naive          ->  raxmlHPC-PTHREADS-SSE3 -T 16 -D -p 27674 -s protein_aln_naive.fasta -m PROTCATLGF -n inference_naive
-    
-bootstraps/
-    1. RAxML_bootstraps.aln_part       ->  raxmlHPC-PTHREADS-SSE3 -T 16 -p $RANDOM -x $RANDOM -# 200 -s protein_aln_consecpart.fasta -q partitions.txt -m PROTCATLGF -n aln_part
-    2. RAxML_bootstraps.aln_nopart     ->  raxmlHPC-PTHREADS-SSE3 -T 16 -p $RANDOM -x $RANDOM -# 200 -s protein_aln_consecpart.fasta -m PROTCATLGF -n aln_nopart
-    3. RAxML_bootstraps.masked_part    ->  raxmlHPC-PTHREADS-SSE3 -T 16 -p $RANDOM -x $RANDOM -# 200 -s protein_aln_masked_consecpart.fasta -q partitions.txt -m PROTCATLGF -n masked_part
-    4. RAxML_bootstraps.masked_nopart  ->  raxmlHPC-PTHREADS-SSE3 -T 16 -p $RANDOM -x $RANDOM -# 200 -s protein_aln_masked_consecpart.fasta -m PROTCATLGF -n masked_part
-    5. RAxML_bootstraps.naive          ->  raxmlHPC-PTHREADS-SSE3 -T 16 -p $RANDOM -x $RANDOM -# 200 -s protein_aln_naive.fasta -m PROTCATLGF -n naive
+__inferences/__ 
 
-final_trees/
-    Bootstrap values were added into phylogenies in "inferences/" by issuing this command for each:
-    raxmlHPC -m PROTCATLGF -f b -t <tree_file> -z <bootstrap_file> -n <final_file>
-    The resulting output file named RAxML_bipartitions.<final_file> is kept and renamed to the following- 
+Contains phylogeny inferences (without bootstrap values!), built with the commands given below.
 
-    1. aln_part.tre       (lnLik = -515343.618274, k_nobl = 40, k_bl = 6115, AIC = 1042917)
-    2. aln_nopart.tre     (lnLik = -515991.713700, k_nobl = 20, k_bl = 6095, AIC = 1044173)
-    3. masked_part.tre    (lnLik = -505500.846326, k_nobl = 40, k_bl = 6115, AIC = 1023232) ***
-    4. masked_nopart.tre  (lnLik = -506397.248192, k_nobl = 20, k_bl = 6095, AIC = 1024984)
-    5. naive.tre          (lnLik = -589703.683344, k_nobl = 20, k_bl = 6945, AIC = 1193279)
+1. *RAxML_bestTree.inference_naive* was built with the structurally-naive MSA.
+        raxmlHPC-PTHREADS-SSE3 -T 16 -D -p $RANDOM -s protein_struc_naive.fasta -m PROTCATLGF -n inference_naive
+2. *RAxML_bestTree.inference_struc_nopart* was built with the unmasked structurally-curated MSA, with a single partition.
+        raxmlHPC-PTHREADS-SSE3 -T 16 -D -p $RANDOM -s protein_struc_consecpart.fasta -m PROTCATLGF -n inference_struc_nopart 
+3. *RAxML_bestTree.inference_struc_part* was built with the unmasked structurally-curated MSA, with two partitions for TM and EM domains.
+        raxmlHPC-PTHREADS-SSE3 -T 16 -D -p $RANDOM -s protein_struc_consecpart.fasta -q partitions.txt -m PROTCATLGF -n inference_struc_part 
+4. *RAxML_bestTree.inference_masked_nopart* was built with the masked structurally-curated MSA, with a single partition.
+        raxmlHPC-PTHREADS-SSE3 -T 16 -D -p $RANDOM -s protein_struc_masked_consecpart.fasta -m PROTCATLGF -n inference_masked_nopart
+5. *RAxML_bestTree.inference_masked_part* was built with the masked structurally-curated MSA, with two partitions for TM and EM domains.
+        raxmlHPC-PTHREADS-SSE3 -T 16 -D -p $RANDOM -s protein_struc_masked_consecpart.fasta -q partitions.txt -m PROTCATLGF -n inference_masked_part
+
+
+__inferences/__ 
+
+Contains bootstrap trees, built with the commands given below.
+
+1. *RAxML_bootstraps.naive* was built with the structurally-naive MSA.
+        raxmlHPC-PTHREADS-SSE3 -T 16 -p $RANDOM -x $RANDOM -# 200 -s protein_struc_naive.fasta -m PROTCATLGF -n naive
+2. *RAxML_bootstraps.struc_nopart* was built with the unmasked structurally-curated MSA, with a single partition.
+        raxmlHPC-PTHREADS-SSE3 -T 16 -p $RANDOM -x $RANDOM -# 200 -s protein_struc_consecpart.fasta -m PROTCATLGF -n struc_nopart 
+3. *RAxML_bootstraps.struc_part* was built with the unmasked structurally-curated MSA, with two partitions for TM and EM domains.
+        raxmlHPC-PTHREADS-SSE3 -T 16 -p $RANDOM -x $RANDOM -# 200 -s protein_struc_consecpart.fasta -m PROTCATLGF -n struc_part 
+4. *RAxML_bootstraps.masked_nopart* was built with the masked structurally-curated MSA, with a single partition.
+        raxmlHPC-PTHREADS-SSE3 -T 16 -p $RANDOM -x $RANDOM -# 200 -s protein_struc_masked_consecpart.fasta -m PROTCATLGF -n masked_nopart 
+5. *RAxML_bootstraps.masked_part* was built with the masked structurally-curated MSA, with two partitions for TM and EM domains.
+        raxmlHPC-PTHREADS-SSE3 -T 16 -p $RANDOM -x $RANDOM -# 200 -s protein_struc_masked_consecpart.fasta -m PROTCATLGF -n masked_part 
+
+
+__final_trees/__
+
+Contains final phylogenetic inferences. Bootstraps were added onto each inference using the general command, 
+```
+raxmlHPC -m PROTCATLGF -f b -t <tree_file> -z <bootstrap_file> -n <final_file> 
+```
+The resulting output file named RAxML_bipartitions.<final_file> was retained and renamed to the following - 
+
+1. struc_part.tre
+2. struc_nopart.tre
+3. masked_part.tre
+4. masked_nopart.tre
+5. naive.tre
 
 
 __for_raxml/__    
