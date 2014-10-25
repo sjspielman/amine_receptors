@@ -1,13 +1,19 @@
-SJS, 10/2/14 - ??
+README for amine_receptors/analysis/phylogenies subdirectory. 
+Contact Stephanie at stephanie.spielman@gmail.com with questions.
 
+---
+
+
+
+## Description of Contents
+_[NOTE: All phylogenies were created with RAxMLv8.1.1]_
 All phylogenies were constructed in RAxML v8.0.26 using the PROTCATLGF (LG+F matrix with CAT model of heterogeneity), and the final tree is optimized under GAMMA.
 Computational resources were provided by the University of Texas at Austin's Center for Computational Biology and Bioinformatics "Phylocluster".
 
-for_raxml/
-    This directory contains the specific alignment and partition files used to make trees with RAxML.
-    For phylogenies which used partitions (EM/TM) - RAxML is only able to bootstrap appropriately if partitions are strictly consecutive in the alignment columns.
-    Thus, the alignment columns needed to be reordered such that there were only 2 consecutive partitions for TM and EM, rather than alternating (following GPCR structure).
-    *Importantly, reordering alignment columns has no bearing whatsoever on the phylogenetic analysis as all columns are treated independently.*
+for_raxml/    
+
+This directory contains the specific alignment and partition files used to make trees with RAxML. For phylogenies which used partitions (EM/TM) - RAxML is only able to bootstrap appropriately if partitions are strictly consecutive in the alignment columns. Thus, the alignment columns needed to be reordered such that there were only 2 consecutive partitions for TM and EM, rather than alternating (following GPCR structure).
+*Importantly, reordering alignment columns has no bearing whatsoever on the phylogenetic analysis as all columns are treated independently.*
 
 inferences/
     1. RAxML_bestTree.inference_aln_part       ->  raxmlHPC-PTHREADS-SSE3 -T 16 -D -p 8561 -s protein_aln_consecpart.fasta -q partitions.txt -m PROTCATLGF -n inference_aln_part 
