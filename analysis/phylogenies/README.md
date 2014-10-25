@@ -14,14 +14,19 @@ __inferences/__
 Contains phylogeny inferences (without bootstrap values!), built with the commands given below.
 
 1. *RAxML_bestTree.inference_naive* was built with the structurally-naive MSA.
+       
         raxmlHPC-PTHREADS-SSE3 -T 16 -D -p $RANDOM -s protein_struc_naive.fasta -m PROTCATLGF -n inference_naive
 2. *RAxML_bestTree.inference_struc_nopart* was built with the unmasked structurally-curated MSA, with a single partition.
+        
         raxmlHPC-PTHREADS-SSE3 -T 16 -D -p $RANDOM -s protein_struc_consecpart.fasta -m PROTCATLGF -n inference_struc_nopart 
 3. *RAxML_bestTree.inference_struc_part* was built with the unmasked structurally-curated MSA, with two partitions for TM and EM domains.
+        
         raxmlHPC-PTHREADS-SSE3 -T 16 -D -p $RANDOM -s protein_struc_consecpart.fasta -q partitions.txt -m PROTCATLGF -n inference_struc_part 
 4. *RAxML_bestTree.inference_masked_nopart* was built with the masked structurally-curated MSA, with a single partition.
+        
         raxmlHPC-PTHREADS-SSE3 -T 16 -D -p $RANDOM -s protein_struc_masked_consecpart.fasta -m PROTCATLGF -n inference_masked_nopart
 5. *RAxML_bestTree.inference_masked_part* was built with the masked structurally-curated MSA, with two partitions for TM and EM domains.
+        
         raxmlHPC-PTHREADS-SSE3 -T 16 -D -p $RANDOM -s protein_struc_masked_consecpart.fasta -q partitions.txt -m PROTCATLGF -n inference_masked_part
 
 
@@ -30,14 +35,19 @@ __inferences/__
 Contains bootstrap trees, built with the commands given below.
 
 1. *RAxML_bootstraps.naive* was built with the structurally-naive MSA.
+        
         raxmlHPC-PTHREADS-SSE3 -T 16 -p $RANDOM -x $RANDOM -# 200 -s protein_struc_naive.fasta -m PROTCATLGF -n naive
 2. *RAxML_bootstraps.struc_nopart* was built with the unmasked structurally-curated MSA, with a single partition.
+        
         raxmlHPC-PTHREADS-SSE3 -T 16 -p $RANDOM -x $RANDOM -# 200 -s protein_struc_consecpart.fasta -m PROTCATLGF -n struc_nopart 
 3. *RAxML_bootstraps.struc_part* was built with the unmasked structurally-curated MSA, with two partitions for TM and EM domains.
+        
         raxmlHPC-PTHREADS-SSE3 -T 16 -p $RANDOM -x $RANDOM -# 200 -s protein_struc_consecpart.fasta -m PROTCATLGF -n struc_part 
 4. *RAxML_bootstraps.masked_nopart* was built with the masked structurally-curated MSA, with a single partition.
+        
         raxmlHPC-PTHREADS-SSE3 -T 16 -p $RANDOM -x $RANDOM -# 200 -s protein_struc_masked_consecpart.fasta -m PROTCATLGF -n masked_nopart 
 5. *RAxML_bootstraps.masked_part* was built with the masked structurally-curated MSA, with two partitions for TM and EM domains.
+        
         raxmlHPC-PTHREADS-SSE3 -T 16 -p $RANDOM -x $RANDOM -# 200 -s protein_struc_masked_consecpart.fasta -m PROTCATLGF -n masked_part 
 
 
