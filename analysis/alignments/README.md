@@ -1,5 +1,6 @@
 README for amine_receptors/analysis/alignments subdirectory. 
 Contact Stephanie at stephanie.spielman@gmail.com with questions.
+
 ---
 
 ## Description of Contents
