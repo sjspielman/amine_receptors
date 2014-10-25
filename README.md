@@ -10,8 +10,7 @@ Contact Stephanie at stephanie.spielman@gmail.com with any questions.
 
 3. [ML partitioned-phylogeny](./analysis/phylogenies/final_trees/masked_part.tre) created with structurally-curated *unmasked* sequences, in newick format with branch lengths and bootstrap support.
 
-## Description of Contents ##
-- - - -
+## Description of Contents 
 __analysis/__
 Contains data (incl. sequences, alignments, phylogenies, sequence descriptions) used and generated during analysis pipeline. See README within for details.
 
