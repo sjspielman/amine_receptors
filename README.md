@@ -12,10 +12,8 @@ Contact Stephanie at stephanie.spielman@gmail.com with any questions.
 
 ## Description of Contents 
 __analysis/__
-
-Contains data (incl. sequences, alignments, phylogenies, sequence descriptions) used and generated during analysis pipeline. See README within for details.
+ * Contains data (incl. sequences, alignments, phylogenies, sequence descriptions) used and generated during analysis pipeline. See README within for details.
 
 __scripts/__
-
-Contains all code used during analysis pipeline. See README within for details.
+ * Contains all code used during analysis pipeline. See README within for details.
 
