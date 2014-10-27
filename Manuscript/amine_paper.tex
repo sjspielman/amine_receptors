@@ -3,13 +3,13 @@
 
 \author[1,2,3]{Stephanie J. Spielman}
 \author[1,2,3]{Keerthana Kumar}
-\author[4,5]{Ahmad R. Sedaghat}
 \author[1,2,3]{Claus O. Wilke}
 \affil[1]{Department of Integrative Biology, The University of Texas at Austin, Austin, U.S.A.}
 \affil[2]{Institute of Cellular and Molecular Biology, The University of Texas at Austin, Austin, U.S.A.}
 \affil[3]{Center for Computational Biology and Bioinformatics, The University of Texas at Austin, Austin, U.S.A.}
-\affil[4]{Department of Otolaryngology–Head and Neck Surgery, Massachusetts Eye and Ear Infirmary, Boston, Massachusetts, U.S.A.}
-\affil[5]{Department of Otology and Laryngology, Harvard Medical School, Boston, Massachusetts, U.S.A.}
+
+
+
 
 \keywords{biogenic amine receptors, G-protein coupled receptors, multiple sequence alignment, phylogenetics, protein evolution}
 
@@ -66,7 +66,7 @@ To demonstrate the utility of analyzing biogenic amine receptors data with a str
 
 As assessed by AIC scores, the structurally-curated masked MSA yielded a far superior phylogeny compared to all other MSAs (Table~\ref{tab:phylo_AIC}), highlighting the benefits of analyzing GPCRs in a structurally-aware context. That the masked structural MSA produced phylogenies with substantially better fits than did the unmasked MSA underscores that any structurally-aware study must be undertaken cautiously. While partitioning the MSA based on structural domains was clearly beneficial, ensuring that each MSA column strictly contained residues belonging to the same domain was critical. Having even a few TM residues in a column assigned to the EM partition, or vice versa, strongly hindered phylogenetic fit.
 
-The masked structural MSA's improved performance over the unmasked structural MSA additionally reveals some potential benefits to MSA filtering. Previous studies have advocated filtering putatively unreliable, as determined through MSA uncertainty measures or confidence scores, regions, columns, and/or residues to reduce error in downstream-analyses \citep{Castresana2000,Wu2012,Privman2012}. However, the utility of MSA filtering remains unclear; while some have argued that filtering improves analyses \citep{Talvera2007,Wu2012,Privman2012}, others have indicated that MSA filtering only marginally influences, or even harms, analyses \citep{Schloss2010,Jordan2012,SpielmanDawsonWilke2014}. Importantly, standard MSA filtering algorithms identify regions and/or residues to remove based on MSA uncertainty or confidence scores \citep{Castresana2000,Penn2010,Wu2012,Privman2012,SpielmanDawsonWilke2014}. 
+The masked structural MSA's improved performance over the unmasked structural MSA additionally reveals some potential benefits to MSA filtering. Previous studies have advocated filtering putatively unreliable, as determined through MSA uncertainty measures or confidence scores, regions, columns, and/or residues to reduce error in downstream-analyses \citep{Castresana2000,Wu2012,Privman2012}. However, the utility of MSA filtering remains unclear; while some have argued that filtering improves analyses \citep{Talavera2007,Wu2012,Privman2012}, others have indicated that MSA filtering only marginally influences, or even harms, analyses \citep{Schloss2010,Jordan2012,SpielmanDawsonWilke2014}. Importantly, standard MSA filtering algorithms identify regions and/or residues to remove based on MSA uncertainty or confidence scores \citep{Castresana2000,Penn2010,Wu2012,Privman2012,SpielmanDawsonWilke2014}. 
 
 Rather than using a standard filtering algorithm, we created our masked structural MSA by filtering residues based on biological information regarding protein structure. The resulting improvement in phylogenetic fit (Table~\ref{tab:phylo_AIC}) indicates that this masking approach effectively increased signal of structurally-homologous columns. Therefore, it appears as though residue masking based on biological information can strongly benefit phylogenetic analyses.
 
