@@ -1,16 +1,19 @@
-''' 
-SJS 9/6/14 - 9/8/14. 
-Provide two corresponding FASTA sequence files (protein, nucleotide) of GPCRs as well as their gpcrhmm records. 
-IMPORTANT: sequence files must use the same IDs for corresponding sequences. NO checking is done for this!!
-Yields the following files:
-1-2. <protein/nucleotide>_aln_naive.fasta  : Alignments simply created with mafft,       
-3-4. <protein/nucleotide>_aln.fasta        : Alignments where domains properly align,    
-5-6. <protein/nucleotide>_aln_masked.fasta : Alignments where domains properly align, but structurally ambiguous columns and residues which do not match the consensus column structure are masked, 
-7.  domain_alignment.fasta                 : "Alignment" where residues are replaced with domain tags O/I/M/A (outer, inner, membrane, ambiguous)
-8.  domain_consensus.txt                   : Simple string of the consensus domains 
+#! /usr/bin/env python
 
-Dependencies: biopython and numpy.
-'''
+##############################################################################
+## Script to obtain structurally-curated alignment of amine receptors.
+## Provide two corresponding FASTA sequence files (protein, nucleotide) of GPCRs as well as their gpcrhmm records. 
+## IMPORTANT: sequence files must use the same IDs for corresponding sequences. NO checking is done for this!!
+## Yields the following files:
+## 1-2. <protein/nucleotide>_aln_naive.fasta  : Alignments simply created with mafft,       
+## 3-4. <protein/nucleotide>_aln.fasta        : Alignments where domains properly align,    
+## 5-6. <protein/nucleotide>_aln_masked.fasta : Alignments where domains properly align, but structurally ambiguous columns and residues which do not match the consensus column structure are masked, 
+## 7.  domain_alignment.fasta                 : "Alignment" where residues are replaced with domain tags O/I/M/A (outer, inner, membrane, ambiguous)
+## 8.  domain_consensus.txt                   : Simple string of the consensus domains 
+##
+##
+##  Written by Stephanie J. Spielman (stephanie.spielman@gmail.com).
+##############################################################################
 
 
 
