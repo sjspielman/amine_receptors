@@ -17,3 +17,6 @@ __analysis/__
 __scripts/__
  * Contains all code used during analysis pipeline. See README within for details.
 
+__Manuscript/__
+ * Contains manuscript, figures, tables.
+
