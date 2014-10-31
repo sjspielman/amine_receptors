@@ -85,7 +85,7 @@ Furthermore, several lobe-finned fish (coelacanth) sequences are scattered acros
 In addition, a small clade sister to TAAR (labeled in Figures \ref{phylogeny} and \ref{taar_tree} as TAAR$^\ast$) strictly contains sequences annotated by NCBI as ``5HTR-4-like.'' At first glance, these annotations might suggest that 5HTR-4 is in fact paraphyletic, diversifying gradually before giving rise to TAARs. However, as all sequences in TAAR$^\ast$ belong taxonomically either to teleost or \emph{Xenopus tropicalis}, we suspect that this clade actually corresponds to the so-called TAAR-V cluster identified by \cite{Hashiguchi2007}. Indeed, the TAAR-V cluster contains a similar taxonomic distribution to our TAAR$^\ast$ and constitutes an outgroup to all other vertebrate TAAR sequences, as our phylogeny similarly displays.
 
 \subsection*{Phylogenetic methods alone do not suffice to infer the evolutionary history of biogenic amine receptors}
-Although we were able to identify several new features of biogenic amine receptor evolution, the majority of deeper splits in the phylogeny had very low bootstrap support. Therefore, many of the broader relationships among biogenic amine receptors remain unresolved, and this phylogeny alone is not sufficient for fully resolving the relationships among biogenic amine receptors. This result highlights the limitations of using a strictly phylogenetic approach to elucidate the complex evolutionary histories of expanding gene families. Indeed, modern phylogenetic inference methods are ill-suited for deducing such relationships, particularly because MSA gaps are treated simply as missing data. In reality, gaps represent the evolutionary events of insertion and deletions (indels). Current phylogenetic methods, however, focus solely on the substitution process and ignore the evolutionary information contained in gaps, ultimately hindering phylogenetic accuracy \citep{Morrison2008,Loytynoja2008,Warnow2012,Luanetal2013}. 
+Although we were able to identify several new features of biogenic amine receptor evolution, the majority of deeper splits in the phylogeny had very low bootstrap support, meaning that most of the broader relationships among biogenic amine receptors remain unresolved. This result highlights that a strictly phylogenetic approach cannot fully elucidate the complex evolutionary histories of expanding gene families. In particular, modern phylogenetic methods focus solely on the substutition process and treat MSA gaps simply as missing data. However, gaps actually represent the evolutionary events of insertion and deletions (indels), and some have suggested that ignoring this information ultimately hinders phylogenetic accuracy \citep{Morrison2008,Loytynoja2008,Warnow2012,Luanetal2013}. 
 
 This limitation is especially problematic for GPCRs. Following duplication events, GPCRs appear to experience major indel events in their ICL and/or ECL domains, leading to dramatic shifts in loop domain sizes during the sub/neofunctionalization process. Unfortunately, the evolutionary intermediates that existed during these domain transitions have long-since disappeared from genomes, and there is no obvious way to infer the sequences of these missing links. Although the substitution process is key for understanding GPCR evolution, fully classifiying relationships among GPCR families requires some understanding of how these radical domain changes occur. Therefore, additional approaches, such as syntenic analyses \citep{Sundstrom2010,Widmark2011,YegorovGood2012,Hwangetal2013}, combined with the phylogeny presented here should prove useful towards resolving the complete evolutionary history of vertebrate biogenic amine receptors. 
 
@@ -111,7 +111,7 @@ All phylogenies were created using RAxML v8.1.1 \citep{raxml} using the LG+F \ci
 
 
 \section*{Acknowledgments}
-This work was supported in part by NIH grant R01 GM088344, ARO grant W911NF-12-1-0390, DTRA grant HDTRA1-12-C-0007, and NSF Cooperative Agreement No. DBI-0939454 (BEACON Center).  Computational resources were provided by the University of Texas at Austin's Center for Computational Biology and Bioinformatics (CCBB). We would like to thank Ahmad R. Sedaghat, MD, PhD for suggesting amine-receptor evolution as a worthwhile study system.
+This work was supported in part by NIH grant R01 GM088344, ARO grant W911NF-12-1-0390, DTRA grant HDTRA1-12-C-0007, and NSF Cooperative Agreement No. DBI-0939454 (BEACON Center).  Computational resources were provided by the University of Texas at Austin's Center for Computational Biology and Bioinformatics (CCBB). We would like to thank Ahmad R. Sedaghat, MD, PhD for suggesting biogenic amine receptor evolution as a worthwhile study system.
 
 
 \bibliography{bibliography}
@@ -122,19 +122,9 @@ This work was supported in part by NIH grant R01 GM088344, ARO grant W911NF-12-1
 
 \section*{Figures and Tables}
 
-\vspace{2cm}
 
-\begin{figure}[htbp]
-	\centerline{\includegraphics[width=18cm]{figures/alignment_flowchart.pdf}}
-	\caption{\label{flowchart} Iterative alignment strategy to create a structurally-curated MSA of vertebrate biogenic amine receptors. A total of 3464 sequences were initially input (``Validated GPCR protein sequences''), and the final MSA contained 3039 protein sequences. Residues marked with ``I'' represent intracellular residues, those marked with ``M'' represent transmembrane residues, and those marked with ``E'' represent extracellular residues. MSA gaps were treated as missing data when determining each column's consensus structural domain. Sequenced were removed (``remove highly discordant sequences'') if $\geq 5\%$ of columns belonged to a different structural domain than the respective consensus domain.}
-\end{figure}
+\vspace*{5cm}
 
-\begin{figure}[htbp]
-	\centerline{\includegraphics[width=7cm]{figures/taxonomic_distribution.pdf}}
-	\caption{\label{taxa_dist} Cladogram of the taxonomic distribution of all sequences in the final structurally-curated MSA. All sequences belonged to the Euteleostomi clade of jawed vertebrates. Numbers in parentheses indicate the total number of sequences from the respective clade. We note that our MSA is particularly enriched for sequences from Eutherian (placental mammal) species, likely due to the stringent filters we applied to sequence collection that favored fully-sequenced genomes.}
-\end{figure}
-
-\bigskip
 
 \begin{table}[htbp]
 	\centering
@@ -155,14 +145,8 @@ This work was supported in part by NIH grant R01 GM088344, ARO grant W911NF-12-1
 \end{table}
 
 
-\newpage
 
-\begin{figure}[htbp]
-	\centerline{\includegraphics[width=7in]{figures/domains_naive_struc.png}}
-	\caption{\label{domains} Graphical representation of a subset of the naive and structurally-curated biogenic amine receptor MSAs. Each image displays 130 MSA rows focused specifically on the MSA section containing the seven TM domains. Dark blue represents predicted extracellular residues, red represents predicted TM residues, lighter blue represents predicted intracellular residues, and gray represents MSA gaps. The bottom bar below each MSA figure shows the consensus domain structure for each MSA. Note that all columns which contain only gaps in this subset of sequences have been removed from this figure for visual clarity.}
-\end{figure}
-
-\vspace*{5cm}
+\vspace*{3cm}
 
 \begin{table}[htbp]
 	\centering
@@ -225,10 +209,29 @@ This work was supported in part by NIH grant R01 GM088344, ARO grant W911NF-12-1
 	\caption{\label{tab:classif} Misannotated and uncharacterized sequences identified through phylogenetic analysis. Based on sequence placement in the structurally-curated phylogeny (Figure~\ref{phylogeny}) we propose updated classifications for 31 biogenic amine receptor sequences. The proposed classifications ``Unknown'' and ``TAAR$^\ast$'' refer to the corresponding clades in Figure~\ref{phylogeny}.}
 \end{table}
 
-
 \newpage
 
+\begin{figure}[htbp]
+	\centerline{\includegraphics[width=18cm]{figures/alignment_flowchart.pdf}}
+	\caption{\label{flowchart} Iterative alignment strategy to create a structurally-curated MSA of vertebrate biogenic amine receptors. A total of 3464 sequences were initially input (``Validated GPCR protein sequences''), and the final MSA contained 3039 protein sequences. Residues marked with ``I'' represent intracellular residues, those marked with ``M'' represent transmembrane residues, and those marked with ``E'' represent extracellular residues. MSA gaps were treated as missing data when determining each column's consensus structural domain. Sequenced were removed (``remove highly discordant sequences'') if $\geq 5\%$ of columns belonged to a different structural domain than the respective consensus domain.}
+\end{figure}
 
+
+
+\begin{figure}[htbp]
+	\centerline{\includegraphics[width=7cm]{figures/taxonomic_distribution.pdf}}
+	\caption{\label{taxa_dist} Cladogram of the taxonomic distribution of all sequences in the final structurally-curated MSA. All sequences belonged to the Euteleostomi clade of jawed vertebrates. Numbers in parentheses indicate the total number of sequences from the respective clade. We note that our MSA is particularly enriched for sequences from Eutherian (placental mammal) species, likely due to the stringent filters we applied to sequence collection that favored fully-sequenced genomes.}
+\end{figure}
+
+\vspace*{4cm}
+
+
+\begin{figure}[htbp]
+	\centerline{\includegraphics[width=7in]{figures/domains_naive_struc.png}}
+	\caption{\label{domains} Graphical representation of a subset of the naive and structurally-curated biogenic amine receptor MSAs. Each image displays 130 MSA rows focused specifically on the MSA section containing the seven TM domains. Dark blue represents predicted extracellular residues, red represents predicted TM residues, lighter blue represents predicted intracellular residues, and gray represents MSA gaps. The bottom bar below each MSA figure shows the consensus domain structure for each MSA. Note that all columns which contain only gaps in this subset of sequences have been removed from this figure for visual clarity.}
+\end{figure}
+
+\newpage
 
 \begin{figure}[htbp]
 	\centerline{\includegraphics[width=18cm]{figures/masked_part_phylogeny.pdf}}
