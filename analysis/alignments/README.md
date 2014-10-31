@@ -16,5 +16,5 @@ __structural__/
 Contains protein and nucleotide *structurally-curated* MSAs, in FASTA format. 
  1. __nucleotide_aln_struc.fasta__ and __protein_aln_struc.fasta__ contain *unmasked* nucleotide and protein MSAs, respectively.
  2. __nucleotide_aln_struc_masked.fasta__ and __protein_aln_struc_masked.fasta__ contain *masked* nucleotide and protein MSAs, respectively.
- 3. __domain_alignment.fasta__ contains the MSA in protein_aln_naive.fasta but all residues have been replaced with their respective GPCR domain (O = outer, i.e. extracellular, M = membrane, I = intracellular, A = ambiguous).
+ 3. __domain_alignment.fasta__ contains the MSA in protein_aln_struc.fasta but all residues have been replaced with their respective GPCR domain (O = outer, i.e. extracellular, M = membrane, I = intracellular, A = ambiguous).
  4. __domain_consensus.txt__ contains simply the string showing the structurally-curated MSA's consensus domain structure.
