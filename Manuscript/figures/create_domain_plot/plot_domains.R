@@ -38,5 +38,6 @@ draw_text("Site", x = 2420, y = -20, size = 28, fontface = "bold") +
 draw_text("Consensus", x = 2960, y = -7, size = 25, fontface = "bold")
 
 # Save!
-ggsave('../domains_naive_struc.pdf', p , width=25, height=10)
+#ggsave('../domains_naive_struc.pdf', p , width=25, height=10)
+ggsave('../domains_naive_struc.png', p , width=25, height=10)
 
