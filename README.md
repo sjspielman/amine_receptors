@@ -1,6 +1,6 @@
 amine_receptors
 ==============
-This repository accompanies the paper "Comprehensive, structurally-curated alignment and phylogeny of vertebrate biogenic amine receptors," by Spielman SJ, Kumar K, and Wilke CO. 
+This repository accompanies the paper [*Comprehensive, structurally-curated alignment and phylogeny of vertebrate biogenic amine receptors*](https://peerj.com/preprints/571/), by Spielman SJ, Kumar K, and Wilke CO. 
 Contact Stephanie at stephanie.spielman@gmail.com with any questions.
 
 ## Quick links!
