@@ -13,8 +13,8 @@ __ncbi_records/__
 
 __blast/__
  * Contains two output files from the PSI-BLAST search:
-  ** blast_ids_all.txt is a list of all ids returned, including duplicates
-  ** blast_ids_noduplicates.txt is a list of nonduplicate ids from blast_ids_all.txt 
+     * blast_ids_all.txt is a list of all ids returned, including duplicates
+     * blast_ids_noduplicates.txt is a list of nonduplicate ids from blast_ids_all.txt 
 
 __alignments/__
  * Contains all sequence alignments, as well as files describing consensus structural domains in those alignments. See README within for details.
