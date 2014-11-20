@@ -318,14 +318,15 @@ def main():
     gpcrhmm_directory      = sys.argv[3]
     if gpcrhmm_directory[-1] != "/":
         gpcrhmm_directory += "/" 
-    outfile_protein_naive  = "protein_aln_naive.fasta"
-    outfile_nuc_naive      = "nucleotide_aln_naive.fasta"
-    outfile_protein_masked = "protein_aln_masked.fasta"
-    outfile_nuc_masked     = "nucleotide_aln_masked.fasta"
-    outfile_protein        = "protein_aln.fasta"
-    outfile_nuc            = "nucleotide_aln.fasta"
-    outfile_domain_aln     = "domain_alignment.fasta"
-    outfile_cons_domains   = "domain_consensus.txt" 
+    outfile_protein_naive    = "protein_aln_naive.fasta"
+    outfile_nuc_naive        = "nucleotide_aln_naive.fasta"
+    outfile_protein_subnaive = "protein_aln_subnaive.fasta"
+    outfile_protein_masked   = "protein_aln_masked.fasta"
+    outfile_nuc_masked       = "nucleotide_aln_masked.fasta"
+    outfile_protein          = "protein_aln.fasta"
+    outfile_nuc              = "nucleotide_aln.fasta"
+    outfile_domain_aln       = "domain_alignment.fasta"
+    outfile_cons_domains     = "domain_consensus.txt" 
     mafft_out = "out.fasta"
     mafft_in  = "in.fasta"
     shutil.copy(infile_protein, mafft_in)
@@ -389,7 +390,7 @@ def main():
     
     
     print "\nCreating naive alignment subset (protein only!) for sequences retained in final curated alignment."
-    with open("sub_naive_prot.fasta", "w") as subnaivef:
+    with open(outfile_protein_subnaive, "w") as subnaivef:
         for record in naive_aln_obj:
             if str(record.id) in final_id_list:
                 subnaivef.write(">" + str(record.id) + "\n" + str(record.seq) + "\n")
