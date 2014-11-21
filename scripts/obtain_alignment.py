@@ -186,7 +186,6 @@ def save_nuc_struc_alns(prot_aln, nuc_infile, nuc_outfile, struc_aln, domain_out
         For each nucleotide sequence, determine if we will keep it. If so, convert it to the aligned version, using the protein alignment.
         We also save, in fasta format, the protein alignment in domain form.
         Note that input prot_aln is an object.
-        Return a list of the saved ids for later use in created a sub_naive alignment.
     '''
 
     raw_nuc = list(SeqIO.parse(nuc_infile, "fasta"))
@@ -196,7 +195,6 @@ def save_nuc_struc_alns(prot_aln, nuc_infile, nuc_outfile, struc_aln, domain_out
     i = 0
     for prot in prot_aln:
         id = str(prot.id)
-        saved_ids.append(id)
         prot_seq = str(prot.seq)
         struc_seq = "".join(map(str,struc_aln[i])).translate(TRANSLATOR)
         outfile_dom.write(">" + id + "\n" + struc_seq + "\n")
@@ -209,7 +207,6 @@ def save_nuc_struc_alns(prot_aln, nuc_infile, nuc_outfile, struc_aln, domain_out
         i += 1
     outfile_nuc.close()
     outfile_dom.close()
-    return saved_ids
 
 
 def pal2nal_seq(protseq, old_nucseq):
@@ -380,26 +377,14 @@ def main():
     
     print "\nFinished protein alignment after", num_iterations-1, "iteration(s). Now saving final protein, nucleotide, and domain alignment files."
     shutil.copy(mafft_out, outfile_protein)
-    final_id_list = save_nuc_struc_alns(prot_aln_obj, infile_nuc, outfile_nuc, struc_aln, outfile_domain_aln)
+    save_nuc_struc_alns(prot_aln_obj, infile_nuc, outfile_nuc, struc_aln, outfile_domain_aln)
     
     print "\nCreating masked nucleotide and protein alignment files."
     full_structure = mask_alignment(numseq, numcol, seq_domains, prot_aln_obj, outfile_nuc, outfile_protein_masked, outfile_nuc_masked)
     outf = open(outfile_cons_domains, "w")
     outf.write(full_structure.translate(TRANSLATOR))
     outf.close()
-    
-    
-    print "\nCreating naive alignment subset (protein only!) for sequences retained in final curated alignment."
-    with open(outfile_protein_subnaive, "w") as subnaivef:
-        for record in naive_aln_obj:
-            if str(record.id) in final_id_list:
-                subnaivef.write(">" + str(record.id) + "\n" + str(record.seq) + "\n")
-        
-    
-    
-    
-            
-    
+   
     os.remove(mafft_in)
     os.remove(mafft_out)
     
