@@ -1,4 +1,4 @@
-README for amine_receptors/analysis/phylogeny subdirectory. 
+README for amine_receptors/analysis/phylogenyg subdirectory. 
 Contact Stephanie at stephanie.spielman@gmail.com with questions.
 
 ---
@@ -30,5 +30,4 @@ raxmlHPC -m PROTCATLGF -f b -t RAxML_bestTree.inference_struc_masked_part -z RAx
 
 __for_raxml/__    
 
-This directory contains the specific alignment and partition files used to make trees with RAxML. These alignments' columns are *ordered differently* from the [released biogenic amine receptor alignments](../alignments/). In particular, these alignment columns have been reordered such that TM and EM partitions are consecutive. RAxML is only able to bootstrap appropriately if partitions are strictly consecutive in the alignment columns. Thus, the alignment columns needed to be reordered such that there were only 2 consecutive partitions for TM and EM, rather than alternating (following GPCR structure). *Importantly, reordering alignment columns has no bearing whatsoever on the phylogenetic analysis as all columns are treated independently.*
-
+This directory contains the specific alignment and partition files used to make trees with RAxML. This alignment's columns are *ordered differently* from the [released biogenic amine receptor alignments](../alignments/). In particular, columns have been reordered such that TM and EM partitions are consecutive as RAxML is only able to bootstrap appropriately if partitions are strictly consecutive.
