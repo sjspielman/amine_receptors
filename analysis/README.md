@@ -19,6 +19,6 @@ __blast/__
 __alignments/__
  * Contains all sequence alignments, as well as files describing consensus structural domains in those alignments. See README within for details.
 
-__phylogenies/__
- * Contains all phylogenetic inferences and bootstraps, as well as all RAxML-specific files. See README within for details.
+__phylogeny/__
+ * Contains phylogenetic inference (and bootstraps) for the HMM-informed masked protein alignment. See README within for details.
 
