@@ -1,4 +1,4 @@
-README for amine_receptors/analysis/phylogenies subdirectory. 
+README for amine_receptors/analysis/phylogeny subdirectory. 
 Contact Stephanie at stephanie.spielman@gmail.com with questions.
 
 ---
@@ -27,14 +27,6 @@ These files were generated with the command,
 ```
 raxmlHPC -m PROTCATLGF -f b -t RAxML_bestTree.inference_struc_masked_part -z RAxML_bootstraps.struc_masked_part -n struc_masked_part
 ```
-The resulting output file named RAxML_bipartitions.<final_file> was retained and renamed to the following - 
-
-1. struc_part.tre
-2. struc_nopart.tre
-3. masked_part.tre
-4. masked_nopart.tre
-5. naive.tre
-
 
 __for_raxml/__    
 
