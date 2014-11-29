@@ -8,8 +8,7 @@ import sys
 from Bio import SeqIO
 base_directory = "/Users/sjspielman/Research/amine_receptors/analysis/"
 ncbi_directory = base_directory + "ncbi_records/"
-tree_directory = base_directory + "phylogenies/"
-pred_directory = base_directory + "/predcouple_records/"
+tree_directory = base_directory + "phylogeny/"
 
 
 amine_subtypes = {'DOPAMINE':             re.compile('.+(D\d|\dD).+'),
@@ -36,28 +35,6 @@ final_amine_names = {'DOPAMINE':            'dopa',
                      'unknown':             'unknown'
                     }
                  
-
- 
-
-def get_gproteins(protid): 
-    with open(pred_directory + protid + ".txt", 'r') as file:
-            pred = file.read()
-
-    gprots = ""
-    num = 0
-    regexp = "<i>(G[\w//]+) - </i>\s+<strong><font color=\w+>(\d\.\d+)"
-    find_binding = re.findall(regexp, pred)
-    if len(find_binding) == 4:
-        for entry in find_binding:
-            if float(entry[1]) >= 0.75:
-                num += 1
-                gprots += str(entry[0]) + "_"
-    gprots = gprots[:-1]
-    if num > 1:
-        gprots += "!!!!"
-    if gprots == "":
-        gprots = "NONE"
-    return gprots
               
 
 
@@ -80,8 +57,8 @@ def rename_taxon(tree_string, index):
             except:
                 pass
     new_name = fullid + '_' + final_amine_names[key] + '_' + subtype + '_' + tax
-    if "CypriniformesCyprinidaeDanio" in tax:
-        print fullid, final_amine_names[key], subtype 
+    #if "CypriniformesCyprinidaeDanio" in tax:
+    #    print fullid, final_amine_names[key], subtype 
     new_index = index + len(fullid)
     return new_name, new_index
     
@@ -96,6 +73,7 @@ def rename_tree(infile, outfile):
     
     index = 0
     while index < treelen:
+        print index
         #print index  #, out_tree
         if tree_string[index] == 'X' or tree_string[index] == 'N':
             add_string, index = rename_taxon(tree_string[index:], index)
@@ -103,7 +81,6 @@ def rename_tree(infile, outfile):
         else:
             out_tree += tree_string[index]
             index += 1    
-    assert 1==4
     outf = open(outfile, 'w')
     outf.write(out_tree)
     outf.close()
@@ -111,7 +88,7 @@ def rename_tree(infile, outfile):
             
             
 def main():
-    assert(len(sys.argv) == 3), "Usage: python rename_tree.py <input_tree> <output_tree> . \nTree files are *assumed* to be in directory phylogenies/ . "
+    assert(len(sys.argv) == 3), "Usage: python rename_tree.py <input_tree> <output_tree> . \nTree files are *assumed* to be in directory phylogeny/ . "
     in_tree_file  = tree_directory + sys.argv[1]
     out_tree_file = tree_directory + sys.argv[2]
     assert(os.path.exists(in_tree_file)), "Your input tree file does not exist. Quitting."      
