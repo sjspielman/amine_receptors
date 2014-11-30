@@ -44,5 +44,5 @@ draw_text("Consensus", x = 3000, y = -7, size = 13, fontface = "bold") +
 draw_plot_label(c("A", "B"), c(-130, 1850), c(160, 160), size = 17)
 
 # Save!
-ggsave('../domains_naive_struc_half.png', p , width=12.5, height=5)
+ggsave('../domains_naive_struc.png', p , width=12.5, height=5)
 
