@@ -21,8 +21,8 @@ The script produced the final output files protein_records.fasta and nucleotide_
 This script was also run on Phylocluster, as GPCRHMM requires Linux.
 
 4. The protein_records.fasta sequences were then aligned using the script obtain_alignment.py . 
-This script performs the iterative process described in Fig.1 of the manuscript. It additionally uses the nucleotide records in nucleotide_records.fasta to convert all protein alignments to corresponding nucleotide versions.
+This script performs the iterative process described in Figure 3 of the manuscript. It additionally uses the nucleotide records in nucleotide_records.fasta to convert all protein alignments to corresponding nucleotide versions.
 All output files from this script, along with a description, can be found [here](../analysis/alignments/).
 
 ## Other
-The script rename_tree.py was used for post-processing the final phylogeny (mostly to make the figures). 
+The script rename_tree.py was used for post-processing (i.e. figure creation) of the final phylogeny.
