@@ -27,7 +27,7 @@ _[NOTE: Phylogenetic inference and bootstrapping with performed with RAxMLv8.1.1
         raxmlHPC-PTHREADS-SSE3 -T 16 -p $RANDOM -x $RANDOM -# 200 -s protein_struc_masked_consecpart.fasta -m PROTCATLGF -n struc_masked_nopart 
 
 
-The files *RAxML_bipartitions.struc_masked_<nopart/part>* and *RAxML_bipartitionsBranchLabels.struc_masked_<nopart/part>* contain the phylogeny *RAxML_bestTree.struc_masked_<nopart/part>* with bootstrap values incorporated.
+The files *RAxML_bipartitions.struc_masked_\<nopart/part\>* and *RAxML_bipartitionsBranchLabels.struc_masked_\<nopart/part\>* contain the phylogeny *RAxML_bestTree.struc_masked_\<nopart/part\>* with bootstrap values incorporated.
 These files were generated with the commands,
 ```
 raxmlHPC -m PROTCATLGF -f b -t RAxML_bestTree.struc_masked_part -z RAxML_bootstraps.struc_masked_part -n struc_masked_part
