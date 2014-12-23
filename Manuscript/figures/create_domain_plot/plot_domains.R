@@ -26,8 +26,8 @@ geom_rect(df_cons_n, mapping=aes(xmin=x1, xmax=x2, ymin=y1, ymax=y2, fill = t), 
 geom_rect(df_aln_s, mapping=aes(xmin=x1, xmax=x2, ymin=y1, ymax=y2, fill = t), linetype=0) + 
 geom_rect(df_cons_s, mapping=aes(xmin=x1, xmax=x2, ymin=y1, ymax=y2, fill = t), linetype=0) + 
 scale_fill_manual(values=palette) + theme_nothing() + 
-draw_text("Naive MSA", x = 880,  y = 155, size = 17, fontface = "bold") + 
-draw_text("Curated MSA", x = 2420, y = 155, size = 17, fontface = "bold") +
+draw_text("Naive MSA", x = 880,  y = 155, size = 15, fontface = "bold") + 
+draw_text("Structurally-Informed MSA", x = 2400, y = 155, size = 15, fontface = "bold") +
 geom_segment(aes(x = -30, y = 0, xend = -30, yend = 148), size = 0.75) +
 draw_text("1", x  = -50, y = 5, size = 13, fontface = "bold") + 
 draw_text("50", x  = -65, y = 55, size = 13, fontface = "bold") + 
@@ -41,7 +41,7 @@ draw_text("Sequence", angle = 90, x = -160, y = 75, size = 14, fontface = "bold"
 draw_text("Site", x = 900,  y = -20, size = 13, fontface = "bold") + 
 draw_text("Site", x = 2440, y = -20, size = 13, fontface = "bold") +
 draw_text("Consensus", x = 3000, y = -7, size = 13, fontface = "bold") + 
-draw_plot_label(c("A", "B"), c(-130, 1850), c(160, 160), size = 17)
+draw_plot_label(c("A", "B"), c(-130, 1850), c(155, 155), size = 14)
 
 # Save!
 ggsave('../domains_naive_struc.png', p , width=12.5, height=5)
