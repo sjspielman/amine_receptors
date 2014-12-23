@@ -26,8 +26,8 @@ geom_rect(df_cons_n, mapping=aes(xmin=x1, xmax=x2, ymin=y1, ymax=y2, fill = t), 
 geom_rect(df_aln_s, mapping=aes(xmin=x1, xmax=x2, ymin=y1, ymax=y2, fill = t), linetype=0) + 
 geom_rect(df_cons_s, mapping=aes(xmin=x1, xmax=x2, ymin=y1, ymax=y2, fill = t), linetype=0) + 
 scale_fill_manual(values=palette) + theme_nothing() + 
-draw_text("Naive MSA", x = 880,  y = 155, size = 15, fontface = "bold") + 
-draw_text("Structurally-Informed MSA", x = 2400, y = 155, size = 15, fontface = "bold") +
+draw_text("Structurally-naive MSA", x = 860,  y = 155, size = 15, fontface = "bold") + 
+draw_text("Structurally-informed MSA", x = 2400, y = 155, size = 15, fontface = "bold") +
 geom_segment(aes(x = -30, y = 0, xend = -30, yend = 148), size = 0.75) +
 draw_text("1", x  = -50, y = 5, size = 13, fontface = "bold") + 
 draw_text("50", x  = -65, y = 55, size = 13, fontface = "bold") + 
