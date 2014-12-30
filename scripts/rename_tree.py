@@ -99,6 +99,8 @@ def rename_taxon(tree_string, index, update):
             type = find.group(1)
         
         # Some single annoying ones..
+        if type == '5HT2':
+            type = 'HTR2'
         if type == 'ADB4':
             type = 'ADRB'
         if type == 'D1':
