@@ -46,7 +46,7 @@ def rename_taxon(tree_string, index, update):
     ncbi = SeqIO.read(ncbi_directory + protid + ".txt", "gb")
     
     if update and fullid in misannotated:
-        new_name = fullid + '-' + misannotated[fullid]
+        type = misannotated[fullid]
 
     else:
         for feat in ncbi.features:
@@ -98,16 +98,23 @@ def rename_taxon(tree_string, index, update):
         if find:
             type = find.group(1)
         
-        # one random adr looks this way
+        # Some single annoying ones..
         if type == 'ADB4':
             type = 'ADRB'
+        if type == 'D1':
+            type = 'DRD1'
+        if 'D2R' in type:
+            type = 'DRD2'
+        if type == 'DRD6' or type == 'DRD7':
+            type = 'DRD1'
+            
         ########################################
         
-        new_name = fullid + '_' + type
 
     # THIS LINE WILL BASICALLY WRITE THE SEQUENCE_DESCRIPTIONS.TXT FILE !!!
     print fullid + '\t' + type + '\t' + ".".join(ncbi.annotations["taxonomy"])#.replace("EukaryotaMetazoaChordataCraniataVertebrataEuteleostomi","")
     
+    new_name = fullid + '_' + type
     new_index = index + len(fullid)
     return new_name, new_index
     
