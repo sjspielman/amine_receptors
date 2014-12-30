@@ -47,7 +47,7 @@ def rename_taxon(tree_string, index, update):
     tax = ".".join(ncbi.annotations["taxonomy"])#.replace("EukaryotaMetazoaChordataCraniataVertebrataEuteleostomi","")
     
     if update and fullid in misannotated:
-        new_name = fullid + '\t' + misannotated[fullid]
+        new_name = fullid + '_' + misannotated[fullid]
 
     else:
         for feat in ncbi.features:
@@ -91,10 +91,10 @@ def rename_taxon(tree_string, index, update):
             type = find.group(1)
         ########################################
         
-        new_name = fullid + '\t' + type
+        new_name = fullid + '_' + type
         
-    new_name += '\t' + tax
-    print new_name
+    new_name += '_' + tax
+    #print new_name
     new_index = index + len(fullid)
     return new_name, new_index
     
