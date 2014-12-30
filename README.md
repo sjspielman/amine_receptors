@@ -12,6 +12,7 @@ Contact Stephanie at stephanie.spielman@gmail.com with any questions.
 
 4. [Description](./analysis/sequence_descriptions.txt) of all sequences in final structurally-informed alignment. This is a tab-delimited file containing the ProteinID/NucleotideID, gene, and taxonomy.
 
+5. [Alignments and phylogenies](./analysis/subclades/) for each primary biogenic amine receptors subclades. Created from the masked structurally-informed MSA and its corresponding partitioned ML phylogeny.
 
 ## Description of Contents 
 __analysis/__

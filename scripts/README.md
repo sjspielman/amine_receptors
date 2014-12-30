@@ -25,4 +25,5 @@ This script performs the iterative process described in Figure 3 of the manuscri
 All output files from this script, along with a description, can be found [here](../analysis/alignments/).
 
 ## Other
-The script rename_tree.py was used for post-processing (i.e. figure creation) of the final phylogeny.
+1. The script rename_tree.py was used for post-processing (i.e. figure creation) of the final phylogeny as well as to create the sequence_description.txt file
+2. The script create_subamine_alntree.py was used to create individual trees, alignments for each primary biogenic amine receptor amine subclade. Resulting trees, alignments are in analysis/subclades. Note that these alignments, trees were created from the masked structurally-informed alignment and its partitioned ML tree.
