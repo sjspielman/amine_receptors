@@ -42,18 +42,17 @@ def rename_taxon(tree_string, index, update):
     assert(find is not None), "Can't parse taxon name."
     protid = find.group(1)
     fullid = find.group(1) + find.group(2)
-
+    type = ''
     ncbi = SeqIO.read(ncbi_directory + protid + ".txt", "gb")
-    tax = ".".join(ncbi.annotations["taxonomy"])#.replace("EukaryotaMetazoaChordataCraniataVertebrataEuteleostomi","")
     
     if update and fullid in misannotated:
-        new_name = fullid + '_' + misannotated[fullid]
+        new_name = fullid + '-' + misannotated[fullid]
 
     else:
         for feat in ncbi.features:
             if feat.type == 'CDS':
                 type = feat.qualifiers['gene'][0].upper()
-          
+
         # grab info from description if gene poorly defined       
         if "LOC" in type or "SI" in type:
             desc = "fudgetext " + str(ncbi.description).upper().replace('(', '').replace(')','')
@@ -68,10 +67,24 @@ def rename_taxon(tree_string, index, update):
                         pass
             type = final_amine_names[key]+subtype
         
-        # final name
-        type = type.replace('_','').replace('-','').replace('DRDD', 'DRD')
+        # adrenergic receptors are noncanonically annotated in their description, so grab again from protein feature
+        if "ADR" in type:
+            for feat in ncbi.features:
+                if feat.type == "Protein":
+                    temp = feat.qualifiers['product'][0].upper()
+                    if "BETA" in temp:
+                         type = 'ADRB'
+                    else:
+                        find_adra = re.search('ALPHA[- ](\d)[A-Z]', temp)
+                        if find_adra:
+                            type = 'ADRA'+find_adra.group(1)
+
+    
         
-        ####### Some specific clean-ups ########
+        ####### type cleanups ########
+        # remove symbols
+        type = type.replace('_','').replace('-','')
+
         # drd-specific
         type = type.replace('DRDD', 'DRD')
         
@@ -85,16 +98,16 @@ def rename_taxon(tree_string, index, update):
         if find:
             type = find.group(1)
         
-        # adrb trailing numbers
-        find = re.search("(ADRB)\d+", type)
-        if find:
-            type = find.group(1)
+        # one random adr looks this way
+        if type == 'ADB4C':
+            type = 'ADRB'
         ########################################
         
         new_name = fullid + '_' + type
-        
-    new_name += '_' + tax
-    #print new_name
+
+    # THIS LINE WILL BASICALLY WRITE THE SEQUENCE_DESCRIPTIONS.TXT FILE !!!
+    print fullid + '\t' + type + '\t' + ".".join(ncbi.annotations["taxonomy"])#.replace("EukaryotaMetazoaChordataCraniataVertebrataEuteleostomi","")
+    
     new_index = index + len(fullid)
     return new_name, new_index
     
