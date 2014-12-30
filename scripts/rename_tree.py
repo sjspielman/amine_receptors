@@ -107,11 +107,14 @@ def rename_taxon(tree_string, index, update):
             type = 'DRD2'
         if type == 'DRD6' or type == 'DRD7':
             type = 'DRD1'
+        if type == 'MACHR2':
+            type = 'CHRM2'
             
         ########################################
         
 
     # THIS LINE WILL BASICALLY WRITE THE SEQUENCE_DESCRIPTIONS.TXT FILE !!!
+    #ProteinID_NucleotideID	Gene	Taxonomy
     print fullid + '\t' + type + '\t' + ".".join(ncbi.annotations["taxonomy"])#.replace("EukaryotaMetazoaChordataCraniataVertebrataEuteleostomi","")
     
     new_name = fullid + '_' + type
