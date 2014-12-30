@@ -99,7 +99,7 @@ def rename_taxon(tree_string, index, update):
             type = find.group(1)
         
         # one random adr looks this way
-        if type == 'ADB4C':
+        if type == 'ADB4':
             type = 'ADRB'
         ########################################
         
