@@ -10,6 +10,9 @@ Contact Stephanie at stephanie.spielman@gmail.com with any questions.
 
 3. [ML partitioned-phylogeny](./analysis/phylogeny/RAxML_bipartitions.struc_masked_part) created with structurally-informed *masked* alignment, in newick format with branch lengths and bootstrap support included.
 
+4. [Description](./analysis/sequence_descriptions.txt) of all sequences in final structurally-informed alignment. This is a tab-delimited file containing the ProteinID/NucleotideID, gene, and taxonomy.
+
+
 ## Description of Contents 
 __analysis/__
  * Contains data (incl. sequences, alignments, phylogenies, sequence descriptions) used and generated during analysis pipeline. See README within for details.
