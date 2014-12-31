@@ -6,7 +6,7 @@ Contact Stephanie at stephanie.spielman@gmail.com with questions.
 
 ## Description of Contents
 
-1. <subclade>_nuc.fasta and <subclade>_aa.fasta are nucleotide and protein, respectively, alignments from the maked structurally-informed alignment.
+1. \<subclade\>_nuc.fasta and <subclade>_aa.fasta are nucleotide and protein, respectively, alignments from the maked structurally-informed alignment.
 These alignments contain only those receptors in the respective <subclade>. Columns which are only gaps in these subclade alignments have been removed.
 
 2. <subclade>.tree contains the corresponding subclade from the structurally-partitioned ML phylogeny.
